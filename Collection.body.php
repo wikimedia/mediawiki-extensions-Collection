@@ -662,7 +662,7 @@ class SpecialCollection extends SpecialPage {
 	 * @return bool
 	 */
 	static function removeArticle( $title, $oldid = 0 ) {
-		if ( !CollectionSession::hasSession() ) {
+		if ( !CollectionSession::hasSession() || !$title ) {
 			return false;
 		}
 		$collection = CollectionSession::getCollection();
