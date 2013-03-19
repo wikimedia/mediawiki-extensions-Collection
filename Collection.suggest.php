@@ -436,7 +436,11 @@ class Proposals {
 			if ( is_null( $title ) || !$title->exists() ) {
 				continue;
 			}
-			$link = $this->resolveRedirects( $title )->getText();
+			$resolved = $this->resolveRedirects( $title );
+			if ( !$resolved ) {
+				continue;
+			}
+			$link = $resolved->getText();
 
 			if ( isset ( $linkmap[$link] ) ) {
 				$linkmap[$link][$link] = true;
