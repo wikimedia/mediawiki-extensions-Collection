@@ -262,13 +262,13 @@ class Proposals {
 	 *
 	 * @param $coll array the collection
 	 * @param $ban array the list of the banned articles
-	 * @param $props array the lilst of the proposals
+	 * @param $props array the list of the proposals
 	 */
 	public function __construct( $coll, $ban, $props ) {
 		$this->mPropList = array();
 		$this->mColl = $coll;
 		$this->mBanList = $ban;
-		$this->mLinkList = $props;
+		$this->mLinkList = is_array( $props ) ? $props : array();
 	}
 
 	/**
