@@ -161,7 +161,9 @@ class SpecialCollection extends SpecialPage {
 				return;
 			case 'add_category':
 				$title = Title::makeTitleSafe( NS_CATEGORY, $request->getVal( 'cattitle', '' ) );
-				if ( self::addCategory( $title ) ) {
+				if ( !$title ) {
+					return;
+				} elseif ( self::addCategory( $title ) ) {
 					self::limitExceeded();
 					return;
 				} else {
