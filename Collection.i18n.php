@@ -9286,9 +9286,15 @@ $messages['mhr'] = array(
 );
 
 /** Minangkabau (Baso Minangkabau)
+ * @author Iwan Novirion
  * @author Naval Scene
  */
 $messages['min'] = array(
+	'coll-desc' => '[[Special:Book|Buek buku]]',
+	'coll-book_creator_intro' => "<big>Jo ''pambuek buku'', Sanak dapek mambuek buku barisi laman wiki piliahan Sanak. Sanak dapek mangekspor buku dalam babagai format (misalnyo, PDF atau ODF) atau mamasan versi cetaknyo.</big>",
+	'coll-manage_your_book' => 'Pengelolaan buku',
+	'coll-book_creator_help' => 'Lihat [[{{MediaWiki:Coll-helppage}}|laman bantuan tantang buku]] untuak informasi salangkoknya.',
+	'coll-start_book_creator' => 'Mulai mambuek buku',
 	'coll-book_creator_continue' => 'Lanjuikan manggunoan pambuek buku',
 	'coll-collection' => 'Buku',
 	'coll-collections' => 'Buku',
@@ -11804,6 +11810,13 @@ A lista é atualizada toda vez que você clica nos botões adicionar ou remover.
 	'coll-format-okawix_zeno' => 'Okawix',
 	'right-collectionsaveasuserpage' => 'Salvar livros como página de usuário',
 	'right-collectionsaveascommunitypage' => 'Salvar livros como páginas comunitárias',
+);
+
+/** Quechua (Runa Simi)
+ * @author AlimanRuna
+ */
+$messages['qu'] = array(
+	'coll-update' => 'Musuqchay',
 );
 
 /** Romansh (rumantsch)

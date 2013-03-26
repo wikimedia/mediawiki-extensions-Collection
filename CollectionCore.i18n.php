@@ -2928,6 +2928,7 @@ $messages['mdf'] = array(
 );
 
 /** Minangkabau (Baso Minangkabau)
+ * @author Iwan Novirion
  * @author Naval Scene
  * @author SpartacksCompatriot
  * @author VoteITP
@@ -2942,10 +2943,30 @@ $messages['min'] = array(
 	'coll-disable' => '↓tutuik',
 	'coll-book_creator_disable' => 'Jan buliahan pambuekan buku',
 	'coll-book_creator_disable_tooltip' => 'Baranti manggunoan pambuek buku',
+	'coll-add_linked_article' => 'Tambahkan pautan laman wiki ka buku Sanak',
+	'coll-remove_linked_article' => 'Hapuih pautan laman wiki dari buku Sanak',
+	'coll-add_category' => 'Tambahkan kategori ko ka buku Sanak',
+	'coll-add_category_tooltip' => 'Tambahkan kasado laman wiki pado kategori ko pado buku Sanak',
+	'coll-add_this_page' => 'Tambahkan laman ko ka buku Sanak',
+	'coll-add_page_tooltip' => 'Tambahkan laman wiki nan iko ka buku Sanak',
 	'coll-bookscategory' => 'Buku',
 	'coll-clear_collection' => 'Hapuih buku',
+	'coll-clear_collection_confirm' => 'Sanak sabana nio manghapuih total isi buku Sanak?',
+	'coll-clear_collection_tooltip' => 'Hapuih kasado laman wiki pado buku Sanak ko',
 	'coll-help' => 'Bantuan',
-	'coll-helppage' => 'Bantuan:Buku', # Fuzzy
+	'coll-help_tooltip' => 'Tunjuakan bantuan pambuatan buku',
+	'coll-helppage' => 'Help:Buku',
+	'coll-load_collection' => 'Muek buku',
+	'coll-load_collection_tooltip' => 'Muek buku ko sabagai buku Sanak kini',
+	'coll-n_pages' => '$1 {{PLURAL:$1|laman}}',
+	'coll-printable_version_pdf' => 'Versi PDF',
+	'coll-remove_this_page' => 'Hapuih laman ko dari buku Sanak',
+	'coll-remove_page_tooltip' => 'Hapuih laman wiki kini ko dari buku Sanak',
+	'coll-show_collection' => 'Tunjuakan buku',
+	'coll-show_collection_tooltip' => 'Klik untuak manyuntiang/mangunduah/mamasan buku',
+	'coll-not_addable' => 'Laman ko indak dapek ditambahkan',
+	'coll-make_suggestions' => 'Sarankan laman',
+	'coll-make_suggestions_tooltip' => 'Caliak saran badasarkan laman pado buku Sanak',
 	'coll-suggest_empty' => 'kosong',
 );
 
