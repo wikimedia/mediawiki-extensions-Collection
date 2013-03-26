@@ -230,7 +230,7 @@ function wfAjaxPostCollection( $collection = '', $redirect = '' ) {
 		$title = SpecialPage::getTitleFor( 'Book' );
 		$redirecturl = wfExpandUrl( $title->getFullURL(), PROTO_CURRENT );
 		$r->setContentType( 'application/json' );
-		$r->addText( $json->encode( array( 'redirect_url' => $redirecturl ) ) );
+		$r->addText( FormatJson::encode( array( 'redirect_url' => $redirecturl ) ) );
 	}
 	return $r;
 }
