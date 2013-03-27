@@ -3492,7 +3492,7 @@ Ma nieşkenî pel de biker.',
 
 <p>Ena pele gani xo xo otomatik rocaniye biko.
 Eka ena nihebitiyeno, ma rica keno browser xo reyna ciwane bike</p>',
-	'coll-rendering_status' => 'strong>Statu:</strong> $1',
+	'coll-rendering_status' => 'strong>Weziyet:</strong> $1',
 	'coll-rendering_article' => '(pelê wîkîyî: $1)',
 	'coll-rendering_page' => '(pel: $1)',
 	'coll-rendering_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Enformasyonê nuştişê pele render keni',
@@ -3516,7 +3516,6 @@ Belki o dosya esteriyayo u gani reyna viraziyayo.',
 <a href="$1">Reyna Render bike.</a></li></ul>',
 	'coll-excluded-templates' => '* Şablonê ke ho ho caetegoriyê [[:Category:$1|$1]]î de înan de nikerd.',
 	'coll-blacklisted-templates' => '* Şablonê ke ho listeyê ma siyayî [[:$1]] de înan de nikerd.',
-	'coll-return_to_collection' => '<p>Reyna şi <a href="$1">$2</a></p>',
 	'coll-book_title' => 'Kitab çap bike u hind sipariş bike',
 	'coll-book_text' => 'Kitab xo partnerê ma ra biger.',
 	'coll-order_from_pp' => 'Verqayt be $1',
@@ -10320,6 +10319,7 @@ Listen oppdateres når du klikker på legg til- eller fjern-knappene.',
 );
 
 /** Low German (Plattdüütsch)
+ * @author Joachim Mos
  * @author Slomox
  */
 $messages['nds'] = array(
@@ -10408,7 +10408,6 @@ Henwiesen:
 	'coll-is_cached' => '<ul><li>Dat geev en twischenspiekert Version vun dat Dokument, nee Rendern weer nich nödig. <a href="$1">Nu nee rendern.</a></li></ul>',
 	'coll-excluded-templates' => '* Vörlagen ut de Kategorie [[:Category:$1|$1]] sünd utslaten bleven.',
 	'coll-blacklisted-templates' => '* Vörlagen vun de Swarte List [[:$1]] sünd utslaten bleven.',
-	'coll-return_to_collection' => '<p>Trüch na <a href="$1">$2</a></p>',
 	'coll-book_title' => 'As druckt Book bestellen',
 	'coll-book_text' => 'Bestell en druckt Book bi een vun uns Print-on-Demand-Partners:',
 	'coll-order_from_pp' => 'Book bestellen bi $1', # Fuzzy
@@ -10418,6 +10417,9 @@ Henwiesen:
 	'coll-license' => 'Lizenz',
 	'coll-return_to' => 'Trüch na [[:$1]]',
 	'coll-order_info_article' => '{{MediaWiki:Coll-helppage}}/PediaPress Bestellinformatschoon',
+	'coll-suggest_your_book' => 'Dien Book',
+	'coll-suggest_show' => 'wiesen',
+	'coll-suggest_undo' => 'rutnehmen',
 );
 
 /** Nedersaksies (Nedersaksies)

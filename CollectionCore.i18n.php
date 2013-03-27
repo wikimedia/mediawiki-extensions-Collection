@@ -3268,6 +3268,7 @@ $messages['nb'] = array(
 );
 
 /** Low German (Plattdüütsch)
+ * @author Joachim Mos
  * @author Slomox
  */
 $messages['nds'] = array(
@@ -3280,6 +3281,7 @@ $messages['nds'] = array(
 	'coll-clear_collection' => 'Book leddigmaken',
 	'coll-clear_collection_confirm' => 'Wullt du dien Book worraftig leddig maken?',
 	'coll-clear_collection_tooltip' => 'All Wikisieden ut dien Book rutnehmen',
+	'coll-help' => 'Hülp',
 	'coll-helppage' => 'Help:Böker',
 	'coll-load_collection' => 'Book laden',
 	'coll-load_collection_tooltip' => 'Dit Book as dien aktuell Book laden',
