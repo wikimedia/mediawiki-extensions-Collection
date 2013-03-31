@@ -1329,9 +1329,66 @@ Esta páxina nun funcionará correutamente si nun s'activa JavaScript.</strong>"
 	'coll-personal_collection_label' => 'Llibru personal:',
 	'coll-community_collection_label' => 'Llibru de la comunidá:',
 	'coll-save_collection' => 'Guardar llibru',
+	'coll-save_category' => 'Tolos llibros guardaos amiestense a la categoría [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]].',
+	'coll-overwrite_title' => 'La páxina yá existe.
+¿Quier sustituila?',
+	'coll-overwrite_text' => 'Yá existe una páxina col nome [[:$1]].
+Quier sustituila col so llibru?',
 	'coll-yes' => 'Sí',
 	'coll-no' => 'Non',
+	'coll-load_overwrite_text' => "Yá tien dalgunes páxines nel so llibru.
+¿Quier sobreescribir el so llibru actual, amestar el conteníu nuevu, o encaboxar la carga d'esti llibru?",
+	'coll-overwrite' => 'Sobreescribir',
+	'coll-append' => 'Amestar',
+	'coll-cancel' => 'Encaboxar',
+	'coll-update' => 'Anovar',
+	'coll-limit_exceeded_title' => 'Llibru demasiao grande',
+	'coll-limit_exceeded_text' => 'El so llibru ye demasiao grande.
+Nun puen amestase más páxines.',
+	'coll-rendering_title' => 'Renderización',
+	'coll-rendering_text' => '<p><strong>Por favor, espere mentanto se xenera\'l documentu.</strong></p>
+
+<p><strong>Progresu:</strong> <span id="renderingProgress">$1</span>% <span id="renderingStatus">$2</span></p>
+
+<p>Esta páxina tendría de refrescase automáticamente cada pocos segundos.
+Si nun lo fai, por favor, calque nel botón refrescar del navegador.</p>',
+	'coll-rendering_status' => '<strong>Estáu:</strong> $1',
+	'coll-rendering_article' => '(páxina wiki: $1)',
+	'coll-rendering_page' => '(páxina: $1)',
+	'coll-rendering_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Testu informativu sobro renderización de páxines',
+	'coll-rendering_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Testu informativu sobro renderización de coleiciones',
+	'coll-rendering_finished_title' => 'Acabó la renderización',
+	'coll-rendering_finished_text' => "<strong>Xeneróse'l ficheru del documentu.</strong>
+<strong>[$1 Descargue'l ficheru]</strong> al so ordenador.
+
+Notes:
+*¿Nun ta satisfechu col resultáu? Vea [[{{MediaWiki:Coll-helppage}}|la páxina d'ayuda sobro los llibros]] pa ver les posibilidaes d'ameyoralu.",
+	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Testu informativu sobro renderización de páxines',
+	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Testu informativu sobro renderización de coleiciones',
+	'coll-notfound_title' => "Nun s'alcontró'l llibru",
+	'coll-notfound_text' => "Nun s'alcontró la páxina del llibru.",
+	'coll-download_notfound_title' => "Nun s'alcontró el ficheru",
+	'coll-download_notfound_text' => 'El ficheru que ta intentando descargar nun existe: Seique desanicióse y necesita rexenerase.',
+	'coll-download_failed_title' => 'Error demientres la descarga',
+	'coll-download_failed_text' => 'Hebo un error al descargar el ficheru: $1',
 	'coll-about_pp' => 'Tocante a $1',
+	'coll-license' => 'Llicencia',
+	'coll-return_to' => 'Volver a [[:$1]]',
+	'coll-order_info_article' => '{{MediaWiki:Coll-helppage}}/Información sobro pidíos a PediaPress',
+	'coll-suggested_articles' => 'Suxerencies',
+	'coll-suggest_reset_bans' => 'reaniciar',
+	'coll-suggest_reset_bans_tooltip' => 'Amosar les suxerencies desaniciaes anteriormente',
+	'coll-suggest_add_selected' => 'Amestar les páxines seleicionaes',
+	'coll-suggest_ban_selected' => 'Desaniciar les páxines seleicionaes',
+	'coll-suggest_your_book' => 'El so llibru',
+	'coll-suggest_show' => 'amosar',
+	'coll-suggest_ban_tooltip' => 'Desaniciar esta páxina de la llista de suxerencies',
+	'coll-suggest_article_ban' => 'La páxina <strong>$1</strong> desanicióse de les suxerencies ($2).',
+	'coll-suggest_article_add' => 'La páxina <strong>$1</strong> amestóse al so llibru ($2).',
+	'coll-suggest_article_remove' => 'La páxina <strong>$1</strong> desanicióse del so llibru ($2).',
+	'coll-suggest_undo_tooltip' => 'Desfacer esta aición',
+	'coll-suggest_undo' => 'desfacer',
+	'coll-load_local_book' => 'Calque en OK pa siguir col so llibru %TITLE% que contien %NUMPAGES% páxines wiki. Calque en Cancel pa desanicialu y comenzar con un llibru baleru.',
 	'coll-format-rl' => 'e-book (PDF)',
 	'coll-format-epub' => 'e-book (EPUB)',
 	'coll-format-odf' => 'procesador de testu (OpenDocument)',
