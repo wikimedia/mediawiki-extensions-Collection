@@ -82,7 +82,16 @@ $messages['en'] = array(
 $messages['qqq'] = array(
 	'coll-print_export' => 'Caption of a frame in the toolbar (on the left-hand side of the screen), similar to {{msg-mw|toolbox}} or {{msg-mw|otherlanguages}}.
 {{Identical|Print/Export}}',
-	'coll-create_a_book' => '{{Identical|Books}}',
+	'coll-create_a_book' => 'Used as link text.
+
+The link points to the "Book creator" page.
+{{Identical|Books}}',
+	'coll-create_a_book_tooltip' => 'Used as tooltip for the link.
+
+The text of the link is {{msg-mw|Coll-create a book}}.',
+	'coll-book_creator' => 'Used as page title.
+
+Also used as heading in "Book creator box".',
 	'coll-download_as' => 'Used for two different purposes:
 # As link text in the toolbox in the side bar to download wiki pages in a specified file format (such as PDF). The link has {{msg-mw|coll-download as tooltip}} as tooltip.
 # As button text for the download button on [[Special:Book]] when there is only one file format. The button is next to the text of {{msg-mw|coll-download as text}}. (If there is a choice of file format {{msg-mw|coll-download}} together with {{msg-mw|coll-download text}} is used insted.)
@@ -90,19 +99,83 @@ $messages['qqq'] = array(
 In both cases $1 is a file format.
 
 {{Identical|Download}}',
-	'coll-download_as_tooltip' => '* $1 is some file format(s)',
-	'coll-disable' => 'Stop using the book creator',
-	'coll-bookscategory' => '{{Identical|Book}}',
-	'coll-clear_collection' => '',
-	'coll-clear_collection_confirm' => 'Message box when pressed "Clear book".',
-	'coll-help' => '{{Identical|Help}}',
+	'coll-download_as_tooltip' => 'Used as tooltip for the link. Its link text is {{msg-mw|Coll-download as}}.
+
+Parameters:
+* $1 - some file format(s)',
+	'coll-disable' => 'Used as link text.
+
+The tooltip for the link is {{msg-mw|Coll-book creator disable tooltip}}.
+
+The link points to [[Special:Book]].',
+	'coll-book_creator_disable' => '(1) Used as page title. The page body for this title is:
+* {{msg-mw|Coll-book creator disable text}}
+
+(2) Also used as label for the Submit button which follows the button {{msg-mw|Coll-book creator continue}}.
+
+(3) Also used as link text. The link enables to "Stop book creator".
+See also: {{msg-mw|Coll-create a book}}',
+	'coll-book_creator_disable_tooltip' => 'Used as tooltip for the link which points to [[Special:Book]].
+
+The text of the link is {{msg-mw|Coll-disable}}.',
+	'coll-add_linked_article' => 'Used in Ajax response.
+
+See also:
+* {{msg-mw|Coll-remove linked article}}',
+	'coll-remove_linked_article' => 'Used in Ajax response.
+
+See also:
+* {{msg-mw|Coll-add linked article}}',
+	'coll-add_category' => 'Used as action link text.
+
+The tooltip for the link is {{msg-mw|Coll-add category tooltip}}.',
+	'coll-add_category_tooltip' => 'Used as tooltip for the action link. Its link text is {{msg-mw|Coll-add category}}.',
+	'coll-add_this_page' => 'Used as action link text.
+
+The tooltip for the link is {{msg-mw|Coll-add page tooltip}}.',
+	'coll-add_page_tooltip' => 'Used as tooltip for the link. Its link text is {{msg-mw|Coll-add this page}}.',
+	'coll-bookscategory' => 'Used as category name (without "Category:" prefix).
+{{Identical|Book}}',
+	'coll-clear_collection' => 'Used as action link text.',
+	'coll-clear_collection_confirm' => 'Used as confirmation message when pressed a link. Its link text is {{msg-mw|Coll-clear collection}}.',
+	'coll-clear_collection_tooltip' => 'Used as tooltip for the link. Its link text is {{msg-mw|Coll-clear collection}}.',
+	'coll-help' => 'Used as link text.
+
+The tooltip for the link is {{msg-mw|Coll-help tooltip}}.
+{{Identical|Help}}',
+	'coll-help_tooltip' => 'Used as tooltip for the link. Its link text is {{msg-mw|Coll-help}}.',
 	'coll-helppage' => '{{doc-important|Do not translate "<code>Help:</code>".}}
 Used as a link to the help page for this extension\'s functionality on a wiki.
 {{Identical|Book}}',
-	'coll-n_pages' => '{{Identical|Page}}',
+	'coll-load_collection' => 'Used as page title.',
+	'coll-load_collection_tooltip' => 'Maybe used as tooltip for {{msg-mw|Coll-load collection}}.',
+	'coll-n_pages' => 'Parameters:
+* $1 - number of pages
+{{Identical|Page}}',
 	'coll-printable_version_pdf' => 'Caption of a link in the [[mw:Help:Navigation#Toolbox|toolbox]] leading to the PDF version of the current page',
+	'coll-remove_this_page' => 'Used as action link text.
+
+The tooltip for the link is {{msg-mw|Coll-remove page tooltip}}.',
+	'coll-remove_page_tooltip' => 'Used as tooltip for the link. Its link text is {{msg-mw|Coll-remove this page}}.',
+	'coll-show_collection' => "Used as '''bold''' message or as link text.
+
+The tooltip for the link is {{msg-mw|Coll-show collection tooltip}}.
+
+See also:
+* {{msg-mw|Coll-suggest show}}",
+	'coll-show_collection_tooltip' => 'Used as tooltip for the link. Its link text is {{msg-mw|Coll-show collection}}.
+
+Also used as tooltip for another link. Its link text is {{msg-mw|Coll-suggest show}}.',
+	'coll-not_addable' => 'This message follows "Disabled" image.',
+	'coll-make_suggestions' => 'Used as bold message or as link text.
+
+The tooltip for the link is {{msg-mw|Coll-make suggestions tooltip}}.',
+	'coll-make_suggestions_tooltip' => 'Used as tooltip for the link. Its link text is {{msg-mw|Coll-make suggestions}}.',
 	'coll-suggest_enabled' => '{{notranslate}}',
-	'coll-suggest_empty' => '{{Identical|Empty}}',
+	'coll-suggest_empty' => 'Used in list of the proposals/members.
+
+This message indicates that there are no items to show.
+{{Identical|Empty}}',
 	'coll-user_book_prefix' => '{{notranslate}}',
 	'coll-community_book_prefix' => '{{notranslate}}',
 );
@@ -2288,20 +2361,20 @@ $messages['ja'] = array(
 	'coll-create_a_book_tooltip' => 'ブックまたは記事集を作成する',
 	'coll-book_creator' => 'ブッククリエーター',
 	'coll-download_as' => '$1 形式でダウンロード',
-	'coll-download_as_tooltip' => 'このウィキページの$1版をダウンロード',
+	'coll-download_as_tooltip' => 'このウィキページの$1版をダウンロードする',
 	'coll-disable' => '無効化',
 	'coll-book_creator_disable' => 'ブッククリエーターを無効化',
 	'coll-book_creator_disable_tooltip' => 'ブッククリエーターの使用をやめる',
 	'coll-add_linked_article' => 'リンクされているウィキページをブックに追加',
-	'coll-remove_linked_article' => 'あなたの本からウィキページのリンクを削除',
+	'coll-remove_linked_article' => 'リンクされているウィキページを自分のブックから除去',
 	'coll-add_category' => 'このカテゴリを自分のブックに追加',
-	'coll-add_category_tooltip' => 'このカテゴリ内のすべてのページをあなたのブックに追加',
+	'coll-add_category_tooltip' => 'このカテゴリ内のすべてのページを自分のブックに追加する',
 	'coll-add_this_page' => 'このページを自分のブックに追加',
-	'coll-add_page_tooltip' => '現在のページをあなたのブックに追加',
+	'coll-add_page_tooltip' => '現在のページを自分のブックに追加する',
 	'coll-bookscategory' => 'ブック',
 	'coll-clear_collection' => 'ブックを消去',
 	'coll-clear_collection_confirm' => 'ブックを本当に完全に消去しますか?',
-	'coll-clear_collection_tooltip' => 'あなたの現在のブックからすべてのウィキページを削除',
+	'coll-clear_collection_tooltip' => '自分の現在のブックからすべてのウィキページを除去する',
 	'coll-help' => 'ヘルプ',
 	'coll-help_tooltip' => 'ブックの作成に関するヘルプを表示する',
 	'coll-helppage' => 'Help:ブック',
@@ -2309,10 +2382,10 @@ $messages['ja'] = array(
 	'coll-load_collection_tooltip' => 'このブックを読み込んで、自分の現在のブックにする',
 	'coll-n_pages' => '$1 {{PLURAL:$1|ページ}}',
 	'coll-printable_version_pdf' => 'PDF 版',
-	'coll-remove_this_page' => 'このページを自分のブックから削除する',
-	'coll-remove_page_tooltip' => '現在のページをあなたのブックから削除する',
+	'coll-remove_this_page' => 'このページを自分のブックから除去',
+	'coll-remove_page_tooltip' => '現在のページを自分のブックから除去する',
 	'coll-show_collection' => 'ブックを表示',
-	'coll-show_collection_tooltip' => 'クリックしてあなたのブックを編集、ダウンロード、または注文する',
+	'coll-show_collection_tooltip' => '自分のブックを編集、ダウンロード、注文する',
 	'coll-not_addable' => 'このページは追加できません',
 	'coll-make_suggestions' => 'ページの候補',
 	'coll-make_suggestions_tooltip' => 'ブック内のページに基づいて候補を表示する',

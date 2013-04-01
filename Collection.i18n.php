@@ -195,6 +195,9 @@ The list is updated whenever you click on the add or remove buttons.',
 $messages['qqq'] = array(
 	'coll-desc' => '{{desc|name=Collection|url=http://www.mediawiki.org/wiki/Extension:Collection}}',
 	'coll-manage_your_book' => 'Used as a title.',
+	'coll-book_creator_disable_text' => 'Used as page body.
+
+The page title for this message is {{msg-mw|Coll-book creator disable}}.',
 	'coll-collection' => '{{Identical|Book}}',
 	'coll-collections' => '{{Identical|Book}}',
 	'coll-exclusion_category_title' => 'The message text is the name of a category.',
@@ -285,7 +288,13 @@ Sub page of {{msg-mw|coll-helppage}} ({{int:coll-helppage}})
 The contents of this page appear in the "Order as a printed book" box on <nowiki>[[Special:Book]]</nowiki> when a user clicks on "Show more information" (i.e. it\'s hidden by default). The page contains general information on how to order a book from PediaPress. This can be seen e.g. on en.wp, when logged-in. The title of the sub-page "PediaPress order information" does not appear in the box, only the contents of the sub-page.',
 	'coll-suggest_reset_bans' => '{{Identical|Reset}}',
 	'coll-suggest_your_book' => '{{Identical|Book}}',
-	'coll-suggest_show' => '{{Identical|Show}}',
+	'coll-suggest_show' => 'Used as link text.
+
+The tooltip for the link is {{msg-mw|Coll-show collection tooltip}}.
+
+See also:
+* {{msg-mw|Coll-show collection}}
+{{Identical|Show}}',
 	'coll-suggest_article_ban' => 'Message shown when the user chose to remove a suggested page from the suggestions. Parameters:
 * $1 - the title of the removed page
 * $2 - a link captioned {{msg-mw|coll-suggest_undo}}',
@@ -1371,10 +1380,22 @@ Notes:
 	'coll-download_notfound_text' => 'El ficheru que ta intentando descargar nun existe: Seique desanicióse y necesita rexenerase.',
 	'coll-download_failed_title' => 'Error demientres la descarga',
 	'coll-download_failed_text' => 'Hebo un error al descargar el ficheru: $1',
+	'coll-is_cached' => '<ul><li>Atopóse una versión del documentu na caché, polo que non va ser necesario renderizalu. <a href="$1">Forzar la renderización.</a></li></ul>',
+	'coll-excluded-templates' => '* Excluyeronse les plantíes de la categoría [[:Category:$1|$1]].',
+	'coll-blacklisted-templates' => '* Excluyeronse les plantíes de la llista prieta [[:$1]].',
+	'coll-book_title' => 'Encargar como llibru impresu',
+	'coll-book_text' => "Recibalu como llibru impresu del nuesu sociu d'impresión baxo demanda.",
+	'coll-order_from_pp' => 'Previsualizar con $1',
 	'coll-about_pp' => 'Tocante a $1',
+	'coll-invalid_podpartner_title' => "Sociu d'impresión baxo demanda inválidu",
+	'coll-invalid_podpartner_msg' => "El sociu d'impresión baxo demanda indicáu ye inválidu.
+Pongase'n contautu col alministrador de MediaWiki.",
 	'coll-license' => 'Llicencia',
 	'coll-return_to' => 'Volver a [[:$1]]',
 	'coll-order_info_article' => '{{MediaWiki:Coll-helppage}}/Información sobro pidíos a PediaPress',
+	'coll-suggest_title' => 'Páxines suxeríes pal so llibru',
+	'coll-suggest_intro_text' => 'Les suxerencies basense nel conxuntu actual de páxines wiki del llibru.
+La llista anuevase siempre que calque nos botones amestar o desaniciar.',
 	'coll-suggested_articles' => 'Suxerencies',
 	'coll-suggest_reset_bans' => 'reaniciar',
 	'coll-suggest_reset_bans_tooltip' => 'Amosar les suxerencies desaniciaes anteriormente',
