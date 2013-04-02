@@ -841,6 +841,9 @@ class SpecialCollection extends SpecialPage {
 			}
 
 			$revision = Revision::newFromTitle( $articleTitle, $article->getOldID() );
+			if ( !$revision ) {
+				return null;
+			}
 			$latest = $article->getLatest();
 			$oldid = $article->getOldID();
 
