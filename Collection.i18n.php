@@ -172,7 +172,10 @@ The list is updated whenever you click on the add or remove buttons.',
 	'right-collectionsaveascommunitypage' => 'Save books as community page',
 );
 
-/** Message documentation (Message documentation)
+/** Message documentation (This is the name of the message documentation language code (qqq). Follow the rules of your languages and use small first letter if it doesn't capitalize language names always.
+
+It might be easier to translate it as "translation guidelines" or "translation help".
+{{Identical|Message documentation}})
  * @author Aleator
  * @author Aotake
  * @author Bennylin
@@ -7880,10 +7883,9 @@ $messages['ka'] = array(
 	'coll-is_cached' => '<ul><li>აღმოჩენილია ამ დოკუმენტის ქეშირებული ვერსია, რენდირება საჭირო არ გახდა.<a href="$1">რენდირების მაინც გაშვება.</a></li></ul>',
 	'coll-excluded-templates' => '* თარგები კატეგორიიდან [[:Category:$1|$1]] ამოღებული იქნენ.',
 	'coll-blacklisted-templates' => '* შავი სიის თარგები [[:$1]] ამოღებული იქნენ.',
-	'coll-return_to_collection' => '<p>დაბრუნება <a href="$1">$2</a></p>',
 	'coll-book_title' => 'დაბეჭდელი წიგნის შეკვეთა',
 	'coll-book_text' => 'ჩვენი პარტნიორისგან დაბეჭდილი წიგნის შეკვეთა:',
-	'coll-order_from_pp' => 'წინასწარ გადახედვა $1 მესვეობით',
+	'coll-order_from_pp' => 'წინასწარ გადახედვა $1 მეშვეობით',
 	'coll-about_pp' => '$1-ის შესახებ',
 	'coll-invalid_podpartner_title' => 'არასწორი POD პარნიორი.',
 	'coll-invalid_podpartner_msg' => 'მოცემული POD-პარტნიორი არასწორია.
