@@ -228,7 +228,7 @@ $messages['aeb'] = array(
  */
 $messages['af'] = array(
 	'coll-print_export' => 'Druk/eksporteer',
-	'coll-create_a_book' => "Skep 'n boek",
+	'coll-create_a_book' => 'Skep boek',
 	'coll-create_a_book_tooltip' => "Skep 'n boek of versameling van bladsye",
 	'coll-book_creator' => 'Boekmaker',
 	'coll-download_as' => 'Laai af as $1',
@@ -256,6 +256,7 @@ $messages['af'] = array(
 	'coll-remove_this_page' => 'Verwyder hierdie bladsy uit u boek',
 	'coll-remove_page_tooltip' => 'Verwyder die huidige wiki bladsy van jou boek',
 	'coll-show_collection' => 'Wys boek',
+	'coll-show_collection_tooltip' => 'Kliek om u boek te wysig/ af te laai/ te bestel',
 	'coll-not_addable' => 'Hierdie bladsy kan nie bygevoeg word nie',
 	'coll-make_suggestions' => 'Stel bladsye voor',
 	'coll-make_suggestions_tooltip' => 'Wys voorstelle wat gebaseer is op die bladsye in jou boek',
