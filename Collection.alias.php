@@ -28,7 +28,7 @@ $specialPageAliases['arz'] = array(
 	'Book' => array( 'كتاب', 'مجموعه' ),
 );
 
-/** Assamese (অসমীয়া) */
+/** Assamese (অসমীয়া) */
 $specialPageAliases['as'] = array(
 	'Book' => array( 'সংগ্ৰহ', 'গ্ৰন্থ' ),
 );
