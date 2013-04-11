@@ -8641,7 +8641,6 @@ Opjepaß:
 	'coll-is_cached' => '<ul><li>Mer han en Version fun dämm Dokkemänt em ZwescheShpeicher, et moot nit widder neu ußjejovve wääde. <a href="$1">Doch neu widder ußjevve.</a></li></ul>',
 	'coll-excluded-templates' => '* De Schablone us dä Saachjropp [[:Category:$1|$1]] wore ußjeschloße.',
 	'coll-blacklisted-templates' => '* Schabloone en de „Schwatze Leß“ ([[:$1]]) sin nit met dobei.',
-	'coll-return_to_collection' => '<p>Jangk Retur noh <a href="$1">$2</a></p>',
 	'coll-book_title' => 'Donn der Drock vun däm Booch beshtälle',
 	'coll-book_text' => 'Donn e Booch bestelle en de Dröckerei:',
 	'coll-order_from_pp' => 'Vör-Aansich vun däm Booch bei $1',
@@ -8649,7 +8648,7 @@ Opjepaß:
 	'coll-invalid_podpartner_title' => 'Verkeehte Aajabe zom Dröcke udder zor Dröckerei',
 	'coll-invalid_podpartner_msg' => 'De Aajabe zom Dröcke un wä dat maache sull sin verkeeht.
 Don dat enem Wikki-Köbes obb et Bruut schmiere.',
-	'coll-license' => 'Lizänz',
+	'coll-license' => 'Lėzänz',
 	'coll-return_to' => 'Jangk zerök noh [[:$1]]',
 	'coll-order_info_article' => '{{MediaWiki:Coll-helppage}}/Wie mer bei <i lang="en">PediaPress</i> beshtelle kann',
 	'coll-suggest_title' => 'Sigge-Vörshlähsch för Ding Booch',
