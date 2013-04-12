@@ -12942,9 +12942,94 @@ $messages['scn'] = array(
 
 /** Serbo-Croatian (srpskohrvatski / српскохрватски)
  * @author OC Ripper
+ * @author Wikiwind
  */
 $messages['sh'] = array(
+	'coll-desc' => '[[Special:Book|Napravi knjigu]]',
+	'coll-book_creator_intro' => "<big>S ''kreatorom knjiga'' možete stvoriti knjigu koja se sastoji od proizvoljnih wiki stranica. Možete izvesti odnosno snimiti svoju knjigu u različitim formatima (npr. PDF ili ODF) ili naručiti štampani primjerak.</big>",
+	'coll-manage_your_book' => 'Upravljanje Vašom knjigom',
+	'coll-book_creator_help' => 'Pogledajte [[{{MediaWiki:Coll-helppage}}|stranicu za pomoć o knjigama]] za više informacija.',
+	'coll-start_book_creator' => 'Pokrenite kreatora knjiga',
+	'coll-book_creator_continue' => 'Nastavi s upotrebom kreatora knjiga',
+	'coll-book_creator_disable_text' => "''Kreator knjiga'' će biti onemogućen, a knjiga na kojoj radite će biti obrisana.",
+	'coll-book_creator_text_article' => '{{MediaWiki:Coll-helppage}}/Tekst načina knjige',
+	'coll-collection' => 'Knjiga',
+	'coll-collections' => 'Knjige',
+	'coll-exclusion_category_title' => 'Izuzmi prilikom izvoza',
+	'coll-print_template_prefix' => 'Izvezi',
+	'coll-print_template_pattern' => '$1/Štampaj',
+	'coll-unknown_subpage_title' => 'Nepoznata podstranica',
+	'coll-unknown_subpage_text' => 'Ova podstranica [[Special:Book|knjige]] ne postoji',
+	'coll-couldnotaddarticle_title' => 'Nije bilo moguće dodati wiki stranicu',
+	'coll-couldnotaddarticle_msg' => 'Wiki stranica nije mogla biti dodana.',
+	'coll-couldnotremovearticle_title' => 'Nije bilo moguće ukloniti wiki stranicu',
+	'coll-couldnotremovearticle_msg' => 'Wiki stranica ne može biti uklonjena.',
+	'coll-noscript_text' => '<h1>Potreban je JavaScript!</h1>
+<strong>Vaš preglednik nema podršku za JavaScript ili je isključena. Ova stranica neće raditi ispravno, ako JavaScript nije omogućen.</strong>',
+	'coll-savedbook_template' => 'snimljena_knjiga',
+	'coll-your_book' => 'Vaša knjiga',
+	'coll-download_title' => 'Preuzmi',
+	'coll-download_text' => 'Za preuzimanje vaše knjige odaberite format i kliknite na dugme.',
+	'coll-download_as_text' => 'Za preuzimanje vaše knjige u $1 formatu kliknite na dugme.',
+	'coll-download' => 'Preuzmi',
+	'coll-format_label' => 'Format:',
+	'coll-remove' => 'Ukloni',
 	'coll-show' => 'Prikaži',
+	'coll-move_to_top' => 'Premjesti na vrh',
+	'coll-move_up' => 'Premjesti gore',
+	'coll-move_down' => 'Premjesti dole',
+	'coll-move_to_bottom' => 'Premjesti na dno',
+	'coll-title' => 'Naslov:',
+	'coll-subtitle' => 'Podnaslov:',
+	'coll-contents' => 'Sadržaj',
+	'coll-drag_and_drop' => 'Koristite "povuci i ostavi" za mijenjanje reda wiki stranica i poglavlja.',
+	'coll-create_chapter' => 'Napravi poglavlje',
+	'coll-sort_alphabetically' => 'Sortiraj abecedno',
+	'coll-rename' => 'Preimenuj',
+	'coll-new_chapter' => 'Upišite ime za novo poglavlje',
+	'coll-rename_chapter' => 'Upišite novo ime za poglavlje',
+	'coll-no_such_category' => 'Nema takve kategorije',
+	'coll-notitle_title' => 'Naslov stranice nije mogao biti određen',
+	'coll-post_failed_title' => 'POST zahtjev je neuspješan',
+	'coll-post_failed_msg' => 'POST zahtjev za $1 je neuspješan ($2).',
+	'coll-mwserve_failed_title' => 'Pogrješka na serveru za izvođenje zahtjeva',
+	'coll-mwserve_failed_msg' => 'Dogodila se pogrješka na serveru za izvođenje zahtjeva: <nowiki>$1</nowiki>',
+	'coll-error_reponse' => 'Pogrješka u odgovoru sa servera',
+	'coll-empty_collection' => 'Prazna knjiga',
+	'coll-revision' => 'Izmjena: $1',
+	'coll-save_collection_title' => 'Spremi i dijeli svoju knjigu',
+	'coll-save_collection_text' => 'Odaberite lokaciju za knjigu:',
+	'coll-login_to_save' => 'Ako želite sačuvati knjige za kasniju upotrebu, molimo [[Special:UserLogin|prijavite se ili napravite korisnički nalog]].',
+	'coll-personal_collection_label' => 'Lična knjiga:',
+	'coll-community_collection_label' => 'Zajednička knjiga:',
+	'coll-save_collection' => 'Spremi knjigu',
+	'coll-save_category' => 'Sve snimljene knjige dodane su u kategoriju [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]].',
+	'coll-overwrite_title' => 'Stranica postoji.
+Prepisati preko?',
+	'coll-overwrite_text' => 'Stranica s nazivom [[:$1]] već postoji.
+Želite li da bude zamijenjena s vašom knjigom?',
+	'coll-yes' => 'Da',
+	'coll-no' => 'Ne',
+	'coll-load_overwrite_text' => 'Već imate neke stranice u svojoj knjizi.
+Želite li obrisati stari i dodati novi sadržaj, samo dodati novi sadržaj ili zaustaviti učitavanje ove knjige?',
+	'coll-overwrite' => 'Dodati novi sadržaj preko starog',
+	'coll-append' => 'Nadodaj',
+	'coll-cancel' => 'Otkaži',
+	'coll-update' => 'Ažuriranje',
+	'coll-limit_exceeded_title' => 'Knjiga je prevelika',
+	'coll-limit_exceeded_text' => 'Vaša knjiga je prevelika.
+Nove stranice ne mogu biti dodane.',
+	'coll-rendering_title' => 'Izvođenje',
+	'coll-rendering_text' => '<p><strong>Molimo pričekajte dok se dokument izrađuje.</strong></p>
+
+<p><strong>Napredak:</strong> <span id="renderingProgress">$1</span>% <span id="renderingStatus">$2</span></p>
+
+<p>Ova stranice bi se trebala automatski osvježiti svakih par sekundi.
+Ako ovo ne radi, molimo pritisnite tipku za osvježavanje u svom pregledniku.</p>',
+	'coll-rendering_status' => '<strong>Stanje:</strong> $1',
+	'coll-rendering_article' => '(wiki stranica: $1)',
+	'coll-rendering_page' => '(stranica: $1)',
+	'coll-rendering_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Info tekst stranice za stvaranje knjige',
 );
 
 /** Sinhala (සිංහල)

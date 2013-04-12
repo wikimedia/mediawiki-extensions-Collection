@@ -4127,6 +4127,46 @@ $messages['scn'] = array(
 	'coll-suggest_empty' => 'vacanti',
 );
 
+/** Serbo-Croatian (srpskohrvatski / српскохрватски)
+ * @author Wikiwind
+ */
+$messages['sh'] = array(
+	'coll-print_export' => 'Ispis/извоз',
+	'coll-create_a_book' => 'Napravi knjigu',
+	'coll-create_a_book_tooltip' => 'Napravi knjigu ili kolekciju članaka',
+	'coll-book_creator' => 'Kreator knjiga',
+	'coll-download_as' => 'Preuzmi kao $1',
+	'coll-download_as_tooltip' => 'Preuzmi $1 inačicu ove wiki stranice',
+	'coll-disable' => 'onemogući',
+	'coll-book_creator_disable' => 'Onemogući alat za knjige',
+	'coll-book_creator_disable_tooltip' => 'Prestani koristiti alat za knjige',
+	'coll-add_linked_article' => 'Dodaj povezanu wiki stranicu u svoju knjigu',
+	'coll-remove_linked_article' => 'Ukloni povezanu wiki stranicu iz svoje knjige',
+	'coll-add_category' => 'Dodaj ovu kategoriju u svoju knjigu',
+	'coll-add_category_tooltip' => 'Dodaj sve stranice iz kategorije u svoju knjigu',
+	'coll-add_this_page' => 'Dodaj ovu stranicu u svoju knjigu',
+	'coll-add_page_tooltip' => 'Dodajte trenutačnu stranicu u svoju knjigu',
+	'coll-bookscategory' => 'Knjige',
+	'coll-clear_collection' => 'Očisti knjigu',
+	'coll-clear_collection_confirm' => 'Da li stvarno želite očistiti cijelu knjigu?',
+	'coll-clear_collection_tooltip' => 'Uklonite sve stranice iz vaše trenutne knjige',
+	'coll-help' => 'Pomoć',
+	'coll-help_tooltip' => 'Prikaži pomoć za stvaranje knjige',
+	'coll-helppage' => 'Help:Knjige',
+	'coll-load_collection' => 'Učitaj knjigu',
+	'coll-load_collection_tooltip' => 'Učitajte ovu knjigu kao svoju trenutačnu knjigu',
+	'coll-n_pages' => '$1 {{PLURAL:$1|stranica|stranice|stranica}}',
+	'coll-printable_version_pdf' => 'PDF verzija',
+	'coll-remove_this_page' => 'Ukloni ovu stranicu iz svoje knjige',
+	'coll-remove_page_tooltip' => 'Ukloni trenutnačnu stranicu iz svoje knjige',
+	'coll-show_collection' => 'Pokaži knjigu',
+	'coll-show_collection_tooltip' => 'Kliknite da biste uredili/preuzeli/naručili svoju knjigu',
+	'coll-not_addable' => 'Ova stranica ne može biti dodana',
+	'coll-make_suggestions' => 'Predloži stranice',
+	'coll-make_suggestions_tooltip' => 'Pokaži sugestije na temelju stranica u mojoj knjizi',
+	'coll-suggest_empty' => 'prazno',
+);
+
 /** Sinhala (සිංහල)
  * @author පසිඳු කාවින්ද
  */
