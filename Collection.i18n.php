@@ -3552,7 +3552,7 @@ Heta ti JavaScript a nike, ena pel hewl nihebitiyeno.</strong>',
 Sero binusi?',
 	'coll-overwrite_text' => 'Yew pel ser nameyê [[:$1]]î zatî esto.
 Ti wazeno ey kitab pê kitabê xo rê bivurne?',
-	'coll-yes' => 'E',
+	'coll-yes' => 'Eya',
 	'coll-no' => 'Nê',
 	'coll-load_overwrite_text' => 'Kitabê xo de zatî pelan esto. 
 Ti wazeno ser kitabê xo de binuse, kontendê newe ya zi bar kerdişê kitabî îptal bike?',
@@ -13030,6 +13030,57 @@ Ako ovo ne radi, molimo pritisnite tipku za osvježavanje u svom pregledniku.</p
 	'coll-rendering_article' => '(wiki stranica: $1)',
 	'coll-rendering_page' => '(stranica: $1)',
 	'coll-rendering_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Info tekst stranice za stvaranje knjige',
+	'coll-rendering_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Info tekst stranice za stvaranje knjige',
+	'coll-rendering_finished_title' => 'Izvođenje završeno',
+	'coll-rendering_finished_text' => '<strong>Datoteka dokumenta je stvorena.</strong>
+<strong>[$1 Preuzmite datoteku]</strong> na svoj kompjuter.
+
+Napomene:
+* Niste zadovoljni dobijenim rezultatom? Pogledajte [[{{MediaWiki:Coll-helppage}}|
+stranicu za pomoć o knjigama]] za mogućnosti njegovog poboljšanja.',
+	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Info tekst stranice za stvaranje knjige',
+	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Info tekst stranice za stvaranje knjige',
+	'coll-notfound_title' => 'Knjiga nije nađena',
+	'coll-notfound_text' => 'Ne mogu pronaći stranicu knjige.',
+	'coll-download_notfound_title' => 'Datoteka nije pronađena',
+	'coll-download_notfound_text' => 'Datoteka koju pokušavate preuzeti ne postoji: možda je obrisana i treba biti obnovljena.',
+	'coll-download_failed_title' => 'Greška tokom preuzimanja',
+	'coll-download_failed_text' => 'Došlo je do greške pri preuzimanju datoteke: $1',
+	'coll-is_cached' => '<ul><li>Pronađena je verzija datoteke u pričuvnoj memoriji, stoga izvođenje datoteke nije potrebno.
+<a href="$1">Zahtijevaj ponovno izvođenje.</a></li></ul>',
+	'coll-excluded-templates' => '* Šabloni u kategoriji [[:Category:$1|$1]] su ostali isključeni.',
+	'coll-blacklisted-templates' => '* Šabloni na crnoj listi [[:$1]] su ostali isključeni.',
+	'coll-book_title' => 'Naručite kao odštampanu knjigu',
+	'coll-book_text' => 'Naručite odštampanu knjigu od sledećih partnera za ispisivanje na zahtjev (POD):',
+	'coll-order_from_pp' => 'Pregledaj s $1',
+	'coll-about_pp' => 'O $1',
+	'coll-invalid_podpartner_title' => 'Neispravan POD partner',
+	'coll-invalid_podpartner_msg' => 'Ponuđeni POD partner nije ispravan.
+Molimo kontaktirajte svog MediaWiki administratora.',
+	'coll-license' => 'Licenca',
+	'coll-return_to' => 'Vrati se na [[:$1]]',
+	'coll-order_info_article' => '{{MediaWiki:Coll-helppage}}/informacije o narudžbi PediaPressa',
+	'coll-suggest_title' => 'Predložene stranice za vašu knjigu',
+	'coll-suggest_intro_text' => 'Prijedlozi se temelje na trenutnom skupu wiki stranica u vašoj knjizi.
+Popis se ažurira svaki put kada dodate ili uklonite neku stranicu.',
+	'coll-suggested_articles' => 'Prijedlozi',
+	'coll-suggest_reset_bans' => 'poništi',
+	'coll-suggest_reset_bans_tooltip' => 'Pokaži ranije uklonjene prijedloge',
+	'coll-suggest_add_selected' => 'Dodaj odabrane stranice',
+	'coll-suggest_ban_selected' => 'Ukloni odabrane stranice',
+	'coll-suggest_your_book' => 'Vaša knjiga',
+	'coll-suggest_show' => 'prikaži',
+	'coll-suggest_ban_tooltip' => 'Ukloni ovu stranicu sa spiska prijedloga',
+	'coll-suggest_article_ban' => 'Stranica <strong>$1</strong> je uklonjena sa spiska prijedloga ($2).',
+	'coll-suggest_article_add' => 'Stranica <strong>$1</strong> je dodana u vašu knjigu ($2).',
+	'coll-suggest_article_remove' => 'Stranica <strong>$1</strong> je uklonjena iz vaše knjige ($2).',
+	'coll-suggest_undo_tooltip' => 'Poništi zadnju akciju',
+	'coll-suggest_undo' => 'poništi',
+	'coll-load_local_book' => 'Kliknite OK da nastavite raditi na knjizi %NASLOV% koja sadrži %NUMPAGES% wiki stranica. Kliknite Odustani da biste ju izbrisali i počeli s praznom knjigom.',
+	'coll-format-rl' => 'e-knjiga (PDF)',
+	'coll-format-epub' => 'e-knjiga (EPUB)',
+	'right-collectionsaveasuserpage' => 'Spremi knjige kao korisničku stranicu',
+	'right-collectionsaveascommunitypage' => 'Spremi knjige kao stranicu zajednice',
 );
 
 /** Sinhala (සිංහල)
@@ -14051,7 +14102,7 @@ $messages['sw'] = array(
 	'coll-revision' => 'Pitio la $1',
 	'coll-save_collection' => 'Hifadhi kitabu',
 	'coll-yes' => 'Ndiyo',
-	'coll-no' => 'Siyo',
+	'coll-no' => 'Hapana',
 	'coll-cancel' => 'Batilisha',
 	'coll-update' => 'Sasisha',
 	'coll-limit_exceeded_title' => 'Kitabu ni kubwa mno',
