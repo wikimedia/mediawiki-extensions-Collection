@@ -12205,6 +12205,7 @@ Această listă este actualizată de fiecare dată când apăsați butoanele de 
  */
 $messages['roa-tara'] = array(
 	'coll-desc' => '[[Special:Book|Ccreje le libbre]]',
+	'coll-book_creator_intro' => "<big>Cu 'u ''ccrejatore de libbre'' tu puè ccrejà 'nu libbre ca tène pàggene de uicchi ca scacchie tu. Tu puè esportà 'u libbre jndr'à formate diverse (pe esembie PDF o ODF) o fà 'na copie stambate.</big>",
 	'coll-manage_your_book' => "Gestisce 'u libbre tune",
 	'coll-book_creator_help' => "'Ndruche [[{{MediaWiki:Coll-helppage}}|'a pàgene de aijute sus a le libbre]] pe cchiù 'mbormaziune.",
 	'coll-start_book_creator' => "Accuminze 'nu crijatore de libbre",
@@ -12249,6 +12250,7 @@ $messages['roa-tara'] = array(
 	'coll-post_failed_title' => 'Richieste de POST fallite',
 	'coll-post_failed_msg' => "'A richieste de POST a $1 ha fallite ($2).",
 	'coll-mwserve_failed_title' => 'Server de rendere in errore',
+	'coll-mwserve_failed_msg' => "S'ha verificate 'n'errore sus a 'u server de presendazione: <nowiki>$1</nowiki>",
 	'coll-error_reponse' => "Resposte cu l'errore da 'u server",
 	'coll-empty_collection' => 'Libbre vacande',
 	'coll-revision' => 'Revisione: $1',
