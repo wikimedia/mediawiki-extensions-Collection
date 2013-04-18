@@ -8369,7 +8369,7 @@ $messages['kn'] = array(
  * @author 아라
  */
 $messages['ko'] = array(
-	'coll-desc' => '[[Special:Book|책 만들기]]',
+	'coll-desc' => '[[Special:Book|책을 만듭니다]]',
 	'coll-book_creator_intro' => "<big>''책 생성기''로 선택에 따라 위키 문서를 담은 책을 생성할 수 있습니다.  다른 포맷(PDF 또는 ODF)으로 책을 내보낼 수 있으며 인쇄된 책을 주문할 수도 있습니다.</big>",
 	'coll-manage_your_book' => '책 관리하기',
 	'coll-book_creator_help' => '자세한 정보에 대해서는 [[{{MediaWiki:Coll-helppage}}|책에 대한 도움말]]을 참고하십시오.',
@@ -8471,7 +8471,6 @@ $messages['ko'] = array(
 	'coll-is_cached' => '<ul><li>이 문서의 캐시된 버전이 발견되었습니다. 따라서 다시 렌더링하지 않으셔도 됩니다. <a href="$1">다시 렌더링하기</a></li></ul>',
 	'coll-excluded-templates' => '* [[:Category:$1|$1]] 분류에 속한 틀은 제외되었습니다.',
 	'coll-blacklisted-templates' => '* 틀 블랙리스트 [[:$1]]에 있는 틀은 제외되었습니다.',
-	'coll-return_to_collection' => '<p><a href="$1">$2</a>(으)로 돌아갑니다.</p>',
 	'coll-book_title' => '인쇄된 책으로 주문',
 	'coll-book_text' => '인쇄 협력자를 통해 책을 인쇄합니다.',
 	'coll-order_from_pp' => '$1에서 책 미리 보기',
