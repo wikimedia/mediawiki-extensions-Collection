@@ -236,6 +236,7 @@ The page title for this message is {{msg-mw|Coll-book creator disable}}.',
 {{Identical|Yes}}',
 	'coll-no' => 'This is a label on a submit button. The related question is in the message {{msg-mw|Coll-overwrite_text}}.
 {{Identical|No}}',
+	'coll-overwrite' => '{{Identical|Overwrite}}',
 	'coll-append' => '{{Identical|Append}}',
 	'coll-cancel' => '{{Identical|Cancel}}',
 	'coll-update' => '{{Identical|Update}}',
@@ -2783,12 +2784,13 @@ La llista s'actualitza cada vegada que feu clic als botons d'afegir o treure.",
 
 /** Chechen (нохчийн)
  * @author Sasan700
+ * @author Умар
  */
 $messages['ce'] = array(
 	'coll-collections' => 'Жайнаш',
 	'coll-couldnotaddarticle_msg' => 'Хlара яззам чутоьхна хила цамега.',
 	'coll-couldnotremovearticle_msg' => 'Хlара яззам дlабайина хила цамега.',
-	'coll-no_such_category' => 'Ишта кадегар яц',
+	'coll-no_such_category' => 'Ишта категори яц',
 	'coll-yes' => 'Хlаъ',
 	'coll-rendering_article' => '(яззам: $1)',
 );
@@ -12222,6 +12224,9 @@ $messages['roa-tara'] = array(
 	'coll-couldnotaddarticle_msg' => "'A pàgene de uicchi non ge pòte essere aggiunde.",
 	'coll-couldnotremovearticle_title' => "Non ge puè luà 'na pàgene de Uicchi",
 	'coll-couldnotremovearticle_msg' => "'A pàgene de uicchi non ge pòte essere luàte.",
+	'coll-noscript_text' => "<h1>JavaScript jè richieste!</h1>
+<strong>'U browser tune non ge supporte JavaScript o JavaScript ha state stutate.
+Sta pàgene non ge fatìe correttamende, senze ca JavaScript ste abbilitate.</strong>",
 	'coll-savedbook_template' => 'libbre_reggistrate',
 	'coll-your_book' => "'U libbre tune",
 	'coll-download_title' => 'Scareche',
@@ -12259,12 +12264,15 @@ $messages['roa-tara'] = array(
 	'coll-personal_collection_label' => 'Libbre personale:',
 	'coll-community_collection_label' => "Libbre d'a comunitate:",
 	'coll-save_collection' => "Reggistre 'u libbre",
+	'coll-save_category' => "Tutte le libbre reggistrate onne state aggiunde a 'a categorije [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]].",
 	'coll-overwrite_title' => "'A pàgene esiste.
 Agghia sovrascrivere?",
 	'coll-overwrite_text' => "'Na pàgene cu 'u nome [[:$1]] esiste ggià.
 A vuè cange cu 'u libbre tune?",
 	'coll-yes' => 'Sine',
 	'coll-no' => 'None',
+	'coll-load_overwrite_text' => "Tu è ggià de le pàggene jndr'à 'u libbre tune.
+Vuè ccu sovrascrive 'u libbre tune, 'nzeccà le condenute nuève, o scangella 'u carecamende de stu libbre?",
 	'coll-overwrite' => 'Sovrascrive',
 	'coll-append' => 'Mitte in code',
 	'coll-cancel' => 'Annulle',
@@ -12273,19 +12281,34 @@ A vuè cange cu 'u libbre tune?",
 	'coll-limit_exceeded_text' => "'U libbre tue jè grnne assaje.
 Non ge puè sckaffà cchiù otre pàgene.",
 	'coll-rendering_title' => 'Esecuzione',
+	'coll-rendering_text' => '<p><strong>Pe piacere aspitte mendre ca \'u documende avène generate.</strong></p>
+
+<p><strong>Progresse:</strong> <span id="renderingProgress">$1</span>% <span id="renderingStatus">$2</span></p>
+
+<p>Sta pàgene avessa aggiornarse automaticamende ogne quacche seconde.
+Ce non ge funzione, pe piacere cazze \'u bottone "Aggiorne" d\'u browser tune.</p>',
 	'coll-rendering_status' => '<strong>State:</strong> $1',
 	'coll-rendering_article' => '(pàgene de uicchi: $1)',
 	'coll-rendering_page' => '(pàgene: $1)',
 	'coll-rendering_page_info_text_article' => "{{MediaWiki:Coll-helppage}}/Teste de 'mbormaziune d'a pàgene de renderizzazione",
 	'coll-rendering_collection_info_text_article' => "{{MediaWiki:Coll-helppage}}/Teste de 'mbormaziune d'a collezzione de renderizzazione",
 	'coll-rendering_finished_title' => 'Renderizzazzione spicciate',
+	'coll-rendering_finished_text' => "<strong>'U documende ha state generate.</strong>
+<strong>[$1 Scareche 'u file]</strong> sus a 'u combiuter tune.
+
+Note:
+* Non ge sì soddisfatte d'u resultate? 'Ndruche [[{{MediaWiki:Coll-helppage}}|'a pàgene de aijute sus a le libbre]] pa possibbilità de migliorarle.",
 	'coll-finished_page_info_text_article' => "{{MediaWiki:Coll-helppage}}/Teste de 'mbormaziune d'a pàgene de renderizzazione",
 	'coll-finished_collection_info_text_article' => "{{MediaWiki:Coll-helppage}}/Teste de 'mbormaziune d'a collezzione de renderizzazione",
 	'coll-notfound_title' => 'Libbre non acchiate',
 	'coll-notfound_text' => "'Mbossibbele acchiere 'a pàgene d'u libbre.",
 	'coll-download_notfound_title' => 'File non acchiate',
+	'coll-download_notfound_text' => "'U file ca tu ste pruéve 'a scarecà non g'esiste:
+Pò essere ca ha state scangellate e abbesogne de essere riggenerate.",
 	'coll-download_failed_title' => "Errore durande 'u download",
 	'coll-download_failed_text' => "S'a verificate 'n'errore quanne ste scarecave 'u file: $1",
+	'coll-is_cached' => "<ul><li>'Na versione d'u documende ha state acchiate jndr'à cache, accussì l'aggiornamende jè necessarie.
+<a href=\"\$1\">Forze l'aggiornamende.</a></li></ul>",
 	'coll-excluded-templates' => "* Le template jndr'à categorije [[:Category:$1|$1]] onne state escluse.",
 	'coll-blacklisted-templates' => '* Le template sus a lista gnore [[:$1]] onne state escluse.',
 	'coll-book_title' => "Ordene cumme 'nu libbre stambate",
@@ -12298,6 +12321,8 @@ Non ge puè sckaffà cchiù otre pàgene.",
 	'coll-return_to' => 'Tuèrne a [[:$1]]',
 	'coll-order_info_article' => "{{MediaWiki:Coll-helppage}}/'Mbormaziune sus a l'ordine de PediaPress",
 	'coll-suggest_title' => 'Pàggene suggerite pu libbre tune',
+	'coll-suggest_intro_text' => "Le suggereminde se basane sus a 'u 'nzieme corrende de le pàggene uicchi ca stonne jndr'à 'u libbre tune.
+L'elenghe jè aggiornate ognevvote ca tu cazze sus a le buttone pe aggiungere o luà.",
 	'coll-suggested_articles' => 'Suggereminde',
 	'coll-suggest_reset_bans' => 'azeere',
 	'coll-suggest_reset_bans_tooltip' => 'Visualizze le commende luàte precedentemènde',
@@ -12311,6 +12336,7 @@ Non ge puè sckaffà cchiù otre pàgene.",
 	'coll-suggest_article_remove' => "'A pàgene <strong>$1</strong> ha state luàte da le libbre ($2).",
 	'coll-suggest_undo_tooltip' => "Annulle st'azione",
 	'coll-suggest_undo' => 'annulle',
+	'coll-load_local_book' => "Cazze OK pe condinuà cu ìu libbre tune %TITLE% ca tène %NUMPAGES% pàggene de uicchi. Cazze Annulle pe scangellarle e accumenzà cu 'n'otre libbre vacande.",
 	'coll-format-rl' => 'e-book (PDF)',
 	'coll-format-epub' => 'e-book (EPUB)',
 	'coll-format-odf' => 'processore de parole (OpenDocument)',
