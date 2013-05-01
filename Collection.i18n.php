@@ -11590,6 +11590,7 @@ $messages['ps'] = array(
  * @author Helder.wiki
  * @author Heldergeovane
  * @author Lijealso
+ * @author Luckas
  * @author Luckas Blade
  * @author MF-Warburg
  * @author Malafaya
@@ -11667,7 +11668,7 @@ Pretende substituir o livro actual, adicionar-lhe o novo conteúdo ou cancelar o
 	'coll-overwrite' => 'Substituir',
 	'coll-append' => 'Adicionar',
 	'coll-cancel' => 'Cancelar',
-	'coll-update' => 'Actualizar',
+	'coll-update' => 'Atualizar',
 	'coll-limit_exceeded_title' => 'Livro demasiado grande',
 	'coll-limit_exceeded_text' => 'O seu livro é demasiado grande.
 Não podem ser adicionadas mais páginas.',
@@ -11702,7 +11703,6 @@ Talvez tenha sido apagado e precise de ser regenerado.',
 <a href="$1">Forçar nova composição.</a></li></ul>',
 	'coll-excluded-templates' => '* As predefinições na categoria [[:Category:$1|$1]] foram excluídas.',
 	'coll-blacklisted-templates' => '* As predefinições na lista negra [[:$1]] foram excluídas.',
-	'coll-return_to_collection' => '<p>Regressar a <a href="$1">$2</a></p>',
 	'coll-book_title' => 'Encomendar como livro impresso',
 	'coll-book_text' => 'Adquira um livro impresso pelo nosso parceiro de impressão por encomenda.',
 	'coll-order_from_pp' => 'Antever o livro por $1',
