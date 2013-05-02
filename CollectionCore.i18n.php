@@ -3723,6 +3723,7 @@ $messages['ps'] = array(
  * @author Hamilton Abreu
  * @author Indech
  * @author Lijealso
+ * @author Luckas
  * @author Malafaya
  * @author Waldir
  * @author 555
@@ -3730,11 +3731,11 @@ $messages['ps'] = array(
 $messages['pt'] = array(
 	'coll-print_export' => 'Imprimir/exportar',
 	'coll-create_a_book' => 'Criar um livro',
-	'coll-create_a_book_tooltip' => 'Cria um livro ou uma colecção de páginas',
+	'coll-create_a_book_tooltip' => 'Criar um livro ou coleção de páginas',
 	'coll-book_creator' => 'Criador de livros',
 	'coll-download_as' => 'Descarregar como $1',
 	'coll-download_as_tooltip' => 'Descarregar uma versão $1 desta página wiki',
-	'coll-disable' => 'desactivar',
+	'coll-disable' => 'desabilitar',
 	'coll-book_creator_disable' => 'Desactivar criador de livros',
 	'coll-book_creator_disable_tooltip' => 'Terminar de usar o criador de livros',
 	'coll-add_linked_article' => 'Adicionar ao livro a página wiki ligada',
