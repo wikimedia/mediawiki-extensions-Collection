@@ -2635,7 +2635,12 @@ $messages['km'] = array(
  * @author Omshivaprakash
  */
 $messages['kn'] = array(
+	'coll-print_export' => 'ಮುದ್ರಿಸು/ಎಕ್ಸ್‌ಪೋರ್ಟ್‌',
 	'coll-create_a_book' => 'ಪುಸ್ತಕವನ್ನು ಸೃಷ್ಟಿಸಿ',
+	'coll-create_a_book_tooltip' => 'ಪುಸ್ತಕ ಅಥವಾ ಪುಟಸಂಚಯವನ್ನು ಸಿದ್ದಪಡಿಸು',
+	'coll-book_creator' => 'ಪುಸ್ತಕ ಸೃಷ್ಟಿಕಾರ',
+	'coll-download_as' => '$1 ಎಂದು ನಕಲಿಳಿಸಿ',
+	'coll-download_as_tooltip' => 'ಈ ವಿಕಿ ಪುಟದ $1 ನೇ ಆವೃತ್ತಿಯನ್ನು ನಕಲಿಳಿಸಿ',
 	'coll-bookscategory' => 'ಪುಸ್ತಕಗಳು',
 	'coll-clear_collection' => 'ಪುಸ್ತಕವನ್ನು ತೆಗೆಯಿರಿ',
 	'coll-help' => 'ಸಹಾಯ',

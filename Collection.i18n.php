@@ -191,6 +191,7 @@ The list is updated whenever you click on the add or remove buttons.',
  * @author Siebrand
  * @author Umherirrender
  * @author Wmr89502270
+ * @author គីមស៊្រុន
  */
 $messages['qqq'] = array(
 	'coll-desc' => '{{desc|name=Collection|url=http://www.mediawiki.org/wiki/Extension:Collection}}',
@@ -277,7 +278,7 @@ The title for this message is {{msg-mw|Coll-download failed title}}.',
 	'coll-excluded-templates' => "Part of the text of the special page 'Rendering finished' which appears after clicking on 'Download' and a book has been generated.",
 	'coll-blacklisted-templates' => "Part of the text of the special page 'Rendering finished' which appears after clicking on 'Download' and a book has been generated.",
 	'coll-order_from_pp' => '* $1 is the name of a print provider (a company name)',
-	'coll-about_pp' => '{{Identical|About}}',
+	'coll-about_pp' => 'អំពី $1',
 	'coll-invalid_podpartner_title' => 'POD means print-on-demand',
 	'coll-invalid_podpartner_msg' => 'POD means print-on-demand.',
 	'coll-license' => '{{Identical|License}}',
@@ -8349,12 +8350,42 @@ $messages['km'] = array(
 
 /** Kannada (ಕನ್ನಡ)
  * @author Nayvik
+ * @author Omshivaprakash
  */
 $messages['kn'] = array(
+	'coll-collection' => 'ಪುಸ್ತಕ',
+	'coll-collections' => 'ಪುಸ್ತಕಗಳು',
+	'coll-exclusion_category_title' => 'ಮುದ್ರಣದಲ್ಲಿ ತ್ಯಜಿಸು',
+	'coll-print_template_prefix' => 'ಮುದ್ರಿಸು',
+	'coll-print_template_pattern' => '$1/ಮುದ್ರಿಸು',
+	'coll-unknown_subpage_title' => 'ಗುರುತಿಲ್ಲದ ಒಳಪುಟ',
+	'coll-couldnotaddarticle_title' => 'ಈ ವಿಕಿ ಪುಟವನ್ನು ಸೇರಿಸಲಾಗಲಿಲ್ಲ',
+	'coll-couldnotaddarticle_msg' => 'ಈ ವಿಕಿ ಪುಟವನ್ನು ಸೇರಿಸಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ.',
+	'coll-couldnotremovearticle_title' => 'ಈ ವಿಕಿ ಪುಟವನ್ನು ತೆಗೆಯಲು ಸಾಧ್ಯವಾಗಲಿಲ್ಲ',
+	'coll-couldnotremovearticle_msg' => 'ಈ ವಿಕಿ ಪುಟವನ್ನು ತೆಗೆಯಲು ಸಾಧ್ಯವಿಲ್ಲ.',
+	'coll-savedbook_template' => 'ಉಳಿಸಿದ_ಪುಸ್ತಕ',
+	'coll-your_book' => 'ನಿಮ್ಮ ಪುಸ್ತಕ',
 	'coll-download_title' => 'ಡೌನ್‍ಲೋಡ್',
 	'coll-download' => 'ಡೌನ್‍ಲೋಡ್',
+	'coll-remove' => 'ತೆಗೆ',
 	'coll-show' => 'ತೋರಿಸು',
+	'coll-move_to_top' => 'ಮೇಲಕ್ಕೆ ಸರಿಸು',
+	'coll-move_up' => 'ಮೇಲೆ ಕಳಿಸು',
+	'coll-move_down' => 'ಕೆಳಗೆ ಕಳಿಸು',
+	'coll-move_to_bottom' => 'ಕೊನೆಗೆ ಕಳಿಸು',
 	'coll-title' => 'ಶೀರ್ಷಿಕೆ:',
+	'coll-contents' => 'ಪರಿವಿಡಿ',
+	'coll-sort_alphabetically' => 'ಅಕ್ಷರಮಾಲೆಯ ಪ್ರಕಾರ ಜೋಡಿಸು',
+	'coll-rename' => 'ಮರುಹೆಸರಿಸು',
+	'coll-new_chapter' => 'ಹೊಸ ಪಾಠದ ಹೆಸರು ನಮೂದಿಸಿ',
+	'coll-rename_chapter' => 'ಹೊಸ ಪಾಠಕ್ಕೆ ಹೆಸರು ನಮೂದಿಸಿ',
+	'coll-no_such_category' => 'ಈ ವರ್ಗ ಲಭ್ಯವಿಲ್ಲ',
+	'coll-empty_collection' => 'ಖಾಲಿ ಪುಸ್ತಕ',
+	'coll-revision' => 'ಆವೃತ್ತಿ: $1',
+	'coll-save_collection_title' => 'ನಿಮ್ಮ ಪುಸ್ತಕವನ್ನು ಉಳಿಸಿ ಮತ್ತು ಹಂಚಿಕೊಳ್ಳಿ',
+	'coll-personal_collection_label' => 'ವೈಯುಕ್ತಿಕ ಪುಸ್ತಕ:',
+	'coll-community_collection_label' => 'ಸಮುದಾಯದ ಪುಸ್ತಕ:',
+	'coll-save_collection' => 'ಪುಸ್ತಕವನ್ನು ಉಳಿಸು',
 	'coll-yes' => 'ಹೌದು',
 	'coll-no' => 'ಇಲ್ಲ',
 	'coll-cancel' => 'ರದ್ದು ಮಾಡು',
