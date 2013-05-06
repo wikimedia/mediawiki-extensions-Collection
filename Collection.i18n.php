@@ -9438,9 +9438,14 @@ Indak dapek manambahan laman lai',
 	'coll-download_notfound_text' => 'Berkas nan Sanak cubo download indak ado:
 Mungkin inyo lah dihapuih jo paralu dibuek ulang.',
 	'coll-download_failed_title' => 'Kasalahan salamo download',
+	'coll-suggest_reset_bans' => 'reset',
+	'coll-suggest_your_book' => 'Buku Sanak',
+	'coll-suggest_show' => 'tunjuakan',
 	'coll-format-zim' => 'Kiwix (OpenZIM)',
 	'coll-format-docbook' => 'DocBook',
 	'coll-format-okawix_zeno' => 'Okawix',
+	'right-collectionsaveasuserpage' => 'Manyimpan koleksi buku sabagai laman pangguno',
+	'right-collectionsaveascommunitypage' => 'Manyimpan koleksi buku sabagai laman komunitas',
 );
 
 /** Macedonian (македонски)
