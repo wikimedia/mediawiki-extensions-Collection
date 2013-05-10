@@ -2791,6 +2791,7 @@ $messages['ce'] = array(
 	'coll-collections' => 'Жайнаш',
 	'coll-couldnotaddarticle_msg' => 'Хlара яззам чутоьхна хила цамега.',
 	'coll-couldnotremovearticle_msg' => 'Хlара яззам дlабайина хила цамега.',
+	'coll-remove' => 'ДӀаяккха',
 	'coll-no_such_category' => 'Ишта категори яц',
 	'coll-yes' => 'Хlаъ',
 	'coll-rendering_article' => '(яззам: $1)',
