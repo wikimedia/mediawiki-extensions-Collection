@@ -3795,6 +3795,7 @@ $messages['ee'] = array(
  * @author Consta
  * @author Crazymadlover
  * @author Evropi
+ * @author FocalPoint
  * @author Geraki
  * @author Glavkos
  * @author Omnipaedista
@@ -3903,7 +3904,6 @@ $messages['el'] = array(
 	'coll-is_cached' => '<ul><li>Μια αποθηκευμένη έκδοση του εγγράφου έχει βρεθεί, οπότε καμία μορφοποίηση δεν ήταν απαραίτητη. <a href="$1">Επιβολή επαναμορφοποίησης .</a></li></ul>',
 	'coll-excluded-templates' => '* Πρότυπα στην κατηγορία [[:Category:$1|$1]] έχουν εξαιρεθεί.',
 	'coll-blacklisted-templates' => '* Πρότυπα στην μαύρη λίστα [[:$1]] έχουν εξαιρεθεί.',
-	'coll-return_to_collection' => '<p>Επιστροφή στο <a href="$1">$2</a></p>',
 	'coll-book_title' => 'Παραγγελία ως εκτυπωμένο βιβλίο',
 	'coll-book_text' => 'Πάρτε ένα τυπωμένο βιβλίο από τον συνεργάτη μας εκτύπωσης-κατά-παραγγελία:',
 	'coll-order_from_pp' => 'Προεπισκόπηση με $1',
@@ -3933,6 +3933,7 @@ $messages['el'] = array(
 	'coll-load_local_book' => "Κάντε κλικ στο κουμπί Εντάξει για να συνεχίσετε με το βιβλίο %TITLE% το οποίο περιέχει %NUMPAGES% βικισελίδες. Κάντε κλικ στο κουμπί Άκυρο για να το διαγράψετε και να ξεκινήσετε μ' ένα άδειο βιβλίο.",
 	'coll-format-rl' => 'e-book (PDF)',
 	'coll-format-epub' => 'e-book (EPUB)',
+	'coll-format-odf' => 'επεξεργαστής κειμένου (OpenDocument)',
 	'coll-format-zim' => 'Kiwix (OpenZIM)',
 	'coll-format-docbook' => 'DocBook',
 	'coll-format-okawix_zeno' => 'Okawix',
