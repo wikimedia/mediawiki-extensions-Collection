@@ -8678,7 +8678,7 @@ Opjepaß:
 	'coll-book_title' => 'Donn der Drock vun däm Booch beshtälle',
 	'coll-book_text' => 'Donn e Booch bestelle en de Dröckerei:',
 	'coll-order_from_pp' => 'Vör-Aansich vun däm Booch bei $1',
-	'coll-about_pp' => 'Üvver $1',
+	'coll-about_pp' => 'Övver $1',
 	'coll-invalid_podpartner_title' => 'Verkeehte Aajabe zom Dröcke udder zor Dröckerei',
 	'coll-invalid_podpartner_msg' => 'De Aajabe zom Dröcke un wä dat maache sull sin verkeeht.
 Don dat enem Wikki-Köbes obb et Bruut schmiere.',
