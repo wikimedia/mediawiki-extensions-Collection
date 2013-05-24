@@ -300,7 +300,7 @@ $specialPageAliases['oc'] = array(
 
 /** Punjabi (ਪੰਜਾਬੀ) */
 $specialPageAliases['pa'] = array(
-	'Book' => array( 'ਕਿਤਾਬ', 'ਇਕੱਠ' ),
+	'Book' => array( 'ਕਿਤਾਬ', 'ਪੁਸਤਕ' ),
 );
 
 /** Polish (polski) */
