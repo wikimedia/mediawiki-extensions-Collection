@@ -945,10 +945,11 @@ $messages['ca'] = array(
 
 /** Chechen (нохчийн)
  * @author Sasan700
+ * @author Умар
  */
 $messages['ce'] = array(
 	'coll-bookscategory' => 'Жайнаш',
-	'coll-help' => 'Нисвохаам',
+	'coll-help' => 'Нийсвохаам',
 );
 
 /** Sorani Kurdish (کوردی)
