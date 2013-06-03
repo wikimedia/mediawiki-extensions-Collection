@@ -409,7 +409,7 @@ $messages['arz'] = array(
 	'coll-suggest_empty' => 'فاضى',
 );
 
-/** Assamese (অসমীয়া)
+/** Assamese (অসমীয়া)
  * @author Bishnu Saikia
  * @author Gitartha.bordoloi
  */
@@ -3304,7 +3304,7 @@ $messages['nah'] = array(
 	'coll-bookscategory' => 'Àmoxtin',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author Laaknor
  * @author Nghtwlkr
  * @author Njardarlogar
@@ -3372,7 +3372,7 @@ $messages['nds'] = array(
 	'coll-show_collection_tooltip' => 'Klick hier, dat du dien Book ännern/dalladen/bestellen kannst',
 );
 
-/** Nedersaksies (Nedersaksies)
+/** Low Saxon (Netherlands) (Nedersaksies)
  * @author Servien
  */
 $messages['nds-nl'] = array(
@@ -3449,7 +3449,7 @@ $messages['nl-informal'] = array(
 	'coll-make_suggestions_tooltip' => "Suggesties weergeven op basis van de pagina's in je boek",
 );
 
-/** Norwegian Nynorsk (norsk (nynorsk)‎)
+/** Norwegian Nynorsk (norsk nynorsk)
  * @author Eirik
  * @author Gunnernett
  * @author Harald Khan
@@ -3530,7 +3530,7 @@ $messages['oc'] = array(
 	'coll-suggest_empty' => 'void',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  * @author Jnanaranjan Sahu
  * @author Odisha1
@@ -3777,6 +3777,7 @@ $messages['pt'] = array(
  * @author Helder.wiki
  * @author Heldergeovane
  * @author Jorge Morais
+ * @author Luckas
  * @author Luckas Blade
  */
 $messages['pt-br'] = array(
