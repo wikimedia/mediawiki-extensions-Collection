@@ -3604,7 +3604,7 @@ $messages['pfl'] = array(
 	'coll-bookscategory' => 'Bischa',
 	'coll-clear_collection' => 'Buch lesche',
 	'coll-clear_collection_confirm' => 'Wilschd doi Buch wirglisch lesche?',
-	'coll-help' => 'Hilf',
+	'coll-help' => 'Unaschdidzung',
 	'coll-helppage' => 'Help:Bischa',
 );
 
