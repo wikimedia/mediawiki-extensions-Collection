@@ -4306,6 +4306,7 @@ $messages['sq'] = array(
 );
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
+ * @author Milicevic01
  * @author Nikola Smolenski
  * @author Rancher
  * @author Јованвб
@@ -4344,6 +4345,8 @@ $messages['sr-ec'] = array(
 	'coll-show_collection' => 'Прикажи књигу',
 	'coll-show_collection_tooltip' => 'Кликните за измену, преузимање или наручивање своје књиге',
 	'coll-not_addable' => 'Ова страница се не може додати',
+	'coll-make_suggestions' => 'Предложи странице',
+	'coll-make_suggestions_tooltip' => 'Прикажи предлоге засноване на страницама из ваше књиге',
 	'coll-suggest_empty' => 'празно',
 );
 
