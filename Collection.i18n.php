@@ -4509,6 +4509,12 @@ Zerrenda gaurkotzen da gehitu edo kendu botoietan klik egiten duzun bakoitzean.'
 	'coll-suggest_undo_tooltip' => 'Ekintza hau desegin',
 	'coll-suggest_undo' => 'desegin',
 	'coll-load_local_book' => 'Egin klik OK gainean jarraitzeko zure %TITLE% liburuarekin, %NUMPAGES% wiki orrialde dituena. Klik egin Cancel gainean ezabatzeko eta berri hasteko liburu huts batekin.',
+	'coll-format-rl' => 'e-liburua (PDF)',
+	'coll-format-epub' => 'e-liburua (EPUB)',
+	'coll-format-odf' => 'word prozesatzailea (OpenDocument)',
+	'coll-format-zim' => 'Kiwix (OpenZIM)',
+	'coll-format-docbook' => 'DocBook',
+	'coll-format-okawix_zeno' => 'Okawix',
 	'right-collectionsaveasuserpage' => 'Gorde liburuak lankide orrialde bezala',
 	'right-collectionsaveascommunitypage' => 'Gorde liburuak komunitate orrialde bezala',
 );
