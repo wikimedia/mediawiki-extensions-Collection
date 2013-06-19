@@ -1376,7 +1376,7 @@ Notes:
 	'coll-download_notfound_text' => 'El ficheru que ta intentando descargar nun existe: Seique desanicióse y necesita rexenerase.',
 	'coll-download_failed_title' => 'Error demientres la descarga',
 	'coll-download_failed_text' => 'Hebo un error al descargar el ficheru: $1',
-	'coll-is_cached' => '<ul><li>Atopóse una versión del documentu na caché, polo que non va ser necesario renderizalu. <a href="$1">Forzar la renderización.</a></li></ul>',
+	'coll-is_cached' => '<ul><li>Atopose una versión del documentu na caché, polo que nun va ser necesario renderizalu. <a href="$1">Forzar la renderización.</a></li></ul>',
 	'coll-excluded-templates' => '* Excluyeronse les plantíes de la categoría [[:Category:$1|$1]].',
 	'coll-blacklisted-templates' => '* Excluyeronse les plantíes de la llista prieta [[:$1]].',
 	'coll-book_title' => 'Encargar como llibru impresu',
