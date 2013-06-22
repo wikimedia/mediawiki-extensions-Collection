@@ -3264,6 +3264,7 @@ Listen opdateres når du klikker på tilføj- eller fjernknapperne.',
 
 /** German (Deutsch)
  * @author Das Schäfchen
+ * @author Geitost
  * @author Heuler06
  * @author Jbeigel
  * @author Kghbln
@@ -3283,7 +3284,7 @@ $messages['de'] = array(
 	'coll-book_creator_intro' => "<big>Mit der ''Buchfunktion'' kannst du ein Buch aus beliebigen Wikiseiten erstellen.
 Du kannst das Buch in unterschiedlichen Formaten exportieren (beispielsweise PDF oder ODF) oder in gedruckter Form bestellen.</big>",
 	'coll-manage_your_book' => 'Dein Buch verwalten',
-	'coll-book_creator_help' => 'Siehe die [[{{MediaWiki:Coll-helppage}}|Hilfe zu Büchern]] für weitere Informationen.',
+	'coll-book_creator_help' => 'Weitere Informationen sind in der [[{{MediaWiki:Coll-helppage}}|Hilfe zu Büchern]] zu finden.',
 	'coll-start_book_creator' => 'Buchfunktion starten',
 	'coll-book_creator_continue' => 'Buchgenerator verwenden',
 	'coll-book_creator_disable_text' => "Der ''Buchgenerator'' wird deaktiviert und das Buch, an dem du arbeitest, wird gelöscht werden.",
