@@ -293,6 +293,7 @@ The title for this message is {{msg-mw|Coll-download failed title}}.',
 Sub page of {{msg-mw|coll-helppage}} ({{int:coll-helppage}})
 
 The contents of this page appear in the "Order as a printed book" box on <nowiki>[[Special:Book]]</nowiki> when a user clicks on "Show more information" (i.e. it\'s hidden by default). The page contains general information on how to order a book from PediaPress. This can be seen e.g. on en.wp, when logged-in. The title of the sub-page "PediaPress order information" does not appear in the box, only the contents of the sub-page.',
+	'coll-suggested_articles' => '{{Identical|Suggestion}}',
 	'coll-suggest_reset_bans' => '{{Identical|Reset}}',
 	'coll-suggest_your_book' => '{{Identical|Book}}',
 	'coll-suggest_show' => 'Used as link text.
