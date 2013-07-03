@@ -8433,7 +8433,7 @@ $messages['ko'] = array(
 	'coll-save_collection' => '책 저장',
 	'coll-save_category' => '모든 저장된 책은 [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]] 분류에 포함됩니다.',
 	'coll-overwrite_title' => '문서가 존재합니다.
-덮어쓰시겠습니까?',
+덮어쓰겠습니까?',
 	'coll-overwrite_text' => '[[:$1]]이라는 이름을 가진 문서가 이미 존재합니다.
 정말로 당신의 책을 바꾸시겠습니까?',
 	'coll-yes' => '예',
