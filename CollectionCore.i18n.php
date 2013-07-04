@@ -3494,7 +3494,7 @@ $messages['nn'] = array(
  * @author Cedric31
  */
 $messages['oc'] = array(
-	'coll-print_export' => 'Estampar / exportar',
+	'coll-print_export' => 'Imprimir / exportar',
 	'coll-create_a_book' => 'Crear un libre',
 	'coll-create_a_book_tooltip' => 'Crear un libre o una colleccion d’articles',
 	'coll-book_creator' => 'Creator de libres',
