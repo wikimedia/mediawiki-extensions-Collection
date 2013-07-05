@@ -16264,8 +16264,7 @@ $messages['zh-hans'] = array(
 	'coll-rendering_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/生成页面信息文字',
 	'coll-rendering_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/生成收藏信息文字',
 	'coll-rendering_finished_title' => '生成完成',
-	'coll-rendering_finished_text' => '<strong>文件已生成。</strong>
-<strong>[$1 下载该文件]</strong>至你的电脑。
+	'coll-rendering_finished_text' => '<strong>文档文件已生成。</strong><strong>[$1 下载该文件]</strong>至你的电脑。
 
 注意：
 * 对输出效果不满意？请见[[{{MediaWiki:Coll-helppage}}|图书帮助页面]]以寻求改进方法。',
