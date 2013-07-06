@@ -949,7 +949,7 @@ $messages['ca'] = array(
  */
 $messages['ce'] = array(
 	'coll-bookscategory' => 'Жайнаш',
-	'coll-help' => 'Нийсвохаам',
+	'coll-help' => 'ГӀо',
 );
 
 /** Sorani Kurdish (کوردی)
