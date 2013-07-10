@@ -4674,6 +4674,10 @@ $messages['fa'] = array(
 	'coll-load_local_book' => 'برای ادامهٔ کتاب %TITLE% که دارندهٔ %NUMPAGES% صفحهٔ ویکی است، بر روی پذیرش کلیک کنید. برای حذف آن و آغاز با کتابی خالی، بر روی لغو کلیک کنید.',
 	'coll-format-rl' => 'کتاب الکترونیکی (PDF)',
 	'coll-format-epub' => 'کتاب الکترونیکی (EPUB)',
+	'coll-format-odf' => 'واژه‌پرداز (اپن‌داکیومنت)',
+	'coll-format-zim' => 'کی‌ویکس (اپن‌زیم)',
+	'coll-format-docbook' => 'داک‌بوک',
+	'coll-format-okawix_zeno' => 'اوکاویکس',
 	'right-collectionsaveasuserpage' => 'ذخیره کردن کتاب‌ها به صورت یک صفحهٔ کاربری',
 	'right-collectionsaveascommunitypage' => 'ذخیره کردن کتاب‌ها به صورت یک صفحه عمومی',
 );
