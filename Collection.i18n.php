@@ -4851,6 +4851,7 @@ Lista päivittyy aina kun napsautat lisää- tai poista-painikkeita.',
  * @author Peter17
  * @author PieRRoMaN
  * @author Verdy p
+ * @author Wyz
  * @author Zetud
  */
 $messages['fr'] = array(
@@ -4983,7 +4984,7 @@ La liste est mise à jour à chaque fois que vous cliquez sur les boutons d'ajou
 	'coll-suggest_article_add' => 'La page <strong>$1</strong> a été ajoutée à votre livre ($2).',
 	'coll-suggest_article_remove' => 'La page <strong>$1</strong> a été retirée de votre livre ($2).',
 	'coll-suggest_undo_tooltip' => 'Défaire cette action',
-	'coll-suggest_undo' => 'défaire',
+	'coll-suggest_undo' => 'annuler',
 	'coll-load_local_book' => 'Cliquez sur OK pour continuer votre livre %TITLE% qui contient %NUMPAGES% pages wiki. Cliquez sur Annuler pour le supprimer et commencer avec un livre vide.',
 	'coll-format-rl' => 'e-book (PDF)',
 	'coll-format-epub' => 'e-book (EPUB)',
