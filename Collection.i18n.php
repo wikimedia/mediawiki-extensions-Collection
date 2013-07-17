@@ -2781,10 +2781,12 @@ La llista s'actualitza cada vegada que feu clic als botons d'afegir o treure.",
 $messages['ce'] = array(
 	'coll-collections' => 'Жайнаш',
 	'coll-couldnotaddarticle_msg' => 'Хlара яззам чутоьхна хила цамега.',
+	'coll-couldnotremovearticle_title' => 'Цатарло агӀо дӀаяккха',
 	'coll-couldnotremovearticle_msg' => 'Хlара яззам дlабайина хила цамега.',
 	'coll-remove' => 'ДӀаяккха',
 	'coll-no_such_category' => 'Ишта категори яц',
 	'coll-yes' => 'Хlаъ',
+	'coll-append' => 'ТIетоха',
 	'coll-update' => 'Карлаяккха',
 	'coll-rendering_article' => '(яззам: $1)',
 );

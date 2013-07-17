@@ -948,6 +948,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'coll-add_category' => 'Хьан жайнан тӀетоха хӀара категори',
 	'coll-bookscategory' => 'Жайнаш',
 	'coll-help' => 'ГӀо',
 );
