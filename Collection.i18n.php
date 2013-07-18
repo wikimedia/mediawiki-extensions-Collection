@@ -2787,8 +2787,10 @@ $messages['ce'] = array(
 	'coll-no_such_category' => 'Ишта категори яц',
 	'coll-yes' => 'Хlаъ',
 	'coll-append' => 'ТIетоха',
+	'coll-cancel' => 'Юхаяккха',
 	'coll-update' => 'Карлаяккха',
 	'coll-rendering_article' => '(яззам: $1)',
+	'coll-suggest_undo' => 'цаоьшу',
 );
 
 /** Sorani Kurdish (کوردی)
@@ -10578,7 +10580,7 @@ $messages['niu'] = array(
 $messages['nl'] = array(
 	'coll-desc' => '[[Special:Book|Boeken maken]]',
 	'coll-book_creator_intro' => "<big>Met de ''Boekenmaker'' kunt u een boek maken dat wikipagina's naar uw eigen inzicht bevat.
-U kunt het boek exporteren in verschillende bestandsformaten (bijvoorbeeld PDF of ODF) of een gedrukt exemplaar bestellen.</big>",
+U kunt het boek exporteren in verschillende bestandsformaten (bijvoorbeeld pdf- of ODF-bestand) of een gedrukt exemplaar bestellen.</big>",
 	'coll-manage_your_book' => 'Uw boek beheren',
 	'coll-book_creator_help' => 'Zie de [[{{MediaWiki:Coll-helppage}}|hulppagina over boeken]] voor meer informatie.',
 	'coll-start_book_creator' => 'Boekenmaker starten',
@@ -10709,7 +10711,7 @@ De lijst wordt bijgewerkt als u op de knop 'toevoegen' of 'verwijderen' klikt.",
 	'coll-suggest_undo_tooltip' => 'Deze handeling ongedaan maken',
 	'coll-suggest_undo' => 'ongedaan maken',
 	'coll-load_local_book' => 'Klik "OK" om door te gaan met uw boek %TITLE% dat %NUMPAGES% wikipagina\'s bevat. Klik op "Annuleren" om het te verwijderen en opnieuw te beginnen met een leeg boek.',
-	'coll-format-rl' => 'e-boek (PDF)',
+	'coll-format-rl' => 'e-boek (pdf)',
 	'coll-format-epub' => 'e-boek (EPUB)',
 	'coll-format-odf' => 'tekstverwerker (OpenDocument)',
 	'coll-format-zim' => 'Kiwix (OpenZIM)',
@@ -11650,8 +11652,8 @@ $messages['pt'] = array(
 	'coll-couldnotremovearticle_title' => 'Não foi possível remover a página wiki',
 	'coll-couldnotremovearticle_msg' => 'Não foi possível remover a página wiki.',
 	'coll-noscript_text' => '<h1>É necessário o JavaScript!</h1>
-<strong>Ou o seu browser não suporta JavaScript ou o JavaScript foi desactivado.
-Esta página não funcionará correctamente sem o JavaScript.</strong>',
+<strong>Ou o seu browser não suporta JavaScript ou o JavaScript foi desativado.
+Esta página não funcionará corretamente sem o JavaScript.</strong>',
 	'coll-savedbook_template' => 'livro_gravado',
 	'coll-your_book' => 'O seu livro',
 	'coll-download_title' => 'Descarregar',
