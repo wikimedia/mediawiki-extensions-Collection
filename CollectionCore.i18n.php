@@ -1003,6 +1003,13 @@ $messages['cs'] = array(
 	'coll-suggest_empty' => 'prázdné',
 );
 
+/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+ * @author ОйЛ
+ */
+$messages['cu'] = array(
+	'coll-help' => 'помощь',
+);
+
 /** Welsh (Cymraeg)
  * @author Lloffiwr
  */
@@ -2864,7 +2871,7 @@ $messages['lt'] = array(
 	'coll-clear_collection_tooltip' => 'Pašalinti visus wiki puslapius iš savo dabartinės knygos',
 	'coll-help' => 'Pagalba',
 	'coll-help_tooltip' => 'Rodyti pagalba apie knygų kūrima',
-	'coll-helppage' => 'Pagalba: Knygos', # Fuzzy
+	'coll-helppage' => 'Pagalba:Knygos', # Fuzzy
 	'coll-load_collection' => 'Įkelti knygas',
 	'coll-load_collection_tooltip' => 'Įkelti šią knygą kaip jūsų dabartinę knygą',
 	'coll-n_pages' => '$1 {{PLURAL:$1|puslapis|puslapiai}}',
@@ -2875,6 +2882,7 @@ $messages['lt'] = array(
 	'coll-show_collection_tooltip' => 'Spustelėkite norėdami redaguoti/atsisiųsti/užsisakyti savo knygą',
 	'coll-not_addable' => 'Šis puslapis negali būti pridėtas',
 	'coll-make_suggestions' => 'Siūlyti puslapius',
+	'coll-make_suggestions_tooltip' => 'Rodyti pasiūlymus, pagrįstus jūsų knygos puslapiais',
 	'coll-suggest_empty' => 'tuščia',
 );
 
