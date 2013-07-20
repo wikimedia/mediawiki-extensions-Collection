@@ -2971,7 +2971,8 @@ Seznam se aktualizuje při každém kliknutím na tlačítka přidat a odebrat.'
  * @author ОйЛ
  */
 $messages['cu'] = array(
-	'coll-no' => 'нѣ́тъ',
+	'coll-yes' => 'да',
+	'coll-no' => 'нѣтъ',
 );
 
 /** Welsh (Cymraeg)
