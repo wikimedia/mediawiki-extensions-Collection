@@ -63,6 +63,11 @@ $specialPageAliases['ca'] = array(
 	'Book' => array( 'Llibre', 'Col·lecció' ),
 );
 
+/** Chechen (нохчийн) */
+$specialPageAliases['ce'] = array(
+	'Book' => array( 'Жайнаш_гулдар' ),
+);
+
 /** Czech (česky) */
 $specialPageAliases['cs'] = array(
 	'Book' => array( 'Kniha', 'Kolekce' ),

@@ -2783,6 +2783,7 @@ $messages['ce'] = array(
 	'coll-couldnotaddarticle_msg' => 'Хlара яззам чутоьхна хила цамега.',
 	'coll-couldnotremovearticle_title' => 'Цатарло агӀо дӀаяккха',
 	'coll-couldnotremovearticle_msg' => 'Хlара яззам дlабайина хила цамега.',
+	'coll-download' => 'Чуяккха',
 	'coll-remove' => 'ДӀаяккха',
 	'coll-title' => 'Корта:',
 	'coll-no_such_category' => 'Ишта категори яц',
@@ -11645,7 +11646,7 @@ $messages['pt'] = array(
 	'coll-book_creator_help' => 'Consulte [[{{MediaWiki:Coll-helppage}}|a página de ajuda sobre livros]] para mais detalhes.',
 	'coll-start_book_creator' => 'Iniciar o criador de livros',
 	'coll-book_creator_continue' => 'Continue a usar o criador de livros',
-	'coll-book_creator_disable_text' => "O ''criador de livros'' será desactivado e o livro no qual está a trabalhar será removido.",
+	'coll-book_creator_disable_text' => "O ''criador de livros'' será desativado e o livro no qual está a trabalhar será removido.",
 	'coll-book_creator_text_article' => '{{MediaWiki:Coll-helppage}}/Texto do criador de livros',
 	'coll-collection' => 'Livro',
 	'coll-collections' => 'Livros',
@@ -11718,8 +11719,8 @@ Não podem ser adicionadas mais páginas.',
 
 <p><strong>Progresso:</strong> <span id="renderingProgress">$1</span>% <span id="renderingStatus">$2</span></p>
 
-<p>Esta página deverá actualizar-se automaticamente com frequência.
-Se não o fizer, por favor use o botão "actualizar" ("refresh") do seu browser.</p>',
+<p>Esta página deverá atualizar-se automaticamente com frequência.
+Se não o fizer, por favor use o botão "atualizar" ("refresh") do seu browser.</p>',
 	'coll-rendering_status' => '<strong>Estado:</strong> $1',
 	'coll-rendering_article' => '(página wiki: $1)',
 	'coll-rendering_page' => '(página: $1)',
@@ -11755,8 +11756,8 @@ Por favor, contacte o seu administrador MediaWiki.',
 	'coll-return_to' => 'Voltar para [[:$1]]',
 	'coll-order_info_article' => '{{MediaWiki:Coll-helppage}}/Informação sobre encomendas PediaPress',
 	'coll-suggest_title' => 'Páginas sugeridas para o seu livro',
-	'coll-suggest_intro_text' => 'As sugestões são baseadas no conjunto actual de páginas wiki no seu livro.
-A lista é actualizada sempre que clica os botões de adicionar ou remover.',
+	'coll-suggest_intro_text' => 'As sugestões são baseadas no conjunto atual de páginas wiki no seu livro.
+A lista é atualizada sempre que clica os botões de adicionar ou remover.',
 	'coll-suggested_articles' => 'Sugestões',
 	'coll-suggest_reset_bans' => 'restabelecer',
 	'coll-suggest_reset_bans_tooltip' => 'Mostrar sugestões removidas anteriomente',
