@@ -3937,6 +3937,13 @@ $messages['el'] = array(
 	'right-collectionsaveascommunitypage' => 'Αποθήκευση βιβλίων ως σελίδας κοινότητας',
 );
 
+/** British English (British English)
+ * @author Shirayuki
+ */
+$messages['en-gb'] = array(
+	'coll-license' => 'Licence',
+);
+
 /** Esperanto (Esperanto)
  * @author Airon90
  * @author Amikeco
