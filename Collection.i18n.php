@@ -2786,6 +2786,7 @@ $messages['ce'] = array(
 	'coll-download' => 'Чуяккха',
 	'coll-remove' => 'ДӀаяккха',
 	'coll-title' => 'Корта:',
+	'coll-subtitle' => 'Корталг:',
 	'coll-no_such_category' => 'Ишта категори яц',
 	'coll-yes' => 'Хlаъ',
 	'coll-no' => 'Яц',
