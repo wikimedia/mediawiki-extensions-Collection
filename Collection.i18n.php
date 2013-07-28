@@ -11714,7 +11714,7 @@ Deseja substituí-la com o seu livro?',
 	'coll-yes' => 'Sim',
 	'coll-no' => 'Não',
 	'coll-load_overwrite_text' => 'O seu livro já possui algumas páginas.
-Pretende substituir o livro actual, adicionar-lhe o novo conteúdo ou cancelar o carregamento deste novo livro?',
+Pretende substituir o livro atual, adicionar-lhe o novo conteúdo ou cancelar o carregamento deste novo livro?',
 	'coll-overwrite' => 'Substituir',
 	'coll-append' => 'Adicionar',
 	'coll-cancel' => 'Cancelar',
