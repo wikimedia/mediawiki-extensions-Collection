@@ -2798,6 +2798,7 @@ $messages['ce'] = array(
 );
 
 /** Sorani Kurdish (کوردی)
+ * @author Calak
  * @author Muhammed taha
  */
 $messages['ckb'] = array(
@@ -2821,6 +2822,8 @@ $messages['ckb'] = array(
 	'coll-download_notfound_title' => 'په‌ڕگه‌که‌ نه‌دۆزرایه‌وه‌.',
 	'coll-license' => 'مۆڵەت',
 	'coll-suggest_reset_bans' => 'دووبارە ڕێکخستنەوە',
+	'right-collectionsaveasuserpage' => 'پاشەکەوتکردنی پەڕگەکان وەک پەڕەیەکی بەکارھێنەر',
+	'right-collectionsaveascommunitypage' => 'پاشەکەوتکردنی پەڕگەکان وەک پەڕەیەکی کۆمەڵگا',
 );
 
 /** Czech (česky)
