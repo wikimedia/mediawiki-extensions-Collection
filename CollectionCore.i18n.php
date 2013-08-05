@@ -2088,9 +2088,11 @@ $messages['hu'] = array(
 );
 
 /** Armenian (Հայերեն)
+ * @author Chaojoker
  * @author Teak
  */
 $messages['hy'] = array(
+	'coll-print_export' => 'Տպել/արտահանել',
 	'coll-create_a_book' => 'Ստեղծել գիրք',
 	'coll-download_as' => 'Ներբեռնել որպես $1',
 	'coll-add_category' => 'Ավելացնել կատեգորիան', # Fuzzy
