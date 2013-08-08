@@ -2104,6 +2104,7 @@ $messages['hy'] = array(
 	'coll-n_pages' => '$1 {{PLURAL:$1|էջ|էջ}}',
 	'coll-printable_version_pdf' => 'PDF-տարբերակ',
 	'coll-show_collection' => 'Ցույց տալ գիրքը',
+	'coll-suggest_empty' => 'դատարկ',
 );
 
 /** Interlingua (interlingua)
