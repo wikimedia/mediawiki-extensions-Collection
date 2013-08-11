@@ -63,6 +63,11 @@ $specialPageAliases['ca'] = array(
 	'Book' => array( 'Llibre', 'Col·lecció' ),
 );
 
+/** Min Dong Chinese (Mìng-dĕ̤ng-ngṳ̄) */
+$specialPageAliases['cdo'] = array(
+	'Book' => array( '書' ),
+);
+
 /** Chechen (нохчийн) */
 $specialPageAliases['ce'] = array(
 	'Book' => array( 'Жайнаш_гулдар' ),
