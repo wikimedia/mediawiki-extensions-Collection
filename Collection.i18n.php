@@ -270,6 +270,7 @@ The variable $1 is another message string, as follows:
 	'coll-rendering_finished_text' => 'This is the first part of the text of the special page "Rendering finished", which appears after clicking \'download book\' and the book has been generated.  
 
 $1 is not text; it is the http:// address of the book.',
+	'coll-download_notfound_title' => '{{Identical|File not found}}',
 	'coll-download_failed_title' => 'Unused at this time.
 
 Used as title for the error message {{msg-mw|Coll-download failed text}}.',
