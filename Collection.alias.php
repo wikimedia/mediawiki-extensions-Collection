@@ -165,7 +165,7 @@ $specialPageAliases['he'] = array(
 
 /** Hindi (हिन्दी) */
 $specialPageAliases['hi'] = array(
-	'Book' => array( 'किताब', 'पुस्तक' ),
+	'Book' => array( 'पुस्तक', 'किताब' ),
 );
 
 /** Croatian (hrvatski) */
