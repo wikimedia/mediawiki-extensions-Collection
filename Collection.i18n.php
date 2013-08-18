@@ -8469,7 +8469,8 @@ $messages['ko'] = array(
 	'coll-cancel' => '취소',
 	'coll-update' => '업데이트',
 	'coll-limit_exceeded_title' => '책이 너무 큽니다.',
-	'coll-limit_exceeded_text' => '책 내용이 너무 많습니다. 더 이상 내용을 추가할 수 없습니다.',
+	'coll-limit_exceeded_text' => '책 내용이 너무 많습니다.
+더 이상 내용을 추가할 수 없습니다.',
 	'coll-rendering_title' => '렌더링',
 	'coll-rendering_text' => '<p><strong>문서가 생성될 때까지 잠시 기다려주십시오.</strong></p>
 
