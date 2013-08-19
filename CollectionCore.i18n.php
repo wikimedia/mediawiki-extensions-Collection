@@ -1547,6 +1547,36 @@ $messages['fi'] = array(
 	'coll-suggest_empty' => 'tyhjä',
 );
 
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'coll-print_export' => 'Skriva út/útflyt',
+	'coll-create_a_book' => 'Ger eina bók',
+	'coll-create_a_book_tooltip' => 'Ger eina bók ella samling av síðum',
+	'coll-book_creator' => 'Bókaskapari',
+	'coll-download_as' => 'Tak niður sum $1',
+	'coll-download_as_tooltip' => 'Tak niður eina $1 versjón av hesi wiki síðu',
+	'coll-disable' => 'slá frá',
+	'coll-book_creator_disable' => 'Slá bókaskaparan frá',
+	'coll-book_creator_disable_tooltip' => 'Halt uppat at brúka bókaskaparan',
+	'coll-add_linked_article' => 'Legg ta leinkjaðu wikisíðuna til tína bók',
+	'coll-remove_linked_article' => 'Tak burtur ta leinkjaðu wikisíðuna frá tínari bók',
+	'coll-add_category' => 'Legg henda bólkin til tína bók',
+	'coll-add_category_tooltip' => 'Legg afturat allar wikisíður í hesum bólkinum til tína bók',
+	'coll-add_this_page' => 'Legg hesa síðuna til tína bók',
+	'coll-bookscategory' => 'Bøkur',
+	'coll-clear_collection' => 'Tøm bókina',
+	'coll-clear_collection_confirm' => 'Ynskir tú veruliga at tøma bók tína fullkomiliga?',
+	'coll-clear_collection_tooltip' => 'Tak burtur allar wikisíður frá tínari verandi bók',
+	'coll-help' => 'Hjálp',
+	'coll-n_pages' => '$1 {{PLURAL:$1|síða|síður}}',
+	'coll-printable_version_pdf' => 'PDF versjón',
+	'coll-remove_this_page' => 'Tak burtur hesa síðuna úr tínari bók',
+	'coll-show_collection' => 'Vís bók',
+	'coll-suggest_empty' => 'tómur',
+);
+
 /** French (français)
  * @author Crochet.david
  * @author Grondin
