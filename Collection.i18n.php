@@ -201,8 +201,11 @@ $messages['qqq'] = array(
 The page title for this message is {{msg-mw|Coll-book creator disable}}.',
 	'coll-collection' => '{{Identical|Book}}',
 	'coll-collections' => '{{Identical|Book}}',
-	'coll-exclusion_category_title' => 'The message text is the name of a category.',
-	'coll-template_blacklist_title' => '{{notranslate}}',
+	'coll-exclusion_category_title' => 'Used as the name of a category.
+
+Used as <code>$1</code> in {{msg-mw|Coll-excluded-templates}}.',
+	'coll-template_blacklist_title' => '{{notranslate}}
+Used as <code>$1</code> in {{msg-mw|Coll-blacklisted-templates}}.',
 	'coll-print_template_prefix' => 'Prefix added to the templates name if you want to get a special for-print version of the template. So in a page instead of Template:Foo Template:PrintFoo is used if it exists.
 {{Identical|Print}}',
 	'coll-print_template_pattern' => 'Use print templates being subpages of regular templates. Parameters:
@@ -226,14 +229,19 @@ The page title for this message is {{msg-mw|Coll-book creator disable}}.',
 	'coll-subtitle' => '{{Identical|Subtitle}}',
 	'coll-contents' => '{{Identical|Content}}',
 	'coll-rename' => '{{Identical|Rename}}',
-	'coll-post_failed_msg' => '* $1 is a URL.
-* $2 is (probably) an explanation of the error.',
+	'coll-post_failed_msg' => 'Parameters:
+* $1 - URL. Default value: http://tools.pediapress.com/mw-serve/
+* $2 - error message',
 	'coll-mwserve_failed_msg' => 'Used as error message body. Parameters:
 * $1 - any one of the following information (not server name):
 ** invalid JSON string
 ** error message which JSON decoder returned',
 	'coll-empty_collection' => 'Translate "empty" as in "an empty book" (adj), not "empty the book" (verb)',
-	'coll-revision' => '{{Identical|Revision}}',
+	'coll-revision' => 'Unused at this time.
+
+Parameters:
+* $1 - revision ID
+{{Identical|Revision}}',
 	'coll-save_collection' => '',
 	'coll-save_category' => '{{doc-important|Do not change <code><nowiki>{{MediaWiki:Coll-bookscategory}}</nowiki></code>. The link and category name should be in the content language.}}',
 	'coll-overwrite_text' => 'Parameters:
@@ -281,10 +289,18 @@ Used as error message. Parameters:
 The title for this message is {{msg-mw|Coll-download failed title}}.',
 	'coll-is_cached' => 'Parameters:
 * $1 - URL of Special:Book?bookcmd=forcerender',
-	'coll-excluded-templates' => "Part of the text of the special page 'Rendering finished' which appears after clicking on 'Download' and a book has been generated.",
-	'coll-blacklisted-templates' => "Part of the text of the special page 'Rendering finished' which appears after clicking on 'Download' and a book has been generated.",
+	'coll-excluded-templates' => 'Part of the text of the special page "Rendering finished" which appears after clicking on \'Download\' and a book has been generated.
+
+Parameters:
+* $1 - the message {{msg-mw|Coll-exclusion category title}}',
+	'coll-blacklisted-templates' => "Part of the text of the special page 'Rendering finished' which appears after clicking on 'Download' and a book has been generated.
+
+Parameters:
+* $1 - the message {{msg-mw|Coll-template blacklist title}}",
 	'coll-order_from_pp' => '* $1 is the name of a print provider (a company name)',
-	'coll-about_pp' => '{{Identical|About}}',
+	'coll-about_pp' => 'Parameters:
+* $1 - POD partner name. Default value: PediaPress
+{{Identical|About}}',
 	'coll-invalid_podpartner_title' => 'POD means print-on-demand',
 	'coll-invalid_podpartner_msg' => 'POD means print-on-demand.',
 	'coll-license' => '{{Identical|License}}',

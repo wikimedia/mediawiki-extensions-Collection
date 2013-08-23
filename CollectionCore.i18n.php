@@ -94,10 +94,10 @@ The text of the link is {{msg-mw|Coll-create a book}}.',
 Also used as heading in "Book creator box".',
 	'coll-download_as' => 'Used for two different purposes:
 # As link text in the toolbox in the side bar to download wiki pages in a specified file format (such as PDF). The link has {{msg-mw|coll-download as tooltip}} as tooltip.
-# As button text for the download button on [[Special:Book]] when there is only one file format. The button is next to the text of {{msg-mw|coll-download as text}}. (If there is a choice of file format {{msg-mw|coll-download}} together with {{msg-mw|coll-download text}} is used insted.)
+# As button text for the download button on [[Special:Book]] when there is only one file format. The button is next to the text of {{msg-mw|coll-download as text}}. (If there is a choice of file format {{msg-mw|coll-download}} together with {{msg-mw|coll-download text}} is used instead.)
 
-In both cases $1 is a file format.
-
+Parameters:
+* $1 - in both cases, a file format
 {{Identical|Download}}',
 	'coll-download_as_tooltip' => 'Used as tooltip for the link. Its link text is {{msg-mw|Coll-download as}}.
 
