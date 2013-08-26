@@ -3009,6 +3009,45 @@ $messages['lv'] = array(
 	'coll-suggest_empty' => 'tukšs',
 );
 
+/** Basa Banyumasan (Basa Banyumasan)
+ * @author StefanusRA
+ */
+$messages['map-bms'] = array(
+	'coll-print_export' => 'Cithak/ekspor',
+	'coll-create_a_book' => 'Gawe buku',
+	'coll-create_a_book_tooltip' => 'Gawe buku utawa koleksi kaca',
+	'coll-book_creator' => 'Sing gawe buku',
+	'coll-download_as' => 'Unduh minangka $1',
+	'coll-download_as_tooltip' => 'Unduh versi $1 kaca wiki kiye',
+	'coll-disable' => 'Dinonaktifna',
+	'coll-book_creator_disable' => 'Panyipta buku dinonaktifna',
+	'coll-book_creator_disable_tooltip' => 'Mandeg gole nggunakna panyipta buku',
+	'coll-add_linked_article' => 'Tambahna kaca sing kahubung maring bukune Rika',
+	'coll-remove_linked_article' => 'Bisek kaca wiki kahubung sekang bukune Rika',
+	'coll-add_category' => 'Tambahna kategori kiye maring bukune Rika',
+	'coll-add_category_tooltip' => 'Tambahna kabeh kaca wiki nang kategori kiye maring bukune Rika',
+	'coll-add_this_page' => 'Tambahna kaca kiye maring bukune Rika',
+	'coll-add_page_tooltip' => 'Tambahna kaca wiki kiye maring bukune Rika',
+	'coll-bookscategory' => 'Buku',
+	'coll-clear_collection' => 'Busek buku',
+	'coll-clear_collection_confirm' => 'Apa Rika pancen arep mbusek kabeh bukune Rika?',
+	'coll-clear_collection_tooltip' => 'Busek kabeh kaca wiki sekang bukune Rika',
+	'coll-help' => 'Pitulung',
+	'coll-help_tooltip' => 'Tidokna pitulung ngenani cara gawe buku',
+	'coll-helppage' => 'Pitulung:Buku', # Fuzzy
+	'coll-load_collection' => 'Unggah buku',
+	'coll-load_collection_tooltip' => 'Unggah buku kiye minangka buku aktif Rika',
+	'coll-n_pages' => '$1 {{PLURAL:$1|kaca|kaca}}', # Fuzzy
+	'coll-printable_version_pdf' => 'Vèrsi PDF',
+	'coll-remove_this_page' => 'Busek kaca kiye sekang bukune Rika',
+	'coll-remove_page_tooltip' => 'Busek kaca wiki kiye sekang bukune Rika',
+	'coll-show_collection' => 'Tidokna buku',
+	'coll-show_collection_tooltip' => 'Klik kanggo nyunting/ngunduh/mesen bukune Rika',
+	'coll-not_addable' => 'Kaca kiye ora teyeng ditambahna',
+	'coll-make_suggestions' => 'Saranaké kaca',
+	'coll-suggest_empty' => 'kosong',
+);
+
 /** Moksha (мокшень)
  * @author Numulunj pilgae
  */
