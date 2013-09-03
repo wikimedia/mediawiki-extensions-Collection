@@ -4871,6 +4871,13 @@ Lista päivittyy aina kun napsautat lisää- tai poista-painikkeita.',
 	'right-collectionsaveascommunitypage' => 'Tallentaa kirjoja yhteisösivuina',
 );
 
+/** Faroese (føroyskt)
+ * @author EileenSanda
+ */
+$messages['fo'] = array(
+	'coll-desc' => '[[Special:Book|Ger bøkur]]',
+);
+
 /** French (français)
  * @author Antaya
  * @author Crochet.david
