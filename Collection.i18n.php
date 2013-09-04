@@ -4876,6 +4876,7 @@ Lista päivittyy aina kun napsautat lisää- tai poista-painikkeita.',
  */
 $messages['fo'] = array(
 	'coll-desc' => '[[Special:Book|Ger bøkur]]',
+	'coll-book_creator_intro' => "<big>Við ''bókaskaparanum'' kanst tú gera eina bók sum inni inniheldur wiki síður sum tú sjálvur velur. Tú kanst útflyta bókina í ymiskum formatum (til dømis PDF ella ODF) ella bílegg eitt ptentað eintak.</big>",
 );
 
 /** French (français)
