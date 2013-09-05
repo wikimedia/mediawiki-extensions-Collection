@@ -275,9 +275,10 @@ The variable $1 is another message string, as follows:
 * $1 - article name',
 	'coll-rendering_page' => 'Parameters:
 * $1 - page name',
-	'coll-rendering_finished_text' => 'This is the first part of the text of the special page "Rendering finished", which appears after clicking \'download book\' and the book has been generated.  
+	'coll-rendering_finished_text' => 'This is the first part of the text of the special page "Rendering finished", which appears after clicking "download book" and the book has been generated.  
 
-$1 is not text; it is the http:// address of the book.',
+Parameters:
+* $1 - the http:// address of the book',
 	'coll-download_notfound_title' => '{{Identical|File not found}}',
 	'coll-download_failed_title' => 'Unused at this time.
 
@@ -14985,6 +14986,7 @@ Goş ýa-da ýyr düwmelerine her basanyňyzda bu sanaw täzelenilýär.',
 
 /** Tagalog (Tagalog)
  * @author AnakngAraw
+ * @author Sky Harbor
  */
 $messages['tl'] = array(
 	'coll-desc' => '[[Special:Book|Lumikha ng mga aklat]]',
@@ -15098,7 +15100,7 @@ Mga tala:
 	'coll-invalid_podpartner_title' => 'Hindi tanggap na kasosyo/kawaksing pang-IKH ("ilimbag-kapag-hiniling")',
 	'coll-invalid_podpartner_msg' => 'Hindi tanggap ang ibinigay na kawaksi/kasosyong pang-IKH ("ilimbag-kapag-hiniling").
 Makipagugnayan sa iyong tagapangasiwa ng MediaWiki.',
-	'coll-license' => 'Pahintulot (lisensya)',
+	'coll-license' => 'Lisensiya',
 	'coll-return_to' => 'Bumalik sa [[:$1]]',
 	'coll-order_info_article' => '{{MediaWiki:Coll-helppage}}/PalimbagangPedya kabatiran ng hinihiling',
 	'coll-suggest_title' => 'Minumungkahing mga pahina para sa aklat mo',
