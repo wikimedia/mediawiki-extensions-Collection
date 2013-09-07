@@ -298,7 +298,8 @@ Parameters:
 
 Parameters:
 * $1 - the message {{msg-mw|Coll-template blacklist title}}",
-	'coll-order_from_pp' => '* $1 is the name of a print provider (a company name)',
+	'coll-order_from_pp' => 'Used as label for the Submit button. Parameters:
+* $1 - the name of a print provider (a company name)',
 	'coll-about_pp' => 'Parameters:
 * $1 - POD partner name. Default value: PediaPress
 {{Identical|About}}',
