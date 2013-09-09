@@ -11144,7 +11144,7 @@ Nòtas :
 	'coll-download_failed_text' => "Una error s'es producha pendent lo telecargament del fichièr : $1",
 	'coll-is_cached' => '<ul><li>Una version en escondedor del document es estada trobada, cap de rendut èra pas necessari. <a href="$1">Forçar lo rendut un còp de mai.</a></li></ul>',
 	'coll-excluded-templates' => '* De modèls dins la categoria [[:Category:$1|$1]] son estats excluts.',
-	'coll-blacklisted-templates' => '* De modèls dins la tièra negra [[:$1]] son estats excluts.',
+	'coll-blacklisted-templates' => '* De modèls dins la lista negra [[:$1]] son estats excluts.',
 	'coll-book_title' => 'Comandar tal coma un libre estampat',
 	'coll-book_text' => 'Obtenètz un libre estampat a partir de vòstre partenari d’estampatge a la demanda :',
 	'coll-order_from_pp' => 'Apercebut amb $1',
