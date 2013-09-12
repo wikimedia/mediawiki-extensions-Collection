@@ -196,9 +196,11 @@ The list is updated whenever you click on the add or remove buttons.',
 $messages['qqq'] = array(
 	'coll-desc' => '{{desc|name=Collection|url=http://www.mediawiki.org/wiki/Extension:Collection}}',
 	'coll-manage_your_book' => 'Used as a title.',
+	'coll-book_creator_help' => 'Refers to {{msg-mw|Coll-helppage}}.',
 	'coll-book_creator_disable_text' => 'Used as page body.
 
 The page title for this message is {{msg-mw|Coll-book creator disable}}.',
+	'coll-book_creator_text_article' => 'Refers to {{msg-mw|Coll-helppage}}.',
 	'coll-collection' => '{{Identical|Book}}',
 	'coll-collections' => '{{Identical|Book}}',
 	'coll-exclusion_category_title' => 'Used as the name of a category.
@@ -243,7 +245,8 @@ Parameters:
 * $1 - revision ID
 {{Identical|Revision}}',
 	'coll-save_collection' => '',
-	'coll-save_category' => '{{doc-important|Do not change <code><nowiki>{{MediaWiki:Coll-bookscategory}}</nowiki></code>. The link and category name should be in the content language.}}',
+	'coll-save_category' => '{{doc-important|Do not change <code><nowiki>{{MediaWiki:Coll-bookscategory}}</nowiki></code>. The link and category name should be in the content language.}}
+Refers to {{msg-mw|Coll-bookscategory}}.',
 	'coll-overwrite_text' => 'Parameters:
 * $1 - page title',
 	'coll-yes' => 'This is a label on a submit button. The related question is in the message {{msg-mw|Coll-overwrite_text}}.
@@ -275,10 +278,36 @@ The variable $1 is another message string, as follows:
 * $1 - article name',
 	'coll-rendering_page' => 'Parameters:
 * $1 - page name',
+	'coll-rendering_page_info_text_article' => 'Used as page title.
+
+Refers to {{msg-mw|Coll-helppage}}.
+
+See also:
+* {{msg-mw|Coll-rendering collection info text article}}',
+	'coll-rendering_collection_info_text_article' => 'Used as page title.
+
+Refers to {{msg-mw|Coll-helppage}}.
+
+See also:
+* {{msg-mw|Coll-rendering page info text article}}',
 	'coll-rendering_finished_text' => 'This is the first part of the text of the special page "Rendering finished", which appears after clicking "download book" and the book has been generated.  
 
+Refers to {{msg-mw|Coll-helppage}}.
+
 Parameters:
-* $1 - the http:// address of the book',
+* $1 - the URL to download the book file',
+	'coll-finished_page_info_text_article' => 'Used as page title.
+
+Refers to {{msg-mw|Coll-helppage}}.
+
+See also:
+* {{msg-mw|Coll-finished collection info text article}}',
+	'coll-finished_collection_info_text_article' => 'Used as page title.
+
+Refers to {{msg-mw|Coll-helppage}}.
+
+See also:
+* {{msg-mw|Coll-finished page info text article}}',
 	'coll-download_notfound_title' => '{{Identical|File not found}}',
 	'coll-download_failed_title' => 'Unused at this time.
 
@@ -308,10 +337,12 @@ Parameters:
 	'coll-license' => '{{Identical|License}}',
 	'coll-license_url' => '{{notranslate}}',
 	'coll-return_to' => '{{Identical|Return to $1}}',
-	'coll-order_info_article' => '{{doc-important|Do not translate "<nowiki>{{MediaWiki:Coll-helppage}}/</nowiki>"}}
-Sub page of {{msg-mw|coll-helppage}} ({{int:coll-helppage}})
+	'coll-order_info_article' => '{{doc-important|Do not translate <code><nowiki>{{MediaWiki:Coll-helppage}}/</nowiki></code>.}}
+Used as page title for the page to show order information for printed books.
 
-The contents of this page appear in the "Order as a printed book" box on <nowiki>[[Special:Book]]</nowiki> when a user clicks on "Show more information" (i.e. it\'s hidden by default). The page contains general information on how to order a book from PediaPress. This can be seen e.g. on en.wp, when logged-in. The title of the sub-page "PediaPress order information" does not appear in the box, only the contents of the sub-page.',
+Refers to {{msg-mw|Coll-helppage}}.
+
+The contents of this page appear in the "Order as a printed book" box on [[Special:Book]] when a user clicks on "Show more information" (i.e. it\'s hidden by default). The page contains general information on how to order a book from PediaPress. This can be seen e.g. on en.wp, when logged-in. The title of the sub-page "PediaPress order information" does not appear in the box, only the contents of the sub-page.',
 	'coll-suggested_articles' => '{{Identical|Suggestion}}',
 	'coll-suggest_reset_bans' => '{{Identical|Reset}}',
 	'coll-suggest_your_book' => '{{Identical|Book}}',
