@@ -8808,6 +8808,7 @@ $messages['ky'] = array(
 /** Luxembourgish (Lëtzebuergesch)
  * @author Les Meloures
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'coll-desc' => '[[Special:Book|Bicher uleeën]]',
@@ -8894,16 +8895,16 @@ Wann dat net sollt de fall sinn, da klickt w.e.g. op den Aktualiséieren/Refresh
 	'coll-rendering_status' => '<strong>Statut :</strong> $1',
 	'coll-rendering_article' => '(Wiki Säit: $1)',
 	'coll-rendering_page' => '(Säit: $1)',
-	'coll-rendering_page_info_text_article' => "{{MediaWiki:Coll-helppage}}/Informatiounstext iwwert d'Verschaffe vu Säiten",
-	'coll-rendering_collection_info_text_article' => "{{MediaWiki:Coll-helppage}}/Informatiounstext iwwert d'Duerstelle vu Sammlungen",
+	'coll-rendering_page_info_text_article' => "{{MediaWiki:Coll-helppage}}/Informatiounstext iwwer d'Verschaffe vu Säiten",
+	'coll-rendering_collection_info_text_article' => "{{MediaWiki:Coll-helppage}}/Informatiounstext iwwer d'Duerstelle vu Sammlungen",
 	'coll-rendering_finished_title' => 'Fäerdeg gemaach',
 	'coll-rendering_finished_text' => "<strong>De Fichier gouf generéiert.</strong>
 <strong>[$1 Luet de Fichier]</strong> op Äre Computer.
 
 Opgepasst:
 *Sidd Dir net zefridde mam Resultat? Kuckt [[{{MediaWiki:Coll-helppage}}|d'Hëllefssäit iwwer Bicher]] fir Méiglechkeete fir et ze verbesseren.",
-	'coll-finished_page_info_text_article' => "{{MediaWiki:Coll-helppage}}/Informatiounstext iwwert d'Verschaffe vu Säiten",
-	'coll-finished_collection_info_text_article' => "{{MediaWiki:Coll-helppage}}/Informatiounstext iwwert d'Duerstelle vu Sammlungen",
+	'coll-finished_page_info_text_article' => "{{MediaWiki:Coll-helppage}}/Informatiounstext iwwer d'Verschaffe vu Säiten",
+	'coll-finished_collection_info_text_article' => "{{MediaWiki:Coll-helppage}}/Informatiounstext iwwer d'Duerstelle vu Sammlungen",
 	'coll-notfound_title' => 'Buch net fonnt',
 	'coll-notfound_text' => "D'Buch-Säit konnt net fonnt ginn.",
 	'coll-download_notfound_title' => 'Fichier gouf net fonnt',
