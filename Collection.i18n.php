@@ -15077,7 +15077,7 @@ Hindi aandar ng tama ang pahinang ito, maliban na lamang kung bubuhayin ang Java
 	'coll-revision' => 'Pagbabago: $1',
 	'coll-save_collection_title' => 'Sagipin at ipamahagi ang aklat mo',
 	'coll-save_collection_text' => 'Pumili ng isang pook (lokasyon):',
-	'coll-login_to_save' => 'Kung nais mong magsagip ng mga aklat para gamitin sa ibang pagkakataon, mangyaring [[Special:UserLogin|lumagda o lumikha ng akawnt]].',
+	'coll-login_to_save' => 'Kung nais mong magsagip ng mga aklat para gamitin sa ibang pagkakataon, mangyaring [[Special:UserLogin|lumagda o lumikha ng kuwenta]].',
 	'coll-personal_collection_label' => 'Pansariling aklat:',
 	'coll-community_collection_label' => 'Aklat ng pamayanan:',
 	'coll-save_collection' => 'Sagipin ang aklat',
