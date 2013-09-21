@@ -1824,6 +1824,31 @@ $messages['bar'] = array(
 	'coll-community_collection_label' => 'Gmoahschoftlichs Buach',
 );
 
+/** Bikol Central (Bikol Central)
+ * @author Geopoet
+ */
+$messages['bcl'] = array(
+	'coll-desc' => '[[Special:Book|Magmukna nin mga libro]]',
+	'coll-book_creator_intro' => '<big>Sa paggamit kan "paramukna nin libro" ika makakapagmukna nin sarong libro na nilalaogan kan saimong mga piniling pahina nin wiki. Ika makakapagpaluwas nin libro sa manlaen-laen na mga pormat (por ehemplo PDF o ODF) o mag-order nin imprintadong kopya.</big>',
+	'coll-manage_your_book' => 'Manihoon an saimong libro',
+	'coll-book_creator_help' => 'Hilngon an [[{{MediaWiki:Coll-helppage}}|an pahina nin katabangan mapanungod sa mga libro]] para sa kadugangan na impormasyon.',
+	'coll-start_book_creator' => 'Poonan an paramukna nin libro',
+	'coll-book_creator_continue' => 'Padaguson an paggamit sa paramukna nin libro',
+	'coll-book_creator_disable_text' => "An ''Paramukna nin libro'' pag-uuntukon asin an libro na saimong ginigibo pagtatangkason.",
+	'coll-book_creator_text_article' => '{{MediaWiki:Coll-helppage}}/Teksto kan Paramukna nin Libro',
+	'coll-collection' => 'Libro',
+	'coll-collections' => 'Mga Libro',
+	'coll-exclusion_category_title' => 'Dae ipagbali sa imprinta',
+	'coll-print_template_prefix' => 'Imprintaron',
+	'coll-print_template_pattern' => '$1/Imprintaron',
+	'coll-unknown_subpage_title' => 'Bakong bisto na subpahina',
+	'coll-unknown_subpage_text' => 'Ining subphina kan [[Special:Book|Libro]] bakong eksistido',
+	'coll-couldnotaddarticle_title' => 'Dae makakadugang nin pahina sa wiki',
+	'coll-couldnotaddarticle_msg' => 'An pahina nin wiki dae maikakadugang.',
+	'coll-couldnotremovearticle_title' => 'Dae matatangkas an pahina nin wiki',
+	'coll-couldnotremovearticle_msg' => 'An pahina nin wiki dae matatangkas.',
+);
+
 /** Belarusian (беларуская)
  * @author Тест
  * @author Хомелка

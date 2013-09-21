@@ -656,6 +656,46 @@ $messages['bar'] = array(
 	'coll-suggest_empty' => 'laar',
 );
 
+/** Bikol Central (Bikol Central)
+ * @author Geopoet
+ */
+$messages['bcl'] = array(
+	'coll-print_export' => 'Imprintaron/Ipagpaluwas',
+	'coll-create_a_book' => 'Magmukna nin sarong libro',
+	'coll-create_a_book_tooltip' => 'Magmukna nin sarong libro o koleksyon nin pahina',
+	'coll-book_creator' => 'Paramukna nin libro',
+	'coll-download_as' => 'Ikarga bilang $1',
+	'coll-download_as_tooltip' => 'Magkarga nin sarong $1 na bersyon kaining pahina nin wiki',
+	'coll-disable' => 'pauntukon',
+	'coll-book_creator_disable' => 'Pauntukon an paramukna nin libro',
+	'coll-book_creator_disable_tooltip' => 'Punduhon an paggagamit kan paramukna nin libro',
+	'coll-add_linked_article' => 'Magdugang kan pinagsugpon na pahina nin wiki sa saimong libro',
+	'coll-remove_linked_article' => 'Tangkason an pinagsugpon na pahina nin wiki gikan sa saimong libro',
+	'coll-add_category' => 'Idugang ining kategoriya sa saimong libro',
+	'coll-add_category_tooltip' => 'Idugang an gabos na mga pahina nin wiki sa laog kaining kategoriya sa saimong libro',
+	'coll-add_this_page' => 'Idugang ining pahina sa saimong libro',
+	'coll-add_page_tooltip' => 'Idugang an sa ngunyan na pahina nin wiki sa saimong libro',
+	'coll-bookscategory' => 'Mga Libro',
+	'coll-clear_collection' => 'Klaraduhon an libro',
+	'coll-clear_collection_confirm' => 'Kamuyahan mo talaga na bilog na klaraduhon an saimong libro?',
+	'coll-clear_collection_tooltip' => 'Tangkason an gabos na mga pahina nin wiki gikan sa ngunyan mong libro',
+	'coll-help' => 'Katabangan',
+	'coll-help_tooltip' => 'Ipahiling an katabangan mapanungod sa pagmumukna nin mga libro',
+	'coll-helppage' => 'Help:Mga Libro',
+	'coll-load_collection' => 'Ikarga an libro',
+	'coll-load_collection_tooltip' => 'Ikarga ining libro bilang iyo an sa ngunyan mong libro',
+	'coll-n_pages' => '$1 {{PLURAL:$1|pahina|mga pahina}}',
+	'coll-printable_version_pdf' => 'PDF na bersyon',
+	'coll-remove_this_page' => 'Tangkason ining pahina gikan sa saimong libro',
+	'coll-remove_page_tooltip' => 'Tangkason an sa ngunyan na pahina nin wiki gikan sa saimong libro',
+	'coll-show_collection' => 'Ipahiling an libro',
+	'coll-show_collection_tooltip' => 'I-klik sa pagliwat/pagkarga/pag-order nin saimong libro',
+	'coll-not_addable' => 'Ining pahina dae maipagdugang',
+	'coll-make_suggestions' => 'Magsuhestiyon nin mga pahina',
+	'coll-make_suggestions_tooltip' => 'Ipahiling an mga suhestiyon basado sa mga pahina nin saimong libro',
+	'coll-suggest_empty' => 'bokya',
+);
+
 /** Belarusian (беларуская)
  * @author Тест
  * @author Хомелка
