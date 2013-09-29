@@ -1847,6 +1847,78 @@ $messages['bcl'] = array(
 	'coll-couldnotaddarticle_msg' => 'An pahina nin wiki dae maikakadugang.',
 	'coll-couldnotremovearticle_title' => 'Dae matatangkas an pahina nin wiki',
 	'coll-couldnotremovearticle_msg' => 'An pahina nin wiki dae matatangkas.',
+	'coll-savedbook_template' => 'pinagtagama_libro',
+	'coll-your_book' => 'An saimong libro',
+	'coll-download_title' => 'Kargahon',
+	'coll-download_text' => 'Sa pagkarga nin saimong libro pilion an sarong pormat asin i-klik an pindutan.',
+	'coll-download_as_text' => 'Sa pagkarga nin saimong libro sa $1 na pormat i-klik an pindutan.',
+	'coll-download' => 'Kargahon',
+	'coll-format_label' => 'Pormat:',
+	'coll-remove' => 'Tangkason',
+	'coll-show' => 'Ipahiling',
+	'coll-move_to_top' => 'Balyohon pasiring sa itaas',
+	'coll-move_up' => 'Balyohon paitaas',
+	'coll-move_down' => 'Balyon paibaba',
+	'coll-move_to_bottom' => 'Balyohon patahaw',
+	'coll-title' => 'Titulo:',
+	'coll-subtitle' => 'Subtitulo',
+	'coll-contents' => 'Mga laóg',
+	'coll-drag_and_drop' => 'Gamiton an pagbotong asin paghulog tanganing baguhon an pasurunod na wiking mga pahina asin mga tsapter',
+	'coll-create_chapter' => 'Muknaon an tsapter',
+	'coll-sort_alphabetically' => 'salansana sa paagi nin alpabetiko',
+	'coll-rename' => 'pangaranan liwat',
+	'coll-new_chapter' => 'Ikaag an pangaran para sa baguhong tsapter',
+	'coll-rename_chapter' => 'Ikaag an baguhong pangaran para sa tsapter',
+	'coll-no_such_category' => 'Mayo nin siring na kategoriya',
+	'coll-notitle_title' => 'An titulo kan pahina dae madedeterminaran.',
+	'coll-post_failed_title' => 'An PASKIL na hagad nagpalya',
+	'coll-post_failed_msg' => 'An PASKIL na hagad sa $1 nagpalya ($2).',
+	'coll-mwserve_failed_title' => 'Maghaya nin serbidor na kasalaan',
+	'coll-mwserve_failed_msg' => 'Sarong kasalaan an nangyari sa naghayang serbidor: <nowiki>$1</nowiki>',
+	'coll-error_reponse' => 'Kasalaan an simbag gikan sa serbidor',
+	'coll-empty_collection' => 'Daeng laog na libro',
+	'coll-revision' => 'Rebisyon:$1',
+	'coll-save_collection_title' => 'Itagama asin iheras an saimong libro',
+	'coll-save_collection_text' => 'Magpili nin sarong lokasyon nin sarayan para sa saimong libro:',
+	'coll-login_to_save' => 'Kun muya mong magtagama nin mga libro para ibang oras nin paggamit, tabi man [[Special:UserLogin|maglaog o magmukna nin panindog]].',
+	'coll-personal_collection_label' => 'Personal na libro:',
+	'coll-community_collection_label' => 'Komunidad na libro:',
+	'coll-save_collection' => 'Itagama an libro',
+	'coll-save_category' => 'Gabos na pinagtagamang mga libro pinagdugang sa kategoriya [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]].',
+	'coll-overwrite_title' => 'An pahina eksistido na.
+Patungan?',
+	'coll-overwrite_text' => 'Sarong pahina na igwang pangaran na [[:$1]] eksistido na.
+Muya mo ining pagribayan kan saimong libro?',
+	'coll-yes' => 'Iyo',
+	'coll-no' => 'Dae',
+	'coll-load_overwrite_text' => 'Ika igwa na nin nagkapirang mga pahina sa saimong libro.
+Muya mo na patungan an yaon mo nang libro, isugpon an baguhong laog, o kanselaron an pagkarga kaining libro?',
+	'coll-overwrite' => 'Patungan',
+	'coll-append' => 'Isugpon',
+	'coll-cancel' => 'Kanselaron',
+	'coll-update' => 'Magsumpay',
+	'coll-limit_exceeded_title' => 'An libro grabe kadakula',
+	'coll-limit_exceeded_text' => 'An saimong libro grabe kadakula.
+Mayo nang dugang na mga pahina an puwedeng maikadugang.',
+	'coll-rendering_title' => 'Naghahaya',
+	'coll-rendering_text' => '<p><strong>Tabi man maghalat mantang an documento pinagpupuyos pa.</strong></p>
+
+<p><strong>Progreso:</strong> <span id="renderingProgress">$1</span>% <span id="renderingStatus">$2</span></p>
+
+<p>Ining pahina dapat na awtomatikong pagpreskohon otro lambang kadikit na mga segundo. Kun ini dae minagana, tabi man pakipindot an pindutan na preskohon otro na yaon sa saimong kilyawan.</p>',
+	'coll-rendering_status' => '<strong>Kamugtakan:</strong> $1',
+	'coll-rendering_article' => '(wiking pahina: $1)',
+	'coll-rendering_page' => '(pahina: $1)',
+	'coll-rendering_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Naghahayang pahina sa tekstong impormasyon',
+	'coll-rendering_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Naghahayang collection sa tekstong impormasyon',
+	'coll-rendering_finished_title' => 'An paghahaya pinagtapos na',
+	'coll-notfound_title' => 'An libro dae nanumpungan',
+	'coll-notfound_text' => 'Dae nanunumpungan an pahina kan libro',
+	'coll-download_notfound_title' => 'An bangay dae nanumpungan',
+	'coll-download_notfound_text' => 'An bangay na saimong pinagprobaran na ikarga dae tabi eksistido.
+Baka ini pinagpura na asin kinakaipong ipagpupuyos otro.',
+	'coll-download_failed_title' => 'Kasalaan mantang ikinakarga',
+	'coll-download_failed_text' => 'Nagkaigwa nin kasalaan kunsoarin ikinakarga an bangay: $1',
 );
 
 /** Belarusian (беларуская)
@@ -4952,6 +5024,7 @@ $messages['fo'] = array(
  * @author Meithal
  * @author Peter17
  * @author PieRRoMaN
+ * @author Urhixidur
  * @author Verdy p
  * @author Wyz
  * @author Zetud
@@ -4967,7 +5040,7 @@ $messages['fr'] = array(
 	'coll-book_creator_text_article' => '{{MediaWiki:Coll-helppage}}/Texte du créateur de livres',
 	'coll-collection' => 'Livre',
 	'coll-collections' => 'Livres',
-	'coll-exclusion_category_title' => "Exclure lors de l'impression",
+	'coll-exclusion_category_title' => 'Exclure lors de l’impression',
 	'coll-print_template_prefix' => 'Imprimer',
 	'coll-print_template_pattern' => '$1/Imprimer',
 	'coll-unknown_subpage_title' => 'Sous-page inconnue',
@@ -5055,7 +5128,7 @@ Notes :
 	'coll-notfound_title' => 'Livre non trouvé',
 	'coll-notfound_text' => 'La page du livre n’a pas pu être trouvée.',
 	'coll-download_notfound_title' => 'Fichier introuvable',
-	'coll-download_notfound_text' => "Le fichier que vous essayez de télécharger n'existe pas : il a peut-être été supprimé et doit être généré à nouveau",
+	'coll-download_notfound_text' => 'Le fichier que vous essayez de télécharger n’existe pas : il a peut-être été supprimé et doit être généré à nouveau.',
 	'coll-download_failed_title' => 'Erreur lors du téléchargement',
 	'coll-download_failed_text' => 'Une erreur est survenue pendant le téléchargement du fichier : $1',
 	'coll-is_cached' => '<ul><li>Une version en cache du document a été trouvée, aussi aucun rendu n’était nécessaire. <a href="$1">Forcer un nouveau rendu.</a></li></ul>',
@@ -5072,8 +5145,8 @@ Veuillez contacter votre administrateur MediaWiki.',
 	'coll-return_to' => 'Retourner vers [[:$1]]',
 	'coll-order_info_article' => '{{MediaWiki:Coll-helppage}}/PediaPress commander des informations',
 	'coll-suggest_title' => 'Pages suggérées pour votre livre',
-	'coll-suggest_intro_text' => "Les suggestions sont fondées sur l'ensemble des pages wiki actuellement dans votre livre.
-La liste est mise à jour à chaque fois que vous cliquez sur les boutons d'ajout ou de suppression.",
+	'coll-suggest_intro_text' => 'Les suggestions sont fondées sur l’ensemble des pages wiki actuellement dans votre livre.
+La liste est mise à jour à chaque fois que vous cliquez sur les boutons d’ajout ou de suppression.',
 	'coll-suggested_articles' => 'Suggestions',
 	'coll-suggest_reset_bans' => 'réinitialiser',
 	'coll-suggest_reset_bans_tooltip' => 'Montrer les suggestions précédemment supprimées',
@@ -6088,85 +6161,124 @@ $messages['he'] = array(
  * @author Siddhartha Ghai
  */
 $messages['hi'] = array(
-	'coll-desc' => '[[Special:Collection|पन्ने जमा करें]], पीडीएफ बनायें', # Fuzzy
+	'coll-desc' => '[[Special:Book|पुस्तकें बनाएँ]]',
+	'coll-book_creator_intro' => "<big>''पुस्तक निर्माता'' द्वारा आप अपनी पसंद से पृष्ठ जोड़ कर एक पुस्तक का निर्माण कर सकते हैं। आप पुस्तकों को PDF और ODF जैसे विभिन्न फॉर्मेट में डाउनलोड कर सकते हैं और एक छपा हुआ संस्करण भी ऑर्डर कर सकते हैं।</big>",
 	'coll-manage_your_book' => 'आपकी पुस्तक का प्रबंधन',
+	'coll-book_creator_help' => 'अधिक जानकारी के लिए [[{{MediaWiki:Coll-helppage}}|पुस्तक सहायता पृष्ठ]] देखें।',
 	'coll-start_book_creator' => 'पुस्तक निर्माता आरंभ करें',
 	'coll-book_creator_continue' => 'पुस्तक निर्माता की उपयोग जारी रखें',
-	'coll-book_creator_text_article' => '{{MediaWiki:Coll-helppage}}/पुस्तक निर्माता लेख',
+	'coll-book_creator_disable_text' => "''पुस्तक निर्माता'' अक्षम कर दिया जाएगा और जिस पुस्तक पर आप कार्य कर रहे हैं उसे हटा दिया जाएगा।",
+	'coll-book_creator_text_article' => '{{MediaWiki:Coll-helppage}}/पुस्तक निर्माता पाठ',
 	'coll-collection' => 'पुस्तक',
 	'coll-collections' => 'पुस्तकें',
-	'coll-print_template_prefix' => 'मुद्रित करें',
-	'coll-print_template_pattern' => '$1/ मुद्रण',
+	'coll-exclusion_category_title' => 'प्रिंट में छोड़ें',
+	'coll-print_template_prefix' => 'प्रिंट करें',
+	'coll-print_template_pattern' => '$1/प्रिंट',
 	'coll-unknown_subpage_title' => 'अज्ञात उपपृष्ठ',
-	'coll-couldnotaddarticle_title' => 'विकि पृष्ठ नहीं जोड़ सका',
+	'coll-unknown_subpage_text' => '[[Special:Book|पुस्तक]] का यह उपपृष्ठ मौजूद नहीं है',
+	'coll-couldnotaddarticle_title' => 'विकि पृष्ठ जोड़ा नहीं जा सका',
 	'coll-couldnotaddarticle_msg' => 'यह विकि पृष्ठ जोड़ा नहीं जा सका।',
-	'coll-couldnotremovearticle_title' => 'विकि पृष्ठ नहीं निकाल सका',
-	'coll-couldnotremovearticle_msg' => 'यह विकि पृष्ठ को हटा नहीं जा सका।',
-	'coll-savedbook_template' => 'सहजा गया पुस्तक',
+	'coll-couldnotremovearticle_title' => 'विकि पृष्ठ हटाया नहीं जा सका',
+	'coll-couldnotremovearticle_msg' => 'इस विकि पृष्ठ को पुस्तक से हटाया नहीं जा सका।',
+	'coll-noscript_text' => '<h1>जावास्क्रिप्ट आवश्यक है!</h1>
+<strong>आपका ब्राउज़र जावास्क्रिप्ट समर्थन प्रदान नहीं करता है, या जावास्क्रिप्ट बंद की गयी है।
+बिना जावास्क्रिप्ट के यह पृष्ठ ठीक से काम नहीं करेगा।</strong>',
+	'coll-savedbook_template' => 'सहेजी_पुस्तक',
 	'coll-your_book' => 'आपकी पुस्तक',
-	'coll-download_title' => 'कलेक्शन पीडिएफ डाउनलोड करें', # Fuzzy
-	'coll-download_text' => 'आपके कलेक्शनका पीडिएफ अवतरण डाउनलोड करने के लिये, दिये हुए बटन पर क्लिक करें।', # Fuzzy
-	'coll-download' => 'डाउनलोड',
-	'coll-format_label' => 'प्रारूप:',
+	'coll-download_title' => 'डाउनलोड',
+	'coll-download_text' => 'अपनी पुस्तक डाउनलोड करने के लिए फॉर्मेट चुनें और बटन पर क्लिक करें।',
+	'coll-download_as_text' => 'अपनी पुस्तक को $1 फॉर्मेट में डाउनलोड करने के लिए बटन पर क्लिक करें।',
+	'coll-download' => 'डाउनलोड करें',
+	'coll-format_label' => 'फॉर्मेट:',
 	'coll-remove' => 'हटायें',
 	'coll-show' => 'दिखाएँ',
-	'coll-move_to_top' => 'सबसे उपर भेजें',
-	'coll-move_up' => 'उपर भेजें',
+	'coll-move_to_top' => 'सबसे ऊपर भेजें',
+	'coll-move_up' => 'ऊपर भेजें',
 	'coll-move_down' => 'नीचे भेजें',
 	'coll-move_to_bottom' => 'सबसे नीचे भेजें',
 	'coll-title' => 'शीर्षक:',
 	'coll-subtitle' => 'उपशीर्षक:',
 	'coll-contents' => 'अनुक्रम',
-	'coll-create_chapter' => 'नया अध्याय बनायें', # Fuzzy
-	'coll-sort_alphabetically' => 'अक्षरोंके अनुसार पन्ने लगायें', # Fuzzy
+	'coll-drag_and_drop' => 'विकि पृष्ठों और अध्यायों का क्रम बदलने के लिए ड्रैग और ड्रॉप का प्रयोग करें',
+	'coll-create_chapter' => 'अध्याय बनायें',
+	'coll-sort_alphabetically' => 'वर्णक्रम अनुसार क्रमबद्ध करें',
 	'coll-rename' => 'नाम बदलें',
 	'coll-new_chapter' => 'नये अध्याय के लिये नाम दें',
 	'coll-rename_chapter' => 'नये अध्याय के लिये नाम दें',
-	'coll-no_such_category' => 'ऐसी श्रेणी नहीं हैं',
-	'coll-notitle_title' => 'इस पन्ने का शीर्षक निश्चित नहीं कर पा रहें हैं।',
-	'coll-post_failed_title' => 'POST माँग पूरी नहीं हुई हैं',
-	'coll-post_failed_msg' => 'POST माँग पूरी नहीं हुई हैं ($2)', # Fuzzy
-	'coll-error_reponse' => 'सर्वरसे गलत रिस्पॉन्स मिला हैं',
-	'coll-empty_collection' => 'खाली कलेक्शन', # Fuzzy
+	'coll-no_such_category' => 'ऐसी कोई श्रेणी नहीं है',
+	'coll-notitle_title' => 'इस पृष्ठ का शीर्षक सुनिश्चित नहीं किया जा सका।',
+	'coll-post_failed_title' => 'POST अनुरोध विफल हुआ',
+	'coll-post_failed_msg' => '$1 को किया गया POST अनुरोध विफल हुआ ($2)।',
+	'coll-mwserve_failed_title' => 'रेंडर सर्वर में त्रुटि',
+	'coll-mwserve_failed_msg' => 'रेंडर सर्वर में त्रुटि हुई: <nowiki>$1</nowiki>',
+	'coll-error_reponse' => 'सर्वर से मिला त्रुटि सन्देश',
+	'coll-empty_collection' => 'खाली पुस्तक',
 	'coll-revision' => 'अवतरण: $1',
-	'coll-save_collection_title' => 'कलेक्शन संजोयें', # Fuzzy
-	'coll-save_collection_text' => 'इस कलेक्शनको फिरसे इस्तेमाल में लाने के लिये इसे एक नाम दें और इसका प्रकार चुनकर इसे संजोयें:', # Fuzzy
-	'coll-login_to_save' => 'अगर आप बादमें इस्तेमाल के लिये यह कलेक्शन संजोना चाहतें हैं, तो कृपया [[Special:UserLogin|लॉग इन करें या नया खाता खोलें]]।', # Fuzzy
-	'coll-personal_collection_label' => 'वैयक्तिक कलेक्शन:', # Fuzzy
-	'coll-community_collection_label' => 'सामूहिक कलेक्शन:', # Fuzzy
-	'coll-save_collection' => 'कलेक्शन संजोयें', # Fuzzy
-	'coll-overwrite_title' => 'पन्ना अस्तित्व में हैं। पुनर्लेखन करें?',
+	'coll-save_collection_title' => 'अपनी पुस्तक सहेजें और बाँटें',
+	'coll-save_collection_text' => 'अपनी पुस्तक को सहेजने के लिए जगह चुनें:',
+	'coll-login_to_save' => 'अगर आप बाद में प्रयोग के लिये यह पुस्तक संजोना चाहते हैं, तो कृपया [[Special:UserLogin|लॉग इन करें या नया खाता खोलें]]।',
+	'coll-personal_collection_label' => 'वैयक्तिक पुस्तक:',
+	'coll-community_collection_label' => 'सामूहिक पुस्तक:',
+	'coll-save_collection' => 'पुस्तक संजोयें',
+	'coll-save_category' => 'सभी संजोयी गयी पुस्तकें  [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]] श्रेणी में जोड़ी जाती हैं।',
+	'coll-overwrite_title' => 'पृष्ठ मौजूद है।
+पुनर्लेखन करें?',
 	'coll-overwrite_text' => '[[:$1]] नाम का पन्ना पहले से मौजूद है।
-क्या आप उसकी जगह अपना कलेक्शन डालना चाहते हैं?',
+क्या आप उसकी जगह अपनी पुस्तक डालना चाहते हैं?',
 	'coll-yes' => 'हाँ',
 	'coll-no' => 'नहीं',
-	'coll-load_overwrite_text' => 'आपके कलेक्शनमें पहले से कुछ पन्ने हैं।
-क्या आप आपका कलेक्शन दुबारा बनाना चाहतें हैं, या यह पन्ने बढाना चाहतें हैं?', # Fuzzy
+	'coll-load_overwrite_text' => 'आपकी पुस्तक में पहले से कुछ पन्ने हैं।
+क्या आप अपनी पुस्तक पुनर्लेखित करना चाहते हैं, नयी सामग्री जोड़ना चाहते हैं, या इस पुस्तक को लोड करना रद्द करना चाहते हैं?',
 	'coll-overwrite' => 'पुनर्लेखन करें',
-	'coll-append' => 'बढायें',
+	'coll-append' => 'जोड़ें',
 	'coll-cancel' => 'रद्द करें',
-	'coll-update' => 'अद्यतन',
-	'coll-limit_exceeded_title' => 'कलेक्शन बहुत बडा हुआ हैं', # Fuzzy
-	'coll-limit_exceeded_text' => 'आपका कलेक्शन बहुत बडा हुआ हैं।
-और पन्ने बढा नहीं सकतें।', # Fuzzy
-	'coll-rendering_title' => 'प्रतिपादन',
+	'coll-update' => 'अद्यतीत करें',
+	'coll-limit_exceeded_title' => 'पुस्तक बहुत बड़ी है',
+	'coll-limit_exceeded_text' => 'आपकी पुस्तक बहुत बड़ी है।
+और पृष्ठ जोड़े नहीं जा सकते।',
+	'coll-rendering_title' => 'रेंडर की जा रही है',
+	'coll-rendering_text' => '<p><strong>पुस्तक के जनरेट होने तक कृपया प्रतीक्षा करें।</strong></p>
+
+<p><strong>प्रोग्रेस:</strong> <span id="renderingProgress">$1</span>% <span id="renderingStatus">$2</span></p>
+
+<p>यह पृष्ठ हर कुछ क्षणों में स्वचालित रूप से रिफ्रेश होता रहेगा।
+यदि यह काम ना करे तो कृपया अपने ब्राउज़र का रिफ्रेश बटन दबाएँ।</p>',
 	'coll-rendering_status' => '<strong>स्थिति:</strong> $1',
-	'coll-rendering_article' => '(विकी  पृष्ठ : $1)',
+	'coll-rendering_article' => '(विकी पृष्ठ: $1)',
 	'coll-rendering_page' => '(पृष्ठ: $1)',
+	'coll-rendering_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/पृष्ठ जानकारी पाठ रेंडर हो रहा है',
+	'coll-rendering_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/कलेक्शन जानकारी पाठ रेंडर हो रहा है',
 	'coll-rendering_finished_title' => 'प्रतिपादन समाप्त',
-	'coll-notfound_title' => 'कलेक्शन मिला नहीं', # Fuzzy
-	'coll-notfound_text' => 'कलेक्शन पन्ना मिला नहीं।', # Fuzzy
+	'coll-rendering_finished_text' => '<strong>फ़ाइल जनरेट हो गयी है।</strong>
+अपने कम्प्युटर पर <strong>[$1 फ़ाइल डाउनलोड करें]</strong>।
+
+नोट:
+* आउटपुट से खुश नहीं हैं? उसे बेहतर बनाने की संभावनाओं के लिए [[{{MediaWiki:Coll-helppage}}|पुस्तक सहायता पृष्ठ]] देखें।',
+	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/पृष्ठ जानकारी पाठ रेंडर हो रहा है',
+	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/कलेक्शन जानकारी पाठ रेंडर हो रहा है',
+	'coll-notfound_title' => 'पुस्तक नहीं मिली',
+	'coll-notfound_text' => 'पुस्तक पृष्ठ नहीं मिला।',
 	'coll-download_notfound_title' => 'फ़ाइल नहीं मिली',
+	'coll-download_notfound_text' => 'जो फ़ाइल आप डाउनलोड करने की कोशिश कर रहे हैं, वह मौजूद नहीं है:
+शायद उसे हटा दिया गया है और पुनः जनरेट करने की आवश्यकता है।',
 	'coll-download_failed_title' => 'डाउनलोड के समय त्रुटि',
-	'coll-book_title' => 'छपा हुआ अवतरण माँगे', # Fuzzy
-	'coll-book_text' => 'आप नीचे दिये हुए प्रिन्ट-ऑन-डिमांड पार्टनर्ससे आपके कलेक्शनमें उपलब्ध पन्नोंका छपा हुआ अवतरण पा सकतें हैं:', # Fuzzy
-	'coll-order_from_pp' => '$1 से बुक मंगायें', # Fuzzy
+	'coll-download_failed_text' => 'फ़ाइल डाउनलोड करने में त्रुटि हुई: $1',
+	'coll-is_cached' => '<ul><li>कैशे मेमोरी में पुस्तक का एक अवतरण मिल गया है, अतः रेंडर करने की आवश्यकता नहीं पड़ी।
+<a href="$1">पुनः रेंडरिंग करें।</a></li></ul>',
+	'coll-excluded-templates' => '* [[:Category:$1|$1]] में मौजूद साँचे छोड़ दिए गए हैं।',
+	'coll-blacklisted-templates' => '* ब्लैकलिस्ट [[:$1]] में मौजूद साँचे छोड़ दिए गए हैं।',
+	'coll-book_title' => 'पुस्तक का छपा हुआ संस्करण ऑर्डर करें',
+	'coll-book_text' => 'हमारे प्रिन्ट-ऑन-डिमांड पार्टनर से पुस्तक का छपा हुआ संस्करण पाएँ।',
+	'coll-order_from_pp' => '$1 से झलक देखें',
 	'coll-about_pp' => '$1 के बारे में',
 	'coll-invalid_podpartner_title' => 'अमान्य POD साथी',
+	'coll-invalid_podpartner_msg' => 'चयनित प्रिंट-ऑन-डिमांड पार्टनर अमान्य है।
+कृपया अपने मीडियाविकि प्रबंधक से संपर्क करें।',
 	'coll-license' => 'लाइसेंस',
 	'coll-return_to' => 'वापसी  [[:$1]] को',
 	'coll-order_info_article' => '{{MediaWiki:Coll-helppage}}/पीडियाप्रैस आदेश जानकारी',
 	'coll-suggest_title' => 'अपनी किताब के लिए सुझाए गए पृष्ठों',
+	'coll-suggest_intro_text' => 'सुझाव पुस्तक में मौजूद पृष्ठों पर आधारित हैं। जब भी आप पृष्ठ जोड़ते अथवा हटाते हैं तो सुझाव अद्यतित होते हैं।',
 	'coll-suggested_articles' => 'सुझाव',
 	'coll-suggest_reset_bans' => 'रीसेट करें',
 	'coll-suggest_reset_bans_tooltip' => 'पेहले निकाले गए सुझाव दिखाएँ',
@@ -6175,11 +6287,18 @@ $messages['hi'] = array(
 	'coll-suggest_your_book' => 'आपकी पुस्तक',
 	'coll-suggest_show' => 'दिखाएँ',
 	'coll-suggest_ban_tooltip' => 'इस पृष्ठ को सुझाव तालिका से हटाएँ',
+	'coll-suggest_article_ban' => '<strong>$1</strong> पृष्ठ सुझावों से हटा दिया गया है ($2)।',
+	'coll-suggest_article_add' => '<strong>$1</strong> पृष्ठ आपकी पुस्तक में जोड़ दिया गया है ($2)।',
+	'coll-suggest_article_remove' => '<strong>$1</strong> पृष्ठ आपकी पुस्तक से हटा दिया गया है ($2)।',
 	'coll-suggest_undo_tooltip' => 'इस क्रिया को पूर्ववत् करें',
 	'coll-suggest_undo' => 'पूर्ववत करें',
 	'coll-format-rl' => 'ई-बुक (PDF)',
 	'coll-format-epub' => 'ई-बुक (EPUB)',
-	'right-collectionsaveasuserpage' => 'सदस्य पृष्ठ की रूप में पुस्तक सहेजें',
+	'coll-format-odf' => 'वर्ड प्रोसेसर (ओपन डॉक्यूमेंट)',
+	'coll-format-zim' => 'किविक्स (OpenZIM)',
+	'coll-format-docbook' => 'डॉकबुक',
+	'coll-format-okawix_zeno' => 'ओकाविक्स',
+	'right-collectionsaveasuserpage' => 'सदस्य पृष्ठ के रूप में पुस्तक सहेजें',
 	'right-collectionsaveascommunitypage' => 'पुस्तकों को समुदाय पृष्ठ के रूप में सहेजें',
 );
 
@@ -8857,7 +8976,7 @@ $messages['lb'] = array(
 	'coll-couldnotremovearticle_msg' => "D'Wikisäit konnt net ewechgeholl ginn.",
 	'coll-noscript_text' => '<h1>JavaScript gëtt gebraucht!</h1>
 <strong>Äre Browser ënnerstëtzt Java Script net oder JavaScript ass ausgeschalt.
-Dës Säit fonctionnéiert net richteg, ausser wa JavaScript ageschalt ass</strong>',
+Dës Säit funktionéiert net richteg, ausser wa JavaScript ageschalt ass</strong>',
 	'coll-savedbook_template' => 'gespäichert Buch',
 	'coll-your_book' => 'Äert Buch',
 	'coll-download_title' => 'Eroflueden',
@@ -8882,8 +9001,8 @@ Dës Säit fonctionnéiert net richteg, ausser wa JavaScript ageschalt ass</stro
 	'coll-rename_chapter' => "Gitt en neien Numm fir d'Kapitel un",
 	'coll-no_such_category' => 'Keng esou Kategorie',
 	'coll-notitle_title' => 'Den Titel vun der Säit konnt net festgestallt ginn.',
-	'coll-post_failed_title' => 'POST Ufro huet net fonctionnéiert',
-	'coll-post_failed_msg' => "D'POST Ufro u(n) $1 huet net fonctionnéiert ($2).",
+	'coll-post_failed_title' => 'POST Ufro huet net funktionéiert',
+	'coll-post_failed_msg' => "D'POST Ufro u(n) $1 huet net funktionéiert ($2).",
 	'coll-mwserve_failed_title' => 'Feeler vum Server',
 	'coll-mwserve_failed_msg' => 'Op dem Render-Server ass e Feeler geschitt: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Feelermeldng vum Server',
@@ -11783,7 +11902,7 @@ $messages['ps'] = array(
 	'coll-yes' => 'هو',
 	'coll-no' => 'نه',
 	'coll-overwrite' => 'دپاسه ليکل',
-	'coll-cancel' => 'ناګارل',
+	'coll-cancel' => 'ناگارل',
 	'coll-update' => 'اوسمهالول',
 	'coll-limit_exceeded_title' => 'کتاب ډېر لوی دی',
 	'coll-limit_exceeded_text' => 'ستاسې کتاب ډېر لوی دی.

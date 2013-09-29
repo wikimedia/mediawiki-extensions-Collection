@@ -1979,39 +1979,42 @@ $messages['he'] = array(
 /** Hindi (हिन्दी)
  * @author Ansumang
  * @author Kaustubh
+ * @author Siddhartha Ghai
  */
 $messages['hi'] = array(
 	'coll-print_export' => 'प्रिंट/निर्यात',
-	'coll-create_a_book' => 'मेरा कलेक्शन',
-	'coll-create_a_book_tooltip' => 'एक पुस्तक या पृष्ठ संग्रह बनाएँ',
+	'coll-create_a_book' => 'पुस्तक बनायें',
+	'coll-create_a_book_tooltip' => 'पुस्तक या पृष्ठ संग्रह बनाएँ',
 	'coll-book_creator' => 'पुस्तक निर्माता',
 	'coll-download_as' => '$1 के रूप में डाउनलोड करें',
-	'coll-download_as_tooltip' => 'इस विकि पृष्ठ के एक $1 संस्करन डाउनलोड करें',
+	'coll-download_as_tooltip' => 'इस विकि पृष्ठ का $1 संस्करण डाउनलोड करें',
 	'coll-disable' => 'अक्षम करें',
 	'coll-book_creator_disable' => 'पुस्तक निर्माता को अक्षम करें',
 	'coll-book_creator_disable_tooltip' => 'पुस्तक निर्माता का उपयोग बंद करें',
-	'coll-add_linked_article' => 'लिंक्ड विकि पृष्ठ को अपनी पुस्तक से जोड़ें',
-	'coll-remove_linked_article' => 'लिंक्ड विकि पृष्ठ को अपनी पुस्तक से निकालें',
-	'coll-add_category' => 'इस श्रेणी को अपनी पुस्तक से जोड़ें',
-	'coll-add_category_tooltip' => 'इस श्रेणी की सारी विकि पृष्ठ को अपनी पुस्तक से जोड़ें',
-	'coll-add_this_page' => 'इस पृष्ठ को अपनी पुस्तक से जोड़ें',
-	'coll-add_page_tooltip' => 'बर्त्तमान की विकि पृष्ठ को अपनी पुस्तक से जोड़ें',
+	'coll-add_linked_article' => 'जुड़े (लिंक्ड) विकि पृष्ठ को अपनी पुस्तक में जोड़ें',
+	'coll-remove_linked_article' => 'जुड़े (लिंक्ड) विकि पृष्ठ को अपनी पुस्तक से हटाएँ',
+	'coll-add_category' => 'इस श्रेणी को अपनी पुस्तक में जोड़ें',
+	'coll-add_category_tooltip' => 'इस श्रेणी के सभी विकि पृष्ठों को अपनी पुस्तक में जोड़ें',
+	'coll-add_this_page' => 'इस पृष्ठ को अपनी पुस्तक में जोड़ें',
+	'coll-add_page_tooltip' => 'वर्तमान विकि पृष्ठ को अपनी पुस्तक में जोड़ें',
 	'coll-bookscategory' => 'पुस्तकें',
 	'coll-clear_collection' => 'पुस्तक खाली करें',
 	'coll-clear_collection_confirm' => 'क्या आप वास्तव में पूरी पुस्तक खाली करना चाहते हैं?',
-	'coll-clear_collection_tooltip' => 'सारे विकि पृष्ठ को अपनी बर्त्तमान की पुस्तक से निकालें',
+	'coll-clear_collection_tooltip' => 'सभी विकि पृष्ठ अपनी वर्तमान पुस्तक से हटाएँ',
 	'coll-help' => 'सहायता',
-	'coll-help_tooltip' => 'पुस्तक निर्माण में सहायता दिखाएँ',
-	'coll-helppage' => 'Help:कलेक्शन', # Fuzzy
-	'coll-load_collection' => 'कलेक्शन लोड करें', # Fuzzy
-	'coll-load_collection_tooltip' => 'बर्त्तमान पुस्तक की तरह इस पुस्तक को लोड़ करें',
-	'coll-n_pages' => '$2 {{PLURAL:$1|पृष्ठ|पृष्ठ}}', # Fuzzy
-	'coll-printable_version_pdf' => 'PDF रूपांतर',
-	'coll-remove_this_page' => 'इस पृष्ठ को अपनी पुस्तक से निकालें',
-	'coll-remove_page_tooltip' => 'बर्त्तमान की विकि पृष्ठ को अपनी पुस्तक से निकालें',
-	'coll-show_collection' => 'कलेक्शन दर्शायें', # Fuzzy
+	'coll-help_tooltip' => 'पुस्तक निर्माण हेतु सहायता दिखाएँ',
+	'coll-helppage' => 'Help:पुस्तकें',
+	'coll-load_collection' => 'पुस्तक लोड करें',
+	'coll-load_collection_tooltip' => 'इस पुस्तक को वर्तमान पुस्तक की तरह लोड करें',
+	'coll-n_pages' => '$1 {{PLURAL:$1|पृष्ठ}}',
+	'coll-printable_version_pdf' => 'PDF संस्करण',
+	'coll-remove_this_page' => 'इस पृष्ठ को अपनी पुस्तक से हटाएँ',
+	'coll-remove_page_tooltip' => 'वर्तमान विकि पृष्ठ को अपनी पुस्तक से हटाएँ',
+	'coll-show_collection' => 'पुस्तक दिखाएँ',
+	'coll-show_collection_tooltip' => 'अपनी पुस्तक को सम्पादित/डाउनलोड/ऑर्डर करने के लिए क्लिक करें',
 	'coll-not_addable' => 'इस पृष्ठ को जोड़ा नहीं जा सकता',
-	'coll-make_suggestions' => 'सुझाव पृष्ठों',
+	'coll-make_suggestions' => 'पृष्ठ सुझाव दिखाएँ',
+	'coll-make_suggestions_tooltip' => 'आपकी पुस्तक के पृष्ठों के अनुसार सुझाव दिखाएँ',
 	'coll-suggest_empty' => 'खाली',
 );
 
