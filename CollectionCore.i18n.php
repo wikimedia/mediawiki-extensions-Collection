@@ -2837,17 +2837,18 @@ $messages['ku-latn'] = array(
 /** Luxembourgish (Lëtzebuergesch)
  * @author Les Meloures
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'coll-print_export' => 'Drécken/exportéieren',
 	'coll-create_a_book' => 'E Buch uleeën',
 	'coll-create_a_book_tooltip' => 'E Buch oder eng Sammlung vun Artikelen uleeën',
-	'coll-book_creator' => 'Buchfonctioun',
+	'coll-book_creator' => 'Buchfunktioun',
 	'coll-download_as' => 'Als $1 eroflueden',
 	'coll-download_as_tooltip' => 'Eng $1 Versioun vun dëser Wiki-Säit eroflueden',
 	'coll-disable' => 'Ausschalten',
-	'coll-book_creator_disable' => 'Buchfonctioun ausschalten',
-	'coll-book_creator_disable_tooltip' => "Ophalen d'Buchfonctioun ze benotzen",
+	'coll-book_creator_disable' => 'Buchfunktioun ausschalten',
+	'coll-book_creator_disable_tooltip' => "Ophalen d'Buchfunktioun ze benotzen",
 	'coll-add_linked_article' => 'Déi verlinkte Wiki-Säit an däi buch derbäisetzen',
 	'coll-remove_linked_article' => 'Déi verlinkte Wiki-Säit aus dengem Buch eraushuelen',
 	'coll-add_category' => 'Dës Kategorie an Äert Buch derbäisetzen',
@@ -3830,7 +3831,7 @@ $messages['ps'] = array(
 	'coll-disable' => 'ناچارنول',
 	'coll-book_creator_disable' => 'کتاب جوړونکی ناچارنول',
 	'coll-book_creator_disable_tooltip' => 'د کتاب جوړونکي کارېدنه درول',
-	'coll-add_category' => 'دا وېشنيزه په کتاب کې ورګډول',
+	'coll-add_category' => 'دا وېشنيزه په کتاب کې ورگډول',
 	'coll-add_this_page' => 'دا مخ په کتاب کې ورګډول',
 	'coll-add_page_tooltip' => 'د همدې ويکي مخ خپل کتاب کې ورګډول',
 	'coll-bookscategory' => 'کتابونه',
