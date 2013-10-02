@@ -11924,7 +11924,7 @@ $messages['ps'] = array(
 	'coll-format-rl' => 'برېښکتاب (PDF)',
 	'coll-format-epub' => 'برېښکتاب (EPUB)',
 	'coll-format-okawix_zeno' => 'اوکاوېکس',
-	'right-collectionsaveasuserpage' => 'کتابونه د کارن مخ په توګه خوندي کول',
+	'right-collectionsaveasuserpage' => 'کتابونه د کارن مخ په توگه خوندي کول',
 );
 
 /** Portuguese (português)
