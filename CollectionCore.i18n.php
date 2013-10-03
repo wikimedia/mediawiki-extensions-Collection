@@ -994,9 +994,13 @@ $messages['ce'] = array(
 );
 
 /** Sorani Kurdish (کوردی)
+ * @author Calak
  * @author Muhammed taha
  */
 $messages['ckb'] = array(
+	'coll-print_export' => 'چاپ/ھەناردن',
+	'coll-create_a_book' => 'کتێبێک دروست بکە',
+	'coll-download_as' => 'وەک $1 دایبگرە',
 	'coll-bookscategory' => 'کتێبەکان',
 	'coll-help' => 'یارمەتی',
 );
@@ -3832,8 +3836,8 @@ $messages['ps'] = array(
 	'coll-book_creator_disable' => 'کتاب جوړونکی ناچارنول',
 	'coll-book_creator_disable_tooltip' => 'د کتاب جوړونکي کارېدنه درول',
 	'coll-add_category' => 'دا وېشنيزه په کتاب کې ورگډول',
-	'coll-add_this_page' => 'دا مخ په کتاب کې ورګډول',
-	'coll-add_page_tooltip' => 'د همدې ويکي مخ خپل کتاب کې ورګډول',
+	'coll-add_this_page' => 'دا مخ په کتاب کې ورگډول',
+	'coll-add_page_tooltip' => 'د همدې ويکي مخ خپل کتاب کې ورگډول',
 	'coll-bookscategory' => 'کتابونه',
 	'coll-clear_collection' => 'کتاب پاکول',
 	'coll-help' => 'لارښود',
