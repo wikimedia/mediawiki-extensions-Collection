@@ -5201,6 +5201,46 @@ $messages['vo'] = array(
 	'coll-suggest_empty' => 'vagik',
 );
 
+/** Waray (Winaray)
+ * @author JinJian
+ */
+$messages['war'] = array(
+	'coll-print_export' => 'Pagpatika/pag-ambit',
+	'coll-create_a_book' => 'Paghimo hin libro',
+	'coll-create_a_book_tooltip' => 'Pahimo hin uska libro o mga koleksyon hin pakli',
+	'coll-book_creator' => 'Naghimo han libro',
+	'coll-download_as' => 'Igkarga-paubos komo $1',
+	'coll-download_as_tooltip' => 'Igkarga-paubos an uska $1 bersyon han hini nga pakli han wiki',
+	'coll-disable' => 'ayaw paandara',
+	'coll-book_creator_disable' => 'Ayaw paandara an naghimo han libro',
+	'coll-book_creator_disable_tooltip' => 'Ayaw pagginamita an naghimo han libro',
+	'coll-add_linked_article' => 'Igdugang han sinumpay nga pakli hin wiki ha imo libro',
+	'coll-remove_linked_article' => 'Igtanngal an sinumpay nga pakli han wiki tikang ha imo libro',
+	'coll-add_category' => 'Igdugang ini nga kaarangay ha imo libro',
+	'coll-add_category_tooltip' => 'Igdugang an ngatanan nga mga pakli han wiki ha hini nga kaarangay ha imo libro',
+	'coll-add_this_page' => 'Igdugang ini nga pakli ha imo libro',
+	'coll-add_page_tooltip' => 'Igdugang ini nga yana nga pakli hin wiki ha imo libro',
+	'coll-bookscategory' => 'Mga libro',
+	'coll-clear_collection' => 'Igpara an libro',
+	'coll-clear_collection_confirm' => 'Karuyag gud nimo nga igpara an imo libro?',
+	'coll-clear_collection_tooltip' => 'Igtanggal an ngatan nga mga pakli hin wiki tikang ha imo yana nga libro',
+	'coll-help' => 'Bulig',
+	'coll-help_tooltip' => 'Igpakita an bulig mahiunong han paghimo hin mga libro',
+	'coll-helppage' => 'Help:Mga libro',
+	'coll-load_collection' => 'Pagkarga hin libro',
+	'coll-load_collection_tooltip' => 'Igkarga ini nga libro komo imo yana nga libro',
+	'coll-n_pages' => '$1 {{PLURAL:$1|pakli|mga pakli}}',
+	'coll-printable_version_pdf' => 'Bersyon hin PDF',
+	'coll-remove_this_page' => 'Igtanggal ini nga pakli tikang ha imo libro',
+	'coll-remove_page_tooltip' => 'Igtanggal ini nga yana nga wiki nga pakli tikang ha imo libro',
+	'coll-show_collection' => 'Igpakita an libro',
+	'coll-show_collection_tooltip' => 'Igpindut an igliwat/igkarga/igorder an imo libro',
+	'coll-not_addable' => 'Ini nga pakli in diri madudugngan',
+	'coll-make_suggestions' => 'Pag-suggest hin mga pakli',
+	'coll-make_suggestions_tooltip' => 'Igpakita na suhistiyon base han mga pakli han imo libro',
+	'coll-suggest_empty' => 'waray sulod',
+);
+
 /** Yiddish (ייִדיש)
  * @author Imre
  * @author פוילישער
