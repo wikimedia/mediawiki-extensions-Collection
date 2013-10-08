@@ -2943,6 +2943,17 @@ $messages['lrc'] = array(
 	'coll-book_creator_disable' => 'د كار ونن كتاو راست كن',
 	'coll-book_creator_disable_tooltip' => 'واداشتن كارورد كتاو راست كن',
 	'coll-add_linked_article' => 'اضاف كردن بلگه چسبيه د كتاوتو',
+	'coll-bookscategory' => 'كتاويا',
+	'coll-clear_collection' => 'پاك كردن كتاو',
+	'coll-help' => 'هومياری',
+	'coll-help_tooltip' => 'هومياری دباره كتاوسازی نه نشون بيه',
+	'coll-helppage' => 'هومياری:كتاويا', # Fuzzy
+	'coll-load_collection' => 'سواركرد كتاو',
+	'coll-printable_version_pdf' => 'نسقه پی دی اف',
+	'coll-show_collection' => 'نشون دائن كتاو',
+	'coll-not_addable' => 'ای بلگه نتونه اضافه با',
+	'coll-make_suggestions' => 'بلگيا پيشنادی',
+	'coll-suggest_empty' => 'حالی',
 );
 
 /** Lithuanian (lietuvių)

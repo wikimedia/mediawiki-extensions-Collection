@@ -9246,6 +9246,60 @@ $messages['lo'] = array(
 	'coll-no' => 'ບໍ່ໃຊ່',
 );
 
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'coll-desc' => '[[Special:Book|راس كردن كتاو]]',
+	'coll-manage_your_book' => 'مديريت كردن كتاوتو',
+	'coll-book_creator_help' => 'بونيتو [[{{MediaWiki:Coll-helppage}}|بلگه هومياری كتاو نه]] سی دونسمنيا بيشتر.',
+	'coll-start_book_creator' => 'شرو كتاوساز',
+	'coll-book_creator_continue' => 'ادامه دائن استفاده د كتاوساز',
+	'coll-book_creator_text_article' => '{{MediaWiki:Coll-helppage}}/متن كتاوساز',
+	'coll-collection' => 'كتاو',
+	'coll-collections' => 'كتاويا',
+	'coll-print_template_prefix' => 'چاپ كردن',
+	'coll-print_template_pattern' => '$1/چاپ',
+	'coll-unknown_subpage_title' => 'زير بلگه ناشناس',
+	'coll-couldnotaddarticle_title' => 'نبوئه بلگه ويكی نه اضاف بكيد',
+	'coll-couldnotaddarticle_msg' => 'بلگه ويكی نتونه اضاف بوئه',
+	'coll-couldnotremovearticle_title' => 'نبوئه بلگه ويكی پاك بوئه',
+	'coll-savedbook_template' => 'كتاو_ذخيره بيه',
+	'coll-your_book' => 'كتاوتو',
+	'coll-download_title' => 'گرتن',
+	'coll-download' => 'گرتن',
+	'coll-format_label' => 'قالو',
+	'coll-show' => 'نشون دائن',
+	'coll-title' => 'داسون',
+	'coll-contents' => 'محتويات',
+	'coll-rename' => 'دوواره نوم هشتن',
+	'coll-empty_collection' => 'كتاو حالی',
+	'coll-save_collection_title' => 'كتاوتو نه ذخيره و پخش بكيتو',
+	'coll-personal_collection_label' => 'كتاو شصقی',
+	'coll-save_collection' => 'ذخيره كتاو',
+	'coll-yes' => 'هری',
+	'coll-no' => 'نه',
+	'coll-update' => 'روزآمد كردن',
+	'coll-download_notfound_title' => 'فايل جسته نبی',
+	'coll-order_from_pp' => 'باز نئری وا $1',
+	'coll-about_pp' => 'دباره $1',
+	'coll-license' => 'ليسانس',
+	'coll-return_to' => 'ورگشتن وه [[:$1]]',
+	'coll-suggest_reset_bans' => 'د نو شرو كردن',
+	'coll-suggest_add_selected' => 'بلگيا منتخب نه اضاف كو',
+	'coll-suggest_ban_selected' => 'بلگيا منتخب نه پاك كو',
+	'coll-suggest_your_book' => 'كتاوتو',
+	'coll-suggest_show' => 'نشو دائن',
+	'coll-suggest_undo_tooltip' => 'ای كار رد كو',
+	'coll-suggest_undo' => 'رد كردن',
+	'coll-format-epub' => 'كتاو الكترونيكی',
+	'coll-format-odf' => 'پردازشتگر كليمه',
+	'coll-format-zim' => 'كای ويكس',
+	'coll-format-docbook' => 'كتاوسند',
+	'coll-format-okawix_zeno' => 'آكاويكس',
+	'right-collectionsaveasuserpage' => 'ذخيره كردن كتاويا د عنوان بلگه كارور',
+);
+
 /** Lithuanian (lietuvių)
  * @author Audriusa
  * @author Eitvys200
