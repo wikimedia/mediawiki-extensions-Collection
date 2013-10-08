@@ -2929,6 +2929,22 @@ $messages['li'] = array(
 	'coll-suggest_empty' => 'laeg',
 );
 
+/** لوری (لوری)
+ * @author Mogoeilor
+ */
+$messages['lrc'] = array(
+	'coll-print_export' => 'چاپ/وه در كردن',
+	'coll-create_a_book' => 'راست كردن كتاو',
+	'coll-create_a_book_tooltip' => 'كتاو راست كونين يا تمؤم بلگيا',
+	'coll-book_creator' => 'كتاو راست كن',
+	'coll-download_as' => 'گرتن د عنوان $1',
+	'coll-download_as_tooltip' => 'گرتن يه $1 نسقه د ای بلگه ويكی',
+	'coll-disable' => 'د كار ونن',
+	'coll-book_creator_disable' => 'د كار ونن كتاو راست كن',
+	'coll-book_creator_disable_tooltip' => 'واداشتن كارورد كتاو راست كن',
+	'coll-add_linked_article' => 'اضاف كردن بلگه چسبيه د كتاوتو',
+);
+
 /** Lithuanian (lietuvių)
  * @author Eitvys200
  * @author Homo

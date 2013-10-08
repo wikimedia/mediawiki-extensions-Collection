@@ -8934,7 +8934,7 @@ $messages['kw'] = array(
 	'coll-cancel' => 'Hedhi',
 );
 
-/** Kirghiz (Кыргызча)
+/** Kyrgyz (Кыргызча)
  * @author Growingup
  */
 $messages['ky'] = array(
