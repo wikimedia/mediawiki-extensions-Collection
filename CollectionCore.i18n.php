@@ -1516,7 +1516,7 @@ $messages['fa'] = array(
 	'coll-book_creator' => 'کتاب‌ساز',
 	'coll-download_as' => 'بارگیری به‌صورت $1',
 	'coll-download_as_tooltip' => 'یک نسخهٔ $1 از این صفحهٔ ویکی را بارگیری کن',
-	'coll-disable' => 'غیرفعال',
+	'coll-disable' => 'غیرفعال‌سازی',
 	'coll-book_creator_disable' => 'کتاب‌ساز را غیرفعال کن',
 	'coll-book_creator_disable_tooltip' => 'استفاده از کتاب‌ساز را متوقف کنید',
 	'coll-add_linked_article' => 'صفحهٔ ویکی پیونددهی‌شده را به کتابتان اضافه کنید',
@@ -1541,7 +1541,7 @@ $messages['fa'] = array(
 	'coll-show_collection' => 'نمایش کتاب',
 	'coll-show_collection_tooltip' => 'برای ویرایش/بارگیری/سفارش کتاب خود کلیک کنید',
 	'coll-not_addable' => 'این صفحه نمی‌تواند اضافه شود',
-	'coll-make_suggestions' => 'صفحه پیشنهاد کن',
+	'coll-make_suggestions' => 'صفحه‌ای پیشنهاد کن',
 	'coll-make_suggestions_tooltip' => 'با توجه به صفحه‌های کتاب پیشنهادهایی نمایش بده',
 	'coll-suggest_empty' => 'خالی',
 );
