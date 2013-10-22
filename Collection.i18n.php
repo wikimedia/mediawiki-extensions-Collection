@@ -2941,6 +2941,7 @@ $messages['ce'] = array(
 	'coll-cancel' => 'Юхаяккха',
 	'coll-update' => 'Карлаяккха',
 	'coll-rendering_article' => '(яззам: $1)',
+	'coll-suggest_reset_bans' => 'кхоссар',
 	'coll-suggest_undo' => 'цаоьшу',
 );
 
@@ -4815,8 +4816,8 @@ $messages['fa'] = array(
 	'coll-book_text' => 'با مراجعه به این شرکای چاپ-با-درخواست یک کتاب چاپ شده تهیه کنید:',
 	'coll-order_from_pp' => 'پیش‌نمایش با $1',
 	'coll-about_pp' => 'دربارهٔ $1',
-	'coll-invalid_podpartner_title' => 'شریک چاپ-با-درخواست غیر مجاز',
-	'coll-invalid_podpartner_msg' => 'شریک چاپ-با-درخواست تعیین شده غیر مجاز است.
+	'coll-invalid_podpartner_title' => 'شریک چاپ با درخواست نامجاز',
+	'coll-invalid_podpartner_msg' => 'شریک چاپ-با-درخواست تعیین‌شده نامجاز است.
 لطفاً با مدیر مدیاویکی خود تماس بگیرید.',
 	'coll-license' => 'اجازه‌نامه',
 	'coll-return_to' => 'بازگشت به [[:$1]]',
