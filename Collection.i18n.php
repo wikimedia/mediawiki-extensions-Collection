@@ -11702,6 +11702,7 @@ $messages['pfl'] = array(
 );
 
 /** Polish (polski)
+ * @author Chrumps
  * @author Derbeth
  * @author Jwitos
  * @author Leinad
@@ -11770,7 +11771,7 @@ Strona nie będzie działać poprawnie, dopóki JavaScript nie zostanie włączo
 	'coll-save_collection_text' => 'Wybierz lokalizację:',
 	'coll-login_to_save' => 'Jeśli chcesz zapisać książkę, [[Special:UserLogin|zaloguj się lub utwórz konto]].',
 	'coll-personal_collection_label' => 'Książka osobista:',
-	'coll-community_collection_label' => 'Ksiązka społeczności:',
+	'coll-community_collection_label' => 'Książka społeczności:',
 	'coll-save_collection' => 'Zapisz książkę',
 	'coll-save_category' => 'Wszystkie zapisywane książki dodawane są do kategorii [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]].',
 	'coll-overwrite_title' => 'Strona już istnieje. Nadpisać?',
