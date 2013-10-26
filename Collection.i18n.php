@@ -10214,7 +10214,7 @@ $messages['mn'] = array(
  * @author संतोष दहिवळ
  */
 $messages['mr'] = array(
-	'coll-desc' => '[[Special:Book|पुस्तक बनवा]]',
+	'coll-desc' => '[[Special:Book|पुस्तके बनवा]]',
 	'coll-book_creator_intro' => '<big> "ग्रंथ निर्माणक" द्वारा आपण आपल्या आवडीच्या विकी पानांचा ग्रंथ बनवू शकता. आपण ह्या ग्रंथास वेगवेगळ्या स्वरुपात निर्यात करू शकता (उदा. पी डि एफ किंवा ओ डि एफ) किंवा मुद्रित प्रतीसाठी मागणी नोंदवू शकता. </big>',
 	'coll-manage_your_book' => 'आपल्या ग्रंथाचे व्यवस्थापन करा',
 	'coll-book_creator_help' => 'अधिक माहितीसाठी [[{{MediaWiki:Coll-helppage}}|ग्रंथ संबंधी मदतीचे पृष्ठ ]]  पहा',
@@ -10242,7 +10242,7 @@ $messages['mr'] = array(
 	'coll-download_text' => 'आपला ग्रन्थ   उतरवण्यासाठी , स्वरूप निवडा आणि  कळ दाबा',
 	'coll-download_as_text' => 'आपला ग्रन्थ $1   स्वरूपात उतरवण्यासाठी कळ दाबा',
 	'coll-download' => 'अधिभारण करा',
-	'coll-format_label' => 'आराखडा',
+	'coll-format_label' => 'प्रारुप:',
 	'coll-remove' => 'वगळा',
 	'coll-show' => 'दाखवा',
 	'coll-move_to_top' => 'सर्वात वर हलवा',
@@ -10252,7 +10252,7 @@ $messages['mr'] = array(
 	'coll-title' => 'शीर्षक:',
 	'coll-subtitle' => 'उपशीर्षक:',
 	'coll-contents' => 'अनुक्रमणिका',
-	'coll-drag_and_drop' => 'विकी पृष्ठे आणि अध्याय पुनःक्रमित करण्या साठी ओढा आणि सोडा',
+	'coll-drag_and_drop' => 'विकी पृष्ठे आणि अध्याय पुनःक्रमित करण्यासाठी ओढा आणि सोडा',
 	'coll-create_chapter' => 'धडा बनवा',
 	'coll-sort_alphabetically' => 'अकारविल्हे लावा',
 	'coll-rename' => 'नाव बदला',
@@ -10263,8 +10263,8 @@ $messages['mr'] = array(
 	'coll-post_failed_title' => 'पोस्ट (POST) ची मागणी पूर्ण झालेली नाही',
 	'coll-post_failed_msg' => '$1 ची पोस्ट (POST) मागणी पूर्ण झालेली नाही ($2).',
 	'coll-mwserve_failed_title' => 'प्रतिपादन कार्यात त्रुटी',
-	'coll-mwserve_failed_msg' => 'कार्यात प्रतिपादनदातास  त्रूटी आढळली आहे : <nowiki>$1</nowiki>',
-	'coll-error_reponse' => 'सर्व्हर कडून चुकीचा संदेश आलेला आहे',
+	'coll-mwserve_failed_msg' => 'कार्यात प्रतिपादनदात्यास  त्रूटी आढळली आहे : <nowiki>$1</nowiki>',
+	'coll-error_reponse' => 'सर्व्हर कडून चुक झाल्याचा प्रतिसाद आलेला आहे',
 	'coll-empty_collection' => 'रिकामे ग्रंथ',
 	'coll-revision' => 'आवृत्ती: $1',
 	'coll-save_collection_title' => 'ग्रंथ   जतन करा आणि सामायिक  करा',
@@ -10298,8 +10298,8 @@ $messages['mr'] = array(
 	'coll-rendering_status' => '<strong>स्थिती:</strong> $1',
 	'coll-rendering_article' => '(विकी  पृष्ठ : $1)',
 	'coll-rendering_page' => '( पान : $1)',
-	'coll-rendering_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/ प्रतिपादन होत असलेल्या पानाची माहिती',
-	'coll-rendering_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/ प्रतिपादणासाठी संग्रहित केलेल्या पानाची माहिती',
+	'coll-rendering_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/ प्रतिपादन होत असलेल्या पान मजकूराची माहिती',
+	'coll-rendering_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/ प्रतिपादनासाठी संग्रहित केलेल्या पानाची माहिती',
 	'coll-rendering_finished_title' => 'प्रतिपादन संम्पन्न',
 	'coll-rendering_finished_text' => '<strong>आपले पुस्तक तयार झाले आहे.</strong>
 <strong>[$1 तयार झालेले पुस्तक]</strong> आपल्या संगणकावर उतरवून घ्या.
@@ -10307,7 +10307,7 @@ $messages['mr'] = array(
 Notes:
 * या कामाबद्दल समाधानी नसाल तर ही [[{{MediaWiki:Coll-helppage}}| पुस्तकांबद्दलची मदतीची पाने बघा.]] अधिक चांगल्या कामासाठी त्याचा उपयोग होईल.',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/ प्रतिपादन होत असलेल्या पानाची माहिती',
-	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/ प्रतिपादणासाठी संग्रहित केलेल्या पानाची माहिती',
+	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/ प्रतिपादनासाठी संग्रहित केलेल्या पानाची माहिती',
 	'coll-notfound_title' => 'पुस्तक सापडले नाही',
 	'coll-notfound_text' => 'पुस्तकातील पान सापडले नाही.',
 	'coll-download_notfound_title' => 'संचिका सापडली नाही.',
