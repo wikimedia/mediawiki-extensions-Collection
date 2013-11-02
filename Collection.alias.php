@@ -74,7 +74,7 @@ $specialPageAliases['ce'] = array(
 	'Book' => array( 'Жайнаш_гулдар' ),
 );
 
-/** Czech (česky) */
+/** Czech (čeština) */
 $specialPageAliases['cs'] = array(
 	'Book' => array( 'Kniha', 'Kolekce' ),
 );
