@@ -4867,7 +4867,7 @@ $messages['fa'] = array(
 هر گاه که بر دکمه‌های افزودن یا حذف کلیک کنید، فهرست به‌روز خواهد شد.',
 	'coll-suggested_articles' => 'پیشنهادها',
 	'coll-suggest_reset_bans' => 'بازنشانی',
-	'coll-suggest_reset_bans_tooltip' => 'نمایش قبل از پاک کردن پیشنهاد‌ها',
+	'coll-suggest_reset_bans_tooltip' => 'نمایش قبل از پاک‌کردن پیشنهاد‌ها',
 	'coll-suggest_add_selected' => 'اضافه‌کردن صفحه‌های انتخاب‌شده',
 	'coll-suggest_ban_selected' => 'حذف صفحه‌های انتخاب‌شده',
 	'coll-suggest_your_book' => 'کتاب شما',
