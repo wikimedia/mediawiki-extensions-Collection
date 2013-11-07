@@ -1937,6 +1937,8 @@ Tabi man paki-kontak an saimong administrador sa MediaWiki.',
 	'coll-return_to' => 'Ibalik sa [[:$1]]',
 	'coll-order_info_article' => '{{MediaWiki:Coll-helppage}}/ImprintarangPedya hinahagadan nin impormasyon',
 	'coll-suggest_title' => 'Ipinagsuhestiyon na mga pahina para sa saimong libro',
+	'coll-suggest_intro_text' => 'An mga suhestiyon nakabase sa ngunyan na kapakatan kan mga pahina nin wiki sa saimong libro. 
+An listahan pinagsusumpayan kunsoarin na saimong i-klik an dugangan o tangkason na mga pindutan.',
 	'coll-suggested_articles' => 'Mga Suhestiyon',
 	'coll-suggest_reset_bans' => 'pakibaguha',
 	'coll-suggest_reset_bans_tooltip' => 'Ipahiling an nakaaging pinaghaleng mga suhestiyon',

@@ -107,7 +107,8 @@ Parameters:
 
 The tooltip for the link is {{msg-mw|Coll-book creator disable tooltip}}.
 
-The link points to [[Special:Book]].',
+The link points to [[Special:Book]].
+{{Identical|Disable}}',
 	'coll-book_creator_disable' => '(1) Used as page title. The page body for this title is:
 * {{msg-mw|Coll-book creator disable text}}
 
