@@ -205,7 +205,7 @@ foreach ( $this->data['podpartners'] as $partnerKey => $partnerData ) {
  */
 class CollectionListTemplate extends QuickTemplate {
 	function execute() {
-		$mediapath = $GLOBALS['wgScriptPath'] . '/extensions/Collection/images/';
+		$mediapath = $GLOBALS['wgExtensionAssetsPath'] . '/Collection/images/';
 ?>
 
 <div class="collection-create-chapter-links">
@@ -457,9 +457,9 @@ class CollectionSuggestTemplate extends QuickTemplate {
 	 * @return string
 	 */
 	function getProposalList () {
-		global $wgScript, $wgScriptPath;
+		global $wgScript, $wgExtensionAssetsPath;
 
-		$mediapath = $wgScriptPath . '/extensions/Collection/images/';
+		$mediapath = $wgExtensionAssetsPath . '/Collection/images/';
 		$baseUrl = $wgScript . "/";
 
 		$prop = $this->data['proposals'];
@@ -499,7 +499,7 @@ class CollectionSuggestTemplate extends QuickTemplate {
 	 * @return string
 	 */
 	function getMemberList() {
-		$mediapath = $GLOBALS['wgScriptPath'] . '/extensions/Collection/images/';
+		$mediapath = $GLOBALS['wgExtensionAssetsPath'] . '/Collection/images/';
 		$coll = $this->data['collection'];
 		$out = '';
 
