@@ -30,11 +30,16 @@ EOT;
 	exit( 1 );
 }
 
-$dir = __DIR__ . '/';
+$wgExtensionCredits['specialpage'][] = array(
+	'path' => __FILE__,
+	'name' => 'Collection',
+	'version' => '1.6.1',
+	'author' => array( 'PediaPress GmbH', 'Siebrand Mazeland', 'Marcin Cieślak'),
+	'url' => 'https://www.mediawiki.org/wiki/Extension:Collection',
+	'descriptionmsg' => 'coll-desc',
+);
 
-# Extension version. If you update it, please also update 'requiredVersion'
-# in js/collection.js
-$wgCollectionVersion = "1.6.1";
+$dir = __DIR__ . '/';
 
 # ==============================================================================
 
@@ -132,15 +137,6 @@ $wgCollectionPODPartners = array(
 );
 # ==============================================================================
 
-$wgExtensionCredits['specialpage'][] = array(
-	'path' => __FILE__,
-	'name' => 'Collection',
-	'version' => $wgCollectionVersion,
-	'author' => array( 'PediaPress GmbH', 'Siebrand Mazeland', 'Marcin Cieślak'),
-	'url' => 'https://www.mediawiki.org/wiki/Extension:Collection',
-	'descriptionmsg' => 'coll-desc',
-);
-
 # register Special:Book:
 $wgAutoloadClasses['SpecialCollection'] = $dir . 'Collection.body.php';
 $wgAutoloadClasses['CollectionSession'] = $dir . 'Collection.session.php';
@@ -163,7 +159,6 @@ $wgHooks['SkinTemplateBuildNavUrlsNav_urlsAfterPermalink'][] = 'CollectionHooks:
 $wgHooks['SkinBuildSidebar'][] = 'CollectionHooks::buildSidebar';
 $wgHooks['SiteNoticeAfter'][] = 'CollectionHooks::siteNoticeAfter';
 $wgHooks['OutputPageCheckLastModified'][] = 'CollectionHooks::checkLastModified';
-$wgHooks['ResourceLoaderGetConfigVars'][] = 'CollectionHooks::resourceLoaderGetConfigVars';
 
 $wgAvailableRights[] = 'collectionsaveasuserpage';
 $wgAvailableRights[] = 'collectionsaveascommunitypage';

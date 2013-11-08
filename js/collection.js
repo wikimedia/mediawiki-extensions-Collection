@@ -23,10 +23,6 @@
 
 /******************************************************************************/
 
-var requiredVersion = '1.6.1';
-
-/******************************************************************************/
-
 /**
  * Return text of element with given selector. Optionally replace %PARAM% with value
  * of param. This allows usage of localization features in PHP from JavaScript.
@@ -198,10 +194,6 @@ function refresh_list(data) {
 }
 
 $(function() {
-	if (requiredVersion != mw.config.get('wgCollectionVersion')) {
-		alert('ERROR: Version mismatch between Javascript and PHP code. Contact admin to fix the installation of Collection extension for MediaWiki.');
-		return;
-	}
 	if ($('#collectionList').length) {
 		$('.makeVisible').css('display', 'inline');
 		window.coll_create_chapter = create_chapter;

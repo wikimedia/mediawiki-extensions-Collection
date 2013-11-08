@@ -472,14 +472,4 @@ class CollectionHooks {
 		}
 		return true;
 	}
-
-	/**
-	 * ResourceLoaderGetConfigVars hook
-	 * @param $vars array
-	 * @return bool
-	 */
-	static function resourceLoaderGetConfigVars( &$vars ) {
-		$vars['wgCollectionVersion'] = $GLOBALS['wgCollectionVersion'];
-		return true;
-	}
 }
