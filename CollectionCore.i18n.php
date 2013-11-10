@@ -5029,8 +5029,22 @@ $messages['tt-cyrl'] = array(
  * @author Tifinaghes
  */
 $messages['tzm'] = array(
+	'coll-create_a_book' => 'ⵔⵏⵓ ⴰⴷⵍⵉⵙ',
+	'coll-create_a_book_tooltip' => 'ⵔⵏⵓ ⴰⴷⵍⵉⵙ ⵏⵖ ⵜⴰⵙⵏⴰ',
+	'coll-book_creator' => 'ⴰⵎⵔⵏⵓ ⵏ ⵉⴷⵍⵉⵙⵏ',
+	'coll-download_as' => 'ⵣⴷⴻⵎ ⵙ $1',
+	'coll-download_as_tooltip' => 'ⵣⴷⴻⵎ  $1 ⵜⴰⵙⵏⴰ ⴰⴷ ⵏ ⵡⵉⴽⵉ',
+	'coll-disable' => 'ⵙⴱⴻⴷⴷ',
+	'coll-book_creator_disable' => 'ⵙⴱⴻⴷⴷ ⴰⵎⵙⴽⴰⵔ ⵏ ⵉⴷⵍⵉⵙⵏ',
+	'coll-book_creator_disable_tooltip' => 'ⵙⴱⴻⴷⴷ ⴰⵙⵡⵓⵔⵉ ⵏ ⵓⵎⵔⵏⵓ ⵏ ⵉⴷⵍⵉⵙⵏ',
+	'coll-add_linked_article' => 'ⵔⵏⵓ ⵜⴰⵙⵏⴰ ⵏ ⵡⵉⴽⵉ ⵉⵣⴷⵉⵏ ⴷ ⵓⴷⵍⵉⵙ ⵏⵏⴽ',
+	'coll-add_this_page' => 'ⵔⵏⵓ ⵜⴰⵙⵏⴰ ⴰⴷ ⵖⵔ ⵓⴷⵍⵉⵙ ⵏⴽ',
+	'coll-add_page_tooltip' => 'ⵔⵏⵓ ⵜⴰⵙⵏⴰ ⵏ ⵡⵉⴽⵉ ⴰⴷ ⵖⵔ ⵓⴷⵍⵉⵙ ⵏⴽ',
 	'coll-bookscategory' => 'ⵉⴷⵍⵉⵙⵏ',
 	'coll-help' => 'ⵜⵉⵡⵉⵙⵉ',
+	'coll-helppage' => 'ⵜⵉⵡⵉⵙⵉ:ⵉⴷⵍⵉⵙⵏ', # Fuzzy
+	'coll-load_collection' => 'ⵣⴷⴻⵎ ⴰⴷⵍⵉⵙ',
+	'coll-suggest_empty' => 'ⵓⵔ ⴷⵉⵙ ⴰⵎⵢⴰ',
 );
 
 /** Uyghur (Arabic script) (ئۇيغۇرچە)
