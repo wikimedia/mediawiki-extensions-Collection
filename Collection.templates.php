@@ -383,12 +383,6 @@ if ( $this->data['is_cached'] ) {
 	$forceRenderURL = SkinTemplate::makeSpecialUrl( 'Book', 'bookcmd=forcerender&' . $this->data['query'] );
 	echo wfMessage( 'coll-is_cached' )->rawParams( htmlspecialchars( $forceRenderURL ) )->parse();
 }
-echo wfMessage( 'coll-excluded-templates', wfMessage( 'coll-exclusion_category_title' )->inContentLanguage()->text() )->parseAsBlock();
-$title_string = wfMessage( 'coll-template_blacklist_title' )->inContentLanguage()->text();
-$t = Title::newFromText( $title_string );
-if ( $t && $t->exists() ) {
-	echo wfMessage( 'coll-blacklisted-templates', $title_string )->parseAsBlock();
-}
 $t = Title::newFromText( $this->data['return_to'] );
 if ( $t && $t->isKnown() ) {
 	echo wfMessage( 'coll-return_to', $t )->parseAsBlock();

@@ -1068,10 +1068,6 @@ class SpecialCollection extends SpecialPage {
 			'metabook' => $this->buildJSONCollection( $collection ),
 			'base_url' => wfExpandUrl( $wgScriptPath, PROTO_CURRENT ),
 			'script_extension' => $wgScriptExtension,
-			'template_blacklist' => $this->msg( 'coll-template_blacklist_title' )->inContentLanguage()->plain(),
-			'template_exclusion_category' => $this->msg( 'coll-exclusion_category_title' )->inContentLanguage()->plain(),
-			'print_template_prefix' => $this->msg( 'coll-print_template_prefix' )->inContentLanguage()->plain(),
-			'print_template_pattern' => $this->msg( 'coll-print_template_pattern' )->inContentLanguage()->plain(),
 			'language' => $wgContLang->getCode(),
 			'writer' => $writer,
 		) );
@@ -1103,10 +1099,6 @@ class SpecialCollection extends SpecialPage {
 			'collection_id' => $collectionID,
 			'base_url' => wfExpandUrl( $wgScriptPath, PROTO_CURRENT ),
 			'script_extension' => $wgScriptExtension,
-			'template_blacklist' => $this->msg( 'coll-template_blacklist_title' )->inContentLanguage()->plain(),
-			'template_exclusion_category' => $this->msg( 'coll-exclusion_category_title' )->inContentLanguage()->plain(),
-			'print_template_prefix' => $this->msg( 'coll-print_template_prefix' )->inContentLanguage()->plain(),
-			'print_template_pattern' => $this->msg( 'coll-print_template_pattern' )->inContentLanguage()->plain(),
 			'language' => $wgContLang->getCode(),
 			'writer' => $writer,
 			'force_render' => true
@@ -1295,10 +1287,6 @@ class SpecialCollection extends SpecialPage {
 			'metabook' => $this->buildJSONCollection( $collection ),
 			'base_url' => wfExpandUrl( $wgScriptPath, PROTO_CURRENT ),
 			'script_extension' => $wgScriptExtension,
-			'template_blacklist' => $this->msg( 'coll-template_blacklist_title' )->inContentLanguage()->plain(),
-			'template_exclusion_category' => $this->msg( 'coll-exclusion_category_title' )->inContentLanguage()->plain(),
-			'print_template_prefix' => $this->msg( 'coll-print_template_prefix' )->inContentLanguage()->plain(),
-			'print_template_pattern' => $this->msg( 'coll-print_template_pattern' )->inContentLanguage()->plain(),
 			'pod_api_url' => $this->mPODPartners[$partner]['posturl'],
 		) );
 		if ( !$response ) {
