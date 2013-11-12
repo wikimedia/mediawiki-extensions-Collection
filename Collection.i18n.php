@@ -3679,6 +3679,7 @@ Immer, wenn Sie auf die Schaltflächen zum Hinzufügen oder Entfernen klicken, w
 
 /** Zazaki (Zazaki)
  * @author Erdemaslancan
+ * @author Gorizon
  * @author Mirzali
  * @author Xoser
  */
@@ -3714,7 +3715,7 @@ Heta ti JavaScript a nike, ena pel hewl nihebitiyeno.</strong>',
 	'coll-format_label' => 'Formet:',
 	'coll-remove' => 'Wedarne',
 	'coll-show' => 'Bımocne',
-	'coll-move_to_top' => 'Ser rê şî',
+	'coll-move_to_top' => 'Ber tewr ser',
 	'coll-move_up' => 'Yew sire şî cêr',
 	'coll-move_down' => 'Yew sire şî cor',
 	'coll-move_to_bottom' => 'Bin rê şî',
@@ -5417,7 +5418,7 @@ Detdiar sidj koon ei rocht werke, so loong JavaScript ei werket.</strong>',
 	'coll-mwserve_failed_msg' => 'Üüb a server as wat skiaf gingen: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Di server swaaret mä en feeler',
 	'coll-empty_collection' => 'Leesag buk',
-	'coll-revision' => 'Wersjuun: $1',
+	'coll-revision' => 'Werjuun: $1',
 	'coll-save_collection_title' => 'Din buk seekre an freidu',
 	'coll-save_collection_text' => 'Huar skal din buk seekert wurd?',
 	'coll-login_to_save' => 'Wan dü buken seekre wel, wees so gud an [[Special:UserLogin|melde di uun of maage en brükerkonto]].',
@@ -5464,7 +5465,7 @@ Henwiis:
 Ferlicht as det stregen wurden an skal nei maaget wurd.',
 	'coll-download_failed_title' => "Bi't deelloosin as wat skiaf gingen",
 	'coll-download_failed_text' => "Bi't deeloosin faan't datei $1 as wat skiaf gingen",
-	'coll-is_cached' => '<ul><li>Diar wiar al en teskenseekert wersjuun, det dokument säär ei nei tuupsteld wurd. <a href="$1">Likes nei tuupstel.</a></li></ul>',
+	'coll-is_cached' => '<ul><li>Diar wiar al en teskenseekert werjuun, det dokument säär ei nei tuupsteld wurd. <a href="$1">Likes nei tuupstel.</a></li></ul>',
 	'coll-excluded-templates' => '* Föörlaagen ütj det kategorii „[[:Category:$1|$1]]“ san ei auernimen wurden.',
 	'coll-blacklisted-templates' => '* Föörlaagen faan det suart list [[:$1]] san ei auernimen wurden.',
 	'coll-book_title' => 'Bestel üs drükt buk',
