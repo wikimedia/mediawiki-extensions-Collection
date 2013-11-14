@@ -67,8 +67,8 @@ This page will not work correctly, unless JavaScript is enabled.</strong>',
 	'coll-rename_chapter'             => 'Enter new name for chapter',
 	'coll-no_such_category'           => 'No such category',
 	'coll-notitle_title'              => 'The title of the page could not be determined.',
-	'coll-post_failed_title'          => 'POST request failed',
-	'coll-post_failed_msg'            => 'The POST request to $1 failed ($2).',
+	'coll-request_failed_title'       => 'Book rendering failed',
+	'coll-request_failed_msg'         => 'There was an error while attempting to render your book.',
 	'coll-mwserve_failed_title'       => 'Render server error',
 	'coll-mwserve_failed_msg'         => 'An error occurred on the render server: <nowiki>$1</nowiki>',
 	'coll-error_reponse'              => 'Error response from server',
@@ -256,13 +256,7 @@ The page title for this message is {{msg-mw|Coll-book creator disable}}.',
 	'coll-subtitle' => '{{Identical|Subtitle}}',
 	'coll-contents' => '{{Identical|Content}}',
 	'coll-rename' => '{{Identical|Rename}}',
-	'coll-post_failed_msg' => 'Parameters:
-* $1 - URL. Default value: http://tools.pediapress.com/mw-serve/
-* $2 - error message',
-	'coll-mwserve_failed_msg' => 'Used as error message body. Parameters:
-* $1 - any one of the following information (not server name):
-** invalid JSON string
-** error message which JSON decoder returned',
+	'coll-request_failed_msg' => 'Shown when a PDF (or other format) rendering failed',
 	'coll-empty_collection' => 'Translate "empty" as in "an empty book" (adj), not "empty the book" (verb)',
 	'coll-revision' => 'Unused at this time.
 
