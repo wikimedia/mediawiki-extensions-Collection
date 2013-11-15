@@ -256,7 +256,14 @@ The page title for this message is {{msg-mw|Coll-book creator disable}}.',
 	'coll-subtitle' => '{{Identical|Subtitle}}',
 	'coll-contents' => '{{Identical|Content}}',
 	'coll-rename' => '{{Identical|Rename}}',
-	'coll-request_failed_msg' => 'Shown when a PDF (or other format) rendering failed',
+	'coll-request_failed_title' => 'Used as title for error message {{msg-mw|Coll-request failed msg}}.',
+	'coll-request_failed_msg' => 'Used as error message when a PDF (or other format) rendering failed.
+
+The title for this error message is {{msg-mw|Coll-request failed title}}.',
+	'coll-mwserve_failed_msg' => 'Used as error message body. Parameters:
+* $1 - any one of the following information (not server name):
+** invalid JSON string
+** error message which JSON decoder returned',
 	'coll-empty_collection' => 'Translate "empty" as in "an empty book" (adj), not "empty the book" (verb)',
 	'coll-revision' => 'Unused at this time.
 
@@ -2342,8 +2349,8 @@ $messages['bcl'] = array(
 	'coll-rename_chapter' => 'Ikaag an baguhong pangaran para sa tsapter',
 	'coll-no_such_category' => 'Mayo nin siring na kategoriya',
 	'coll-notitle_title' => 'An titulo kan pahina dae madedeterminaran.',
-	'coll-post_failed_title' => 'An PASKIL na hagad nagpalya',
-	'coll-post_failed_msg' => 'An PASKIL na hagad sa $1 nagpalya ($2).',
+	'coll-request_failed_title' => 'Pagpapahiling kan libro nagpalya',
+	'coll-request_failed_msg' => 'Nagkaigwa nin sarong kasalaan mantang hinihingoha na maipapahiling an saimong libro.',
 	'coll-mwserve_failed_title' => 'Maghaya nin serbidor na kasalaan',
 	'coll-mwserve_failed_msg' => 'Sarong kasalaan an nangyari sa naghayang serbidor: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Kasalaan an simbag gikan sa serbidor',
@@ -4353,8 +4360,8 @@ Diese Seite wird nicht richtig funktionieren, solange JavaScript nicht verfügba
 	'coll-rename_chapter' => 'Gib einen neuen Namen für das Kapitel ein.',
 	'coll-no_such_category' => 'Die Kategorie ist nicht vorhanden.',
 	'coll-notitle_title' => 'Der Titel der Seite konnte nicht bestimmt werden.',
-	'coll-post_failed_title' => 'POST-Anfrage fehlgeschlagen',
-	'coll-post_failed_msg' => 'Die POST-Anfrage an $1 ist fehlgeschlagen ($2).',
+	'coll-request_failed_title' => 'Buch-Rendering fehlgeschlagen',
+	'coll-request_failed_msg' => 'Während des Versuchs, dein Buch zu rendern, ist ein Fehler aufgetreten.',
 	'coll-mwserve_failed_title' => 'Serverfehler',
 	'coll-mwserve_failed_msg' => 'Auf dem Render-Server ist ein Fehler aufgetreten: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Fehlermeldung vom Server',
@@ -4592,8 +4599,6 @@ Heta ti JavaScript a nike, ena pel hewl nihebitiyeno.</strong>',
 	'coll-rename_chapter' => 'Qism ra yew sernameyê newî binuse',
 	'coll-no_such_category' => 'Ena kategorî çini yo',
 	'coll-notitle_title' => 'Sernameyê pelî mizan çita wo.',
-	'coll-post_failed_title' => 'Telebê POSTî nibiyo',
-	'coll-post_failed_msg' => '$1 rê talebê POSTî nibiyo ($2).',
 	'coll-mwserve_failed_title' => 'Ğeletê servera render',
 	'coll-mwserve_failed_msg' => 'Servera render de yew ğelet biyo: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Server ra responseyê ğeletî',
@@ -5875,8 +5880,6 @@ $messages['fa'] = array(
 	'coll-rename_chapter' => 'برای بخش یک نام جدید وارد کنید',
 	'coll-no_such_category' => 'چنین رده‌ای وجود ندارد',
 	'coll-notitle_title' => 'عنوان صفحه قابل تشخیص نبود.',
-	'coll-post_failed_title' => 'خطا در درخواست POST',
-	'coll-post_failed_msg' => 'درخواست POST به $1 شکست خورد ($2).',
 	'coll-mwserve_failed_title' => 'خطا در سرور ترسیم‌کننده',
 	'coll-mwserve_failed_msg' => 'خطایی در سرور ترسیم‌کننده رخ داد: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'پیغام خطا از طرف سرور',
@@ -6286,8 +6289,8 @@ Cette page ne fonctionnera pas correctement tant que Javascript n’est pas acti
 	'coll-rename_chapter' => 'Entrer le nouveau titre de ce chapitre',
 	'coll-no_such_category' => 'Catégorie introuvable',
 	'coll-notitle_title' => 'Le titre de la page n’a pas pu être déterminé.',
-	'coll-post_failed_title' => 'La requête POST a échoué',
-	'coll-post_failed_msg' => 'La requête POST vers $1 a échoué ($2).',
+	'coll-request_failed_title' => 'Échec au rendu du livre',
+	'coll-request_failed_msg' => 'Il y a eu une erreur en essayant de faire un rendu de votre livre.',
 	'coll-mwserve_failed_title' => 'Erreur du serveur de rendu',
 	'coll-mwserve_failed_msg' => 'Une erreur est survenue sur le serveur de rendu : <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Réponse d’erreur retournée par le serveur',
@@ -6640,8 +6643,6 @@ Detdiar sidj koon ei rocht werke, so loong JavaScript ei werket.</strong>',
 	'coll-rename_chapter' => 'En neien nööm för det kapiitel iindu',
 	'coll-no_such_category' => 'Son kategorii jaft at ei',
 	'coll-notitle_title' => 'Di tiitel faan det sidj küd ei fäästlaanj wurd.',
-	'coll-post_failed_title' => 'POST uunfraag as skiaf gingen',
-	'coll-post_failed_msg' => 'Det POST uunfraag to $1 as skiaf gingen ($2).',
 	'coll-mwserve_failed_title' => 'Di server swaaret ei',
 	'coll-mwserve_failed_msg' => 'Üüb a server as wat skiaf gingen: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Di server swaaret mä en feeler',
@@ -9522,8 +9523,8 @@ $messages['ja'] = array(
 	'coll-rename_chapter' => '章の新しい見出しを入力',
 	'coll-no_such_category' => '指定されたカテゴリはありません',
 	'coll-notitle_title' => 'ページタイトルが未設定です。',
-	'coll-post_failed_title' => 'POST 要求の失敗',
-	'coll-post_failed_msg' => '$1 への POST 要求は失敗しました ($2)。',
+	'coll-request_failed_title' => 'ブックをレンダリングできませんでした',
+	'coll-request_failed_msg' => 'ブックのレンダリングを試行した際にエラーが発生しました。',
 	'coll-mwserve_failed_title' => 'レンダリングサーバーのエラー',
 	'coll-mwserve_failed_msg' => 'レンダリングサーバーでエラーが発生しました: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'サーバーからのエラー応答',
@@ -15839,6 +15840,7 @@ $messages['rtm'] = array(
  * @author Kaganer
  * @author Lockal
  * @author MaxSem
+ * @author Okras
  * @author Putnik
  * @author Sergey kudryavtsev
  * @author Volkov
@@ -15888,8 +15890,8 @@ $messages['ru'] = array(
 	'coll-rename_chapter' => 'Введите новое имя главы',
 	'coll-no_such_category' => 'Нет такой категории',
 	'coll-notitle_title' => 'Заголовок страницы не может быть определён.',
-	'coll-post_failed_title' => 'POST-запрос не выполнен',
-	'coll-post_failed_msg' => 'POST-запрос к $1 не выполнен ($2).',
+	'coll-request_failed_title' => 'Преобразование книги не удалось',
+	'coll-request_failed_msg' => 'Произошла ошибка при попытке преобразовать вашу книгу.',
 	'coll-mwserve_failed_title' => 'Ошибка сервера отрисовки',
 	'coll-mwserve_failed_msg' => 'На сервере отрисовки произошла ошибка: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Ошибка ответа сервера',
@@ -18887,8 +18889,6 @@ Hindi aandar ng tama ang pahinang ito, maliban na lamang kung bubuhayin ang Java
 	'coll-rename_chapter' => 'Maglagay ng bagong pangalan para sa kabanata',
 	'coll-no_such_category' => 'Walang ganyang kaurian',
 	'coll-notitle_title' => 'Hindi matukoy ang pamagat ng pahina.',
-	'coll-post_failed_title' => 'Nabigo ang kahilingang ITALA',
-	'coll-post_failed_msg' => 'Nabigo ang kahilingang ITALA sa $1 ($2).',
 	'coll-mwserve_failed_title' => 'Kamalian sa naghahaing serbidor',
 	'coll-mwserve_failed_msg' => 'Naganap ang isang kamalian sa naghahaing serbidor: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'May kamalian sa tugon ng serbidor',
@@ -19472,6 +19472,7 @@ $messages['ug-arab'] = array(
  * @author Ahonc
  * @author Aleksandrit
  * @author Alex Khimich
+ * @author Andriykopanytsia
  * @author Base
  * @author NickK
  * @author Prima klasy4na
@@ -19520,8 +19521,8 @@ $messages['uk'] = array(
 	'coll-rename_chapter' => 'Уведіть нову назву розділу',
 	'coll-no_such_category' => 'Нема такої категорії',
 	'coll-notitle_title' => 'Заголовок сторінки неможливо визначити.',
-	'coll-post_failed_title' => 'POST-запит не виконаний',
-	'coll-post_failed_msg' => 'POST-запит до $1 не виконаний ($2).',
+	'coll-request_failed_title' => 'Перетворення книги не вдалося',
+	'coll-request_failed_msg' => 'Сталася помилка при спробі зробити книгу.',
 	'coll-mwserve_failed_title' => 'Помилка сервера відображення',
 	'coll-mwserve_failed_msg' => 'На сервері відображення трапилася помилка: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Помилка відповіді сервера',
