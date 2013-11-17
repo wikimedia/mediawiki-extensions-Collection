@@ -7459,6 +7459,7 @@ $messages['haw'] = array(
  * @author Rotem Liss
  * @author Rotemliss
  * @author YaronSh
+ * @author תומר ט
  */
 $messages['he'] = array(
 	'coll-desc' => '[[Special:Book|איסוף דפים לספר]], יצירת קובצי PDF',
@@ -7504,8 +7505,7 @@ $messages['he'] = array(
 	'coll-rename_chapter' => 'הקלידו שם חדש לפרק',
 	'coll-no_such_category' => 'אין קטגוריה כזו',
 	'coll-notitle_title' => 'לא ניתן היה לקבוע מהי כותרת הדף.',
-	'coll-post_failed_title' => 'בקשת ה־POST נכשלה',
-	'coll-post_failed_msg' => 'בקשת ה־POST לכתובת $1 נכשלה ($2).',
+	'coll-request_failed_title' => 'עיבוד הספר נכשל',
 	'coll-mwserve_failed_title' => 'שגיאה בשרת היצירה',
 	'coll-mwserve_failed_msg' => 'אירעה שגיאה בשרת יצירת המסמכים: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'מהשרת הגיעה תשובת שגיאה',
@@ -8539,8 +8539,8 @@ Iste pagina non functionara correctemente si JavaScript non es activate.</strong
 	'coll-rename_chapter' => 'Entra nove nomine pro capitulo',
 	'coll-no_such_category' => 'Categoria non existe',
 	'coll-notitle_title' => 'Le titulo del pagina non poteva esser determinate.',
-	'coll-post_failed_title' => 'Requesta POST fallite',
-	'coll-post_failed_msg' => 'Le requesta POST a $1 falleva ($2).',
+	'coll-request_failed_title' => 'Le generation del libro ha fallite',
+	'coll-request_failed_msg' => 'Un error ha occurrite durante le tentativa de generar tu libro.',
 	'coll-mwserve_failed_title' => 'Error del servitor de renditiones',
 	'coll-mwserve_failed_msg' => 'Un error ha occurrite in le servitor de renditiones: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Responsa de error ab servitor',
@@ -12320,8 +12320,8 @@ $messages['mk'] = array(
 	'coll-rename_chapter' => 'Внесете ново име за главата',
 	'coll-no_such_category' => 'Нема таква категорија',
 	'coll-notitle_title' => 'Насловот на страницата не може да се определи.',
-	'coll-post_failed_title' => 'POST-барањето не успеа',
-	'coll-post_failed_msg' => 'POST-барањето од $1 не успеа ($2).',
+	'coll-request_failed_title' => 'Исписот на книгата не успеа',
+	'coll-request_failed_msg' => 'Се појави брешка при обидот да се испише книгата.',
 	'coll-mwserve_failed_title' => 'Грешка во опслужувачот за исцртување',
 	'coll-mwserve_failed_msg' => 'Настана грешка во опслужувачот за испис: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Опслужувачот одговори со грешка',
@@ -13617,6 +13617,7 @@ $messages['niu'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author Breghtje
  * @author Erwin
  * @author GerardM
  * @author McDutchie
@@ -13671,8 +13672,8 @@ Deze pagina werkt niet correct tenzij u JavaScript inschakelt.</strong>',
 	'coll-rename_chapter' => 'Voer een nieuwe naam in voor het hoofdstuk',
 	'coll-no_such_category' => 'De categorie bestaat niet',
 	'coll-notitle_title' => 'De titel van de pagina kon niet vastgesteld worden.',
-	'coll-post_failed_title' => 'POST-verzoek mislukt',
-	'coll-post_failed_msg' => 'Het POST-verzoek naar $1 is mislukt ($2).',
+	'coll-request_failed_title' => 'Boek weergave is mislukt',
+	'coll-request_failed_msg' => 'Er is een fout opgetreden bij het maken van uw boek.',
 	'coll-mwserve_failed_title' => 'Fout in de renderserver',
 	'coll-mwserve_failed_msg' => 'De renderserver gaf de volgende foutmelding: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'De server heeft een foutmelding teruggegeven',
