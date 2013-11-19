@@ -20,7 +20,7 @@ abstract class CollectionRenderingAPI {
 	/**
 	 * @param string|bool $writer: Writer or false if none specified/needed
 	 */
-	protected function __create( $writer ) {
+	protected function __construct( $writer ) {
 		$this->writer = $writer;
 	}
 
