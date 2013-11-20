@@ -1045,6 +1045,8 @@ class SpecialCollection extends SpecialPage {
 			. '&return_to=' . urlencode( $return_to );
 
 		switch ( $result->get( 'state' ) ) {
+		case 'pending':
+		case 'failed':
 		case 'progress':
 			$out->addHeadItem( 'refresh-nojs', '<noscript><meta http-equiv="refresh" content="2" /></noscript>' );
 			$out->addInlineScript( 'var collection_id = "' . urlencode( $collectionId ) . '";' );
@@ -1070,7 +1072,7 @@ class SpecialCollection extends SpecialPage {
 			$template->set( 'status', $status );
 			$progress = $result->get( 'status', 'progress' );
 			if ( !$progress ) {
-				$progress = 1.00;
+				$progress = 0.00;
 			}
 			$template->set( 'progress', $progress );
 			$out->addTemplate( $template );
