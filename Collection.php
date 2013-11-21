@@ -148,6 +148,7 @@ $wgAutoloadClasses['CollectionLoadOverwriteTemplate'] = $dir . 'Collection.templ
 $wgAutoloadClasses['CollectionSaveOverwriteTemplate'] = $dir . 'Collection.templates.php';
 $wgAutoloadClasses['CollectionRenderingTemplate'] = $dir . 'Collection.templates.php';
 $wgAutoloadClasses['CollectionFinishedTemplate'] = $dir . 'Collection.templates.php';
+$wgAutoloadClasses['CollectionFailedTemplate'] = $dir . 'Collection.templates.php';
 $wgAutoloadClasses['CollectionSuggestTemplate'] = $dir . 'Collection.templates.php';
 $wgAutoloadClasses['CollectionRenderingAPI'] = $dir . 'RenderingAPI.php';
 $wgAutoloadClasses['MWServeRenderingAPI'] = $dir . 'RenderingAPI.php';

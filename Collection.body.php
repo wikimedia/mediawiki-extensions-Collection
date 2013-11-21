@@ -1046,7 +1046,6 @@ class SpecialCollection extends SpecialPage {
 
 		switch ( $result->get( 'state' ) ) {
 		case 'pending':
-		case 'failed':
 		case 'progress':
 			$out->addHeadItem( 'refresh-nojs', '<noscript><meta http-equiv="refresh" content="2" /></noscript>' );
 			$out->addInlineScript( 'var collection_id = "' . urlencode( $collectionId ) . '";' );
@@ -1083,6 +1082,22 @@ class SpecialCollection extends SpecialPage {
 			$template = new CollectionFinishedTemplate();
 			$template->set( 'download_url', wfExpandUrl( SkinTemplate::makeSpecialUrl( 'Book', 'bookcmd=download&' . $query ), PROTO_CURRENT ) );
 			$template->set( 'is_cached', $request->getVal( 'is_cached' ) );
+			$template->set( 'query', $query );
+			$template->set( 'return_to', $return_to );
+			$out->addTemplate( $template );
+			break;
+		case 'failed':
+			$out->setPageTitle( $this->msg( 'coll-rendering_failed_title' ) );
+
+			$statusText = $result->get( 'status', 'status' );
+			if ( $statusText ) {
+				$status = $this->msg( 'coll-rendering_failed_status', $statusText )->text();
+			} else {
+				$status = '';
+			}
+
+			$template = new CollectionFailedTemplate();
+			$template->set( 'status', $status );
 			$template->set( 'query', $query );
 			$template->set( 'return_to', $return_to );
 			$out->addTemplate( $template );
