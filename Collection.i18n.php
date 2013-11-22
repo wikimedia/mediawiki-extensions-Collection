@@ -119,7 +119,7 @@ Notes:
 	'coll-rendering_failed_title'     => 'Rendering failed',
 	'coll-rendering_failed_text'      => "<strong>Generation of the document file has failed.</strong>
 
-<p><span id=\"renderingStatus\">$2</span></p>",
+<p><span id=\"renderingStatus\">$1</span></p>",
 	'coll-rendering_failed_status'    => "<strong>Status:</strong> $1",
 	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Rendering page info text',
 	'coll-failed_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Rendering collection info text',
