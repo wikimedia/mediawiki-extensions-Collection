@@ -140,17 +140,11 @@ class CollectionHooks {
 	 * @param $skin Skin
 	 * @return bool
 	 */
-	static function siteNoticeAfter( &$siteNotice, $skin = null ) {
+	static function siteNoticeAfter( &$siteNotice, $skin ) {
 		global $wgCollectionArticleNamespaces;
 
-		if ( $skin ) {
-			$request = $skin->getRequest();
-			$title = $skin->getTitle();
-		} else {
-			global $wgRequest, $wgTitle;
-			$title = $wgTitle;
-			$request = $wgRequest;
-		}
+		$request = $skin->getRequest();
+		$title = $skin->getTitle();
 
 		$action = $request->getVal( 'action' );
 		if ( $action != '' && $action != 'view' && $action != 'purge' ) {
