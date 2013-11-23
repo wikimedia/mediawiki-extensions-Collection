@@ -5290,6 +5290,7 @@ La listo estas ĝisdatigita iam ajn vi klakas la butonojn aldoni aŭ forigi.',
  * @author Crazymadlover
  * @author Dalton2
  * @author Dferg
+ * @author Ihojose
  * @author Imre
  * @author Jatrobat
  * @author Lin linao
@@ -5348,8 +5349,8 @@ Esta página no funcionará correctamente mientras no esté habilitado.</strong>
 	'coll-rename_chapter' => 'Introducir un nombre nuevo para el capítulo',
 	'coll-no_such_category' => 'No existe tal categoría',
 	'coll-notitle_title' => 'No se puede determinar el título de la página.',
-	'coll-post_failed_title' => 'Falló la solicitud POST',
-	'coll-post_failed_msg' => 'La solicitud POST  a $1 ha fallado ($2).',
+	'coll-request_failed_title' => 'Representación del libro fallida',
+	'coll-request_failed_msg' => 'Se produjo un error al intentar procesar tu libro.',
 	'coll-mwserve_failed_title' => 'Error del servidor de procesado',
 	'coll-mwserve_failed_msg' => 'Ha ocurrido un error en el servidor de procesado: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Respuesta de error del servidor',
@@ -7032,8 +7033,10 @@ A lista actualízase sempre que preme no botón engadir ou eliminar.',
 
 /** Goan Konkani (Latin script) (Konknni)
  * @author Deepak D'Souza
+ * @author The Discoverer
  */
 $messages['gom-latn'] = array(
+	'coll-contents' => 'Suchi-potr',
 	'coll-return_to' => '[[:$1]] ak patim vos',
 );
 
