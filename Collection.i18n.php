@@ -3509,6 +3509,7 @@ Spisak se ažurira kad god kliknete na dugme za dodavanje ili uklanjanje.',
  * @author Aleator
  * @author Arnaugir
  * @author El libre
+ * @author Fitoschido
  * @author Jordi Roqué
  * @author Martorell
  * @author Paucabot
@@ -3560,8 +3561,6 @@ Aquesta pàgina no funcionarà correctament si no l'activeu.</strong>",
 	'coll-rename_chapter' => 'Introduïu un nou nom per al capítol',
 	'coll-no_such_category' => 'No existeix tal categoria',
 	'coll-notitle_title' => "No s'ha pogut determinar el títol de la pàgina.",
-	'coll-post_failed_title' => 'La petició POST ha fallat',
-	'coll-post_failed_msg' => 'La petició POST a $1 ha fallat ($2).',
 	'coll-mwserve_failed_title' => 'Error en el servidor de renderització',
 	'coll-mwserve_failed_msg' => "S'ha produït un error al servidor de renderització: <nowiki>$1</nowiki>",
 	'coll-error_reponse' => "Resposta d'error del servidor",
@@ -3631,7 +3630,7 @@ Si us plau, contacteu amb el vostre administrador de MediaWiki.",
 	'coll-suggest_intro_text' => "Els suggeriments estan basats en la llista actual de pàgines al llibre.
 La llista s'actualitza cada vegada que feu clic als botons d'afegir o treure.",
 	'coll-suggested_articles' => 'Suggeriments',
-	'coll-suggest_reset_bans' => 'restablir',
+	'coll-suggest_reset_bans' => 'reinicia',
 	'coll-suggest_reset_bans_tooltip' => 'Mostra els suggeriments descartats',
 	'coll-suggest_add_selected' => 'Afegeix les pàgines seleccionades',
 	'coll-suggest_ban_selected' => 'Elimina les pàgines seleccionades',
@@ -5290,6 +5289,7 @@ La listo estas ĝisdatigita iam ajn vi klakas la butonojn aldoni aŭ forigi.',
  * @author Crazymadlover
  * @author Dalton2
  * @author Dferg
+ * @author Fitoschido
  * @author Ihojose
  * @author Imre
  * @author Jatrobat
@@ -5349,7 +5349,7 @@ Esta página no funcionará correctamente mientras no esté habilitado.</strong>
 	'coll-rename_chapter' => 'Introducir un nombre nuevo para el capítulo',
 	'coll-no_such_category' => 'No existe tal categoría',
 	'coll-notitle_title' => 'No se puede determinar el título de la página.',
-	'coll-request_failed_title' => 'Representación del libro fallida',
+	'coll-request_failed_title' => 'Falló la renderización del libro',
 	'coll-request_failed_msg' => 'Se produjo un error al intentar procesar tu libro.',
 	'coll-mwserve_failed_title' => 'Error del servidor de procesado',
 	'coll-mwserve_failed_msg' => 'Ha ocurrido un error en el servidor de procesado: <nowiki>$1</nowiki>',
@@ -5421,7 +5421,7 @@ Por favor, contacta con tu administrador MediaWiki.',
 	'coll-suggest_intro_text' => 'Las sugerencias están basadas en el conjunto actual de páginas wiki de tu libro.
 La lista se actualiza cada vez que haces click en los botones de agregar o quitar.',
 	'coll-suggested_articles' => 'Sugerencias',
-	'coll-suggest_reset_bans' => 'reestablecer',
+	'coll-suggest_reset_bans' => 'restablecer',
 	'coll-suggest_reset_bans_tooltip' => 'Mostrar sugerencias previamente eliminadas',
 	'coll-suggest_add_selected' => 'Agregar páginas seleccionadas',
 	'coll-suggest_ban_selected' => 'Quitar las páginas seleccionadas',
@@ -6644,6 +6644,8 @@ Detdiar sidj koon ei rocht werke, so loong JavaScript ei werket.</strong>',
 	'coll-rename_chapter' => 'En neien nööm för det kapiitel iindu',
 	'coll-no_such_category' => 'Son kategorii jaft at ei',
 	'coll-notitle_title' => 'Di tiitel faan det sidj küd ei fäästlaanj wurd.',
+	'coll-request_failed_title' => "Diar as wat skiaf gingen bi't buken maagin.",
+	'coll-request_failed_msg' => 'Diar as wat skiaf gingen bi di ferschük, din buk tu maagin.',
 	'coll-mwserve_failed_title' => 'Di server swaaret ei',
 	'coll-mwserve_failed_msg' => 'Üüb a server as wat skiaf gingen: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Di server swaaret mä en feeler',
