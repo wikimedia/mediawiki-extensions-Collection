@@ -3512,6 +3512,7 @@ Spisak se ažurira kad god kliknete na dugme za dodavanje ili uklanjanje.',
  * @author Fitoschido
  * @author Jordi Roqué
  * @author Martorell
+ * @author Papapep
  * @author Paucabot
  * @author SMP
  * @author Solde
@@ -3610,7 +3611,7 @@ Notes:
 	'coll-notfound_title' => 'Llibre no trobat',
 	'coll-notfound_text' => "No s'ha pogut trobar la pàgina del llibre.",
 	'coll-download_notfound_title' => "No s'ha trobat el fitxer",
-	'coll-download_notfound_text' => 'El fitxer que intenteu descarregar no existeix: Potser ha estat esborrat i cal que sigui regenerat.',
+	'coll-download_notfound_text' => "El fitxer que intenteu descarregar no existeix: Potser s'ha suprimit i cal que sigui regenerat.",
 	'coll-download_failed_title' => 'Error durant la baixada',
 	'coll-download_failed_text' => "S'ha produït un error en descarregar l'arxiu: $1",
 	'coll-is_cached' => '<ul><li>S\'ha trobat una versió del document en la memòria cau i per tant no ha estat necessària cap renderització. <a href="$1">Forçar renderització.</a></li></ul>',
@@ -3637,9 +3638,9 @@ La llista s'actualitza cada vegada que feu clic als botons d'afegir o treure.",
 	'coll-suggest_your_book' => 'El teu llibre',
 	'coll-suggest_show' => 'mostra',
 	'coll-suggest_ban_tooltip' => 'Treu aquesta pàgina de la llista de suggeriments',
-	'coll-suggest_article_ban' => 'La pàgina <strong>$1</strong> ha estat retirada dels suggeriments ($2).',
-	'coll-suggest_article_add' => 'La pàgina <strong>$1</strong> ha estat afegida al llibre ($2).',
-	'coll-suggest_article_remove' => 'La pàgina <strong>$1</strong> ha estat retirada del vostre llibre ($2).',
+	'coll-suggest_article_ban' => "S'ha retirat dels suggeriments ($2) la pàgina <strong>$1</strong>.",
+	'coll-suggest_article_add' => "S'ha afegit la pàgina <strong>$1</strong> al llibre ($2).",
+	'coll-suggest_article_remove' => "S'ha retirat la pàgina <strong>$1</strong> del vostre llibre ($2).",
 	'coll-suggest_undo_tooltip' => "Desfés l'acció",
 	'coll-suggest_undo' => 'desfés',
 	'coll-load_local_book' => 'Feu clic a OK per a continuar el vostre llibre %TITLE% que conté %NUMPAGES% pàgines del wiki. Feu clic a Canceŀla per a esborrar-lo i començar amb un llibre buit.',
