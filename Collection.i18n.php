@@ -3985,8 +3985,8 @@ Ni fydd y dudalen hon yn gweithio'n gywir os nad yw JavaScript wedi ei alluogi.<
 	'coll-rename_chapter' => 'Rhowch yr enw newydd ar y bennod',
 	'coll-no_such_category' => 'Y categori ddim ar gael',
 	'coll-notitle_title' => 'Ni lwyddwyd i ddirnad teitl y dudalen.',
-	'coll-post_failed_title' => 'Methodd y cais POST',
-	'coll-post_failed_msg' => 'Methodd y cais POST i $1 ($2).',
+	'coll-request_failed_title' => 'Methwyd cynhyrchu eich llyfr',
+	'coll-request_failed_msg' => 'Cafwyd gwall wrth geisio cynhyrchu eich llyfr.',
 	'coll-mwserve_failed_title' => 'Gwall gan y gweinydd cynhyrchu',
 	'coll-mwserve_failed_msg' => 'Digwyddodd gwall ar y gweinydd cynhyrchu: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Hysbysiad gwall oddi wrth y gweinydd',
@@ -7462,6 +7462,7 @@ $messages['haw'] = array(
 
 /** Hebrew (עברית)
  * @author Amire80
+ * @author Guycn2
  * @author Rotem Liss
  * @author Rotemliss
  * @author YaronSh
@@ -7562,7 +7563,7 @@ $messages['he'] = array(
 	'coll-notfound_title' => 'הספר לא נמצא',
 	'coll-notfound_text' => 'לא ניתן למצוא את דף הספר.',
 	'coll-download_notfound_title' => 'הקובץ לא נמצא',
-	'coll-download_notfound_text' => 'הקובץ שאתם מנסים להוריד לא נמצא: אולי הוא נמחק ויש ליצור אותו מחדש.',
+	'coll-download_notfound_text' => 'הקובץ שאתם מנסים להוריד לא נמצא: ייתכן שהוא נמחק ויש ליצור אותו מחדש.',
 	'coll-download_failed_title' => 'שגיאה במהלך ההורדה',
 	'coll-download_failed_text' => 'אירעה שגיאה בעת הורדת הקובץ: $1',
 	'coll-is_cached' => '<ul><li>גרסה שמורה של המסמך נמצאה, כך שאין צורך ביצירתו. <a href="$1">יצירה מחדש.</a></li></ul>',
@@ -13676,7 +13677,7 @@ Deze pagina werkt niet correct tenzij u JavaScript inschakelt.</strong>',
 	'coll-rename_chapter' => 'Voer een nieuwe naam in voor het hoofdstuk',
 	'coll-no_such_category' => 'De categorie bestaat niet',
 	'coll-notitle_title' => 'De titel van de pagina kon niet vastgesteld worden.',
-	'coll-request_failed_title' => 'Boek weergave is mislukt',
+	'coll-request_failed_title' => 'Boekweergave is mislukt',
 	'coll-request_failed_msg' => 'Er is een fout opgetreden bij het maken van uw boek.',
 	'coll-mwserve_failed_title' => 'Fout in de renderserver',
 	'coll-mwserve_failed_msg' => 'De renderserver gaf de volgende foutmelding: <nowiki>$1</nowiki>',
