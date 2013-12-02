@@ -2,7 +2,6 @@
 	position: absolute;
 	padding: 4px;
 	border: 1px solid #000;
-	background-color: #fea;
 	z-index: 9999;
 	display: inline;
 	font-size: 10pt;
@@ -25,7 +24,6 @@
 	margin-bottom: 10px;
 	padding: 10px;
 	border: 1px solid #aaa;
-	background-color: #f9f9f9;
 }
 
 /* Input follows user direction */
@@ -39,7 +37,6 @@
 	margin-top: 20px;
 	margin-bottom: 2px;
 	border: 1px solid #aaa;
-	background-color: #f9f9f9;
 }
 
 .collection-create-chapter-links a {
@@ -109,7 +106,6 @@
 	margin: 10px 0;
 	padding: 5px 10px;
 	border: 1px solid #aaa;
-	background-color: #f9f9ff;
 }
 
 .collection-creatorbox-row {
