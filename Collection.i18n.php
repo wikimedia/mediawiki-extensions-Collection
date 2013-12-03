@@ -7471,7 +7471,7 @@ $messages['haw'] = array(
 $messages['he'] = array(
 	'coll-desc' => '[[Special:Book|איסוף דפים לספר]], יצירת קובצי PDF',
 	'coll-book_creator_intro' => '<big>באמצעות "יוצר הספרים" ניתן ליצור ספר הכולל דפי ויקי לבחירתך. ניתן לייצא את הספר שלך בסוגי קבצים שונים (לדוגמה, PDF או ODF) או להזמין עותק מודפס.</big>',
-	'coll-manage_your_book' => 'ניהול הספר שלכם',
+	'coll-manage_your_book' => 'ניהול הספר שלך',
 	'coll-book_creator_help' => 'ניתן לעיין ב[[{{MediaWiki:Coll-helppage}}|דף העזרה על ספרים]] למידע נוסף.',
 	'coll-start_book_creator' => 'הפעלת יוצר הספרים',
 	'coll-book_creator_continue' => 'המשך השימוש ביוצר הספרים',
@@ -7489,7 +7489,7 @@ $messages['he'] = array(
 <strong>הדפדפן שלכם אינו תומך ב־JavaScript או שביטלתם את JavaScript בדפדפן זה.
 דף זה לא יעבוד כדרוש, אלא אם כן JavaScript יופעל.</strong>',
 	'coll-savedbook_template' => 'ספר_שמור',
-	'coll-your_book' => 'הספר שלכם',
+	'coll-your_book' => 'הספר שלך',
 	'coll-download_title' => 'הורדה',
 	'coll-download_text' => 'להורדת הספר שלכם, בחרו פורמט ולחצו על הכפתור.',
 	'coll-download_as_text' => 'להורדת הספר שלכם בפורמט $1, לחצו על הכפתור.',
@@ -7528,7 +7528,7 @@ $messages['he'] = array(
 	'coll-overwrite_title' => 'הדף כבר קיים.
 האם לדרוס אותו?',
 	'coll-overwrite_text' => 'דף בשם [[:$1]] כבר קיים.
-האם ברצונכם להחליף אותו עם הספר שלכם?',
+האם ברצונך להחליף אותו עם הספר שלך?',
 	'coll-yes' => 'כן',
 	'coll-no' => 'לא',
 	'coll-load_overwrite_text' => 'כבר יש לכם מספר דפים בספר שלכם.
@@ -7538,7 +7538,7 @@ $messages['he'] = array(
 	'coll-cancel' => 'ביטול',
 	'coll-update' => 'עדכון',
 	'coll-limit_exceeded_title' => 'הספר גדול מדי',
-	'coll-limit_exceeded_text' => 'הספר שלכם גדול מדי.
+	'coll-limit_exceeded_text' => 'הספר שלך גדול מדי.
 לא ניתן להוסיף דפים נוספים.',
 	'coll-rendering_title' => 'יצירת הספר מתבצעת כעת',
 	'coll-rendering_text' => '<p><strong>אנא המתינו בעת יצירת המסמך.</strong></p>
@@ -7587,12 +7587,12 @@ $messages['he'] = array(
 	'coll-suggest_reset_bans_tooltip' => 'הצגת הצעות שהוסרו בעבר',
 	'coll-suggest_add_selected' => 'הוספת הדפים שנבחרו',
 	'coll-suggest_ban_selected' => 'הסרת הדפים שנבחרו',
-	'coll-suggest_your_book' => 'הספר שלכם',
+	'coll-suggest_your_book' => 'הספר שלך',
 	'coll-suggest_show' => 'הצגה',
 	'coll-suggest_ban_tooltip' => 'הסרת דף זה מרשימת ההצעות',
 	'coll-suggest_article_ban' => 'הדף <strong>$1</strong> הוסר מרשימת ההצעות ($2).',
-	'coll-suggest_article_add' => 'הדף <strong>$1</strong> נוסף לספר שלכם ($2).',
-	'coll-suggest_article_remove' => 'הדף <strong>$1</strong> הוסר מהספר שלכם ($2).',
+	'coll-suggest_article_add' => 'הדף <strong>$1</strong> נוסף לספר שלך ($2).',
+	'coll-suggest_article_remove' => 'הדף <strong>$1</strong> הוסר מהספר שלך ($2).',
 	'coll-suggest_undo_tooltip' => 'ביטול פעולה זו',
 	'coll-suggest_undo' => 'ביטול',
 	'coll-load_local_book' => 'נא ללחוץ על אישור כדי להמשיך עם הספר שלך %TITLE% המכיל %NUMPAGES% עמודי ויקי. יש ללחוץ על ביטול כדי למחוק אותו ולהתחיל עם ספר ריק.',
@@ -7630,7 +7630,7 @@ $messages['he'] = array(
 	'coll-load_collection_tooltip' => 'טעינת הספר הזה כספר הנוכחי שלך',
 	'coll-n_pages' => '{{PLURAL:$1|דף אחד|$1 דפים}}',
 	'coll-printable_version_pdf' => 'גרסת PDF',
-	'coll-remove_this_page' => 'הסרת דף זה מהספר שלכם',
+	'coll-remove_this_page' => 'הסרת דף זה מהספר שלך',
 	'coll-remove_page_tooltip' => 'הסרת דף הוויקי הנוכחי מהספר שלך',
 	'coll-show_collection' => 'הצגת ספר',
 	'coll-show_collection_tooltip' => 'עריכת/הורדת/הזמנת הספר שלך',
