@@ -12461,6 +12461,7 @@ $messages['mk'] = array(
 /** Malayalam (മലയാളം)
  * @author Praveenp
  * @author Shijualex
+ * @author Vssun
  */
 $messages['ml'] = array(
 	'coll-desc' => '[[Special:Book|പുസ്തകം സൃഷ്ടിക്കുക]]',
@@ -12506,8 +12507,6 @@ $messages['ml'] = array(
 	'coll-rename_chapter' => 'അദ്ധ്യായത്തിനു പുതിയൊരു പേരു കൊടുക്കുക',
 	'coll-no_such_category' => 'അങ്ങനെ ഒരു വർഗ്ഗം നിലവിലില്ല',
 	'coll-notitle_title' => 'താളിന്റെ തലക്കെട്ട് നിർണ്ണയിക്കുന്നതിനു കഴിഞ്ഞില്ല.',
-	'coll-post_failed_title' => 'POST അഭ്യർത്ഥന പരാജയപ്പെട്ടു',
-	'coll-post_failed_msg' => '$1 എന്നതിലേയ്ക്കുള്ള POST അഭ്യർത്ഥന പരാജയപ്പെട്ടു ($2).',
 	'coll-mwserve_failed_title' => 'റെൻഡർ സെർവർ പിഴവ്',
 	'coll-mwserve_failed_msg' => 'റെൻഡർ സെ‌‌ർവറിൽ പിഴവ് സംഭവിച്ചിരിക്കുന്നു: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'സെർവറിൽ നിന്നു പിഴവാണെന്ന മറുപടി കിട്ടി.',
@@ -12569,7 +12568,7 @@ $messages['ml'] = array(
 	'coll-invalid_podpartner_msg' => 'നൽകിയ ആവശ്യപ്പെട്ടാൽ-അച്ചടിച്ചു-തരുന്ന പങ്കാളി അസാധുവാണ്.
 ദയവായി താങ്കളുടെ മീഡിയവിക്കി കാര്യനിർവാഹകനെ ബന്ധപ്പെടുക.',
 	'coll-license' => 'അനുമതി',
-	'coll-return_to' => '[[:$1]] താളിലേയ്ക്ക് തിരിച്ചു പോവുക',
+	'coll-return_to' => '[[:$1]] താളിലേക്ക് മടങ്ങുക',
 	'coll-order_info_article' => '{{MediaWiki:Coll-helppage}}/പീഡിയപ്രസ്സ് ആവശ്യപ്പെടൽ വിവരങ്ങൾ',
 	'coll-suggest_title' => 'താങ്കളുടെ പുസ്തകത്തിലേയ്ക്ക് നിർദ്ദേശിക്കുന്ന താളുകൾ',
 	'coll-suggest_intro_text' => 'താങ്കളുടെ പുസ്തകത്തിൽ ഇപ്പോഴുള്ള വിക്കിതാളുകളുടെ ഗണത്തെ അധിഷ്ഠിതമാക്കിയുള്ള നിർദ്ദേശങ്ങളാണിത്.
