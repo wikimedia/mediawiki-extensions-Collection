@@ -975,27 +975,112 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
+	 * @return array
+	 */
+	function getLicenseInfos() {
+		global $wgCollectionLicenseName, $wgCollectionLicenseURL, $wgRightsIcon;
+		global $wgRightsPage, $wgRightsText, $wgRightsUrl;
+
+		$licenseInfo = array(
+			"type" => "license",
+		);
+
+		$from_msg = $this->msg( 'coll-license_url' )->inContentLanguage();
+		if ( !$from_msg->isDisabled() ) {
+			$licenseInfo['mw_license_url'] = $from_msg->text();
+			return array( $licenseInfo );
+		}
+
+		if ( $wgCollectionLicenseName ) {
+			$licenseInfo['name'] = $wgCollectionLicenseName;
+		} else {
+			$licenseInfo['name'] = $this->msg( 'coll-license' )->inContentLanguage()->text();
+		}
+
+		if ( $wgCollectionLicenseURL ) {
+			$licenseInfo['mw_license_url'] = $wgCollectionLicenseURL;
+		} else {
+			$licenseInfo['mw_rights_icon'] = $wgRightsIcon;
+			$licenseInfo['mw_rights_page'] = $wgRightsPage;
+			$licenseInfo['mw_rights_url'] = $wgRightsUrl;
+			$licenseInfo['mw_rights_text'] = $wgRightsText;
+		}
+
+		return array( $licenseInfo );
+	}
+
+	/**
+	 * @param $collection array
+	 * @return string
+	 */
+	function buildJSONCollection( $collection ) {
+		$result = array(
+			'type' => 'collection',
+			'licenses' => $this->getLicenseInfos()
+		);
+
+		if ( isset( $collection['title'] ) ) {
+			$result['title'] = $collection['title'];
+		}
+		if ( isset( $collection['subtitle'] ) ) {
+			$result['subtitle'] = $collection['subtitle'];
+		}
+
+		$items = array();
+		if ( isset( $collection['items'] ) ) {
+			$currentChapter = null;
+			foreach ( $collection['items'] as $item ) {
+				if ( $item['type'] == 'article' ) {
+					if ( is_null( $currentChapter ) ) {
+						$items[] = $item;
+					} else {
+						$currentChapter['items'][] = $item;
+					}
+				} elseif ( $item['type'] == 'chapter' ) {
+					if ( !is_null( $currentChapter ) ) {
+						$items[] = $currentChapter;
+					}
+					$currentChapter = $item;
+				}
+			}
+			if ( !is_null( $currentChapter ) ) {
+				$items[] = $currentChapter;
+			}
+		}
+		$result['items'] = $items;
+
+		return FormatJson::encode( $result );
+	}
+
+	/**
 	 * @param $collection
 	 * @param $referrer Title
 	 * @param $writer
 	 */
 	function renderCollection( $collection, $referrer, $writer ) {
+		global $wgContLang, $wgScriptPath, $wgScriptExtension;
+
 		if ( !$writer ) {
 			$writer = 'rl';
 		}
 
-		$api = CollectionRenderingAPI::instance( $writer );
-		$response = $api->render( $collection );
+		$response = self::mwServeCommand( 'render', array(
+			'metabook' => $this->buildJSONCollection( $collection ),
+			'base_url' => wfExpandUrl( $wgScriptPath, PROTO_CURRENT ),
+			'script_extension' => $wgScriptExtension,
+			'language' => $wgContLang->getCode(),
+			'writer' => $writer,
+		) );
 
-		if ( !$this->handleResult( $response ) ) {
+		if ( !$response ) {
 			return;
 		}
 
 		$query = 'bookcmd=rendering'
 			. '&return_to=' . urlencode( $referrer->getPrefixedText() )
-			. '&collection_id=' . urlencode( $response->get( 'collection_id' ) )
-			. '&writer=' . urlencode( $writer );
-		if ( $response->get( 'is_cached' ) ) {
+			. '&collection_id=' . urlencode( $response['collection_id'] )
+			. '&writer=' . urlencode( $response['writer'] );
+		if ( isset( $response['is_cached'] ) && $response['is_cached'] ) {
 			$query .= '&is_cached=1';
 		}
 		$redirect = SkinTemplate::makeSpecialUrl( 'Book', $query );
@@ -1003,13 +1088,21 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	function forceRenderCollection() {
+		global $wgContLang, $wgScriptPath, $wgScriptExtension;
+
 		$request = $this->getRequest();
 
 		$collectionID = $request->getVal( 'collection_id', '' );
 		$writer = $request->getVal( 'writer', 'rl' );
 
-		$api = CollectionRenderingAPI::instance( $writer );
-		$response = $api->forceRender( $collectionID );
+		$response = self::mwServeCommand( 'render', array(
+			'collection_id' => $collectionID,
+			'base_url' => wfExpandUrl( $wgScriptPath, PROTO_CURRENT ),
+			'script_extension' => $wgScriptExtension,
+			'language' => $wgContLang->getCode(),
+			'writer' => $writer,
+			'force_render' => true
+		) );
 
 		if ( !$response ) {
 			return;
@@ -1026,40 +1119,42 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	function renderRenderingPage() {
-		$this->setHeaders();
 		$request = $this->getRequest();
-		$out = $this->getOutput();
 
-		$collectionId = $request->getVal( 'collection_id' );
-		$collectionId = $request->getVal( 'collection_id' );
-		$writer = $request->getVal( 'writer' );
-		$return_to = $request->getVal( 'return_to', '' );
-
-		$result = CollectionRenderingAPI::instance( $writer )->getRenderStatus( $collectionId, $writer );
-		if ( !$this->handleResult( $result ) ) {
+		$response = self::mwServeCommand( 'render_status', array(
+			'collection_id' => $request->getVal( 'collection_id' ),
+			'writer' => $request->getVal( 'writer' ),
+		) );
+		if ( !$response ) {
 			return; // FIXME?
 		}
 
-		$query = 'collection_id=' . urlencode( $collectionId )
-			. '&writer=' . urlencode( $writer )
+		$this->setHeaders();
+
+		$return_to = $request->getVal( 'return_to', '' );
+
+		$query = 'collection_id=' . urlencode( $response['collection_id'] )
+			. '&writer=' . urlencode( $response['writer'] )
 			. '&return_to=' . urlencode( $return_to );
 
-		switch ( $result->get( 'state' ) ) {
+		$out = $this->getOutput();
+
+		switch ( $response['state'] ) {
 		case 'progress':
 			$out->addHeadItem( 'refresh-nojs', '<noscript><meta http-equiv="refresh" content="2" /></noscript>' );
-			$out->addInlineScript( 'var collection_id = "' . urlencode( $collectionId ) . '";' );
-			$out->addInlineScript( 'var writer = "' . urlencode( $writer ) . '";' );
+			$out->addInlineScript( 'var collection_id = "' . urlencode( $response['collection_id'] ) . '";' );
+			$out->addInlineScript( 'var writer = "' . urlencode( $response['writer'] ) . '";' );
 			$out->addInlineScript( 'var collection_rendering = true;' );
 			$out->addModules( 'ext.collection' );
 			$out->setPageTitle( $this->msg( 'coll-rendering_title' ) );
 
-			$statusText = $result->get( 'status', 'status' );
-			if ( $statusText ) {
-				if ( $result->get( 'status', 'article' ) ) {
-					$statusText .= ' ' . $this->msg( 'coll-rendering_article', $result->get( 'status', 'article' ) )->text();
-				} elseif ( $result->get( 'status', 'page' ) ) {
+			if ( isset( $response['status']['status'] ) && $response['status']['status'] ) {
+				$statusText = $response['status']['status'];
+				if ( isset( $response['status']['article'] ) && $response['status']['article'] ) {
+					$statusText .= ' ' . $this->msg( 'coll-rendering_article', $response['status']['article'] )->text();
+				} elseif ( isset( $response['status']['page'] ) && $response['status']['page'] ) {
 					$statusText .= ' ';
-					$statusText .= $this->msg( 'coll-rendering_page' )->numParams( $result->get( 'status', 'page' ) )->text();
+					$statusText .= $this->msg( 'coll-rendering_page' )->numParams( $response['status']['page'] )->text();
 				}
 				$status = $this->msg( 'coll-rendering_status', $statusText )->text();
 			} else {
@@ -1068,11 +1163,10 @@ class SpecialCollection extends SpecialPage {
 
 			$template = new CollectionRenderingTemplate();
 			$template->set( 'status', $status );
-			$progress = $result->get( 'status', 'progress' );
-			if ( !$progress ) {
-				$progress = 1.00;
+			if ( !isset( $response['status']['progress'] ) ) {
+				$response['status']['progress'] = 1.00;
 			}
-			$template->set( 'progress', $progress );
+			$template->set( 'progress', $response['status']['progress'] );
 			$out->addTemplate( $template );
 			break;
 		case 'finished':
@@ -1086,7 +1180,7 @@ class SpecialCollection extends SpecialPage {
 			$out->addTemplate( $template );
 			break;
 		default:
-			throw new MWException( __METHOD__ . "(): unknown state '{$result->get( 'state' )}'");
+			$out->addWikiText( 'state: ' . $response['state'] );
 		}
 	}
 
@@ -1094,28 +1188,30 @@ class SpecialCollection extends SpecialPage {
 		global $wgCollectionContentTypeToFilename;
 
 		$request = $this->getRequest();
-		$collectionId = $request->getVal( 'collection_id' );
-		$writer = $request->getVal( 'writer' );
-		$api = CollectionRenderingAPI::instance( $writer );
 
 		$this->tempfile = tmpfile();
-		$r = $api->getRenderStatus( $collectionId, $writer );
+		$r = self::mwServeCommand( 'render_status', array(
+			'collection_id' => $request->getVal( 'collection_id' ),
+			'writer' => $request->getVal( 'writer' ),
+		) );
 
 		$info = false;
-		$url = $r->get( 'url' );
-		if ( $url ) {
-			$req = MWHttpRequest::factory( $url );
+		if ( isset( $r['url'] ) ) {
+			$req = MWHttpRequest::factory( $r['url'] );
 			$req->setCallback( array( $this, 'writeToTempFile' ) );
 			if ( $req->execute()->isOK() ) {
 				$info = true;
 			}
-			$content_type = $r->get( 'content_type' );
-			$content_length = $r->get( 'content_length' );
-			$content_disposition = $r->get( 'content_disposition' );
+			$content_type = $r['content_type'];
+			$content_length = $r['content_length'];
+			$content_disposition = $r['content_disposition'];
 		} else {
-			$info = $api->download( $collectionId, $writer );
-			$content_type = $info->get( 'content_type' );
-			$content_length = $info->get( 'download_content_length' );
+			$info = self::mwServeCommand( 'download', array(
+				'collection_id' => $request->getVal( 'collection_id' ),
+				'writer' => $request->getVal( 'writer' ),
+			) );
+			$content_type = $info['content_type'];
+			$content_length = $info['download_content_length'];
 			$content_disposition = null;
 		}
 		if ( !$info ) {
@@ -1180,20 +1276,23 @@ class SpecialCollection extends SpecialPage {
 	 * @param $partner
 	 */
 	function postZIP( $collection, $partner ) {
-		$out = $this->getOutput();
+		global $wgScriptPath, $wgScriptExtension;
+
 		if ( !isset( $this->mPODPartners[$partner] ) ) {
-			$out->showErrorPage( 'coll-invalid_podpartner_title', 'coll-invalid_podpartner_msg' );
+			$this->getOutput()->showErrorPage( 'coll-invalid_podpartner_title', 'coll-invalid_podpartner_msg' );
 			return;
 		}
 
-		$api = CollectionRenderingAPI::instance();
-		$result = $api->postZip( $collection, $this->mPODPartners[$partner]['posturl'] );
-		if ( !$this->handleResult( $result ) ) {
+		$response = self::mwServeCommand( 'zip_post', array(
+			'metabook' => $this->buildJSONCollection( $collection ),
+			'base_url' => wfExpandUrl( $wgScriptPath, PROTO_CURRENT ),
+			'script_extension' => $wgScriptExtension,
+			'pod_api_url' => $this->mPODPartners[$partner]['posturl'],
+		) );
+		if ( !$response ) {
 			return;
 		}
-		if ( $result->get( 'redirect_url' ) ) {
-			$out->redirect( $result->get( 'redirect_url' ) );
-		}
+		$this->getOutput()->redirect( $response['redirect_url'] );
 	}
 
 	/**
@@ -1227,18 +1326,55 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param CollectionAPIResult $result
-	 *
-	 * @return bool: Whether the result had errors
+	 * @param $command
+	 * @param $args
+	 * @return bool|array
 	 */
-	private function handleResult( $result ) {
-		if ( !$result->isError() ) {
-			return true;
+	static function mwServeCommand( $command, $args ) {
+		global $wgOut, $wgCollectionMWServeURL, $wgCollectionMWServeCredentials, $wgCollectionFormatToServeURL;
+
+		$serveURL = $wgCollectionMWServeURL;
+		if ( isset ( $args['writer'] ) ) {
+			if ( array_key_exists( $args['writer'], $wgCollectionFormatToServeURL ) ) {
+				$serveURL = $wgCollectionFormatToServeURL[ $args['writer'] ];
+			}
 		}
-		$this->getOutput()->showErrorPage(
-			'coll-request_failed_title',
-			'coll-request_failed_msg'
-		);
-		return false;
+
+		$args['command'] = $command;
+		if ( $wgCollectionMWServeCredentials ) {
+			$args['login_credentials'] = $wgCollectionMWServeCredentials;
+		}
+		$response = Http::post($serveURL, array('postData' => $args));
+
+		if ( !$response ) {
+			$wgOut->showErrorPage(
+				'coll-post_failed_title',
+				'coll-post_failed_msg',
+				array( $serveURL )
+			);
+			return false;
+		}
+
+		$json_response = FormatJson::decode( $response, true );
+
+		if ( !$json_response ) {
+			$wgOut->showErrorPage(
+				'coll-mwserve_failed_title',
+				'coll-mwserve_failed_msg',
+				array( $response )
+			);
+			return false;
+		}
+
+		if ( isset( $json_response['error'] ) && $json_response['error'] ) {
+			$wgOut->showErrorPage(
+				'coll-mwserve_failed_title',
+				'coll-mwserve_failed_msg',
+				array( $json_response['error'] )
+			);
+			return false;
+		}
+
+		return $json_response;
 	}
 }
