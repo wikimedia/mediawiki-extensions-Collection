@@ -5691,6 +5691,7 @@ Võib-olla on see kustutatud ja tuleb taasluua.',
  * @author An13sa
  * @author Kobazulo
  * @author Theklan
+ * @author Xabier Armendaritz
  */
 $messages['eu'] = array(
 	'coll-desc' => '[[Special:Book|Liburuak sortu]]',
@@ -5736,8 +5737,6 @@ Orrialde honek ez du egoki funtzionatuko JavaScript pizten ez den bitartean.</st
 	'coll-rename_chapter' => 'Atalarentzat izen berria sartu',
 	'coll-no_such_category' => 'Ez dago horrelako atalik',
 	'coll-notitle_title' => 'Orrialdearen izenburua ezin izan da determinatu.',
-	'coll-post_failed_title' => 'POST eskariak huts egin du',
-	'coll-post_failed_msg' => '$1(r)i eginiko POST eskariak huts eign du ($2).',
 	'coll-mwserve_failed_title' => 'Render zerbitzariaren akatsa',
 	'coll-mwserve_failed_msg' => 'Akats bat suertatu da render zerbitzarian: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Zerbitzariaren erantzun akatsa',
@@ -5832,7 +5831,7 @@ Zerrenda gaurkotzen da gehitu edo kendu botoietan klik egiten duzun bakoitzean.'
 	'right-collectionsaveascommunitypage' => 'Gorde liburuak komunitate orrialde bezala',
 	'coll-print_export' => 'Inprimatu/esportatu',
 	'coll-create_a_book' => 'Liburu bat sortu',
-	'coll-create_a_book_tooltip' => 'Sortu liburu edo orrialde bilduma bat',
+	'coll-create_a_book_tooltip' => 'Sortu liburu edo orri bilduma bat',
 	'coll-book_creator' => 'Liburu sortzailea',
 	'coll-download_as' => '$1 gisa jaitsi',
 	'coll-download_as_tooltip' => 'Jaitsi wiki orrialde honen $1 bertsioa',
@@ -20719,6 +20718,7 @@ $messages['yue'] = array(
  * @author PhiLiP
  * @author Wmr89502270
  * @author Xiaomingyan
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
 	'coll-desc' => '[[Special:Book|创建图书]]',
@@ -20762,6 +20762,8 @@ $messages['zh-hans'] = array(
 	'coll-rename_chapter' => '请输入章节的新名称',
 	'coll-no_such_category' => '无本分类',
 	'coll-notitle_title' => '无法确定该页标题。',
+	'coll-request_failed_title' => '书本呈现失败',
+	'coll-request_failed_msg' => '尝试呈现你的书本时遇到一个错误。',
 	'coll-mwserve_failed_title' => '生成服务器出错',
 	'coll-mwserve_failed_msg' => '生成服务器出错：<nowiki>$1</nowiki>',
 	'coll-error_reponse' => '服务器返回错误',
