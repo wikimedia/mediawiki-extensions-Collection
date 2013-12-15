@@ -10647,6 +10647,7 @@ $messages['kn'] = array(
  * @author Ilovesabbath
  * @author Klutzy
  * @author Kwj2772
+ * @author Yjs5497
  * @author Yknok29
  * @author 아라
  */
@@ -10694,8 +10695,8 @@ $messages['ko'] = array(
 	'coll-rename_chapter' => '새 장의 제목 입력',
 	'coll-no_such_category' => '해당 분류가 존재하지 않음',
 	'coll-notitle_title' => '제목이 없습니다.',
-	'coll-post_failed_title' => 'POST 요청에 실패하였습니다.',
-	'coll-post_failed_msg' => '$1로의 POST 요청 실패 ($2)',
+	'coll-request_failed_title' => '책 렌더링 실패',
+	'coll-request_failed_msg' => '책을 렌더링하는 동안 오류가 발생했습니다.',
 	'coll-mwserve_failed_title' => '렌더 서버 오류',
 	'coll-mwserve_failed_msg' => '렌더링 서버에서 오류가 발생했습니다: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => '서버에서 오류 응답',
@@ -12738,8 +12739,6 @@ $messages['mr'] = array(
 	'coll-rename_chapter' => 'नवीन धड्याचे नाव लिहा',
 	'coll-no_such_category' => 'असा वर्ग अस्तित्वात नाही',
 	'coll-notitle_title' => 'या पानाचे शीर्षक ठरविता आलेले नाही.',
-	'coll-post_failed_title' => 'पोस्ट (POST) ची मागणी पूर्ण झालेली नाही',
-	'coll-post_failed_msg' => '$1 ची पोस्ट (POST) मागणी पूर्ण झालेली नाही ($2).',
 	'coll-mwserve_failed_title' => 'प्रतिपादन कार्यात त्रुटी',
 	'coll-mwserve_failed_msg' => 'कार्यात प्रतिपादनदात्यास  त्रूटी आढळली आहे : <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'सर्व्हर कडून चुक झाल्याचा प्रतिसाद आलेला आहे',
@@ -12775,7 +12774,7 @@ $messages['mr'] = array(
 तसे झाले नाही तर ब्राउजर रीफ्रेश करा.</p>',
 	'coll-rendering_status' => '<strong>स्थिती:</strong> $1',
 	'coll-rendering_article' => '(विकी  पृष्ठ : $1)',
-	'coll-rendering_page' => '( पान : $1)',
+	'coll-rendering_page' => '(पान: $1)',
 	'coll-rendering_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/ प्रतिपादन होत असलेल्या पान मजकूराची माहिती',
 	'coll-rendering_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/ प्रतिपादनासाठी संग्रहित केलेल्या पानाची माहिती',
 	'coll-rendering_finished_title' => 'प्रतिपादन संम्पन्न',
