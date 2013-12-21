@@ -1517,8 +1517,6 @@ $messages['as'] = array(
 	'coll-rename_chapter' => 'অধ্যায়ৰ নতুন নাম লিখক',
 	'coll-no_such_category' => 'তেনে কোনো শ্ৰেণী নাই',
 	'coll-notitle_title' => "পৃষ্ঠাখনৰ শিৰোনামা চিহ্নিত কৰিব পৰা নগ'ল।",
-	'coll-post_failed_title' => 'POST অনুৰোধ ব্যৰ্থ হৈছে',
-	'coll-post_failed_msg' => '$1লৈ POST অনুৰোধ ব্যৰ্থ হৈছে ($2)।',
 	'coll-mwserve_failed_title' => "ৰে'ণ্ডাৰ চাৰ্ভাৰ ত্ৰুটি",
 	'coll-mwserve_failed_msg' => "ৰে'ণ্ডাৰ চাৰ্ভাৰত এটা ত্ৰুটি ঘটিছে: <nowiki>$1</nowiki>",
 	'coll-error_reponse' => 'চাৰ্ভাৰৰ পৰা সঁহাৰি ত্ৰুটি পোৱা গৈছে',
@@ -1533,7 +1531,7 @@ $messages['as'] = array(
 	'coll-save_category' => 'সকলো সাঁচি থোৱা গ্ৰন্থ [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]] শ্ৰেণীত সংৰক্ষণ কৰা হয়।',
 	'coll-overwrite_title' => "পৃষ্ঠাখন আছেই।
 অ'ভাৰৰাইট কৰিব?",
-	'coll-overwrite_text' => '[[:$1]] নামৰ এখন পৃষ্ঠা ইতিমধ্যে আছেই।
+	'coll-overwrite_text' => '[[:$1]] নামৰ এটা পৃষ্ঠা ইতিমধ্যে আছেই।
 আপুনি সেইখন আপোনাৰ গ্ৰন্থৰ লগত সলাব বিচাৰিছে নেকি?',
 	'coll-yes' => 'হয়',
 	'coll-no' => 'নহয়',
@@ -1603,7 +1601,7 @@ $messages['as'] = array(
 	'coll-suggest_article_remove' => '<strong>$1</strong> পৃষ্ঠাখন আপোনাৰ গ্ৰন্থৰ পৰা আঁতৰোৱা হৈছে ($2)।',
 	'coll-suggest_undo_tooltip' => 'এই কামটো নোহোৱা কৰক',
 	'coll-suggest_undo' => 'পূৰ্ববত কৰক',
-	'coll-load_local_book' => '%NUMPAGES% খন ৱিকি পৃষ্ঠা থকা আপোনাৰ %TITLE% গ্ৰন্থৰ বাবে OK ক্লিক কৰক। এইখন বিলোপ কৰি নতুন এখন আৰম্ভ কৰিবলৈ Cancel ক্লিক কৰক।',
+	'coll-load_local_book' => '%NUMPAGES% টা ৱিকি পৃষ্ঠা থকা আপোনাৰ %TITLE% গ্ৰন্থৰ বাবে OK ক্লিক কৰক। এইখন বিলোপ কৰি নতুন এখন আৰম্ভ কৰিবলৈ Cancel ক্লিক কৰক।',
 	'coll-format-rl' => 'ই-গ্ৰন্থ (পিডিএফ)',
 	'coll-format-epub' => 'ই-গ্ৰন্থ (ইপিইউবি)',
 	'coll-format-odf' => "ৱৰ্ড প্ৰচেছৰ (অ'পেন ড'কুমেণ্ট)",
@@ -6838,11 +6836,13 @@ $messages['fur'] = array(
 );
 
 /** Western Frisian (Frysk)
+ * @author Kening Aldgilles
  * @author SK-luuut
  * @author Snakesteuben
  */
 $messages['fy'] = array(
 	'coll-yes' => 'Ja',
+	'coll-no' => 'Nee',
 	'coll-cancel' => 'Ofbrekke',
 );
 
