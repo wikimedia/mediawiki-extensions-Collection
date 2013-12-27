@@ -81,7 +81,7 @@ class SpecialCollection extends SpecialPage {
 				return;
 			case 'stop_book_creator':
 				$title = Title::newFromText( $request->getVal( 'referer', '' ) );
-				if ( is_null( $title ) || $title->equals( $this->getTitle( $par ) ) ) {
+				if ( is_null( $title ) || $title->equals( $this->getPageTitle( $par ) ) ) {
 					$title = Title::newMainPage();
 				}
 				if ( $request->getVal( 'disable' ) ) {
@@ -344,7 +344,7 @@ class SpecialCollection extends SpecialPage {
 			"</script>" );
 
 		$title = Title::newFromText( $referer );
-		if ( is_null( $title ) || $title->equals( $this->getTitle( $par ) ) ) {
+		if ( is_null( $title ) || $title->equals( $this->getPageTitle( $par ) ) ) {
 			$title = Title::newMainPage();
 		}
 
