@@ -10820,7 +10820,7 @@ $messages['ko'] = array(
 	'coll-show_collection_tooltip' => '책을 편집/다운로드/주문하려면 클릭해 주세요',
 	'coll-not_addable' => '이 문서는 추가할 수 없습니다',
 	'coll-make_suggestions' => '문서 제안하기',
-	'coll-make_suggestions_tooltip' => '당신의 책에 있는 문서에 따라 문서 제안 목록을 보여 줍니다.',
+	'coll-make_suggestions_tooltip' => '당신의 책에 있는 문서에 따라 문서 제안 목록을 보여줍니다.',
 	'coll-suggest_empty' => '비었음',
 );
 
