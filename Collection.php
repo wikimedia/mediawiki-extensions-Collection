@@ -178,7 +178,11 @@ $wgResourceModules += array(
 	),
 	'ext.collection' => $collResourceTemplate + array(
 		'scripts' => 'collection.js',
-		'dependencies' => array( 'ext.collection.bookcreator', 'jquery.ui.sortable' ),
+		'dependencies' => array(
+			'ext.collection.bookcreator',
+			'jquery.ui.sortable',
+			'mediawiki.language',
+		),
 	),
 	'ext.collection.bookcreator' => $collResourceTemplate + array(
 		'scripts' => 'bookcreator.js',
