@@ -12369,8 +12369,8 @@ $messages['mk'] = array(
 	'coll-rename_chapter' => 'Внесете ново име за главата',
 	'coll-no_such_category' => 'Нема таква категорија',
 	'coll-notitle_title' => 'Насловот на страницата не може да се определи.',
-	'coll-post_failed_title' => 'POST-барањето не успеа',
-	'coll-post_failed_msg' => 'POST-барањето од $1 не успеа ($2).',
+	'coll-request_failed_title' => 'Исписот на книгата не успеа',
+	'coll-request_failed_msg' => 'Се појави брешка при обидот да се испише книгата.',
 	'coll-mwserve_failed_title' => 'Грешка во опслужувачот за исцртување',
 	'coll-mwserve_failed_msg' => 'Настана грешка во опслужувачот за испис: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Опслужувачот одговори со грешка',
@@ -12440,8 +12440,8 @@ $messages['mk'] = array(
 	'coll-return_to' => 'Назад на [[:$1]]',
 	'coll-order_info_article' => '{{MediaWiki:Coll-helppage}}/Информации за порачувањето од PediaPress',
 	'coll-suggest_title' => 'Предложени страници за вашата книга',
-	'coll-suggest_intro_text' => 'Предлозите се засновани на тековниот збир од вики-страници во вашата книга.
-Списокот се обновува секојпат кога ќе кликнете на копчето за додавање или отстранување.',
+	'coll-suggest_intro_text' => 'Предлозите се засновани на тековниот збир од викистраници во вашата книга.
+Списокот се обновува секојпат кога ќе стиснете на копчето за додавање или отстранување.',
 	'coll-suggested_articles' => 'Предлози',
 	'coll-suggest_reset_bans' => 'врати по основно',
 	'coll-suggest_reset_bans_tooltip' => 'Прикажи претходно отстранети предлози',
