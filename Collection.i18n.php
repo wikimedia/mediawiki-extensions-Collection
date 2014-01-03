@@ -2133,8 +2133,6 @@ JavaScript ғәмәлдә булмаған саҡта был бит дөрөҫ �
 	'coll-rename_chapter' => 'Бүлектең яңы исемен керетегеҙ',
 	'coll-no_such_category' => 'Бындай категория юҡ',
 	'coll-notitle_title' => 'Биттең исемен билдәләп булмай.',
-	'coll-post_failed_title' => 'POST-һорау үтәлмәгән',
-	'coll-post_failed_msg' => '$1 өсөн POST-һорау үтәлмәгән ($2).',
 	'coll-mwserve_failed_title' => 'Төшөрөү серверының хатаһы',
 	'coll-mwserve_failed_msg' => 'Төшөрөү серверында хата килеп сыҡты: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Серверҙан яуап хатаһы',
@@ -2249,7 +2247,7 @@ JavaScript ғәмәлдә булмаған саҡта был бит дөрөҫ �
 	'coll-helppage' => 'Help:Китаптар',
 	'coll-load_collection' => 'Китап тейәргә',
 	'coll-load_collection_tooltip' => 'Был китапты ағымдағы китабығыҙ рәүешендә тейәргә',
-	'coll-n_pages' => '$1 {{PLURAL:$1|бит}}',
+	'coll-n_pages' => '$1 {{PLURAL:$1|бит}}', # Fuzzy
 	'coll-printable_version_pdf' => 'PDF өлгөһө',
 	'coll-remove_this_page' => 'Был битте китабығыҙҙан алығыҙ',
 	'coll-remove_page_tooltip' => 'Ағымдағы вики-битте китабығыҙҙан алырға',
@@ -7504,14 +7502,17 @@ $messages['haw'] = array(
 
 /** Hebrew (עברית)
  * @author Amire80
+ * @author Guycn2
  * @author Rotem Liss
  * @author Rotemliss
  * @author YaronSh
+ * @author ערן
+ * @author תומר ט
  */
 $messages['he'] = array(
 	'coll-desc' => '[[Special:Book|איסוף דפים לספר]], יצירת קובצי PDF',
 	'coll-book_creator_intro' => '<big>באמצעות "יוצר הספרים" ניתן ליצור ספר הכולל דפי ויקי לבחירתך. ניתן לייצא את הספר שלך בסוגי קבצים שונים (לדוגמה, PDF או ODF) או להזמין עותק מודפס.</big>',
-	'coll-manage_your_book' => 'ניהול הספר שלכם',
+	'coll-manage_your_book' => 'ניהול הספר שלך',
 	'coll-book_creator_help' => 'ניתן לעיין ב[[{{MediaWiki:Coll-helppage}}|דף העזרה על ספרים]] למידע נוסף.',
 	'coll-start_book_creator' => 'הפעלת יוצר הספרים',
 	'coll-book_creator_continue' => 'המשך השימוש ביוצר הספרים',
@@ -7529,7 +7530,7 @@ $messages['he'] = array(
 <strong>הדפדפן שלכם אינו תומך ב־JavaScript או שביטלתם את JavaScript בדפדפן זה.
 דף זה לא יעבוד כדרוש, אלא אם כן JavaScript יופעל.</strong>',
 	'coll-savedbook_template' => 'ספר_שמור',
-	'coll-your_book' => 'הספר שלכם',
+	'coll-your_book' => 'הספר שלך',
 	'coll-download_title' => 'הורדה',
 	'coll-download_text' => 'להורדת הספר שלכם, בחרו פורמט ולחצו על הכפתור.',
 	'coll-download_as_text' => 'להורדת הספר שלכם בפורמט $1, לחצו על הכפתור.',
@@ -7552,8 +7553,8 @@ $messages['he'] = array(
 	'coll-rename_chapter' => 'הקלידו שם חדש לפרק',
 	'coll-no_such_category' => 'אין קטגוריה כזו',
 	'coll-notitle_title' => 'לא ניתן היה לקבוע מהי כותרת הדף.',
-	'coll-post_failed_title' => 'בקשת ה־POST נכשלה',
-	'coll-post_failed_msg' => 'בקשת ה־POST לכתובת $1 נכשלה ($2).',
+	'coll-request_failed_title' => 'עיבוד הספר נכשל',
+	'coll-request_failed_msg' => 'אירעה שגיאה בתהליך יצירת הספר',
 	'coll-mwserve_failed_title' => 'שגיאה בשרת היצירה',
 	'coll-mwserve_failed_msg' => 'אירעה שגיאה בשרת יצירת המסמכים: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'מהשרת הגיעה תשובת שגיאה',
@@ -7569,7 +7570,7 @@ $messages['he'] = array(
 	'coll-overwrite_title' => 'הדף כבר קיים.
 האם לדרוס אותו?',
 	'coll-overwrite_text' => 'דף בשם [[:$1]] כבר קיים.
-האם ברצונכם להחליף אותו עם הספר שלכם?',
+האם ברצונך להחליף אותו עם הספר שלך?',
 	'coll-yes' => 'כן',
 	'coll-no' => 'לא',
 	'coll-load_overwrite_text' => 'כבר יש לכם מספר דפים בספר שלכם.
@@ -7579,7 +7580,7 @@ $messages['he'] = array(
 	'coll-cancel' => 'ביטול',
 	'coll-update' => 'עדכון',
 	'coll-limit_exceeded_title' => 'הספר גדול מדי',
-	'coll-limit_exceeded_text' => 'הספר שלכם גדול מדי.
+	'coll-limit_exceeded_text' => 'הספר שלך גדול מדי.
 לא ניתן להוסיף דפים נוספים.',
 	'coll-rendering_title' => 'יצירת הספר מתבצעת כעת',
 	'coll-rendering_text' => '<p><strong>אנא המתינו בעת יצירת המסמך.</strong></p>
@@ -7604,7 +7605,7 @@ $messages['he'] = array(
 	'coll-notfound_title' => 'הספר לא נמצא',
 	'coll-notfound_text' => 'לא ניתן למצוא את דף הספר.',
 	'coll-download_notfound_title' => 'הקובץ לא נמצא',
-	'coll-download_notfound_text' => 'הקובץ שאתם מנסים להוריד לא נמצא: אולי הוא נמחק ויש ליצור אותו מחדש.',
+	'coll-download_notfound_text' => 'הקובץ שאתם מנסים להוריד לא נמצא: ייתכן שהוא נמחק ויש ליצור אותו מחדש.',
 	'coll-download_failed_title' => 'שגיאה במהלך ההורדה',
 	'coll-download_failed_text' => 'אירעה שגיאה בעת הורדת הקובץ: $1',
 	'coll-is_cached' => '<ul><li>גרסה שמורה של המסמך נמצאה, כך שאין צורך ביצירתו. <a href="$1">יצירה מחדש.</a></li></ul>',
@@ -7628,12 +7629,12 @@ $messages['he'] = array(
 	'coll-suggest_reset_bans_tooltip' => 'הצגת הצעות שהוסרו בעבר',
 	'coll-suggest_add_selected' => 'הוספת הדפים שנבחרו',
 	'coll-suggest_ban_selected' => 'הסרת הדפים שנבחרו',
-	'coll-suggest_your_book' => 'הספר שלכם',
+	'coll-suggest_your_book' => 'הספר שלך',
 	'coll-suggest_show' => 'הצגה',
 	'coll-suggest_ban_tooltip' => 'הסרת דף זה מרשימת ההצעות',
 	'coll-suggest_article_ban' => 'הדף <strong>$1</strong> הוסר מרשימת ההצעות ($2).',
-	'coll-suggest_article_add' => 'הדף <strong>$1</strong> נוסף לספר שלכם ($2).',
-	'coll-suggest_article_remove' => 'הדף <strong>$1</strong> הוסר מהספר שלכם ($2).',
+	'coll-suggest_article_add' => 'הדף <strong>$1</strong> נוסף לספר שלך ($2).',
+	'coll-suggest_article_remove' => 'הדף <strong>$1</strong> הוסר מהספר שלך ($2).',
 	'coll-suggest_undo_tooltip' => 'ביטול פעולה זו',
 	'coll-suggest_undo' => 'ביטול',
 	'coll-load_local_book' => 'נא ללחוץ על אישור כדי להמשיך עם הספר שלך %TITLE% המכיל %NUMPAGES% עמודי ויקי. יש ללחוץ על ביטול כדי למחוק אותו ולהתחיל עם ספר ריק.',
@@ -7671,7 +7672,7 @@ $messages['he'] = array(
 	'coll-load_collection_tooltip' => 'טעינת הספר הזה כספר הנוכחי שלך',
 	'coll-n_pages' => '{{PLURAL:$1|דף אחד|$1 דפים}}',
 	'coll-printable_version_pdf' => 'גרסת PDF',
-	'coll-remove_this_page' => 'הסרת דף זה מהספר שלכם',
+	'coll-remove_this_page' => 'הסרת דף זה מהספר שלך',
 	'coll-remove_page_tooltip' => 'הסרת דף הוויקי הנוכחי מהספר שלך',
 	'coll-show_collection' => 'הצגת ספר',
 	'coll-show_collection_tooltip' => 'עריכת/הורדת/הזמנת הספר שלך',
@@ -9109,7 +9110,7 @@ $messages['inh'] = array(
 	'coll-clear_collection' => 'Китаба цӀенае',
 	'coll-help' => 'Новкъoстал',
 	'coll-load_collection' => 'Китаба чуяккха',
-	'coll-n_pages' => '$1 {{PLURAL:$1|оагӀув|оагӀувнаш}}',
+	'coll-n_pages' => '$1 {{PLURAL:$1|1=оагӀув|оагӀувнаш}}', # Fuzzy
 	'coll-show_collection' => 'Китаба хьахокха',
 	'coll-suggest_empty' => 'яьсса',
 );
@@ -15886,6 +15887,7 @@ $messages['rtm'] = array(
  * @author Kaganer
  * @author Lockal
  * @author MaxSem
+ * @author Okras
  * @author Putnik
  * @author Sergey kudryavtsev
  * @author Volkov
@@ -15935,8 +15937,8 @@ $messages['ru'] = array(
 	'coll-rename_chapter' => 'Введите новое имя главы',
 	'coll-no_such_category' => 'Нет такой категории',
 	'coll-notitle_title' => 'Заголовок страницы не может быть определён.',
-	'coll-post_failed_title' => 'POST-запрос не выполнен',
-	'coll-post_failed_msg' => 'POST-запрос к $1 не выполнен ($2).',
+	'coll-request_failed_title' => 'Преобразование книги не удалось',
+	'coll-request_failed_msg' => 'Произошла ошибка при попытке преобразовать вашу книгу.',
 	'coll-mwserve_failed_title' => 'Ошибка сервера отрисовки',
 	'coll-mwserve_failed_msg' => 'На сервере отрисовки произошла ошибка: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Ошибка ответа сервера',
@@ -16051,7 +16053,7 @@ $messages['ru'] = array(
 	'coll-helppage' => 'Help:Книги',
 	'coll-load_collection' => 'Загрузить книгу',
 	'coll-load_collection_tooltip' => 'Загрузить эту книгу как вашу текущую книгу',
-	'coll-n_pages' => '$1 {{PLURAL:$1|страница|страницы|страниц}}',
+	'coll-n_pages' => '$1 {{PLURAL:$1|страница|страниц|страницы}}', # Fuzzy
 	'coll-printable_version_pdf' => 'PDF-версия',
 	'coll-remove_this_page' => 'Удалить эту страницу из вашей книги',
 	'coll-remove_page_tooltip' => 'Удалить текущую вики-страницу из книги',
@@ -19367,7 +19369,7 @@ $messages['tt-cyrl'] = array(
 	'coll-helppage' => 'Help:Китаплар',
 	'coll-load_collection' => 'Китапны йөкләү',
 	'coll-load_collection_tooltip' => 'Яңа китапны әлегесе кебек йөкләргә',
-	'coll-n_pages' => '$1 {{PLURAL:$1|бит|битләр}}',
+	'coll-n_pages' => '$1 {{PLURAL:$1|1=бит|битләр}}', # Fuzzy
 	'coll-printable_version_pdf' => 'PDF-юрама',
 	'coll-remove_this_page' => 'Бу битне сезнең китаптан бетерергә',
 	'coll-remove_page_tooltip' => 'Әлеге вики-битне китаптан бетерергә',
