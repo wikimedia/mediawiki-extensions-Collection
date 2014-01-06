@@ -66,7 +66,8 @@ function getMWServeStatus() {
 	}, function(result) {
 		if (result.state == 'progress' ) {
 			if ( result.status.progress )  {
-				$('#renderingProgress').html('' + result.status.progress);
+				$('#renderingProgress').html( mw.language.convertNumber(
+					result.status.progress ) );
 			}
 			if (result.status.status) {
 				var status = result.status.status;
