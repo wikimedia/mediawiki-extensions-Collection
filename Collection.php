@@ -149,8 +149,13 @@ $wgAutoloadClasses['CollectionSaveOverwriteTemplate'] = $dir . 'Collection.templ
 $wgAutoloadClasses['CollectionRenderingTemplate'] = $dir . 'Collection.templates.php';
 $wgAutoloadClasses['CollectionFinishedTemplate'] = $dir . 'Collection.templates.php';
 $wgAutoloadClasses['CollectionSuggestTemplate'] = $dir . 'Collection.templates.php';
+$wgAutoloadClasses['CollectionRenderingAPI'] = $dir . 'RenderingAPI.php';
+$wgAutoloadClasses['MWServeRenderingAPI'] = $dir . 'RenderingAPI.php';
+$wgAutoloadClasses['CollectionAPIResult'] = $dir . 'RenderingAPI.php';
+
 $wgExtensionMessagesFiles['Collection'] = $dir . 'Collection.i18n.php';
 $wgExtensionMessagesFiles['CollectionAlias'] = $dir . 'Collection.alias.php';
+
 $wgSpecialPages['Book'] = 'SpecialCollection';
 $wgSpecialPageGroups['Book'] = 'pagetools';
 
@@ -236,10 +241,8 @@ function wfAjaxPostCollection( $collection = '', $redirect = '' ) {
 $wgAjaxExportList[] = 'wfAjaxPostCollection';
 
 function wfAjaxGetMWServeStatus( $collection_id = '', $writer = 'rl' ) {
-	$result = SpecialCollection::mwServeCommand( 'render_status', array(
-		'collection_id' => $collection_id,
-		'writer' => $writer
-	) );
+	$response = CollectionRenderingAPI::instance( $writer )->getRenderStatus( $collection_id, $writer );
+	$result = $response->response;
 	if ( isset( $result['status']['progress'] ) ) {
 		$result['status']['progress'] = number_format( $result['status']['progress'], 2, '.', '' );
 	}
