@@ -179,7 +179,7 @@ foreach ( $this->data['podpartners'] as $partnerKey => $partnerData ) {
 				<tr><td>&#160;</td><td id="collection-save-button">
 				<input id="saveButton" type="submit" value="<?php $this->msg( 'coll-save_collection' ) ?>"<?php if ( count( $this->data['collection']['items'] ) == 0 ) { ?> disabled="disabled"<?php } ?> />
 				</tr></tbody></table>
-				<input name="token" type="hidden" value="<?php echo htmlspecialchars( $GLOBALS['wgUser']->editToken() ) ?>" />
+				<input name="token" type="hidden" value="<?php echo htmlspecialchars( $GLOBALS['wgUser']->getEditToken() ) ?>" />
 				<input name="bookcmd" type="hidden" value="save_collection" />
 			</form>
 
@@ -333,7 +333,7 @@ class CollectionSaveOverwriteTemplate extends QuickTemplate {
 	<input name="pcollname" type="hidden" value="<?php echo htmlspecialchars( $this->data['pcollname'] ) ?>" />
 	<input name="ccollname" type="hidden" value="<?php echo htmlspecialchars( $this->data['ccollname'] ) ?>" />
 	<input name="colltype" type="hidden" value="<?php echo htmlspecialchars( $this->data['colltype'] ) ?>" />
-	<input name="token" type="hidden" value="<?php echo htmlspecialchars( $GLOBALS['wgUser']->editToken() ) ?>" />
+	<input name="token" type="hidden" value="<?php echo htmlspecialchars( $GLOBALS['wgUser']->getEditToken() ) ?>" />
 	<input name="bookcmd" type="hidden" value="save_collection" />
 </form>
 
