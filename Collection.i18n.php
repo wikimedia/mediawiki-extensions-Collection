@@ -10824,6 +10824,13 @@ $messages['ko'] = array(
 	'coll-suggest_empty' => '비었음',
 );
 
+/** Karachay-Balkar (къарачай-малкъар)
+ * @author Iltever
+ */
+$messages['krc'] = array(
+	'coll-update' => 'Джангырт',
+);
+
 /** Krio (Krio)
  * @author Protostar
  */
