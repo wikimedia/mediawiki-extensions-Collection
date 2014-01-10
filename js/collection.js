@@ -133,7 +133,11 @@ function remove_item(index) {
 }
 
 function set_titles() {
-	req('SetTitles', [$('#titleInput').val(), $('#subtitleInput').val()], function(result) {
+	var settings = {};
+	$( '[id^="coll-input-setting-"]' ).each( function ( i, e ) {
+		settings[e.name] = $( e ).val();
+	} );
+	req('SetTitles', [$('#titleInput').val(), $('#subtitleInput').val(), $.toJSON( settings )], function(result) {
 		wfCollectionSave(result.collection);
 	});
 	return false;
@@ -229,6 +233,7 @@ $(function() {
 		$('#communityCollType').change(update_buttons);
 		$('#titleInput').change(set_titles);
 		$('#subtitleInput').change(set_titles);
+		$( '[id^="coll-input-setting-"]' ).change(set_titles);
 	}
 	if (typeof collection_rendering != 'undefined') {
 		getMWServeStatus();

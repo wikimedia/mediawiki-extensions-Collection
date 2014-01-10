@@ -105,6 +105,23 @@ $wgCollectionFormats = array(
 	#'okawix_zeno' => 'Okawix (ZENO + search engine)',
 );
 
+/** Additional renderer options for collections. Format is as for
+ * HTMLForm::loadInputFromParameters. Note that fieldnames may only contain
+ * [a-zA-Z0-9_-], and values may not contain pipes or newlines. If the
+ * 'options' field is an array, keys will be interpreted as messages.
+ */
+$wgCollectionRendererSettings = array(
+	'papersize' => array(
+		'type' => 'select',
+		'label-message' => 'coll-setting-papersize',
+		'default' => 'A4',
+		'options' => array(
+			'coll-setting-papersize-a4' => 'A4',
+			'coll-setting-papersize-letter' => 'Letter'
+		),
+	),
+);
+
 /** For formats which rendering depends on an external server
 */
 $wgCollectionFormatToServeURL = array(
@@ -337,8 +354,12 @@ function wfAjaxCollectionRenameChapter( $index, $name ) {
 
 $wgAjaxExportList[] = 'wfAjaxCollectionRenameChapter';
 
-function wfAjaxCollectionSetTitles( $title, $subtitle ) {
+function wfAjaxCollectionSetTitles( $title, $subtitle, $settings = '' ) {
 	SpecialCollection::setTitles( $title, $subtitle );
+	$settings = FormatJson::decode( $settings, true );
+	if ( is_array( $settings ) ) {
+		SpecialCollection::setSettings( $settings );
+	}
 	return wfAjaxCollectionGetItemList();
 }
 

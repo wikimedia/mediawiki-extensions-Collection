@@ -211,6 +211,10 @@ The list is updated whenever you click on the add or remove buttons.',
 	'coll-suggest_empty'            => 'empty',
 	'coll-user_book_prefix'         => '-',
 	'coll-community_book_prefix'    => '-',
+
+	'coll-setting-papersize'        => 'Paper size:',
+	'coll-setting-papersize-a4'     => 'A4',
+	'coll-setting-papersize-letter' => 'Letter',
 );
 
 /** Message documentation (Message documentation)

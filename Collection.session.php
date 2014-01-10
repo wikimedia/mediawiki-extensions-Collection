@@ -51,6 +51,7 @@ class CollectionSession {
 			'enabled' => true,
 			'title' => '',
 			'subtitle' => '',
+			'settings' => array(),
 			'items' => array(),
 		);
 		CollectionSuggest::clear();

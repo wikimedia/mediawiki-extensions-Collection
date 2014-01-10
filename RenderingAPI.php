@@ -173,6 +173,9 @@ abstract class CollectionRenderingAPI {
 		if ( isset( $collection['subtitle'] ) ) {
 			$result['subtitle'] = $collection['subtitle'];
 		}
+		if ( isset( $collection['settings'] ) ) {
+			$result['settings'] = $collection['settings'];
+		}
 
 		$items = array();
 		if ( isset( $collection['items'] ) ) {

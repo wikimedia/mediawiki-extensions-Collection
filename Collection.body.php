@@ -482,7 +482,7 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	function renderSpecialPage() {
-		global $wgCollectionFormats;
+		global $wgCollectionFormats, $wgCollectionRendererSettings;
 
 		if ( !CollectionSession::hasSession() ) {
 			CollectionSession::startSession();
@@ -495,8 +495,10 @@ class SpecialCollection extends SpecialPage {
 		$out->addModules( 'ext.collection' );
 
 		$template = new CollectionPageTemplate();
+		$template->set( 'context', $this->getContext() );
 		$template->set( 'collection', CollectionSession::getCollection() );
 		$template->set( 'podpartners', $this->mPODPartners );
+		$template->set( 'settings', $wgCollectionRendererSettings );
 		$template->set( 'formats', $wgCollectionFormats );
 		$prefixes = self::getBookPagePrefixes();
 		$template->set( 'user-book-prefix', $prefixes['user-prefix'] );
@@ -512,6 +514,15 @@ class SpecialCollection extends SpecialPage {
 		$collection = CollectionSession::getCollection();
 		$collection['title'] = $title;
 		$collection['subtitle'] = $subtitle;
+		CollectionSession::setCollection( $collection );
+	}
+
+	/**
+	 * @param array $settings
+	 */
+	static function setSettings( array $settings ) {
+		$collection = CollectionSession::getCollection();
+		$collection['settings'] = $settings + $collection['settings'];
 		CollectionSession::setCollection( $collection );
 	}
 
@@ -798,6 +809,8 @@ class SpecialCollection extends SpecialPage {
 			$collection['subtitle'] = $match[ 1 ];
 		} elseif ( !$append && preg_match( '/^==\s*(.*?)\s*==$/', $line, $match ) ) {
 			$collection['title'] = $match[ 1 ];
+		} elseif ( !$append && preg_match( '/^\s*\|\s*setting-([a-zA-Z0-9_-]+)\s*=\s*([^|]*)\s*$/', $line, $match ) ) {
+			$collection['settings'][$match[ 1 ]] = $match[ 2 ];
 		} elseif ( substr( $line, 0, 1 ) == ';' ) { // chapter
 			return array(
 				'type' => 'chapter',
@@ -891,6 +904,7 @@ class SpecialCollection extends SpecialPage {
 			$collection = array(
 				'title' => '',
 				'subtitle' => '',
+				'settings' => array(),
 			);
 			$items = array();
 		} else {
@@ -920,8 +934,15 @@ class SpecialCollection extends SpecialPage {
 		if ( $wikiPage->exists() && !$forceOverwrite ) {
 			return false;
 		}
-		$articleText = "{{" . $this->msg( 'coll-savedbook_template' )->inContentLanguage()->text() . "}}\n\n";
 		$collection = CollectionSession::getCollection();
+		$articleText = "{{" . $this->msg( 'coll-savedbook_template' )->inContentLanguage()->text();
+		if ( !empty( $collection['settings'] ) ) {
+			$articleText .= "\n";
+			foreach ( $collection['settings'] as $key => $value ) {
+				$articleText .= " | setting-$key = $value\n";
+			}
+		}
+		$articleText .= "}}\n\n";
 		if ( $collection['title'] ) {
 			$articleText .= '== ' . $collection['title'] . " ==\n";
 		}
