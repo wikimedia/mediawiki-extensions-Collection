@@ -159,6 +159,7 @@ $wgCollectionPODPartners = array(
 		'url' => 'http://pediapress.com/',
 		'posturl' => 'http://pediapress.com/api/collections/',
 		'infopagetitle' => 'coll-order_info_article',
+		'rendererurl' => 'http://tools.pediapress.com/mw-serve/',
 	),
 );
 # ==============================================================================

@@ -29,9 +29,11 @@ abstract class CollectionRenderingAPI {
 	 *
 	 * @param string $command
 	 * @param array $params
+	 * @param string|bool $url
+	 *
 	 * @return CollectionAPIResult
 	 */
-	protected abstract function makeRequest( $command, array $params );
+	protected abstract function makeRequest( $command, array $params, $url = false );
 
 	/**
 	 * Requests a collection to be rendered
@@ -74,11 +76,12 @@ abstract class CollectionRenderingAPI {
 	 * e.g. for printing
 	 *
 	 * @param $collection
-	 * @param $url
+	 * @param $postUrl
+	 * @param string|bool $url
 	 *
 	 * @return CollectionAPIResult
 	 */
-	public function postZip( $collection, $url ) {
+	public function postZip( $collection, $postUrl, $url = false ) {
 		global $wgScriptPath, $wgScriptExtension;
 
 		return $this->makeRequest( 'zip_post',
@@ -86,8 +89,9 @@ abstract class CollectionRenderingAPI {
 				'metabook' => $this->buildJSONCollection( $collection ),
 				'base_url' => wfExpandUrl( $wgScriptPath, PROTO_CURRENT ),
 				'script_extension' => $wgScriptExtension,
-				'pod_api_url' => $url,
-			)
+				'pod_api_url' => $postUrl,
+			),
+			$url
 		);
 	}
 
@@ -225,12 +229,12 @@ abstract class CollectionRenderingAPI {
  * API for PediaPress' mw-serve
  */
 class MWServeRenderingAPI extends CollectionRenderingAPI {
-	protected function makeRequest( $command, array $params ) {
+	protected function makeRequest( $command, array $params, $url = false ) {
 		global $wgCollectionMWServeURL, $wgCollectionMWServeCredentials, $wgCollectionFormatToServeURL;
 
 		wfProfileIn( __METHOD__ . "-$command" );
-		$serveURL = $wgCollectionMWServeURL;
-		if ( $this->writer ) {
+		$serveURL = $url ? $url : $wgCollectionMWServeURL;
+		if ( $this->writer && !$url ) {
 			if ( isset( $wgCollectionFormatToServeURL[ $this->writer ] ) ) {
 				$serveURL = $wgCollectionFormatToServeURL[ $this->writer ];
 			}

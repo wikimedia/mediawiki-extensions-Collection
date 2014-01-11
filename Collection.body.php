@@ -1228,7 +1228,12 @@ class SpecialCollection extends SpecialPage {
 		}
 
 		$api = CollectionRenderingAPI::instance();
-		$result = $api->postZip( $collection, $this->mPODPartners[$partner]['posturl'] );
+		$partnerData = $this->mPODPartners[$partner];
+		$url = false;
+		if ( isset( $partnerData['rendererurl'] ) ) {
+			$url = $partnerData['rendererurl'];
+		}
+		$result = $api->postZip( $collection, $partnerData['posturl'], $url );
 		if ( !$this->handleResult( $result ) ) {
 			return;
 		}
