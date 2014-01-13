@@ -14,28 +14,63 @@ if ( !defined( 'MEDIAWIKI' ) ) {
  */
 class CollectionPageTemplate extends QuickTemplate {
 	function execute() {
+		$data = array(
+			'collectionTitle' => $this->data['collection']['title'],
+			'collectionSubtitle' => $this->data['collection']['subtitle'],
+		);
+		$fields = array(
+			'collectionTitle' => array(
+				'type' => 'text',
+				'label-message' => 'coll-title',
+				'id' => 'titleInput',
+				'size' => '',
+				'name' => 'collectionTitle',
+			),
+			'collectionSubtitle' => array(
+				'type' => 'text',
+				'label-message' => 'coll-subtitle',
+				'id' => 'subtitleInput',
+				'size' => '',
+				'name' => 'collectionSubtitle',
+			),
+		);
+		foreach ( $this->data['settings'] as $fieldname => $descriptor ) {
+			if ( isset( $descriptor['options'] ) && is_array( $descriptor['options'] ) ) {
+				$options = array();
+				foreach ( $descriptor['options'] as $msg => $value ) {
+					$msg = wfMessage( $msg )->text();
+					$options[$msg] = $value;
+				}
+				$descriptor['options'] = $options;
+			}
+			$descriptor['id'] = "coll-input-setting-$fieldname";
+			$descriptor['name'] = $fieldname;
+			$fields[$fieldname] = $descriptor;
+			if ( isset( $this->data['collection']['settings'][$fieldname] ) ) {
+				$data[$fieldname] = $this->data['collection']['settings'][$fieldname];
+			}
+		}
+
+		$context = new DerivativeContext( $this->data['context'] );
+		$context->setRequest( new FauxRequest( $data ) );
+		$form = new HTMLForm( $fields, $context );
+		$form->setMethod( 'post' )
+			->addHiddenField( 'bookcmd', 'set_titles' )
+			->suppressDefaultSubmit()
+			->setTitle( SpecialPage::getTitleFor( 'Book' ) )
+			->setId( 'mw-collection-title-form' )
+			->setTableId( 'mw-collection-title-table' )
+			->setFooterText(
+				'<noscript>' .
+				'<input type="submit" value="' . $this->msg( 'coll-update' ) . '" />' .
+				'</noscript>'
+			)
+			->prepareForm();
 ?>
 
 <div class="collection-column collection-column-left">
 
-<form action="<?php echo htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book' ) ) ?>" method="post" id="mw-collection-title-form">
-	<table id="mw-collection-title-table" style="width: 80%; background-color: transparent;" align="center">
-		<tbody>
-			<tr>
-				<td class="mw-label"><label for="titleInput"><?php $this->msg( 'coll-title' ) ?></label></td>
-				<td class="mw-input"><input id="titleInput" type="text" name="collectionTitle" value="<?php echo htmlspecialchars( $this->data['collection']['title'] ) ?>" /></td>
-			</tr>
-			<tr>
-				<td class="mw-label"><label for="subtitleInput"><?php $this->msg( 'coll-subtitle' ) ?></label></td>
-				<td class="mw-input"><input id="subtitleInput" type="text" name="collectionSubtitle" value="<?php echo htmlspecialchars( $this->data['collection']['subtitle'] ) ?>" /></td>
-			</tr>
-		</tbody>
-	</table>
-	<input type="hidden" name="bookcmd" value="set_titles" />
-	<noscript>
-		<input type="submit" value="<?php $this->msg( 'coll-update' ) ?>" />
-	</noscript>
-</form>
+<?php echo $form->getHTML( '' ) ?>
 
 <div id="collectionListContainer">
 <?php
@@ -392,6 +427,35 @@ if ( CollectionSession::isEnabled() ) {
 	$title_string = wfMessage( 'coll-finished_collection_info_text_article' )->inContentLanguage()->text();
 } else {
 	$title_string = wfMessage( 'coll-finished_page_info_text_article' )->inContentLanguage()->text();
+}
+$t = Title::newFromText( $title_string );
+if ( $t && $t->exists() ) {
+	echo $GLOBALS['wgOut']->parse( '{{:' . $t . '}}' );
+}
+?>
+
+<?php
+	}
+}
+
+/**
+ * HTML template for Special:Book/rendering/ (failed)
+ * @ingroup Templates
+ */
+class CollectionFailedTemplate extends QuickTemplate {
+	function execute() {
+
+echo wfMessage( 'coll-rendering_failed_text', $this->data['status'] )->parseAsBlock();
+
+$t = Title::newFromText( $this->data['return_to'] );
+if ( $t && $t->isKnown() ) {
+	echo wfMessage( 'coll-return_to', $t )->parseAsBlock();
+}
+
+if ( CollectionSession::isEnabled() ) {
+	$title_string = wfMessage( 'coll-failed_collection_info_text_article' )->inContentLanguage()->text();
+} else {
+	$title_string = wfMessage( 'coll-failed_page_info_text_article' )->inContentLanguage()->text();
 }
 $t = Title::newFromText( $title_string );
 if ( $t && $t->exists() ) {
