@@ -160,6 +160,8 @@ abstract class CollectionRenderingAPI {
 	 * @return string
 	 */
 	protected function buildJSONCollection( $collection ) {
+		global $wgServer, $wgScriptPath, $wgScriptExtension;
+
 		$result = array(
 			'type' => 'collection',
 			'licenses' => $this->getLicenseInfos()
@@ -170,6 +172,9 @@ abstract class CollectionRenderingAPI {
 		}
 		if ( isset( $collection['subtitle'] ) ) {
 			$result['subtitle'] = $collection['subtitle'];
+		}
+		if ( isset( $collection['settings'] ) ) {
+			$result['settings'] = $collection['settings'];
 		}
 
 		$items = array();
@@ -194,6 +199,23 @@ abstract class CollectionRenderingAPI {
 			}
 		}
 		$result['items'] = $items;
+
+		$result['wikis'] = array(
+			array(
+				'type' => 'wikiconf',
+				'baseurl' => $wgServer . $wgScriptPath,
+				'script_extension' => $wgScriptExtension,
+				'format' => 'nuwiki',
+			),
+		);
+
+		if ( class_exists( 'ParsoidHooks' ) ) {
+			global $wgVisualEditorParsoidURL, $wgVisualEditorParsoidPrefix;
+			for ( $i = 0; $i < count( $result['wikis'] ); $i++ ) {
+				$result['wikis'][$i]['parsoid'] = $wgVisualEditorParsoidURL;
+				$result['wikis'][$i]['prefix'] = $wgVisualEditorParsoidPrefix;
+			}
+		}
 
 		return FormatJson::encode( $result );
 	}

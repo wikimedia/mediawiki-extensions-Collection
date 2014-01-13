@@ -116,6 +116,13 @@ Notes:
 * Not satisfied with the output? See [[{{MediaWiki:Coll-helppage}}|the help page about books]] for possibilities to improve it.",
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Rendering page info text',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Rendering collection info text',
+	'coll-rendering_failed_title'     => 'Rendering failed',
+	'coll-rendering_failed_text'      => "<strong>Generation of the document file has failed.</strong>
+
+<p><span id=\"renderingStatus\">$1</span></p>",
+	'coll-rendering_failed_status'    => "<strong>Status:</strong> $1",
+	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Rendering page info text',
+	'coll-failed_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Rendering collection info text',
 	'coll-notfound_title'             => 'Book not found',
 	'coll-notfound_text'              => 'Could not find book page.',
 	'coll-download_notfound_title'    => 'File not found',
@@ -204,6 +211,10 @@ The list is updated whenever you click on the add or remove buttons.',
 	'coll-suggest_empty'            => 'empty',
 	'coll-user_book_prefix'         => '-',
 	'coll-community_book_prefix'    => '-',
+
+	'coll-setting-papersize'        => 'Paper size:',
+	'coll-setting-papersize-a4'     => 'A4',
+	'coll-setting-papersize-letter' => 'Letter',
 );
 
 /** Message documentation (Message documentation)
@@ -334,6 +345,30 @@ Refers to {{msg-mw|Coll-helppage}}.
 
 See also:
 * {{msg-mw|Coll-finished page info text article}}',
+	'coll-rendering_failed_title' => 'Used as title for the error message {{msg-mw|Coll-rendering failed text}}.',
+	'coll-rendering_failed_text' => 'This is the first part of the text of the special page "Rendering failed", which appears after clicking "download book" and the book generation has failed.
+
+Refers to {{msg-mw|Coll-helppage}}.
+
+The variables are:
+* $1 - the message {{msg-mw|Coll-rendering_failed_status}}',
+	'coll-rendering_failed_status' => 'Part of the message {{msg-mw|Coll-rendering_failed_text|notext=Yes}}.
+
+The variable $1 is another message string.
+
+{{Identical|Status}}',
+	'coll-failed_page_info_text_article' => 'Used as page title.
+
+Refers to {{msg-mw|Coll-helppage}}.
+
+See also:
+* {{msg-mw|Coll-failed collection info text article}}',
+	'coll-failed_collection_info_text_article' => 'Used as page title.
+
+Refers to {{msg-mw|Coll-helppage}}.
+
+See also:
+* {{msg-mw|Coll-failed page info text article}}',
 	'coll-download_notfound_title' => '{{Identical|File not found}}',
 	'coll-download_failed_title' => 'Unused at this time.
 

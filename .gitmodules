@@ -1,0 +1,3 @@
+[submodule "OfflineContentGenerator"]
+	path = OfflineContentGenerator
+	url = https://gerrit.wikimedia.org/r/mediawiki/extensions/Collection/OfflineContentGenerator
