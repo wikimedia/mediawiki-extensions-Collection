@@ -534,6 +534,7 @@ This message indicates that there are no items to show.
 {{Identical|Empty}}',
 	'coll-user_book_prefix' => '{{notranslate}}',
 	'coll-community_book_prefix' => '{{notranslate}}',
+	'coll-setting-papersize-a4' => '{{optional}}',
 );
 
 /** Abkhazian (Аҧсшәа)
@@ -4435,8 +4436,8 @@ Diese Seite wird nicht richtig funktionieren, solange JavaScript nicht verfügba
 	'coll-rename_chapter' => 'Gib einen neuen Namen für das Kapitel ein.',
 	'coll-no_such_category' => 'Die Kategorie ist nicht vorhanden.',
 	'coll-notitle_title' => 'Der Titel der Seite konnte nicht bestimmt werden.',
-	'coll-post_failed_title' => 'POST-Anfrage fehlgeschlagen',
-	'coll-post_failed_msg' => 'Die POST-Anfrage an $1 ist fehlgeschlagen ($2).',
+	'coll-request_failed_title' => 'Buch-Rendering fehlgeschlagen',
+	'coll-request_failed_msg' => 'Während des Versuchs, dein Buch zu rendern, ist ein Fehler aufgetreten.',
 	'coll-mwserve_failed_title' => 'Serverfehler',
 	'coll-mwserve_failed_msg' => 'Auf dem Render-Server ist ein Fehler aufgetreten: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Fehlermeldung vom Server',
@@ -4481,6 +4482,13 @@ Hinweise:
 * Bist du mit dem Ergebnis nicht zufrieden? Möglichkeiten zur Verbesserung der Ausgabe findest du auf der [[{{MediaWiki:Coll-helppage}}|Hilfeseite über Bücher]].',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Darstellung der Seiteninformation',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Darstellung des Buchs',
+	'coll-rendering_failed_title' => 'Rendering fehlgeschlagen',
+	'coll-rendering_failed_text' => '<strong>Die Erstellung der Dokumentendatei ist fehlgeschlagen.</strong>
+
+<p><span id="renderingStatus">$1</span></p>',
+	'coll-rendering_failed_status' => '<strong>Status:</strong> $1',
+	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informationstext zum Seitenrendering',
+	'coll-failed_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informationstext zum Sammlungsrendering',
 	'coll-notfound_title' => 'Buch nicht gefunden',
 	'coll-notfound_text' => 'Dein Buch konnte nicht gefunden werden.',
 	'coll-download_notfound_title' => 'Datei nicht gefunden',
@@ -4558,6 +4566,8 @@ Immer, wenn du auf die Schaltflächen zum Hinzufügen oder Entfernen klickst, wi
 	'coll-make_suggestions' => 'Seiten vorschlagen',
 	'coll-make_suggestions_tooltip' => 'Vorschläge basierend auf den Seiten in deinem Buch anzeigen',
 	'coll-suggest_empty' => 'leer',
+	'coll-setting-papersize' => 'Papiergröße:',
+	'coll-setting-papersize-letter' => 'Letter',
 );
 
 /** German (formal address) (Deutsch (Sie-Form)‎)
@@ -5900,6 +5910,7 @@ Zerrenda gaurkotzen da gehitu edo kendu botoietan klik egiten duzun bakoitzean.'
 );
 
 /** Persian (فارسی)
+ * @author Armin1392
  * @author Ebraminio
  * @author Huji
  * @author Komeil 4life
@@ -6005,6 +6016,10 @@ $messages['fa'] = array(
 * از خروجی راضی نیستید؟ برای مطلع‌شدن از شیوه‌های بهبود آن، [[{{MediaWiki:Coll-helppage}}|راهنمای کتاب‌ها]] را مطالعه فرمایید.',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/تحویل متن اطلاعات صفحه',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/تحویل مجموعه متون اطلاعات',
+	'coll-rendering_failed_title' => 'تحویل ناموفق',
+	'coll-rendering_failed_status' => '<strong>وضعیت:</strong> $1',
+	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/ تحویل متن اطلاعات صفحه',
+	'coll-failed_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/ تحویل متن اطلاعات مجموعه',
 	'coll-notfound_title' => 'کتاب پیدا نشد',
 	'coll-notfound_text' => 'صفحهٔ کتاب پیدا نشد.',
 	'coll-download_notfound_title' => 'پرونده یافت نشد',
@@ -6084,6 +6099,8 @@ $messages['fa'] = array(
 	'coll-make_suggestions' => 'صفحه‌ای پیشنهاد کن',
 	'coll-make_suggestions_tooltip' => 'با توجه به صفحه‌های کتاب پیشنهادهایی نمایش بده',
 	'coll-suggest_empty' => 'خالی',
+	'coll-setting-papersize' => 'انذازهٔ کاغذ:',
+	'coll-setting-papersize-letter' => 'نامه',
 );
 
 /** Finnish (suomi)
@@ -6366,8 +6383,8 @@ Cette page ne fonctionnera pas correctement tant que Javascript n’est pas acti
 	'coll-rename_chapter' => 'Entrer le nouveau titre de ce chapitre',
 	'coll-no_such_category' => 'Catégorie introuvable',
 	'coll-notitle_title' => 'Le titre de la page n’a pas pu être déterminé.',
-	'coll-post_failed_title' => 'La requête POST a échoué',
-	'coll-post_failed_msg' => 'La requête POST vers $1 a échoué ($2).',
+	'coll-request_failed_title' => 'Échec au rendu du livre',
+	'coll-request_failed_msg' => 'Il y a eu une erreur en essayant de faire un rendu de votre livre.',
 	'coll-mwserve_failed_title' => 'Erreur du serveur de rendu',
 	'coll-mwserve_failed_msg' => 'Une erreur est survenue sur le serveur de rendu : <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Réponse d’erreur retournée par le serveur',
@@ -6415,6 +6432,13 @@ Notes :
 * Vous n’êtes pas satisfait du résultat ? Consultez [[{{MediaWiki:Coll-helppage}}|la page d’aide des livres]] pour les façons possibles de l’améliorer.',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informations sur le rendu des pages',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informations sur le rendu des collections',
+	'coll-rendering_failed_title' => 'Échec du rendu',
+	'coll-rendering_failed_text' => '<strong>La génération du fichier du document a échouée.</strong>
+
+<p><span id="renderingStatus">$1</span></p>',
+	'coll-rendering_failed_status' => '<strong>État :</strong> $1',
+	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Texte d’information du rendu des pages',
+	'coll-failed_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Texte d’information du rendu des collections',
 	'coll-notfound_title' => 'Livre non trouvé',
 	'coll-notfound_text' => 'La page du livre n’a pas pu être trouvée.',
 	'coll-download_notfound_title' => 'Fichier introuvable',
@@ -6493,6 +6517,8 @@ La liste est mise à jour à chaque fois que vous cliquez sur les boutons d’aj
 	'coll-make_suggestions' => 'Suggérer des pages',
 	'coll-make_suggestions_tooltip' => 'Montrer les suggestions fondées sur les pages dans votre livre',
 	'coll-suggest_empty' => 'vide',
+	'coll-setting-papersize' => 'Taille du papier :',
+	'coll-setting-papersize-letter' => 'Lettre',
 );
 
 /** Franco-Provençal (arpetan)
@@ -9428,8 +9454,8 @@ La pagina non funzionerà correttamente se non verrà attivato JavaScript.</stro
 	'coll-rename_chapter' => 'Inserisci un nuovo nome per il capitolo',
 	'coll-no_such_category' => 'Nessuna categoria',
 	'coll-notitle_title' => 'Non è stato possibile determinare il titolo della pagina.',
-	'coll-post_failed_title' => 'Richiesta POST fallita',
-	'coll-post_failed_msg' => 'La richiesta POST a $1 è fallita ($2).',
+	'coll-request_failed_title' => 'Errore nella conversione del libro',
+	'coll-request_failed_msg' => 'Si è verificato un errore durante il tentativo di rendering del libro.',
 	'coll-mwserve_failed_title' => 'Errore server conversione',
 	'coll-mwserve_failed_msg' => 'Si è verificato un errore sul server di conversione: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Errore risposta dal server',
@@ -9476,6 +9502,13 @@ Note:
 * Non sei soddisfatto del risultato? Leggi [[{{MediaWiki:Coll-helppage}}|la pagina di aiuto sulle raccolte]] riguardo alle possibilità per migliorarlo.',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informazioni sul rendering delle pagine',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informazioni sul rendering di collezioni',
+	'coll-rendering_failed_title' => 'Conversione non riuscita',
+	'coll-rendering_failed_text' => '<strong>La generazione del file del documento non è riuscita.</strong>
+
+<p><span id="renderingStatus">$1</span></p>',
+	'coll-rendering_failed_status' => '<strong>Stato:</strong> $1',
+	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informazioni sul rendering delle pagine',
+	'coll-failed_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informazioni sul rendering di collezioni',
 	'coll-notfound_title' => 'Libro non trovato',
 	'coll-notfound_text' => 'Non è possibile trovare la pagina del libro.',
 	'coll-download_notfound_title' => 'File non trovato',
@@ -9553,6 +9586,8 @@ L\'elenco viene aggiornato ogni qualvolta si fa clic sui pulsanti "aggiungi" o "
 	'coll-make_suggestions' => 'Suggerisci delle pagine',
 	'coll-make_suggestions_tooltip' => 'Mostra suggerimenti basati sulle pagine del proprio libro',
 	'coll-suggest_empty' => 'vuoto',
+	'coll-setting-papersize' => 'Formato della carta:',
+	'coll-setting-papersize-letter' => 'Lettera',
 );
 
 /** Japanese (日本語)
@@ -12459,6 +12494,13 @@ $messages['mk'] = array(
 * Не сте задоволни со резултатот? Погледајте ја нашата [[{{MediaWiki:Coll-helppage}}|страница за помош со книги]] за да ги видите можностите за нејзино подобрување.',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Изработка на информативен текст за страницата',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Изработка на информативен текст за збирката',
+	'coll-rendering_failed_title' => 'Исписот не успеа',
+	'coll-rendering_failed_text' => '<strong>Не успеа создавањето на документната податотека.</strong>
+
+<p><span id="renderingStatus">$1</span></p>',
+	'coll-rendering_failed_status' => '<strong>Статус:</strong> $1',
+	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Информативен текст за испишувањето на страници',
+	'coll-failed_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Изработка на информативен текст за збирката',
 	'coll-notfound_title' => 'Книгата не е пронајдена',
 	'coll-notfound_text' => 'Не можев да ја пронајдам страницата.',
 	'coll-download_notfound_title' => 'Податотеката не е пронајдена',
@@ -12539,6 +12581,8 @@ $messages['mk'] = array(
 	'coll-make_suggestions' => 'Предложи страници',
 	'coll-make_suggestions_tooltip' => 'Прикажи предлози засновани на страници од вашата книга',
 	'coll-suggest_empty' => 'празно',
+	'coll-setting-papersize' => 'Големина на листот',
+	'coll-setting-papersize-letter' => 'Писмо',
 );
 
 /** Malayalam (മലയാളം)
@@ -16025,6 +16069,10 @@ $messages['ru'] = array(
 * Не удовлетворены результатом? Возможности его улучшения описаны на [[{{MediaWiki:Coll-helppage}}|справочной странице о книгах]].',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Отрисовка текста сведений о странице',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Отрисовка текста сведений о коллекции',
+	'coll-rendering_failed_text' => '<strong>Создание файла документа не удалось.</strong>
+
+<p><span id="renderingStatus">$1</span></p>',
+	'coll-rendering_failed_status' => '<strong>Статус:</strong> $1',
 	'coll-notfound_title' => 'Книга не найдена',
 	'coll-notfound_text' => 'Невозможно найти страницу книги.',
 	'coll-download_notfound_title' => 'Файл не найден',
@@ -16103,6 +16151,8 @@ $messages['ru'] = array(
 	'coll-make_suggestions' => 'Предлагаемые страницы',
 	'coll-make_suggestions_tooltip' => 'Показать предложения, основанные на существующих страницах вашей книги',
 	'coll-suggest_empty' => 'пуста',
+	'coll-setting-papersize' => 'Размер бумаги:',
+	'coll-setting-papersize-letter' => 'Письмо',
 );
 
 /** Rusyn (русиньскый)
@@ -19559,6 +19609,7 @@ $messages['ug-arab'] = array(
  * @author Ahonc
  * @author Aleksandrit
  * @author Alex Khimich
+ * @author Andriykopanytsia
  * @author Base
  * @author NickK
  * @author Prima klasy4na
@@ -19607,8 +19658,8 @@ $messages['uk'] = array(
 	'coll-rename_chapter' => 'Уведіть нову назву розділу',
 	'coll-no_such_category' => 'Нема такої категорії',
 	'coll-notitle_title' => 'Заголовок сторінки неможливо визначити.',
-	'coll-post_failed_title' => 'POST-запит не виконаний',
-	'coll-post_failed_msg' => 'POST-запит до $1 не виконаний ($2).',
+	'coll-request_failed_title' => 'Перетворення книги не вдалося',
+	'coll-request_failed_msg' => 'Сталася помилка при спробі зробити книгу.',
 	'coll-mwserve_failed_title' => 'Помилка сервера відображення',
 	'coll-mwserve_failed_msg' => 'На сервері відображення трапилася помилка: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Помилка відповіді сервера',
@@ -19655,6 +19706,13 @@ $messages['uk'] = array(
 * Не задоволені результатом? Можливості його поліпшення описані на [[{{MediaWiki:Coll-helppage}}|довідковій сторінці про колекції]].",
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Формування відомостей про сторінку',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Формування інформації про колекцію',
+	'coll-rendering_failed_title' => 'Невдала візуалізація',
+	'coll-rendering_failed_text' => '<strong>Створення файлу документу не вдалося.</strong>
+
+<p><span id="renderingStatus">$1</span></p>',
+	'coll-rendering_failed_status' => '<strong>Статус:</strong> $1',
+	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Формування відомостей про сторінку',
+	'coll-failed_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Формування інформації про колекцію',
 	'coll-notfound_title' => 'Книга не знайдена',
 	'coll-notfound_text' => 'Неможливо знайти сторінку книги.',
 	'coll-download_notfound_title' => 'Файл не знайдено',
@@ -19734,6 +19792,8 @@ $messages['uk'] = array(
 	'coll-make_suggestions' => 'Запропонувати сторінки',
 	'coll-make_suggestions_tooltip' => 'Показати пропозиції, засновані на сторінках у вашій книзі',
 	'coll-suggest_empty' => 'порожня',
+	'coll-setting-papersize' => 'Розмір паперу:',
+	'coll-setting-papersize-letter' => 'Лист',
 );
 
 /** Urdu (اردو)
