@@ -350,12 +350,13 @@ See also:
 
 Refers to {{msg-mw|Coll-helppage}}.
 
-The variables are:
-* $1 - the message {{msg-mw|Coll-rendering_failed_status}}',
-	'coll-rendering_failed_status' => 'Part of the message {{msg-mw|Coll-rendering_failed_text|notext=Yes}}.
+Parameters:
+* $1 - the message {{msg-mw|Coll-rendering failed status}}',
+	'coll-rendering_failed_status' => 'Used as <code>$1</code> in:
+* {{msg-mw|Coll-rendering failed text}}
 
-The variable $1 is another message string.
-
+Parameters:
+* $1 - another message string
 {{Identical|Status}}',
 	'coll-failed_page_info_text_article' => 'Used as page title.
 
@@ -534,7 +535,18 @@ This message indicates that there are no items to show.
 {{Identical|Empty}}',
 	'coll-user_book_prefix' => '{{notranslate}}',
 	'coll-community_book_prefix' => '{{notranslate}}',
-	'coll-setting-papersize-a4' => '{{optional}}',
+	'coll-setting-papersize' => 'See also:
+* {{msg-mw|Coll-setting-papersize-a4}}
+* {{msg-mw|Coll-setting-papersize-letter}}
+{{Identical|Paper size}}',
+	'coll-setting-papersize-a4' => '{{optional}}
+See also:
+* {{msg-mw|Coll-setting-papersize}}
+* {{msg-mw|Coll-setting-papersize-letter}}',
+	'coll-setting-papersize-letter' => 'See also:
+* {{msg-mw|Coll-setting-papersize}}
+* {{msg-mw|Coll-setting-papersize-a4}}
+{{Identical|Letter}}',
 );
 
 /** Abkhazian (Аҧсшәа)
@@ -6017,6 +6029,8 @@ $messages['fa'] = array(
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/تحویل متن اطلاعات صفحه',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/تحویل مجموعه متون اطلاعات',
 	'coll-rendering_failed_title' => 'تحویل ناموفق',
+	'coll-rendering_failed_text' => '<strong>ایجاد پوشهٔ سند ناموفق بوده‌است.</strong>
+<p><span id="renderingStatus">$1</span></p>',
 	'coll-rendering_failed_status' => '<strong>وضعیت:</strong> $1',
 	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/ تحویل متن اطلاعات صفحه',
 	'coll-failed_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/ تحویل متن اطلاعات مجموعه',
@@ -9642,8 +9656,8 @@ $messages['ja'] = array(
 	'coll-rename_chapter' => '章の新しい見出しを入力',
 	'coll-no_such_category' => '指定されたカテゴリはありません',
 	'coll-notitle_title' => 'ページタイトルが未設定です。',
-	'coll-post_failed_title' => 'POST 要求の失敗',
-	'coll-post_failed_msg' => '$1 への POST 要求は失敗しました ($2)。',
+	'coll-request_failed_title' => 'ブックをレンダリングできませんでした',
+	'coll-request_failed_msg' => 'ブックのレンダリングを試行した際にエラーが発生しました。',
 	'coll-mwserve_failed_title' => 'レンダリングサーバーのエラー',
 	'coll-mwserve_failed_msg' => 'レンダリングサーバーでエラーが発生しました: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'サーバーからのエラー応答',
@@ -9689,6 +9703,10 @@ $messages['ja'] = array(
 * 出力に満足できませんか? 改善の可能性があるか、[[{{MediaWiki:Coll-helppage}}|ブックについてのヘルプページ]]をご覧ください。',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/ページ情報テキストを生成中',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/コレクション情報テキストを生成中',
+	'coll-rendering_failed_text' => '<strong>文書ファイルを生成できませんでした。</strong>
+
+<p><span id="renderingStatus">$1</span></p>',
+	'coll-rendering_failed_status' => '<strong>状態:</strong> $1',
 	'coll-notfound_title' => 'ブックが見つかりません',
 	'coll-notfound_text' => 'ブックの保存ページが見つかりませんでした。',
 	'coll-download_notfound_title' => 'ファイルが見つかりません',
@@ -9768,6 +9786,8 @@ $messages['ja'] = array(
 	'coll-make_suggestions' => 'ページの候補',
 	'coll-make_suggestions_tooltip' => 'ブック内のページに基づいて候補を表示する',
 	'coll-suggest_empty' => '空',
+	'coll-setting-papersize' => '用紙サイズ:',
+	'coll-setting-papersize-letter' => 'レター',
 );
 
 /** Javanese (Basa Jawa)
@@ -10719,6 +10739,7 @@ $messages['kn'] = array(
  * @author Ilovesabbath
  * @author Klutzy
  * @author Kwj2772
+ * @author Priviet
  * @author Yjs5497
  * @author Yknok29
  * @author 아라
@@ -10815,6 +10836,13 @@ $messages['ko'] = array(
 * 출력 결과에 만족하지 않으신가요? 이 기능을 향상시킬 수 있도록 [[{{MediaWiki:Coll-helppage}}|책에 대한 도움말 문서]]를 참고해 주세요.',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/페이지 정보문 만드는 중',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/모음집 정보문 만드는 중',
+	'coll-rendering_failed_title' => '렌더링 실패',
+	'coll-rendering_failed_text' => '<strong>문서 파일 생성을 실패 했습니다.</strong>
+
+N!<p><span id="renderingStatus">$1</span></p>',
+	'coll-rendering_failed_status' => '<strong>상태:</strong> $1',
+	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/렌더링 페이지 정보 텍스트',
+	'coll-failed_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/렌더링 집합 정보 텍스트',
 	'coll-notfound_title' => '책을 찾을 수 없음',
 	'coll-notfound_text' => '해당 페이지를 찾을 수 없습니다.',
 	'coll-download_notfound_title' => '파일을 찾을 수 없습니다',
@@ -10892,6 +10920,8 @@ $messages['ko'] = array(
 	'coll-make_suggestions' => '문서 제안하기',
 	'coll-make_suggestions_tooltip' => '당신의 책에 있는 문서에 따라 문서 제안 목록을 보여줍니다.',
 	'coll-suggest_empty' => '비었음',
+	'coll-setting-papersize' => '용지 크기:',
+	'coll-setting-papersize-letter' => '레터',
 );
 
 /** Karachay-Balkar (къарачай-малкъар)
@@ -11978,6 +12008,7 @@ Pārrakstīt?',
 	'coll-make_suggestions' => 'Ieteikt lapas',
 	'coll-make_suggestions_tooltip' => 'Parādīt ieteikumus, ņemot vērā lapas Jūsu grāmatā',
 	'coll-suggest_empty' => 'tukšs',
+	'coll-setting-papersize' => 'Papīra izmērs:',
 );
 
 /** Basa Banyumasan (Basa Banyumasan)
@@ -12873,6 +12904,11 @@ Notes:
 * या कामाबद्दल समाधानी नसाल तर ही [[{{MediaWiki:Coll-helppage}}| पुस्तकांबद्दलची मदतीची पाने बघा.]] अधिक चांगल्या कामासाठी त्याचा उपयोग होईल.',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/ प्रतिपादन होत असलेल्या पानाची माहिती',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/ प्रतिपादनासाठी संग्रहित केलेल्या पानाची माहिती',
+	'coll-rendering_failed_title' => 'प्रतिपादन अयशस्वी',
+	'coll-rendering_failed_text' => '<strong>दस्तावेज संचिका निर्मिती अयशस्वी.</strong>
+
+<p><span id="renderingStatus">$1</span></p>',
+	'coll-rendering_failed_status' => '<strong>स्थिती:</strong> $1',
 	'coll-notfound_title' => 'पुस्तक सापडले नाही',
 	'coll-notfound_text' => 'पुस्तकातील पान सापडले नाही.',
 	'coll-download_notfound_title' => 'संचिका सापडली नाही.',
@@ -12952,6 +12988,8 @@ Notes:
 	'coll-make_suggestions' => 'पाने सुचवा',
 	'coll-make_suggestions_tooltip' => 'आपल्या ग्रंथातील पानांनुसार सूचना दाखवा',
 	'coll-suggest_empty' => 'रिकामे',
+	'coll-setting-papersize' => 'पानाचा आकार',
+	'coll-setting-papersize-letter' => 'पत्र',
 );
 
 /** Malay (Bahasa Melayu)
@@ -16069,10 +16107,13 @@ $messages['ru'] = array(
 * Не удовлетворены результатом? Возможности его улучшения описаны на [[{{MediaWiki:Coll-helppage}}|справочной странице о книгах]].',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Отрисовка текста сведений о странице',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Отрисовка текста сведений о коллекции',
+	'coll-rendering_failed_title' => 'Создание файла не выполнено',
 	'coll-rendering_failed_text' => '<strong>Создание файла документа не удалось.</strong>
 
 <p><span id="renderingStatus">$1</span></p>',
 	'coll-rendering_failed_status' => '<strong>Статус:</strong> $1',
+	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Отрисовка текста сведений о странице',
+	'coll-failed_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Отрисовка текста сведений о коллекции',
 	'coll-notfound_title' => 'Книга не найдена',
 	'coll-notfound_text' => 'Невозможно найти страницу книги.',
 	'coll-download_notfound_title' => 'Файл не найден',
