@@ -8188,8 +8188,8 @@ Tuta strona njebudźe prawje fungować, doniž JavaScript zmóžnjeny njeje.</st
 	'coll-rename_chapter' => 'Zapodaj nowe mjeno za kapitl',
 	'coll-no_such_category' => 'Žana tajka kategorija',
 	'coll-notitle_title' => 'Titul strony njeda so zwěsćić.',
-	'coll-post_failed_title' => 'Naprašowanje POST njeporadźiło',
-	'coll-post_failed_msg' => 'Naprašowanje POST do $1 je so njeporadźiło ($2).',
+	'coll-request_failed_title' => 'Rysowanje knihi je so njeporadźiło',
+	'coll-request_failed_msg' => 'Při pospyće twoju knihu rysować je zmylk wustupił.',
 	'coll-mwserve_failed_title' => 'Zmylk tworjenskeho serwera',
 	'coll-mwserve_failed_msg' => 'Zmylk je na serwerje tworjenja wustupił: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Serwer je zmylk zdźělił',
@@ -8236,6 +8236,7 @@ Přispomnjenka:
 * Njejsy spokojny z wudaćom? Hlej [[{{MediaWiki:Coll-helppage}}|stronu pomocy wo zběrkach]] za móžnosće je polěpšić.',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informaciski tekst strony rysować',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informaciski tekst zběrki rysować',
+	'coll-rendering_failed_status' => '<strong>Status:</strong> $1',
 	'coll-notfound_title' => 'Kniha njenamakana',
 	'coll-notfound_text' => 'Strona knihi njebu namakana.',
 	'coll-download_notfound_title' => 'Dataja njenamakana',
@@ -8314,6 +8315,8 @@ Lisćina aktualizuje so, hdyžkuli kliknješ na tłóčatko "přidać" abo "wots
 	'coll-make_suggestions' => 'Strony namjetować',
 	'coll-make_suggestions_tooltip' => 'Namjety pokazać, kotrež na stronach w twojej knize bazuja',
 	'coll-suggest_empty' => 'prózdny',
+	'coll-setting-papersize' => 'Papjerowy format:',
+	'coll-setting-papersize-letter' => 'Letter',
 );
 
 /** Haitian (Kreyòl ayisyen)
@@ -11227,8 +11230,6 @@ Dës Säit funktionéiert net richteg, ausser wa JavaScript ageschalt ass</stron
 	'coll-rename_chapter' => "Gitt en neien Numm fir d'Kapitel un",
 	'coll-no_such_category' => 'Keng sou Kategorie',
 	'coll-notitle_title' => 'Den Titel vun der Säit konnt net festgestallt ginn.',
-	'coll-post_failed_title' => 'POST Ufro huet net funktionéiert',
-	'coll-post_failed_msg' => "D'POST Ufro u(n) $1 huet net funktionéiert ($2).",
 	'coll-mwserve_failed_title' => 'Feeler vum Server',
 	'coll-mwserve_failed_msg' => 'Op dem Render-Server ass e Feeler geschitt: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Feelermeldng vum Server',
@@ -11354,6 +11355,8 @@ D'Lëscht gëtt all kéier aktuliséiert wann dir op d'Knäppecher derbäisetzen
 	'coll-make_suggestions' => 'Säite virschloen',
 	'coll-make_suggestions_tooltip' => 'Virschléi weisen op Basis vun de Säiten an Ärem Buch',
 	'coll-suggest_empty' => 'eidel',
+	'coll-setting-papersize' => 'Pabeiergréisst:',
+	'coll-setting-papersize-letter' => 'Letter',
 );
 
 /** Lezghian (лезги)
