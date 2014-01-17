@@ -3247,8 +3247,6 @@ Ne'z aio ket plaen ar bajenn-mañ en-dro e-keit ha ma ne vo ket gweredekaet Java
 	'coll-rename_chapter' => 'Merkañ titl nevez ar rannbennad-mañ',
 	'coll-no_such_category' => "N'eus ket eus ar rummad-mañ",
 	'coll-notitle_title' => "N'eus ket bet gallet didermeniñ titl ar bajenn.",
-	'coll-post_failed_title' => "C'hwitet eo ar goulenn POST",
-	'coll-post_failed_msg' => "C'hwitet ($2) eo ar goulenn POST war-du $1.",
 	'coll-mwserve_failed_title' => 'Fazi gant ar servijer amdreiñ',
 	'coll-mwserve_failed_msg' => 'Ur fazi zo bet war ar servijer amdreiñ : <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Respont fazi distro gant ar servijer',
@@ -3296,6 +3294,7 @@ Notennoù :
 * N'eo ket an disoc'h diouzhoc'h ? Gwelit [[{{MediaWiki:Coll-helppage}}|ar bajenn skoazell diwar-benn al levrioù]] evit kavout doareoù da wellaat an traoù.",
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Deouez testenn titouroù ar bajenn',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Deouez testenn titouroù an dastumadeg',
+	'coll-rendering_failed_status' => '<strong>Statud :</strong> $1',
 	'coll-notfound_title' => "N'eo ket bet kavet al levr",
 	'coll-notfound_text' => "N'eus ket bet tu da gavout pajenn al levr.",
 	'coll-download_notfound_title' => "N'eo ket bet kavet ar restr",
@@ -3376,6 +3375,8 @@ Hizivaet e vez ar roll bep tro ma klikit war ar bouton ouzhpennañ pe tennañ.",
 	'coll-make_suggestions' => 'Kinnig pajennoù',
 	'coll-make_suggestions_tooltip' => "Diskouez ar c'hinnigoù diazezet war pajennoù ho levr",
 	'coll-suggest_empty' => 'goullo',
+	'coll-setting-papersize' => 'Ment ar paper :',
+	'coll-setting-papersize-letter' => 'Lizher',
 );
 
 /** Bosnian (bosanski)
@@ -20862,6 +20863,7 @@ $messages['yue'] = array(
  * @author Hydra
  * @author Liangent
  * @author PhiLiP
+ * @author Qiyue2001
  * @author Wmr89502270
  * @author Xiaomingyan
  * @author Yfdyh000
@@ -20952,6 +20954,11 @@ $messages['zh-hans'] = array(
 * 对输出效果不满意？请见[[{{MediaWiki:Coll-helppage}}|图书帮助页面]]以寻求改进方法。',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/生成页面信息文字',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/生成收藏信息文字',
+	'coll-rendering_failed_title' => '渲染失败',
+	'coll-rendering_failed_text' => '<strong>文档生成失败。</strong>
+
+<p><span id="renderingStatus">$1</span></p>',
+	'coll-rendering_failed_status' => '<strong>状态：</strong>$1',
 	'coll-notfound_title' => '未找到图书',
 	'coll-notfound_text' => '未找到图书页面。',
 	'coll-download_notfound_title' => '未找到文件',
@@ -21028,6 +21035,8 @@ $messages['zh-hans'] = array(
 	'coll-make_suggestions' => '建议页面',
 	'coll-make_suggestions_tooltip' => '显示根据你的图书中的页面生成的建议',
 	'coll-suggest_empty' => '空',
+	'coll-setting-papersize' => '纸张尺寸：',
+	'coll-setting-papersize-letter' => '信',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
