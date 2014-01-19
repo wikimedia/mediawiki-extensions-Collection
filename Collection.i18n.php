@@ -1742,8 +1742,8 @@ Esta páxina nun funcionará correutamente si nun s'activa JavaScript.</strong>"
 	'coll-rename_chapter' => "Escribi'l nuevu nome del capítulu",
 	'coll-no_such_category' => 'Nun existe esa categoría',
 	'coll-notitle_title' => "Nun pudo determinase'l títulu de la páxina.",
-	'coll-post_failed_title' => 'Falló la solicitú POST',
-	'coll-post_failed_msg' => 'Falló la solicitú POST a $1 ($2).',
+	'coll-request_failed_title' => "Falló'l renderizáu del llibru",
+	'coll-request_failed_msg' => "Hebo un error cuando s'intentó renderizar el llibru.",
 	'coll-mwserve_failed_title' => 'Fallu del sirvidor de renderización',
 	'coll-mwserve_failed_msg' => 'Hebo un error nel sirvidor de renderización: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => "Respuesta d'error del sirvidor",
@@ -1791,6 +1791,13 @@ Notes:
 *¿Nun ta satisfechu col resultáu? Vea [[{{MediaWiki:Coll-helppage}}|la páxina d'ayuda sobro los llibros]] pa ver les posibilidaes d'ameyoralu.",
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Testu informativu sobro renderización de páxines',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Testu informativu sobro renderización de coleiciones',
+	'coll-rendering_failed_title' => 'Falló la renderización',
+	'coll-rendering_failed_text' => '<strong>Falló la xeneración del ficheru de documentu.</strong>
+
+<p><span id="renderingStatus">$1</span></p>',
+	'coll-rendering_failed_status' => '<strong>Estáu:</strong> $1',
+	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Testu informativu sobro renderización de páxines',
+	'coll-failed_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Testu informativu sobro renderización de coleiciones',
 	'coll-notfound_title' => "Nun s'alcontró'l llibru",
 	'coll-notfound_text' => "Nun s'alcontró la páxina del llibru.",
 	'coll-download_notfound_title' => "Nun s'alcontró el ficheru",
@@ -1869,6 +1876,8 @@ La llista anuevase siempre que calque nos botones amestar o desaniciar.',
 	'coll-make_suggestions' => 'Suxerir páxines',
 	'coll-make_suggestions_tooltip' => 'Amosar suxerencies basándose nes páxines del to llibru',
 	'coll-suggest_empty' => 'balero',
+	'coll-setting-papersize' => 'Tamañu del papel:',
+	'coll-setting-papersize-letter' => 'Carta',
 );
 
 /** Azerbaijani (azərbaycanca)
@@ -5389,6 +5398,8 @@ La listo estas ĝisdatigita iam ajn vi klakas la butonojn aldoni aŭ forigi.',
  * @author Crazymadlover
  * @author Dalton2
  * @author Dferg
+ * @author Fitoschido
+ * @author Ihojose
  * @author Imre
  * @author Jatrobat
  * @author Lin linao
@@ -5447,8 +5458,8 @@ Esta página no funcionará correctamente mientras no esté habilitado.</strong>
 	'coll-rename_chapter' => 'Introducir un nombre nuevo para el capítulo',
 	'coll-no_such_category' => 'No existe tal categoría',
 	'coll-notitle_title' => 'No se puede determinar el título de la página.',
-	'coll-post_failed_title' => 'Falló la solicitud POST',
-	'coll-post_failed_msg' => 'La solicitud POST  a $1 ha fallado ($2).',
+	'coll-request_failed_title' => 'Falló la renderización del libro',
+	'coll-request_failed_msg' => 'Se produjo un error al intentar procesar tu libro.',
 	'coll-mwserve_failed_title' => 'Error del servidor de procesado',
 	'coll-mwserve_failed_msg' => 'Ha ocurrido un error en el servidor de procesado: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Respuesta de error del servidor',
@@ -5496,6 +5507,8 @@ Notas:
 * ¿No estás satisfecho con el resultado? Mira [[{{MediaWiki:Coll-helppage}}|la página de ayuda sobre libros]] para ver las  posibilidades de mejorarlo.',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Texto informativo de la página de renderización',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Texto informativo de la colección de renderización',
+	'coll-rendering_failed_title' => 'Falló la renderización',
+	'coll-rendering_failed_status' => '<strong>Estado:</strong> $1',
 	'coll-notfound_title' => 'No se encuentra el libro',
 	'coll-notfound_text' => 'No se encuentra la página de libro.',
 	'coll-download_notfound_title' => 'Archivo no encontrado',
@@ -5519,7 +5532,7 @@ Por favor, contacta con tu administrador MediaWiki.',
 	'coll-suggest_intro_text' => 'Las sugerencias están basadas en el conjunto actual de páginas wiki de tu libro.
 La lista se actualiza cada vez que haces click en los botones de agregar o quitar.',
 	'coll-suggested_articles' => 'Sugerencias',
-	'coll-suggest_reset_bans' => 'reestablecer',
+	'coll-suggest_reset_bans' => 'restablecer',
 	'coll-suggest_reset_bans_tooltip' => 'Mostrar sugerencias previamente eliminadas',
 	'coll-suggest_add_selected' => 'Agregar páginas seleccionadas',
 	'coll-suggest_ban_selected' => 'Quitar las páginas seleccionadas',
@@ -5574,6 +5587,8 @@ La lista se actualiza cada vez que haces click en los botones de agregar o quita
 	'coll-make_suggestions' => 'Sugerir páginas',
 	'coll-make_suggestions_tooltip' => 'Mostrar sugerencias basadas en las páginas de su libro',
 	'coll-suggest_empty' => 'vacío',
+	'coll-setting-papersize' => 'Tamaño del papel:',
+	'coll-setting-papersize-letter' => 'Carta',
 );
 
 /** Estonian (eesti)
@@ -21042,6 +21057,7 @@ $messages['zh-hans'] = array(
 /** Traditional Chinese (中文（繁體）‎)
  * @author Alexsh
  * @author Anakmalaysia
+ * @author EagerLin
  * @author FireJackey
  * @author Liangent
  * @author Mark85296341
@@ -21096,8 +21112,6 @@ $messages['zh-hant'] = array(
 	'coll-rename_chapter' => '輸入章節的新名稱',
 	'coll-no_such_category' => '無分類',
 	'coll-notitle_title' => '無法確定此頁面的標題',
-	'coll-post_failed_title' => '訊息發送失敗',
-	'coll-post_failed_msg' => '傳送到$1的請求失敗（$2）。',
 	'coll-mwserve_failed_title' => '呈現伺服器錯誤',
 	'coll-mwserve_failed_msg' => '服务器渲染错误：<nowiki>$1</nowiki>',
 	'coll-error_reponse' => '伺服器回傳的錯誤',
@@ -21145,6 +21159,11 @@ $messages['zh-hant'] = array(
 * 不滿意輸出成果？請參閱[[{{MediaWiki:Coll-helppage}}|幫助頁面]]以暸解如何改善它。',
 	'coll-finished_page_info_text_article' => ' {{MediaWiki:Coll-helppage}}/渲染收集信息文字',
 	'coll-finished_collection_info_text_article' => ' {{MediaWiki:Coll-helppage}}/渲染收集信息文字',
+	'coll-rendering_failed_title' => '渲染失敗',
+	'coll-rendering_failed_text' => '<strong>生成的文檔失敗。</strong>
+
+<p><span id="renderingStatus">$1</span></p>',
+	'coll-rendering_failed_status' => '<strong>狀態：</strong>$1',
 	'coll-notfound_title' => '找不到圖書',
 	'coll-notfound_text' => '未找到。',
 	'coll-download_notfound_title' => '找不到檔案',
@@ -21221,4 +21240,6 @@ $messages['zh-hant'] = array(
 	'coll-make_suggestions' => '建議頁面',
 	'coll-make_suggestions_tooltip' => '根據您圖書中的頁面顯示建議',
 	'coll-suggest_empty' => '空',
+	'coll-setting-papersize' => '紙張大小：',
+	'coll-setting-papersize-letter' => '信',
 );
