@@ -3037,6 +3037,7 @@ $messages['bjn'] = array(
 /** Bengali (বাংলা)
  * @author Bellayet
  * @author Jayantanth
+ * @author Tauhid16
  * @author Wikitanvir
  */
 $messages['bn'] = array(
@@ -3083,8 +3084,6 @@ JavaScript সক্রিয় না করা পর্যন্ত, এই 
 	'coll-rename_chapter' => 'অধ্যায়ের নতুন নাম লিখুন',
 	'coll-no_such_category' => 'এমন কোনো বিষয়শ্রেণি নেই',
 	'coll-notitle_title' => 'এই পাতার জন্য শিরোনামটি চিহ্নিত করা যাচ্ছে না।',
-	'coll-post_failed_title' => 'POST অনুরোধ ব্যর্থ',
-	'coll-post_failed_msg' => '$1 এর POST অনুরোধ ব্যর্থ হয়েছে ($2)।',
 	'coll-mwserve_failed_title' => 'রেন্ডার সার্ভার ত্রুটি',
 	'coll-mwserve_failed_msg' => 'রেন্ডার সার্ভারে একটি ত্রুটি ঘটেছে: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'সার্ভার থেকে ত্রুটি পাওয়া গেছে',
@@ -3132,6 +3131,8 @@ JavaScript সক্রিয় না করা পর্যন্ত, এই 
 * আউটপুটে আপনি সন্তুষ্ট নন? উন্নয়নের সম্ভাবনা জানতে [[{{MediaWiki:Coll-helppage}}|বই সংক্রান্ত সহায়িকা]] দেখুন।',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/পাতার তথ্যাদির লেখা মুদ্রিত হচ্ছে',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/সংগ্রহের তথ্যাদির লেখা মুদ্রিত হচ্ছে',
+	'coll-rendering_failed_title' => 'রেনডারিং সফল হয়নি',
+	'coll-rendering_failed_status' => '<strong>অবস্থা:</strong> $1',
 	'coll-notfound_title' => 'বই পাওয়া যায়নি',
 	'coll-notfound_text' => 'বইয়ের পাতা খুঁজে পাওয়া যায়নি।',
 	'coll-download_notfound_title' => 'ফাইল পাওয়া যায়নি',
@@ -3205,6 +3206,8 @@ JavaScript সক্রিয় না করা পর্যন্ত, এই 
 	'coll-make_suggestions' => 'পরামর্শ পাতা',
 	'coll-make_suggestions_tooltip' => 'বইয়ের পাতার উপর ভিত্তি করে পরামর্শগুলো দেখাও',
 	'coll-suggest_empty' => 'খালি',
+	'coll-setting-papersize' => 'কাগজের আকার:',
+	'coll-setting-papersize-letter' => 'পত্র',
 );
 
 /** Breton (brezhoneg)
