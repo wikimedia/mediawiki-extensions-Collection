@@ -3768,6 +3768,7 @@ $messages['ce'] = array(
 	'coll-cancel' => 'Юхаяккха',
 	'coll-update' => 'Карлаяккха',
 	'coll-rendering_article' => '(яззам: $1)',
+	'coll-license' => 'Лицензи',
 	'coll-suggest_reset_bans' => 'кхоссар',
 	'coll-suggest_undo' => 'цаоьшу',
 	'right-collectionsaveasuserpage' => 'декъашхойн агӀонаш сана Ӏалашдар жайнаш',
@@ -13808,6 +13809,8 @@ $messages['niu'] = array(
 );
 
 /** Dutch (Nederlands)
+ * @author Arent
+ * @author Breghtje
  * @author Erwin
  * @author GerardM
  * @author McDutchie
@@ -13862,8 +13865,8 @@ Deze pagina werkt niet correct tenzij u JavaScript inschakelt.</strong>',
 	'coll-rename_chapter' => 'Voer een nieuwe naam in voor het hoofdstuk',
 	'coll-no_such_category' => 'De categorie bestaat niet',
 	'coll-notitle_title' => 'De titel van de pagina kon niet vastgesteld worden.',
-	'coll-post_failed_title' => 'POST-verzoek mislukt',
-	'coll-post_failed_msg' => 'Het POST-verzoek naar $1 is mislukt ($2).',
+	'coll-request_failed_title' => 'Boekweergave is mislukt',
+	'coll-request_failed_msg' => 'Er is een fout opgetreden bij het maken van uw boek.',
 	'coll-mwserve_failed_title' => 'Fout in de renderserver',
 	'coll-mwserve_failed_msg' => 'De renderserver gaf de volgende foutmelding: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'De server heeft een foutmelding teruggegeven',
@@ -13910,6 +13913,13 @@ Opmerkingen:
 * Niet tevreden met de uitvoer? Op de [[{{MediaWiki:Coll-helppage}}|hulppagina over boeken]] staan tips om deze uitvoer te verbeteren.',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informatietekst bij renderen pagina',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informatietekst bij renderen verzameling',
+	'coll-rendering_failed_title' => 'Renderen is mislukt',
+	'coll-rendering_failed_text' => '<strong>Genereren van het bestand is mislukt.</strong>
+
+
+<p><span id="renderingStatus">$1</span></p>',
+	'coll-rendering_failed_status' => '<strong>Status:</strong> $1',
+	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informatietekst bij renderen pagina',
 	'coll-notfound_title' => 'Het boek is niet gevonden',
 	'coll-notfound_text' => 'De boekpagina is niet gevonden.',
 	'coll-download_notfound_title' => 'Bestand niet gevonden',
@@ -13990,6 +14000,8 @@ De lijst wordt bijgewerkt als u op de knop 'toevoegen' of 'verwijderen' klikt.",
 	'coll-make_suggestions' => "Pagina's suggereren",
 	'coll-make_suggestions_tooltip' => "Suggesties weergeven op basis van de pagina's in uw boek",
 	'coll-suggest_empty' => 'leegmaken',
+	'coll-setting-papersize' => 'Papierformaat:',
+	'coll-setting-papersize-letter' => 'Letter',
 );
 
 /** Nederlands (informeel)‎ (Nederlands (informeel)‎)
