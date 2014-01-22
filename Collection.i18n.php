@@ -215,6 +215,10 @@ The list is updated whenever you click on the add or remove buttons.',
 	'coll-setting-papersize'        => 'Paper size:',
 	'coll-setting-papersize-a4'     => 'A4',
 	'coll-setting-papersize-letter' => 'Letter',
+	'coll-setting-showtoc'          => 'Include a table of contents',
+	'coll-setting-columns'          => 'Columns:',
+	'coll-setting-columns-1'        => '1',
+	'coll-setting-columns-2'        => '2',
 );
 
 /** Message documentation (Message documentation)
@@ -535,18 +539,39 @@ This message indicates that there are no items to show.
 {{Identical|Empty}}',
 	'coll-user_book_prefix' => '{{notranslate}}',
 	'coll-community_book_prefix' => '{{notranslate}}',
-	'coll-setting-papersize' => 'See also:
+
+	'coll-setting-papersize' => 'Label for the "paper size" option.
+
+See also:
 * {{msg-mw|Coll-setting-papersize-a4}}
 * {{msg-mw|Coll-setting-papersize-letter}}
 {{Identical|Paper size}}',
-	'coll-setting-papersize-a4' => '{{optional}}
+	'coll-setting-papersize-a4' => '{{optional}} Name for the A4 paper size
 See also:
 * {{msg-mw|Coll-setting-papersize}}
 * {{msg-mw|Coll-setting-papersize-letter}}',
-	'coll-setting-papersize-letter' => 'See also:
+	'coll-setting-papersize-letter' => 'Name for the US Letter paper size
+
+See also:
 * {{msg-mw|Coll-setting-papersize}}
 * {{msg-mw|Coll-setting-papersize-a4}}
 {{Identical|Letter}}',
+	'coll-setting-showtoc'          => 'Label for the "include a table of contents" checkbox',
+	'coll-setting-columns'          => 'Label for the "number of columns" option
+
+See also:
+* {{msg-mw|Coll-setting-columns-1}}
+* {{msg-mw|Coll-setting-columns-2}}',
+	'coll-setting-columns-1'        => '{{optional}}
+
+See also:
+* {{msg-mw|Coll-setting-columns}}
+* {{msg-mw|Coll-setting-columns-2}}',
+	'coll-setting-columns-2'        => '{{optional}}
+
+See also:
+* {{msg-mw|Coll-setting-columns}}
+* {{msg-mw|Coll-setting-columns-1}}',
 );
 
 /** Abkhazian (Аҧсшәа)
