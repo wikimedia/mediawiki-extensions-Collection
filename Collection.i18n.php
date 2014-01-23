@@ -7598,6 +7598,7 @@ $messages['haw'] = array(
 /** Hebrew (עברית)
  * @author Amire80
  * @author Guycn2
+ * @author Mbkv717
  * @author Rotem Liss
  * @author Rotemliss
  * @author YaronSh
@@ -7775,6 +7776,7 @@ $messages['he'] = array(
 	'coll-make_suggestions' => 'הצעת דפים',
 	'coll-make_suggestions_tooltip' => 'הצגת הצעות המבוססות על הדפים הנמצאים בספר',
 	'coll-suggest_empty' => 'ריק',
+	'coll-setting-papersize' => 'גודל נייר:',
 );
 
 /** Hindi (हिन्दी)
@@ -17975,6 +17977,7 @@ $messages['su'] = array(
  * @author Rotsee
  * @author Sannab
  * @author Thurs
+ * @author WikiPhoenix
  */
 $messages['sv'] = array(
 	'coll-desc' => '[[Special:Book|Skapa böcker]]',
@@ -18020,8 +18023,6 @@ Denna sida kommer inte att fungera korrekt innan JavaScript finns tillgängligt.
 	'coll-rename_chapter' => 'Välj ett nytt namn för kapitlet',
 	'coll-no_such_category' => 'Ingen sådan kategori',
 	'coll-notitle_title' => 'Titeln av sidan kunde inte fastställas.',
-	'coll-post_failed_title' => 'POST-begäran avslagen',
-	'coll-post_failed_msg' => 'POST-begäran till $1 avslagen ($2).',
 	'coll-mwserve_failed_title' => 'Render-serverfel',
 	'coll-mwserve_failed_msg' => 'Ett fel uppstod på renderservern: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Felrespons från servern',
@@ -18069,6 +18070,8 @@ Noter:
 * Inte nöjd med resultatet? Se [[{{MediaWiki:Coll-helppage}}|hjälpsidan om samlingar]] för möjligheter att förbättra det.',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informationstext om sidrendering',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Återger informationstext om samlingar',
+	'coll-rendering_failed_title' => 'Rendering misslyckades',
+	'coll-rendering_failed_status' => '<strong>Status:</strong> $1',
 	'coll-notfound_title' => 'Bok inte funnen',
 	'coll-notfound_text' => 'Kunde inte hitta boksida.',
 	'coll-download_notfound_title' => 'Hittade inte filen',
@@ -18147,6 +18150,7 @@ Listan uppdateras när du klickar på lägg till- eller ta bort-knappar.',
 	'coll-make_suggestions' => 'Föreslå sidor',
 	'coll-make_suggestions_tooltip' => 'Visa förslag baserade på sidorna i din bok',
 	'coll-suggest_empty' => 'tom',
+	'coll-setting-papersize' => 'Pappersstorlek:',
 );
 
 /** Swahili (Kiswahili)
@@ -20248,6 +20252,7 @@ $messages['vep'] = array(
 /** Vietnamese (Tiếng Việt)
  * @author Minh Nguyen
  * @author Vinhtantran
+ * @author Withoutaname
  */
 $messages['vi'] = array(
 	'coll-desc' => '[[Special:Book|Tạo sách]]',
@@ -20293,8 +20298,6 @@ Trang này sẽ không hoạt động đúng, trừ khi bạn kích hoạt JavaS
 	'coll-rename_chapter' => 'Gõ vào tên chương mới',
 	'coll-no_such_category' => 'Không có thể loại như vậy',
 	'coll-notitle_title' => 'Không xác định được tựa đề của trang.',
-	'coll-post_failed_title' => 'Yêu cầu POST thất bại',
-	'coll-post_failed_msg' => 'Yêu cầu POST đến $1 thất bại ($2).',
 	'coll-mwserve_failed_title' => 'Lỗi chương trình kết xuất',
 	'coll-mwserve_failed_msg' => 'Chương trình kết xuất gặp lỗi: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Máy chủ trả về lỗi',
@@ -20420,6 +20423,7 @@ Danh sách này được cập nhật mỗi khi bạn nhấn vào nút thêm ho�
 	'coll-make_suggestions' => 'Đề nghị trang',
 	'coll-make_suggestions_tooltip' => 'Hiện đề nghị dựa trên các trang trong cuốn sách',
 	'coll-suggest_empty' => 'trống',
+	'coll-setting-papersize' => 'Kích thước giấy:',
 );
 
 /** Volapük (Volapük)
