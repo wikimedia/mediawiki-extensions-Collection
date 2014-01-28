@@ -7042,8 +7042,8 @@ Esta páxina non funcionará correctamente, polo menos ata que o JavaScript sexa
 	'coll-rename_chapter' => 'Insira un novo nome para o capítulo',
 	'coll-no_such_category' => 'Non existe tal categoría',
 	'coll-notitle_title' => 'O título da páxina non pode ser determinado.',
-	'coll-post_failed_title' => 'A solicitude do POST fallou',
-	'coll-post_failed_msg' => 'Fallou o POST solicitado a $1 ($2).',
+	'coll-request_failed_title' => 'Fallou a renderización do libro',
+	'coll-request_failed_msg' => 'Houbo un erro ao intentar renderizar o seu libro.',
 	'coll-mwserve_failed_title' => 'Erro no servidor de renderización',
 	'coll-mwserve_failed_msg' => 'Produciuse un erro no servidor de renderización: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Ocorreu un erro no servidor',
@@ -7091,6 +7091,13 @@ Notas:
 *Non está satisfeito co ficheiro obtido? Vexa [[{{MediaWiki:Coll-helppage}}|a páxina de axuda acerca dos libros]] para comprobar as posibilidades de melloralo.',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Texto informativo sobre o renderizado de páxinas',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Texto informativo sobre o renderizado de coleccións',
+	'coll-rendering_failed_title' => 'Fallou a renderización',
+	'coll-rendering_failed_text' => '<strong>Houbo un erro durante a xeración do documento.</strong>
+
+<p><span id="renderingStatus">$1</span></p>',
+	'coll-rendering_failed_status' => '<strong>Estado:</strong> $1',
+	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Texto informativo sobre o renderizado de páxinas',
+	'coll-failed_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Texto informativo sobre o renderizado de coleccións',
 	'coll-notfound_title' => 'Non se pode atopar o libro',
 	'coll-notfound_text' => 'Non se pode atopar a páxina do libro.',
 	'coll-download_notfound_title' => 'Non se atopou o ficheiro',
@@ -7169,6 +7176,8 @@ A lista actualízase sempre que preme no botón engadir ou eliminar.',
 	'coll-make_suggestions' => 'Suxerir as páxinas',
 	'coll-make_suggestions_tooltip' => 'Mostrar as suxestións baseadas nas páxinas do seu libro',
 	'coll-suggest_empty' => 'baleiro',
+	'coll-setting-papersize' => 'Tamaño do papel:',
+	'coll-setting-papersize-letter' => 'Carta',
 );
 
 /** Goan Konkani (Latin script) (Konknni)
@@ -13523,8 +13532,8 @@ $messages['nb'] = array(
 	'coll-rename_chapter' => 'Skriv inn kapittelets nye navn',
 	'coll-no_such_category' => 'Ingen kategori ved dette navnet',
 	'coll-notitle_title' => 'Fant ikke ut av sidens tittel.',
-	'coll-post_failed_title' => 'POST-forespørsel mislyktes',
-	'coll-post_failed_msg' => 'POST-forespørselen til $1 mislyktes ($2).',
+	'coll-request_failed_title' => 'Bokfremstilling feilet',
+	'coll-request_failed_msg' => 'Det oppsto en feil under fremstilling av boken din.',
 	'coll-mwserve_failed_title' => 'Rendreringsserverfeil',
 	'coll-mwserve_failed_msg' => 'En feil oppsto på rendreringsserveren: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Feilrespons fra tjeneren',
@@ -13569,6 +13578,13 @@ Merk:
 * Ikke fornøyd med resultatet? Se [[{{MediaWiki:Coll-helppage}}|hjelpsiden om samlinger]] for muligheter til å forbedre den.',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Gjengir sideinformasjonstekst',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Gjengir samlingsinformasjonstekst',
+	'coll-rendering_failed_title' => 'Fremstillingen feilet',
+	'coll-rendering_failed_text' => '<strong>Generering av dokumentfilen har feilet.</strong>
+
+<p><span id="renderingStatus">$1</span></p>',
+	'coll-rendering_failed_status' => '<strong>Status:</strong> $1',
+	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Fremstiller sideinformasjonstekst',
+	'coll-failed_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Fremstiller sideinformasjonstekst',
 	'coll-notfound_title' => 'Bok ikke funnet',
 	'coll-notfound_text' => 'Kunne ikke finne bokside.',
 	'coll-download_notfound_title' => 'Fil ikke funnet',
@@ -13647,6 +13663,8 @@ Listen oppdateres når du klikker på legg til- eller fjern-knappene.',
 	'coll-make_suggestions' => 'Foreslå sider',
 	'coll-make_suggestions_tooltip' => 'Vis forslag basert på sidene i boken din',
 	'coll-suggest_empty' => 'tom',
+	'coll-setting-papersize' => 'Papirstørrelse:',
+	'coll-setting-papersize-letter' => 'Bokstav',
 );
 
 /** Low German (Plattdüütsch)
@@ -17669,6 +17687,7 @@ $messages['sr-ec'] = array(
 
 /** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
+ * @author Milicevic01
  * @author Rancher
  * @author Жељко Тодоровић
  * @author Михајло Анђелковић
@@ -17717,8 +17736,6 @@ Ova stranica neće raditi ispravno bez javaskripta.</strong>',
 	'coll-rename_chapter' => 'Unesite novo ime poglavlja',
 	'coll-no_such_category' => 'Nema takve kategorije',
 	'coll-notitle_title' => 'Naslov ove stranice nije mogao biti utvrđen.',
-	'coll-post_failed_title' => 'POST zahtev nije uspeo',
-	'coll-post_failed_msg' => 'POST zahtev za $1 nije uspeo ($2).',
 	'coll-mwserve_failed_title' => 'Greška na serveru za izrađivanje',
 	'coll-mwserve_failed_msg' => 'Na serveru za izrađivanje desila se greška: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Greška u odgovoru servera',
@@ -17760,8 +17777,8 @@ Ako ovo ne radi, pritisnite dugme za osvežavanje svog brovzera.</p>',
 	'coll-rendering_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/izrađivanje teksta',
 	'coll-rendering_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/izrađivanje zbirnog teksta',
 	'coll-rendering_finished_title' => 'Izrađivanje je završeno',
-	'coll-rendering_finished_text' => '<strong>Fajl sa dokumentom je napravljen.</strong>
-<strong>[$1 Preuzmite fajl]</strong> na svoj kompjuter.
+	'coll-rendering_finished_text' => '<strong>Dokument je napravljen.</strong>
+<strong>[$1 Preuzmite datoteku]</strong> na svoj računar.
 
 Napomena:
 * Nezadovoljni ste izlazom? Pogledajte [[{{MediaWiki:Coll-helppage}}|stranu pomoći o knjigama]] za mogućnosti da ga poboljšate.',
@@ -20896,6 +20913,7 @@ $messages['yue'] = array(
  * @author Chenzw
  * @author Hydra
  * @author Liangent
+ * @author Liuxinyu970226
  * @author PhiLiP
  * @author Qiyue2001
  * @author Wmr89502270
@@ -20993,6 +21011,8 @@ $messages['zh-hans'] = array(
 
 <p><span id="renderingStatus">$1</span></p>',
 	'coll-rendering_failed_status' => '<strong>状态：</strong>$1',
+	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/生成页面信息文本',
+	'coll-failed_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/生成集合信息文本',
 	'coll-notfound_title' => '未找到图书',
 	'coll-notfound_text' => '未找到图书页面。',
 	'coll-download_notfound_title' => '未找到文件',
