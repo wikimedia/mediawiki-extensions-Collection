@@ -1682,7 +1682,7 @@ $messages['as'] = array(
 	'coll-helppage' => 'Help:কিতাপ',
 	'coll-load_collection' => "গ্ৰন্থ ল'ড কৰক",
 	'coll-load_collection_tooltip' => "এই গ্ৰন্থখন আপোনাৰ সাম্প্ৰতিক গ্ৰন্থ হিচাপে ল'ড কৰক",
-	'coll-n_pages' => '$1 {{PLURAL:$1|খন পৃষ্ঠা|খন পৃষ্ঠা}}',
+	'coll-n_pages' => '$1 {{PLURAL:$1|টা পৃষ্ঠা}}',
 	'coll-printable_version_pdf' => 'পিডিএফ সংস্কৰণ',
 	'coll-remove_this_page' => 'আপোনাৰ গ্ৰন্থৰ পৰা এই পৃষ্ঠাখন আঁতৰাওক',
 	'coll-remove_page_tooltip' => 'আপোনাৰ গ্ৰন্থৰ পৰা এই সাম্প্ৰতিক ৱিকি পৃষ্ঠা আঁতৰাওক',
@@ -3393,6 +3393,7 @@ Hizivaet e vez ar roll bep tro ma klikit war ar bouton ouzhpennañ pe tennañ.",
 
 /** Bosnian (bosanski)
  * @author CERminator
+ * @author KWiki
  * @author Smooth O
  */
 $messages['bs'] = array(
@@ -3439,8 +3440,6 @@ Ova stranica se neće pravilno prikazati, sve dok se JavaScript ne omogući.</st
 	'coll-rename_chapter' => 'Unesite novo ime za poglavlje',
 	'coll-no_such_category' => 'Nema takve kategorije',
 	'coll-notitle_title' => 'Naslov ove stranice nije mogao biti određen.',
-	'coll-post_failed_title' => 'POST zahtjev nije uspio',
-	'coll-post_failed_msg' => 'POST zahtjev za $1 nije uspio ($2).',
 	'coll-mwserve_failed_title' => 'Serverska greška pri iscrtavanju',
 	'coll-mwserve_failed_msg' => 'Desila se greška pri iscrtavanju na serveru: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Greška pri odgovoru sa servera',
@@ -3556,7 +3555,7 @@ Spisak se ažurira kad god kliknete na dugme za dodavanje ili uklanjanje.',
 	'coll-remove_page_tooltip' => 'Ukloni trenutnu wiki stranicu iz Vaše knjige',
 	'coll-show_collection' => 'Prikaži knjigu',
 	'coll-show_collection_tooltip' => 'Kliknite za uređivanje/download/naručivanje Vaše knjige',
-	'coll-not_addable' => 'Ova stranica se ne može dodati',
+	'coll-not_addable' => 'Ova stranica ne može se dodati',
 	'coll-make_suggestions' => 'Predloži stranice',
 	'coll-make_suggestions_tooltip' => 'Prikaži prijedloge zasnovane na stranicama iz Vaše knjige',
 	'coll-suggest_empty' => 'prazno',
@@ -3950,6 +3949,13 @@ Poznámky:
 * Nejste spokojeni s výsledkem? Podívejte se na [[{{MediaWiki:Coll-helppage}}|stránku s nápovědou ke kolekcím]], jak ho vylepšit.',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informace při vykreslování stránky',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informace při vykreslování knihy',
+	'coll-rendering_failed_title' => 'Vykreslování se nezdařilo',
+	'coll-rendering_failed_text' => '<strong>Vytvoření souboru s dokumentem se nezdařilo.</strong>
+
+<p><span id="renderingStatus">$1</span></p>',
+	'coll-rendering_failed_status' => '<strong>Stav:</strong> $1',
+	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informace při vykreslování stránky',
+	'coll-failed_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informace při vykreslování knihy',
 	'coll-notfound_title' => 'Kniha nenalezena',
 	'coll-notfound_text' => 'Nebylo možné najít stránku knihy.',
 	'coll-download_notfound_title' => 'Soubor nenalezen',
@@ -4028,6 +4034,8 @@ Seznam se aktualizuje při každém kliknutím na tlačítka přidat a odebrat.'
 	'coll-make_suggestions' => 'Doporučit stránky',
 	'coll-make_suggestions_tooltip' => 'Zobrazí návrhy podle stránek přidaných do vaší knihy',
 	'coll-suggest_empty' => 'prázdné',
+	'coll-setting-papersize' => 'Velikost papíru:',
+	'coll-setting-papersize-letter' => 'Letter',
 );
 
 /** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
@@ -4696,7 +4704,7 @@ Heta ti JavaScript a nike, ena pel hewl nihebitiyeno.</strong>',
 	'coll-format_label' => 'Formet:',
 	'coll-remove' => 'Wedarne',
 	'coll-show' => 'Bımocne',
-	'coll-move_to_top' => 'Ber tewr ser',
+	'coll-move_to_top' => 'Bere tewr ser',
 	'coll-move_up' => 'Yew sire şî cêr',
 	'coll-move_down' => 'Yew sire şî cor',
 	'coll-move_to_bottom' => 'Bin rê şî',
@@ -17362,8 +17370,8 @@ Ta stran ne bo delovala pravilno bren omogočenega JavaScripta.</strong>',
 	'coll-rename_chapter' => 'Vnesite novo ime za poglavje',
 	'coll-no_such_category' => 'Ne obstaja nobena taka kategorija',
 	'coll-notitle_title' => 'Naslov strani ni bi bilo mogoče določiti.',
-	'coll-post_failed_title' => 'Zahteva POST ni uspela',
-	'coll-post_failed_msg' => 'Zahteva POST za $1 ni uspela ($2).',
+	'coll-request_failed_title' => 'Upodabljanje knjige je spodletelo',
+	'coll-request_failed_msg' => 'Pri upodabljanju vaše knjige je prišlo do napake.',
 	'coll-mwserve_failed_title' => 'Napaka na prevajalnem strežniku',
 	'coll-mwserve_failed_msg' => 'Na prevajalnem strežniku je prišlo do napake: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Strežnik je vrnil napako',
@@ -17410,6 +17418,13 @@ Opombe:
 * Niste zadovoljni z ustvarjeno datoteko? Glej [[{{MediaWiki:Coll-helppage}}|stran s pomočjo za razširitev Knjige]] za možnosti izboljšav.',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Ustvarjanje informativnega besedila strani',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Ustvarjanje informativnega besedila zbirke',
+	'coll-rendering_failed_title' => 'Upodabljanje je spodletelo',
+	'coll-rendering_failed_text' => '<strong>Ustvarjanje datoteke dokumenta je spodletelo.</strong>
+
+<p><span id="renderingStatus">$1</span></p>',
+	'coll-rendering_failed_status' => '<strong>Stanje:</strong> $1',
+	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Besedilo informacij strani upodabljanja',
+	'coll-failed_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Besedilo informacij zbirke upodabljanja',
 	'coll-notfound_title' => 'Knjiga ni bila najdena',
 	'coll-notfound_text' => 'Stran v knjigi ni bila najdena.',
 	'coll-download_notfound_title' => 'Datoteke ni mogoče najti',
@@ -17489,6 +17504,8 @@ Seznam je posodobljen, ko kliknete na gumbe za dodajanje ali odstranjevanje.',
 	'coll-make_suggestions' => 'Predlagaj strani',
 	'coll-make_suggestions_tooltip' => 'Prikaži predloge glede na strani v vaši knjigi',
 	'coll-suggest_empty' => 'prazno',
+	'coll-setting-papersize' => 'Velikost papirja:',
+	'coll-setting-papersize-letter' => 'Pismo',
 );
 
 /** Albanian (shqip)
@@ -20440,7 +20457,8 @@ Danh sách này được cập nhật mỗi khi bạn nhấn vào nút thêm ho�
 	'coll-make_suggestions' => 'Đề nghị trang',
 	'coll-make_suggestions_tooltip' => 'Hiện đề nghị dựa trên các trang trong cuốn sách',
 	'coll-suggest_empty' => 'trống',
-	'coll-setting-papersize' => 'Kích thước giấy:',
+	'coll-setting-papersize' => 'Khổ giấy:',
+	'coll-setting-papersize-letter' => 'Letter',
 );
 
 /** Volapük (Volapük)
