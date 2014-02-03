@@ -539,7 +539,6 @@ This message indicates that there are no items to show.
 {{Identical|Empty}}',
 	'coll-user_book_prefix' => '{{notranslate}}',
 	'coll-community_book_prefix' => '{{notranslate}}',
-
 	'coll-setting-papersize' => 'Label for the "paper size" option.
 
 See also:
@@ -556,18 +555,18 @@ See also:
 * {{msg-mw|Coll-setting-papersize}}
 * {{msg-mw|Coll-setting-papersize-a4}}
 {{Identical|Letter}}',
-	'coll-setting-showtoc'          => 'Label for the "include a table of contents" checkbox',
-	'coll-setting-columns'          => 'Label for the "number of columns" option
+	'coll-setting-showtoc' => 'Label for the "include a table of contents" checkbox',
+	'coll-setting-columns' => 'Label for the "number of columns" option
 
 See also:
 * {{msg-mw|Coll-setting-columns-1}}
 * {{msg-mw|Coll-setting-columns-2}}',
-	'coll-setting-columns-1'        => '{{optional}}
+	'coll-setting-columns-1' => '{{optional}}
 
 See also:
 * {{msg-mw|Coll-setting-columns}}
 * {{msg-mw|Coll-setting-columns-2}}',
-	'coll-setting-columns-2'        => '{{optional}}
+	'coll-setting-columns-2' => '{{optional}}
 
 See also:
 * {{msg-mw|Coll-setting-columns}}
@@ -4627,6 +4626,8 @@ Immer, wenn du auf die Schaltflächen zum Hinzufügen oder Entfernen klickst, wi
 	'coll-suggest_empty' => 'leer',
 	'coll-setting-papersize' => 'Papiergröße:',
 	'coll-setting-papersize-letter' => 'Letter',
+	'coll-setting-showtoc' => 'Ein Inhaltsverzeichnis einbinden',
+	'coll-setting-columns' => 'Spalten:',
 );
 
 /** German (formal address) (Deutsch (Sie-Form)‎)
@@ -13973,6 +13974,7 @@ Opmerkingen:
 <p><span id="renderingStatus">$1</span></p>',
 	'coll-rendering_failed_status' => '<strong>Status:</strong> $1',
 	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informatietekst bij renderen pagina',
+	'coll-failed_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informatietekst bij het renderen van een verzameling',
 	'coll-notfound_title' => 'Het boek is niet gevonden',
 	'coll-notfound_text' => 'De boekpagina is niet gevonden.',
 	'coll-download_notfound_title' => 'Bestand niet gevonden',
