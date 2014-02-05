@@ -555,8 +555,12 @@ See also:
 * {{msg-mw|Coll-setting-papersize}}
 * {{msg-mw|Coll-setting-papersize-a4}}
 {{Identical|Letter}}',
-	'coll-setting-showtoc' => 'Label for the "include a table of contents" checkbox',
-	'coll-setting-columns' => 'Label for the "number of columns" option
+	'coll-setting-showtoc' => 'Label for the "include a table of contents" checkbox.
+
+Preceded by {{msg-mw|Coll-setting-papersize}}.
+
+Followed by {{msg-mw|Coll-setting-columns}}.',
+	'coll-setting-columns' => 'Label for the "number of columns" option.
 
 See also:
 * {{msg-mw|Coll-setting-columns-1}}
@@ -3791,6 +3795,12 @@ $messages['ce'] = array(
 	'coll-cancel' => 'Юхаяккха',
 	'coll-update' => 'Карлаяккха',
 	'coll-rendering_article' => '(яззам: $1)',
+	'coll-rendering_failed_title' => 'файл кхолла ца ели',
+	'coll-rendering_failed_text' => '<strong>Файлан документ кхолла таро ца хилий.</strong>
+
+<p><span id="renderingStatus">$1</span></p>',
+	'coll-rendering_failed_status' => '<strong>Статус:</strong> $1',
+	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/АгӀона йоза тадар',
 	'coll-license' => 'Лицензи',
 	'coll-suggest_reset_bans' => 'кхоссар',
 	'coll-suggest_undo' => 'цаоьшу',
@@ -3799,6 +3809,8 @@ $messages['ce'] = array(
 	'coll-add_category' => 'Хьан жайнан тӀетоха хӀара категори',
 	'coll-bookscategory' => 'Жайнаш',
 	'coll-help' => 'ГӀо',
+	'coll-setting-papersize' => 'Кехатан баран:',
+	'coll-setting-papersize-letter' => 'Хаам',
 );
 
 /** Sorani Kurdish (کوردی)
@@ -4060,6 +4072,8 @@ Seznam se aktualizuje při každém kliknutím na tlačítka přidat a odebrat.'
 	'coll-suggest_empty' => 'prázdné',
 	'coll-setting-papersize' => 'Velikost papíru:',
 	'coll-setting-papersize-letter' => 'Letter',
+	'coll-setting-showtoc' => 'Vložit obsah',
+	'coll-setting-columns' => 'Sloupce:',
 );
 
 /** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
@@ -6169,6 +6183,8 @@ $messages['fa'] = array(
 	'coll-suggest_empty' => 'خالی',
 	'coll-setting-papersize' => 'انذازهٔ کاغذ:',
 	'coll-setting-papersize-letter' => 'نامه',
+	'coll-setting-showtoc' => 'شامل جدول محتویات',
+	'coll-setting-columns' => 'ستون‌ها:',
 );
 
 /** Finnish (suomi)
@@ -6587,6 +6603,8 @@ La liste est mise à jour à chaque fois que vous cliquez sur les boutons d’aj
 	'coll-suggest_empty' => 'vide',
 	'coll-setting-papersize' => 'Taille du papier :',
 	'coll-setting-papersize-letter' => 'Lettre',
+	'coll-setting-showtoc' => 'Inclure une table des matières',
+	'coll-setting-columns' => 'Colonnes :',
 );
 
 /** Franco-Provençal (arpetan)
@@ -6814,8 +6832,8 @@ Detdiar sidj koon ei rocht werke, so loong JavaScript ei werket.</strong>',
 	'coll-rename_chapter' => 'En neien nööm för det kapiitel iindu',
 	'coll-no_such_category' => 'Son kategorii jaft at ei',
 	'coll-notitle_title' => 'Di tiitel faan det sidj küd ei fäästlaanj wurd.',
-	'coll-post_failed_title' => 'POST uunfraag as skiaf gingen',
-	'coll-post_failed_msg' => 'Det POST uunfraag to $1 as skiaf gingen ($2).',
+	'coll-request_failed_title' => "Diar as wat skiaf gingen bi't buken maagin.",
+	'coll-request_failed_msg' => 'Diar as wat skiaf gingen bi di ferschük, din buk tu maagin.',
 	'coll-mwserve_failed_title' => 'Di server swaaret ei',
 	'coll-mwserve_failed_msg' => 'Üüb a server as wat skiaf gingen: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Di server swaaret mä en feeler',
@@ -6860,6 +6878,13 @@ Henwiis:
 * Beest dü ei tufrees? Do luke üüb det [[{{MediaWiki:Coll-helppage}}|halepsidj för buken]].',
 	'coll-finished_page_info_text_article' => 'Hü sidjen uunwiset wurd skel',
 	'coll-finished_collection_info_text_article' => 'Hü saamlangen uunwiset wurd skel',
+	'coll-rendering_failed_title' => "Küd ei ''renderd'' wurd.",
+	'coll-rendering_failed_text' => '<strong>Det dokument küd ei maaget wurd.</strong>
+
+<p><span id="renderingStatus">$1</span></p>',
+	'coll-rendering_failed_status' => '<strong>Stant:</strong> $1',
+	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Hü sidjen uunwiset wurd skel',
+	'coll-failed_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Hü saamlangen uunwiset wurd skel',
 	'coll-notfound_title' => 'Buk ei fünjen',
 	'coll-notfound_text' => 'Küd din buk ei finj.',
 	'coll-download_notfound_title' => 'Datei ei fünjen',
@@ -6938,6 +6963,10 @@ Wan dü wat diartuskrafst of wechnamst, woort det list nei maaget.',
 	'coll-make_suggestions' => 'Sidjen föörslau',
 	'coll-make_suggestions_tooltip' => 'Föörslacher wise, diar mä sidjen uun din buk tu dun haa',
 	'coll-suggest_empty' => 'leesag',
+	'coll-setting-papersize' => "Grate faan't bleed:",
+	'coll-setting-papersize-letter' => 'Briaf ("letter")',
+	'coll-setting-showtoc' => 'En auersicht mä iinbinj',
+	'coll-setting-columns' => 'Spleder:',
 );
 
 /** Friulian (furlan)
@@ -9670,6 +9699,8 @@ L\'elenco viene aggiornato ogni qualvolta si fa clic sui pulsanti "aggiungi" o "
 	'coll-suggest_empty' => 'vuoto',
 	'coll-setting-papersize' => 'Formato della carta:',
 	'coll-setting-papersize-letter' => 'Lettera',
+	'coll-setting-showtoc' => "Includi l'indice",
+	'coll-setting-columns' => 'Colonne:',
 );
 
 /** Japanese (日本語)
@@ -9856,6 +9887,7 @@ $messages['ja'] = array(
 	'coll-suggest_empty' => '空',
 	'coll-setting-papersize' => '用紙サイズ:',
 	'coll-setting-papersize-letter' => 'レター',
+	'coll-setting-showtoc' => '目次を含める',
 );
 
 /** Javanese (Basa Jawa)
@@ -11422,6 +11454,7 @@ D'Lëscht gëtt all kéier aktuliséiert wann dir op d'Knäppecher derbäisetzen
 	'coll-suggest_empty' => 'eidel',
 	'coll-setting-papersize' => 'Pabeiergréisst:',
 	'coll-setting-papersize-letter' => 'Letter',
+	'coll-setting-columns' => 'Kolonnen:',
 );
 
 /** Lezghian (лезги)
@@ -12682,6 +12715,8 @@ $messages['mk'] = array(
 	'coll-suggest_empty' => 'празно',
 	'coll-setting-papersize' => 'Големина на листот',
 	'coll-setting-papersize-letter' => 'Писмо',
+	'coll-setting-showtoc' => 'Вклучи содржина',
+	'coll-setting-columns' => 'Колони:',
 );
 
 /** Malayalam (മലയാളം)
@@ -16283,6 +16318,8 @@ $messages['ru'] = array(
 	'coll-suggest_empty' => 'пуста',
 	'coll-setting-papersize' => 'Размер бумаги:',
 	'coll-setting-papersize-letter' => 'Письмо',
+	'coll-setting-showtoc' => 'Включить содержание',
+	'coll-setting-columns' => 'Столбцы:',
 );
 
 /** Rusyn (русиньскый)
@@ -19934,6 +19971,8 @@ $messages['uk'] = array(
 	'coll-suggest_empty' => 'порожня',
 	'coll-setting-papersize' => 'Розмір паперу:',
 	'coll-setting-papersize-letter' => 'Лист',
+	'coll-setting-showtoc' => 'Включити зміст',
+	'coll-setting-columns' => 'Стовпці:',
 );
 
 /** Urdu (اردو)
