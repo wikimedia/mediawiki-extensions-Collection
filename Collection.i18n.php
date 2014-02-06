@@ -11038,6 +11038,7 @@ $messages['kri'] = array(
 	'coll-collection' => 'Buk',
 	'coll-collections' => 'Buk-dèm',
 	'coll-create_a_book' => 'Mek buk',
+	'coll-setting-showtoc' => 'Inklud kòntenttebul',
 );
 
 /** Kinaray-a (Kinaray-a)
@@ -13145,8 +13146,6 @@ $messages['ms'] = array(
 	'coll-rename_chapter' => 'Masukkan nama baru untuk bab',
 	'coll-no_such_category' => 'Kategori tidak wujud',
 	'coll-notitle_title' => 'Tajuk laman tidak dapat dipastikan.',
-	'coll-post_failed_title' => 'Permintaan POST gagal',
-	'coll-post_failed_msg' => 'Permintaan POST terhadap $1 gagal ($2).',
 	'coll-mwserve_failed_title' => 'Ralat pelayan jana',
 	'coll-mwserve_failed_msg' => 'Terdapat ralat pada pelayan jana: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Jawapan ralat daripada pelayan',
@@ -13268,6 +13267,8 @@ Mungkin ia telah dipadam dan perlu dijanakan semula.',
 	'coll-make_suggestions' => 'Syorkan laman',
 	'coll-make_suggestions_tooltip' => 'Berikan syor berdasarkan laman dalam buku anda',
 	'coll-suggest_empty' => 'kosong',
+	'coll-setting-showtoc' => 'Sertakan jadual isi kandungan',
+	'coll-setting-columns' => 'Lajur:',
 );
 
 /** Maltese (Malti)
