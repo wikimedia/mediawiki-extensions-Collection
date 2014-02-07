@@ -1906,6 +1906,8 @@ La llista anuevase siempre que calque nos botones amestar o desaniciar.',
 	'coll-suggest_empty' => 'balero',
 	'coll-setting-papersize' => 'Tamañu del papel:',
 	'coll-setting-papersize-letter' => 'Carta',
+	'coll-setting-showtoc' => 'Incluir un sumariu',
+	'coll-setting-columns' => 'Columnes:',
 );
 
 /** Azerbaijani (azərbaycanca)
@@ -7241,6 +7243,8 @@ A lista actualízase sempre que preme no botón engadir ou eliminar.',
 	'coll-suggest_empty' => 'baleiro',
 	'coll-setting-papersize' => 'Tamaño do papel:',
 	'coll-setting-papersize-letter' => 'Carta',
+	'coll-setting-showtoc' => 'Incluír unha táboa de contidos',
+	'coll-setting-columns' => 'Columnas:',
 );
 
 /** Goan Konkani (Latin script) (Konknni)
@@ -15204,6 +15208,7 @@ $messages['ps'] = array(
  * @author Hamilton Abreu
  * @author Helder.wiki
  * @author Heldergeovane
+ * @author Imperadeiro98
  * @author Lijealso
  * @author Luckas
  * @author Luckas Blade
@@ -15256,8 +15261,6 @@ Esta página não funcionará corretamente sem o JavaScript.</strong>',
 	'coll-rename_chapter' => 'Introduza um nome novo para o capítulo',
 	'coll-no_such_category' => 'Essa categoria não existe',
 	'coll-notitle_title' => 'Não foi possível determinar o título da página.',
-	'coll-post_failed_title' => 'Pedido POST falhou',
-	'coll-post_failed_msg' => 'O pedido POST feito a $1 falhou ($2).',
 	'coll-mwserve_failed_title' => 'Erro no servidor de composição do ficheiro',
 	'coll-mwserve_failed_msg' => 'Ocorreu um erro no servidor de composição do ficheiro: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Resposta de erro do servidor',
@@ -15378,6 +15381,7 @@ A lista é atualizada sempre que clica os botões de adicionar ou remover.',
 	'coll-make_suggestions' => 'Sugerir páginas',
 	'coll-make_suggestions_tooltip' => 'Mostrar sugestões com base nas páginas do livro',
 	'coll-suggest_empty' => 'vazio',
+	'coll-setting-columns' => 'Colunas:',
 );
 
 /** Brazilian Portuguese (português do Brasil)
