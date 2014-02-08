@@ -4987,6 +4987,12 @@ Pśispomnjeśa:
 * Njespokojom z wudaśim? Glědaj [[{{MediaWiki:Coll-helppage}}|bok pomocy wó zběrkach]] za móžnosći, jo  pólěpšyś.',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informaciski tekst boka wuceriś',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informaciski tekst zběrki wuceriś',
+	'coll-rendering_failed_title' => 'Cerjenje njejo se raźiło',
+	'coll-rendering_failed_text' => '<strong>Generěrowanje dokumenta njejo se raźiło.</strong>
+<p><span id="renderingStatus">$1</span></p>',
+	'coll-rendering_failed_status' => '<strong>Status:</strong> $1',
+	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Cerjenje infoteksta boka',
+	'coll-failed_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informaciski tekst zběrki wuceriś',
 	'coll-notfound_title' => 'Knigły njenamakane',
 	'coll-notfound_text' => 'Bok knigłow njejo se dał namakaś.',
 	'coll-download_notfound_title' => 'Dataja njenamakana',
@@ -5065,6 +5071,10 @@ Lisćina se aktualizěrujo, gažkuli kliknjoš na tłocašk "pśidaś" abo "wót
 	'coll-make_suggestions' => 'Boki naraźiś',
 	'coll-make_suggestions_tooltip' => 'Naraźenja pokazaś, kótarež bazěruju na bokach w twójich knigłach',
 	'coll-suggest_empty' => 'prozny',
+	'coll-setting-papersize' => 'Papjerowa wulkosć:',
+	'coll-setting-papersize-letter' => 'Letter',
+	'coll-setting-showtoc' => 'Zapis wopśimjeśa zapśimjeś',
+	'coll-setting-columns' => 'Słupy:',
 );
 
 /** Ewe (eʋegbe)
@@ -8334,7 +8344,12 @@ Přispomnjenka:
 * Njejsy spokojny z wudaćom? Hlej [[{{MediaWiki:Coll-helppage}}|stronu pomocy wo zběrkach]] za móžnosće je polěpšić.',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informaciski tekst strony rysować',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informaciski tekst zběrki rysować',
+	'coll-rendering_failed_title' => 'Rysowanje njeje so poradźiło',
+	'coll-rendering_failed_text' => '<strong>Spłodźenje dokumenta njeje so poradźiło.</strong>
+<p><span id="renderingStatus">$1</span></p>',
 	'coll-rendering_failed_status' => '<strong>Status:</strong> $1',
+	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Rysowanje infoteksta strony',
+	'coll-failed_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Informaciski tekst zběrki rysować',
 	'coll-notfound_title' => 'Kniha njenamakana',
 	'coll-notfound_text' => 'Strona knihi njebu namakana.',
 	'coll-download_notfound_title' => 'Dataja njenamakana',
@@ -8415,6 +8430,8 @@ Lisćina aktualizuje so, hdyžkuli kliknješ na tłóčatko "přidać" abo "wots
 	'coll-suggest_empty' => 'prózdny',
 	'coll-setting-papersize' => 'Papjerowy format:',
 	'coll-setting-papersize-letter' => 'Letter',
+	'coll-setting-showtoc' => 'Zapis wobsaha zapřijeć',
+	'coll-setting-columns' => 'Špalty:',
 );
 
 /** Haitian (Kreyòl ayisyen)
@@ -11459,6 +11476,7 @@ D'Lëscht gëtt all kéier aktuliséiert wann dir op d'Knäppecher derbäisetzen
 	'coll-suggest_empty' => 'eidel',
 	'coll-setting-papersize' => 'Pabeiergréisst:',
 	'coll-setting-papersize-letter' => 'Letter',
+	'coll-setting-showtoc' => 'En Inhaltsverzeechnes drasetzen',
 	'coll-setting-columns' => 'Kolonnen:',
 );
 
