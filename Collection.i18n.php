@@ -5653,6 +5653,8 @@ La lista se actualiza cada vez que haces click en los botones de agregar o quita
 	'coll-suggest_empty' => 'vacío',
 	'coll-setting-papersize' => 'Tamaño del papel:',
 	'coll-setting-papersize-letter' => 'Carta',
+	'coll-setting-showtoc' => 'Incluir una tabla de contenido',
+	'coll-setting-columns' => 'Columnas:',
 );
 
 /** Estonian (eesti)
@@ -13568,6 +13570,14 @@ $messages['nah'] = array(
 	'coll-cancel' => 'Ticcuepāz',
 	'coll-update' => 'Tiquiyancuīyāz',
 	'coll-bookscategory' => 'Àmoxtin',
+);
+
+/** Neapolitan (Napulitano)
+ * @author Chelin
+ */
+$messages['nap'] = array(
+	'coll-setting-showtoc' => "Nclude l'énnece",
+	'coll-setting-columns' => 'Culonne:',
 );
 
 /** Norwegian Bokmål (norsk bokmål)
