@@ -16016,8 +16016,6 @@ Sta pàgene non ge fatìe correttamende, senze ca JavaScript ste abbilitate.</st
 	'coll-rename_chapter' => "Mitte 'u nome nuève pu capitele",
 	'coll-no_such_category' => 'Nisciuna categorije',
 	'coll-notitle_title' => "'U titele d'a pàgene non ge pòte essere determinte.",
-	'coll-post_failed_title' => 'Richieste de POST fallite',
-	'coll-post_failed_msg' => "'A richieste de POST a $1 ha fallite ($2).",
 	'coll-mwserve_failed_title' => 'Server de rendere in errore',
 	'coll-mwserve_failed_msg' => "S'ha verificate 'n'errore sus a 'u server de presendazione: <nowiki>$1</nowiki>",
 	'coll-error_reponse' => "Resposte cu l'errore da 'u server",
@@ -16144,6 +16142,7 @@ L'elenghe jè aggiornate ognevvote ca tu cazze sus a le buttone pe aggiungere o 
 	'coll-make_suggestions' => 'Pàggene suggerite',
 	'coll-make_suggestions_tooltip' => "Fà vedè le suggereminde ca se basane sus a le pàggene d'u libbre tune",
 	'coll-suggest_empty' => 'vacande',
+	'coll-setting-columns' => 'Culonne:',
 );
 
 /** Faeag Rotuma (Faeag Rotuma)
