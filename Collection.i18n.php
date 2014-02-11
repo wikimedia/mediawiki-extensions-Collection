@@ -14835,8 +14835,6 @@ Strona nie będzie działać poprawnie, dopóki JavaScript nie zostanie włączo
 	'coll-rename_chapter' => 'Wprowadź nową nazwę dla rozdziału',
 	'coll-no_such_category' => 'Brak takiej kategorii',
 	'coll-notitle_title' => 'Tytuł strony nie może być określony.',
-	'coll-post_failed_title' => 'Nieudane żądanie POST',
-	'coll-post_failed_msg' => 'Żądanie POST do $1 nie powiodło się ($2).',
 	'coll-mwserve_failed_title' => 'Błąd serwera w renderowaniu',
 	'coll-mwserve_failed_msg' => 'W serwerze renderującym wystąpił błąd <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Błąd odpowiedzi serwera',
@@ -14962,6 +14960,7 @@ Lista jest aktualizowana, gdy klikniesz na przyciski dodaj lub usuń.',
 	'coll-make_suggestions' => 'Proponowane strony',
 	'coll-make_suggestions_tooltip' => 'Pokaż propozycje na podstawie już dodanych stron',
 	'coll-suggest_empty' => 'puste',
+	'coll-setting-columns' => 'Kolumny:',
 );
 
 /** Piedmontese (Piemontèis)
