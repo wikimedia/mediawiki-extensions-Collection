@@ -13935,6 +13935,7 @@ $messages['niu'] = array(
  * @author Breghtje
  * @author Erwin
  * @author GerardM
+ * @author Kippenvlees1
  * @author McDutchie
  * @author Mwpnl
  * @author Romaine
@@ -14125,6 +14126,7 @@ De lijst wordt bijgewerkt als u op de knop 'toevoegen' of 'verwijderen' klikt.",
 	'coll-suggest_empty' => 'leegmaken',
 	'coll-setting-papersize' => 'Papierformaat:',
 	'coll-setting-papersize-letter' => 'Letter',
+	'coll-setting-columns' => 'Kolommen:',
 );
 
 /** Nederlands (informeel)‎ (Nederlands (informeel)‎)
