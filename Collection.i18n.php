@@ -11045,6 +11045,8 @@ N!<p><span id="renderingStatus">$1</span></p>',
 	'coll-suggest_empty' => '비었음',
 	'coll-setting-papersize' => '용지 크기:',
 	'coll-setting-papersize-letter' => '레터',
+	'coll-setting-showtoc' => '목차 포함',
+	'coll-setting-columns' => '열 수:',
 );
 
 /** Karachay-Balkar (къарачай-малкъар)
@@ -18282,6 +18284,8 @@ Listan uppdateras när du klickar på lägg till- eller ta bort-knappar.',
 	'coll-make_suggestions_tooltip' => 'Visa förslag baserade på sidorna i din bok',
 	'coll-suggest_empty' => 'tom',
 	'coll-setting-papersize' => 'Pappersstorlek:',
+	'coll-setting-showtoc' => 'Inkludera en innehållsförteckning',
+	'coll-setting-columns' => 'Kolumner:',
 );
 
 /** Swahili (Kiswahili)
