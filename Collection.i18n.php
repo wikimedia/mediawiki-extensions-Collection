@@ -14885,6 +14885,7 @@ Uwaga:
 * Nie jesteś zadowolony z wygenerowanego dokumentu? Zajrzyj na [[{{MediaWiki:Coll-helppage}}|stronę pomocy dotyczącą kolekcji]], aby dowiedzieć się jakie są możliwości poprawy dokumentu.',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Tekst informacyjny przetwarzania strony',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Tekst informacyjny przetwarzania kolekcji',
+	'coll-rendering_failed_status' => '<strong>Status:</strong> $1',
 	'coll-notfound_title' => 'Książki nie odnaleziono',
 	'coll-notfound_text' => 'Nie udało się odnaleźć strony z ksiązki.',
 	'coll-download_notfound_title' => 'Nie odnaleziono pliku',
@@ -14964,6 +14965,7 @@ Lista jest aktualizowana, gdy klikniesz na przyciski dodaj lub usuń.',
 	'coll-make_suggestions' => 'Proponowane strony',
 	'coll-make_suggestions_tooltip' => 'Pokaż propozycje na podstawie już dodanych stron',
 	'coll-suggest_empty' => 'puste',
+	'coll-setting-papersize' => 'Rozmiar papieru:',
 	'coll-setting-columns' => 'Kolumny:',
 );
 
