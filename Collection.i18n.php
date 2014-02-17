@@ -3808,6 +3808,8 @@ $messages['ce'] = array(
 	'coll-suggest_undo' => 'цаоьшу',
 	'right-collectionsaveasuserpage' => 'декъашхойн агӀонаш сана Ӏалашдар жайнаш',
 	'right-collectionsaveascommunitypage' => 'юкъараллин агӀонаш сана Ӏалашдар жайнаш',
+	'coll-print_export' => 'Зорба/экспорт',
+	'coll-create_a_book' => 'Кхолла жайна',
 	'coll-add_category' => 'Хьан жайнан тӀетоха хӀара категори',
 	'coll-bookscategory' => 'Жайнаш',
 	'coll-help' => 'ГӀо',
@@ -18519,6 +18521,7 @@ JavaScript இயக்கப்பட்டால் ஒழிய இப்ப�
  * @author Arjunaraoc
  * @author Chaduvari
  * @author Kiranmayee
+ * @author Ravichandra
  * @author Veeven
  * @author వైజాసత్య
  */
@@ -18688,6 +18691,8 @@ $messages['te'] = array(
 	'coll-make_suggestions' => 'పేజీలను సూచించు',
 	'coll-make_suggestions_tooltip' => 'మీ పుస్తకంలోని పేజీల ఆధారంగా సూచనలని చూపిస్తుంది',
 	'coll-suggest_empty' => 'ఖాళీ',
+	'coll-setting-papersize' => 'కాగితపు పరిమాణం',
+	'coll-setting-columns' => 'నిలువువరుసలు:',
 );
 
 /** Tetum (tetun)
@@ -21214,6 +21219,7 @@ $messages['zh-hans'] = array(
 	'coll-suggest_empty' => '空',
 	'coll-setting-papersize' => '纸张尺寸：',
 	'coll-setting-papersize-letter' => '信',
+	'coll-setting-columns' => '列数：',
 );
 
 /** Traditional Chinese (中文（繁體）‎)
