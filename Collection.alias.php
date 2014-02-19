@@ -329,6 +329,11 @@ $specialPageAliases['pt-br'] = array(
 	'Book' => array( 'Coleção', 'Colecção' ),
 );
 
+/** Quechua (Runa Simi) */
+$specialPageAliases['qu'] = array(
+	'Book' => array( 'Liwru', 'Qillqamaytu' ),
+);
+
 /** Romanian (română) */
 $specialPageAliases['ro'] = array(
 	'Book' => array( 'Carte', 'Colecție' ),

@@ -3419,6 +3419,7 @@ Hizivaet e vez ar roll bep tro ma klikit war ar bouton ouzhpennañ pe tennañ.",
 	'coll-suggest_empty' => 'goullo',
 	'coll-setting-papersize' => 'Ment ar paper :',
 	'coll-setting-papersize-letter' => 'Lizher',
+	'coll-setting-columns' => 'Bannoù :',
 );
 
 /** Bosnian (bosanski)
@@ -3810,6 +3811,7 @@ $messages['ce'] = array(
 	'right-collectionsaveascommunitypage' => 'юкъараллин агӀонаш сана Ӏалашдар жайнаш',
 	'coll-print_export' => 'Зорба/экспорт',
 	'coll-create_a_book' => 'Кхолла жайна',
+	'coll-download_as' => 'Чуяккха $1 сана',
 	'coll-add_category' => 'Хьан жайнан тӀетоха хӀара категори',
 	'coll-bookscategory' => 'Жайнаш',
 	'coll-help' => 'ГӀо',
@@ -5876,7 +5878,7 @@ Orrialde honek ez du egoki funtzionatuko JavaScript pizten ez den bitartean.</st
 	'coll-new_chapter' => 'Atal berriarentzat izena sartu',
 	'coll-rename_chapter' => 'Atalarentzat izen berria sartu',
 	'coll-no_such_category' => 'Ez dago horrelako atalik',
-	'coll-notitle_title' => 'Orrialdearen izenburua ezin izan da determinatu.',
+	'coll-notitle_title' => 'Orriaren izenburua ezin izan da zehaztu.',
 	'coll-mwserve_failed_title' => 'Render zerbitzariaren akatsa',
 	'coll-mwserve_failed_msg' => 'Akats bat suertatu da render zerbitzarian: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Zerbitzariaren erantzun akatsa',
@@ -13122,6 +13124,8 @@ Notes:
 	'coll-suggest_empty' => 'रिकामे',
 	'coll-setting-papersize' => 'पानाचा आकार',
 	'coll-setting-papersize-letter' => 'पत्र',
+	'coll-setting-showtoc' => 'आशय-सारणीचा अंतर्भाव करा',
+	'coll-setting-columns' => 'स्तम्भ:',
 );
 
 /** Malay (Bahasa Melayu)
