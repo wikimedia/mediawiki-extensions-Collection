@@ -16921,6 +16921,14 @@ $messages['scn'] = array(
 	'coll-suggest_empty' => 'vacanti',
 );
 
+/** Scots (Scots)
+ * @author John Reid
+ */
+$messages['sco'] = array(
+	'coll-setting-showtoc' => 'Inclaed ae table o contents',
+	'coll-setting-columns' => 'Columns:',
+);
+
 /** Serbo-Croatian (srpskohrvatski / српскохрватски)
  * @author OC Ripper
  * @author Wikiwind
