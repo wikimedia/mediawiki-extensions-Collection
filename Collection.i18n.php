@@ -13949,6 +13949,7 @@ $messages['niu'] = array(
  * @author Romaine
  * @author SPQRobin
  * @author Siebrand
+ * @author Sjoerddebruin
  * @author Tvdm
  */
 $messages['nl'] = array(
@@ -14134,6 +14135,7 @@ De lijst wordt bijgewerkt als u op de knop 'toevoegen' of 'verwijderen' klikt.",
 	'coll-suggest_empty' => 'leegmaken',
 	'coll-setting-papersize' => 'Papierformaat:',
 	'coll-setting-papersize-letter' => 'Letter',
+	'coll-setting-showtoc' => 'Een inhoudsopgave weergeven',
 	'coll-setting-columns' => 'Kolommen:',
 );
 
@@ -14790,6 +14792,7 @@ $messages['pfl'] = array(
 
 /** Polish (polski)
  * @author Chrumps
+ * @author Dalis
  * @author Derbeth
  * @author Jwitos
  * @author Leinad
@@ -14972,6 +14975,7 @@ Lista jest aktualizowana, gdy klikniesz na przyciski dodaj lub usuń.',
 	'coll-make_suggestions_tooltip' => 'Pokaż propozycje na podstawie już dodanych stron',
 	'coll-suggest_empty' => 'puste',
 	'coll-setting-papersize' => 'Rozmiar papieru:',
+	'coll-setting-showtoc' => 'Włącz spis treści',
 	'coll-setting-columns' => 'Kolumny:',
 );
 
