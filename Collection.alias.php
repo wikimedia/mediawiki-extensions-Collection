@@ -251,7 +251,7 @@ $specialPageAliases['lad'] = array(
 
 /** Luxembourgish (Lëtzebuergesch) */
 $specialPageAliases['lb'] = array(
-	'Book' => array( 'Sammlung' ),
+	'Book' => array( 'Buch', 'Sammlung' ),
 );
 
 /** Macedonian (македонски) */
