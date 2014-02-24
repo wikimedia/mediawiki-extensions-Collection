@@ -1605,7 +1605,7 @@ $messages['as'] = array(
 	'coll-community_collection_label' => 'সমজুৱা গ্ৰন্থ:',
 	'coll-save_collection' => 'গ্ৰন্থ সাঁচক',
 	'coll-save_category' => 'সকলো সাঁচি থোৱা গ্ৰন্থ [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]] শ্ৰেণীত সংৰক্ষণ কৰা হয়।',
-	'coll-overwrite_title' => "পৃষ্ঠাখন আছেই।
+	'coll-overwrite_title' => "পৃষ্ঠাটো আছেই।
 অ'ভাৰৰাইট কৰিব?",
 	'coll-overwrite_text' => '[[:$1]] নামৰ এটা পৃষ্ঠা ইতিমধ্যে আছেই।
 আপুনি সেইখন আপোনাৰ গ্ৰন্থৰ লগত সলাব বিচাৰিছে নেকি?',
@@ -1625,7 +1625,7 @@ $messages['as'] = array(
 
 <p><strong>Progress:</strong> <span id="অগ্ৰগতি">$1</span>% <span id="renderingStatus">$2</span></p>
 
-<p>এই পৃষ্ঠাখন কেইছেকেণ্ডমানৰ মূৰে মূৰে স্বয়ংক্ৰিয়ভাৱে সতেজ হ\'ব।
+<p>এই পৃষ্ঠাটো কেইছেকেণ্ডমানৰ মূৰে মূৰে স্বয়ংক্ৰিয়ভাৱে ৰিল\'ড হ\'ব।
 এনেকুৱা নহ\'লে অনুগ্ৰহ কৰি আপোনাৰ ব্ৰাউজাৰৰ ৰিফ্ৰেছ বুটামটো ক্লিক কৰক।</p>',
 	'coll-rendering_status' => '<strong>Status:</অৱস্থা> $1',
 	'coll-rendering_article' => '(ৱিকি পৃষ্ঠা: $1)',
@@ -1671,10 +1671,10 @@ $messages['as'] = array(
 	'coll-suggest_ban_selected' => 'নিৰ্বাচিত পৃষ্ঠাসমূহ আঁতৰাওক',
 	'coll-suggest_your_book' => 'আপোনাৰ কিতাপ',
 	'coll-suggest_show' => 'দেখুৱাওক',
-	'coll-suggest_ban_tooltip' => 'পৰামৰ্শৰ তালিকাৰ পৰা এই পৃষ্ঠাখন আঁতৰাওক',
-	'coll-suggest_article_ban' => '<strong>$1</strong> পৃষ্ঠাখন পৰামৰ্শ তালিকাৰ পৰা আঁতৰোৱা হৈছে ($2)।',
-	'coll-suggest_article_add' => '<strong>$1</strong> পৃষ্ঠাখন আপোনাৰ গ্ৰন্থত যোগ কৰা হৈছে ($2)।',
-	'coll-suggest_article_remove' => '<strong>$1</strong> পৃষ্ঠাখন আপোনাৰ গ্ৰন্থৰ পৰা আঁতৰোৱা হৈছে ($2)।',
+	'coll-suggest_ban_tooltip' => 'পৰামৰ্শৰ তালিকাৰ পৰা এই পৃষ্ঠাটো আঁতৰাওক',
+	'coll-suggest_article_ban' => '<strong>$1</strong> পৃষ্ঠাটো পৰামৰ্শ তালিকাৰ পৰা আঁতৰোৱা হৈছে ($2)।',
+	'coll-suggest_article_add' => '<strong>$1</strong> পৃষ্ঠাটো আপোনাৰ গ্ৰন্থত যোগ কৰা হৈছে ($2)।',
+	'coll-suggest_article_remove' => '<strong>$1</strong> পৃষ্ঠাটো আপোনাৰ গ্ৰন্থৰ পৰা আঁতৰোৱা হৈছে ($2)।',
 	'coll-suggest_undo_tooltip' => 'এই কামটো নোহোৱা কৰক',
 	'coll-suggest_undo' => 'পূৰ্ববত কৰক',
 	'coll-load_local_book' => '%NUMPAGES% টা ৱিকি পৃষ্ঠা থকা আপোনাৰ %TITLE% গ্ৰন্থৰ বাবে OK ক্লিক কৰক। এইখন বিলোপ কৰি নতুন এখন আৰম্ভ কৰিবলৈ Cancel ক্লিক কৰক।',
@@ -1712,11 +1712,11 @@ $messages['as'] = array(
 	'coll-load_collection_tooltip' => "এই গ্ৰন্থখন আপোনাৰ সাম্প্ৰতিক গ্ৰন্থ হিচাপে ল'ড কৰক",
 	'coll-n_pages' => '$1 {{PLURAL:$1|টা পৃষ্ঠা}}',
 	'coll-printable_version_pdf' => 'পিডিএফ সংস্কৰণ',
-	'coll-remove_this_page' => 'আপোনাৰ গ্ৰন্থৰ পৰা এই পৃষ্ঠাখন আঁতৰাওক',
+	'coll-remove_this_page' => 'আপোনাৰ গ্ৰন্থৰ পৰা এই পৃষ্ঠাটো আঁতৰাওক',
 	'coll-remove_page_tooltip' => 'আপোনাৰ গ্ৰন্থৰ পৰা এই সাম্প্ৰতিক ৱিকি পৃষ্ঠা আঁতৰাওক',
 	'coll-show_collection' => 'গ্ৰন্থ দেখুৱাওক',
 	'coll-show_collection_tooltip' => "আপোনাৰ গ্ৰন্থ সম্পাদনা/ডাউনল'ড/অৰ্ডাৰৰ বাবে ক্লিক কৰক",
-	'coll-not_addable' => 'এই পৃষ্ঠাখন যোগ কৰিব নোৱাৰি',
+	'coll-not_addable' => 'এই পৃষ্ঠাটো যোগ কৰিব নোৱাৰি',
 	'coll-make_suggestions' => 'পৰামৰ্শ পৃষ্ঠা',
 	'coll-make_suggestions_tooltip' => 'আপোনাৰ গ্ৰন্থৰ পৃষ্ঠাসমূহক ভিত্তি কৰি পৰামৰ্শ দেখুৱাওক',
 	'coll-suggest_empty' => 'খালি',
