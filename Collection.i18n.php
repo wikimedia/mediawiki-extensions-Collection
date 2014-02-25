@@ -3817,6 +3817,8 @@ $messages['ce'] = array(
 	'coll-help' => 'ГӀо',
 	'coll-setting-papersize' => 'Кехатан баран:',
 	'coll-setting-papersize-letter' => 'Хаам',
+	'coll-setting-showtoc' => 'Юкъатоха чулацам',
+	'coll-setting-columns' => 'БӀогӀамаш:',
 );
 
 /** Sorani Kurdish (کوردی)
@@ -7694,6 +7696,7 @@ $messages['haw'] = array(
  * @author Rotem Liss
  * @author Rotemliss
  * @author YaronSh
+ * @author Yona b
  * @author ערן
  * @author תומר ט
  */
@@ -7790,6 +7793,13 @@ $messages['he'] = array(
 * אינכם מרוצים מהפלט? ב[[{{MediaWiki:Coll-helppage}}|דף העזרה על ספרים]] תוכלו למצוא אפשרויות לשיפורו.',
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/הכנת טקסט של מידע על הדף',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/הכנסת טקסט של מידע על הדף',
+	'coll-rendering_failed_title' => 'היצירה נכשלה',
+	'coll-rendering_failed_text' => '<strong>יצירת קובץ המסמכים נכשל.</strong>
+
+<p><span id="renderingStatus">$1</span></p>',
+	'coll-rendering_failed_status' => '<strong>מצב:</strong> $1',
+	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/הכנת טקסט למידע על הדף',
+	'coll-failed_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/הכנת טקסט למידע על האוסף',
 	'coll-notfound_title' => 'הספר לא נמצא',
 	'coll-notfound_text' => 'לא ניתן למצוא את דף הספר.',
 	'coll-download_notfound_title' => 'הקובץ לא נמצא',
@@ -7869,6 +7879,8 @@ $messages['he'] = array(
 	'coll-make_suggestions_tooltip' => 'הצגת הצעות המבוססות על הדפים הנמצאים בספר',
 	'coll-suggest_empty' => 'ריק',
 	'coll-setting-papersize' => 'גודל נייר:',
+	'coll-setting-showtoc' => 'לכלול תוכן עניינים',
+	'coll-setting-columns' => 'עמודות:',
 );
 
 /** Hindi (हिन्दी)
