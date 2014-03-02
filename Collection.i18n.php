@@ -2958,8 +2958,6 @@ $messages['bg'] = array(
 	'coll-rename_chapter' => 'Въведете ново име за главата',
 	'coll-no_such_category' => 'Няма такава категория',
 	'coll-notitle_title' => 'Заглавието на страницата не може да бъде определено.',
-	'coll-post_failed_title' => 'Грешка при заявката POST',
-	'coll-post_failed_msg' => 'Грешка при заявката POST до $1 ($2).',
 	'coll-mwserve_failed_msg' => 'Възникна грешка на сървъра: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Съобщение за грешка от сървъра',
 	'coll-empty_collection' => 'Празна книга',
@@ -2991,6 +2989,7 @@ $messages['bg'] = array(
 	'coll-rendering_status' => '<strong>Статут:</strong> $1',
 	'coll-rendering_article' => '(уики-страница: $1)',
 	'coll-rendering_page' => '(страница: $1)',
+	'coll-rendering_failed_status' => '<strong>Статут:</strong> $1',
 	'coll-notfound_title' => 'Книгата не е открита',
 	'coll-notfound_text' => 'Страницата от книга не е открита.',
 	'coll-download_notfound_title' => 'Файлът не беше намерен',
@@ -7982,6 +7981,10 @@ $messages['hi'] = array(
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/पृष्ठ जानकारी पाठ रेंडर हो रहा है',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/कलेक्शन जानकारी पाठ रेंडर हो रहा है',
 	'coll-rendering_failed_title' => 'रेंडर करना विफल रहा',
+	'coll-rendering_failed_text' => '<strong>दस्तावेज़ फ़ाइल का निर्माण विफल रहा।</strong>
+
+<p><span id="renderingStatus">$1</span></p>',
+	'coll-rendering_failed_status' => '<strong>स्थिति:</strong> $1',
 	'coll-notfound_title' => 'पुस्तक नहीं मिली',
 	'coll-notfound_text' => 'पुस्तक पृष्ठ नहीं मिला।',
 	'coll-download_notfound_title' => 'फ़ाइल नहीं मिली',
@@ -8018,6 +8021,7 @@ $messages['hi'] = array(
 	'coll-suggest_article_remove' => '<strong>$1</strong> पृष्ठ आपकी पुस्तक से हटा दिया गया है ($2)।',
 	'coll-suggest_undo_tooltip' => 'इस क्रिया को पूर्ववत् करें',
 	'coll-suggest_undo' => 'पूर्ववत करें',
+	'coll-load_local_book' => '%TITLE% नाम की %NUMPAGES% विकि पृष्ठों वाली अपनी पुस्तक को जारी रखने के लिये OK पर क्लिक करें। उसे हटाकर नयी पुस्तक के साथ शुरुआत करने के लिये Cancel पर क्लिक करें।',
 	'coll-format-rl' => 'ई-बुक (PDF)',
 	'coll-format-epub' => 'ई-बुक (EPUB)',
 	'coll-format-odf' => 'वर्ड प्रोसेसर (ओपन डॉक्यूमेंट)',
@@ -8060,6 +8064,10 @@ $messages['hi'] = array(
 	'coll-make_suggestions' => 'पृष्ठ सुझाव दिखाएँ',
 	'coll-make_suggestions_tooltip' => 'आपकी पुस्तक के पृष्ठों के अनुसार सुझाव दिखाएँ',
 	'coll-suggest_empty' => 'खाली',
+	'coll-setting-papersize' => 'पृष्ठ आकार:',
+	'coll-setting-papersize-letter' => 'लेटर',
+	'coll-setting-showtoc' => 'विषय सूची शामिल करें',
+	'coll-setting-columns' => 'कॉलम:',
 );
 
 /** Fiji Hindi (Latin script) (Fiji Hindi)
@@ -11078,8 +11086,8 @@ $messages['krc'] = array(
  */
 $messages['kri'] = array(
 	'coll-collection' => 'Buk',
-	'coll-collections' => 'Buk-dèm',
-	'coll-create_a_book' => 'Mek buk',
+	'coll-collections' => 'Bukdèm',
+	'coll-create_a_book' => 'kreat buk',
 	'coll-setting-showtoc' => 'Inklud kòntenttebul',
 );
 
@@ -18720,7 +18728,7 @@ $messages['te'] = array(
 	'coll-make_suggestions' => 'పేజీలను సూచించు',
 	'coll-make_suggestions_tooltip' => 'మీ పుస్తకంలోని పేజీల ఆధారంగా సూచనలని చూపిస్తుంది',
 	'coll-suggest_empty' => 'ఖాళీ',
-	'coll-setting-papersize' => 'కాగితపు పరిమాణం',
+	'coll-setting-papersize' => 'కాగితపు సైజు:',
 	'coll-setting-columns' => 'నిలువువరుసలు:',
 );
 
