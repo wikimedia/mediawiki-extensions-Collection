@@ -5479,6 +5479,7 @@ La listo estas ĝisdatigita iam ajn vi klakas la butonojn aldoni aŭ forigi.',
  * @author Platonides
  * @author Remember the dot
  * @author Sanbec
+ * @author Sporeunai
  * @author Translationista
  */
 $messages['es'] = array(
@@ -5575,7 +5576,12 @@ Notas:
 	'coll-finished_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/Texto informativo de la página de renderización',
 	'coll-finished_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Texto informativo de la colección de renderización',
 	'coll-rendering_failed_title' => 'Falló la renderización',
+	'coll-rendering_failed_text' => '<strong>Generación del archivo del documento ha fracasado.</strong>
+
+<p><span id="renderingStatus">$1</span></p>',
 	'coll-rendering_failed_status' => '<strong>Estado:</strong> $1',
+	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/ Procesando texto de información de la página',
+	'coll-failed_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/Texto informativo de la colección de renderización',
 	'coll-notfound_title' => 'No se encuentra el libro',
 	'coll-notfound_text' => 'No se encuentra la página de libro.',
 	'coll-download_notfound_title' => 'Archivo no encontrado',
@@ -6072,7 +6078,7 @@ $messages['fa'] = array(
 	'coll-revision' => 'نسخه: $1',
 	'coll-save_collection_title' => 'کتابتان را ذخیره کنید و به اشتراک بگذارید',
 	'coll-save_collection_text' => 'انتخاب یک مکان:',
-	'coll-login_to_save' => 'اگر می‌خواهید کتاب‌ها را برای کاربران بعدی ذخیره کنید، لطفا [[Special:UserLogin|به سامانه وارد شوید یا یک حساب کاربری بسازید]].',
+	'coll-login_to_save' => 'اگر می‌خواهید کتاب‌ها را برای کاربران بعدی ذخیره کنید، لطفاً [[Special:UserLogin|به سامانه وارد شوید یا یک حساب کاربری بسازید]].',
 	'coll-personal_collection_label' => 'کتاب شخصی:',
 	'coll-community_collection_label' => 'کتاب عمومی:',
 	'coll-save_collection' => 'ذخیره کردن کتاب',
@@ -15276,6 +15282,7 @@ $messages['ps'] = array(
  * @author Luckas Blade
  * @author MF-Warburg
  * @author Malafaya
+ * @author SandroHc
  * @author Waldir
  * @author 555
  */
@@ -15407,6 +15414,8 @@ A lista é atualizada sempre que clica os botões de adicionar ou remover.',
 	'coll-suggest_undo_tooltip' => 'Desfazer esta ação',
 	'coll-suggest_undo' => 'desfazer',
 	'coll-load_local_book' => 'Clique OK para continuar com o seu livro %TITLE% que contém %NUMPAGES% páginas wiki. Clique Cancelar para apagá-lo e começar com um livro vazio.',
+	'coll-format-rl' => 'e-book (PDF)',
+	'coll-format-epub' => 'e-book (EPUB)',
 	'right-collectionsaveasuserpage' => 'Gravar livros como página de utilizador',
 	'right-collectionsaveascommunitypage' => 'Gravar livros como página comunitária',
 	'coll-print_export' => 'Imprimir/exportar',
@@ -15443,6 +15452,8 @@ A lista é atualizada sempre que clica os botões de adicionar ou remover.',
 	'coll-make_suggestions' => 'Sugerir páginas',
 	'coll-make_suggestions_tooltip' => 'Mostrar sugestões com base nas páginas do livro',
 	'coll-suggest_empty' => 'vazio',
+	'coll-setting-papersize' => 'Dimensão do papel:',
+	'coll-setting-papersize-letter' => 'Carta',
 	'coll-setting-columns' => 'Colunas:',
 );
 
@@ -17644,6 +17655,8 @@ Seznam je posodobljen, ko kliknete na gumbe za dodajanje ali odstranjevanje.',
 	'coll-suggest_empty' => 'prazno',
 	'coll-setting-papersize' => 'Velikost papirja:',
 	'coll-setting-papersize-letter' => 'Pismo',
+	'coll-setting-showtoc' => 'Vključi kazalo vsebine',
+	'coll-setting-columns' => 'Stolpcev:',
 );
 
 /** Albanian (shqip)
