@@ -7882,6 +7882,7 @@ $messages['he'] = array(
 	'coll-make_suggestions_tooltip' => 'הצגת הצעות המבוססות על הדפים הנמצאים בספר',
 	'coll-suggest_empty' => 'ריק',
 	'coll-setting-papersize' => 'גודל נייר:',
+	'coll-setting-papersize-letter' => 'מכתב',
 	'coll-setting-showtoc' => 'לכלול תוכן עניינים',
 	'coll-setting-columns' => 'עמודות:',
 );
