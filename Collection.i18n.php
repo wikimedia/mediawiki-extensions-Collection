@@ -17723,8 +17723,6 @@ $messages['sr-ec'] = array(
 	'coll-rename_chapter' => 'Унесите нови назив поглавља:',
 	'coll-no_such_category' => 'Нема такве категорије',
 	'coll-notitle_title' => 'Наслов ове странице није одређен.',
-	'coll-post_failed_title' => 'Захтев POST није успео',
-	'coll-post_failed_msg' => 'Захтев POST за $1 није успео ($2).',
 	'coll-mwserve_failed_title' => 'Грешка при израђивању',
 	'coll-mwserve_failed_msg' => 'Дошло је до грешке при израђивању: <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Сервер је одговорио грешком',
@@ -17852,6 +17850,7 @@ $messages['sr-ec'] = array(
 	'coll-make_suggestions' => 'Предложи странице',
 	'coll-make_suggestions_tooltip' => 'Прикажи предлоге засноване на страницама из ваше књиге',
 	'coll-suggest_empty' => 'празно',
+	'coll-setting-columns' => 'Колоне:',
 );
 
 /** Serbian (Latin script) (srpski (latinica)‎)
