@@ -7684,12 +7684,13 @@ $messages['ha'] = array(
 );
 
 /** Hawaiian (Hawai`i)
+ * @author Kolonahe
  * @author Singularity
  */
 $messages['haw'] = array(
-	'coll-remove' => 'Kāpae',
-	'coll-contents' => 'Papa kuhikuhi',
-	'coll-about_pp' => 'E pili ana iā $1',
+	'coll-remove' => 'Wehe',
+	'coll-contents' => 'Nā Mealoko',
+	'coll-about_pp' => 'No $1',
 );
 
 /** Hebrew (עברית)
@@ -18740,6 +18741,8 @@ $messages['te'] = array(
 	'coll-make_suggestions_tooltip' => 'మీ పుస్తకంలోని పేజీల ఆధారంగా సూచనలని చూపిస్తుంది',
 	'coll-suggest_empty' => 'ఖాళీ',
 	'coll-setting-papersize' => 'కాగితపు సైజు:',
+	'coll-setting-papersize-letter' => 'లేఖ',
+	'coll-setting-showtoc' => 'విషయ సూచికను చేర్చు',
 	'coll-setting-columns' => 'నిలువువరుసలు:',
 );
 
