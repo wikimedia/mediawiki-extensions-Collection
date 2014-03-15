@@ -19653,6 +19653,7 @@ $messages['tt'] = array(
 );
 
 /** Tatar (Cyrillic script) (татарча)
+ * @author Ilnur efende
  * @author Timming
  * @author Ильнар
  */
@@ -19673,7 +19674,7 @@ $messages['tt-cyrl'] = array(
 	'coll-download_text' => 'Үзегезнең китапны йөкләү өчен китаның форматын сайлап, төймәгә басыгыз.',
 	'coll-download_as_text' => 'Үзегезнең китапны $1 форматында йөкләү  төймәгә басыгыз.',
 	'coll-download' => 'Йөкләргә',
-	'coll-show' => 'Күрсәтергә',
+	'coll-show' => 'күрсәт',
 	'coll-title' => 'Башлам:',
 	'coll-subtitle' => 'Аскы башлам:',
 	'coll-contents' => 'Эчтәлек',
