@@ -16961,7 +16961,7 @@ $messages['scn'] = array(
  * @author John Reid
  */
 $messages['sco'] = array(
-	'coll-setting-showtoc' => 'Inclaed ae table o contents',
+	'coll-setting-showtoc' => 'Incluid ae buird o contents',
 	'coll-setting-columns' => 'Columns:',
 );
 
@@ -17970,7 +17970,7 @@ Napomena:
 	'coll-invalid_podpartner_msg' => 'Odabrani partner za štampanje na zahtev je neispravan.
 Molim kontaktirajte svog MedijaViki administratora.',
 	'coll-license' => 'Licenca',
-	'coll-return_to' => 'Vrati na [[:$1]]',
+	'coll-return_to' => 'Nazad na [[:$1]]',
 	'coll-order_info_article' => '{{MediaWiki:Coll-helppage}}/podaci o naručivanju na Pedijapresu',
 	'coll-suggest_title' => 'Strane predložene za vašu knjigu',
 	'coll-suggest_intro_text' => 'Predlozi su zasnovani na tekućem skupu stranica u vašoj knjizi.
