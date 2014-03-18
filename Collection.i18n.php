@@ -21281,6 +21281,7 @@ $messages['zh-hans'] = array(
  * @author EagerLin
  * @author FireJackey
  * @author Liangent
+ * @author Liuxinyu970226
  * @author Mark85296341
  * @author Oapbtommy
  * @author Skjackey tse
@@ -21333,6 +21334,8 @@ $messages['zh-hant'] = array(
 	'coll-rename_chapter' => '輸入章節的新名稱',
 	'coll-no_such_category' => '無分類',
 	'coll-notitle_title' => '無法確定此頁面的標題',
+	'coll-request_failed_title' => '書本呈現失敗',
+	'coll-request_failed_msg' => '嘗試呈現閣下書籍時出錯。',
 	'coll-mwserve_failed_title' => '呈現伺服器錯誤',
 	'coll-mwserve_failed_msg' => '服务器渲染错误：<nowiki>$1</nowiki>',
 	'coll-error_reponse' => '伺服器回傳的錯誤',
@@ -21385,6 +21388,8 @@ $messages['zh-hant'] = array(
 
 <p><span id="renderingStatus">$1</span></p>',
 	'coll-rendering_failed_status' => '<strong>狀態：</strong>$1',
+	'coll-failed_page_info_text_article' => '{{MediaWiki:Coll-helppage}}/渲染頁面資訊文本',
+	'coll-failed_collection_info_text_article' => '{{MediaWiki:Coll-helppage}}/渲染收集資訊文本',
 	'coll-notfound_title' => '找不到圖書',
 	'coll-notfound_text' => '未找到。',
 	'coll-download_notfound_title' => '找不到檔案',
@@ -21463,4 +21468,6 @@ $messages['zh-hant'] = array(
 	'coll-suggest_empty' => '空',
 	'coll-setting-papersize' => '紙張大小：',
 	'coll-setting-papersize-letter' => '信',
+	'coll-setting-showtoc' => '包括內容表單',
+	'coll-setting-columns' => '列數：',
 );
