@@ -21271,7 +21271,7 @@ $messages['zh-hans'] = array(
 	'coll-suggest_empty' => '空',
 	'coll-setting-papersize' => '纸张尺寸：',
 	'coll-setting-papersize-letter' => '信',
-	'coll-setting-showtoc' => '包括内容表',
+	'coll-setting-showtoc' => '包含目录',
 	'coll-setting-columns' => '列数：',
 );
 
