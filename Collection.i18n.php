@@ -14440,8 +14440,7 @@ Aquesta pagina s'aficharà pas corrèctament tant que javascript serà pas activ
 	'coll-rename_chapter' => 'Entrar lo títol novèl pel capitol',
 	'coll-no_such_category' => 'Pas de tala categoria',
 	'coll-notitle_title' => 'Lo títol de la pagina pòt pas èsser determinat.',
-	'coll-post_failed_title' => 'Fracàs de la requèsta POST',
-	'coll-post_failed_msg' => 'La requèsta POST cap a $1 a pas capitat ($2).',
+	'coll-request_failed_title' => 'Fracàs al rendut del libre',
 	'coll-mwserve_failed_title' => 'Error del servidor del rendut',
 	'coll-mwserve_failed_msg' => 'Una error es intervenguda sul servidor balhant lo rendut : <nowiki>$1</nowiki>',
 	'coll-error_reponse' => 'Lo servidor a rencontrat una error',
@@ -14488,6 +14487,10 @@ Nòtas :
 * Pas satisfach(a) de la sortida ? Vejatz [[{{MediaWiki:Coll-helppage}}|la pagina d’ajuda que concernís las colleccions]] per las possibilitats de melhorament.',
 	'coll-finished_page_info_text_article' => "{{MediaWiki:Coll-helppage}}/Rendut del tèxte d'informacion de la pagina",
 	'coll-finished_collection_info_text_article' => "{{MediaWiki:Coll-helppage}}/Rendut del tèxte d'informacion de la colleccion",
+	'coll-rendering_failed_title' => 'Fracàs del rendut',
+	'coll-rendering_failed_status' => '<strong>Estatut :</strong> $1',
+	'coll-failed_page_info_text_article' => "{{MediaWiki:Coll-helppage}}/Tèxte d'informacion del rendut de las paginas",
+	'coll-failed_collection_info_text_article' => "{{MediaWiki:Coll-helppage}}/Tèxte d'informacion del rendut de las colleccions",
 	'coll-notfound_title' => 'Libre pas trobat',
 	'coll-notfound_text' => 'Pòt pas trobar lo libre.',
 	'coll-download_notfound_title' => 'Fichièr introbable',
@@ -14566,6 +14569,10 @@ La lista es mesa a jorn a cada còp que clicatz suls botons d'apondon o de supre
 	'coll-make_suggestions' => 'Suggerir de paginas',
 	'coll-make_suggestions_tooltip' => 'Far veire las suggestions fondadas sus las paginas dins vòstre libre',
 	'coll-suggest_empty' => 'void',
+	'coll-setting-papersize' => 'Talha del papièr :',
+	'coll-setting-papersize-letter' => 'Letra',
+	'coll-setting-showtoc' => 'Inclure un ensenhador',
+	'coll-setting-columns' => 'Colomnas :',
 );
 
 /** Oriya (ଓଡ଼ିଆ)
