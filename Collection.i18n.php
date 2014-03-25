@@ -3416,6 +3416,7 @@ Hizivaet e vez ar roll bep tro ma klikit war ar bouton ouzhpennañ pe tennañ.",
 	'coll-suggest_empty' => 'goullo',
 	'coll-setting-papersize' => 'Ment ar paper :',
 	'coll-setting-papersize-letter' => 'Lizher',
+	'coll-setting-showtoc' => 'Enklozañ un daolenn',
 	'coll-setting-columns' => 'Bannoù :',
 );
 
