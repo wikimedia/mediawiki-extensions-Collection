@@ -1,0 +1,10 @@
+{
+    "@metadata": {
+        "authors": [
+            "Olsi"
+        ]
+    },
+    "coll-print_export": "Printo/eksporto",
+    "coll-create_a_book": "Krijo një libër",
+    "coll-download_as": "Shkarkoje si $1"
+}

@@ -33,7 +33,7 @@ EOT;
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Collection',
-	'version' => '1.6.1',
+	'version' => '1.7.0',
 	'author' => array( 'PediaPress GmbH', 'Siebrand Mazeland', 'Marcin Cieślak'),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Collection',
 	'descriptionmsg' => 'coll-desc',
@@ -185,6 +185,7 @@ $wgAutoloadClasses['CollectionRenderingAPI'] = $dir . 'RenderingAPI.php';
 $wgAutoloadClasses['MWServeRenderingAPI'] = $dir . 'RenderingAPI.php';
 $wgAutoloadClasses['CollectionAPIResult'] = $dir . 'RenderingAPI.php';
 
+$wgMessagesDirs['Collection'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['Collection'] = $dir . 'Collection.i18n.php';
 $wgExtensionMessagesFiles['CollectionAlias'] = $dir . 'Collection.alias.php';
 

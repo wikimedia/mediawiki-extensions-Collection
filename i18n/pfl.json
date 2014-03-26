@@ -1,0 +1,19 @@
+{
+    "@metadata": {
+        "authors": [
+            "Manuae"
+        ]
+    },
+    "coll-collection": "Buch",
+    "coll-collections": "Bischa",
+    "coll-your_book": "Doi Buch",
+    "coll-show": "Zaische",
+    "coll-suggest_your_book": "Doi Buch",
+    "coll-suggest_show": "zaische",
+    "coll-disable": "abschdelle",
+    "coll-bookscategory": "Bischa",
+    "coll-clear_collection": "Buch lesche",
+    "coll-clear_collection_confirm": "Wilschd doi Buch wirglisch lesche?",
+    "coll-help": "Unaschdidzung",
+    "coll-helppage": "Help:Bischa"
+}
