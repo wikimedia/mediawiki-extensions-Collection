@@ -38,7 +38,7 @@
     "coll-cancel": "Atcelt",
     "coll-update": "Atjaunināt",
     "coll-limit_exceeded_title": "Grāmata ir pārāk liela",
-    "coll-rendering_status": "<strong>Statuss:</strong> $1",
+    "coll-rendering_status": "\u003Cstrong\u003EStatuss:\u003C/strong\u003E $1",
     "coll-rendering_page": "(lapa: $1)",
     "coll-notfound_title": "Grāmata nav atrasta",
     "coll-download_notfound_title": "Fails nav atrasts",

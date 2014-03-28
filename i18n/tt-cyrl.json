@@ -42,7 +42,7 @@
     "coll-yes": "Әйе",
     "coll-no": "Юк",
     "coll-cancel": "Кире кагу",
-    "coll-rendering_status": "<strong>Статусы:</strong> $1",
+    "coll-rendering_status": "\u003Cstrong\u003EСтатусы:\u003C/strong\u003E $1",
     "coll-book_title": "Басылма китап алу",
     "coll-book_text": "Безнең басылма китапны алу:",
     "coll-order_from_pp": "$1 ярдәмендә алдан карау",
