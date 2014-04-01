@@ -2,7 +2,8 @@
     "@metadata": {
         "authors": [
             "GaiJin",
-            "Kaztrans"
+            "Kaztrans",
+            "Arystanbek"
         ]
     },
     "coll-desc": "[[Special:Book|Кітаптар жасау]]",
@@ -36,7 +37,7 @@
     "coll-move_down": "Төмен жылжыту",
     "coll-move_to_bottom": "Төменге жылжыту",
     "coll-title": "Тақырыбы",
-    "coll-subtitle": "Тақырыбының астындағы жазу",
+    "coll-subtitle": "Тақырыпша",
     "coll-contents": "Мазмұны",
     "coll-drag_and_drop": "Беттер мен тараулардың ретін өзгерту үшін оларды тышқанның көмегімен жылжытыңыз",
     "coll-create_chapter": "Тарау жасау",
@@ -46,8 +47,6 @@
     "coll-rename_chapter": "Тарауға жаңа атау енгізіңіз",
     "coll-no_such_category": "Мұндай санат жоқ",
     "coll-notitle_title": "Беттiң тақырыбы анықталмады",
-    "coll-post_failed_title": "POST-сауал орындалмады",
-    "coll-post_failed_msg": "$1 сілтемесіне POST-сауал орындалмады ($2).",
     "coll-mwserve_failed_title": "Сурет салу серверінің қатесi",
     "coll-error_reponse": "Сервер жауабының қатесi",
     "coll-empty_collection": "Бос кітап",
