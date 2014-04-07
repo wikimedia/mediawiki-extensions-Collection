@@ -21,7 +21,8 @@
             "Remember the dot",
             "Sanbec",
             "Sporeunai",
-            "Translationista"
+            "Translationista",
+            "Vivaelcelta"
         ]
     },
     "coll-desc": "[[Special:Book|Crear libros]]",
@@ -139,7 +140,7 @@
     "coll-suggest_article_remove": "La página <strong>$1</strong> ha sido eliminada de tu libro ($2).",
     "coll-suggest_undo_tooltip": "Deshacer esta acción",
     "coll-suggest_undo": "deshacer",
-    "coll-load_local_book": "Haz click en OK para continuar con tu libro %TITLE% que contiene %NUMPAGES% página wiki. Haz click en Cancelar para borrarlo y comenzar con un libro vacío.",
+    "coll-load_local_book": "Haz clic en Aceptar para continuar con tu libro %TITLE% que contiene %NUMPAGES% páginas wiki. Haz clic en Cancelar para borrarlo y comenzar con un libro vacío.",
     "coll-format-rl": "e-book (PDF)",
     "coll-format-epub": "e-book (EPUB)",
     "coll-format-odf": "procesador de textos (OpenDocument)",
@@ -177,7 +178,7 @@
     "coll-remove_this_page": "Quitar esta página de tu libro",
     "coll-remove_page_tooltip": "Quitar la página wiki actual de tu libro",
     "coll-show_collection": "Mostrar libro",
-    "coll-show_collection_tooltip": "Haz click para editar/descargar/ordenar tu libro",
+    "coll-show_collection_tooltip": "Haz clic para editar/descargar/pedir tu libro",
     "coll-not_addable": "esta página no puede ser agregada",
     "coll-make_suggestions": "Sugerir páginas",
     "coll-make_suggestions_tooltip": "Mostrar sugerencias basadas en las páginas de su libro",
