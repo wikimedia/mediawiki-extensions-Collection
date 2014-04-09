@@ -159,6 +159,11 @@ $specialPageAliases['gu'] = array(
 	'Book' => array( 'પુસ્તક', 'સંગ્રહ' ),
 );
 
+/** Hawaiian (Hawai`i) */
+$specialPageAliases['haw'] = array(
+	'Book' => array( 'Puke', 'Waihona' ),
+);
+
 /** Hebrew (עברית) */
 $specialPageAliases['he'] = array(
 	'Book' => array( 'ספר', 'אוסף' ),
