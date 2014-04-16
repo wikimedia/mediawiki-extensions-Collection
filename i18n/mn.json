@@ -1,13 +1,13 @@
 {
-    "@metadata": {
-        "authors": [
-            "Chinneeb"
-        ]
-    },
-    "coll-show": "Үзүүлэх",
-    "coll-yes": "Тийм",
-    "coll-no": "Үгүй",
-    "coll-cancel": "Цуцлах",
-    "coll-suggest_show": "үзүүлэх",
-    "coll-n_pages": "$1 {{PLURAL:$1|хуудас}}"
+	"@metadata": {
+		"authors": [
+			"Chinneeb"
+		]
+	},
+	"coll-show": "Үзүүлэх",
+	"coll-yes": "Тийм",
+	"coll-no": "Үгүй",
+	"coll-cancel": "Цуцлах",
+	"coll-suggest_show": "үзүүлэх",
+	"coll-n_pages": "$1 {{PLURAL:$1|хуудас}}"
 }

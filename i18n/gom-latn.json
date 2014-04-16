@@ -1,8 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "Deepak D'Souza"
-        ]
-    },
-    "coll-return_to": "[[:$1]] ak patim vos"
+	"@metadata": {
+		"authors": [
+			"Deepak D'Souza",
+			"The Discoverer"
+		]
+	},
+	"coll-contents": "Suchi-potr",
+	"coll-return_to": "[[:$1]] ak patim vos"
 }

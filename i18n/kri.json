@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "Protostar"
-        ]
-    },
-    "coll-collection": "Buk",
-    "coll-collections": "Bukdèm",
-    "coll-create_a_book": "kreat buk",
-    "coll-setting-showtoc": "Inklud kòntenttebul"
+	"@metadata": {
+		"authors": [
+			"Protostar"
+		]
+	},
+	"coll-collection": "Buk",
+	"coll-collections": "Bukdèm",
+	"coll-create_a_book": "kreat buk",
+	"coll-setting-showtoc": "Inklud kòntenttebul"
 }

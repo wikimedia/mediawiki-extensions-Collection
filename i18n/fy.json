@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Kening Aldgilles",
-            "SK-luuut",
-            "Snakesteuben"
-        ]
-    },
-    "coll-yes": "Ja",
-    "coll-no": "Nee",
-    "coll-cancel": "Ofbrekke"
+	"@metadata": {
+		"authors": [
+			"Kening Aldgilles",
+			"SK-luuut",
+			"Snakesteuben"
+		]
+	},
+	"coll-yes": "Ja",
+	"coll-no": "Nee",
+	"coll-cancel": "Ofbrekke"
 }

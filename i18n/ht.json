@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Boukman"
-        ]
-    },
-    "coll-suggest_undo_tooltip": "Defè aksyon sa a",
-    "coll-suggest_undo": "Defè"
+	"@metadata": {
+		"authors": [
+			"Boukman"
+		]
+	},
+	"coll-suggest_undo_tooltip": "Defè aksyon sa a",
+	"coll-suggest_undo": "Defè"
 }

@@ -1,26 +1,26 @@
 {
-    "@metadata": {
-        "authors": [
-            "Servien"
-        ]
-    },
-    "coll-desc": "[[Special:Book|Boeken maken]]",
-    "coll-collection": "Boek",
-    "coll-collections": "Boeken",
-    "coll-unknown_subpage_title": "Onbekende onderzied",
-    "coll-unknown_subpage_text": "Disse onderzied van [[Special:Book|Boek]] besteet niet",
-    "coll-savedbook_template": "op-esleugen_boek",
-    "coll-your_book": "Joew boek",
-    "coll-download_title": "Binnenhaolen",
-    "coll-download_text": "Kies n bestaandsfermaot en klik op de knoppe um joew boek binnen te haolen.",
-    "coll-rename": "Herneumen",
-    "coll-create_a_book": "Boek maken",
-    "coll-download_as": "Binnenhaolen as $1",
-    "coll-add_category": "Kategorie bie joew boek doon",
-    "coll-bookscategory": "Boeken",
-    "coll-helppage": "Help:Boeken",
-    "coll-load_collection": "Boek laojen",
-    "coll-n_pages": "$1 {{PLURAL:$1|zied|ziejen}}",
-    "coll-printable_version_pdf": "PDF-versie",
-    "coll-show_collection": "Boek laoten zien"
+	"@metadata": {
+		"authors": [
+			"Servien"
+		]
+	},
+	"coll-desc": "[[Special:Book|Boeken maken]]",
+	"coll-collection": "Boek",
+	"coll-collections": "Boeken",
+	"coll-unknown_subpage_title": "Onbekende onderzied",
+	"coll-unknown_subpage_text": "Disse onderzied van [[Special:Book|Boek]] besteet niet",
+	"coll-savedbook_template": "op-esleugen_boek",
+	"coll-your_book": "Joew boek",
+	"coll-download_title": "Binnenhaolen",
+	"coll-download_text": "Kies n bestaandsfermaot en klik op de knoppe um joew boek binnen te haolen.",
+	"coll-rename": "Herneumen",
+	"coll-create_a_book": "Boek maken",
+	"coll-download_as": "Binnenhaolen as $1",
+	"coll-add_category": "Kategorie bie joew boek doon",
+	"coll-bookscategory": "Boeken",
+	"coll-helppage": "Help:Boeken",
+	"coll-load_collection": "Boek laojen",
+	"coll-n_pages": "$1 {{PLURAL:$1|zied|ziejen}}",
+	"coll-printable_version_pdf": "PDF-versie",
+	"coll-show_collection": "Boek laoten zien"
 }

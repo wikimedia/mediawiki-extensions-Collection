@@ -1,9 +1,9 @@
 {
-    "@metadata": {
-        "authors": [
-            "Chelin"
-        ]
-    },
-    "coll-setting-showtoc": "Nclude l'énnece",
-    "coll-setting-columns": "Culonne:"
+	"@metadata": {
+		"authors": [
+			"Chelin"
+		]
+	},
+	"coll-setting-showtoc": "Nclude l'énnece",
+	"coll-setting-columns": "Culonne:"
 }

@@ -1,16 +1,16 @@
 {
-    "@metadata": {
-        "authors": [
-            "Growingup"
-        ]
-    },
-    "coll-your_book": "Сиздин китебиңиз",
-    "coll-format_label": "Формат:",
-    "coll-remove": "Өчүрүү",
-    "coll-show": "Көрсөтүү",
-    "coll-rename": "Атын өзгөртүү",
-    "coll-yes": "Ооба",
-    "coll-no": "Жок",
-    "coll-cancel": "Жокко чыгаруу",
-    "coll-update": "Жаңыртуу"
+	"@metadata": {
+		"authors": [
+			"Growingup"
+		]
+	},
+	"coll-your_book": "Сиздин китебиңиз",
+	"coll-format_label": "Формат:",
+	"coll-remove": "Өчүрүү",
+	"coll-show": "Көрсөтүү",
+	"coll-rename": "Атын өзгөртүү",
+	"coll-yes": "Ооба",
+	"coll-no": "Жок",
+	"coll-cancel": "Жокко чыгаруу",
+	"coll-update": "Жаңыртуу"
 }
