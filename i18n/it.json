@@ -9,7 +9,8 @@
 			"Nemo bis",
 			"OrbiliusMagister",
 			"Pietrodn",
-			"Stefano-c"
+			"Stefano-c",
+			"Toadino2"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crea libri]]",
@@ -53,6 +54,7 @@
 	"coll-rename_chapter": "Inserisci un nuovo nome per il capitolo",
 	"coll-no_such_category": "Nessuna categoria",
 	"coll-notitle_title": "Non è stato possibile determinare il titolo della pagina.",
+	"coll-notitle_msg": "Il titolo della pagina non è stato trovato.",
 	"coll-request_failed_title": "Errore nella conversione del libro",
 	"coll-request_failed_msg": "Si è verificato un errore durante il tentativo di rendering del libro.",
 	"coll-mwserve_failed_title": "Errore server conversione",
