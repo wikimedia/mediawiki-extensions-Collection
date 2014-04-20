@@ -47,6 +47,7 @@
 	"coll-rename_chapter": "Тарауға жаңа атау енгізіңіз",
 	"coll-no_such_category": "Мұндай санат жоқ",
 	"coll-notitle_title": "Беттiң тақырыбы анықталмады",
+	"coll-notitle_msg": "Бет тақырыбы анықталмады.",
 	"coll-mwserve_failed_title": "Сурет салу серверінің қатесi",
 	"coll-error_reponse": "Сервер жауабының қатесi",
 	"coll-empty_collection": "Бос кітап",

@@ -4,7 +4,8 @@
 			"Ansumang",
 			"Jnanaranjan Sahu",
 			"Odisha1",
-			"Psubhashish"
+			"Psubhashish",
+			"ଶିତିକଣ୍ଠ ଦାଶ"
 		]
 	},
 	"coll-desc": "[[Special:Book|ବହି ତିଆରି]]",
@@ -47,7 +48,8 @@
 	"coll-new_chapter": "ନୂଆ ବିଭାଗ ପାଇଁ ନାମ ଦିଅନ୍ତୁ",
 	"coll-rename_chapter": "ବିଭାଗ ପାଇଁ ନୂଆ ନାମ ଦିଅନ୍ତୁ",
 	"coll-no_such_category": "ସେଭଳି କିଛି ଶ୍ରେଣୀ ନାହିଁ",
-	"coll-notitle_title": "ପୃଷ୍ଠାର ନାମ ସ୍ଥିର କରାଯାଇପାରିବ ନାହିଁ ।",
+	"coll-notitle_title": "ପୃଷ୍ଠାଟିର ନାମ ମିଳୁ ନାହିଁ",
+	"coll-notitle_msg": "ପୃଷ୍ଠାର ନାମ ସ୍ଥିର କରାଯାଇପାରିବ ନାହିଁ ।",
 	"coll-mwserve_failed_title": "ରେଣ୍ଡର ସର୍ଭର ଭୁଲ",
 	"coll-mwserve_failed_msg": "ରେଣ୍ଡର ବ୍ୟବସ୍ଥାରେ ଅସୁବିଧା ହେଲା:<nowiki>$1</nowiki>",
 	"coll-error_reponse": "ସର୍ଭରରେ ଅସୁବିଧା ହେଲା",

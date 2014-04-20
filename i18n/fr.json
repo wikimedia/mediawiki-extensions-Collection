@@ -18,7 +18,8 @@
 			"Urhixidur",
 			"Verdy p",
 			"Wyz",
-			"Zetud"
+			"Zetud",
+			"Ultimate"
 		]
 	},
 	"coll-desc": "Permet de [[Special:Book|créer des livres]]",
@@ -62,6 +63,7 @@
 	"coll-rename_chapter": "Entrer le nouveau titre de ce chapitre",
 	"coll-no_such_category": "Catégorie introuvable",
 	"coll-notitle_title": "Le titre de la page n’a pas pu être déterminé.",
+	"coll-notitle_msg": "Le titre de la page n’a pas pu être déterminé.",
 	"coll-request_failed_title": "Échec au rendu du livre",
 	"coll-request_failed_msg": "Il y a eu une erreur en essayant de faire un rendu de votre livre.",
 	"coll-mwserve_failed_title": "Erreur du serveur de rendu",

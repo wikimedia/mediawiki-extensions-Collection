@@ -5,7 +5,8 @@
 			"Lovekhmer",
 			"Thearith",
 			"គីមស៊្រុន",
-			"វ័ណថារិទ្ធ"
+			"វ័ណថារិទ្ធ",
+			"Sovichet"
 		]
 	},
 	"coll-desc": "[[Special:Book|បង្កើត​សៀវភៅ]]",
@@ -47,7 +48,8 @@
 	"coll-new_chapter": "ដាក់ឈ្មោះឱ្យ ជំពូកថ្មី",
 	"coll-rename_chapter": "ដាក់ឈ្មោះថ្មី ឱ្យជំពូក",
 	"coll-no_such_category": "គ្មានចំណាត់ថ្នាក់ក្រុមបែបនេះទេ",
-	"coll-notitle_title": "មិន​អាចកំណត់​ចំណងជើង​នៃទំព័រ",
+	"coll-notitle_title": "មិន​អាច​យក​ចំណង​ជើង​ទំព័រ​មក​បាន",
+	"coll-notitle_msg": "មិន​អាច​កំណត់​ចំណង​ជើង​ទំព័រ​បាន​ទេ។",
 	"coll-empty_collection": "សៀវភៅទទេ",
 	"coll-revision": "កំណែ​ប្រែ​៖ $1",
 	"coll-save_collection_title": "រក្សាទុក​និង​ចែករំលែក​សៀវភៅ",

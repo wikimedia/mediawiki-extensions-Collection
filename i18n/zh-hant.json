@@ -12,7 +12,8 @@
 			"Skjackey tse",
 			"Wmr89502270",
 			"Wong128hk",
-			"Xiaomingyan"
+			"Xiaomingyan",
+			"Spring Roll Conan"
 		]
 	},
 	"coll-desc": "[[Special:Book|建立圖書]]",
@@ -55,7 +56,7 @@
 	"coll-new_chapter": "輸入新章節的名稱",
 	"coll-rename_chapter": "輸入章節的新名稱",
 	"coll-no_such_category": "無分類",
-	"coll-notitle_title": "無法確定此頁面的標題",
+	"coll-notitle_title": "無法獲取頁面標題",
 	"coll-request_failed_title": "書本呈現失敗",
 	"coll-request_failed_msg": "嘗試呈現閣下書籍時出錯。",
 	"coll-mwserve_failed_title": "呈現伺服器錯誤",
