@@ -58,6 +58,7 @@
 	"coll-rename_chapter": "Introduza um nome novo para o capítulo",
 	"coll-no_such_category": "Essa categoria não existe",
 	"coll-notitle_title": "Não foi possível obter o título da página",
+	"coll-notitle_msg": "O título da página não pôde ser determinado.",
 	"coll-mwserve_failed_title": "Erro no servidor de composição do ficheiro",
 	"coll-mwserve_failed_msg": "Ocorreu um erro no servidor de composição do ficheiro: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Resposta de erro do servidor",
