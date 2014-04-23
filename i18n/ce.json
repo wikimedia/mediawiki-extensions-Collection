@@ -6,6 +6,7 @@
 		]
 	},
 	"coll-collections": "Жайнаш",
+	"coll-unknown_subpage_text": "ХӀара [[Special:Book|жайнан]] бухара агӀо йоцуш ю",
 	"coll-couldnotaddarticle_title": "Цатарло агӀо тӀетоха",
 	"coll-couldnotaddarticle_msg": "Хlара яззам чутоьхна хила цамега.",
 	"coll-couldnotremovearticle_title": "Цатарло агӀо дӀаяккха",
@@ -16,6 +17,8 @@
 	"coll-subtitle": "Корталг:",
 	"coll-contents": "Чулацам",
 	"coll-no_such_category": "Ишта категори яц",
+	"coll-notitle_title": "АгӀонан корта схьаэца цаделира",
+	"coll-notitle_msg": "АгӀонан корта билгал бан йиш яц.",
 	"coll-revision": "Верси: $1",
 	"coll-yes": "Хlаъ",
 	"coll-no": "Яц",
