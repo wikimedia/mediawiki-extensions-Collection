@@ -522,6 +522,9 @@ class SpecialCollection extends SpecialPage {
 	 */
 	static function setSettings( array $settings ) {
 		$collection = CollectionSession::getCollection();
+		if ( !isset( $collection['settings'] ) ) {
+			$collection['settings'] = array();
+		}
 		$collection['settings'] = $settings + $collection['settings'];
 		CollectionSession::setCollection( $collection );
 	}
