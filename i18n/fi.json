@@ -9,7 +9,8 @@
 			"Silvonen",
 			"Str4nd",
 			"Tarmo",
-			"Zache"
+			"Zache",
+			"Syreeni"
 		]
 	},
 	"coll-desc": "[[Special:Book|Laadi kirjoja]].",
@@ -52,7 +53,10 @@
 	"coll-new_chapter": "Anna uuden luvun nimi",
 	"coll-rename_chapter": "Anna uuden luvun nimi",
 	"coll-no_such_category": "Luokkaa ei ole",
-	"coll-notitle_title": "Sivun otsikkoa ei voitu päätellä.",
+	"coll-notitle_title": "Sivun otsikkoa ei voitu hakea",
+	"coll-notitle_msg": "Sivun otsikkoa ei voitu määritellä.",
+	"coll-request_failed_title": "Kirjan renderöinti epäonnistui",
+	"coll-request_failed_msg": "Renderöintiä suoritettaessa tapahtui virhe.",
 	"coll-mwserve_failed_title": "Virhe renderöintipalvelimella",
 	"coll-mwserve_failed_msg": "Renderöintipalvelimella tapahtui virhe: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Palvelin antoi virheilmoituksen",
@@ -87,6 +91,9 @@
 	"coll-rendering_finished_text": "<strong>Tiedosto on generoitu.</strong>\n<strong>[$1 Lataa tiedosto]</strong> tietokoneellesi.\n\nHuomautuksia:\n* Etkö ole tyytyväinen lopputulokseen? Katso [[{{MediaWiki:Coll-helppage}}|kirjojen ohjesivulta]] mahdollisuuksista parantaa sitä.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Muotoillaan sivu -tiedote",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Muotoillaan kokoelma -tiedote",
+	"coll-rendering_failed_title": "Renderöinti epäonnistui",
+	"coll-rendering_failed_text": "<strong>Tiedoston luonti epäonnistui.</strong>\n\n<p><span id=\"renderingStatus\">$1</span></p>",
+	"coll-rendering_failed_status": "<strong>Tila:</strong> $1",
 	"coll-notfound_title": "Kirjaa ei löydy",
 	"coll-notfound_text": "Kirjan sivua ei löydy.",
 	"coll-download_notfound_title": "Tiedostoa ei löydy",
@@ -162,5 +169,9 @@
 	"coll-not_addable": "Tätä sivua ei voi lisätä",
 	"coll-make_suggestions": "Ehdotetut sivut",
 	"coll-make_suggestions_tooltip": "Näytä ehdotukset, jotka perustuvat kirjan sivuihin",
-	"coll-suggest_empty": "tyhjä"
+	"coll-suggest_empty": "tyhjä",
+	"coll-setting-papersize": "Paperin koko:",
+	"coll-setting-papersize-letter": "Kirje",
+	"coll-setting-showtoc": "Sisällytä sisällysluettelo",
+	"coll-setting-columns": "Sarakkeita:"
 }
