@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Erdemaslancan",
-			"Mirzali"
+			"Mirzali",
+			"Marmase"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kitabî viraze]]",
 	"coll-book_creator_intro": "<big>Pê \"viraştoğê kitabî ti eşkeno yew kitabê ke pelanê wîkîyan ra virazo. Ti eşkeno kitab formatanê bînan de (mavacî PDF ya zi ODF) export bike ya zi kitab şipariş bike.</big>",
-	"coll-manage_your_book": "Kitabê xo îdare bike",
+	"coll-manage_your_book": "Kitabê xo timar kerê",
 	"coll-book_creator_help": "Qe enformasyonî [[{{MediaWiki:Coll-helppage}}|elê yardimî ke ser kitabî]] bivîne.",
 	"coll-start_book_creator": "Viraştoğê kitabî başli bike",
 	"coll-book_creator_continue": "Viraştoğê kitabî de dewam bike",
@@ -140,9 +141,9 @@
 	"coll-bookscategory": "Kıtabi",
 	"coll-clear_collection": "Kıtabi pak ke",
 	"coll-clear_collection_confirm": "Ti raştî kitabê xo wazeno wedarne?",
-	"coll-clear_collection_tooltip": "Wîkîyanê hemî kitabê xo de wedarne",
+	"coll-clear_collection_tooltip": "Hesıbyaye kıtab da xo de pelanê wiki hemın besternê",
 	"coll-help": "Phoşti",
-	"coll-help_tooltip": "Ser bar kerdişê kitabî rê yardim bimucne",
+	"coll-help_tooltip": "Heqa kıtab vıraştene peşti bımocne",
 	"coll-helppage": "Help:Kıtabi",
 	"coll-load_collection": "Kitab bar bike",
 	"coll-load_collection_tooltip": "Ena kitab bar bike",

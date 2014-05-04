@@ -8,7 +8,8 @@
 			"IvanLanin",
 			"Iwan Novirion",
 			"Kenrick95",
-			"Rex"
+			"Rex",
+			"C5st4wr6ch"
 		]
 	},
 	"coll-desc": "[[Special:Book|Buat buku]]",
@@ -51,7 +52,8 @@
 	"coll-new_chapter": "Masukkan nama bab baru",
 	"coll-rename_chapter": "Masukkan nama baru bab",
 	"coll-no_such_category": "Tidak ada kategori tersebut",
-	"coll-notitle_title": "Judul halaman tidak bisa ditentukan.",
+	"coll-notitle_title": "Tidak bisa mendapatkan judul halaman",
+	"coll-notitle_msg": "Judul halaman tidak dapat ditentukan.",
 	"coll-mwserve_failed_title": "Kesalahan server pengolahan",
 	"coll-mwserve_failed_msg": "Terjadi suatu kesalahan berikut pada server pengolahan: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Respons kesalahan dari server",
