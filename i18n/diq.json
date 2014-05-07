@@ -53,7 +53,7 @@
 	"coll-mwserve_failed_msg": "Servera render de yew ğelet biyo: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Server ra responseyê ğeletî",
 	"coll-empty_collection": "Kitabê vengî",
-	"coll-revision": "Revizyon: $1",
+	"coll-revision": "Çımraviyarnayış: $1",
 	"coll-save_collection_title": "Kitabê xo qeyd ke",
 	"coll-save_collection_text": "Qe kitabê tu rê yew embar weçine:",
 	"coll-login_to_save": "Eka ti wazena kitabê xo bace biwane, ma rica keno [[Special:UserLogin|Cıkewt ya zi yew hesab vıraz]].",
