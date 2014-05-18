@@ -14,7 +14,8 @@
 			"Malafaya",
 			"SandroHc",
 			"Waldir",
-			"555"
+			"555",
+			"Fúlvio"
 		]
 	},
 	"coll-desc": "[[Special:Book|Criar livros]]",
@@ -59,6 +60,8 @@
 	"coll-no_such_category": "Essa categoria não existe",
 	"coll-notitle_title": "Não foi possível obter o título da página",
 	"coll-notitle_msg": "O título da página não pôde ser determinado.",
+	"coll-request_failed_title": "A renderização do livro falhou",
+	"coll-request_failed_msg": "Houve um erro ao tentar renderizar seu livro.",
 	"coll-mwserve_failed_title": "Erro no servidor de composição do ficheiro",
 	"coll-mwserve_failed_msg": "Ocorreu um erro no servidor de composição do ficheiro: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Resposta de erro do servidor",
@@ -93,6 +96,11 @@
 	"coll-rendering_finished_text": "<strong>O ficheiro foi gerado.</strong>\n<strong>[$1 Transfira o ficheiro]</strong> para o seu computador.\n\nNotas:\n* Não está satisfeito com o resultado? Consulte [[{{MediaWiki:Coll-helppage}}|a página de ajuda sobre livros]] para conhecer as possibilidades de aprimoramento.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informativo sobre composição de páginas",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informativo sobre composição de colecções",
+	"coll-rendering_failed_title": "A renderização falhou",
+	"coll-rendering_failed_text": "<strong>A geração do ficheiro de documento falhou.</strong>\n\n<p><span id=\"renderingStatus\">$1</span></p>",
+	"coll-rendering_failed_status": "<strong>Status:</strong> $1",
+	"coll-failed_page_info_text_article": "{{MediaWiki:Coll-helppage}}/A renderizar o texto de informação da página",
+	"coll-failed_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/A renderizar o texto de informação da colecção",
 	"coll-notfound_title": "Livro não foi encontrado",
 	"coll-notfound_text": "Não foi possível encontrar a página do livro.",
 	"coll-download_notfound_title": "Ficheiro não encontrado",
@@ -129,6 +137,10 @@
 	"coll-load_local_book": "Clique OK para continuar com o seu livro %TITLE% que contém %NUMPAGES% páginas wiki. Clique Cancelar para apagá-lo e começar com um livro vazio.",
 	"coll-format-rl": "e-book (PDF)",
 	"coll-format-epub": "e-book (EPUB)",
+	"coll-format-odf": "processador de texto (OpenDocument)",
+	"coll-format-zim": "Kiwix (OpenZIM)",
+	"coll-format-docbook": "DocBook",
+	"coll-format-okawix_zeno": "Okawix",
 	"right-collectionsaveasuserpage": "Gravar livros como página de utilizador",
 	"right-collectionsaveascommunitypage": "Gravar livros como página comunitária",
 	"coll-print_export": "Imprimir/exportar",
@@ -167,5 +179,6 @@
 	"coll-suggest_empty": "vazio",
 	"coll-setting-papersize": "Dimensão do papel:",
 	"coll-setting-papersize-letter": "Carta",
+	"coll-setting-showtoc": "Incluir uma tabela de conteúdo",
 	"coll-setting-columns": "Colunas:"
 }

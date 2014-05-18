@@ -46,7 +46,7 @@
 	"coll-new_chapter": "Gõ vào tên chương mới",
 	"coll-rename_chapter": "Gõ vào tên chương mới",
 	"coll-no_such_category": "Không có thể loại như vậy",
-	"coll-notitle_title": "Không xác định được tựa đề của trang.",
+	"coll-notitle_title": "Không thể xác định tiêu đề trang",
 	"coll-mwserve_failed_title": "Lỗi chương trình kết xuất",
 	"coll-mwserve_failed_msg": "Chương trình kết xuất gặp lỗi: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Máy chủ trả về lỗi",
