@@ -10,7 +10,8 @@
 			"OrbiliusMagister",
 			"Pietrodn",
 			"Stefano-c",
-			"Toadino2"
+			"Toadino2",
+			"Lucas2"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crea libri]]",
@@ -26,9 +27,9 @@
 	"coll-unknown_subpage_title": "Sottopagina sconosciuta",
 	"coll-unknown_subpage_text": "Questa sottopagina di [[Special:Book|Libro]] non esiste",
 	"coll-couldnotaddarticle_title": "Impossibile aggiungere pagina wiki",
-	"coll-couldnotaddarticle_msg": "La pagina wiki non può essere aggiunta.",
-	"coll-couldnotremovearticle_title": "Impossibile rimuovere la pagina wiki",
-	"coll-couldnotremovearticle_msg": "La pagina wiki non può essere rimossa.",
+	"coll-couldnotaddarticle_msg": "La pagina non può essere aggiunta.",
+	"coll-couldnotremovearticle_title": "Impossibile rimuovere la pagina",
+	"coll-couldnotremovearticle_msg": "La pagina non può essere rimossa.",
 	"coll-noscript_text": "<h1>È necessario avere JavaScript!</h1>\n<strong>Si sta utilizzando un browser che non supporta JavaScript oppure JavaScript è stato disattivato.\nLa pagina non funzionerà correttamente se non verrà attivato JavaScript.</strong>",
 	"coll-savedbook_template": "libro_salvato",
 	"coll-your_book": "Il tuo libro",
