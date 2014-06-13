@@ -369,6 +369,11 @@ $specialPageAliases['sq'] = array(
 	'Book' => array( 'Libra', 'Koleksion' ),
 );
 
+/** Serbian (Cyrillic script) (српски (ћирилица)‎) */
+$specialPageAliases['sr-ec'] = array(
+	'Book' => array( 'Књига' ),
+);
+
 /** Swedish (svenska) */
 $specialPageAliases['sv'] = array(
 	'Book' => array( 'Bok', 'Samling' ),
