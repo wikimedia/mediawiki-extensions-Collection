@@ -142,7 +142,7 @@
 	"coll-helppage": "Help:Bøker",
 	"coll-load_collection": "Last bok",
 	"coll-load_collection_tooltip": "Last denne boka som den noverande boka di",
-	"coll-n_pages": "{{PLURAL:$1|éi sida|$1 sider}}",
+	"coll-n_pages": "{{PLURAL:$1|éi side|$1 sider}}",
 	"coll-printable_version_pdf": "PDF-versjon",
 	"coll-remove_this_page": "Fjern sida frå boka di",
 	"coll-remove_page_tooltip": "Fjern den noverande wikisida frå boka di",
