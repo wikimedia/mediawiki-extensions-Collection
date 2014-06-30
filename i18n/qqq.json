@@ -57,7 +57,7 @@
 	"coll-contents": "{{Identical|Content}}",
 	"coll-drag_and_drop": "If there are no items, {{msg-mw|Coll-empty collection}} is used instead.",
 	"coll-create_chapter": "Used as action link text.",
-	"coll-sort_alphabetically": "Used as link text.\n\nPreceded by {{msg-mw|Coll-create chapter}}.\n\nFollowed by {{msg-mw|Coll-clear collection}}.",
+	"coll-sort_alphabetically": "Used as link text.\n\nPreceded by {{msg-mw|Coll-create chapter}}.\n\nFollowed by {{msg-mw|Coll-clear collection}}.\n{{Identical|Sort alphabetically}}",
 	"coll-rename": "{{Identical|Rename}}",
 	"coll-new_chapter": "Used as prompt message.",
 	"coll-rename_chapter": "Used as prompt message.",
