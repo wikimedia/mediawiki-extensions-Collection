@@ -44,7 +44,8 @@
 	"coll-new_chapter": "Entra nomine pro nove capitulo",
 	"coll-rename_chapter": "Entra nove nomine pro capitulo",
 	"coll-no_such_category": "Categoria non existe",
-	"coll-notitle_title": "Le titulo del pagina non poteva esser determinate.",
+	"coll-notitle_title": "Non poteva obtener le titulo del pagina",
+	"coll-notitle_msg": "Le titulo del pagina non poteva esser determinate.",
 	"coll-request_failed_title": "Le generation del libro ha fallite",
 	"coll-request_failed_msg": "Un error ha occurrite durante le tentativa de generar tu libro.",
 	"coll-mwserve_failed_title": "Error del servitor de renditiones",
@@ -81,6 +82,11 @@
 	"coll-rendering_finished_text": "<strong>Le file del documento ha essite generate.</strong>\n<strong>[$1 Discarga le file]</strong> verso tu computator.\n\nNotas:\n* Non satisfacite con le resultato? Vide [[{{MediaWiki:Coll-helppage}}|le pagina de adjuta super le libros]] pro possibilitates de meliorar lo.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informative super le rendition de paginas",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informative super le rendition de collectiones",
+	"coll-rendering_failed_title": "Rendition fallite",
+	"coll-rendering_failed_text": "<strong>Le generation del file de documento ha fallite.</strong>\n\n<p><span id=\"renderingStatus\">$1</span></p>",
+	"coll-rendering_failed_status": "<strong>Stato:</strong> $1",
+	"coll-failed_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informative super le rendition de paginas",
+	"coll-failed_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informative super le rendition de collectiones",
 	"coll-notfound_title": "Libro non trovate",
 	"coll-notfound_text": "Non poteva trovar le pagina del libro.",
 	"coll-download_notfound_title": "File non trovate",
@@ -156,5 +162,9 @@
 	"coll-not_addable": "Iste pagina non pote esser addite",
 	"coll-make_suggestions": "Suggerer paginas",
 	"coll-make_suggestions_tooltip": "Monstrar suggestiones a base del paginas ja presente in tu libo",
-	"coll-suggest_empty": "vacue"
+	"coll-suggest_empty": "vacue",
+	"coll-setting-papersize": "Formato del papiro:",
+	"coll-setting-papersize-letter": "US Letter",
+	"coll-setting-showtoc": "Includer un tabula de contento",
+	"coll-setting-columns": "Columnas:"
 }
