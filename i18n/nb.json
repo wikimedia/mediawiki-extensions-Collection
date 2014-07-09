@@ -52,7 +52,8 @@
 	"coll-new_chapter": "Skriv inn navn for det nye kapittelet",
 	"coll-rename_chapter": "Skriv inn kapittelets nye navn",
 	"coll-no_such_category": "Ingen kategori ved dette navnet",
-	"coll-notitle_title": "Fant ikke ut av sidens tittel.",
+	"coll-notitle_title": "Fant ikke sidetittelen.",
+	"coll-notitle_msg": "Sidetittelen kunne ikke bestemmes.",
 	"coll-request_failed_title": "Bokfremstilling feilet",
 	"coll-request_failed_msg": "Det oppsto en feil under fremstilling av boken din.",
 	"coll-mwserve_failed_title": "Rendreringsserverfeil",
@@ -171,5 +172,7 @@
 	"coll-make_suggestions_tooltip": "Vis forslag basert på sidene i boken din",
 	"coll-suggest_empty": "tom",
 	"coll-setting-papersize": "Papirstørrelse:",
-	"coll-setting-papersize-letter": "Bokstav"
+	"coll-setting-papersize-letter": "Bokstav",
+	"coll-setting-showtoc": "Vis en innholdsfortegnelse",
+	"coll-setting-columns": "Kolonner:"
 }

@@ -77,7 +77,7 @@
 	"coll-overwrite": "رونویسی",
 	"coll-append": "افزودن",
 	"coll-cancel": "لغو",
-	"coll-update": "به روز رسانی",
+	"coll-update": "به‌روزرسانی",
 	"coll-limit_exceeded_title": "کتاب بیش از اندازه بزرگ است",
 	"coll-limit_exceeded_text": "کتاب شما بیش از اندازه بزرگ است است.\nامکان افزودن صفحهٔ جدیدی را ندارید.",
 	"coll-rendering_title": "در حال پردازش",
@@ -175,5 +175,7 @@
 	"coll-setting-papersize": "انذازهٔ کاغذ:",
 	"coll-setting-papersize-letter": "نامه",
 	"coll-setting-showtoc": "شامل جدول محتویات",
-	"coll-setting-columns": "ستون‌ها:"
+	"coll-setting-columns": "ستون‌ها:",
+	"coll-setting-columns-1": "۱",
+	"coll-setting-columns-2": "۲"
 }
