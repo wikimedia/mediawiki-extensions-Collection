@@ -15,7 +15,8 @@
 			"SandroHc",
 			"Waldir",
 			"555",
-			"Fúlvio"
+			"Fúlvio",
+			"Vitorvicentevalente"
 		]
 	},
 	"coll-desc": "[[Special:Book|Criar livros]]",
@@ -137,7 +138,7 @@
 	"coll-load_local_book": "Clique OK para continuar com o seu livro %TITLE% que contém %NUMPAGES% páginas wiki. Clique Cancelar para apagá-lo e começar com um livro vazio.",
 	"coll-format-rl": "e-book (PDF)",
 	"coll-format-epub": "e-book (EPUB)",
-	"coll-format-odf": "processador de texto (OpenDocument)",
+	"coll-format-odf": "Processador de texto (OpenDocument)",
 	"coll-format-zim": "Kiwix (OpenZIM)",
 	"coll-format-docbook": "DocBook",
 	"coll-format-okawix_zeno": "Okawix",
