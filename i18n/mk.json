@@ -168,5 +168,9 @@
 	"coll-setting-papersize": "Големина на листот",
 	"coll-setting-papersize-letter": "Писмо",
 	"coll-setting-showtoc": "Вклучи содржина",
-	"coll-setting-columns": "Колони:"
+	"coll-setting-columns": "Колони:",
+	"coll-attribution-anons": "Анонимни: $1",
+	"coll-attribution-page": "<h1>Извори на текстот и сликите, придонеси и лиценци</h1>\n<h2>Текст</h2>\n$1<h2>Слики</h2>\n$2\n<h2>Лиценца на содржината</h2>\n$3",
+	"coll-article-attribution": "<b>$1</b> <i>Извор:</i> $2 <i>Придонеси:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Извор:</i> $2 <i>Лиценца:</i> $3 <i>Учесници:</i> $4 <i>Изворен творец:</i> $5"
 }

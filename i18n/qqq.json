@@ -19,7 +19,8 @@
 			"Siebrand",
 			"Umherirrender",
 			"Wmr89502270",
-			"គីមស៊្រុន"
+			"គីមស៊្រុន",
+			"Liuxinyu970226"
 		]
 	},
 	"coll-desc": "{{desc|name=Collection|url=http://www.mediawiki.org/wiki/Extension:Collection}}",
@@ -93,7 +94,7 @@
 	"coll-rendering_text": "This message appears after the download button has been clicked in the download box of the special page \"Book\", while the software is generating the document.\n\nThe variables are:\n* $1 - a percentage\n* $2 - the message {{msg-mw|Coll-rendering_status}}",
 	"coll-rendering_status": "Part of the message {{msg-mw|Coll-rendering text}}.\n\nThe variable $1 is another message string, as follows:\n*For a book in PDF format:\n**first the message in the Mwlib extension with the text \"layouting\" followed by the message {{msg-mw|Coll-rendering article}}\n**then the message in the Mwlib extension with the text \"rendering\"\n*For a book in OpenDocument format:\n**first the text \"parsing\" (source message not yet identified)\n**then the text \"preprocessing\" (source message not yet identified)\n**then the text \"rendering\" (source message not yet identified)\n\n{{Identical|Status}}",
 	"coll-rendering_article": "Parameters:\n* $1 - article name\n{{Identical|Wiki page}}",
-	"coll-rendering_page": "Parameters:\n* $1 - page name",
+	"coll-rendering_page": "Parameters:\n* $1 - page name\n{{Identical|Page}}",
 	"coll-rendering_page_info_text_article": "Used as page title.\n\nRefers to {{msg-mw|Coll-helppage}}.\n\nSee also:\n* {{msg-mw|Coll-rendering collection info text article}}",
 	"coll-rendering_collection_info_text_article": "Used as page title.\n\nRefers to {{msg-mw|Coll-helppage}}.\n\nSee also:\n* {{msg-mw|Coll-rendering page info text article}}",
 	"coll-rendering_finished_title": "Used as page title.\n\nFollowed by {{msg-mw|Coll-rendering finished text}}.",
@@ -188,6 +189,6 @@
 	"coll-setting-columns-2": "{{optional}}\n\nSee also:\n* {{msg-mw|Coll-setting-columns}}\n* {{msg-mw|Coll-setting-columns-1}}",
 	"coll-attribution-anons": "Text to add to a list of contributors to an article when there have been anonymous contributions. $1 is the number of anonymous contributions.",
 	"coll-attribution-page": "Prototype for a page that will be added to all books for attribution purposes. $1 will be a list of articles and their contributors, $2 will be a list of all images and their contributors, $3 will be the wiki's license text.",
-	"coll-article-attribution": "An individal list item for ''coll-attribution-page''; will document an article. $1 is the article name, $2 is a URL to the article, $3 is the list of contributors to an article.",
+	"coll-article-attribution": "An individual list item for {{msg-mw|coll-attribution-page|notext=notext}}; will document an article.\n* $1 is the article name,\n* $2 is a URL to the article,\n* $3 is the list of contributors to an article.",
 	"coll-image-attribution": "An individal list item for ''coll-attribution-page''; will document an image. $1 is the image name, $2 is a URL to the image, $3 is the image license, $4 is the credit field for an image, $5 is the artist for an image."
 }

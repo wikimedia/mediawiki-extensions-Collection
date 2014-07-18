@@ -184,5 +184,9 @@
 	"coll-setting-papersize": "Размер бумаги:",
 	"coll-setting-papersize-letter": "Письмо",
 	"coll-setting-showtoc": "Включить содержание",
-	"coll-setting-columns": "Столбцы:"
+	"coll-setting-columns": "Столбцы:",
+	"coll-attribution-anons": "Аноним: $1",
+	"coll-attribution-page": "<h1>Источники текстов и изображения, авторы и лицензии</h1>\n<h2>Текст</h2>\n$1<h2>Изображения</h2>\n$2\n<h2>Лицензия</h2>\n$3",
+	"coll-article-attribution": "<b>$1</b> <i>Источник:</i> $2 <i>Авторы:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Источник:</i> $2 <i>Лицензия:</i> $3 <i>Авторы:</i> $4 <i>Художник:</i> $5"
 }
