@@ -161,5 +161,6 @@
 	"coll-setting-papersize": "Pabeiergréisst:",
 	"coll-setting-papersize-letter": "Letter",
 	"coll-setting-showtoc": "En Inhaltsverzeechnes drasetzen",
-	"coll-setting-columns": "Kolonnen:"
+	"coll-setting-columns": "Kolonnen:",
+	"coll-attribution-anons": "Anonym: $1"
 }

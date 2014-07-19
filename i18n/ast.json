@@ -169,5 +169,9 @@
 	"coll-setting-papersize": "Tamañu del papel:",
 	"coll-setting-papersize-letter": "Carta",
 	"coll-setting-showtoc": "Incluir un sumariu",
-	"coll-setting-columns": "Columnes:"
+	"coll-setting-columns": "Columnes:",
+	"coll-attribution-anons": "Anónimos: $1",
+	"coll-attribution-page": "<h1>Fontes de testu ya imaxes, collaboradores, y llicencies</h1>\n<h2>Testu</h2>\n$1<h2>Imaxes</h2>\n$2\n<h2>Llicencia del conteníu</h2>\n$3",
+	"coll-article-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Collaboradores:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Llicencia:</i> $3 <i>Collaboradores:</i> $4 <i>Artista orixinal:</i> $5"
 }
