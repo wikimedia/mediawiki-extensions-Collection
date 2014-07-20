@@ -46,7 +46,7 @@
 	"coll-new_chapter": "Sláðu inn nafn á nýjum kafla",
 	"coll-rename_chapter": "Sláðu inn nýtt nafn fyrir kafla",
 	"coll-no_such_category": "Flokkur ekki til",
-	"coll-notitle_title": "Mistókst að ákvarða titil síðunnar.",
+	"coll-notitle_title": "Mistókst að sækja titil síðunnar.",
 	"coll-mwserve_failed_title": "Villa hjá birtingarþjóni",
 	"coll-mwserve_failed_msg": "Villa varð hjá birtingarþjóni: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Villuskilaboð frá vefþjóni",

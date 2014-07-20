@@ -189,5 +189,8 @@
 	"coll-setting-papersize": "Tamaño del papel:",
 	"coll-setting-papersize-letter": "Carta",
 	"coll-setting-showtoc": "Incluir una tabla de contenido",
-	"coll-setting-columns": "Columnas:"
+	"coll-setting-columns": "Columnas:",
+	"coll-attribution-anons": "Anónimos: $1",
+	"coll-article-attribution": "<b>$1</b> <i>Fuente:</i> $2 <i>Colaboradores:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Fuente:</i> $2 <i>Licencia:</i> $3 <i>Colaboradores:</i> $4 <i>Artista original:</i> $5"
 }
