@@ -45,7 +45,9 @@
 	"coll-new_chapter": "Sisesta uue peatüki pealkiri",
 	"coll-rename_chapter": "Sisesta uue peatüki pealkiri",
 	"coll-no_such_category": "Sellist kategooriat ei ole",
-	"coll-notitle_title": "Lehekülje pealkirja ei saa määrata.",
+	"coll-notitle_title": "Lehekülje pealkirja ei õnnestu hankida",
+	"coll-request_failed_title": "Raamatu küljendamine ebaõnnestus",
+	"coll-request_failed_msg": "Sinu raamatu küljendamisel esines tõrge.",
 	"coll-mwserve_failed_title": "Küljendamisserveri tõrge",
 	"coll-mwserve_failed_msg": "Küljendamisserveril ilmnes tõrge: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Tõrketeade serverist",
@@ -108,9 +110,9 @@
 	"coll-suggest_undo_tooltip": "Võta see toiming tagasi",
 	"coll-suggest_undo": "võta tagasi",
 	"coll-load_local_book": "Klõpsa \"OK\", et jätkata %NUMPAGES% vikilehekülge sisaldava raamatuga \"%TITLE%\". Klõpsa \"Cancel\", et see kustutada ja alustada uue tühja raamatuga.",
-	"coll-format-rl": "e-raamat (PDF)",
+	"coll-format-rl": "e-raamat (PDF, mwlib-küljendus)",
 	"coll-format-epub": "e-raamat (EPUB)",
-	"coll-format-odf": "tekstiprotsessor (OpenDocument)",
+	"coll-format-odf": "Tekstiprotsessor (OpenDocument)",
 	"right-collectionsaveasuserpage": "Salvestada raamatud kasutajaleheküljena",
 	"right-collectionsaveascommunitypage": "Salvestada raamat ühisleheküljena",
 	"coll-print_export": "Trüki või ekspordi",
@@ -146,5 +148,9 @@
 	"coll-not_addable": "Seda lehekülge ei saa lisada",
 	"coll-make_suggestions": "Paku lehekülgi",
 	"coll-make_suggestions_tooltip": "Näitab raamatusse lisatud lehekülgedel põhinevaid soovitusi",
-	"coll-suggest_empty": "tühi"
+	"coll-suggest_empty": "tühi",
+	"coll-setting-papersize": "Lehekülje suurus:",
+	"coll-setting-papersize-letter": "Kiri",
+	"coll-setting-showtoc": "Lisa sisukord",
+	"coll-setting-columns": "Veerge:"
 }
