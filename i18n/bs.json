@@ -60,7 +60,7 @@
 	"coll-save_collection": "Sačuvaj knjigu",
 	"coll-save_category": "Sve spremljene knjige su dodane u kategoriju [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]].",
 	"coll-overwrite_title": "Stranica postoji.\nPrepiši preko postojeće?",
-	"coll-overwrite_text": "Stranica pod imenom [[:$1]] već postoji.\nDa li želite da je zamijenite sa Vašom kolekcijom?",
+	"coll-overwrite_text": "Stranica pod imenom [[:$1]] već postoji.\nŽelite li je zamijeniti Vašom kolekcijom?",
 	"coll-yes": "Da",
 	"coll-no": "Ne",
 	"coll-load_overwrite_text": "Već imate neke stranice u Vašoj knjizi.\nDa li želite prepisati preko Vaše postojeće knjige, primjenite novi sadržaj ili odustanete od punjenja ove knjige?",
