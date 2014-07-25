@@ -415,8 +415,12 @@ class CollectionFinishedTemplate extends QuickTemplate {
 echo wfMessage( 'coll-rendering_finished_text', $this->data['download_url'] )->parseAsBlock();
 
 if ( $this->data['is_cached'] ) {
-	$forceRenderURL = SkinTemplate::makeSpecialUrl( 'Book', 'bookcmd=forcerender&' . $this->data['query'] );
-	echo wfMessage( 'coll-is_cached' )->rawParams( htmlspecialchars( $forceRenderURL ) )->parse();
+	$forceRenderURL = SkinTemplate::makeSpecialUrl(
+		'Book',
+		'bookcmd=forcerender&' . $this->data['query'],
+		PROTO_RELATIVE
+	);
+	echo wfMessage( 'coll-is_cached', $forceRenderURL )->parseAsBlock();
 }
 $t = Title::newFromText( $this->data['return_to'] );
 if ( $t && $t->isKnown() ) {
