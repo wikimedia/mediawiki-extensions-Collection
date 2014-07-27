@@ -109,7 +109,7 @@
 	"coll-suggest_article_remove": "Lehekülg <strong>$1</strong> on raamatust eemaldatud ($2).",
 	"coll-suggest_undo_tooltip": "Võta see toiming tagasi",
 	"coll-suggest_undo": "võta tagasi",
-	"coll-load_local_book": "Klõpsa \"OK\", et jätkata %NUMPAGES% vikilehekülge sisaldava raamatuga \"%TITLE%\". Klõpsa \"Cancel\", et see kustutada ja alustada uue tühja raamatuga.",
+	"coll-load_local_book": "Klõpsa \"Sobib\", et jätkata %NUMPAGES% vikilehekülge sisaldava raamatuga %TITLE%. Klõpsa \"Loobu\", et see kustutada ja alustada uue tühja raamatuga.",
 	"coll-format-rl": "e-raamat (PDF, mwlib-küljendus)",
 	"coll-format-epub": "e-raamat (EPUB)",
 	"coll-format-odf": "Tekstiprotsessor (OpenDocument)",

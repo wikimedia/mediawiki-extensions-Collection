@@ -171,5 +171,9 @@
 	"coll-setting-papersize": "Velikost papirja:",
 	"coll-setting-papersize-letter": "Pismo",
 	"coll-setting-showtoc": "Vključi kazalo vsebine",
-	"coll-setting-columns": "Stolpcev:"
+	"coll-setting-columns": "Stolpcev:",
+	"coll-attribution-anons": "Brezimni: $1",
+	"coll-attribution-page": "<h1>Viri besedila in slik, sodelavci in dovoljenja</h1>\n<h2>Besedilo</h2>\n$1<h2>Slike</h2>\n$2\n<h2>Dovoljenje vsebine</h2>\n$3",
+	"coll-article-attribution": "<b>$1</b> <i>Vir:</i> $2 <i>Sodelavci:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Vir:</i> $2 <i>Dovoljenje:</i> $3 <i>Sodelavci:</i> $4 <i>Izvirni umetnik:</i> $5"
 }
