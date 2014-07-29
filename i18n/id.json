@@ -94,7 +94,7 @@
 	"coll-download_notfound_text": "Berkas yang Anda coba unduh tidak ada: Mungkin sudah dihapus dan perlu dibuat ulang.",
 	"coll-download_failed_title": "Kesalahan selama pengunduhan",
 	"coll-download_failed_text": "Terjadi kesalahan ketika mengunduh berkas: $1",
-	"coll-is_cached": "<ul><li>Versi tersimpan dari dokumen ini telah ditemukan, sehingga tidak diperlukan pengolahan apa pun. <a href=\"$1\">Paksa pengolahan ulang.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Versi tersimpan dari dokumen ini telah ditemukan, sehingga tidak diperlukan pengolahan apa pun. [$1 Paksa pengolahan ulang.]</li></ul>",
 	"coll-excluded-templates": "* Templat di kategori [[:Category:$1|$1]] telah dikecualikan.",
 	"coll-blacklisted-templates": "* Templat pada daftar hitam[[:$1]] telah dikecualikan.",
 	"coll-book_title": "Pesan sebagai buku tercetak",

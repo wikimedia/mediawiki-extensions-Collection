@@ -101,7 +101,7 @@
 	"coll-download_notfound_text": "Filen du forsøker å laste ned finnes ikke: Kanskje den har blitt slettet eller trenger å bli regenerert.",
 	"coll-download_failed_title": "Feil under nedlasting",
 	"coll-download_failed_text": "Det oppsto en feil under nedlasting av filen: $1",
-	"coll-is_cached": "<ul><li>En mellomlagret versjon av dokumentet ble funnet, så ingen rendrering var nødvendig. <a href=\"$1\">Tving ny rendrering.</a></li></ul>",
+	"coll-is_cached": "<ul><li>En mellomlagret versjon av dokumentet ble funnet, så ingen rendrering var nødvendig. [$1 Tving ny rendrering.]</li></ul>",
 	"coll-excluded-templates": "* Maler i kategorien [[:Category:$1|$1]] har blitt utelatt.",
 	"coll-blacklisted-templates": "* Maler på svartelisten ([[:$1]]) har blitt utelatt.",
 	"coll-book_title": "Bestill som trykt bok",

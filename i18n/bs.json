@@ -87,7 +87,7 @@
 	"coll-download_notfound_text": "Datoteka koju pokušavate da skinete ne postoji: Možda je obrisana i treba biti regenerisana.",
 	"coll-download_failed_title": "Greška pri preuzimanju",
 	"coll-download_failed_text": "Desila se greška pri preuzimanju datoteke: $1",
-	"coll-is_cached": "<ul><li>Pronađena je keširana verzija dokumenta, tako da je ponovno iscrtavanje nepotrebno. <a href=\"$1\">Traži ponovno iscrtavanje.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Pronađena je keširana verzija dokumenta, tako da je ponovno iscrtavanje nepotrebno. [$1 Traži ponovno iscrtavanje.]</li></ul>",
 	"coll-excluded-templates": "* Šabloni u kategoriji [[:Category:$1|$1]] su isključeni.",
 	"coll-blacklisted-templates": "* Šabloni sa spiska nepoželjnih [[:$1]] su isključeni.",
 	"coll-book_title": "Naruči kao štampanu knjigu",

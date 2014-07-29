@@ -87,7 +87,7 @@
 	"coll-download_notfound_text": "તમે જે ફાઇલ ડાઉનલોડ કરવા માંગો છો તે અસ્તિત્વમાં નથી:\nકદાચ તે દૂર કરવામાં આવી છે અને તેને નવેસરથી બનાવવાની જરૂર છે.",
 	"coll-download_failed_title": "ડાઉનલોડ દરમ્યાન ત્રુટિ",
 	"coll-download_failed_text": "ફાઇલ $1 ડાઉનલોડ કરતાં ત્રુટિ ઉદ્ભવી છે",
-	"coll-is_cached": "<ul><li>A cached version of the document has been found, so no rendering was necessary.\n<a href=\"$1\">Force re-rendering.</a></li></ul>",
+	"coll-is_cached": "<ul><li>A cached version of the document has been found, so no rendering was necessary.\n[$1 Force re-rendering.]</li></ul>",
 	"coll-excluded-templates": "[[:Category:$1|$1]]માં રહેલા ઢાંચાઓ બાકાત રાખવામાં આવ્યાં છે.",
 	"coll-blacklisted-templates": "બ્લેકલિસ્ટ [[:$1]]માંના ઢાંચાઓ બાકાત રાખવામાં આવ્યા છે.",
 	"coll-book_title": "છાપેલા પુસ્તકની ફરમાયશ કરો",

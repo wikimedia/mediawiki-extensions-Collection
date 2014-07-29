@@ -86,7 +86,7 @@
 	"coll-download_notfound_text": "Súbor, ktorý sa pokúšate stiahnuť neexistuje: Možno bol zamzaný a je potrebné ho znova vytvoriť.",
 	"coll-download_failed_title": "Chyba počas sťahovania",
 	"coll-download_failed_text": "Vyskytla sa chyba počas sťahovania súboru: $1",
-	"coll-is_cached": "<ul><li>Bola nájdená verzia dokumentu vo vyrovnávacej pamäti, takže vykresľovanie nebolo potrebné. <a href=\"$1\">Vynútiť opätovné vykreslenie.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Bola nájdená verzia dokumentu vo vyrovnávacej pamäti, takže vykresľovanie nebolo potrebné. [$1 Vynútiť opätovné vykreslenie.]</li></ul>",
 	"coll-excluded-templates": "* Boli vynechané šablóny v kategórii [[:Category:$1|$1]].",
 	"coll-blacklisted-templates": "* Boli vynechané šablóny na čiernej listine [[:$1]].",
 	"coll-book_title": "Objednať ako tlačenú knihu",

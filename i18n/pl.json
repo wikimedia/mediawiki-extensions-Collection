@@ -97,7 +97,7 @@
 	"coll-download_notfound_text": "Plik, który próbujesz pobrać, nie istnieje. Prawdopodobnie został usunięty i wymaga ponownego wygenerowania.",
 	"coll-download_failed_title": "Błąd podczas pobierania",
 	"coll-download_failed_text": "Wystąpił błąd podczas pobierania pliku $1",
-	"coll-is_cached": "<ul><li>Dokument odnaleziono w pamięci podręcznej, więc nie ma potrzeby renderowania.\n<a href=\"$1\">Wymuś ponowne wygenerowanie.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Dokument odnaleziono w pamięci podręcznej, więc nie ma potrzeby renderowania.\n[$1 Wymuś ponowne wygenerowanie.]</li></ul>",
 	"coll-excluded-templates": "* Szablony w kategorii [[:Category:$1|$1]] zostały pominięte.",
 	"coll-blacklisted-templates": "* Szablony z czarnej listy [[:$1]] zostały pominięte.",
 	"coll-book_title": "Zamów w formie wydrukowanej książki",

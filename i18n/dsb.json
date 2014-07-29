@@ -93,7 +93,7 @@
 	"coll-download_notfound_text": "Dataja, kótaruž wopytujoš ześěgowaś, njeeksistěrujo: Snaź jo se wulašowała a musy se znowego napóraś.",
 	"coll-download_failed_title": "Zmólka pśi ześěgnjenju",
 	"coll-download_failed_text": "Pśi ześěgnjenju dataje jo zmólka nastała: $1",
-	"coll-is_cached": "<ul><li>Mjazyskładowana wersija dokumenta jo se namakała, tak až kreslenje njejo było trěbne. <a href=\"$1\">Kreslenje wunuziś.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Mjazyskładowana wersija dokumenta jo se namakała, tak až kreslenje njejo było trěbne. [$1 Kreslenje wunuziś.]</li></ul>",
 	"coll-excluded-templates": "* Pśedłogi w kategoriji [[:Category:$1|$1]] su se wuzamknuli.",
 	"coll-blacklisted-templates": "* Pśedłogi na cornej lisćinje [[:$1]] su se wuzamknuli.",
 	"coll-book_title": "Ako wuśišćane knigły skazaś",

@@ -100,7 +100,7 @@
 	"coll-download_notfound_text": "Tiedostoa, jota yritit ladata ei ole olemassa: Se on ehkä poistettu ja tarvitsee luoda uudelleen.",
 	"coll-download_failed_title": "Virhe ladatessa",
 	"coll-download_failed_text": "Virhe ladatessa tiedostoa: $1",
-	"coll-is_cached": "<ul><li>Dokumentti löytyi välimuistista, joten renderöintiä ei tarvittu. <a href=\"$1\">Pakota uudelleenrenderöinti.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Dokumentti löytyi välimuistista, joten renderöintiä ei tarvittu. [$1 Pakota uudelleenrenderöinti.]</li></ul>",
 	"coll-excluded-templates": "* Mallineet luokassa [[:Category:$1|$1]] on ohitettu.",
 	"coll-blacklisted-templates": "* Mallineet sulkulistalla [[:$1]] on ohitettu.",
 	"coll-book_title": "Tilaa painettuna kirjana",

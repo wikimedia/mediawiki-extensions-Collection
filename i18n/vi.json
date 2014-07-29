@@ -87,7 +87,7 @@
 	"coll-download_notfound_text": "Tập tin bạn đang cố gắng tải về không tồn tại: Có thể nó đã bị xóa và cần được khởi tạo lại.",
 	"coll-download_failed_title": "Có lỗi khi tải về",
 	"coll-download_failed_text": "Đã có lỗi xảy ra khi tải tập tin: $1",
-	"coll-is_cached": "<ul><li>Không cần kết xuất mới vì đã tìm thấy phiên bản trong bộ nhớ. <a href=\"$1\">Kết xuất lại.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Không cần kết xuất mới vì đã tìm thấy phiên bản trong bộ nhớ. [$1 Kết xuất lại.]</li></ul>",
 	"coll-excluded-templates": "* Các bản mẫu trong thể loại [[:Category:$1|$1]] được bỏ qua.",
 	"coll-blacklisted-templates": "* Các bản mẫu trùng với danh sách đen [[:$1]] được bỏ qua.",
 	"coll-book_title": "Đặt sách in",

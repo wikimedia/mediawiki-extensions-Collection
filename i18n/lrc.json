@@ -84,7 +84,7 @@
 	"coll-download_notfound_text": "The file you are trying to download does not exist:\nMaybe it has been deleted and needs to be regenerated.",
 	"coll-download_failed_title": "خطا د وخت گرتن",
 	"coll-download_failed_text": "د وخت گرتن فايل خطا پيش اومائه: $1",
-	"coll-is_cached": "<ul><li>A cached version of the document has been found, so no rendering was necessary.\n<a href=\"$1\">Force re-rendering.</a></li></ul>",
+	"coll-is_cached": "<ul><li>A cached version of the document has been found, so no rendering was necessary.\n[$1 Force re-rendering.]</li></ul>",
 	"coll-excluded-templates": "* قالبيا د دسه [[:Category:$1|$1]] اوسه شامل بيه.",
 	"coll-blacklisted-templates": "* قالبيا سی[[:$1]] همه ش تموم بيه.",
 	"coll-book_title": "سفارش بئيت چی كتاو چاپ بيه",

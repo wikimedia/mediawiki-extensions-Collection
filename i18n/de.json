@@ -108,7 +108,7 @@
 	"coll-download_notfound_text": "Die Datei, die du versuchst herunterzuladen, ist nicht vorhanden: Möglicherweise wurde sie gelöscht oder sie muss neu generiert werden.",
 	"coll-download_failed_title": "Fehler beim Herunterladen",
 	"coll-download_failed_text": "Beim Herunterladen der Datei ist ein Fehler aufgetreten: $1",
-	"coll-is_cached": "<ul><li>Es ist eine zwischengespeicherte Version des Dokumentes vorhanden, so dass kein Rendern notwendig war. <a href=\"$1\">Erneutes Rendern erzwingen.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Es ist eine zwischengespeicherte Version des Dokumentes vorhanden, so dass kein Rendern notwendig war. [$1 Erneutes Rendern erzwingen.]</li></ul>",
 	"coll-excluded-templates": "* Vorlagen in der Kategorie „[[:Category:$1|$1]]“ wurden ausgeschlossen.",
 	"coll-blacklisted-templates": "* Vorlagen in der Negativliste [[:$1]] wurden ausgeschlossen.",
 	"coll-book_title": "Als gedrucktes Buch bestellen",

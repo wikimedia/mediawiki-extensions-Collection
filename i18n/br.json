@@ -89,7 +89,7 @@
 	"coll-download_notfound_text": "O klask pellgargañ ur restr n'eus ket anezhi emaoc'h :\nMarteze eo bet diverket hag ezhomm zo he genel en-dro.",
 	"coll-download_failed_title": "Fazi e-ser pellgargañ",
 	"coll-download_failed_text": "Ur fazi zo bet e-ser pellgargañ ar restr : $1",
-	"coll-is_cached": "<ul><li>Kavet ez eus bet ur stumm krubuilhet eus an teul, setu n'eo ket bet dav amdreiñ.\n<a href=\"$1\">Amdreiñ dre ret.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Kavet ez eus bet ur stumm krubuilhet eus an teul, setu n'eo ket bet dav amdreiñ.\n[$1 Amdreiñ dre ret.]</li></ul>",
 	"coll-excluded-templates": "* N'eo ket bet kemeret patromoù zo e kont er rummad [[:Category:$1|$1]].",
 	"coll-blacklisted-templates": "* N'eo ket bet kemeret ar patromoù war al listenn zu e kont [[:$1]].",
 	"coll-book_title": "Urzhiañ dindan stumm ul levr moullet",
@@ -162,5 +162,6 @@
 	"coll-setting-papersize": "Ment ar paper :",
 	"coll-setting-papersize-letter": "Lizher",
 	"coll-setting-showtoc": "Enklozañ un daolenn",
-	"coll-setting-columns": "Bannoù :"
+	"coll-setting-columns": "Bannoù :",
+	"coll-attribution-anons": "Dizanv : $1"
 }

@@ -94,7 +94,7 @@
 	"coll-download_notfound_text": "O ficheiro que está intentando descargar non existe: talvez foi borrado e necesita ser rexerado.",
 	"coll-download_failed_title": "Produciuse un erro durante a descarga",
 	"coll-download_failed_text": "Houbo un erro durante a descarga do ficheiro: $1",
-	"coll-is_cached": "<ul><li>Atopouse unha versión do documento na memoria caché, polo que non vai ser necesaria a renderización. <a href=\"$1\">Forzala.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Atopouse unha versión do documento na memoria caché, polo que non vai ser necesaria a renderización. [$1 Forzar a renderización.]</li></ul>",
 	"coll-excluded-templates": "* O modelos que están na categoría \"[[:Category:$1|$1]]\" foron excluídos.",
 	"coll-blacklisted-templates": "* O modelos da lista negra \"[[:$1]]\" foron excluídos.",
 	"coll-book_title": "Encargar como un libro impreso",

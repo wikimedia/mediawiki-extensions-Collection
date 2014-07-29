@@ -115,7 +115,7 @@
 	"coll-download_notfound_text": "El archivo que estás tratando de descargar no existe: Puede ser que haya sido borrado y necesite ser regenerado.",
 	"coll-download_failed_title": "Error durante descarga",
 	"coll-download_failed_text": "Hubo un error cuando se descargaba el archivo: $1",
-	"coll-is_cached": "<ul><li>Se ha encontrado una versión procesada del documento, por lo que no es necesario procesarlo. <a href=\"$1\">Forzar reprocesado.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Se ha encontrado una versión procesada del documento, por lo que no es necesario procesarlo. [$1 Forzar reprocesado.]</li></ul>",
 	"coll-excluded-templates": "* Se han excluido las plantillas de la categoría [[:Category:$1|$1]].",
 	"coll-blacklisted-templates": "* Se han excluido las plantillas [[:$1]] por estar en la lista negra.",
 	"coll-book_title": "Solicitar el libro impreso",

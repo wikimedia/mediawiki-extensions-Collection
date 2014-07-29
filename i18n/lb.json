@@ -88,7 +88,7 @@
 	"coll-download_notfound_text": "De Fichier deen Dir versicht erofzeluede gëtt et net: Méiglecherweis gouf e geläscht a muss nees generéiert ginn.",
 	"coll-download_failed_title": "Feeler beim eroflueden",
 	"coll-download_failed_text": "Et gouf e Feeler beim erofluede vum Fichier: $1",
-	"coll-is_cached": "<ul><li>Eng tëschegespäichert Versioun vum dkument gouf fonnt, dofir war kee ''rendering'' néideg.\n<a href=\"$1\">''re-rendering'' erzwengen.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Eng tëschegespäichert Versioun vum dkument gouf fonnt, dofir war kee ''rendering'' néideg.\n[$1 ''re-rendering'' erzwengen.]</li></ul>",
 	"coll-excluded-templates": "* Schablounen aus der Kategorie [[:Category:$1|$1]] goufen ausgeschloss",
 	"coll-blacklisted-templates": "* Schablounen op der schwaarzer Lëscht (blacklist) [[:$1]] goufen ausgeschloss.",
 	"coll-book_title": "Als gedréckte Buch bestellen",

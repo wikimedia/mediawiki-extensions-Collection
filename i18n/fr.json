@@ -111,7 +111,7 @@
 	"coll-download_notfound_text": "Le fichier que vous essayez de télécharger n’existe pas : il a peut-être été supprimé et doit être généré à nouveau.",
 	"coll-download_failed_title": "Erreur lors du téléchargement",
 	"coll-download_failed_text": "Une erreur est survenue pendant le téléchargement du fichier : $1",
-	"coll-is_cached": "<ul><li>Une version en cache du document a été trouvée, aussi aucun rendu n’était nécessaire. <a href=\"$1\">Forcer un nouveau rendu.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Une version en cache du document a été trouvée, aussi aucun rendu n’était nécessaire. [$1 Forcer un nouveau rendu.]</li></ul>",
 	"coll-excluded-templates": "* Des modèles de la catégorie [[:Category:$1|$1]] ont été exclus.",
 	"coll-blacklisted-templates": "* Des modèles de la liste noire ([[:$1]]) ont été exclus.",
 	"coll-book_title": "Commander sous la forme d’un livre imprimé",

@@ -104,7 +104,7 @@
 	"coll-download_notfound_text": "你正在尝试下载的文件不存在：可能该文件已被删除，需要重新生成。",
 	"coll-download_failed_title": "下载出错",
 	"coll-download_failed_text": "下载该文件时出错：$1",
-	"coll-is_cached": "<ul><li>发现该文件的缓存版本。不需要重新生成该文件。<a href=\"$1\">强制重新生成。</a></li></ul>",
+	"coll-is_cached": "<ul><li>发现该文件的缓存版本。不需要重新生成该文件。[$1 强制重新生成。]</li></ul>",
 	"coll-excluded-templates": "*已排除[[:Category:$1|$1]]分类中的模板。",
 	"coll-blacklisted-templates": "*已排除黑名单[[:$1]]上的模板。",
 	"coll-book_title": "订购印刷图书",

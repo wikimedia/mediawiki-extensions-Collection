@@ -97,7 +97,7 @@
 	"coll-download_notfound_text": "Soubor, který se snažíte stáhnout, neexistuje: Možná byl smazán a je potřeba ho znovu vytvořit.",
 	"coll-download_failed_title": "Chyba při stahování",
 	"coll-download_failed_text": "Při stahování souboru došlo k chybě: $1",
-	"coll-is_cached": "<ul><li>Byla nalezena cachovaná verze tohoto dokumentu, takže nebylo třeba vykreslovat. <a href=\"$1\">Vynutit nové vykreslení.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Byla nalezena cachovaná verze tohoto dokumentu, takže nebylo třeba vykreslovat. [$1 Vynutit nové vykreslení.]</li></ul>",
 	"coll-excluded-templates": "* Šablony v kategorii [[:Category:$1|$1]] byly vynechány.",
 	"coll-blacklisted-templates": "* Šablony na černé listině [[:$1]] byly vynechány.",
 	"coll-book_title": "Objednat jako tištěnou knihu",

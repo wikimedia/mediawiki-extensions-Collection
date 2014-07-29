@@ -87,7 +87,7 @@
 	"coll-download_notfound_text": "Hindi umiiral ang talaksang sinusubok mong ikargang pababa: Binura na ito marahil at kinakailangang muling likhain.",
 	"coll-download_failed_title": "Kamalian habang ikinakargang-pababa",
 	"coll-download_failed_text": "Mayroon kamalian habang kinakargang pababa ang talaksan: $1",
-	"coll-is_cached": "<ul><li>Natagpuan ang isang nakatagong bersyon ng kasulatan (dokumento), kaya't hindi na kailangan pa ang \"paghahain\". <a href=\"$1\">Pilitin ang muling paghahain.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Natagpuan ang isang nakatagong bersyon ng kasulatan (dokumento), kaya't hindi na kailangan pa ang \"paghahain\". [$1 Pilitin ang muling paghahain.]</li></ul>",
 	"coll-excluded-templates": "* Hindi isinali ang mga suleras na nasa kauriang [[:Category:$1|$1]].",
 	"coll-blacklisted-templates": "* Hindi isinali ang mga suleras na nasa talaan ng mga pinagbabawalan [[:$1]]",
 	"coll-book_title": "Orderin bilang isang nakalimbag na aklat",

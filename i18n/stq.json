@@ -62,7 +62,7 @@
 	"coll-notfound_title": "Bouk nit fuunen",
 	"coll-notfound_text": "Dien Bouk kuud nit fuunen wäide.",
 	"coll-download_notfound_title": "Doatäi nit fuunen",
-	"coll-is_cached": "<ul><li>Der is ne twiskespiekerde Version fon dät Dokument foarhounden, so dät neen Renderjen nöödich waas. <a href=\"$1\">Näiränderjen outwinge.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Der is ne twiskespiekerde Version fon dät Dokument foarhounden, so dät neen Renderjen nöödich waas. [$1 Näiränderjen outwinge.]</li></ul>",
 	"coll-excluded-templates": "* Foarloagen uut ju Kategorie [[:Category:$1|$1]] wuuden uutsleeten.",
 	"coll-blacklisted-templates": "* Foarloagen fon ju swotte Lieste [[:$1]] wuuden uutsleeten.",
 	"coll-book_title": "As drukt Bouk bestaale",

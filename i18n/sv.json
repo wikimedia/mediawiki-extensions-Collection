@@ -108,7 +108,7 @@
 	"coll-download_notfound_text": "Filen du försöker ladda ner finns inte: den kan ha raderats och behöver återskapas.",
 	"coll-download_failed_title": "Fel under nedladdning",
 	"coll-download_failed_text": "Det blev ett fel vid nedladdning av filen: $1",
-	"coll-is_cached": "<ul><li>En cachad version av dokumentet har hittats, så ingen rendering behövdes. <a href=\"$1\">Framtvinga omrendering.</a></li></ul>",
+	"coll-is_cached": "<ul><li>En cachad version av dokumentet har hittats, så ingen rendering behövdes. [$1 Framtvinga omrendering.]</li></ul>",
 	"coll-excluded-templates": "* Mallar i kategorin [[:Category:$1|$1]] har uteslutits.",
 	"coll-blacklisted-templates": "* Mallar på svartalistan [[:$1]] har uteslutits.",
 	"coll-book_title": "Beställ som en utskriven bok",

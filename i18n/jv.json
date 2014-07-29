@@ -88,7 +88,7 @@
 	"coll-download_notfound_text": "Berkas sing arep Sampéyan undhuh ora ana:\nMungkin wis dibusak lan butuh digawé manèh.",
 	"coll-download_failed_title": "Kasalahan nalika ngundhuh",
 	"coll-download_failed_text": "Ana kasalahan nalika ngundhuh berkas: $1",
-	"coll-is_cached": "<ul><li>Dokumèn vèrsi ''cache'' wis ditemokaké, mula ora perlu ana pangowahan (''rendering''). <a href=\"$1\">Peksa ''re-rendering''.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Dokumèn vèrsi ''cache'' wis ditemokaké, mula ora perlu ana pangowahan (''rendering''). [$1 Peksa ''re-rendering''.]</li></ul>",
 	"coll-excluded-templates": "* Cithakan-cithakan ing kategori [[:Category:$1|$1]] wis di wetokaké.",
 	"coll-blacklisted-templates": "* Cithakan-cithakan ing dhaptar-ireng [[:$1]] wis diwetokaké.",
 	"coll-book_title": "Urut kaya buku cithakan",

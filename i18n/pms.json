@@ -86,7 +86,7 @@
 	"coll-download_notfound_text": "L'archivi ch'a preuva a dëscarié a esist pa.\nA peul esse ch'a sia stàit scancelà e ch'a venta torna generelo.",
 	"coll-download_failed_title": "Eror durant ël dëscariament.",
 	"coll-download_failed_text": "A l'é staje n'eror durant ël dëscariament ëd l'archivi: $1",
-	"coll-is_cached": "<ul><li>A l'é trovasse na version memorisà dël document, parèj a- é pa damanca ëd conversion.\n<a href=\"$1\">Forsé la conversion.</a></li></ul>",
+	"coll-is_cached": "<ul><li>A l'é trovasse na version memorisà dël document, parèj a- é pa damanca ëd conversion.\n[$1 Forsé la conversion.]</li></ul>",
 	"coll-excluded-templates": "* Jë stamp an categorìa [[:Category:$1|$1]] a son ëstàit escludù.",
 	"coll-blacklisted-templates": "* Jë stamp ant la lista nèira [[:$1]] a son ëstàit escludù.",
 	"coll-book_title": "Órdina com un lìber stampà",

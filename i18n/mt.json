@@ -87,7 +87,7 @@
 	"coll-download_notfound_text": "Il-fajl li qiegħed tipprova tniżżel ma jeżistx; jista' jkun li ġie mħassar u għandu jerġa' jiġi ġġenerat.",
 	"coll-download_failed_title": "Żball fit-tniżżil tal-fajl",
 	"coll-download_failed_text": "Kien hemm żball matul it-tniżżil tal-fajl: $1",
-	"coll-is_cached": "<ul><li>Verżjoni tad-dokument instabet fil-''cache'' u għalhekk il-konverżjoni ma kinitx neċessarja.\n<a href=\"$1\">Erġa' kkonverti.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Verżjoni tad-dokument instabet fil-''cache'' u għalhekk il-konverżjoni ma kinitx neċessarja.\n[$1 Erġa' kkonverti.]</li></ul>",
 	"coll-excluded-templates": "* Mudelli fil-kategorija [[:Category:$1|$1]] ġew esklużi.",
 	"coll-blacklisted-templates": "* Mudelli fil-lista s-sewda [[:$1]] ġew esklużi.",
 	"coll-book_title": "Ordnah bħala ktieb stampat",

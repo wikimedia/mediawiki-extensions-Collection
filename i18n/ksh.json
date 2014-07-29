@@ -87,7 +87,7 @@
 	"coll-download_notfound_text": "Di Dattei, di De eronger laade wells, di jidd_et jaa_nit: müjjelesch, dat se fottjeschmeße wood, un neu opjebout wääde moß.",
 	"coll-download_failed_title": "Fähler beim eronger Laade",
 	"coll-download_failed_text": "Ene Fähler es opjetrodde beim eronger Laade vun dä Dattei „$1“",
-	"coll-is_cached": "<ul><li>Mer han en Version fun dämm Dokkemänt em ZwescheShpeicher, et moot nit widder neu ußjejovve wääde. <a href=\"$1\">Doch neu widder ußjevve.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Mer han en Version fun dämm Dokkemänt em ZwescheShpeicher, et moot nit widder neu ußjejovve wääde. [$1 Doch neu widder ußjevve.]</li></ul>",
 	"coll-excluded-templates": "* De Schablone us dä Saachjropp [[:Category:$1|$1]] wore ußjeschloße.",
 	"coll-blacklisted-templates": "* Schabloone en de „Schwatze Leß“ ([[:$1]]) sin nit met dobei.",
 	"coll-book_title": "Donn der Drock vun däm Booch beshtälle",

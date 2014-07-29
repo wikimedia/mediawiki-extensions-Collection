@@ -85,7 +85,7 @@
 	"coll-download_notfound_text": "Fila du freistar å lasta ned finst ikkje: kan henda er ho vorten sletta og treng å verta regenerert.",
 	"coll-download_failed_title": "Feil i løpet av nedlastinga",
 	"coll-download_failed_text": "Det vart ein feil i samband med nedlasdting av fila: $1",
-	"coll-is_cached": "<ul><li>Ein mellomlagra versjon av dokumentet vart funnen, so ingen rendering var naudsynleg. <a href=\"$1\">Tving ny rendering.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Ein mellomlagra versjon av dokumentet vart funnen, so ingen rendering var naudsynleg. [$1 Tving ny rendering.]</li></ul>",
 	"coll-excluded-templates": "* Malar i kategorien [[:Category:$1|$1]] har vorte utelatne.",
 	"coll-blacklisted-templates": "* Malar på svartelista ([[:$1]]) har vorte utelatne.",
 	"coll-book_title": "Ting som ei trykt bok",

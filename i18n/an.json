@@ -85,7 +85,7 @@
 	"coll-download_notfound_text": "O fichero que ye mirando de descargar no existe: Puede estar que haiga estau borrau y amenista rechenerar-se.",
 	"coll-download_failed_title": "Error entre a descarga",
 	"coll-download_failed_text": "I habió una error quan se descargaba o fichero: $1",
-	"coll-is_cached": "<ul><li>S'ha trobau una versión procesada d'o documento, por o qual no ye necesario procesar-lo. <a href=\"$1\">Forzar reprocesau.</a></li></ul>",
+	"coll-is_cached": "<ul><li>S'ha trobau una versión procesada d'o documento, por o qual no ye necesario procesar-lo. [$1 Forzar reprocesau.]</li></ul>",
 	"coll-excluded-templates": "* S'han excluiu as plantillas d'a categoría [[:Category:$1|$1]].",
 	"coll-blacklisted-templates": "* S'han excluiu as plantillas [[:$1]] en estar en a lista negra.",
 	"coll-book_title": "Encargar o libro impreso",

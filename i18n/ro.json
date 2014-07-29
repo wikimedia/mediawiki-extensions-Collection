@@ -91,7 +91,7 @@
 	"coll-download_notfound_text": "Fișierul pe care încercați să îl descărcați nu există:\nEste posibil ca acesta să fi fost șters și trebuie regenerat.",
 	"coll-download_failed_title": "Eroare în timpul descărcării",
 	"coll-download_failed_text": "S-a produs o eroare în timpul descărcării fișierului: $1",
-	"coll-is_cached": "<ul><li>O versiune din cache a documentului a fost găsită, deci nu a mai fost necesară o regenerare.\n<a href=\"$1\">Forțează regenerarea.</a></li></ul>",
+	"coll-is_cached": "<ul><li>O versiune din cache a documentului a fost găsită, deci nu a mai fost necesară o regenerare.\n[$1 Forțează regenerarea.]</li></ul>",
 	"coll-excluded-templates": "* Formatele din categoria [[:Category:$1|$1]] au fost excluse.",
 	"coll-blacklisted-templates": "* Formatele aflate în lista neagră de la [[:$1]] au fost excluse.",
 	"coll-book_title": "Comandarea ca document tipărit",

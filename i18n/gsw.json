@@ -87,7 +87,7 @@
 	"coll-download_notfound_text": "D Datei, wu Du versuechsch abezlade, git s nit: Villicht isch si glescht wore oder si muess nej generiert wäre.",
 	"coll-download_failed_title": "Fähler bim Abelade",
 	"coll-download_failed_text": "S het e Fähler gee bim Abelade vu dr Datei: $1",
-	"coll-is_cached": "<ul><li>S git e Version vum Dokumänt, wu zwischegspycheret isch, so dass kei Erstellig notwändig gsi isch (<a href=\"$1\">Nejerstellig erzwinge</a>).</li></ul>",
+	"coll-is_cached": "<ul><li>S git e Version vum Dokumänt, wu zwischegspycheret isch, so dass kei Erstellig notwändig gsi isch ([$1 Nejerstellig erzwinge]).</li></ul>",
 	"coll-excluded-templates": "* Vorlage us dr Kategorii [[:Category:$1|$1]] sin usgschlosse wore.",
 	"coll-blacklisted-templates": "* Vorlage vu dr Schwarze Lischt [[:$1]] sin usgschlosse wore.",
 	"coll-book_title": "As druckts Buech bstelle",

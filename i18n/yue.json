@@ -66,7 +66,7 @@
 	"coll-rendering_finished_text": "<strong>個文件檔已經生成好。</strong>\n<strong>[$1 下載個檔案]</strong>到你嘅電腦。\n\n留意:\n* 對個輸出唔滿意？睇[[{{MediaWiki:Coll-helppage}}|書幫手版]]去改善佢。",
 	"coll-notfound_title": "搵唔到書",
 	"coll-notfound_text": "搵唔到書版。",
-	"coll-is_cached": "<ul><li>搵到個文件嘅快取版，唔需要重新生成過。<a href=\"$1\">強制重新生成。</a></li></ul>",
+	"coll-is_cached": "<ul><li>搵到個文件嘅快取版，唔需要重新生成過。[$1 強制重新生成。]</li></ul>",
 	"coll-excluded-templates": "* 響[[:Category:$1|$1]]分類上面嘅模已經排除。",
 	"coll-blacklisted-templates": "* 響[[:$1]]黑名單上面嘅嘢已經排除。",
 	"coll-book_title": "柯打一本印刷書",

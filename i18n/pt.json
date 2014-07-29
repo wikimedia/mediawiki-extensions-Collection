@@ -108,7 +108,7 @@
 	"coll-download_notfound_text": "O ficheiro que está a tentar descarregar não existe:\nTalvez tenha sido apagado e precise de ser regenerado.",
 	"coll-download_failed_title": "Erro durante o descarregamento",
 	"coll-download_failed_text": "Ocorreu um erro ao descarregar o ficheiro: $1",
-	"coll-is_cached": "<ul><li>Foi encontrada uma versão deste documento em cache, dispensando a sua composição.\n<a href=\"$1\">Forçar nova composição.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Foi encontrada uma versão deste documento em cache, dispensando a sua composição.\n[$1 Forçar nova composição.]</li></ul>",
 	"coll-excluded-templates": "* As predefinições na categoria [[:Category:$1|$1]] foram excluídas.",
 	"coll-blacklisted-templates": "* As predefinições na lista negra [[:$1]] foram excluídas.",
 	"coll-book_title": "Encomendar como livro impresso",

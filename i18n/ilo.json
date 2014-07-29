@@ -85,7 +85,7 @@
 	"coll-download_notfound_text": "Ti papeles nga padpadasem nga ikarga ket awanen:\nBaka naikkaten ken masapul a maaramid.",
 	"coll-download_failed_title": "Biddut idi agkarkarga",
 	"coll-download_failed_text": "Addan ti biddut idi agkarkarga ti papeles: $1",
-	"coll-is_cached": "<ul><li>Addan ti naidulin a bersion iti daytoy a dokumento,saanen a masapul a ipaay.\n<a href=\"$1\">Pilitem ti agipaay.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Addan ti naidulin a bersion iti daytoy a dokumento,saanen a masapul a ipaay.\n[$1 Pilitem ti agipaay.]</li></ul>",
 	"coll-excluded-templates": "* Dagiti plantilia iti kategoria [[:Category:$1|$1]] ket saanen a nairaman.",
 	"coll-blacklisted-templates": "* Dagiti plantili iti blacklist [[:$1]] ket saanen a nairaman.",
 	"coll-book_title": "Agbilin a kasla iti naimaldit a libro",

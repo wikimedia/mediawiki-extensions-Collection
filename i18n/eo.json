@@ -91,7 +91,7 @@
 	"coll-download_notfound_text": "La dosiero kiun vi celas elŝuti ne ekzistas. Eble ĝi estis forigita kaj bezonas esti regenerata.",
 	"coll-download_failed_title": "Eraro dum elŝuto",
 	"coll-download_failed_text": "Estis eraro kiam elŝutante la dosieron: $1",
-	"coll-is_cached": "<ul><li>Kaŝmemora versio de la dokumento estis trovita, tial bildigado ne bezonis.<a href=\"$1\">Devigi re-bildigadon.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Kaŝmemora versio de la dokumento estis trovita, tial bildigado ne bezonis.[$1 Devigi re-bildigadon.]</li></ul>",
 	"coll-excluded-templates": "* Ŝablonoj en kategorio [[:Category:$1|$1]] estis ekskluzivita.",
 	"coll-blacklisted-templates": "* Ŝablonoj en nigralisto [[:$1]] estis malebligitaj.",
 	"coll-book_title": "Mendi kiel presitan libron",

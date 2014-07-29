@@ -87,7 +87,7 @@
 	"coll-download_notfound_text": "El file che te sì drio descargar no l'esiste mia; podarìa èssar che el sìpia stà scancelà e se gàvia da creàrlo da novo.",
 	"coll-download_failed_title": "Eròr durante el descargamento",
 	"coll-download_failed_text": "Xe capità un eròr co te geri drio descargar el file: $1",
-	"coll-is_cached": "<ul><li>In te la cache xe stà catà na version del documento, quindi no ghè stà bisogno de far la conversion. <a href=\"$1\">Forza la ri-conversion.</a></li></ul>",
+	"coll-is_cached": "<ul><li>In te la cache xe stà catà na version del documento, quindi no ghè stà bisogno de far la conversion. [$1 Forza la ri-conversion.]</li></ul>",
 	"coll-excluded-templates": "* I modèi in te la categoria [[:Category:$1|$1]] i xe stà esclusi.",
 	"coll-blacklisted-templates": "* I modèi in te la lista nera [[:$1]] i xe stà esclusi.",
 	"coll-book_title": "Ordina come libro stanpà",

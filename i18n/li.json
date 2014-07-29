@@ -86,7 +86,7 @@
 	"coll-download_notfound_text": "'t Bestandj det se perbieërs óp te haole besteit neet: Mesjiens is 't gewösj èn mót 't ópnuuj gemaak waere.",
 	"coll-download_failed_title": "Fout bie t downloade",
 	"coll-download_failed_text": "d'r Is 'n fout opgetraoje bie 't downloade: $1",
-	"coll-is_cached": "<ul><li>d'r Is 'n versje ven 't dokument besjikber inne cache, dös opnuuj rendere woor neet neudig.\n<a href=\"$1\">Opnuuj rendere.</a></li></ul>",
+	"coll-is_cached": "<ul><li>d'r Is 'n versje ven 't dokument besjikber inne cache, dös opnuuj rendere woor neet neudig.\n[$1 Opnuuj rendere.]</li></ul>",
 	"coll-excluded-templates": "* Sjeblone in de categorie [[:Category:$1|$1]] waere genegeerdj.",
 	"coll-blacklisted-templates": "* Sjebloeaner óppe zwarte lies [[:$1]] waere genegeerdj.",
 	"coll-book_title": "Bestèl es gedrök book",

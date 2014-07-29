@@ -89,7 +89,7 @@
 	"coll-download_notfound_text": "A fájl, amit megpróbáltál letölteni, nem létezik. Valószínűleg törölve lett, így újra el kell készíteni.",
 	"coll-download_failed_title": "Hiba a letöltés közben",
 	"coll-download_failed_text": "Hiba történt a fájl letöltése közben: $1",
-	"coll-is_cached": "<ul><li>Sikerült megtalálni a dokumentum egy gyorsítótárazott változatát, így nem kellett újra elkészíteni.<a href=\"$1\">Mindenképpen készítse el újra.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Sikerült megtalálni a dokumentum egy gyorsítótárazott változatát, így nem kellett újra elkészíteni.[$1 Mindenképpen készítse el újra.]</li></ul>",
 	"coll-excluded-templates": "A(z) [[:Category:$1|$1]] kategóriában lévő sablonok figyelmen kívül lettek hagyva.",
 	"coll-blacklisted-templates": "* A(z) [[:$1]] feketelistán található sablonok figyelmen kívül lettek hagyva.",
 	"coll-book_title": "Megrendelés nyomtatott könyvként",

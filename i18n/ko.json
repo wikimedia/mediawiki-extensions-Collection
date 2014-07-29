@@ -99,7 +99,7 @@
 	"coll-download_notfound_text": "다운로드 받을 파일이 없습니다: 파일을 지웠을 가능성이 있으며, 다시 만들 필요가 있습니다.",
 	"coll-download_failed_title": "다운로드 중 오류",
 	"coll-download_failed_text": "파일을 다운로드하는 중 오류가 있었습니다: $1",
-	"coll-is_cached": "<ul><li>이 문서의 캐시된 버전이 발견되었습니다. 따라서 다시 렌더링하지 않으셔도 됩니다. <a href=\"$1\">다시 렌더링하기</a></li></ul>",
+	"coll-is_cached": "<ul><li>이 문서의 캐시된 버전이 발견되었습니다. 따라서 다시 렌더링하지 않으셔도 됩니다. [$1 다시 렌더링하기]</li></ul>",
 	"coll-excluded-templates": "* [[:Category:$1|$1]] 분류에 속한 틀은 제외되었습니다.",
 	"coll-blacklisted-templates": "* 틀 블랙리스트 [[:$1]]에 있는 틀은 제외되었습니다.",
 	"coll-book_title": "인쇄된 책으로 주문",

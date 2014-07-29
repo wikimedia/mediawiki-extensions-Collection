@@ -102,7 +102,7 @@
 	"coll-download_notfound_text": "הקובץ שאתם מנסים להוריד לא נמצא: ייתכן שהוא נמחק ויש ליצור אותו מחדש.",
 	"coll-download_failed_title": "שגיאה במהלך ההורדה",
 	"coll-download_failed_text": "אירעה שגיאה בעת הורדת הקובץ: $1",
-	"coll-is_cached": "<ul><li>גרסה שמורה של המסמך נמצאה, כך שאין צורך ביצירתו. <a href=\"$1\">יצירה מחדש.</a></li></ul>",
+	"coll-is_cached": "<ul><li>גרסה שמורה של המסמך נמצאה, כך שאין צורך ביצירתו. [$1 יצירה מחדש.]</li></ul>",
 	"coll-excluded-templates": "* תבניות בקטגוריה [[:Category:$1|$1]] אינן כלולות.",
 	"coll-blacklisted-templates": "* תבניות ברשימה השחורה [[:$1]] אינן כלולות.",
 	"coll-book_title": "הזמנה כספר מודפס",

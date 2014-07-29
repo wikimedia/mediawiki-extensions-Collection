@@ -106,7 +106,7 @@
 	"coll-download_notfound_text": "您正在嘗試下載的檔案不存在：\n可能已被刪除，需要重新產生。",
 	"coll-download_failed_title": "下載發生錯誤",
 	"coll-download_failed_text": "下載檔案發生錯誤：$1",
-	"coll-is_cached": "<ul><li>找到文件的快取版本，無需重新產生。\n<a href=\"$1\">強制重新產生。</a></li></ul>",
+	"coll-is_cached": "<ul><li>找到文件的快取版本，無需重新產生。\n[$1 強制重新產生。]</li></ul>",
 	"coll-excluded-templates": "* 於分類 [[:Category:$1|$1]] 中的樣版已被排除。",
 	"coll-blacklisted-templates": "* 由封鎖清單 [[:$1]] 上的樣版已被排除。",
 	"coll-book_title": "訂購實體書籍",

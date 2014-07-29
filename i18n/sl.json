@@ -96,7 +96,7 @@
 	"coll-download_notfound_text": "Datoteka, ki jo poskušate prenesti ne obstaja:\nMorda je bila izbrisana in jo je potrebno regenerirati.",
 	"coll-download_failed_title": "Napaka med prenosom",
 	"coll-download_failed_text": "Pri prenosu datoteke je prišlo do napake: $1",
-	"coll-is_cached": "<ul><li>Najdena je bila shranjena različica tega dokumenta, zato upodabljanje ni bilo potrebno. <a href=\"$1\">Vsili ponovno upodabljanje.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Najdena je bila shranjena različica tega dokumenta, zato upodabljanje ni bilo potrebno. [$1 Vsili ponovno upodabljanje.]</li></ul>",
 	"coll-excluded-templates": "* Predloge v kategoriji [[:Category:$1|$1]] so izključene.",
 	"coll-blacklisted-templates": "* Predloge na črnem seznamu [[:$1]] so izključene.",
 	"coll-book_title": "Naroči kot tiskano knjigo",

@@ -92,7 +92,7 @@
 	"coll-download_notfound_text": "Dataja, kotruž pospytuješ sćahować, njeeksistuje: Snano bu wona wušmórnjena a dyrbi so znowa wutworić.",
 	"coll-download_failed_title": "Zmylk při sćehnjenju",
 	"coll-download_failed_text": "Při sćehnjenju dataje je zmylk wustupił: $1",
-	"coll-is_cached": "<ul><li>Pufrowana wersija dokumenta bu namakana, tohodla tworjenje njeje trěbne było. <a href=\"$1\">Znowatworjenje wunuzować.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Pufrowana wersija dokumenta bu namakana, tohodla tworjenje njeje trěbne było. [$1 Znowatworjenje wunuzować.]</li></ul>",
 	"coll-excluded-templates": "* Předłohi w kategoriji [[:Category:$1|$1]] buchu wuzamknjene.",
 	"coll-blacklisted-templates": "* Předłohi na čornej lisćinje [[:$1]] buchu wuzamknjene.",
 	"coll-book_title": "Jako wućišćanu knihu skazać",

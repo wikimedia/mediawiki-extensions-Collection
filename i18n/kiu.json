@@ -87,7 +87,7 @@
 	"coll-download_notfound_text": "Dosyayê ke ti wazeno bar bike îtiya de çini yo:\nBelki o dosya esteriyayo u gani reyna viraziyayo.",
 	"coll-download_failed_title": "Bar kerdişî de ğeletî biyo",
 	"coll-download_failed_text": "Ma key dosya bar kerdî, yew ğelet biyo: $1",
-	"coll-is_cached": "<ul><li>Ma yew versiyonê cachedî nidiy, aye ra ma gani render kerd.\n<a href=\"$1\">Reyna Render bike.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Ma yew versiyonê cachedî nidiy, aye ra ma gani render kerd.\n[$1 Reyna Render bike.]</li></ul>",
 	"coll-excluded-templates": "* Templatanê ke ho ho caetegoriyê [[:Category:$1|$1]]î de înan de nikerd.",
 	"coll-blacklisted-templates": "* Templatanê ke ho listeyê ma siyayî [[:$1]] de înan de nikerd.",
 	"coll-book_title": "Kitab çap bike u hind sipariş bike",

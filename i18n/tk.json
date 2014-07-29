@@ -82,7 +82,7 @@
 	"coll-download_notfound_text": "Göçürip aljak bolýan faýlyňyz ýok: Ol öçürilendir ýa-da täzeden döredilmelidir.",
 	"coll-download_failed_title": "Düşürilýän mahaly säwlik",
 	"coll-download_failed_text": "Faýl düşürilýärkä säwlik döredi: $1",
-	"coll-is_cached": "<ul><li>Bu dokumantiň keşli wersiýasy tapyldy, şol sebäpli ony işlemek gerek bolmady. <a href=\"$1\">Şonda-da täzeden işletdir.</a></li></ul>",
+	"coll-is_cached": "<ul><li>Bu dokumantiň keşli wersiýasy tapyldy, şol sebäpli ony işlemek gerek bolmady. [$1 Şonda-da täzeden işletdir.]</li></ul>",
 	"coll-excluded-templates": "* [[:Category:$1|$1]] kategoriýasyndaky şablonlar degişli edilmedi.",
 	"coll-blacklisted-templates": "* [[:$1]] gara sanawyndaky şablonlar degişli edilmedi.",
 	"coll-book_title": "Çap edilen kitap hökmünde buýurma ber",
