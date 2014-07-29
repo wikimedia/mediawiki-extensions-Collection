@@ -1041,9 +1041,9 @@ class SpecialCollection extends SpecialPage {
 
 		$query = 'bookcmd=rendering'
 			. '&return_to=' . urlencode( $request->getVal( 'return_to', '' ) )
-			. '&collection_id=' . urlencode( $response['collection_id'] )
-			. '&writer=' . urlencode( $response['writer'] );
-		if ( $response['is_cached'] ) {
+			. '&collection_id=' . urlencode( $response->response['collection_id'] )
+			. '&writer=' . urlencode( $response->response['writer'] );
+		if ( $response->response['is_cached'] ) {
 			$query .= '&is_cached=1';
 		}
 		$this->getOutput()->redirect( SkinTemplate::makeSpecialUrl( 'Book', $query ) );
