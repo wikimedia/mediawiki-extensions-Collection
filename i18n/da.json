@@ -6,7 +6,8 @@
 			"Hylle",
 			"Jon Harald Søby",
 			"Peter Alberti",
-			"Thomas81"
+			"Thomas81",
+			"Thomsen"
 		]
 	},
 	"coll-desc": "[[Special:Book|Skab bøger]]",
@@ -118,12 +119,13 @@
 	"coll-suggest_undo_tooltip": "Fortryd denne handling",
 	"coll-suggest_undo": "fortryd",
 	"coll-load_local_book": "Klik på OK for at fortsætte med din bog, %TITLE%, som indeholder %NUMPAGES% wikisider. Klik på Cancel for at slette den og begynde forfra med en tom bog.",
-	"coll-format-rl": "e-bog (PDF)",
+	"coll-format-rl": "e-bog (PDF, mwlib renderer)",
 	"coll-format-epub": "e-bog (EPUB)",
 	"coll-format-odf": "tekstbehandling (OpenDocument)",
 	"coll-format-zim": "Kiwix (OpenZIM)",
 	"coll-format-docbook": "DocBook",
 	"coll-format-okawix_zeno": "Okawix",
+	"coll-format-rdf2latex": "e-bog (PDF, ocg latex renderer)",
 	"right-collectionsaveasuserpage": "Gem bøger som brugerside",
 	"right-collectionsaveascommunitypage": "Gem bøger som en fælles side",
 	"coll-print_export": "Udskriv/eksportér",
@@ -159,5 +161,6 @@
 	"coll-not_addable": "Denne side kan ikke tilføjes",
 	"coll-make_suggestions": "Foreslå sider",
 	"coll-make_suggestions_tooltip": "Vis forslag baseret på siderne i din bog",
-	"coll-suggest_empty": "tom"
+	"coll-suggest_empty": "tom",
+	"coll-attribution-anons": "Anonym:$1"
 }
