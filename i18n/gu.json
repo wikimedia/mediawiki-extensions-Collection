@@ -3,7 +3,8 @@
 		"authors": [
 			"Ashok modhvadia",
 			"Dsvyas",
-			"Sushant savla"
+			"Sushant savla",
+			"KartikMistry"
 		]
 	},
 	"coll-desc": "[[ખાસ:પુસ્તક|પુસ્તક બનાવો]]",
@@ -74,7 +75,7 @@
 	"coll-rendering_text": "<p><strong>દસ્તાવેજ તૈયાર થાય ત્યાં સુધી રાહ જુઓ.</strong></p>\n\n<p><strong>પ્રગતિ:</strong> <span id=\"renderingProgress\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p>આ પાનું અમુક પળો બાદ આપોઆપ તાજું કરવામાં આવશે.\nજો તેમ ના થાય તો તમારા બ્રાઉઝરનું રિફ્રેશ બટન ક્લિક કરો.</p>",
 	"coll-rendering_status": "<strong>સ્થિતિ:</strong> $1",
 	"coll-rendering_article": "(વિકિ પૃષ્ઠ: $1)",
-	"coll-rendering_page": "(પૃષ્ઠ: $1)",
+	"coll-rendering_page": "(પાનું: $1)",
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Rendering page info text",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Rendering collection info text",
 	"coll-rendering_finished_title": "ચિત્રણ સંપૂર્ણ",

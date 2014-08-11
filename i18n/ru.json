@@ -42,7 +42,7 @@
 	"coll-download_title": "Скачать",
 	"coll-download_text": "Чтобы скачать свою книгу, выберите формат и нажмите кнопку.",
 	"coll-download_as_text": "Нажмите кнопку, чтобы скачать свою книгу в формате $1.",
-	"coll-download": "Загрузить",
+	"coll-download": "Скачать",
 	"coll-format_label": "Формат:",
 	"coll-remove": "Удалить",
 	"coll-show": "Показать",

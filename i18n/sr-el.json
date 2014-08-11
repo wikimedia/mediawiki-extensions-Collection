@@ -90,7 +90,7 @@
 	"coll-download_notfound_text": "Fajl koji pokušavate da preuzmete ne postoji: moguće je da je je obrisan i mora biti ponovo napravljen.",
 	"coll-download_failed_title": "Greška prilikom skidanja",
 	"coll-download_failed_text": "Javila se greška prilikom skidanja fajla: $1",
-	"coll-is_cached": "<ul><li>Izrađena verzija dokumenta je pronađena, tako da izrađivanje nije neophodno. [$1 Nametni ponovno izrađivanje.]</li></ul>",
+	"coll-is_cached": "<ul><li>Pronađeno je ranije izdanje dokumenta. Izrađivanje nije neophodno.\n[$1 Primoraj ponovno izrađivanje.]</li></ul>",
 	"coll-excluded-templates": "* Šabloni u kategoriji [[:Category:$1|$1]] su isključeni.",
 	"coll-blacklisted-templates": "* Šabloni na crnoj listi [[:$1]] su isključeni.",
 	"coll-book_title": "Naruči kao odštampanu knjigu",

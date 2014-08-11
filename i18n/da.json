@@ -91,7 +91,7 @@
 	"coll-download_notfound_text": "Filen du forsøger at downloade eksisterer ikke: \nMåske er den blevet slettet og skal regenereres.",
 	"coll-download_failed_title": "Fejl under download",
 	"coll-download_failed_text": "Det opstod en fejl ved download af filen: $1",
-	"coll-is_cached": "<ul><li>En cachet version af dokumentet er blevet fundet, så en ny generering var unødvendig. \n[$1 Fremtving gen-generering.] </li></ul>",
+	"coll-is_cached": "<ul><li>En cached version af dokumentet er blevet fundet, så en ny generering var unødvendig. \n[$1 Fremtving ny generering].</li></ul>",
 	"coll-excluded-templates": "* Skabeloner i kategorien [[:Category:$1|$1]], er blevet udelukket.",
 	"coll-blacklisted-templates": "* Skabeloner på sortlisten [[:$1]] er blevet udelukket.",
 	"coll-book_title": "Bestil som en trykt bog",
