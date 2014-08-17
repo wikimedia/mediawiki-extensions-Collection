@@ -21,7 +21,7 @@
  */
 
 class SpecialCollection extends SpecialPage {
-	var $tempfile;
+	public $tempfile;
 
 	/**
 	 * @param $PODPartners bool|array
