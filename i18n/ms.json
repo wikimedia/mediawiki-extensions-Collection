@@ -5,7 +5,8 @@
 			"Aurora",
 			"Aviator",
 			"Izzudin",
-			"Kurniasan"
+			"Kurniasan",
+			"Pizza1016"
 		]
 	},
 	"coll-desc": "[[Special:Book|Mencipta buku]]",
@@ -97,7 +98,7 @@
 	"coll-order_from_pp": "Pralihat dengan $1",
 	"coll-about_pp": "Perihal $1",
 	"coll-invalid_podpartner_title": "Rakan POD tidak sah",
-	"coll-invalid_podpartner_msg": "Rakan POD yang dibekalkan tidak sah. Sila hubungi pentadbir MediaWiki anda.",
+	"coll-invalid_podpartner_msg": "Rakan POD yang dibekalkan tidak sah. Sila hubungi penyelia MediaWiki anda.",
 	"coll-license": "Lesen",
 	"coll-return_to": "Kembali ke [[:$1]]",
 	"coll-order_info_article": "Maklumat pesanan {{MediaWiki:Coll-helppage}}/PediaPress",
