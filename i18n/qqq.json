@@ -184,7 +184,7 @@
 	"coll-setting-papersize-a4": "{{optional}} Name for the A4 paper size\nSee also:\n* {{msg-mw|Coll-setting-papersize}}\n* {{msg-mw|Coll-setting-papersize-letter}}",
 	"coll-setting-papersize-letter": "Name for the US Letter paper size\n\nSee also:\n* {{msg-mw|Coll-setting-papersize}}\n* {{msg-mw|Coll-setting-papersize-a4}}\n{{Identical|Letter}}",
 	"coll-setting-showtoc": "Label for the \"include a table of contents\" checkbox.\n\nPreceded by {{msg-mw|Coll-setting-papersize}}.\n\nFollowed by {{msg-mw|Coll-setting-columns}}.",
-	"coll-setting-columns": "Label for the \"number of columns\" option.\n\nSee also:\n* {{msg-mw|Coll-setting-columns-1}}\n* {{msg-mw|Coll-setting-columns-2}}",
+	"coll-setting-columns": "Label for the \"number of columns\" option.\n\nSee also:\n* {{msg-mw|Coll-setting-columns-1}}\n* {{msg-mw|Coll-setting-columns-2}}\n{{Identical|Column}}",
 	"coll-setting-columns-1": "{{optional}}\n\nSee also:\n* {{msg-mw|Coll-setting-columns}}\n* {{msg-mw|Coll-setting-columns-2}}",
 	"coll-setting-columns-2": "{{optional}}\n\nSee also:\n* {{msg-mw|Coll-setting-columns}}\n* {{msg-mw|Coll-setting-columns-1}}",
 	"coll-attribution-anons": "Text to add to a list of contributors to an article when there have been anonymous contributions. $1 is the number of anonymous contributions.\n{{Identical|Anonymous}}",
