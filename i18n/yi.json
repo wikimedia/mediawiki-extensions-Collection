@@ -40,5 +40,6 @@
 	"coll-bookscategory": "ביכער",
 	"coll-help": "הילף",
 	"coll-n_pages": "$1 {{PLURAL:$1|בלאַט|בלעטער}}",
-	"coll-suggest_empty": "ליידיק"
+	"coll-suggest_empty": "ליידיק",
+	"coll-article-attribution": "<b>$1</b> <i>מקור:</i> $2 <i>בײַשטײַערער:</i> $3"
 }
