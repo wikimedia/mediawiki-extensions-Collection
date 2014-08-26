@@ -11,7 +11,8 @@
 			"Spacebirdy",
 			"Wayiran",
 			"ZxxZxxZ",
-			"پاناروما"
+			"پاناروما",
+			"Alirezaaa"
 		]
 	},
 	"coll-desc": "[[Special:Book|کتاب‌ساز]]",
@@ -54,7 +55,7 @@
 	"coll-new_chapter": "برای بخش جدید یک نام وارد کنید",
 	"coll-rename_chapter": "برای بخش یک نام جدید وارد کنید",
 	"coll-no_such_category": "چنین رده‌ای وجود ندارد",
-	"coll-notitle_title": "عنوان صفحه قابل تشخیص نبود.",
+	"coll-notitle_title": "نمی‌توان عنوان صفحه را دریافت کرد",
 	"coll-request_failed_title": "رندر کتاب با خطا مواجه شد",
 	"coll-request_failed_msg": "در زمان رندر کتاب خطایی رخ داد.",
 	"coll-mwserve_failed_title": "خطا در سرور ترسیم‌کننده",
@@ -130,7 +131,7 @@
 	"coll-suggest_undo_tooltip": "این اقدام را خنثی کن",
 	"coll-suggest_undo": "خنثی‌سازی",
 	"coll-load_local_book": "برای ادامهٔ کتاب %TITLE% که دارندهٔ %NUMPAGES% صفحهٔ ویکی است، بر روی پذیرش کلیک کنید. برای حذف آن و آغاز با کتابی خالی، بر روی لغو کلیک کنید.",
-	"coll-format-rl": "کتاب الکترونیکی (PDF)",
+	"coll-format-rl": "کتاب الکترونیکی (PDF، اجراکننده mwlib)",
 	"coll-format-epub": "کتاب الکترونیکی (EPUB)",
 	"coll-format-odf": "واژه‌پرداز (اپن‌داکیومنت)",
 	"coll-format-zim": "کی‌ویکس (اپن‌زیم)",
