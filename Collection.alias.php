@@ -441,5 +441,5 @@ $specialPageAliases['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
-	'Book' => array( '圖書' ),
+	'Book' => array( '書籍' ),
 );
