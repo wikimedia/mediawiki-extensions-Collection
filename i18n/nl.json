@@ -177,5 +177,6 @@
 	"coll-setting-papersize": "Papierformaat:",
 	"coll-setting-papersize-letter": "Letter",
 	"coll-setting-showtoc": "Een inhoudsopgave opnemen",
-	"coll-setting-columns": "Kolommen:"
+	"coll-setting-columns": "Kolommen:",
+	"coll-attribution-anons": "Anoniem: $1"
 }
