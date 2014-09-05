@@ -259,6 +259,11 @@ $specialPageAliases['lb'] = array(
 	'Book' => array( 'Buch', 'Sammlung' ),
 );
 
+/** Malagasy (Malagasy) */
+$specialPageAliases['mg'] = array(
+	'Book' => array( 'Boky' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'Book' => array( 'Книга', 'Збирка' ),

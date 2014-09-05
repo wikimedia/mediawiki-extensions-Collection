@@ -156,7 +156,7 @@
 	"coll-help": "Pomoc",
 	"coll-help_tooltip": "Pokaż pomoc na temat tworzenia książek",
 	"coll-helppage": "Help:Książki",
-	"coll-load_collection": "Załaduj książkę",
+	"coll-load_collection": "Pobierz książkę",
 	"coll-load_collection_tooltip": "Załaduj tę książkę jako bieżącą",
 	"coll-n_pages": "$1 {{PLURAL:$1|strona|strony|stron}}",
 	"coll-printable_version_pdf": "Wersja PDF",
