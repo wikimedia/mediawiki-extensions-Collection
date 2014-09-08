@@ -209,7 +209,7 @@ abstract class CollectionRenderingAPI {
 			),
 		);
 
-		if ( class_exists( 'ParsoidHooks' ) ) {
+		if ( class_exists( 'VisualEditorHooks' ) ) {
 			global $wgVisualEditorParsoidURL, $wgVisualEditorParsoidPrefix;
 			for ( $i = 0; $i < count( $result['wikis'] ); $i++ ) {
 				$result['wikis'][$i]['parsoid'] = $wgVisualEditorParsoidURL;
