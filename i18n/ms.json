@@ -124,6 +124,7 @@
 	"coll-format-zim": "Kiwix (OpenZIM)",
 	"coll-format-docbook": "DocBook",
 	"coll-format-okawix_zeno": "Okawix",
+	"coll-format-rdf2text": "Pemproses perkataan (teks biasa)",
 	"right-collectionsaveasuserpage": "Menyimpan buku-buku sebagai laman pengguna",
 	"right-collectionsaveascommunitypage": "Menyimpan buku-buku sebagai laman masyarakat",
 	"coll-print_export": "Cetak/eksport",
@@ -160,6 +161,8 @@
 	"coll-make_suggestions": "Syorkan laman",
 	"coll-make_suggestions_tooltip": "Berikan syor berdasarkan laman dalam buku anda",
 	"coll-suggest_empty": "kosong",
+	"coll-setting-papersize": "Saiz kertas:",
+	"coll-setting-papersize-letter": "Surat",
 	"coll-setting-showtoc": "Sertakan jadual isi kandungan",
 	"coll-setting-columns": "Lajur:"
 }
