@@ -115,7 +115,7 @@
 	"coll-suggest_undo_tooltip": "Taka aftur þessa breytingu",
 	"coll-suggest_undo": "Taka aftur",
 	"coll-load_local_book": "Smelltu á OK til þess að halda áfram með bókina %TITLE% sem inniheldur %NUMPAGES% wiki síður. Ýttu á cancel til þess að eyða henni og byrja með tóma bók.",
-	"coll-format-rl": "rafbók (PDF)",
+	"coll-format-rl": "rafbók (PDF, gengin frá af mwlib)",
 	"coll-format-epub": "rafbók (EPUB)",
 	"coll-format-odf": "ritill (OpenDocument)",
 	"coll-format-zim": "Kiwix (OpenZIM)",

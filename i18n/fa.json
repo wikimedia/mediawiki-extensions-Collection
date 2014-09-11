@@ -12,7 +12,8 @@
 			"Wayiran",
 			"ZxxZxxZ",
 			"پاناروما",
-			"Alirezaaa"
+			"Alirezaaa",
+			"Bersam"
 		]
 	},
 	"coll-desc": "[[Special:Book|کتاب‌ساز]]",
@@ -56,6 +57,7 @@
 	"coll-rename_chapter": "برای بخش یک نام جدید وارد کنید",
 	"coll-no_such_category": "چنین رده‌ای وجود ندارد",
 	"coll-notitle_title": "نمی‌توان عنوان صفحه را دریافت کرد",
+	"coll-notitle_msg": "عنوان صفحه را نمی توان تعیین کرد.",
 	"coll-request_failed_title": "رندر کتاب با خطا مواجه شد",
 	"coll-request_failed_msg": "در زمان رندر کتاب خطایی رخ داد.",
 	"coll-mwserve_failed_title": "خطا در سرور ترسیم‌کننده",
@@ -137,6 +139,8 @@
 	"coll-format-zim": "کی‌ویکس (اپن‌زیم)",
 	"coll-format-docbook": "داک‌بوک",
 	"coll-format-okawix_zeno": "اوکاویکس",
+	"coll-format-rdf2latex": "کتاب الکترونیکی (PDF، رندر شده توسط ocg latex)",
+	"coll-format-rdf2text": "واژه پرداز (نسخه ساده)",
 	"right-collectionsaveasuserpage": "ذخیره کردن کتاب‌ها به صورت یک صفحهٔ کاربری",
 	"right-collectionsaveascommunitypage": "ذخیره کردن کتاب‌ها به صورت یک صفحه عمومی",
 	"coll-print_export": "چاپ/برون‌بری",
@@ -178,5 +182,9 @@
 	"coll-setting-showtoc": "شامل جدول محتویات",
 	"coll-setting-columns": "ستون‌ها:",
 	"coll-setting-columns-1": "۱",
-	"coll-setting-columns-2": "۲"
+	"coll-setting-columns-2": "۲",
+	"coll-attribution-anons": "ناشناس: $1",
+	"coll-attribution-page": "<h1>منابع متن و تصویر، مشارکت‌کنندگان و مجوزها</h1>\n<h2>متن</h2>\n$1<h2>تصاویر</h2>\n$2\n<h2>محتوای مجوز</h2>\n$3",
+	"coll-article-attribution": "<b>$1</b><i>منبع:</i>  $2  <i>مشارکت‌کنندگان:</i>$3",
+	"coll-image-attribution": "<b>$1</b><i>منبع:</i>  $2  <i>مجوز:</i>  $3  <i>مشارکت‌کنندگان:</i>  $4  <i>هنرمند اصلی:</i>$5"
 }

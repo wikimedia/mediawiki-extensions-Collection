@@ -3,7 +3,8 @@
 		"authors": [
 			"Minh Nguyen",
 			"Vinhtantran",
-			"Withoutaname"
+			"Withoutaname",
+			"Trần Nguyễn Minh Huy"
 		]
 	},
 	"coll-desc": "[[Special:Book|Tạo sách]]",
@@ -47,6 +48,9 @@
 	"coll-rename_chapter": "Gõ vào tên chương mới",
 	"coll-no_such_category": "Không có thể loại như vậy",
 	"coll-notitle_title": "Không thể xác định tiêu đề trang",
+	"coll-notitle_msg": "Tên trang không thể xác định được.",
+	"coll-request_failed_title": "Kết xuất sách thất bại",
+	"coll-request_failed_msg": "Đã có lỗi xảy ra trong nỗ lực kết xuất sách của bạn.",
 	"coll-mwserve_failed_title": "Lỗi chương trình kết xuất",
 	"coll-mwserve_failed_msg": "Chương trình kết xuất gặp lỗi: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Máy chủ trả về lỗi",
@@ -81,7 +85,11 @@
 	"coll-rendering_finished_text": "<strong>Xong kết xuất tập tin tài liệu.</strong>\n<strong>[$1 Tải nó về]</strong> máy tính của mình.\n\nChú ý:\n* Không vừa lòng với bản kết xuất này? Hãy đọc [[{{MediaWiki:Coll-helppage}}|trợ giúp về tập hợp]] để biết về những cách để cải tiến nó.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Kết xuất văn bản thông tin trang",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Kết xuất văn bản thông tin tuyển tập",
+	"coll-rendering_failed_title": "Kết xuất thất bại",
+	"coll-rendering_failed_text": "<strong>Việc hệ thống tập tin tài liệu đã thất bại.</strong>\n\n<p><span id=\"renderingStatus\">$1</span></p>",
 	"coll-rendering_failed_status": "<strong>Trạng thái:</strong> $1",
+	"coll-failed_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Kết xuất văn bản thông tin trang",
+	"coll-failed_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Kết xuất văn bản thông tin tuyển tập",
 	"coll-notfound_title": "Không tìm thấy sách",
 	"coll-notfound_text": "Không tìm thấy trang sách.",
 	"coll-download_notfound_title": "Không tìm thấy tập tin",
