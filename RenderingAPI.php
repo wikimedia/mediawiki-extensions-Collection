@@ -174,7 +174,9 @@ abstract class CollectionRenderingAPI {
 			$result['subtitle'] = $collection['subtitle'];
 		}
 		if ( isset( $collection['settings'] ) ) {
-			$result['settings'] = $collection['settings'];
+			foreach ( $collection['settings'] as $key => $val ) {
+				$result[$key] = $val;
+			}
 		}
 
 		$items = array();

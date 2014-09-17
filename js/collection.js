@@ -136,7 +136,11 @@ function remove_item(index) {
 function set_titles() {
 	var settings = {};
 	$( '[id^="coll-input-setting-"]' ).each( function ( i, e ) {
-		settings[e.name] = $( e ).val();
+		if ( $( e ).is(':checkbox') ) {
+			settings[e.name] = $( e ).is(':checked');
+		} else {
+			settings[e.name] = $( e ).val();
+		}
 	} );
 	req('SetTitles', [$('#titleInput').val(), $('#subtitleInput').val(), $.toJSON( settings )], function(result) {
 		wfCollectionSave(result.collection);

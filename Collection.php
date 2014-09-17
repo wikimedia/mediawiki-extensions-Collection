@@ -112,21 +112,26 @@ $wgCollectionRendererSettings = array(
 	'papersize' => array(
 		'type' => 'select',
 		'label-message' => 'coll-setting-papersize',
-		'default' => 'A4',
+		'default' => 'a4',
 		'options' => array(
-			'coll-setting-papersize-a4' => 'A4',
-			'coll-setting-papersize-letter' => 'Letter',
+			'coll-setting-papersize-a4' => 'a4',
+			'coll-setting-papersize-letter' => 'letter',
 		),
 	),
-	'showtoc' => array(
-		'type' => 'check',
-		'label-message' => 'coll-setting-showtoc',
-		'default' => true,
+	'toc' => array(
+		'type' => 'select',
+		'label-message' => 'coll-setting-toc',
+		'default' => 'auto',
+		'options' => array(
+			'coll-setting-toc-auto' => 'auto',
+			'coll-setting-toc-yes' => 'yes',
+			'coll-setting-toc-no' => 'no',
+		)
 	),
 	'columns' => array(
 		'type' => 'select',
 		'label-message' => 'coll-setting-columns',
-		'default' => 1,
+		'default' => '2',
 		'options' => array(
 			'coll-setting-columns-1' => '1',
 			'coll-setting-columns-2' => '2',
