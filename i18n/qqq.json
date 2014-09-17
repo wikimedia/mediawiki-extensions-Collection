@@ -20,7 +20,8 @@
 			"Umherirrender",
 			"Wmr89502270",
 			"គីមស៊្រុន",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Lokal Profil"
 		]
 	},
 	"coll-desc": "{{desc|name=Collection|url=http://www.mediawiki.org/wiki/Extension:Collection}}",
@@ -30,7 +31,7 @@
 	"coll-start_book_creator": "Used as link text.\n\nFollowed by the link text {{msg-mw|Coll-cancel}}.",
 	"coll-book_creator_continue": "Used as label for Submit button.\n\nFollowed by the button label {{msg-mw|Coll-book creator disable}}.",
 	"coll-book_creator_disable_text": "Used as page body.\n\nThe page title for this message is {{msg-mw|Coll-book creator disable}}.",
-	"coll-book_creator_text_article": "Refers to {{msg-mw|Coll-helppage}}.",
+	"coll-book_creator_text_article": "Page on the local wiki which is transcluded directly below the \"Start book creator\" button (example: the message on [[:w:en:Help:Books/Book_creator_text|English Wikipedia]]).\n\nRefers to {{msg-mw|Coll-helppage}}.",
 	"coll-collection": "{{Identical|Book}}",
 	"coll-collections": "{{Identical|Book}}",
 	"coll-unknown_subpage_title": "Used as title for the error message {{msg-mw|Coll-unknown subpage text}}.",
@@ -95,11 +96,11 @@
 	"coll-rendering_status": "Part of the message {{msg-mw|Coll-rendering text}}.\n\nThe variable $1 is another message string, as follows:\n*For a book in PDF format:\n**first the message in the Mwlib extension with the text \"layouting\" followed by the message {{msg-mw|Coll-rendering article}}\n**then the message in the Mwlib extension with the text \"rendering\"\n*For a book in OpenDocument format:\n**first the text \"parsing\" (source message not yet identified)\n**then the text \"preprocessing\" (source message not yet identified)\n**then the text \"rendering\" (source message not yet identified)\n\n{{Identical|Status}}",
 	"coll-rendering_article": "Parameters:\n* $1 - article name\n{{Identical|Wiki page}}",
 	"coll-rendering_page": "Parameters:\n* $1 - page name\n{{Identical|Page}}",
-	"coll-rendering_page_info_text_article": "Used as page title.\n\nRefers to {{msg-mw|Coll-helppage}}.\n\nSee also:\n* {{msg-mw|Coll-rendering collection info text article}}",
+	"coll-rendering_page_info_text_article": "Page on the local wiki which is transcluded directly below the below the PDF/etc output on the rendering page (example: the message on [[:w:en:Help:Books/Rendering_page_info_text|English Wikipedia]]).\n\nRefers to {{msg-mw|Coll-helppage}}.\n\nSee also:\n* {{msg-mw|Coll-rendering collection info text article}}",
 	"coll-rendering_collection_info_text_article": "Used as page title.\n\nRefers to {{msg-mw|Coll-helppage}}.\n\nSee also:\n* {{msg-mw|Coll-rendering page info text article}}",
 	"coll-rendering_finished_title": "Used as page title.\n\nFollowed by {{msg-mw|Coll-rendering finished text}}.",
 	"coll-rendering_finished_text": "This is the first part of the text of the special page \"Rendering finished\", which appears after clicking \"download book\" and the book has been generated.  \n\nRefers to {{msg-mw|Coll-helppage}}.\n\nParameters:\n* $1 - the URL to download the book file",
-	"coll-finished_page_info_text_article": "Used as page title.\n\nRefers to {{msg-mw|Coll-helppage}}.\n\nSee also:\n* {{msg-mw|Coll-finished collection info text article}}",
+	"coll-finished_page_info_text_article": "Page on the local wiki which is transcluded directly below the below the PDF/etc output on the rendering page (example: the message on [[:w:en:Help:Books/Rendering_page_info_text|English Wikipedia]]).\n\nRefers to {{msg-mw|Coll-helppage}}.\n\nSee also:\n* {{msg-mw|Coll-finished collection info text article}}",
 	"coll-finished_collection_info_text_article": "Used as page title.\n\nRefers to {{msg-mw|Coll-helppage}}.\n\nSee also:\n* {{msg-mw|Coll-finished page info text article}}",
 	"coll-rendering_failed_title": "Used as title for the error message {{msg-mw|Coll-rendering failed text}}.",
 	"coll-rendering_failed_text": "This is the first part of the text of the special page \"Rendering failed\", which appears after clicking \"download book\" and the book generation has failed.\n\nRefers to {{msg-mw|Coll-helppage}}.\n\nParameters:\n* $1 - the message {{msg-mw|Coll-rendering failed status}}",
