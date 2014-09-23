@@ -424,7 +424,7 @@ $specialPageAliases['ur'] = array(
 	'Book' => array( 'کتاب', 'انتخاب' ),
 );
 
-/** vèneto (vèneto) */
+/** Venetian (vèneto) */
 $specialPageAliases['vec'] = array(
 	'Book' => array( 'Libro' ),
 );

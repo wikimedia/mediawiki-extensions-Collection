@@ -11,7 +11,8 @@
 			"Luckas Blade",
 			"Raylton P. Sousa",
 			"555",
-			"Cainamarques"
+			"Cainamarques",
+			"Guilhermemau"
 		]
 	},
 	"coll-desc": "[[Special:Book|Criar livros]]",
@@ -169,6 +170,9 @@
 	"coll-suggest_empty": "vazio",
 	"coll-setting-papersize": "Tamanho do papel:",
 	"coll-setting-papersize-letter": "Carta",
-	"coll-setting-showtoc": "Incluir unha tabela de conteúdo",
+	"coll-setting-toc": "Incluir unha tabela de conteúdo",
+	"coll-setting-toc-auto": "Automático",
+	"coll-setting-toc-yes": "Sim",
+	"coll-setting-toc-no": "Não",
 	"coll-setting-columns": "Colunas:"
 }

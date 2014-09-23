@@ -9,7 +9,8 @@
 			"Iwan Novirion",
 			"Kenrick95",
 			"Rex",
-			"C5st4wr6ch"
+			"C5st4wr6ch",
+			"Ahdan"
 		]
 	},
 	"coll-desc": "[[Special:Book|Buat buku]]",
@@ -163,5 +164,8 @@
 	"coll-not_addable": "Halaman ini tidak dapat ditambahkan",
 	"coll-make_suggestions": "Sarankan halaman",
 	"coll-make_suggestions_tooltip": "Tampilkan saran berdasarkan halaman dalam buku Anda",
-	"coll-suggest_empty": "kosong"
+	"coll-suggest_empty": "kosong",
+	"coll-setting-toc-auto": "Auto",
+	"coll-setting-toc-yes": "Ya",
+	"coll-setting-toc-no": "Tidak"
 }

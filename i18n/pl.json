@@ -169,6 +169,9 @@
 	"coll-make_suggestions_tooltip": "Pokaż propozycje na podstawie już dodanych stron",
 	"coll-suggest_empty": "puste",
 	"coll-setting-papersize": "Rozmiar papieru:",
-	"coll-setting-showtoc": "Włącz spis treści",
+	"coll-setting-toc": "Włącz spis treści",
+	"coll-setting-toc-auto": "Automatycznie",
+	"coll-setting-toc-yes": "Tak",
+	"coll-setting-toc-no": "Nie",
 	"coll-setting-columns": "Kolumny:"
 }
