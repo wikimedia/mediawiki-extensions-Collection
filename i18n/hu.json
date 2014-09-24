@@ -5,7 +5,8 @@
 			"Bean49",
 			"Dani",
 			"Dj",
-			"Glanthor Reviol"
+			"Glanthor Reviol",
+			"Csega"
 		]
 	},
 	"coll-desc": "[[Special:Book|Könyvek készítése]]",
@@ -158,5 +159,8 @@
 	"coll-not_addable": "Ezt a lapot nem lehet hozzáadni",
 	"coll-make_suggestions": "Lapok ajánlása",
 	"coll-make_suggestions_tooltip": "Javaslatok megjelenítése a könyvedben található lapok alapján",
-	"coll-suggest_empty": "üres"
+	"coll-suggest_empty": "üres",
+	"coll-setting-toc-auto": "Automatikus",
+	"coll-setting-toc-yes": "Igen",
+	"coll-setting-toc-no": "Nem"
 }
