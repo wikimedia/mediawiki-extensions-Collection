@@ -176,7 +176,10 @@
 	"coll-suggest_empty": "leegmaken",
 	"coll-setting-papersize": "Papierformaat:",
 	"coll-setting-papersize-letter": "Letter",
-	"coll-setting-showtoc": "Een inhoudsopgave opnemen",
+	"coll-setting-toc": "Een inhoudsopgave opnemen",
+	"coll-setting-toc-auto": "Automatisch",
+	"coll-setting-toc-yes": "Ja",
+	"coll-setting-toc-no": "Nee",
 	"coll-setting-columns": "Kolommen:",
 	"coll-attribution-anons": "Anoniem: $1"
 }

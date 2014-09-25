@@ -7,7 +7,8 @@
 			"Shanmugamp7",
 			"TRYPPN",
 			"செல்வா",
-			"மதனாஹரன்"
+			"மதனாஹரன்",
+			"ElangoRamanujam"
 		]
 	},
 	"coll-desc": "[[Special:Book|புத்தகங்களை உருவாக்கு]]",
@@ -136,5 +137,7 @@
 	"coll-not_addable": "இப்பக்கத்தை  சேர்க்க முடியாது",
 	"coll-make_suggestions": "பக்கங்களை  ஆலோசனை கூறு",
 	"coll-make_suggestions_tooltip": "உங்கள் புத்தகத்தில் உள்ள  பக்கங்கள் அடிப்படையில் ஆலோசனைகளை காண்பி",
-	"coll-suggest_empty": "ஒன்றுமில்லாத"
+	"coll-suggest_empty": "ஒன்றுமில்லாத",
+	"coll-setting-toc-yes": "ஆம்",
+	"coll-setting-toc-no": "இல்லை"
 }

@@ -183,7 +183,7 @@
 	"coll-setting-toc-no": "No",
 	"coll-setting-columns": "Colonne:",
 	"coll-attribution-anons": "Anonimo: $1",
-	"coll-attribution-page": "<h1>Fonti per testo ed immagini, contributori, e licenze</h1>\n<h2>Testo</h2>\n$1<h2>Immagini</h2>\n$2\n<h2>Licenze contenuto</h2>\n$3",
+	"coll-attribution-page": "<h1>Fonti per testo e immagini; autori; licenze</h1>\n<h2>Testo</h2>\n$1<h2>Immagini</h2>\n$2\n<h2>Licenza dell'opera</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Contributori:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Licenza:</i> $3 <i>Contributori:</i> $4 <i>Artista originale:</i> $5"
 }
