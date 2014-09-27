@@ -162,7 +162,10 @@
 	"coll-suggest_empty": "goullo",
 	"coll-setting-papersize": "Ment ar paper :",
 	"coll-setting-papersize-letter": "Lizher",
-	"coll-setting-showtoc": "Enklozañ un daolenn",
+	"coll-setting-toc": "Enklozañ un daolenn",
+	"coll-setting-toc-auto": "Emgefre",
+	"coll-setting-toc-yes": "Ya",
+	"coll-setting-toc-no": "Ket",
 	"coll-setting-columns": "Bannoù :",
 	"coll-attribution-anons": "Dizanv : $1"
 }

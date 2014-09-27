@@ -163,6 +163,9 @@
 	"coll-suggest_empty": "kosong",
 	"coll-setting-papersize": "Saiz kertas:",
 	"coll-setting-papersize-letter": "Surat",
-	"coll-setting-showtoc": "Sertakan jadual isi kandungan",
+	"coll-setting-toc": "Sertakan jadual isi kandungan",
+	"coll-setting-toc-auto": "Auto",
+	"coll-setting-toc-yes": "Ya",
+	"coll-setting-toc-no": "Tidak",
 	"coll-setting-columns": "Lajur:"
 }
