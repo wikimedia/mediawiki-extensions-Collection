@@ -6,7 +6,8 @@
 			"Dani",
 			"Dj",
 			"Glanthor Reviol",
-			"Csega"
+			"Csega",
+			"Dorgan"
 		]
 	},
 	"coll-desc": "[[Special:Book|Könyvek készítése]]",
@@ -160,7 +161,10 @@
 	"coll-make_suggestions": "Lapok ajánlása",
 	"coll-make_suggestions_tooltip": "Javaslatok megjelenítése a könyvedben található lapok alapján",
 	"coll-suggest_empty": "üres",
+	"coll-setting-papersize": "Papírméret:",
+	"coll-setting-toc": "Tartalmazza a tartalomjegyzéket",
 	"coll-setting-toc-auto": "Automatikus",
 	"coll-setting-toc-yes": "Igen",
-	"coll-setting-toc-no": "Nem"
+	"coll-setting-toc-no": "Nem",
+	"coll-setting-columns": "Hasábok száma:"
 }
