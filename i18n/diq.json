@@ -158,5 +158,7 @@
 	"coll-not_addable": "Ena pel nişkeno de biyo",
 	"coll-make_suggestions": "Pelan bıweşene",
 	"coll-make_suggestions_tooltip": "Ser pelan ke zerre kitabê tu de înan ra tevsiye bike",
-	"coll-suggest_empty": "veng"
+	"coll-suggest_empty": "veng",
+	"coll-setting-toc-yes": "Eya",
+	"coll-setting-toc-no": "Nê"
 }
