@@ -7,7 +7,8 @@
 			"Mach",
 			"Manco Capac",
 			"Srhat",
-			"Suelnur"
+			"Suelnur",
+			"Violetanka"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kitap oluştur]]",
@@ -160,5 +161,8 @@
 	"coll-not_addable": "Sayfa eklenemiyor",
 	"coll-make_suggestions": "Sayfa öner",
 	"coll-make_suggestions_tooltip": "Kitabınızdaki mevcut sayfalara göre öneriler göster",
-	"coll-suggest_empty": "boş"
+	"coll-suggest_empty": "boş",
+	"coll-setting-toc-auto": "Otomatik",
+	"coll-setting-toc-yes": "Evet",
+	"coll-setting-toc-no": "Hayır"
 }
