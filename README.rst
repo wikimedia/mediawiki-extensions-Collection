@@ -75,7 +75,12 @@ Your MediaWiki must be accessible from the render server, i.e. if your
 MediaWiki is behind a firewall you cannot use the public render
 server.
 
-If you can't use the public render server, you'll have to
+If you can't use the public render server, you have two choices:
+
+1) To install an OCG_ server, follow the instructions at
+https://www.mediawiki.org/wiki/Offline_content_generator
+
+2) To install a mwlib_ server, you'll have to
 :ref:`install mwlib <mwlib-install>` and
 :ref:`run your own render server <mwlib-renderserver>`.
 See http://mwlib.readthedocs.org/ for more information.
@@ -84,10 +89,10 @@ Finally you'll have to set ``$wgCollectionMWServeURL`` in your ``LocalSetting.ph
 
 ``$wgCollectionMWServeURL`` (string)
 
-  Set this to the URL of a render server (see above).
+  Set this to the URL of either an mwlib_ or an OCG_ render server (see above).
 
   The default is ``http://tools.pediapress.com/mw-serve/``, the
-  public render server hosted by PediaPress.
+  public mwlib_ render server hosted by PediaPress.
 
 
 Password protected wikis
@@ -118,8 +123,8 @@ people do not have to change them:
    throw an error. The default is null, i.e. no certificate.
 
 ``$wgCollectionFormats``
-   An array mapping names of mwlib_ writers to the name of the produced format.
-   The default value is::
+   An array mapping names of writers on the server to the name of the
+   produced format.  The default value is::
 
        array(
 	   'rl' => 'PDF',
@@ -133,18 +138,33 @@ people do not have to change them:
 	   'odf' => 'ODT',
        );
 
-   On the public render server tools.pediapress.com, currently the following
-   writers are available:
+   On the public mwlib_ render server tools.pediapress.com, currently
+   the following writers are available:
 
    * docbook: DocBook XML
    * odf: OpenDocument Text
    * rl: PDF
    * xhtml: XHTML 1.0 Transitional
 
-   If you're using your own render server, the list of available writers can be
-   listed with the following mwlib_ command::
+   If you're using your own mwlib_ render server, the list of
+   available writers can be listed with the following mwlib_ command::
 
      $ mw-render --list-writers
+
+   On OCG_ render servers, currently the following writers are
+   available:
+
+   * rdf2latex: PDF
+   * rdf2text: Plain text
+
+``$wgCollectionFormatToServeURL`` (array)
+   An array matching writer names with the server which should be used
+   for them.  For example, if you wanted to configure an OCG_ server
+   for PDF only, you might have::
+
+       $wgCollectionFormatToServeURL = array(
+	   'rdf2latex' => 'http://my-ocg-server.com:8000',
+       );
 
 ``$wgCollectionContentTypeToFilename`` (array)
    An array matching content types to filenames for downloaded documents. The
@@ -394,6 +414,7 @@ system message.
 
 .. _mwlib: http://mwlib.readthedocs.org/
 .. _MediaWiki: http://www.mediawiki.org/
+.. _OCG: https://www.mediawiki.org/wiki/Offline_content_generator
 .. _`PediaPress GmbH`: http://pediapress.com/
 .. _`Wikimedia Foundation`: http://wikimediafoundation.org/
 .. _`Commonwealth of Learning`: http://www.col.org/
