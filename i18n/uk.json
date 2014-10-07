@@ -9,7 +9,8 @@
 			"Base",
 			"NickK",
 			"Prima klasy4na",
-			"Ата"
+			"Ата",
+			"Olion"
 		]
 	},
 	"coll-desc": "[[Special:Book|Створює книги]]",
@@ -175,7 +176,10 @@
 	"coll-suggest_empty": "порожня",
 	"coll-setting-papersize": "Розмір паперу:",
 	"coll-setting-papersize-letter": "Лист",
-	"coll-setting-showtoc": "Включити зміст",
+	"coll-setting-toc": "Включити зміст",
+	"coll-setting-toc-auto": "Автоматично",
+	"coll-setting-toc-yes": "Так",
+	"coll-setting-toc-no": "Ні",
 	"coll-setting-columns": "Стовпці:",
 	"coll-attribution-anons": "Аноніми: $1",
 	"coll-attribution-page": "<h1>Джерела, дописувачі та ліцензії тексту і зображень</h1>\n<h2>Текст</h2>\n$1<h2>Зображення</h2>\n$2\n<h2>Ліцензія вмісту</h2>\n$3",
