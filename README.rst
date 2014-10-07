@@ -182,6 +182,7 @@ people do not have to change them:
 	  $wgCollectionContentTypeToFilename = array(
 		  'application/pdf' => 'collection.pdf',
 		  'application/vnd.oasis.opendocument.text' => 'collection.odt',
+		  'text/plain' => 'collection.txt',
 	  );
 
 ``$wgCollectionPortletFormats`` (array)
