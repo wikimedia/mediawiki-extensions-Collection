@@ -145,6 +145,7 @@ $wgCollectionFormatToServeURL = array();
 $wgCollectionContentTypeToFilename = array(
 	'application/pdf' => 'collection.pdf',
 	'application/vnd.oasis.opendocument.text' => 'collection.odt',
+	'text/plain' => 'collection.txt',
 );
 
 $wgCollectionPortletFormats = array( 'rl' );
