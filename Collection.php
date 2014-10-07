@@ -139,6 +139,10 @@ $wgCollectionRendererSettings = array(
 	),
 );
 
+/** Some commands require an external server
+ */
+$wgCollectionCommandToServeURL = array();
+
 /** For formats which rendering depends on an external server
 */
 $wgCollectionFormatToServeURL = array();

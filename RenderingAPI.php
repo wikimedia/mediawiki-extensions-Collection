@@ -228,7 +228,7 @@ abstract class CollectionRenderingAPI {
  */
 class MWServeRenderingAPI extends CollectionRenderingAPI {
 	protected function makeRequest( $command, array $params ) {
-		global $wgCollectionMWServeURL, $wgCollectionMWServeCredentials, $wgCollectionFormatToServeURL;
+		global $wgCollectionMWServeURL, $wgCollectionMWServeCredentials, $wgCollectionFormatToServeURL, $wgCollectionCommandToServeURL;
 
 		wfProfileIn( __METHOD__ . "-$command" );
 		$serveURL = $wgCollectionMWServeURL;
@@ -240,6 +240,9 @@ class MWServeRenderingAPI extends CollectionRenderingAPI {
 		}
 
 		$params['command'] = $command;
+		if ( isset( $wgCollectionCommandToServeURL[ $command ] ) ) {
+			$serveURL = $wgCollectionCommandToServeURL[ $command ];
+		}
 		if ( $wgCollectionMWServeCredentials ) {
 			$params['login_credentials'] = $wgCollectionMWServeCredentials;
 		}
