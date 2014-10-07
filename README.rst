@@ -166,6 +166,15 @@ people do not have to change them:
 	   'rdf2latex' => 'http://my-ocg-server.com:8000',
        );
 
+``$wgCollectionCommandToServeURL`` (array)
+   An array matching server commands with the server which should be
+   used for them.  For example, to use the public pediapress POD
+   server, you might have::
+
+       $wgCollectionCommandToServeURL = array(
+	   'zip_post' => 'http://tools.pediapress.com/mw-serve/',
+       );
+
 ``$wgCollectionContentTypeToFilename`` (array)
    An array matching content types to filenames for downloaded documents. The
    default is::
