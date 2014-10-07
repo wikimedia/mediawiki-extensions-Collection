@@ -177,6 +177,8 @@ abstract class CollectionRenderingAPI {
 			foreach ( $collection['settings'] as $key => $val ) {
 				$result[$key] = $val;
 			}
+			// compatibility with old mw-serve
+			$result['settings'] = $collection['settings'];
 		}
 
 		$items = array();
