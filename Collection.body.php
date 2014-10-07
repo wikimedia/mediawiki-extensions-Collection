@@ -270,7 +270,11 @@ class SpecialCollection extends SpecialPage {
 					return;
 				}
 				$oldid = $request->getInt( 'oldid', 0 );
-				$this->renderArticle( $title, $oldid, $request->getVal( 'writer', 'rl' ) );
+				$collection = $this->makeCollection( $title, $oldid );
+				if ( $collection ) {
+					$this->applySettings( $collection, $request );
+					$this->renderCollection( $collection, $title, $request->getVal( 'writer', 'rl' ) );
+				}
 				return;
 			case 'render_collection':
 				$title = Title::newFromText( $request->getVal( 'colltitle', '' ) );
@@ -279,6 +283,7 @@ class SpecialCollection extends SpecialPage {
 				}
 				$collection = $this->loadCollection( $title );
 				if ( $collection ) {
+					$this->applySettings( $collection, $request );
 					$this->renderCollection( $collection, $title, $request->getVal( 'writer', 'rl' ) );
 				}
 				return;
@@ -1192,12 +1197,12 @@ class SpecialCollection extends SpecialPage {
 	/**
 	 * @param $title Title
 	 * @param $oldid int
-	 * @param $writer
+	 * @return array|null
 	 */
-	function renderArticle( $title, $oldid, $writer ) {
+	function makeCollection( $title, $oldid ) {
 		if ( is_null( $title ) ) {
 			$this->getOutput()->showErrorPage( 'coll-notitle_title', 'coll-notitle_msg' );
-			return;
+			return null;
 		}
 		$article = array(
 			'type' => 'article',
@@ -1212,8 +1217,36 @@ class SpecialCollection extends SpecialPage {
 		if ( $revision ) {
 			$article['timestamp'] = wfTimestamp( TS_UNIX, $revision->getTimestamp() );
 		}
+		return array( 'items' => array( $article ) );
+	}
 
-		$this->renderCollection( array( 'items' => array( $article ) ), $title, $writer );
+	/**
+	 * Apply query string parameters to the given collection.
+	 * Use defaults specified in $wgCollectionRendererSettings.
+	 * @param $collection
+	 * @param $request
+	 */
+	function applySettings( &$collection, &$request ) {
+		global $wgCollectionRendererSettings;
+		if ( !isset( $collection['settings'] ) ) {
+			$collection['settings'] = array();
+		}
+		foreach ( $wgCollectionRendererSettings as $key => $desc ) {
+			if ( $desc['type'] != 'select') {
+				continue;
+			}
+			$val = $request->getVal( $key );
+			if ( !isset( $collections['settings'][$key] ) ) {
+				$collection['settings'][$key] = $desc['default'];
+			}
+			if ( !is_null( $val ) ) {
+				foreach ( $desc['options'] as $ignore => $valid ) {
+					if ( $val == $valid ) {
+						$collection['settings'][$key] = $valid;
+					}
+				}
+			}
+		}
 	}
 
 	/**
