@@ -186,7 +186,7 @@
 	"coll-setting-papersize-a4": "{{optional}} Name for the A4 paper size\n\nSee also:\n* {{msg-mw|Coll-setting-papersize}}\n* {{msg-mw|Coll-setting-papersize-letter}}",
 	"coll-setting-papersize-letter": "Name for the US Letter paper size\n\nSee also:\n* {{msg-mw|Coll-setting-papersize}}\n* {{msg-mw|Coll-setting-papersize-a4}}\n{{Identical|Letter}}",
 	"coll-setting-toc": "Label for the \"include a table of contents\" option.\n\nPreceded by {{msg-mw|Coll-setting-papersize}}.\n\nFollowed by {{msg-mw|Coll-setting-columns}}.",
-	"coll-setting-toc-auto": "Used to let the backend service decide automatically if a table of contents should be added.\n\nSee also:\n* {{msg-mw|Coll-setting-toc}}\n{{Identical|Auto}}",
+	"coll-setting-toc-auto": "Used to let the backend service decide automatically if a table of contents should be added.\n\nSee also:\n* {{msg-mw|Coll-setting-toc}}\n{{Identical|Automatic}}",
 	"coll-setting-toc-yes": "Used to indicate a table of contents is desired.\n\nSee also:\n* {{msg-mw|Coll-setting-toc}}\n{{Identical|Yes}}",
 	"coll-setting-toc-no": "Used to indicate a table of contents is not desired.\n\nSee also:\n* {{msg-mw|Coll-setting-toc}}\n{{Identical|No}}",
 	"coll-setting-columns": "Label for the \"number of columns\" option.\n\nSee also:\n* {{msg-mw|Coll-setting-columns-1}}\n* {{msg-mw|Coll-setting-columns-2}}\n{{Identical|Column}}",

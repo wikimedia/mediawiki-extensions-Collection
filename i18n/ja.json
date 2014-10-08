@@ -167,5 +167,8 @@
 	"coll-suggest_empty": "空",
 	"coll-setting-papersize": "用紙サイズ:",
 	"coll-setting-papersize-letter": "レター",
-	"coll-setting-showtoc": "目次を含める"
+	"coll-setting-toc": "目次を含める",
+	"coll-setting-toc-auto": "自動",
+	"coll-setting-toc-yes": "はい",
+	"coll-setting-toc-no": "いいえ"
 }
