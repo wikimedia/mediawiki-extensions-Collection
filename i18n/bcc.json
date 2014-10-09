@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Baloch Afghanistan"
+		]
+	},
+	"coll-setting-toc-yes": "هان",
+	"coll-setting-toc-no": "نه",
+	"coll-attribution-anons": "ناشناس: $1",
+	"coll-attribution-page": "<h1>منابع متن و تصویر، مشارکت‌کنندگان و مجوزها</h1>\n<h2>متن</h2>\n$1<h2>اکس هان</h2>\n$2\n<h2>محتوای مجوز</h2>\n$3"
+}
