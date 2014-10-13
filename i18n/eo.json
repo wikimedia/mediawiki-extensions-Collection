@@ -160,5 +160,9 @@
 	"coll-not_addable": "Ĉi tiu paĝo ne povas esti aldonata.",
 	"coll-make_suggestions": "Sugesti paĝojn",
 	"coll-make_suggestions_tooltip": "Montri sugestojn bazitajn de la paĝoj en via libro",
-	"coll-suggest_empty": "malplena"
+	"coll-suggest_empty": "malplena",
+	"coll-setting-toc-yes": "Jes",
+	"coll-setting-toc-no": "Ne",
+	"coll-setting-columns": "Kolumnoj:",
+	"coll-attribution-anons": "Anonimaj: $1"
 }

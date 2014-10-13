@@ -16,7 +16,8 @@
 			"Waldir",
 			"555",
 			"Fúlvio",
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"He7d3r"
 		]
 	},
 	"coll-desc": "[[Special:Book|Criar livros]]",
@@ -142,6 +143,7 @@
 	"coll-format-zim": "Kiwix (OpenZIM)",
 	"coll-format-docbook": "DocBook",
 	"coll-format-okawix_zeno": "Okawix",
+	"coll-format-rdf2latex": "Livro electrónico (PDF, renderizador ocg latex)",
 	"right-collectionsaveasuserpage": "Gravar livros como página de utilizador",
 	"right-collectionsaveascommunitypage": "Gravar livros como página comunitária",
 	"coll-print_export": "Imprimir/exportar",
