@@ -144,6 +144,7 @@
 	"coll-format-docbook": "DocBook",
 	"coll-format-okawix_zeno": "Okawix",
 	"coll-format-rdf2latex": "Livro electrónico (PDF, renderizador ocg latex)",
+	"coll-format-rdf2text": "Processador de texto (sem formatação)",
 	"right-collectionsaveasuserpage": "Gravar livros como página de utilizador",
 	"right-collectionsaveascommunitypage": "Gravar livros como página comunitária",
 	"coll-print_export": "Imprimir/exportar",
