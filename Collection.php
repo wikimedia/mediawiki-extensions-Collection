@@ -211,9 +211,9 @@ $collResourceTemplate = array(
 );
 
 $wgResourceModules += array(
+	// For backwards compatibility / race condition after removing js/jstorage.js
 	'ext.collection.jquery.jstorage' => $collResourceTemplate + array(
-		'scripts' => 'jstorage.js',
-		'dependencies' => 'json'
+		'dependencies' => 'jquery.jStorage'
 	),
 	'ext.collection.suggest' => $collResourceTemplate + array(
 		'scripts' => 'suggest.js',
@@ -230,12 +230,12 @@ $wgResourceModules += array(
 	'ext.collection.bookcreator' => $collResourceTemplate + array(
 		'scripts' => 'bookcreator.js',
 		'styles' => 'bookcreator.css',
-		'dependencies' => 'ext.collection.jquery.jstorage'
+		'dependencies' => 'jquery.jStorage'
 	),
 	'ext.collection.checkLoadFromLocalStorage' => $collResourceTemplate + array(
 		'scripts' => 'check_load_from_localstorage.js',
 		'styles' => 'bookcreator.css',
-		'dependencies' => 'ext.collection.jquery.jstorage'
+		'dependencies' => 'jquery.jStorage'
 	)
 );
 
