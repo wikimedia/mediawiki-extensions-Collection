@@ -28,8 +28,7 @@
  * USAGE:
  *
  * jStorage requires Prototype, MooTools or jQuery! If jQuery is used, then
- * jQuery-JSON (http://code.google.com/p/jquery-json/) is also needed.
- * (jQuery-JSON needs to be loaded BEFORE jStorage!)
+ * the json2.js polyfill may also be needed.
  *
  * Methods:
  *
@@ -69,10 +68,10 @@
 			_storage_elm: null,
 
 			/* function to encode objects to JSON strings */
-			json_encode: $.toJSON || Object.toJSON || (window.JSON && JSON.encode),
+			json_encode: $.toJSON || Object.toJSON || (window.JSON && JSON.stringify),
 
 			/* function to decode objects from JSON strings */
-			json_decode: $.evalJSON || (window.JSON && JSON.decode) || function(str){
+			json_decode: $.evalJSON || (window.JSON && JSON.parse) || function(str){
 				return String(str).evalJSON();
 			},
 
