@@ -142,7 +142,7 @@ function set_titles() {
 			settings[e.name] = $( e ).val();
 		}
 	} );
-	req('SetTitles', [$('#titleInput').val(), $('#subtitleInput').val(), $.toJSON( settings )], function(result) {
+	req('SetTitles', [$('#titleInput').val(), $('#subtitleInput').val(), JSON.stringify( settings )], function(result) {
 		wfCollectionSave(result.collection);
 	});
 	return false;
