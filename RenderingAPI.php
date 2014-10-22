@@ -248,7 +248,10 @@ class MWServeRenderingAPI extends CollectionRenderingAPI {
 		if ( $wgCollectionMWServeCredentials ) {
 			$params['login_credentials'] = $wgCollectionMWServeCredentials;
 		}
-		$response = Http::post( $serveURL, array( 'postData' => $params ) );
+		// If $serveURL has a | in it, we need to use a proxy.
+		list( $proxy, $serveURL ) = array_pad( explode( '|', $serveURL, 2 ), -2, '' );
+
+		$response = Http::post( $serveURL, array( 'postData' => $params, 'proxy' => $proxy ) );
 		if ( $response === false ) {
 			wfDebugLog( 'collection', "Request to $serveURL resulted in error" );
 		}

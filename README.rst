@@ -94,6 +94,15 @@ Finally you'll have to set ``$wgCollectionMWServeURL`` in your ``LocalSetting.ph
   The default is ``http://tools.pediapress.com/mw-serve/``, the
   public mwlib_ render server hosted by PediaPress.
 
+  If you must use a proxy in order to reach the render server, you can
+  prefix the URL with the proxy URL and separate them with ``|``, for
+  example:
+
+       http://my.proxy.host:8888|https://tools.pediapress.com/mw-serve/
+
+  If you need to use a ``|`` character in the URL of your render
+  server, use a blank proxy: ``|http://my.render.server/path-with-|/``.
+
 
 Password protected wikis
 -------------------------------
@@ -166,6 +175,8 @@ people do not have to change them:
 	   'rdf2latex' => 'http://my-ocg-server.com:8000',
        );
 
+   You can specify proxies in the same way as for ``$wgCollectionMWServeURL``.
+
 ``$wgCollectionCommandToServeURL`` (array)
    An array matching server commands with the server which should be
    used for them.  For example, to use the public pediapress POD
@@ -174,6 +185,9 @@ people do not have to change them:
        $wgCollectionCommandToServeURL = array(
 	   'zip_post' => 'http://tools.pediapress.com/mw-serve/',
        );
+
+   Again, proxies can be prefixed to the URL, separated by ``|``, in
+   the same way as for ``$wgCollectionMWServeURL``.
 
 ``$wgCollectionContentTypeToFilename`` (array)
    An array matching content types to filenames for downloaded documents. The
