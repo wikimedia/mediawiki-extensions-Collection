@@ -165,6 +165,6 @@
 	"coll-suggest_empty": "vacue",
 	"coll-setting-papersize": "Formato del papiro:",
 	"coll-setting-papersize-letter": "US Letter",
-	"coll-setting-showtoc": "Includer un tabula de contento",
+	"coll-setting-toc": "Includer un tabula de contento",
 	"coll-setting-columns": "Columnas:"
 }

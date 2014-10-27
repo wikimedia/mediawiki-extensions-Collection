@@ -175,7 +175,7 @@
 	"coll-suggest_empty": "tom",
 	"coll-setting-papersize": "Papirstørrelse:",
 	"coll-setting-papersize-letter": "US Letter",
-	"coll-setting-showtoc": "Inkluder innholdsfortegnelse",
+	"coll-setting-toc": "Inkluder innholdsfortegnelse",
 	"coll-setting-columns": "Kolonner:",
 	"coll-attribution-anons": "Anonyme: $1",
 	"coll-attribution-page": "<h1>Tekst- og bildekilder, bidragsytere og lisenser</h1>\n<h2>Tekst</h2>\n$1<h2>Bilder</h2>\n$2\n<h2>Innholdslisens</h2>\n$3",
