@@ -171,7 +171,7 @@
 	"coll-helppage": "Help:Книги",
 	"coll-load_collection": "Загрузить книгу",
 	"coll-load_collection_tooltip": "Загрузить эту книгу как вашу текущую книгу",
-	"coll-n_pages": "$1 {{PLURAL:$1|страница|страниц|страницы}}",
+	"coll-n_pages": "$1 {{PLURAL:$1|страница|страницы|страниц}}",
 	"coll-printable_version_pdf": "PDF-версия",
 	"coll-remove_this_page": "Удалить эту страницу из вашей книги",
 	"coll-remove_page_tooltip": "Удалить текущую вики-страницу из книги",
