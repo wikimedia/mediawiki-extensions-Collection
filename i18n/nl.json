@@ -66,7 +66,7 @@
 	"coll-revision": "Versie: $1",
 	"coll-save_collection_title": "Uw boek opslaan en delen",
 	"coll-save_collection_text": "Kies een locatie:",
-	"coll-login_to_save": "Indien u boeken wilt opslaan voor later gebruik, [[Special:UserLogin|meldt u zich dan aan of maak een account aan]].",
+	"coll-login_to_save": "Indien u boeken wilt opslaan voor later gebruik, [[Special:UserLogin|meldt u zich dan aan of maak een gebruiker aan]].",
 	"coll-personal_collection_label": "Persoonlijk boek:",
 	"coll-community_collection_label": "Gemeenschappelijk boek:",
 	"coll-save_collection": "Boek opslaan",
