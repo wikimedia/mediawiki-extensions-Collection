@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gazeb"
+			"Gazeb",
+			"Tkalyn"
 		]
 	},
 	"coll-desc": "[[Special:Book|Створює книгы]]",
@@ -45,7 +46,7 @@
 	"coll-rename_chapter": "Задайте нову назву капітолы",
 	"coll-no_such_category": "Така катеґорія не єствує",
 	"coll-notitle_title": "Не было можне становити назву сторінкы.",
-	"coll-mwserve_failed_title": "Хына выкреслёвачого сервера",
+	"coll-mwserve_failed_title": "Хыба выкреслёвачого сервера",
 	"coll-mwserve_failed_msg": "На выкреслёвачім сервері дішло ку хыбі: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Хыбна одповідь сервера",
 	"coll-empty_collection": "Порожня книга",
