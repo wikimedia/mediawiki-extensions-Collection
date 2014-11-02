@@ -74,7 +74,7 @@
 	"coll-limit_exceeded_title": "ძალიან დიდი წიგნი",
 	"coll-limit_exceeded_text": "წიგნს აქვვს ძალიან დიდი ზომა.\nდამატებითი გვერდების ჩამატება შეუძლებელია.",
 	"coll-rendering_title": "შექმნა",
-	"coll-rendering_text": "<p><strong>გთხოვთ დაიცადოთ, მიმდინარეობს დოკუმენტის შექმნა.</strong></p>\n\n<p><strong>მუშაობის პროგრესი:</strong> <span id=\"renderingProgress\">$1</span> % <span id=\"renderingStatus\">$2</span></p>\n\n<p>ეს გვერდი უნდა განახლდეს ყოველ რამდენიმე წამში.\nთუ ეს არ ხდება, გთხოვთ დააჭიროთ ბროუზერის «განახლების» ღილაკს.</p>",
+	"coll-rendering_text": "<p><strong>გთხოვთ დაიცადოთ, მიმდინარეობს დოკუმენტის შექმნა.</strong></p>\n\n<p><strong>მუშაობის პროგრესი:</strong> <span id=\"renderingProgress\">$1</span> % <span id=\"renderingStatus\">$2</span></p>\n\n<p>ეს გვერდი უნდა განახლდეს ყოველ რამდენიმე წამში.\nთუ ეს არ ხდება, გთხოვთ დააჭიროთ ბროუზერის „განახლების“ ღილაკს.</p>",
 	"coll-rendering_status": "<strong>სტატუსი:</strong> $1",
 	"coll-rendering_article": "(სტატია: $1)",
 	"coll-rendering_page": "(გვერდი: $1)",
