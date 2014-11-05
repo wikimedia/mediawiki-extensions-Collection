@@ -3,10 +3,15 @@
 		"authors": [
 			"Kening Aldgilles",
 			"SK-luuut",
-			"Snakesteuben"
+			"Snakesteuben",
+			"Robin0van0der0vliet"
 		]
 	},
 	"coll-yes": "Ja",
 	"coll-no": "Nee",
-	"coll-cancel": "Ofbrekke"
+	"coll-cancel": "Annulearje",
+	"coll-about_pp": "Oer $1",
+	"coll-help": "Help",
+	"coll-setting-toc-yes": "Ja",
+	"coll-setting-toc-no": "Nee"
 }
