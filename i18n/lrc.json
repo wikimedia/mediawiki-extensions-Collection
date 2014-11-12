@@ -78,6 +78,7 @@
 	"coll-rendering_finished_title": "پر بيئن تموم بی",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/د حالت پر بيئن دونسمنيا متن بلگه",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/د حالت پربيئن كل دونسمنيا متن",
+	"coll-rendering_failed_title": "پر بيئن ناموفق بیه",
 	"coll-rendering_failed_status": "<strong>حال و بار:</strong> $1",
 	"coll-failed_page_info_text_article": "{{MediaWiki:Coll-helppage}}/د حالت پر بيئن دونسمنيا متن بلگه",
 	"coll-failed_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/د حالت پربيئن كل دونسمنيا متن",
