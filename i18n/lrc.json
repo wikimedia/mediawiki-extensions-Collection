@@ -45,6 +45,7 @@
 	"coll-rename_chapter": "سی فصل يه نوم تازه وارد بكيد",
 	"coll-no_such_category": "نه چنو دسه ایی",
 	"coll-notitle_title": "موضو بلگه نتونه شناخته بوئه",
+	"coll-request_failed_title": "پر کردن سی کتاو انجوم نگرت",
 	"coll-mwserve_failed_title": "خطا پر بيئن سرور",
 	"coll-mwserve_failed_msg": "يه گل خطا د پر بيئن سرور پيش اوما: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "واكنشت خطا سی سرور",
@@ -162,11 +163,13 @@
 	"coll-suggest_empty": "حالی",
 	"coll-setting-papersize": "انازه قاغذ:",
 	"coll-setting-papersize-letter": "حرف",
+	"coll-setting-toc": "د ور گرته مینونه یا کتاو",
 	"coll-setting-toc-auto": "خود انجوم",
 	"coll-setting-toc-yes": "هری",
 	"coll-setting-toc-no": "نه",
 	"coll-setting-columns": "ستینا:",
 	"coll-attribution-anons": "ناشناس:$1",
+	"coll-attribution-page": "<h1>سرچشمه یا عسگ و نیسسه،هومیاریا، و لیسانسا</h1>\n<h2>نیسسه</h2>\n$1<h2>عسگیا</h2>\n$2\n<h2>مینونه لیسانسیا</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>سرچشمه:</i> $2 <i>هومیارا:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>سرچشمه:</i> $2 <i>لیسانس:</i> $3 <i>هومیارا:</i> $4 <i>هنرمن اصلی:</i> $5"
 }
