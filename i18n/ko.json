@@ -180,5 +180,6 @@
 	"coll-setting-toc-yes": "예",
 	"coll-setting-toc-no": "아니오",
 	"coll-setting-columns": "열 수:",
-	"coll-attribution-anons": "익명: $1"
+	"coll-attribution-anons": "익명: $1",
+	"coll-attribution-page": "<h1>설명과 그림 출처, 기여자 및 라이선스</h1>\n<h2>설명</h2>\n$1<h2>그림</h2>\n$2\n<h2>내용 라이선스</h2>\n$3"
 }
