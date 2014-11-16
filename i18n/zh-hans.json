@@ -151,7 +151,7 @@
 	"coll-disable": "停用",
 	"coll-book_creator_disable": "停用图书创建器",
 	"coll-book_creator_disable_tooltip": "停止使用图书创建器",
-	"coll-add_linked_article": "添加相关维基页面至你的图书",
+	"coll-add_linked_article": "添加相关维基页面至您的图书",
 	"coll-remove_linked_article": "从你的图书删除相关维基页面",
 	"coll-add_category": "添加本分类至你的图书",
 	"coll-add_category_tooltip": "添加本分类中的所有维基页面至你的图书",
