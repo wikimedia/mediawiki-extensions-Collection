@@ -7,7 +7,8 @@
 			"Castelobranco",
 			"Petrus Adamus",
 			"Yekrats",
-			"Александр Сигачёв"
+			"Александр Сигачёв",
+			"KuboF"
 		]
 	},
 	"coll-desc": "[[Special:Book|Krei librojn]]",
@@ -46,7 +47,7 @@
 	"coll-drag_and_drop": "Uzu musan tren-kaj-maltenon por reordigi vikiajn paĝojn kaj ĉapitrojn",
 	"coll-create_chapter": "Krei ĉapitron",
 	"coll-sort_alphabetically": "Ordigi laŭ alfabeto",
-	"coll-rename": "Alinomigi",
+	"coll-rename": "Alinomi",
 	"coll-new_chapter": "Enigi nomon por nova ĉapitro",
 	"coll-rename_chapter": "Enigi novan nomon por ĉapitro",
 	"coll-no_such_category": "Nenia kategorio",
