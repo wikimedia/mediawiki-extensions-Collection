@@ -154,7 +154,7 @@
 	"coll-disable": "停用",
 	"coll-book_creator_disable": "停用書籍建立程式",
 	"coll-book_creator_disable_tooltip": "停止使用書籍建立程式",
-	"coll-add_linked_article": "加入已連結的 Wiki 頁面至你的書籍",
+	"coll-add_linked_article": "加入已連結的 wiki 頁面至你的書籍",
 	"coll-remove_linked_article": "從您的書籍中移除已連結的 Wiki 頁面",
 	"coll-add_category": "加入此分類至您的書籍",
 	"coll-add_category_tooltip": "新增此分類中所有的 Wiki 頁面至您的書籍",
