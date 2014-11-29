@@ -46,6 +46,7 @@
 	"coll-rename_chapter": "Sisesta uue peatüki pealkiri",
 	"coll-no_such_category": "Sellist kategooriat ei ole",
 	"coll-notitle_title": "Lehekülje pealkirja ei õnnestu hankida",
+	"coll-notitle_msg": "Lehekülje pealkirja ei õnnestunud kindlaks teha.",
 	"coll-request_failed_title": "Raamatu küljendamine ebaõnnestus",
 	"coll-request_failed_msg": "Sinu raamatu küljendamisel esines tõrge.",
 	"coll-mwserve_failed_title": "Küljendamisserveri tõrge",
