@@ -1163,6 +1163,9 @@ class SpecialCollection extends SpecialPage {
 			$content_type = $info->get( 'content_type' );
 			$content_length = $info->get( 'download_content_length' );
 			$content_disposition = null;
+			if ( $info->isError() ) {
+				$info = false;
+			}
 		}
 		if ( !$info ) {
 			$this->getOutput()->showErrorPage( 'coll-download_notfound_title', 'coll-download_notfound_text' );
