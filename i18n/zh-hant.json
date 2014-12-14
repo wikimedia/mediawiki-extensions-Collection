@@ -15,7 +15,8 @@
 			"Xiaomingyan",
 			"Spring Roll Conan",
 			"Cwlin0416",
-			"LNDDYL"
+			"LNDDYL",
+			"Cwek"
 		]
 	},
 	"coll-desc": "[[Special:Book|建立書籍]]",
@@ -108,8 +109,8 @@
 	"coll-download_failed_title": "下載發生錯誤",
 	"coll-download_failed_text": "下載檔案發生錯誤：$1",
 	"coll-is_cached": "<ul><li>己找到文件的快取版本，無需重新產生。\n[$1 強制重新產生]。</li></ul>",
-	"coll-excluded-templates": "* 於分類 [[:Category:$1|$1]] 中的樣板已被排除。",
-	"coll-blacklisted-templates": "* 由封鎖清單 [[:$1]] 上的樣板已被排除。",
+	"coll-excluded-templates": "* 於分類 [[:Category:$1|$1]] 中的模板已被排除。",
+	"coll-blacklisted-templates": "* 由封鎖清單 [[:$1]] 上的模板已被排除。",
 	"coll-book_title": "訂購實體書籍",
 	"coll-book_text": "由我們的合作夥伴取得實體書籍。",
 	"coll-order_from_pp": "使用 $1 預覽",
