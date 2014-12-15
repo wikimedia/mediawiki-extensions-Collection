@@ -8,7 +8,8 @@
 			"OsamaK",
 			"Prof.Sherif",
 			"Samer",
-			"زكريا"
+			"زكريا",
+			"Omda4wady"
 		]
 	},
 	"coll-desc": "[[Special:Book|ينشيء كتبا]]",
@@ -173,5 +174,8 @@
 	"coll-setting-papersize": "حجم الورق:",
 	"coll-setting-papersize-letter": "رسالة",
 	"coll-setting-toc": "إدراج جدول محتويات",
+	"coll-setting-toc-auto": "تلقائي",
+	"coll-setting-toc-yes": "نعم",
+	"coll-setting-toc-no": "لا",
 	"coll-setting-columns": "أعمدة:"
 }
