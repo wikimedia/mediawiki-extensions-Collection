@@ -71,7 +71,7 @@ $specialPageAliases['cdo'] = array(
 
 /** Chechen (нохчийн) */
 $specialPageAliases['ce'] = array(
-	'Book' => array( 'Жайнаш_гулдар' ),
+	'Book' => array( 'Жайнийн_коллекци' ),
 );
 
 /** Czech (čeština) */
