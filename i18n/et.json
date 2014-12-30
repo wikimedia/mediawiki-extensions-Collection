@@ -157,5 +157,12 @@
 	"coll-setting-papersize": "Lehekülje suurus:",
 	"coll-setting-papersize-letter": "Kiri",
 	"coll-setting-toc": "Lisa sisukord",
-	"coll-setting-columns": "Veerge:"
+	"coll-setting-toc-auto": "Automaatne",
+	"coll-setting-toc-yes": "Jah",
+	"coll-setting-toc-no": "Ei",
+	"coll-setting-columns": "Veerge:",
+	"coll-attribution-anons": "anonüümsed kasutajad: $1",
+	"coll-attribution-page": "<h1>Teksti ja piltide päritolu, kaastöölised ja litsentsid</h1>\n<h2>Tekst</h2>\n$1<h2>Pildid</h2>\n$2\n<h2>Sisulitsents</h2>\n$3",
+	"coll-article-attribution": "<b>$1</b> <i>Allikas:</i> $2 <i>Kaastöölised:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Allikas:</i> $2 <i>Litsents:</i> $3 <i>Kaastöölised:</i> $4 <i>Algse töö autor:</i> $5"
 }
