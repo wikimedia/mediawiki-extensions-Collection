@@ -9,7 +9,8 @@
 			"Prof.Sherif",
 			"Samer",
 			"زكريا",
-			"Omda4wady"
+			"Omda4wady",
+			"Abanima"
 		]
 	},
 	"coll-desc": "[[Special:Book|ينشيء كتبا]]",
@@ -135,6 +136,7 @@
 	"coll-format-zim": "كيويكس (أوبن زيم)",
 	"coll-format-docbook": "دوك بوك",
 	"coll-format-okawix_zeno": "أوكاويكس",
+	"coll-format-rdf2text": "معالج نصوص (نص عادي)",
 	"right-collectionsaveasuserpage": "احفظ الكتب في صفحة المستخدم",
 	"right-collectionsaveascommunitypage": "احفظ الكتب في صفحة المجتمع",
 	"coll-print_export": "طباعة",
@@ -177,5 +179,9 @@
 	"coll-setting-toc-auto": "تلقائي",
 	"coll-setting-toc-yes": "نعم",
 	"coll-setting-toc-no": "لا",
-	"coll-setting-columns": "أعمدة:"
+	"coll-setting-columns": "أعمدة:",
+	"coll-attribution-anons": "مجهولون: $1",
+	"coll-attribution-page": "<h1>مصادر النص والصور، والمساهمون والتراخيص</h1>\n<h2>النص</h2>\n$1<h2>الصور</h2>\n$2\n<h2>ترخيص المضمون</h2>\n$3",
+	"coll-article-attribution": "<b>$1</b> <i>المصدر:</i> $2 <i>المساهمون:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>المصدر:</i> $2 <i>الترخيص:</i> $3 <i>المساهمون:</i> $4 <i>الفنان الأصلي:</i> $5"
 }
