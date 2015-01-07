@@ -3,7 +3,8 @@
 		"authors": [
 			"Cekli829",
 			"Khan27",
-			"Vago"
+			"Vago",
+			"Wertuose"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kitablar yarat]]",
@@ -66,7 +67,7 @@
 	"coll-clear_collection_tooltip": "Hazırki kitabınızdakı bütün viki səhifələrini silin",
 	"coll-help": "Kömək",
 	"coll-help_tooltip": "Kitab yaratma haqqında köməyi izlə",
-	"coll-helppage": "Kömək:Kitablar",
+	"coll-helppage": "Help:Kitablar",
 	"coll-load_collection": "Kitabı yüklə",
 	"coll-load_collection_tooltip": "Bu kitabı cari kitabınız olaraq yükləyin",
 	"coll-n_pages": "$1 {{PLURAL:$1|səhifə|səhifə}}",
