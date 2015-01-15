@@ -156,5 +156,11 @@
 	"coll-make_suggestions": "Pàggene suggerite",
 	"coll-make_suggestions_tooltip": "Fà vedè le suggereminde ca se basane sus a le pàggene d'u libbre tune",
 	"coll-suggest_empty": "vacande",
-	"coll-setting-columns": "Culonne:"
+	"coll-setting-papersize-letter": "Lettere",
+	"coll-setting-toc": "'Nglude 'na tabbelle de condenute",
+	"coll-setting-toc-auto": "Auto",
+	"coll-setting-toc-yes": "Sìne",
+	"coll-setting-toc-no": "None",
+	"coll-setting-columns": "Culonne:",
+	"coll-attribution-anons": "Anonime: $1"
 }
