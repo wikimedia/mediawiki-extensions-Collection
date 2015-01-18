@@ -1,9 +1,40 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chelin"
+			"Chelin",
+			"C.R."
 		]
 	},
+	"coll-desc": "[[Special:Book|Ccrìa 'e libbre]]",
+	"coll-manage_your_book": "Gistiunate 'o libbro vuosto",
+	"coll-start_book_creator": "Accummencia 'o criatore 'e libbre",
+	"coll-book_creator_continue": "Continua 'ausann' 'o criatore 'e libbre",
+	"coll-book_creator_disable_text": "'O ''Criatore 'e libbre'' s'avess'a stutà e chillu libbro ncopp' 'o quale state faticanno se luvarrà.",
+	"coll-book_creator_text_article": "{{MediaWiki:Coll-helppage}}/Testo d' 'o criatore 'e libbre",
+	"coll-collection": "Libbro",
+	"coll-collections": "Libbre",
+	"coll-unknown_subpage_title": "Sottopaggena scanusciuta",
+	"coll-unknown_subpage_text": "Sta sottepàggena 'e [[Special:Book|Libbro]] nun esiste",
+	"coll-couldnotaddarticle_title": "Nun se pò azzeccà 'a paggena wiki",
+	"coll-savedbook_template": "libbro_sarvato",
+	"coll-your_book": "'O libbro vuosto",
+	"coll-download_title": "Scarreca",
+	"coll-download_text": "Pe' putè scarrecà 'o libbro vuosto sciglite nu formato e facite click ncopp' 'o buttòne.",
+	"coll-download": "Scarreca",
+	"coll-format_label": "Furmato:",
+	"coll-remove": "Lèva",
+	"coll-show": "Faje vedé",
+	"coll-move_to_top": "Mòve ncoppa ncoppa",
+	"coll-move_up": "Mòve ncoppa",
+	"coll-move_down": "Mòve abbascio",
+	"coll-move_to_bottom": "Mòve abbascio abbascio",
+	"coll-title": "Titulo:",
+	"coll-subtitle": "Sottotitulo:",
+	"coll-contents": "Cuntenute",
+	"coll-drag_and_drop": "Ausate 'a funziona drag & drop pe' putè sistimà tutt' 'e paggene wiki e capitole",
+	"coll-create_chapter": "Crìa nu capitolo",
+	"coll-sort_alphabetically": "Arricetà arfabbeticamente",
+	"coll-rename": "Renommena",
 	"coll-setting-toc": "Nclude l'énnece",
 	"coll-setting-columns": "Culonne:"
 }
