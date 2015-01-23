@@ -34,6 +34,11 @@ $specialPageAliases['as'] = array(
 	'Book' => array( 'সংগ্ৰহ', 'গ্ৰন্থ' ),
 );
 
+/** Avaric (авар) */
+$specialPageAliases['av'] = array(
+	'Book' => array( 'Коллекция_книг', 'Книга' ),
+);
+
 /** Bashkir (башҡортса) */
 $specialPageAliases['ba'] = array(
 	'Book' => array( 'Collection' ),
