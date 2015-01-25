@@ -4,7 +4,8 @@
 			"An13sa",
 			"Kobazulo",
 			"Theklan",
-			"Xabier Armendaritz"
+			"Xabier Armendaritz",
+			"Subi"
 		]
 	},
 	"coll-desc": "[[Special:Book|Liburuak sortu]]",
@@ -82,6 +83,7 @@
 	"coll-rendering_finished_text": "<strong>Dokumentuaren fitxategia sortu da.</strong>\n<strong>[$1 Jaitsi fitxategia]</strong> zure ordenagailuan.\n\nOharrak:\n* Ez zaizu emaitza gustatu? Ikus [[{{MediaWiki:Coll-helppage}}|bildumen inguruko laguntza orrialdea]] berau hobetzeko aukerak ikusteko.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Orrialdearen informazio testua prozesatzen",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Bilduraren informazio testua prozesatzen",
+	"coll-rendering_failed_status": "<strong>Egoera:</strong> $1",
 	"coll-notfound_title": "Liburua ez da aurkitu",
 	"coll-notfound_text": "Ezin izan da liburuko orria aurkitu.",
 	"coll-download_notfound_title": "Ez da fitxategirik aurkitu",
@@ -157,5 +159,7 @@
 	"coll-not_addable": "Orrialde hau ezin da gehitu",
 	"coll-make_suggestions": "Orrialdeak proposatu",
 	"coll-make_suggestions_tooltip": "Erakutsi gomendioak liburu honetako orrialdeak kontuan izanda",
-	"coll-suggest_empty": "hutsik"
+	"coll-suggest_empty": "hutsik",
+	"coll-setting-toc-yes": "Bai",
+	"coll-setting-toc-no": "Ez"
 }
