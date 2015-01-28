@@ -9,16 +9,16 @@ The *Collection* extension for MediaWiki_ allows users to collect articles and
 generate downloadable version in different formats (PDF, OpenDocument Text etc.)
 for article collections and single articles.
 
-The extension has been developed for and tested with MediaWiki_ version 1.14
-and later. Some features may not be available with older MediaWikis that
-don't have the `MediaWiki API`_ enabled.
+The extension has been developed for and tested with MediaWiki_
+version 1.25wmf19 and later, due to the use of the OOjs UI widget
+library.
 
 The extension is being developed under the GNU General Public License by
 `PediaPress GmbH`_ in close collaboration with `Wikimedia Foundation`_
 and the `Commonwealth of Learning`_.
 
-Copyright (C) 2008-2012, PediaPress GmbH, Siebrand Mazeland, Marcin Cieślak
-and other contributors
+Copyright (C) 2008-2015, PediaPress GmbH, Siebrand Mazeland, Marcin Cieślak,
+the Wikimedia Foundation, and other contributors
 
 Prerequisites
 =============
@@ -36,7 +36,7 @@ see http://php.net/curl
 Installation and Configuration of the Collection Extension
 ==========================================================
 
-* For *MediaWiki* versions up to and including **1.18**:
+* For *MediaWiki* versions up to and including **1.24**:
   Download the Collection extension matching your *MediaWiki* version from
   http://www.mediawiki.org/wiki/Special:ExtensionDistributor/Collection
   and unpack it into your mediawiki extensions directory::
@@ -44,7 +44,7 @@ Installation and Configuration of the Collection Extension
     cd /srv/http/wiki/extensions
     tar -xzf Collection-MW1.18-113990.tar.gz -C /var/www/mediawiki/extensions
 
-* For *MediaWiki* versions **1.19 and newer**:
+* For *MediaWiki* versions **1.25wmf19 and newer**:
   You can checkout the newest code of the *Collection* extension
   from the Git repository into the ``extensions`` directory of your
   *MediaWiki* installation::

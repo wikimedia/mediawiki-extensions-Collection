@@ -76,7 +76,9 @@ class SpecialCollection extends SpecialPage {
 				if ( is_null( $title ) ) {
 					$title = Title::newMainPage();
 				}
-				CollectionSession::enable();
+				if ( $request->getVal( 'confirm' ) ) {
+					CollectionSession::enable();
+				}
 				$out->redirect( $title->getFullURL() );
 				return;
 			case 'stop_book_creator':
@@ -84,7 +86,7 @@ class SpecialCollection extends SpecialPage {
 				if ( is_null( $title ) || $title->equals( $this->getPageTitle( $par ) ) ) {
 					$title = Title::newMainPage();
 				}
-				if ( $request->getVal( 'disable' ) ) {
+				if ( $request->getVal( 'confirm' ) ) {
 					CollectionSession::disable();
 				} elseif ( !$request->getVal( 'continue' ) ) {
 					$this->renderStopBookCreatorPage( $title );
@@ -333,6 +335,7 @@ class SpecialCollection extends SpecialPage {
 		global $wgJsMimeType;
 
 		$out = $this->getOutput();
+		$out->enableOOUI();
 
 		$this->setHeaders();
 		$out->setPageTitle( $this->msg( 'coll-book_creator' ) );
@@ -353,52 +356,35 @@ class SpecialCollection extends SpecialPage {
 			$title = Title::newMainPage();
 		}
 
-		$out->addHTML(
-			Xml::tags( 'div',
+		$form = new OOUI\FormLayout( array(
+			'method' => 'POST',
+			'action' => SkinTemplate::makeSpecialUrl(
+				'Book',
 				array(
-					'style' => 'margin: 10px 0;',
-				),
-				Xml::tags( 'div',
-					array(
-						'class' => 'collection-button ok',
-					),
-					Xml::element( 'a',
-						array(
-							'href' => SkinTemplate::makeSpecialUrl(
-								'Book',
-								array(
-									'bookcmd' => 'start_book_creator',
-									'referer' => $referer,
-								)
-							),
-							// TODO: title
-						),
-						$this->msg( 'coll-start_book_creator' )->text()
-					)
+					'bookcmd' => 'start_book_creator',
+					'referer' => $referer,
 				)
-				. Xml::tags( 'div',
-					array(
-						'class' => 'collection-button cancel',
-					),
-					Linker::link(
-						$title,
-						$this->msg( 'coll-cancel' )->escaped(),
-						array(
-							'rel' => 'nofollow',
-							// TOOD: title
-						),
-						array(),
-						array( 'known', 'noclasses' )
-					)
-				)
-				. Xml::element( 'div',
-					array(
-						'style' => 'clear: both;',
-					),
-					'', false
-				)
-			)
-		);
+			),
+		) );
+		$form->appendContent( new OOUI\ButtonGroupWidget( array(
+			'items' => array(
+				new OOUI\ButtonInputWidget( array(
+					'type' => 'submit',
+					'name' => 'confirm',
+					'value' => 'yes',
+					'flags' => array( 'primary', 'progressive' ),
+					'label' => $this->msg( 'coll-start_book_creator' )->text(),
+				) ),
+				new OOUI\ButtonWidget( array(
+					'href' => $title->getLinkURL(),
+					'title' => $title->getPrefixedText(),
+					'label' => $this->msg( 'coll-cancel' )->text(),
+					'noFollow' => true,
+				) ),
+			),
+		) ) );
+
+		$out->addHTML( $form );
 
 		$title_string = $this->msg( 'coll-book_creator_text_article' )->inContentLanguage()->text();
 		$t = Title::newFromText( $title_string );
@@ -417,43 +403,41 @@ class SpecialCollection extends SpecialPage {
 	 */
 	function renderStopBookCreatorPage( $referer ) {
 		$out = $this->getOutput();
+		$out->enableOOUI();
 
 		$this->setHeaders();
 		$out->setPageTitle( $this->msg( 'coll-book_creator_disable' ) );
 		$out->addWikiMsg( 'coll-book_creator_disable_text' );
 
-		$out->addHTML(
-			Xml::tags( 'form',
+		$form = new OOUI\FormLayout( array(
+			'method' => 'POST',
+			'action' => SkinTemplate::makeSpecialUrl(
+				'Book',
 				array(
-					'action' => SkinTemplate::makeSpecialUrl(
-						'Book',
-						array( 'bookcmd' => 'stop_book_creator' )
-					),
-					'method' => 'post',
-				),
-				Xml::element( 'input',
-					array(
-						'type' => 'hidden',
-						'name' => 'referer',
-						'value' => $referer,
-					)
+					'bookcmd' => 'stop_book_creator',
+					'referer' => $referer,
 				)
-				. Xml::element( 'input',
-					array(
-						'type' => 'submit',
-						'value' => $this->msg( 'coll-book_creator_continue' )->text(),
-						'name' => 'continue',
-					)
-				)
-				. Xml::element( 'input',
-					array(
-						'type' => 'submit',
-						'value' => $this->msg( 'coll-book_creator_disable' )->text(),
-						'name' => 'disable',
-					)
-				)
-			)
-		);
+			),
+		) );
+		$form->appendContent( new OOUI\ButtonGroupWidget( array(
+			'items' => array(
+				new OOUI\ButtonInputWidget( array(
+					'type' => 'submit',
+					'name' => 'continue',
+					'value' => 'yes',
+					'label' => $this->msg( 'coll-book_creator_continue' )->text(),
+				) ),
+				new OOUI\ButtonInputWidget( array(
+					'type' => 'submit',
+					'name' => 'confirm',
+					'value' => 'yes',
+					'label' => $this->msg( 'coll-book_creator_disable' )->text(),
+					'flags' => array( 'primary', 'destructive' ),
+				) ),
+			),
+		) ) );
+
+		$out->addHTML( $form );
 	}
 
 	/**
