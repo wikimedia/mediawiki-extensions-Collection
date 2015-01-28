@@ -37,6 +37,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'author' => array( 'PediaPress GmbH', 'Siebrand Mazeland', 'Marcin Cieślak'),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Collection',
 	'descriptionmsg' => 'coll-desc',
+	'license-name' => 'GPL-2.0+',
 );
 
 $dir = __DIR__ . '/';
