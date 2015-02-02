@@ -178,6 +178,7 @@ $wgAutoloadClasses['SpecialCollection'] = $dir . 'Collection.body.php';
 $wgAutoloadClasses['CollectionSession'] = $dir . 'Collection.session.php';
 $wgAutoloadClasses['CollectionHooks'] = $dir . 'Collection.hooks.php';
 $wgAutoloadClasses['CollectionSuggest'] = $dir . 'Collection.suggest.php';
+$wgAutoloadClasses['Proposals'] = $dir . 'Collection.suggest.php';
 $wgAutoloadClasses['CollectionPageTemplate'] = $dir . 'Collection.templates.php';
 $wgAutoloadClasses['CollectionListTemplate'] = $dir . 'Collection.templates.php';
 $wgAutoloadClasses['CollectionLoadOverwriteTemplate'] = $dir . 'Collection.templates.php';
@@ -188,6 +189,7 @@ $wgAutoloadClasses['CollectionFailedTemplate'] = $dir . 'Collection.templates.ph
 $wgAutoloadClasses['CollectionSuggestTemplate'] = $dir . 'Collection.templates.php';
 $wgAutoloadClasses['CollectionRenderingAPI'] = $dir . 'RenderingAPI.php';
 $wgAutoloadClasses['MWServeRenderingAPI'] = $dir . 'RenderingAPI.php';
+$wgAutoloadClasses['NewRenderingAPI'] = $dir . 'RenderingAPI.php';
 $wgAutoloadClasses['CollectionAPIResult'] = $dir . 'RenderingAPI.php';
 
 $wgMessagesDirs['Collection'] = __DIR__ . '/i18n';
