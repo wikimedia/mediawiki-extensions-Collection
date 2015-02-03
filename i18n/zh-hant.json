@@ -30,7 +30,7 @@
 	"coll-collection": "書籍",
 	"coll-collections": "書籍",
 	"coll-unknown_subpage_title": "不明的子頁面",
-	"coll-unknown_subpage_text": "此 [[Special:Book|書籍]] 子頁面不存在。",
+	"coll-unknown_subpage_text": "此[[Special:Book|書籍]]子頁面不存在。",
 	"coll-couldnotaddarticle_title": "無法加入 Wiki 頁面",
 	"coll-couldnotaddarticle_msg": "無法加入此 Wiki 頁面。",
 	"coll-couldnotremovearticle_title": "無法移除 Wiki 頁面",
