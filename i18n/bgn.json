@@ -1,0 +1,33 @@
+{
+	"@metadata": {
+		"authors": [
+			"Baloch Afghanistan"
+		]
+	},
+	"coll-collection": "کتاب",
+	"coll-collections": "کتاب هان",
+	"coll-your_book": "شمی کتاب",
+	"coll-download_title": "ائیر کورتین",
+	"coll-download": "ائیر کورتین",
+	"coll-format_label": "فرمت:",
+	"coll-remove": "پاک کورتین",
+	"coll-show": "نشان داتین",
+	"coll-rename": "نام ئی گردینتین",
+	"coll-yes": "هان",
+	"coll-no": "نه",
+	"coll-cancel": "کنسیل",
+	"coll-update": "اپڈیٹ",
+	"coll-suggest_your_book": "شمی کتاب",
+	"coll-suggest_show": "نشان داتین",
+	"coll-suggest_undo": "بیئرگردینتین",
+	"coll-format-okawix_zeno": "اوکاویکس",
+	"coll-bookscategory": "کتاب هان",
+	"coll-clear_collection": "کتابئ پاک کورتین",
+	"coll-help": "کومک",
+	"coll-suggest_empty": "خالی",
+	"coll-setting-papersize-letter": "نامه",
+	"coll-setting-toc-auto": "اوتوماتیک",
+	"coll-setting-toc-yes": "هان",
+	"coll-setting-toc-no": "نه",
+	"coll-setting-columns": "ستون هان:"
+}
