@@ -501,3 +501,10 @@ function wfAjaxCollectionSuggestUndoArticle( $lastAction, $article ) {
 }
 
 $wgAjaxExportList[] = 'wfAjaxCollectionSuggestUndoArticle';
+
+function wfAjaxCollectionSortItems() {
+	SpecialCollection::sortItems();
+	return wfAjaxCollectionGetItemList();
+}
+
+$wgAjaxExportList[] = 'wfAjaxCollectionSortItems';

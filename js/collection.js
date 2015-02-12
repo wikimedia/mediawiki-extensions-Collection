@@ -108,6 +108,7 @@ function create_chapter() {
 	if (name) {
 		name = name.substring(0, chapter_max_len);
 		req('AddChapter', [name], refresh_list);
+		update_buttons();
 	}
 	return false;
 }
@@ -145,6 +146,7 @@ function set_titles() {
 	req('SetTitles', [$('#titleInput').val(), $('#subtitleInput').val(), JSON.stringify( settings )], function(result) {
 		wfCollectionSave(result.collection);
 	});
+	update_buttons();
 	return false;
 }
 
@@ -201,6 +203,10 @@ function refresh_list(data) {
 	make_sortable();
 	update_buttons();
 }
+function sort_items(){
+	req('SortItems', [], refresh_list);
+	return false;
+}
 
 $(function() {
 	if ($('#collectionList').length) {
@@ -209,6 +215,7 @@ $(function() {
 		window.coll_remove_item = remove_item;
 		window.coll_rename_chapter = rename_chapter;
 		window.coll_clear_collection = clear_collection;
+		window.coll_sort_items = sort_items;
 		update_buttons();
 		make_sortable();
 		$('#coll-orderbox li.collection-partner.coll-more_info.collapsed').css(
@@ -229,10 +236,8 @@ $(function() {
 			}
 		});
 		$('#personalCollTitle').val($('#titleInput').val());
-		$('#personalCollTitle').keyup(update_buttons);
 		$('#personalCollTitle').change(update_buttons);
 		$('#communityCollTitle').val($('#titleInput').val());
-		$('#communityCollTitle').keyup(update_buttons);
 		$('#communityCollTitle').change(update_buttons);
 		$('#personalCollType').change(update_buttons);
 		$('#communityCollType').change(update_buttons);
