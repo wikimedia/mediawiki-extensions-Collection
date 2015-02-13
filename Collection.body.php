@@ -1132,7 +1132,7 @@ class SpecialCollection extends SpecialPage {
 			$out->addTemplate( $template );
 			break;
 		default:
-			throw new MWException( __METHOD__ . "(): unknown state '{$result->get( 'state' )}'");
+			throw new Exception( __METHOD__ . "(): unknown state '{$result->get( 'state' )}'");
 		}
 	}
 
