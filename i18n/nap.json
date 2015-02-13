@@ -141,6 +141,15 @@
 	"coll-clear_collection_confirm": "Overo vulite sbacantà sano sano 'o libbro?",
 	"coll-clear_collection_tooltip": "Lèva tutt' 'e paggene wiki d' 'o libbro 'e mò vuosto",
 	"coll-help": "Ajùto",
+	"coll-helppage": "Help:Libbre",
+	"coll-load_collection": "Carreca nu libbro",
+	"coll-load_collection_tooltip": "Carreca stu libbro comme 'o libbro ca tiene ncurzo",
+	"coll-n_pages": "$1 {{PLURAL:$1|paggena|paggene}}",
+	"coll-printable_version_pdf": "Verziona 'n PDF",
+	"coll-remove_this_page": "Lèva sta paggena 'a 'o libbro ro vuost",
+	"coll-remove_page_tooltip": "Lèva 'a paggena wiki 'e mmò ro libbro ro vuosto",
+	"coll-show_collection": "Fà veré nu libbro",
+	"coll-show_collection_tooltip": "Facite click pe' cagnà/scarrecà/urdinà 'o libbro vuosto",
 	"coll-setting-toc": "Nclude l'énnece",
 	"coll-setting-columns": "Culonne:"
 }
