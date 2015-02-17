@@ -174,6 +174,7 @@
 	"coll-setting-toc-no": "No",
 	"coll-setting-columns": "Culonne:",
 	"coll-attribution-anons": "Anonimo: $1",
+	"coll-attribution-page": "<h1>Funte 'e teste e immaggene, cuntribbuture e licienze</h1>\n<h2>Testo</h2>\n$1<h2>Immaggene</h2>\n$2\n<h2>Contenute d' 'a licienza</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Funte:</i> $2 <i>Cuntribbuture:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Funte:</i> $2 <i>Licienza:</i> $3 <i>Cuntribbuture:</i> $4 <i>Artista origgenale:</i> $5"
 }
