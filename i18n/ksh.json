@@ -156,5 +156,6 @@
 	"coll-not_addable": "Di Sigg kam_mer nit dobei donn",
 	"coll-make_suggestions": "Sigge vörschlonn",
 	"coll-make_suggestions_tooltip": "Donn Vörschlähsch aanzeije, je noh dä Sigge en Dingem Booch",
-	"coll-suggest_empty": "leddisch"
+	"coll-suggest_empty": "leddisch",
+	"coll-attribution-anons": "Nahmeloßß: $1"
 }
