@@ -13,7 +13,8 @@
 			"555",
 			"Cainamarques",
 			"Guilhermemau",
-			"He7d3r"
+			"He7d3r",
+			"Fasouzafreitas"
 		]
 	},
 	"coll-desc": "[[Special:Book|Criar livros]]",
@@ -175,5 +176,8 @@
 	"coll-setting-toc-auto": "Automático",
 	"coll-setting-toc-yes": "Sim",
 	"coll-setting-toc-no": "Não",
-	"coll-setting-columns": "Colunas:"
+	"coll-setting-columns": "Colunas:",
+	"coll-attribution-anons": "Anônimo: $1",
+	"coll-article-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Contribuidores:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Licença:</i> $3 <i>Contribuidores:</i> $4 <i>Artista original:</i> $5"
 }

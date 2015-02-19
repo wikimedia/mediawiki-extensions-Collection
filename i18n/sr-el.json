@@ -160,5 +160,6 @@
 	"coll-make_suggestions": "Predloži stranice",
 	"coll-make_suggestions_tooltip": "Prikaži predloge zasnovane na stranicama iz vaše knjige",
 	"coll-suggest_empty": "prazno",
-	"coll-setting-columns": "Kolona:"
+	"coll-setting-columns": "Kolona:",
+	"coll-article-attribution": "<b>$1</b> <i>Izvor:</i> $2 <i>Doprinosioci:</i> $3"
 }

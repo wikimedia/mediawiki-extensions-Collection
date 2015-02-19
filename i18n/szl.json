@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Krol111"
+		]
+	},
+	"coll-remove": "Wyćep",
+	"coll-show": "Pokoż",
+	"coll-move_up": "Przećep w gůra",
+	"coll-move_down": "Przećep w důł",
+	"coll-print_export": "Drukuj abo eksportuj",
+	"coll-create_a_book": "Zbajstluj kśůnżka",
+	"coll-download_as": "Pobjer kej $1",
+	"coll-remove_this_page": "Wyćep ta zajta ze kśůnżki"
+}

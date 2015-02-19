@@ -5,7 +5,8 @@
 			"Jayantanth",
 			"Tauhid16",
 			"Wikitanvir",
-			"Aftab1995"
+			"Aftab1995",
+			"Aftabuzzaman"
 		]
 	},
 	"coll-desc": "[[Special:Book|বই তৈরি]]",
@@ -122,7 +123,7 @@
 	"coll-suggest_undo": "পূর্বাবস্থায় আনো",
 	"right-collectionsaveasuserpage": "বইগুলো ব্যবহারকারী পাতা হিসেবে সংরক্ষণ করো",
 	"right-collectionsaveascommunitypage": "বইগুলো কমিউনিটি পাতা হিসেবে সংরক্ষণ করো",
-	"coll-print_export": "মুদ্রণ/এক্সপোর্ট",
+	"coll-print_export": "মুদ্রণ/রপ্তানি",
 	"coll-create_a_book": "বই তৈরি করো",
 	"coll-create_a_book_tooltip": "পাতার সংকলন বা বই তৈরি করো",
 	"coll-book_creator": "বই প্রস্তুতকারক",
@@ -151,7 +152,7 @@
 	"coll-remove_this_page": "এই পাতাটি আপনার বই থেকে অপসারণ করুন",
 	"coll-remove_page_tooltip": "আপনার বই থেকে বর্তমান উইকি পাতা অপসারণ করুন",
 	"coll-show_collection": "বই দেখাও",
-	"coll-show_collection_tooltip": "আপনার বই সম্পাদনা/ডাউনলোড/অর্ডার দিতে ক্লিক করুন",
+	"coll-show_collection_tooltip": "আপনার বই সম্পাদনা/ডাউনলোড/অর্ডার করতে ক্লিক করুন",
 	"coll-not_addable": "এই পাতাটি যোগ করা যাবে না",
 	"coll-make_suggestions": "পরামর্শ পাতা",
 	"coll-make_suggestions_tooltip": "বইয়ের পাতার উপর ভিত্তি করে পরামর্শগুলো দেখাও",

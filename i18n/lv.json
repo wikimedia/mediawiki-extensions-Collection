@@ -94,5 +94,6 @@
 	"coll-make_suggestions": "Ieteikt lapas",
 	"coll-make_suggestions_tooltip": "Parādīt ieteikumus, ņemot vērā lapas Jūsu grāmatā",
 	"coll-suggest_empty": "tukšs",
-	"coll-setting-papersize": "Papīra izmērs:"
+	"coll-setting-papersize": "Papīra izmērs:",
+	"coll-attribution-anons": "Anonīms: $1"
 }

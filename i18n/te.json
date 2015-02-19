@@ -159,5 +159,6 @@
 	"coll-setting-papersize": "కాగితపు సైజు:",
 	"coll-setting-papersize-letter": "లేఖ",
 	"coll-setting-toc": "విషయ సూచికను చేర్చు",
-	"coll-setting-columns": "నిలువువరుసలు:"
+	"coll-setting-columns": "నిలువువరుసలు:",
+	"coll-attribution-anons": "అజ్ఞాతం: $1"
 }
