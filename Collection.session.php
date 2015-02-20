@@ -80,7 +80,8 @@ class CollectionSession {
 	 * @return bool
 	 */
 	static function isEnabled() {
-		return ( self::hasSession() && $_SESSION['wsCollection']['enabled'] );
+		return self::hasSession() && isset( $_SESSION['wsCollection']['enabled'] ) &&
+			$_SESSION['wsCollection']['enabled'];
 	}
 
 	/**
