@@ -41,14 +41,18 @@
 	"coll-download_as": "אַראָפלאָדן אַלס $1",
 	"coll-download_as_tooltip": "אראָפלאָדן אַ $1 ווערסיע פון דעם וויקיפּעדיע בלאַט",
 	"coll-disable": "אָפאַקטיוויזירן",
+	"coll-book_creator_disable_tooltip": "אויפהיטן ניצן דער ביכער־שאפער",
+	"coll-add_this_page": "צולייגן דים בלאט צו אײַער בוך",
 	"coll-bookscategory": "ביכער",
 	"coll-help": "הילף",
+	"coll-help_tooltip": "ווײַזן הילף וועגן שאפן ביכער",
 	"coll-helppage": "Help:ביכער",
 	"coll-n_pages": "$1 {{PLURAL:$1|בלאַט|בלעטער}}",
 	"coll-remove_this_page": "נעמט אַראָפּ דעם בלאַט פון אײַער בוך",
 	"coll-show_collection": "ווײַזן בוך",
 	"coll-make_suggestions": "פארשלאגן זייטן",
 	"coll-suggest_empty": "ליידיק",
+	"coll-attribution-anons": "אַנאנים: $1",
 	"coll-article-attribution": "<b>$1</b> <i>מקור:</i> $2 <i>בײַשטײַערער:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>מקור:</i> $2 <i>ליצענץ:</i> $3 <i>ביישטייערער:</i> $4 <i>ארגינעלער קינצטלער:</i> $5"
 }

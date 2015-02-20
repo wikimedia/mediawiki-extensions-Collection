@@ -19,7 +19,8 @@
 			"Verdy p",
 			"Wyz",
 			"Zetud",
-			"Ultimate"
+			"Ultimate",
+			"Elfix"
 		]
 	},
 	"coll-desc": "Permet de [[Special:Book|créer des livres]]",
@@ -101,7 +102,7 @@
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informations sur le rendu des pages",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informations sur le rendu des collections",
 	"coll-rendering_failed_title": "Échec du rendu",
-	"coll-rendering_failed_text": "<strong>La génération du fichier du document a échouée.</strong>\n\n<p><span id=\"renderingStatus\">$1</span></p>",
+	"coll-rendering_failed_text": "<strong>La génération du fichier du document a échoué.</strong>\n\n<p><span id=\"renderingStatus\">$1</span></p>",
 	"coll-rendering_failed_status": "<strong>État :</strong> $1",
 	"coll-failed_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Texte d’information du rendu des pages",
 	"coll-failed_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Texte d’information du rendu des collections",

@@ -7,7 +7,8 @@
 			"Dj",
 			"Glanthor Reviol",
 			"Csega",
-			"Dorgan"
+			"Dorgan",
+			"Tacsipacsi"
 		]
 	},
 	"coll-desc": "[[Special:Book|Könyvek készítése]]",
@@ -166,5 +167,7 @@
 	"coll-setting-toc-auto": "Automatikus",
 	"coll-setting-toc-yes": "Igen",
 	"coll-setting-toc-no": "Nem",
-	"coll-setting-columns": "Hasábok száma:"
+	"coll-setting-columns": "Hasábok száma:",
+	"coll-article-attribution": "<b>$1</b> <i>Forrás:</i> $2 <i>Közreműködők:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Forrás:</i> $2 <i>Licenc:</i> $3 <i>Közreműködők:</i> $4 <i>Eredeti művész:</i> $5"
 }

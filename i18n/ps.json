@@ -82,5 +82,6 @@
 	"coll-show_collection": "کتاب ښکاره کول",
 	"coll-not_addable": "دا مخ نشي ورګډېدلی",
 	"coll-make_suggestions": "مخونه وړانديزول",
-	"coll-suggest_empty": "تش"
+	"coll-suggest_empty": "تش",
+	"coll-attribution-anons": "ورکنومی: $1"
 }

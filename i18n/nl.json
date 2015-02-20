@@ -181,5 +181,7 @@
 	"coll-setting-toc-yes": "Ja",
 	"coll-setting-toc-no": "Nee",
 	"coll-setting-columns": "Kolommen:",
-	"coll-attribution-anons": "Anoniem: $1"
+	"coll-attribution-anons": "Anoniem: $1",
+	"coll-article-attribution": "<b>$1</b> <i>Bron:</i> $2 <i>Bijdragers:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Bron:</i> $2 <i>Licentie:</i> $3 <i>Bijdragers:</i> $4 <i>Oorspronkelijke artiest:</i> $5"
 }

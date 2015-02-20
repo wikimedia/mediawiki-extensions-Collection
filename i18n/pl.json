@@ -173,5 +173,8 @@
 	"coll-setting-toc-auto": "Automatycznie",
 	"coll-setting-toc-yes": "Tak",
 	"coll-setting-toc-no": "Nie",
-	"coll-setting-columns": "Kolumny:"
+	"coll-setting-columns": "Kolumny:",
+	"coll-attribution-anons": "Anonimowy: $1",
+	"coll-article-attribution": "<b>$1</b> <i>Źródło:</i> $2 <i>Autorzy:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Źródło:</i> $2 <i>Licencja:</i> $3 <i>Autorzy:</i> $4 <i>Artysta:</i> $5"
 }
