@@ -6,7 +6,8 @@
 			"Aviator",
 			"Izzudin",
 			"Kurniasan",
-			"Pizza1016"
+			"Pizza1016",
+			"SNN95"
 		]
 	},
 	"coll-desc": "[[Special:Book|Mencipta buku]]",
@@ -167,5 +168,6 @@
 	"coll-setting-toc-auto": "Auto",
 	"coll-setting-toc-yes": "Ya",
 	"coll-setting-toc-no": "Tidak",
-	"coll-setting-columns": "Lajur:"
+	"coll-setting-columns": "Lajur:",
+	"coll-image-attribution": "<b>$1</b> <i>Sumber:</i> $2 <i>Perlesenan:</i> $3 <i>Penyumbang:</i> $4 <i>Artis asal:</i> $5"
 }

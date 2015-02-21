@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"UV"
+		]
+	},
+	"coll-remove": "Removere",
+	"coll-show": "Monstrare",
+	"coll-n_pages": "$1 {{PLURAL:$1|pagina|paginae}}"
+}

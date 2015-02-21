@@ -165,5 +165,7 @@
 	"coll-setting-papersize": "पृष्ठ आकार:",
 	"coll-setting-papersize-letter": "लेटर",
 	"coll-setting-toc": "विषय सूची शामिल करें",
-	"coll-setting-columns": "कॉलम:"
+	"coll-setting-columns": "कॉलम:",
+	"coll-article-attribution": "<b>$1</b> <i>स्रोत:</i> $2 <i>योगदानकर्ता:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>स्रोत:</i> $2 <i>लाइसेंस:</i> $3 <i>योगदानकर्ता:</i> $4 <i>मूल कलाकार:</i> $5"
 }

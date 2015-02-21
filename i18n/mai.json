@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Tulsi Bhagat"
+		]
+	},
+	"coll-remove": "हटाउ",
+	"coll-show": "देखाऊ",
+	"coll-move_up": "ऊपर भेजु",
+	"coll-move_down": "नीचा भेजु",
+	"coll-print_export": "प्रिन्ट/निर्यात",
+	"coll-create_a_book": "एकटा किताब बनाबु",
+	"coll-book_creator": "किताब निर्माता",
+	"coll-download_as": "$1 कऽ रूपमें डाउनलोड करु",
+	"coll-disable": "असमर्थ",
+	"coll-book_creator_disable_tooltip": "किताब निर्माता कऽ उपयोग बंद करु",
+	"coll-help": "मदत",
+	"coll-help_tooltip": "किताब निर्माण हेतु सहायता दिखाऊ",
+	"coll-helppage": "Help:किताबसभ",
+	"coll-remove_this_page": "यी पन्नाकेँ हमर साकांक्ष सूची सऽ हटाउ",
+	"coll-show_collection": "किताब दिखाऊ",
+	"coll-make_suggestions": "सुझाव कऽ पन्ना",
+	"coll-make_suggestions_tooltip": "आपनेके किताबके पन्नाके अनुसार सुझाव देखाऊ"
+}
