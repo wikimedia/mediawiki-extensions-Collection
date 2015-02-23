@@ -176,6 +176,6 @@
 	"coll-setting-columns": "Columnas:",
 	"coll-attribution-anons": "Anónimos: $1",
 	"coll-attribution-page": "<h1>Fontes, contribuidores e licenzas de texto e imaxe</h1>\n<h2>Texto</h2>\n$1\n<h2>Imaxes</h2>\n$2\n<h2>Licenza</h2>\n$3",
-	"coll-article-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Contribuidores:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Licenza:</i> $3 <i>Contribuidores:</i> $4 <i>Artista original:</i> $5"
+	"coll-article-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Colaboradores:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Licenza:</i> $3 <i>Colaboradores:</i> $4 <i>Artista orixinal:</i> $5"
 }

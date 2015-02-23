@@ -175,5 +175,6 @@
 	"coll-setting-columns": "Colòne:",
 	"coll-attribution-anons": "Anònim: $1",
 	"coll-attribution-page": "<h1>Sorgiss, contributor e license dël test e dla plancia</h1>\n<h2>Test</h2>\n$1<h2>Plance</h2>\n$2\n<h2>Licensa dël contnù</h2>\n$3",
-	"coll-article-attribution": "<b>$1</b> <i>Sorgiss:</i> $2 <i>Contributor:</i> $3"
+	"coll-article-attribution": "<b>$1</b> <i>Sorgiss:</i> $2 <i>Contributor:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Sorgiss :</i> $2 <i>Licensa :</i> $3 <i>Contributot :</i> $4 <i>Artista d’orìgin :</i> $5"
 }
