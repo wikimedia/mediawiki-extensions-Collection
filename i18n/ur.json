@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Muhammad Shuaib",
-			"පසිඳු කාවින්ද"
+			"පසිඳු කාවින්ද",
+			"عثمان خان شاہ"
 		]
 	},
 	"coll-desc": "[[Special:Book|تخلیق کتب]]",
@@ -141,5 +142,6 @@
 	"coll-not_addable": "اس صفحہ کا اضافہ نہیں کیا جاسکتا",
 	"coll-make_suggestions": "تجویز برائے صفحات",
 	"coll-make_suggestions_tooltip": "اپنی کتاب کے صفحات پر مبنی تجاویز دکھائیں",
-	"coll-suggest_empty": "خالی"
+	"coll-suggest_empty": "خالی",
+	"coll-attribution-anons": "نامعلوم: $1"
 }
