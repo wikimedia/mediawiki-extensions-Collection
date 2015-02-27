@@ -127,7 +127,7 @@
 	"coll-book_creator": "ตัวสร้างหนังสือ",
 	"coll-download_as": "ดาวน์โหลดเป็น $1",
 	"coll-download_as_tooltip": "ดาวน์โหลดรูปแบบ $1 ของหน้าวิกินี้",
-	"coll-disable": "ปิดการใช้งาน",
+	"coll-disable": "ปิดใช้งาน",
 	"coll-book_creator_disable": "ยกเลิกการใช้ตัวสร้างหนังสือ",
 	"coll-book_creator_disable_tooltip": "เลิกใช้ตัวสร้างหนังสือ",
 	"coll-add_linked_article": "เพิ่มหน้าวิกิเชื่อมโยงในหนังสือของคุณ",
@@ -153,6 +153,6 @@
 	"coll-show_collection_tooltip": "คลิกเพื่อแก้ไข ดาวน์โหลด หรือสั่งซื้อหนังสือของคุณ",
 	"coll-not_addable": "ไม่สามารถเพิ่มหน้านี้ลงหนังสือได้",
 	"coll-make_suggestions": "หน้าแนะนำ",
-	"coll-make_suggestions_tooltip": "แสดงคำแนะนำตามหน้าที่อยู่ในหนังสือของคุณ",
+	"coll-make_suggestions_tooltip": "แสดงคำแนะนำตามหน้าในหนังสือของคุณ",
 	"coll-suggest_empty": "ไม่มีคำแนะนำ"
 }

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Aushulz",
-			"Gmelfi"
+			"Gmelfi",
+			"Pippinu"
 		]
 	},
 	"coll-collection": "Libbru",
@@ -10,6 +11,8 @@
 	"coll-savedbook_template": "libbru_sarvatu",
 	"coll-remove": "Lèva",
 	"coll-show": "Ammustra",
+	"coll-move_up": "Sposta pi' supra",
+	"coll-move_down": "Sposta pi' sutta",
 	"coll-title": "Tìtulu:",
 	"coll-rename": "Cancia nomu",
 	"coll-empty_collection": "Libbru vacanti",
