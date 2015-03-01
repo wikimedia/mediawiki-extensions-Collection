@@ -15,8 +15,10 @@
 	"coll-suggest_show": "zaische",
 	"coll-print_export": "Drugge/expoadiere",
 	"coll-create_a_book": "Machä Buch",
+	"coll-book_creator": "Buch-Schepfa",
 	"coll-download_as": "Als $1 runnalade",
 	"coll-disable": "abschdelle",
+	"coll-book_creator_disable": "Bucheazaischa abschdelle",
 	"coll-bookscategory": "Bischa",
 	"coll-clear_collection": "Buch lesche",
 	"coll-clear_collection_confirm": "Wilschd doi Buch wirglisch lesche?",
@@ -24,6 +26,9 @@
 	"coll-helppage": "Help:Bischa",
 	"coll-remove_this_page": "Die Said vun doim Buch wegnemme",
 	"coll-show_collection": "Buch zaische",
+	"coll-show_collection_tooltip": "Fa doi buch gligg uff schaffe/runnalaade/bschdelle.",
 	"coll-make_suggestions": "Saide voaschlache",
-	"coll-attribution-anons": "Anoniem: $1"
+	"coll-attribution-anons": "Anoniem: $1",
+	"coll-article-attribution": "<b>$1</b> <i>Gwell:</i> $2 <i>Middawaida:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Gwell:</i> $2 <i>Lizens:</i> $3 <i>Middawaida:</i> $4 <i>Uaschbringlischa Schebfa:</i> $5"
 }

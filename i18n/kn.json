@@ -46,8 +46,19 @@
 	"coll-book_creator": "ಪುಸ್ತಕ ಸೃಷ್ಟಿಕಾರ",
 	"coll-download_as": "$1 ಎಂದು ನಕಲಿಳಿಸಿ",
 	"coll-download_as_tooltip": "ಈ ವಿಕಿ ಪುಟದ $1 ನೇ ಆವೃತ್ತಿಯನ್ನು ನಕಲಿಳಿಸಿ",
+	"coll-disable": "ನಿಷ್ಕ್ರಿಯಗೊಳಿಸು",
+	"coll-book_creator_disable": "ಪುಸ್ತಕ ಸೃಷ್ಟಿಕಾರ ನಿಷ್ಕ್ರಿಯಗೊಳಿಸು",
+	"coll-book_creator_disable_tooltip": "ಪುಸ್ತಕ ಸೃಷ್ಟಿಕಾರದ ಬಳಕೆ ನಿಲ್ಲಿಸು",
+	"coll-add_this_page": "ಈ ಪುಟವನ್ನು ನಿಮ್ಮ ಪುಸ್ತಕಕ್ಕೆ ಸೇರಿಸಿ",
 	"coll-bookscategory": "ಪುಸ್ತಕಗಳು",
 	"coll-clear_collection": "ಪುಸ್ತಕವನ್ನು ತೆಗೆಯಿರಿ",
 	"coll-help": "ಸಹಾಯ",
-	"coll-printable_version_pdf": "ಪಿಡಿಎಫ್ ಆವೃತ್ತಿ"
+	"coll-help_tooltip": "ಪುಸ್ತಕಗಳನ್ನು ಸೃಷ್ಟಿ ಮಾಡುವ ಬಗ್ಗೆ ಸಹಾಯ ತೋರಿಸು",
+	"coll-helppage": "Help:ಪುಸ್ತಕಗಳು",
+	"coll-n_pages": "$1 {{PLURAL:$1|ಪುಟ|ಪುಟಗಳು}}",
+	"coll-printable_version_pdf": "ಪಿಡಿಎಫ್ ಆವೃತ್ತಿ",
+	"coll-remove_this_page": "ಈ ಪುಟವನ್ನು ನಿಮ್ಮ ಪುಸ್ತಕದಿಂದ ತೆಗೆಯಿರಿ",
+	"coll-show_collection": "ಪುಸ್ತಕ ತೋರಿಸು",
+	"coll-article-attribution": "<b>$1</b> <i>ಮೂಲ:</i> $2 <i>ನೆರವಾದವರು:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>ಮೂಲ:</i> $2 <i>ಪರವಾನಗಿ:</i> $3 <i>ನೆರವಾದವರು:</i> $4 <i>ಮೂಲ ಕಲಾವಿದ:</i> $5"
 }
