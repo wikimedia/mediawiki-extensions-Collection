@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Irwangatot"
+			"Irwangatot",
+			"Kandar"
 		]
 	},
+	"coll-remove": "Hapus",
+	"coll-show": "Témbongkeun",
 	"coll-move_to_top": "Mindahkeun ka luhur",
 	"coll-move_up": "Pindahkeun ka luhur",
 	"coll-move_down": "Mindahkeun ka handap",
@@ -16,5 +19,6 @@
 	"coll-append": "Tambahkeun",
 	"coll-cancel": "Bolay",
 	"coll-about_pp": "Ngeunaan $1",
-	"coll-add_category": "Nambah kategori"
+	"coll-add_category": "Nambah kategori",
+	"coll-remove_this_page": "Kaluarkeun ieu kaca tina pustaka anjeun"
 }
