@@ -232,7 +232,6 @@ class MWServeRenderingAPI extends CollectionRenderingAPI {
 	protected function makeRequest( $command, array $params ) {
 		global $wgCollectionMWServeURL, $wgCollectionMWServeCredentials, $wgCollectionFormatToServeURL, $wgCollectionCommandToServeURL;
 
-		wfProfileIn( __METHOD__ . "-$command" );
 		$serveURL = $wgCollectionMWServeURL;
 		if ( $this->writer ) {
 			if ( isset( $wgCollectionFormatToServeURL[ $this->writer ] ) ) {
@@ -251,14 +250,11 @@ class MWServeRenderingAPI extends CollectionRenderingAPI {
 		// If $serveURL has a | in it, we need to use a proxy.
 		list( $proxy, $serveURL ) = array_pad( explode( '|', $serveURL, 2 ), -2, '' );
 
-		$response = Http::post( $serveURL, array( 'postData' => $params, 'proxy' => $proxy ) );
+		$response = Http::post( $serveURL, array( 'postData' => $params, 'proxy' => $proxy ), __METHOD__ );
 		if ( $response === false ) {
 			wfDebugLog( 'collection', "Request to $serveURL resulted in error" );
 		}
-		$result = new CollectionAPIResult( $response );
-		wfProfileOut( __METHOD__ . "-$command" );
-
-		return $result;
+		return new CollectionAPIResult( $response );
 	}
 }
 
