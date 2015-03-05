@@ -4,7 +4,8 @@
 			"Cekli829",
 			"Khan27",
 			"Vago",
-			"Wertuose"
+			"Wertuose",
+			"Dağlı95"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kitablar yarat]]",
@@ -39,8 +40,15 @@
 	"coll-append": "Əlavə",
 	"coll-cancel": "Ləğv et",
 	"coll-update": "Yenilə",
+	"coll-rendering_title": "Sənəd yaradılır",
+	"coll-rendering_text": "<p><strong>Zəhmət olmasa, gözləyin — sənədin yaradılması prosesi gedir.</strong></p>\n\n<p><strong>İşin gedişatı: </strong> <span id=\"renderingProgress\">$1</span> % <span id=\"renderingStatus\">$2</span></p>\n\n<p>Bu səhifə bir neçə saniyədən bir avtomatik yenilənməlidir.\nƏgər bu hal baş vermirsə, brauzerin \"yenilə\" düyməsinə basın.</p>",
+	"coll-rendering_status": "<strong>Status:</strong> $1",
 	"coll-rendering_article": "(viki səhifə: $1)",
 	"coll-rendering_page": "(səhifə: $1)",
+	"coll-rendering_finished_title": "Sənəd hazırdır",
+	"coll-rendering_finished_text": "<strong>Sənəd hazırdır.</strong>\nSənədi kompüterinizə <strong>[$1 yükləyə]</strong> bilərsiniz.\n\nQeyd:\n* Nəticədən məmnun deyilsiz? Əlavənin inkişaf etdirilməsi istiqamətləri barədə məlumat almaq üçün [[{{MediaWiki:Coll-helppage}}|kitablar haqqında kömək səhifələrinə]] baxın.",
+	"coll-rendering_failed_title": "Sənədin hazırlanmasında xəta",
+	"coll-rendering_failed_text": "<strong>Sənədin yaradılması zamanı xəta baş verdi.</strong>\n\n<p><span id=\"renderingStatus\">$1</span></p>",
 	"coll-notfound_title": "Kitab tapılmadı",
 	"coll-download_notfound_title": "Fayl tapılmadı",
 	"coll-license": "Lisenziya",

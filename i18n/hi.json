@@ -3,7 +3,8 @@
 		"authors": [
 			"Ansumang",
 			"Kaustubh",
-			"Siddhartha Ghai"
+			"Siddhartha Ghai",
+			"बिप्लब आनन्द"
 		]
 	},
 	"coll-desc": "[[Special:Book|पुस्तकें बनाएँ]]",
@@ -17,7 +18,7 @@
 	"coll-collection": "पुस्तक",
 	"coll-collections": "पुस्तकें",
 	"coll-unknown_subpage_title": "अज्ञात उपपृष्ठ",
-	"coll-unknown_subpage_text": "[[Special:Book|पुस्तक]] का यह उपपृष्ठ मौजूद नहीं है",
+	"coll-unknown_subpage_text": "[[Special:Book|पुस्तक]] का यह उपपृष्ठ मौजूद नहीं है।",
 	"coll-couldnotaddarticle_title": "विकि पृष्ठ जोड़ा नहीं जा सका",
 	"coll-couldnotaddarticle_msg": "यह विकि पृष्ठ जोड़ा नहीं जा सका।",
 	"coll-couldnotremovearticle_title": "विकि पृष्ठ हटाया नहीं जा सका",
@@ -47,7 +48,7 @@
 	"coll-rename_chapter": "नये अध्याय के लिये नाम दें",
 	"coll-no_such_category": "ऐसी कोई श्रेणी नहीं है",
 	"coll-notitle_title": "इस पृष्ठ का शीर्षक सुनिश्चित नहीं किया जा सका।",
-	"coll-request_failed_title": "पुस्तक रेंडर करना विफल रहा",
+	"coll-request_failed_title": "पुस्तक प्रतिपादन विफल",
 	"coll-request_failed_msg": "आपकी पुस्तक रेंडर करने में त्रुटि उत्पन्न हुई।",
 	"coll-mwserve_failed_title": "रेंडर सर्वर में त्रुटि",
 	"coll-mwserve_failed_msg": "रेंडर सर्वर में त्रुटि हुई: <nowiki>$1</nowiki>",

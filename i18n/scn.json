@@ -25,8 +25,13 @@
 	"coll-rendering_page": "(paggina: $1)",
 	"coll-suggested_articles": "Cunsigghi",
 	"coll-suggest_show": "ammustra",
+	"coll-print_export": "Stampa/esporta",
+	"coll-create_a_book": "Crea nu libbru",
+	"coll-download_as": "Scarica comu $1",
 	"coll-bookscategory": "Libbra",
 	"coll-help": "Aiutu",
+	"coll-remove_this_page": "Leva sta pàggina dû tò libbru",
 	"coll-show_collection": "Talìa libbru",
-	"coll-suggest_empty": "vacanti"
+	"coll-suggest_empty": "vacanti",
+	"coll-image-attribution": "<b>$1</b> <i>Funti:</i> $2 <i>Licenzia:</i> $3 <i>Cuntribbuturi:</i> $4 <i>Artista urigginali:</i> $5"
 }

@@ -12,7 +12,8 @@
 			"Qblik",
 			"Sp5uhe",
 			"ToSter",
-			"Wpedzich"
+			"Wpedzich",
+			"Peter Bowman"
 		]
 	},
 	"coll-desc": "[[Special:Book|Tworzenie książki]]",
@@ -87,7 +88,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informacje na temat renderowania strony",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informacje na temat renderowania kolekcji",
 	"coll-rendering_finished_title": "Renderowanie zakończone",
-	"coll-rendering_finished_text": "<strong>Dokument został wygenerowany.</strong>\n<strong>[$1 Pobierz plik]</strong> na swój komputer.\n\nUwaga:\n* Nie jesteś zadowolony z wygenerowanego dokumentu? Zajrzyj na [[{{MediaWiki:Coll-helppage}}|stronę pomocy dotyczącą kolekcji]], aby dowiedzieć się jakie są możliwości poprawy dokumentu.",
+	"coll-rendering_finished_text": "<strong>Dokument został wygenerowany.</strong>\n<strong>[$1 Pobierz plik]</strong> na swój komputer.\n\nUwaga:\n* Nie jesteś zadowolony z wygenerowanego dokumentu? Zajrzyj na [[{{MediaWiki:Coll-helppage}}|stronę pomocy dotyczącą kolekcji]], aby dowiedzieć się, jakie są możliwości poprawy dokumentu.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Tekst informacyjny przetwarzania strony",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Tekst informacyjny przetwarzania kolekcji",
 	"coll-rendering_failed_status": "<strong>Status:</strong> $1",
