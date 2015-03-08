@@ -170,5 +170,8 @@
 	"coll-setting-toc": "目次を含める",
 	"coll-setting-toc-auto": "自動",
 	"coll-setting-toc-yes": "はい",
-	"coll-setting-toc-no": "いいえ"
+	"coll-setting-toc-no": "いいえ",
+	"coll-attribution-anons": "匿名: $1",
+	"coll-article-attribution": "<b>$1</b> <i>出典:</i> $2 <i>投稿者:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>出典:</i> $2 <i>ライセンス:</i> $3 <i>投稿者:</i> $4 <i>原著者:</i> $5"
 }

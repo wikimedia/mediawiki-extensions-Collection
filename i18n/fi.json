@@ -10,7 +10,8 @@
 			"Str4nd",
 			"Tarmo",
 			"Zache",
-			"Syreeni"
+			"Syreeni",
+			"McSalama"
 		]
 	},
 	"coll-desc": "[[Special:Book|Laadi kirjoja]].",
@@ -173,5 +174,8 @@
 	"coll-setting-papersize": "Paperin koko:",
 	"coll-setting-papersize-letter": "Kirje",
 	"coll-setting-toc": "Sisällytä sisällysluettelo",
-	"coll-setting-columns": "Sarakkeita:"
+	"coll-setting-columns": "Sarakkeita:",
+	"coll-attribution-anons": "Nimetön: $1",
+	"coll-article-attribution": "<b>$1</b> <i>Lähde:</i> $2 <i>Osallistujat:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Lähde:</i> $2 <i>Lisenssi:</i> $3 <i>Osallistujat:</i> $4 <i>Alkuperäinen esittäjä:</i> $5"
 }
