@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Bachounda"
+		]
+	},
+	"coll-remove": "امحي",
+	"coll-show": "ورّي",
+	"coll-move_up": "حرك للفوق",
+	"coll-move_down": "حرك للتحت  شويه",
+	"coll-print_export": "طباعه",
+	"coll-create_a_book": "أعمل كتاب",
+	"coll-download_as": "تطلع ب$1"
+}
