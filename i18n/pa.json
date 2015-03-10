@@ -4,7 +4,23 @@
 			"Babanwalia"
 		]
 	},
+	"coll-remove": "ਹਟਾਉ",
+	"coll-show": "ਵਿਖਾਉ",
+	"coll-move_up": "ਉੱਤੇ ਘੱਲੋ",
+	"coll-move_down": "ਹੇਠਾਂ ਘੱਲੋ",
+	"coll-print_export": "ਛਾਪੋ/ਬਰਾਮਦ ਕਰੋ",
+	"coll-create_a_book": "ਕੋਈ ਕਿਤਾਬ ਤਿਆਰ ਕਰੋ",
+	"coll-book_creator": "ਕਿਤਾਬ ਤਿਆਰਕਰਤਾ",
+	"coll-download_as": "$1 ਵਜੋਂ ਲਾਹੋ",
+	"coll-disable": "ਬੰਦ ਕਰੋ",
+	"coll-help": "ਮਦਦ",
+	"coll-helppage": "Help:ਕਿਤਾਬਾਂ",
+	"coll-n_pages": "$1 {{PLURAL:$1|ਸਫ਼ਾ|ਸਫ਼ੇ}}",
+	"coll-remove_this_page": "ਆਪਣੀ ਕਿਤਾਬ ਤੋਂ ਇਹ ਸਫ਼ਾ ਹਟਾਉ",
+	"coll-show_collection": "ਕਿਤਾਬ ਵਿਖਾਉ",
+	"coll-make_suggestions": "ਸਫ਼ੇ ਸੁਝਾਉ",
 	"coll-setting-toc-auto": "ਆਪਣੇ-ਆਪ",
 	"coll-setting-toc-yes": "ਹਾਂ",
-	"coll-setting-toc-no": "ਨਹੀਂ"
+	"coll-setting-toc-no": "ਨਹੀਂ",
+	"coll-attribution-anons": "ਗੁਮਨਾਮ: $1"
 }
