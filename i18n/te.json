@@ -6,7 +6,8 @@
 			"Kiranmayee",
 			"Ravichandra",
 			"Veeven",
-			"వైజాసత్య"
+			"వైజాసత్య",
+			"రహ్మానుద్దీన్"
 		]
 	},
 	"coll-desc": "[[Special:Book|పుస్తకాలను తయారుచేసుకోండి]]",
@@ -160,5 +161,6 @@
 	"coll-setting-papersize-letter": "లేఖ",
 	"coll-setting-toc": "విషయ సూచికను చేర్చు",
 	"coll-setting-columns": "నిలువువరుసలు:",
-	"coll-attribution-anons": "అజ్ఞాతం: $1"
+	"coll-attribution-anons": "అజ్ఞాతం: $1",
+	"coll-article-attribution": "<b>$1</b> <i>లంకె:</i> $2 <i>తోడ్పడినవారు:</i> $3"
 }
