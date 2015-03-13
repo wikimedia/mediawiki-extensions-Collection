@@ -4,7 +4,8 @@
 			"Audriusa",
 			"Eitvys200",
 			"Homo",
-			"Matasg"
+			"Matasg",
+			"Hugo.arg"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kurti knygas]]",
@@ -116,7 +117,7 @@
 	"coll-clear_collection_tooltip": "Pašalinti visus wiki puslapius iš savo dabartinės knygos",
 	"coll-help": "Pagalba",
 	"coll-help_tooltip": "Rodyti pagalba apie knygų kūrima",
-	"coll-helppage": "Pagalba:Knygos",
+	"coll-helppage": "Help:Knygos",
 	"coll-load_collection": "Įkelti knygas",
 	"coll-load_collection_tooltip": "Įkelti šią knygą kaip jūsų dabartinę knygą",
 	"coll-n_pages": "$1 {{PLURAL:$1|puslapis|puslapiai}}",
@@ -128,5 +129,8 @@
 	"coll-not_addable": "Šis puslapis negali būti pridėtas",
 	"coll-make_suggestions": "Siūlyti puslapius",
 	"coll-make_suggestions_tooltip": "Rodyti pasiūlymus, pagrįstus jūsų knygos puslapiais",
-	"coll-suggest_empty": "tuščia"
+	"coll-suggest_empty": "tuščia",
+	"coll-attribution-anons": "Anoniminis naudotojas: $1",
+	"coll-article-attribution": "<b>$1</b> <i>Šaltinis:</i> $2 <i>Autoriai:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Šaltinis:</i> $2 <i>Licencija:</i> $3 <i>Autorėjai:</i> $4 <i>Kūrėjas:</i> $5"
 }
