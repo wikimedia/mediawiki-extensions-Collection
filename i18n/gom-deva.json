@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Darshan kandolkar",
+			"Santhosh.thottingal"
+		]
+	},
+	"coll-remove": "काड",
+	"coll-show": "दाखयात",
+	"coll-move_up": "वयर व्हरात",
+	"coll-move_down": "सकयल व्हरात",
+	"coll-print_export": "छापात/निर्गत करात",
+	"coll-create_a_book": "पुस्तक तयार करात",
+	"coll-download_as": " $1 अशें उतरायात",
+	"coll-help": "मजत कर",
+	"coll-attribution-anons": "अनामीक: $1"
+}
