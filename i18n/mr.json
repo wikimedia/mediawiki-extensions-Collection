@@ -11,7 +11,8 @@
 			"Shantanoo",
 			"Sudhanwa",
 			"V.narsikar",
-			"संतोष दहिवळ"
+			"संतोष दहिवळ",
+			"Darshan kandolkar"
 		]
 	},
 	"coll-desc": "[[Special:Book|पुस्तके बनवा]]",
@@ -171,5 +172,6 @@
 	"coll-setting-papersize": "पानाचा आकार",
 	"coll-setting-papersize-letter": "पत्र",
 	"coll-setting-toc": "आशय-सारणीचा अंतर्भाव करा",
-	"coll-setting-columns": "स्तम्भ:"
+	"coll-setting-columns": "स्तम्भ:",
+	"coll-attribution-anons": "अनामीक Anonymous:"
 }
