@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bachounda"
+			"Bachounda",
+			"Oldstoneage"
 		]
 	},
 	"coll-remove": "امحي",
@@ -10,5 +11,6 @@
 	"coll-move_down": "حرك للتحت  شويه",
 	"coll-print_export": "طباعه",
 	"coll-create_a_book": "أعمل كتاب",
-	"coll-download_as": "تطلع ب$1"
+	"coll-download_as": "تطلع ب$1",
+	"coll-remove_this_page": "نحّي هاد الباجة من الكتاب تاعك"
 }

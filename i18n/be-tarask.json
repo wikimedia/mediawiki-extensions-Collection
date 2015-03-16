@@ -159,5 +159,6 @@
 	"coll-make_suggestions": "Прапанаваць старонкі",
 	"coll-make_suggestions_tooltip": "Паказаць прапановы заснаваныя на старонках у Вашай кнізе",
 	"coll-suggest_empty": "пуста",
+	"coll-article-attribution": "<b>$1</b> <i>Крыніца:</i> $2 <i>Аўтары:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Крыніца:</i> $2 <i>Ліцэнзія:</i> $3 <i>Аўтары:</i> $4 <i>Мастак:</i> $5"
 }

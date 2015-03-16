@@ -96,5 +96,6 @@
 	"coll-remove_this_page": "Հեռացնել այս էջը ձեր գրքից",
 	"coll-show_collection": "Ցույց տալ գիրքը",
 	"coll-suggest_empty": "դատարկ",
-	"coll-attribution-anons": "Անանուն $1"
+	"coll-attribution-anons": "Անանուն $1",
+	"coll-image-attribution": "<b>$1</b> <i>Աղբյուր՝</i> $2 <i>Թույլատրագիր՝</i> $3 <i>Համահեղինակներ՝</i> $4 <i>Բուն հեղինակ՝</i> $5"
 }
