@@ -2,11 +2,6 @@
 
 var script_url = mw.util.wikiScript();
 
-function count_articles(items) {
-	var count = 0;
-	return count;
-}
-
 $(function() {
 	var c = $.jStorage.get('collection');
 	if (c) {
