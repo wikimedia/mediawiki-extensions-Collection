@@ -19,6 +19,7 @@
  * http://www.gnu.org/copyleft/gpl.html
  */
 
+/*global confirm, prompt, collection_id, writer, wfCollectionSave */
 (function($) {
 
 /******************************************************************************/
@@ -32,7 +33,7 @@
  * @return String text of elment with ID id
  */
 function gettext(sel, param/*=null*/) {
-	var txt = jQuery(sel).html();
+	var txt = $(sel).html();
 	if (param) {
 		txt = txt.replace(/%PARAM%/g, param);
 	}
@@ -64,7 +65,7 @@ function getMWServeStatus() {
 		'rs': 'wfAjaxGetMWServeStatus',
 		'rsargs[]': [collection_id, writer]
 	}, function(result) {
-		if (result.state == 'progress' ) {
+		if (result.state === 'progress' ) {
 			if ( result.status.progress )  {
 				$('#renderingProgress').html( mw.language.convertNumber(
 					result.status.progress ) );
@@ -189,7 +190,7 @@ function update_buttons() {
 function make_sortable() {
 	$('#collectionList').sortable({
 		axis: 'y',
-		update: function(evt, ui) {
+		update: function() {
 			set_sorting($('#collectionList').sortable('serialize'));
 		}
 	});
@@ -220,8 +221,8 @@ $(function() {
 		make_sortable();
 		$('#coll-orderbox li.collection-partner.coll-more_info.collapsed').css(
 				'list-style' , 'url("' + collapseicon + '")');
-		$('#coll-orderbox').on('click', 
-					'li.collection-partner.coll-more_info a.coll-partnerlink', function (e) {
+		$('#coll-orderbox').on('click',
+					'li.collection-partner.coll-more_info a.coll-partnerlink', function (event) {
 			event.preventDefault();
 			event.stopPropagation();
 			var p = $(this).parents('li.collection-partner');
@@ -245,7 +246,7 @@ $(function() {
 		$('#subtitleInput').change(set_titles);
 		$( '[id^="coll-input-setting-"]' ).change(set_titles);
 	}
-	if (typeof collection_rendering != 'undefined') {
+	if (typeof collection_rendering !== 'undefined') {
 		getMWServeStatus();
 	}
 });

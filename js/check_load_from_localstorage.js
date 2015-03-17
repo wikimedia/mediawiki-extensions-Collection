@@ -1,3 +1,4 @@
+/*global confirm, collection_dialogtxt */
 (function($) {
 
 var script_url = mw.util.wikiScript();
@@ -21,7 +22,7 @@ $(function() {
 					'rs': 'wfAjaxPostCollection',
 					'rsargs[]': [JSON.stringify(c)]
 				}, function(result) {
-					window.location.href = result.redirect_url;
+					location.href = result.redirect_url;
 				}, 'json');
 			}
 		}

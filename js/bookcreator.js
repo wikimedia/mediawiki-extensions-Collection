@@ -49,7 +49,7 @@ $(function() {
 			'rsargs[]': args
 		}, function(result) {
 			var oldid = null;
-			if (args.length == 3) {
+			if (args.length === 3) {
 				oldid = args[2];
 			}
 			refreshBookCreatorBox(hint, oldid);
@@ -97,7 +97,8 @@ $(function() {
 		if (!title){
 			return;
 		}
-		link.attr('title', ''); // disable default browser tooltip
+		// Disable default browser tooltip
+		link.attr('title', '');
 		show_soon_timeout = setTimeout(function() {
 			get_data_xhr = $.post(script_url, {
 				'action': 'ajax',
@@ -105,12 +106,14 @@ $(function() {
 				'rsargs[]': [title]
 			}, function(result) {
 				visible = true;
-				var img = $('<img />').attr({src: result.img, alt: ''});
+				var img = $('<img>').attr({src: result.img, alt: ''});
 				addremove_link
 					.text('\u00a0' + result.text)
 					.prepend(img)
 					.unbind('click')
-					.click(function(e) { addremove_article(result.action, result.title); });
+					.click(function() {
+						addremove_article(result.action, result.title);
+					});
 				popup_div
 					.css({left: mouse_pos.x + 2 + 'px',
 								top: mouse_pos.y + 2 + 'px'})
@@ -166,22 +169,23 @@ $(function() {
 	setInterval(check_popup_hide, 300);
 	createDiv();
 	var prefix = mw.config.get('wgArticlePath').replace(/\$1/, '');
-	$("#bodyContent " +
-		"a[href^='" + prefix + "']" + // URL starts with prefix of wgArticlePath
-		":not(a[href~='index.php'])" + // URL doesn't contain index.php (simplification!)
-		"[title!='']" + // title attribute is not empty
-		"[rel!=nofollow]" +
-		":not(.external)" +
-		":not(.internal)" +
-		":not(.sortheader)" +
-		":not([accesskey])" +
-		":not(.nopopup)"
-	).each(function(i, link) {
+	$('#bodyContent ' +
+		'a[href^="' + prefix + '"]' + // URL starts with prefix of wgArticlePath
+		':not(a[href~="index.php"])' + // URL doesn't contain index.php (simplification!)
+		'[title!=""]' + // title attribute is not empty
+		'[rel!=nofollow]' +
+		':not(.external)' +
+		':not(.internal)' +
+		':not(.sortheader)' +
+		':not([accesskey])' +
+		':not(.nopopup)'
+	).each(function () {
 		if (this.onmousedown) {
 			return;
 		}
 		var $this = $(this);
-		if (!$this.attr('title') || $this.attr('title').indexOf(':') != -1) { // title doesn't contain ":" (simplification!)
+		// title doesn't contain ":" (simplification!)
+		if (!$this.attr('title') || $this.attr('title').indexOf(':') !== -1) {
 			return;
 		}
 		if ($this.parents('.nopopups').length) {

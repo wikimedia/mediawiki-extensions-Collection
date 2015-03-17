@@ -1,3 +1,4 @@
+/*global wfCollectionSave */
 (function($) {
 
 var script_url = mw.util.wikiScript();
@@ -18,7 +19,7 @@ function collectionSuggestCall(func, args) {
 		'rsargs[]': args
 	}, function(result) {
 		wfCollectionSave(result.collection);
-		if (func == 'undo') {
+		if (func === 'undo') {
 			set_status(false);
 		} else {
 			set_status(result.last_action);
