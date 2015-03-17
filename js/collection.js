@@ -156,7 +156,7 @@ function set_sorting(items_string) {
 }
 
 function update_buttons() {
-	if ($('#collectionList .article').length == 0) {
+	if ($('#collectionList .article').length === 0) {
 		$('#saveButton').attr('disabled', 'disabled');
 		$('#downloadButton').attr('disabled', 'disabled');
 		$('input.order').attr('disabled', 'disabled');

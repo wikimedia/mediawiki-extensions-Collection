@@ -12,7 +12,7 @@ $(function() {
 	if (c) {
 		var num_pages = 0;
 		for (var i = 0; i < c.items.length; i++) {
-			if (c.items[i]['type'] == 'article') {
+			if (c.items[i].type === 'article') {
 				num_pages++;
 			}
 		}
