@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Namik"
+			"Namik",
+			"Soul Train"
 		]
 	},
+	"coll-cancel": "Гьич авун",
 	"coll-bookscategory": "Ктаб",
+	"coll-clear_collection": "Ктаб ичӀи авун",
 	"coll-help": "Куьмек",
 	"coll-helppage": "Help:Ктабар"
 }
