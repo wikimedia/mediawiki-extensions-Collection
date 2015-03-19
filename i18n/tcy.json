@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"VASANTH S.N."
+		]
+	},
+	"coll-remove": "ದೆಪ್ಪುಲೆ",
+	"coll-show": "ತೊಜಾವು",
+	"coll-print_export": "ಮುದ್ರಿಸಾಲೆ/ಎಕ್ಸ್‍ಪೋರ್ಟ್ ಮಲ್ಪುಲೆ",
+	"coll-create_a_book": "ಪುಸ್ತೊಕೊನ್ ಸೃಜಿಸಾಲೆ",
+	"coll-download_as": "$1 ಪಂಡ್‍ದ್ ಡೌನ್‍ಲೋಡ್ ಮಲ್ಪುಲೆ",
+	"coll-remove_this_page": "ಇರೆನ ಪುಸ್ತಕೊಡ್‍ದ್ ಈ ಪುಟೊನು ದೆಪ್ಪುಲೆ"
+}
