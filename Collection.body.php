@@ -617,7 +617,6 @@ class SpecialCollection extends SpecialPage {
 	 * @return bool
 	 */
 	static function addArticle( $title, $oldid = 0 ) {
-		global $wgCollectionHierarchyDelimiter;
 
 		$latest = $title->getLatestRevID();
 
@@ -653,13 +652,6 @@ class SpecialCollection extends SpecialPage {
 			'url' => $title->getCanonicalURL(),
 			'currentVersion' => $currentVersion,
 		);
-
-		if ( $wgCollectionHierarchyDelimiter != null ) {
-			$parts = explode( $wgCollectionHierarchyDelimiter, $prefixedText );
-			if ( count( $parts ) > 1 && end( $parts ) != '' ) {
-				$item['displaytitle'] = end( $parts );
-			}
-		}
 
 		$collection['items'][] = $item;
 		CollectionSession::setCollection( $collection );
@@ -1004,11 +996,15 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $collection
-	 * @param $referrer Title
-	 * @param $writer
+	 * Take an array of arrays, each containing information about one item to be
+	 * assembled and exported, and appropriately feed the backend chosen ($writer).
+	 * @param $collection array following the collection/Metabook dictionary formats
+	 * https://www.mediawiki.org/wiki/Offline_content_generator/metabook.json
+	 * https://mwlib.readthedocs.org/en/latest/internals.html#article
+	 * @param $referrer Title object, used only to provide a returnto parameter.
+	 * @param $writer A writer registered in the appropriate configuration.
 	 */
-	function renderCollection( $collection, $referrer, $writer ) {
+	function renderCollection( $collection, Title $referrer, $writer ) {
 		if ( !$writer ) {
 			$writer = 'rl';
 		}
@@ -1198,8 +1194,11 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $title Title
+	 * Render a single page: fetch page name and revision information, then
+	 * assemble and feed to renderCollection() a single-item $collection.
+	 * @param $title Title needs to be full page name aka prefixed title.
 	 * @param $oldid int
+	 * @param $writer A writer registered in the appropriate configuration.
 	 * @return array|null
 	 */
 	function makeCollection( $title, $oldid ) {
