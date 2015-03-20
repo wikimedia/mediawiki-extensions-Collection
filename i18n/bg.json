@@ -4,7 +4,8 @@
 			"DCLXVI",
 			"Spiritia",
 			"Stanqo",
-			"Turin"
+			"Turin",
+			"StanProg"
 		]
 	},
 	"coll-desc": "[[Special:Book|Създаване на книги]]",
@@ -129,5 +130,6 @@
 	"coll-not_addable": "Тази страница не може да бъде добавена",
 	"coll-make_suggestions": "Предлагане на страници",
 	"coll-make_suggestions_tooltip": "Показване на предложения въз основа на страниците в книгата ви",
-	"coll-suggest_empty": "празно"
+	"coll-suggest_empty": "празно",
+	"coll-attribution-anons": "Анонимни: $1"
 }

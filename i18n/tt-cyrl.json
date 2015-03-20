@@ -3,7 +3,8 @@
 		"authors": [
 			"Ilnur efende",
 			"Timming",
-			"Ильнар"
+			"Ильнар",
+			"Derslek"
 		]
 	},
 	"coll-desc": "[[Special:Book|Китап төзүче]]",
@@ -22,7 +23,10 @@
 	"coll-download_text": "Үзегезнең китапны йөкләү өчен китаның форматын сайлап, төймәгә басыгыз.",
 	"coll-download_as_text": "Үзегезнең китапны $1 форматында йөкләү  төймәгә басыгыз.",
 	"coll-download": "Йөкләргә",
+	"coll-remove": "Бетерү",
 	"coll-show": "күрсәт",
+	"coll-move_up": "Югарырак күчерү",
+	"coll-move_down": "Аскарак күчерү",
 	"coll-title": "Башлам:",
 	"coll-subtitle": "Аскы башлам:",
 	"coll-contents": "Эчтәлек",
