@@ -25,7 +25,7 @@
 			"Beta16"
 		]
 	},
-	"coll-desc": "{{desc|name=Collection|url=http://www.mediawiki.org/wiki/Extension:Collection}}",
+	"coll-desc": "{{desc|name=Collection|url=https://www.mediawiki.org/wiki/Extension:Collection}}",
 	"coll-book_creator_intro": "Used as intro text in Book Creator page.\n\nThe page title is {{msg-mw|Coll-book creator}}.",
 	"coll-manage_your_book": "Used as a title.",
 	"coll-book_creator_help": "Refers to {{msg-mw|Coll-helppage}}.",
