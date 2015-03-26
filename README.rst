@@ -209,18 +209,9 @@ people do not have to change them:
    i.e. there's one link "Download as PDF".
 
 ``$wgCollectionHierarchyDelimiter`` (string or null)
-   If not null, treat wiki pages whose title contains the configured delimiter
-   as subpages.
-
-   For example, to treat article [[Foo/Bar]] as subpage of article [[Foo]]
-   set this variable to "/". This makes sense e.g. on wikibooks.org, but it's
-   questionable on wikipedia.org (cf. [[AC/DC]]).
-
-   The (only) effect is that the display title for subpages in collections
-   is set to the title of the (deepest) subpage. For example, the title of
-   article [[Foo/Bar]] will be displayed/rendered as "Bar".
-
-   The defaul value is null, which means that no hierarchy is assumed.
+   FEATURE REMOVED 2015-03.
+   Use $wgNamespacesWithSubpages instead. The only accepted delimiter is now
+   the standard slash, "/".
 
 ``$wgCollectionArticleNamespaces`` (array)
    List of namespace numbers for pages which can be added to a collection.
