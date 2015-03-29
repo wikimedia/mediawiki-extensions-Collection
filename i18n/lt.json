@@ -5,7 +5,8 @@
 			"Eitvys200",
 			"Homo",
 			"Matasg",
-			"Hugo.arg"
+			"Hugo.arg",
+			"Tomasdd"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kurti knygas]]",
@@ -116,7 +117,7 @@
 	"coll-clear_collection_confirm": "Ar tikrai norite visiškai išvalyti savo knygą?",
 	"coll-clear_collection_tooltip": "Pašalinti visus wiki puslapius iš savo dabartinės knygos",
 	"coll-help": "Pagalba",
-	"coll-help_tooltip": "Rodyti pagalba apie knygų kūrima",
+	"coll-help_tooltip": "Rodyti pagalba apie knygų kūrimą",
 	"coll-helppage": "Help:Knygos",
 	"coll-load_collection": "Įkelti knygas",
 	"coll-load_collection_tooltip": "Įkelti šią knygą kaip jūsų dabartinę knygą",
@@ -132,5 +133,5 @@
 	"coll-suggest_empty": "tuščia",
 	"coll-attribution-anons": "Anoniminis naudotojas: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Šaltinis:</i> $2 <i>Autoriai:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Šaltinis:</i> $2 <i>Licencija:</i> $3 <i>Autorėjai:</i> $4 <i>Kūrėjas:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Šaltinis:</i> $2 <i>Licencija:</i> $3 <i>Autoriai:</i> $4 <i>Kūrėjas:</i> $5"
 }

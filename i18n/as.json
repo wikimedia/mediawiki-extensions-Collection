@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Bishnu Saikia",
-			"Gitartha.bordoloi"
+			"Gitartha.bordoloi",
+			"IKHazarika"
 		]
 	},
 	"coll-desc": "[[Special:Book|গ্ৰন্থ সৃষ্টি কৰক]]",
@@ -155,5 +156,8 @@
 	"coll-not_addable": "এই পৃষ্ঠাটো যোগ কৰিব নোৱাৰি",
 	"coll-make_suggestions": "পৰামৰ্শ পৃষ্ঠা",
 	"coll-make_suggestions_tooltip": "আপোনাৰ গ্ৰন্থৰ পৃষ্ঠাসমূহক ভিত্তি কৰি পৰামৰ্শ দেখুৱাওক",
-	"coll-suggest_empty": "খালি"
+	"coll-suggest_empty": "খালি",
+	"coll-attribution-anons": "অচিনাক্ত: $1",
+	"coll-article-attribution": "<b>$1</b> <i>উৎস:</i> $2 <i>অবদানকাৰী:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>উৎস</i> $2 <i>অনুজ্ঞাপত্ৰ</i> $3 <i>অবদানকাৰী</i> $4 <i> প্ৰকৃত শিল্পী</i> $5"
 }

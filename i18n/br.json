@@ -167,5 +167,6 @@
 	"coll-setting-toc-yes": "Ya",
 	"coll-setting-toc-no": "Ket",
 	"coll-setting-columns": "Bannoù :",
-	"coll-attribution-anons": "Dizanv : $1"
+	"coll-attribution-anons": "Dizanv : $1",
+	"coll-article-attribution": "<b>$1</b> <i>Mammenn :</i> $2 <i>Perzhidi :</i> $3"
 }

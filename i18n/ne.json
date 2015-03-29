@@ -77,6 +77,8 @@
 	"coll-book_creator": "पुस्तक निर्माता",
 	"coll-download_as": "$1 को रूपमा डाउनलोड गर्ने",
 	"coll-disable": "निष्क्रिय",
+	"coll-book_creator_disable": "किताब निर्माता बन्द गर्ने",
+	"coll-add_page_tooltip": "यो पृष्ठलाई तपाईँको वर्तमान विकि पानामा जोडनुहोस्",
 	"coll-help": "सहायता",
 	"coll-helppage": "Help:किताबहरू",
 	"coll-n_pages": "$1 {{PLURAL:$1|पृष्ठ|पृष्ठहरू}}",
