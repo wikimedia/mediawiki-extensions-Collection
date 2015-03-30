@@ -341,7 +341,7 @@ $specialPageAliases['pt'] = array(
 
 /** Brazilian Portuguese (português do Brasil) */
 $specialPageAliases['pt-br'] = array(
-	'Book' => array( 'Coleção', 'Colecção' ),
+	'Book' => array( 'Livro', 'Coleção' ),
 );
 
 /** Quechua (Runa Simi) */
