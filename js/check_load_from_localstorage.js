@@ -1,22 +1,27 @@
-/*global confirm, collection_dialogtxt */
-( function( $ ) {
+/*global confirm*/
+( function ( mw, $ ) {
 
 var script_url = mw.util.wikiScript();
 
 $( function () {
-	var c = $.jStorage.get( 'collection' );
-	if (c) {
-		var num_pages = 0;
+	var c = $.jStorage.get( 'collection' ),
+		num_pages = 0,
+		shownTitle = '',
+		message;
+	if ( c ) {
 		for ( var i = 0; i < c.items.length; i++ ) {
 			if ( c.items[i].type === 'article' ) {
 				num_pages++;
 			}
 		}
+		if ( c.title ) {
+			shownTitle = '("' + c.title + '")';
+		}
 		if ( num_pages ) {
-			var txt = collection_dialogtxt;
-			txt = txt.replace(/%TITLE%/, c.title ? '("' + c.title + '")' : '');
-			txt = txt.replace(/%NUMPAGES%/, num_pages);
-			if ( confirm( txt ) ) {
+			message = mw.msg( 'coll-load_local_book', shownTitle, num_pages );
+			// Legacy, remove once translations have caught up to using message parameters:
+			message = message.replace( /%TITLE%/, shownTitle ).replace( /%NUMPAGES%/, num_pages );
+			if ( confirm( message ) ) {
 				$.post( script_url, {
 					'action': 'ajax',
 					'rs': 'wfAjaxPostCollection',
@@ -29,4 +34,4 @@ $( function () {
 	}
 } );
 
-} )( jQuery );
+} )( mw, jQuery );

@@ -344,13 +344,6 @@ class SpecialCollection extends SpecialPage {
 
 		$out->addModules( 'ext.collection.checkLoadFromLocalStorage' );
 
-		$dialogtxt = $this->msg( 'coll-load_local_book' )->text();
-
-		$out->addScript(
-			"<script type=\"$wgJsMimeType\">\n" .
-			"var collection_dialogtxt = " . Xml::encodeJsVar( $dialogtxt ) . ";\n" .
-			"</script>" );
-
 		$title = Title::newFromText( $referer );
 		if ( is_null( $title ) || $title->equals( $this->getPageTitle( $par ) ) ) {
 			$title = Title::newMainPage();

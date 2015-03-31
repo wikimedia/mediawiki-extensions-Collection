@@ -134,7 +134,7 @@
 	"coll-suggest_article_remove": "Message shown when the user chose to remove a suggested page from his/her book. Parameters:\n* $1 - the title of the removed page\n* $2 - a link captioned {{msg-mw|coll-suggest_undo}}",
 	"coll-suggest_undo_tooltip": "{{Identical|Undo}}",
 	"coll-suggest_undo": "{{Identical|Undo}}",
-	"coll-load_local_book": "{{doc-important|Do not translate \"<code>OK</code>\" and \"<code>Cancel</code>\", they are part of a local popup on the client machine which is not localized at the moment.}}\nPLURAL support not yet available for collection extension. See the discussion on [[Thread:Support/PLURAL support for Coll-load local book/reply]].",
+	"coll-load_local_book": "{{doc-important|Do not translate \"<code>OK</code>\" and \"<code>Cancel</code>\", they are part of a local popup on the client machine which is not localized at the moment.}}\nPLURAL support not yet available for collection extension. See the discussion on [[Thread:Support/PLURAL support for Coll-load local book/reply]]\n\nParameters:\n* $1 - the title of the book\n* $2 - number of pages in book",
 	"coll-format-rl": "Collection extension output format, mwlib PDF output, see [http://mwlib.readthedocs.org/en/latest/]",
 	"coll-format-epub": "Collection extension output format",
 	"coll-format-odf": "Collection extension output format",
