@@ -211,10 +211,6 @@ $collResourceTemplate = array(
 );
 
 $wgResourceModules += array(
-	'ext.collection.suggest' => $collResourceTemplate + array(
-		'scripts' => 'suggest.js',
-		'dependencies' => 'ext.collection.bookcreator'
-	),
 	'ext.collection' => $collResourceTemplate + array(
 		'scripts' => 'collection.js',
 		'dependencies' => array(
@@ -238,7 +234,11 @@ $wgResourceModules += array(
 		'messages' => array(
 			'coll-load_local_book'
 		)
-	)
+	),
+	'ext.collection.suggest' => $collResourceTemplate + array(
+		'scripts' => 'suggest.js',
+		'dependencies' => 'ext.collection.bookcreator'
+	),
 );
 
 # register global Ajax functions:
