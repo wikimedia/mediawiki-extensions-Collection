@@ -206,8 +206,8 @@ $wgAvailableRights[] = 'collectionsaveasuserpage';
 $wgAvailableRights[] = 'collectionsaveascommunitypage';
 
 $collResourceTemplate = array(
-	'localBasePath' => "$dir/js",
-	'remoteExtPath' => 'Collection/js'
+	'localBasePath' => "$dir/modules",
+	'remoteExtPath' => 'Collection/modules'
 );
 
 $wgResourceModules += array(
