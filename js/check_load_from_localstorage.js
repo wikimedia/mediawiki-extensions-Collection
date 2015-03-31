@@ -1,33 +1,32 @@
 /*global confirm, collection_dialogtxt */
-(function($) {
+( function( $ ) {
 
 var script_url = mw.util.wikiScript();
 
-$(function() {
-	var c = $.jStorage.get('collection');
+$( function () {
+	var c = $.jStorage.get( 'collection' );
 	if (c) {
 		var num_pages = 0;
-		for (var i = 0; i < c.items.length; i++) {
-			if (c.items[i].type === 'article') {
+		for ( var i = 0; i < c.items.length; i++ ) {
+			if ( c.items[i].type === 'article' ) {
 				num_pages++;
 			}
 		}
-		if (num_pages) {
+		if ( num_pages ) {
 			var txt = collection_dialogtxt;
 			txt = txt.replace(/%TITLE%/, c.title ? '("' + c.title + '")' : '');
 			txt = txt.replace(/%NUMPAGES%/, num_pages);
-			if (confirm(txt)) {
-				$.post(script_url, {
+			if ( confirm( txt ) ) {
+				$.post( script_url, {
 					'action': 'ajax',
 					'rs': 'wfAjaxPostCollection',
 					'rsargs[]': [JSON.stringify(c)]
-				}, function(result) {
+				}, function( result ) {
 					location.href = result.redirect_url;
-				}, 'json');
+				}, 'json' );
 			}
 		}
 	}
-});
- 
-})(jQuery);
+} );
 
+} )( jQuery );
