@@ -211,10 +211,6 @@ $collResourceTemplate = array(
 );
 
 $wgResourceModules += array(
-	// For backwards compatibility / race condition after removing js/jstorage.js
-	'ext.collection.jquery.jstorage' => $collResourceTemplate + array(
-		'dependencies' => 'jquery.jStorage'
-	),
 	'ext.collection.suggest' => $collResourceTemplate + array(
 		'scripts' => 'suggest.js',
 		'dependencies' => 'ext.collection.bookcreator'
