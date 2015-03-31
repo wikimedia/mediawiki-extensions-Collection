@@ -188,7 +188,7 @@ class CollectionSuggest {
 		}
 
 		$template = new CollectionSuggestTemplate();
-		$proposals = new Proposals(
+		$proposals = new CollectionProposals(
 			$_SESSION['wsCollection'],
 			$_SESSION['wsCollectionSuggestBan'],
 			$_SESSION['wsCollectionSuggestProp']
@@ -212,7 +212,7 @@ class CollectionSuggest {
 	 * Add some articles and update the book of the Proposal-Object
 	 *
 	 * @param $articleList array with the names of the articles to be added
-	 * @param $prop Proposals the proposal-Object
+	 * @param $prop CollectionProposals the proposal Object
 	 */
 	private static function addArticlesFromName( $articleList, $prop ) {
 		foreach ( $articleList as $article ) {
@@ -223,7 +223,7 @@ class CollectionSuggest {
 }
 
 /**
- * class: Proposals
+ * class: CollectionProposals
  *
  * it needs 3 Lists:
  * - one with the bookmembers
@@ -240,7 +240,7 @@ class CollectionSuggest {
  *
  * the Class can only sort the proposals, if it can access the function compareProps
  */
-class Proposals {
+class CollectionProposals {
 
 	/**
 	 * ==================================================
