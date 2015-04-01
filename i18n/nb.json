@@ -128,7 +128,7 @@
 	"coll-suggest_article_remove": "Siden <strong>$1</strong> har blitt fjernet fra boken din ($2).",
 	"coll-suggest_undo_tooltip": "Angre denne handligen",
 	"coll-suggest_undo": "Angre",
-	"coll-load_local_book": "Klikk OK for å fortsette med boken din %TITLE% som inneholder %NUMPAGES% wikisider. Klikk Avbryt for å slette den og starte med en tom bok.",
+	"coll-load_local_book": "Klikk OK for å fortsette med boken din $1 som inneholder $2 wikisider. Klikk Avbryt for å slette den og starte med en tom bok.",
 	"coll-format-rl": "e-bok (PDF, gjengitt med mwlib)",
 	"coll-format-epub": "e-bok (EPUB)",
 	"coll-format-odf": "Tekstbehandler (OpenDocument)",

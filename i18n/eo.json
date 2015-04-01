@@ -121,7 +121,7 @@
 	"coll-suggest_article_remove": "Paĝo <strong>$1</strong> estis forigita de via libro ($2).",
 	"coll-suggest_undo_tooltip": "Malfari ĉi tiun agon",
 	"coll-suggest_undo": "malfari",
-	"coll-load_local_book": "Alklaki OK por daŭrigi kun via libro %TITOLO% kiu enhavas %NUMPAGES% viki-paĝojn. Alklaki \"Nuligi\" por komenci kun malplena libro.",
+	"coll-load_local_book": "Alklaki OK por daŭrigi kun via libro %TITOLO% kiu enhavas $2 viki-paĝojn. Alklaki \"Nuligi\" por komenci kun malplena libro.",
 	"coll-format-rl": "cifereca libro (PDF, bildigo mwlib)",
 	"coll-format-epub": "e-libro (EPUB)",
 	"coll-format-odf": "Teksta procezilo (OpenDocument)",

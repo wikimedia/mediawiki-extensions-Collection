@@ -120,7 +120,7 @@
 	"coll-suggest_article_remove": "Ti panid ti <strong>$1</strong> ket naikkaten manipud iti librom ($2).",
 	"coll-suggest_undo_tooltip": "Isubli daytoy nga aksion",
 	"coll-suggest_undo": "ibabawi",
-	"coll-load_local_book": "Pindutem ti OK tapno agtuloyka ti %TITLE% librom a naglaon kadagiti %NUMPAGES% a pampanid ti wiki. Pinduten ti Cancel tapno agikkat ken mangrugi ti awan linaon a libro.",
+	"coll-load_local_book": "Pindutem ti OK tapno agtuloyka ti $1 librom a naglaon kadagiti $2 a pampanid ti wiki. Pinduten ti Cancel tapno agikkat ken mangrugi ti awan linaon a libro.",
 	"coll-format-rl": "e-libro (panangipaay ti PDF, mwlib)",
 	"coll-format-epub": "e-libro (EPUB)",
 	"coll-format-odf": "Panagproseso ti balikas (OpenDocument)",

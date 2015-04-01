@@ -114,7 +114,7 @@
 	"coll-suggest_article_remove": "<strong>$1</strong> পৃষ্ঠাটো আপোনাৰ গ্ৰন্থৰ পৰা আঁতৰোৱা হৈছে ($2)।",
 	"coll-suggest_undo_tooltip": "এই কামটো নোহোৱা কৰক",
 	"coll-suggest_undo": "পূৰ্ববত কৰক",
-	"coll-load_local_book": "%NUMPAGES% টা ৱিকি পৃষ্ঠা থকা আপোনাৰ %TITLE% গ্ৰন্থৰ বাবে OK ক্লিক কৰক। এইখন বিলোপ কৰি নতুন এখন আৰম্ভ কৰিবলৈ Cancel ক্লিক কৰক।",
+	"coll-load_local_book": "$2 টা ৱিকি পৃষ্ঠা থকা আপোনাৰ $1 গ্ৰন্থৰ বাবে OK ক্লিক কৰক। এইখন বিলোপ কৰি নতুন এখন আৰম্ভ কৰিবলৈ Cancel ক্লিক কৰক।",
 	"coll-format-rl": "ই-গ্ৰন্থ (পিডিএফ)",
 	"coll-format-epub": "ই-গ্ৰন্থ (ইপিইউবি)",
 	"coll-format-odf": "ৱৰ্ড প্ৰচেছৰ (অ'পেন ড'কুমেণ্ট)",

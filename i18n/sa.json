@@ -113,7 +113,7 @@
 	"coll-suggest_article_remove": "<strong>$1</strong> इदं पृष्ठं सूचनातः($2) निष्कासितम् ।",
 	"coll-suggest_undo_tooltip": "इयं क्रिया पूर्ववत् क्रियताम्",
 	"coll-suggest_undo": "निष्क्रियताम्",
-	"coll-load_local_book": "%NUMPAGES% विकिपृष्ठैः युक्तस्य भवदीय%TITLE%पुस्तकस्य अनुवर्तनाय OK नुद्यताम् । लोपनाय नूतनस्य रिक्तपुस्तकस्य आरम्भकरणाय Cancel नुद्यताम् ।",
+	"coll-load_local_book": "$2 विकिपृष्ठैः युक्तस्य भवदीय$1पुस्तकस्य अनुवर्तनाय OK नुद्यताम् । लोपनाय नूतनस्य रिक्तपुस्तकस्य आरम्भकरणाय Cancel नुद्यताम् ।",
 	"right-collectionsaveasuserpage": "योजकपृष्ठरूपेण पुस्तकं रक्ष्यताम् ।",
 	"right-collectionsaveascommunitypage": "समुदायसङ्ग्रहरूपेण पुस्तकानि रक्ष्यन्ताम् ।",
 	"coll-print_export": "मुद्रणम्/निर्यातः",

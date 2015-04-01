@@ -120,7 +120,7 @@
 	"coll-suggest_article_remove": "Le pagina <strong>$1</strong> ha essite removite de tu libro ($2).",
 	"coll-suggest_undo_tooltip": "Disfacer iste action",
 	"coll-suggest_undo": "disfacer",
-	"coll-load_local_book": "Clicca super OK pro continuar con tu libro %TITLE% que contine %NUMPAGES% paginas wiki. Clicca super Cancellar pro deler lo e comenciar con un libro vacue.",
+	"coll-load_local_book": "Clicca super OK pro continuar con tu libro $1 que contine $2 paginas wiki. Clicca super Cancellar pro deler lo e comenciar con un libro vacue.",
 	"coll-format-rl": "libro electronic (PDF)",
 	"coll-format-epub": "libro electronic (EPUB)",
 	"coll-format-odf": "processor de texto (OpenDocument)",

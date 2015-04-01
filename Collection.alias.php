@@ -96,7 +96,7 @@ $specialPageAliases['de'] = array(
 
 /** Zazaki (Zazaki) */
 $specialPageAliases['diq'] = array(
-	'Book' => array( 'Kıtabe', 'Qoleksiyon' ),
+	'Book' => array( 'Kıtab', 'Koleksiyon' ),
 );
 
 /** Lower Sorbian (dolnoserbski) */

@@ -92,7 +92,7 @@
 	"coll-suggest_article_remove": "Puslapis <strong>$1</strong> buvo pašalintas iš jūsų knygos ( $2 ).",
 	"coll-suggest_undo_tooltip": "Anuliuoti šį veiksmą",
 	"coll-suggest_undo": "anuliuoti",
-	"coll-load_local_book": "Spustelėkite Gerai, kad testumėte toliaus zsu savo knyga %TITLE%, kurioje yra %NUMPAGES%  wiki puslapių. Spustelėkite Atšaukti, jei norite panaikinti knygą ir pradėti su tuščia knyga.",
+	"coll-load_local_book": "Spustelėkite Gerai, kad testumėte toliaus zsu savo knyga $1, kurioje yra $2  wiki puslapių. Spustelėkite Atšaukti, jei norite panaikinti knygą ir pradėti su tuščia knyga.",
 	"coll-format-rl": "e-knyga (PDF)",
 	"coll-format-epub": "e-knyga (EPUB)",
 	"coll-format-zim": "Kiwix (OpenZIM)",

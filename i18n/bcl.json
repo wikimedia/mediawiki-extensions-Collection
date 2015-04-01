@@ -114,7 +114,7 @@
 	"coll-suggest_article_remove": "An pahina <strong>$1</strong> pinagtangkas na gikan sa saimong libro ($2).",
 	"coll-suggest_undo_tooltip": "Suliton ining action",
 	"coll-suggest_undo": "sulíton",
-	"coll-load_local_book": "I-klik an OK sa pagpadagos sa saimong libro %TITLE% na may laog na %NUMPAGES% pahina nin wiki. I-klik an Cancel sa pagpura kaini asin magpoon nin sarong blangkong libro.",
+	"coll-load_local_book": "I-klik an OK sa pagpadagos sa saimong libro $1 na may laog na $2 pahina nin wiki. I-klik an Cancel sa pagpura kaini asin magpoon nin sarong blangkong libro.",
 	"coll-format-rl": "e-libro (PDF)",
 	"coll-format-epub": "e-libro (EPUB)",
 	"coll-format-odf": "tagaproseso nin taramon (Bukas-na-Dokumento)",

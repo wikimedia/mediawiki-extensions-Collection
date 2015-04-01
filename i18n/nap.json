@@ -121,7 +121,7 @@
 	"coll-suggest_article_remove": "'A paggena <strong>$1</strong> è stata luvata 'o libbro vuosto ($2).",
 	"coll-suggest_undo_tooltip": "Annulla st'azione",
 	"coll-suggest_undo": "annulla",
-	"coll-load_local_book": "Facite click ncopp'a OK pe cuntinuà c' 'o libbro vuosto %TITLE% ca tène %NUMPAGES% pàggene 'e wiki. Facite click a scancellà p' 'a putè scancellà e accummincià nu libbro abbacante.",
+	"coll-load_local_book": "Facite click ncopp'a OK pe cuntinuà c' 'o libbro vuosto $1 ca tène $2 pàggene 'e wiki. Facite click a scancellà p' 'a putè scancellà e accummincià nu libbro abbacante.",
 	"coll-format-rl": "e-book (PDF, mwlib renderer)",
 	"coll-format-epub": "e-book (EPUB)",
 	"coll-format-odf": "Processore 'e parole (OpenDocument)",

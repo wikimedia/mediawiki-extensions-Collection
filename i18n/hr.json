@@ -115,7 +115,7 @@
 	"coll-suggest_article_remove": "Stranica <strong>$1</strong> uklonjena je iz vaše knjige ($2).",
 	"coll-suggest_undo_tooltip": "Vrati zadnju akciju",
 	"coll-suggest_undo": "vrati",
-	"coll-load_local_book": "Kliknite OK za nastavak svoje knjige %NASLOV% koja sadrži %NUMPAGES% wiki stranica. Kliknite Odustani da biste ju izbrisali i počeli s praznom knjigom.",
+	"coll-load_local_book": "Kliknite OK za nastavak svoje knjige %NASLOV% koja sadrži $2 wiki stranica. Kliknite Odustani da biste ju izbrisali i počeli s praznom knjigom.",
 	"right-collectionsaveasuserpage": "Spremi zbirke kao suradničku stranicu",
 	"right-collectionsaveascommunitypage": "Spremi zbirke kao stranicu zajednice",
 	"coll-print_export": "Ispis/izvoz",

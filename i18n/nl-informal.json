@@ -24,7 +24,7 @@
 	"coll-suggest_your_book": "Jouw boek",
 	"coll-suggest_article_add": "De pagina <strong>$1</strong> is toegevoegd aan je boek ($2).",
 	"coll-suggest_article_remove": "De pagina <strong>$1</strong> is verwijderd uit je boek ($2).",
-	"coll-load_local_book": "Klik \"OK\" om door te gaan met je boek %TITLE% dat %NUMPAGES% wikipagina's bevat. Klik op \"Annuleren\" om het te verwijderen en opnieuw te beginnen met een leeg boek.",
+	"coll-load_local_book": "Klik \"OK\" om door te gaan met je boek $1 dat $2 wikipagina's bevat. Klik op \"Annuleren\" om het te verwijderen en opnieuw te beginnen met een leeg boek.",
 	"coll-add_linked_article": "De gekoppelde wikipagina aan je boek toevoegen",
 	"coll-remove_linked_article": "De gekoppelde wikipagina uit je boek verwijderen",
 	"coll-add_category": "Deze categorie aan je boek toevoegen",

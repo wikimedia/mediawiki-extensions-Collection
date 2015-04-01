@@ -112,7 +112,7 @@
 	"coll-suggest_article_remove": "A pachina <strong>$1</strong> s'ha eliminau d'o suyo libro ($2).",
 	"coll-suggest_undo_tooltip": "Desfer ista acción",
 	"coll-suggest_undo": "desfer",
-	"coll-load_local_book": "Faiga click en Confirmar ta continar con o tuyo libro %TITLE% que contiene %NUMPAGES% pachina wiki. Faiga click en Cancelar ta borrar-lo y prencipiar con un libro vacío.",
+	"coll-load_local_book": "Faiga click en Confirmar ta continar con o tuyo libro $1 que contiene $2 pachina wiki. Faiga click en Cancelar ta borrar-lo y prencipiar con un libro vacío.",
 	"right-collectionsaveasuserpage": "Alzar libros como pachina d'usuario",
 	"right-collectionsaveascommunitypage": "Alzar libros como pachina d'a comunidat",
 	"coll-print_export": "Imprentar/exportar",

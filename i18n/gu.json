@@ -115,7 +115,7 @@
 	"coll-suggest_article_remove": "પાનું <strong>$1</strong> તમારા પુસ્તકમાંથી દૂર કરવામાં આવ્યું છે ($2).",
 	"coll-suggest_undo_tooltip": "આ ક્રિયા રદ કરો",
 	"coll-suggest_undo": "undo",
-	"coll-load_local_book": "તમારા પુસ્તક %TITLE% જેમાં %NUMPAGES% પાન છે તેની સાથે આગળ વધવા માટે OK પર ક્લિક કરો. તેને દૂર કરીને નવેસરથી શરૂઆત કરવા માટે Cancel પર ક્લિક કરો.",
+	"coll-load_local_book": "તમારા પુસ્તક $1 જેમાં $2 પાન છે તેની સાથે આગળ વધવા માટે OK પર ક્લિક કરો. તેને દૂર કરીને નવેસરથી શરૂઆત કરવા માટે Cancel પર ક્લિક કરો.",
 	"right-collectionsaveasuserpage": "પુસ્તકોને સભ્યના પાનાં તરીકે સાચવો",
 	"right-collectionsaveascommunitypage": "પુસ્તકોને સમાજ પૃષ્ઠ તરીકે સાચવો",
 	"coll-print_export": "છાપો/નિકાસ",

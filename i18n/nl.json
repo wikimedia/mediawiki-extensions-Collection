@@ -131,7 +131,7 @@
 	"coll-suggest_article_remove": "De pagina <strong>$1</strong> is verwijderd uit uw boek ($2).",
 	"coll-suggest_undo_tooltip": "Deze handeling ongedaan maken",
 	"coll-suggest_undo": "ongedaan maken",
-	"coll-load_local_book": "Klik \"OK\" om door te gaan met uw boek %TITLE% dat %NUMPAGES% wikipagina's bevat. Klik op \"Annuleren\" om het te verwijderen en opnieuw te beginnen met een leeg boek.",
+	"coll-load_local_book": "Klik \"OK\" om door te gaan met uw boek $1 dat $2 wikipagina's bevat. Klik op \"Annuleren\" om het te verwijderen en opnieuw te beginnen met een leeg boek.",
 	"coll-format-rl": "e-boek (pdf)",
 	"coll-format-epub": "e-boek (EPUB)",
 	"coll-format-odf": "Tekstverwerker (OpenDocument)",

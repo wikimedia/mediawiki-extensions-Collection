@@ -118,7 +118,7 @@
 	"coll-suggest_article_remove": "นำหน้า <strong>$1</strong> ออกจากหนังสือของคุณแล้ว ($2)",
 	"coll-suggest_undo_tooltip": "ย้อนการกระทำนี้",
 	"coll-suggest_undo": "ย้อนกลับ",
-	"coll-load_local_book": "คลิกตกลงเพื่อดำเนินการต่อกับหนังสือ %TITLE% ของคุณซึ่งประกอบด้วยหน้าวิกิ %NUMPAGES% หน้า คลิกยกเลิกเพื่อลบออกและเริ่มต้นใหม่ด้วยหนังสือว่าง",
+	"coll-load_local_book": "คลิกตกลงเพื่อดำเนินการต่อกับหนังสือ $1 ของคุณซึ่งประกอบด้วยหน้าวิกิ $2 หน้า คลิกยกเลิกเพื่อลบออกและเริ่มต้นใหม่ด้วยหนังสือว่าง",
 	"right-collectionsaveasuserpage": "บันทึกหนังสือในหน้าผู้ใช้",
 	"right-collectionsaveascommunitypage": "บันทึกหนังสือเป็นหนังสือส่วนรวม",
 	"coll-print_export": "พิมพ์/ส่งออก",

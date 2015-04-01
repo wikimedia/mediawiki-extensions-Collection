@@ -33,7 +33,7 @@
 	"coll-suggest_your_book": "شمه کتاب",
 	"coll-suggest_article_add": "صفحهٔ <strong>$1</strong> به شمه کتاب ایضافه بیّه($2).",
 	"coll-suggest_article_remove": "صفحهٔ <strong>$1</strong> شمه کتاب جه حذف بیی‌یه($2).",
-	"coll-load_local_book": "دمباله هدائن با کتاب %TITLE% که %NUMPAGES% صفحهٔ ویکی ره دانّه وسّه، پذیرش کلیک هاکنین. پاک بیّن و شروع وسّه با خالی کتاب، روی لغو کلیک هاکنین.",
+	"coll-load_local_book": "دمباله هدائن با کتاب $1 که $2 صفحهٔ ویکی ره دانّه وسّه، پذیرش کلیک هاکنین. پاک بیّن و شروع وسّه با خالی کتاب، روی لغو کلیک هاکنین.",
 	"coll-print_export": "چاپ/برون‌بری",
 	"coll-create_a_book": "کتاب بساتن",
 	"coll-create_a_book_tooltip": "یتّا کتاب یا مجموعه صفحات بساج",

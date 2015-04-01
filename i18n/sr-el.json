@@ -117,7 +117,7 @@
 	"coll-suggest_article_remove": "Stranica <strong>$1</strong> je uklonjena iz vaše knjige ($2).",
 	"coll-suggest_undo_tooltip": "Poništi ovu akciju",
 	"coll-suggest_undo": "poništi",
-	"coll-load_local_book": "Kliknite na OK da nastavite rad s knjigom %TITLE% koja sadrži %NUMPAGES% stranica. Kliknite na Cancel da je obrišete i započnete s praznom knjigom.",
+	"coll-load_local_book": "Kliknite na OK da nastavite rad s knjigom $1 koja sadrži $2 stranica. Kliknite na Cancel da je obrišete i započnete s praznom knjigom.",
 	"coll-format-rl": "e-knjiga (PDF)",
 	"coll-format-epub": "e-knjiga (EPUB)",
 	"coll-format-odf": "obrađivač teksta (OpenDocument)",

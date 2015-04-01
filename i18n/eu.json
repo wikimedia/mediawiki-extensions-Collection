@@ -117,7 +117,7 @@
 	"coll-suggest_article_remove": "<strong>$1</strong> orrialdea zure liburutik ezabatu da ($2).",
 	"coll-suggest_undo_tooltip": "Ekintza hau desegin",
 	"coll-suggest_undo": "desegin",
-	"coll-load_local_book": "Egin klik OK gainean jarraitzeko zure %TITLE% liburuarekin, %NUMPAGES% wiki orrialde dituena. Klik egin Cancel gainean ezabatzeko eta berri hasteko liburu huts batekin.",
+	"coll-load_local_book": "Egin klik OK gainean jarraitzeko zure $1 liburuarekin, $2 wiki orrialde dituena. Klik egin Cancel gainean ezabatzeko eta berri hasteko liburu huts batekin.",
 	"coll-format-rl": "e-liburua (PDF)",
 	"coll-format-epub": "e-liburua (EPUB)",
 	"coll-format-odf": "word prozesatzailea (OpenDocument)",

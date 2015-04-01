@@ -112,7 +112,7 @@
 	"coll-suggest_article_remove": "Лопась <strong>$1</strong> нардафоль китапстот ($2).",
 	"coll-suggest_undo_tooltip": "Мърдафтомс тя тиемать",
 	"coll-suggest_undo": "мърдафтомс",
-	"coll-load_local_book": "Люпштак OK сяда тов покаманди %TITLE% китапцень мархта, конать эса %NUMPAGES% вики лопат. Люпштак Валхтомс тянь нардаманди ди од шава китап мархта ушедоманди.",
+	"coll-load_local_book": "Люпштак OK сяда тов покаманди $1 китапцень мархта, конать эса $2 вики лопат. Люпштак Валхтомс тянь нардаманди ди од шава китап мархта ушедоманди.",
 	"coll-format-rl": "e-китап (PDF)",
 	"coll-format-epub": "e-китап (EPUB)",
 	"coll-format-odf": "word процессор (OpenDocument)",

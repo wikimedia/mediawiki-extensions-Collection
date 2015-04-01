@@ -120,7 +120,7 @@
 	"coll-suggest_article_remove": "بلگه<strong>$1</strong> د كتاوتو پاك بيه ($2).",
 	"coll-suggest_undo_tooltip": "ای كار رد كو",
 	"coll-suggest_undo": "رد كردن",
-	"coll-load_local_book": "بپورنيت ری OK سی وا نيا گرتن كتاوتو%TITLE% كه وه شامل%NUMPAGES% بلگيا ويكی بوئه. بپورنيت ری Cancel سی د بين بردن و شرو كردن وا يه كتاو حالی.",
+	"coll-load_local_book": "بپورنيت ری OK سی وا نيا گرتن كتاوتو$1 كه وه شامل$2 بلگيا ويكی بوئه. بپورنيت ری Cancel سی د بين بردن و شرو كردن وا يه كتاو حالی.",
 	"coll-format-rl": "كتاوالكترونيكی(PDF)",
 	"coll-format-epub": "كتاو الكترونيكی",
 	"coll-format-odf": "پردازشتگر كليمه(سند آزاد)",

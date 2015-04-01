@@ -34,7 +34,7 @@
 	"coll-suggest_your_book": "Ihr Buch",
 	"coll-suggest_article_add": "Die Seite <strong>$1</strong> wurde zu Ihrem Buch hinzugefügt ($2).",
 	"coll-suggest_article_remove": "Die Seite <strong>$1</strong> wurde aus Ihrem Buch entfernt ($2).",
-	"coll-load_local_book": "Klicken Sie auf „OK“, um an Ihrem Buch %TITLE% weiterzuarbeiten, das %NUMPAGES% Wikiseiten enthält. Klicken Sie auf „Abbrechen“, um es zu löschen und um mit einem leeren Buch neu zu starten.",
+	"coll-load_local_book": "Klicken Sie auf „OK“, um an Ihrem Buch $1 weiterzuarbeiten, das $2 Wikiseiten enthält. Klicken Sie auf „Abbrechen“, um es zu löschen und um mit einem leeren Buch neu zu starten.",
 	"coll-add_linked_article": "Fügen Sie die verlinkte Wikiseite Ihrem Buch hinzu",
 	"coll-remove_linked_article": "Entfernen Sie die verlinkte Wikiseite aus Ihrem Buch",
 	"coll-add_category": "Alle Seiten in dieser Kategorie Ihrem Buch hinzufügen",

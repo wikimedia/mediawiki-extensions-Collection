@@ -115,7 +115,7 @@
 	"coll-suggest_article_remove": "Kaca <strong>$1</strong> wis dibusak saka buku Sampéyan ($2).",
 	"coll-suggest_undo_tooltip": "Batalaké laku iki",
 	"coll-suggest_undo": "batalaké",
-	"coll-load_local_book": "Klik Oké kanggo mbanjuraké buku Sampéyan %TITLE% sing kaisi %NUMPAGES% kaca wiki. Klik batal kanggo mbusak lan mulai nganggo buku kosong.",
+	"coll-load_local_book": "Klik Oké kanggo mbanjuraké buku Sampéyan $1 sing kaisi $2 kaca wiki. Klik batal kanggo mbusak lan mulai nganggo buku kosong.",
 	"coll-format-rl": "buku-é (PDF)",
 	"coll-format-epub": "buku-é (EPUB)",
 	"coll-format-odf": "pemrosès tembung (OpenDocument)",

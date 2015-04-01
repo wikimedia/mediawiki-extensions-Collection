@@ -121,7 +121,7 @@
 	"coll-suggest_article_remove": "La páxina <strong>$1</strong> desanicióse del so llibru ($2).",
 	"coll-suggest_undo_tooltip": "Desfacer esta aición",
 	"coll-suggest_undo": "desfacer",
-	"coll-load_local_book": "Calque en OK pa siguir col so llibru %TITLE% que contien %NUMPAGES% páxines wiki. Calque en Cancel pa desanicialu y comenzar con un llibru baleru.",
+	"coll-load_local_book": "Calque en OK pa siguir col so llibru $1 que contien $2 páxines wiki. Calque en Cancel pa desanicialu y comenzar con un llibru baleru.",
 	"coll-format-rl": "e-book (PDF, renderizador mwlib)",
 	"coll-format-epub": "e-book (EPUB)",
 	"coll-format-odf": "Procesador de testu (OpenDocument)",

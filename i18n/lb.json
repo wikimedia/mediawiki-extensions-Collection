@@ -118,7 +118,7 @@
 	"coll-suggest_article_remove": "D'Säit <strong>$1</strong> gouf aus Ärem Buch erausgeholl ($2).",
 	"coll-suggest_undo_tooltip": "Dës Aktioun réckgängeg maachen",
 	"coll-suggest_undo": "réckgängeg maachen",
-	"coll-load_local_book": "Klickt OK fir mat Ärem Buch %TITLE% dat %NUMPAGES% Wikisäiten huet weiderzefueren. Klickt Ofbriechen fir et ze läschen a mat engem eidele Buch unzefänken.",
+	"coll-load_local_book": "Klickt OK fir mat Ärem Buch $1 dat $2 Wikisäiten huet weiderzefueren. Klickt Ofbriechen fir et ze läschen a mat engem eidele Buch unzefänken.",
 	"coll-format-rl": "E-Book (PDF, mwlib-Renderer)",
 	"coll-format-epub": "E-Book (EPUB)",
 	"coll-format-odf": "Textveraarbechtung (OpenDocument)",

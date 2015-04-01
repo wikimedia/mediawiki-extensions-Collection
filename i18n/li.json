@@ -113,7 +113,7 @@
 	"coll-suggest_article_remove": "De pagina <strong>$1</strong> is verwiederd oet die book ($2).",
 	"coll-suggest_undo_tooltip": "Maak dees hanjeling óngedaon",
 	"coll-suggest_undo": "maak óngedaon",
-	"coll-load_local_book": "Klik \"gank\" om door te gaon mit die book %TITLE% det %NUMPAGES% wikipagina's bevat. Klik op \"braek aaf\" om 't te verwiedere en opnuuj te beginne mit e laeg book.",
+	"coll-load_local_book": "Klik \"gank\" om door te gaon mit die book $1 det $2 wikipagina's bevat. Klik op \"braek aaf\" om 't te verwiedere en opnuuj te beginne mit e laeg book.",
 	"right-collectionsaveasuserpage": "Slaon book óp es gebroekerspagina",
 	"right-collectionsaveascommunitypage": "Slaon book óp es gemeinsjapspagina",
 	"coll-print_export": "Drók aaf/exporteer",

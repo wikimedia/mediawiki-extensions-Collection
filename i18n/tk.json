@@ -109,7 +109,7 @@
 	"coll-suggest_article_remove": "<strong>$1</strong> sahypasy kitabyňyzdan ($2) aýyryldy.",
 	"coll-suggest_undo_tooltip": "Bu hereketi yzyna al",
 	"coll-suggest_undo": "yzyna al",
-	"coll-load_local_book": "%NUMPAGES% wiki sahypasyny öz içine alýan kitabyňyz %TITLE% bilen dowam etmek üçin Bolýar-a basyň. Muny öçürmek we boş bir kitaba başlamak üçin Goýbolsun et-e basyň.",
+	"coll-load_local_book": "$2 wiki sahypasyny öz içine alýan kitabyňyz $1 bilen dowam etmek üçin Bolýar-a basyň. Muny öçürmek we boş bir kitaba başlamak üçin Goýbolsun et-e basyň.",
 	"right-collectionsaveasuserpage": "Kitaplary ulanyjy sahypasy hökmünde ýazdyr",
 	"right-collectionsaveascommunitypage": "Kitaplary jemgyýetçilik sahypasy edip ýazdyr",
 	"coll-print_export": "Print et/eksportirle",

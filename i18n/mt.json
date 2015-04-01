@@ -114,7 +114,7 @@
 	"coll-suggest_article_remove": "Il-paġna <strong>$1</strong> ġiet imneħħija mill-ktieb ($2).",
 	"coll-suggest_undo_tooltip": "Reġġa' lura din l-azzjoni",
 	"coll-suggest_undo": "reġġa' lura",
-	"coll-load_local_book": "Agħfas OK biex tkompli bil-ktieb tiegħek %TITLE% li jinkludi %NUMPAGES% paġni wiki. Agħfas Ħassar sabiex tħassru u tibda kollox mill-ġdid.",
+	"coll-load_local_book": "Agħfas OK biex tkompli bil-ktieb tiegħek $1 li jinkludi $2 paġni wiki. Agħfas Ħassar sabiex tħassru u tibda kollox mill-ġdid.",
 	"coll-format-rl": "e-book (PDF)",
 	"coll-format-epub": "e-book (EPUB)",
 	"coll-format-odf": "proċessur tal-kliem (OpenDocument)",

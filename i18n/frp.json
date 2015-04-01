@@ -112,7 +112,7 @@
 	"coll-suggest_article_remove": "La pâge <strong>$1</strong> at étâ enlevâ de voutron lévro ($2).",
 	"coll-suggest_undo_tooltip": "Dèfâre ceta accion",
 	"coll-suggest_undo": "dèfâre",
-	"coll-load_local_book": "Clicâd dessus « OK » por continuar voutron lévro %TITLE% que contint %NUMPAGES% pâges vouiqui. Clicâd dessus « Cancel » por lo suprimar et pués comenciér avouéc un lévro vouedo.",
+	"coll-load_local_book": "Clicâd dessus « OK » por continuar voutron lévro $1 que contint $2 pâges vouiqui. Clicâd dessus « Cancel » por lo suprimar et pués comenciér avouéc un lévro vouedo.",
 	"coll-format-rl": "lévro èlèctronico (PDF)",
 	"coll-format-epub": "lévro èlèctronico (EPUB)",
 	"coll-format-odf": "trètament de tèxto (OpenDocument)",

@@ -114,7 +114,7 @@
 	"coll-suggest_article_remove": "Naalis ang pahinang <strong>$1</strong> mula sa aklat mo ($2).",
 	"coll-suggest_undo_tooltip": "Bawiin ang galaw na ito",
 	"coll-suggest_undo": "ibalik",
-	"coll-load_local_book": "Pindutin ang Okey upang magpatuloy sa aklat mong %TITLE% na naglalaman ng %NUMPAGES% na mga pahinang pangwiki.  Pindutin ang Huwag ituloy upang burahin ito at magsimula ng isang aklat na wala pang laman.",
+	"coll-load_local_book": "Pindutin ang Okey upang magpatuloy sa aklat mong $1 na naglalaman ng $2 na mga pahinang pangwiki.  Pindutin ang Huwag ituloy upang burahin ito at magsimula ng isang aklat na wala pang laman.",
 	"coll-format-rl": "e-aklat (PDF)",
 	"coll-format-epub": "e-aklat (EPUB)",
 	"coll-format-odf": "pampruseso ng salita (Bukas na Kasulatan)",

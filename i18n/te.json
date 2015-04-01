@@ -118,7 +118,7 @@
 	"coll-suggest_article_remove": "<strong>$1</strong> అనే పుటని మీ పుస్తకంలో నుండి తొలగించాం ($2).",
 	"coll-suggest_undo_tooltip": "ఈ చర్యను రద్దు చెయ్యి",
 	"coll-suggest_undo": "రద్దు చెయ్యి",
-	"coll-load_local_book": "మీ  %NUMPAGES%  వికీపేజీలుగల %TITLE%  పుస్తకం పై పని కొనసాగించుటకు సరే(OK) నొక్కండి.  దానిని వదలివేసి కొత్త ఖాళీ పుస్తకం ప్రారంభించుటకు రద్దు (Cancel ) నొక్కండి",
+	"coll-load_local_book": "మీ  $2  వికీపేజీలుగల $1  పుస్తకం పై పని కొనసాగించుటకు సరే(OK) నొక్కండి.  దానిని వదలివేసి కొత్త ఖాళీ పుస్తకం ప్రారంభించుటకు రద్దు (Cancel ) నొక్కండి",
 	"coll-format-rl": "ఈ-పుస్తకం (PDF)",
 	"coll-format-epub": "ఈ-పుస్తకం (EPUB)",
 	"right-collectionsaveasuserpage": "పుస్తకములను  వాడుకరి  పేజి లాగ భద్రపరచుము",

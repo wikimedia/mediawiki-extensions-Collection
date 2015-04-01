@@ -139,7 +139,7 @@
 	"coll-suggest_article_remove": "La page <strong>$1</strong> a été retirée de votre livre ($2).",
 	"coll-suggest_undo_tooltip": "Défaire cette action",
 	"coll-suggest_undo": "annuler",
-	"coll-load_local_book": "Cliquez sur OK pour continuer votre livre %TITLE% qui contient %NUMPAGES% pages wiki. Cliquez sur Annuler pour le supprimer et commencer avec un livre vide.",
+	"coll-load_local_book": "Cliquez sur OK pour continuer votre livre $1 qui contient $2 pages wiki. Cliquez sur Annuler pour le supprimer et commencer avec un livre vide.",
 	"coll-format-rl": "e-book (PDF, rendu mwlib)",
 	"coll-format-epub": "e-book (EPUB)",
 	"coll-format-odf": "Traitement de texte (OpenDocument)",

@@ -118,7 +118,7 @@
 	"coll-suggest_article_remove": "Siden <strong>$1</strong> er blevet fjernet fra din bog ($2).",
 	"coll-suggest_undo_tooltip": "Fortryd denne handling",
 	"coll-suggest_undo": "fortryd",
-	"coll-load_local_book": "Klik på OK for at fortsætte med din bog, %TITLE%, som indeholder %NUMPAGES% wikisider. Klik på Cancel for at slette den og begynde forfra med en tom bog.",
+	"coll-load_local_book": "Klik på OK for at fortsætte med din bog, $1, som indeholder $2 wikisider. Klik på Cancel for at slette den og begynde forfra med en tom bog.",
 	"coll-format-rl": "e-bog (PDF, mwlib renderer)",
 	"coll-format-epub": "e-bog (EPUB)",
 	"coll-format-odf": "tekstbehandling (OpenDocument)",
