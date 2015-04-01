@@ -1,0 +1,17 @@
+{
+  "name": "wikimedia-collection",
+  "version": "0.0.0",
+  "description": "Mediawiki Collection extension",
+  "scripts": {
+    "test": "jshint . && jscs ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gerrit.wikimedia.org/r/p/mediawiki/extensions/Collection"
+  },
+  "license": "GPLv2",
+  "devDependencies": {
+    "jscs": "1.12.0",
+    "jshint": "2.6.3"
+  }
+}

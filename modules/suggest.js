@@ -44,4 +44,3 @@ function collectionSuggestCall( func, args ) {
 window.collectionSuggestCall = collectionSuggestCall;
 
 } )( jQuery );
-
