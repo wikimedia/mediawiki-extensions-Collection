@@ -25,8 +25,8 @@ $( function () {
 				$.post( script_url, {
 					'action': 'ajax',
 					'rs': 'wfAjaxPostCollection',
-					'rsargs[]': [JSON.stringify(c)]
-				}, function( result ) {
+					'rsargs[]': [ JSON.stringify( c ) ]
+				}, function ( result ) {
 					location.href = result.redirect_url;
 				}, 'json' );
 			}
