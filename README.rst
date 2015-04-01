@@ -350,6 +350,11 @@ You may also want to configure some of the following:
   The name of the template can be adjusted via the system message
   Coll-savedbook_template, i.e. by editing [[MediaWiki:Coll-savedbook_template]].
 
+  This template should have a link to load a saved collection.   In
+  English Wikipedia this looks like::
+
+    [{{fullurl:Special:Book|bookcmd=load_collection&amp;colltitle={{FULLPAGENAMEE}}}} Book&nbsp;Creator]
+
 * To enable ZENO and Okawix export, uncomment the corresponding lines in
   ``$wgCollectionFormats`` (file Collection.php). These exports are devoted
   to the Wikimedia projects and their mirrors.
