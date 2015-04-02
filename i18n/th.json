@@ -154,5 +154,6 @@
 	"coll-not_addable": "ไม่สามารถเพิ่มหน้านี้ลงหนังสือได้",
 	"coll-make_suggestions": "หน้าแนะนำ",
 	"coll-make_suggestions_tooltip": "แสดงคำแนะนำตามหน้าในหนังสือของคุณ",
-	"coll-suggest_empty": "ไม่มีคำแนะนำ"
+	"coll-suggest_empty": "ไม่มีคำแนะนำ",
+	"coll-attribution-anons": "นิรนาม: $1"
 }

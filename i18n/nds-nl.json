@@ -27,6 +27,7 @@
 	"coll-rendering_status": "<strong>Staotus:</strong> $1",
 	"coll-rendering_finished_title": "Schrap emaakt",
 	"coll-rendering_finished_text": "<strong>t Dokument is an-emaakt.</strong>\n<strong>[$1 t Bestaand neerlaojen]</strong>.\n\nOpmarkingen:\n* Bi'j niet tevrejen mit de uutvoer? Op de [[{{MediaWiki:Coll-helppage}}|hulpzied over boeken]] staon tips um disse uutvoer te verbeteren.",
+	"coll-is_cached": "<ul><li>Der is n versie van t dokument beschikbaor in t tussengeheugen, opniej renderen was niet neudig.\n[$1 Opniej renderen.]</li></ul>",
 	"coll-return_to": "Weerumme naor [[:$1]]",
 	"coll-print_export": "Aofdrokken/uutvoeren",
 	"coll-create_a_book": "Boek maken",

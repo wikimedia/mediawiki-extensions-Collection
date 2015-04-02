@@ -142,7 +142,7 @@
 	"coll-suggest_article_remove": "La página <strong>$1</strong> ha sido eliminada de tu libro ($2).",
 	"coll-suggest_undo_tooltip": "Deshacer esta acción",
 	"coll-suggest_undo": "deshacer",
-	"coll-load_local_book": "Haz clic en Aceptar para continuar con tu libro $1 que contiene $2 páginas wiki. Haz clic en Cancelar para borrarlo y comenzar con un libro vacío.",
+	"coll-load_local_book": "Haz clic en OK para continuar con tu libro $1 que contiene $2 páginas wiki. Haz clic en Cancel para borrarlo y comenzar con un libro vacío.",
 	"coll-format-rl": "Libro electrónico (PDF, procesador mwlib)",
 	"coll-format-epub": "e-book (EPUB)",
 	"coll-format-odf": "Procesador de textos (OpenDocument)",
