@@ -157,5 +157,8 @@
 	"coll-not_addable": "بو صحیفه آرتیریلانماز",
 	"coll-make_suggestions": "صحیفه اؤنریله",
 	"coll-make_suggestions_tooltip": "کیتابینیزداکی اولان صحیفه‌لره گؤره اؤنریلر گؤستر",
-	"coll-suggest_empty": "بوش"
+	"coll-suggest_empty": "بوش",
+	"coll-attribution-anons": "تانینمایان: $1",
+	"coll-article-attribution": "<b>$1</b><i>قایناق:</i>  $2  <i>شیرکت ائدن لر:</i>$3",
+	"coll-image-attribution": "<b>$1</b><i>قایناق:</i>  $2  <i>مجویز:</i>  $3  <i>مشاریکت‌ ائدنلر:</i>  $4  <i>اصلی مولف:</i>$5"
 }
