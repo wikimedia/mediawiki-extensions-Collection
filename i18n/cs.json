@@ -124,7 +124,7 @@
 	"coll-suggest_article_remove": "Stránka <strong>$1</strong> byla odstraněna z vaší knihy. ($2)",
 	"coll-suggest_undo_tooltip": "Vrátit tuto akci zpět",
 	"coll-suggest_undo": "zpět",
-	"coll-load_local_book": "Pokračovat v tvorbě knihy $1, která obsahuje $2 stran wiki, můžete kliknutím na OK. Kliknutím na Storno ji smažete a začnete s prázdnou knihou.",
+	"coll-load_local_book": "Kliknutím na OK můžete pokračovat v tvorbě knihy $1, která obsahuje $2 stran wiki. Kliknutím na Storno ji smažete a začnete s prázdnou knihou.",
 	"coll-format-rl": "e-kniha (PDF, vykreslování mwlib)",
 	"coll-format-epub": "e-kniha (EPUB)",
 	"coll-format-odf": "textový editor (OpenDocument)",

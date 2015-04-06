@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shinjiman"
+			"Shinjiman",
+			"Yueman"
 		]
 	},
 	"coll-desc": "[[Special:Book|整書]]",
@@ -77,15 +78,31 @@
 	"coll-invalid_podpartner_msg": "提供嘅POD拍擋無效。\n請聯絡你嘅MediaWiki管理員。",
 	"coll-license": "牌照",
 	"coll-return_to": "返去[[:$1]]",
+	"coll-print_export": "打印/匯出",
 	"coll-create_a_book": "整一本書",
+	"coll-book_creator": "整書機",
 	"coll-download_as": "下載做$1",
+	"coll-disable": "閂咗",
+	"coll-book_creator_disable": "閂咗整書機",
+	"coll-book_creator_disable_tooltip": "停用整書機",
 	"coll-add_category": "加分類",
+	"coll-add_this_page": "加呢版落你本書",
+	"coll-add_page_tooltip": "加呢版維基頁去你本書度",
 	"coll-bookscategory": "書",
 	"coll-clear_collection": "清書",
 	"coll-clear_collection_confirm": "你係咪真係想完全噉清晒你本書？",
+	"coll-help": "幫手",
+	"coll-help_tooltip": "顯示整新書嘅說明",
 	"coll-helppage": "Help:書",
 	"coll-load_collection": "載入書",
 	"coll-n_pages": "$1版",
 	"coll-printable_version_pdf": "PDF版",
-	"coll-show_collection": "顯示書"
+	"coll-remove_this_page": "將呢一頁喺你嘅書度剷走",
+	"coll-show_collection": "顯示書",
+	"coll-show_collection_tooltip": "撳呢度修改/下載/訂購你本書",
+	"coll-make_suggestions": "建議頁面",
+	"coll-make_suggestions_tooltip": "跟你嘅書嘅頁面去顯示建議",
+	"coll-attribution-anons": "匿名：$1",
+	"coll-article-attribution": "<b>$1</b> <i>來源：</i> $2 <i>貢獻人：</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>來源：</i> $2 <i>牌照：</i> $3 <i>貢獻人：</i> $4 <i>原作者：</i> $5"
 }

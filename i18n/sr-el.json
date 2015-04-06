@@ -110,7 +110,7 @@
 	"coll-suggest_add_selected": "Dodaj označene strane",
 	"coll-suggest_ban_selected": "Ukloni odabrane strane",
 	"coll-suggest_your_book": "Tvoja knjiga",
-	"coll-suggest_show": "pokaži",
+	"coll-suggest_show": "prikaži",
 	"coll-suggest_ban_tooltip": "Ukloni ovu stranu sa spiska predloga",
 	"coll-suggest_article_ban": "Stranica <strong>$1</strong> je uklonjena iz predloga ($2).",
 	"coll-suggest_article_add": "Stranica <strong>$1</strong> je dodata u vašu knjigu ($2).",

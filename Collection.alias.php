@@ -44,6 +44,11 @@ $specialPageAliases['ba'] = array(
 	'Book' => array( 'Collection' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'Book' => array( 'کتاب' ),
+);
+
 /** Banjar (Bahasa Banjar) */
 $specialPageAliases['bjn'] = array(
 	'Book' => array( 'Buku' ),
