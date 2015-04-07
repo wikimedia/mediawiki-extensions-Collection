@@ -10,7 +10,8 @@
 			"NickK",
 			"Prima klasy4na",
 			"Ата",
-			"Olion"
+			"Olion",
+			"Piramidion"
 		]
 	},
 	"coll-desc": "[[Special:Book|Створює книги]]",
@@ -138,8 +139,8 @@
 	"coll-format-okawix_zeno": "Okawix",
 	"coll-format-rdf2latex": "електронна книга (PDF, обробник ocg latex)",
 	"coll-format-rdf2text": "Текстовий процесор (звичайний текст)",
-	"right-collectionsaveasuserpage": "Збереження книг як сторінок користувачів",
-	"right-collectionsaveascommunitypage": "Збереження книг як сторінок спільноти",
+	"right-collectionsaveasuserpage": "збереження книг як сторінок користувачів",
+	"right-collectionsaveascommunitypage": "збереження книг як сторінок спільноти",
 	"coll-print_export": "Друк/експорт",
 	"coll-create_a_book": "Створення книги",
 	"coll-create_a_book_tooltip": "Створити книгу або колекцію сторінок",

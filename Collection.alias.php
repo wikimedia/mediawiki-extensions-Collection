@@ -149,6 +149,11 @@ $specialPageAliases['frp'] = array(
 	'Book' => array( 'Lévro', 'Colèccion' ),
 );
 
+/** Western Frisian (Frysk) */
+$specialPageAliases['fy'] = array(
+	'Book' => array( 'Boek', 'Kolleksje', 'Fersameling', 'Samling' ),
+);
+
 /** Gagauz (Gagauz) */
 $specialPageAliases['gag'] = array(
 	'Book' => array( 'Kiyat' ),

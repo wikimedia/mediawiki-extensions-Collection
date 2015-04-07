@@ -8,7 +8,8 @@
 			"Glanthor Reviol",
 			"Csega",
 			"Dorgan",
-			"Tacsipacsi"
+			"Tacsipacsi",
+			"Adam78"
 		]
 	},
 	"coll-desc": "[[Special:Book|Könyvek készítése]]",
@@ -132,7 +133,7 @@
 	"coll-create_a_book": "Könyv készítése",
 	"coll-create_a_book_tooltip": "Könyv vagy lapgyűjtemény készítése",
 	"coll-book_creator": "Könyvkészítő",
-	"coll-download_as": "Letöltés mint $1",
+	"coll-download_as": "Letöltés $1-ként",
 	"coll-download_as_tooltip": "A wikilap $1 formátumú változatának letöltése",
 	"coll-disable": "kikapcsolás",
 	"coll-book_creator_disable": "Könyvkészítő kikapcsolása",

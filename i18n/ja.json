@@ -6,7 +6,8 @@
 			"JtFuruhata",
 			"Marine-Blue",
 			"Shirayuki",
-			"青子守歌"
+			"青子守歌",
+			"Mfuji"
 		]
 	},
 	"coll-desc": "[[Special:Book|ブックを作成する]]",
@@ -125,7 +126,7 @@
 	"coll-load_local_book": "OKをクリックすると $2 件のウィキページを含む本を $1 という題で作成します。\nこの本を削除して新しい本を作成する場合はキャンセルをクリックしてください。",
 	"coll-format-rl": "電子書籍 (PDF)",
 	"coll-format-epub": "電子書籍 (EPUB)",
-	"coll-format-odf": "文書作成ソフト (OpenDocument)",
+	"coll-format-odf": "ワードプロセッサ (OpenDocument)",
 	"coll-format-zim": "Kiwix (OpenZIM)",
 	"coll-format-docbook": "DocBook",
 	"coll-format-okawix_zeno": "Okawix",
