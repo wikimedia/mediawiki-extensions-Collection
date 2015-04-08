@@ -3,7 +3,8 @@
 		"authors": [
 			"Bjarki S",
 			"S.Örvarr.S",
-			"Snævar"
+			"Snævar",
+			"Sveinn í Felli"
 		]
 	},
 	"coll-desc": "[[Special:Book|Búa til bækur]]",
@@ -89,9 +90,9 @@
 	"coll-notfound_title": "Bók fannst ekki",
 	"coll-notfound_text": "Fann ekki bókar síðu.",
 	"coll-download_notfound_title": "Skrá fannst ekki",
-	"coll-download_notfound_text": "Skráin sem þú ert að reyna að hlaða niður er ekki til:\nKanski hefur henni verið eytt og þarf að umskrifa hana aftur.",
+	"coll-download_notfound_text": "Skráin sem þú ert að reyna að hlaða niður er ekki til:\nHugsanlega hefur henni verið eytt og þarf þá að endurgera hana.",
 	"coll-download_failed_title": "Villa við niðurhölun",
-	"coll-download_failed_text": "Niðurhal skráarinnar mistókst með eftirfarandi villu: $1",
+	"coll-download_failed_text": "Niðurhal skrárinnar mistókst með eftirfarandi villu: $1",
 	"coll-is_cached": "<ul><li>Þessi skrá fannst í skyndiminninu og því þurfti ekki að umskrifa.\n[$1 Neyða endurskrifun.]</li></ul>",
 	"coll-excluded-templates": "* Sniðum í flokknum [[:Category:$1|$1]] hafa verið sleppt.",
 	"coll-blacklisted-templates": "* Snið á bannlista [[:$1]] hefur verið sleppt.",

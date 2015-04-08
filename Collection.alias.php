@@ -274,6 +274,11 @@ $specialPageAliases['lb'] = array(
 	'Book' => array( 'Buch', 'Sammlung' ),
 );
 
+/** لوری (لوری) */
+$specialPageAliases['lrc'] = array(
+	'Book' => array( 'کتاو،کوملوس' ),
+);
+
 /** Malagasy (Malagasy) */
 $specialPageAliases['mg'] = array(
 	'Book' => array( 'Boky' ),
