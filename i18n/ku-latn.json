@@ -1,12 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"George Animal"
+			"George Animal",
+			"Bikarhêner"
 		]
 	},
 	"coll-collection": "Pirtûk",
 	"coll-your_book": "Pirtûka te",
+	"coll-remove": "Jê bibe",
 	"coll-show": "Nîşan bide",
+	"coll-move_up": "Hilgire jor",
+	"coll-move_down": "Hilgire xwar",
 	"coll-title": "Sernav:",
 	"coll-contents": "Naverok",
 	"coll-save_collection": "Pirtûkê tomar bike",
@@ -14,6 +18,7 @@
 	"coll-no": "Na",
 	"coll-notfound_title": "Pirtûk nehat dîtin",
 	"coll-suggest_your_book": "Pirtûka te",
+	"coll-create_a_book": "Pirtûkek çeke",
 	"coll-bookscategory": "Pirtûk",
 	"coll-help": "Alîkarî",
 	"coll-helppage": "Help:Pirtûk",
