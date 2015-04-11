@@ -10,7 +10,8 @@
 			"Kenrick95",
 			"Rex",
 			"C5st4wr6ch",
-			"Ahdan"
+			"Ahdan",
+			"Totosunarto"
 		]
 	},
 	"coll-desc": "[[Special:Book|Buat buku]]",
@@ -122,7 +123,7 @@
 	"coll-suggest_article_remove": "Halaman <strong>$1</strong> telah dihapus dari buku Anda ($2).",
 	"coll-suggest_undo_tooltip": "Balikkan pilihan ini",
 	"coll-suggest_undo": "balikkan",
-	"coll-load_local_book": "Klik OK untuk melanjutkan dengan buku Anda yang berjudul $1 yang berisi $2 halaman wiki. Klik Batal untuk menghapusnya dan memulai dengan buku kosong.",
+	"coll-load_local_book": "Klik OK untuk menuju buku anda $1 uang berisikan $2 laman-laman wiki. Klik cancel untuk menghapusnya dan mulai dengan buku kosong",
 	"coll-format-rl": "buku-e (PDF)",
 	"coll-format-epub": "buku-e (EPUB)",
 	"coll-format-odf": "pengolah kata (OpenDocument)",

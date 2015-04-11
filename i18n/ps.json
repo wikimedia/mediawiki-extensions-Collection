@@ -9,6 +9,8 @@
 	"coll-manage_your_book": "کتاب مو واوډئ",
 	"coll-book_creator_help": "د لا نورو مالوماتو لپاره [[{{MediaWiki:Coll-helppage}}|د کتابونو اړونده لارښود مخونه وگورئ]].",
 	"coll-start_book_creator": "کتاب جوړونکی پرانيستل",
+	"coll-book_creator_continue": "کتاب جوړونکي ته ادامه ورکول",
+	"coll-book_creator_disable_text": "''کتاب جوړونکی'' به ناچارن شي او په کوم کتاب چې تاسې کار کړی هغه به وغورځول شي.",
 	"coll-book_creator_text_article": "{{MediaWiki:Coll-helppage}}/د کتاب جوړونکي متن",
 	"coll-collection": "کتاب",
 	"coll-collections": "کتابونه",

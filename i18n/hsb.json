@@ -165,5 +165,8 @@
 	"coll-setting-papersize": "Papjerowy format:",
 	"coll-setting-papersize-letter": "Letter",
 	"coll-setting-toc": "Zapis wobsaha zapřijeć",
-	"coll-setting-columns": "Špalty:"
+	"coll-setting-columns": "Špalty:",
+	"coll-attribution-anons": "Anonymny: $1",
+	"coll-article-attribution": "<b>$1</b> <i>Žórło:</i> $2 <i>Sobuskutkowacy:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Žórło:</i> $2 <i>Licenca:</i> $3 <i>Sobuskutkowacy:</i> $4 <i>Prěnjotny tworićel:</i> $5"
 }
