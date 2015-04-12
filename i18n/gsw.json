@@ -156,5 +156,7 @@
 	"coll-not_addable": "Die Syte het nit chenne zuegfiegt wäre",
 	"coll-make_suggestions": "Syte vorschlaa",
 	"coll-make_suggestions_tooltip": "Vorschleg zeige, wu uf dr Syte in Dyym Buech basiere",
-	"coll-suggest_empty": "läär"
+	"coll-suggest_empty": "läär",
+	"coll-article-attribution": "<b>$1</b> <i>Quälle:</i> $2 <i>Autore:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Quälle:</i> $2 <i>Lizänz:</i> $3 <i>Autore:</i> $4 <i>Urspringlige Schepfer:</i> $5"
 }

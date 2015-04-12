@@ -14,7 +14,8 @@
 			"Cainamarques",
 			"Guilhermemau",
 			"He7d3r",
-			"Fasouzafreitas"
+			"Fasouzafreitas",
+			"TheEduGobi"
 		]
 	},
 	"coll-desc": "[[Special:Book|Criar livros]]",
@@ -127,10 +128,10 @@
 	"coll-suggest_article_remove": "A página <strong>$1</strong> foi removida do seu livro ($2).",
 	"coll-suggest_undo_tooltip": "Desfazer esta ação",
 	"coll-suggest_undo": "desfazer",
-	"coll-load_local_book": "Clique OK para continuar com o seu livro $1 que contém $2 páginas wiki. Clique Cancelar para apagá-lo e começar com um livro vazio.",
-	"coll-format-rl": "e-book (PDF)",
+	"coll-load_local_book": "Clique em OK para continuar com o seu livro $1 do qual contém $2 páginas wiki. Clique em Cancel para apagá-lo e começar com um livro vazio.",
+	"coll-format-rl": "e-book (PDF, renderizador mwlib)",
 	"coll-format-epub": "e-book (EPUB)",
-	"coll-format-odf": "procesador de textos (OpenDocument)",
+	"coll-format-odf": "Procesador de textos (OpenDocument)",
 	"coll-format-zim": "Kiwix (OpenZIM)",
 	"coll-format-docbook": "DocBook",
 	"coll-format-okawix_zeno": "Okawix",
