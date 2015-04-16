@@ -121,7 +121,7 @@
 	"coll-suggest_article_remove": "'A pàgene <strong>$1</strong> ha state luàte da le libbre ($2).",
 	"coll-suggest_undo_tooltip": "Annulle st'azione",
 	"coll-suggest_undo": "annulle",
-	"coll-load_local_book": "Cazze OK pe condinuà cu ìu libbre tune $1 ca tène $2 pàggene de uicchi. Cazze Annulle pe scangellarle e accumenzà cu 'n'otre libbre vacande.",
+	"coll-load_local_book": "Cazze OK pe condinuà cu 'u libbre tune $1 ca tène $2 pàggene de uicchi. Cazze Annulle pe scangellarle e accumenzà cu 'n'otre libbre vacande.",
 	"coll-format-rl": "e-book (PDF, render mwlib)",
 	"coll-format-epub": "e-book (EPUB)",
 	"coll-format-odf": "Processore de parole (OpenDocument)",
