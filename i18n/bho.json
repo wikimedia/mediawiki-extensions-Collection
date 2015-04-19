@@ -4,7 +4,14 @@
 			"Nepaboy"
 		]
 	},
+	"coll-remove": "हटाईं",
+	"coll-show": "देखाईं",
+	"coll-move_up": "ऊपर ले जाईं",
+	"coll-move_down": "नीचे ले जाईं",
 	"coll-print_export": "प्रिंट/निर्यात",
 	"coll-create_a_book": "एगो किताब बनाईं",
-	"coll-download_as": "$1 के रूप में डाउनलोड करीं"
+	"coll-download_as": "$1 के रूप में डाउनलोड करीं",
+	"coll-disable": "निरस्त",
+	"coll-help": "मदद",
+	"coll-helppage": "Help:किताबसभ"
 }
