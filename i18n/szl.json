@@ -11,5 +11,6 @@
 	"coll-print_export": "Drukuj abo eksportuj",
 	"coll-create_a_book": "Zbajstluj kśůnżka",
 	"coll-download_as": "Pobjer kej $1",
-	"coll-remove_this_page": "Wyćep ta zajta ze kśůnżki"
+	"coll-remove_this_page": "Wyćep ta zajta ze kśůnżki",
+	"coll-image-attribution": "<b>$1</b> <i>Zdrzůdło:</i> $2 <i>Licencyjo:</i> $3 <i>Autory:</i> $4 <i>Artysta:</i> $5"
 }
