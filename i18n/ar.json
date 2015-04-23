@@ -10,7 +10,8 @@
 			"Samer",
 			"زكريا",
 			"Omda4wady",
-			"Abanima"
+			"Abanima",
+			"محمدالداودي"
 		]
 	},
 	"coll-desc": "[[Special:Book|ينشيء كتبا]]",
@@ -129,7 +130,7 @@
 	"coll-suggest_article_remove": "الصفحة <strong>$1</strong> تمت إزالتها من كتابك ($2).",
 	"coll-suggest_undo_tooltip": "استرجع هذه الإجراء",
 	"coll-suggest_undo": "رجوع",
-	"coll-load_local_book": "اضغط OK للاستمرار في كتابك $1 الذي به $2 من صفحات الويكي. اضغط Cancel لحذفه والبدء بكتاب فارغ.",
+	"coll-load_local_book": "اضغط OK$1$2$2$2 للاستمرار في كتابك $1 الذي به $2 من صفحات الويكي. اضغط Cancel لحذفه والبدء بكتاب فارغ.",
 	"coll-format-rl": "كتاب إلكتروني (PDF)",
 	"coll-format-epub": "كتاب إلكتروني (EPUB)",
 	"coll-format-odf": "معالج النصوص (أوبن داكيومنت)",
