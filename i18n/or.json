@@ -159,5 +159,8 @@
 	"coll-not_addable": "ଏହି ପୃଷ୍ଠାଟିକୁ ଯୋଡା ଯାଇପାରିବ ନାହିଁ",
 	"coll-make_suggestions": "ପୃଷ୍ଠାଗୁଡିକୁ ପ୍ରସ୍ତାବିତ କରିବେ",
 	"coll-make_suggestions_tooltip": "ଆପଣଙ୍କ ବହିକୁ ଭିତ୍ତିକରି ଥିବା ପୃଷ୍ଠାଗୁଡିକ ପାଇଁ ମତାମତ ଦେଖିବେ",
-	"coll-suggest_empty": "ଖାଲି"
+	"coll-suggest_empty": "ଖାଲି",
+	"coll-attribution-anons": "ଅଜଣା: $1",
+	"coll-article-attribution": "<b>$1</b> <i>ସୋର୍ସ:</i> $2 <i>ଅବଦନକାରୀ:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>ସୋର୍ସ:</i> $2 <i>ଲାଇସେନ୍ସ:</i> $3 <i>ଅବଦନକାରୀ:</i> $4 <i>ମୂଳ ଅବଦନକାରୀ:</i> $5"
 }
