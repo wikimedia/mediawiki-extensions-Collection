@@ -3,7 +3,9 @@
 		"authors": [
 			"CERminator",
 			"KWiki",
-			"Smooth O"
+			"Smooth O",
+			"Palapa",
+			"Semso98"
 		]
 	},
 	"coll-desc": "[[Special:Book|Napravite knjige]]",
@@ -150,5 +152,8 @@
 	"coll-not_addable": "Ova stranica ne može se dodati",
 	"coll-make_suggestions": "Predloži stranice",
 	"coll-make_suggestions_tooltip": "Prikaži prijedloge zasnovane na stranicama iz Vaše knjige",
-	"coll-suggest_empty": "prazno"
+	"coll-suggest_empty": "prazno",
+	"coll-attribution-anons": "Anoniman: $1",
+	"coll-article-attribution": "<b>$1</b> <i>Izvor:</i> $2 <i>Saradnici:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Izvor:</i> $2 <i>Licenca:</i> $3 <i>Doprinijeli:</i> $4 <i>Originalni umjetnik:</i> $5"
 }

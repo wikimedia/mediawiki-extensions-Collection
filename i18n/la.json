@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"UV"
+			"UV",
+			"Lesgles"
 		]
 	},
 	"coll-remove": "Removere",
 	"coll-show": "Monstrare",
+	"coll-create_a_book": "Librum creare",
+	"coll-download_as": "Paginam prehendere formá $1",
 	"coll-n_pages": "$1 {{PLURAL:$1|pagina|paginae}}"
 }

@@ -1,9 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Akerbeltz"
+			"Akerbeltz",
+			"Caoimhin"
 		]
 	},
+	"coll-remove": "Thoir air falbh",
+	"coll-show": "Seall",
+	"coll-move_up": "Gluais suas",
+	"coll-move_down": "Gluais sìos",
 	"coll-print_export": "Clò-bhuail/às-phortaich",
 	"coll-create_a_book": "Cruthaich leabhar",
 	"coll-create_a_book_tooltip": "Cruthaich leabhar no cruinneachadh dhuilleagan",

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Helix84",
-			"Mormegil"
+			"Mormegil",
+			"TomášPolonec"
 		]
 	},
 	"coll-desc": "[[Special:Book|Tvorba kníh]]",
@@ -155,5 +156,8 @@
 	"coll-not_addable": "Túto stránku nemožno pridať",
 	"coll-make_suggestions": "Navrhnúť stránky",
 	"coll-make_suggestions_tooltip": "Zobraziť návrhy na základe stránok vo vašej knihe",
-	"coll-suggest_empty": "prázdne"
+	"coll-suggest_empty": "prázdne",
+	"coll-attribution-anons": "Anonymné úpravy: $1",
+	"coll-article-attribution": "<b>$1</b> <i>Zdroj:</i> $2 <i>Prispievatelia:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Zdroj:</i> $2 <i>Licencia:</i> $3 <i>Prispievatelia:</i> $4 <i>Pôvodný autor:</i> $5"
 }

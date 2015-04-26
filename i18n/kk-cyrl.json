@@ -144,5 +144,6 @@
 	"coll-not_addable": "Бұл бет қосыла алмайды",
 	"coll-make_suggestions": "Ұсынылған беттер",
 	"coll-make_suggestions_tooltip": "Кітабыңыздағы беттерге негізделген ұсыныстарды көрсету",
-	"coll-suggest_empty": "бос"
+	"coll-suggest_empty": "бос",
+	"coll-article-attribution": "<b>$1</b> <i>Қайнары:</i> $2 <i>Үлескерлер:</i> $3"
 }

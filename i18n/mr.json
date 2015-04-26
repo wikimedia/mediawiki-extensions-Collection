@@ -12,7 +12,8 @@
 			"Sudhanwa",
 			"V.narsikar",
 			"संतोष दहिवळ",
-			"Darshan kandolkar"
+			"Darshan kandolkar",
+			"अभय नातू"
 		]
 	},
 	"coll-desc": "[[Special:Book|पुस्तके बनवा]]",
@@ -173,5 +174,6 @@
 	"coll-setting-papersize-letter": "पत्र",
 	"coll-setting-toc": "आशय-सारणीचा अंतर्भाव करा",
 	"coll-setting-columns": "स्तम्भ:",
-	"coll-attribution-anons": "अनामिक $1"
+	"coll-attribution-anons": "अनामिक $1",
+	"coll-article-attribution": "<b>$1</b> <i>स्रोत:</i> $2 <i>योगदानकर्ते:</i> $3"
 }
