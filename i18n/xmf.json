@@ -6,5 +6,15 @@
 	},
 	"coll-remove": "ლასუა",
 	"coll-show": "ძირაფა",
-	"coll-remove_this_page": "თქვან წინგშე თე ხასჷლაშ ლასუა"
+	"coll-move_up": "ჟი გინოღალა",
+	"coll-move_down": "გიმე გინოღალა",
+	"coll-print_export": "ბეშტუა/ექსპორტი",
+	"coll-create_a_book": "წინგიშ გოჭყაფა",
+	"coll-book_creator": "წინგიშ მოხელე",
+	"coll-download_as": "$1 ფორმატშა გინოჭარუა",
+	"coll-helppage": "Help:წინგეფი",
+	"coll-remove_this_page": "თქვან წინგშე თე ხასჷლაშ ლასუა",
+	"coll-show_collection": "წინგიშ ძირაფა",
+	"coll-make_suggestions": "მერზიებული ხასჷლეფი",
+	"coll-image-attribution": "<b>$1</b> <i>წყუ:</i> $2 <i>ლიცენზია:</i> $3 <i>ავტორეფი:</i> $4 <i>ხანტუ:</i> $5"
 }

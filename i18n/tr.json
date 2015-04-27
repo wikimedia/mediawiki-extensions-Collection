@@ -8,7 +8,8 @@
 			"Manco Capac",
 			"Srhat",
 			"Suelnur",
-			"Violetanka"
+			"Violetanka",
+			"Ömer Berkay"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kitap oluştur]]",
@@ -164,5 +165,7 @@
 	"coll-suggest_empty": "boş",
 	"coll-setting-toc-auto": "Otomatik",
 	"coll-setting-toc-yes": "Evet",
-	"coll-setting-toc-no": "Hayır"
+	"coll-setting-toc-no": "Hayır",
+	"coll-attribution-anons": "Anonim: $1",
+	"coll-article-attribution": "<b>$1</b> <i>Kaynak:</i> $2 <i>Katkıda bulunanlar:</i> $3"
 }

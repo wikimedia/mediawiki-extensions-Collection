@@ -5,5 +5,9 @@
 		]
 	},
 	"coll-title": "Sutichay:",
-	"coll-update": "Musuqchay"
+	"coll-update": "Musuqchay",
+	"coll-print_export": "Ch'ipachiy/hawaman churay",
+	"coll-create_a_book": "Liwruta kamariy",
+	"coll-download_as": "$1 hinata chaqnamuy",
+	"coll-attribution-anons": "Sutinnaq: $1"
 }

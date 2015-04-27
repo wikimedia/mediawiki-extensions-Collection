@@ -159,5 +159,8 @@
 	"coll-not_addable": "ეს გვერდი არ ემატება",
 	"coll-make_suggestions": "შეთავაზებული გვერდები",
 	"coll-make_suggestions_tooltip": "აჩვენეთ მოსაზრებები, რომლებიც დაფუძნებულია თქვენ წიგნში არსებულ გვერდებზე.",
-	"coll-suggest_empty": "ცარიელი"
+	"coll-suggest_empty": "ცარიელი",
+	"coll-attribution-anons": "ანონიმი: $1",
+	"coll-article-attribution": "<b>$1</b> <i>წყარო:</i> $2 <i>ავტორები:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>წყარო:</i> $2 <i>ლიცენზია:</i> $3 <i>ავტორები:</i> $4 <i>მხატვარი:</i> $5"
 }

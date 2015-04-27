@@ -149,5 +149,6 @@
 	"coll-not_addable": "इदं पृष्ठं संयोक्तुम् अशक्या",
 	"coll-make_suggestions": "प्रस्तुतानि पृष्ठानि",
 	"coll-make_suggestions_tooltip": "तव पुस्तकस्य पृष्ठानि आधारीकृत्य सूचनाः दर्श्यन्ताम्",
-	"coll-suggest_empty": "शुन्यम्"
+	"coll-suggest_empty": "शुन्यम्",
+	"coll-article-attribution": "<b>$1</b> <i>स्रोतः:</i> $2 <i>योजकाः:</i> $3"
 }
