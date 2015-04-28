@@ -214,10 +214,13 @@ abstract class CollectionRenderingAPI {
 		);
 
 		if ( class_exists( 'VisualEditorHooks' ) ) {
-			global $wgVisualEditorParsoidURL, $wgVisualEditorParsoidPrefix;
+			global $wgVisualEditorParsoidURL, $wgVisualEditorParsoidPrefix,
+				$wgVisualEditorRestbaseURL;
 			for ( $i = 0; $i < count( $result['wikis'] ); $i++ ) {
 				$result['wikis'][$i]['parsoid'] = $wgVisualEditorParsoidURL;
 				$result['wikis'][$i]['prefix'] = $wgVisualEditorParsoidPrefix;
+				// RESTbase connection information
+				$result['wikis'][$i]['restbase'] = $wgVisualEditorRestbaseURL;
 			}
 		}
 
