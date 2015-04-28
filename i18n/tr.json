@@ -9,7 +9,8 @@
 			"Srhat",
 			"Suelnur",
 			"Violetanka",
-			"Ömer Berkay"
+			"Ömer Berkay",
+			"Incelemeelemani"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kitap oluştur]]",
@@ -167,5 +168,6 @@
 	"coll-setting-toc-yes": "Evet",
 	"coll-setting-toc-no": "Hayır",
 	"coll-attribution-anons": "Anonim: $1",
-	"coll-article-attribution": "<b>$1</b> <i>Kaynak:</i> $2 <i>Katkıda bulunanlar:</i> $3"
+	"coll-article-attribution": "<b>$1</b> <i>Kaynak:</i> $2 <i>Katkıda bulunanlar:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Kaynak:</i> $2 <i>Lisans:</i> $3 <i>Katkıda bulunanlar:</i> $4 <i>Özgün yazarı:</i> $5"
 }

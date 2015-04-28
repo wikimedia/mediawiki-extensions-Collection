@@ -158,6 +158,7 @@
 	"coll-make_suggestions": "Issuġġerixxi xi paġni",
 	"coll-make_suggestions_tooltip": "Uri suġġerimenti bbażati skont il-paġni fil-ktieb tiegħek",
 	"coll-suggest_empty": "vojta",
+	"coll-attribution-anons": "Anonimu: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Sors:</i> $2 <i>Kontributuri:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Sors:</i> $2 <i>Liċenzja:</i> $3 <i>Kontributuri:</i> $4 <i>Artisti oriġinali:</i> $5"
 }

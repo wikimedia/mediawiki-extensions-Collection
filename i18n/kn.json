@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Nayvik",
-			"Omshivaprakash"
+			"Omshivaprakash",
+			"VASANTH S.N."
 		]
 	},
 	"coll-collection": "ಪುಸ್ತಕ",
@@ -40,7 +41,7 @@
 	"coll-cancel": "ರದ್ದು ಮಾಡು",
 	"coll-rendering_status": "<strong>ಸ್ಥಾನಮಾನ:</strong> $1",
 	"coll-suggest_show": "ತೋರಿಸು",
-	"coll-print_export": "ಮುದ್ರಿಸು/ಎಕ್ಸ್‌ಪೋರ್ಟ್‌",
+	"coll-print_export": "ಮುದ್ರಿಸು/ರಫ್ತು ಮಾಡು",
 	"coll-create_a_book": "ಪುಸ್ತಕವನ್ನು ಸೃಷ್ಟಿಸಿ",
 	"coll-create_a_book_tooltip": "ಪುಸ್ತಕ ಅಥವಾ ಪುಟಸಂಚಯವನ್ನು ಸಿದ್ದಪಡಿಸು",
 	"coll-book_creator": "ಪುಸ್ತಕ ಸೃಷ್ಟಿಕಾರ",

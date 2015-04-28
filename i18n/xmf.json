@@ -12,9 +12,16 @@
 	"coll-create_a_book": "წინგიშ გოჭყაფა",
 	"coll-book_creator": "წინგიშ მოხელე",
 	"coll-download_as": "$1 ფორმატშა გინოჭარუა",
+	"coll-book_creator_disable": "წინგიშ მოხელეშ გოუქვაფა",
+	"coll-add_this_page": "ქიგუძინით თე ხასჷლა თქვან წინგის",
+	"coll-add_page_tooltip": "მიმალი ვიკი ხასჷლაშ წინგშა გეძინა",
+	"coll-help": "მოხვარა",
 	"coll-helppage": "Help:წინგეფი",
+	"coll-n_pages": "$1 {{PLURAL:$1|ხასჷლა|ხასჷლა}}",
 	"coll-remove_this_page": "თქვან წინგშე თე ხასჷლაშ ლასუა",
 	"coll-show_collection": "წინგიშ ძირაფა",
+	"coll-show_collection_tooltip": "გეუნჭირით წინგიშ რედაქტირაფაშო/გჷმოხარგუაშო/გიშაჭარუაშო",
 	"coll-make_suggestions": "მერზიებული ხასჷლეფი",
+	"coll-article-attribution": "<b>$1</b> <i>წყუ:</i> $2 <i>ავტორეფი:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>წყუ:</i> $2 <i>ლიცენზია:</i> $3 <i>ავტორეფი:</i> $4 <i>ხანტუ:</i> $5"
 }

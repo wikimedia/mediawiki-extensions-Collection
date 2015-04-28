@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Calak",
-			"Muhammed taha"
+			"Muhammed taha",
+			"Asoxor"
 		]
 	},
 	"coll-manage_your_book": "کتێبەکەت بەڕێوەبەرە",
@@ -70,5 +71,7 @@
 	"coll-not_addable": "ئەم پەڕەیە ناکرێ زیاد بکرێ",
 	"coll-make_suggestions": "پەڕەکان پێشنیار بکە",
 	"coll-make_suggestions_tooltip": "بە پێی پەڕەکانی کتێبەکەت پێشنیارەکان نیشان بدە",
-	"coll-suggest_empty": "واڵا"
+	"coll-suggest_empty": "واڵا",
+	"coll-attribution-anons": "نامۆ: $1",
+	"coll-image-attribution": "<b>$1</b> <i>سەرچاوە:</i> $2 <i>مۆڵەتنامە:</i> $3 <i>بەشداربووان:</i> $4 <i>ھونەرمەندی داھێنەر:</i> $5"
 }

@@ -154,5 +154,6 @@
 	"coll-not_addable": "Ceta pâge pôt pas étre apondua",
 	"coll-make_suggestions": "Conselyér des pâges",
 	"coll-make_suggestions_tooltip": "Montrar los consèlys basâs sur les pâges dens voutron lévro",
-	"coll-suggest_empty": "vouedo"
+	"coll-suggest_empty": "vouedo",
+	"coll-attribution-anons": "Anonimo : $1"
 }
