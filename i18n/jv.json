@@ -157,5 +157,6 @@
 	"coll-not_addable": "Kaca iki ora bisa ditambahaké",
 	"coll-make_suggestions": "Saranaké kaca",
 	"coll-make_suggestions_tooltip": "Tuduhaké saran adhasar saka kaca nèng buku Sampéyan",
-	"coll-suggest_empty": "kosong"
+	"coll-suggest_empty": "kosong",
+	"coll-image-attribution": "<b>$1</b> <i>Sumber:</i> $2 <i>Lisensi:</i> $3 <i>Kontributor:</i> $4 <i>Artis asli:</i> $5"
 }

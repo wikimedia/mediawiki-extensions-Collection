@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Csisc"
+			"Csisc",
+			"GeekEmad"
 		]
 	},
 	"coll-remove": "Ifsax",
@@ -12,7 +13,7 @@
 	"coll-create_a_book": "Aģmil ktêb",
 	"coll-download_as": "Têlêcarjîh kimê $1",
 	"coll-helppage": "Help:Ktub",
-	"coll-remove_this_page": "Ifsax hal-pâj min ktêbik",
+	"coll-remove_this_page": "Ifsex hel-pâj min ktêbik",
 	"coll-show_collection": "Warrî il-ktêb",
 	"coll-show_collection_tooltip": "Inzil bêc tbiddil/têlêcarjî/tģarbin ģalâ ktêbik"
 }
