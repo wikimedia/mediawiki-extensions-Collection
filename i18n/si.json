@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"පසිඳු කාවින්ද",
-			"බිඟුවා"
+			"බිඟුවා",
+			"හරිත"
 		]
 	},
 	"coll-desc": "[[Special:Book|පොත් තනන්න]]",
@@ -138,8 +139,11 @@
 	"coll-remove_this_page": "මෙම පිටුව ඔබේ පොතෙන් ඉවත් කරන්න",
 	"coll-remove_page_tooltip": "වත්මන් විකි පිටුව ඔබේ පොතෙන් ඉවත් කරන්න",
 	"coll-show_collection": "පොත පෙන්වන්න",
+	"coll-show_collection_tooltip": "ඔබේ පොත සංස්කරණය/බාගත/ඇනවුම් කිරීමට ක්ලික් කරන්න",
 	"coll-not_addable": "මෙම පිටුව එක් කල නොහැක",
 	"coll-make_suggestions": "පිටු යෝජනා කරන්න",
 	"coll-make_suggestions_tooltip": "ඔබේ පොතේ තිබෙන පිටු මත ව්‍යංගාර්ථ පෙන්වන්න",
-	"coll-suggest_empty": "හිස්"
+	"coll-suggest_empty": "හිස්",
+	"coll-attribution-anons": "නිර්නාමික: $1",
+	"coll-image-attribution": "<b>$1</b> <i>මූලාශ්‍රය:</i> $2 <i>බලපත:</i> $3 <i>දායකත්ව:</i> $4 <i>මුල් නිර්මාණකරු:</i> $5"
 }
