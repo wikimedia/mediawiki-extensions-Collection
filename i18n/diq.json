@@ -161,5 +161,7 @@
 	"coll-suggest_empty": "veng",
 	"coll-setting-toc-yes": "Eya",
 	"coll-setting-toc-no": "Nê",
-	"coll-article-attribution": "<b>$1</b> <i>Çıme:</i> $2 <i>İştıraqkeri:</i> $3"
+	"coll-attribution-anons": "Anonim: $1",
+	"coll-article-attribution": "<b>$1</b> <i>Çıme:</i> $2 <i>İştıraqkeri:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Çıme:</i> $2 <i>Lisans:</i> $3 <i>İştıraqkeri:</i> $4 <i>Nuştoğo raştıkên:</i> $5"
 }
