@@ -169,6 +169,7 @@
 	"coll-setting-toc-yes": "Ya",
 	"coll-setting-toc-no": "Tidak",
 	"coll-setting-columns": "Lajur:",
+	"coll-attribution-anons": "Pengguna tanpa nama: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Sumber:</i> $2 <i>Penyumbang-penyumbang:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Sumber:</i> $2 <i>Perlesenan:</i> $3 <i>Penyumbang:</i> $4 <i>Artis asal:</i> $5"
 }
