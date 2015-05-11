@@ -217,10 +217,17 @@ abstract class CollectionRenderingAPI {
 			global $wgVisualEditorParsoidURL, $wgVisualEditorParsoidPrefix,
 				$wgVisualEditorRestbaseURL;
 			for ( $i = 0; $i < count( $result['wikis'] ); $i++ ) {
-				$result['wikis'][$i]['parsoid'] = $wgVisualEditorParsoidURL;
-				$result['wikis'][$i]['prefix'] = $wgVisualEditorParsoidPrefix;
+				// Parsoid connection information
+				if ($wgVisualEditorParsoidURL) {
+					$result['wikis'][$i]['parsoid'] = $wgVisualEditorParsoidURL;
+					$result['wikis'][$i]['prefix'] = $wgVisualEditorParsoidPrefix;
+				}
 				// RESTbase connection information
-				$result['wikis'][$i]['restbase'] = $wgVisualEditorRestbaseURL;
+				if ($wgVisualEditorRestbaseURL) {
+					// Strip the trailing "/page/html".
+					$restbase1 = preg_replace('|/page/html/?$|', '/', $wgVisualEditorRestbaseURL);
+					$result['wikis'][$i]['restbase1'] = $restbase1;
+				}
 			}
 		}
 
