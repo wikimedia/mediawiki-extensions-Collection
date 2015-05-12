@@ -24,7 +24,7 @@ $specialPageAliases['ar'] = array(
 	'Book' => array( 'كتاب', 'مجموعة' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'Book' => array( 'كتاب', 'مجموعه' ),
 );
@@ -144,7 +144,7 @@ $specialPageAliases['fr'] = array(
 	'Book' => array( 'Livre' ),
 );
 
-/** Franco-Provençal (arpetan) */
+/** Arpitan (arpetan) */
 $specialPageAliases['frp'] = array(
 	'Book' => array( 'Lévro', 'Colèccion' ),
 );
@@ -274,7 +274,7 @@ $specialPageAliases['lb'] = array(
 	'Book' => array( 'Buch', 'Sammlung' ),
 );
 
-/** لوری (لوری) */
+/** لوری مینجایی (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'Book' => array( 'کتاو،کوملوس' ),
 );
