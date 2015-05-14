@@ -22,7 +22,8 @@
 			"គីមស៊្រុន",
 			"Liuxinyu970226",
 			"Lokal Profil",
-			"Beta16"
+			"Beta16",
+			"Nemo bis"
 		]
 	},
 	"coll-desc": "{{desc|name=Collection|url=https://www.mediawiki.org/wiki/Extension:Collection}}",
@@ -195,5 +196,5 @@
 	"coll-attribution-anons": "Text to add to a list of contributors to an article when there have been anonymous contributions. $1 is the number of anonymous contributions.\n{{Identical|Anonymous}}",
 	"coll-attribution-page": "Prototype for a page that will be added to all books for attribution purposes. $1 will be a list of articles and their contributors, $2 will be a list of all images and their contributors, $3 will be the wiki's license text.",
 	"coll-article-attribution": "An individual list item for {{msg-mw|coll-attribution-page|notext=notext}}; will document an article.\n* $1 is the article name,\n* $2 is an URL to the article,\n* $3 is the list of contributors to an article.",
-	"coll-image-attribution": "An individal list item for ''coll-attribution-page''; will document an image. $1 is the image name, $2 is an URL to the image, $3 is the image license, $4 is the credit field for an image, $5 is the artist for an image."
+	"coll-image-attribution": "An individal list item for ''coll-attribution-page''; will document an image. $1 is the image name, $2 is an URL to the image, $3 is the image license, $4 is the credit field for an image, $5 is the author (not necessarily the same as the uploader)."
 }
