@@ -1294,4 +1294,8 @@ class SpecialCollection extends SpecialPage {
 		);
 		return false;
 	}
+
+	protected function getGroupName() {
+		return 'pagetools';
+	}
 }

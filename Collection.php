@@ -194,7 +194,6 @@ $wgExtensionMessagesFiles['Collection'] = $dir . 'Collection.i18n.php';
 $wgExtensionMessagesFiles['CollectionAlias'] = $dir . 'Collection.alias.php';
 
 $wgSpecialPages['Book'] = 'SpecialCollection';
-$wgSpecialPageGroups['Book'] = 'pagetools';
 
 $wgHooks['SkinTemplateBuildNavUrlsNav_urlsAfterPermalink'][] = 'CollectionHooks::buildNavUrls';
 $wgHooks['SkinBuildSidebar'][] = 'CollectionHooks::buildSidebar';
