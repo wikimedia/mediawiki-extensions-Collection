@@ -113,6 +113,7 @@ class CollectionHooks {
 		$params = array(
 			'bookcmd' => 'render_article',
 			'arttitle' => $title->getPrefixedText(),
+			'returnto' => $title->getPrefixedText(),
 		);
 
 		$oldid = $sk->getRequest()->getVal( 'oldid' );

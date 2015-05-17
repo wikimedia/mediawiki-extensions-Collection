@@ -163,6 +163,7 @@ foreach ( $this->data['podpartners'] as $partnerKey => $partnerData ) {
 			<?php } ?>
 			</td><td id="collection-download-button">
 			<input type="hidden" name="bookcmd" value="render" />
+			<input type="hidden" name="returnto" value="<?php echo SpecialPage::getTitleFor( 'Book' )->getPrefixedText(); ?>" />
 			<input id="downloadButton" type="submit" value="<?php echo $buttonLabel ?>"<?php if ( count( $this->data['collection']['items'] ) == 0 ) { ?> disabled="disabled"<?php } ?> />
 			</td></tr></tbody></table>
 		</form>
