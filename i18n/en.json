@@ -46,8 +46,6 @@
     "coll-notitle_msg": "The title of the page could not be determined.",
     "coll-request_failed_title": "Book rendering failed",
     "coll-request_failed_msg": "There was an error while attempting to render your book.",
-    "coll-mwserve_failed_title": "Render server error",
-    "coll-mwserve_failed_msg": "An error occurred on the render server: <nowiki>$1</nowiki>",
     "coll-error_reponse": "Error response from server",
     "coll-empty_collection": "Empty book",
     "coll-revision": "Revision: $1",
