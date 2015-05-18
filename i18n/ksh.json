@@ -48,8 +48,6 @@
 	"coll-notitle_msg": "Mer kunnte de Övverschreff för di Sigg nit erus fenge.",
 	"coll-request_failed_title": "Et Booch_Aanzeije es dernävve jejange.",
 	"coll-request_failed_msg": "ene fähler es opjetrodde beim Versooch, Ding Booch aanzezeije.",
-	"coll-mwserve_failed_title": "Fähler en dämm Server för et Darstelle",
-	"coll-mwserve_failed_msg": "En dämm Server för et Darstelle es ene Fähler opjetrodde: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Dä Server meldt ene Fähler",
 	"coll-empty_collection": "En däm Booch es nix dren",
 	"coll-revision": "Version: $1",

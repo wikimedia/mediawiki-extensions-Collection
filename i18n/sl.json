@@ -51,8 +51,6 @@
 	"coll-notitle_msg": "Naslova strani nismo mogli določiti.",
 	"coll-request_failed_title": "Upodabljanje knjige je spodletelo",
 	"coll-request_failed_msg": "Pri upodabljanju vaše knjige je prišlo do napake.",
-	"coll-mwserve_failed_title": "Napaka na prevajalnem strežniku",
-	"coll-mwserve_failed_msg": "Na prevajalnem strežniku je prišlo do napake: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Strežnik je vrnil napako",
 	"coll-empty_collection": "Prazna knjiga",
 	"coll-revision": "Redakcija: $1",

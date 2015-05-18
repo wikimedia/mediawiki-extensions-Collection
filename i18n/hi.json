@@ -50,8 +50,6 @@
 	"coll-notitle_title": "इस पृष्ठ का शीर्षक सुनिश्चित नहीं किया जा सका।",
 	"coll-request_failed_title": "पुस्तक प्रतिपादन विफल",
 	"coll-request_failed_msg": "आपकी पुस्तक रेंडर करने में त्रुटि उत्पन्न हुई।",
-	"coll-mwserve_failed_title": "रेंडर सर्वर में त्रुटि",
-	"coll-mwserve_failed_msg": "रेंडर सर्वर में त्रुटि हुई: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "सर्वर से मिला त्रुटि सन्देश",
 	"coll-empty_collection": "खाली पुस्तक",
 	"coll-revision": "अवतरण: $1",

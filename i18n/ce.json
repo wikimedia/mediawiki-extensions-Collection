@@ -48,8 +48,6 @@
 	"coll-notitle_msg": "АгӀонан корта билгал бан йиш яц.",
 	"coll-request_failed_title": "Жайна хийцар кхочушдан цаделира",
 	"coll-request_failed_msg": "Хьан жайна хийца гӀертачу хенахь гӀалат делира.",
-	"coll-mwserve_failed_title": "Суьртийн серверан гӀалат",
-	"coll-mwserve_failed_msg": "Суьртийн серверан тӀехь гӀалат даьлла: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Серверан жоьпан гӀалат",
 	"coll-empty_collection": "Деса жайна",
 	"coll-revision": "Верси: $1",

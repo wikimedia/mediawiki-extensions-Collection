@@ -46,8 +46,6 @@
 	"coll-rename_chapter": "Veur 'ne nuuje naam in veur 't huidstök",
 	"coll-no_such_category": "De kattegorie besteit neet",
 	"coll-notitle_title": "De titel ven g'r pazjena kós neet vasgesteldj waere.",
-	"coll-mwserve_failed_title": "Fout inne renderserver",
-	"coll-mwserve_failed_msg": "De renderserver goof de vólgendje foutmèljing: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "De server haet 'n foutmèljing trökgegaeve",
 	"coll-empty_collection": "Laeg book",
 	"coll-revision": "Versie: $1",

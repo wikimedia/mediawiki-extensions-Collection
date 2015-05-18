@@ -47,8 +47,6 @@
 	"coll-notitle_title": "An titulo kan pahina dae madedeterminaran.",
 	"coll-request_failed_title": "Pagpapahiling kan libro nagpalya",
 	"coll-request_failed_msg": "Nagkaigwa nin sarong kasalaan mantang hinihingoha na maipapahiling an saimong libro.",
-	"coll-mwserve_failed_title": "Maghaya nin serbidor na kasalaan",
-	"coll-mwserve_failed_msg": "Sarong kasalaan an nangyari sa naghayang serbidor: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Kasalaan an simbag gikan sa serbidor",
 	"coll-empty_collection": "Daeng laog na libro",
 	"coll-revision": "Rebisyon:$1",

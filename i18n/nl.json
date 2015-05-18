@@ -59,8 +59,6 @@
 	"coll-notitle_title": "Kan paginatitel niet verkrijgen",
 	"coll-request_failed_title": "Boekweergave is mislukt",
 	"coll-request_failed_msg": "Er is een fout opgetreden bij het maken van uw boek.",
-	"coll-mwserve_failed_title": "Fout in de renderserver",
-	"coll-mwserve_failed_msg": "De renderserver gaf de volgende foutmelding: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "De server heeft een foutmelding teruggegeven",
 	"coll-empty_collection": "Leeg boek",
 	"coll-revision": "Versie: $1",

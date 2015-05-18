@@ -54,8 +54,6 @@
 	"coll-rename_chapter": "Γράψτε νέο όνομα για το κεφάλαιο",
 	"coll-no_such_category": "Δεν υπάρχει τέτοια κατηγορία",
 	"coll-notitle_title": "Ο τίτλος της σελίδας δεν μπόρεσε να προσδιοριστεί.",
-	"coll-mwserve_failed_title": "Σφάλμα διακομιστή μορφοποίησης",
-	"coll-mwserve_failed_msg": "Ένα σφάλμα συνέβη στον διακομιστή μορφοποίησης: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Σφάλμα απάντησης από τον διακομιστή",
 	"coll-empty_collection": "Άδειο βιβλίο",
 	"coll-revision": "Έκδοση: $1",

@@ -47,8 +47,6 @@
 	"coll-rename_chapter": "Gib e neije Name fir s Kapitel yy",
 	"coll-no_such_category": "Kategorii git s nit",
 	"coll-notitle_title": "Dr Titel vu dr Syte het nit chenne bstimmt wäre.",
-	"coll-mwserve_failed_title": "Serverfähler",
-	"coll-mwserve_failed_msg": "Uf em Renderer-Server het s e Fähler gee: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Fählermäldig vum Server",
 	"coll-empty_collection": "Leers Buech",
 	"coll-revision": "Version: $1",

@@ -49,8 +49,6 @@
 	"coll-notitle_msg": "'O titolo d' 'a paggena nun se pò determinà.",
 	"coll-request_failed_title": "Visualizzaziona d' 'o libbro fallita",
 	"coll-request_failed_msg": "Nce steva n'errore pe' tramente ca se steva a mmustà 'o libbro vuosto.",
-	"coll-mwserve_failed_title": "Server 'e render in errore",
-	"coll-mwserve_failed_msg": "S'è ncuntrato n'errore ncopp' 'o server 'e presentazione: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Risposta ch' 'errore 'a 'o server",
 	"coll-empty_collection": "Libbro abbacante",
 	"coll-revision": "Vversione: $1",

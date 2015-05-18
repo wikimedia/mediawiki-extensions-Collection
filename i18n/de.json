@@ -63,8 +63,6 @@
 	"coll-notitle_msg": "Der Titel der Seite konnte nicht bestimmt werden.",
 	"coll-request_failed_title": "Buch-Rendering fehlgeschlagen",
 	"coll-request_failed_msg": "Während des Versuchs, dein Buch zu rendern, ist ein Fehler aufgetreten.",
-	"coll-mwserve_failed_title": "Serverfehler",
-	"coll-mwserve_failed_msg": "Auf dem Render-Server ist ein Fehler aufgetreten: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Fehlermeldung vom Server",
 	"coll-empty_collection": "Leeres Buch",
 	"coll-revision": "Version: $1",

@@ -35,8 +35,6 @@
 	"coll-rename_chapter": "輸入章嘅名",
 	"coll-no_such_category": "無呢個分類",
 	"coll-notitle_title": "唔能夠決定嗰版嘅標題。",
-	"coll-mwserve_failed_title": "生成伺服器錯誤",
-	"coll-mwserve_failed_msg": "生成伺服器發生錯誤: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "伺服器回應錯誤",
 	"coll-empty_collection": "空書",
 	"coll-revision": "修訂: $1",

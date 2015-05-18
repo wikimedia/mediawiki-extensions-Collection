@@ -45,8 +45,6 @@
 	"coll-rename_chapter": "Endatescha in num per il chapitel",
 	"coll-no_such_category": "Questa categoria n'exista betg",
 	"coll-notitle_title": "Betg pussaivel dad eruir il titel da la pagina.",
-	"coll-mwserve_failed_title": "Errur dal server per calcular graficas",
-	"coll-mwserve_failed_msg": "Ina errur è capitada sin il server per calcular graficas: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Resposta d'errur dal server",
 	"coll-empty_collection": "Cudesch vid",
 	"coll-revision": "Versiun: $1",

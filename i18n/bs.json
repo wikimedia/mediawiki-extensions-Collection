@@ -49,8 +49,6 @@
 	"coll-rename_chapter": "Unesite novo ime za poglavlje",
 	"coll-no_such_category": "Nema takve kategorije",
 	"coll-notitle_title": "Naslov ove stranice nije mogao biti određen.",
-	"coll-mwserve_failed_title": "Serverska greška pri iscrtavanju",
-	"coll-mwserve_failed_msg": "Desila se greška pri iscrtavanju na serveru: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Greška pri odgovoru sa servera",
 	"coll-empty_collection": "Prazna knjiga",
 	"coll-revision": "Revizija: $1",

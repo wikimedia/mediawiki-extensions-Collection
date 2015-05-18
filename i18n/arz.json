@@ -48,8 +48,6 @@
 	"coll-rename_chapter": "أدخل الاسم الجديد للفرع",
 	"coll-no_such_category": "لا تصنيف كهذا",
 	"coll-notitle_title": "عنوان الصفحه لم يمكن تحديده.",
-	"coll-mwserve_failed_title": "خطأ عرض من الخادم",
-	"coll-mwserve_failed_msg": "حدث خطأ فى خادم العرض: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "خطأ استجابه من الخادم",
 	"coll-empty_collection": "كتاب فارغ",
 	"coll-revision": "النسخة: $1",

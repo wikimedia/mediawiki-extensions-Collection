@@ -52,8 +52,6 @@
 	"coll-rename_chapter": "அத்தியாயத்திற்கான புதிய பெயரை உள்ளிடு",
 	"coll-no_such_category": "அப்படிப்பட்ட வகை எதுவும் இல்லை",
 	"coll-notitle_title": "பக்கத்தின் தலைப்பை வரையறுக்க இயலவில்லை.",
-	"coll-mwserve_failed_title": "வழங்கல் சேவகனில் பிழை",
-	"coll-mwserve_failed_msg": "வழங்கல் சேவகனில் ஒரு பிழை ஏற்பட்டுள்ளது:<nowiki>$1</nowiki>",
 	"coll-error_reponse": "சேவகனிலிருந்து பிழை என பதில்",
 	"coll-empty_collection": "காலி புத்தகம்",
 	"coll-revision": "பரிசீலனை:$1",

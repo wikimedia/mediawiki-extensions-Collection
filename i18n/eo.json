@@ -53,8 +53,6 @@
 	"coll-no_such_category": "Nenia kategorio",
 	"coll-notitle_title": "La titolo de la paĝo ne estis determinebla.",
 	"coll-request_failed_title": "Kreo de libro malsukcesis",
-	"coll-mwserve_failed_title": "Eraro kun montrada servilo",
-	"coll-mwserve_failed_msg": "Eraro okazis en la montrada servilo: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Erara respondo de servilo",
 	"coll-empty_collection": "Malplena libro",
 	"coll-revision": "Versio: $1",

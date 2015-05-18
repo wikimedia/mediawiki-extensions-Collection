@@ -48,8 +48,6 @@
 	"coll-notitle_msg": "Le titulo del pagina non poteva esser determinate.",
 	"coll-request_failed_title": "Le generation del libro ha fallite",
 	"coll-request_failed_msg": "Un error ha occurrite durante le tentativa de generar tu libro.",
-	"coll-mwserve_failed_title": "Error del servitor de renditiones",
-	"coll-mwserve_failed_msg": "Un error ha occurrite in le servitor de renditiones: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Responsa de error ab servitor",
 	"coll-empty_collection": "Libro vacue",
 	"coll-revision": "Version: $1",

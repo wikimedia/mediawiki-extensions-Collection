@@ -57,8 +57,6 @@
 	"coll-rename_chapter": "नवीन धड्याचे नाव लिहा",
 	"coll-no_such_category": "असा वर्ग अस्तित्वात नाही",
 	"coll-notitle_title": "या पानाचे शीर्षक ठरविता आलेले नाही.",
-	"coll-mwserve_failed_title": "प्रतिपादन कार्यात त्रुटी",
-	"coll-mwserve_failed_msg": "कार्यात प्रतिपादनदात्यास  त्रूटी आढळली आहे : <nowiki>$1</nowiki>",
 	"coll-error_reponse": "सर्व्हर कडून चुक झाल्याचा प्रतिसाद आलेला आहे",
 	"coll-empty_collection": "रिकामे ग्रंथ",
 	"coll-revision": "आवृत्ती: $1",

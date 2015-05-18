@@ -48,8 +48,6 @@
 	"coll-rename_chapter": "Бүлектең яңы исемен керетегеҙ",
 	"coll-no_such_category": "Бындай категория юҡ",
 	"coll-notitle_title": "Биттең исемен билдәләп булмай.",
-	"coll-mwserve_failed_title": "Төшөрөү серверының хатаһы",
-	"coll-mwserve_failed_msg": "Төшөрөү серверында хата килеп сыҡты: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Серверҙан яуап хатаһы",
 	"coll-empty_collection": "Буш китап",
 	"coll-revision": "Өлгө: $1",

@@ -70,8 +70,6 @@
 	"coll-notitle_msg": "Used as error message.\n\nThe title for this error is {{msg-mw|Coll-notitle title}}.",
 	"coll-request_failed_title": "Used as title for error message {{msg-mw|Coll-request failed msg}}.",
 	"coll-request_failed_msg": "Used as error message when a PDF (or other format) rendering failed.\n\nThe title for this error message is {{msg-mw|Coll-request failed title}}.",
-	"coll-mwserve_failed_title": "Unused at this time.\n\nUsed as title for the error message {{msg-mw|Coll-mwserve failed msg}}.",
-	"coll-mwserve_failed_msg": "Unused at this time.\n\nUsed as error message body.\n\nThe title for this error is {{msg-mw|Coll-mwserve failed title}}.\n\nParameters:\n* $1 - any one of the following information (not server name):\n** invalid JSON string\n** error message which JSON decoder returned",
 	"coll-error_reponse": "Unused at this time.",
 	"coll-empty_collection": "Translate \"empty\" as in \"an empty book\" (adj), not \"empty the book\" (verb).\n\nIf there are items, {{msg-mw|Coll-drag and drop}} is used instead.",
 	"coll-revision": "Unused at this time.\n\nParameters:\n* $1 - revision ID\n{{Identical|Revision}}",

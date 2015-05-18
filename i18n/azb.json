@@ -49,8 +49,6 @@
 	"coll-rename_chapter": "بؤلوم اوچون یئنی آد داخیل ائدین",
 	"coll-no_such_category": "بئله بیر بولمه لر یوخ‌دور",
 	"coll-notitle_title": "صفحه نین باشلیقی بیلینمییر",
-	"coll-mwserve_failed_title": "چکیلن سئروئری خطاسی",
-	"coll-mwserve_failed_msg": "چکیلن خیدمت‌چیسینده بیر خطا قاباغا گلدی: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "سئروئردن خطا جاوابی",
 	"coll-empty_collection": "بوش کیتاب",
 	"coll-revision": "نوسخه: $1",

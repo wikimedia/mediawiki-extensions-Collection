@@ -57,8 +57,6 @@
 	"coll-notitle_msg": "לא היה ניתן לקבוע מהי כותרת הדף.",
 	"coll-request_failed_title": "עיבוד הספר נכשל",
 	"coll-request_failed_msg": "אירעה שגיאה בתהליך יצירת הספר",
-	"coll-mwserve_failed_title": "שגיאה בשרת היצירה",
-	"coll-mwserve_failed_msg": "אירעה שגיאה בשרת יצירת המסמכים: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "מהשרת הגיעה תשובת שגיאה",
 	"coll-empty_collection": "ספר ריק",
 	"coll-revision": "גרסה: $1",

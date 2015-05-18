@@ -42,7 +42,6 @@
 	"coll-rename_chapter": "Въведете ново име за главата",
 	"coll-no_such_category": "Няма такава категория",
 	"coll-notitle_title": "Заглавието на страницата не може да бъде определено.",
-	"coll-mwserve_failed_msg": "Възникна грешка на сървъра: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Съобщение за грешка от сървъра",
 	"coll-empty_collection": "Празна книга",
 	"coll-revision": "Версия: $1",

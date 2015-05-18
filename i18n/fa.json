@@ -60,8 +60,6 @@
 	"coll-notitle_msg": "عنوان صفحه را نمی توان تعیین کرد.",
 	"coll-request_failed_title": "رندر کتاب با خطا مواجه شد",
 	"coll-request_failed_msg": "در زمان رندر کتاب خطایی رخ داد.",
-	"coll-mwserve_failed_title": "خطا در سرور ترسیم‌کننده",
-	"coll-mwserve_failed_msg": "خطایی در سرور ترسیم‌کننده رخ داد: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "پیغام خطا از طرف سرور",
 	"coll-empty_collection": "کتاب خالی",
 	"coll-revision": "نسخه: $1",

@@ -55,8 +55,6 @@
 	"coll-rename_chapter": "Bölüm için yeni isim girin",
 	"coll-no_such_category": "Böyle bir kategori bulunmamaktadır",
 	"coll-notitle_title": "Sayfanın başlığı belirlenemiyor.",
-	"coll-mwserve_failed_title": "İşlem sunucusu hatası",
-	"coll-mwserve_failed_msg": "İşlem sunucusunda bir hata oluştu: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Sunucudan hata cevabı",
 	"coll-empty_collection": "Boş kitap",
 	"coll-revision": "Revizyon: $1",

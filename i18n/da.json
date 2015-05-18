@@ -52,8 +52,6 @@
 	"coll-rename_chapter": "Indtast nyt navn til kapitel",
 	"coll-no_such_category": "Ingen kategori med det navn",
 	"coll-notitle_title": "Sidens titel kunne ikke bestemmes.",
-	"coll-mwserve_failed_title": "Genererings-serverfejl",
-	"coll-mwserve_failed_msg": "En fejl opstod på renderingsserveren: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Fejlrespons fra serveren",
 	"coll-empty_collection": "Tom bog",
 	"coll-revision": "Version: $1",

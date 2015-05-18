@@ -48,8 +48,6 @@
 	"coll-notitle_msg": "Ti titulo daytoy a panid ket saan a maikeddeng.",
 	"coll-request_failed_title": "Napaay ti panangipaay ti libro",
 	"coll-request_failed_msg": "Adda maysa a biddut bayat iti panagpadas iti panangipaay ti libro",
-	"coll-mwserve_failed_title": "Biddut ti panangipaay ti server",
-	"coll-mwserve_failed_msg": "Adda napasamak a biddut iti panagipaay ti server: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Biddut ti sungbat manipud iti server",
 	"coll-empty_collection": "Awan linaon a libro",
 	"coll-revision": "Rebision: $1",

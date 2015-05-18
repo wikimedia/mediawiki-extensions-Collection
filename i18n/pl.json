@@ -57,8 +57,6 @@
 	"coll-rename_chapter": "Wprowadź nową nazwę dla rozdziału",
 	"coll-no_such_category": "Brak takiej kategorii",
 	"coll-notitle_title": "Tytuł strony nie może być określony.",
-	"coll-mwserve_failed_title": "Błąd serwera w renderowaniu",
-	"coll-mwserve_failed_msg": "W serwerze renderującym wystąpił błąd <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Błąd odpowiedzi serwera",
 	"coll-empty_collection": "Książka jest pusta",
 	"coll-revision": "Wersja $1",

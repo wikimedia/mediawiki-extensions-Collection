@@ -58,8 +58,6 @@
 	"coll-notitle_msg": "لم يمكن تحديد عنوان الصفحة.",
 	"coll-request_failed_title": "لم يتجح تحميل الكتاب",
 	"coll-request_failed_msg": "حدث خطأ أثناء محاولة تحميل الكتاب.",
-	"coll-mwserve_failed_title": "خطأ عرض من الخادم",
-	"coll-mwserve_failed_msg": "حدث خطأ في خادم العرض: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "خطأ استجابة من الخادم",
 	"coll-empty_collection": "كتاب فارغ",
 	"coll-revision": "النسخة: $1",

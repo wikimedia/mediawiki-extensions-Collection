@@ -46,8 +46,6 @@
 	"coll-rename_chapter": "පරිච්ඡේදය සඳහා නව නමක් යොදන්න",
 	"coll-no_such_category": "සත්‍ය ප්‍රවර්ගයක් නොමැත",
 	"coll-notitle_title": "පිටුවේ ශීර්ෂය පිළිබඳ ස්ථිර අදහසක් ඇති කර ගත නොහැක.",
-	"coll-mwserve_failed_title": "විදහාපෑම් සර්වරයේ දෝෂය",
-	"coll-mwserve_failed_msg": "විදහාපෑම් සර්වරයේ දෝෂයක් හට ගැනුණි: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "සර්වරයෙන් දෝෂ සහගත ප්‍රතිචාරය",
 	"coll-empty_collection": "හිස් පොත",
 	"coll-revision": "සංශෝධනය: $1",

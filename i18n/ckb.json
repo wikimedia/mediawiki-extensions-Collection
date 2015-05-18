@@ -55,7 +55,9 @@
 	"coll-book_creator": "کتێب ساز",
 	"coll-download_as": "وەک $1 دایبگرە",
 	"coll-disable": "ناچالاک بکە",
+	"coll-book_creator_disable": "کتێبساز لە کار بخە",
 	"coll-add_this_page": "ئەم پەڕەیە بە کتێبەکەت زیاد بکە",
+	"coll-add_page_tooltip": "ئەم پەڕەی ویکییە زێدە بکە بە کتێبەکەت",
 	"coll-bookscategory": "کتێبەکان",
 	"coll-clear_collection_tooltip": "ھەموو پەڕەکانی ویکی لە کتێبی ھەنووکەییت بسڕەوە",
 	"coll-help": "یارمەتی",
@@ -74,5 +76,6 @@
 	"coll-make_suggestions_tooltip": "بە پێی پەڕەکانی کتێبەکەت پێشنیارەکان نیشان بدە",
 	"coll-suggest_empty": "واڵا",
 	"coll-attribution-anons": "نامۆ: $1",
+	"coll-article-attribution": "<b>$1</b> <i>سەرچاوە:</i> $2 <i>بەشداربووان:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>سەرچاوە:</i> $2 <i>مۆڵەتنامە:</i> $3 <i>بەشداربووان:</i> $4 <i>ھونەرمەندی داھێنەر:</i> $5"
 }

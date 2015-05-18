@@ -50,8 +50,6 @@
 	"coll-rename_chapter": "Skriv inn det nye namnet til kapittelet",
 	"coll-no_such_category": "Ingen kategori ved dette namnet",
 	"coll-notitle_title": "Fann ikkje ut tittelen på sida.",
-	"coll-mwserve_failed_title": "Renderingstenarfeil",
-	"coll-mwserve_failed_msg": "Ein feil oppstod på renderingstenaren: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Feilrespons frå tenaren",
 	"coll-empty_collection": "Tom bok",
 	"coll-revision": "Versjon: $1",

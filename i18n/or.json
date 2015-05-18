@@ -50,8 +50,6 @@
 	"coll-no_such_category": "ସେଭଳି କିଛି ଶ୍ରେଣୀ ନାହିଁ",
 	"coll-notitle_title": "ପୃଷ୍ଠାଟିର ନାମ ମିଳୁ ନାହିଁ",
 	"coll-notitle_msg": "ପୃଷ୍ଠାର ନାମ ସ୍ଥିର କରାଯାଇପାରିବ ନାହିଁ ।",
-	"coll-mwserve_failed_title": "ରେଣ୍ଡର ସର୍ଭର ଭୁଲ",
-	"coll-mwserve_failed_msg": "ରେଣ୍ଡର ବ୍ୟବସ୍ଥାରେ ଅସୁବିଧା ହେଲା:<nowiki>$1</nowiki>",
 	"coll-error_reponse": "ସର୍ଭରରେ ଅସୁବିଧା ହେଲା",
 	"coll-empty_collection": "ଖାଲି ବହି",
 	"coll-revision": "ପୁନରାବୃତ୍ତି: $1",

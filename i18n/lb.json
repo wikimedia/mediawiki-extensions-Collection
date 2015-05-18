@@ -50,8 +50,6 @@
 	"coll-notitle_msg": "Den Titel vun der Säit konnt net festgestallt ginn.",
 	"coll-request_failed_title": "Generéiere vum Buch huet net funktionéiert",
 	"coll-request_failed_msg": "Beim Versuch Äert Buch ze generéieren ass e Feeler geschitt.",
-	"coll-mwserve_failed_title": "Feeler vum Server",
-	"coll-mwserve_failed_msg": "Op dem Render-Server ass e Feeler geschitt: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Feelermeldng vum Server",
 	"coll-empty_collection": "Eidelt Buch",
 	"coll-revision": "Versioun: $1",

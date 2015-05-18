@@ -51,8 +51,6 @@
 	"coll-rename_chapter": "ใส่ชื่อใหม่สำหรับบทนี้",
 	"coll-no_such_category": "ไม่มีหมวดหมู่ดังกล่าว",
 	"coll-notitle_title": "หัวเรื่องของหน้าไม่สามารถกำหนดได้",
-	"coll-mwserve_failed_title": "ความผิดพลาดของเซิร์ฟเวอร์เรนเดอร์",
-	"coll-mwserve_failed_msg": "เกิดข้อผิดพลาดในเซิร์ฟเวอร์แปลงข้อมูล: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "มีความผิดพลาดตอบกลับมาจากเซิร์ฟเวอร์",
 	"coll-empty_collection": "หนังสือว่าง",
 	"coll-revision": "รุ่น: $1",

@@ -67,8 +67,6 @@
 	"coll-notitle_msg": "Le titre de la page n’a pas pu être déterminé.",
 	"coll-request_failed_title": "Échec au rendu du livre",
 	"coll-request_failed_msg": "Il y a eu une erreur en essayant de faire un rendu de votre livre.",
-	"coll-mwserve_failed_title": "Erreur du serveur de rendu",
-	"coll-mwserve_failed_msg": "Une erreur est survenue sur le serveur de rendu : <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Réponse d’erreur retournée par le serveur",
 	"coll-empty_collection": "Livre vide",
 	"coll-revision": "Version : $1",

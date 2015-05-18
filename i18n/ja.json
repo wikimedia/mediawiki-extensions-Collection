@@ -54,8 +54,6 @@
 	"coll-notitle_msg": "ページタイトルが未設定です。",
 	"coll-request_failed_title": "ブックをレンダリングできませんでした",
 	"coll-request_failed_msg": "ブックのレンダリングを試行した際にエラーが発生しました。",
-	"coll-mwserve_failed_title": "レンダリングサーバーのエラー",
-	"coll-mwserve_failed_msg": "レンダリングサーバーでエラーが発生しました: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "サーバーからのエラー応答",
 	"coll-empty_collection": "空のブック",
 	"coll-revision": "版: $1",

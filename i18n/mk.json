@@ -48,8 +48,6 @@
 	"coll-notitle_msg": "Не можев да го утврдам насловот на страницата",
 	"coll-request_failed_title": "Исписот на книгата не успеа",
 	"coll-request_failed_msg": "Се појави брешка при обидот да се испише книгата.",
-	"coll-mwserve_failed_title": "Грешка во опслужувачот за исцртување",
-	"coll-mwserve_failed_msg": "Настана грешка во опслужувачот за испис: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Опслужувачот одговори со грешка",
 	"coll-empty_collection": "Празна книга",
 	"coll-revision": "Преработка: $1",

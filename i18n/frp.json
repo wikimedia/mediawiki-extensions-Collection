@@ -45,8 +45,6 @@
 	"coll-rename_chapter": "Buchiér lo titro novél de ceti chapitro",
 	"coll-no_such_category": "Catègorie entrovâbla",
 	"coll-notitle_title": "Lo titro de la pâge at pas possu étre dètèrmenâ.",
-	"coll-mwserve_failed_title": "Èrror du sèrvor de rendu",
-	"coll-mwserve_failed_msg": "Una èrror est arrevâ sur lo sèrvor de rendu : <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Rèponsa d’èrror retornâ per lo sèrvor",
 	"coll-empty_collection": "Lévro vouedo",
 	"coll-revision": "Vèrsion : $1",

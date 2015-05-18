@@ -48,8 +48,6 @@
 	"coll-rename_chapter": "Upišite novo ime za poglavlje",
 	"coll-no_such_category": "Nema takve kategorije",
 	"coll-notitle_title": "Naslov stranice nije mogao biti određen",
-	"coll-mwserve_failed_title": "Pogrješka na serveru za izvođenje zahtjeva",
-	"coll-mwserve_failed_msg": "Dogodila se pogrješka na serveru za izvođenje zahtjeva: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Pogrješka u odgovoru sa servera",
 	"coll-empty_collection": "Prazna zbirka",
 	"coll-revision": "Izmjena: $1",

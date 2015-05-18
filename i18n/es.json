@@ -70,8 +70,6 @@
 	"coll-notitle_msg": "El título de la página no pudo ser determinado.",
 	"coll-request_failed_title": "Falló la renderización del libro",
 	"coll-request_failed_msg": "Se produjo un error al intentar procesar tu libro.",
-	"coll-mwserve_failed_title": "Error del servidor de procesado",
-	"coll-mwserve_failed_msg": "Ha ocurrido un error en el servidor de procesado: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Respuesta de error del servidor",
 	"coll-empty_collection": "libro vacío",
 	"coll-revision": "Revisión: $1",

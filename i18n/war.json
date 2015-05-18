@@ -45,8 +45,6 @@
 	"coll-rename_chapter": "Pagbutang hin bag-o nga ngaran para han kapitulo",
 	"coll-no_such_category": "Waray sugad nga kaarangay",
 	"coll-notitle_title": "Diri masasabatan an titulo han pakli.",
-	"coll-mwserve_failed_title": "may sayop an serbidor hin pagrender",
-	"coll-mwserve_failed_msg": "May nahitabo nga sayop ha serbidor hin pagrender: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "May sayop sumala han serbidor",
 	"coll-empty_collection": "Waray sulod nga libro",
 	"coll-revision": "Rebisyon: $1",

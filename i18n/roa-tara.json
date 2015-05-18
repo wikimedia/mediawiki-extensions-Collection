@@ -49,8 +49,6 @@
 	"coll-notitle_msg": "'U titole d'a pàgene non ge pò essere determinate.",
 	"coll-request_failed_title": "Visualizzazzione d'u libbre fallite",
 	"coll-request_failed_msg": "Ha assute 'n'errore mendre ca avenève fatte vedè 'u libbre.",
-	"coll-mwserve_failed_title": "Server de rendere in errore",
-	"coll-mwserve_failed_msg": "S'ha verificate 'n'errore sus a 'u server de presendazione: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Resposte cu l'errore da 'u server",
 	"coll-empty_collection": "Libbre vacande",
 	"coll-revision": "Revisione: $1",

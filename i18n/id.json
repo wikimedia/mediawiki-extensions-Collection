@@ -56,8 +56,6 @@
 	"coll-no_such_category": "Tidak ada kategori tersebut",
 	"coll-notitle_title": "Tidak bisa mendapatkan judul halaman",
 	"coll-notitle_msg": "Judul halaman tidak dapat ditentukan.",
-	"coll-mwserve_failed_title": "Kesalahan server pengolahan",
-	"coll-mwserve_failed_msg": "Terjadi suatu kesalahan berikut pada server pengolahan: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Respons kesalahan dari server",
 	"coll-empty_collection": "Buku kosong",
 	"coll-revision": "Revisi: $1",

@@ -63,8 +63,6 @@
 	"coll-notitle_msg": "無法辨識此頁面的標題。",
 	"coll-request_failed_title": "書籍產生失敗",
 	"coll-request_failed_msg": "產生書籍時發生錯誤。",
-	"coll-mwserve_failed_title": "繪圖伺服器錯誤",
-	"coll-mwserve_failed_msg": "繪圖伺服器發生錯誤：<nowiki>$1</nowiki>",
 	"coll-error_reponse": "伺服器回傳錯誤",
 	"coll-empty_collection": "空的書籍",
 	"coll-revision": "修訂：$1",

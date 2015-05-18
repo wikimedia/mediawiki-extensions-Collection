@@ -57,8 +57,6 @@
 	"coll-rename_chapter": "Introduïu un nou nom per al capítol",
 	"coll-no_such_category": "No existeix tal categoria",
 	"coll-notitle_title": "No s'ha pogut determinar el títol de la pàgina.",
-	"coll-mwserve_failed_title": "Error en el servidor de renderització",
-	"coll-mwserve_failed_msg": "S'ha produït un error al servidor de renderització: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Resposta d'error del servidor",
 	"coll-empty_collection": "Llibre buit",
 	"coll-revision": "Revisió: $1",

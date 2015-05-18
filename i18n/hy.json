@@ -37,8 +37,6 @@
 	"coll-rename_chapter": "Մուտքագրեք գլխի նոր վերնագիրը",
 	"coll-no_such_category": "Այդպիսի կատեգորիա չկա",
 	"coll-notitle_title": "Էջի անվանումը հնարավոր չէ որոշել։",
-	"coll-mwserve_failed_title": "Ստեղծման սերվերի սխալ",
-	"coll-mwserve_failed_msg": "Ստեղծման սերվերի վրա սխալ է տեղի ունեցել. <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Սխալ պատասխան սերվերից",
 	"coll-empty_collection": "Դատարկ գիրք",
 	"coll-revision": "Տարբերակ. $1",

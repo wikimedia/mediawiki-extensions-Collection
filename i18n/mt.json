@@ -48,8 +48,6 @@
 	"coll-rename_chapter": "Daħħal isem ġdid għall-kapitlu",
 	"coll-no_such_category": "Din il-kategorija ma teżistix",
 	"coll-notitle_title": "It-titlu tal-paġna ma setax jiġi determinat.",
-	"coll-mwserve_failed_title": "Żball fis-server tal-konverżjoni",
-	"coll-mwserve_failed_msg": "Inqala' żball fis-server ta' konverżjoni: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Żball fir-risposta mis-server",
 	"coll-empty_collection": "Ktieb vojt",
 	"coll-revision": "Reviżjoni: $1",

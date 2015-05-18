@@ -50,8 +50,6 @@
 	"coll-notitle_msg": "Non se puido determinar o título da páxina.",
 	"coll-request_failed_title": "Fallou a renderización do libro",
 	"coll-request_failed_msg": "Houbo un erro ao intentar renderizar o seu libro.",
-	"coll-mwserve_failed_title": "Erro no servidor de renderización",
-	"coll-mwserve_failed_msg": "Produciuse un erro no servidor de renderización: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Ocorreu un erro no servidor",
 	"coll-empty_collection": "Libro baleiro",
 	"coll-revision": "Revisión: $1",

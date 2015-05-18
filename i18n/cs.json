@@ -52,8 +52,6 @@
 	"coll-notitle_msg": "Nebylo možné určit název stránky.",
 	"coll-request_failed_title": "Vykreslování knihy se nezdařilo",
 	"coll-request_failed_msg": "Při pokusu o vykreslení vaší knihy došlo k chybě.",
-	"coll-mwserve_failed_title": "Chyba vykreslovacího serveru",
-	"coll-mwserve_failed_msg": "Na vykreslovacím serveru došlo k chybě: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Chybná odpověď serveru",
 	"coll-empty_collection": "Prázdná kniha",
 	"coll-revision": "Revize: $1",

@@ -47,8 +47,6 @@
 	"coll-rename_chapter": "Inserissi el nome novo del capitolo",
 	"coll-no_such_category": "Nissuna categoria",
 	"coll-notitle_title": "No s'à podesto determinar el titolo de sta pàxena.",
-	"coll-mwserve_failed_title": "Eròr sul server de conversion",
-	"coll-mwserve_failed_msg": "Xe capità un eròr sul server de conversion: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Risposta de eròr dal server",
 	"coll-empty_collection": "Libro vòdo",
 	"coll-revision": "Revision: $1",

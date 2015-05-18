@@ -42,8 +42,6 @@
 	"coll-rename_chapter": "Bap üçin täze at ýazyň",
 	"coll-no_such_category": "Beýle kategoriýa ýok",
 	"coll-notitle_title": "Sahypanyň adyny kesgitläp bolmady.",
-	"coll-mwserve_failed_title": "Iş serweri säwligi",
-	"coll-mwserve_failed_msg": "İş serwerinde bir säwlik döredi: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Serwerden säwlik jogaby",
 	"coll-empty_collection": "Boş kitap",
 	"coll-revision": "Wersiýa: $1",

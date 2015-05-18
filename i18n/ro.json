@@ -52,8 +52,6 @@
 	"coll-rename_chapter": "Introduceți noul nume al capitolului",
 	"coll-no_such_category": "Nu există o asemenea categorie",
 	"coll-notitle_title": "Titlul paginii nu a putut fi determinat.",
-	"coll-mwserve_failed_title": "Eroare de randare din partea serverului",
-	"coll-mwserve_failed_msg": "A apărut o eroare pe serverul de randare: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Mesaj de eroare de la server",
 	"coll-empty_collection": "Carte fără conținut",
 	"coll-revision": "Versiune: $1",

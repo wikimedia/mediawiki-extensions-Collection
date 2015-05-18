@@ -59,8 +59,6 @@
 	"coll-notitle_msg": "页面标题无法确定。",
 	"coll-request_failed_title": "书本呈现失败",
 	"coll-request_failed_msg": "尝试呈现你的书本时遇到一个错误。",
-	"coll-mwserve_failed_title": "生成服务器出错",
-	"coll-mwserve_failed_msg": "生成服务器出错：<nowiki>$1</nowiki>",
 	"coll-error_reponse": "服务器返回错误",
 	"coll-empty_collection": "空图书",
 	"coll-revision": "版本：$1",

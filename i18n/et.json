@@ -49,8 +49,6 @@
 	"coll-notitle_msg": "Lehekülje pealkirja ei õnnestunud kindlaks teha.",
 	"coll-request_failed_title": "Raamatu küljendamine ebaõnnestus",
 	"coll-request_failed_msg": "Sinu raamatu küljendamisel esines tõrge.",
-	"coll-mwserve_failed_title": "Küljendamisserveri tõrge",
-	"coll-mwserve_failed_msg": "Küljendamisserveril ilmnes tõrge: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Tõrketeade serverist",
 	"coll-empty_collection": "Tühi raamat",
 	"coll-revision": "Redaktsioon: $1",

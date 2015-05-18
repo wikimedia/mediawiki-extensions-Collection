@@ -47,8 +47,6 @@
 	"coll-rename_chapter": "Qism ra yew sernameyê newî binuse",
 	"coll-no_such_category": "Ena kategorî çini yo",
 	"coll-notitle_title": "Sernameyê pelî mizan çita wo.",
-	"coll-mwserve_failed_title": "Ğeletê servera render",
-	"coll-mwserve_failed_msg": "Servera render de yew ğelet biyo: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Server ra responseyê ğeletî",
 	"coll-empty_collection": "Kitabê vengî",
 	"coll-revision": "Çımraviarnayis: $1",

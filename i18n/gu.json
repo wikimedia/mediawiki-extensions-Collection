@@ -49,8 +49,6 @@
 	"coll-rename_chapter": "પ્રકરણને નવું નામ આપો",
 	"coll-no_such_category": "આવી કોઇ શ્રેણી નથી",
 	"coll-notitle_title": "પાનાનું મથાળું નિર્ધારિત થઇ શકતું નથી.",
-	"coll-mwserve_failed_title": "હેવાલ સર્વર ત્રુટિ",
-	"coll-mwserve_failed_msg": "હેવાલ સર્વર <nowiki>$1</nowiki> પર ત્રુટિ છે",
 	"coll-error_reponse": "સર્વર પરથી ત્રુટિ પ્રતિક્રિયા",
 	"coll-empty_collection": "ખાલી પુસ્તક",
 	"coll-revision": "સુધારો: $1",

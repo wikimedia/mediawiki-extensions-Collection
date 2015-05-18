@@ -51,8 +51,6 @@
 	"coll-notitle_msg": "Gat ekki ákvarðað titil síðunnar.",
 	"coll-request_failed_title": "Mistókst að ganga frá bókinni",
 	"coll-request_failed_msg": "Villa átti sér stað þegar gengið var frá bókinni þinni.",
-	"coll-mwserve_failed_title": "Villa hjá birtingarþjóni",
-	"coll-mwserve_failed_msg": "Villa varð hjá birtingarþjóni: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Villuskilaboð frá vefþjóni",
 	"coll-empty_collection": "Tóm bók",
 	"coll-revision": "Útgáfa: $1",

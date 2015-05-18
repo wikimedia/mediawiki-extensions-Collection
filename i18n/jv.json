@@ -48,8 +48,6 @@
 	"coll-rename_chapter": "Lebokna jeneng anyar kanggo bab",
 	"coll-no_such_category": "Ora ana kategori kaya mengkono",
 	"coll-notitle_title": "Irah-irahan kaca iki ora bisa ditemtokaké.",
-	"coll-mwserve_failed_title": "Ana kasalahan server",
-	"coll-mwserve_failed_msg": "Ana kasalahan ing server: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Rèspon kasalahan saka server",
 	"coll-empty_collection": "Buku kothong",
 	"coll-revision": "Révisi: $1",

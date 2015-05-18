@@ -59,8 +59,6 @@
 	"coll-rename_chapter": "Introduza um novo nome para o capítulo",
 	"coll-no_such_category": "Não existe esta categoria",
 	"coll-notitle_title": "Não foi possível determinar o título da página.",
-	"coll-mwserve_failed_title": "Erro no servidor de renderização",
-	"coll-mwserve_failed_msg": "Ocorreu um erro no servidor de renderização: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Resposta de erro do servidor",
 	"coll-empty_collection": "Livro vazio",
 	"coll-revision": "Revisão: $1",

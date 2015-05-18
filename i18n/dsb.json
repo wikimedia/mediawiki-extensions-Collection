@@ -48,8 +48,6 @@
 	"coll-notitle_title": "Titel boka njejo se dał zwěsćiś.",
 	"coll-request_failed_title": "Kreslenje knigłow njejo se raźiło",
 	"coll-request_failed_msg": "Pśi wopyśe twóje knigły krsliś, jo zmólka nastała.",
-	"coll-mwserve_failed_title": "Zmólka kresleńskego serwera",
-	"coll-mwserve_failed_msg": "Na kresleńskem serwerje jo zmólka nastała: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Powěźeńka zmólki wót serwera",
 	"coll-empty_collection": "Prozne knigły",
 	"coll-revision": "Wersija: $1",

@@ -47,8 +47,6 @@
 	"coll-rename_chapter": "অধ্যায়ৰ নতুন নাম লিখক",
 	"coll-no_such_category": "তেনে কোনো শ্ৰেণী নাই",
 	"coll-notitle_title": "পৃষ্ঠাখনৰ শিৰোনামা চিহ্নিত কৰিব পৰা নগ'ল।",
-	"coll-mwserve_failed_title": "ৰে'ণ্ডাৰ চাৰ্ভাৰ ত্ৰুটি",
-	"coll-mwserve_failed_msg": "ৰে'ণ্ডাৰ চাৰ্ভাৰত এটা ত্ৰুটি ঘটিছে: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "চাৰ্ভাৰৰ পৰা সঁহাৰি ত্ৰুটি পোৱা গৈছে",
 	"coll-empty_collection": "উকা কিতাপ",
 	"coll-revision": "সংশোধন: $1",

@@ -63,8 +63,6 @@
 	"coll-notitle_msg": "Sidans titel kunde inte fastställas.",
 	"coll-request_failed_title": "Bok-rendering misslyckades",
 	"coll-request_failed_msg": "Ett fel uppstod vid försök att rendera din bok.",
-	"coll-mwserve_failed_title": "Renderings-serverfel",
-	"coll-mwserve_failed_msg": "Ett fel uppstod på renderingsservern: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Felrespons från servern",
 	"coll-empty_collection": "Tom bok",
 	"coll-revision": "Version: $1",

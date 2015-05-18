@@ -51,8 +51,6 @@
 	"coll-notitle_msg": "Tên trang không thể xác định được.",
 	"coll-request_failed_title": "Kết xuất sách thất bại",
 	"coll-request_failed_msg": "Đã có lỗi xảy ra trong nỗ lực kết xuất sách của bạn.",
-	"coll-mwserve_failed_title": "Lỗi chương trình kết xuất",
-	"coll-mwserve_failed_msg": "Chương trình kết xuất gặp lỗi: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Máy chủ trả về lỗi",
 	"coll-empty_collection": "Sách trống",
 	"coll-revision": "Phiên bản: $1",

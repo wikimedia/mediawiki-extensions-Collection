@@ -46,8 +46,6 @@
 	"coll-rename_chapter": "अध्यायस्य नूतनं नामाङ्कनं क्रियताम्",
 	"coll-no_such_category": "तादृशः वर्गः न विद्यते",
 	"coll-notitle_title": "पृष्ठस्य शीर्षकनिश्चितिः न शक्या",
-	"coll-mwserve_failed_title": "वितारकदोषः विधीयताम्",
-	"coll-mwserve_failed_msg": "वितारकविधाने दोषः जातः : <nowiki>$1</nowiki>",
 	"coll-error_reponse": "वितारकात् दोषसूचना",
 	"coll-empty_collection": "रिक्तपुस्तकम्",
 	"coll-revision": "संस्करणम् $1",

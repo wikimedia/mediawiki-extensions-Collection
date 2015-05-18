@@ -51,8 +51,6 @@
 	"coll-rename_chapter": "పుటకు క్రొత్త పేరు ఇవ్వండి",
 	"coll-no_such_category": "అటువంటి వర్గం లేదు",
 	"coll-notitle_title": "ఆ పేజీ యొక్క శీర్షికని తీసుకురాలేకపోయాము.",
-	"coll-mwserve_failed_title": "రూపుదిద్దు సేవిక దోషం",
-	"coll-mwserve_failed_msg": "రూపుదిద్దు సేవకి పై దోషం ఏర్పడింది:<nowiki>$1</nowiki>",
 	"coll-error_reponse": "సర్వరునుండి పొరపాటు అని స్పందన వచ్చింది",
 	"coll-empty_collection": "ఖాళీ పుస్తకం",
 	"coll-revision": "కూర్పు: $1",

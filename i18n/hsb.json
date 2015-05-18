@@ -47,8 +47,6 @@
 	"coll-notitle_title": "Titul strony njeda so zwěsćić.",
 	"coll-request_failed_title": "Rysowanje knihi je so njeporadźiło",
 	"coll-request_failed_msg": "Při pospyće twoju knihu rysować je zmylk wustupił.",
-	"coll-mwserve_failed_title": "Zmylk tworjenskeho serwera",
-	"coll-mwserve_failed_msg": "Zmylk je na serwerje tworjenja wustupił: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Serwer je zmylk zdźělił",
 	"coll-empty_collection": "Prózdna kniha",
 	"coll-revision": "Wersija: $1",

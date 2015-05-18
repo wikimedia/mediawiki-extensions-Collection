@@ -47,8 +47,6 @@
 	"coll-rename_chapter": "Maglagay ng bagong pangalan para sa kabanata",
 	"coll-no_such_category": "Walang ganyang kaurian",
 	"coll-notitle_title": "Hindi matukoy ang pamagat ng pahina.",
-	"coll-mwserve_failed_title": "Kamalian sa naghahaing serbidor",
-	"coll-mwserve_failed_msg": "Naganap ang isang kamalian sa naghahaing serbidor: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "May kamalian sa tugon ng serbidor",
 	"coll-empty_collection": "Aklat na walang laman",
 	"coll-revision": "Pagbabago: $1",

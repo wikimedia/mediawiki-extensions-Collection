@@ -45,8 +45,6 @@
 	"coll-rename_chapter": "Түһүмэх (глава) саҥа аатын киллэрии",
 	"coll-no_such_category": "Маннык категория суох",
 	"coll-notitle_title": "Сирэй аата кыайан биллибэтэ.",
-	"coll-mwserve_failed_title": "Render сиэрбэрэ сыыһалаах",
-	"coll-mwserve_failed_msg": "Отрисовка сиэрбэригэр алҕас таҕыста: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Сиэрбэр эппиэтин алҕаһа",
 	"coll-empty_collection": "Кураанах кинигэ",
 	"coll-revision": "Барыл: $1",

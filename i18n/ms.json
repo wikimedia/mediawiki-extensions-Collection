@@ -51,8 +51,6 @@
 	"coll-rename_chapter": "Masukkan nama baru untuk bab",
 	"coll-no_such_category": "Kategori tidak wujud",
 	"coll-notitle_title": "Tajuk laman tidak dapat dipastikan.",
-	"coll-mwserve_failed_title": "Ralat pelayan jana",
-	"coll-mwserve_failed_msg": "Terdapat ralat pada pelayan jana: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Jawapan ralat daripada pelayan",
 	"coll-empty_collection": "Buku kosong",
 	"coll-revision": "Semakan: $1",

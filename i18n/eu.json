@@ -50,8 +50,6 @@
 	"coll-rename_chapter": "Atalarentzat izen berria sartu",
 	"coll-no_such_category": "Ez dago horrelako atalik",
 	"coll-notitle_title": "Orriaren izenburua ezin izan da zehaztu.",
-	"coll-mwserve_failed_title": "Render zerbitzariaren akatsa",
-	"coll-mwserve_failed_msg": "Akats bat suertatu da render zerbitzarian: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Zerbitzariaren erantzun akatsa",
 	"coll-empty_collection": "Liburu hutsa",
 	"coll-revision": "Berrikuspena: $1",

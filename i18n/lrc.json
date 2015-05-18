@@ -48,8 +48,6 @@
 	"coll-notitle_msg": "داسون ای بلگه دیاری نمیکه.",
 	"coll-request_failed_title": "پر کردن سی کتاو انجوم نگرت",
 	"coll-request_failed_msg": "یه گل خطا اوسه که میهاستیت کتاوتون پر بکیت پیش اوما.",
-	"coll-mwserve_failed_title": "خطا پر بيئن رسینه جا",
-	"coll-mwserve_failed_msg": "يه گل خطا د پر بيئن رسینه جا پيش اوما: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "واكنشت خطا سی رسینه جا",
 	"coll-empty_collection": "كتاو حالی",
 	"coll-revision": "وانئری: $1",

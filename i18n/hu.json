@@ -53,8 +53,6 @@
 	"coll-rename_chapter": "Add meg a fejezet új címét",
 	"coll-no_such_category": "Nincs ilyen kategória",
 	"coll-notitle_title": "Nem sikerült megállapítani a lap címét.",
-	"coll-mwserve_failed_title": "A renderelő szerver hibát észlelt",
-	"coll-mwserve_failed_msg": "Hiba történt a renderelő szerveren: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Hibaüzenet érkezett a szervertől",
 	"coll-empty_collection": "Üres könyv",
 	"coll-revision": "Változat: $1",

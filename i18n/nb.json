@@ -56,8 +56,6 @@
 	"coll-notitle_msg": "Sidetittelen kunne ikke bestemmes.",
 	"coll-request_failed_title": "Bokfremstilling feilet",
 	"coll-request_failed_msg": "Det oppsto en feil under fremstilling av boken din.",
-	"coll-mwserve_failed_title": "Rendreringsserverfeil",
-	"coll-mwserve_failed_msg": "En feil oppsto på rendreringsserveren: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Feilrespons fra tjeneren",
 	"coll-empty_collection": "Tom bok",
 	"coll-revision": "Revisjon: $1",

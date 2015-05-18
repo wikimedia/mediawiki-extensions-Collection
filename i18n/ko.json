@@ -56,8 +56,6 @@
 	"coll-notitle_msg": "문서의 제목을 파악할 수 없었습니다.",
 	"coll-request_failed_title": "책 렌더링 실패",
 	"coll-request_failed_msg": "책을 렌더링하는 동안 오류가 발생했습니다.",
-	"coll-mwserve_failed_title": "렌더 서버 오류",
-	"coll-mwserve_failed_msg": "렌더링 서버에서 오류가 발생했습니다: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "서버에서 오류 응답",
 	"coll-empty_collection": "빈 책",
 	"coll-revision": "판: $1",

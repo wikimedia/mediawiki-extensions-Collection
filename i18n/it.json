@@ -58,8 +58,6 @@
 	"coll-notitle_msg": "Il titolo della pagina non è stato trovato.",
 	"coll-request_failed_title": "Errore nella conversione del libro",
 	"coll-request_failed_msg": "Si è verificato un errore durante il tentativo di rendering del libro.",
-	"coll-mwserve_failed_title": "Errore server conversione",
-	"coll-mwserve_failed_msg": "Si è verificato un errore sul server di conversione: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Errore risposta dal server",
 	"coll-empty_collection": "Libro vuoto",
 	"coll-revision": "Versione: $1",

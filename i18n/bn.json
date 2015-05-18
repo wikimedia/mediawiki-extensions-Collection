@@ -51,8 +51,6 @@
 	"coll-no_such_category": "এমন কোনো বিষয়শ্রেণি নেই",
 	"coll-notitle_title": "পাতার শিরোনাম চিহ্নিত করা যাচ্ছে না।",
 	"coll-request_failed_title": "বই রেন্ডারিং ব্যর্থ",
-	"coll-mwserve_failed_title": "রেন্ডার সার্ভার ত্রুটি",
-	"coll-mwserve_failed_msg": "রেন্ডার সার্ভারে একটি ত্রুটি ঘটেছে: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "সার্ভার থেকে ত্রুটি পাওয়া গেছে",
 	"coll-empty_collection": "শূন্য বই",
 	"coll-revision": "পরিমার্জন:$1",

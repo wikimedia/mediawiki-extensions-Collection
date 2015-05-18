@@ -58,8 +58,6 @@
 	"coll-notitle_msg": "Sivun otsikkoa ei voitu määritellä.",
 	"coll-request_failed_title": "Kirjan renderöinti epäonnistui",
 	"coll-request_failed_msg": "Renderöintiä suoritettaessa tapahtui virhe.",
-	"coll-mwserve_failed_title": "Virhe renderöintipalvelimella",
-	"coll-mwserve_failed_msg": "Renderöintipalvelimella tapahtui virhe: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Palvelin antoi virheilmoituksen",
 	"coll-empty_collection": "Tyhjä kirja",
 	"coll-revision": "Versio: $1",

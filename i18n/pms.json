@@ -49,8 +49,6 @@
 	"coll-notitle_msg": "Ël tìtol ëd la pàgina a l'ha pa podù esse determinà.",
 	"coll-request_failed_title": "Falì a rende ël lìber",
 	"coll-request_failed_msg": "A-i é staje n'eror an sërcand ëd rende sò lìber.",
-	"coll-mwserve_failed_title": "Eror dël servent ëd conversion",
-	"coll-mwserve_failed_msg": "A l'é capitaje n'eron an sël servent ëd conversion: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Arspòsta d'eror dal sërvent",
 	"coll-empty_collection": "Lìber veuid",
 	"coll-revision": "Revision: $1",

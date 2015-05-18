@@ -49,8 +49,6 @@
 	"coll-rename_chapter": "Увядзіце новую назву разьдзелу",
 	"coll-no_such_category": "Няма такой катэгорыі",
 	"coll-notitle_title": "Не атрымалася вызначыць назву старонкі",
-	"coll-mwserve_failed_title": "Памылка сэрвэра адлюстраваньня",
-	"coll-mwserve_failed_msg": "На сэрвэры адлюстраваньня ўзьнікла памылка: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Памылка адказу сэрвэра",
 	"coll-empty_collection": "Пустая кніга",
 	"coll-revision": "Вэрсія: $1",

@@ -48,8 +48,6 @@
 	"coll-notitle_msg": "पृष्ठको शीर्षक निर्धारण गर्न सकिएन।",
 	"coll-request_failed_title": "पुस्तक प्रतिपादन गर्न विफल",
 	"coll-request_failed_msg": "तपाईंको पुस्तक प्रतिपादन गर्ने समय त्रुटि उत्पन्न भयो।",
-	"coll-mwserve_failed_title": "प्रतिपादन सर्वरमा त्रुटी",
-	"coll-mwserve_failed_msg": "प्रतिपादन सर्वरमा त्रुटि भयो: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "सर्वरबाट त्रुटि सन्देश भेटियो",
 	"coll-empty_collection": "रित्तो पुस्तक",
 	"coll-revision": "संशोधन: $1",

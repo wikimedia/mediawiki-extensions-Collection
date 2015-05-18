@@ -49,8 +49,6 @@
 	"coll-notitle_msg": "Nun pudo determinase'l títulu de la páxina.",
 	"coll-request_failed_title": "Falló'l renderizáu del llibru",
 	"coll-request_failed_msg": "Hebo un error cuando s'intentó renderizar el llibru.",
-	"coll-mwserve_failed_title": "Fallu del sirvidor de renderización",
-	"coll-mwserve_failed_msg": "Hebo un error nel sirvidor de renderización: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Respuesta d'error del sirvidor",
 	"coll-empty_collection": "Llibru baleru",
 	"coll-revision": "Revisión: $1",

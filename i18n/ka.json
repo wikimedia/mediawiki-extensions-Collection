@@ -50,8 +50,6 @@
 	"coll-rename_chapter": "შეიყვანეთ თავის ახალი სათაური",
 	"coll-no_such_category": "ამგვარი კატეგორია არ არსებობს",
 	"coll-notitle_title": "გვერდის სათაურის მიღება ვერ მოხერხდა",
-	"coll-mwserve_failed_title": "ჩახატვის სერვერის შეცდომა",
-	"coll-mwserve_failed_msg": "ჩახატვის სერვერზე შეცდომა: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "სერვერისგან პასუხის მიღების შეცდომა",
 	"coll-empty_collection": "ცარიელი წიგნი",
 	"coll-revision": "ვერსია: $1",

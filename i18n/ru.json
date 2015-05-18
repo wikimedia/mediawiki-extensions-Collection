@@ -64,8 +64,6 @@
 	"coll-notitle_msg": "Заголовок страницы не может быть определён.",
 	"coll-request_failed_title": "Преобразование книги не удалось",
 	"coll-request_failed_msg": "Произошла ошибка при попытке преобразовать вашу книгу.",
-	"coll-mwserve_failed_title": "Ошибка сервера отрисовки",
-	"coll-mwserve_failed_msg": "На сервере отрисовки произошла ошибка: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Ошибка ответа сервера",
 	"coll-empty_collection": "Пустая книга",
 	"coll-revision": "Версия: $1",

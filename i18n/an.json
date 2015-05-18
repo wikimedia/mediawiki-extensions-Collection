@@ -45,8 +45,6 @@
 	"coll-rename_chapter": "Introducir un nombre nuevo ta lo capitol",
 	"coll-no_such_category": "No existe ixa categoría",
 	"coll-notitle_title": "No se pue determinar o titol d'a pachina.",
-	"coll-mwserve_failed_title": "Error d'o servidor de procesau",
-	"coll-mwserve_failed_msg": "Ha ocurriu una error en o servidor de procesau: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Respuesta d'error d'o servidor",
 	"coll-empty_collection": "libro vuedo",
 	"coll-revision": "Versión: $1",

@@ -47,8 +47,6 @@
 	"coll-rename_chapter": "Zadajte nový názov kapitoly",
 	"coll-no_such_category": "Taká kategória neexistuje",
 	"coll-notitle_title": "Názov stránky nebolo možné určiť.",
-	"coll-mwserve_failed_title": "Chyba vykresľovacieho servera",
-	"coll-mwserve_failed_msg": "Vyskytla sa chyba vykresľovacieho servera: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Chybná odpoveď servera",
 	"coll-empty_collection": "Prázdna kniha",
 	"coll-revision": "Revízia: $1",

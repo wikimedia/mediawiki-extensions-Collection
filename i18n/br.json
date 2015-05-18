@@ -49,8 +49,6 @@
 	"coll-no_such_category": "N'eus ket eus ar rummad-mañ",
 	"coll-notitle_title": "N'eus ket bet gallet tapout titl ar bajenn.",
 	"coll-notitle_msg": "N'eus ket bet gallet didermeniñ titl ar bajenn.",
-	"coll-mwserve_failed_title": "Fazi gant ar servijer amdreiñ",
-	"coll-mwserve_failed_msg": "Ur fazi zo bet war ar servijer amdreiñ : <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Respont fazi distro gant ar servijer",
 	"coll-empty_collection": "Levr goullo",
 	"coll-revision": "Adweladenn : $1",

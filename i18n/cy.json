@@ -50,8 +50,6 @@
 	"coll-notitle_title": "Ni lwyddwyd i ddirnad teitl y dudalen.",
 	"coll-request_failed_title": "Methwyd cynhyrchu eich llyfr",
 	"coll-request_failed_msg": "Cafwyd gwall wrth geisio cynhyrchu eich llyfr.",
-	"coll-mwserve_failed_title": "Gwall gan y gweinydd cynhyrchu",
-	"coll-mwserve_failed_msg": "Digwyddodd gwall ar y gweinydd cynhyrchu: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Hysbysiad gwall oddi wrth y gweinydd",
 	"coll-empty_collection": "Gwacáu'r llyfr",
 	"coll-revision": "Diwygiad: $1",

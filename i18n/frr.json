@@ -48,8 +48,6 @@
 	"coll-notitle_msg": "Di tiitel faan det sidj küd ei fäästlaanj wurd.",
 	"coll-request_failed_title": "Diar as wat skiaf gingen bi't buken maagin.",
 	"coll-request_failed_msg": "Diar as wat skiaf gingen bi di ferschük, din buk tu maagin.",
-	"coll-mwserve_failed_title": "Di server swaaret ei",
-	"coll-mwserve_failed_msg": "Üüb a server as wat skiaf gingen: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Di server swaaret mä en feeler",
 	"coll-empty_collection": "Leesag buk",
 	"coll-revision": "Werjuun: $1",

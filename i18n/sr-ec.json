@@ -52,8 +52,6 @@
 	"coll-rename_chapter": "Унесите нови назив поглавља:",
 	"coll-no_such_category": "Нема такве категорије",
 	"coll-notitle_title": "Наслов ове странице није одређен.",
-	"coll-mwserve_failed_title": "Грешка при израђивању",
-	"coll-mwserve_failed_msg": "Дошло је до грешке при израђивању: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Сервер је одговорио грешком",
 	"coll-empty_collection": "Књига је празна.",
 	"coll-revision": "Измена: $1",

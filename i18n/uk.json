@@ -58,8 +58,6 @@
 	"coll-notitle_msg": "Заголовок сторінки неможливо визначити.",
 	"coll-request_failed_title": "Перетворення книги не вдалося",
 	"coll-request_failed_msg": "Сталася помилка при спробі зробити книгу.",
-	"coll-mwserve_failed_title": "Помилка сервера відображення",
-	"coll-mwserve_failed_msg": "На сервері відображення трапилася помилка: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Помилка відповіді сервера",
 	"coll-empty_collection": "Порожня книга",
 	"coll-revision": "Версія: $1",

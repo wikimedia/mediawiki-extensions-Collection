@@ -47,8 +47,6 @@
 	"coll-rename_chapter": "അദ്ധ്യായത്തിനു പുതിയൊരു പേരു കൊടുക്കുക",
 	"coll-no_such_category": "അങ്ങനെ ഒരു വർഗ്ഗം നിലവിലില്ല",
 	"coll-notitle_title": "താളിന്റെ തലക്കെട്ട് നിർണ്ണയിക്കുന്നതിനു കഴിഞ്ഞില്ല.",
-	"coll-mwserve_failed_title": "റെൻഡർ സെർവർ പിഴവ്",
-	"coll-mwserve_failed_msg": "റെൻഡർ സെ‌‌ർവറിൽ പിഴവ് സംഭവിച്ചിരിക്കുന്നു: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "സെർവറിൽ നിന്നു പിഴവാണെന്ന മറുപടി കിട്ടി.",
 	"coll-empty_collection": "ശൂന്യമായ പുസ്തകം",
 	"coll-revision": "പതിപ്പ്: $1",
