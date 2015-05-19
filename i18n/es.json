@@ -23,7 +23,8 @@
 			"Sporeunai",
 			"Translationista",
 			"Vivaelcelta",
-			"Macofe"
+			"Macofe",
+			"Ryo567"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crear libros]]",
@@ -193,6 +194,7 @@
 	"coll-setting-toc-no": "No",
 	"coll-setting-columns": "Columnas:",
 	"coll-attribution-anons": "Anónimos: $1",
+	"coll-attribution-page": "<h1>Texto e imágenes de origen, colaboradores y licencias</h1>\n<h2>Texto</h2>\n$1<h2>Imágenes</h2>\n$2\n<h2>Licencia de contenido</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Fuente:</i> $2 <i>Colaboradores:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Fuente:</i> $2 <i>Licencia:</i> $3 <i>Colaboradores:</i> $4 <i>Artista original:</i> $5"
 }
