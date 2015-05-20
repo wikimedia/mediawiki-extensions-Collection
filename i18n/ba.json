@@ -4,7 +4,8 @@
 			"Amire80",
 			"Assele",
 			"Haqmar",
-			"ҒатаУлла"
+			"ҒатаУлла",
+			"Рустам Нурыев"
 		]
 	},
 	"coll-desc": "[[Special:Book|Китаптар яһай]]",
@@ -155,5 +156,6 @@
 	"coll-not_addable": "Был битте өҫтәп булмай",
 	"coll-make_suggestions": "Тәҡдим ителгән биттәр",
 	"coll-make_suggestions_tooltip": "Китабығыҙҙа булған биттәргә нигеҙләнгән һөйләмдәрҙе күрһәтергә",
-	"coll-suggest_empty": "буш"
+	"coll-suggest_empty": "буш",
+	"coll-setting-toc-yes": "Эйе"
 }
