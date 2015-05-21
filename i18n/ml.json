@@ -83,6 +83,7 @@
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/താളിന്റെ വിവരങ്ങളുള്ള എഴുത്ത് പ്രദർശനയോഗ്യമാക്കുന്നു",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/ശേഖരത്തിന്റെ വിവരങ്ങളുള്ള എഴുത്ത് പ്രദർശനയോഗ്യമാക്കുന്നു",
 	"coll-rendering_failed_title": "റെൻഡർ ചെയ്യൽ പരാജയപ്പെട്ടു",
+	"coll-rendering_failed_text": "<strong>പ്രമാണത്തിന്റെ നിർമ്മിതി പരാജയപ്പെട്ടു.</strong>\n\n<p><span id=\"renderingStatus\">$1</span></p>",
 	"coll-rendering_failed_status": "<strong>സ്ഥിതി:</strong> $1",
 	"coll-failed_page_info_text_article": "{{MediaWiki:Coll-helppage}}/താളിന്റെ വിവരങ്ങളുള്ള എഴുത്ത് പ്രദർശനയോഗ്യമാക്കുന്നു",
 	"coll-failed_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/ശേഖരത്തിന്റെ വിവരങ്ങളുള്ള എഴുത്ത് പ്രദർശനയോഗ്യമാക്കുന്നു",
