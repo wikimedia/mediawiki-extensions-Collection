@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Ansumang",
-			"Shubha"
+			"Shubha",
+			"NehalDaveND"
 		]
 	},
 	"coll-desc": "[[Special:Collection|पृष्ठानि सङ्गृह्यताम्], पीडिएफ्-रूपेण परिवर्त्यताम्",
@@ -63,7 +64,7 @@
 	"coll-load_overwrite_text": "भवतः पुस्तके कानिचन पृष्ठानि विद्यन्ते एव ।\nवर्तमानं पुस्तकं तदुपरि आरोपयितुम् इच्छति वा, नूतनविषयत्वेन स्थापयितुम् इच्छति वा, आरोपणं निराकरोति वा ?",
 	"coll-overwrite": "पुनर्लिख्यताम्",
 	"coll-append": "संयोज्यताम्",
-	"coll-cancel": "निवर्तयते",
+	"coll-cancel": "निरस्यताम्",
 	"coll-update": "अद्यतनीक्रियताम्",
 	"coll-limit_exceeded_title": "सङ्ग्रहः बृहत्तमः जातः",
 	"coll-limit_exceeded_text": "तव पुस्तकं बृहत्तमं वर्तते ।\nपुनः पृष्ठानि योजयितुम् अशक्यम् ।",
@@ -147,6 +148,13 @@
 	"coll-not_addable": "इदं पृष्ठं संयोक्तुम् अशक्या",
 	"coll-make_suggestions": "प्रस्तुतानि पृष्ठानि",
 	"coll-make_suggestions_tooltip": "तव पुस्तकस्य पृष्ठानि आधारीकृत्य सूचनाः दर्श्यन्ताम्",
-	"coll-suggest_empty": "शुन्यम्",
+	"coll-suggest_empty": "रिक्तम्",
+	"coll-setting-papersize": "पृष्ठपरिमाणम् :",
+	"coll-setting-papersize-letter": "पत्रम्",
+	"coll-setting-toc-auto": "स्वतः",
+	"coll-setting-toc-yes": "आम्",
+	"coll-setting-toc-no": "न",
+	"coll-setting-columns": "स्तम्भाः :",
+	"coll-attribution-anons": "$1 अनामकः",
 	"coll-article-attribution": "<b>$1</b> <i>स्रोतः:</i> $2 <i>योजकाः:</i> $3"
 }
