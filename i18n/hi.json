@@ -4,7 +4,9 @@
 			"Ansumang",
 			"Kaustubh",
 			"Siddhartha Ghai",
-			"बिप्लब आनन्द"
+			"बिप्लब आनन्द",
+			"Hindustanilanguage",
+			"NehalDaveND"
 		]
 	},
 	"coll-desc": "[[Special:Book|पुस्तकें बनाएँ]]",
@@ -48,6 +50,7 @@
 	"coll-rename_chapter": "नये अध्याय के लिये नाम दें",
 	"coll-no_such_category": "ऐसी कोई श्रेणी नहीं है",
 	"coll-notitle_title": "इस पृष्ठ का शीर्षक सुनिश्चित नहीं किया जा सका।",
+	"coll-notitle_msg": "पृष्ठ के शीर्षक का पता नहीं चल सका।",
 	"coll-request_failed_title": "पुस्तक प्रतिपादन विफल",
 	"coll-request_failed_msg": "आपकी पुस्तक रेंडर करने में त्रुटि उत्पन्न हुई।",
 	"coll-error_reponse": "सर्वर से मिला त्रुटि सन्देश",
@@ -119,12 +122,13 @@
 	"coll-suggest_undo_tooltip": "इस क्रिया को पूर्ववत् करें",
 	"coll-suggest_undo": "पूर्ववत करें",
 	"coll-load_local_book": "$1 नाम की $2 विकि पृष्ठों वाली अपनी पुस्तक को जारी रखने के लिये OK पर क्लिक करें। उसे हटाकर नयी पुस्तक के साथ शुरुआत करने के लिये Cancel पर क्लिक करें।",
-	"coll-format-rl": "ई-बुक (PDF)",
+	"coll-format-rl": "ई-बुक (पीडिएफ़, मड्ब्ल्यू प्रदानकर्ता)",
 	"coll-format-epub": "ई-बुक (EPUB)",
 	"coll-format-odf": "वर्ड प्रोसेसर (ओपन डॉक्यूमेंट)",
 	"coll-format-zim": "किविक्स (OpenZIM)",
 	"coll-format-docbook": "डॉकबुक",
 	"coll-format-okawix_zeno": "ओकाविक्स",
+	"coll-format-rdf2text": "वर्ड प्रोसेसर (साधा पाठ)",
 	"right-collectionsaveasuserpage": "सदस्य पृष्ठ के रूप में पुस्तक सहेजें",
 	"right-collectionsaveascommunitypage": "पुस्तकों को समुदाय पृष्ठ के रूप में सहेजें",
 	"coll-print_export": "प्रिंट/निर्यात",
@@ -164,8 +168,12 @@
 	"coll-setting-papersize": "पृष्ठ आकार:",
 	"coll-setting-papersize-letter": "लेटर",
 	"coll-setting-toc": "विषय सूची शामिल करें",
+	"coll-setting-toc-auto": "स्वत:",
+	"coll-setting-toc-yes": "हाँ",
+	"coll-setting-toc-no": "नहीं",
 	"coll-setting-columns": "कॉलम:",
 	"coll-attribution-anons": "अनामित: $1",
+	"coll-attribution-page": "<h1>पाठ और चित्र के स्रोत, योगदानकर्ता और लाइसेंस</h1>\n<h2>पाठ</h2>\n$1<h2>चित्र</h2>\n$2\n<h2>सामग्री लाइसेंस</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>स्रोत:</i> $2 <i>योगदानकर्ता:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>स्रोत:</i> $2 <i>लाइसेंस:</i> $3 <i>योगदानकर्ता:</i> $4 <i>मूल कलाकार:</i> $5"
 }

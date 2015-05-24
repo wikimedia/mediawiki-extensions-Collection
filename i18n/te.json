@@ -119,6 +119,9 @@
 	"coll-load_local_book": "మీ  $2  వికీపేజీలుగల $1  పుస్తకం పై పని కొనసాగించుటకు సరే(OK) నొక్కండి.  దానిని వదలివేసి కొత్త ఖాళీ పుస్తకం ప్రారంభించుటకు రద్దు (Cancel ) నొక్కండి",
 	"coll-format-rl": "ఈ-పుస్తకం (PDF)",
 	"coll-format-epub": "ఈ-పుస్తకం (EPUB)",
+	"coll-format-zim": "కివిక్స్ (ఓపెన్‌జిమ్)",
+	"coll-format-docbook": "డాక్‌బుక్",
+	"coll-format-okawix_zeno": "ఒకావిక్స్",
 	"right-collectionsaveasuserpage": "పుస్తకములను  వాడుకరి  పేజి లాగ భద్రపరచుము",
 	"right-collectionsaveascommunitypage": "పుస్తకములను సముదాయ పేజి లాగ భద్రపరచుము",
 	"coll-print_export": "ముద్రించండి/ఎగుమతి చేయండి",
@@ -158,6 +161,8 @@
 	"coll-setting-papersize": "కాగితపు సైజు:",
 	"coll-setting-papersize-letter": "లేఖ",
 	"coll-setting-toc": "విషయ సూచికను చేర్చు",
+	"coll-setting-toc-yes": "అవును",
+	"coll-setting-toc-no": "కాదు",
 	"coll-setting-columns": "నిలువువరుసలు:",
 	"coll-attribution-anons": "అజ్ఞాతం: $1",
 	"coll-article-attribution": "<b>$1</b> <i>లంకె:</i> $2 <i>తోడ్పడినవారు:</i> $3"
