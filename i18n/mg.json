@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jagwar"
+		]
+	},
+	"coll-remove": "Hanala",
+	"coll-show": "Aseho",
+	"coll-move_up": "Ampiakarina",
+	"coll-move_down": "Ampidinina",
+	"coll-print_export": "Printiana/avoaka",
+	"coll-create_a_book": "Hanorina boky",
+	"coll-download_as": "Hampidina ho toa $1",
+	"coll-disable": "tsy alefa",
+	"coll-book_creator_disable": "Hanajanona ny mpanao boky",
+	"coll-book_creator_disable_tooltip": "Hitsahatra tsy hampiasa ny fanamboaram-boky",
+	"coll-add_this_page": "Hanampy ity pejy ity amin'ny bokinao",
+	"coll-help": "Fanoroana",
+	"coll-help_tooltip": "Haneho ny fanoroana mikasika ny fanaovana boky",
+	"coll-remove_this_page": "Hanala ity pejy ity amin'ny bokinao",
+	"coll-show_collection": "Haneho ny boky",
+	"coll-make_suggestions": "Hanoro hevitra pejy",
+	"coll-make_suggestions_tooltip": "Haneho ny torohevitra mifototra amin'ny pejin'ny bokinao"
+}
