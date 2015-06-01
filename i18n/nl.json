@@ -13,7 +13,8 @@
 			"Siebrand",
 			"Sjoerddebruin",
 			"Tvdm",
-			"JurgenNL"
+			"JurgenNL",
+			"Esketti"
 		]
 	},
 	"coll-desc": "[[Special:Book|Boeken maken]]",
@@ -57,6 +58,7 @@
 	"coll-rename_chapter": "Voer een nieuwe naam in voor het hoofdstuk",
 	"coll-no_such_category": "De categorie bestaat niet",
 	"coll-notitle_title": "Kan paginatitel niet verkrijgen",
+	"coll-notitle_msg": "De titel van de pagina kon niet worden vastgesteld.",
 	"coll-request_failed_title": "Boekweergave is mislukt",
 	"coll-request_failed_msg": "Er is een fout opgetreden bij het maken van uw boek.",
 	"coll-error_reponse": "De server heeft een foutmelding teruggegeven",
@@ -129,13 +131,15 @@
 	"coll-suggest_article_remove": "De pagina <strong>$1</strong> is verwijderd uit uw boek ($2).",
 	"coll-suggest_undo_tooltip": "Deze handeling ongedaan maken",
 	"coll-suggest_undo": "ongedaan maken",
-	"coll-load_local_book": "Klik \"OK\" om door te gaan met uw boek $1 dat $2 wikipagina's bevat. Klik op \"Annuleren\" om het te verwijderen en opnieuw te beginnen met een leeg boek.",
-	"coll-format-rl": "e-boek (pdf)",
+	"coll-load_local_book": "Klik op OK om door te gaan met uw boek $1 bevat $2 wiki-pagina ' s. Klik op Annuleren om het te verwijderen en starten met een leeg boek.",
+	"coll-format-rl": "e-boek (PDF, mwlib renderer)",
 	"coll-format-epub": "e-boek (EPUB)",
 	"coll-format-odf": "Tekstverwerker (OpenDocument)",
 	"coll-format-zim": "Kiwix (OpenZIM)",
 	"coll-format-docbook": "DocBook",
 	"coll-format-okawix_zeno": "Okawix",
+	"coll-format-rdf2latex": "e-boek (PDF, ocg-latex renderer)",
+	"coll-format-rdf2text": "Tekstverwerker (platte tekst)",
 	"right-collectionsaveasuserpage": "Boeken opslaan als gebruikerspagina",
 	"right-collectionsaveascommunitypage": "Boeken opslaan als gemeenschapspagina",
 	"coll-print_export": "Afdrukken/exporteren",
@@ -180,6 +184,7 @@
 	"coll-setting-toc-no": "Nee",
 	"coll-setting-columns": "Kolommen:",
 	"coll-attribution-anons": "Anoniem: $1",
+	"coll-attribution-page": "<h1>Tekst-en beeldbronnen, medewerkers, en licenties</h1>\n<h2>Tekst</h2>\n$1<h2>Beelden</h2>\n$2\n<h2>Content license</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Bron:</i> $2 <i>Bijdragers:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Bron:</i> $2 <i>Licentie:</i> $3 <i>Bijdragers:</i> $4 <i>Oorspronkelijke artiest:</i> $5"
 }
