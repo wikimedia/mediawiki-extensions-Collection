@@ -19,6 +19,10 @@
 	"coll-append": "Tambahkeun",
 	"coll-cancel": "Bolay",
 	"coll-about_pp": "Ngeunaan $1",
+	"coll-print_export": "Citak/ékspor",
+	"coll-create_a_book": "Jieun hiji pustaka",
+	"coll-download_as": "Unduh salaku $1",
 	"coll-add_category": "Nambah kategori",
-	"coll-remove_this_page": "Kaluarkeun ieu kaca tina pustaka anjeun"
+	"coll-remove_this_page": "Kaluarkeun ieu kaca tina pustaka anjeun",
+	"coll-image-attribution": "<b>$1</b> <i>Sumber:</i> $2 <i>Lisénsi:</i> $3 <i>Kontributor:</i> $4 <i>Artis asli:</i> $5"
 }

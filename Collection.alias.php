@@ -276,7 +276,7 @@ $specialPageAliases['lb'] = array(
 
 /** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
-	'Book' => array( 'کتاو،کوملوس' ),
+	'Book' => array( 'کتۉ', 'کومئلوٙس' ),
 );
 
 /** Malagasy (Malagasy) */
