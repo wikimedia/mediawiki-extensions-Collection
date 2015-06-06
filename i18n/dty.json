@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"रमेश सिंह बोहरा"
+		]
+	},
+	"coll-remove": "हटाउन्या",
+	"coll-show": "धेकाउन्या",
+	"coll-move_up": "उब पठाउन्या",
+	"coll-move_down": "तल्तिर पठाउन्या",
+	"coll-print_export": "प्रिन्ट/पठौन्या",
+	"coll-create_a_book": "किताब बनाउन्या",
+	"coll-download_as": "$1 को रूपमि डाउनलोड गद्य्या"
+}
