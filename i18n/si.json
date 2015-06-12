@@ -3,7 +3,8 @@
 		"authors": [
 			"පසිඳු කාවින්ද",
 			"බිඟුවා",
-			"හරිත"
+			"හරිත",
+			"Singhalawap"
 		]
 	},
 	"coll-desc": "[[Special:Book|පොත් තනන්න]]",
@@ -33,8 +34,8 @@
 	"coll-remove": "ඉවත් කරන්න",
 	"coll-show": "පෙන්වන්න",
 	"coll-move_to_top": "උඩට මාරු වන්න",
-	"coll-move_up": "උඩට යන්න",
-	"coll-move_down": "පහතට යන්න",
+	"coll-move_up": "ඉහලට යවන්න",
+	"coll-move_down": "පහලට යවන්න",
 	"coll-move_to_bottom": "මැදට මාරු වන්න",
 	"coll-title": "ශීර්ෂය:",
 	"coll-subtitle": "උප ශීර්ෂය:",
@@ -112,7 +113,7 @@
 	"coll-create_a_book": "පොතක් නිර්මාණය කරන්න",
 	"coll-create_a_book_tooltip": "පොතක් හෝ පිටු එකතුවක් තනන්න",
 	"coll-book_creator": "පොත් තනන්නා",
-	"coll-download_as": "$1 ලෙස බාගන්න",
+	"coll-download_as": "$1 ලෙස බාගතකරන්න",
 	"coll-download_as_tooltip": "මෙම විකි පිටුවෙහි $1 අනුවාදය බාගන්න",
 	"coll-disable": "අක්‍රීය කරන්න",
 	"coll-book_creator_disable": "පොත් තනන්නා අක්‍රීය කරන්න",
@@ -140,7 +141,7 @@
 	"coll-show_collection_tooltip": "ඔබේ පොත සංස්කරණය/බාගත/ඇනවුම් කිරීමට ක්ලික් කරන්න",
 	"coll-not_addable": "මෙම පිටුව එක් කල නොහැක",
 	"coll-make_suggestions": "පිටු යෝජනා කරන්න",
-	"coll-make_suggestions_tooltip": "ඔබේ පොතේ තිබෙන පිටු මත ව්‍යංගාර්ථ පෙන්වන්න",
+	"coll-make_suggestions_tooltip": "ඔබේ පොතේ තිබෙන පිටු මත යෝජනා පෙන්වන්න",
 	"coll-suggest_empty": "හිස්",
 	"coll-attribution-anons": "නිර්නාමික: $1",
 	"coll-article-attribution": "<b>$1</b> <i>මූලාශ්‍රය:</i> $2 <i>දායකයෝ:</i> $3",
