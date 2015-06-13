@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"रमेश सिंह बोहरा"
+			"रमेश सिंह बोहरा",
+			"राम प्रसाद जोशी"
 		]
 	},
 	"coll-remove": "हटाउन्या",
@@ -20,7 +21,7 @@
 	"coll-help": "सहायता",
 	"coll-help_tooltip": "किताब बनौनकी निमित्त सहायता धेखौन्या",
 	"coll-helppage": "Help:किताबहरू",
-	"coll-n_pages": "{{PLURAL:$1|पाना|पानाहरु}}",
+	"coll-n_pages": "{{PLURAL:$1|पाना|पानाहरू}}",
 	"coll-remove_this_page": "यै पानालाई तमरा किताब बठे हटौन्या",
 	"coll-show_collection": "किताब धेकौन्या",
 	"coll-show_collection_tooltip": "किताबलाई सम्पादन/डाउनलोड/आज्ञा दिनकि क्लिक अर",
