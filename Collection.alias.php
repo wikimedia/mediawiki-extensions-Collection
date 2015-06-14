@@ -274,7 +274,7 @@ $specialPageAliases['lb'] = array(
 	'Book' => array( 'Buch', 'Sammlung' ),
 );
 
-/** Northern Luri (لوری مینجایی) */
+/** Northern Luri (لۊری شومالی) */
 $specialPageAliases['lrc'] = array(
 	'Book' => array( 'کتۉ', 'کومئلوٙس' ),
 );
