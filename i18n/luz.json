@@ -4,6 +4,26 @@
 			"علی ساکی لرستانی"
 		]
 	},
+	"coll-remove": "حذف",
+	"coll-show": "نشو دائن",
+	"coll-move_up": "حرکت به بالا",
+	"coll-move_down": "حرکت به دومن",
 	"coll-print_export": "پرینت/بیرون دائن",
-	"coll-create_a_book": "درست کردن یه کتآو"
+	"coll-create_a_book": "درست کردن یه کتآو",
+	"coll-book_creator": "کتآو ساز",
+	"coll-disable": "د کار انداختن",
+	"coll-book_creator_disable": "د کار انداختن کتآو ساز",
+	"coll-book_creator_disable_tooltip": "توقف کردن استفاده د کتآو ساز",
+	"coll-add_this_page": "اضاف کردن ای بلگه مئنه کتآو ایشا",
+	"coll-add_page_tooltip": "اضاف کردن ای بلگله ویکی وه کتآو ایشا",
+	"coll-help": "هومیاری",
+	"coll-help_tooltip": "نشو دائن کمک د درست کردن کتآول",
+	"coll-helppage": "کمک:کتآول",
+	"coll-n_pages": "$1{{PLURAL:$1|بلگه|بلگه یل}}",
+	"coll-remove_this_page": "حذف کو ای بلگنه ز کتآوت",
+	"coll-show_collection": "نشو دائنه کتآو",
+	"coll-show_collection_tooltip": "کلیژ کن سی اصلاح/دومنلود/سفارش کردن کتآو ایشا",
+	"coll-make_suggestions": "بلگل توصیه وابیده",
+	"coll-make_suggestions_tooltip": "نشو دائن پیشنهادل براساس بلگل مئنه کتآو ایشا",
+	"coll-attribution-anons": "بی نوم: $1"
 }
