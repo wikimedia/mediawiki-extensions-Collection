@@ -3,7 +3,8 @@
 		"authors": [
 			"Nayvik",
 			"Omshivaprakash",
-			"VASANTH S.N."
+			"VASANTH S.N.",
+			"రహ్మానుద్దీన్"
 		]
 	},
 	"coll-collection": "ಪುಸ್ತಕ",
@@ -60,6 +61,7 @@
 	"coll-printable_version_pdf": "ಪಿಡಿಎಫ್ ಆವೃತ್ತಿ",
 	"coll-remove_this_page": "ಈ ಪುಟವನ್ನು ನಿಮ್ಮ ಪುಸ್ತಕದಿಂದ ತೆಗೆಯಿರಿ",
 	"coll-show_collection": "ಪುಸ್ತಕ ತೋರಿಸು",
+	"coll-attribution-anons": "ಅನಾಮಧೇಯ : $1",
 	"coll-article-attribution": "<b>$1</b> <i>ಮೂಲ:</i> $2 <i>ನೆರವಾದವರು:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>ಮೂಲ:</i> $2 <i>ಪರವಾನಗಿ:</i> $3 <i>ನೆರವಾದವರು:</i> $4 <i>ಮೂಲ ಕಲಾವಿದ:</i> $5"
 }

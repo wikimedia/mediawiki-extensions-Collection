@@ -49,7 +49,7 @@
 	"coll-new_chapter": "નવા પ્રકરણને નામ આપો",
 	"coll-rename_chapter": "પ્રકરણને નવું નામ આપો",
 	"coll-no_such_category": "આવી કોઇ શ્રેણી નથી",
-	"coll-notitle_title": "પાનાનું મથાળું નિર્ધારિત થઇ શકતું નથી.",
+	"coll-notitle_title": "પાનાનું મથાળું મળી શકતું નથી.",
 	"coll-error_reponse": "સર્વર પરથી ત્રુટિ પ્રતિક્રિયા",
 	"coll-empty_collection": "ખાલી પુસ્તક",
 	"coll-revision": "સુધારો: $1",
@@ -100,9 +100,9 @@
 	"coll-license": "પરવાનો",
 	"coll-return_to": "[[:$1]] પર પાછા વળો",
 	"coll-order_info_article": "{{MediaWiki:Coll-helppage}}/પીડિયાપ્રેસ ફરમાયશ માહિતી",
-	"coll-suggest_title": "તમારા પુસ્તક માટે પાનાંના સુઝાવ",
+	"coll-suggest_title": "તમારા પુસ્તક માટે પાનાંના સૂચન",
 	"coll-suggest_intro_text": "સુઝાવો તમારા પુસ્તકમાં હાલમાં રહેલા વિકિ પૃષ્ઠોને આધારે કરવામાં આવ્યાં છે.\nજ્યારે જ્યારે તમે ઉમેરો કે કાઢી નાંખો બટન પર ક્લિક કરશો ત્યારે ત્યારે આ યાદી બદલાતી જશે.",
-	"coll-suggested_articles": "સુઝાવ",
+	"coll-suggested_articles": "સૂચન",
 	"coll-suggest_reset_bans": "reset",
 	"coll-suggest_reset_bans_tooltip": "પહેલા કાઢી નાંખેલા પાનાં બતાવો",
 	"coll-suggest_add_selected": "પસંદ કરેલાં પાનાં ઉમેરો",
@@ -158,6 +158,6 @@
 	"coll-setting-toc-no": "ના",
 	"coll-setting-columns": "સ્તંભો :",
 	"coll-attribution-anons": "અજ્ઞાત : $1",
-	"coll-article-attribution": "<b>$1</b> <i>સ્ત્રોત:</i> $2 <i>યોગદાનકર્તા:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>સ્ત્રોત:</i> $2 <i>પરવાનો:</i> $3 <i>યોગદાનકર્તા:</i> $4 <i>અસલ કલાકાર:</i> $5"
+	"coll-article-attribution": "<b>$1</b> <i>સ્રોત:</i> $2 <i>યોગદાનકર્તા:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>સ્રોત:</i> $2 <i>પરવાનો:</i> $3 <i>યોગદાનકર્તા:</i> $4 <i>અસલ કલાકાર:</i> $5"
 }

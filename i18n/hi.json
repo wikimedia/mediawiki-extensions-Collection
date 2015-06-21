@@ -6,7 +6,8 @@
 			"Siddhartha Ghai",
 			"बिप्लब आनन्द",
 			"Hindustanilanguage",
-			"NehalDaveND"
+			"NehalDaveND",
+			"संजीव कुमार"
 		]
 	},
 	"coll-desc": "[[Special:Book|पुस्तकें बनाएँ]]",
@@ -49,7 +50,7 @@
 	"coll-new_chapter": "नये अध्याय के लिये नाम दें",
 	"coll-rename_chapter": "नये अध्याय के लिये नाम दें",
 	"coll-no_such_category": "ऐसी कोई श्रेणी नहीं है",
-	"coll-notitle_title": "इस पृष्ठ का शीर्षक सुनिश्चित नहीं किया जा सका।",
+	"coll-notitle_title": "इस पृष्ठ का शीर्षक प्राप्त नहीं किया जा सका",
 	"coll-notitle_msg": "पृष्ठ के शीर्षक का पता नहीं चल सका।",
 	"coll-request_failed_title": "पुस्तक प्रतिपादन विफल",
 	"coll-request_failed_msg": "आपकी पुस्तक रेंडर करने में त्रुटि उत्पन्न हुई।",
