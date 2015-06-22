@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Babanwalia"
+			"Babanwalia",
+			"Satdeep gill"
 		]
 	},
 	"coll-remove": "ਹਟਾਉ",
@@ -13,6 +14,7 @@
 	"coll-book_creator": "ਕਿਤਾਬ ਤਿਆਰਕਰਤਾ",
 	"coll-download_as": "$1 ਵਜੋਂ ਲਾਹੋ",
 	"coll-disable": "ਬੰਦ ਕਰੋ",
+	"coll-add_this_page": "ਇਸ ਸਫ਼ੇ ਨੂੰ ਆਪਣੀ ਕਿਤਾਬ ਵਿੱਚ ਸ਼ਾਮਿਲ ਕਰੋ",
 	"coll-help": "ਮਦਦ",
 	"coll-helppage": "Help:ਕਿਤਾਬਾਂ",
 	"coll-n_pages": "$1 {{PLURAL:$1|ਸਫ਼ਾ|ਸਫ਼ੇ}}",
