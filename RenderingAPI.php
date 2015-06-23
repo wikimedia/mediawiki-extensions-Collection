@@ -160,7 +160,7 @@ abstract class CollectionRenderingAPI {
 	 * @return string
 	 */
 	protected function buildJSONCollection( $collection ) {
-		global $wgServer, $wgScriptPath, $wgScriptExtension;
+		global $wgCanonicalServer, $wgScriptPath, $wgScriptExtension;
 
 		$result = array(
 			'type' => 'collection',
@@ -207,7 +207,7 @@ abstract class CollectionRenderingAPI {
 		$result['wikis'] = array(
 			array(
 				'type' => 'wikiconf',
-				'baseurl' => $wgServer . $wgScriptPath,
+				'baseurl' => $wgCanonicalServer . $wgScriptPath,
 				'script_extension' => $wgScriptExtension,
 				'format' => 'nuwiki',
 			),
