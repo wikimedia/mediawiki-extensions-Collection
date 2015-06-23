@@ -213,14 +213,48 @@ abstract class CollectionRenderingAPI {
 			),
 		);
 
-		if ( class_exists( 'VisualEditorHooks' ) ) {
+		// Prefer VRS configuration if present.
+		$context = RequestContext::getMain();
+		$vrs = $context->getConfig()->get( 'VirtualRestConfig' );
+		if ( isset( $vrs['modules'] ) && isset( $vrs['modules']['restbase'] ) ) {
+			// if restbase is available, use it
+			$params = $vrs['modules']['restbase'];
+			$domain = preg_replace(
+				'/^(https?:\/\/)?([^\/:]+?)(\/|:\d+\/?)?$/',
+				'$2',
+				$params['domain']
+			);
+			$url = preg_replace(
+				'#/?$#',
+				'/' + $domain + '/v1/',
+				$params['url']
+			);
+			for ( $i = 0; $i < count( $result['wikis'] ); $i++ ) {
+				$result['wikis'][$i]['restbase1'] = $url;
+			}
+		} elseif ( isset( $vrs['modules'] ) && isset( $vrs['modules']['parsoid'] ) ) {
+			// there's a global parsoid config, use it next
+			$params = $vrs['modules']['parsoid'];
+			$domain = preg_replace(
+				'/^(https?:\/\/)?([^\/:]+?)(\/|:\d+\/?)?$/',
+				'$2',
+				$params['domain']
+			);
+			for ( $i = 0; $i < count( $result['wikis'] ); $i++ ) {
+				$result['wikis'][$i]['parsoid'] = $params['url'];
+				$result['wikis'][$i]['prefix'] = $params['prefix'];
+				$result['wikis'][$i]['domain'] = $domain;
+			}
+		} elseif ( class_exists( 'VisualEditorHooks' ) ) {
+			// fall back to Visual Editor configuration globals
 			global $wgVisualEditorParsoidURL, $wgVisualEditorParsoidPrefix,
-				$wgVisualEditorRestbaseURL;
+				$wgVisualEditorParsoidDomain, $wgVisualEditorRestbaseURL;
 			for ( $i = 0; $i < count( $result['wikis'] ); $i++ ) {
 				// Parsoid connection information
 				if ($wgVisualEditorParsoidURL) {
 					$result['wikis'][$i]['parsoid'] = $wgVisualEditorParsoidURL;
 					$result['wikis'][$i]['prefix'] = $wgVisualEditorParsoidPrefix;
+					$result['wikis'][$i]['domain'] = $wgVisualEditorParsoidDomain;
 				}
 				// RESTbase connection information
 				if ($wgVisualEditorRestbaseURL) {
