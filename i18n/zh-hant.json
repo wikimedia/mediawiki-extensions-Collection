@@ -130,7 +130,7 @@
 	"coll-suggest_show": "顯示",
 	"coll-suggest_ban_tooltip": "從建議中移除此頁面",
 	"coll-suggest_article_ban": "頁面 <strong>$1</strong> 已經從建議 ($2) 中移除。",
-	"coll-suggest_article_add": "頁面 <strong>$1</strong> 已加入您的書籍 ($2)。",
+	"coll-suggest_article_add": "頁面 <strong>$1</strong> 已新增至您的書籍 ($2)。",
 	"coll-suggest_article_remove": "頁面 <strong>$1</strong> 已從您的書籍中移除 ($2)。",
 	"coll-suggest_undo_tooltip": "還原此動作",
 	"coll-suggest_undo": "還原",
