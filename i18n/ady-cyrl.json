@@ -1,9 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bedynokue.nart"
+			"Bedynokue.nart",
+			"SamGamgee"
 		]
 	},
+	"coll-remove": "Игъэк1ып",
+	"coll-show": "Къэгъэлъагъу",
+	"coll-move_up": "Дэ1этай",
+	"coll-move_down": "Егъэх",
+	"coll-print_export": "Хэутын/хэгъэк1ын",
 	"coll-create_a_book": "Тхылъ егъажь",
-	"coll-download_as": "$1 фэдэу къыхэщ"
+	"coll-download_as": "$1 фэдэу къыхэщ",
+	"coll-remove_this_page": "Мы тхьапэр уи тхылъым хэгъэк1"
 }
