@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Bedynokue.nart",
-			"SamGamgee"
+			"SamGamgee",
+			"Highlander45temp"
 		]
 	},
 	"coll-remove": "Игъэк1ып",
@@ -12,5 +13,6 @@
 	"coll-print_export": "Хэутын/хэгъэк1ын",
 	"coll-create_a_book": "Тхылъ егъажь",
 	"coll-download_as": "$1 фэдэу къыхэщ",
+	"coll-helppage": "Help:Тхылъхэр",
 	"coll-remove_this_page": "Мы тхьапэр уи тхылъым хэгъэк1"
 }
