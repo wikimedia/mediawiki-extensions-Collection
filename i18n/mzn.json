@@ -13,6 +13,10 @@
 	"coll-collection": "کتاب",
 	"coll-unknown_subpage_text": "این زیرصفحه [[Special:Book|کتاب]] جه وجود ندانّه",
 	"coll-your_book": "شمه کتاب",
+	"coll-remove": "حذف",
+	"coll-show": "سِراق هاده",
+	"coll-move_up": "بالا بوردن",
+	"coll-move_down": "پایین بوردن",
 	"coll-new_chapter": "نو تیکه وسه اته جدید نوم وارد هاکنین",
 	"coll-rename_chapter": "نو تیکه وسه اته جدید نوم وارد هاکنین",
 	"coll-empty_collection": "خالی کتاب",
@@ -37,12 +41,15 @@
 	"coll-print_export": "چاپ/برون‌بری",
 	"coll-create_a_book": "کتاب بساتن",
 	"coll-create_a_book_tooltip": "یتّا کتاب یا مجموعه صفحات بساج",
+	"coll-download_as": "دانلود $1 فرمت جه",
 	"coll-clear_collection": "پاک هاکردن کتاب",
 	"coll-clear_collection_confirm": "شما راس راسی خانّی کتاب ره کلأ حذف هاکنین؟",
 	"coll-clear_collection_tooltip": "همهٔ صفحات ویکی ره شه کتاب فعلی جا حذف هاکنین",
 	"coll-help": "راهنما",
 	"coll-load_collection": "باربی‌یشتن کتاب",
 	"coll-load_collection_tooltip": "این کتاب ره به عنوان کتاب فعلی بار بی‌یلین",
+	"coll-remove_this_page": "این صفحه ره شه کتاب جه حذف هاکنین",
 	"coll-show_collection": "هارشی‌ین کتاب",
-	"coll-show_collection_tooltip": "شه کتاب دچی‌ین، دانلود یا سفارش وسّه کلیک هاکنین"
+	"coll-show_collection_tooltip": "شه کتاب دچی‌ین، دانلود یا سفارش وسّه کلیک هاکنین",
+	"coll-image-attribution": "<b>$1</b><i>منبع:</i>  $2  <i>مجوز:</i>  $3  <i>کایرون:</i>  $4  <i>اصلی هنرمند:</i>$5"
 }

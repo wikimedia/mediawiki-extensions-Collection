@@ -4,5 +4,8 @@
 			"Hugo.arg"
 		]
 	},
-	"coll-update": "Atšvėižiet"
+	"coll-update": "Atšvėižiet",
+	"coll-print_export": "Ėšgoldītė/Eksportoutė",
+	"coll-create_a_book": "Dėrbtė kninga",
+	"coll-download_as": "Siōstėis $1 skvarmuo"
 }
