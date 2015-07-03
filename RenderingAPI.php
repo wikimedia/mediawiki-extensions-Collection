@@ -226,7 +226,7 @@ abstract class CollectionRenderingAPI {
 			);
 			$url = preg_replace(
 				'#/?$#',
-				'/' + $domain + '/v1/',
+				'/' . $domain . '/v1/',
 				$params['url']
 			);
 			for ( $i = 0; $i < count( $result['wikis'] ); $i++ ) {
