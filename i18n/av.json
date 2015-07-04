@@ -4,5 +4,12 @@
 			"Gazimagomedov"
 		]
 	},
-	"coll-create_a_book": "ТӀехь гьабизе"
+	"coll-remove": "БацIцIизе",
+	"coll-show": "Бихьизабизе",
+	"coll-move_down": "Гъоркьехун къазабизе",
+	"coll-create_a_book": "ТӀехь гьабизе",
+	"coll-download_as": "$1 гӀадин цӀазе",
+	"coll-disable": "синзабизе",
+	"coll-help": "Кумек",
+	"coll-remove_this_page": "Дур тӀехьалдасан гьаб гьумер бацӀцӀизе"
 }
