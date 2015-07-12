@@ -104,7 +104,7 @@
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informativo de la página de renderización",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informativo de la colección de renderización",
 	"coll-rendering_failed_title": "Falló la renderización",
-	"coll-rendering_failed_text": "<strong>Generación del archivo del documento ha fracasado.</strong>\n\n<p><span id=\"renderingStatus\">$1</span></p>",
+	"coll-rendering_failed_text": "<strong>Ha fallado la generación del archivo del documento.</strong>\n\n<p><span id=\"renderingStatus\">$1</span></p>",
 	"coll-rendering_failed_status": "<strong>Estado:</strong> $1",
 	"coll-failed_page_info_text_article": "{{MediaWiki:Coll-helppage}}/ Procesando texto de información de la página",
 	"coll-failed_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informativo de la colección de renderización",
