@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Growingup"
+			"Growingup",
+			"Janatkg"
 		]
 	},
 	"coll-your_book": "Сиздин китебиңиз",
@@ -12,5 +13,7 @@
 	"coll-yes": "Ооба",
 	"coll-no": "Жок",
 	"coll-cancel": "Жокко чыгаруу",
-	"coll-update": "Жаңыртуу"
+	"coll-update": "Жаңыртуу",
+	"coll-create_a_book": "Китеп түзүү",
+	"coll-download_as": "$1 түрүндө көчүрүп алуу"
 }
