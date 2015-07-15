@@ -15,5 +15,7 @@
 	"coll-cancel": "Жокко чыгаруу",
 	"coll-update": "Жаңыртуу",
 	"coll-create_a_book": "Китеп түзүү",
-	"coll-download_as": "$1 түрүндө көчүрүп алуу"
+	"coll-download_as": "$1 түрүндө көчүрүп алуу",
+	"coll-help": "Жардам",
+	"coll-attribution-anons": "Аноним: $1"
 }
