@@ -19,8 +19,6 @@ $( function () {
 		}
 		if ( num_pages ) {
 			message = mw.msg( 'coll-load_local_book', shownTitle, num_pages );
-			// Legacy, remove once translations have caught up to using message parameters:
-			message = message.replace( /%TITLE%/, shownTitle ).replace( /%NUMPAGES%/, num_pages );
 			if ( confirm( message ) ) {
 				$.post( script_url, {
 					'action': 'ajax',
