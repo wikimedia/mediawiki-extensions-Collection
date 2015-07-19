@@ -3,7 +3,8 @@
 		"authors": [
 			"Bedynokue.nart",
 			"SamGamgee",
-			"Highlander45temp"
+			"Highlander45temp",
+			"SmartNart12"
 		]
 	},
 	"coll-remove": "Игъэк1ып",
@@ -12,7 +13,9 @@
 	"coll-move_down": "Егъэх",
 	"coll-print_export": "Хэутын/хэгъэк1ын",
 	"coll-create_a_book": "Тхылъ егъажь",
+	"coll-book_creator": "Тхылъ гъэпсылъэ",
 	"coll-download_as": "$1 фэдэу къыхэщ",
 	"coll-helppage": "Help:Тхылъхэр",
-	"coll-remove_this_page": "Мы тхьапэр уи тхылъым хэгъэк1"
+	"coll-remove_this_page": "Мы тхьапэр уи тхылъым хэгъэк1",
+	"coll-show_collection": "Къэгъэлъагъу тхылъыр"
 }

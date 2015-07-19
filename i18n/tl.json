@@ -154,5 +154,6 @@
 	"coll-not_addable": "Hindi maidaragdag ang pahinang ito",
 	"coll-make_suggestions": "Magmungkahi ng mga pahina",
 	"coll-make_suggestions_tooltip": "Ipakita ang mga mungkahi ayon sa mga pahinang nasa loob ng aklat mo",
-	"coll-suggest_empty": "walang laman"
+	"coll-suggest_empty": "walang laman",
+	"coll-article-attribution": "<b>$1</b> <i>Sanggunian:</i> $2 <i>Mga taga-ambag:</i> $3"
 }
