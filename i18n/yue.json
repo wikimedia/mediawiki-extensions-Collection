@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Shinjiman",
-			"Yueman"
+			"Yueman",
+			"CRCHF"
 		]
 	},
 	"coll-desc": "[[Special:Book|整書]]",
@@ -83,7 +84,7 @@
 	"coll-disable": "閂咗",
 	"coll-book_creator_disable": "閂咗整書機",
 	"coll-book_creator_disable_tooltip": "停用整書機",
-	"coll-add_category": "加分類",
+	"coll-add_category": "加類",
 	"coll-add_this_page": "加呢版落你本書",
 	"coll-add_page_tooltip": "加呢版維基頁去你本書度",
 	"coll-bookscategory": "書",
