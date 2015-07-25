@@ -5,7 +5,8 @@
 			"Milicevic01",
 			"Rancher",
 			"Жељко Тодоровић",
-			"Михајло Анђелковић"
+			"Михајло Анђелковић",
+			"Srdjan m"
 		]
 	},
 	"coll-desc": "[[Special:Book|Napravi knjige]]",
@@ -162,5 +163,7 @@
 	"coll-setting-toc-yes": "Da",
 	"coll-setting-toc-no": "Ne",
 	"coll-setting-columns": "Kolona:",
-	"coll-article-attribution": "<b>$1</b> <i>Izvor:</i> $2 <i>Doprinosioci:</i> $3"
+	"coll-attribution-anons": "Anonimno: $1",
+	"coll-article-attribution": "<b>$1</b> <i>Izvor:</i> $2 <i>Doprinosioci:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Izvor:</i> $2 <i>Licenca:</i> $3 <i>Doprineli:</i> $4 <i>Originalni umetnik:</i> $5"
 }
