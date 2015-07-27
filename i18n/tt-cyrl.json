@@ -82,7 +82,7 @@
 	"coll-helppage": "Help:Китаплар",
 	"coll-load_collection": "Китапны йөкләү",
 	"coll-load_collection_tooltip": "Яңа китапны әлегесе кебек йөкләргә",
-	"coll-n_pages": "$1 {{PLURAL:$1|1=бит|битләр}}",
+	"coll-n_pages": "$1 {{PLURAL:$1|бит}}",
 	"coll-printable_version_pdf": "PDF-юрама",
 	"coll-remove_this_page": "Бу битне сезнең китаптан бетерергә",
 	"coll-remove_page_tooltip": "Әлеге вики-битне китаптан бетерергә",
@@ -91,5 +91,8 @@
 	"coll-not_addable": "Бу бит йөкләнә алмый",
 	"coll-make_suggestions": "Тәкъдим ителгән битләр",
 	"coll-make_suggestions_tooltip": "Минем китапта булган җөмләләрне күрсәтергә",
-	"coll-suggest_empty": "буш"
+	"coll-suggest_empty": "буш",
+	"coll-attribution-anons": "Аноним: $1",
+	"coll-article-attribution": "<b>$1</b> <i>Чыганак:</i> $2 <i>Авторлар:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Чыганак:</i> $2 <i>Лицензия:</i> $3 <i>Авторлар:</i> $4 <i>Рәссам:</i> $5"
 }
