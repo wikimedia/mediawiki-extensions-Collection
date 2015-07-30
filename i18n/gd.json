@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Akerbeltz",
-			"Caoimhin"
+			"Caoimhin",
+			"GunChleoc"
 		]
 	},
 	"coll-remove": "Thoir air falbh",
@@ -42,5 +43,6 @@
 	"coll-not_addable": "Cha ghabh an duilleag seo a chur ris",
 	"coll-make_suggestions": "Mol duilleagan",
 	"coll-make_suggestions_tooltip": "Seall molaidhean a-rèir nan duilleagan san leabhar agad",
-	"coll-suggest_empty": "falamh"
+	"coll-suggest_empty": "falamh",
+	"coll-image-attribution": "<b>$1</b> <i>Tùs:</i> $2 <i>Ceadachas:</i> $3 <i>Co-thabhartaichean:</i> $4 <i>Neach-ealain tùsail:</i> $5"
 }
