@@ -152,5 +152,6 @@
 	"coll-not_addable": "Ini nga pakli in diri madudugngan",
 	"coll-make_suggestions": "Pag-suggest hin mga pakli",
 	"coll-make_suggestions_tooltip": "Igpakita na suhistiyon base han mga pakli han imo libro",
-	"coll-suggest_empty": "waray sulod"
+	"coll-suggest_empty": "waray sulod",
+	"coll-image-attribution": "<b>$1</b> <i>Ginkuhaan:</i> $2 <i>Lisensya:</i> $3 <i>Mga kontributor:</i> $4 <i>Orihinal nga artist:</i> $5"
 }
