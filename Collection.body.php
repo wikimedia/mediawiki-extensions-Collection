@@ -39,14 +39,14 @@ class SpecialCollection extends SpecialPage {
 	/**
 	 * @return String
 	 */
-	function getDescription() {
+	public function getDescription() {
 		return $this->msg( 'coll-collection' )->escaped();
 	}
 
 	/**
 	 * @param $par null|string
 	 */
-	function execute( $par ) {
+	public function execute( $par ) {
 		global $wgCollectionMaxArticles;
 
 		$out = $this->getOutput();
@@ -331,7 +331,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param $par
 	 * @return mixed
 	 */
-	function renderBookCreatorPage( $referer, $par ) {
+	public function renderBookCreatorPage( $referer, $par ) {
 		global $wgJsMimeType;
 
 		$out = $this->getOutput();
@@ -394,7 +394,7 @@ class SpecialCollection extends SpecialPage {
 	/**
 	 * @param $referer
 	 */
-	function renderStopBookCreatorPage( $referer ) {
+	public function renderStopBookCreatorPage( $referer ) {
 		$out = $this->getOutput();
 		$out->enableOOUI();
 
@@ -436,7 +436,7 @@ class SpecialCollection extends SpecialPage {
 	/**
 	 * @return array
 	 */
-	static function getBookPagePrefixes() {
+	public static function getBookPagePrefixes() {
 		global $wgUser, $wgCommunityCollectionNamespace;
 
 		$result = array();
@@ -463,7 +463,7 @@ class SpecialCollection extends SpecialPage {
 		return $result;
 	}
 
-	function renderSpecialPage() {
+	public function renderSpecialPage() {
 		global $wgCollectionFormats, $wgCollectionRendererSettings;
 
 		if ( !CollectionSession::hasSession() ) {
@@ -492,7 +492,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param $title string
 	 * @param $subtitle string
 	 */
-	static function setTitles( $title, $subtitle ) {
+	public static function setTitles( $title, $subtitle ) {
 		$collection = CollectionSession::getCollection();
 		$collection['title'] = $title;
 		$collection['subtitle'] = $subtitle;
@@ -502,7 +502,7 @@ class SpecialCollection extends SpecialPage {
 	/**
 	 * @param array $settings
 	 */
-	static function setSettings( array $settings ) {
+	public static function setSettings( array $settings ) {
 		$collection = CollectionSession::getCollection();
 		if ( !isset( $collection['settings'] ) ) {
 			$collection['settings'] = array();
@@ -516,11 +516,11 @@ class SpecialCollection extends SpecialPage {
 	 * @param $b array
 	 * @return int
 	 */
-	static function title_cmp( $a, $b ) {
+	public static function title_cmp( $a, $b ) {
 		return strcasecmp( $a['title'], $b['title'] );
 	}
 
-	static function sortItems() {
+	public static function sortItems() {
 		$collection = CollectionSession::getCollection();
 		if ( !isset( $collection['items'] ) || !is_array( $collection['items'] ) ) {
 			$collection['items'] = array();
@@ -546,7 +546,7 @@ class SpecialCollection extends SpecialPage {
 	/**
 	 * @param $name string
 	 */
-	static function addChapter( $name ) {
+	public static function addChapter( $name ) {
 		$collection = CollectionSession::getCollection();
 		if ( !isset( $collection['items'] ) || !is_array( $collection['items'] ) ) {
 			$collection['items'] = array();
@@ -562,7 +562,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param $index int
 	 * @param $name string
 	 */
-	static function renameChapter( $index, $name ) {
+	public static function renameChapter( $index, $name ) {
 		if ( !is_int( $index ) ) {
 			return;
 		}
@@ -580,7 +580,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param int $oldid
 	 * @return bool
 	 */
-	static function addArticleFromName( $namespace, $name, $oldid = 0 ) {
+	public static function addArticleFromName( $namespace, $name, $oldid = 0 ) {
 		$title = Title::makeTitleSafe( $namespace, $name );
 		if ( !$title ) {
 			return false;
@@ -593,7 +593,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param $oldid int
 	 * @return bool
 	 */
-	static function addArticle( $title, $oldid = 0 ) {
+	public static function addArticle( $title, $oldid = 0 ) {
 
 		$latest = $title->getLatestRevID();
 
@@ -641,7 +641,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param $oldid int
 	 * @return bool
 	 */
-	static function removeArticleFromName( $namespace, $name, $oldid = 0 ) {
+	public static function removeArticleFromName( $namespace, $name, $oldid = 0 ) {
 		$title = Title::makeTitleSafe( $namespace, $name );
 		return self::removeArticle( $title, $oldid );
 	}
@@ -651,7 +651,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param $oldid int
 	 * @return bool
 	 */
-	static function removeArticle( $title, $oldid = 0 ) {
+	public static function removeArticle( $title, $oldid = 0 ) {
 		if ( !CollectionSession::hasSession() || !$title ) {
 			return false;
 		}
@@ -668,7 +668,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param $name string
 	 * @return bool
 	 */
-	static function addCategoryFromName( $name ) {
+	public static function addCategoryFromName( $name ) {
 		$title = Title::makeTitleSafe( NS_CATEGORY, $name );
 		return self::addCategory( $title );
 	}
@@ -677,7 +677,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param $title Title
 	 * @return bool
 	 */
-	static function addCategory( $title ) {
+	public static function addCategory( $title ) {
 		global $wgCollectionMaxArticles, $wgCollectionArticleNamespaces;
 
 		$limit = $wgCollectionMaxArticles - CollectionSession::countArticles();
@@ -717,7 +717,7 @@ class SpecialCollection extends SpecialPage {
 		return $limitExceeded;
 	}
 
-	static function limitExceeded() {
+	public static function limitExceeded() {
 		global $wgOut;
 
 		$wgOut->showErrorPage( 'coll-limit_exceeded_title', 'coll-limit_exceeded_text' );
@@ -727,7 +727,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param $index int
 	 * @return bool
 	 */
-	static function removeItem( $index ) {
+	public static function removeItem( $index ) {
 		if ( !is_int( $index ) ) {
 			return false;
 		}
@@ -745,7 +745,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param $delta
 	 * @return bool
 	 */
-	static function moveItem( $index, $delta ) {
+	public static function moveItem( $index, $delta ) {
 		if ( !CollectionSession::hasSession() ) {
 			return false;
 		}
@@ -760,7 +760,7 @@ class SpecialCollection extends SpecialPage {
 	/**
 	 * @param $items array
 	 */
-	static function setSorting( $items ) {
+	public static function setSorting( $items ) {
 		if ( !CollectionSession::hasSession() ) {
 			return;
 		}
@@ -780,7 +780,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param $append
 	 * @return array|null
 	 */
-	function parseCollectionLine( &$collection, $line, $append ) {
+	public function parseCollectionLine( &$collection, $line, $append ) {
 		$line = trim( $line );
 		if ( !$append && preg_match( '/^===\s*(.*?)\s*===$/', $line, $match ) ) {
 			$collection['subtitle'] = $match[ 1 ];
@@ -864,7 +864,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param $append bool
 	 * @return array|bool
 	 */
-	function loadCollection( $title, $append = false ) {
+	public function loadCollection( $title, $append = false ) {
 		$out = $this->getOutput();
 
 		if ( is_null( $title ) ) {
@@ -906,7 +906,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param $forceOverwrite bool
 	 * @return bool
 	 */
-	function saveCollection( $title, $forceOverwrite = false ) {
+	public function saveCollection( $title, $forceOverwrite = false ) {
 		$wikiPage = WikiPage::factory( $title );
 		if ( $wikiPage->exists() && !$forceOverwrite ) {
 			return false;
@@ -981,7 +981,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param $referrer Title object, used only to provide a returnto parameter.
 	 * @param $writer A writer registered in the appropriate configuration.
 	 */
-	function renderCollection( $collection, Title $referrer, $writer ) {
+	public function renderCollection( $collection, Title $referrer, $writer ) {
 		if ( !$writer ) {
 			$writer = 'rl';
 		}
@@ -1004,7 +1004,7 @@ class SpecialCollection extends SpecialPage {
 		$this->getOutput()->redirect( $redirect );
 	}
 
-	function forceRenderCollection() {
+	public function forceRenderCollection() {
 		$request = $this->getRequest();
 
 		$collectionID = $request->getVal( 'collection_id', '' );
@@ -1027,7 +1027,7 @@ class SpecialCollection extends SpecialPage {
 		$this->getOutput()->redirect( SkinTemplate::makeSpecialUrl( 'Book', $query ) );
 	}
 
-	function renderRenderingPage() {
+	public function renderRenderingPage() {
 		$this->setHeaders();
 		$request = $this->getRequest();
 		$out = $this->getOutput();
@@ -1109,7 +1109,7 @@ class SpecialCollection extends SpecialPage {
 		}
 	}
 
-	function download() {
+	public function download() {
 		global $wgCollectionContentTypeToFilename;
 
 		$request = $this->getRequest();
@@ -1166,7 +1166,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param $content
 	 * @return int
 	 */
-	function writeToTempFile( $res, $content ) {
+	public function writeToTempFile( $res, $content ) {
 		return fwrite( $this->tempfile, $content );
 	}
 
@@ -1178,7 +1178,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param $writer A writer registered in the appropriate configuration.
 	 * @return array|null
 	 */
-	function makeCollection( $title, $oldid ) {
+	public function makeCollection( $title, $oldid ) {
 		if ( is_null( $title ) ) {
 			$this->getOutput()->showErrorPage( 'coll-notitle_title', 'coll-notitle_msg' );
 			return null;
@@ -1205,7 +1205,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param $collection
 	 * @param $request
 	 */
-	function applySettings( &$collection, &$request ) {
+	public function applySettings( &$collection, &$request ) {
 		global $wgCollectionRendererSettings;
 		if ( !isset( $collection['settings'] ) ) {
 			$collection['settings'] = array();
@@ -1232,7 +1232,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param $collection
 	 * @param $partner
 	 */
-	function postZIP( $collection, $partner ) {
+	public function postZIP( $collection, $partner ) {
 		$out = $this->getOutput();
 		if ( !isset( $this->mPODPartners[$partner] ) ) {
 			$out->showErrorPage( 'coll-invalid_podpartner_title', 'coll-invalid_podpartner_msg' );
