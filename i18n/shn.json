@@ -26,7 +26,7 @@
 	"coll-show_collection_tooltip": "ၼဵၵ်းပၼ် တွၼ်ႈတႃႇ မႄးထတ်း/လူတ်ႇလူင်း/မႄးၶပ်ႉ ပပ်ႉၸဝ်ႈၵဝ်ႇ",
 	"coll-make_suggestions": "ၼႃးလိၵ်ႈ ၶႆႈၸႂ်",
 	"coll-make_suggestions_tooltip": "ၼႄပၼ် ၼႃႈလိၵ်ႈ ဢၼ်ဢိင်ၼိူဝ် တၢင်းၶႆႈၸႂ် တီႈၼႂ်းပပ်ႉၸဝ်ႈၵဝ်ႇ",
-	"coll-attribution-anons": "ၸိုဝ်ႈလပ်ႉ",
+	"coll-attribution-anons": "ၸိုဝ်ႈလပ်ႉ: $1",
 	"coll-article-attribution": "<b>$1</b> <i>ငဝ်ႈငႃႇ:</i> $2 <i>ၽူႈၶဝ်ႈႁူမ်ႈၸွႆႈ:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>ငဝ်ႈငႃ:</i> $2 <i>ဝႆၶႂၢင်း:</i> $3 <i>ၽူႈၶဝ်ႈႁူမ်ႈ:</i> $4 <i>ၸဝ်ႈပၢႆးမွၼ်း ငဝ်ႈတိူၼ်း:</i> $5"
 }
