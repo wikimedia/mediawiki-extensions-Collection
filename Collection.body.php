@@ -1033,7 +1033,6 @@ class SpecialCollection extends SpecialPage {
 		$out = $this->getOutput();
 
 		$collectionId = $request->getVal( 'collection_id' );
-		$collectionId = $request->getVal( 'collection_id' );
 		$writer = $request->getVal( 'writer' );
 		$return_to = $request->getVal( 'return_to', '' );
 
