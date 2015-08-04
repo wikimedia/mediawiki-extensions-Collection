@@ -4,7 +4,8 @@
 			"Bedynokue.nart",
 			"SamGamgee",
 			"Highlander45temp",
-			"SmartNart12"
+			"SmartNart12",
+			"TheRossatron"
 		]
 	},
 	"coll-remove": "Игъэк1ып",
@@ -23,5 +24,6 @@
 	"coll-helppage": "Help:Тхылъхэр",
 	"coll-n_pages": "$1 {{PLURAL:$1|нэк1убгъо|нэк1убгъу}}",
 	"coll-remove_this_page": "Мы тхьапэр уи тхылъым хэгъэк1",
-	"coll-show_collection": "Къэгъэлъагъу тхылъыр"
+	"coll-show_collection": "Къэгъэлъагъу тхылъыр",
+	"coll-attribution-anons": "Ц1эрамы1у: $1"
 }
