@@ -38,7 +38,7 @@ class CollectionHooks {
 	 *
 	 * @return bool
 	 */
-	static function buildSidebar( $skin, &$bar ) {
+	public static function buildSidebar( $skin, &$bar ) {
 		global $wgCollectionPortletForLoggedInUsersOnly;
 
 		if ( !$wgCollectionPortletForLoggedInUsersOnly || $skin->getUser()->isLoggedIn() ) {
@@ -55,7 +55,7 @@ class CollectionHooks {
 	 * @param $navUrls
 	 * @return bool
 	 */
-	static function buildNavUrls( $skin, &$navUrls ) {
+	public static function buildNavUrls( $skin, &$navUrls ) {
 		global $wgCollectionPortletForLoggedInUsersOnly;
 
 		if ( !$wgCollectionPortletForLoggedInUsersOnly || $skin->getUser()->isLoggedIn() ) {
@@ -72,7 +72,7 @@ class CollectionHooks {
 	 *
 	 * @return string
 	 */
-	static function getPortlet( $sk ) {
+	public static function getPortlet( $sk ) {
 		global $wgCollectionArticleNamespaces;
 		global $wgCollectionFormats;
 		global $wgCollectionPortletFormats;
@@ -149,7 +149,7 @@ class CollectionHooks {
 	 * @param $skin Skin
 	 * @return bool
 	 */
-	static function siteNoticeAfter( &$siteNotice, $skin ) {
+	public static function siteNoticeAfter( &$siteNotice, $skin ) {
 		global $wgCollectionArticleNamespaces;
 
 		$request = $skin->getRequest();
@@ -195,7 +195,7 @@ class CollectionHooks {
 	 * @param $mode string
 	 * @return string
 	 */
-	static function renderBookCreatorBox( $title, $mode = '' ) {
+	public static function renderBookCreatorBox( $title, $mode = '' ) {
 		global $wgCollectionStyleVersion;
 		global $wgOut, $wgExtensionAssetsPath, $wgRequest;
 
@@ -282,7 +282,7 @@ class CollectionHooks {
 	 * @param $oldid null|int
 	 * @return string
 	 */
-	static function getBookCreatorBoxContent( $title, $ajaxHint = null, $oldid = null ) {
+	public static function getBookCreatorBoxContent( $title, $ajaxHint = null, $oldid = null ) {
 		global $wgExtensionAssetsPath;
 
 		$imagePath = "$wgExtensionAssetsPath/Collection/images";
@@ -299,7 +299,7 @@ class CollectionHooks {
 	 * @param $oldid
 	 * @return string
 	 */
-	static function getBookCreatorBoxAddRemoveLink( $imagePath, $ajaxHint, $title, $oldid ) {
+	public static function getBookCreatorBoxAddRemoveLink( $imagePath, $ajaxHint, $title, $oldid ) {
 		$namespace = $title->getNamespace();
 		$ptext = $title->getPrefixedText();
 
@@ -374,7 +374,7 @@ class CollectionHooks {
 	 * @param $ajaxHint
 	 * @return string
 	 */
-	static function getBookCreatorBoxShowBookLink( $imagePath, $ajaxHint ) {
+	public static function getBookCreatorBoxShowBookLink( $imagePath, $ajaxHint ) {
 		$numArticles = CollectionSession::countArticles();
 
 		if ( $ajaxHint == 'showbook' ) {
@@ -420,7 +420,7 @@ class CollectionHooks {
 	 * @param $ajaxHint
 	 * @return string
 	 */
-	static function getBookCreatorBoxSuggestLink( $imagePath, $ajaxHint ) {
+	public static function getBookCreatorBoxSuggestLink( $imagePath, $ajaxHint ) {
 		if ( wfMessage( 'coll-suggest_enabled' )->escaped() != '1' ) {
 			return '';
 		}
@@ -469,7 +469,7 @@ class CollectionHooks {
 	 * @param $modifiedTimes array
 	 * @return bool
 	 */
-	static function checkLastModified( $modifiedTimes ) {
+	public static function checkLastModified( $modifiedTimes ) {
 		if ( CollectionSession::hasSession() ) {
 			$modifiedTimes['collection'] = $_SESSION['wsCollection']['timestamp'];
 		}

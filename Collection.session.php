@@ -26,27 +26,27 @@ class CollectionSession {
 	/**
 	 * @return bool
 	 */
-	static function hasSession() {
+	public static function hasSession() {
 		if ( !session_id() ) {
 			return false;
 		}
 		return isset( $_SESSION['wsCollection'] );
 	}
 
-	static function startSession() {
+	public static function startSession() {
 		if ( session_id() == '' ) {
 			wfSetupSession();
 		}
 		self::clearCollection();
 	}
 
-	static function touchSession() {
+	public static function touchSession() {
 		$collection = $_SESSION['wsCollection'];
 		$collection['timestamp'] = wfTimestampNow();
 		$_SESSION['wsCollection'] = $collection;
 	}
 
-	static function clearCollection() {
+	public static function clearCollection() {
 		$_SESSION['wsCollection'] = array(
 			'enabled' => true,
 			'title' => '',
@@ -58,7 +58,7 @@ class CollectionSession {
 		self::touchSession();
 	}
 
-	static function enable() {
+	public static function enable() {
 		if ( !self::hasSession() ) {
 			self::startSession();
 		} else {
@@ -67,7 +67,7 @@ class CollectionSession {
 		}
 	}
 
-	static function disable() {
+	public static function disable() {
 		if ( !self::hasSession() ) {
 			return;
 		}
@@ -79,7 +79,7 @@ class CollectionSession {
 	/**
 	 * @return bool
 	 */
-	static function isEnabled() {
+	public static function isEnabled() {
 		return self::hasSession() && isset( $_SESSION['wsCollection']['enabled'] ) &&
 			$_SESSION['wsCollection']['enabled'];
 	}
@@ -87,14 +87,14 @@ class CollectionSession {
 	/**
 	 * @return bool
 	 */
-	static function hasItems() {
+	public static function hasItems() {
 		return self::hasSession() && isset( $_SESSION['wsCollection']['items'] );
 	}
 
 	/**
 	 * @return int
 	 */
-	static function countArticles() {
+	public static function countArticles() {
 		if ( !self::hasItems() ) {
 			return 0;
 		}
@@ -112,7 +112,7 @@ class CollectionSession {
 	 * @param $oldid int
 	 * @return int
 	 */
-	static function findArticle( $title, $oldid = 0 ) {
+	public static function findArticle( $title, $oldid = 0 ) {
 		if ( !self::hasItems() ) {
 			return - 1;
 		}
@@ -136,7 +136,7 @@ class CollectionSession {
 	/**
 	 * @return bool
 	 */
-	static function purge() {
+	public static function purge() {
 		if ( !self::hasSession() ) {
 			return false;
 		}
@@ -171,14 +171,14 @@ class CollectionSession {
 	/**
 	 * @return array
 	 */
-	static function getCollection() {
+	public static function getCollection() {
 		return self::purge() ? $_SESSION['wsCollection'] : array();
 	}
 
 	/**
 	 * @param $collection
 	 */
-	static function setCollection( $collection ) {
+	public static function setCollection( $collection ) {
 		$_SESSION['wsCollection'] = $collection;
 		self::touchSession();
 	}

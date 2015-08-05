@@ -13,7 +13,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
  * @ingroup Templates
  */
 class CollectionPageTemplate extends QuickTemplate {
-	function execute() {
+	public function execute() {
 		$data = array(
 			'collectionTitle' => $this->data['collection']['title'],
 			'collectionSubtitle' => $this->data['collection']['subtitle'],
@@ -239,7 +239,7 @@ foreach ( $this->data['podpartners'] as $partnerKey => $partnerData ) {
  * @ingroup Templates
  */
 class CollectionListTemplate extends QuickTemplate {
-	function execute() {
+	public function execute() {
 		$mediapath = $GLOBALS['wgExtensionAssetsPath'] . '/Collection/images/';
 ?>
 
@@ -333,7 +333,7 @@ foreach ( $this->data['collection']['items'] as $index => $item ) {
  * @ingroup Templates
  */
 class CollectionLoadOverwriteTemplate extends QuickTemplate {
-	function execute() {
+	public function execute() {
 ?>
 
 <?php $this->msgWiki( 'coll-load_overwrite_text' ); ?>
@@ -355,7 +355,7 @@ class CollectionLoadOverwriteTemplate extends QuickTemplate {
  * @ingroup Templates
  */
 class CollectionSaveOverwriteTemplate extends QuickTemplate {
-	function execute() {
+	public function execute() {
 ?>
 
 <h2><span class="mw-headline"><?php $this->msg( 'coll-overwrite_title' ) ?></span></h2>
@@ -381,7 +381,7 @@ class CollectionSaveOverwriteTemplate extends QuickTemplate {
  * @ingroup Templates
  */
 class CollectionRenderingTemplate extends QuickTemplate {
-	function execute() {
+	public function execute() {
 ?>
 
 <span style="display:none" id="renderingStatusText"><?php echo wfMessage( 'coll-rendering_status', '%PARAM%' )->parse() ?></span>
@@ -410,7 +410,7 @@ class CollectionRenderingTemplate extends QuickTemplate {
  * @ingroup Templates
  */
 class CollectionFinishedTemplate extends QuickTemplate {
-	function execute() {
+	public function execute() {
 
 echo wfMessage( 'coll-rendering_finished_text', $this->data['download_url'] )->parseAsBlock();
 
@@ -447,7 +447,7 @@ if ( $t && $t->exists() ) {
  * @ingroup Templates
  */
 class CollectionFailedTemplate extends QuickTemplate {
-	function execute() {
+	public function execute() {
 
 echo wfMessage( 'coll-rendering_failed_text', $this->data['status'] )->parseAsBlock();
 
@@ -478,7 +478,7 @@ if ( $t && $t->exists() ) {
  * to run with Ajax
  */
 class CollectionSuggestTemplate extends QuickTemplate {
-	function execute () {
+	public function execute () {
 ?>
 <div>
 	<?php $this->msg( 'coll-suggest_intro_text' ) ?>
@@ -518,7 +518,7 @@ class CollectionSuggestTemplate extends QuickTemplate {
 	 * needed for Ajax functions
 	 * @return string
 	 */
-	function getProposalList () {
+	public function getProposalList () {
 		global $wgScript, $wgExtensionAssetsPath;
 
 		$mediapath = $wgExtensionAssetsPath . '/Collection/images/';
@@ -560,7 +560,7 @@ class CollectionSuggestTemplate extends QuickTemplate {
 	 * needed for Ajax functions
 	 * @return string
 	 */
-	function getMemberList() {
+	public function getMemberList() {
 		$mediapath = $GLOBALS['wgExtensionAssetsPath'] . '/Collection/images/';
 		$coll = $this->data['collection'];
 		$out = '';
