@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Khalid Mahmood"
+		]
+	},
+	"coll-remove": "ہٹاؤ",
+	"coll-show": "وکھاؤ",
+	"coll-move_up": "اتے لے جاؤ",
+	"coll-move_down": "تھلے لے آؤ",
+	"coll-print_export": "چھاپو/اگے پیجو",
+	"coll-create_a_book": "کتاب بناؤ",
+	"coll-download_as": "$1 ڈاؤنلوڈ کرو",
+	"coll-remove_this_page": "ایس صفے نوں میری کتاب توں ہٹاؤ"
+}
