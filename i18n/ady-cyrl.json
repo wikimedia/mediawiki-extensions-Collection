@@ -5,7 +5,8 @@
 			"SamGamgee",
 			"Highlander45temp",
 			"SmartNart12",
-			"TheRossatron"
+			"TheRossatron",
+			"Amire80"
 		]
 	},
 	"coll-remove": "Игъэк1ып",
@@ -19,8 +20,10 @@
 	"coll-disable": "гъэк1уас",
 	"coll-book_creator_disable": "Тхылъ егъэжьалъэр гъэк1уас",
 	"coll-book_creator_disable_tooltip": "Тхылъ егъэжьалъэм и гъэсэбэпын гъэуцу",
+	"coll-add_this_page": "Мы нэк1убгъор уитхылъым хэгъахъу",
 	"coll-add_page_tooltip": "Джырэ вики нэк1убгъор уи тхылъым датх",
 	"coll-help": "ӀэпыӀэгъу",
+	"coll-help_tooltip": "Тхылъхэр пшӏыным пае ӏэпыӏэгъоу хъущтыр къэгъэлъагъу",
 	"coll-helppage": "Help:Тхылъхэр",
 	"coll-n_pages": "$1 {{PLURAL:$1|нэк1убгъо|нэк1убгъу}}",
 	"coll-remove_this_page": "Мы тхьапэр уи тхылъым хэгъэк1",
