@@ -20,7 +20,7 @@
 	"coll-disable": "гъэк1уас",
 	"coll-book_creator_disable": "Тхылъ егъэжьалъэр гъэк1уас",
 	"coll-book_creator_disable_tooltip": "Тхылъ егъэжьалъэм и гъэсэбэпын гъэуцу",
-	"coll-add_this_page": "Мы нэк1убгъор уитхылъым хэгъахъу",
+	"coll-add_this_page": "Мы нэкIубгъор уитхылъым хэгъахъу",
 	"coll-add_page_tooltip": "Джырэ вики нэк1убгъор уи тхылъым датх",
 	"coll-help": "ӀэпыӀэгъу",
 	"coll-help_tooltip": "Тхылъхэр пшӏыным пае ӏэпыӏэгъоу хъущтыр къэгъэлъагъу",
@@ -28,5 +28,6 @@
 	"coll-n_pages": "$1 {{PLURAL:$1|нэк1убгъо|нэк1убгъу}}",
 	"coll-remove_this_page": "Мы тхьапэр уи тхылъым хэгъэк1",
 	"coll-show_collection": "Къэгъэлъагъу тхылъыр",
+	"coll-show_collection_tooltip": "ТеIункI уитхылъ еIэзэным/къыхэпщыным/ордерыным пае",
 	"coll-attribution-anons": "Ц1эрамы1у: $1"
 }
