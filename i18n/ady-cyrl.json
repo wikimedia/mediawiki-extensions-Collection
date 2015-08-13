@@ -6,12 +6,13 @@
 			"Highlander45temp",
 			"SmartNart12",
 			"TheRossatron",
-			"Amire80"
+			"Amire80",
+			"GR44 Luc"
 		]
 	},
-	"coll-remove": "Игъэк1ып",
+	"coll-remove": "ИгъэкIып",
 	"coll-show": "Къэгъэлъагъу",
-	"coll-move_up": "Дэ1этай",
+	"coll-move_up": "ДэIэтай",
 	"coll-move_down": "Егъэх",
 	"coll-print_export": "Хэутын/хэгъэк1ын",
 	"coll-create_a_book": "Тхылъ егъажь",
