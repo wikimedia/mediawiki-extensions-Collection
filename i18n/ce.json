@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Sasan700",
-			"Умар"
+			"Умар",
+			"Исмаил Садуев"
 		]
 	},
 	"coll-desc": "[[Special:Book|Кхула жайна]]",
@@ -18,9 +19,9 @@
 	"coll-unknown_subpage_title": "Йоьвзуш йоцу бухара агӀо",
 	"coll-unknown_subpage_text": "ХӀара [[Special:Book|жайнан]] бухара агӀо йоцуш ю",
 	"coll-couldnotaddarticle_title": "Цатарло агӀо тӀетоха",
-	"coll-couldnotaddarticle_msg": "Хlара яззам чутоьхна хила цамега.",
+	"coll-couldnotaddarticle_msg": "ХӀара яззам тӀетоьхна хила цамега.",
 	"coll-couldnotremovearticle_title": "Цатарло агӀо дӀаяккха",
-	"coll-couldnotremovearticle_msg": "Хlара яззам дlабайина хила цамега.",
+	"coll-couldnotremovearticle_msg": "ХӀара яззам дӀабаьккхина хила цамега.",
 	"coll-noscript_text": "<h1>Оьшуш ю JavaScript!</h1>\n<strong>Хьан браузерс JavaScript ловш яц я и таро дӀаяйина ю.\nХӀокху агӀоно нийса болх бира бац, JavaScript латина яцахь.</strong>",
 	"coll-savedbook_template": "Ӏалашдина жайна",
 	"coll-your_book": "Хьан жайна",
