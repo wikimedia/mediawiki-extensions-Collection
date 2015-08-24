@@ -127,6 +127,14 @@
 	"coll-show_collection_tooltip": "ចុច​ដើម្បី​កែប្រែ​/ទាញ​យក​/បញ្ជា​ទិញ​សៀវភៅ​របស់​អ្នក​",
 	"coll-not_addable": "ទំព័រនេះមិនអាចបន្ថែមបានទេ",
 	"coll-suggest_empty": "ទទេ",
+	"coll-setting-papersize": "ទំហំក្រដាស់៖",
+	"coll-setting-papersize-letter": "សំបុត្រ",
+	"coll-setting-toc": "បញ្ចូលមាតិកា",
+	"coll-setting-toc-auto": "ស្វ័យ​ប្រវត្តិ",
+	"coll-setting-toc-yes": "បាទ/ចាស",
+	"coll-setting-toc-no": "ទេ",
+	"coll-setting-columns": "ជួរឈរ៖",
+	"coll-attribution-anons": "ជនអនាមិក៖ $1",
 	"coll-article-attribution": "<b>$1</b> <i>ប្រភព៖</i> $2 <i>អ្នករួមចំណែក៖</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>ប្រភព៖</i> $2 <i>អាជ្ញាប័ណ្ឌ៖</i> $3 <i>អ្នករួមចំណែក៖</i> $4 <i>ផលិតករ៖</i> $5"
 }
