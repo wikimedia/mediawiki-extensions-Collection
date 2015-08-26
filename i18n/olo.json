@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Denö"
+			"Denö",
+			"Ilja.mos"
 		]
 	},
-	"coll-show": "Ozuttua"
+	"coll-show": "Ozuttua",
+	"coll-print_export": "Tulosta/eksportiiruiče",
+	"coll-create_a_book": "Luadie kniigu",
+	"coll-download_as": "Tallendua gu $1"
 }
