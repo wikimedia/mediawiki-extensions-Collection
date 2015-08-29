@@ -21,7 +21,7 @@
 	"coll-help": "Ndihmë",
 	"coll-help_tooltip": "Shfaq ndihmë rreth krijimit të librave",
 	"coll-helppage": "Help:Librat",
-	"coll-n_pages": "$1 faqe",
+	"coll-n_pages": "$1 {{PLURAL:$1|faqe}}",
 	"coll-remove_this_page": "Hiqni këtë faqe nga libri juaj",
 	"coll-show_collection": "Shfaq librin",
 	"coll-show_collection_tooltip": "Klikoni për të redaktuar/shkarkuar/porositur librin tuaj",
