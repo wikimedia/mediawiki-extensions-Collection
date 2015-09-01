@@ -5,12 +5,12 @@
 			"Ilja.mos"
 		]
 	},
-	"coll-remove": "Poistua",
-	"coll-show": "Ozuttua",
-	"coll-move_up": "Nostua ylembä",
-	"coll-move_down": "Siirdiä alemba",
+	"coll-remove": "Poista",
+	"coll-show": "Ozuta",
+	"coll-move_up": "Nosta ylembä",
+	"coll-move_down": "Siirrä alemba",
 	"coll-print_export": "Tulosta/eksportiiruiče",
-	"coll-create_a_book": "Luadie kniigu",
-	"coll-download_as": "Tallendua gu $1",
+	"coll-create_a_book": "Luaji kniigu",
+	"coll-download_as": "Pane taldeh gu $1",
 	"coll-help": "Kyzyö abuu"
 }
