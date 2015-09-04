@@ -110,6 +110,8 @@
 	"coll-suggest_empty": "تش",
 	"coll-setting-papersize": "د کاغذ کچه:",
 	"coll-setting-toc": "نيوليکونه پکې ورگډول",
+	"coll-setting-toc-yes": "هو",
+	"coll-setting-toc-no": "نه",
 	"coll-setting-columns": "ستنې:",
 	"coll-attribution-anons": "ورکنومی: $1",
 	"coll-article-attribution": "<b>$1</b> <i>سرچينه:</i> $2 <i>ونډه وال:</i> $3",
