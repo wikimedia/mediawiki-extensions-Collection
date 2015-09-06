@@ -2,13 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Olsi",
-			"Liridon"
+			"Liridon",
+			"Ammartivari"
 		]
 	},
 	"coll-remove": "Hiqe",
 	"coll-show": "Shfaq",
 	"coll-move_up": "Lëvize lart",
 	"coll-move_down": "Lëvize poshtë",
+	"coll-rename": "Riemërto",
 	"coll-print_export": "Printo/eksporto",
 	"coll-create_a_book": "Krijo një libër",
 	"coll-book_creator": "Krijues i librit",
