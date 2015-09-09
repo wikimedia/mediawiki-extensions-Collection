@@ -332,8 +332,6 @@ class SpecialCollection extends SpecialPage {
 	 * @return mixed
 	 */
 	public function renderBookCreatorPage( $referer, $par ) {
-		global $wgJsMimeType;
-
 		$out = $this->getOutput();
 		$out->enableOOUI();
 
