@@ -3,7 +3,8 @@
 		"authors": [
 			"Olsi",
 			"Liridon",
-			"Ammartivari"
+			"Ammartivari",
+			"Kosovastar"
 		]
 	},
 	"coll-remove": "Hiqe",
@@ -11,6 +12,7 @@
 	"coll-move_up": "Lëvize lart",
 	"coll-move_down": "Lëvize poshtë",
 	"coll-rename": "Riemërto",
+	"coll-load_local_book": "Kliko \"OK\" për të vazhduar me librin tuaj $1 i cili përmban $2 wiki {{PLURAL:$2|page|pages}}. Kliko \"Cancel\" për të fshirë atë dhe për të filluar me një librit të zbrazët.",
 	"coll-print_export": "Printo/eksporto",
 	"coll-create_a_book": "Krijo një libër",
 	"coll-book_creator": "Krijues i librit",

@@ -5,7 +5,8 @@
 			"E THP",
 			"Ebrahimi-amir",
 			"Mousa",
-			"Koroğlu"
+			"Koroğlu",
+			"Alp Er Tunqa"
 		]
 	},
 	"coll-desc": "[[Special:Book|کیتاب یارات]]",
@@ -74,7 +75,7 @@
 	"coll-rendering_text": "<p><strong> خاهیش ائدیریک سند ترتیب گؤزلیین. </strong></p>\n\n<p><strong> ایره‌لیلمه: </strong> %<span id=\"renderingProgress\">$1</span> <span id=\"renderingStatus\">$2</span></p>\n\n<p> بو صحیفه بیر نئچه سانییه‌ده بیر آوتوماتیک یئنی‌لئنمئ‌لی‌دیر.\nاگر ایشلمیرسه، خاهیش ائدیریک براوزئرینیزین یئنیلمه دویمه‌سینی باسین. </p>",
 	"coll-rendering_status": "<strong>وضعیت:</strong> $1",
 	"coll-rendering_article": "(ویکی صحیفه‌‌: $1)",
-	"coll-rendering_page": "(صحیفه‌‌: $1)",
+	"coll-rendering_page": "(صفحه: $1)",
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}} / ایشلئییجی صحیفه‌سی معلومات متنی",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}} / ایشلئییجی مجموعه سی معلومات متنی",
 	"coll-rendering_finished_title": "اولوشتورما تاماملاندی",

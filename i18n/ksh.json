@@ -118,7 +118,7 @@
 	"coll-suggest_article_remove": "De Sigg „$1“ es uß Dingem Booch fott jenumme ($2).",
 	"coll-suggest_undo_tooltip": "Donn zeröck nämme, wat De jedonn hats",
 	"coll-suggest_undo": "zeröck nämme",
-	"coll-load_local_book": "Donn „OK“ ußwähle, öm met Dingem Bohch mem Nahme $1 un $2 Wikkisigge dren wigger ze maache.\nDonn „<code lang=\"en\" xml:lang=\"en\" dir=\"ltr\">Cancel</code>“ ußwähle, för et fott ze schmiiße un met enem läddijje Bohch neu aanzefange.",
+	"coll-load_local_book": "Donn „OK“ ußwähle, öm met Dingem Bohch mem Nahme $1 un {{PURAL:$2|ein Wikkisigg|$2 Wikkisigge|kein Wikkisigge}} dren wigger ze maache.\nDonn „<code lang=\"en\" xml:lang=\"en\" dir=\"ltr\">Cancel</code>“ ußwähle, för et fott ze schmiiße un medd enem läddijje Bohch neu aanzefange.",
 	"coll-format-rl": "för e <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\">elläktronnesch Bohch</i> em <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Portable Document Format\">PDF</i>-Fommaht mem <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\">mwlib LaTeX</i> Annzeijer",
 	"coll-format-epub": "för e <i lang=\"en\">elläktronnesch Booch</i> em <i lang=\"en\">EPUB</i> Fommaat",
 	"coll-format-odf": "ene Täx em <i xml:lang=\"en\" lang=\"en\" dir=\"ltr\">OpenDocument</i>-Fommaht",

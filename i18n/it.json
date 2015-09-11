@@ -11,7 +11,8 @@
 			"Pietrodn",
 			"Stefano-c",
 			"Toadino2",
-			"Lucas2"
+			"Lucas2",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crea libri]]",
@@ -128,7 +129,7 @@
 	"coll-suggest_article_remove": "La pagina <strong>$1</strong> è stata rimossa dal tuo libro ($2).",
 	"coll-suggest_undo_tooltip": "Annulla questa azione",
 	"coll-suggest_undo": "annulla",
-	"coll-load_local_book": "Fai clic su OK per continuare con il tuo libro $1 composto da $2 pagine wiki. Clicca Annulla per cancellarlo e cominciare con un libro vuoto.",
+	"coll-load_local_book": "Fai clic su \"OK\" per continuare con il tuo libro $1 composto da $2 {{PLURAL:$2|pagina|pagine}} wiki. Clicca \"Cancel\" per cancellarlo e cominciare con un libro vuoto.",
 	"coll-format-rl": "e-book (PDF, mwlib renderer)",
 	"coll-format-epub": "e-book (EPUB)",
 	"coll-format-odf": "Elaboratore di testi (OpenDocument)",

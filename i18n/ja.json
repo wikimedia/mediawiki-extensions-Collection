@@ -7,7 +7,8 @@
 			"Marine-Blue",
 			"Shirayuki",
 			"青子守歌",
-			"Mfuji"
+			"Mfuji",
+			"Sujiniku"
 		]
 	},
 	"coll-desc": "[[Special:Book|ブックを作成する]]",
@@ -122,7 +123,7 @@
 	"coll-suggest_article_remove": "ページ「<strong>$1</strong>」はあなたのブックから除去されました ($2)。",
 	"coll-suggest_undo_tooltip": "この操作を取り消す",
 	"coll-suggest_undo": "取り消し",
-	"coll-load_local_book": "OK をクリックすると $2 件のウィキページを含むブックを $1 という題で作成します。\nこのブックを削除して新しい本を作成する場合は Cancel をクリックしてください。",
+	"coll-load_local_book": "「OK」をクリックすると $2 件のウィキ{{PLURAL:$2|ページ}}を含むブックを $1 という題で作成します。\nこのブックを削除して新しい本を作成する場合は 「Cancel」をクリックしてください。",
 	"coll-format-rl": "電子書籍 (PDF、mwlib レンダラー)",
 	"coll-format-epub": "電子書籍 (EPUB)",
 	"coll-format-odf": "ワードプロセッサ (OpenDocument)",

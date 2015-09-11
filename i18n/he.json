@@ -127,7 +127,7 @@
 	"coll-suggest_article_remove": "הדף <strong>$1</strong> הוסר מהספר שלך ($2).",
 	"coll-suggest_undo_tooltip": "ביטול פעולה זו",
 	"coll-suggest_undo": "ביטול",
-	"coll-load_local_book": "נא ללחוץ על אישור (OK) כדי להמשיך עם הספר שלך $1, שמכיל $2 דפי ויקי. יש ללחוץ על ביטול (Cancel) כדי למחוק אותו ולהתחיל עם ספר ריק.",
+	"coll-load_local_book": "נא ללחוץ על אישור (\"OK\") כדי להמשיך עם הספר שלך $1, שמכיל {{PLURAL:$2|דף ויקי אחד|$2 דפי ויקי}}. יש ללחוץ על ביטול (\"Cancel\") כדי למחוק אותו ולהתחיל עם ספר ריק.",
 	"coll-format-rl": "ספר אלקטרוני (PDF, מציג mwlib)",
 	"coll-format-epub": "ספר אלקטרוני (EPUB)",
 	"coll-format-odf": "מעבד תמלילים (OpenDocument)",

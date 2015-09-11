@@ -120,7 +120,7 @@
 	"coll-suggest_article_remove": "A páxina \"<strong>$1</strong>\" foi eliminada do seu libro ($2).",
 	"coll-suggest_undo_tooltip": "Desfacer esta acción",
 	"coll-suggest_undo": "desfacer",
-	"coll-load_local_book": "Prema en \"Aceptar\" para continuar co seu libro titulado \"$1\" que contén $2 páxinas wiki. Prema en \"Cancelar\" para borralo e comezar cun libro novo.",
+	"coll-load_local_book": "Prema en \"Aceptar\" para continuar co seu libro titulado \"$1\" que contén $2 {{PLURAL:$2|páxina|páxinas}} wiki. Prema en \"Cancelar\" para borralo e comezar cun libro novo.",
 	"coll-format-rl": "libro electrónico (PDF, renderizador mwlib)",
 	"coll-format-epub": "libro electrónico (EPUB)",
 	"coll-format-odf": "Procesador de textos (OpenDocument)",

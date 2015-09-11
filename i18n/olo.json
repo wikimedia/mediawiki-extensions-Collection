@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Denö",
-			"Ilja.mos"
+			"Ilja.mos",
+			"Mashoi7"
 		]
 	},
 	"coll-remove": "Poista",
@@ -11,6 +12,23 @@
 	"coll-move_down": "Siirrä alemba",
 	"coll-print_export": "Tulosta/eksportiiruiče",
 	"coll-create_a_book": "Luaji kniigu",
+	"coll-book_creator": "Kirjanluadii",
 	"coll-download_as": "Pane taldeh gu $1",
-	"coll-help": "Kyzyö abuu"
+	"coll-disable": "ota käytös iäre",
+	"coll-book_creator_disable": "Ota kirjanluadi käytös iäre",
+	"coll-book_creator_disable_tooltip": "Heitä kirjanluadijan käyttämine",
+	"coll-add_this_page": "Ližiä tämä sivu sinun kirjah",
+	"coll-add_page_tooltip": "Ližiä nygöine wiki-sivu sinun kirjah",
+	"coll-help": "Kyzyö abuu",
+	"coll-help_tooltip": "Ozuta abuu kirjoin luajindah näh",
+	"coll-helppage": "Help:Kniigat",
+	"coll-n_pages": "$1 {{PLURAL:$1|sivu|sivuu}}",
+	"coll-remove_this_page": "Ota iäre tämä sivu sinun kirjaspäi",
+	"coll-show_collection": "Ozuta kirju",
+	"coll-show_collection_tooltip": "Klikkua ku edituija/lad'd'ata/tilata sinun kirju",
+	"coll-make_suggestions": "Ehtotetut sivut",
+	"coll-make_suggestions_tooltip": "Ozuta ehtotuksii sinun kirjas olijoin sivuloin pohjal",
+	"coll-attribution-anons": "Anoniimat: $1",
+	"coll-article-attribution": "<b>$1</b> <i>Lähteh:</i> $2 <i>Kirjuttajat:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Lähteh:</i> $2 <i>Licenzii:</i> $3 <i>Kirjuttajat:</i> $4 <i>Alguperäine artistu:</i> $5"
 }
