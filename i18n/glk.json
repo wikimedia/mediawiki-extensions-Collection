@@ -10,6 +10,9 @@
 	"coll-download": "جيرأکش",
 	"coll-format_label": "فؤرمت:",
 	"coll-remove": "حذف",
+	"coll-show": "دئن",
+	"coll-move_up": "جؤرأشؤن",
+	"coll-move_down": "جيرأشؤن",
 	"coll-title": "تيتر:",
 	"coll-subtitle": "کۊچˇ تيتر",
 	"coll-rename": "نؤمه عوضأ گۊدن",
@@ -20,6 +23,7 @@
 	"coll-download_notfound_title": "فاىل ىاته نۊبؤ",
 	"coll-download_failed_title": "جيرأکشئنˇ مئن سأب بۊبؤ",
 	"coll-about_pp": "$1 خبري",
+	"coll-create_a_book": "ىکته کتاب چاکۊنين",
 	"coll-help": "رانما",
 	"coll-setting-toc-yes": "أهأ",
 	"coll-setting-toc-no": "نأ"

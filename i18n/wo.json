@@ -10,6 +10,16 @@
 	"coll-move_down": "Wàcce",
 	"coll-print_export": "Móol/génne",
 	"coll-create_a_book": "Sàkk ab téere",
+	"coll-book_creator": "Sàkkkaayu téere",
 	"coll-download_as": "Yebbi niki $1",
-	"coll-remove_this_page": "Jële wii xët ci sa téere"
+	"coll-disable": "doxadil",
+	"coll-book_creator_disable_tooltip": "Noppil a jëfandikoo sàkkkaayu téere bi",
+	"coll-help": "Ndimbal",
+	"coll-help_tooltip": "Wone ndimbal gi ñeel sàkkkug téere yi",
+	"coll-helppage": "Help:Téere",
+	"coll-n_pages": "$1 {{PLURAL:$1|xët}}",
+	"coll-remove_this_page": "Jële wii xët ci sa téere",
+	"coll-show_collection": "Wone téere bi",
+	"coll-make_suggestions": "Digalal ay xët",
+	"coll-make_suggestions_tooltip": "Wone xelal yi sukkandiku ci xët yi ci sa téeri bi"
 }

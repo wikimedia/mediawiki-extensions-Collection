@@ -121,7 +121,7 @@
 	"coll-suggest_article_remove": "Trang <strong>$1</strong> đã bị xóa ra khỏi cuốn sách ($2).",
 	"coll-suggest_undo_tooltip": "Phục hồi tác vụ này",
 	"coll-suggest_undo": "hoàn tác",
-	"coll-load_local_book": "Nhấn OK để tiếp tục quyển sách $1 hiện có $2 trang wiki. Nhấn Cancel để xóa và làm việc với quyển sách trắng.",
+	"coll-load_local_book": "Bấm “OK” để tiếp tục quyển sách $1 hiện có $2 trang wiki. Bấm “Hủy bỏ” để xóa và làm việc với quyển sách trắng.",
 	"coll-format-rl": "Sách điện tử (PDF, mwlib kết họa)",
 	"coll-format-epub": "sách điện tử (EPUB)",
 	"coll-format-odf": "Trình soạn thảo văn bản (OpenDocument)",

@@ -124,7 +124,7 @@
 	"coll-suggest_article_remove": "Puslapis <strong>$1</strong> buvo pašalintas iš jūsų knygos ( $2 ).",
 	"coll-suggest_undo_tooltip": "Anuliuoti šį veiksmą",
 	"coll-suggest_undo": "anuliuoti",
-	"coll-load_local_book": "Spustelėkite Gerai, kad tęstumėte su savo knyga $1, kurioje yra $2 viki puslapių. Spustelėkite Atšaukti, jei norite panaikinti ją ir pradėti su tuščia knyga.",
+	"coll-load_local_book": "Spustelėkite \"Gerai\", kad tęstumėte su savo knyga $1, kurioje yra $2 viki {{PLURAL:$2|puslapis|puslapių}}. Spustelėkite \"Atšaukti\", jei norite panaikinti ją ir pradėti su tuščia knyga.",
 	"coll-format-rl": "e-knyga (PDF, mwlib atvaizdavimas)",
 	"coll-format-epub": "e-knyga (EPUB)",
 	"coll-format-odf": "Žodžių doroklė (OpenDocument)",

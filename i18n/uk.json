@@ -11,7 +11,8 @@
 			"Prima klasy4na",
 			"Ата",
 			"Olion",
-			"Piramidion"
+			"Piramidion",
+			"Dars"
 		]
 	},
 	"coll-desc": "[[Special:Book|Створює книги]]",
@@ -128,7 +129,7 @@
 	"coll-suggest_article_remove": "Сторінку <strong>$1</strong> вилучено з вашої книги ($2).",
 	"coll-suggest_undo_tooltip": "Скасувати цю дію",
 	"coll-suggest_undo": "скасувати",
-	"coll-load_local_book": "Клацніть «Гаразд», щоб продовжити роботу з Вашою книгою $1, яка містить $2 вікісторінок. Клацніть «Скасувати», щоб вилучити її і почати з пустої книги.",
+	"coll-load_local_book": "Натисніть «Гаразд», щоб продовжити роботу з Вашою книгою $1, яка містить $2 вікі-сторін{{PLURAL:$2|ку|ок}}. Натисніть «Скасувати», щоб вилучити її і почати з пустої книги.",
 	"coll-format-rl": "електронна книга (PDF, обробник mwlib)",
 	"coll-format-epub": "електронна книга (EPUB)",
 	"coll-format-odf": "Текстовий процесор (OpenDocument)",
