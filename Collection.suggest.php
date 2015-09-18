@@ -55,12 +55,6 @@ class CollectionSuggest {
 		if ( !CollectionSession::hasSession() ) {
 			CollectionSession::startSession();
 		}
-		if ( !isset( $_SESSION['wsCollectionSuggestBan'] ) || $mode == 'resetbans' ) {
-			$_SESSION['wsCollectionSuggestBan']  = array();
-		}
-		if ( !isset( $_SESSION['wsCollectionSuggestProp'] ) ) {
-			$_SESSION['wsCollectionSuggestProp'] = array();
-		}
 
 		$template = self::getCollectionSuggestTemplate( $mode, $param );
 		$wgOut->setPageTitle( wfMessage( 'coll-suggest_title' ) );
@@ -166,6 +160,13 @@ class CollectionSuggest {
 	 */
 	private static function getCollectionSuggestTemplate( $mode, $param ) {
 		global $wgCollectionMaxSuggestions;
+
+		if ( !isset( $_SESSION['wsCollectionSuggestBan'] ) || $mode == 'resetbans' ) {
+			$_SESSION['wsCollectionSuggestBan'] = array();
+		}
+		if ( !isset( $_SESSION['wsCollectionSuggestProp'] ) ) {
+			$_SESSION['wsCollectionSuggestProp'] = array();
+		}
 
 		switch( $mode ) {
 			case 'add':
