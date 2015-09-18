@@ -24,5 +24,6 @@
 	"coll-show_collection": "Wone téere bi",
 	"coll-show_collection_tooltip": "Bësal ngir soppi/yebbi walla jënd sa téere",
 	"coll-make_suggestions": "Digalal ay xët",
-	"coll-make_suggestions_tooltip": "Wone xelal yi sukkandiku ci xët yi ci sa téeri bi"
+	"coll-make_suggestions_tooltip": "Wone xelal yi sukkandiku ci xët yi ci sa téeri bi",
+	"coll-attribution-anons": "Alaxam: $1"
 }
