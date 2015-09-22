@@ -121,7 +121,7 @@
 	"coll-suggest_article_remove": "Stran <strong>$1</strong> je bila odstranjena iz vaše knjige ($2).",
 	"coll-suggest_undo_tooltip": "Razveljavi to dejanje",
 	"coll-suggest_undo": "razveljavi",
-	"coll-load_local_book": "Kliknite V redu za nadaljevanje z vašo knjigo $1, ki vsebuje $2 wikistrani. Kliknite Prekliči za njen izbris in začnite s prazno knjigo.",
+	"coll-load_local_book": "Kliknite »V redu«, da nadaljujete z vašo knjigo $1, ki vsebuje $2 {{PLURAL:$2|wikistran|wikistrani}}. Kliknite »Prekliči« za njen izbris in začnite s prazno knjigo.",
 	"coll-format-rl": "e-knjiga (PDF, upodabljalnik mwlib)",
 	"coll-format-epub": "e-knjiga (EPUB)",
 	"coll-format-odf": "Urejevalnik besedila (OpenDocument)",

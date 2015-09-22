@@ -15,6 +15,7 @@
 	"coll-disable": "doxadil",
 	"coll-book_creator_disable": "Doxadil sàkkkaayu téere bi",
 	"coll-book_creator_disable_tooltip": "Noppil a jëfandikoo sàkkkaayu téere bi",
+	"coll-add_this_page": "Yokk xët wi ci sa téere",
 	"coll-add_page_tooltip": "Yokk bii xëtu wiki ci sa téere",
 	"coll-help": "Ndimbal",
 	"coll-help_tooltip": "Wone ndimbal gi ñeel sàkkkug téere yi",
@@ -25,5 +26,6 @@
 	"coll-show_collection_tooltip": "Bësal ngir soppi/yebbi walla jënd sa téere",
 	"coll-make_suggestions": "Digalal ay xët",
 	"coll-make_suggestions_tooltip": "Wone xelal yi sukkandiku ci xët yi ci sa téeri bi",
-	"coll-attribution-anons": "Alaxam: $1"
+	"coll-attribution-anons": "Alaxam: $1",
+	"coll-image-attribution": "<b>$1</b> <i>Gongikuwaay:</i> $2 <i>Sañal:</i> $3 <i>Aji-cëru:</i> $4 <i>Aji-moom :</i> $5"
 }
