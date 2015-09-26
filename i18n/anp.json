@@ -1,9 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Angpradesh"
+			"Angpradesh",
+			"Samyo"
 		]
 	},
+	"coll-remove": "हटाबऽ",
+	"coll-move_up": "उपर दन्न॑ बढ़ाबऽ",
+	"coll-move_down": "नीचां दन्न॑ बढ़ाबऽ",
 	"coll-print_export": "प्रिंट/निर्यात",
 	"coll-create_a_book": "किताब बनाबऽ",
 	"coll-download_as": "$1 केरऽ रूप मं॑ डाउनलोड करऽ"

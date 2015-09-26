@@ -3,7 +3,8 @@
 		"authors": [
 			"Shinjiman",
 			"Yueman",
-			"CRCHF"
+			"CRCHF",
+			"Ktchankt"
 		]
 	},
 	"coll-desc": "[[Special:Book|整書]]",
@@ -66,6 +67,8 @@
 	"coll-rendering_finished_text": "<strong>個文件檔已經生成好。</strong>\n<strong>[$1 下載個檔案]</strong>到你嘅電腦。\n\n留意:\n* 對個輸出唔滿意？睇[[{{MediaWiki:Coll-helppage}}|書幫手版]]去改善佢。",
 	"coll-notfound_title": "搵唔到書",
 	"coll-notfound_text": "搵唔到書版。",
+	"coll-download_notfound_title": "搵唔到檔案",
+	"coll-download_failed_title": "下載出錯",
 	"coll-is_cached": "<ul><li>搵到個文件嘅快取版，唔需要重新生成過。[$1 強制重新生成。]</li></ul>",
 	"coll-excluded-templates": "* 響[[:Category:$1|$1]]分類上面嘅模已經排除。",
 	"coll-blacklisted-templates": "* 響[[:$1]]黑名單上面嘅嘢已經排除。",
@@ -77,6 +80,11 @@
 	"coll-invalid_podpartner_msg": "提供嘅POD拍擋無效。\n請聯絡你嘅MediaWiki管理員。",
 	"coll-license": "牌照",
 	"coll-return_to": "返去[[:$1]]",
+	"coll-suggested_articles": "提議",
+	"coll-suggest_reset_bans": "重設",
+	"coll-suggest_show": "顯示",
+	"coll-suggest_undo_tooltip": "還原呢個動作",
+	"coll-suggest_undo": "還原",
 	"coll-print_export": "打印/匯出",
 	"coll-create_a_book": "整一本書",
 	"coll-book_creator": "整書機",
@@ -101,6 +109,13 @@
 	"coll-show_collection_tooltip": "撳呢度修改/下載/訂購你本書",
 	"coll-make_suggestions": "建議頁面",
 	"coll-make_suggestions_tooltip": "跟你嘅書嘅頁面去顯示建議",
+	"coll-suggest_empty": "空",
+	"coll-setting-papersize": "紙大細：",
+	"coll-setting-papersize-letter": "信紙",
+	"coll-setting-toc-auto": "自動",
+	"coll-setting-toc-yes": "係",
+	"coll-setting-toc-no": "唔係",
+	"coll-setting-columns": "列數：",
 	"coll-attribution-anons": "匿名：$1",
 	"coll-article-attribution": "<b>$1</b> <i>來源：</i> $2 <i>貢獻人：</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>來源：</i> $2 <i>牌照：</i> $3 <i>貢獻人：</i> $4 <i>原作者：</i> $5"
