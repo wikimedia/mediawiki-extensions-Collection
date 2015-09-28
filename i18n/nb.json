@@ -87,7 +87,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informasjonstekst om sidegjengivelse",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informasjonstekst om samlingsgjengivelse",
 	"coll-rendering_finished_title": "Opprettet",
-	"coll-rendering_finished_text": "<strong>Dokumentfilen har blitt laget.</strong>\n<strong>[$1 Last ned filen]</strong> til din datamaskin.\n\nMerk:\n* Ikke fornøyd med resultatet? Se [[{{MediaWiki:Coll-helppage}}|hjelpsiden om samlinger]] for muligheter til å forbedre den.",
+	"coll-rendering_finished_text": "<strong>Dokumentfilen har blitt laget.</strong>\n<strong>[$1 Last ned filen]</strong> til datamaskinen din.\n\nMerk:\n* Ikke fornøyd med resultatet? Se [[{{MediaWiki:Coll-helppage}}|hjelpesiden for bøker]] for muligheter til å forbedre den.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Gjengir sideinformasjonstekst",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Gjengir samlingsinformasjonstekst",
 	"coll-rendering_failed_title": "Fremstillingen feilet",
