@@ -133,7 +133,7 @@
 	"coll-suggest_article_remove": "Sidan <strong>$1</strong> har blivit borttagen från din bok ($2).",
 	"coll-suggest_undo_tooltip": "Gör denna handling ogjord",
 	"coll-suggest_undo": "gör ogjord",
-	"coll-load_local_book": "Klicka på OK för att fortsätta med din bok $1 som innehåller $2 wikisidor. Klicka på Avbryt för att ta bort den och börja med en tom bok.",
+	"coll-load_local_book": "Klicka på \"OK\" för att fortsätta med din bok $1 som innehåller $2 {{PLURAL:$2|wikisida|wikisidor}}. Klicka på \"Avbryt\" för att radera den och börja med en tom bok.",
 	"coll-format-rl": "e-bok (PDF, mwlib-renderare)",
 	"coll-format-epub": "e-bok (EPUB)",
 	"coll-format-odf": "Ordbehandlare (OpenDocument)",

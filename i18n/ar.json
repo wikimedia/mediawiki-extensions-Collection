@@ -11,7 +11,8 @@
 			"زكريا",
 			"Omda4wady",
 			"Abanima",
-			"محمدالداودي"
+			"محمدالداودي",
+			"فلورانس"
 		]
 	},
 	"coll-desc": "[[Special:Book|ينشيء كتبا]]",
@@ -97,7 +98,7 @@
 	"coll-failed_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/معلومات توليد المجموعة",
 	"coll-notfound_title": "الكتاب غير موجود",
 	"coll-notfound_text": "لم يمكن العثور على صفحة الكتاب.",
-	"coll-download_notfound_title": "الملف لم يتم إيجاده",
+	"coll-download_notfound_title": "الملف لم يتم إيجاده.",
 	"coll-download_notfound_text": "الملف الذي تحاول تنزيله غير موجود: ربما يكون قد مسح و يحتاج إلى إعادة توليد.",
 	"coll-download_failed_title": "خطأ أثناء التنزيل",
 	"coll-download_failed_text": "وُجد خطأ أثناء تنزيل الملف: $1",
@@ -150,7 +151,7 @@
 	"coll-add_linked_article": "أضف صفحة ويكي مربوطة إلى كتابك",
 	"coll-remove_linked_article": "أزل صفحة ويكي مربوطة من كتابك",
 	"coll-add_category": "إضافة هذا التصنيف إلى كتابك",
-	"coll-add_category_tooltip": "أضف كل صفحات الويكي في هذا التصنيف لكتابك",
+	"coll-add_category_tooltip": "أضف كل صفحات الويكي في هذا التصنيف لكتابك.",
 	"coll-add_this_page": "أضف هذه الصفحة إلى كتابك",
 	"coll-add_page_tooltip": "أضف صفحة الويكي الحالية إلى كتابك",
 	"coll-bookscategory": "كتب",

@@ -11,6 +11,7 @@
 	"coll-show": "Shfaq",
 	"coll-move_up": "Lëvize lart",
 	"coll-move_down": "Lëvize poshtë",
+	"coll-contents": "Përmbajtja",
 	"coll-rename": "Riemërto",
 	"coll-load_local_book": "Kliko \"OK\" për të vazhduar me librin tuaj $1 i cili përmban $2 wiki {{PLURAL:$2|page|pages}}. Kliko \"Cancel\" për të fshirë atë dhe për të filluar me një librit të zbrazët.",
 	"coll-print_export": "Printo/eksporto",
@@ -31,6 +32,7 @@
 	"coll-show_collection_tooltip": "Klikoni për të redaktuar/shkarkuar/porositur librin tuaj",
 	"coll-make_suggestions": "Rekomando faqet",
 	"coll-make_suggestions_tooltip": "Shfaq rekomandimet në bazë të faqeve në librin tuaj",
+	"coll-setting-toc": "Përfshi një tabelë përmbajtje",
 	"coll-attribution-anons": "Anonim: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Burimi:</i> $2 <i>Kontribuesit:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Burimi:</i> $2 <i>Licenca:</i> $3 <i>Kontributorë:</i> $4 <i>Artisti origjinal:/i> $5"
