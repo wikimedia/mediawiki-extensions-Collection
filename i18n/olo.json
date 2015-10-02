@@ -75,7 +75,7 @@
 	"coll-print_export": "Tulosta/eksportiiruiče",
 	"coll-create_a_book": "Luaji kniigu",
 	"coll-book_creator": "Kirjanluadii",
-	"coll-download_as": "Pane taldeh gu $1",
+	"coll-download_as": "Pane taldeh $1:nny",
 	"coll-disable": "ota käytös iäre",
 	"coll-book_creator_disable": "Ota kirjanluadi käytös iäre",
 	"coll-book_creator_disable_tooltip": "Heitä kirjanluadijan käyttämine",
