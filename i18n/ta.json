@@ -9,12 +9,13 @@
 			"செல்வா",
 			"மதனாஹரன்",
 			"ElangoRamanujam",
-			"Jayarathina"
+			"Jayarathina",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|புத்தகங்களை உருவாக்கு]]",
 	"coll-manage_your_book": "உங்கள் புத்தகத்தை நிர்வகி",
-	"coll-book_creator_help": "மேலும் தகவலுக்கு பார்க்கவும் [[{{MediaWiki:Coll-helppage}}  | புத்தகங்களை பற்றிய உதவி பக்கம்]] .",
+	"coll-book_creator_help": "மேலும் தகவலுக்கு பார்க்கவும் [[{{MediaWiki:Coll-helppage}}|புத்தகங்களை பற்றிய உதவி பக்கம்]] .",
 	"coll-start_book_creator": "புத்தக உருவாக்குநரை தொடங்கு",
 	"coll-book_creator_continue": "புத்தக உருவாக்குநர் பயன்படுத்துவதை தொடர்",
 	"coll-book_creator_disable_text": "''புத்தக உருவாக்குநர்'' செயலிழக்க செய்யப்படும்  மற்றும் நீங்கள் உருவாக்கிக் கொண்டிருக்கும் புத்தகம் நீக்கப்படும்.",

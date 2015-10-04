@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mdupont"
+			"Mdupont",
+			"Macofe"
 		]
 	},
 	"coll-unknown_subpage_title": "subpage Panjohur",
@@ -35,8 +36,6 @@
 	"coll-rename_chapter": "Shkruani emër të ri për kapitullin",
 	"coll-no_such_category": "Nuk ka kategori të tilla",
 	"coll-notitle_title": "Titulli i faqes nuk mund të përcaktohet.",
-	"coll-mwserve_failed_title": "gabim Render server",
-	"coll-mwserve_failed_msg": "Ka ndodhur një gabim në server të bëjnë: <nowiki> $1 </nowiki>",
 	"coll-error_reponse": "Gabim përgjigje nga serveri",
 	"coll-empty_collection": "Libri Bosh",
 	"coll-revision": "Revision: $1",
@@ -46,7 +45,7 @@
 	"coll-personal_collection_label": "libër Personale:",
 	"coll-community_collection_label": "Komuniteti libër:",
 	"coll-save_collection": "Libri Ruaj",
-	"coll-save_category": "Të gjitha librat e ruajtur janë shtuar në [[:Category:{{MediaWiki:Coll-bookscategory }}|{{MediaWiki:Coll-bookscategory}}]]",
+	"coll-save_category": "Të gjitha librat e ruajtur janë shtuar në [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]].",
 	"coll-overwrite_title": "Page ekziston. Mbishkruaj?",
 	"coll-overwrite_text": "Një faqe me të emri [[:$1]] ekziston.\nA ju dëshironi që ajo të zëvendësohet me librin tuaj?",
 	"coll-yes": "Po",
