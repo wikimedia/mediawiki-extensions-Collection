@@ -11,5 +11,6 @@
 	"coll-print_export": "Rakam/èkspor",
 	"coll-create_a_book": "Peugöt kitab",
 	"coll-download_as": "Andam seubagoë $1",
-	"coll-remove_this_page": "Sampôh laman nyoë nibak kitab droëneuh"
+	"coll-remove_this_page": "Sampôh laman nyoë nibak kitab droëneuh",
+	"coll-attribution-anons": "Ureuëng ngui hana meusoë: $1"
 }
