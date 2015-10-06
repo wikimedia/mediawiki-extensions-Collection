@@ -8,7 +8,8 @@
 			"Minisarm",
 			"Stelistcristi",
 			"Strainu",
-			"ImGelu"
+			"ImGelu",
+			"Wintereu"
 		]
 	},
 	"coll-desc": "[[Special:Book|Creare de cărți]]",
@@ -146,7 +147,7 @@
 	"coll-clear_collection_confirm": "Doriți să goliți complet cartea dumneavoastră?",
 	"coll-clear_collection_tooltip": "Eliminarea tuturor paginilor din cartea curentă",
 	"coll-help": "Ajutor",
-	"coll-help_tooltip": "Arată ajutor despre crearea cărților",
+	"coll-help_tooltip": "Afișarea ajutorului pentru crearea cărților",
 	"coll-helppage": "Help:Cărți",
 	"coll-load_collection": "Încărcare carte",
 	"coll-load_collection_tooltip": "Încărcați cartea de față ca actuala dumneavoastră carte",
