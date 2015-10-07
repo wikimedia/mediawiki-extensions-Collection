@@ -61,10 +61,10 @@ abstract class CollectionRenderingAPI {
 	}
 
 	protected function doRender( array $params ) {
-		global $wgScriptPath, $wgScriptExtension, $wgContLang;
+		global $wgScriptPath, $wgContLang;
 
 		$params['base_url'] = wfExpandUrl( $wgScriptPath, PROTO_CURRENT );
-		$params['script_extension'] = $wgScriptExtension;
+		$params['script_extension'] = '.php';
 		$params['language'] = $wgContLang->getCode();
 		return $this->makeRequest( 'render', $params );
 	}
@@ -79,13 +79,13 @@ abstract class CollectionRenderingAPI {
 	 * @return CollectionAPIResult
 	 */
 	public function postZip( $collection, $url ) {
-		global $wgScriptPath, $wgScriptExtension;
+		global $wgScriptPath;
 
 		return $this->makeRequest( 'zip_post',
 			array(
 				'metabook' => $this->buildJSONCollection( $collection ),
 				'base_url' => wfExpandUrl( $wgScriptPath, PROTO_CURRENT ),
-				'script_extension' => $wgScriptExtension,
+				'script_extension' => '.php',
 				'pod_api_url' => $url,
 			)
 		);
@@ -160,7 +160,7 @@ abstract class CollectionRenderingAPI {
 	 * @return string
 	 */
 	protected function buildJSONCollection( $collection ) {
-		global $wgCanonicalServer, $wgScriptPath, $wgScriptExtension;
+		global $wgCanonicalServer, $wgScriptPath;
 
 		$result = array(
 			'type' => 'collection',
@@ -208,7 +208,7 @@ abstract class CollectionRenderingAPI {
 			array(
 				'type' => 'wikiconf',
 				'baseurl' => $wgCanonicalServer . $wgScriptPath,
-				'script_extension' => $wgScriptExtension,
+				'script_extension' => '.php',
 				'format' => 'nuwiki',
 			),
 		);
