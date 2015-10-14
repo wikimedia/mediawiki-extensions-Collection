@@ -1,10 +1,32 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sindhu"
+			"Sindhu",
+			"Aursani"
 		]
 	},
-	"coll-print_export": "پرنٽ/ايڪسپورٽ",
-	"coll-create_a_book": "هڪ ڪتاب تخليق ڪر",
-	"coll-download_as": "$1 طور ڊائونلوڊ ڪريو"
+	"coll-remove": "هٽايو",
+	"coll-show": "نمايو",
+	"coll-move_up": "مٿي چاڙهيو",
+	"coll-move_down": "هيٺ لاهيو",
+	"coll-print_export": "ڇاپيو/برآمد ڪريو",
+	"coll-create_a_book": "ڪتاب تخليق ڪريو",
+	"coll-book_creator": "ڪتاب سرجڻهار",
+	"coll-download_as": "$1 طور اتاريو",
+	"coll-disable": "اڻفعاليو",
+	"coll-book_creator_disable": "ڪتاب سرجڻهار کي اڻفعاليو",
+	"coll-book_creator_disable_tooltip": "ڪتاب سرجڻهار استعمال ڪرڻ بند ڪريو",
+	"coll-add_this_page": "هيءُ صفحو پنهنجي ڪتاب ۾ شامل ڪريو",
+	"coll-add_page_tooltip": "حاليہ وڪي صفحو پنهنجي ڪتاب ۾ شامل ڪريو",
+	"coll-help": "مدد",
+	"coll-help_tooltip": "ڪتاب سرجڻ بابت امدادي مواد نمايو",
+	"coll-helppage": "Help:ڪتاب",
+	"coll-n_pages": "$1 {{PLURAL:$1|صفحو|صفحا}}",
+	"coll-remove_this_page": "پنهنجي ڪتاب مان هيءُ صفحو هٽايو",
+	"coll-show_collection": "ڪتاب نمايو",
+	"coll-show_collection_tooltip": "پنهنجو ڪتاب ترميمڻ/اتارڻ/گھرائڻ لاءِ ڪلڪ ڪريو",
+	"coll-make_suggestions": "صفحا ڏَسيو",
+	"coll-make_suggestions_tooltip": "پنهنجي ڪتاب جي صفحن جي آڌار تي ڏس ڏيو",
+	"coll-attribution-anons": "نامعلوم: $1",
+	"coll-image-attribution": "<b>$1</b> <i>ذريعو:</i> $2 <i>لائيسنس:</i> $3 <i>ڀاڱيدار:</i> $4 <i>اصلوڪو فنڪار:</i> $5"
 }
