@@ -27,8 +27,6 @@
 	"coll-rename_chapter": "Reek n näien Noome foar dät Kapittel ien",
 	"coll-no_such_category": "Sun Kategorie rakt dät nit",
 	"coll-notitle_title": "Die Tittel fon ju Siede kuud nit bestimd wäide.",
-	"coll-mwserve_failed_title": "Serverfailer",
-	"coll-mwserve_failed_msg": "Ap dän Renderer-Server is n Failer aptreeden: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Failermäldenge fon dän Server",
 	"coll-empty_collection": "Loos Bouk",
 	"coll-revision": "Version: $1",

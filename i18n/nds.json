@@ -35,8 +35,6 @@
 	"coll-rename_chapter": "Ne’en Naam för dat Kapittel angeven",
 	"coll-no_such_category": "So’n Kategorie gifft dat nich",
 	"coll-notitle_title": "De Titel vun de Sied kunn nich faststellt warrn.",
-	"coll-mwserve_failed_title": "Render-Serverfehler",
-	"coll-mwserve_failed_msg": "Op’n Render-Server hett dat en Fehler geven: <nowiki>$1</nowiki>",
 	"coll-error_reponse": "Fehlernaricht vun’n Server",
 	"coll-empty_collection": "Leddig Book",
 	"coll-revision": "Version: $1",
