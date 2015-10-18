@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Flrn"
+			"Flrn",
+			"Likopiän tyttö"
 		]
 	},
-	"coll-cancel": "Keskevytä"
+	"coll-remove": "Poissa",
+	"coll-move_up": "Šiirrä ylähäkši",
+	"coll-move_down": "Šiirrä alahakši",
+	"coll-cancel": "Keskevytä",
+	"coll-helppage": "Help:Kirjat"
 }
