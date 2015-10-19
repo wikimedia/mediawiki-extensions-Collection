@@ -6,8 +6,10 @@
 		]
 	},
 	"coll-remove": "Poissa",
+	"coll-show": "Näytä",
 	"coll-move_up": "Šiirrä ylähäkši",
 	"coll-move_down": "Šiirrä alahakši",
 	"coll-cancel": "Keskevytä",
+	"coll-create_a_book": "Luo kirja",
 	"coll-helppage": "Help:Kirjat"
 }
