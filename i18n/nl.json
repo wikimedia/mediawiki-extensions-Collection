@@ -57,7 +57,7 @@
 	"coll-new_chapter": "Voer de naam van het nieuwe hoofdstuk in",
 	"coll-rename_chapter": "Voer een nieuwe naam in voor het hoofdstuk",
 	"coll-no_such_category": "De categorie bestaat niet",
-	"coll-notitle_title": "Kan paginatitel niet verkrijgen",
+	"coll-notitle_title": "Kan paginanaam niet verkrijgen",
 	"coll-notitle_msg": "De titel van de pagina kon niet worden vastgesteld.",
 	"coll-request_failed_title": "Boekweergave is mislukt",
 	"coll-request_failed_msg": "Er is een fout opgetreden bij het maken van uw boek.",
