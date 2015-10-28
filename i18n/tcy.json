@@ -1,11 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"VASANTH S.N."
+			"VASANTH S.N.",
+			"Vishwanatha Badikana",
+			"రహ్మానుద్దీన్"
 		]
 	},
 	"coll-remove": "ದೆಪ್ಪುಲೆ",
 	"coll-show": "ತೊಜಾವು",
+	"coll-move_up": "ಮಿತ್ತ್ ಪೋಲೆ",
+	"coll-move_down": "ತಿರ್ತ್ ಬಲೆ",
 	"coll-print_export": "ಮುದ್ರಿಸಾಲೆ/ಎಕ್ಸ್‍ಪೋರ್ಟ್ ಮಲ್ಪುಲೆ",
 	"coll-create_a_book": "ಪುಸ್ತೊಕೊನ್ ಸೃಜಿಸಾಲೆ",
 	"coll-book_creator": "ಪುಸ್ತಕ ಬರೆಯಿನಾರ್",
@@ -18,6 +22,8 @@
 	"coll-remove_this_page": "ಇರೆನ ಪುಸ್ತಕೊಡ್‍ದ್ ಈ ಪುಟೊನು ದೆಪ್ಪುಲೆ",
 	"coll-show_collection": "ಪುಸ್ತೊಕೊನು ತೋಜಾಲೆ",
 	"coll-make_suggestions": "ಪುಟಕ್ಲೆನ ಸಲಹೆ ಕೊರ್ಲೆ",
+	"coll-make_suggestions_tooltip": "ನಿಕ್ಲೆನ ಬೂಕುದ ಪಾಲೆಡ್ ಉಪ್ಪುಲೆಕೊ ಸೂಚನೆ ಕೊರ್ಲೆ",
 	"coll-attribution-anons": "ಅನಾಮಿಕೆ:$1",
-	"coll-article-attribution": "<b>$1</b> <i>ಮೂಲ:</i> $2 <i>ಸಹಾಯ ಮಲ್ತಿನಕುಲು:</i> $3"
+	"coll-article-attribution": "<b>$1</b> <i>ಮೂಲ:</i> $2 <i>ಸಹಾಯ ಮಲ್ತಿನಕುಲು:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>ಮೂಲ:</i> $2 <i>ಲೈಸನ್ಸ್:</i> $3 <i>ದಾನಿಲು:</i> $4 <i>ಮೂಲ ಕಲಾವಿದೆರ್:</i> $5"
 }
