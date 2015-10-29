@@ -4,7 +4,10 @@
 			"Hugo.arg"
 		]
 	},
+	"coll-remove": "Ėštrintė",
 	"coll-show": "Ruodītė",
+	"coll-move_up": "Pastomtė aukštīnuo",
+	"coll-move_down": "Pastomtė žemīnuo",
 	"coll-update": "Atšvėižiet",
 	"coll-print_export": "Ėšgoldītė/Eksportoutė",
 	"coll-create_a_book": "Dėrbtė kninga",
@@ -13,7 +16,9 @@
 	"coll-help": "Pagelba",
 	"coll-helppage": "Help:Kningas",
 	"coll-n_pages": "$1 {{PLURAL:$1|poslapis|poslapē|poslapiu}}",
+	"coll-remove_this_page": "Pašalėntė poslapi ėš Tamstas kningas",
 	"coll-show_collection": "Ruodītė kninga",
 	"coll-make_suggestions": "Siūluomė poslapē",
-	"coll-attribution-anons": "Anuonėms: $1"
+	"coll-attribution-anons": "Anuonėms: $1",
+	"coll-image-attribution": "<b>$1</b> <i>Šaltėnis:</i> $2 <i>Lėcencėjė:</i> $3 <i>Duovi pridiejė:</i> $4 <i>Kūries:</i> $5"
 }
