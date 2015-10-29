@@ -196,7 +196,7 @@ $wgExtensionMessagesFiles['CollectionAlias'] = $dir . 'Collection.alias.php';
 $wgSpecialPages['Book'] = 'SpecialCollection';
 
 $wgHooks['SkinTemplateBuildNavUrlsNav_urlsAfterPermalink'][] = 'CollectionHooks::buildNavUrls';
-$wgHooks['SkinBuildSidebar'][] = 'CollectionHooks::buildSidebar';
+$wgHooks['SidebarBeforeOutput'][] = 'CollectionHooks::buildSidebar';
 $wgHooks['SiteNoticeAfter'][] = 'CollectionHooks::siteNoticeAfter';
 $wgHooks['OutputPageCheckLastModified'][] = 'CollectionHooks::checkLastModified';
 $wgExtensionFunctions[] = 'CollectionHooks::onSetup';
