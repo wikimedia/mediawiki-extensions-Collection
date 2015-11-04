@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Tifinaghes"
+			"Tifinaghes",
+			"ⵕⴰⵊⵉ"
 		]
 	},
 	"coll-collection": "ⴰⴷⵍⵉⵙ",
@@ -40,7 +41,7 @@
 	"coll-add_page_tooltip": "ⵔⵏⵓ ⵜⴰⵙⵏⴰ ⵏ ⵡⵉⴽⵉ ⴰⴷ ⵖⵔ ⵓⴷⵍⵉⵙ ⵏⴽ",
 	"coll-bookscategory": "ⵉⴷⵍⵉⵙⵏ",
 	"coll-help": "ⵜⵉⵡⵉⵙⵉ",
-	"coll-helppage": "ⵜⵉⵡⵉⵙⵉ:ⵉⴷⵍⵉⵙⵏ",
+	"coll-helppage": "Help:ⵉⴷⵍⵉⵙⵏ",
 	"coll-load_collection": "ⵣⴷⴻⵎ ⴰⴷⵍⵉⵙ",
 	"coll-suggest_empty": "ⵓⵔ ⴷⵉⵙ ⴰⵎⵢⴰ"
 }
