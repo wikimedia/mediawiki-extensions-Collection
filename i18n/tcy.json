@@ -3,15 +3,16 @@
 		"authors": [
 			"VASANTH S.N.",
 			"Vishwanatha Badikana",
-			"రహ్మానుద్దీన్"
+			"రహ్మానుద్దీన్",
+			"Bharathesha Alasandemajalu"
 		]
 	},
 	"coll-remove": "ದೆಪ್ಪುಲೆ",
 	"coll-show": "ತೋಜಾವು",
 	"coll-move_up": "ಮಿತ್ತ್ ಪೋಲೆ",
 	"coll-move_down": "ತಿರ್ತ್ ಬಲೆ",
-	"coll-print_export": "ಮುದ್ರಿಸಾಲೆ/ಎಕ್ಸ್‌ಪೋರ್ಟ್ ಮಲ್ಪುಲೆ",
-	"coll-create_a_book": "ಬೂಕುನು ಸ್ರಿಸ್ಟಿಸಲೆ",
+	"coll-print_export": "ಮುದ್ರಿಸಾಲೆ/ವರ್ಗಾವಣೆ",
+	"coll-create_a_book": "ಬೂಕುನು ಉಂಡು ಮಾನ್ಪುಲೇ",
 	"coll-book_creator": "ಬೂಕ್ ಬರೆಯಿನಾರ್",
 	"coll-download_as": "$1 ಪಂಡ್‍ದ್ ಡೌನ್‍ಲೋಡ್ ಮಲ್ಪುಲೆ",
 	"coll-disable": "ಉಂತಾಲೆ",
