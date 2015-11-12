@@ -8,7 +8,8 @@
 			"Peter Alberti",
 			"Thomas81",
 			"Thomsen",
-			"MGA73"
+			"MGA73",
+			"Ribewiki"
 		]
 	},
 	"coll-desc": "[[Special:Book|Skab bøger]]",
@@ -51,7 +52,7 @@
 	"coll-new_chapter": "Indtast navnet på nyt kapitel",
 	"coll-rename_chapter": "Indtast nyt navn til kapitel",
 	"coll-no_such_category": "Ingen kategori med det navn",
-	"coll-notitle_title": "Sidens titel kunne ikke bestemmes.",
+	"coll-notitle_title": "Fandt ikke sidens titel",
 	"coll-error_reponse": "Fejlrespons fra serveren",
 	"coll-empty_collection": "Tom bog",
 	"coll-revision": "Version: $1",
@@ -117,7 +118,7 @@
 	"coll-suggest_article_remove": "Siden <strong>$1</strong> er blevet fjernet fra din bog ($2).",
 	"coll-suggest_undo_tooltip": "Fortryd denne handling",
 	"coll-suggest_undo": "fortryd",
-	"coll-load_local_book": "Klik på OK for at fortsætte med din bog, $1, som indeholder $2 wikisider. Klik på Cancel for at slette den og begynde forfra med en tom bog.",
+	"coll-load_local_book": "Klik på OK for at fortsætte med din bog, $1, som indeholder $2 {{PLURAL:$2|side|sider}}. Klik på Cancel for at slette den og starte med en tom bog.",
 	"coll-format-rl": "e-bog (PDF, mwlib renderer)",
 	"coll-format-epub": "e-bog (EPUB)",
 	"coll-format-odf": "tekstbehandling (OpenDocument)",

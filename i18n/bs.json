@@ -9,7 +9,7 @@
 			"Srdjan m"
 		]
 	},
-	"coll-desc": "[[Special:Book|Napravite knjige]]",
+	"coll-desc": "[[Special:Book|Omogućava pravljenje knjiga]]",
 	"coll-book_creator_intro": "<big>Pomoću ''pravljenja knjiga'' možete napraviti knjigu koja sadrži wiki stranice po Vašem izboru. Možete izvesti knjigu u raznim formatima (na primjer PDF ili ODF) ili naručiti štampanu kopiju.</big>",
 	"coll-manage_your_book": "Upravljanje Vašom knjigom",
 	"coll-book_creator_help": "Pogledajte [[{{MediaWiki:Coll-helppage}}|stranicu pomoći za knjige]] za više informacija.",
