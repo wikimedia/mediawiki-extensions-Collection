@@ -85,6 +85,7 @@
 	"coll-helppage": "Help:Grāmatas",
 	"coll-load_collection": "Ielādēt grāmatu",
 	"coll-load_collection_tooltip": "Ielādēt šo grāmatu kā Jūsu pašreizējo grāmatu",
+	"coll-n_pages": "$1 {{PLURAL:$1|lapas|lapa|lapas}}",
 	"coll-printable_version_pdf": "PDF versija",
 	"coll-remove_this_page": "Izņemt šo lapu no Jūsu grāmatas",
 	"coll-remove_page_tooltip": "Izņemt pašreizējo viki lapu no Jūsu grāmatas",
@@ -95,5 +96,6 @@
 	"coll-make_suggestions_tooltip": "Parādīt ieteikumus, ņemot vērā lapas Jūsu grāmatā",
 	"coll-suggest_empty": "tukšs",
 	"coll-setting-papersize": "Papīra izmērs:",
-	"coll-attribution-anons": "Anonīms: $1"
+	"coll-attribution-anons": "Anonīms: $1",
+	"coll-article-attribution": "<b>$1</b> <i>Avots:</i> $2 <i>Dalībnieki:</i> $3"
 }
