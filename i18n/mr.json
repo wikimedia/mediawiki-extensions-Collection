@@ -60,7 +60,7 @@
 	"coll-notitle_title": "या पानाचे शीर्षक मिळविता आले नाही.",
 	"coll-notitle_msg": "या पानाचे शिर्षक ठरविता आले नाही.",
 	"coll-request_failed_title": "पुस्तक निर्दोष करणे अयशस्वी",
-	"coll-request_failed_msg": "आपल्या पुस्तकाच्या निर्दोषीकरणात त्रूटी उद्भवली.",
+	"coll-request_failed_msg": "आपल्या पुस्तकास देण्याचा प्रयत्न करतांना त्रुटी उद्भवली.",
 	"coll-error_reponse": "सर्व्हर कडून चुक झाल्याचा प्रतिसाद आलेला आहे",
 	"coll-empty_collection": "रिकामे ग्रंथ",
 	"coll-revision": "आवृत्ती: $1",
