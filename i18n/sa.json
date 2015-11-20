@@ -156,5 +156,6 @@
 	"coll-setting-toc-no": "न",
 	"coll-setting-columns": "स्तम्भाः :",
 	"coll-attribution-anons": "$1 अनामकः",
-	"coll-article-attribution": "<b>$1</b> <i>स्रोतः:</i> $2 <i>योजकाः:</i> $3"
+	"coll-article-attribution": "<b>$1</b> <i>स्रोतः:</i> $2 <i>योजकाः:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>स्रोतः :</i> $2 <i>उपयोगसंस्थितः :</i> $3 <i>योगदानकर्ता :</i> $4 <i>मूलकलाकार :</i> $5"
 }
