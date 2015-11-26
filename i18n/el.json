@@ -149,7 +149,7 @@
 	"coll-help_tooltip": "Εμφάνιση βοήθειας για τη δημιουργία βιβλίων",
 	"coll-helppage": "Help:Βιβλία",
 	"coll-load_collection": "Φόρτωση βιβλίου",
-	"coll-load_collection_tooltip": "Επιφόρτωση αυτού του βιβλίου ως του τρέχοντός σας βιβλίου",
+	"coll-load_collection_tooltip": "Ανέβασμα αυτού του βιβλίου ως του τρέχοντός βιβλίου σας",
 	"coll-n_pages": "$1 {{PLURAL:$1|σελίδα|σελίδες}}",
 	"coll-printable_version_pdf": "έκδοση PDF",
 	"coll-remove_this_page": "Αφαίρεση αυτής της σελίδα από το βιβλίο σας",
