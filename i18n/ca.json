@@ -13,7 +13,8 @@
 			"Fitoschido",
 			"Papapep",
 			"Joan manel",
-			"Qllach"
+			"Qllach",
+			"Jaumeortola"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crea llibres]]",
@@ -74,7 +75,7 @@
 	"coll-load_overwrite_text": "Ja teniu algunes pàgines al vostre llibre.\nVoleu sobreescriure el vostre llibre actual, annexar el nou contingut, o canceŀlar la càrrega d'aquest llibre?",
 	"coll-overwrite": "Sobreescriu",
 	"coll-append": "Annexa",
-	"coll-cancel": "Canceŀla",
+	"coll-cancel": "Cancel·la",
 	"coll-update": "Actualitza",
 	"coll-limit_exceeded_title": "Llibre massa gran",
 	"coll-limit_exceeded_text": "El vostre llibre és massa gran.\nNo es poden afegir més pàgines.",
@@ -135,7 +136,7 @@
 	"coll-create_a_book": "Crea un llibre",
 	"coll-create_a_book_tooltip": "Crea un llibre o una col·lecció de pàgines",
 	"coll-book_creator": "Creador de llibres",
-	"coll-download_as": "Descarrega com $1",
+	"coll-download_as": "Descarrega com a $1",
 	"coll-download_as_tooltip": "Descarrega una versió $1 d'aquesta pàgina wiki",
 	"coll-disable": "inhabilita",
 	"coll-book_creator_disable": "Desactiva el creador de llibres",
