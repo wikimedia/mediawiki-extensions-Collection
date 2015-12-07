@@ -64,7 +64,7 @@
 	"coll-save_category": "Kıtabi ke beni qeyd heme debeni kategori da [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]]",
 	"coll-overwrite_title": "Pela xora est a.\nŞıma qayıli sero bınusni?",
 	"coll-overwrite_text": "Yew pel ser nameyê [[:$1]]î xora esto.\nTi wazeno ey kitab pê kitabê xo rê bivurne?",
-	"coll-yes": "E",
+	"coll-yes": "Eya",
 	"coll-no": "Nê",
 	"coll-load_overwrite_text": "Kıtabê to de xora tayê peli estê. \nTı wazena kıtabê xoyê nıkayêni sero bınusê, zerrekê neweyi ilawe kerê ya zi barkerdışê nê kıtabi bıtexelnê?",
 	"coll-overwrite": "Sero binuş",
