@@ -72,7 +72,7 @@
 	"coll-overwrite_text": "Ja existeix una pàgina amb el mateix nom [[:$1]].\nVoleu substituir-la amb el vostre llibre?",
 	"coll-yes": "Sí",
 	"coll-no": "No",
-	"coll-load_overwrite_text": "Ja teniu algunes pàgines al vostre llibre.\nVoleu sobreescriure el vostre llibre actual, annexar el nou contingut, o canceŀlar la càrrega d'aquest llibre?",
+	"coll-load_overwrite_text": "Ja teniu algunes pàgines al vostre llibre.\nVoleu sobreescriure el vostre llibre actual, annexar el nou contingut, o cancel·lar la càrrega d'aquest llibre?",
 	"coll-overwrite": "Sobreescriu",
 	"coll-append": "Annexa",
 	"coll-cancel": "Cancel·la",
