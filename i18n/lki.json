@@ -1,14 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hosseinblue"
+			"Hosseinblue",
+			"Arash71",
+			"Lakzon"
 		]
 	},
 	"coll-remove": "پاکاکردن",
 	"coll-show": "نیشان دائن",
 	"coll-move_up": "إ بلنگ چئن",
 	"coll-move_down": "إ هووار هۀتن",
-	"coll-print_export": "چاپ/دۀر بردن",
+	"coll-no_such_category": "هانة رده/ڕِزگ وجود نئرێ",
+	"coll-print_export": "چاپ/دةر بردن",
 	"coll-create_a_book": "کتاووئ دؤرس کۀ",
 	"coll-book_creator": "کتاب‌ساز",
 	"coll-download_as": "گرتن به‌صورت $1",
