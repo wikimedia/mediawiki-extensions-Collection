@@ -36,7 +36,7 @@
 	"coll-noscript_text": "<h1>Es necessita JavaScript!</h1>\n<strong>El vostre navegador no admet el JavaScript o el té desactivat.\nAquesta pàgina no funcionarà correctament si no l'activeu.</strong>",
 	"coll-savedbook_template": "llibre_desat",
 	"coll-your_book": "El vostre llibre",
-	"coll-download_title": "Descarrega",
+	"coll-download_title": "Baixa",
 	"coll-download_text": "Per a descarregar el vostre llibre escolliu el format i cliqueu el botó.",
 	"coll-download_as_text": "Per a descarregar el vostre llibre en format $1 cliqueu el botó.",
 	"coll-download": "Baixa",

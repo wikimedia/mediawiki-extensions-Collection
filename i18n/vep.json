@@ -35,10 +35,14 @@
 	"coll-license": "Licenzii",
 	"coll-suggest_your_book": "Teiden kirj",
 	"coll-suggest_show": "ozutada",
+	"coll-print_export": "Painda vai eksportiruida",
 	"coll-create_a_book": "Säta kirj",
+	"coll-download_as": "Kormakat kut $1",
 	"coll-bookscategory": "Kirjad",
 	"coll-help": "Abu",
 	"coll-helppage": "Help:Kirjad",
 	"coll-printable_version_pdf": "PDF-versii",
-	"coll-suggest_empty": "pall'az"
+	"coll-remove_this_page": "Čuta nece lehtpol' teiden kirjaspäi",
+	"coll-suggest_empty": "pall'az",
+	"coll-image-attribution": "<b>$1</b> <i>Purde:</i> $2 <i>Licenzii:</i> $3 <i>Avtorad:</i> $4 <i>Originaline pirdai:</i> $5"
 }
