@@ -77,7 +77,7 @@
 	"coll-rendering_text": "<p><strong>Yew di dekika vinder nika dokumant ho viraziyeno.</strong></p>\n\n<p><strong>Progress:</strong> <span id=\"renderingProgress\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p>Ena pele gani xo xo otomatik rocaniye biko.\nEka ena nihebitiyeno, ma rica keno browser xo reyna ciwane bike</p>",
 	"coll-rendering_status": "strong>Weziyet:</strong> $1",
 	"coll-rendering_article": "(pela wiki: $1)",
-	"coll-rendering_page": "(pel: $1)",
+	"coll-rendering_page": "(pele: $1)",
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Enformasyonê nuştişê pele render keni",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Enformasyonê tope pele render keni",
 	"coll-rendering_finished_title": "Vıraştış qediya",
