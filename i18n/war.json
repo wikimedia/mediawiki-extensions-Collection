@@ -153,6 +153,8 @@
 	"coll-make_suggestions": "Pag-suggest hin mga pakli",
 	"coll-make_suggestions_tooltip": "Igpakita na suhistiyon base han mga pakli han imo libro",
 	"coll-suggest_empty": "waray sulod",
+	"coll-setting-toc-yes": "Oo",
+	"coll-setting-toc-no": "Diri",
 	"coll-attribution-anons": "Waray nagpakilala: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Tinikangan:</i> $2 <i>Mga mag-aamot:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Ginkuhaan:</i> $2 <i>Lisensya:</i> $3 <i>Mga kontributor:</i> $4 <i>Orihinal nga artist:</i> $5"
