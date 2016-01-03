@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"V6rg"
+			"V6rg",
+			"شیخ"
 		]
 	},
 	"coll-download_title": "جيرأکشئن",
@@ -24,7 +25,14 @@
 	"coll-download_failed_title": "جيرأکشئنˇ مئن سأب بۊبؤ",
 	"coll-about_pp": "$1 خبري",
 	"coll-create_a_book": "ىکته کتاب چاکۊنين",
+	"coll-book_creator": "کيتاب چاکۊن",
+	"coll-disable": "غىرفعال گۊدن",
+	"coll-add_this_page": "اي ولگه شيمي کيتابه علاوه بکۊنين",
 	"coll-help": "رانما",
+	"coll-helppage": "Help:کيتابؤن",
+	"coll-show_collection": "کيتابه نۊشؤن دأن",
+	"coll-make_suggestions": "ولگي پيش بني",
 	"coll-setting-toc-yes": "أهأ",
-	"coll-setting-toc-no": "نأ"
+	"coll-setting-toc-no": "نأ",
+	"coll-attribution-anons": "ناشيناس: $1"
 }
