@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ninjastrikers"
+		]
+	},
+	"coll-remove": "ဖယ်ရှားရန်",
+	"coll-show": "ပြ",
+	"coll-move_up": "အပေါ်ရွှေ့ရန်",
+	"coll-move_down": "အောက်သို့ရွှေ့ရန်",
+	"coll-print_export": "ပရင့်/ပို့လွှတ်",
+	"coll-create_a_book": "စာအုပ် ဖန်တီးရန်",
+	"coll-book_creator": "စာအုပ် ဖန်တီးသူ",
+	"coll-download_as": "$1 အနေဖြင့် ရယူရန်",
+	"coll-disable": "ပိတ်ထားသည်",
+	"coll-help": "အကူအညီ",
+	"coll-helppage": "Help:စာအုပ်များ",
+	"coll-n_pages": "$1 {{PLURAL:$1|စာမျက်နှာ|စာမျက်နှာများ}}",
+	"coll-remove_this_page": "ဤစာမျက်နှာကို သင့်စာအုပ်ထဲမှ ဖယ်ရှားရန်",
+	"coll-show_collection": "စာအုပ်ကို ပြရန်",
+	"coll-make_suggestions": "အကြံပြု စာမျက်နှာများ",
+	"coll-article-attribution": "<b>$1</b> <i>ရင်းမြစ်:</i> $2 <i>ဆောင်ရွက်သူများ:</i> $3"
+}
