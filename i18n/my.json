@@ -14,10 +14,14 @@
 	"coll-download_as": "$1 အနေဖြင့် ရယူရန်",
 	"coll-disable": "ပိတ်ထားသည်",
 	"coll-help": "အကူအညီ",
+	"coll-help_tooltip": "စာအုပ်များဖန်တီးခြင်းအတွက် အကူအညီ ပြသရန်",
 	"coll-helppage": "Help:စာအုပ်များ",
 	"coll-n_pages": "$1 {{PLURAL:$1|စာမျက်နှာ|စာမျက်နှာများ}}",
 	"coll-remove_this_page": "ဤစာမျက်နှာကို သင့်စာအုပ်ထဲမှ ဖယ်ရှားရန်",
 	"coll-show_collection": "စာအုပ်ကို ပြရန်",
+	"coll-show_collection_tooltip": "သင့်စာအုပ်ကို ပြင်ဆင်/ရယူ/မှာယူရန် ကလစ်နှိပ်ပါ",
 	"coll-make_suggestions": "အကြံပြု စာမျက်နှာများ",
-	"coll-article-attribution": "<b>$1</b> <i>ရင်းမြစ်:</i> $2 <i>ဆောင်ရွက်သူများ:</i> $3"
+	"coll-attribution-anons": "အမည်မသိ အသုံးပြုသူ - $1",
+	"coll-article-attribution": "<b>$1</b> <i>ရင်းမြစ်:</i> $2 <i>ဆောင်ရွက်သူများ:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>ရင်းမြစ် -</i> $2 <i>လိုင်စင် -</i> $3 <i>ဆောင်ရွက်ထားသူများ -</i> $4 <i>မူရင်း ရေးသားသူ -</i> $5"
 }
