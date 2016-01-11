@@ -55,5 +55,6 @@
 	"coll-make_suggestions": "सुझाव कऽ पन्ना",
 	"coll-make_suggestions_tooltip": "आपनेके किताबके पन्नाके अनुसार सुझाव देखाऊ",
 	"coll-attribution-anons": "अनामित: $1",
-	"coll-article-attribution": "<b>$1</b> <i>स्रोत:</i> $2 <i>योगदानकर्ता:</i> $3"
+	"coll-article-attribution": "<b>$1</b> <i>स्रोत:</i> $2 <i>योगदानकर्ता:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>स्रोत:</i> $2 <i>लाइसेन्स:</i> $3 <i>योगदानकर्ता:</i> $4 <i>मूल कलाकार:</i> $5"
 }
