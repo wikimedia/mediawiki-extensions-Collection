@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Poiuyt"
+			"Poiuyt",
+			"飞舞回堂前"
 		]
 	},
 	"coll-remove": "删脱",
@@ -17,7 +18,7 @@
 	"coll-book_creator_disable": "停用图书创建器",
 	"coll-book_creator_disable_tooltip": "停用图书创建器",
 	"coll-add_this_page": "拿本页面加到你个图书里",
-	"coll-add_page_tooltip": "拿本维基页面加到你的图书里",
+	"coll-add_page_tooltip": "拿本维基页面加进侬个图书里",
 	"coll-help": "帮忙",
 	"coll-help_tooltip": "显示有关创建图书个帮助",
 	"coll-helppage": "Help:图书",
