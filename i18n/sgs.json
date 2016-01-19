@@ -11,6 +11,7 @@
 	"coll-update": "Atšvėižiet",
 	"coll-print_export": "Ėšgoldītė/Eksportoutė",
 	"coll-create_a_book": "Dėrbtė kninga",
+	"coll-book_creator": "Kningas kūries",
 	"coll-download_as": "Siōstėis $1 skvarmuo",
 	"coll-disable": "ėšjongtė",
 	"coll-help": "Pagelba",
@@ -20,5 +21,6 @@
 	"coll-show_collection": "Ruodītė kninga",
 	"coll-make_suggestions": "Siūluomė poslapē",
 	"coll-attribution-anons": "Anuonėms: $1",
+	"coll-article-attribution": "<b>$1</b> <i>Šaltėnis:</i> $2 <i>Kūriejē:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Šaltėnis:</i> $2 <i>Lėcencėjė:</i> $3 <i>Duovi pridiejė:</i> $4 <i>Kūries:</i> $5"
 }
