@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gazimagomedov"
+			"Gazimagomedov",
+			"Аль-Гимравий"
 		]
 	},
-	"coll-remove": "БацIцIизе",
+	"coll-remove": "БацIцIине",
 	"coll-show": "Бихьизабизе",
 	"coll-move_up": "ТӀадегӀан цузе",
 	"coll-move_down": "Гъоркьехун къазабизе",
