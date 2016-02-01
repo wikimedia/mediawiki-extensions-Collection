@@ -4,7 +4,10 @@
 			"Katxis"
 		]
 	},
+	"coll-remove": "Rimuuv",
 	"coll-show": "Shuo",
+	"coll-move_up": "Muuvop",
+	"coll-move_down": "Muuvdong",
 	"coll-print_export": "Print/expuot",
 	"coll-create_a_book": "Kriet buk",
 	"coll-download_as": "Dongluod az $1"
