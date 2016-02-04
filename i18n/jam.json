@@ -10,5 +10,10 @@
 	"coll-move_down": "Muuvdong",
 	"coll-print_export": "Print/expuot",
 	"coll-create_a_book": "Kriet buk",
-	"coll-download_as": "Dongluod az $1"
+	"coll-book_creator": "Buk krieta",
+	"coll-download_as": "Dongluod az $1",
+	"coll-help": "Elp",
+	"coll-helppage": "Elp:Buk",
+	"coll-show_collection": "Shuo buk",
+	"coll-make_suggestions": "Sojes soh piej"
 }
