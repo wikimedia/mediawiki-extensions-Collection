@@ -12,8 +12,16 @@
 	"coll-create_a_book": "Kriet buk",
 	"coll-book_creator": "Buk krieta",
 	"coll-download_as": "Dongluod az $1",
+	"coll-disable": "disiebl",
+	"coll-book_creator_disable": "Disiebl buk krieta",
+	"coll-book_creator_disable_tooltip": "Tap yuuz di buk krieta",
+	"coll-add_this_page": "Ad dis piej tu yu buk",
+	"coll-add_page_tooltip": "Ad di korant wiki piej tu yu buk",
 	"coll-help": "Elp",
-	"coll-helppage": "Elp:Buk",
+	"coll-help_tooltip": "Shuo elp bout ou fi kriet buk",
+	"coll-helppage": "Help:Buk",
 	"coll-show_collection": "Shuo buk",
-	"coll-make_suggestions": "Sojes soh piej"
+	"coll-show_collection_tooltip": "Klik fi edit/dongluod/aada yu buk",
+	"coll-make_suggestions": "Sojes soh piej",
+	"coll-make_suggestions_tooltip": "Shuo sojeshan bies pah di piejdem ina yu buk"
 }
