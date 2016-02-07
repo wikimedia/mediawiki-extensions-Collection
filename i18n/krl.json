@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Flrn",
-			"Likopiän tyttö"
+			"Likopiän tyttö",
+			"Mashoi7"
 		]
 	},
 	"coll-remove": "Poissa",
@@ -11,6 +12,10 @@
 	"coll-move_down": "Šiirrä alahakši",
 	"coll-cancel": "Keskevytä",
 	"coll-create_a_book": "Luo kirja",
+	"coll-download_as": "Pane talteh $1:nä",
+	"coll-help": "Apu",
 	"coll-helppage": "Help:Kirjat",
-	"coll-show_collection": "Näytä kirja"
+	"coll-n_pages": "$1 {{PLURAL:$1|šivu|šivuu}}",
+	"coll-show_collection": "Näytä kirja",
+	"coll-make_suggestions": "Ehotetut šivut"
 }
