@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"OC Ripper",
-			"Wikiwind"
+			"Wikiwind",
+			"Conquistador"
 		]
 	},
 	"coll-desc": "[[Special:Book|Napravi knjigu]]",
@@ -116,7 +117,7 @@
 	"coll-format-epub": "e-knjiga (EPUB)",
 	"right-collectionsaveasuserpage": "Spremi knjige kao korisničku stranicu",
 	"right-collectionsaveascommunitypage": "Spremi knjige kao stranicu zajednice",
-	"coll-print_export": "Ispis/извоз",
+	"coll-print_export": "Ispis/izvoz",
 	"coll-create_a_book": "Napravi knjigu",
 	"coll-create_a_book_tooltip": "Napravi knjigu ili kolekciju članaka",
 	"coll-book_creator": "Kreator knjiga",
