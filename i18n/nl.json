@@ -139,7 +139,7 @@
 	"coll-format-docbook": "DocBook",
 	"coll-format-okawix_zeno": "Okawix",
 	"coll-format-rdf2latex": "e-boek (PDF, ocg-latex renderer)",
-	"coll-format-rdf2text": "Tekstverwerker (platte tekst)",
+	"coll-format-rdf2text": "Tekstverwerker (tekst zonder opmaak)",
 	"right-collectionsaveasuserpage": "Boeken opslaan als gebruikerspagina",
 	"right-collectionsaveascommunitypage": "Boeken opslaan als gemeenschapspagina",
 	"coll-print_export": "Afdrukken/exporteren",
