@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"唐吉訶德的侍從"
+		]
+	},
+	"coll-print_export": "拍印/匯出",
+	"coll-create_a_book": "寫成書",
+	"coll-download_as": "下載成 $1"
+}
