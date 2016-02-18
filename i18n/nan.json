@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Ianbu",
-			"唐吉訶德的侍從"
+			"唐吉訶德的侍從",
+			"Luuva"
 		]
 	},
 	"coll-remove": "刣掉",
@@ -11,5 +12,6 @@
 	"coll-move_down": "向下跤徙",
 	"coll-print_export": "Phah-ìn/hoē-chhut",
 	"coll-create_a_book": "siá chi̍t-pún chheh",
-	"coll-download_as": "Hā-chài choè $1"
+	"coll-download_as": "Hā-chài choè $1",
+	"coll-remove_this_page": "Tùi chheh lāi sóa cháu pún ia̍h"
 }
