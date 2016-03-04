@@ -7,7 +7,8 @@
 			"Matasg",
 			"Hugo.arg",
 			"Tomasdd",
-			"Albertas"
+			"Albertas",
+			"Zygimantus"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kurti knygas]]",
@@ -163,7 +164,7 @@
 	"coll-printable_version_pdf": "PDF versija",
 	"coll-remove_this_page": "Pašalinti šį puslapį iš jūsų knygos",
 	"coll-remove_page_tooltip": "Pašalinti dabartinį wiki puslapį iš jūsų knygos",
-	"coll-show_collection": "Rodyti knyga",
+	"coll-show_collection": "Rodyti knygą",
 	"coll-show_collection_tooltip": "Spustelėkite norėdami redaguoti/atsisiųsti/užsisakyti savo knygą",
 	"coll-not_addable": "Šis puslapis negali būti pridėtas",
 	"coll-make_suggestions": "Siūlyti puslapius",

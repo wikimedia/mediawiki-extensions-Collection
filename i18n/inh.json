@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"Sapral Mikail"
+			"Sapral Mikail",
+			"Adam-Yourist"
 		]
 	},
 	"coll-collection": "Китаб",
@@ -14,6 +15,7 @@
 	"coll-download_notfound_title": "Паьл корая яц",
 	"coll-suggest_your_book": "Хьа китаб",
 	"coll-suggest_show": "хьахокха",
+	"coll-create_a_book": "Жай кхолла",
 	"coll-bookscategory": "Китабаш",
 	"coll-clear_collection": "Китаба цӀенае",
 	"coll-help": "Новкъoстал",
