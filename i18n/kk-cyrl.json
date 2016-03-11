@@ -123,7 +123,7 @@
 	"coll-create_a_book": "Кітап жасау",
 	"coll-create_a_book_tooltip": "Кітап немесе мақалалар топтамасын жасау",
 	"coll-book_creator": "Кітап жасаушы құралы",
-	"coll-download_as": "$1 түрінде жүктеп алу",
+	"coll-download_as": "$1 түрінде түсіріп алу",
 	"coll-download_as_tooltip": "Бұл беттің $1 нұсқасын жүктеп алу",
 	"coll-disable": "өшіру",
 	"coll-book_creator_disable": "Кітап жасаушы құралын өшіру",
