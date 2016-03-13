@@ -3,7 +3,8 @@
 		"authors": [
 			"Helix84",
 			"Mormegil",
-			"TomášPolonec"
+			"TomášPolonec",
+			"Danny B."
 		]
 	},
 	"coll-desc": "[[Special:Book|Tvorba kníh]]",
@@ -23,7 +24,7 @@
 	"coll-couldnotremovearticle_title": "Wiki stránku nebolo možné odstrániť",
 	"coll-couldnotremovearticle_msg": "Wiki stránku nebolo možné odstrániť.",
 	"coll-noscript_text": "<h1>Vyžaduje sa JavaScript!</h1>\n<strong>Váš prehliadač nepodporuje JavaScript alebo máte JavaScript vypnutý.\nTáto stránka nebude správne fungovať ak nezapnete JavaScript.</strong>",
-	"coll-savedbook_template": "uložená_kniha",
+	"coll-savedbook_template": "Uložená kniha",
 	"coll-your_book": "Vaša kniha",
 	"coll-download_title": "Stiahnuť",
 	"coll-download_text": "Po zvolení formátu a kliknutí na tlačidlo si môžete svoju knihu stiahnuť.",

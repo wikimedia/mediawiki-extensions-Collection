@@ -25,7 +25,7 @@
 	"coll-couldnotremovearticle_title": "Stránka nemohla být odebrána",
 	"coll-couldnotremovearticle_msg": "Nepodařilo se odebrat stránku.",
 	"coll-noscript_text": "<h1>Je vyžadován JavaScript!</h1>\n<strong>Váš prohlížeč nepodporuje JavaScript nebo máte JavaScript vypnutý.\nTato stránka nebude správně fungovat, dokud JavaScript nezapnete.</strong>",
-	"coll-savedbook_template": "uložená_kniha",
+	"coll-savedbook_template": "Uložená kniha",
 	"coll-your_book": "Vaše kniha",
 	"coll-download_title": "Stáhnout",
 	"coll-download_text": "Pro stažení knihy si zvolte formát a klikněte na tlačítko.",
