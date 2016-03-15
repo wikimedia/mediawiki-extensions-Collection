@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Baloch Afghanistan"
+			"Baloch Afghanistan",
+			"Ibrahim khashrowdi"
 		]
 	},
 	"coll-collection": "کتاب",
@@ -12,8 +13,8 @@
 	"coll-format_label": "فرمت:",
 	"coll-remove": "پاک کورتین",
 	"coll-show": "نشان داتین",
-	"coll-move_up": "حرکت کورتین بئ بُرزگا",
-	"coll-move_down": "حرکت کورتین بئ جهلگا",
+	"coll-move_up": "حرکت بِه بُرزگا",
+	"coll-move_down": "حرکت بِه جهلگا",
 	"coll-rename": "نام ئی گردینتین",
 	"coll-yes": "هان",
 	"coll-no": "نه",
@@ -24,14 +25,14 @@
 	"coll-suggest_undo": "بیئرگردینتین",
 	"coll-format-okawix_zeno": "اوکاویکس",
 	"coll-print_export": "چاپ/درکورتین",
-	"coll-create_a_book": "کتاب ئی جۆڑ کورتین",
+	"coll-create_a_book": "کتاب‌ئی جۆڑ کورتین",
 	"coll-book_creator": "کتاب جۆڑ کنۆک",
-	"coll-download_as": "اِئیر کورتین بئ $1 ئی رکما",
+	"coll-download_as": "اِئیر کورتین بِه $1‌ئی رقما",
 	"coll-disable": "شه کار پرینتین",
 	"coll-book_creator_disable": "کتاب جۆڑ کنۆک ئا شه کار پرین",
 	"coll-book_creator_disable_tooltip": "استفاده شه کتاب جۆڑ کنۆک ئا بُشتارینیت",
 	"coll-add_this_page": "ای دیما بئ وتي کتابان ایزاپه بکنیت",
-	"coll-add_page_tooltip": "ویکی ئی انونین دیم بئ شمی کتابان ایزاپه بیئنت",
+	"coll-add_page_tooltip": "ویکی‌ئی انونین دیم بِه شمئ کتابان اضافه به‌ێنت",
 	"coll-bookscategory": "کتاب هان",
 	"coll-clear_collection": "کتابئ پاک کورتین",
 	"coll-help": "کومک",
