@@ -8,7 +8,8 @@
 			"Petrus Adamus",
 			"Yekrats",
 			"Александр Сигачёв",
-			"KuboF"
+			"KuboF",
+			"Robin van der Vliet"
 		]
 	},
 	"coll-desc": "[[Special:Book|Krei librojn]]",
@@ -130,7 +131,7 @@
 	"coll-format-rdf2text": "Teksta procezilo (plata teksto)",
 	"right-collectionsaveasuserpage": "Konservi librojn kiel uzanto-paĝo",
 	"right-collectionsaveascommunitypage": "Konservi librojn kiel komunuma paĝo",
-	"coll-print_export": "Printi/eksporti",
+	"coll-print_export": "Presi/eksporti",
 	"coll-create_a_book": "Krei libron",
 	"coll-create_a_book_tooltip": "Krei libran aŭ paĝan kolekton",
 	"coll-book_creator": "Libra kreilo",

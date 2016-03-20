@@ -5,7 +5,8 @@
 			"Assele",
 			"Haqmar",
 			"ҒатаУлла",
-			"Рустам Нурыев"
+			"Рустам Нурыев",
+			"Вильданова Гюзель"
 		]
 	},
 	"coll-desc": "[[Special:Book|Китаптар яһай]]",
@@ -48,7 +49,7 @@
 	"coll-new_chapter": "Бүлектең яңы исемен керетегеҙ",
 	"coll-rename_chapter": "Бүлектең яңы исемен керетегеҙ",
 	"coll-no_such_category": "Бындай категория юҡ",
-	"coll-notitle_title": "Биттең исемен билдәләп булмай.",
+	"coll-notitle_title": "Биттең атамаһын билдәләп булманы.",
 	"coll-error_reponse": "Серверҙан яуап хатаһы",
 	"coll-empty_collection": "Буш китап",
 	"coll-revision": "Өлгө: $1",
@@ -115,9 +116,9 @@
 	"coll-suggest_undo_tooltip": "Был ғәмәлде кире алырға",
 	"coll-suggest_undo": "кире алырға",
 	"coll-load_local_book": "$2 вики битле $1 китабығыҙ менән дауам итеү өсөн, \"OK\" төймәһен баҫығыҙ. Уны юйып, буш китаптан башлау өсөн, \"Кире алырға\" төймәһен баҫығыҙ.",
-	"coll-format-rl": "эл. китап (PDF)",
+	"coll-format-rl": "электрон китап (PDF, эшкәртесе mwlib)",
 	"coll-format-epub": "эл. китап (EPUB)",
-	"coll-format-odf": "текст процессоры (OpenDocument)",
+	"coll-format-odf": "Текст процессоры (OpenDocument)",
 	"coll-format-zim": "Kiwix (OpenZIM)",
 	"coll-format-docbook": "DocBook",
 	"coll-format-okawix_zeno": "Okawix",
