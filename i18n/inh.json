@@ -3,7 +3,8 @@
 		"authors": [
 			"Amire80",
 			"Sapral Mikail",
-			"Adam-Yourist"
+			"Adam-Yourist",
+			"Умар"
 		]
 	},
 	"coll-collection": "Китаб",
@@ -20,7 +21,7 @@
 	"coll-download_as": "Хьачудаккха $1 санна",
 	"coll-bookscategory": "Китабаш",
 	"coll-clear_collection": "Китаба цӀенае",
-	"coll-help": "Новкъoстал",
+	"coll-help": "ГӀо",
 	"coll-load_collection": "Китаба чуяккха",
 	"coll-n_pages": "$1 {{PLURAL:$1|1=оагӀув|оагӀувнаш}}",
 	"coll-show_collection": "Китаба хьахокха",
