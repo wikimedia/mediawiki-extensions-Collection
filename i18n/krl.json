@@ -3,7 +3,8 @@
 		"authors": [
 			"Flrn",
 			"Likopiän tyttö",
-			"Mashoi7"
+			"Mashoi7",
+			"Ilja.mos"
 		]
 	},
 	"coll-remove": "Poissa",
@@ -14,6 +15,8 @@
 	"coll-print_export": "Tulosta tahi vie",
 	"coll-create_a_book": "Luo kirja",
 	"coll-download_as": "Pane talteh $1:nä",
+	"coll-disable": "poista käytöštä",
+	"coll-book_creator_disable_tooltip": "Lopeta kirjan luontitilan käyttö",
 	"coll-help": "Apu",
 	"coll-helppage": "Help:Kirjat",
 	"coll-n_pages": "$1 {{PLURAL:$1|šivu|šivuu}}",

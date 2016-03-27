@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"UV",
-			"Lesgles"
+			"Lesgles",
+			"Laurentianus"
 		]
 	},
 	"coll-remove": "Removere",
@@ -10,5 +11,9 @@
 	"coll-print_export": "Imprimere vel exportare",
 	"coll-create_a_book": "Librum creare",
 	"coll-download_as": "Paginam prehendere formá $1",
-	"coll-n_pages": "$1 {{PLURAL:$1|pagina|paginae}}"
+	"coll-add_this_page": "Hanc paginam libro tuo subiungere",
+	"coll-add_page_tooltip": "Hanc paginam libro tuo subiungere",
+	"coll-help": "Auxilium",
+	"coll-n_pages": "$1 {{PLURAL:$1|pagina|paginae}}",
+	"coll-attribution-anons": "Sine nomine: $ 1"
 }

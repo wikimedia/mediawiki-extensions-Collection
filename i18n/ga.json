@@ -1,15 +1,22 @@
 {
 	"@metadata": {
 		"authors": [
-			"පසිඳු කාවින්ද"
+			"පසිඳු කාවින්ද",
+			"Tem"
 		]
 	},
 	"coll-format_label": "Formáid:",
+	"coll-remove": "Bain",
 	"coll-show": "Taispeáin",
+	"coll-move_up": "Bog suas",
+	"coll-move_down": "Bog síos",
 	"coll-title": "Teideal:",
 	"coll-no": "Ní",
 	"coll-cancel": "Cealaigh",
 	"coll-suggest_reset_bans": "Athshocraigh",
 	"coll-suggest_show": "taispeáin",
-	"coll-help": "Cuidiú"
+	"coll-print_export": "Priontáil/easpórtáil",
+	"coll-book_creator": "Cruthaitheoir leabhair",
+	"coll-help": "Cuidiú",
+	"coll-helppage": "Help:Leabhair"
 }
