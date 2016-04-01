@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mucalexx"
+			"Mucalexx",
+			"Als-Holder"
 		]
 	},
 	"coll-community_collection_label": "Gmoahschoftlichs Buach",
-	"coll-print_export": "Durcka/exportiarn",
+	"coll-print_export": "Drucka/exportian",
 	"coll-create_a_book": "Buach erstöin",
 	"coll-create_a_book_tooltip": "A Buach oder a Artikesåmmlung erstöin",
 	"coll-book_creator": "Buachgenarator",
