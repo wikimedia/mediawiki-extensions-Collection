@@ -394,7 +394,11 @@ class CollectionProposals {
 		}
 
 		$article = new Article( $title, 0 );
-		return Title::newFromRedirectRecurse( $article->getContent() );
+		return ContentHandler::makeContent(
+			$article->getContent(),
+			null,
+			CONTENT_MODEL_WIKITEXT
+		)->getUltimateRedirectTarget();
 	}
 
 	/**
