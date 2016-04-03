@@ -182,7 +182,7 @@
 	"coll-setting-toc-no": "否",
 	"coll-setting-columns": "列数：",
 	"coll-attribution-anons": "匿名：$1",
-	"coll-attribution-page": "<h1>文本和图片来源、贡献与许可协议</h1>\n<h2>文本</h2>\n$1个<h2>图片</h2>\n$2\n<h2>内容许可</h2>\n$3",
+	"coll-attribution-page": "<h1>文本和图片来源、贡献与许可协议</h1>\n<h2>文本</h2>\n$1<h2>图片</h2>\n$2\n<h2>内容许可</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>来源：</i>$2 <i>贡献：</i>$3",
 	"coll-image-attribution": "<b>$1</b> <i>来源：</i>$2 <i>许可：</i>$3 <i>贡献：</i>$4 <i>原始艺术家：</i>$5"
 }

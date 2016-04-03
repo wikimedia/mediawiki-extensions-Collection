@@ -104,7 +104,7 @@
 	"coll-suggest_article_remove": "صفحہ <strong>$1</strong> آپ کی کتاب سے ہٹا دیا گیا ($2)۔",
 	"coll-suggest_undo_tooltip": "اس اقدام کا استرجع",
 	"coll-suggest_undo": "استرجع",
-	"coll-format-rl": "ای-بک (پی ڈی ایے، ایم ڈبلیو لیب رینڈرا)",
+	"coll-format-rl": "برقی کتاب (پی ڈی ایف، ایم ڈبلیو لیب رینڈرر)",
 	"coll-format-epub": "برقی کتاب (EPUB)",
 	"coll-format-odf": "ورڈ پروسیسر (اوپن ڈاکومنٹ)",
 	"coll-format-zim": "کیوکس (OpenZIM)",
