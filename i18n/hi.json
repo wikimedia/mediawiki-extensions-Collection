@@ -7,7 +7,8 @@
 			"बिप्लब आनन्द",
 			"Hindustanilanguage",
 			"NehalDaveND",
-			"संजीव कुमार"
+			"संजीव कुमार",
+			"Sfic"
 		]
 	},
 	"coll-desc": "[[Special:Book|पुस्तकें बनाएँ]]",
@@ -129,6 +130,7 @@
 	"coll-format-zim": "किविक्स (OpenZIM)",
 	"coll-format-docbook": "डॉकबुक",
 	"coll-format-okawix_zeno": "ओकाविक्स",
+	"coll-format-rdf2latex": "ई-बुक (पीडीएफ़, ओसीजी प्रदानकर्ता)",
 	"coll-format-rdf2text": "वर्ड प्रोसेसर (साधा पाठ)",
 	"right-collectionsaveasuserpage": "सदस्य पृष्ठ के रूप में पुस्तक सहेजें",
 	"right-collectionsaveascommunitypage": "पुस्तकों को समुदाय पृष्ठ के रूप में सहेजें",
