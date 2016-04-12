@@ -3,10 +3,12 @@
 		"authors": [
 			"Calak",
 			"Muhammed taha",
-			"Asoxor"
+			"Asoxor",
+			"Sarchia"
 		]
 	},
 	"coll-manage_your_book": "کتێبەکەت بەڕێوەبەرە",
+	"coll-start_book_creator": "دەستپێکردنی کتێبساز",
 	"coll-collection": "کتێب",
 	"coll-collections": "کتێبەکان",
 	"coll-your_book": "کتێبەکەت",
@@ -34,6 +36,7 @@
 	"coll-update": "نوێکردنەوە",
 	"coll-limit_exceeded_title": "کتێبەکە زۆر گەورەیە",
 	"coll-rendering_page": "(پەڕە: $1)",
+	"coll-rendering_finished_title": "پوختەکردن تەواو بوو",
 	"coll-notfound_title": "کتێبەکە نەدۆزرایەوە",
 	"coll-download_notfound_title": "په‌ڕگه‌که‌ نه‌دۆزرایه‌وه‌.",
 	"coll-about_pp": "سەبارەت بە $1",
