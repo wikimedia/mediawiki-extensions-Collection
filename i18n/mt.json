@@ -4,7 +4,8 @@
 			"Chrisportelli",
 			"Roderick Mallia",
 			"පසිඳු කාවින්ද",
-			"Leli Forte"
+			"Leli Forte",
+			"MTSap"
 		]
 	},
 	"coll-desc": "[[Special:Book|Toħloq il-kotba]]",
@@ -126,7 +127,7 @@
 	"coll-create_a_book": "Oħloq ktieb",
 	"coll-create_a_book_tooltip": "Oħloq ktieb jew ġabra ta' artikli",
 	"coll-book_creator": "Kreatur tal-kotba",
-	"coll-download_as": "Niżżel bħal $1",
+	"coll-download_as": "Niżżel bħala $1",
 	"coll-download_as_tooltip": "Niżżel verżjoni $1 ta' din il-paġna wiki",
 	"coll-disable": "iddiżattiva",
 	"coll-book_creator_disable": "Iddiżattiva l-kreatur tal-kotba",
