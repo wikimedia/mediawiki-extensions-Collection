@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"StephDC"
+			"StephDC",
+			"SolidBlock"
 		]
 	},
 	"coll-remove": "刪",
@@ -12,6 +13,7 @@
 	"coll-download_as": "下載為 $1",
 	"coll-disable": "禁",
 	"coll-help": "助",
+	"coll-remove_this_page": "移頁自子書",
 	"coll-show_collection": "示書",
 	"coll-setting-toc-yes": "是",
 	"coll-setting-toc-no": "否"

@@ -50,6 +50,8 @@
 	"coll-setting-toc-yes": "هان",
 	"coll-setting-toc-no": "نه",
 	"coll-setting-columns": "ستون هان:",
+	"coll-setting-columns-1": "۱",
+	"coll-setting-columns-2": "۲",
 	"coll-attribution-anons": "نادروستی: $1",
 	"coll-article-attribution": "<b>$1</b><i>منشا:</i>  $2  <i>شراکت کنۆک ئان:</i>$3",
 	"coll-image-attribution": "<b>$1</b><i>بُن زهي:</i>  $2  <i>مجوز:</i>  $3  <i>شراکت کنۆک ئان:</i>  $4  <i>اورجینال ئین هنرمند:</i>$5"
