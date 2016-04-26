@@ -4,6 +4,11 @@
 			"Marwan Mohamad"
 		]
 	},
+	"coll-remove": "Luluta",
+	"coll-show": "Popobilohe",
+	"coll-move_up": "Pindawa ode yitaato",
+	"coll-move_down": "Pindawa ode tibawa",
+	"coll-print_export": "Ceetakiya/ekspor",
 	"coll-create_a_book": "Pohutuwa buku",
 	"coll-download_as": "Mopohuli persi $1"
 }
