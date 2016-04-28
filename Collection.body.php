@@ -36,6 +36,10 @@ class SpecialCollection extends SpecialPage {
 		}
 	}
 
+	public function doesWrites() {
+		return true;
+	}
+
 	/**
 	 * @return String
 	 */
