@@ -6,7 +6,8 @@
 			"Ebrahimi-amir",
 			"Mousa",
 			"Koroğlu",
-			"Alp Er Tunqa"
+			"Alp Er Tunqa",
+			"Ilğım"
 		]
 	},
 	"coll-desc": "[[Special:Book|کیتاب یارات]]",
@@ -128,7 +129,7 @@
 	"coll-create_a_book": "کیتاب یارات",
 	"coll-create_a_book_tooltip": "کیتاب و یا صحیفه‌لر کوللئكتیوی یاراد",
 	"coll-book_creator": "کیتاب یارادان",
-	"coll-download_as": "$1 کیمی ایندیر",
+	"coll-download_as": "$1 کیمی ائندیر",
 	"coll-download_as_tooltip": "بو ویکی صحیفه‌سینین $1 نوسخه‌سینی اندیر",
 	"coll-disable": "ایشدن سال",
 	"coll-book_creator_disable": "کیتاب یارادانی ایشدن سال",
