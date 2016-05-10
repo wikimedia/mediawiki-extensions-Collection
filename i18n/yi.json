@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Imre",
-			"פוילישער"
+			"פוילישער",
+			"Alefbeis"
 		]
 	},
 	"coll-collection": "בוך",
@@ -44,7 +45,7 @@
 	"coll-book_creator_disable": "אומאקטיווירן בוך־שאפער",
 	"coll-book_creator_disable_tooltip": "אויפהיטן ניצן דער ביכער־שאפער",
 	"coll-add_this_page": "צולייגן דים בלאט צו אײַער בוך",
-	"coll-add_page_tooltip": "צולייגן אקטועלע וויקי בלאט צו אייער בוך",
+	"coll-add_page_tooltip": "צולייגן איצטיגע וויקי בלאט צו אייער בוך",
 	"coll-bookscategory": "ביכער",
 	"coll-help": "הילף",
 	"coll-help_tooltip": "ווײַזן הילף וועגן שאפן ביכער",
