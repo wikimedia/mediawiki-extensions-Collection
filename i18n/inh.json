@@ -33,5 +33,6 @@
 	"coll-remove_this_page": "ДIаяккх ер оагIув хьай тептара тIара",
 	"coll-show_collection": "Джей хьахьокха",
 	"coll-make_suggestions": "Éшаргйолаш оттая оагIонаш",
-	"coll-suggest_empty": "яьсса"
+	"coll-suggest_empty": "яьсса",
+	"coll-image-attribution": "<b>$1</b> <i>Хьаст:</i> $2 <i>Лицензи:</i> $3 <i>Автораш:</i> $4 <i>Художник:</i> $5"
 }
