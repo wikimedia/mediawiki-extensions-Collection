@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Erdemaslancan",
-			"Гусейн"
+			"Гусейн",
+			"Ganbarzada"
 		]
 	},
 	"coll-collection": "Китобон",
@@ -12,6 +13,8 @@
 	"coll-format_label": "Формат:",
 	"coll-remove": "Рәдд кардеј",
 	"coll-show": "Нишо дој",
+	"coll-move_up": "Bəpe barde",
+	"coll-move_down": "Beyji barde",
 	"coll-title": "Сәрловһә:",
 	"coll-contents": "Мәзмунон.",
 	"coll-rename": "Номи дәгиш кардеј",
@@ -24,6 +27,9 @@
 	"coll-suggest_show": "нишо дој",
 	"coll-suggest_undo": "ләғв кардеј",
 	"coll-format-okawix_zeno": "Okawix",
+	"coll-print_export": "Çap bikə / ixrac",
+	"coll-create_a_book": "Kitob tumukə",
+	"coll-download_as": "Bənə $1 eğand",
 	"coll-bookscategory": "Китобон",
 	"coll-help": "Арајиш",
 	"coll-n_pages": "$1 {{PLURAL:$1|бајт|бајтон}}",
