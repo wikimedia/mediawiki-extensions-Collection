@@ -414,6 +414,13 @@ class CollectionFinishedTemplate extends QuickTemplate {
 	public function execute() {
 
 echo wfMessage( 'coll-rendering_finished_text', $this->data['download_url'] )->parseAsBlock();
+echo wfMessage( 'coll-rendering_finished_notes_heading' )->parseAsBlock();
+
+echo Html::rawElement(
+	'ul',
+	array(),
+	Html::rawElement( 'li', array(), wfMessage( 'coll-rendering_finished_note_not_satisfied' )->parseAsBlock() )
+);
 
 if ( $this->data['is_cached'] ) {
 	$forceRenderURL = SkinTemplate::makeSpecialUrl(
