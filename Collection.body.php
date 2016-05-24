@@ -1085,6 +1085,7 @@ class SpecialCollection extends SpecialPage {
 			$template = new CollectionFinishedTemplate();
 			$template->set( 'download_url', wfExpandUrl( SkinTemplate::makeSpecialUrl( 'Book', 'bookcmd=download&' . $query ), PROTO_CURRENT ) );
 			$template->set( 'is_cached', $request->getVal( 'is_cached' ) );
+			$template->set( 'writer', $request->getVal( 'writer' ) );
 			$template->set( 'query', $query );
 			$template->set( 'return_to', $return_to );
 			$out->addTemplate( $template );

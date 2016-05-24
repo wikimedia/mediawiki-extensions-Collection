@@ -78,6 +78,7 @@
 	"coll-rendering_finished_text": "<strong>The document file has been generated.</strong>\n<strong>[$1 Download the file]</strong> to your computer.",
 	"coll-rendering_finished_notes_heading": "Notes:",
 	"coll-rendering_finished_note_not_satisfied": "Not satisfied with the output? See [[{{MediaWiki:Coll-helppage}}|the help page about books]] for possibilities to improve it.",
+	"coll-rendering_finished_note_article_rdf2latex": "Currently some documents do not contain tables. An alternative may be to use the $1, select \"Print\" in the browser menu, and use the \"Save as PDF\" option.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Rendering page info text",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Rendering collection info text",
 	"coll-rendering_failed_title": "Rendering failed",
