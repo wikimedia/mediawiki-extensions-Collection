@@ -24,6 +24,8 @@
 	"coll-create_a_book": "Джей хьакхолла",
 	"coll-book_creator": "Джей хьакхоллар",
 	"coll-download_as": "Хьачудаккха $1 санна",
+	"coll-disable": "дIайоае",
+	"coll-add_page_tooltip": "ТIатIоха хIанзара вики-оагIув джейна чу",
 	"coll-bookscategory": "Джейнаш",
 	"coll-clear_collection": "Джей IоцIенадар",
 	"coll-help": "Новкъoстал",
@@ -34,5 +36,7 @@
 	"coll-show_collection": "Джей хьахьокха",
 	"coll-make_suggestions": "Éшаргйолаш оттая оагIонаш",
 	"coll-suggest_empty": "яьсса",
+	"coll-attribution-anons": "Аноним: $1",
+	"coll-article-attribution": "<b>$1</b> <i>Хьаст:</i> $2 <i>Автораш:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Хьаст:</i> $2 <i>Лицензи:</i> $3 <i>Автораш:</i> $4 <i>Художник:</i> $5"
 }
