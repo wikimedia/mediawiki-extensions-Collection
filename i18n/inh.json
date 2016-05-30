@@ -4,7 +4,8 @@
 			"Amire80",
 			"Sapral Mikail",
 			"Adam-Yourist",
-			"Умар"
+			"Умар",
+			"ElizaMag"
 		]
 	},
 	"coll-collection": "Джей",
@@ -38,8 +39,8 @@
 	"coll-n_pages": "$1 {{PLURAL:$1|1=оагӀув}}",
 	"coll-remove_this_page": "ДIаяккх ер оагIув хьай тептара тIара",
 	"coll-show_collection": "Джей хьахьокха",
-	"coll-show_collection_tooltip": "ТIатоIIае джей хувцара/чудаккхара/эцара",
-	"coll-make_suggestions": "Éшаргйолаш оттая оагIонаш",
+	"coll-show_collection_tooltip": "ТIатоIае джей хувцара/чудаккхара/эцара",
+	"coll-make_suggestions": "Éшаргйолаш оттаяь оагIонаш",
 	"coll-make_suggestions_tooltip": "Хьа джейна чура оагIонаш тIа лард йола предложенеш хьахьокха",
 	"coll-suggest_empty": "яьсса",
 	"coll-attribution-anons": "Аноним: $1",
