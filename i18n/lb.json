@@ -80,6 +80,7 @@
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informatiounstext iwwer d'Duerstelle vu Sammlungen",
 	"coll-rendering_finished_title": "Fäerdeg gemaach",
 	"coll-rendering_finished_text": "<strong>De Fichier gouf generéiert.</strong>\n<strong>[$1 Luet de Fichier]</strong> op Äre Computer.\n\nOpgepasst:\n*Sidd Dir net zefridde mam Resultat? Kuckt [[{{MediaWiki:Coll-helppage}}|d'Hëllefssäit iwwer Bicher]] fir Méiglechkeete fir et ze verbesseren.",
+	"coll-rendering_finished_notes_heading": "Notizen:",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informatiounstext iwwer d'Verschaffe vu Säiten",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informatiounstext iwwer d'Duerstelle vu Sammlungen",
 	"coll-rendering_failed_title": "Generatioun huet net funktionnéiert",

@@ -21,7 +21,8 @@
 			"Zetud",
 			"Ultimate",
 			"Elfix",
-			"Macofe"
+			"Macofe",
+			"Wladek92"
 		]
 	},
 	"coll-desc": "Permet de [[Special:Book|créer des livres]]",
@@ -97,7 +98,9 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informations sur le rendu des pages",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informations sur le rendu des collections",
 	"coll-rendering_finished_title": "Rendu terminé",
-	"coll-rendering_finished_text": "<strong>Le fichier document a été généré.</strong>\n<strong>[$1 Télécharger le fichier]</strong> sur votre ordinateur.\n\nNotes :\n* Vous n’êtes pas satisfait du résultat ? Consultez [[{{MediaWiki:Coll-helppage}}|la page d’aide des livres]] pour les façons possibles de l’améliorer.",
+	"coll-rendering_finished_text": "<strong>Le fichier document a été généré.</strong>\n<strong>[$1 Télécharger le fichier]</strong> sur votre ordinateur.",
+	"coll-rendering_finished_notes_heading": "Notes :",
+	"coll-rendering_finished_note_not_satisfied": "Pas satisfait du résultat ? Voir la [[{{MediaWiki:Coll-helppage}}|page d'aide sur les livres]] pour les améliorations possibles.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informations sur le rendu des pages",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informations sur le rendu des collections",
 	"coll-rendering_failed_title": "Échec du rendu",

@@ -78,7 +78,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Генэрацыя тэксту са старонкі",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Генэрацыя тэксту з калекцыі",
 	"coll-rendering_finished_title": "Адлюстраваньне скончана",
-	"coll-rendering_finished_text": "<strong>Файл дакумэнту быў створаны.</strong>\n<strong>[$1 Загрузіць файл]</strong> на Ваш кампутар.\n\nЗаўвага:\n* Не задаволены створаным дакумэнтам? Глядзіце [[{{MediaWiki:Coll-helppage}}|старонку дапамогі па калекцыі]], каб даведацца, як яго палепшыць.",
+	"coll-rendering_finished_text": "<strong>Файл дакумэнту быў створаны.</strong>\n<strong>[$1 Загрузіць файл]</strong> на Ваш кампутар.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Стварэньне тэксту з інфармацыяй пра старонку",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Стварэньне тэксту з інфармацыяй пра калекцыю",
 	"coll-notfound_title": "Кніга ня знойдзеная",
