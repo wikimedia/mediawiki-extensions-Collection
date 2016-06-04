@@ -58,6 +58,7 @@
 	"coll-rendering_article": "(د ويکي مخ: $1)",
 	"coll-rendering_page": "(مخ: $1)",
 	"coll-rendering_finished_text": "<strong>لاسوند دوتنه رامېنځ ته شوه.</strong>\nخپل کمپيوټر ته مو <strong>[$1 دوتنه ورښکته کړئ]</strong>.\n\nيادښتونه:\n* د لاسته راوړنې څخه راضي نه يې؟ د لا ښو کارکړنو شونتياو لپاره [[{{MediaWiki:Coll-helppage}}|د کتابونو اړونده لارښود مخ ولوله]].",
+	"coll-rendering_finished_notes_heading": "يادښتونه:",
 	"coll-rendering_failed_text": "<strong>د لاسوند دوتنې رامېنځ ته کېدو هڅه نابريالۍ شوه.</strong>\n\n<p><span id=\"renderingدريځ\">$1</span></p>",
 	"coll-rendering_failed_status": "<strong>دريځ:</strong> $1",
 	"coll-notfound_title": "کتاب و نه موندل شو",
