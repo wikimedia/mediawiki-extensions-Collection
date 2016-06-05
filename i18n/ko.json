@@ -9,7 +9,8 @@
 			"Yjs5497",
 			"Yknok29",
 			"아라",
-			"Revi"
+			"Revi",
+			"Ykhwong"
 		]
 	},
 	"coll-desc": "[[Special:Book|책을 만듭니다]]",
@@ -85,7 +86,8 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/페이지 정보문 만드는 중",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/모음집 정보문 만드는 중",
 	"coll-rendering_finished_title": "만들기 완료",
-	"coll-rendering_finished_text": "<strong>문서 파일이 생성되었습니다.</strong>\n이 파일을 컴퓨터로 <strong>[$1 다운로드]</strong>하세요.\n\n참고:\n* 출력 결과에 만족하지 않으신가요? 이 기능을 향상시킬 수 있도록 [[{{MediaWiki:Coll-helppage}}|책에 대한 도움말 문서]]를 참고해 주세요.",
+	"coll-rendering_finished_text": "<strong>문서 파일이 생성되었습니다.</strong>\n이 파일을 컴퓨터로 <strong>[$1 다운로드]</strong>하세요.",
+	"coll-rendering_finished_notes_heading": "참고:",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/페이지 정보문 만드는 중",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/모음집 정보문 만드는 중",
 	"coll-rendering_failed_title": "렌더링 실패",

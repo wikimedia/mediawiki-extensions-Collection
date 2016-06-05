@@ -4,15 +4,16 @@
 			"Flrn",
 			"Likopiän tyttö",
 			"Mashoi7",
-			"Ilja.mos"
+			"Ilja.mos",
+			"Varvana"
 		]
 	},
-	"coll-remove": "Poissa",
+	"coll-remove": "Poista",
 	"coll-show": "Näytä",
 	"coll-move_up": "Šiirrä ylähäkši",
 	"coll-move_down": "Šiirrä alahakši",
 	"coll-cancel": "Keskevytä",
-	"coll-print_export": "Tulosta tahi vie",
+	"coll-print_export": "Tulošta/vie",
 	"coll-create_a_book": "Luo kirja",
 	"coll-download_as": "Pane talteh $1:nä",
 	"coll-disable": "poista käytöštä",
@@ -20,6 +21,7 @@
 	"coll-help": "Apu",
 	"coll-helppage": "Help:Kirjat",
 	"coll-n_pages": "$1 {{PLURAL:$1|šivu|šivuu}}",
+	"coll-remove_this_page": "Poista tämä šivu šiun kirjaštaš",
 	"coll-show_collection": "Näytä kirja",
 	"coll-make_suggestions": "Ehotetut šivut"
 }
