@@ -11,7 +11,8 @@
 			"Rex",
 			"C5st4wr6ch",
 			"Ahdan",
-			"Totosunarto"
+			"Totosunarto",
+			"Rachmat.Wahidi"
 		]
 	},
 	"coll-desc": "[[Special:Book|Buat buku]]",
@@ -85,7 +86,9 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Mengubah teks halaman info",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Mengubah teks koleksi info",
 	"coll-rendering_finished_title": "Pengolahan selesai",
-	"coll-rendering_finished_text": "<strong>Berkas dokumen telah dibuat.</strong>\n<strong>[$1 Unduh berkas]</strong> ke komputer Anda.\n\nCatatan:\n* Tidak puas dengan hasilnya? Lihat [[{{MediaWiki:Coll-helppage}}|halaman bantuan tentang buku]] untuk kemungkinan mengembangkannya.",
+	"coll-rendering_finished_text": "<strong>Berkas dokumen telah dibuat.</strong>\n<strong>[$1 Unduh berkas]</strong> ke komputer Anda.",
+	"coll-rendering_finished_notes_heading": "Catatan:",
+	"coll-rendering_finished_note_not_satisfied": "Tidak suka dengan hasilnya? Lihat [[{{MediaWiki:Coll-helppage}}|halaman bantuan mengenai buku]] untuk kemungkinan penyempurnaannya.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Mengubah teks info halaman",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Mengubah teks info koleksi",
 	"coll-notfound_title": "Buku tak ditemukan",
