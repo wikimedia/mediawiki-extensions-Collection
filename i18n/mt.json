@@ -5,7 +5,8 @@
 			"Roderick Mallia",
 			"පසිඳු කාවින්ද",
 			"Leli Forte",
-			"MTSap"
+			"MTSap",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Toħloq il-kotba]]",
@@ -78,7 +79,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informazzjoni fuq il-konverżjoni tal-paġni",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informazzjoni fuq il-konverżjoni tal-ġabriet",
 	"coll-rendering_finished_title": "Il-konverżjoni ntemmet",
-	"coll-rendering_finished_text": "<strong>Id-dokument ġie ġġenerat.</strong>\n<strong>[$1 Niżżel il-fajl]</strong> fuq il-kompjuter tiegħek.\n\nNoti:\n* Mintix sodisfatt bir-riżultat? Ara l-[[{{MediaWiki:Coll-helppage}}|għajnuna dwar il-kotba]] dwar kif tista' ttejbu.",
+	"coll-rendering_finished_text": "<strong>Id-dokument ġie ġġenerat.</strong>\n<strong>[$1 Niżżel il-fajl]</strong> fuq il-kompjuter tiegħek.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informazzjoni fuq il-konverżjoni tal-paġni",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informazzjoni fuq il-konverżjoni tal-ġabriet",
 	"coll-notfound_title": "Il-ktieb ma nstabx",

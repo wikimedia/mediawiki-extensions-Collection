@@ -3,7 +3,8 @@
 		"authors": [
 			"GaiJin",
 			"Kaztrans",
-			"Arystanbek"
+			"Arystanbek",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Кітаптар жасау]]",
@@ -74,7 +75,7 @@
 	"coll-rendering_status": "<strong>Статусы:</strong> $1",
 	"coll-rendering_article": "(мақала: $1)",
 	"coll-rendering_page": "(бет: $1)",
-	"coll-rendering_finished_text": "<strong>Кітабыңыздың жасалуы аяқталды.</strong>\n<strong>Компьютеріңізге [$1 жүктеп алу сілтемесі]</strong>.\n\nЕскерту:\n* Нәтиже қанағаттандырмады ма? Оны жақсарту мүмкiндiктерiн [[{{MediaWiki:Coll-helppage}}|кітап туралы анықтама бетінен]] қарауға болады.",
+	"coll-rendering_finished_text": "<strong>Кітабыңыздың жасалуы аяқталды.</strong>\n<strong>Компьютеріңізге [$1 жүктеп алу сілтемесі]</strong>.",
 	"coll-rendering_failed_status": "<strong>Статусы:</strong> $1",
 	"coll-notfound_title": "Кітап табылмады",
 	"coll-notfound_text": "Кітап бетін табу мүмкiн болмады",

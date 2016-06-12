@@ -9,7 +9,8 @@
 			"Stelistcristi",
 			"Strainu",
 			"ImGelu",
-			"Wintereu"
+			"Wintereu",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Creare de cărți]]",
@@ -82,7 +83,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informații despre generarea paginilor",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informații despre generarea colecțiilor",
 	"coll-rendering_finished_title": "Generare finalizată",
-	"coll-rendering_finished_text": "<strong>Fișierul documentului a fost generat.</strong>\n<strong>[$1 Descărcați-l]</strong> în calculatorul dumneavoastră.\n\nNote:\n* Nu sunteți mulțumit de rezultat? Consultați [[{{MediaWiki:Coll-helppage}}|pagina de ajutor destinată cărților]] pentru posibile modalități de îmbunătățire.",
+	"coll-rendering_finished_text": "<strong>Fișierul documentului a fost generat.</strong>\n<strong>[$1 Descărcați-l]</strong> în calculatorul dumneavoastră.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informații despre generarea paginilor",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informații despre generarea colecțiilor",
 	"coll-notfound_title": "Cartea nu a fost găsită",

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Esbardu",
-			"Xuacu"
+			"Xuacu",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crear llibros]]",
@@ -78,7 +79,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Testu informativu sobro renderización de páxines",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Testu informativu sobro renderización de coleiciones",
 	"coll-rendering_finished_title": "Acabó la renderización",
-	"coll-rendering_finished_text": "<strong>Xeneróse'l ficheru del documentu.</strong>\n<strong>[$1 Descargue'l ficheru]</strong> al so ordenador.\n\nNotes:\n*¿Nun ta satisfechu col resultáu? Vea [[{{MediaWiki:Coll-helppage}}|la páxina d'ayuda sobro los llibros]] pa ver les posibilidaes d'ameyoralu.",
+	"coll-rendering_finished_text": "<strong>Xeneróse'l ficheru del documentu.</strong>\n<strong>[$1 Descargue'l ficheru]</strong> al so ordenador.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Testu informativu sobro renderización de páxines",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Testu informativu sobro renderización de coleiciones",
 	"coll-rendering_failed_title": "Falló la renderización",

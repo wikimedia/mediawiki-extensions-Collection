@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Numulunj pilgae"
+			"Numulunj pilgae",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Тиемс китап]]",
@@ -74,7 +75,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Арафнесы лопать текстокс",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Арафнесы кярьксть текстокс",
 	"coll-rendering_finished_title": "Арафнемась анок",
-	"coll-rendering_finished_text": "<strong>Документонь файлась анок.</strong>\n<strong>[$1 Каямс файлать]</strong> тонь содама машинасот.\n\nМяльтяшкс:\n* Аф мялезот кода лиссь? Ванк [[{{MediaWiki:Coll-helppage}}|китапонь коряс лездома лопат]] сяда тов синь цебярьгофтоманди.",
+	"coll-rendering_finished_text": "<strong>Документонь файлась анок.</strong>\n<strong>[$1 Каямс файлать]</strong> тонь содама машинасот.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Арафнесы лопать текстокс",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Арафнесы кярьксть текстокс",
 	"coll-notfound_title": "Китапсь апак мук",

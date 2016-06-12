@@ -9,7 +9,8 @@
 			"Thomas81",
 			"Thomsen",
 			"MGA73",
-			"Ribewiki"
+			"Ribewiki",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Skab bøger]]",
@@ -82,7 +83,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Skriver sideinformation",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Skriver information om samling",
 	"coll-rendering_finished_title": "Generering færdig",
-	"coll-rendering_finished_text": "<strong>Dit dokument er blevet genereret.</strong>\n<strong>[$1 Download filen]</strong> til din computer. \n\nNote: \n* Er du ikke tilfreds med resultatet? Se [[{{MediaWiki:Coll-helppage}}|hjælpesiden omkring bøger]] for eventuelle muligheder til at forbedre det.",
+	"coll-rendering_finished_text": "<strong>Dit dokument er blevet genereret.</strong>\n<strong>[$1 Download filen]</strong> til din computer.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Skriver sideinformation",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Skriver information om samling",
 	"coll-notfound_title": "Bog ikke fundet",

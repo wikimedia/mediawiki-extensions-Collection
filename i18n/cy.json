@@ -4,7 +4,8 @@
 			"Lloffiwr",
 			"Robin Owain",
 			"Xxglennxx",
-			"Ham II"
+			"Ham II",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Llunio llyfrau]]",
@@ -79,7 +80,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Wrthi'n cynhyrchu'r wybodaeth am y dudalen",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Wrthi'n cynhyrchu'r wybodaeth am y casgliad",
 	"coll-rendering_finished_title": "Wedi gorffen cynhyrchu",
-	"coll-rendering_finished_text": "<strong>Mae ffeil y ddogfen wedi cael ei gynhyrchu.</strong>\n<strong>[$1 Llwytho'r ffeil i lawr]</strong> i'ch cyfrifiadur.\n\nNodiadau:\n* Os nad ydych yn bles â'r cynnyrch gwelwch [[{{MediaWiki:Coll-helppage}}|y dudalen gymorth ar gynhyrchu llyfrau]] er mwyn deall sut mae gwella arno.",
+	"coll-rendering_finished_text": "<strong>Mae ffeil y ddogfen wedi cael ei gynhyrchu.</strong>\n<strong>[$1 Llwytho'r ffeil i lawr]</strong> i'ch cyfrifiadur.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Wrthi'n cynhyrchu'r wybodaeth am y dudalen",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Wrthi'n cynhyrchu'r wybodaeth am y casgliad",
 	"coll-notfound_title": "Heb ganfod y llyfr",

@@ -6,7 +6,8 @@
 			"Sushant savla",
 			"KartikMistry",
 			"Arbhatt",
-			"NehalDaveND"
+			"NehalDaveND",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[ખાસ:પુસ્તક|પુસ્તક બનાવો]]",
@@ -79,7 +80,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Rendering page info text",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Rendering collection info text",
 	"coll-rendering_finished_title": "ચિત્રણ સંપૂર્ણ",
-	"coll-rendering_finished_text": "<strong>દસ્તાવેજ ફાઇલ તૈયાર છે.</strong>\nતમારા કમ્પ્યૂટર પર <strong>[$1 ફાઇલ ડાઉનલોડ કરો]</strong>.\n\nનોંધ:\n* પરિણામથી સંતુષ્ટ નથી? ગુણવત્તા સુધારવાની શક્યતાઓ માટે [[{{MediaWiki:Coll-helppage}}|પુસ્તક માટેની મદદનું પાનું]] જુઓ.",
+	"coll-rendering_finished_text": "<strong>દસ્તાવેજ ફાઇલ તૈયાર છે.</strong>\nતમારા કમ્પ્યૂટર પર <strong>[$1 ફાઇલ ડાઉનલોડ કરો]</strong>.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Rendering page info text",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Rendering collection info text",
 	"coll-notfound_title": "પુસ્તક મળ્યું નથી",

@@ -4,7 +4,8 @@
 			"Bhawani Gautam",
 			"Bhawani Gautam Rhk",
 			"बिप्लब आनन्द",
-			"राम प्रसाद जोशी"
+			"राम प्रसाद जोशी",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|पुस्तक बनाउने]]",
@@ -80,7 +81,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/पृष्ठ जानकारी पाठ प्रतिपादन हुँदै छ",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/सङ्ग्रह जानकारी पाठ प्रतिपादन हुँदै छ",
 	"coll-rendering_finished_title": "प्रतिपादन समाप्त",
-	"coll-rendering_finished_text": "<strong>फाइल जनरेट भइसकेको छ।</strong>\nआफ्नो कम्प्युटरमा <strong>[$1 फाइल डाउनलोड गर्नुहोस]</strong>।\n\nनोट:\n* आउटपुट देखि खुसि हुनुहुन्न? त्यसलाई अझ राम्रो बनाउनका निमित्त [[{{MediaWiki:Coll-helppage}}|पुस्तक सहायता पृष्ठ]] हेर्नुहोस।",
+	"coll-rendering_finished_text": "<strong>फाइल जनरेट भइसकेको छ।</strong>\nआफ्नो कम्प्युटरमा <strong>[$1 फाइल डाउनलोड गर्नुहोस]</strong>।",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/पृष्ठ जानकारी पाठ प्रतिपादन हुँदै छ",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/सङ्ग्रह जानकारी पाठ प्रतिपादन हुँदै छ",
 	"coll-rendering_failed_title": "प्रतिपादन असफल",

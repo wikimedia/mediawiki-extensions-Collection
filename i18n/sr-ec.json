@@ -10,7 +10,8 @@
 			"Михајло Анђелковић",
 			"Обрадовић Горан",
 			"Srdjan m",
-			"Сербијана"
+			"Сербијана",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Писац књига]]",
@@ -83,7 +84,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/израђивање текста",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/израђивање збирног текста",
 	"coll-rendering_finished_title": "Израђивање је завршено",
-	"coll-rendering_finished_text": "<strong>Документ је направљен.</strong>\n<strong>[$1 Преузмите датотеку]</strong> на свој рачунар.\n\nНапомена:\n* Незадовољни сте резултатом? Погледајте [[{{MediaWiki:Coll-helppage}}|страницу за помоћ о књигама]] где ћете наћи објашњење како да га побољшате.",
+	"coll-rendering_finished_text": "<strong>Документ је направљен.</strong>\n<strong>[$1 Преузмите датотеку]</strong> на свој рачунар.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/израђивање текста",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/израђивање збирног текста",
 	"coll-rendering_failed_status": "<strong>Стање:</strong> $1",

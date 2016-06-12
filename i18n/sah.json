@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"HalanTul",
-			"Марианна"
+			"Марианна",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Кинигэлэри айар]]",
@@ -75,7 +76,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Сирэй туһунан тиэкиһи ортисовкалааһын",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Кэллиэксийэ туһунан тиэкис отрисовката (Rendering)",
 	"coll-rendering_finished_title": "Оҥоһулунна",
-	"coll-rendering_finished_text": "<strong>Дөкүмүөн билэтэ оҥоһулунна.</strong>\nБэйэ көмпүүтэригэр <strong>[$1 билэни хачайдаа]</strong>.\n\nБиллэрии:\n* Оччото суох дуо? [[{{MediaWiki:Coll-helppage}}|Кинигэлэри оҥорорго көмөҕө]] тупсарыы туһунан суруллубут.",
+	"coll-rendering_finished_text": "<strong>Дөкүмүөн билэтэ оҥоһулунна.</strong>\nБэйэ көмпүүтэригэр <strong>[$1 билэни хачайдаа]</strong>.",
 	"coll-rendering_finished_notes_heading": "Быһаарыылар:",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Сирэй туһунан тиэкиһи ортисовкалааһын",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Кэллиэксийэ туһунан тиэкис отрисовката",

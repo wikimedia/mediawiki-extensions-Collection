@@ -6,7 +6,8 @@
 			"Odisha1",
 			"Psubhashish",
 			"ଶିତିକଣ୍ଠ ଦାଶ",
-			"MKar"
+			"MKar",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|ବହି ତିଆରି]]",
@@ -80,7 +81,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/ପୃଷ୍ଠା ତଥ୍ୟ ଲେଖା ରେଣ୍ଡର ହେଉଛି",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/ସଂଗ୍ରହ ତଥ୍ୟ ଲେଖା ରେଣ୍ଡର ହେଉଛି",
 	"coll-rendering_finished_title": "ରେଣ୍ଡର ସାରିଲା",
-	"coll-rendering_finished_text": "<strong>ତଥ୍ୟ ଫାଇଲଟି ବାହାରିଲା</strong>\nଆପଣଙ୍କ କମ୍ପୁଟରକୁ <strong>[$1 Download the file]</strong> କରନ୍ତୁ ।\nଟୀକା:\n* ଫଳାଫଳରେ ଠିକ ନାହିଁ ? ସମ୍ଭାବ୍ୟ ଉନ୍ନତ କରିବା ପାଇଁ [[{{MediaWiki:Coll-helppage}}|the help page about books]]କୁ ଦେଖନ୍ତୁ ।",
+	"coll-rendering_finished_text": "<strong>ତଥ୍ୟ ଫାଇଲଟି ବାହାରିଲା</strong>\nଆପଣଙ୍କ କମ୍ପୁଟରକୁ <strong>[$1 Download the file]</strong> କରନ୍ତୁ ।",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/ପୃଷ୍ଠା ତଥ୍ୟ ଲେଖା ରେଣ୍ଡର ହେଉଛି",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/ସଂଗ୍ରହ ତଥ୍ୟ ଲେଖା ରେଣ୍ଡର ହେଉଛି",
 	"coll-notfound_title": "ବହିଟି ମିଳିଲା ନାହିଁ",

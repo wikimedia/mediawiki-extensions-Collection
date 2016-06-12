@@ -14,7 +14,8 @@
 			"Papapep",
 			"Joan manel",
 			"Qllach",
-			"Jaumeortola"
+			"Jaumeortola",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crea llibres]]",
@@ -87,7 +88,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Processant text d'informació de la pàgina",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Processant text d'informació de la col·lecció",
 	"coll-rendering_finished_title": "Renderització finalitzada",
-	"coll-rendering_finished_text": "<strong>S'ha generat el document.</strong>\n<strong>[$1 Descarrega el fitxer]</strong> a l'ordinador.\n\nNotes:\n* No esteu satisfet amb el resultat? Vegeu [[{{MediaWiki:Coll-helppage}}|la pàgina d'ajuda sobre llibres]] per a conèixer més opcions per millorar-lo.",
+	"coll-rendering_finished_text": "<strong>S'ha generat el document.</strong>\n<strong>[$1 Descarrega el fitxer]</strong> a l'ordinador.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Processant texte d'informació de la pàgina",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Processant text d'informació de la col·lecció",
 	"coll-notfound_title": "Llibre no trobat",

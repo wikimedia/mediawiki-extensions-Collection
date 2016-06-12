@@ -4,7 +4,8 @@
 			"Shinjiman",
 			"Yueman",
 			"CRCHF",
-			"Ktchankt"
+			"Ktchankt",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|整書]]",
@@ -64,7 +65,7 @@
 	"coll-rendering_article": "(wiki版: $1)",
 	"coll-rendering_page": "(頁: $1)",
 	"coll-rendering_finished_title": "生成好晒",
-	"coll-rendering_finished_text": "<strong>個文件檔已經生成好。</strong>\n<strong>[$1 下載個檔案]</strong>到你嘅電腦。\n\n留意:\n* 對個輸出唔滿意？睇[[{{MediaWiki:Coll-helppage}}|書幫手版]]去改善佢。",
+	"coll-rendering_finished_text": "<strong>個文件檔已經生成好。</strong>\n<strong>[$1 下載個檔案]</strong>到你嘅電腦。",
 	"coll-notfound_title": "搵唔到書",
 	"coll-notfound_text": "搵唔到書版。",
 	"coll-download_notfound_title": "搵唔到檔案",

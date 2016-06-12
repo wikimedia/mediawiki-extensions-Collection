@@ -6,7 +6,8 @@
 			"Naudefj",
 			"SPQRobin",
 			"පසිඳු කාවින්ද",
-			"Fwolff"
+			"Fwolff",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Skep boeke]]",
@@ -73,7 +74,7 @@
 	"coll-rendering_article": "(wikibladsy: $1)",
 	"coll-rendering_page": "(bladsy: $1)",
 	"coll-rendering_finished_title": "Dokument klaar gegenereer",
-	"coll-rendering_finished_text": "<strong>Die dokumentlêer is gegenereer.</strong>\n<strong>[$1 Laai die lêer af]</strong> na die rekenaar.\n\nNotas:\n* Nie tevrede met die afvoer nie? Raadpleeg [[{{MediaWiki:Coll-helppage}}|die hulpbladsy oor boeke]] vir maniere om dit te verbeter.",
+	"coll-rendering_finished_text": "<strong>Die dokumentlêer is gegenereer.</strong>\n<strong>[$1 Laai die lêer af]</strong> na die rekenaar.",
 	"coll-notfound_title": "Boek nie gevind nie",
 	"coll-notfound_text": "Kon nie die boekbladsy vind nie.",
 	"coll-download_notfound_title": "Die lêer is nie gevind nie",

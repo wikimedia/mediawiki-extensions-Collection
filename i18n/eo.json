@@ -9,7 +9,8 @@
 			"Yekrats",
 			"Александр Сигачёв",
 			"KuboF",
-			"Robin van der Vliet"
+			"Robin van der Vliet",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Krei librojn]]",
@@ -83,7 +84,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Generanta helpan paĝon",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Generanta helpan paĝon pri kolektoj",
 	"coll-rendering_finished_title": "Generado finiĝis.",
-	"coll-rendering_finished_text": "<strong>La dokumento estis generita.</strong>\n<strong>[$1 Elŝuti la dosieron]</strong> al via komputilo.\n\nNotoj:\n* Ĉu la eligo ne plaĉus al vi? Vidu [[{{MediaWiki:Coll-helppage}}|la helpan paĝon pri kolektoj]] por fojoj por plibonigi ĝin.",
+	"coll-rendering_finished_text": "<strong>La dokumento estis generita.</strong>\n<strong>[$1 Elŝuti la dosieron]</strong> al via komputilo.",
 	"coll-rendering_finished_notes_heading": "Notoj:",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informoteksto pri bildigante paĝon",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informoteksto pri bildigante kolekton",

@@ -16,7 +16,8 @@
 			"Rotsee",
 			"Sannab",
 			"Thurs",
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Skapa böcker]]",
@@ -92,7 +93,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informationstext om sidrendering",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informationstext om samlingsrendering",
 	"coll-rendering_finished_title": "Rendering avslutad",
-	"coll-rendering_finished_text": "<strong>Dokumentfilen har skapats.</strong>\n<strong>[$1 Ladda ner filen]</strong> till din dator.\n\nNoter:\n* Inte nöjd med resultatet? Se [[{{MediaWiki:Coll-helppage}}|hjälpsidan om böcker]] för möjligheter att förbättra det.",
+	"coll-rendering_finished_text": "<strong>Dokumentfilen har skapats.</strong>\n<strong>[$1 Ladda ner filen]</strong> till din dator.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informationstext om sidrendering",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informationstext om samlingsrendering",
 	"coll-rendering_failed_title": "Rendering misslyckades",

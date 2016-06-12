@@ -14,7 +14,8 @@
 			"संतोष दहिवळ",
 			"Darshan kandolkar",
 			"अभय नातू",
-			"NehalDaveND"
+			"NehalDaveND",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|पुस्तके बनवा]]",
@@ -90,7 +91,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/ प्रतिपादन होत असलेल्या पान मजकूराची माहिती",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/ प्रतिपादनासाठी संग्रहित केलेल्या पानाची माहिती",
 	"coll-rendering_finished_title": "प्रतिपादन संम्पन्न",
-	"coll-rendering_finished_text": "<strong>आपले पुस्तक तयार झाले आहे.</strong>\n<strong>[$1 तयार झालेले पुस्तक]</strong> आपल्या संगणकावर उतरवून घ्या.\n\nNotes:\n* या कामाबद्दल समाधानी नसाल तर ही [[{{MediaWiki:Coll-helppage}}| पुस्तकांबद्दलची मदतीची पाने बघा.]] अधिक चांगल्या कामासाठी त्याचा उपयोग होईल.",
+	"coll-rendering_finished_text": "<strong>आपले पुस्तक तयार झाले आहे.</strong>\n<strong>[$1 तयार झालेले पुस्तक]</strong> आपल्या संगणकावर उतरवून घ्या.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/ प्रतिपादन होत असलेल्या पानाची माहिती",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/ प्रतिपादनासाठी संग्रहित केलेल्या पानाची माहिती",
 	"coll-rendering_failed_title": "प्रतिपादन अयशस्वी",

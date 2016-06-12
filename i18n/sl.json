@@ -4,7 +4,8 @@
 			"Dbc334",
 			"Eleassar",
 			"Freakolowsky",
-			"Smihael"
+			"Smihael",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Ustvari e-knjige]]",
@@ -80,7 +81,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informativno besedilo prevajalne strani",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informativno besedilo prevajalne zbirke",
 	"coll-rendering_finished_title": "Upodabljanje končano",
-	"coll-rendering_finished_text": "<strong>Datoteka je bila ustvarjena. [$1 Prenesi datoteko]</strong> na vaš računalnik.\n\nOpombe:\n* Niste zadovoljni z ustvarjeno datoteko? Glej [[{{MediaWiki:Coll-helppage}}|stran s pomočjo za razširitev Knjige]] za možnosti izboljšav.",
+	"coll-rendering_finished_text": "<strong>Datoteka je bila ustvarjena.</strong>\n<strong>[$1 Prenesi datoteko]</strong> na vaš računalnik.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Ustvarjanje informativnega besedila strani",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Ustvarjanje informativnega besedila zbirke",
 	"coll-rendering_failed_title": "Upodabljanje je spodletelo",

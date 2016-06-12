@@ -4,7 +4,8 @@
 			"Fohanno",
 			"Fulup",
 			"Y-M D",
-			"Gwenn-Ael"
+			"Gwenn-Ael",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Sevel levrioù]]",
@@ -78,7 +79,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Testenn titouroù war deouez ar pajennoù",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Testenn titouroù war deouez an dastumadegoù",
 	"coll-rendering_finished_title": "Argerzh echu",
-	"coll-rendering_finished_text": "<strong>Ganet eo bet ar restr teul.</strong>\n<strong>[$1 Pellgargit ar restr]</strong> war hoc'h urzhiataer.\n\nNotennoù :\n* N'eo ket an disoc'h diouzhoc'h ? Gwelit [[{{MediaWiki:Coll-helppage}}|ar bajenn skoazell diwar-benn al levrioù]] evit kavout doareoù da wellaat an traoù.",
+	"coll-rendering_finished_text": "<strong>Ganet eo bet ar restr teul.</strong>\n<strong>[$1 Pellgargit ar restr]</strong> war hoc'h urzhiataer.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Deouez testenn titouroù ar bajenn",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Deouez testenn titouroù an dastumadeg",
 	"coll-rendering_failed_status": "<strong>Statud :</strong> $1",

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"McDutchie"
+			"McDutchie",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crear libros]]",
@@ -77,7 +78,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto de information super le rendition de paginas",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto de information super le rendition de collectiones",
 	"coll-rendering_finished_title": "Rendition finite",
-	"coll-rendering_finished_text": "<strong>Le file del documento ha essite generate.</strong>\n<strong>[$1 Discarga le file]</strong> verso tu computator.\n\nNotas:\n* Non satisfacite con le resultato? Vide [[{{MediaWiki:Coll-helppage}}|le pagina de adjuta super le libros]] pro possibilitates de meliorar lo.",
+	"coll-rendering_finished_text": "<strong>Le file del documento ha essite generate.</strong>\n<strong>[$1 Discarga le file]</strong> verso tu computator.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informative super le rendition de paginas",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informative super le rendition de collectiones",
 	"coll-rendering_failed_title": "Rendition fallite",

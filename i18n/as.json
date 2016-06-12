@@ -3,7 +3,8 @@
 		"authors": [
 			"Bishnu Saikia",
 			"Gitartha.bordoloi",
-			"IKHazarika"
+			"IKHazarika",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|গ্ৰন্থ সৃষ্টি কৰক]]",
@@ -76,7 +77,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/পৃষ্ঠাৰ তথ্য পাঠ মুদ্ৰিত হৈ আছে",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/সংগ্ৰহ তথ্য পাঠ মুদ্ৰিত হৈ আছে",
 	"coll-rendering_finished_title": "ৰেণ্ডাৰিং সম্পূৰ্ণ হৈছে",
-	"coll-rendering_finished_text": "<strong>ডকুমেণ্ট ফাইল তৈয়াৰ কৰা হৈছে।</strong>\nআপোনাৰ কম্পিউটাৰত <strong>[$1 ফাইলটো ডাউনল'ড কৰক]</strong>।\n\nটোকা:\n* আউটপুটত সন্তুষ্ট নহয়? উন্নয়নৰ সম্ভাৱনা জানিবলৈ [[{{MediaWiki:Coll-helppage}}|গ্ৰন্থৰ সহায় পৃষ্ঠা]] চাওক।",
+	"coll-rendering_finished_text": "<strong>ডকুমেণ্ট ফাইল তৈয়াৰ কৰা হৈছে।</strong>\nআপোনাৰ কম্পিউটাৰত <strong>[$1 ফাইলটো ডাউনল'ড কৰক]</strong>।",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/পৃষ্ঠাৰ তথ্য পাঠ মুদ্ৰিত হৈ আছে",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/সংগ্ৰহ তথ্য পাঠ মুদ্ৰিত হৈ আছে",
 	"coll-notfound_title": "গ্ৰন্থ পোৱা নগ'ল",

@@ -11,7 +11,8 @@
 			"Tarmo",
 			"Zache",
 			"Syreeni",
-			"McSalama"
+			"McSalama",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Laadi kirjoja]].",
@@ -87,7 +88,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Muotoillaan sivu -tiedote",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Muotoillaan kokoelma -tiedote",
 	"coll-rendering_finished_title": "Renderöinti valmis",
-	"coll-rendering_finished_text": "<strong>Tiedosto on generoitu.</strong>\n<strong>[$1 Lataa tiedosto]</strong> tietokoneellesi.\n\nHuomautuksia:\n* Etkö ole tyytyväinen lopputulokseen? Katso [[{{MediaWiki:Coll-helppage}}|kirjojen ohjesivulta]] mahdollisuuksista parantaa sitä.",
+	"coll-rendering_finished_text": "<strong>Tiedosto on generoitu.</strong>\n<strong>[$1 Lataa tiedosto]</strong> tietokoneellesi.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Muotoillaan sivu -tiedote",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Muotoillaan kokoelma -tiedote",
 	"coll-rendering_failed_title": "Renderöinti epäonnistui",

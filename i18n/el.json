@@ -10,7 +10,8 @@
 			"Glavkos",
 			"Omnipaedista",
 			"ZaDiak",
-			"Auslaender"
+			"Auslaender",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Δημιουργία βιβλίων]]",
@@ -83,7 +84,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Μορφοποίηση κειμένου πληροφοριών σελίδας",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Μορφοποίηση κειμένου πληροφοριών συλλογής",
 	"coll-rendering_finished_title": "Η μορφοποίηση ολοκληρώθηκε",
-	"coll-rendering_finished_text": "<strong>Το αρχείο εγγράφου έχει δημιουργηθεί.</strong>\n<strong>[$1 Κατεβάστε το αρχείο]</strong> στον υπολογιστή σας.\n\nΣημειώσεις:\n* Δεν είστε ικανοποιημένος με το αποτέλεσμα; Δείτε την [[{{MediaWiki:Coll-helppage}}|σελίδα βοήθειας για τα βιβλία]] για πιθανούς τρόπους να το βελτιώσετε.",
+	"coll-rendering_finished_text": "<strong>Το αρχείο εγγράφου έχει δημιουργηθεί.</strong>\n<strong>[$1 Κατεβάστε το αρχείο]</strong> στον υπολογιστή σας.",
 	"coll-notfound_title": "Το βιβλίο δεν βρέθηκε",
 	"coll-notfound_text": "Δεν βρέθηκε η σελίδα βιβλίου.",
 	"coll-download_notfound_title": "Το αρχείο δεν βρέθηκε",

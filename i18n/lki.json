@@ -3,7 +3,8 @@
 		"authors": [
 			"Hosseinblue",
 			"Arash71",
-			"Lakzon"
+			"Lakzon",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|کتاوو ساز]]",
@@ -79,7 +80,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/تحویل متن اطلاعات صفحه",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/تحویل مجموعه متون اطلاعات",
 	"coll-rendering_finished_title": "رندر به پایان رسید",
-	"coll-rendering_finished_text": "<strong>پرونده ایجاد شده‌است.</strong>\nآن را بر روی رایانهٔ خود <strong>[$1 بارگیری کنید]</strong>.\n\nنکته‌ها:\n* از خروجی راضی نیستید؟ برای مطلع‌شدن از شیوه‌های بهبود آن، [[{{MediaWiki:Coll-helppage}}|راهنمای کتاب‌ها]] را مطالعه فرمایید.",
+	"coll-rendering_finished_text": "<strong>پرونده ایجاد شده‌است.</strong>\nآن را بر روی رایانهٔ خود <strong>[$1 بارگیری کنید]</strong>.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/تحویل متن اطلاعات صفحه",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/تحویل مجموعه متون اطلاعات",
 	"coll-rendering_failed_title": "تحویل ناموفق",

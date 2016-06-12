@@ -7,7 +7,8 @@
 			"Sopho",
 			"Temuri rajavi",
 			"გიორგიმელა",
-			"Gi777ga"
+			"Gi777ga",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|წიგნის შექმნა]]",
@@ -83,7 +84,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/გვერდის შესახებ ტექსტის გადაყვანა",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/კოლექციის შესახებ ტექსტის გადაყვანა",
 	"coll-rendering_finished_title": "შექმნა დასრულებულია",
-	"coll-rendering_finished_text": "<strong>დოკუმენტის ფაილი შექმნილია.</strong>\n<strong>[$1 ჩამოტვირთეთ]</strong> ფაილი კომპიუტერში.\n\nშენიშვნა:\n* თუ უკმაყოფილო ხართ შედეგით, გთხოვთ იხილეთ [[{{MediaWiki:Coll-helppage}}|დამხმარე გვერდი]]. შესაძლოა ამ გვერდზე აღწერილია გაუმჯობესების საშუალება.",
+	"coll-rendering_finished_text": "<strong>დოკუმენტის ფაილი შექმნილია.</strong>\n<strong>[$1 ჩამოტვირთეთ]</strong> ფაილი კომპიუტერში.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/გვერდის ტექსტში გადაყვანა",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/კოლექციის ტექსტში გადაყვანა",
 	"coll-rendering_failed_title": "რენდერი ჩაიშალა",

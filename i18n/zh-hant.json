@@ -17,7 +17,8 @@
 			"Cwlin0416",
 			"LNDDYL",
 			"Cwek",
-			"Zhxy 519"
+			"Zhxy 519",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|建立書籍]]",
@@ -93,7 +94,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/產生頁面資訊文字",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/產生集合資訊文字",
 	"coll-rendering_finished_title": "已完成產生",
-	"coll-rendering_finished_text": "<strong>文件已產生。</strong>\n<strong>[$1 下載此文件]</strong> 至您的電腦。\n\n說明：\n* 不滿意輸出結果？ 請參考 [[{{MediaWiki:Coll-helppage}}|說明頁面]] 暸解如何調整。",
+	"coll-rendering_finished_text": "<strong>文件已產生。</strong>\n<strong>[$1 下載此文件]</strong> 至您的電腦。",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/產生頁面資訊文字",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/產生集合資訊文字",
 	"coll-rendering_failed_title": "產生失敗",

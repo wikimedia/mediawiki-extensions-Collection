@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gion-andri"
+			"Gion-andri",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crear cudeschs]]",
@@ -74,7 +75,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Infurmaziuns davart la calculaziun grafica da las paginas",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Infurmaziuns davart la calculaziun grafica da collecziuns",
 	"coll-rendering_finished_title": "Terminà la calculaziun grafica",
-	"coll-rendering_finished_text": "<strong>La datoteca dal document è vegnida generada.</strong>\n<strong>[$1 Telechargiar la datoteca]</strong> sin tes computer.\n\nRemartga:\n* Betg cuntent cun il resultat? Legia [[{{MediaWiki:Coll-helppage}}|la pagina d'agid davart cudeschs]] per pussaivladads per optimar el.",
+	"coll-rendering_finished_text": "<strong>La datoteca dal document è vegnida generada.</strong>\n<strong>[$1 Telechargiar la datoteca]</strong> sin tes computer.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Infurmaziuns davart la calculaziun grafica da las paginas",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Infurmaziuns davart la calculaziun grafica da collecziuns",
 	"coll-notfound_title": "Betg chattà il cudesch",

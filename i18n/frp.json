@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"ChrisPtDe"
+			"ChrisPtDe",
+			"Macofe"
 		]
 	},
 	"coll-desc": "Pèrmèt de [[Special:Book|fâre des lévros]].",
@@ -74,7 +75,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Tèxto d’enformacion sur lo rendu de les pâges",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Tèxto d’enformacion sur lo rendu de les colèccions",
 	"coll-rendering_finished_title": "Rendu chavonâ",
-	"coll-rendering_finished_text": "<strong>Lo fichiér document at étâ fêt.</strong>\n<strong>[$1 Tèlèchargiér lo fichiér]</strong> sur voutron ordenator.\n\nNotes :\n* Vos éte pas satisfêt du rèsultat ? Vêde la [[{{MediaWiki:Coll-helppage}}|pâge d’éde des lévros]] por les façons possibles de lo mèlyorar.",
+	"coll-rendering_finished_text": "<strong>Lo fichiér document at étâ fêt.</strong>\n<strong>[$1 Tèlèchargiér lo fichiér]</strong> sur voutron ordenator.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Tèxto d’enformacion sur lo rendu de les pâges",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Tèxto d’enformacion sur lo rendu de les colèccions",
 	"coll-notfound_title": "Lévro entrovâblo",

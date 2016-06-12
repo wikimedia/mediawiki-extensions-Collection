@@ -9,7 +9,8 @@
 			"Csega",
 			"Dorgan",
 			"Tacsipacsi",
-			"Adam78"
+			"Adam78",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Könyvek készítése]]",
@@ -82,7 +83,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Lap információinak renderelése",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Gyűjtemény információinak renderelése",
 	"coll-rendering_finished_title": "A renderelés befejeződött",
-	"coll-rendering_finished_text": "<strong>A dokumentum elkészült.</strong>\n<strong>[$1 Fájl letöltése]</strong> a számítógépedre.\n\nMegjegyzés:\n* Nem vagy elégedett az eredménnyel? Lásd a  [[{{MediaWiki:Coll-helppage}}|könyvekről szóló segítség oldalt]] a javítási lehetőségekről.",
+	"coll-rendering_finished_text": "<strong>A dokumentum elkészült.</strong>\n<strong>[$1 Fájl letöltése]</strong> a számítógépedre.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Lapinformációk renderelése",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Gyűjtemény információinak renderelése",
 	"coll-notfound_title": "A könyv nem található",

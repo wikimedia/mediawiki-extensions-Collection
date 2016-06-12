@@ -5,7 +5,8 @@
 			"Teak",
 			"Xelgen",
 			"Դավիթ Սարոյան",
-			"Vahe Gharakhanyan"
+			"Vahe Gharakhanyan",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Ստեղծել գրքեր]]",
@@ -65,7 +66,7 @@
 	"coll-rendering_article": "(վիքի էջ. $1)",
 	"coll-rendering_page": "(էջ. $1)",
 	"coll-rendering_finished_title": "Ստեղծումն ավարտված է",
-	"coll-rendering_finished_text": "<strong>Նիշքը ստեղծված է։</strong>\n<strong>[$1 Ներբեռնել նիշքը]</strong> ձեր համակարգչի մեջ։\n\nՆշում.\n* Բավարարված չե՞ք արդյունքով։ Տես [[{{MediaWiki:Coll-helppage}}|գրքերի մասին օգնության էջը]] այն լավացնելու հնարավորությունների համար։",
+	"coll-rendering_finished_text": "<strong>Նիշքը ստեղծված է։</strong>\n<strong>[$1 Ներբեռնել նիշքը]</strong> ձեր համակարգչի մեջ։",
 	"coll-notfound_title": "Գիրքը չգտնվեց",
 	"coll-notfound_text": "Հնարավոր չէ գտնել գրքի էջը։",
 	"coll-is_cached": "<ul><li>Այս նիշքի պատճենը կա հիշապահեստում (քեշում), ուստի ստեղծում չի պահանջվում։ [$1 Հարկադրել վերստեղծում։]</li></ul>",

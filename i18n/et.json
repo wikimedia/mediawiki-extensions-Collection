@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Avjoska",
-			"Pikne"
+			"Pikne",
+			"Macofe"
 		]
 	},
 	"coll-desc": "Võimaldab [[Special:Book|raamatuid luua]].",
@@ -76,7 +77,7 @@
 	"coll-rendering_article": "(vikilehekülg: $1)",
 	"coll-rendering_page": "(lehekülg: $1)",
 	"coll-rendering_finished_title": "Küljendamine on lõppenud",
-	"coll-rendering_finished_text": "<strong>Dokumendifail on loodud.</strong>\n<strong>[$1 Laadi fail]</strong> oma arvutisse alla.\n\nMärkused:\n* Sa ei ole väljastatuga rahul? Vaata [[{{MediaWiki:Coll-helppage}}|raamatute abilehte]] võimalike lahenduste jaoks.",
+	"coll-rendering_finished_text": "<strong>Dokumendifail on loodud.</strong>\n<strong>[$1 Laadi fail]</strong> oma arvutisse alla.",
 	"coll-rendering_failed_title": "Küljendamine ebaõnnestus",
 	"coll-rendering_failed_text": "<strong>Dokumendifaili genereerimine ebaõnnestus.</strong>\n\n<p><span id=\"renderingStatus\">$1</span></p>",
 	"coll-rendering_failed_status": "<strong>Olek:</strong> $1",

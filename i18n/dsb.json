@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Derbeth",
-			"Michawiki"
+			"Michawiki",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Knigły napóraś]]",
@@ -77,7 +78,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Cerjenje infoteksta boka",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Cerjenje infoteksta zběrki",
 	"coll-rendering_finished_title": "Twórjenje dokóńcone",
-	"coll-rendering_finished_text": "<strong>Dokumentowa dataja jo se napórała.</strong>\n<strong>[$1 Ześěgni dataju]</strong> do swójogo licadła.\n\nPśispomnjeśa:\n* Njespokojom z wudaśim? Glědaj [[{{MediaWiki:Coll-helppage}}|bok pomocy wó zběrkach]] za móžnosći, jo  pólěpšyś.",
+	"coll-rendering_finished_text": "<strong>Dokumentowa dataja jo se napórała.</strong>\n<strong>[$1 Ześěgni dataju]</strong> do swójogo licadła.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informaciski tekst boka wuceriś",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informaciski tekst zběrki wuceriś",
 	"coll-rendering_failed_title": "Cerjenje njejo se raźiło",

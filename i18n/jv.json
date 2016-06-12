@@ -4,7 +4,8 @@
 			"Bennylin",
 			"Meursault2004",
 			"NoiX180",
-			"Pras"
+			"Pras",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Gawé buku]]",
@@ -77,7 +78,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Ngganti tèks info kaca",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Ngganti tèks info kolèksi",
 	"coll-rendering_finished_title": "Rampung ngowahi/gawé",
-	"coll-rendering_finished_text": "<strong>Berkas dokumèn wis digawé.</strong>\n<strong>[$1 Undhuh berkas]</strong> menyang komputer panjenengan.\n\nCathetan:\n* Kurang rena karo wetonan (''output'')é? Pirsani [[{{MediaWiki:Coll-helppage}}|kaca pitulung bab kolèksi]] kanggo kamungkinan ningkataké.",
+	"coll-rendering_finished_text": "<strong>Berkas dokumèn wis digawé.</strong>\n<strong>[$1 Undhuh berkas]</strong> menyang komputer panjenengan.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Ngganti tèks info kaca",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Ngganti tèks info kolèksi",
 	"coll-notfound_title": "Buku ora ketemu",

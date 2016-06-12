@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Joetaras",
-			"Reder"
+			"Reder",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Ccreje le libbre]]",
@@ -78,7 +79,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Teste de 'mbormaziune d'a pàgene de renderizzazione",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Teste de 'mbormaziune d'a collezzione de renderizzazione",
 	"coll-rendering_finished_title": "Renderizzazzione spicciate",
-	"coll-rendering_finished_text": "<strong>'U documende ha state generate.</strong>\n<strong>[$1 Scareche 'u file]</strong> sus a 'u combiuter tune.\n\nNote:\n* Non ge sì soddisfatte d'u resultate? 'Ndruche [[{{MediaWiki:Coll-helppage}}|'a pàgene de aijute sus a le libbre]] pa possibbilità de migliorarle.",
+	"coll-rendering_finished_text": "<strong>'U documende ha state generate.</strong>\n<strong>[$1 Scareche 'u file]</strong> sus a 'u combiuter tune.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Teste de 'mbormaziune d'a pàgene de renderizzazione",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Teste de 'mbormaziune d'a collezzione de renderizzazione",
 	"coll-rendering_failed_title": "Visualizzazzione sciute a male",

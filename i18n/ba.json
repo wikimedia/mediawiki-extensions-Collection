@@ -10,7 +10,8 @@
 			"Янмурза Баки",
 			"Sagan",
 			"Азат Хәлилов",
-			"Ләйсән"
+			"Ләйсән",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Китаптар яһай]]",
@@ -86,7 +87,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Бит тураһында мәғлүмәт текстын күһәтеү",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Йыйынтыҡ тураһында мәғлүмәт текстын күһәтеү",
 	"coll-rendering_finished_title": "Яһау тамамланды",
-	"coll-rendering_finished_text": "<strong>Документ булдырылды.</strong>\n<strong>[$1 Файлды күсереп алырға]</strong>.\n\nИҫкәрмә:\n* Һөҙөмтә менән ҡәнәғәт түгелһегеҙме? Яҡшыртыу мөмкинлектәре тураһында [[{{MediaWiki:Coll-helppage}}|китаптар тураһында белешмә битендә]] уҡығыҙ.",
+	"coll-rendering_finished_text": "<strong>Документ булдырылды.</strong>\n<strong>[$1 Файлды күсереп алырға]</strong>.",
 	"coll-rendering_finished_notes_heading": "Иҫкәрмәләр:",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Бит тураһында мәғлүмәт текстын күһәтеү",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Йыйынтыҡ тураһында мәғлүмәт текстын күһәтеү",

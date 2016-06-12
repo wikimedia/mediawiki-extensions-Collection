@@ -4,7 +4,8 @@
 			"Aushulz",
 			"Gmelfi",
 			"Pippinu",
-			"Sarvaturi"
+			"Sarvaturi",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crea libbra]]",
@@ -43,7 +44,7 @@
 	"coll-rendering_page": "(pàggina: $1)",
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Nfurmazzioni supra la rinnuta dê pàggini",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Nfurmazzioni supra la rinnuta dî cullizzioni",
-	"coll-rendering_finished_text": "<strong>Lu documentu fu giniratu.</strong>\n<strong>[$1 Scaricari lu file]</strong> supra lu vostru computer.\n\nNoti:\n* Nun si suddisfattu dû risurtatu? Leggi [[{{MediaWiki:Coll-helppage}}|la pàggina di aiutu supra li raccorti]] arriguardu ê pussibbilitati pi fari megghiu.",
+	"coll-rendering_finished_text": "<strong>Lu documentu fu giniratu.</strong>\n<strong>[$1 Scaricari lu file]</strong> supra lu vostru computer.",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Nfurmazzioni supra la rinnuta dî cullizzioni",
 	"coll-failed_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Nfurmazzioni supra la rinnuta dî pàggini",
 	"coll-suggest_title": "Pàggini suggiriti pô vostru libbru",

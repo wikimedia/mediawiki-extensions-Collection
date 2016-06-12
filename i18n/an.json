@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Juanpabl"
+			"Juanpabl",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Creyar libros]]",
@@ -74,7 +75,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Procesando o texto d'información d'a pachina",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/ Procesando o texto d'información d'a replega de pachinas",
 	"coll-rendering_finished_title": "Proceso finalizau",
-	"coll-rendering_finished_text": "<strong>S'ha chenerau o documento.</strong>\n<strong>[$1 Descarga o fichero]</strong>.\n\nNotas:\n* No ye satisfeito con o resultau? Mire [[{{MediaWiki:Coll-helppage}}|a pachina d'aduya sobre libros]] ta veyer as  posibilidatz d'amillorar-lo.",
+	"coll-rendering_finished_text": "<strong>S'ha chenerau o documento.</strong>\n<strong>[$1 Descarga o fichero]</strong>.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Procesando o texto d'información d'a replega de pachinas",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Renderizando o texto informativo d'a replega de pachinas",
 	"coll-notfound_title": "No se troba o libro",

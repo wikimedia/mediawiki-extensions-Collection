@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lam-ang"
+			"Lam-ang",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Agpartuat iti liblibro]]",
@@ -77,7 +78,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Agipapaay iti testo ti pakaammo ti panid",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Agipapaay iti naurnong a testo ti pakaammo",
 	"coll-rendering_finished_title": "Nalpasen ti panagipaay",
-	"coll-rendering_finished_text": "<strong>Naaramiden ti dokumento ti papeles.</strong>\n<strong>[$1 Ikarga ti papeles]</strong> iti kompiutermo.\n\nDagiti nota:\n* Saanka a napennekan iti naiparuar? Kitaen ti [[{{MediaWiki:Coll-helppage}}|tulong ti panid a maipanggep ti liblibro]] para kadagiti mabalin a panagpasayaat.",
+	"coll-rendering_finished_text": "<strong>Naaramiden ti dokumento ti papeles.</strong>\n<strong>[$1 Ikarga ti papeles]</strong> iti kompiutermo.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Agipapaay iti testo ti pakaammo ti panid",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Agipapaay iti naurnong a testo ti pakaammo",
 	"coll-rendering_failed_title": "Napaay ti panangipaay",

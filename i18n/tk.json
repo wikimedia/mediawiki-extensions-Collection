@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hanberke"
+			"Hanberke",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kitap döret]]",
@@ -71,7 +72,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Sahypanyň maglumat teksti işlenilýär",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Kolleksiýanyň maglumat teksti işlenilýär",
 	"coll-rendering_finished_title": "Döretme tamamlandy",
-	"coll-rendering_finished_text": "<strong>Dokument döredildi.</strong>\nFaýly kompýuteriňize <strong>[$1 göçürip alyň]</strong>.\n\nBellik:\n* Netije sizi kanagatlandyrmaýarmy? Ony ösdürmegiň mümkinçilikleri üçin [[{{MediaWiki:Coll-helppage}}|kitaplar hakyndaky kömek sahypalaryna]] serediň.",
+	"coll-rendering_finished_text": "<strong>Dokument döredildi.</strong>\nFaýly kompýuteriňize <strong>[$1 göçürip alyň]</strong>.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Sahypanyň maglumat teksti işlenilýär",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Kolleksiýanyň maglumat teksti işlenilýär",
 	"coll-notfound_title": "Kitap tapylmady",

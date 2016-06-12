@@ -7,7 +7,8 @@
 			"Turin",
 			"StanProg",
 			"Termininja",
-			"Vodnokon4e"
+			"Vodnokon4e",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Създаване на книги]]",
@@ -68,7 +69,8 @@
 	"coll-rendering_status": "<strong>Статут:</strong> $1",
 	"coll-rendering_article": "(уики-страница: $1)",
 	"coll-rendering_page": "(страница: $1)",
-	"coll-rendering_finished_text": "<strong>Файлът беше генериран.</strong>\n<strong>[$1 Свалете файла]</strong> на Вашият компютър.\n\nNotes:\n* Not satisfied with the output? See [[{{MediaWiki:Coll-helppage}}|the help page about books]] for possibilities to improve it.",
+	"coll-rendering_finished_text": "<strong>Файлът беше генериран.</strong>\n<strong>[$1 Свалете файла]</strong> на Вашият компютър.",
+	"coll-rendering_finished_notes_heading": "Бележки:",
 	"coll-rendering_failed_status": "<strong>Статут:</strong> $1",
 	"coll-notfound_title": "Книгата не е открита",
 	"coll-notfound_text": "Страницата от книга не е открита.",

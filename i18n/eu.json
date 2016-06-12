@@ -6,7 +6,8 @@
 			"Theklan",
 			"Xabier Armendaritz",
 			"Subi",
-			"Sator"
+			"Sator",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Liburuak sortu]]",
@@ -79,7 +80,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Orrialdea testuan bilakatzen",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Bilduma testuan bilakatzen",
 	"coll-rendering_finished_title": "Renderizazioa bukatu da",
-	"coll-rendering_finished_text": "<strong>Dokumentuaren fitxategia sortu da.</strong>\n<strong>[$1 Jaitsi fitxategia]</strong> zure ordenagailuan.\n\nOharrak:\n* Ez zaizu emaitza gustatu? Ikus [[{{MediaWiki:Coll-helppage}}|bildumen inguruko laguntza orrialdea]] berau hobetzeko aukerak ikusteko.",
+	"coll-rendering_finished_text": "<strong>Dokumentuaren fitxategia sortu da.</strong>\n<strong>[$1 Jaitsi fitxategia]</strong> zure ordenagailuan.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Orrialdearen informazio testua prozesatzen",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Bilduraren informazio testua prozesatzen",
 	"coll-rendering_failed_status": "<strong>Egoera:</strong> $1",

@@ -8,7 +8,8 @@
 			"Hugo.arg",
 			"Tomasdd",
 			"Albertas",
-			"Zygimantus"
+			"Zygimantus",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kurti knygas]]",
@@ -84,7 +85,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Puslapio atvaizdavimo informacijos tekstas",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Kolekcijos atvaizdavimo informacijos tekstas",
 	"coll-rendering_finished_title": "Atvaizdavimas baigtas",
-	"coll-rendering_finished_text": "<strong>Dokumento failas buvo sugeneruotas.</strong>\n<strong>[$1 Atsisiųsti failą]</strong> į savo kompiuterį.\n\nPastabos:\n* Nepatenkinti rezultatu? Žiūrėkite [[{{MediaWiki:Coll-helppage}}|pagalbos puslapį apie knygas]] galimybėms pagerinti jį.",
+	"coll-rendering_finished_text": "<strong>Dokumento failas buvo sugeneruotas.</strong>\n<strong>[$1 Atsisiųsti failą]</strong> į savo kompiuterį.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Puslapio atvaizdavimo informacijos tekstas",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Kolekcijos atvaizdavimo informacijos tekstas",
 	"coll-rendering_failed_title": "Atvaizdavimas nepavyko",

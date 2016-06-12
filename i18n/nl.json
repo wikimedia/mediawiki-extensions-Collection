@@ -14,7 +14,8 @@
 			"Sjoerddebruin",
 			"Tvdm",
 			"JurgenNL",
-			"Esketti"
+			"Esketti",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Boeken maken]]",
@@ -90,7 +91,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Paginarenderinformatie",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Verzamelingrenderinformatie",
 	"coll-rendering_finished_title": "Renderen afgerond",
-	"coll-rendering_finished_text": "<strong>Het document is aangemaakt.</strong>\n<strong>[$1 Het bestand downloaden]</strong>.\n\nOpmerkingen:\n* Niet tevreden met de uitvoer? Op de [[{{MediaWiki:Coll-helppage}}|hulppagina over boeken]] staan tips om deze uitvoer te verbeteren.",
+	"coll-rendering_finished_text": "<strong>Het document is aangemaakt.</strong>\n<strong>[$1 Het bestand downloaden]</strong>.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informatietekst bij renderen pagina",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informatietekst bij renderen verzameling",
 	"coll-rendering_failed_title": "Renderen is mislukt",

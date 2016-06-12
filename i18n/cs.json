@@ -5,7 +5,8 @@
 			"Danny B.",
 			"Li-sung",
 			"Matěj Grabovský",
-			"Mormegil"
+			"Mormegil",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Vytváření knih]]",
@@ -81,7 +82,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informace při vykreslování stránky",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informace při vykreslování knihy",
 	"coll-rendering_finished_title": "Vykreslování dokončeno",
-	"coll-rendering_finished_text": "<strong>Soubor s dokumentem byl vytvořen.</strong>\nMůžete si ho <strong>[$1 stáhnout do svého počítače]</strong>.\n\nPoznámky:\n* Nejste spokojeni s výsledkem? Podívejte se na [[{{MediaWiki:Coll-helppage}}|stránku s nápovědou ke kolekcím]], jak ho vylepšit.",
+	"coll-rendering_finished_text": "<strong>Soubor s dokumentem byl vytvořen.</strong>\nMůžete si ho <strong>[$1 stáhnout do svého počítače]</strong>.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informace při vykreslování stránky",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informace při vykreslování knihy",
 	"coll-rendering_failed_title": "Vykreslování se nezdařilo",

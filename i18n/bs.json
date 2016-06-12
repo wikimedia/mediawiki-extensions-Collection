@@ -6,7 +6,8 @@
 			"Smooth O",
 			"Palapa",
 			"Semso98",
-			"Srdjan m"
+			"Srdjan m",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Omogućava pravljenje knjiga]]",
@@ -79,7 +80,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Stranica za iscrtavanje informativnog teksta",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Iscrtavanje kolekcije informativnog teksta",
 	"coll-rendering_finished_title": "Iscrtavanje završeno",
-	"coll-rendering_finished_text": "<strong>Datoteka dokumenta je generisana.</strong>\n<strong>[$1 Spremite datoteku]</strong> na Vaš računar.\n\nNapomene:\n* Da li ste zadovoljni sa rezultatom? Pogledajte [[{{MediaWiki:Coll-helppage}}|stranicu pomoći kod kolekcija]] za moguća poboljšanja rezultata.",
+	"coll-rendering_finished_text": "<strong>Datoteka dokumenta je generisana.</strong>\n<strong>[$1 Spremite datoteku]</strong> na Vaš računar.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Stranica za iscrtavanje informativnog teksta",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Iscrtavanje kolekcije informativnog teksta",
 	"coll-notfound_title": "Knjiga nije pronađena",

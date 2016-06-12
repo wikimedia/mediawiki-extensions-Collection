@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mogoeilor"
+			"Mogoeilor",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|راس کئردئن کئتۉ]]",
@@ -77,7 +78,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/د حال و بال پر بيئن دونسمنيا متن بلگه",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/د حال و بال پربيئن كل دونسمنيا متن",
 	"coll-rendering_finished_title": "پر بيئن تموم بی",
-	"coll-rendering_finished_text": "<strong>جانیا سند دار دروس بیه.</strong>\n<strong>[$1 جانیا گرته بی]</strong> سی انجومیارتو.\n\nد ویرتو با که:\n* هیچی وا درینده دروس نبیه?سی یه که تونستویت وه نه دروس بکیت یه گل سیل د[[{{MediaWiki:Coll-helppage}}|د بلگه هومیاری دباره کتاو]] داشتویت.",
+	"coll-rendering_finished_text": "<strong>جانیا سند دار دروس بیه.</strong>\n<strong>[$1 جانیا گرته بی]</strong> سی انجومیارتو.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/د حالت پر بيئن دونسمنيا نیسسه بلگه",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/د حالت پربيئن كل دونسمنيا نیسسه",
 	"coll-rendering_failed_title": "پر بيئن ناموفق بیه",

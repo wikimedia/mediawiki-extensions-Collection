@@ -8,7 +8,8 @@
 			"Shirayuki",
 			"青子守歌",
 			"Mfuji",
-			"Sujiniku"
+			"Sujiniku",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|ブックを作成する]]",
@@ -84,7 +85,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/ページ情報文を生成中",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/コレクション情報文を生成中",
 	"coll-rendering_finished_title": "レンダリング完了",
-	"coll-rendering_finished_text": "<strong>ドキュメントファイルは生成されました。</strong>\nあなたのコンピューターに<strong>[$1 ファイルをダウンロード]</strong>してください。\n\n注:\n* 出力に満足できませんか? 改善の可能性があるか、[[{{MediaWiki:Coll-helppage}}|ブックについてのヘルプページ]]をご覧ください。",
+	"coll-rendering_finished_text": "<strong>ドキュメントファイルは生成されました。</strong>\nあなたのコンピューターに<strong>[$1 ファイルをダウンロード]</strong>してください。",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/ページ情報テキストを生成中",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/コレクション情報テキストを生成中",
 	"coll-rendering_failed_title": "レンダリング失敗",

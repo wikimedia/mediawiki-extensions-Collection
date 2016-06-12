@@ -12,7 +12,8 @@
 			"Ömer Berkay",
 			"Incelemeelemani",
 			"Stultiwikia",
-			"Arystanbek"
+			"Arystanbek",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kitap oluştur]]",
@@ -88,7 +89,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/İşleyici sayfası bilgi metni",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/İşleyici kolleksiyonu bilgi metni",
 	"coll-rendering_finished_title": "Oluşturma tamamlandı",
-	"coll-rendering_finished_text": "<strong>Belge oluşturuldu.</strong>\nDosyayı bilgisayarınıza <strong>[$1 indirin]</strong>.\n\nNot:\n* Çıktıdan memnun değil misiniz? Geliştirme olanakları için [[{{MediaWiki:Coll-helppage}}|kitaplar hakkındaki yardım sayfalarına]] bakın.",
+	"coll-rendering_finished_text": "<strong>Belge oluşturuldu.</strong>\nDosyayı bilgisayarınıza <strong>[$1 indirin]</strong>.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/İşleyici sayfası bilgi metni",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/İşleyici koleksiyonu bilgi metni",
 	"coll-rendering_failed_title": "Oluşturma başarısız oldu",

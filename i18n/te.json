@@ -7,7 +7,8 @@
 			"Ravichandra",
 			"Veeven",
 			"వైజాసత్య",
-			"రహ్మానుద్దీన్"
+			"రహ్మానుద్దీన్",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|పుస్తకాలను తయారుచేసుకోండి]]",
@@ -80,7 +81,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/పేజీ వివర పాఠ్యాన్ని రూపుదిద్దుట",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/సేకరణ వివరాల పాఠ్యాన్ని రూపుదిద్దుట",
 	"coll-rendering_finished_title": "రెండరింగు పూర్తైంది",
-	"coll-rendering_finished_text": "<strong>పత్రం ఫైలు సృష్టించబడింది.</strong>\n<strong>[$1 ఫైలును మీ కంప్యూటర్లోకి దించుకోండి]</strong>.\n\nగమనికలు:\n* ఫలితాలు సంతృప్తికరంగా లేదా? దాన్ని మెరుగుపరచే సంభావ్యతల కోసం [[{{MediaWiki:Coll-helppage}}|పుస్తకాల సహాయం పేజీ]] చూడండి.",
+	"coll-rendering_finished_text": "<strong>పత్రం ఫైలు సృష్టించబడింది.</strong>\n<strong>[$1 ఫైలును మీ కంప్యూటర్లోకి దించుకోండి]</strong>.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/పేజీ వివర పాఠ్యాన్ని రూపుదిద్దుట",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/సేకరణ వివరాల పాఠ్యాన్ని రూపుదిద్దుట",
 	"coll-notfound_title": "పుస్తకము కనబడలేదు",

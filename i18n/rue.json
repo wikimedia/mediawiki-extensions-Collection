@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Gazeb",
-			"Tkalyn"
+			"Tkalyn",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Створює книгы]]",
@@ -75,7 +76,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Інформація про выкреслёваня сторінкы",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Інформація про выкреслёваня колекції",
 	"coll-rendering_finished_title": "Выкреслёваня скінчіло",
-	"coll-rendering_finished_text": "<strong>Файл з документом быв створеный.</strong>\nМожете собі го <strong>[$1 скачати до свого компютера]</strong>.\n\nПозначкы:\n* Не сьте спокійны з резултатом? Попозерайте ся на [[{{MediaWiki:Coll-helppage}}|сторінку помочі ку колекціям]], як го вылїпшыти.",
+	"coll-rendering_finished_text": "<strong>Файл з документом быв створеный.</strong>\nМожете собі го <strong>[$1 скачати до свого компютера]</strong>.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Інформація про выкреслёваня сторінкы",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Інформація про выкреслёваня колекції",
 	"coll-notfound_title": "Книга не найджена",

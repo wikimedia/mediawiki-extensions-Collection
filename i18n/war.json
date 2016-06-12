@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"JinJian"
+			"JinJian",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Paghimo hin mga libro]]",
@@ -74,7 +75,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Nagrerender hin teksto hin impormasyon han pakli",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Nagrerender in teksto hin koleksyon nga impormasyon.",
 	"coll-rendering_finished_title": "Nahuman an pagrender",
-	"coll-rendering_finished_text": "<strong>Nahimo na an paypay dokumento.</strong>\n<strong>[$1 Igkarga-paubos an paypay]</strong> ha imo kompyuter.\n\nMga pahibaro:\n* Diri ka naayon ka kinagawsan? Kitaa [[{{MediaWiki:Coll-helppage}}|an nabuhig nga pakli para han mga libro]] para han mga posibilidad han pagpaupay hini.",
+	"coll-rendering_finished_text": "<strong>Nahimo na an paypay dokumento.</strong>\n<strong>[$1 Igkarga-paubos an paypay]</strong> ha imo kompyuter.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Ginrerender an teksto han impormasyon han pakli",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Ginrerender an teksto han koleksyon nga impormasyon",
 	"coll-notfound_title": "Waray katad-i an libro",

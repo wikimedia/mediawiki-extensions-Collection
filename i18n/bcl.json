@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Geopoet"
+			"Geopoet",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Magmukna nin mga libro]]",
@@ -76,7 +77,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Naghahayang pahina sa tekstong impormasyon",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Naghahayang collection sa tekstong impormasyon",
 	"coll-rendering_finished_title": "An paghahaya pinagtapos na",
-	"coll-rendering_finished_text": "<strong>An sagunson nin dokumento pinagpapuyos.</strong> <strong>[$1 Ikarga an sagunson]</strong> sa saimong kompyuter. Mga Katalaanan: * Bako kang kontento sa kinaluwasan? Hilngon sa [[{{MediaWiki:Coll-helppage}}|an pahina nin katabangan mapanungod sa mga libro]] para sa mga posibilidad tanganing mas mapakarhay ini.",
+	"coll-rendering_finished_text": "<strong>An sagunson nin dokumento pinagpapuyos.</strong>\n<strong>[$1 Ikarga an sagunson]</strong> sa saimong kompyuter.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Naghahaya kan pahina sa tekstong impormasyon",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Naghahaya kan koleksyon sa tekstong impormasyon",
 	"coll-notfound_title": "An libro dae nanumpungan",

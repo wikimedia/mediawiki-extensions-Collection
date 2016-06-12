@@ -15,7 +15,8 @@
 			"Guilhermemau",
 			"He7d3r",
 			"Fasouzafreitas",
-			"TheEduGobi"
+			"TheEduGobi",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Criar livros]]",
@@ -88,7 +89,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informativo sobre renderização de páginas",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informativo sobre renderização de coleções",
 	"coll-rendering_finished_title": "Renderização concluída",
-	"coll-rendering_finished_text": "<strong>O arquivo do documento foi gerado.</strong>\n<strong>[$1 Baixe o arquivo]</strong> para o seu computador.\n\nNotas:\n* Não está satisfeito com o resultado? Veja [[{{MediaWiki:Coll-helppage}}|a página de ajuda sobre livros]] para possibilidades de aprimoramentos.",
+	"coll-rendering_finished_text": "<strong>O arquivo do documento foi gerado.</strong>\n<strong>[$1 Baixe o arquivo]</strong> para o seu computador.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informativo sobre renderização de páginas",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informativo sobre renderização de coleções",
 	"coll-rendering_failed_text": "<strong>Erro durante a geração do documento.</strong>\n\n<p><span id=\"renderingStatus\">$1</span></p>",

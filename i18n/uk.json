@@ -12,7 +12,8 @@
 			"Ата",
 			"Olion",
 			"Piramidion",
-			"Dars"
+			"Dars",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Створює книги]]",
@@ -88,7 +89,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Надання інформації про сторінку",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Надання інформації про колекцію",
 	"coll-rendering_finished_title": "Створення завершено",
-	"coll-rendering_finished_text": "<strong>Файл документа був створений.</strong>\n<strong>[$1 Завантажити файл]</strong> на свій комп'ютер.\n\nЗауваження:\n* Не задоволені результатом? Можливості його поліпшення описані на [[{{MediaWiki:Coll-helppage}}|довідковій сторінці про колекції]].",
+	"coll-rendering_finished_text": "<strong>Файл документа був створений.</strong>\n<strong>[$1 Завантажити файл]</strong> на свій комп'ютер.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Формування відомостей про сторінку",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Формування інформації про колекцію",
 	"coll-rendering_failed_title": "Невдала візуалізація",

@@ -78,7 +78,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Test d'anformassion an sl'arpresentassion ëd le pàgine",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Rapresentassion dël test d'anformassion dla colession",
 	"coll-rendering_finished_title": "Conversion finìa",
-	"coll-rendering_finished_text": "<strong>L'archivi document a l'é stàit generà.</strong>\n<strong>[$1 Dëscariél'archivi]</strong> su sò ordinator.\n\nNòte:\n* Pa sodisfàit ëd l'arzultà? Ch'a varda [[{{MediaWiki:Coll-helppage}}|la pàgina d'agiut an sij lìber]] për dle possibilità d'ameliorelo.",
+	"coll-rendering_finished_text": "<strong>L'archivi document a l'é stàit generà.</strong>\n<strong>[$1 Dëscarié l'archivi]</strong> su sò ordinator.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Visualisassion dël test d'anformassion ëd la pàgina",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Visualisassion dël test d'anformassion dla colession",
 	"coll-rendering_failed_title": "Falì a rende",

@@ -8,7 +8,8 @@
 			"Hindustanilanguage",
 			"NehalDaveND",
 			"संजीव कुमार",
-			"Sfic"
+			"Sfic",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|पुस्तकें बनाएँ]]",
@@ -84,7 +85,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/पृष्ठ जानकारी पाठ रेंडर हो रहा है",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/कलेक्शन जानकारी पाठ रेंडर हो रहा है",
 	"coll-rendering_finished_title": "प्रतिपादन समाप्त",
-	"coll-rendering_finished_text": "<strong>फ़ाइल जनरेट हो गयी है।</strong>\nअपने कम्प्युटर पर <strong>[$1 फ़ाइल डाउनलोड करें]</strong>।\n\nनोट:\n* आउटपुट से खुश नहीं हैं? उसे बेहतर बनाने की संभावनाओं के लिए [[{{MediaWiki:Coll-helppage}}|पुस्तक सहायता पृष्ठ]] देखें।",
+	"coll-rendering_finished_text": "<strong>फ़ाइल जनरेट हो गयी है।</strong>\nअपने कम्प्युटर पर <strong>[$1 फ़ाइल डाउनलोड करें]</strong>।",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/पृष्ठ जानकारी पाठ रेंडर हो रहा है",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/कलेक्शन जानकारी पाठ रेंडर हो रहा है",
 	"coll-rendering_failed_title": "रेंडर करना विफल रहा",

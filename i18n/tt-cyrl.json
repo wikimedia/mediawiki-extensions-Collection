@@ -4,7 +4,8 @@
 			"Ilnur efende",
 			"Timming",
 			"Ильнар",
-			"Derslek"
+			"Derslek",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Китап төзүче]]",
@@ -49,7 +50,7 @@
 	"coll-cancel": "Кире кагу",
 	"coll-rendering_status": "<strong>Статусы:</strong> $1",
 	"coll-rendering_finished_title": "Төзү тәмам",
-	"coll-rendering_finished_text": "<strong>Документның файлы ясалды.</strong>\n<strong>[$1 Файлны]</strong> үземнең санагыма йөкләү.\n\nИскәрмәләр:\n* Нәтиҗә белән канəгать түгелсезме? Сыйфатын арттыру өчен [[{{MediaWiki:Coll-helppage}}|китаплар турындагы мәгълүмат битен карый аласыз]].",
+	"coll-rendering_finished_text": "<strong>Документның файлы ясалды.</strong>\n<strong>[$1 Файлны]</strong> үземнең санагыма йөкләү.",
 	"coll-is_cached": "<ul><li>Әлеге документның кэшланган юрамасы табылды, төзүнең кирәге табылмады. [$1 Барыбер төзүне башлап җибәрергә.]</li></ul>",
 	"coll-book_title": "Басылма китап алу",
 	"coll-book_text": "Безнең басылма китапны алу:",

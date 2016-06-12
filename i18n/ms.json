@@ -7,7 +7,8 @@
 			"Izzudin",
 			"Kurniasan",
 			"Pizza1016",
-			"SNN95"
+			"SNN95",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Mencipta buku]]",
@@ -80,7 +81,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Merender teks maklumat laman",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Merender teks maklumat koleksi",
 	"coll-rendering_finished_title": "Penjanaan selesai",
-	"coll-rendering_finished_text": "<strong>Fail dokumen tersebut telah dijana.</strong>\n<strong>[$1 Muat turun fail ini]</strong> ke dalam komputer anda.\n\nCatatan:\n* Tidak berpuas hati dengan output yang dihasilkan? Lihat [[{{MediaWiki:Coll-helppage}}|laman bantuan mengenai koleksi]] untuk mengetahui bagaimana anda boleh memperbaikinya lagi.",
+	"coll-rendering_finished_text": "<strong>Fail dokumen tersebut telah dijana.</strong>\n<strong>[$1 Muat turun fail ini]</strong> ke dalam komputer anda.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Merender teks maklumat laman",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Merender teks maklumat koleksi",
 	"coll-rendering_failed_status": "<strong>Status:</strong> $1",

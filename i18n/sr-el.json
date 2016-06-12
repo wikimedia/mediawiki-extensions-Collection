@@ -6,7 +6,8 @@
 			"Rancher",
 			"Жељко Тодоровић",
 			"Михајло Анђелковић",
-			"Srdjan m"
+			"Srdjan m",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Napravi knjige]]",
@@ -79,7 +80,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/izrađivanje teksta",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/izrađivanje zbirnog teksta",
 	"coll-rendering_finished_title": "Izrađivanje je završeno",
-	"coll-rendering_finished_text": "<strong>Dokument je napravljen.</strong>\n<strong>[$1 Preuzmite datoteku]</strong> na svoj računar.\n\nNapomena:\n* Nezadovoljni ste izlazom? Pogledajte [[{{MediaWiki:Coll-helppage}}|stranu pomoći o knjigama]] za mogućnosti da ga poboljšate.",
+	"coll-rendering_finished_text": "<strong>Dokument je napravljen.</strong>\n<strong>[$1 Preuzmite datoteku]</strong> na svoj računar.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/izrađivanje teksta",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/izrađivanje zbirnog teksta",
 	"coll-rendering_failed_status": "<strong>Stanje:</strong> $1",

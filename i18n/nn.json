@@ -6,7 +6,8 @@
 			"Harald Khan",
 			"Jon Harald Søby",
 			"Njardarlogar",
-			"Ranveig"
+			"Ranveig",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Opprett bøker]]",
@@ -77,7 +78,7 @@
 	"coll-rendering_article": "(wikisida: $1)",
 	"coll-rendering_page": "(sida: $1)",
 	"coll-rendering_finished_title": "Oppretta",
-	"coll-rendering_finished_text": "<strong>Dokumentfila er vorten oppretta.</strong>\n<strong>[$1 Last ned fila]</strong> til datamaskina di.\n\nMerk:\n* Ikkje nøgd med resultatet? Sjå [[{{MediaWiki:Coll-helppage}}|hjelpesida for bøker]] for moglegheiter til å betra det.",
+	"coll-rendering_finished_text": "<strong>Dokumentfila er vorten oppretta.</strong>\n<strong>[$1 Last ned fila]</strong> til datamaskina di.",
 	"coll-notfound_title": "Boka vart ikkje funnen",
 	"coll-notfound_text": "Kunne ikkje finna boksida.",
 	"coll-download_notfound_title": "Fann ikkje fil",

@@ -5,7 +5,8 @@
 			"Khan27",
 			"Vago",
 			"Wertuose",
-			"Dağlı95"
+			"Dağlı95",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kitablar yarat]]",
@@ -51,7 +52,7 @@
 	"coll-rendering_article": "(viki səhifə: $1)",
 	"coll-rendering_page": "(səhifə: $1)",
 	"coll-rendering_finished_title": "Sənəd hazırdır",
-	"coll-rendering_finished_text": "<strong>Sənəd hazırdır.</strong>\nSənədi kompüterinizə <strong>[$1 yükləyə]</strong> bilərsiniz.\n\nQeyd:\n* Nəticədən məmnun deyilsiz? Əlavənin inkişaf etdirilməsi istiqamətləri barədə məlumat almaq üçün [[{{MediaWiki:Coll-helppage}}|kitablar haqqında kömək səhifələrinə]] baxın.",
+	"coll-rendering_finished_text": "<strong>Sənəd hazırdır.</strong>\nSənədi kompüterinizə <strong>[$1 yükləyə]</strong> bilərsiniz.",
 	"coll-rendering_failed_title": "Sənədin hazırlanmasında xəta",
 	"coll-rendering_failed_text": "<strong>Sənədin yaradılması zamanı xəta baş verdi.</strong>\n\n<p><span id=\"renderingStatus\">$1</span></p>",
 	"coll-notfound_title": "Kitab tapılmadı",

@@ -4,7 +4,8 @@
 			"Bjarki S",
 			"S.Örvarr.S",
 			"Snævar",
-			"Sveinn í Felli"
+			"Sveinn í Felli",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Búa til bækur]]",
@@ -80,7 +81,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Umskrifa upplýsingartexta síðu",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Umskrifa upplýsingatexta safns",
 	"coll-rendering_finished_title": "Umskrifun lokið",
-	"coll-rendering_finished_text": "<strong>Skráin hefur verið búin til.</strong>\n<strong>[$1 Hlaða niður skránni]</strong> á tölvuna þína.\n\nMinnisatriði:\n* Ertu óánægður með útkomuna? Skoðaðu [[{{MediaWiki:Coll-helppage}}|hjálparsíðuna um bækur]] fyrir möguleika til þess að bæta hana.",
+	"coll-rendering_finished_text": "<strong>Skráin hefur verið búin til.</strong>\n<strong>[$1 Hlaða niður skránni]</strong> á tölvuna þína.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Umskrifa upplýsingatexta síðu",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Umskrifa upplýsingatexta safns",
 	"coll-rendering_failed_title": "Mistókst að ganga frá",

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pyt"
+			"Pyt",
+			"Macofe"
 		]
 	},
 	"coll-desc": "[[Special:Bouk|Bouke moakje]]",
@@ -55,7 +56,7 @@
 	"coll-rendering_page": "(Siede: $1)",
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informatione uur ju Deerstaalenge fon Sieden",
 	"coll-rendering_finished_title": "Kloor moaked",
-	"coll-rendering_finished_text": "<strong>Ju Doatäi wuud mäd Ärfoulch moaked.</strong>\n<strong>[$1 Klik hier],</strong> uum ju Doatäi deeltouleeden.</strong>\n\nBäst du nit mäd dät Resultoat toufree?\nMuugelkhaide tou ju Ferbeeterenge fon ju Uutgoawe finst du ap ju [[{{MediaWiki:Coll-helppage}}|Hälpesiede uur do Siedenkollektione]].",
+	"coll-rendering_finished_text": "<strong>Ju Doatäi wuud mäd Ärfoulch moaked.</strong>\n<strong>[$1 Klik hier],</strong> uum ju Doatäi deeltouleeden.</strong>",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Deerstaalenge fon ju Siedeninformation",
 	"coll-notfound_title": "Bouk nit fuunen",
 	"coll-notfound_text": "Dien Bouk kuud nit fuunen wäide.",
