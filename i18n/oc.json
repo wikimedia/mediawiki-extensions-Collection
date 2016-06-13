@@ -12,7 +12,7 @@
 	"coll-book_creator_help": "Vejatz [[{{MediaWiki:Coll-helppage}}|la pagina d'ajuda suls libres]] per mai d'entresenhas.",
 	"coll-start_book_creator": "Aviar lo creator de libres",
 	"coll-book_creator_continue": "Contunhar en utilizant lo creator de libres",
-	"coll-book_creator_disable_text": "Lo ''creator de libres'' serà desactivat e los libres suls quals trabalhatz seràn suprimits de la sesilha de vòstre navigador.",
+	"coll-book_creator_disable_text": "Lo ''creator de libres'' serà desactivat e los libres suls quals trabalhatz seràn suprimits de la session de vòstre navigador.",
 	"coll-book_creator_text_article": "{{MediaWiki:Coll-helppage}}/Tèxte del mòde libre",
 	"coll-collection": "Libre",
 	"coll-collections": "Libres",
