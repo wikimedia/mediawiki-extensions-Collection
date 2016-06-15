@@ -10,5 +10,6 @@
 	"coll-help": "ⵜⵉⵡⵉⵙⵉ",
 	"coll-help_tooltip": "ⵙⴽⵏ ⵜⵉⵡⵉⵙⵉ ⵅⴼ ⵓⵙⵏⵓⵍⴼⵓ ⵏ ⵉⴷⵍⵉⵙⵏ",
 	"coll-helppage": "Help:ⵉⴷⵍⵉⵙⵏ",
+	"coll-n_pages": "$1 {{PLURAL:$1|ⵜⴰⵙⵏⴰ|ⵜⴰⵙⵏⵉⵡⵉⵏ}}",
 	"coll-show_collection": "ⵙⴽⵏ ⴰⴷⵍⵉⵙ"
 }

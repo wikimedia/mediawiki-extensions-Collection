@@ -7,7 +7,7 @@
 		]
 	},
 	"coll-desc": "[[Special:Book|Crear de libres]]",
-	"coll-book_creator_intro": "<big>Amb lo ''creator de libres'' podètz crear un libre que se conten de paginas del wiki qu'auretz causidas. Podètz exportar lo libre dins formats diferents (per exemple PDF o ODF) o ne comandar una còpia estampada.</big>",
+	"coll-book_creator_intro": "<big>Amb lo ''creator de libres'' podètz crear un libre que se conten de paginas del wiki qu'auretz causidas. Podètz exportar lo libre dins formats diferents (per exemple PDF o ODF) o ne comandar una còpia imprimida.</big>",
 	"coll-manage_your_book": "Gerir vòstre libre",
 	"coll-book_creator_help": "Vejatz [[{{MediaWiki:Coll-helppage}}|la pagina d'ajuda suls libres]] per mai d'entresenhas.",
 	"coll-start_book_creator": "Aviar lo creator de libres",
@@ -78,6 +78,7 @@
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Tèxte d'informacion sul rendut de las colleccions",
 	"coll-rendering_finished_title": "Rendut acabat",
 	"coll-rendering_finished_text": "<strong>Lo fichièr document es estat creat.</strong>\n<strong>[$1 Telecargatz-lo]</strong> sus vòstre ordinator.",
+	"coll-rendering_finished_note_not_satisfied": "Pas satisfait del resultat ? Veire la [[{{MediaWiki:Coll-helppage}}|pagina d'ajuda suls libres]] pels melhoraments possibles.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Rendut del tèxte d'informacion de la pagina",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Rendut del tèxte d'informacion de la colleccion",
 	"coll-rendering_failed_title": "Fracàs del rendut",
