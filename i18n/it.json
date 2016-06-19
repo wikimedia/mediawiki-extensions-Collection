@@ -13,7 +13,8 @@
 			"Toadino2",
 			"Lucas2",
 			"Macofe",
-			"Matteocng"
+			"Matteocng",
+			"Einreiher"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crea libri]]",
@@ -89,7 +90,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informazioni sul rendering delle pagine",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informazioni sul rendering di collezioni",
 	"coll-rendering_finished_title": "Conversione terminata",
-	"coll-rendering_finished_text": "<strong>Il documento è stato generato.</strong>\n<strong>[$1 Scarica il file]</strong> sul tuo computer.",
+	"coll-rendering_finished_text": "<strong>Il documento è stato creato.</strong>\n<strong>[$1 Scarica il file]</strong> sul tuo computer.",
 	"coll-rendering_finished_notes_heading": "Note:",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informazioni sul rendering delle pagine",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informazioni sul rendering di collezioni",
