@@ -1,10 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Samar88"
+			"Samar88",
+			"Albinus"
 		]
 	},
+	"coll-remove": "Ocoḱ giḍi",
+	"coll-show": "Uduḱme",
+	"coll-move_up": "Cetan seć rakaṕ",
+	"coll-move_down": "Latarte pheḍ",
 	"coll-create_a_book": "Mit́ṭen puthi tearme",
 	"coll-create_a_book_tooltip": "Puthi bańkhan sakam tumạl tearme",
-	"coll-book_creator": "Puthi sirjo̠nić"
+	"coll-book_creator": "Puthi sirjo̠nić",
+	"coll-remove_this_page": "Amaḱ ńeloḱ puthi khon noa sakam ocoḱgiḍikam"
 }
