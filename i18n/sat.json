@@ -9,8 +9,11 @@
 	"coll-show": "Uduḱme",
 	"coll-move_up": "Cetan seć rakaṕ",
 	"coll-move_down": "Latarte pheḍ",
+	"coll-print_export": "Prinṭ/kolme",
 	"coll-create_a_book": "Mit́ṭen puthi tearme",
 	"coll-create_a_book_tooltip": "Puthi bańkhan sakam tumạl tearme",
 	"coll-book_creator": "Puthi sirjo̠nić",
-	"coll-remove_this_page": "Amaḱ ńeloḱ puthi khon noa sakam ocoḱgiḍikam"
+	"coll-download_as": "hisạbte pheḍjoṅme",
+	"coll-remove_this_page": "Amaḱ ńeloḱ puthi khon noa sakam ocoḱgiḍikam",
+	"coll-article-attribution": "<b>$1</b> <i>oṛ:</i> $2 <i>kạmiạko:</i> $3"
 }
