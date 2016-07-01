@@ -6,7 +6,8 @@
 			"Li-sung",
 			"Matěj Grabovský",
 			"Mormegil",
-			"Macofe"
+			"Macofe",
+			"Dvorapa"
 		]
 	},
 	"coll-desc": "[[Special:Book|Vytváření knih]]",
@@ -144,7 +145,7 @@
 	"coll-download_as_tooltip": "Stáhnout tuto stránku wiki jako $1",
 	"coll-disable": "vypnout",
 	"coll-book_creator_disable": "Vypnout editor knih",
-	"coll-book_creator_disable_tooltip": "Přestane s používáním editoru knih",
+	"coll-book_creator_disable_tooltip": "Ukončit používání editoru knih",
 	"coll-add_linked_article": "Přidat odkazovanou stránku wiki do knihy",
 	"coll-remove_linked_article": "Odebrat odkazovanou stránku wiki z knihy",
 	"coll-add_category": "Přidat tuto kategorii do vaší knihy",

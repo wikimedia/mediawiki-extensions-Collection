@@ -89,7 +89,7 @@
 	"coll-rendering_finished_title": "만들기 완료",
 	"coll-rendering_finished_text": "<strong>문서 파일이 생성되었습니다.</strong>\n이 파일을 컴퓨터로 <strong>[$1 다운로드]</strong>하세요.",
 	"coll-rendering_finished_notes_heading": "참고:",
-	"coll-rendering_finished_note_not_satisfied": "결과가 맘에 안드나요?  개선해 볼 여지가 있다면, [[{{MediaWiki:Coll-helppage}}|the help page about books]]를 살펴보세요.",
+	"coll-rendering_finished_note_not_satisfied": "출력물이 맘에 안 드나요? 개선해 볼 여지가 있다면, [[{{MediaWiki:Coll-helppage}}|책에 관한 도움말 문서]]를 살펴보세요.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/페이지 정보문 만드는 중",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/모음집 정보문 만드는 중",
 	"coll-rendering_failed_title": "렌더링 실패",
