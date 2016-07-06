@@ -10,6 +10,7 @@
 	"coll-book_creator": "ⴰⵎⵙⵏⵓⵍⴼⵓ ⵏ ⵓⴷⵍⵉⵙ",
 	"coll-download_as": "ⴰⴳⵎ ⵙ ⵜⴰⵍⵖⴰ ⵏ $1",
 	"coll-add_this_page": "ⵔⵏⵓ ⵜⴰⵙⵏⴰ ⴰⴷ ⵉ ⵓⴷⵍⵉⵙ {{GENDER:|ⵏⵏⴽ|ⵏⵏⵎ}}",
+	"coll-add_page_tooltip": "ⵔⵏⵓ ⵜⴰⵙⵏⴰ ⵡⵉⴽⵉ ⴰⴷ ⵜⴰⵎⵉⵔⴰⵏⵜ ⵉ ⵓⴷⵍⵉⵙ ⵏⵏⴽ",
 	"coll-help": "ⵜⵉⵡⵉⵙⵉ",
 	"coll-help_tooltip": "ⵙⴽⵏ ⵜⵉⵡⵉⵙⵉ ⵅⴼ ⵓⵙⵏⵓⵍⴼⵓ ⵏ ⵉⴷⵍⵉⵙⵏ",
 	"coll-helppage": "Help:ⵉⴷⵍⵉⵙⵏ",
@@ -17,6 +18,7 @@
 	"coll-remove_this_page": "ⴽⴽⵙ ⵜⴰⵙⵏⴰ ⴰⴷ ⵙⴳ ⵓⴷⵍⵉⵙ {{GENDER:|ⵏⵏⴽ|ⵏⵏⵎ}}",
 	"coll-show_collection": "ⵙⴽⵏ ⴰⴷⵍⵉⵙ",
 	"coll-show_collection_tooltip": "ⴽⵍⵉⴽⵉ ⴱⴰⵛ ⴰⴷ ⵜⵙⵏⴼⵍⴷ/ⵜⴰⴳⵎⴷ/ⵜⵙⵙⵓⴷⵙⴷ ⴰⴷⵍⵉⵙ {{GENDER:|ⵏⵏⴽ|ⵏⵏⵎ}}",
+	"coll-attribution-anons": "ⴰⵔⵓⵙⵙⵉⵏ: $1",
 	"coll-article-attribution": "<b>$1</b> <i>ⴰⵙⴰⴳⵎ:</i> $2 <i>ⵉⵏⴰⵎⵓⵜⵏ:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>ⴰⵙⴰⴳⵎ:</i> $2 <i>ⵜⵓⵔⴰⴳⵜ:</i> $3 <i>ⵉⵏⴰⵎⵓⵜⵏ:</i> $4 <i>ⴰⵏⴰⵥⵓⵕ ⴰⵙⴰⵍⴰⵏ:</i> $5"
 }
