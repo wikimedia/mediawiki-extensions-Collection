@@ -144,7 +144,7 @@
 	"coll-create_a_book": "יצירת ספר",
 	"coll-create_a_book_tooltip": "יצירת ספר או אוסף דפים",
 	"coll-book_creator": "מצב ספר",
-	"coll-download_as": "הורדה כ־$1",
+	"coll-download_as": "הורדה כ{{GRAMMAR:תחילית|$1}}",
 	"coll-download_as_tooltip": "הורדת גרסת $1 של דף ויקי זה",
 	"coll-disable": "ביטול",
 	"coll-book_creator_disable": "ביטול מצב ספר",
