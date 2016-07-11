@@ -78,6 +78,8 @@
 	"coll-rendering_page": "(lehekülg: $1)",
 	"coll-rendering_finished_title": "Küljendamine on lõppenud",
 	"coll-rendering_finished_text": "<strong>Dokumendifail on loodud.</strong>\n<strong>[$1 Laadi fail]</strong> oma arvutisse alla.",
+	"coll-rendering_finished_notes_heading": "Märkused:",
+	"coll-rendering_finished_note_not_satisfied": "Kas sa pole väljastatuga rahul? Võimalikke lahendusi võid leida [[{{MediaWiki:Coll-helppage}}|raamatute abilehelt]].",
 	"coll-rendering_failed_title": "Küljendamine ebaõnnestus",
 	"coll-rendering_failed_text": "<strong>Dokumendifaili genereerimine ebaõnnestus.</strong>\n\n<p><span id=\"renderingStatus\">$1</span></p>",
 	"coll-rendering_failed_status": "<strong>Olek:</strong> $1",
