@@ -16,7 +16,8 @@
 			"The Evil IP address",
 			"Umherirrender",
 			"VolkerHaas",
-			"XenonX3"
+			"XenonX3",
+			"AKlapper"
 		]
 	},
 	"coll-desc": "Ergänzt eine [[Special:Book|Spezialseite]] zum Erstellen von Büchern",
@@ -74,7 +75,7 @@
 	"coll-save_collection": "Buch speichern",
 	"coll-save_category": "Alle gespeicherten Bücher werden der Kategorie [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]] zugeordnet.",
 	"coll-overwrite_title": "Seite vorhanden, soll sie überschrieben werden?",
-	"coll-overwrite_text": "Eine Seite des namens [[:$1]] ist bereits vorhanden. Möchtest du sie durch dein Buch ersetzen?",
+	"coll-overwrite_text": "Eine Seite namens [[:$1]] ist bereits vorhanden. Möchtest du sie durch dein Buch ersetzen?",
 	"coll-yes": "Ja",
 	"coll-no": "Nein",
 	"coll-load_overwrite_text": "Dein Buch enthält bereits Seiten.\nMöchtest du das aktuelle Buch überschreiben, die neuen Seiten anhängen oder das Laden dieses Buches abbrechen?",
