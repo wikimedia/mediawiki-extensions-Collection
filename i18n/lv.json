@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"GreenZeb",
-			"Papuass"
+			"Papuass",
+			"Silraks"
 		]
 	},
 	"coll-desc": "[[Special:Book|Veidot grāmatas]]",
@@ -76,7 +77,7 @@
 	"coll-add_category_tooltip": "Pievienot visas šajā kategorijā esošās viki lapas savai grāmatai",
 	"coll-add_this_page": "Pievienot šo lapu savai grāmatai",
 	"coll-add_page_tooltip": "Pievienot pašreizējo viki lapu savai grāmatai",
-	"coll-bookscategory": "Grāmatas",
+	"coll-bookscategory": "Dalībnieku izveidotas grāmatas",
 	"coll-clear_collection": "Notīrīt grāmatu",
 	"coll-clear_collection_confirm": "Vai Jūs tiešām vēlaties pilnībā notīrīt savu grāmatu?",
 	"coll-clear_collection_tooltip": "Izņem visas viki lapas no Jūsu pašreizējās grāmatas",
