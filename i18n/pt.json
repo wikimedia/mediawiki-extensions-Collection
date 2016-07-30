@@ -96,6 +96,7 @@
 	"coll-rendering_finished_title": "Composição do ficheiro concluída",
 	"coll-rendering_finished_text": "<strong>O ficheiro foi gerado.</strong>\n<strong>[$1 Transfira o ficheiro]</strong> para o seu computador.",
 	"coll-rendering_finished_notes_heading": "Notas:",
+	"coll-rendering_finished_note_not_satisfied": "Não satisfeito com o resultado? Veja [[{{MediaWiki:Coll-helppage}}|a página de ajuda dos livros]] para ver possibilidades de melhorá-lo.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informativo sobre composição de páginas",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informativo sobre composição de colecções",
 	"coll-rendering_failed_title": "A renderização falhou",

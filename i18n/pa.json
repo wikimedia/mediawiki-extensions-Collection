@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Babanwalia",
-			"Satdeep gill"
+			"Satdeep gill",
+			"Tow"
 		]
 	},
 	"coll-collection": "ਕਿਤਾਬ",
@@ -39,7 +40,7 @@
 	"coll-format-epub": "ਈ-ਕਿਤਾਬ (ਈਪਬ/EPUB)",
 	"right-collectionsaveasuserpage": "ਕਿਤਾਬਾਂ ਨੂੰ ਵਰਤੋਂਕਾਰ ਸਫ਼ੇ ਵਜੋਂ ਸਾਂਭੋ",
 	"coll-print_export": "ਛਾਪੋ/ਬਰਾਮਦ ਕਰੋ",
-	"coll-create_a_book": "ਕੋਈ ਕਿਤਾਬ ਤਿਆਰ ਕਰੋ",
+	"coll-create_a_book": "ਕਿਤਾਬ ਤਿਆਰ ਕਰੋ",
 	"coll-book_creator": "ਕਿਤਾਬ ਤਿਆਰਕਰਤਾ",
 	"coll-download_as": "$1 ਵਜੋਂ ਲਾਹੋ",
 	"coll-disable": "ਬੰਦ ਕਰੋ",
