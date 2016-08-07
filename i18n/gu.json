@@ -60,7 +60,7 @@
 	"coll-personal_collection_label": "વ્યક્તિગત પુસ્તક:",
 	"coll-community_collection_label": "સમૂહ પુસ્તક",
 	"coll-save_collection": "પુસ્તક સાચવો",
-	"coll-save_category": "સાચવેલા બધા પુસ્તકો શ્રેણી [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]]માં ઉમેરવામાં આવે છે",
+	"coll-save_category": "સાચવેલા બધા પુસ્તકોને [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]] શ્રેણીમાં ઉમેરવામાં આવે છે.",
 	"coll-overwrite_title": "પાનું અસ્તિત્વમાં છે.\nજૂનું ભૂંસી નવું લખાણ સાચવવું છે?",
 	"coll-overwrite_text": "[[:$1]] નામ વાળું પાનું પહેલેથી અસ્તિત્વમાં છે.\nતેની જગ્યાએ તમે તમારું પુસ્તક સાચવવા માંગો છો?",
 	"coll-yes": "હા",
