@@ -1033,6 +1033,7 @@ class SpecialCollection extends SpecialPage {
 		$this->setHeaders();
 		$request = $this->getRequest();
 		$out = $this->getOutput();
+		$stats = $out->getStats();
 
 		$collectionId = $request->getVal( 'collection_id' );
 		$writer = $request->getVal( 'writer' );
@@ -1078,6 +1079,7 @@ class SpecialCollection extends SpecialPage {
 			}
 			$template->set( 'progress', $progress );
 			$out->addTemplate( $template );
+			$stats->increment( 'collection.renderingpage.pending' );
 			break;
 		case 'finished':
 			$out->setPageTitle( $this->msg( 'coll-rendering_finished_title' ) );
@@ -1089,6 +1091,7 @@ class SpecialCollection extends SpecialPage {
 			$template->set( 'query', $query );
 			$template->set( 'return_to', $return_to );
 			$out->addTemplate( $template );
+			$stats->increment( 'collection.renderingpage.finished' );
 			break;
 		case 'failed':
 			$out->setPageTitle( $this->msg( 'coll-rendering_failed_title' ) );
@@ -1105,8 +1108,10 @@ class SpecialCollection extends SpecialPage {
 			$template->set( 'query', $query );
 			$template->set( 'return_to', $return_to );
 			$out->addTemplate( $template );
+			$stats->increment( 'collection.renderingpage.failed' );
 			break;
 		default:
+			$stats->increment( 'collection.renderingpage.unknown' );
 			throw new Exception( __METHOD__ . "(): unknown state '{$result->get( 'state' )}'");
 		}
 	}
