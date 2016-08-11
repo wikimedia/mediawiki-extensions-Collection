@@ -1,11 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amara-Amaziɣ"
+			"Amara-Amaziɣ",
+			"ⵕⴰⵊⵉ"
 		]
 	},
 	"coll-remove": "ⴽⴽⵙ",
 	"coll-show": "ⵙⴽⵏ",
+	"coll-move_up": "ⴰⵍⵉ",
+	"coll-move_down": "ⵀⵡⴰ",
 	"coll-create_a_book": "ⵙⵏⵓⵍⴼⵓ ⴽⵔⴰ ⵏ ⵓⴷⵍⵉⵙ",
 	"coll-book_creator": "ⴰⵎⵙⵏⵓⵍⴼⵓ ⵏ ⵓⴷⵍⵉⵙ",
 	"coll-download_as": "ⴰⴳⵎ ⵙ ⵜⴰⵍⵖⴰ ⵏ $1",
