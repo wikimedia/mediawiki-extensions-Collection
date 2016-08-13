@@ -53,5 +53,6 @@
 	"coll-make_suggestions": "Ìdámọ́ràn ojúewé",
 	"coll-make_suggestions_tooltip": "Àfihàn àwọn ìdámọ̀ràn nípa àwọn ojúewé inú ìwé yín",
 	"coll-attribution-anons": "Àìlórúkọ",
-	"coll-article-attribution": "Olùkópa"
+	"coll-article-attribution": "Olùkópa",
+	"coll-image-attribution": "<b>$1</b> <i>Orísun:</i> $2 <i>Ìwé àṣẹ:</i> $3 <i>Àwọn olùkópa:</i> $4 <i>Oníṣọ̀nà àkọ́kọ́:</i> $5"
 }
