@@ -412,15 +412,48 @@ class CollectionRenderingTemplate extends QuickTemplate {
  */
 class CollectionFinishedTemplate extends QuickTemplate {
 	public function execute() {
+		global $wgCollectionShowRenderNotes;
 
 echo wfMessage( 'coll-rendering_finished_text', $this->data['download_url'] )->parseAsBlock();
-echo wfMessage( 'coll-rendering_finished_notes_heading' )->parseAsBlock();
 
-echo Html::rawElement(
-	'ul',
-	array(),
-	Html::rawElement( 'li', array(), wfMessage( 'coll-rendering_finished_note_not_satisfied' )->parseAsBlock() )
-);
+$t = Title::newFromText( $this->data['return_to'] );
+
+$notes = '';
+foreach ( $wgCollectionShowRenderNotes as $noteKey ) {
+
+	if ( $noteKey === 'coll-rendering_finished_note_article_rdf2latex' ) {
+		// Show a note specific to the rdf2latex when rendering an article
+		if ( $this->data['writer'] !== 'rdf2latex' || $t->isSpecialPage() ) {
+			continue;
+		}
+		$tt = '{{int:printableversion}}';
+		if ( $t && $t->isKnown() ) {
+			# Direct link to printable version; only valid for single articles.
+			$tt = '[' . $t->getFullURL( [ 'printable' => 'yes' ] ) . " $tt]";
+		}
+		$noteMessage = wfMessage( 'coll-rendering_finished_note_article_rdf2latex', $tt );
+	} else {
+		$noteMessage = wfMessage( $noteKey );
+	}
+
+	if ( $noteMessage->exists() ) {
+		$notes .= Html::rawElement(
+			'li',
+			array(),
+			Html::rawElement( 'p', array(), $noteMessage->parse() )
+		);
+	} else {
+		wfDebugLog( 'collection', 'Note message key not found: ' . $noteKey );
+	}
+}
+
+if ( $notes !== '' || $this->data['is_cached'] ) {
+	echo wfMessage( 'coll-rendering_finished_notes_heading' )->parseAsBlock();
+}
+
+if ( $notes !== '' ) {
+	echo Html::rawElement( 'ul', array(), $notes );
+}
 
 if ( $this->data['is_cached'] ) {
 	$forceRenderURL = SkinTemplate::makeSpecialUrl(
@@ -430,7 +463,6 @@ if ( $this->data['is_cached'] ) {
 	);
 	echo wfMessage( 'coll-is_cached', $forceRenderURL )->parseAsBlock();
 }
-$t = Title::newFromText( $this->data['return_to'] );
 if ( $t && $t->isKnown() ) {
 	echo wfMessage( 'coll-return_to', $t )->parseAsBlock();
 }

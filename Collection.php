@@ -168,6 +168,13 @@ $wgCollectionPODPartners = array(
 		'infopagetitle' => 'coll-order_info_article',
 	),
 );
+
+# Optional notes that are displayed on the download screen for the rendered
+# document. Each entry is a message key.
+$wgCollectionShowRenderNotes = array(
+	'coll-rendering_finished_note_not_satisfied',
+);
+
 # ==============================================================================
 
 # register Special:Book:
