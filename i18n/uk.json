@@ -92,6 +92,7 @@
 	"coll-rendering_finished_text": "<strong>Файл документа був створений.</strong>\n<strong>[$1 Завантажити файл]</strong> на свій комп'ютер.",
 	"coll-rendering_finished_notes_heading": "Примітки:",
 	"coll-rendering_finished_note_not_satisfied": "Не влаштовує вивід? Див. [[{{MediaWiki:Coll-helppage}}|сторінку довідки про книги]] що вказує на можливості його покращення.",
+	"coll-rendering_finished_note_article_rdf2latex": "Наразі деякі документи не містять таблиць. Альтернативно можна використовувати $1, виберіть «Друк» у меню браузера, і використайте опцію «Зберегти як PDF».",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Формування відомостей про сторінку",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Формування інформації про колекцію",
 	"coll-rendering_failed_title": "Невдала візуалізація",

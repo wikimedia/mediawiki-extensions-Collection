@@ -80,6 +80,7 @@
 	"coll-rendering_finished_text": "<strong>Податотеката на документот е создадена.</strong>\n<strong>[$1 Преземете ја податотеката]</strong> на вашиот сметач.",
 	"coll-rendering_finished_notes_heading": "Белешки:",
 	"coll-rendering_finished_note_not_satisfied": "Не сте задоволни од изводот? Погледајте во [[{{MediaWiki:Coll-helppage}}|помошната страница за книги]] за да видите како можете да го подобрите.",
+	"coll-rendering_finished_note_article_rdf2latex": "Некои документи не содржат табели. Друг начин е да се користи $1, да се отиде на „Испечати“ во менито на прелистувачот, па на можноста „Зачувај како PDF“.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Изработка на информативен текст за страницата",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Изработка на информативен текст за збирката",
 	"coll-rendering_failed_title": "Исписот не успеа",
