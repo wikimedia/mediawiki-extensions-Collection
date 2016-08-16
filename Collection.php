@@ -287,7 +287,7 @@ function wfAjaxPostCollection( $collection = '', $redirect = '' ) {
 $wgAjaxExportList[] = 'wfAjaxPostCollection';
 
 function wfAjaxGetMWServeStatus( $collection_id = '', $writer = 'rl' ) {
-	$response = CollectionRenderingAPI::instance( $writer )->getRenderStatus( $collection_id, $writer );
+	$response = CollectionRenderingAPI::instance( $writer )->getRenderStatus( $collection_id );
 	$result = $response->response;
 	if ( isset( $result['status']['progress'] ) ) {
 		$result['status']['progress'] = number_format( $result['status']['progress'], 2, '.', '' );

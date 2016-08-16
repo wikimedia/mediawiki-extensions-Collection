@@ -65,7 +65,7 @@ class SpecialCollection extends SpecialPage {
 			}
 			$out->redirect( wfAppendQuery(
 				SkinTemplate::makeSpecialUrl( 'Book' ),
-				$request->appendQueryArray( array( 'bookcmd' => rtrim( $par, '/' ) ), true )
+				$request->appendQueryArray( array( 'bookcmd' => rtrim( $par, '/' ) ) )
 			) );
 			return;
 		}
@@ -1038,7 +1038,7 @@ class SpecialCollection extends SpecialPage {
 		$writer = $request->getVal( 'writer' );
 		$return_to = $request->getVal( 'return_to', '' );
 
-		$result = CollectionRenderingAPI::instance( $writer )->getRenderStatus( $collectionId, $writer );
+		$result = CollectionRenderingAPI::instance( $writer )->getRenderStatus( $collectionId );
 		if ( !$this->handleResult( $result ) ) {
 			return; // FIXME?
 		}
@@ -1120,7 +1120,7 @@ class SpecialCollection extends SpecialPage {
 		$api = CollectionRenderingAPI::instance( $writer );
 
 		$this->tempfile = tmpfile();
-		$r = $api->getRenderStatus( $collectionId, $writer );
+		$r = $api->getRenderStatus( $collectionId );
 
 		$info = false;
 		$url = $r->get( 'url' );
@@ -1134,7 +1134,7 @@ class SpecialCollection extends SpecialPage {
 			$content_length = $r->get( 'content_length' );
 			$content_disposition = $r->get( 'content_disposition' );
 		} else {
-			$info = $api->download( $collectionId, $writer );
+			$info = $api->download( $collectionId );
 			$content_type = $info->get( 'content_type' );
 			$content_length = $info->get( 'download_content_length' );
 			$content_disposition = null;

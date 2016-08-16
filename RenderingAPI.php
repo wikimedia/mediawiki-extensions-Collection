@@ -31,7 +31,7 @@ abstract class CollectionRenderingAPI {
 	 * @param array $params
 	 * @return CollectionAPIResult
 	 */
-	protected abstract function makeRequest( $command, array $params );
+	abstract protected function makeRequest( $command, array $params );
 
 	/**
 	 * @return String expanded $wgScriptPath to work around T39868
@@ -100,17 +100,17 @@ abstract class CollectionRenderingAPI {
 	}
 
 	/**
-	 * Returns inromation about a collection's rendering status
+	 * Returns information about a collection's rendering status
 	 *
 	 * @param $collectionId
 	 * @return CollectionAPIResult
 	 */
 	public function getRenderStatus( $collectionId ) {
-		return $this->makeRequest( 'render_status',
+		return $this->makeRequest(
+			'render_status',
 			array(
 				'collection_id' => $collectionId,
-			),
-			'CollectionStatusAPIResult'
+			)
 		);
 	}
 
@@ -344,7 +344,7 @@ class CollectionAPIResult {
 	public function get( $key /*, ... */ ) {
 		$args = func_get_args();
 		$val = $this->response;
-		foreach( $args as $arg ) {
+		foreach ( $args as $arg ) {
 			if ( !isset( $val[$arg] ) ) {
 				return '';
 			}
