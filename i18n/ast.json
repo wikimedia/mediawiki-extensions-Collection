@@ -82,6 +82,7 @@
 	"coll-rendering_finished_text": "<strong>Xeneróse'l ficheru del documentu.</strong>\n<strong>[$1 Descargue'l ficheru]</strong> al so ordenador.",
 	"coll-rendering_finished_notes_heading": "Notes:",
 	"coll-rendering_finished_note_not_satisfied": "¿Nun tas a gustu col resultáu? Mira [[{{MediaWiki:Coll-helppage}}|na páxina d'ayuda sobro llibros]] pa ver posibles ameyoramientos.",
+	"coll-rendering_finished_note_article_rdf2latex": "Actualmente dellos documentos nun contienen tables. Una alternativa pue ser usar el $1, seleiciona «Imprimir» nel menú del navegador y usa la opción »Guardar como PDF».",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Testu informativu sobro renderización de páxines",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Testu informativu sobro renderización de coleiciones",
 	"coll-rendering_failed_title": "Falló la renderización",

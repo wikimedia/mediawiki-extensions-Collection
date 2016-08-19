@@ -93,7 +93,7 @@
 	"coll-rendering_finished_text": "<strong>文档文件已生成。</strong><strong>[$1 下载该文件]</strong>至您的电脑。",
 	"coll-rendering_finished_notes_heading": "注释：",
 	"coll-rendering_finished_note_not_satisfied": "对输出不满意？参见[[{{MediaWiki:Coll-helppage}}|有关图书的帮助页面]]以获取可能改善它的建议。",
-	"coll-rendering_finished_note_article_rdf2latex": "目前一些文档不含表格。您也可以试着使用$1，在浏览器菜单中选择“打印”，然后使用“保存为PDF”选项。",
+	"coll-rendering_finished_note_article_rdf2latex": "目前一些文档不含表格。或许可以改用$1，在浏览器菜单中选择“打印”，然后使用“保存为PDF”选项。",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/生成页面信息文字",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/生成收藏信息文字",
 	"coll-rendering_failed_title": "渲染失败",

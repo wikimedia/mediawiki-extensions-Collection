@@ -82,6 +82,7 @@
 	"coll-rendering_finished_text": "<strong>Xerouse o documento.</strong>\n<strong>[$1 Descargue o ficheiro]</strong> no seu ordenador.",
 	"coll-rendering_finished_notes_heading": "Notas:",
 	"coll-rendering_finished_note_not_satisfied": "Non está satisfeito co resultado? Consulte [[{{MediaWiki:Coll-helppage}}|a páxina de axuda sobre os libros]] para ver melloras posibles.",
+	"coll-rendering_finished_note_article_rdf2latex": "Actualmente algúns documentos non conteñen táboas. Unha alternativa pode ser usar o $1, seleccione \"Imprimir\" no menú do navegador, e use a opción \"Gargar como PDF\".",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informativo sobre o renderizado de páxinas",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informativo sobre o renderizado de coleccións",
 	"coll-rendering_failed_title": "Fallou a renderización",

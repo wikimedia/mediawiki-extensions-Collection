@@ -85,6 +85,7 @@
 	"coll-rendering_finished_text": "<strong>নথির ফাইল তৈরি হয়ে গেছে।</strong>\nআপনার কম্পিউটারে <strong>[$1 ফাইলটি ডাউলোড করুন]</strong>।",
 	"coll-rendering_finished_notes_heading": "টীকা:",
 	"coll-rendering_finished_note_not_satisfied": "আউটপুটে আপনি সন্তুষ্ট নন? এটা উন্নয়ন করার সম্ভাবনা জানতে [[{{MediaWiki:Coll-helppage}}|বই সংক্রান্ত সহায়িকা]] দেখুন।",
+	"coll-rendering_finished_note_article_rdf2latex": "বর্তমানে কিছু নথিতে টেবিল থাকে না। বিকল্প হিসেবে $1 ব্যবহার করা যেতে পারে, ব্রাউজারের মেনুতে \"মুদ্রণ\" নির্বাচন করুন, এবং  \"PDF হিসেবে সংরক্ষণ\" অপশনটি ব্যবহার করুন।",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/পাতার তথ্যাদির লেখা মুদ্রিত হচ্ছে",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/সংগ্রহের তথ্যাদির লেখা মুদ্রিত হচ্ছে",
 	"coll-rendering_failed_title": "রেনডারিং সফল হয়নি",
