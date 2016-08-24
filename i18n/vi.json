@@ -84,6 +84,7 @@
 	"coll-rendering_finished_text": "<strong>Xong kết xuất tập tin tài liệu.</strong>\n<strong>[$1 Tải nó về]</strong> máy tính của mình.",
 	"coll-rendering_finished_notes_heading": "Ghi chú:",
 	"coll-rendering_finished_note_not_satisfied": "Không vừa lòng với bản kết xuất? Xem thêm gợi ý để cải thiện nó trong [[{{MediaWiki:Coll-helppage}}|trang trợ giúp về sách]].",
+	"coll-rendering_finished_note_article_rdf2latex": "Hiện tại một số tài liệu không có chứa bảng. Thay thế, có thể sử dụng $1, chọn “In” trong trình đơn của trình duyệt, và chọn lệnh “Lưu thành PDF”.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Kết xuất văn bản thông tin trang",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Kết xuất văn bản thông tin tuyển tập",
 	"coll-rendering_failed_title": "Kết xuất thất bại",
