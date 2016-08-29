@@ -92,7 +92,7 @@
 	"coll-blacklisted-templates": "* Cithakan-cithakan ing dhaptar-ireng [[:$1]] wis diwetokaké.",
 	"coll-book_title": "Urut kaya buku cithakan",
 	"coll-book_text": "Jupuken buku cithakan saka partner ''print-on-demand'' kita:",
-	"coll-order_from_pp": "Pratayang nganggo $1",
+	"coll-order_from_pp": "Pratuduh nganggo $1",
 	"coll-about_pp": "Perkara $1",
 	"coll-invalid_podpartner_title": "Partner POD ora sah",
 	"coll-invalid_podpartner_msg": "Partner POD sing disadiyakaké ora sah.\nMangga hubungi pangurus MediaWiki panjenengan.",
