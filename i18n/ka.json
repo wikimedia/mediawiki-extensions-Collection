@@ -85,6 +85,7 @@
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/კოლექციის შესახებ ტექსტის გადაყვანა",
 	"coll-rendering_finished_title": "შექმნა დასრულებულია",
 	"coll-rendering_finished_text": "<strong>დოკუმენტის ფაილი შექმნილია.</strong>\n<strong>[$1 ჩამოტვირთეთ]</strong> ფაილი კომპიუტერში.",
+	"coll-rendering_finished_notes_heading": "შენიშვნები:",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/გვერდის ტექსტში გადაყვანა",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/კოლექციის ტექსტში გადაყვანა",
 	"coll-rendering_failed_title": "რენდერი ჩაიშალა",
