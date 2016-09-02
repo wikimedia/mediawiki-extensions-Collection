@@ -107,7 +107,7 @@
 	"coll-order_from_pp": "Verqayt be $1",
 	"coll-about_pp": "Heqa $1 de",
 	"coll-invalid_podpartner_title": "Partnerê PODî ğeletî",
-	"coll-invalid_podpartner_msg": "Partnerê PODî raşt niyo.\nMa rica keno îdarekarê MedîyaWîkîyî ra yew mesaj bişirav.",
+	"coll-invalid_podpartner_msg": "Partnerê POD raşt niyo.\nMa rica kem idarekarê MediaWiki rê jew mesac bırışê.",
 	"coll-license": "Lisans",
 	"coll-return_to": "Peyser şo [[:$1]]",
 	"coll-order_info_article": "Malumatê sipariş da {{MediaWiki:Coll-helppage}}/PediaPress",
