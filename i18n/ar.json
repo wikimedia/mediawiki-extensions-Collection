@@ -14,7 +14,8 @@
 			"محمدالداودي",
 			"فلورانس",
 			"Macofe",
-			"Helmoony"
+			"Helmoony",
+			"Moud hosny"
 		]
 	},
 	"coll-desc": "[[Special:Book|ينشيء كتبا]]",
@@ -139,6 +140,7 @@
 	"coll-format-zim": "كيويكس (أوبن زيم)",
 	"coll-format-docbook": "دوك بوك",
 	"coll-format-okawix_zeno": "أوكاويكس",
+	"coll-format-rdf2latex": "كتاب إلكتروني (PDF)",
 	"coll-format-rdf2text": "معالج نصوص (نص عادي)",
 	"right-collectionsaveasuserpage": "احفظ الكتب في صفحة المستخدم",
 	"right-collectionsaveascommunitypage": "احفظ الكتب في صفحة المجتمع",
