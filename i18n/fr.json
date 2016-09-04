@@ -41,7 +41,7 @@
 	"coll-couldnotaddarticle_msg": "La page du wiki ne peut pas être ajouté.",
 	"coll-couldnotremovearticle_title": "Impossible de supprimer la page du wiki",
 	"coll-couldnotremovearticle_msg": "La page du wiki ne peut pas être enlevée.",
-	"coll-noscript_text": "<h1>Javascript est nécessaire !</h1>\n<strong>Votre navigateur ne supporte pas Javascript ou bien vous l’avez désactivé.\nCette page ne fonctionnera pas correctement tant que Javascript n’est pas activé.</strong>",
+	"coll-noscript_text": "<h1>Javascript est nécessaire !</h1>\n<strong>Votre navigateur ne prend en charge Javascript ou bien vous l’avez désactivé.\nCette page ne fonctionnera pas correctement tant que Javascript ne sera pas activé.</strong>",
 	"coll-savedbook_template": "Livre sauvegardé",
 	"coll-your_book": "Votre livre",
 	"coll-download_title": "Télécharger",

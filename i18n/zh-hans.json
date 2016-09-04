@@ -126,7 +126,7 @@
 	"coll-suggest_reset_bans_tooltip": "显示以前删除的建议",
 	"coll-suggest_add_selected": "添加选择的页面",
 	"coll-suggest_ban_selected": "删除选择的页面",
-	"coll-suggest_your_book": "你的图书",
+	"coll-suggest_your_book": "您的图书",
 	"coll-suggest_show": "显示",
 	"coll-suggest_ban_tooltip": "从建议列表中删除本页",
 	"coll-suggest_article_ban": "页面<strong>$1</strong>已从建议列表中删除（$2）。",
