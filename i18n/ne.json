@@ -158,7 +158,7 @@
 	"coll-load_collection_tooltip": "यस पुस्तकलाई वर्तमान पुस्तक जस्तै लोड गर्ने",
 	"coll-n_pages": "$1 {{PLURAL:$1|पृष्ठ|पृष्ठहरू}}",
 	"coll-printable_version_pdf": "पिडियफ भर्सन",
-	"coll-remove_this_page": "यस पृष्ठलाई तपाईँको पुस्तकबाट हटाउने",
+	"coll-remove_this_page": "यस पृष्ठलाई तपाईंको पुस्तकबाट हटाउने",
 	"coll-remove_page_tooltip": "यस पृष्ठलाई तपाईँको वर्तमान विकि पृष्ठबाट हटाउने",
 	"coll-show_collection": "पुस्तक देखाउने",
 	"coll-show_collection_tooltip": "पुस्तकलाई सम्पादन/डाउनलोड/आज्ञा दिन क्लिक गर्नुस",
