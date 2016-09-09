@@ -40,8 +40,6 @@ $wgExtensionCredits['specialpage'][] = array(
 	'license-name' => 'GPL-2.0+',
 );
 
-$dir = __DIR__ . '/';
-
 # ==============================================================================
 
 # Configuration:
@@ -175,33 +173,33 @@ $wgCollectionShowRenderNotes = array(
 # ==============================================================================
 
 # register Special:Book:
-$wgAutoloadClasses['SpecialCollection'] = $dir . 'Collection.body.php';
-$wgAutoloadClasses['CollectionSession'] = $dir . 'Collection.session.php';
-$wgAutoloadClasses['CollectionHooks'] = $dir . 'Collection.hooks.php';
-$wgAutoloadClasses['CollectionSuggest'] = $dir . 'Collection.suggest.php';
-$wgAutoloadClasses['CollectionProposals'] = $dir . 'Collection.suggest.php';
+$wgAutoloadClasses['SpecialCollection'] = __DIR__ . '/Collection.body.php';
+$wgAutoloadClasses['CollectionSession'] = __DIR__ . '/Collection.session.php';
+$wgAutoloadClasses['CollectionHooks'] = __DIR__ . '/Collection.hooks.php';
+$wgAutoloadClasses['CollectionSuggest'] = __DIR__ . '/Collection.suggest.php';
+$wgAutoloadClasses['CollectionProposals'] = __DIR__ . '/Collection.suggest.php';
 
-$wgAutoloadClasses['CollectionPageTemplate'] = $dir . 'templates/CollectionPageTemplate.php';
-$wgAutoloadClasses['CollectionListTemplate'] = $dir . 'templates/CollectionListTemplate.php';
+$wgAutoloadClasses['CollectionPageTemplate'] = __DIR__ . '/templates/CollectionPageTemplate.php';
+$wgAutoloadClasses['CollectionListTemplate'] = __DIR__ . '/templates/CollectionListTemplate.php';
 $wgAutoloadClasses['CollectionLoadOverwriteTemplate'] =
-	$dir . 'templates/CollectionLoadOverwriteTemplate.php';
+	__DIR__ . '/templates/CollectionLoadOverwriteTemplate.php';
 $wgAutoloadClasses['CollectionSaveOverwriteTemplate'] =
-	$dir . 'templates/CollectionSaveOverwriteTemplate.php';
+	__DIR__ . '/templates/CollectionSaveOverwriteTemplate.php';
 $wgAutoloadClasses['CollectionRenderingTemplate'] =
-	$dir . 'templates/CollectionRenderingTemplate.php';
+	__DIR__ . '/templates/CollectionRenderingTemplate.php';
 $wgAutoloadClasses['CollectionFinishedTemplate'] =
-	$dir . 'templates/CollectionFinishedTemplate.php';
-$wgAutoloadClasses['CollectionFailedTemplate'] = $dir . 'templates/CollectionFailedTemplate.php';
-$wgAutoloadClasses['CollectionSuggestTemplate'] = $dir . 'templates/CollectionSuggestTemplate.php';
+	__DIR__ . '/templates/CollectionFinishedTemplate.php';
+$wgAutoloadClasses['CollectionFailedTemplate'] = __DIR__ . '/templates/CollectionFailedTemplate.php';
+$wgAutoloadClasses['CollectionSuggestTemplate'] = __DIR__ . '/templates/CollectionSuggestTemplate.php';
 
-$wgAutoloadClasses['CollectionRenderingAPI'] = $dir . 'RenderingAPI.php';
-$wgAutoloadClasses['MWServeRenderingAPI'] = $dir . 'RenderingAPI.php';
-$wgAutoloadClasses['NewRenderingAPI'] = $dir . 'RenderingAPI.php';
-$wgAutoloadClasses['CollectionAPIResult'] = $dir . 'RenderingAPI.php';
+$wgAutoloadClasses['CollectionRenderingAPI'] = __DIR__ . '/RenderingAPI.php';
+$wgAutoloadClasses['MWServeRenderingAPI'] = __DIR__ . '/RenderingAPI.php';
+$wgAutoloadClasses['NewRenderingAPI'] = __DIR__ . '/RenderingAPI.php';
+$wgAutoloadClasses['CollectionAPIResult'] = __DIR__ . '/RenderingAPI.php';
 
 $wgMessagesDirs['Collection'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['Collection'] = $dir . 'Collection.i18n.php';
-$wgExtensionMessagesFiles['CollectionAlias'] = $dir . 'Collection.alias.php';
+$wgExtensionMessagesFiles['Collection'] = __DIR__ . '/Collection.i18n.php';
+$wgExtensionMessagesFiles['CollectionAlias'] = __DIR__ . '/Collection.alias.php';
 
 $wgSpecialPages['Book'] = 'SpecialCollection';
 
@@ -215,7 +213,7 @@ $wgAvailableRights[] = 'collectionsaveasuserpage';
 $wgAvailableRights[] = 'collectionsaveascommunitypage';
 
 $collResourceTemplate = array(
-	'localBasePath' => "$dir/modules",
+	'localBasePath' => __DIR__ . '/modules',
 	'remoteExtPath' => 'Collection/modules'
 );
 
