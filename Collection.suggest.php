@@ -82,7 +82,9 @@ class CollectionSuggest {
 		return array(
 			'suggestions_html' => $template->getProposalList(),
 			'members_html' => $template->getMemberList(),
-			'num_pages' => wfMessage( 'coll-n_pages' )->numParams( CollectionSession::countArticles() )->escaped()
+			'num_pages' => wfMessage( 'coll-n_pages' )
+				->numParams( CollectionSession::countArticles() )
+				->escaped(),
 		);
 	}
 
@@ -168,7 +170,7 @@ class CollectionSuggest {
 			$_SESSION['wsCollectionSuggestProp'] = array();
 		}
 
-		switch( $mode ) {
+		switch ( $mode ) {
 			case 'add':
 				SpecialCollection::addArticleFromName( NS_MAIN, $param );
 				self::unban( $param );

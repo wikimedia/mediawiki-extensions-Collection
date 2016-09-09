@@ -444,7 +444,7 @@ class SpecialCollection extends SpecialPage {
 		$result = array();
 
 		$t = wfMessage( 'coll-user_book_prefix', $wgUser->getName() )->inContentLanguage();
-		if ( $t->isDisabled()  ) {
+		if ( $t->isDisabled() ) {
 			$userPageTitle = $wgUser->getUserPage()->getPrefixedText();
 			$result['user-prefix'] = $userPageTitle . '/'
 				. wfMessage( 'coll-collections' )->inContentLanguage()->text() . '/';
@@ -788,7 +788,10 @@ class SpecialCollection extends SpecialPage {
 			$collection['subtitle'] = $match[ 1 ];
 		} elseif ( !$append && preg_match( '/^==\s*(.*?)\s*==$/', $line, $match ) ) {
 			$collection['title'] = $match[ 1 ];
-		} elseif ( !$append && preg_match( '/^\s*\|\s*setting-([a-zA-Z0-9_-]+)\s*=\s*([^|]*)\s*$/', $line, $match ) ) {
+		} elseif (
+			!$append &&
+			preg_match( '/^\s*\|\s*setting-([a-zA-Z0-9_-]+)\s*=\s*([^|]*)\s*$/', $line, $match )
+		) {
 			$collection['settings'][$match[ 1 ]] = $match[ 2 ];
 		} elseif ( substr( $line, 0, 1 ) == ';' ) { // chapter
 			return array(
@@ -806,7 +809,9 @@ class SpecialCollection extends SpecialPage {
 				}
 				$oldid = - 1;
 				$currentVersion = 1;
-			} elseif ( preg_match( '/^\[\{\{fullurl:(.*?)\|oldid=(.*?)\}\}\s+(.*?)\]$/', $articleTitle, $match ) ) {
+			} elseif (
+				preg_match( '/^\[\{\{fullurl:(.*?)\|oldid=(.*?)\}\}\s+(.*?)\]$/', $articleTitle, $match )
+			) {
 				$articleTitle = $match[1];
 				if ( isset( $match[3] ) ) {
 					$displayTitle = $match[3];
@@ -957,7 +962,8 @@ class SpecialCollection extends SpecialPage {
 		if ( !$t->isDisabled() ) {
 			$catTitle = Title::makeTitle( NS_CATEGORY, $t->text() );
 			if ( !is_null( $catTitle ) ) {
-				$articleText .= "\n[[" . $catTitle->getPrefixedText() . "|" . wfEscapeWikiText( $title->getSubpageText() ) . "]]\n";
+				$articleText .= "\n[[" . $catTitle->getPrefixedText() .
+					"|" . wfEscapeWikiText( $title->getSubpageText() ) . "]]\n";
 			}
 		}
 
@@ -968,7 +974,9 @@ class SpecialCollection extends SpecialPage {
 				'title' => $title->getPrefixedText(),
 				'text' => $articleText,
 				'token' => $this->getUser()->getEditToken(),
-		), true);
+			),
+			true
+		);
 		$api = new ApiMain( $req, true );
 		$api->execute();
 		return true;
@@ -1051,7 +1059,10 @@ class SpecialCollection extends SpecialPage {
 		switch ( $result->get( 'state' ) ) {
 		case 'pending':
 		case 'progress':
-			$out->addHeadItem( 'refresh-nojs', '<noscript><meta http-equiv="refresh" content="2" /></noscript>' );
+			$out->addHeadItem(
+				'refresh-nojs',
+				'<noscript><meta http-equiv="refresh" content="2" /></noscript>'
+			);
 			$out->addInlineScript( 'var collection_id = "' . urlencode( $collectionId ) . '";' );
 			$out->addInlineScript( 'var writer = "' . urlencode( $writer ) . '";' );
 			$out->addInlineScript( 'var collection_rendering = true;' );
@@ -1061,10 +1072,14 @@ class SpecialCollection extends SpecialPage {
 			$statusText = $result->get( 'status', 'status' );
 			if ( $statusText ) {
 				if ( $result->get( 'status', 'article' ) ) {
-					$statusText .= ' ' . $this->msg( 'coll-rendering_article', $result->get( 'status', 'article' ) )->text();
+					$statusText .= ' ' . $this->msg(
+							'coll-rendering_article',
+							$result->get( 'status', 'article' )
+						)->text();
 				} elseif ( $result->get( 'status', 'page' ) ) {
 					$statusText .= ' ';
-					$statusText .= $this->msg( 'coll-rendering_page' )->numParams( $result->get( 'status', 'page' ) )->text();
+					$statusText .= $this->msg( 'coll-rendering_page' )
+						->numParams( $result->get( 'status', 'page' ) )->text();
 				}
 				$status = $this->msg( 'coll-rendering_status', $statusText )->text();
 			} else {
@@ -1085,7 +1100,13 @@ class SpecialCollection extends SpecialPage {
 			$out->setPageTitle( $this->msg( 'coll-rendering_finished_title' ) );
 
 			$template = new CollectionFinishedTemplate();
-			$template->set( 'download_url', wfExpandUrl( SkinTemplate::makeSpecialUrl( 'Book', 'bookcmd=download&' . $query ), PROTO_CURRENT ) );
+			$template->set(
+				'download_url',
+				wfExpandUrl(
+					SkinTemplate::makeSpecialUrl( 'Book', 'bookcmd=download&' . $query ),
+					PROTO_CURRENT
+				)
+			);
 			$template->set( 'is_cached', $request->getVal( 'is_cached' ) );
 			$template->set( 'writer', $request->getVal( 'writer' ) );
 			$template->set( 'query', $query );
@@ -1112,7 +1133,7 @@ class SpecialCollection extends SpecialPage {
 			break;
 		default:
 			$stats->increment( 'collection.renderingpage.unknown' );
-			throw new Exception( __METHOD__ . "(): unknown state '{$result->get( 'state' )}'");
+			throw new Exception( __METHOD__ . "(): unknown state '{$result->get( 'state' )}'" );
 		}
 	}
 
@@ -1148,7 +1169,10 @@ class SpecialCollection extends SpecialPage {
 			}
 		}
 		if ( !$info ) {
-			$this->getOutput()->showErrorPage( 'coll-download_notfound_title', 'coll-download_notfound_text' );
+			$this->getOutput()->showErrorPage(
+				'coll-download_notfound_title',
+				'coll-download_notfound_text'
+			);
 			return;
 		}
 		wfResetOutputBuffers();
@@ -1160,7 +1184,11 @@ class SpecialCollection extends SpecialPage {
 			$ct_enc = explode( ';', $content_type );
 			$ct = $ct_enc[0];
 			if ( isset( $wgCollectionContentTypeToFilename[$ct] ) ) {
-				header( 'Content-Disposition: ' . 'inline; filename=' . $wgCollectionContentTypeToFilename[$ct] );
+				header(
+					'Content-Disposition: ' .
+					'inline; filename=' .
+					$wgCollectionContentTypeToFilename[$ct]
+				);
 			}
 		}
 		fseek( $this->tempfile, 0 );
@@ -1218,7 +1246,7 @@ class SpecialCollection extends SpecialPage {
 			$collection['settings'] = array();
 		}
 		foreach ( $wgCollectionRendererSettings as $key => $desc ) {
-			if ( $desc['type'] != 'select') {
+			if ( $desc['type'] != 'select' ) {
 				continue;
 			}
 			$val = $request->getVal( $key );

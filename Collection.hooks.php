@@ -95,19 +95,28 @@ class CollectionHooks {
 			return false;
 		}
 
-		$out = Array();
+		$out = array();
 
 		$booktitle = SpecialPage::getTitleFor( 'Book' );
 		if ( !CollectionSession::isEnabled() ) {
-			$out[] = Array( 'text' => $sk->msg( 'coll-create_a_book' )->escaped(),
-				        'id' => 'coll-create_a_book',
-				        'href' => $booktitle->getLocalURL( array( 'bookcmd' => 'book_creator', 'referer' => $title->getPrefixedText() ) )
-			       );
+			$out[] = array(
+				'text' => $sk->msg( 'coll-create_a_book' )->escaped(),
+				'id' => 'coll-create_a_book',
+				'href' => $booktitle->getLocalURL(
+					array( 'bookcmd' => 'book_creator', 'referer' => $title->getPrefixedText() )
+				),
+			);
 		} else {
-			$out[] = Array( 'text' => $sk->msg( 'coll-book_creator_disable' )->escaped(),
-				        'id' => 'coll-book_creator_disable',
-					'href' => $booktitle->getLocalURL( array( 'bookcmd' => 'stop_book_creator', 'referer' => $title->getPrefixedText() ) )
-				 );
+			$out[] = array(
+				'text' => $sk->msg( 'coll-book_creator_disable' )->escaped(),
+				'id' => 'coll-book_creator_disable',
+				'href' => $booktitle->getLocalURL(
+					array(
+						'bookcmd' => 'stop_book_creator',
+						'referer' => $title->getPrefixedText(),
+					)
+				),
+			);
 		}
 
 		$params = array(
@@ -125,16 +134,17 @@ class CollectionHooks {
 
 		foreach ( $wgCollectionPortletFormats as $writer ) {
 			$params['writer'] = $writer;
-			$out[] = Array( 'text' => $sk->msg( 'coll-download_as', $wgCollectionFormats[$writer] )->escaped(),
-				        'id' => 'coll-download-as-' . $writer,
-					'href' => $booktitle->getLocalURL( $params )
-				 );
+			$out[] = array(
+				'text' => $sk->msg( 'coll-download_as', $wgCollectionFormats[$writer] )->escaped(),
+				'id' => 'coll-download-as-' . $writer,
+				'href' => $booktitle->getLocalURL( $params ),
+			);
 		}
 
 		// Move the 'printable' link into our section for consistency
 		if ( $action == 'view' || $action == 'purge' ) {
 			if ( !$sk->getOutput()->isPrintable() ) {
-				$out[] = Array( 'text' => $sk->msg( 'printableversion' )->text(),
+				$out[] = array( 'text' => $sk->msg( 'printableversion' )->text(),
 					        'id' => 't-print',
 						'href' => $title->getLocalURL( array( 'printable' => 'yes' ) )
 					);

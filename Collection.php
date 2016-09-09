@@ -34,7 +34,7 @@ $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'Collection',
 	'version' => '1.7.0',
-	'author' => array( 'PediaPress GmbH', 'Siebrand Mazeland', 'Marcin Cieślak'),
+	'author' => array( 'PediaPress GmbH', 'Siebrand Mazeland', 'Marcin Cieślak' ),
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Collection',
 	'descriptionmsg' => 'coll-desc',
 	'license-name' => 'GPL-2.0+',
@@ -284,7 +284,8 @@ function wfAjaxPostCollection( $collection = '', $redirect = '' ) {
 $wgAjaxExportList[] = 'wfAjaxPostCollection';
 
 function wfAjaxGetMWServeStatus( $collection_id = '', $writer = 'rl' ) {
-	$response = CollectionRenderingAPI::instance( $writer )->getRenderStatus( $collection_id );
+	$response = CollectionRenderingAPI::instance( $writer )
+		->getRenderStatus( $collection_id );
 	$result = $response->response;
 	if ( isset( $result['status']['progress'] ) ) {
 		$result['status']['progress'] = number_format( $result['status']['progress'], 2, '.', '' );
@@ -317,7 +318,11 @@ function wfAjaxCollectionAddCategory( $title = '' ) {
 
 $wgAjaxExportList[] = 'wfAjaxCollectionAddCategory';
 
-function wfAjaxCollectionGetBookCreatorBoxContent( $ajaxHint = '', $oldid = null, $pageName = null ) {
+function wfAjaxCollectionGetBookCreatorBoxContent(
+	$ajaxHint = '',
+	$oldid = null,
+	$pageName = null
+) {
 	if ( !is_null( $oldid ) ) {
 		$oldid = intval( $oldid );
 	}
@@ -468,7 +473,10 @@ function wfCollectionSuggestAction( $action, $article ) {
 		),
 		wfMessage( 'coll-suggest_undo' )->text()
 	);
-	// Message keys used: coll-suggest_article_ban, coll-suggest_article_add, coll-suggest_article_remove
+	// Message keys used:
+	// coll-suggest_article_ban
+	// coll-suggest_article_add
+	// coll-suggest_article_remove
 	$result['last_action'] = wfMessage( "coll-suggest_article_$action", $article )
 		->rawParams( $undoLink )->parse();
 	$result['collection'] = CollectionSession::getCollection();

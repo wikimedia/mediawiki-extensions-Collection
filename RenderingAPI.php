@@ -280,7 +280,8 @@ abstract class CollectionRenderingAPI {
  */
 class MWServeRenderingAPI extends CollectionRenderingAPI {
 	protected function makeRequest( $command, array $params ) {
-		global $wgCollectionMWServeURL, $wgCollectionMWServeCredentials, $wgCollectionFormatToServeURL, $wgCollectionCommandToServeURL;
+		global $wgCollectionMWServeURL, $wgCollectionMWServeCredentials,
+			$wgCollectionFormatToServeURL, $wgCollectionCommandToServeURL;
 
 		$serveURL = $wgCollectionMWServeURL;
 		if ( $this->writer ) {
@@ -300,7 +301,11 @@ class MWServeRenderingAPI extends CollectionRenderingAPI {
 		// If $serveURL has a | in it, we need to use a proxy.
 		list( $proxy, $serveURL ) = array_pad( explode( '|', $serveURL, 2 ), -2, '' );
 
-		$response = Http::post( $serveURL, array( 'postData' => $params, 'proxy' => $proxy ), __METHOD__ );
+		$response = Http::post(
+			$serveURL,
+			array( 'postData' => $params, 'proxy' => $proxy ),
+			__METHOD__
+		);
 		if ( $response === false ) {
 			wfDebugLog( 'collection', "Request to $serveURL resulted in error" );
 		}
