@@ -101,10 +101,12 @@ foreach ( $this->data['podpartners'] as $partnerKey => $partnerData ) {
 	$partnerClasses = "";
 	$about_partner = wfMessage( 'coll-about_pp', $partnerData['name'] )->escaped();
 	if ( isset( $partnerData['infopagetitle'] ) ) {
-		$infopage = Title::newFromText( wfMessage( $partnerData['infopagetitle'] )->inContentLanguage()->text() );
+		$infopage = Title::newFromText(
+			wfMessage( $partnerData['infopagetitle']
+		)->inContentLanguage()->text() );
 		if ( $infopage && $infopage->exists() ) {
 			$partnerClasses = " coll-more_info collapsed";
- 		}
+		}
 	}
 ?>
 	<li class="collection-partner<?php echo $partnerClasses ?>">
