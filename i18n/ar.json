@@ -93,6 +93,7 @@
 	"coll-rendering_finished_title": "العرض انتهى",
 	"coll-rendering_finished_text": "<strong>ملف الوثيقة تم توليده.</strong>\n<strong>[$1 نزل الملف]</strong> إلى حاسوبك.",
 	"coll-rendering_finished_notes_heading": "ملاحظات:",
+	"coll-rendering_finished_note_not_satisfied": "غير راضي عن الخرج؟ انظر [[{{MediaWiki:Coll-helppage}}|صفحة المساعدة حول الكتب]] للاحتمالات لتحسينه.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/تصيير نص معلومات صفحة",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/تصيير نص معلومات مجموعة",
 	"coll-rendering_failed_title": "فشل التحميل",
