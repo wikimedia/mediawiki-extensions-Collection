@@ -46,9 +46,6 @@ $dir = __DIR__ . '/';
 
 # Configuration:
 
-/** Bump the version number every time you change any of the JavaScript files */
-$wgCollectionStyleVersion = 9;
-
 /** URL of mw-serve render server */
 $wgCollectionMWServeURL = 'http://tools.pediapress.com/mw-serve/';
 

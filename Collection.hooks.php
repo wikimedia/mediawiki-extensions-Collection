@@ -197,7 +197,6 @@ class CollectionHooks {
 	 * @return string
 	 */
 	public static function renderBookCreatorBox( $title, $mode = '' ) {
-		global $wgCollectionStyleVersion;
 		global $wgOut, $wgExtensionAssetsPath, $wgRequest;
 
 		$imagePath = "$wgExtensionAssetsPath/Collection/images";
@@ -218,7 +217,7 @@ class CollectionHooks {
 
 		$html .= Xml::element( 'img',
 			array(
-				'src' => "$imagePath/Open_book.png?$wgCollectionStyleVersion",
+				'src' => "$imagePath/Open_book.png",
 				'alt' => '',
 				'width' => '80',
 				'height' => '45',
