@@ -180,14 +180,20 @@ $wgAutoloadClasses['CollectionSession'] = $dir . 'Collection.session.php';
 $wgAutoloadClasses['CollectionHooks'] = $dir . 'Collection.hooks.php';
 $wgAutoloadClasses['CollectionSuggest'] = $dir . 'Collection.suggest.php';
 $wgAutoloadClasses['CollectionProposals'] = $dir . 'Collection.suggest.php';
-$wgAutoloadClasses['CollectionPageTemplate'] = $dir . 'Collection.templates.php';
-$wgAutoloadClasses['CollectionListTemplate'] = $dir . 'Collection.templates.php';
-$wgAutoloadClasses['CollectionLoadOverwriteTemplate'] = $dir . 'Collection.templates.php';
-$wgAutoloadClasses['CollectionSaveOverwriteTemplate'] = $dir . 'Collection.templates.php';
-$wgAutoloadClasses['CollectionRenderingTemplate'] = $dir . 'Collection.templates.php';
-$wgAutoloadClasses['CollectionFinishedTemplate'] = $dir . 'Collection.templates.php';
-$wgAutoloadClasses['CollectionFailedTemplate'] = $dir . 'Collection.templates.php';
-$wgAutoloadClasses['CollectionSuggestTemplate'] = $dir . 'Collection.templates.php';
+
+$wgAutoloadClasses['CollectionPageTemplate'] = $dir . 'templates/CollectionPageTemplate.php';
+$wgAutoloadClasses['CollectionListTemplate'] = $dir . 'templates/CollectionListTemplate.php';
+$wgAutoloadClasses['CollectionLoadOverwriteTemplate'] =
+	$dir . 'templates/CollectionLoadOverwriteTemplate.php';
+$wgAutoloadClasses['CollectionSaveOverwriteTemplate'] =
+	$dir . 'templates/CollectionSaveOverwriteTemplate.php';
+$wgAutoloadClasses['CollectionRenderingTemplate'] =
+	$dir . 'templates/CollectionRenderingTemplate.php';
+$wgAutoloadClasses['CollectionFinishedTemplate'] =
+	$dir . 'templates/CollectionFinishedTemplate.php';
+$wgAutoloadClasses['CollectionFailedTemplate'] = $dir . 'templates/CollectionFailedTemplate.php';
+$wgAutoloadClasses['CollectionSuggestTemplate'] = $dir . 'templates/CollectionSuggestTemplate.php';
+
 $wgAutoloadClasses['CollectionRenderingAPI'] = $dir . 'RenderingAPI.php';
 $wgAutoloadClasses['MWServeRenderingAPI'] = $dir . 'RenderingAPI.php';
 $wgAutoloadClasses['NewRenderingAPI'] = $dir . 'RenderingAPI.php';
