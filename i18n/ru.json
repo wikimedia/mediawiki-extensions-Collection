@@ -97,6 +97,7 @@
 	"coll-rendering_finished_text": "<strong>Файл документа создан.</strong>\n<strong>[$1 Загрузить файл]</strong> на свой компьютер.",
 	"coll-rendering_finished_notes_heading": "Примечания:",
 	"coll-rendering_finished_note_not_satisfied": "Не устраивает результат? Возможности по его улучшению описаны в  [[{{MediaWiki:Coll-helppage}}|справочном разделе]].",
+	"coll-rendering_finished_note_article_rdf2latex": "В настоящее время некоторые документы не содержат таблиц. Альтернативой может быть использование $1, выбор «Печать» в меню браузера, а также использование варианта «Сохранить как PDF».",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Отрисовка текста сведений о странице",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Отрисовка текста сведений о коллекции",
 	"coll-rendering_failed_title": "Создание файла не выполнено",
