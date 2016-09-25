@@ -12,9 +12,12 @@
 	"coll-create_a_book": "Cak athör",
 	"coll-book_creator": "Ducak athör",
 	"coll-download_as": "Jɔɔlpiny keye $1",
+	"coll-disable": "temkɔ̈u",
 	"coll-add_this_page": "Mät abakë në athörku",
 	"coll-help": "Kony",
+	"coll-helppage": "Kony: Athör",
 	"coll-remove_this_page": "Nyɛɛi abakë në athörku-yic",
 	"coll-show_collection": "Nyooth athör",
+	"coll-make_suggestions": "Takë apääm",
 	"coll-attribution-anons": "Acinrin: $1"
 }
