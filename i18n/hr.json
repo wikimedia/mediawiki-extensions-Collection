@@ -48,7 +48,7 @@
 	"coll-new_chapter": "Upišite ime za novo poglavlje",
 	"coll-rename_chapter": "Upišite novo ime za poglavlje",
 	"coll-no_such_category": "Nema takve kategorije",
-	"coll-notitle_title": "Naslov stranice nije mogao biti određen",
+	"coll-notitle_title": "Nije moguće dohvatiti naslov stranice",
 	"coll-error_reponse": "Pogrješka u odgovoru sa servera",
 	"coll-empty_collection": "Prazna zbirka",
 	"coll-revision": "Izmjena: $1",
