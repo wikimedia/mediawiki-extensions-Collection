@@ -22,7 +22,7 @@ class CollectionFinishedTemplate extends QuickTemplate {
 
 			if ( $noteKey === 'coll-rendering_finished_note_article_rdf2latex' ) {
 				// Show a note specific to the rdf2latex when rendering an article
-				if ( $this->data['writer'] !== 'rdf2latex' || $t->isSpecialPage() ) {
+				if ( $this->data['writer'] !== 'rdf2latex' || ( $t && $t->isSpecialPage() ) ) {
 					continue;
 				}
 				$tt = '{{int:printableversion}}';
