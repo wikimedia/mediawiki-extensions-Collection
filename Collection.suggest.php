@@ -369,7 +369,10 @@ class CollectionProposals {
 
 				$this->mLinkList[] = array(
 					'name' => $articleName,
-					'links' => $this->getWeightedLinks( $numItems, $article->getContent() ),
+					'links' => $this->getWeightedLinks(
+						$numItems,
+						ContentHandler::getContentText( $article->getPage()->getContent() )
+					),
 				);
 			}
 		}
@@ -396,11 +399,7 @@ class CollectionProposals {
 		}
 
 		$article = new Article( $title, 0 );
-		return ContentHandler::makeContent(
-			$article->getContent(),
-			null,
-			CONTENT_MODEL_WIKITEXT
-		)->getUltimateRedirectTarget();
+		return $article->getPage()->getContent()->getUltimateRedirectTarget();
 	}
 
 	/**
