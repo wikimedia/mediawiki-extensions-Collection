@@ -37,7 +37,7 @@
 	"coll-couldnotaddarticle_msg": "Não foi possível adicionar a página wiki.",
 	"coll-couldnotremovearticle_title": "Não foi possível remover a página wiki",
 	"coll-couldnotremovearticle_msg": "Não foi possível remover a página wiki.",
-	"coll-noscript_text": "<h1>É necessário o JavaScript!</h1>\n<strong>Ou o seu browser não suporta JavaScript ou o JavaScript foi desativado.\nEsta página não funcionará corretamente sem o JavaScript.</strong>",
+	"coll-noscript_text": "<h1>É necessário o JavaScript!</h1>\n<strong>Ou o seu navegador não suporta JavaScript ou o JavaScript foi desativado.\nEsta página não funcionará corretamente se o JavaScript não for ativado.</strong>",
 	"coll-savedbook_template": "livro_gravado",
 	"coll-your_book": "O seu livro",
 	"coll-download_title": "Descarregar",

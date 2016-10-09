@@ -92,6 +92,7 @@
 	"coll-rendering_finished_text": "<strong>Dokumentfilen har blitt laget.</strong>\n<strong>[$1 Last ned filen]</strong> til datamaskinen din.",
 	"coll-rendering_finished_notes_heading": "Merknader:",
 	"coll-rendering_finished_note_not_satisfied": "Ikke fornøyd med resultatet? Se [[{{MediaWiki:Coll-helppage}}|hjelpesiden for bøker]] for muligheter for forbedring.",
+	"coll-rendering_finished_note_article_rdf2latex": "Enkelte dokumenter inneholder for tiden ikke tabeller. Et alternativ kan være å bruke $1, velge «Skriv ut» i nettlesermenyen, og bruke «Lagre som PDF»-valget.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Gjengir sideinformasjonstekst",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Gjengir samlingsinformasjonstekst",
 	"coll-rendering_failed_title": "Fremstillingen feilet",
