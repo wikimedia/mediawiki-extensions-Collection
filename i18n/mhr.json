@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Сай"
+			"Сай",
+			"Санюн Вадик"
 		]
 	},
 	"coll-contents": "Вуйлымаш",
-	"coll-cancel": "Чараш"
+	"coll-cancel": "Чараш",
+	"coll-create_a_book": "Книгам чоҥаш",
+	"coll-download_as": "$1 семын тулен налаш"
 }

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Botuzhaleny-sodamo"
+			"Botuzhaleny-sodamo",
+			"Rueter"
 		]
 	},
 	"coll-collection": "Кинига",
@@ -29,8 +30,10 @@
 	"coll-notfound_title": "Кинигась а муеви",
 	"coll-suggested_articles": "Мельть-ушодкст",
 	"coll-suggest_show": "невтемс",
+	"coll-print_export": "Конёв лангс нолдамс/ливтемс",
 	"coll-create_a_book": "Шкамс кинига",
 	"coll-book_creator": "Кинигань шкиця",
+	"coll-download_as": "Таргамс тень $1 формасо",
 	"coll-add_category": "Поладомс кинигазот те категориянть",
 	"coll-bookscategory": "Кинигат",
 	"coll-help": "Лезкс",
