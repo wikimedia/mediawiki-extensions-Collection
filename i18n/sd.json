@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Sindhu",
-			"Aursani"
+			"Aursani",
+			"Mehtab ahmed"
 		]
 	},
 	"coll-remove": "هٽايو",
-	"coll-show": "نمايو",
+	"coll-show": "ڏيکاريو",
 	"coll-move_up": "مٿي چاڙهيو",
 	"coll-move_down": "هيٺ لاهيو",
 	"coll-print_export": "ڇاپيو/برآمد ڪريو",

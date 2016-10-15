@@ -7,7 +7,8 @@
 			"Mirzali",
 			"Xoser",
 			"Kumkumuk",
-			"Asmen"
+			"Asmen",
+			"1917 Ekim Devrimi"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kıtabe vıraze]]",
@@ -138,7 +139,7 @@
 	"coll-format-rdf2text": "Çeku karıtış (düz metin)",
 	"right-collectionsaveasuserpage": "Kitab ze pelê karberî qeyd bike",
 	"right-collectionsaveascommunitypage": "Kitab ze pelê cemeatî qeyd bike",
-	"coll-print_export": "Çap ke/ixrac ke",
+	"coll-print_export": "Bınusten/Teverd",
 	"coll-create_a_book": "Yew kıtab vıraze",
 	"coll-create_a_book_tooltip": "Zew kıtab yana mecmua vıraz",
 	"coll-book_creator": "Kıtabvıraştoğ",
