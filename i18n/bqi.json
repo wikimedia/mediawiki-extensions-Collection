@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Mogoeilor"
+		]
+	},
+	"coll-remove": "ؤرداشتن",
+	"coll-show": "نشون دائن",
+	"coll-move_up": "رأهڌن وارو",
+	"coll-move_down": "رهڌن ڤا لأم(دڤۈن)",
+	"coll-print_export": "پلا کردن/وه در كردن",
+	"coll-create_a_book": "راست كردن كتاو",
+	"coll-download_as": "گرهڌن چی $1",
+	"coll-remove_this_page": "ورداشتن ای بلگه ز كتاوتون"
+}
