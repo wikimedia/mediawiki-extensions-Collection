@@ -13,7 +13,8 @@
 			"Sp5uhe",
 			"ToSter",
 			"Wpedzich",
-			"Peter Bowman"
+			"Peter Bowman",
+			"Woytecr"
 		]
 	},
 	"coll-desc": "[[Special:Book|Tworzenie książki]]",
@@ -95,6 +96,7 @@
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Tekst informacyjny przetwarzania strony",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Tekst informacyjny przetwarzania kolekcji",
 	"coll-rendering_failed_title": "Renderowanie nie powiodło się",
+	"coll-rendering_failed_text": "<strong>Nie udało się wygenerować pliku dokumentu.</strong>\n\n<p><span id=\"renderingStatus\">$1</span></p>",
 	"coll-rendering_failed_status": "<strong>Status:</strong> $1",
 	"coll-notfound_title": "Książki nie odnaleziono",
 	"coll-notfound_text": "Nie udało się odnaleźć strony z ksiązki.",
@@ -182,6 +184,7 @@
 	"coll-setting-toc-no": "Nie",
 	"coll-setting-columns": "Kolumny:",
 	"coll-attribution-anons": "Anonimowy: $1",
+	"coll-attribution-page": "<h1>Źródła, autorzy i licencje treści i zdjęć</h1>\n<h2>Tekst</h2>\n$1<h2>Zdjęcia</h2>\n$2\n<h2>Licencja zawartości</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Źródło:</i> $2 <i>Autorzy:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Źródło:</i> $2 <i>Licencja:</i> $3 <i>Autorzy:</i> $4 <i>Artysta:</i> $5"
 }
