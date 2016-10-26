@@ -94,6 +94,7 @@
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informationstext om samlingsrendering",
 	"coll-rendering_finished_title": "Rendering avslutad",
 	"coll-rendering_finished_text": "<strong>Dokumentfilen har skapats.</strong>\n<strong>[$1 Ladda ner filen]</strong> till din dator.",
+	"coll-rendering_finished_notes_heading": "Kommentarer:",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informationstext om sidrendering",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informationstext om samlingsrendering",
 	"coll-rendering_failed_title": "Rendering misslyckades",
