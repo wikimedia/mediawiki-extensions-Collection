@@ -97,7 +97,7 @@
 	"coll-rendering_finished_text": "<strong>O ficheiro foi gerado.</strong>\n<strong>[$1 Transfira o ficheiro]</strong> para o seu computador.",
 	"coll-rendering_finished_notes_heading": "Notas:",
 	"coll-rendering_finished_note_not_satisfied": "Não satisfeito com o resultado? Veja [[{{MediaWiki:Coll-helppage}}|a página de ajuda sobre livros]] para ver possibilidades de o melhorar.",
-	"coll-rendering_finished_note_article_rdf2latex": "Neste momento alguns documentos não contêm tabelas. Uma possibilidade pode ser usar $1, selecionar \"Imprimir\" no menu do navegador e usar a opção \"Gravar em PDF\".",
+	"coll-rendering_finished_note_article_rdf2latex": "Neste momento alguns documentos não contêm tabelas. Uma possibilidade pode ser usar $1, selecionar \"Imprimir\" no menu do <i>browser</i> e usar a opção \"Gravar em PDF\".",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informativo sobre composição de páginas",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informativo sobre composição de coleções",
 	"coll-rendering_failed_title": "A composição falhou",

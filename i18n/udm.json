@@ -2,11 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"AlnashPiyash2",
-			"Kaganer"
+			"Kaganer",
+			"Wadorgurt"
 		]
 	},
 	"coll-remove": "Быдтоно",
 	"coll-show": "Возьматыны",
+	"coll-move_up": "Вылӥе донгыны",
+	"coll-move_down": "Улӥе донгыны",
 	"coll-print_export": "Печать/поттон",
 	"coll-create_a_book": "Книга кылдытыны",
 	"coll-download_as": "$1 форматэн кысконо"
