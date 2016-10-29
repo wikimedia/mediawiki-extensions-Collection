@@ -62,7 +62,7 @@
 	"coll-rename_chapter": "Introduza um nome novo para o capítulo",
 	"coll-no_such_category": "Essa categoria não existe",
 	"coll-notitle_title": "Não foi possível obter o título da página",
-	"coll-notitle_msg": "O título da página não pôde ser determinado.",
+	"coll-notitle_msg": "Não foi possível determinar o título da página.",
 	"coll-request_failed_title": "A composição do livro falhou",
 	"coll-request_failed_msg": "Ocorreu um erro ao tentar fazer a composição do seu livro.",
 	"coll-error_reponse": "Resposta de erro do servidor",
