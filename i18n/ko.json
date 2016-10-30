@@ -131,7 +131,7 @@
 	"coll-suggest_article_remove": "<strong>$1</strong> 문서를 당신의 책에서 뺐습니다 ($2).",
 	"coll-suggest_undo_tooltip": "이 동작 되돌리기",
 	"coll-suggest_undo": "되돌리기",
-	"coll-load_local_book": "문서 {{PLURAL:$2|$2개}}를 포함하고 있는 $1 책을 계속 작업하시려면 \"확인\"을 클릭하십시오. 책을 삭제하고 새 책으로 다시 시작하려면 \"취소\"를 클릭하십시오",
+	"coll-load_local_book": "$2개의 위키 {{PLURAL:$2|문서}}를 포함하고 있는 $1 책을 계속 작업하려면 \"확인\"을 클릭하십시오. 책을 삭제하고 비어있는 책으로 시작하려면 \"취소\"를 클릭하십시오.",
 	"coll-format-rl": "전자책 (PDF, mwlib 렌더링)",
 	"coll-format-epub": "전자책 (EPUB)",
 	"coll-format-odf": "워드 프로세서 (OpenDocument)",
