@@ -104,6 +104,7 @@
 	"coll-rendering_finished_title": "Representación finalizada",
 	"coll-rendering_finished_text": "<strong>Se ha generado el documento.</strong>\n<strong>[$1 Descarga el archivo]</strong>.",
 	"coll-rendering_finished_notes_heading": "Notas:",
+	"coll-rendering_finished_note_not_satisfied": "¿No te satisface el resultado? En [[{{MediaWiki:Coll-helppage}}|la página de ayuda sobre libros]] encontrarás posibilidades para mejorarlo.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Representación del texto de información de la página",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Representación del texto de información de la colección",
 	"coll-rendering_failed_title": "Falló la representación",
