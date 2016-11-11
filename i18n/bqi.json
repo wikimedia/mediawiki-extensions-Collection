@@ -11,5 +11,8 @@
 	"coll-print_export": "پلا کردن/وه در كردن",
 	"coll-create_a_book": "راست كردن كتاو",
 	"coll-download_as": "گرهڌن چی $1",
-	"coll-remove_this_page": "ورداشتن ای بلگه ز كتاوتون"
+	"coll-disable": "ناکشتگر کردن",
+	"coll-help": "هومیاري",
+	"coll-remove_this_page": "ورداشتن ای بلگه ز كتاوتون",
+	"coll-image-attribution": "<b>$1</b> <i>سرچشمأ:</i> $2 <i>لیسانس:</i> $3 <i>هومیارا:</i> $4 <i>هنرمند أصلی:</i> $5"
 }
