@@ -87,6 +87,7 @@
 	"coll-rendering_finished_title": "Atvaizdavimas baigtas",
 	"coll-rendering_finished_text": "<strong>Dokumento failas buvo sugeneruotas.</strong>\n<strong>[$1 Atsisiųsti failą]</strong> į savo kompiuterį.",
 	"coll-rendering_finished_notes_heading": "Pastabos:",
+	"coll-rendering_finished_note_article_rdf2latex": "Šiuo metu kai kurie dokumentai neturi lentelių. Galima alternatyva - naudoti $1, pasirinkti „Spausdinti“ naršyklės meniu ir pasirinkti „Išsaugoti kaip PDF“.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Puslapio atvaizdavimo informacijos tekstas",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Kolekcijos atvaizdavimo informacijos tekstas",
 	"coll-rendering_failed_title": "Atvaizdavimas nepavyko",
