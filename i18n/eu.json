@@ -50,7 +50,7 @@
 	"coll-new_chapter": "Atal berriarentzat izena sartu",
 	"coll-rename_chapter": "Atalarentzat izen berria sartu",
 	"coll-no_such_category": "Ez dago horrelako atalik",
-	"coll-notitle_title": "Orriaren izenburua ezin izan da zehaztu.",
+	"coll-notitle_title": "Orriaren izenburua ezin izan da lortu.",
 	"coll-error_reponse": "Zerbitzariaren erantzun akatsa",
 	"coll-empty_collection": "Liburu hutsa",
 	"coll-revision": "Berrikuspena: $1",
@@ -169,6 +169,7 @@
 	"coll-setting-toc-no": "Ez",
 	"coll-setting-columns": "Zutabeak:",
 	"coll-attribution-anons": "Anonimo: $1",
+	"coll-attribution-page": "<h1>Testuen eta irudien iturriak, lankideak, eta lizentziak</h1>\n<h2>Testua</h2>\n$1<h2>Irudiak</h2>\n$2\n<h2>Edukien lizentzia</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Iturria:</i> $2 <i>Lankideak:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Iturria:</i> $2 <i>Lizentzia:</i> $3 <i>Lankideak:</i> $4 <i>Jatorrizko artista:</i> $5"
 }
