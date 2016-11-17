@@ -13,5 +13,6 @@
 	"coll-print_export": "Печать/поттон",
 	"coll-create_a_book": "Книга кылдытыны",
 	"coll-download_as": "$1 форматэн кысконо",
-	"coll-remove_this_page": "Та бамез книгадылэсь палэнтыны"
+	"coll-remove_this_page": "Та бамез книгадылэсь палэнтыны",
+	"coll-image-attribution": "<b>$1</b> <i>Ошмес:</i> $2 <i>Лицензия:</i> $3 <i>Авторъёс:</i> $4 <i>Художник:</i> $5"
 }

@@ -23,5 +23,6 @@
 	"coll-remove_this_page": "Nyɛɛi abakë në athörku-yic",
 	"coll-show_collection": "Nyooth athör",
 	"coll-make_suggestions": "Takë apääm",
-	"coll-attribution-anons": "Acinrin: $1"
+	"coll-attribution-anons": "Acinrin: $1",
+	"coll-article-attribution": "<b>$1</b> <i>Tënëyök:</i> $2 <i>Dujuëër:</i> $3"
 }
