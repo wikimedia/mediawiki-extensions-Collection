@@ -12,7 +12,9 @@
 	"coll-move_down": "Улӥе донгыны",
 	"coll-print_export": "Печать/поттон",
 	"coll-create_a_book": "Книга кылдытыны",
+	"coll-book_creator": "Книгаез лэсьтон",
 	"coll-download_as": "$1 форматэн кысконо",
+	"coll-helppage": "Help:Книгаос",
 	"coll-remove_this_page": "Та бамез книгадылэсь палэнтыны",
 	"coll-image-attribution": "<b>$1</b> <i>Ошмес:</i> $2 <i>Лицензия:</i> $3 <i>Авторъёс:</i> $4 <i>Художник:</i> $5"
 }
