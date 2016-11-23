@@ -14,7 +14,15 @@
 	"coll-create_a_book": "Книга кылдытыны",
 	"coll-book_creator": "Книгаез лэсьтон",
 	"coll-download_as": "$1 форматэн кысконо",
+	"coll-disable": "дугдытыны",
+	"coll-book_creator_disable_tooltip": "Книга кылдытӥсьлэсь ужанзэ дугдытэ",
+	"coll-help": "Юрттэт",
+	"coll-help_tooltip": "Книгаосты кылдытонъя юрттэтэз сётон",
 	"coll-helppage": "Help:Книгаос",
+	"coll-n_pages": "$1 {{PLURAL:$1|бам}}",
 	"coll-remove_this_page": "Та бамез книгадылэсь палэнтыны",
+	"coll-show_collection": "Книга возьматыны",
+	"coll-make_suggestions": "Ӵектэм бамъёс",
+	"coll-make_suggestions_tooltip": "Книгадылэн бамъёсызъя быръем ӵектонъёсыз возьматыны",
 	"coll-image-attribution": "<b>$1</b> <i>Ошмес:</i> $2 <i>Лицензия:</i> $3 <i>Авторъёс:</i> $4 <i>Художник:</i> $5"
 }
