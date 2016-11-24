@@ -436,7 +436,7 @@ $specialPageAliases['tt-cyrl'] = array(
 
 /** Ukrainian (українська) */
 $specialPageAliases['uk'] = array(
-	'Book' => array( 'Книга', 'Колекція_книг' ),
+	'Book' => array( 'Книга', 'Колекція_книг', 'Коллекция_книг' ),
 );
 
 /** Urdu (اردو) */
