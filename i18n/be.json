@@ -5,7 +5,8 @@
 			"Хомелка",
 			"Чаховіч Уладзіслаў",
 			"Дзяніс Тутэйшы",
-			"Macofe"
+			"Macofe",
+			"Mechanizatar"
 		]
 	},
 	"coll-desc": "[[Special:Book|Стварэнне кніг]]",
@@ -115,9 +116,9 @@
 	"coll-suggest_undo_tooltip": "Адмяніць гэтае дзеянне",
 	"coll-suggest_undo": "скасаваць",
 	"coll-load_local_book": "Націсніце «Добра» каб працягваць працу з Вашай кнігай $1, якая ўтрымлівае $2 вікі-старонак. Націсніце «Адмена», каб выдаліць яе і пачаць з пустой кнігі.",
-	"coll-format-rl": "e кніга (PDF)",
+	"coll-format-rl": "e-кніга (PDF, mwlib апрацоўшчык)",
 	"coll-format-epub": "e кніга (EPUB)",
-	"coll-format-odf": "тэкставы працэсар (OpenDocument)",
+	"coll-format-odf": "Тэкставы працэсар (OpenDocument)",
 	"coll-format-zim": "Kiwix (OpenZIM)",
 	"coll-format-docbook": "DocBook",
 	"coll-format-okawix_zeno": "Okawix",
