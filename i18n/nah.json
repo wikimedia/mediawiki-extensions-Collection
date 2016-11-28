@@ -3,11 +3,14 @@
 		"authors": [
 			"Fluence",
 			"Teòtlalili",
-			"Taresi"
+			"Taresi",
+			"Akapochtli"
 		]
 	},
-	"coll-remove": "Ticpolōz",
+	"coll-remove": "Ticquixtiz",
 	"coll-show": "Tiquittaz",
+	"coll-move_up": "Tictlehcahuiz",
+	"coll-move_down": "Ticpanitlaliz",
 	"coll-title": "Tōcāitl:",
 	"coll-revision": "Tlachiyaliztli: $1",
 	"coll-yes": "Quēmah",
@@ -15,7 +18,7 @@
 	"coll-cancel": "Ticcuepāz",
 	"coll-update": "Tiquiyancuīyāz",
 	"coll-print_export": "Tepoztlahcuilōliztli/tlazazacaliztli",
-	"coll-create_a_book": "Ticchīhuaz cē āmoxtli",
+	"coll-create_a_book": "Ticchihuaz ce amoxtli",
 	"coll-book_creator": "Āmoxchīuhqui",
 	"coll-download_as": "$1teuh ticmomāmaltīz",
 	"coll-bookscategory": "Àmoxtin",
