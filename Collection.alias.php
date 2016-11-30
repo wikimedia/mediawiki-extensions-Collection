@@ -54,6 +54,11 @@ $specialPageAliases['bjn'] = array(
 	'Book' => array( 'Buku' ),
 );
 
+/** Bengali (বাংলা) */
+$specialPageAliases['bn'] = array(
+	'Book' => array( 'বই', 'গ্রন্থ', 'সংগ্রহ' ),
+);
+
 /** Breton (brezhoneg) */
 $specialPageAliases['br'] = array(
 	'Book' => array( 'Dastumad' ),
