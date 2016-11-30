@@ -17,6 +17,7 @@
 	"coll-disable": "дугдытыны",
 	"coll-book_creator_disable": "Книга кылдытыны луонлыкез дугдытыны",
 	"coll-book_creator_disable_tooltip": "Книга кылдытӥсьлэсь ужанзэ дугдытэ",
+	"coll-add_this_page": "Та бамез книгаяды ватсаны",
 	"coll-add_page_tooltip": "Ватсаны книгаяды та вики-бамез",
 	"coll-help": "Юрттэт",
 	"coll-help_tooltip": "Книгаосты кылдытонъя юрттэтэз сётон",
@@ -26,5 +27,6 @@
 	"coll-show_collection": "Книга возьматыны",
 	"coll-make_suggestions": "Ӵектэм бамъёс",
 	"coll-make_suggestions_tooltip": "Книгадылэн бамъёсызъя быръем ӵектонъёсыз возьматыны",
+	"coll-article-attribution": "<b>$1</b> <i>Источник:</i> $2 <i>Авторъёс:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Ошмес:</i> $2 <i>Лицензия:</i> $3 <i>Авторъёс:</i> $4 <i>Художник:</i> $5"
 }
