@@ -13,10 +13,12 @@
 	"coll-book_creator": "كتاڤ راسد كون",
 	"coll-download_as": "گرهڌن چی $1",
 	"coll-disable": "ناکشتگر کردن",
+	"coll-book_creator_disable": "ز کار ڤأندن کتاڤ راسد کون",
 	"coll-help": "هومیاري",
 	"coll-helppage": "هومیاري:کتاڤا",
 	"coll-remove_this_page": "ورداشتن ای بلگه ز كتاوتون",
 	"coll-show_collection": "نشون دائن كتاو",
+	"coll-make_suggestions": "بألگإ آ پيشناڌي",
 	"coll-attribution-anons": "نادیار:$1",
 	"coll-image-attribution": "<b>$1</b> <i>سرچشمأ:</i> $2 <i>لیسانس:</i> $3 <i>هومیارا:</i> $4 <i>هنرمند أصلی:</i> $5"
 }
