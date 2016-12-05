@@ -4,6 +4,10 @@
 			"Khanmarat"
 		]
 	},
+	"coll-remove": "Уйғалы",
+	"coll-move_up": "Өстөгә күцергәле",
+	"coll-move_down": "Астыға күцергәле",
+	"coll-print_export": "Пастырғалы/цығарғалы",
 	"coll-create_a_book": "Китап төсәгәле",
 	"coll-download_as": "$1 итеп күцергәле"
 }
