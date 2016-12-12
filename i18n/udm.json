@@ -25,8 +25,10 @@
 	"coll-n_pages": "$1 {{PLURAL:$1|бам}}",
 	"coll-remove_this_page": "Та бамез книгадылэсь палэнтыны",
 	"coll-show_collection": "Книга возьматыны",
+	"coll-show_collection_tooltip": "Книгадэс тупатыны/басьтыны/заказтыны вылысь зӥбе",
 	"coll-make_suggestions": "Ӵектэм бамъёс",
 	"coll-make_suggestions_tooltip": "Книгадылэн бамъёсызъя быръем ӵектонъёсыз возьматыны",
+	"coll-attribution-anons": "Аноним: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Источник:</i> $2 <i>Авторъёс:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Ошмес:</i> $2 <i>Лицензия:</i> $3 <i>Авторъёс:</i> $4 <i>Художник:</i> $5"
 }
