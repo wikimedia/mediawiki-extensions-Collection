@@ -79,6 +79,9 @@
 	"coll-rendering_page": "(sida: $1)",
 	"coll-rendering_finished_title": "Oppretta",
 	"coll-rendering_finished_text": "<strong>Dokumentfila er vorten oppretta.</strong>\n<strong>[$1 Last ned fila]</strong> til datamaskina di.",
+	"coll-rendering_finished_notes_heading": "Merknader:",
+	"coll-rendering_finished_note_not_satisfied": "Ikkje nøgd med resultatet? Sjå [[{{MediaWiki:Coll-helppage}}|hjelpesida for bøker]] for mogelege måtar å gjera det betre.",
+	"coll-rendering_finished_note_article_rdf2latex": "Enkelte dokument inneheld for tida ikkje tabellar. Eit alternativ kan vera å nytta $1, velja «Skriv ut» i nettlesarmenyen, og nytta «Lagra som PDF»-valet.",
 	"coll-notfound_title": "Boka vart ikkje funnen",
 	"coll-notfound_text": "Kunne ikkje finna boksida.",
 	"coll-download_notfound_title": "Fann ikkje fil",
@@ -153,6 +156,7 @@
 	"coll-make_suggestions_tooltip": "Syn framlegg på grunnlag av sidene i boka di",
 	"coll-suggest_empty": "tom",
 	"coll-attribution-anons": "Anonyme: $1",
+	"coll-attribution-page": "<h1>Tekst- og biletkjelder, bidragsytarar og lisensar</h1>\n<h2>Tekst</h2>\n$1<h2>Bilete</h2>\n$2\n<h2>Innhaldslisens</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Kjelde:</i> $2 <i>Bidragsytarar:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Kjelde:</i> $2 <i>Lisens:</i> $3 <i>Bidragsytarar:</i> $4 <i>Kunstnar:</i> $5"
 }
