@@ -13,7 +13,8 @@
 			"Incelemeelemani",
 			"Stultiwikia",
 			"Arystanbek",
-			"Macofe"
+			"Macofe",
+			"1917 Ekim Devrimi"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kitap oluştur]]",
@@ -90,6 +91,7 @@
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/İşleyici kolleksiyonu bilgi metni",
 	"coll-rendering_finished_title": "Oluşturma tamamlandı",
 	"coll-rendering_finished_text": "<strong>Belge oluşturuldu.</strong>\nDosyayı bilgisayarınıza <strong>[$1 indirin]</strong>.",
+	"coll-rendering_finished_notes_heading": "Notlar:",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/İşleyici sayfası bilgi metni",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/İşleyici koleksiyonu bilgi metni",
 	"coll-rendering_failed_title": "Oluşturma başarısız oldu",
@@ -131,7 +133,7 @@
 	"coll-suggest_undo_tooltip": "Bu eylemi geri al",
 	"coll-suggest_undo": "geri al",
 	"coll-load_local_book": "$2 viki sayfası içeren kitabınız $1 ile devam etmek için Tamam'a tıklayın. Bunu silmek ve boş bir kitaba başlamak için İptal'e tıklayın.",
-	"coll-format-rl": "e-kitap (pdf)",
+	"coll-format-rl": "e-kitap (PDF, mwlib oluşturucu)",
 	"coll-format-epub": "e-kitap (epub)",
 	"coll-format-odf": "kelime işlemci (OpenDocument)",
 	"coll-format-zim": "Kiwix (OpenZIM)",
