@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Benoit Rochon"
+		]
+	},
+	"coll-create_a_book": "Ocita wapitcikan",
+	"coll-download_as": "Natcipota kinokepitcikanik otci mitwi $1",
+	"coll-n_pages": "$1 {{PLURAL:$1|masinhikan|masinahikana}}"
+}
