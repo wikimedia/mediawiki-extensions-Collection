@@ -17,9 +17,11 @@
 	"coll-add_this_page": "ای بألگإ نأ إزاف کونين ب کتاڤتۈن",
 	"coll-help": "هومیاري",
 	"coll-helppage": "هومیاري:کتاڤا",
+	"coll-n_pages": "{{PLURAL:$1|بألگأ|بألگإ آ}}",
 	"coll-remove_this_page": "ورداشتن ای بلگه ز كتاوتون",
 	"coll-show_collection": "نشون دائن كتاو",
 	"coll-make_suggestions": "بألگإ آ پيشناڌي",
 	"coll-attribution-anons": "نادیار:$1",
+	"coll-article-attribution": "<b>$1</b> <i>سرچشمأ:</i> $2 <i>هوميارا:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>سرچشمأ:</i> $2 <i>لیسانس:</i> $3 <i>هومیارا:</i> $4 <i>هنرمند أصلی:</i> $5"
 }
