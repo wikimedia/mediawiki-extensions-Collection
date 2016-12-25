@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Karthi.dr",
-			"Thakurji"
+			"Thakurji",
+			"Girmitya"
 		]
 	},
 	"coll-start_book_creator": "Book creator ke suruu karo",
@@ -10,6 +11,8 @@
 	"coll-download_title": "Download karo",
 	"coll-remove": "Hatao",
 	"coll-show": "Dekhao",
+	"coll-move_up": "Move up",
+	"coll-move_down": "Move down",
 	"coll-yes": "Haan",
 	"coll-no": "Nai",
 	"coll-print_export": "Print/export karo",
@@ -22,5 +25,7 @@
 	"coll-book_creator_disable": "Book creator ke disable karo",
 	"coll-book_creator_disable_tooltip": "Book creator ke kaam me laae ke band karo",
 	"coll-add_linked_article": "Linked wiki panna ke aapan book me jorro",
-	"coll-suggest_empty": "khaali"
+	"coll-remove_this_page": "Aapan buk se ii panna ke hatao",
+	"coll-suggest_empty": "khaali",
+	"coll-image-attribution": "<b>$1</b> <i>Source:</i> $2 <i>License:</i> $3 <i>Contributors:</i> $4 <i>Original artist:</i> $5"
 }

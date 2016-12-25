@@ -2,10 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Namik",
-			"Soul Train"
+			"Soul Train",
+			"Migraghvi"
 		]
 	},
 	"coll-cancel": "Гьич авун",
+	"coll-create_a_book": "Ктаб туькlуьрун",
+	"coll-download_as": "$1 хьиз ацlура",
 	"coll-bookscategory": "Ктаб",
 	"coll-clear_collection": "Ктаб ичӀи авун",
 	"coll-help": "Куьмек",
