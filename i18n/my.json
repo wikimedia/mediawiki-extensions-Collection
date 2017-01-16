@@ -8,6 +8,7 @@
 	"coll-show": "ပြ",
 	"coll-move_up": "အပေါ်ရွှေ့ရန်",
 	"coll-move_down": "အောက်သို့ရွှေ့ရန်",
+	"coll-rendering_page": "(စာမျက်နှာ: $1)",
 	"coll-print_export": "ပရင့်/ပို့လွှတ်",
 	"coll-create_a_book": "စာအုပ် ဖန်တီးရန်",
 	"coll-book_creator": "စာအုပ် ဖန်တီးသူ",
