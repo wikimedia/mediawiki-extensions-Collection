@@ -43,7 +43,7 @@
 	function req( func, args, callback ) {
 		$.post( script_url, {
 			action: 'ajax',
-			rs: 'wfAjaxCollection' + func,
+			rs: 'CollectionAjaxFunctions::onAjaxCollection' + func,
 			'rsargs[]': args
 		}, callback, 'json' );
 	}
@@ -57,7 +57,7 @@
 	function getMWServeStatus() {
 		$.getJSON( script_url, {
 			action: 'ajax',
-			rs: 'wfAjaxGetMWServeStatus',
+			rs: 'CollectionAjaxFunctions::onAjaxGetMWServeStatus',
 			'rsargs[]': [ collection_id, writer ]
 		}, function ( result ) {
 			if ( result.state === 'progress' ) {

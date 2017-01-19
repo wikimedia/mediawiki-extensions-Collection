@@ -19,7 +19,7 @@
 		set_status( '...' );
 		$.post( script_url, {
 			action: 'ajax',
-			rs: 'wfAjaxCollectionSuggest' + func,
+			rs: 'CollectionAjaxFunctions::onAjaxCollectionSuggest' + func,
 			'rsargs[]': args
 		}, function ( result ) {
 			wfCollectionSave( result.collection );
@@ -33,7 +33,7 @@
 			$( '#coll-num_pages' ).text( result.num_pages );
 			$.getJSON( script_url, {
 				action: 'ajax',
-				rs: 'wfAjaxCollectionGetBookCreatorBoxContent',
+				rs: 'CollectionAjaxFunctions::onAjaxCollectionGetBookCreatorBoxContent',
 				'rsargs[]': [ 'suggest', null, mw.config.get( 'wgPageName' ) ]
 			}, function ( result ) {
 				$( '#coll-book_creator_box' ).html( result.html );

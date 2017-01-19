@@ -23,6 +23,32 @@
 use MediaWiki\Session\SessionManager;
 
 class CollectionHooks {
+
+	public static function registerExtension() {
+		global $wgAjaxExportList;
+
+		$wgAjaxExportList[] = 'CollectionAjaxFunctions::onAjaxGetCollection';
+		$wgAjaxExportList[] = 'CollectionAjaxFunctions::onAjaxPostCollection';
+		$wgAjaxExportList[] = 'CollectionAjaxFunctions::onAjaxGetMWServeStatus';
+		$wgAjaxExportList[] = 'CollectionAjaxFunctions::onAjaxCollectionAddArticle';
+		$wgAjaxExportList[] = 'CollectionAjaxFunctions::onAjaxCollectionRemoveArticle';
+		$wgAjaxExportList[] = 'CollectionAjaxFunctions::onAjaxCollectionAddCategory';
+		$wgAjaxExportList[] = 'CollectionAjaxFunctions::onAjaxCollectionGetBookCreatorBoxContent';
+		$wgAjaxExportList[] = 'CollectionAjaxFunctions::onAjaxCollectionGetItemList';
+		$wgAjaxExportList[] = 'CollectionAjaxFunctions::onAjaxCollectionRemoveItem';
+		$wgAjaxExportList[] = 'CollectionAjaxFunctions::onAjaxCollectionAddChapter';
+		$wgAjaxExportList[] = 'CollectionAjaxFunctions::onAjaxCollectionRenameChapter';
+		$wgAjaxExportList[] = 'CollectionAjaxFunctions::onAjaxCollectionSetTitles';
+		$wgAjaxExportList[] = 'CollectionAjaxFunctions::onAjaxCollectionSetSorting';
+		$wgAjaxExportList[] = 'CollectionAjaxFunctions::onAjaxCollectionClear';
+		$wgAjaxExportList[] = 'CollectionAjaxFunctions::onAjaxCollectionGetPopupData';
+		$wgAjaxExportList[] = 'CollectionAjaxFunctions::onAjaxCollectionSuggestBanArticle';
+		$wgAjaxExportList[] = 'CollectionAjaxFunctions::onAjaxCollectionSuggestAddArticle';
+		$wgAjaxExportList[] = 'CollectionAjaxFunctions::onAjaxCollectionSuggestRemoveArticle';
+		$wgAjaxExportList[] = 'CollectionAjaxFunctions::onAjaxCollectionSuggestUndoArticle';
+		$wgAjaxExportList[] = 'CollectionAjaxFunctions::onAjaxCollectionSortItems';
+	}
+
 	/**
 	 * Callback for hook SkinBuildSidebar
 	 *

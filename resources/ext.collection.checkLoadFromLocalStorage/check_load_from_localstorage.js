@@ -22,7 +22,7 @@
 				if ( confirm( message ) ) {
 					$.post( script_url, {
 						action: 'ajax',
-						rs: 'wfAjaxPostCollection',
+						rs: 'CollectionAjaxFunctions::onAjaxPostCollection',
 						'rsargs[]': [ JSON.stringify( c ) ]
 					}, function ( result ) {
 						location.href = result.redirect_url;

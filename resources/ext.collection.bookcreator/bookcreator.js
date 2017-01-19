@@ -34,7 +34,7 @@
 		function refreshBookCreatorBox( hint, oldid ) {
 			$.getJSON( script_url, {
 				action: 'ajax',
-				rs: 'wfAjaxCollectionGetBookCreatorBoxContent',
+				rs: 'CollectionAjaxFunctions::onAjaxCollectionGetBookCreatorBoxContent',
 				'rsargs[]': [ hint, oldid, mw.config.get( 'wgPageName' ) ]
 			}, function ( result ) {
 				$( '#coll-book_creator_box' ).html( result.html );
@@ -45,7 +45,7 @@
 			var hint = args.shift();
 			$.post( script_url, {
 				action: 'ajax',
-				rs: 'wfAjaxCollection' + func,
+				rs: 'CollectionAjaxFunctions::onAjaxCollection' + func,
 				'rsargs[]': args
 			}, function ( result ) {
 				var oldid = null;
@@ -79,7 +79,7 @@
 		function addremove_article( action, title ) {
 			$.post( script_url, {
 				action: 'ajax',
-				rs: 'wfAjaxCollection' + action.charAt( 0 ).toUpperCase() + action.slice( 1 ) + 'Article',
+				rs: 'CollectionAjaxFunctions::onAjaxCollection' + action.charAt( 0 ).toUpperCase() + action.slice( 1 ) + 'Article',
 				'rsargs[]': [ 0, title, '' ]
 			}, function ( result ) {
 				hide();
@@ -102,7 +102,7 @@
 			show_soon_timeout = setTimeout( function () {
 				get_data_xhr = $.post( script_url, {
 					action: 'ajax',
-					rs: 'wfAjaxCollectionGetPopupData',
+					rs: 'CollectionAjaxFunctions::onAjaxCollectionGetPopupData',
 					'rsargs[]': [ title ]
 				}, function ( result ) {
 					visible = true;
