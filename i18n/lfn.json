@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cgboeree",
+			"Katxis"
+		]
+	},
+	"coll-create_a_book": "Crea un libro",
+	"coll-download_as": "Descarga como $1",
+	"coll-show_collection": "Mostra libro"
+}
