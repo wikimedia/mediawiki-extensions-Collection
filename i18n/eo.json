@@ -10,7 +10,8 @@
 			"Александр Сигачёв",
 			"KuboF",
 			"Robin van der Vliet",
-			"Macofe"
+			"Macofe",
+			"NMaia"
 		]
 	},
 	"coll-desc": "[[Special:Book|Krei librojn]]",
@@ -89,6 +90,7 @@
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informoteksto pri bildigante paĝon",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informoteksto pri bildigante kolekton",
 	"coll-rendering_failed_title": "Kreo malsukcesis",
+	"coll-rendering_failed_status": "<strong>Stato:</strong> $1",
 	"coll-notfound_title": "Libro ne trovita",
 	"coll-notfound_text": "Ne povis trovi libran paĝon.",
 	"coll-download_notfound_title": "Dosiero ne trovita",
