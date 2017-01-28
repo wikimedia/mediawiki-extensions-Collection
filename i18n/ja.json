@@ -9,7 +9,8 @@
 			"青子守歌",
 			"Mfuji",
 			"Sujiniku",
-			"Macofe"
+			"Macofe",
+			"おはぐろ蜻蛉"
 		]
 	},
 	"coll-desc": "[[Special:Book|ブックを作成する]]",
@@ -177,7 +178,7 @@
 	"coll-setting-toc-no": "いいえ",
 	"coll-setting-columns": "段数:",
 	"coll-attribution-anons": "匿名: $1",
-	"coll-attribution-page": "<h1>文章および画像の出典、投稿者、ライセンス</h1>\n<h2>文章</h2>\n$1<h2>画像</h2>\n$2\n<h2>ライセンス</h2>\n$3",
-	"coll-article-attribution": "<b>$1</b> <i>出典:</i> $2 <i>投稿者:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>出典:</i> $2 <i>ライセンス:</i> $3 <i>投稿者:</i> $4 <i>原著者:</i> $5"
+	"coll-attribution-page": "<h1>文章および画像の情報源、投稿者、ライセンス</h1>\n<h2>文章</h2>\n$1<h2>画像</h2>\n$2\n<h2>ライセンス</h2>\n$3",
+	"coll-article-attribution": "<b>$1</b> <i>情報源:</i> $2 <i>投稿者:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>情報源:</i> $2 <i>ライセンス:</i> $3 <i>投稿者:</i> $4 <i>原著者:</i> $5"
 }
