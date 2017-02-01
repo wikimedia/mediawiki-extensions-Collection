@@ -4,7 +4,14 @@
 			"Kirsan"
 		]
 	},
+	"coll-move_up": "na górã",
 	"coll-print_export": "Drëkùj abò ekspòrtuj.",
 	"coll-create_a_book": "Ùsadzë ksążkã",
-	"coll-download_as": "Zladënk jakò $1"
+	"coll-book_creator": "Usôdzanié ksążczi.",
+	"coll-download_as": "Zladënk jakò $1",
+	"coll-book_creator_disable": "Wëłãczë usôdzanié ksążczi.",
+	"coll-book_creator_disable_tooltip": "Wëłãczë ùsadzanié ksążczi.",
+	"coll-add_page_tooltip": "Dodôj tã starnã wiki do ksążczi",
+	"coll-helppage": "Help:Ksążczi",
+	"coll-remove_this_page": "Rëmôj nã starnã z twòji ksążczi"
 }
