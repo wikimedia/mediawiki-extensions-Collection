@@ -158,8 +158,8 @@ $wgCollectionSuggestThreshhold = 100;
 $wgCollectionPODPartners = array(
 	'pediapress' => array(
 		'name' => 'PediaPress',
-		'url' => 'http://pediapress.com/',
-		'posturl' => 'http://pediapress.com/api/collections/',
+		'url' => 'https://pediapress.com/',
+		'posturl' => 'https://pediapress.com/api/collections/',
 		'infopagetitle' => 'coll-order_info_article',
 	),
 );
