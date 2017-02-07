@@ -45,7 +45,7 @@ $wgExtensionCredits['specialpage'][] = array(
 # Configuration:
 
 /** URL of mw-serve render server */
-$wgCollectionMWServeURL = 'http://tools.pediapress.com/mw-serve/';
+$wgCollectionMWServeURL = 'https://tools.pediapress.com/mw-serve/';
 
 /** Login credentials to this MediaWiki as 'USERNAME:PASSWORD' string */
 $wgCollectionMWServeCredentials = null;
