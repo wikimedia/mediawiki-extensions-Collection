@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"George Animal",
-			"Bikarhêner"
+			"Bikarhêner",
+			"Ghybu"
 		]
 	},
 	"coll-collection": "Pirtûk",
@@ -46,7 +47,8 @@
 	"coll-format-docbook": "DocBook",
 	"coll-format-okawix_zeno": "Okawix",
 	"right-collectionsaveasuserpage": "Pirtûkan wek rûpela bikarhêner tomar bike",
-	"coll-create_a_book": "Pirtûkek çeke",
+	"coll-print_export": "Çapkirin / derbirin",
+	"coll-create_a_book": "Pirtûkek çêke",
 	"coll-book_creator": "Pirtûkçêker",
 	"coll-download_as": "Wek $1 daxe",
 	"coll-book_creator_disable": "Pirtûkçêker'ê bigre",
