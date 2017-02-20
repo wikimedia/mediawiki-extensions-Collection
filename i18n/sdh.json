@@ -1,15 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kurdbuddha"
+			"Kurdbuddha",
+			"Paraw2"
 		]
 	},
 	"coll-collection": "پرتووک",
 	"coll-collections": "پرتووکەیل",
 	"coll-your_book": "پرتووکەگەت",
+	"coll-remove": "لاوردن",
+	"coll-show": "نیشانی بیە",
+	"coll-move_up": "بچووە سەرەو",
+	"coll-move_down": "بچووە ژێرەو",
 	"coll-subtitle": "ژێرنۊس",
 	"coll-yes": "بەڵێ",
 	"coll-no": "نە",
+	"coll-print_export": "چاپ/ناردن",
+	"coll-create_a_book": "درسکردن کتاوێگ",
+	"coll-download_as": "داگرتن چۊ $1",
 	"coll-help": "کۆمەک",
 	"coll-setting-toc-yes": "بەڵێ",
 	"coll-setting-toc-no": "نە"
