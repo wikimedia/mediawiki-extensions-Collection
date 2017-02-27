@@ -19,149 +19,149 @@
  * http://www.gnu.org/copyleft/gpl.html
  */
 
-( function ( $ ) {
+( function ( mw, $ ) {
 
-$( function () {
+	$( function () {
 
-	var script_url = mw.util.wikiScript();
+		var script_url = mw.util.wikiScript();
 
-	function save_collection( collection ) {
-		$.jStorage.set( 'collection', collection );
-	}
-
-	window.wfCollectionSave = save_collection;
-
-	function refreshBookCreatorBox( hint, oldid ) {
-		$.getJSON( script_url, {
-			'action': 'ajax',
-			'rs': 'wfAjaxCollectionGetBookCreatorBoxContent',
-			'rsargs[]': [ hint, oldid, mw.config.get( 'wgPageName' ) ]
-		}, function ( result ) {
-			$( '#coll-book_creator_box' ).html( result.html );
-		} );
-	}
-
-	function collectionCall( func, args ) {
-		var hint = args.shift();
-		$.post( script_url, {
-			'action': 'ajax',
-			'rs': 'wfAjaxCollection' + func,
-			'rsargs[]': args
-		}, function ( result ) {
-			var oldid = null;
-			if ( args.length === 3 ) {
-				oldid = args[2];
-			}
-			refreshBookCreatorBox( hint, oldid );
-			save_collection( result.collection );
-		}, 'json' );
-	}
-
-	window.collectionCall = collectionCall; // public
-
-	var mouse_pos = {},
-		$popup_div = null,
-		$addremove_link = null,
-		visible = false,
-		show_soon_timeout = null,
-		get_data_xhr = null,
-		current_link = null,
-		title = null;
-
-	function createDiv() {
-		$addremove_link = $( '<a href="javascript:void(0)" />' );
-		$popup_div = $( '<div id="collectionpopup" />' );
-		$popup_div.append( $addremove_link );
-		$( 'body' ).append( $popup_div );
-		$popup_div.hide();
-	}
-
-	function addremove_article( action, title ) {
-		$.post( script_url, {
-			'action': 'ajax',
-			'rs': 'wfAjaxCollection' + action.charAt( 0 ).toUpperCase() + action.slice( 1 ) + 'Article',
-			'rsargs[]': [ 0, title, '' ]
-		}, function ( result ) {
-			hide();
-			refreshBookCreatorBox( null, null );
-			save_collection( result.collection );
-		}, 'json' );
-	}
-
-	function show( link ) {
-		if ( visible ) {
-			return;
+		function save_collection( collection ) {
+			$.jStorage.set( 'collection', collection );
 		}
-		current_link = link;
-		title = link.attr( 'title' );
-		if ( !title ) {
-			return;
-		}
-		// Disable default browser tooltip
-		link.attr( 'title', '' );
-		show_soon_timeout = setTimeout( function () {
-			get_data_xhr = $.post( script_url, {
-				'action': 'ajax',
-				'rs': 'wfAjaxCollectionGetPopupData',
-				'rsargs[]': [ title ]
+
+		window.wfCollectionSave = save_collection;
+
+		function refreshBookCreatorBox( hint, oldid ) {
+			$.getJSON( script_url, {
+				action: 'ajax',
+				rs: 'wfAjaxCollectionGetBookCreatorBoxContent',
+				'rsargs[]': [ hint, oldid, mw.config.get( 'wgPageName' ) ]
 			}, function ( result ) {
-				visible = true;
-				var img = $( '<img>' ).attr( {
-					src: result.img,
-					alt: ''
-				} );
-				$addremove_link
+				$( '#coll-book_creator_box' ).html( result.html );
+			} );
+		}
+
+		function collectionCall( func, args ) {
+			var hint = args.shift();
+			$.post( script_url, {
+				action: 'ajax',
+				rs: 'wfAjaxCollection' + func,
+				'rsargs[]': args
+			}, function ( result ) {
+				var oldid = null;
+				if ( args.length === 3 ) {
+					oldid = args[ 2 ];
+				}
+				refreshBookCreatorBox( hint, oldid );
+				save_collection( result.collection );
+			}, 'json' );
+		}
+
+		window.collectionCall = collectionCall; // public
+
+		var mouse_pos = {},
+			$popup_div = null,
+			$addremove_link = null,
+			visible = false,
+			show_soon_timeout = null,
+			get_data_xhr = null,
+			current_link = null,
+			title = null;
+
+		function createDiv() {
+			$addremove_link = $( '<a href="javascript:void(0)" />' );
+			$popup_div = $( '<div id="collectionpopup" />' );
+			$popup_div.append( $addremove_link );
+			$( 'body' ).append( $popup_div );
+			$popup_div.hide();
+		}
+
+		function addremove_article( action, title ) {
+			$.post( script_url, {
+				action: 'ajax',
+				rs: 'wfAjaxCollection' + action.charAt( 0 ).toUpperCase() + action.slice( 1 ) + 'Article',
+				'rsargs[]': [ 0, title, '' ]
+			}, function ( result ) {
+				hide();
+				refreshBookCreatorBox( null, null );
+				save_collection( result.collection );
+			}, 'json' );
+		}
+
+		function show( link ) {
+			if ( visible ) {
+				return;
+			}
+			current_link = link;
+			title = link.attr( 'title' );
+			if ( !title ) {
+				return;
+			}
+		// Disable default browser tooltip
+			link.attr( 'title', '' );
+			show_soon_timeout = setTimeout( function () {
+				get_data_xhr = $.post( script_url, {
+					action: 'ajax',
+					rs: 'wfAjaxCollectionGetPopupData',
+					'rsargs[]': [ title ]
+				}, function ( result ) {
+					visible = true;
+					var img = $( '<img>' ).attr( {
+						src: result.img,
+						alt: ''
+					} );
+					$addremove_link
 					.text( '\u00a0' + result.text )
 					.prepend( img )
 					.unbind( 'click' )
 					.click( function () {
 						addremove_article( result.action, result.title );
 					} );
-				$popup_div
+					$popup_div
 					.css( {
 						left: mouse_pos.x + 2 + 'px',
 						top: mouse_pos.y + 2 + 'px'
 					} )
 					.show();
-			}, 'json' );
-		}, 300 );
-	}
+				}, 'json' );
+			}, 300 );
+		}
 
-	function cancel() {
-		if ( current_link && title ) {
-			current_link.attr( 'title', title );
+		function cancel() {
+			if ( current_link && title ) {
+				current_link.attr( 'title', title );
+			}
+			if ( show_soon_timeout ) {
+				clearTimeout( show_soon_timeout );
+				show_soon_timeout = null;
+			}
+			if ( get_data_xhr ) {
+				get_data_xhr.abort();
+				get_data_xhr = null;
+			}
 		}
-		if ( show_soon_timeout ) {
-			clearTimeout( show_soon_timeout );
-			show_soon_timeout = null;
-		}
-		if ( get_data_xhr ) {
-			get_data_xhr.abort();
-			get_data_xhr = null;
-		}
-	}
 
-	function hide() {
-		cancel();
-		if ( !visible ) {
-			return;
+		function hide() {
+			cancel();
+			if ( !visible ) {
+				return;
+			}
+			visible = false;
+			$popup_div.hide();
 		}
-		visible = false;
-		$popup_div.hide();
-	}
 
-	function is_inside( x, y, left, top, width, height ) {
-		var fuzz = 5;
-		return x + fuzz >= left && x - fuzz <= left + width &&
+		function is_inside( x, y, left, top, width, height ) {
+			var fuzz = 5;
+			return x + fuzz >= left && x - fuzz <= left + width &&
 			y + fuzz >= top && y - fuzz <= top + height;
-	}
-
-	function check_popup_hide() {
-		if ( !visible ) {
-			return;
 		}
-		var pos = $popup_div.offset();
-		if ( !is_inside(
+
+		function check_popup_hide() {
+			if ( !visible ) {
+				return;
+			}
+			var pos = $popup_div.offset();
+			if ( !is_inside(
 			mouse_pos.x,
 			mouse_pos.y,
 			pos.left,
@@ -169,18 +169,18 @@ $( function () {
 			$popup_div.width(),
 			$popup_div.height()
 		) ) {
-			hide();
+				hide();
+			}
 		}
-	}
 
-	$( document ).mousemove( function ( e ) {
-		mouse_pos.x = e.pageX;
-		mouse_pos.y = e.pageY;
-	} );
-	setInterval( check_popup_hide, 300 );
-	createDiv();
-	var prefix = mw.config.get( 'wgArticlePath' ).replace( /\$1/, '' );
-	$( '#bodyContent ' +
+		$( document ).mousemove( function ( e ) {
+			mouse_pos.x = e.pageX;
+			mouse_pos.y = e.pageY;
+		} );
+		setInterval( check_popup_hide, 300 );
+		createDiv();
+		var prefix = mw.config.get( 'wgArticlePath' ).replace( /\$1/, '' );
+		$( '#bodyContent ' +
 		'a[href^="' + prefix + '"]' + // URL starts with prefix of wgArticlePath
 		':not(a[href~="index.php"])' + // URL doesn't contain index.php (simplification!)
 		'[title!=""]' + // title attribute is not empty
@@ -204,6 +204,6 @@ $( function () {
 		}
 		$this.hover( function () { show( $this ); }, cancel );
 	} );
-} );
+	} );
 
-} )( jQuery );
+}( mediaWiki, jQuery ) );

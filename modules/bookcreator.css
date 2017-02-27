@@ -5,7 +5,7 @@
 	z-index: 9999;
 	display: inline;
 	font-size: 10pt;
-	background: white;
+	background: #fff;
 }
 
 /*
@@ -46,7 +46,7 @@
 
 .collection-create-chapter-list {
 	padding: 10px 20px;
-	border: 1px solid rgb(170, 170, 170);
+	border: 1px solid rgb( 170, 170, 170 );
 }
 
 .collection-create-chapter-list-text {
@@ -60,10 +60,10 @@
 }
 
 .collection-create-chapter-list .chapter {
-	margin-top:0.3em;
+	margin-top: 0.3em;
 }
 
-.collection-create-chapter-list  .article .title {
+.collection-create-chapter-list .article .title {
 	margin-left: 1em;
 }
 
@@ -89,11 +89,11 @@
 
 /* Trivial but nicer for the browsers that support it */
 .rtl .collection-creatorbox-book {
-	--ms-transform: scaleX(-1);
-	-moz-transform: scaleX(-1);
-	-o-transform: scaleX(-1);
-	-webkit-transform: scaleX(-1);
-	transform: scaleX(-1);
+	--ms-transform: scaleX( -1 );
+	-moz-transform: scaleX( -1 );
+	-o-transform: scaleX( -1 );
+	-webkit-transform: scaleX( -1 );
+	transform: scaleX( -1 );
 }
 
 .collection-creatorbox-title {
@@ -122,7 +122,7 @@
 .collection-order-button {
 	clear: right;
 }
-	
+
 #coll-orderbox ul {
 	list-style: none;
 }
