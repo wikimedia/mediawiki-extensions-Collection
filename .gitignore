@@ -1,2 +1,7 @@
-node_modules
+.*.swp
+/.project
+/.idea
+/composer.lock
+/vendor
+/node_modules
 npm-debug.log
