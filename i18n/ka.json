@@ -8,7 +8,8 @@
 			"Temuri rajavi",
 			"გიორგიმელა",
 			"Gi777ga",
-			"Macofe"
+			"Macofe",
+			"Otogi"
 		]
 	},
 	"coll-desc": "[[Special:Book|წიგნის შექმნა]]",
@@ -86,6 +87,8 @@
 	"coll-rendering_finished_title": "შექმნა დასრულებულია",
 	"coll-rendering_finished_text": "<strong>დოკუმენტის ფაილი შექმნილია.</strong>\n<strong>[$1 ჩამოტვირთეთ]</strong> ფაილი კომპიუტერში.",
 	"coll-rendering_finished_notes_heading": "შენიშვნები:",
+	"coll-rendering_finished_note_not_satisfied": "არ გაწყობთ შედეგი? მისი გაუმჯობესების შესაძლებლობები აღწერილია [[{{MediaWiki:Coll-helppage}}|საცნობო განყოფილებაში]].",
+	"coll-rendering_finished_note_article_rdf2latex": "ამჟამად დოკუმენტები არ შეიცავენ ცხრილს. ალტერნატივა შეიძლება იყოს $1-ის გამოყენება, არჩევა „ბეჭდვა“ ბრაუზერის მენიუში, აგრეთვე „შეინახეთ როგორც PDF“ გამოყენების ვარიანტი.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/გვერდის ტექსტში გადაყვანა",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/კოლექციის ტექსტში გადაყვანა",
 	"coll-rendering_failed_title": "რენდერი ჩაიშალა",
