@@ -354,6 +354,11 @@ $specialPageAliases['pl'] = array(
 	'Book' => array( 'Książka', 'Kolekcja' ),
 );
 
+/** Western Punjabi (پنجابی) */
+$specialPageAliases['pnb'] = array(
+	'Book' => array( 'کتاب' ),
+);
+
 /** Portuguese (português) */
 $specialPageAliases['pt'] = array(
 	'Book' => array( 'Livro', 'Colecção' ),
