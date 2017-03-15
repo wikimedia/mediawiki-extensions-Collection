@@ -1,10 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Benoit Rochon"
+			"Benoit Rochon",
+			"Jean-paul echaquan",
+			"Ninmeka"
 		]
 	},
+	"coll-remove": "Manina",
+	"coll-show": "Wapata",
+	"coll-move_up": "Ocpimik",
+	"coll-move_down": "Nitc",
+	"coll-print_export": "Tapisinaha/iciticaha",
 	"coll-create_a_book": "Ocita wapitcikan",
 	"coll-download_as": "Natcipota kinokepitcikanik otci mitwi $1",
-	"coll-n_pages": "$1 {{PLURAL:$1|masinhikan|masinahikana}}"
+	"coll-disable": "manisinaha",
+	"coll-book_creator_disable_tooltip": "aka aci apatcita masinahikan",
+	"coll-help": "Witcihici",
+	"coll-n_pages": "$1 {{PLURAL:$1|masinhikan|masinahikana}}",
+	"coll-show_collection": "wapatariwe masinahikan",
+	"coll-show_collection_tooltip": "ota ici makona e wi meckotcitain/e wi posipataman/ e wi nataweritaman masinahikan",
+	"coll-attribution-anons": "nama kiskeritakosiw ka ki masinahak$1"
 }
