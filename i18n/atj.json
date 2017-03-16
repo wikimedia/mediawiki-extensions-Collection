@@ -3,7 +3,8 @@
 		"authors": [
 			"Benoit Rochon",
 			"Jean-paul echaquan",
-			"Ninmeka"
+			"Ninmeka",
+			"Jeannette Coocoo"
 		]
 	},
 	"coll-remove": "Manina",
@@ -17,6 +18,7 @@
 	"coll-book_creator_disable_tooltip": "aka aci apatcita masinahikan",
 	"coll-help": "Witcihici",
 	"coll-n_pages": "$1 {{PLURAL:$1|masinhikan|masinahikana}}",
+	"coll-remove_this_page": "akatena nohwe paskickwemikan kiwapatcikanik",
 	"coll-show_collection": "wapatariwe masinahikan",
 	"coll-show_collection_tooltip": "ota ici makona e wi meckotcitain/e wi posipataman/ e wi nataweritaman masinahikan",
 	"coll-attribution-anons": "nama kiskeritakosiw ka ki masinahak$1"
