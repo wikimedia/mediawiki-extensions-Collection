@@ -117,7 +117,7 @@
 	"coll-about_pp": "关于$1",
 	"coll-invalid_podpartner_title": "无效的印刷合作伙伴",
 	"coll-invalid_podpartner_msg": "提供的印刷合作伙伴无效。请联系你的MediaWiki管理员。",
-	"coll-license": "授权协议",
+	"coll-license": "许可协议",
 	"coll-return_to": "返回[[:$1]]",
 	"coll-order_info_article": "{{MediaWiki:Coll-helppage}}/PediaPress订购信息",
 	"coll-suggest_title": "您的图书的建议页面",
