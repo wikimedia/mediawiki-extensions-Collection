@@ -11,15 +11,19 @@
 	"coll-show": "Wapata",
 	"coll-move_up": "Ocpimik",
 	"coll-move_down": "Nitc",
+	"coll-contents": "Tekaci ecinakok",
+	"coll-about_pp": "Enko nehe $1",
+	"coll-return_to": "Nte ica paskickwemakanik [[:$1]]",
 	"coll-print_export": "Tapisinaha/iciticaha",
 	"coll-create_a_book": "Ocita wapitcikan",
+	"coll-book_creator": "Ka ocitatc wapatcikaniw",
 	"coll-download_as": "Natcipota kinokepitcikanik otci mitwi $1",
 	"coll-disable": "manisinaha",
-	"coll-book_creator_disable_tooltip": "aka aci apatcita masinahikan",
+	"coll-book_creator_disable_tooltip": "Aka aci apatcita masinahikan",
 	"coll-help": "Witcihici",
 	"coll-n_pages": "$1 {{PLURAL:$1|masinhikan|masinahikana}}",
 	"coll-remove_this_page": "akatena nohwe paskickwemikan kiwapatcikanik",
 	"coll-show_collection": "wapatariwe masinahikan",
-	"coll-show_collection_tooltip": "ota ici makona e wi meckotcitain/e wi posipataman/ e wi nataweritaman masinahikan",
-	"coll-attribution-anons": "nama kiskeritakosiw ka ki masinahak$1"
+	"coll-show_collection_tooltip": "Ota ici makona e wi meckotcitain/e wi posipataman/e wi nataweritaman masinahikan",
+	"coll-attribution-anons": "Nama kiskeritakosiw ka ki masinahak $1"
 }
