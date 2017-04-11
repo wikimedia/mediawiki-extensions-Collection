@@ -12,7 +12,7 @@
 	"coll-start_book_creator": "Mangrugi iti panagpartuat ti libro",
 	"coll-book_creator_continue": "Agtuloy nga agusar iti panagpartuat ti libro",
 	"coll-book_creator_disable_text": "Ti ''Panagpartuat ti Libro'' ket mabaldadonto ken maikkatto ti libro nga araramidem.",
-	"coll-book_creator_text_article": "{{MediaWiki:Coll-helppage}}/Testo ti panagpartuat ti libro",
+	"coll-book_creator_text_article": "{{MediaWiki:Coll-helppage}}/Teksto ti panagpartuat iti libro",
 	"coll-collection": "Libro",
 	"coll-collections": "Liblibro",
 	"coll-unknown_subpage_title": "Di amammo a subpanid",
@@ -116,7 +116,7 @@
 	"coll-suggest_ban_selected": "Ikkaten dagiti napili a panid",
 	"coll-suggest_your_book": "Ti librom",
 	"coll-suggest_show": "ipakita",
-	"coll-suggest_ban_tooltip": "Ikkaten daytoy a panid manipud ti listaan dagiti singasing",
+	"coll-suggest_ban_tooltip": "Ikkaten daytoy a panid manipud iti listaan dagiti singasing",
 	"coll-suggest_article_ban": "Ti panid ti <strong>$1</strong> ket naikkaten manipud kadagiti naisingasing ($2).",
 	"coll-suggest_article_add": "Ti panid ti <strong>$1</strong> ket nainayonen iti librom ($2).",
 	"coll-suggest_article_remove": "Ti panid ti <strong>$1</strong> ket naikkaten manipud iti librom ($2).",
@@ -175,7 +175,7 @@
 	"coll-setting-toc-no": "Saan",
 	"coll-setting-columns": "Dagiti batong:",
 	"coll-attribution-anons": "Di ammo: $1",
-	"coll-attribution-page": "<h1>Dagiti taudan ti testo ken ladawan, dagiti kontributor, ken dagiti lisensia</h1>\n<h2>Testo</h2>\n$1<h2>Ladladawan</h2>\n$2\n<h2>Lisensia ti linaon</h2>\n$3",
+	"coll-attribution-page": "<h1>Dagiti taudan ti teksto ken ladawan, dagiti kontributor, ken dagiti lisensia</h1>\n<h2>Teksto</h2>\n$1<h2>Ladladawan</h2>\n$2\n<h2>Lisensia ti linaon</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Taudan:</i> $2 <i>Dagiti kontributor:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Taudan:</i> $2 <i>Lisensia:</i> $3 <i>Dagiti kontributor:</i> $4 <i>Orihinal nga artista:</i> $5"
 }
