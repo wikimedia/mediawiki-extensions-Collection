@@ -14,7 +14,8 @@
 			"Stultiwikia",
 			"Arystanbek",
 			"Macofe",
-			"1917 Ekim Devrimi"
+			"1917 Ekim Devrimi",
+			"Vito Genovese"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kitap oluştur]]",
@@ -158,7 +159,7 @@
 	"coll-add_category_tooltip": "Bu kategorideki tüm viki sayfalarını kitabınıza ekleyin",
 	"coll-add_this_page": "Bu sayfayı kitabınıza ekleyin",
 	"coll-add_page_tooltip": "Mevcut vikiyi kitabınıza ekleyin",
-	"coll-bookscategory": "Viki-kitaplar",
+	"coll-bookscategory": "Kitaplar",
 	"coll-clear_collection": "Kitabı temizle",
 	"coll-clear_collection_confirm": "Kitabınızı tamamen temizlemeyi istiyor musunuz?",
 	"coll-clear_collection_tooltip": "Mevcut kitabınızdaki tüm viki sayfalarını silin",
