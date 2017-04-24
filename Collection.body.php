@@ -1041,7 +1041,7 @@ class SpecialCollection extends SpecialPage {
 		$this->setHeaders();
 		$request = $this->getRequest();
 		$out = $this->getOutput();
-		$stats = $out->getStats();
+		$stats = MediaWiki\MediaWikiServices::getInstance()->getStatsdDataFactory();
 
 		$collectionId = $request->getVal( 'collection_id' );
 		$writer = $request->getVal( 'writer' );
