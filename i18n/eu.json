@@ -81,6 +81,7 @@
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Bilduma testuan bilakatzen",
 	"coll-rendering_finished_title": "Renderizazioa bukatu da",
 	"coll-rendering_finished_text": "<strong>Dokumentuaren fitxategia sortu da.</strong>\n<strong>[$1 Jaitsi fitxategia]</strong> zure ordenagailuan.",
+	"coll-rendering_finished_notes_heading": "Oharrak:",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Orrialdearen informazio testua prozesatzen",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Bilduraren informazio testua prozesatzen",
 	"coll-rendering_failed_status": "<strong>Egoera:</strong> $1",

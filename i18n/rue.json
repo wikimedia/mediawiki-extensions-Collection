@@ -3,7 +3,8 @@
 		"authors": [
 			"Gazeb",
 			"Tkalyn",
-			"Macofe"
+			"Macofe",
+			"KHMELNYTSKYIA"
 		]
 	},
 	"coll-desc": "[[Special:Book|Створює книгы]]",
@@ -116,7 +117,7 @@
 	"right-collectionsaveasuserpage": "Укладаня книг як хосновательскых сторінок",
 	"right-collectionsaveascommunitypage": "Укладаня книг як сторінок комуніты",
 	"coll-print_export": "Друк/експорт",
-	"coll-create_a_book": "Створїня книгы",
+	"coll-create_a_book": "Створіня книгы",
 	"coll-create_a_book_tooltip": "Створити книгу або колекцію сторінок",
 	"coll-book_creator": "Едітор книг",
 	"coll-download_as": "Скачати як $1",

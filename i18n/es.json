@@ -188,7 +188,7 @@
 	"coll-remove_page_tooltip": "Quitar la página wiki actual de tu libro",
 	"coll-show_collection": "Mostrar libro",
 	"coll-show_collection_tooltip": "Haz clic para editar/descargar/pedir tu libro",
-	"coll-not_addable": "Esta página no puede agregarse",
+	"coll-not_addable": "No se puede añadir esta página",
 	"coll-make_suggestions": "Sugerir páginas",
 	"coll-make_suggestions_tooltip": "Mostrar sugerencias basadas en las páginas de tu libro",
 	"coll-suggest_empty": "vacío",

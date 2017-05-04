@@ -4,7 +4,8 @@
 			"Benoit Rochon",
 			"Jean-paul echaquan",
 			"Ninmeka",
-			"Jeannette Coocoo"
+			"Jeannette Coocoo",
+			"Nehirowisiw"
 		]
 	},
 	"coll-remove": "Manina",
@@ -19,14 +20,18 @@
 	"coll-book_creator": "Ka ocitatc wapatcikaniw",
 	"coll-download_as": "Natcipata kinokepitcikanik otci mitowi $1",
 	"coll-disable": "manisinaha",
+	"coll-book_creator_disable": "E nikowakinitc wapitcikaniriw ka ocitatc",
 	"coll-book_creator_disable_tooltip": "Aka aci apatcita masinahikan",
 	"coll-add_this_page": "Acoticta ohwe paskickwemakan ki wapatcikanik",
+	"coll-add_page_tooltip": "Acta nehe mekwatc ka nokok kiwapitcikanik",
 	"coll-help": "Witcihici",
+	"coll-help_tooltip": "Kitci nokok ke ici witcihikowin wi ocitahine wapitcakana",
 	"coll-helppage": "Help:wapatcikana",
 	"coll-n_pages": "$1 {{PLURAL:$1|masinhikan|masinahikana}}",
 	"coll-remove_this_page": "akatena nohwe paskickwemikan kiwapatcikanik",
 	"coll-show_collection": "wapatariwe masinahikan",
 	"coll-show_collection_tooltip": "Ota ici makona e wi meckotcitain/e wi posipataman/e wi nataweritaman masinahikan",
 	"coll-make_suggestions": " Ke apataki matci paskickwemakana",
+	"coll-make_suggestions_tooltip": "Wapitariwe ka wicakemonaniwok wapitcikana ka ki apitaki ki masanihikanik",
 	"coll-attribution-anons": "Nama kiskeritakosiw ka ki masinahak $1"
 }
