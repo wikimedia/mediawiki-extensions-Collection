@@ -33,5 +33,7 @@
 	"coll-show_collection_tooltip": "Ota ici makona e wi meckotcitain/e wi posipataman/e wi nataweritaman masinahikan",
 	"coll-make_suggestions": " Ke apataki matci paskickwemakana",
 	"coll-make_suggestions_tooltip": "Wapitariwe ka wicakemonaniwok wapitcikana ka ki apitaki ki masanihikanik",
-	"coll-attribution-anons": "Nama kiskeritakosiw ka ki masinahak $1"
+	"coll-attribution-anons": "Nama kiskeritakosiw ka ki masinahak $1",
+	"coll-article-attribution": "<b>$1</b> <i>kekwan nohwe :</i> $2 <i>ka witcihiwetcik :</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>kekwan nohwe :</i> $2 <i>karokitasowin :</i> $3 <i>ka witcihiwetcik :</i> $4 <i>awin :</i> $5"
 }
