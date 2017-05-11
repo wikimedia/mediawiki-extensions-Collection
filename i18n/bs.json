@@ -68,7 +68,7 @@
 	"coll-load_overwrite_text": "Već imate neke stranice u Vašoj knjizi.\nDa li želite prepisati preko Vaše postojeće knjige, primjenite novi sadržaj ili odustanete od punjenja ove knjige?",
 	"coll-overwrite": "Prepisati",
 	"coll-append": "Prispoji",
-	"coll-cancel": "Odustani",
+	"coll-cancel": "Otkaži",
 	"coll-update": "Ažuriranje",
 	"coll-limit_exceeded_title": "Knjiga prevelika",
 	"coll-limit_exceeded_text": "Vaša knjiga je prevelika.\nNe može se dodati ni jedna stranica.",
