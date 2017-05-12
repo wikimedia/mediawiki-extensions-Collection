@@ -107,6 +107,7 @@
 	"coll-make_suggestions_tooltip": "Минем китапта булган җөмләләрне күрсәтергә",
 	"coll-suggest_empty": "буш",
 	"coll-attribution-anons": "Аноним: $1",
+	"coll-attribution-page": "<h1>Текст һәм рәсем чыганаклары, авторлары һәм лицензияләр</h1>\n<h2>Текст</h2>\n$1<h2>Рәсемнәр</h2>\n$2\n<h2>Лицензия</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Чыганак:</i> $2 <i>Авторлар:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Чыганак:</i> $2 <i>Лицензия:</i> $3 <i>Авторлар:</i> $4 <i>Рәссам:</i> $5"
 }
