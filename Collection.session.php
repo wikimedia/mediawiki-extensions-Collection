@@ -109,7 +109,7 @@ class CollectionSession {
 
 	/**
 	 * @param $title
-	 * @param $oldid int
+	 * @param int $oldid
 	 * @return int
 	 */
 	public static function findArticle( $title, $oldid = 0 ) {

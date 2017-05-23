@@ -24,7 +24,7 @@ class SpecialCollection extends SpecialPage {
 	public $tempfile;
 
 	/**
-	 * @param $PODPartners bool|array
+	 * @param bool|array $PODPartners
 	 */
 	public function __construct( $PODPartners = false ) {
 		parent::__construct( "Book" );
@@ -48,7 +48,7 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $par null|string
+	 * @param null|string $par
 	 */
 	public function execute( $par ) {
 		global $wgCollectionMaxArticles;
@@ -493,8 +493,8 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $title string
-	 * @param $subtitle string
+	 * @param string $title
+	 * @param string $subtitle
 	 */
 	public static function setTitles( $title, $subtitle ) {
 		$collection = CollectionSession::getCollection();
@@ -516,8 +516,8 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $a array
-	 * @param $b array
+	 * @param array $a
+	 * @param array $b
 	 * @return int
 	 */
 	public static function title_cmp( $a, $b ) {
@@ -548,7 +548,7 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $name string
+	 * @param string $name
 	 */
 	public static function addChapter( $name ) {
 		$collection = CollectionSession::getCollection();
@@ -563,8 +563,8 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $index int
-	 * @param $name string
+	 * @param int $index
+	 * @param string $name
 	 */
 	public static function renameChapter( $index, $name ) {
 		if ( !is_int( $index ) ) {
@@ -579,8 +579,8 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $namespace int
-	 * @param $name string
+	 * @param int $namespace
+	 * @param string $name
 	 * @param int $oldid
 	 * @return bool
 	 */
@@ -593,8 +593,8 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $title Title
-	 * @param $oldid int
+	 * @param Title $title
+	 * @param int $oldid
 	 * @return bool
 	 */
 	public static function addArticle( $title, $oldid = 0 ) {
@@ -639,9 +639,9 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $namespace string
-	 * @param $name string
-	 * @param $oldid int
+	 * @param string $namespace
+	 * @param string $name
+	 * @param int $oldid
 	 * @return bool
 	 */
 	public static function removeArticleFromName( $namespace, $name, $oldid = 0 ) {
@@ -650,8 +650,8 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $title Title
-	 * @param $oldid int
+	 * @param Title $title
+	 * @param int $oldid
 	 * @return bool
 	 */
 	public static function removeArticle( $title, $oldid = 0 ) {
@@ -668,7 +668,7 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $name string
+	 * @param string $name
 	 * @return bool
 	 */
 	public static function addCategoryFromName( $name ) {
@@ -677,7 +677,7 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $title Title
+	 * @param Title $title
 	 * @return bool
 	 */
 	public static function addCategory( $title ) {
@@ -727,7 +727,7 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $index int
+	 * @param int $index
 	 * @return bool
 	 */
 	public static function removeItem( $index ) {
@@ -761,7 +761,7 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $items array
+	 * @param array $items
 	 */
 	public static function setSorting( $items ) {
 		if ( !CollectionSession::hasSession() ) {
@@ -868,8 +868,8 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $title Title
-	 * @param $append bool
+	 * @param Title $title
+	 * @param bool $append
 	 * @return array|bool
 	 */
 	public function loadCollection( $title, $append = false ) {
@@ -910,8 +910,8 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $title Title
-	 * @param $forceOverwrite bool
+	 * @param Title $title
+	 * @param bool $forceOverwrite
 	 * @return bool
 	 */
 	public function saveCollection( $title, $forceOverwrite = false ) {
@@ -986,10 +986,10 @@ class SpecialCollection extends SpecialPage {
 	/**
 	 * Take an array of arrays, each containing information about one item to be
 	 * assembled and exported, and appropriately feed the backend chosen ($writer).
-	 * @param $collection array following the collection/Metabook dictionary formats
+	 * @param array $collection following the collection/Metabook dictionary formats
 	 * https://www.mediawiki.org/wiki/Offline_content_generator/metabook.json
 	 * https://mwlib.readthedocs.org/en/latest/internals.html#article
-	 * @param $referrer Title object, used only to provide a returnto parameter.
+	 * @param Title $referrer Used only to provide a returnto parameter.
 	 * @param $writer A writer registered in the appropriate configuration.
 	 */
 	public function renderCollection( $collection, Title $referrer, $writer ) {
@@ -1209,8 +1209,8 @@ class SpecialCollection extends SpecialPage {
 	/**
 	 * Render a single page: fetch page name and revision information, then
 	 * assemble and feed to renderCollection() a single-item $collection.
-	 * @param $title Title needs to be full page name aka prefixed title.
-	 * @param $oldid int
+	 * @param Title $title Full page name aka prefixed title.
+	 * @param int $oldid
 	 * @param $writer A writer registered in the appropriate configuration.
 	 * @return array|null
 	 */

@@ -164,7 +164,7 @@ abstract class CollectionRenderingAPI {
 	}
 
 	/**
-	 * @param $collection array
+	 * @param array $collection
 	 * @return string
 	 */
 	protected function buildJSONCollection( $collection ) {

@@ -459,8 +459,8 @@ $wgAjaxExportList[] = 'wfAjaxCollectionGetPopupData';
 
 /**
  * Backend of several following SAJAX function handlers...
- * @param String $action provided by the specific handlers internally
- * @param String $article title passed in from client
+ * @param string $action provided by the specific handlers internally
+ * @param string $article title passed in from client
  * @return AjaxResponse with JSON-encoded array including HTML fragment.
  */
 function wfCollectionSuggestAction( $action, $article ) {

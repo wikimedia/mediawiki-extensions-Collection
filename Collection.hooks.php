@@ -33,7 +33,7 @@ class CollectionHooks {
 	/**
 	 * Callback for hook SkinBuildSidebar
 	 *
-	 * @param $skin Skin
+	 * @param Skin $skin
 	 * @param $bar
 	 *
 	 * @return bool
@@ -51,7 +51,7 @@ class CollectionHooks {
 	}
 
 	/**
-	 * @param $skin Skin
+	 * @param Skin $skin
 	 * @param $navUrls
 	 * @return bool
 	 */
@@ -68,7 +68,7 @@ class CollectionHooks {
 	/**
 	 * Return HTML-code to be inserted as portlet
 	 *
-	 * @param $sk Skin
+	 * @param Skin $sk
 	 *
 	 * @return string
 	 */
@@ -157,7 +157,7 @@ class CollectionHooks {
 	/**
 	 * Callback for hook SiteNoticeAfter
 	 * @param $siteNotice
-	 * @param $skin Skin
+	 * @param Skin $skin
 	 * @return bool
 	 */
 	public static function siteNoticeAfter( &$siteNotice, $skin ) {
@@ -202,8 +202,8 @@ class CollectionHooks {
 	}
 
 	/**
-	 * @param $title Title
-	 * @param $mode string
+	 * @param Title $title
+	 * @param string $mode
 	 * @return string
 	 */
 	public static function renderBookCreatorBox( $title, $mode = '' ) {
@@ -288,8 +288,8 @@ class CollectionHooks {
 
 	/**
 	 * @param $title
-	 * @param $ajaxHint null
-	 * @param $oldid null|int
+	 * @param $ajaxHint Defaults to null
+	 * @param null|int $oldid
 	 * @return string
 	 */
 	public static function getBookCreatorBoxContent( $title, $ajaxHint = null, $oldid = null ) {
@@ -305,7 +305,7 @@ class CollectionHooks {
 	/**
 	 * @param $imagePath
 	 * @param $ajaxHint
-	 * @param $title Title
+	 * @param Title $title
 	 * @param $oldid
 	 * @return string
 	 */
@@ -475,7 +475,7 @@ class CollectionHooks {
 
 	/**
 	 * OutputPageCheckLastModified hook
-	 * @param $modifiedTimes array
+	 * @param array $modifiedTimes
 	 * @return bool
 	 */
 	public static function checkLastModified( $modifiedTimes ) {

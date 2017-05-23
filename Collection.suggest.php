@@ -38,16 +38,15 @@ class CollectionSuggest {
 	/**
 	 * Main entrypoint
 	 *
-	 * @param $mode (type string) 'add', 'ban' or 'remove'
-	 *        'add' => add article to the book
-	 *        'ban' => ban article from the proposals
-	 *        'remove' => remove article from the book
-	 *        'addNum' => (type int) add the first $param articles to the collection
-	 *        'addVal' => (type float) add all propossals to the collection with
-	 *                    a value higher then $param
-	 * @param $param (type string) name of the article to be added, banned or removed
-	 *        or a number of articles to add or a value (1 - 1.5) all articles with a
-	 *        higher value will be added to the collection
+	 * @param string $mode
+	 *        'add' => add one title to the book.
+	 *        'addAll' => Add a list of titles to the book.
+	 *        'ban' => Ban a title from the proposals.
+	 *        'unban' => Undo a ban.
+	 *        'remove' => Remove a title from the book, and ban it.
+	 *        'removeOnly' => Remove a title without banning it.
+	 * @param string|string[] $param Name of the article to be added, banned
+	 *        or removed, or a list of article names to be added.
 	 */
 	public static function run( $mode = '', $param = '' ) {
 		global $wgOut;
@@ -65,16 +64,15 @@ class CollectionSuggest {
 	/**
 	 * Entrypoint for Ajax
 	 *
-	 * @param $mode (type string) 'add', 'ban' or 'remove'
-	 *        'add' => add article to the book
-	 *        'ban' => ban article from the proposals
-	 *        'remove' => remove article from the book
-	 *        'addNum' => (type int) add the first $param articles to the collection
-	 *        'addVal' => (type float) add all propossals to the collection with
-	 *                    a value higher then $param
-	 * @param $param (type string) name of the article to be added, banned or removed
-	 *        or a number of articles to add or a value (1 - 1.5) all articles with a
-	 *        higher value will be added to the collection
+	 * @param string $mode
+	 *        'add' => add one title to the book.
+	 *        'addAll' => Add a list of titles to the book.
+	 *        'ban' => Ban a title from the proposals.
+	 *        'unban' => Undo a ban.
+	 *        'remove' => Remove a title from the book, and ban it.
+	 *        'removeOnly' => Remove a title without banning it.
+	 * @param string|string[] $param Name of the article to be added, banned
+	 *        or removed, or a list of article names to be added.
 	 * @return string html-code for the proposallist and the memberlist
 	 */
 	public static function refresh( $mode, $param ) {
@@ -148,16 +146,15 @@ class CollectionSuggest {
 	/**
 	 * Update the session and return the template
 	 *
-	 * @param $mode (type string) 'add', 'ban' or 'remove'
-	 *        'add' => add article to the book
-	 *        'ban' => ban article from the proposals
-	 *        'remove' => remove article from the book
-	 *        'addNum' => (type int) add the first $param articles to the collection
-	 *        'addVal' => (type float) add all propossals to the collection with
-	 *                    a value higher then $param
-	 * @param $param (type string) name of the article to be added, banned or removed
-	 *        or a number of articles to add or a value (1 - 1.5) all articles with a
-	 *        higher value will be added to the collection
+	 * @param string $mode
+	 *        'add' => add one title to the book.
+	 *        'addAll' => Add a list of titles to the book.
+	 *        'ban' => Ban a title from the proposals.
+	 *        'unban' => Undo a ban.
+	 *        'remove' => Remove a title from the book, and ban it.
+	 *        'removeOnly' => Remove a title without banning it.
+	 * @param string|string[] $param Name of the article to be added, banned
+	 *        or removed, or a list of article names to be added.
 	 * @return CollectionSuggestTemplate the template for the wikipage
 	 */
 	private static function getCollectionSuggestTemplate( $mode, $param ) {
@@ -214,8 +211,8 @@ class CollectionSuggest {
 	/**
 	 * Add some articles and update the book of the Proposal-Object
 	 *
-	 * @param $articleList array with the names of the articles to be added
-	 * @param $prop CollectionProposals the proposal Object
+	 * @param array $articleList with the names of the articles to be added
+	 * @param CollectionProposals $prop the proposal Object
 	 */
 	private static function addArticlesFromName( $articleList, $prop ) {
 		foreach ( $articleList as $article ) {
@@ -263,9 +260,9 @@ class CollectionProposals {
 	 * constructor
 	 * ==================================================
 	 *
-	 * @param $coll array the collection
-	 * @param $ban array the list of the banned articles
-	 * @param $props array the list of the proposals
+	 * @param array $coll the collection
+	 * @param array $ban the list of the banned articles
+	 * @param array $props the list of the proposals
 	 */
 	public function __construct( $coll, $ban, $props ) {
 		$this->mPropList = [];
@@ -297,11 +294,11 @@ class CollectionProposals {
 	/**
 	 * Calculate the new proposals and return it
 	 *
-	 * @param $num (type int) number of proposals to be returned
+	 * @param int $num number of proposals to be returned
 	 *        0 or less means, that all proposals will be returned
 	 *        this parameter is optional, the method will return
 	 *        all proposals by defaulted
-	 * @param $doUpdate (type boolean) when true, $linkList will
+	 * @param bool $doUpdate when true, $linkList will
 	 *        updated before calculating the proposals
 	 *        default is true
 	 * @return array a 2-dimensional array that contains the proposals
@@ -390,7 +387,7 @@ class CollectionProposals {
 	}
 
 	/**
-	 * @param $title Title
+	 * @param Title $title
 	 * @return Title
 	 */
 	private function resolveRedirects( $title ) {
@@ -405,8 +402,8 @@ class CollectionProposals {
 	/**
 	 * Extract & count links from wikitext
 	 *
-	 * @param $num_articles int
-	 * @param $wikitext string article text
+	 * @param int $num_articles
+	 * @param string $wikitext article text
 	 * @return array with links and their weights
 	 */
 	private function getWeightedLinks( $num_articles, $wikitext ) {
@@ -558,8 +555,8 @@ class CollectionProposals {
 	 * Search an article in an array and returns its key or false
 	 * if the array doesn't contain the article
 	 *
-	 * @param $entry (type string) an articlename
-	 * @param $array array to be searched, it has to 2-dimensional
+	 * @param string $entry an articlename
+	 * @param array $array to be searched, it has to 2-dimensional
 	 *               the 2nd dimension needs the key 'name'
 	 * @return bool|int the key as integer or false
 	 */
@@ -575,7 +572,7 @@ class CollectionProposals {
 	/**
 	 * Check if an article is banned or belongs to the book/collection
 	 *
-	 * @param $link string an articlename
+	 * @param string $link an articlename
 	 * @return boolean true: if the article can be added to the proposals
 	 *                        false: if the article can't be added to the proposals
 	 */
