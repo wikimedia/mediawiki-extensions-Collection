@@ -10,6 +10,20 @@
  * @ingroup Templates
  */
 class CollectionPageTemplate extends QuickTemplate {
+	/**
+	 * Create a warning box
+	 * @return string
+	 */
+	private function getWarningBox() {
+		$templateParser = new TemplateParser( __DIR__ );
+		$args = [
+			"text" => wfMessage( 'coll-warning-text' )->parse(),
+			"feedback" => wfMessage( 'coll-warning-leave-feedback' )->text(),
+			"more" => wfMessage( 'coll-warning-read-more' )->text()
+		];
+		return $templateParser->processTemplate( 'warning', $args );
+	}
+
 	public function execute() {
 		$data = [
 			'collectionTitle' => $this->data['collection']['title'],
@@ -50,6 +64,9 @@ class CollectionPageTemplate extends QuickTemplate {
 
 		$context = new DerivativeContext( $this->data['context'] );
 		$context->setRequest( new FauxRequest( $data ) );
+
+		echo ( $this->getWarningBox() );
+
 		$form = new HTMLForm( $fields, $context );
 		$form->setMethod( 'post' )
 			->addHiddenField( 'bookcmd', 'set_titles' )
