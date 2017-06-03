@@ -12,16 +12,16 @@
  * to run with Ajax
  */
 class CollectionSuggestTemplate extends QuickTemplate {
-	public function execute () {
+	public function execute() {
 		?>
 		<div>
 			<?php $this->msg( 'coll-suggest_intro_text' ) ?>
 			<div id="collectionSuggestStatus" style="text-align: center; margin: 5px auto 10px auto; padding: 0 4px; border: 1px solid #ed9; background-color: #fea; visibility: hidden;">&#160;</div>
 			<table style="width: 100%; border-spacing: 10px;"><tbody><tr>
 					<td style="padding: 10px; vertical-align: top;">
-						<form method="post" action="<?php echo htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book', array( 'bookcmd' => 'suggest' ) ) ) ?>">
+						<form method="post" action="<?php echo htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book', [ 'bookcmd' => 'suggest' ] ) ) ?>">
 							<strong style="font-size: 1.2em;"><?php $this->msg( 'coll-suggested_articles' ) ?></strong>
-							(<a href="<?php echo htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book', array( 'bookcmd' => 'suggest', 'resetbans' => '1' ) ) ) ?>" title="<?php $this->msg( 'coll-suggest_reset_bans_tooltip' ) ?>"><?php $this->msg( 'coll-suggest_reset_bans' ) ?></a>)
+							(<a href="<?php echo htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book', [ 'bookcmd' => 'suggest', 'resetbans' => '1' ] ) ) ?>" title="<?php $this->msg( 'coll-suggest_reset_bans_tooltip' ) ?>"><?php $this->msg( 'coll-suggest_reset_bans' ) ?></a>)
 							<?php if ( count( $this->data['proposals'] ) > 0 ) { ?>
 								<noscript>
 									<div id="collection-suggest-add">
@@ -52,7 +52,7 @@ class CollectionSuggestTemplate extends QuickTemplate {
 	 * needed for Ajax functions
 	 * @return string
 	 */
-	public function getProposalList () {
+	public function getProposalList() {
 		global $wgScript, $wgExtensionAssetsPath;
 
 		$mediapath = $wgExtensionAssetsPath . '/Collection/images/';
@@ -71,8 +71,8 @@ class CollectionSuggestTemplate extends QuickTemplate {
 		$url = $title->getLocalUrl();
 		$out .= '<li style="margin-bottom: 10px; padding: 4px 4px; background-color: #ddddff; font-size: 1.4em; font-weight: bold;">';
 		$out .= '<noscript><input type="checkbox" value="' . htmlspecialchars( $artName ) . '" name="articleList[]" /></noscript>';
-		$out .= '<a onclick="' . htmlspecialchars( 'collectionSuggestCall("AddArticle", ' . Xml::encodeJsVar( array( $artName ) ) . '); return false;' ) . '" href="' . htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book', array( 'bookcmd' => 'suggest', 'add' => $artName ) ) ) . '" title="' . wfMessage( 'coll-add_page_tooltip' )->escaped() . '"><img src="' . htmlspecialchars( $mediapath . 'silk-add.png' ) . '" width="16" height="16" alt=""></a> ';
-		$out .= '<a onclick="' . htmlspecialchars( 'collectionSuggestCall("BanArticle", ' . Xml::encodeJsVar( array( $artName ) ) . '); return false;' ) . '" href="' . htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book', array( 'bookcmd' => 'suggest', 'ban' => $artName ) ) ) . '" title="' . wfMessage( 'coll-suggest_ban_tooltip' )->escaped() . '"><img src="' . htmlspecialchars( $mediapath . 'silk-cancel.png' ) . '" width="16" height="16" alt=""></a> ';
+		$out .= '<a onclick="' . htmlspecialchars( 'collectionSuggestCall("AddArticle", ' . Xml::encodeJsVar( [ $artName ] ) . '); return false;' ) . '" href="' . htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book', [ 'bookcmd' => 'suggest', 'add' => $artName ] ) ) . '" title="' . wfMessage( 'coll-add_page_tooltip' )->escaped() . '"><img src="' . htmlspecialchars( $mediapath . 'silk-add.png' ) . '" width="16" height="16" alt=""></a> ';
+		$out .= '<a onclick="' . htmlspecialchars( 'collectionSuggestCall("BanArticle", ' . Xml::encodeJsVar( [ $artName ] ) . '); return false;' ) . '" href="' . htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book', [ 'bookcmd' => 'suggest', 'ban' => $artName ] ) ) . '" title="' . wfMessage( 'coll-suggest_ban_tooltip' )->escaped() . '"><img src="' . htmlspecialchars( $mediapath . 'silk-cancel.png' ) . '" width="16" height="16" alt=""></a> ';
 		$out .= '<a href="' . htmlspecialchars( $url ) . '" title="' . htmlspecialchars( $artName ) . '">' . htmlspecialchars( $artName ) . '</a>';
 		$out .= '</li>';
 
@@ -82,7 +82,7 @@ class CollectionSuggestTemplate extends QuickTemplate {
 			$url = str_replace( " ", "_", $url );
 			$out .= '<li style="padding-left: 4px;">';
 			$out .= '<noscript><input type="checkbox" value="' . htmlspecialchars( $artName ) . '" name="articleList[]" /></noscript>';
-			$out .= '<a onclick="' . htmlspecialchars( 'collectionSuggestCall("AddArticle", ' . Xml::encodeJsVar( array( $artName ) ) . '); return false;' ) . '" href="' . htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book', array( 'bookcmd' => 'suggest', 'add' => $artName ) ) ) . '" title="' . wfMessage( 'coll-add_page_tooltip' )->escaped() . '"><img src="' . htmlspecialchars( $mediapath . 'silk-add.png' ) . '" width="16" height="16" alt=""></a> ';
+			$out .= '<a onclick="' . htmlspecialchars( 'collectionSuggestCall("AddArticle", ' . Xml::encodeJsVar( [ $artName ] ) . '); return false;' ) . '" href="' . htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book', [ 'bookcmd' => 'suggest', 'add' => $artName ] ) ) . '" title="' . wfMessage( 'coll-add_page_tooltip' )->escaped() . '"><img src="' . htmlspecialchars( $mediapath . 'silk-add.png' ) . '" width="16" height="16" alt=""></a> ';
 			$out .= '<a href="' . htmlspecialchars( $url ) . '" title="' . htmlspecialchars( $artName ) . '">' . htmlspecialchars( $artName ) . '</a>';
 			$out .= '</li>';
 		}
@@ -100,12 +100,14 @@ class CollectionSuggestTemplate extends QuickTemplate {
 		$out = '';
 
 		$num = count( $coll['items'] );
-		if ( $num == 0 ) $out .= "<li>" . wfMessage( 'coll-suggest_empty' )->escaped() . "</li>";
+		if ( $num == 0 ) {
+			$out .= "<li>" . wfMessage( 'coll-suggest_empty' )->escaped() . "</li>";
+		}
 
 		for ( $i = 0; $i < $num; $i++ ) {
 			$artName = $coll['items'][$i]['title'];
 			if ( $coll['items'][$i]['type'] == 'article' ) {
-				$out .= '<li><a href="' . htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book', array( 'bookcmd' => 'suggest', 'remove' => $artName ) ) ) . '" onclick="' . htmlspecialchars( 'collectionSuggestCall("RemoveArticle", ' . Xml::encodeJsVar( array( $artName ) ) . '); return false;' ) . '" title="' . wfMessage( 'coll-remove_this_page' )->escaped() . '"><img src="' . htmlspecialchars( $mediapath . 'remove.png' ) . '" width="10" height="10" alt=""></a> ';
+				$out .= '<li><a href="' . htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book', [ 'bookcmd' => 'suggest', 'remove' => $artName ] ) ) . '" onclick="' . htmlspecialchars( 'collectionSuggestCall("RemoveArticle", ' . Xml::encodeJsVar( [ $artName ] ) . '); return false;' ) . '" title="' . wfMessage( 'coll-remove_this_page' )->escaped() . '"><img src="' . htmlspecialchars( $mediapath . 'remove.png' ) . '" width="10" height="10" alt=""></a> ';
 				$out .= '<a href="' . htmlspecialchars( $coll['items'][$i]['url'] ) . '" title="' . htmlspecialchars( $artName ) . '">' . htmlspecialchars( $artName ) . '</a></li>';
 			}
 		}

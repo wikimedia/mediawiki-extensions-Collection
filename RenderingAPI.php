@@ -50,9 +50,9 @@ abstract class CollectionRenderingAPI {
 	 * @return CollectionAPIResult
 	 */
 	public function render( $collection ) {
-		return $this->doRender( array(
+		return $this->doRender( [
 				'metabook' => $this->buildJSONCollection( $collection ),
-			)
+			]
 		);
 	}
 
@@ -63,10 +63,10 @@ abstract class CollectionRenderingAPI {
 	 * @return CollectionAPIResult
 	 */
 	public function forceRender( $collectionId ) {
-		return $this->doRender( array(
+		return $this->doRender( [
 				'collection_id' => $collectionId,
 				'force_render' => true
-			)
+			]
 		);
 	}
 
@@ -90,12 +90,12 @@ abstract class CollectionRenderingAPI {
 	 */
 	public function postZip( $collection, $url ) {
 		return $this->makeRequest( 'zip_post',
-			array(
+			[
 				'metabook' => $this->buildJSONCollection( $collection ),
 				'base_url' => $this->getBaseURL(),
 				'script_extension' => '.php',
 				'pod_api_url' => $url,
-			)
+			]
 		);
 	}
 
@@ -108,9 +108,9 @@ abstract class CollectionRenderingAPI {
 	public function getRenderStatus( $collectionId ) {
 		return $this->makeRequest(
 			'render_status',
-			array(
+			[
 				'collection_id' => $collectionId,
-			)
+			]
 		);
 	}
 
@@ -122,9 +122,9 @@ abstract class CollectionRenderingAPI {
 	 */
 	public function download( $collectionId ) {
 		return $this->makeRequest( 'download',
-			array(
+			[
 				'collection_id' => $collectionId,
-			)
+			]
 		);
 	}
 
@@ -135,14 +135,14 @@ abstract class CollectionRenderingAPI {
 		global $wgCollectionLicenseName, $wgCollectionLicenseURL, $wgRightsIcon;
 		global $wgRightsPage, $wgRightsText, $wgRightsUrl;
 
-		$licenseInfo = array(
+		$licenseInfo = [
 			'type' => 'license',
-		);
+		];
 
 		$fromMsg = wfMessage( 'coll-license_url' )->inContentLanguage();
 		if ( !$fromMsg->isDisabled() ) {
 			$licenseInfo['mw_license_url'] = $fromMsg->text();
-			return array( $licenseInfo );
+			return [ $licenseInfo ];
 		}
 
 		if ( $wgCollectionLicenseName ) {
@@ -160,7 +160,7 @@ abstract class CollectionRenderingAPI {
 			$licenseInfo['mw_rights_text'] = $wgRightsText;
 		}
 
-		return array( $licenseInfo );
+		return [ $licenseInfo ];
 	}
 
 	/**
@@ -168,10 +168,10 @@ abstract class CollectionRenderingAPI {
 	 * @return string
 	 */
 	protected function buildJSONCollection( $collection ) {
-		$result = array(
+		$result = [
 			'type' => 'collection',
 			'licenses' => $this->getLicenseInfos()
-		);
+		];
 
 		if ( isset( $collection['title'] ) ) {
 			$result['title'] = $collection['title'];
@@ -187,7 +187,7 @@ abstract class CollectionRenderingAPI {
 			$result['settings'] = $collection['settings'];
 		}
 
-		$items = array();
+		$items = [];
 		if ( isset( $collection['items'] ) ) {
 			$currentChapter = null;
 			foreach ( $collection['items'] as $item ) {
@@ -210,14 +210,14 @@ abstract class CollectionRenderingAPI {
 		}
 		$result['items'] = $items;
 
-		$result['wikis'] = array(
-			array(
+		$result['wikis'] = [
+			[
 				'type' => 'wikiconf',
 				'baseurl' => $this->getBaseURL(),
 				'script_extension' => '.php',
 				'format' => 'nuwiki',
-			),
-		);
+			],
+		];
 
 		// Prefer VRS configuration if present.
 		$context = RequestContext::getMain();
@@ -235,7 +235,7 @@ abstract class CollectionRenderingAPI {
 				'/' . $domain . '/v1/',
 				$params['url']
 			);
-			for ( $i = 0; $i < count( $result['wikis'] ); $i++ ) {
+			for ( $i = 0, $count = count( $result['wikis'] ); $i < $count; $i++ ) {
 				$result['wikis'][$i]['restbase1'] = $url;
 			}
 		} elseif ( isset( $vrs['modules'] ) && isset( $vrs['modules']['parsoid'] ) ) {
@@ -246,7 +246,7 @@ abstract class CollectionRenderingAPI {
 				'$2',
 				$params['domain']
 			);
-			for ( $i = 0; $i < count( $result['wikis'] ); $i++ ) {
+			for ( $i = 0, $count = count( $result['wikis'] ); $i < $count; $i++ ) {
 				$result['wikis'][$i]['parsoid'] = $params['url'];
 				$result['wikis'][$i]['prefix'] = $params['prefix'];
 				$result['wikis'][$i]['domain'] = $domain;
@@ -255,17 +255,17 @@ abstract class CollectionRenderingAPI {
 			// fall back to Visual Editor configuration globals
 			global $wgVisualEditorParsoidURL, $wgVisualEditorParsoidPrefix,
 				$wgVisualEditorParsoidDomain, $wgVisualEditorRestbaseURL;
-			for ( $i = 0; $i < count( $result['wikis'] ); $i++ ) {
+			for ( $i = 0, $count = count( $result['wikis'] ); $i < $count; $i++ ) {
 				// Parsoid connection information
-				if ($wgVisualEditorParsoidURL) {
+				if ( $wgVisualEditorParsoidURL ) {
 					$result['wikis'][$i]['parsoid'] = $wgVisualEditorParsoidURL;
 					$result['wikis'][$i]['prefix'] = $wgVisualEditorParsoidPrefix;
 					$result['wikis'][$i]['domain'] = $wgVisualEditorParsoidDomain;
 				}
 				// RESTbase connection information
-				if ($wgVisualEditorRestbaseURL) {
+				if ( $wgVisualEditorRestbaseURL ) {
 					// Strip the trailing "/page/html".
-					$restbase1 = preg_replace('|/page/html/?$|', '/', $wgVisualEditorRestbaseURL);
+					$restbase1 = preg_replace( '|/page/html/?$|', '/', $wgVisualEditorRestbaseURL );
 					$result['wikis'][$i]['restbase1'] = $restbase1;
 				}
 			}
@@ -303,7 +303,7 @@ class MWServeRenderingAPI extends CollectionRenderingAPI {
 
 		$response = Http::post(
 			$serveURL,
-			array( 'postData' => $params, 'proxy' => $proxy ),
+			[ 'postData' => $params, 'proxy' => $proxy ],
 			__METHOD__
 		);
 		if ( $response === false ) {
@@ -322,7 +322,7 @@ class NewRenderingAPI extends CollectionRenderingAPI {}
  */
 class CollectionAPIResult {
 	/** @var array: Decoded JSON returned by server */
-	public $response = array();
+	public $response = [];
 
 	/**
 	 * @param string|null $data: Data returned by HTTP request

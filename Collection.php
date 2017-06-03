@@ -30,15 +30,15 @@ EOT;
 	exit( 1 );
 }
 
-$wgExtensionCredits['specialpage'][] = array(
+$wgExtensionCredits['specialpage'][] = [
 	'path' => __FILE__,
 	'name' => 'Collection',
 	'version' => '1.7.0',
-	'author' => array( 'PediaPress GmbH', 'Siebrand Mazeland', 'Marcin Cieślak' ),
+	'author' => [ 'PediaPress GmbH', 'Siebrand Mazeland', 'Marcin Cieślak' ],
 	'url' => 'https://www.mediawiki.org/wiki/Extension:Collection',
 	'descriptionmsg' => 'coll-desc',
 	'license-name' => 'GPL-2.0+',
-);
+];
 
 # ==============================================================================
 
@@ -54,7 +54,7 @@ $wgCollectionMWServeCredentials = null;
 $wgCollectionMWServeCert = null;
 
 /** Array of namespaces that can be added to a collection */
-$wgCollectionArticleNamespaces = array(
+$wgCollectionArticleNamespaces = [
 	NS_MAIN,
 	NS_TALK,
 	NS_USER,
@@ -75,7 +75,7 @@ $wgCollectionArticleNamespaces = array(
 	109,
 	110,
 	111,
-);
+];
 
 /** Namespace for "community books" */
 $wgCommunityCollectionNamespace = NS_PROJECT;
@@ -91,61 +91,61 @@ $wgCollectionLicenseURL = null;
 
 /** List of available download formats,
 		as mapping of mwlib writer to format name */
-$wgCollectionFormats = array(
+$wgCollectionFormats = [
 	'rl' => 'PDF',
-);
+];
 
 /** Additional renderer options for collections. Format is as for
  * HTMLForm::loadInputFromParameters. Note that fieldnames may only contain
  * [a-zA-Z0-9_-], and values may not contain pipes or newlines. If the
  * 'options' field is an array, keys will be interpreted as messages.
  */
-$wgCollectionRendererSettings = array(
-	'papersize' => array(
+$wgCollectionRendererSettings = [
+	'papersize' => [
 		'type' => 'select',
 		'label-message' => 'coll-setting-papersize',
 		'default' => 'a4',
-		'options' => array(
+		'options' => [
 			'coll-setting-papersize-a4' => 'a4',
 			'coll-setting-papersize-letter' => 'letter',
-		),
-	),
-	'toc' => array(
+		],
+	],
+	'toc' => [
 		'type' => 'select',
 		'label-message' => 'coll-setting-toc',
 		'default' => 'auto',
-		'options' => array(
+		'options' => [
 			'coll-setting-toc-auto' => 'auto',
 			'coll-setting-toc-yes' => 'yes',
 			'coll-setting-toc-no' => 'no',
-		)
-	),
-	'columns' => array(
+		]
+	],
+	'columns' => [
 		'type' => 'select',
 		'label-message' => 'coll-setting-columns',
 		'default' => '2',
-		'options' => array(
+		'options' => [
 			'coll-setting-columns-1' => '1',
 			'coll-setting-columns-2' => '2',
-		),
-	),
-);
+		],
+	],
+];
 
 /** Some commands require an external server
  */
-$wgCollectionCommandToServeURL = array();
+$wgCollectionCommandToServeURL = [];
 
 /** For formats which rendering depends on an external server
 */
-$wgCollectionFormatToServeURL = array();
+$wgCollectionFormatToServeURL = [];
 
-$wgCollectionContentTypeToFilename = array(
+$wgCollectionContentTypeToFilename = [
 	'application/pdf' => 'collection.pdf',
 	'application/vnd.oasis.opendocument.text' => 'collection.odt',
 	'text/plain' => 'collection.txt',
-);
+];
 
-$wgCollectionPortletFormats = array( 'rl' );
+$wgCollectionPortletFormats = [ 'rl' ];
 
 $wgCollectionPortletForLoggedInUsersOnly = false;
 
@@ -155,20 +155,20 @@ $wgCollectionSuggestCheapWeightThreshhold = 50;
 
 $wgCollectionSuggestThreshhold = 100;
 
-$wgCollectionPODPartners = array(
-	'pediapress' => array(
+$wgCollectionPODPartners = [
+	'pediapress' => [
 		'name' => 'PediaPress',
 		'url' => 'https://pediapress.com/',
 		'posturl' => 'https://pediapress.com/api/collections/',
 		'infopagetitle' => 'coll-order_info_article',
-	),
-);
+	],
+];
 
 # Optional notes that are displayed on the download screen for the rendered
 # document. Each entry is a message key.
-$wgCollectionShowRenderNotes = array(
+$wgCollectionShowRenderNotes = [
 	'coll-rendering_finished_note_not_satisfied',
-);
+];
 
 # ==============================================================================
 
@@ -189,8 +189,10 @@ $wgAutoloadClasses['CollectionRenderingTemplate'] =
 	__DIR__ . '/templates/CollectionRenderingTemplate.php';
 $wgAutoloadClasses['CollectionFinishedTemplate'] =
 	__DIR__ . '/templates/CollectionFinishedTemplate.php';
-$wgAutoloadClasses['CollectionFailedTemplate'] = __DIR__ . '/templates/CollectionFailedTemplate.php';
-$wgAutoloadClasses['CollectionSuggestTemplate'] = __DIR__ . '/templates/CollectionSuggestTemplate.php';
+$wgAutoloadClasses['CollectionFailedTemplate'] =
+	__DIR__ . '/templates/CollectionFailedTemplate.php';
+$wgAutoloadClasses['CollectionSuggestTemplate'] =
+	__DIR__ . '/templates/CollectionSuggestTemplate.php';
 
 $wgAutoloadClasses['CollectionRenderingAPI'] = __DIR__ . '/RenderingAPI.php';
 $wgAutoloadClasses['MWServeRenderingAPI'] = __DIR__ . '/RenderingAPI.php';
@@ -212,41 +214,41 @@ $wgExtensionFunctions[] = 'CollectionHooks::onSetup';
 $wgAvailableRights[] = 'collectionsaveasuserpage';
 $wgAvailableRights[] = 'collectionsaveascommunitypage';
 
-$collResourceTemplate = array(
+$collResourceTemplate = [
 	'localBasePath' => __DIR__ . '/modules',
 	'remoteExtPath' => 'Collection/modules'
-);
+];
 
-$wgResourceModules += array(
-	'ext.collection' => $collResourceTemplate + array(
+$wgResourceModules += [
+	'ext.collection' => $collResourceTemplate + [
 		'scripts' => 'collection.js',
-		'dependencies' => array(
+		'dependencies' => [
 			'ext.collection.bookcreator',
 			'jquery.ui.sortable',
 			'mediawiki.language',
-		),
-	),
-	'ext.collection.bookcreator' => $collResourceTemplate + array(
+		],
+	],
+	'ext.collection.bookcreator' => $collResourceTemplate + [
 		'scripts' => 'bookcreator.js',
 		'styles' => 'bookcreator.css',
 		'dependencies' => 'jquery.jStorage'
-	),
-	'ext.collection.checkLoadFromLocalStorage' => $collResourceTemplate + array(
+	],
+	'ext.collection.checkLoadFromLocalStorage' => $collResourceTemplate + [
 		'scripts' => 'check_load_from_localstorage.js',
 		'styles' => 'bookcreator.css',
-		'dependencies' => array(
+		'dependencies' => [
 			'ext.collection',
 			'jquery.jStorage',
-		),
-		'messages' => array(
+		],
+		'messages' => [
 			'coll-load_local_book'
-		)
-	),
-	'ext.collection.suggest' => $collResourceTemplate + array(
+		]
+	],
+	'ext.collection.suggest' => $collResourceTemplate + [
 		'scripts' => 'suggest.js',
 		'dependencies' => 'ext.collection.bookcreator'
-	),
-);
+	],
+];
 
 # register global Ajax functions:
 
@@ -254,9 +256,9 @@ function wfAjaxGetCollection() {
 	if ( isset( $_SESSION['wsCollection'] ) ) {
 		$collection = $_SESSION['wsCollection'];
 	} else {
-		$collection = array();
+		$collection = [];
 	}
-	$r = new AjaxResponse( FormatJson::encode( array( 'collection' => $collection ) ) );
+	$r = new AjaxResponse( FormatJson::encode( [ 'collection' => $collection ] ) );
 	$r->setContentType( 'application/json' );
 	return $r;
 }
@@ -280,7 +282,7 @@ function wfAjaxPostCollection( $collection = '', $redirect = '' ) {
 		$title = SpecialPage::getTitleFor( 'Book' );
 		$redirecturl = wfExpandUrl( $title->getFullURL(), PROTO_CURRENT );
 		$r->setContentType( 'application/json' );
-		$r->addText( FormatJson::encode( array( 'redirect_url' => $redirecturl ) ) );
+		$r->addText( FormatJson::encode( [ 'redirect_url' => $redirecturl ] ) );
 	}
 	return $r;
 }
@@ -341,7 +343,7 @@ function wfAjaxCollectionGetBookCreatorBoxContent(
 
 	$html = CollectionHooks::getBookCreatorBoxContent( $title, $ajaxHint, $oldid );
 
-	$result = array();
+	$result = [];
 	$result['html'] = $html;
 	$r = new AjaxResponse( FormatJson::encode( $result ) );
 	$r->setContentType( 'application/json' );
@@ -361,7 +363,7 @@ function wfAjaxCollectionGetItemList() {
 	$html = ob_get_contents();
 	ob_end_clean();
 
-	$result = array();
+	$result = [];
 	$result['html'] = $html;
 	$result['collection'] = $collection;
 	$r = new AjaxResponse( FormatJson::encode( $result ) );
@@ -404,9 +406,9 @@ function wfAjaxCollectionSetTitles( $title, $subtitle, $settings = '' ) {
 $wgAjaxExportList[] = 'wfAjaxCollectionSetTitles';
 
 function wfAjaxCollectionSetSorting( $items_string ) {
-	$parsed = array();
+	$parsed = [];
 	parse_str( $items_string, $parsed );
-	$items = array();
+	$items = [];
 	foreach ( $parsed['item'] as $s ) {
 		if ( is_numeric( $s ) ) {
 			$items[] = intval( $s );
@@ -429,7 +431,7 @@ $wgAjaxExportList[] = 'wfAjaxCollectionClear';
 function wfAjaxCollectionGetPopupData( $title ) {
 	global $wgExtensionAssetsPath;
 
-	$result = array();
+	$result = [];
 	$imagePath = "$wgExtensionAssetsPath/Collection/images";
 	$t = Title::newFromText( $title );
 	if ( $t && $t->isRedirect() ) {
@@ -466,15 +468,15 @@ $wgAjaxExportList[] = 'wfAjaxCollectionGetPopupData';
 function wfCollectionSuggestAction( $action, $article ) {
 	$result = CollectionSuggest::refresh( $action, $article );
 	$undoLink = Xml::element( 'a',
-		array(
+		[
 			'href' => SkinTemplate::makeSpecialUrl(
 				'Book',
-				array( 'bookcmd' => 'suggest', 'undo' => $action, 'arttitle' => $article )
+				[ 'bookcmd' => 'suggest', 'undo' => $action, 'arttitle' => $article ]
 			),
 			'onclick' => "collectionSuggestCall('UndoArticle'," .
-				Xml::encodeJsVar( array( $action, $article ) ) . "); return false;",
+				Xml::encodeJsVar( [ $action, $article ] ) . "); return false;",
 			'title' => wfMessage( 'coll-suggest_undo_tooltip' )->text(),
-		),
+		],
 		wfMessage( 'coll-suggest_undo' )->text()
 	);
 	// Message keys used:

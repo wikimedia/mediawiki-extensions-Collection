@@ -47,13 +47,13 @@ class CollectionSession {
 	}
 
 	public static function clearCollection() {
-		$_SESSION['wsCollection'] = array(
+		$_SESSION['wsCollection'] = [
 			'enabled' => true,
 			'title' => '',
 			'subtitle' => '',
-			'settings' => array(),
-			'items' => array(),
-		);
+			'settings' => [],
+			'items' => [],
+		];
 		CollectionSuggest::clear();
 		self::touchSession();
 	}
@@ -141,7 +141,7 @@ class CollectionSession {
 			return false;
 		}
 		$coll = $_SESSION['wsCollection'];
-		$newitems = array();
+		$newitems = [];
 		if ( isset( $coll['items'] ) ) {
 			$batch = new LinkBatch;
 			$lc = LinkCache::singleton();
@@ -172,7 +172,7 @@ class CollectionSession {
 	 * @return array
 	 */
 	public static function getCollection() {
-		return self::purge() ? $_SESSION['wsCollection'] : array();
+		return self::purge() ? $_SESSION['wsCollection'] : [];
 	}
 
 	/**

@@ -11,29 +11,29 @@
  */
 class CollectionPageTemplate extends QuickTemplate {
 	public function execute() {
-		$data = array(
+		$data = [
 			'collectionTitle' => $this->data['collection']['title'],
 			'collectionSubtitle' => $this->data['collection']['subtitle'],
-		);
-		$fields = array(
-			'collectionTitle' => array(
+		];
+		$fields = [
+			'collectionTitle' => [
 				'type' => 'text',
 				'label-message' => 'coll-title',
 				'id' => 'titleInput',
 				'size' => '',
 				'name' => 'collectionTitle',
-			),
-			'collectionSubtitle' => array(
+			],
+			'collectionSubtitle' => [
 				'type' => 'text',
 				'label-message' => 'coll-subtitle',
 				'id' => 'subtitleInput',
 				'size' => '',
 				'name' => 'collectionSubtitle',
-			),
-		);
+			],
+		];
 		foreach ( $this->data['settings'] as $fieldname => $descriptor ) {
 			if ( isset( $descriptor['options'] ) && is_array( $descriptor['options'] ) ) {
-				$options = array();
+				$options = [];
 				foreach ( $descriptor['options'] as $msg => $value ) {
 					$msg = wfMessage( $msg )->text();
 					$options[$msg] = $value;

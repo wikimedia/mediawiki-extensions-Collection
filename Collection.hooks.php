@@ -95,35 +95,35 @@ class CollectionHooks {
 			return false;
 		}
 
-		$out = array();
+		$out = [];
 
 		$booktitle = SpecialPage::getTitleFor( 'Book' );
 		if ( !CollectionSession::isEnabled() ) {
-			$out[] = array(
+			$out[] = [
 				'text' => $sk->msg( 'coll-create_a_book' )->escaped(),
 				'id' => 'coll-create_a_book',
 				'href' => $booktitle->getLocalURL(
-					array( 'bookcmd' => 'book_creator', 'referer' => $title->getPrefixedText() )
+					[ 'bookcmd' => 'book_creator', 'referer' => $title->getPrefixedText() ]
 				),
-			);
+			];
 		} else {
-			$out[] = array(
+			$out[] = [
 				'text' => $sk->msg( 'coll-book_creator_disable' )->escaped(),
 				'id' => 'coll-book_creator_disable',
 				'href' => $booktitle->getLocalURL(
-					array(
+					[
 						'bookcmd' => 'stop_book_creator',
 						'referer' => $title->getPrefixedText(),
-					)
+					]
 				),
-			);
+			];
 		}
 
-		$params = array(
+		$params = [
 			'bookcmd' => 'render_article',
 			'arttitle' => $title->getPrefixedText(),
 			'returnto' => $title->getPrefixedText(),
-		);
+		];
 
 		$oldid = $sk->getRequest()->getVal( 'oldid' );
 		if ( $oldid ) {
@@ -134,20 +134,20 @@ class CollectionHooks {
 
 		foreach ( $wgCollectionPortletFormats as $writer ) {
 			$params['writer'] = $writer;
-			$out[] = array(
+			$out[] = [
 				'text' => $sk->msg( 'coll-download_as', $wgCollectionFormats[$writer] )->escaped(),
 				'id' => 'coll-download-as-' . $writer,
 				'href' => $booktitle->getLocalURL( $params ),
-			);
+			];
 		}
 
 		// Move the 'printable' link into our section for consistency
 		if ( $action == 'view' || $action == 'purge' ) {
 			if ( !$sk->getOutput()->isPrintable() ) {
-				$out[] = array( 'text' => $sk->msg( 'printableversion' )->text(),
+				$out[] = [ 'text' => $sk->msg( 'printableversion' )->text(),
 					        'id' => 't-print',
-						'href' => $title->getLocalURL( array( 'printable' => 'yes' ) )
-					);
+						'href' => $title->getLocalURL( [ 'printable' => 'yes' ] )
+					];
 			}
 		}
 
@@ -221,64 +221,64 @@ class CollectionHooks {
 		$addRemoveState = $mode;
 
 		$html = Xml::element( 'div',
-			array( 'class' => 'collection-creatorbox' ),
+			[ 'class' => 'collection-creatorbox' ],
 			null
 		);
 
 		$html .= Xml::element( 'img',
-			array(
+			[
 				'src' => "$imagePath/Open_book.png",
 				'alt' => '',
 				'width' => '80',
 				'height' => '45',
 				'class' => 'collection-creatorbox-book',
-			),
+			],
 			'',
 			true
 		);
 
 		$html .= Xml::tags( 'div',
-			array( 'class' => 'collection-creatorbox-row' ),
+			[ 'class' => 'collection-creatorbox-row' ],
 			Xml::tags( 'div', null,
 				Linker::linkKnown(
 					Title::newFromText( wfMessage( 'coll-helppage' )->text() ),
 					Xml::element( 'img',
-						array(
+						[
 							'src' => "$imagePath/silk-help.png",
 							'alt' => '',
 							'width' => '16',
 							'height' => '16',
-						)
+						]
 					)
 					. '&#160;' . wfMessage( 'coll-help' )->escaped(),
-					array(
+					[
 						'rel' => 'nofollow',
 						'title' => wfMessage( 'coll-help_tooltip' )->text(),
-					)
+					]
 				)
 			)
 			. Xml::element( 'span',
-				array( 'class' => 'collection-creatorbox-title' ),
+				[ 'class' => 'collection-creatorbox-title' ],
 				wfMessage( 'coll-book_creator' )->text()
 			)
 			. ' ('
 			. Linker::linkKnown(
 				SpecialPage::getTitleFor( 'Book' ),
 				wfMessage( 'coll-disable' )->escaped(),
-				array(
+				[
 					'rel' => 'nofollow',
 					'title' => wfMessage( 'coll-book_creator_disable_tooltip' )->text(),
-				),
-				array( 'bookcmd' => 'stop_book_creator', 'referer' => $ptext )
+				],
+				[ 'bookcmd' => 'stop_book_creator', 'referer' => $ptext ]
 			)
 			. ')'
 		);
 
 		$html .= Xml::tags( 'div',
-			array(
+			[
 				'id' => 'coll-book_creator_box',
 				'class' => 'collection-creatorbox-row',
-			),
+			],
 			self::getBookCreatorBoxContent( $title, $addRemoveState, $oldid )
 	 	);
 
@@ -315,15 +315,15 @@ class CollectionHooks {
 
 		if ( $ajaxHint == 'suggest' || $ajaxHint == 'showbook' ) {
 			return Xml::tags( 'span',
-				array( 'style' => 'color: #777;' ),
+				[ 'style' => 'color: #777;' ],
 				Xml::element( 'img',
-					array(
+					[
 						'src' => "$imagePath/disabled.png",
 						'alt' => '',
 						'width' => '16',
 						'height' => '16',
 						'style' => 'vertical-align: text-bottom',
-					)
+					]
 				)
 				. '&#160;' . wfMessage( 'coll-not_addable' )->escaped()
 			);
@@ -334,7 +334,7 @@ class CollectionHooks {
 			$icon = 'silk-add.png';
 			$captionMsg = 'coll-add_category';
 			$tooltipMsg = 'coll-add_category_tooltip';
-			$query = array( 'bookcmd' => 'add_category', 'cattitle' => $title->getText() );
+			$query = [ 'bookcmd' => 'add_category', 'cattitle' => $title->getText() ];
 			$onclick = "collectionCall('AddCategory', ['addcategory', wgTitle]); return false;";
 		} else {
 			if ( $ajaxHint == 'addarticle'
@@ -343,7 +343,7 @@ class CollectionHooks {
 				$icon = 'silk-add.png';
 				$captionMsg = 'coll-add_this_page';
 				$tooltipMsg = 'coll-add_page_tooltip';
-				$query = array( 'bookcmd' => 'add_article', 'arttitle' => $ptext, 'oldid' => $oldid );
+				$query = [ 'bookcmd' => 'add_article', 'arttitle' => $ptext, 'oldid' => $oldid ];
 				$onclick = "collectionCall('AddArticle', ['removearticle', wgNamespaceNumber, wgTitle, " .
 					Xml::encodeJsVar( $oldid ) . "]); return false;";
 			} else {
@@ -351,7 +351,7 @@ class CollectionHooks {
 				$icon = 'silk-remove.png';
 				$captionMsg = 'coll-remove_this_page';
 				$tooltipMsg = 'coll-remove_page_tooltip';
-				$query = array( 'bookcmd' => 'remove_article', 'arttitle' => $ptext, 'oldid' => $oldid );
+				$query = [ 'bookcmd' => 'remove_article', 'arttitle' => $ptext, 'oldid' => $oldid ];
 				$onclick = "collectionCall('RemoveArticle', ['addarticle', wgNamespaceNumber, wgTitle, " .
 					Xml::encodeJsVar( $oldid ) . "]); return false;";
 			}
@@ -360,20 +360,20 @@ class CollectionHooks {
 		return Linker::linkKnown(
 			SpecialPage::getTitleFor( 'Book' ),
 			Xml::element( 'img',
-				array(
+				[
 					'src' => "$imagePath/$icon",
 					'alt' => '',
 					'width' => '16',
 					'height' => '16',
-				)
+				]
 			)
 			. '&#160;' . wfMessage( $captionMsg )->escaped(),
-			array(
+			[
 				'id' => $id,
 				'rel' => 'nofollow',
 				'title' => wfMessage( $tooltipMsg )->text(),
 				'onclick' => $onclick,
-			),
+			],
 			$query
 		);
 
@@ -389,16 +389,16 @@ class CollectionHooks {
 
 		if ( $ajaxHint == 'showbook' ) {
 			return Xml::tags( 'strong',
-				array(
+				[
 					'class' => 'collection-creatorbox-iconlink',
-				),
+				],
 				Xml::element( 'img',
-					array(
+					[
 						'src' => "$imagePath/silk-book_open.png",
 						'alt' => '',
 						'width' => '16',
 						'height' => '16',
-					)
+					]
 				)
 				. '&#160;' . wfMessage( 'coll-show_collection' )->escaped()
 				. ' (' . wfMessage( 'coll-n_pages' )->numParams( $numArticles )->escaped() . ')'
@@ -407,20 +407,20 @@ class CollectionHooks {
 			return Linker::linkKnown(
 				SpecialPage::getTitleFor( 'Book' ),
 				Xml::element( 'img',
-					array(
+					[
 						'src' => "$imagePath/silk-book_open.png",
 						'alt' => '',
 						'width' => '16',
 						'height' => '16',
-					)
+					]
 				)
 				. '&#160;' . wfMessage( 'coll-show_collection' )->escaped()
 					. ' (' . wfMessage( 'coll-n_pages' )->numParams( $numArticles )->escaped() . ')',
-				array(
+				[
 					'rel' => 'nofollow',
 					'title' => wfMessage( 'coll-show_collection_tooltip' )->text(),
 					'class' => 'collection-creatorbox-iconlink',
-				)
+				]
 			); // @todo FIXME: Hard coded parentheses.
 		}
 	}
@@ -437,17 +437,17 @@ class CollectionHooks {
 
 		if ( $ajaxHint == 'suggest' ) {
 			return Xml::tags( 'strong',
-				array(
+				[
 					'class' => 'collection-creatorbox-iconlink',
-				),
+				],
 				Xml::element( 'img',
-					array(
+					[
 						'src' => "$imagePath/silk-wand.png",
 						'alt' => '',
 						'width' => '16',
 						'height' => '16',
 						'style' => 'vertical-align: text-bottom',
-					)
+					]
 				)
 				. '&#160;' . wfMessage( 'coll-make_suggestions' )->escaped()
 			);
@@ -455,21 +455,21 @@ class CollectionHooks {
 			return Linker::linkKnown(
 				SpecialPage::getTitleFor( 'Book' ),
 				Xml::element( 'img',
-					array(
+					[
 						'src' => "$imagePath/silk-wand.png",
 						'alt' => '',
 						'width' => '16',
 						'height' => '16',
 						'style' => 'vertical-align: text-bottom',
-					)
+					]
 				)
 				. '&#160;' . wfMessage( 'coll-make_suggestions' )->escaped(),
-				array(
+				[
 					'rel' => 'nofollow',
 					'title' => wfMessage( 'coll-make_suggestions_tooltip' )->text(),
 					'class' => 'collection-creatorbox-iconlink',
-				),
-				array( 'bookcmd' => 'suggest' )
+				],
+				[ 'bookcmd' => 'suggest' ]
 			);
 		}
 	}
