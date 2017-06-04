@@ -79,13 +79,13 @@ class CollectionSuggest {
 	 */
 	public static function refresh( $mode, $param ) {
 		$template = self::getCollectionSuggestTemplate( $mode, $param );
-		return array(
+		return [
 			'suggestions_html' => $template->getProposalList(),
 			'members_html' => $template->getMemberList(),
 			'num_pages' => wfMessage( 'coll-n_pages' )
 				->numParams( CollectionSession::countArticles() )
 				->escaped(),
-		);
+		];
 	}
 
 	/**
@@ -105,10 +105,10 @@ class CollectionSuggest {
 			$template = self::getCollectionSuggestTemplate( 'add', $article );
 			break;
 		}
-		return array(
+		return [
 			'suggestions_html' => $template->getProposalList(),
 			'members_html' => $template->getMemberList(),
-		);
+		];
 	}
 
 	// remove the suggestion data from the session
@@ -136,7 +136,7 @@ class CollectionSuggest {
 			return;
 		}
 		$bans = $_SESSION['wsCollectionSuggestBan'];
-		$newbans = array();
+		$newbans = [];
 		foreach ( $bans as $ban ) {
 			if ( $ban != $article ) {
 				$newbans[] = $ban;
@@ -164,10 +164,10 @@ class CollectionSuggest {
 		global $wgCollectionMaxSuggestions;
 
 		if ( !isset( $_SESSION['wsCollectionSuggestBan'] ) || $mode == 'resetbans' ) {
-			$_SESSION['wsCollectionSuggestBan'] = array();
+			$_SESSION['wsCollectionSuggestBan'] = [];
 		}
 		if ( !isset( $_SESSION['wsCollectionSuggestProp'] ) ) {
-			$_SESSION['wsCollectionSuggestProp'] = array();
+			$_SESSION['wsCollectionSuggestProp'] = [];
 		}
 
 		switch ( $mode ) {
@@ -268,10 +268,10 @@ class CollectionProposals {
 	 * @param $props array the list of the proposals
 	 */
 	public function __construct( $coll, $ban, $props ) {
-		$this->mPropList = array();
+		$this->mPropList = [];
 		$this->mColl = $coll;
 		$this->mBanList = $ban;
-		$this->mLinkList = is_array( $props ) ? $props : array();
+		$this->mLinkList = is_array( $props ) ? $props : [];
 	}
 
 	/**
@@ -367,20 +367,20 @@ class CollectionProposals {
 					continue;
 				}
 
-				$this->mLinkList[] = array(
+				$this->mLinkList[] = [
 					'name' => $articleName,
 					'links' => $this->getWeightedLinks(
 						$numItems,
 						ContentHandler::getContentText( $article->getPage()->getContent() )
 					),
-				);
+				];
 			}
 		}
 	}
 
 	// Delete items from $mLinkList that are not in the collection any more
 	private function deleteUnusedArticles() {
-		$newList = array();
+		$newList = [];
 		foreach ( $this->mLinkList as $item ) {
 			if ( CollectionSession::findArticle( $item['name'] ) != - 1 ) {
 				$newList[] = $item;
@@ -412,7 +412,7 @@ class CollectionProposals {
 	private function getWeightedLinks( $num_articles, $wikitext ) {
 		global $wgCollectionSuggestCheapWeightThreshhold;
 
-		$allLinks = array();
+		$allLinks = [];
 		preg_match_all(
 			'/\[\[(.+?)\]\]/',
 			$wikitext,
@@ -420,7 +420,7 @@ class CollectionProposals {
 			PREG_SET_ORDER
 		);
 
-		$linkmap = array();
+		$linkmap = [];
 		foreach ( $allLinks as $link ) {
 			$link = $link[1];
 
@@ -429,7 +429,7 @@ class CollectionProposals {
 			}
 
 			// handle links with a displaytitle
-			$matches = array();
+			$matches = [];
 			if ( preg_match( '/(.+?)\|(.+)/', $link, $matches ) ) {
 				$link = $matches[1];
 				$alias = $matches[2];
@@ -451,22 +451,22 @@ class CollectionProposals {
 			if ( isset ( $linkmap[$link] ) ) {
 				$linkmap[$link][$link] = true;
 			} else {
-				$linkmap[$link] = array( $link => true );
+				$linkmap[$link] = [ $link => true ];
 			}
 			if ( $link != $alias ) {
 				if ( isset( $linkmap[$alias] ) ) {
 					$linkmap[$alias][$link] = true;
 				} else {
-					$linkmap[$alias] = array( $link => true );
+					$linkmap[$alias] = [ $link => true ];
 				}
 			}
 		}
 
-		$linkcount = array();
+		$linkcount = [];
 		if ( $num_articles < $wgCollectionSuggestCheapWeightThreshhold ) {
 			// more expensive algorithm: count words
 			foreach ( $linkmap as $alias => $linked ) {
-				$matches = array();
+				$matches = [];
 				preg_match_all(
 					'/\W' . preg_quote( $alias, '/' ) . '\W/i',
 					$wikitext,
@@ -484,7 +484,7 @@ class CollectionProposals {
 			}
 
 			if ( count( $linkcount ) == 0 ) {
-				return array();
+				return [];
 			}
 
 			// normalize:
@@ -495,7 +495,7 @@ class CollectionProposals {
 				}
 			}
 			$norm = log( $lc_max );
-			$result = array();
+			$result = [];
 			if ( $norm > 0 ) {
 				foreach ( $linkcount as $link => $count ) {
 					$result[$link] = 1 + 0.5 * log( $count ) / $norm;
@@ -523,7 +523,7 @@ class CollectionProposals {
 	 * Calculate the $mPropList from $mLinkList and $mBanList
 	 */
 	private function getPropList() {
-		$prop = array();
+		$prop = [];
 		foreach ( $this->mLinkList as $article ) {
 			foreach ( $article['links'] as $linkName => $val ) {
 				if ( !$this->checkLink( $linkName ) ) {
@@ -533,15 +533,15 @@ class CollectionProposals {
 				if ( $key !== false ) {
 					$prop[$key]['val'] += $val;
 				} else {
-					$prop[] = array(
+					$prop[] = [
 						'name' => $linkName,
 						'val' => $val,
-					);
+					];
 				}
 			}
 		}
 		usort( $prop, "wgCollectionCompareProps" );
-		$this->mPropList = array();
+		$this->mPropList = [];
 		$have_real_weights = false;
 		foreach ( $prop as $p ) {
 			if ( $p['val'] > 1 ) {
@@ -564,7 +564,7 @@ class CollectionProposals {
 	 * @return bool|int the key as integer or false
 	 */
 	private function searchEntry( $entry, $array ) {
-		for ( $i = 0; $i < count( $array ); $i++ ) {
+		for ( $i = 0, $count = count( $array ); $i < $count; $i++ ) {
 			if ( $array[$i]['name'] == $entry ) {
 				return $i;
 			}

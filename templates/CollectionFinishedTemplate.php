@@ -38,8 +38,8 @@ class CollectionFinishedTemplate extends QuickTemplate {
 			if ( $noteMessage->exists() ) {
 				$notes .= Html::rawElement(
 					'li',
-					array(),
-					Html::rawElement( 'p', array(), $noteMessage->parse() )
+					[],
+					Html::rawElement( 'p', [], $noteMessage->parse() )
 				);
 			} else {
 				wfDebugLog( 'collection', 'Note message key not found: ' . $noteKey );
@@ -51,7 +51,7 @@ class CollectionFinishedTemplate extends QuickTemplate {
 		}
 
 		if ( $notes !== '' ) {
-			echo Html::rawElement( 'ul', array(), $notes );
+			echo Html::rawElement( 'ul', [], $notes );
 		}
 
 		if ( $this->data['is_cached'] ) {
