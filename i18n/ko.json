@@ -186,5 +186,7 @@
 	"coll-attribution-anons": "익명: $1",
 	"coll-attribution-page": "<h1>설명과 그림 출처, 기여자 및 라이선스</h1>\n<h2>설명</h2>\n$1<h2>그림</h2>\n$2\n<h2>내용 라이선스</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>출처:</i> $2 <i>기여자:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>출처:</i> $2 <i>라이선스:</i> $3 <i>기여자:</i> $4 <i>원래 작가:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>출처:</i> $2 <i>라이선스:</i> $3 <i>기여자:</i> $4 <i>원래 작가:</i> $5",
+	"coll-warning-leave-feedback": "피드백 남기기",
+	"coll-warning-read-more": "더 읽어보기"
 }

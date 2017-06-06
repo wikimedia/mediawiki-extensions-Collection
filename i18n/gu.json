@@ -158,7 +158,7 @@
 	"coll-setting-toc-yes": "હા",
 	"coll-setting-toc-no": "ના",
 	"coll-setting-columns": "સ્તંભો :",
-	"coll-attribution-anons": "અજ્ઞાત : $1",
+	"coll-attribution-anons": "અજ્ઞાત: $1",
 	"coll-article-attribution": "<b>$1</b> <i>સ્રોત:</i> $2 <i>યોગદાનકર્તા:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>સ્રોત:</i> $2 <i>પરવાનો:</i> $3 <i>યોગદાનકર્તા:</i> $4 <i>અસલ કલાકાર:</i> $5"
 }

@@ -6,7 +6,8 @@
 			"Tauhid16",
 			"Wikitanvir",
 			"Aftab1995",
-			"Aftabuzzaman"
+			"Aftabuzzaman",
+			"Mohammed Galib Hasan"
 		]
 	},
 	"coll-desc": "[[Special:Book|বই তৈরি]]",
@@ -177,5 +178,7 @@
 	"coll-attribution-anons": "অজ্ঞাতনামা: $1",
 	"coll-attribution-page": "<h1>লেখা এবং চিত্রের উৎস, অবদানকারী, এবং লাইসেন্স</h1>\n<h2>লেখা</h2>\n$1<h2>চিত্র</h2>\n$2\n<h2>বিষয়বস্তুর লাইসেন্স</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>উত্স:</i> $2 <i>অবদানকারী:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>উত্স:</i> $2 <i>লাইসেন্স:</i> $3 <i>অবদানকারী:</i> $4 <i>মূল শিল্পী:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>উত্স:</i> $2 <i>লাইসেন্স:</i> $3 <i>অবদানকারী:</i> $4 <i>মূল শিল্পী:</i> $5",
+	"coll-warning-leave-feedback": "প্রতিক্রিয়া জানান",
+	"coll-warning-read-more": "আরো পড়ুন"
 }

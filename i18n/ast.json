@@ -178,5 +178,8 @@
 	"coll-attribution-anons": "Anónimos: $1",
 	"coll-attribution-page": "<h1>Fontes de testu ya imaxes, collaboradores, y llicencies</h1>\n<h2>Testu</h2>\n$1<h2>Imaxes</h2>\n$2\n<h2>Llicencia del conteníu</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Collaboradores:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Llicencia:</i> $3 <i>Collaboradores:</i> $4 <i>Artista orixinal:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Llicencia:</i> $3 <i>Collaboradores:</i> $4 <i>Artista orixinal:</i> $5",
+	"coll-warning-text": "Tenemos problemes importantes cola función qu'usamos agora pa crear PDFs. Llamentablemente tenemos de sustituilu. Esto podría afeutar al conxuntu d'estilos y carauterístiques de los Llibros. Prestaríanos convidate a una conversación sobro les funciones que se necesiten nel reemplazu propuestu. Pa comentar, visita la páxina del proyectu equí: https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality",
+	"coll-warning-leave-feedback": "Dexar comentarios",
+	"coll-warning-read-more": "Lleer más"
 }

@@ -197,5 +197,8 @@
 	"coll-attribution-anons": "Anonyme : $1",
 	"coll-attribution-page": "<h1>Sources, contributeurs et licences du texte et de l’image</h1>\n<h2>Texte</h2>\n$1<h2>Images</h2>\n$2\n<h2>Licence du contenu</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Source :</i> $2 <i>Contributeurs :</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Source :</i> $2 <i>Licence :</i> $3 <i>Contributeurs :</i> $4 <i>Artiste d’origine :</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Source :</i> $2 <i>Licence :</i> $3 <i>Contributeurs :</i> $4 <i>Artiste d’origine :</i> $5",
+	"coll-warning-text": "Nous avons des problèmes importants avec la donction utilisée actuellement pour créer des PDF. Nous devons malheureusement la remplacer. cela peut affecter le style et la fonctionnalité d’ensemble de Books. Nous désirons vous inviter à discuter à propos de la fonctionnalité nécessaire dans le remplacement proposé. Pour un commentaire, allez sur la page du projet ici : https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality",
+	"coll-warning-leave-feedback": "Laisser un commentaire",
+	"coll-warning-read-more": "Lire plus"
 }
