@@ -190,5 +190,8 @@
 	"coll-attribution-anons": "匿名用户：$1个",
 	"coll-attribution-page": "<h1>文本和图片来源、贡献与许可协议</h1>\n<h2>文本</h2>\n$1<h2>图片</h2>\n$2\n<h2>内容许可</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>来源：</i>$2 <i>贡献：</i>$3",
-	"coll-image-attribution": "<b>$1</b> <i>来源：</i>$2 <i>许可：</i>$3 <i>贡献：</i>$4 <i>原始艺术家：</i>$5"
+	"coll-image-attribution": "<b>$1</b> <i>来源：</i>$2 <i>许可：</i>$3 <i>贡献：</i>$4 <i>原始艺术家：</i>$5",
+	"coll-warning-text": "我们当前用于创建PDF的功能存在显著问题。很遗憾，我们需要替换它。这可能影响图书的样式和功能集。我们邀请您参与有关更换计划中必要功能的对话。要提供反馈，请访问项目页面：https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality",
+	"coll-warning-leave-feedback": "留下反馈",
+	"coll-warning-read-more": "阅读更多"
 }

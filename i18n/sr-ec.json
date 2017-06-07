@@ -170,5 +170,6 @@
 	"coll-setting-columns": "Колона:",
 	"coll-attribution-anons": "Анонимно: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Извор:</i> $2 <i>Доприносиоци:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Извор:</i> $2 <i>Лиценца:</i> $3 <i>Допринели:</i> $4 <i>Оригинални уметник:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Извор:</i> $2 <i>Лиценца:</i> $3 <i>Допринели:</i> $4 <i>Оригинални уметник:</i> $5",
+	"coll-warning-read-more": "Прочитајте више"
 }

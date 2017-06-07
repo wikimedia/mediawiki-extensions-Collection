@@ -185,5 +185,7 @@
 	"coll-attribution-anons": "אנונימי: $1",
 	"coll-attribution-page": "<h1>מקורות הטקסט והתמונה, התורמים והרשיונות</h1>\n<h2>טקסט</h2>\n$1<h2>תמונות</h2>\n$2\n<h2>רישיון לתוכן</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>מקור</i> $2 <i>תורמים:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>מקור:</i> $2 <i>רישיון</i> $3 <i>תורמים</i> $4 <i>האמן המקורי</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>מקור:</i> $2 <i>רישיון</i> $3 <i>תורמים</i> $4 <i>האמן המקורי</i> $5",
+	"coll-warning-leave-feedback": "שליחת משוב",
+	"coll-warning-read-more": "לקרוא עוד"
 }
