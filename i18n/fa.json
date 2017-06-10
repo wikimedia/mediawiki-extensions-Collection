@@ -91,6 +91,7 @@
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/تحویل مجموعه متون اطلاعات",
 	"coll-rendering_finished_title": "رندر به پایان رسید",
 	"coll-rendering_finished_text": "<strong>پرونده ایجاد شده‌است.</strong>\nآن را بر روی رایانهٔ خود <strong>[$1 بارگیری کنید]</strong>.",
+	"coll-rendering_finished_notes_heading": "یادداشت‌ها:",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/تحویل متن اطلاعات صفحه",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/تحویل مجموعه متون اطلاعات",
 	"coll-rendering_failed_title": "تحویل ناموفق",
@@ -188,5 +189,8 @@
 	"coll-attribution-anons": "ناشناس: $1",
 	"coll-attribution-page": "<h1>منابع متن و تصویر، مشارکت‌کنندگان و مجوزها</h1>\n<h2>متن</h2>\n$1<h2>تصاویر</h2>\n$2\n<h2>محتوای مجوز</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b><i>منبع:</i>  $2  <i>مشارکت‌کنندگان:</i>$3",
-	"coll-image-attribution": "<b>$1</b><i>منبع:</i>  $2  <i>مجوز:</i>  $3  <i>مشارکت‌کنندگان:</i>  $4  <i>هنرمند اصلی:</i>$5"
+	"coll-image-attribution": "<b>$1</b><i>منبع:</i>  $2  <i>مجوز:</i>  $3  <i>مشارکت‌کنندگان:</i>  $4  <i>هنرمند اصلی:</i>$5",
+	"coll-warning-text": "در حال تغییر روش استخراج پی‌دی‌اف هستیم برای بهود آن در بحث موجود در https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality شرکت کنید.",
+	"coll-warning-leave-feedback": "بازخوردی بگذارید",
+	"coll-warning-read-more": "بیشتر بخوانید"
 }
