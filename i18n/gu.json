@@ -143,7 +143,7 @@
 	"coll-helppage": "Help:પુસ્તકો",
 	"coll-load_collection": "પુસ્તક લાદો",
 	"coll-load_collection_tooltip": "આ પુસ્તકને તમારા પ્રસ્તુત તરીકે લાદો",
-	"coll-n_pages": "$1 {{PLURAL:$1|પાનું|પાના}}",
+	"coll-n_pages": "$1 {{PLURAL:$1|પાનું|પાનાં}}",
 	"coll-printable_version_pdf": "PDF સંસ્કરણ",
 	"coll-remove_this_page": "આ પાનું તમારા પુસ્તકમાંથી કાઢી નાખો",
 	"coll-remove_page_tooltip": "પ્રસ્તુત વિકિ પાનું તમારા પુસ્તકમાંથી કાઢી નાંખો",
