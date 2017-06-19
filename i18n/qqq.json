@@ -211,5 +211,13 @@
 	"coll-image-attribution": "An individal list item for ''coll-attribution-page''; will document an image. $1 is the image name, $2 is an URL to the image, $3 is the image license, $4 is the credit field for an image, $5 is the author (not necessarily the same as the uploader).",
 	"coll-warning-text": "Warning text about the new PDF functionality change.",
 	"coll-warning-leave-feedback": "Text of the link that points to the new PDF functionality feedback page.",
-	"coll-warning-read-more": "Text of the link that points to new PDF functionality page.\n{{Identical|Read more}}"
+	"coll-warning-read-more": "Text of the link that points to new PDF functionality page.\n{{Identical|Read more}}",
+	"coll-toc-title": "Text shown on top of PDF table of contents",
+	"coll-contributors-title": "Text shown on top of PDF contributors section",
+	"coll-rendererror-title": "Error page title for book rendering errors.",
+	"coll-rendererror-no-session": "Error shown when trying to render a book but there is no collection stored in the session.",
+	"coll-rendererror-pdf": "Error shown when the Electron request to render the book into PDF failed. Parameters:\n* $1 - error message",
+	"coll-rendererror-fetch": "Error shown when a HTTP request to RESTbase failed.\nUsed in {{msg-mw|coll-rendererror-fetch-wrapper}}.\n\nParameters:\n* $1 - URL\n* $2 - error message",
+	"coll-rendererror-fetch-wrapper": "Wrapper message for listing errors in a set of parallel HTTP requests to RESTBase. List items use {{msg-mw|coll-rendererror-fetch-wrapper}}.",
+	"coll-rendererror-no-cache": "Error message shown when the book cannot be loaded from the cache for rendering. This should not happen - callers should ensure the cache is set before trying to render."
 }

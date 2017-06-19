@@ -179,6 +179,20 @@ $wgAutoloadClasses['CollectionHooks'] = __DIR__ . '/Collection.hooks.php';
 $wgAutoloadClasses['CollectionSuggest'] = __DIR__ . '/Collection.suggest.php';
 $wgAutoloadClasses['CollectionProposals'] = __DIR__ . '/Collection.suggest.php';
 
+$wgAutoloadClasses['SpecialRenderBook'] = __DIR__ . '/SpecialRenderBook.php';
+$wgAutoloadClasses[\MediaWiki\Extensions\Collection\DataProvider::class]
+	= __DIR__ . '/includes/DataProvider.php';
+$wgAutoloadClasses[\MediaWiki\Extensions\Collection\ElectronVirtualRestService::class]
+	= __DIR__ . '/includes/ElectronVirtualRestService.php';
+$wgAutoloadClasses[\MediaWiki\Extensions\Collection\BookRenderer::class]
+	= __DIR__ . '/includes/BookRenderer.php';
+$wgAutoloadClasses[MediaWiki\Extensions\Collection\RemexCollectionMunger::class]
+	= __DIR__ . '/includes/RemexCollectionMunger.php';
+$wgAutoloadClasses[\MediaWiki\Extensions\Collection\HeadingCounter::class]
+	= __DIR__ . '/includes/HeadingCounter.php';
+$wgAutoloadClasses[\MediaWiki\Extensions\Collection\BookRenderingMediator::class]
+	= __DIR__ . '/includes/BookRenderingMediator.php';
+
 $wgAutoloadClasses['CollectionPageTemplate'] = __DIR__ . '/templates/CollectionPageTemplate.php';
 $wgAutoloadClasses['CollectionListTemplate'] = __DIR__ . '/templates/CollectionListTemplate.php';
 $wgAutoloadClasses['CollectionLoadOverwriteTemplate'] =
@@ -202,6 +216,7 @@ $wgMessagesDirs['Collection'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['CollectionAlias'] = __DIR__ . '/Collection.alias.php';
 
 $wgSpecialPages['Book'] = 'SpecialCollection';
+$wgSpecialPages['RenderBook'] = 'SpecialRenderBook';
 
 $wgHooks['SkinTemplateBuildNavUrlsNav_urlsAfterPermalink'][] = 'CollectionHooks::buildNavUrls';
 $wgHooks['SidebarBeforeOutput'][] = 'CollectionHooks::buildSidebar';
@@ -247,6 +262,9 @@ $wgResourceModules += [
 	'ext.collection.suggest' => $collResourceTemplate + [
 		'scripts' => 'ext.collection.suggest/suggest.js',
 		'dependencies' => 'ext.collection.bookcreator'
+	],
+	'ext.collection.offline' => $collResourceTemplate + [
+		'styles' => 'ext.collection.offline/offline.less',
 	],
 ];
 

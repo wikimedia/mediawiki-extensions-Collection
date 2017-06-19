@@ -11,6 +11,7 @@ $specialPageAliases = [];
 /** English (English) */
 $specialPageAliases['en'] = [
 	'Book' => [ 'Book', 'Collection' ],
+	'RenderBook' => [ 'RenderBook' ],
 ];
 
 /** Afrikaans (Afrikaans) */

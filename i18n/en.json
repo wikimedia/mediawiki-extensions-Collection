@@ -184,5 +184,13 @@
 	"coll-image-attribution": "<b>$1</b> <i>Source:</i> $2 <i>License:</i> $3 <i>Contributors:</i> $4 <i>Original artist:</i> $5",
 	"coll-warning-text": "We're having significant problems with the function we currently use to create PDFs. We unfortunately have to replace it. This might affect the styling and feature set of Books. We would like to invite you to a conversation around the functionality necessary in the proposed replacement. For feedback, please visit the project page here: https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality",
 	"coll-warning-leave-feedback": "Leave feedback",
-	"coll-warning-read-more": "Read more"
+	"coll-warning-read-more": "Read more",
+	"coll-toc-title": "Table of Contents",
+	"coll-contributors-title": "Contributors",
+	"coll-rendererror-title": "Could not generate the book",
+	"coll-rendererror-no-session": "Book definition not found in session. It might have been discarded due to inactivity.",
+	"coll-rendererror-pdf": "PDF rendering failed: $1",
+	"coll-rendererror-fetch": "Fetching $1 failed: $2",
+	"coll-rendererror-fetch-wrapper": "There were errors while trying to fetch page contents:$1",
+	"coll-rendererror-no-cache": "Book data not found in cache. This is most likely an error in the software."
 }
