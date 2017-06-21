@@ -4,5 +4,6 @@
 			"Corainn"
 		]
 	},
-	"coll-print_export": "pawsan"
+	"coll-print_export": "pawsan",
+	"coll-article-attribution": "<b>$1</b> <i>tkhulan:</i> $2 <i>minniq:</i> $3"
 }
