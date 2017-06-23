@@ -2,16 +2,17 @@
 	"@metadata": {
 		"authors": [
 			"Amara-Amaziɣ",
-			"ⵕⴰⵊⵉ"
+			"ⵕⴰⵊⵉ",
+			"YesIn"
 		]
 	},
-	"coll-remove": "ⴽⴽⵙ",
-	"coll-show": "ⵙⴽⵏ",
-	"coll-move_up": "ⴰⵍⵉ",
-	"coll-move_down": "ⵀⵡⴰ",
-	"coll-create_a_book": "ⵙⵏⵓⵍⴼⵓ ⴽⵔⴰ ⵏ ⵓⴷⵍⵉⵙ",
+	"coll-remove": "ⵙⵉⵜⵜⵢ",
+	"coll-show": "ⵙⵎⴰⵍ",
+	"coll-move_up": "ⴰⵍⵍ",
+	"coll-move_down": "ⵙⵙⵓⴳⴳⵣ",
+	"coll-create_a_book": "ⵙⵏⴼⵍⵓⵍ ⴽⵔⴰ ⵏ ⵓⴷⵍⵉⵙ",
 	"coll-book_creator": "ⴰⵎⵙⵏⵓⵍⴼⵓ ⵏ ⵓⴷⵍⵉⵙ",
-	"coll-download_as": "ⴰⴳⵎ ⵙ ⵜⴰⵍⵖⴰ ⵏ $1",
+	"coll-download_as": "ⴰⴳⵎ ⴰⵎ $1",
 	"coll-add_this_page": "ⵔⵏⵓ ⵜⴰⵙⵏⴰ ⴰ ⵉ ⵓⴷⵍⵉⵙ {{GENDER:|ⵏⵏⴽ|ⵏⵏⵎ}}",
 	"coll-add_page_tooltip": "ⵔⵏⵓ ⵜⴰⵙⵏⴰ ⵡⵉⴽⵉ ⴰⴷ ⵜⴰⵎⵉⵔⴰⵏⵜ ⵉ ⵓⴷⵍⵉⵙ ⵏⵏⴽ",
 	"coll-help": "ⵜⵉⵡⵉⵙⵉ",
