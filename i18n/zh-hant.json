@@ -18,7 +18,8 @@
 			"LNDDYL",
 			"Cwek",
 			"Zhxy 519",
-			"Macofe"
+			"Macofe",
+			"Wmr"
 		]
 	},
 	"coll-desc": "[[Special:Book|建立書籍]]",
@@ -190,5 +191,6 @@
 	"coll-attribution-anons": "匿名：$1",
 	"coll-attribution-page": "<h1>文字與圖片來源、貢獻者、授權條款</h1>\n<h2>文字</h2>\n$1<h2>圖片</h2>\n$2\n<h2>內容授權條款</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>來源：</i> $2 <i>貢獻者：</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>來源：</i> $2 <i>授權條款：</i> $3 <i>貢獻者：</i> $4 <i>原始作者：</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>來源：</i> $2 <i>授權條款：</i> $3 <i>貢獻者：</i> $4 <i>原始作者：</i> $5",
+	"coll-warning-read-more": "延伸閱讀"
 }

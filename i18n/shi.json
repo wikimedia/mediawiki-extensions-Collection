@@ -4,6 +4,22 @@
 			"Amara-Amaziɣ"
 		]
 	},
+	"coll-desc": "[[Special:Book|ⵙⵏⵓⵍⴼⵓ ⵉⴷⵍⵉⵙⵏ]]",
+	"coll-collection": "ⴰⴷⵍⵉⵙ",
+	"coll-collections": "ⵉⴷⵍⵉⵙⵏ",
+	"coll-download_title": "ⴰⴳⵎ",
+	"coll-download": "ⴰⴳⵎ",
+	"coll-contents": "ⵜⵓⵎⴰⵢⵉⵏ",
+	"coll-yes": "ⵢⴰⵀ",
+	"coll-no": "ⵓⵀⵓ",
+	"coll-rendering_page": "(ⵜⴰⵙⵏⴰ: $1)",
+	"coll-about_pp": "ⵅⴼ $1",
+	"coll-license": "ⵜⵓⵔⴰⴳⵜ",
+	"coll-bookscategory": "ⵉⴷⵍⵉⵙⵏ",
 	"coll-help": "ⵜⵉⵡⵉⵙⵉ",
-	"coll-helppage": "Help:ⵉⴷⵍⵉⵙⵏ"
+	"coll-helppage": "Help:ⵉⴷⵍⵉⵙⵏ",
+	"coll-setting-toc-yes": "ⵢⴰⵀ",
+	"coll-setting-toc-no": "ⵓⵀⵓ",
+	"coll-article-attribution": "<b>$1</b> <i>ⴰⵙⴰⴳⵎ:</i> $2 <i>ⵉⵏⴰⵎⵓⵜⵏ:</i> $3",
+	"coll-warning-read-more": "ⵖⵔ ⵓⴳⴳⴰⵔ"
 }
