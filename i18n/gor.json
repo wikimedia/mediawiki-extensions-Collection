@@ -4,7 +4,7 @@
 			"Marwan Mohamad"
 		]
 	},
-	"coll-remove": "Luluta",
+	"coll-remove": "Yinggila",
 	"coll-show": "Popobilohe",
 	"coll-move_up": "Heyiya ode yitaato",
 	"coll-move_down": "Heyiya ode tibawa",
@@ -19,7 +19,7 @@
 	"coll-add_page_tooltip": "Duhengi halaman wiki botiye ode delomo bukumu",
 	"coll-help": "Wubodu",
 	"coll-help_tooltip": "Popobilohe wubodu mohutu buku",
-	"coll-helppage": "Help:Buku",
+	"coll-helppage": "Wubodu:Buku",
 	"coll-n_pages": "$1 {{PLURAL:$1|halaman}}",
 	"coll-remove_this_page": "Yinggila halaman botiye monto bukumu",
 	"coll-show_collection": "Bilohi buku",
