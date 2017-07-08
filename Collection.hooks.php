@@ -145,9 +145,9 @@ class CollectionHooks {
 		if ( $action == 'view' || $action == 'purge' ) {
 			if ( !$sk->getOutput()->isPrintable() ) {
 				$out[] = [ 'text' => $sk->msg( 'printableversion' )->text(),
-					        'id' => 't-print',
-						'href' => $title->getLocalURL( [ 'printable' => 'yes' ] )
-					];
+					'id' => 't-print',
+					'href' => $title->getLocalURL( [ 'printable' => 'yes' ] )
+				];
 			}
 		}
 
@@ -280,7 +280,7 @@ class CollectionHooks {
 				'class' => 'collection-creatorbox-row',
 			],
 			self::getBookCreatorBoxContent( $title, $addRemoveState, $oldid )
-	 	);
+		);
 
 		$html .= Xml::closeElement( 'div' );
 		return $html;
@@ -376,7 +376,6 @@ class CollectionHooks {
 			],
 			$query
 		);
-
 	}
 
 	/**

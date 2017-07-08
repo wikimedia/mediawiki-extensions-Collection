@@ -196,7 +196,6 @@ $wgAutoloadClasses['CollectionSuggestTemplate'] =
 
 $wgAutoloadClasses['CollectionRenderingAPI'] = __DIR__ . '/RenderingAPI.php';
 $wgAutoloadClasses['MWServeRenderingAPI'] = __DIR__ . '/RenderingAPI.php';
-$wgAutoloadClasses['NewRenderingAPI'] = __DIR__ . '/RenderingAPI.php';
 $wgAutoloadClasses['CollectionAPIResult'] = __DIR__ . '/RenderingAPI.php';
 
 $wgMessagesDirs['Collection'] = __DIR__ . '/i18n';

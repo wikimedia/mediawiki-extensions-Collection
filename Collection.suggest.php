@@ -114,7 +114,7 @@ class CollectionSuggest {
 	// remove the suggestion data from the session
 	public static function clear() {
 		if ( isset( $_SESSION['wsCollectionSuggestBan'] ) ) {
-		 	unset( $_SESSION['wsCollectionSuggestBan'] );
+			unset( $_SESSION['wsCollectionSuggestBan'] );
 		}
 		if ( isset( $_SESSION['wsCollectionSuggestProp'] ) ) {
 			unset( $_SESSION['wsCollectionSuggestProp'] );

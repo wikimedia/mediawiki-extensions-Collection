@@ -11,7 +11,6 @@
  */
 class CollectionFailedTemplate extends QuickTemplate {
 	public function execute() {
-
 		echo wfMessage( 'coll-rendering_failed_text', $this->data['status'] )->parseAsBlock();
 
 		$t = Title::newFromText( $this->data['return_to'] );

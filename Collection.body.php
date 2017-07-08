@@ -194,8 +194,9 @@ class SpecialCollection extends SpecialPage {
 					return;
 				}
 				if ( !CollectionSession::countArticles()
-					 || $request->getVal( 'overwrite' )
-					 || $request->getVal( 'append' ) ) {
+					|| $request->getVal( 'overwrite' )
+					|| $request->getVal( 'append' )
+				) {
 					$collection = $this->loadCollection( $title, $request->getVal( 'append' ) );
 					if ( $collection ) {
 						CollectionSession::startSession();
@@ -597,7 +598,6 @@ class SpecialCollection extends SpecialPage {
 	 * @return bool
 	 */
 	public static function addArticle( $title, $oldid = 0 ) {
-
 		$latest = $title->getLatestRevID();
 
 		$currentVersion = 0;

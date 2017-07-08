@@ -313,10 +313,6 @@ class MWServeRenderingAPI extends CollectionRenderingAPI {
 	}
 }
 
-/*
-class NewRenderingAPI extends CollectionRenderingAPI {}
-*/
-
 /**
  * A wrapper for data returned by the API
  */
