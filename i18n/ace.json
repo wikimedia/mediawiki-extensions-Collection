@@ -10,8 +10,12 @@
 	"coll-move_down": "Peutren",
 	"coll-print_export": "Rakam/èkspor",
 	"coll-create_a_book": "Peugöt kitab",
+	"coll-book_creator": "Ureueng peugöt buku",
 	"coll-download_as": "Andam seubagoë $1",
+	"coll-helppage": "Help:Buku",
+	"coll-n_pages": "$1 {{PLURAL:$1|mieng}}",
 	"coll-remove_this_page": "Sampôh laman nyoë nibak kitab droëneuh",
+	"coll-show_collection": "Peudeuh buku",
 	"coll-attribution-anons": "Ureuëng ngui hana meusoë: $1",
 	"coll-image-attribution": "<b>$1</b> <i>Nè:</i> $2 <i>Lisènsi:</i> $3 <i>Ureuëng Pasoë:</i> $4 <i>Ureuëng Peugöt:</i> $5"
 }
