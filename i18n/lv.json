@@ -59,7 +59,7 @@
 	"coll-suggest_your_book": "Tava grāmata",
 	"coll-suggest_undo_tooltip": "Atcelt šo darbību",
 	"coll-suggest_undo": "atcelt",
-	"coll-format-rl": "e-grāmata (PDF)",
+	"coll-format-rl": "e-grāmata (PDF, mwlib atveidotājs)",
 	"coll-format-epub": "e-grāmata (EPUB)",
 	"coll-format-zim": "Kiwix (OpenZIM)",
 	"coll-format-docbook": "DocBook",
