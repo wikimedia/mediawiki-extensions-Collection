@@ -16,7 +16,8 @@
 			"He7d3r",
 			"Fasouzafreitas",
 			"TheEduGobi",
-			"Macofe"
+			"Macofe",
+			"Felipe L. Ewald"
 		]
 	},
 	"coll-desc": "[[Special:Book|Criar livros]]",
@@ -92,11 +93,14 @@
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informativo sobre renderização de coleções",
 	"coll-rendering_finished_title": "Renderização concluída",
 	"coll-rendering_finished_text": "<strong>O arquivo do documento foi gerado.</strong>\n<strong>[$1 Baixe o arquivo]</strong> para o seu computador.",
+	"coll-rendering_finished_notes_heading": "Notas:",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informativo sobre renderização de páginas",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informativo sobre renderização de coleções",
 	"coll-rendering_failed_title": "A renderização falhou",
 	"coll-rendering_failed_text": "<strong>Erro durante a geração do documento.</strong>\n\n<p><span id=\"renderingStatus\">$1</span></p>",
 	"coll-rendering_failed_status": "<strong>Estado:</strong> $1",
+	"coll-failed_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informativo sobre renderização de páginas",
+	"coll-failed_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informativo sobre renderização de coleções",
 	"coll-notfound_title": "Livro não encontrado",
 	"coll-notfound_text": "Não foi possível encontrar a página do livro.",
 	"coll-download_notfound_title": "Arquivo não encontrado",
@@ -175,13 +179,18 @@
 	"coll-make_suggestions_tooltip": "Mostrar sugestões baseadas nas páginas do seu livro",
 	"coll-suggest_empty": "vazio",
 	"coll-setting-papersize": "Tamanho do papel:",
+	"coll-setting-papersize-a4": "A4",
 	"coll-setting-papersize-letter": "Carta",
 	"coll-setting-toc": "Incluir unha tabela de conteúdo",
 	"coll-setting-toc-auto": "Automático",
 	"coll-setting-toc-yes": "Sim",
 	"coll-setting-toc-no": "Não",
 	"coll-setting-columns": "Colunas:",
+	"coll-setting-columns-1": "1",
+	"coll-setting-columns-2": "2",
 	"coll-attribution-anons": "Anônimo: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Contribuidores:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Licença:</i> $3 <i>Contribuidores:</i> $4 <i>Artista original:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Licença:</i> $3 <i>Contribuidores:</i> $4 <i>Artista original:</i> $5",
+	"coll-warning-leave-feedback": "Deixar um comentário",
+	"coll-warning-read-more": "Leia mais"
 }

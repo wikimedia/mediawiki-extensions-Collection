@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dinkawiki"
+			"Dinkawiki",
+			"Amire80"
 		]
 	},
 	"coll-remove": "Nyɛɛi",
 	"coll-show": "Anyooth",
 	"coll-move_up": "Laarnhial",
 	"coll-move_down": "Laarpiny",
-	"coll-print_export": "guurë/kɛ̈nybɛ̈ɛ̈ië",
+	"coll-print_export": "Guurë/kɛ̈nybɛ̈ɛ̈ië",
 	"coll-create_a_book": "Cak athör",
 	"coll-book_creator": "Ducak athör",
 	"coll-download_as": "Jɔɔlpiny keye $1",
