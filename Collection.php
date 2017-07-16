@@ -199,7 +199,6 @@ $wgAutoloadClasses['MWServeRenderingAPI'] = __DIR__ . '/RenderingAPI.php';
 $wgAutoloadClasses['CollectionAPIResult'] = __DIR__ . '/RenderingAPI.php';
 
 $wgMessagesDirs['Collection'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['Collection'] = __DIR__ . '/Collection.i18n.php';
 $wgExtensionMessagesFiles['CollectionAlias'] = __DIR__ . '/Collection.alias.php';
 
 $wgSpecialPages['Book'] = 'SpecialCollection';
