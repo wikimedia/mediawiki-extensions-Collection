@@ -1,11 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Corainn"
+			"Corainn",
+			"Hitaypayan"
 		]
 	},
 	"coll-remove": "laxan",
 	"coll-show": "Pkaykita’",
-	"coll-print_export": "pawsan",
+	"coll-print_export": "Aniy insat/Pawsa’",
+	"coll-create_a_book": "Ps’rux biru’",
+	"coll-download_as": "Galun ru syun sa$1",
 	"coll-article-attribution": "<b>$1</b> <i>tkhulan:</i> $2 <i>minniq:</i> $3"
 }
