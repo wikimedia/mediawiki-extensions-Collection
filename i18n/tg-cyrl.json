@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ibrahim"
+			"Ibrahim",
+			"ToJack"
 		]
 	},
 	"coll-desc": "[[Special:Collection|Гирдоварии саҳифаҳо]], тавлиди PDFҳо",
@@ -83,5 +84,6 @@
 	"coll-show_collection": "Намоиши гирдоварӣ",
 	"coll-show_collection_tooltip": "Барои вироиш/боргирӣ/фармоиши китоб нохун занед",
 	"coll-make_suggestions_tooltip": "Намоиши пешниҳодот бар асоси саҳифаҳои дар китоби худ буда",
+	"coll-suggest_empty": "холӣ",
 	"coll-attribution-anons": "Гумном: $1"
 }
