@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saraiki"
+		]
+	},
+	"coll-remove": "مٹاؤ",
+	"coll-show": "ݙیکھاؤ",
+	"coll-move_up": "اُتے ونڄو",
+	"coll-move_down": "ہیٹھاں گھن آؤ",
+	"coll-print_export": "چھاپو/ اڳوں تے بھیجو",
+	"coll-create_a_book": "کتاب بݨاؤ",
+	"coll-download_as": "$1 ڈاؤنلوڈ کرو",
+	"coll-help": "مدد"
+}
