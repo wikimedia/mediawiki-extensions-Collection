@@ -6,10 +6,10 @@
 		<exclude name="MediaWiki.Commenting.FunctionComment"/>
 	</rule>
 	<rule ref="Generic.Files.LineLength">
-		<exclude-pattern>*/templates/*.php</exclude-pattern>
+		<exclude-pattern>*/templates/*\.php</exclude-pattern>
 	</rule>
 	<rule ref="Squiz.WhiteSpace.ScopeClosingBrace">
-		<exclude-pattern>*/templates/*.php</exclude-pattern>
+		<exclude-pattern>*/templates/*\.php</exclude-pattern>
 	</rule>
 	<rule ref="MediaWiki.NamingConventions.PrefixedGlobalFunctions">
 		<properties>
@@ -19,6 +19,4 @@
 	<file>.</file>
 	<arg name="extensions" value="php,php5,inc"/>
 	<arg name="encoding" value="UTF-8"/>
-	<exclude-pattern>vendor</exclude-pattern>
-	<exclude-pattern>node_modules</exclude-pattern>
 </ruleset>
