@@ -7,6 +7,8 @@
 	},
 	"coll-remove": "laxan",
 	"coll-show": "Pkaykita’",
+	"coll-move_up": "Maykura’ yatux smhzi’",
+	"coll-move_down": "Maykura’ hugal smhzi’",
 	"coll-print_export": "Aniy insat/Pawsa’",
 	"coll-create_a_book": "Ps’rux biru’",
 	"coll-download_as": "Galun ru syun sa$1",

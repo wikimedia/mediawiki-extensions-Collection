@@ -4,8 +4,12 @@
 			"DonCamillo"
 		]
 	},
+	"coll-remove": "Cire",
 	"coll-show": "Nuna",
 	"coll-cancel": "Soke",
 	"coll-suggest_show": "nuna",
-	"coll-create_a_book": "Ƙirƙira littafin"
+	"coll-create_a_book": "Ƙirƙira littafin",
+	"coll-help": "Taimako",
+	"coll-show_collection": "Nuna littafin",
+	"coll-make_suggestions": "Shawara shafuka"
 }
