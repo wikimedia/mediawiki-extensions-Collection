@@ -1,7 +1,5 @@
 {
-	"name": "wikimedia-collection",
-	"version": "0.0.0",
-	"description": "Mediawiki Collection extension",
+	"private": true,
 	"scripts": {
 		"test": "grunt test"
 	},
