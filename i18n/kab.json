@@ -1,13 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mmistmurt"
+			"Mmistmurt",
+			"Belkacem77"
 		]
 	},
 	"coll-collections": "Idlisen",
 	"coll-download_title": "Zdem",
 	"coll-download": "Zdem",
+	"coll-remove": "Kkes",
 	"coll-show": "Ssken",
+	"coll-move_up": "Ali",
+	"coll-move_down": "Ader",
 	"coll-title": "Azwel :",
 	"coll-subtitle": "Adu-azwel :",
 	"coll-contents": "Agbur",
@@ -16,6 +20,10 @@
 	"coll-yes": "Ih",
 	"coll-no": "Ala",
 	"coll-cancel": "Semmewet",
+	"coll-print_export": "Siggez/sifeḍ",
+	"coll-create_a_book": "Rnu adlis",
+	"coll-download_as": "Sider am $1",
 	"coll-bookscategory": "Idlisen",
-	"coll-help": "Tallat"
+	"coll-help": "Tallat",
+	"coll-remove_this_page": "Kkes asebter-agi seg udlis-ik"
 }
