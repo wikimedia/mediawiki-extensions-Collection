@@ -188,5 +188,7 @@
 	"coll-attribution-anons": "Anonyme: $1",
 	"coll-attribution-page": "<h1>Tekst- og bildekilder, bidragsytere og lisenser</h1>\n<h2>Tekst</h2>\n$1<h2>Bilder</h2>\n$2\n<h2>Innholdslisens</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Kilde:</i> $2 <i>Bidragsytere:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Kilde:</i> $2 <i>Lisens:</i> $3 <i>Bidragsytere:</i> $4 <i>Kunstner:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Kilde:</i> $2 <i>Lisens:</i> $3 <i>Bidragsytere:</i> $4 <i>Opphavsperson:</i> $5",
+	"coll-warning-leave-feedback": "Gi tilbakemelding",
+	"coll-warning-read-more": "Les mer"
 }
