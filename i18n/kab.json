@@ -25,5 +25,6 @@
 	"coll-download_as": "Sider am $1",
 	"coll-bookscategory": "Idlisen",
 	"coll-help": "Tallat",
-	"coll-remove_this_page": "Kkes asebter-agi seg udlis-ik"
+	"coll-remove_this_page": "Kkes asebter-agi seg udlis-ik",
+	"coll-image-attribution": "<b>$1</b> <i>Aɣbalu:</i> $2 <i>Turagt:</i> $3 <i>Imttekkiyen:</i> $4 <i>Anaẓuṛ anesli:</i> $5"
 }
