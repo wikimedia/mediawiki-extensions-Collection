@@ -3,7 +3,8 @@
 		"authors": [
 			"Corainn",
 			"Hitaypayan",
-			"Translatealcd"
+			"Translatealcd",
+			"Akamycoco"
 		]
 	},
 	"coll-remove": "laxan",
@@ -15,6 +16,7 @@
 	"coll-book_creator": "Ps’rux sa biru’ Cngs’",
 	"coll-download_as": "Galun ru syun sa$1",
 	"coll-add_this_page": "Tawnganiy sa biru’ su’ quw zngayan qaniy",
+	"coll-help": "Minblaq kmal",
 	"coll-help_tooltip": "Wayal naha’ biqan sa musa’ sinhyun",
 	"coll-helppage": "Help:Biru’",
 	"coll-n_pages": "$1 {{PLURAL:$1|zngayan}}",
