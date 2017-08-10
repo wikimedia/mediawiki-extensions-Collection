@@ -165,30 +165,30 @@
 
 	function update_buttons() {
 		if ( $( '#collectionList .article' ).length === 0 ) {
-			$( '#saveButton, #downloadButton, input.order' ).attr( 'disabled', 'disabled' );
+			$( '#saveButton, #downloadButton, input.order' ).prop( 'disabled', true );
 			return;
 		} else {
-			$( '#downloadButton, input.order' ).removeAttr( 'disabled' );
+			$( '#downloadButton, input.order' ).prop( 'disabled', false );
 		}
 		if ( !$( '#saveButton' ).length ) {
 			return;
 		}
 		if ( !$( '#communityCollTitle' ).length || $( '#personalCollType:checked' ).val() ) {
-			$( '#personalCollTitle' ).removeAttr( 'disabled' );
-			$( '#communityCollTitle' ).attr( 'disabled', 'disabled' );
+			$( '#personalCollTitle' ).prop( 'disabled', false );
+			$( '#communityCollTitle' ).prop( 'disabled', true );
 			if ( !$.trim( $( '#personalCollTitle' ).val() ) ) {
-				$( '#saveButton' ).attr( 'disabled', 'disabled' );
+				$( '#saveButton' ).prop( 'disabled', true );
 				return;
 			}
 		} else if ( !$( '#personalCollTitle' ).length || $( '#communityCollType:checked' ).val() ) {
-			$( '#communityCollTitle' ).removeAttr( 'disabled' );
-			$( '#personalCollTitle' ).attr( 'disabled', 'disabled' );
+			$( '#communityCollTitle' ).prop( 'disabled', false );
+			$( '#personalCollTitle' ).prop( 'disabled', true );
 			if ( !$.trim( $( '#communityCollTitle' ).val() ) ) {
-				$( '#saveButton' ).attr( 'disabled', 'disabled' );
+				$( '#saveButton' ).prop( 'disabled', true );
 				return;
 			}
 		}
-		$( '#saveButton' ).removeAttr( 'disabled' );
+		$( '#saveButton' ).prop( 'disabled', false );
 	}
 
 	function make_sortable() {
