@@ -448,7 +448,7 @@ class CollectionProposals {
 			}
 			$link = $resolved->getText();
 
-			if ( isset ( $linkmap[$link] ) ) {
+			if ( isset( $linkmap[$link] ) ) {
 				$linkmap[$link][$link] = true;
 			} else {
 				$linkmap[$link] = [ $link => true ];
