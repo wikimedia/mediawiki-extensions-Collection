@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sahran"
+			"Sahran",
+			"Uzdil"
 		]
 	},
 	"coll-collection": "كىتاب",
@@ -60,7 +61,19 @@
 	"coll-format-okawix_zeno": "Okawix",
 	"right-collectionsaveasuserpage": "كىتابلارنى ئىشلەتكۈچى بېتى سۈپىتىدە ساقلا",
 	"right-collectionsaveascommunitypage": "كىتابلارنى مەھەللە بېتى سۈپىتىدە ساقلا",
+	"coll-print_export": "پىرىنتلاش/چىقىرىش",
+	"coll-create_a_book": "كۈتۈپخانا قۇرۇش",
+	"coll-book_creator": "كىتاب قۇرغۇچ",
+	"coll-download_as": "$1 دىن چۈشۈرۈش",
+	"coll-disable": "چەكلەنگەن",
+	"coll-book_creator_disable": "كىتاب قۇرغۇچنى توختىتىش",
+	"coll-add_this_page": "بۇ بەتنى كىتابىڭىزغا قوشۇۋېلىڭ",
 	"coll-bookscategory": "كىتابلار",
 	"coll-help": "ياردەم",
-	"coll-suggest_empty": "بوش"
+	"coll-helppage": "ياردەم:كىتاب",
+	"coll-remove_this_page": "بۇ بەتنى كۆزەت تىزىملىكىمدىن چىقىرىۋەت",
+	"coll-show_collection": "كىتابنى كۆرسىتىش",
+	"coll-make_suggestions": "تەۋسىيە بېتى",
+	"coll-suggest_empty": "بوش",
+	"coll-attribution-anons": "ئىمزاسىز ئەزا: $1"
 }
