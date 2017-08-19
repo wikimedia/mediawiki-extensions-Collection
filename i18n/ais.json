@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Benel",
+			"Bunukwiki"
+		]
+	},
+	"coll-remove": "milimad",
+	"coll-show": "paazi",
+	"coll-move_up": "maypabaw milimad",
+	"coll-move_down": "maysasa milimad",
+	"coll-print_export": "insace/patahkal",
+	"coll-create_a_book": "patizeng ku cudad",
+	"coll-download_as": "patasasa’ tu $1"
+}
