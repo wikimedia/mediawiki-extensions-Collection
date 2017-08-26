@@ -5,7 +5,8 @@
 			"Ex13",
 			"Roberta F.",
 			"SpeedyGonsales",
-			"Macofe"
+			"Macofe",
+			"Bugoslav"
 		]
 	},
 	"coll-desc": "[[Special:Book|Stvori zbirku]]",
@@ -71,7 +72,7 @@
 	"coll-limit_exceeded_title": "Knjiga je prevelika",
 	"coll-limit_exceeded_text": "Vaša zbirka je prevelika.\nNove stranice ne mogu biti dodane.",
 	"coll-rendering_title": "Izvođenje",
-	"coll-rendering_text": "<p><strong>Molimo pričekajte dok se dokument radi.</strong></p>\n\n<p><strong>Razvoj:</strong> <span id=\"renderingProgress\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p>Ova stranice bi se trebala automatski osvježiti svakih par sekundi.\nAko ovo ne radi, molimo pritisnite tipku za osvježavanje u svom pregledniku.</p>",
+	"coll-rendering_text": "<p><strong>Molimo pričekajte dok se dokument izrađuje.</strong></p>\n\n<p><strong>Razvoj:</strong> <span id=\"renderingProgress\">$1</span> % <span id=\"renderingStatus\">$2</span></p>\n\n<p>Ova stranice trebala bi se automatski osvježiti svakih par sekundi.\nAko ovo ne radi, molimo pritisnite tipku za osvježavanje u svom pregledniku.</p>",
 	"coll-rendering_status": "<strong>Stanje:</strong> $1",
 	"coll-rendering_article": "(wiki stranica: $1)",
 	"coll-rendering_page": "(stranica: $1)",
