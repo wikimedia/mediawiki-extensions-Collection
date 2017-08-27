@@ -18,7 +18,7 @@ abstract class CollectionRenderingAPI {
 	}
 
 	/**
-	 * @param string|bool $writer: Writer or false if none specified/needed
+	 * @param string|bool $writer Writer or false if none specified/needed
 	 */
 	public function __construct( $writer ) {
 		$this->writer = $writer;
@@ -59,7 +59,7 @@ abstract class CollectionRenderingAPI {
 	/**
 	 * Requests a queued collection to be immediately rendered
 	 *
-	 * @param $collectionId
+	 * @param int $collectionId
 	 * @return CollectionAPIResult
 	 */
 	public function forceRender( $collectionId ) {
@@ -83,8 +83,8 @@ abstract class CollectionRenderingAPI {
 	 * Requests the service to create a collection package and send it to an external server
 	 * e.g. for printing
 	 *
-	 * @param $collection
-	 * @param $url
+	 * @param array $collection
+	 * @param string $url
 	 *
 	 * @return CollectionAPIResult
 	 */
@@ -102,7 +102,7 @@ abstract class CollectionRenderingAPI {
 	/**
 	 * Returns information about a collection's rendering status
 	 *
-	 * @param $collectionId
+	 * @param int $collectionId
 	 * @return CollectionAPIResult
 	 */
 	public function getRenderStatus( $collectionId ) {
@@ -117,7 +117,7 @@ abstract class CollectionRenderingAPI {
 	/**
 	 * Requests a download of rendered collection
 	 *
-	 * @param $collectionId
+	 * @param int $collectionId
 	 * @return CollectionAPIResult
 	 */
 	public function download( $collectionId ) {
@@ -321,7 +321,7 @@ class CollectionAPIResult {
 	public $response = [];
 
 	/**
-	 * @param string|null $data: Data returned by HTTP request
+	 * @param string|null $data Data returned by HTTP request
 	 */
 	public function __construct( $data ) {
 		if ( $data ) {
@@ -363,7 +363,7 @@ class CollectionAPIResult {
 	}
 
 	/**
-	 * @return string: Internal (not user-facing) error description
+	 * @return string Internal (not user-facing) error description
 	 */
 	protected function getError() {
 		if ( isset( $this->response['error'] ) ) {

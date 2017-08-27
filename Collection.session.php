@@ -108,7 +108,7 @@ class CollectionSession {
 	}
 
 	/**
-	 * @param $title
+	 * @param string $title
 	 * @param int $oldid
 	 * @return int
 	 */
@@ -176,7 +176,7 @@ class CollectionSession {
 	}
 
 	/**
-	 * @param $collection
+	 * @param array $collection
 	 */
 	public static function setCollection( $collection ) {
 		$_SESSION['wsCollection'] = $collection;

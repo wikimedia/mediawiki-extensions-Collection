@@ -332,8 +332,8 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $referer
-	 * @param $par
+	 * @param string $referer
+	 * @param string $par
 	 * @return mixed
 	 */
 	public function renderBookCreatorPage( $referer, $par ) {
@@ -395,7 +395,7 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $referer
+	 * @param string $referer
 	 */
 	public function renderStopBookCreatorPage( $referer ) {
 		$out = $this->getOutput();
@@ -744,8 +744,8 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $index
-	 * @param $delta
+	 * @param int $index
+	 * @param int $delta
 	 * @return bool
 	 */
 	public static function moveItem( $index, $delta ) {
@@ -778,9 +778,9 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $collection
-	 * @param $line
-	 * @param $append
+	 * @param array &$collection
+	 * @param string $line
+	 * @param bool $append
 	 * @return array|null
 	 */
 	public function parseCollectionLine( &$collection, $line, $append ) {
@@ -990,7 +990,7 @@ class SpecialCollection extends SpecialPage {
 	 * https://www.mediawiki.org/wiki/Offline_content_generator/metabook.json
 	 * https://mwlib.readthedocs.org/en/latest/internals.html#article
 	 * @param Title $referrer Used only to provide a returnto parameter.
-	 * @param $writer A writer registered in the appropriate configuration.
+	 * @param string $writer A writer registered in the appropriate configuration.
 	 */
 	public function renderCollection( $collection, Title $referrer, $writer ) {
 		if ( !$writer ) {
@@ -1198,8 +1198,8 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $res
-	 * @param $content
+	 * @param array $res
+	 * @param string $content
 	 * @return int
 	 */
 	public function writeToTempFile( $res, $content ) {
@@ -1211,7 +1211,6 @@ class SpecialCollection extends SpecialPage {
 	 * assemble and feed to renderCollection() a single-item $collection.
 	 * @param Title $title Full page name aka prefixed title.
 	 * @param int $oldid
-	 * @param $writer A writer registered in the appropriate configuration.
 	 * @return array|null
 	 */
 	public function makeCollection( $title, $oldid ) {
@@ -1238,8 +1237,8 @@ class SpecialCollection extends SpecialPage {
 	/**
 	 * Apply query string parameters to the given collection.
 	 * Use defaults specified in $wgCollectionRendererSettings.
-	 * @param $collection
-	 * @param $request
+	 * @param array &$collection
+	 * @param Request &$request
 	 */
 	public function applySettings( &$collection, &$request ) {
 		global $wgCollectionRendererSettings;
@@ -1265,8 +1264,8 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $collection
-	 * @param $partner
+	 * @param array $collection
+	 * @param string $partner
 	 */
 	public function postZIP( $collection, $partner ) {
 		$out = $this->getOutput();
@@ -1286,10 +1285,10 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $colltype
-	 * @param $title
-	 * @param $pcollname
-	 * @param $ccollname
+	 * @param string $colltype
+	 * @param string $title
+	 * @param string $pcollname
+	 * @param string $ccollname
 	 */
 	private function renderSaveOverwritePage( $colltype, $title, $pcollname, $ccollname ) {
 		$this->setHeaders();
@@ -1304,7 +1303,7 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param $title
+	 * @param string $title
 	 */
 	private function renderLoadOverwritePage( $title ) {
 		$this->setHeaders();
