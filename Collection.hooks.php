@@ -34,7 +34,7 @@ class CollectionHooks {
 	 * Callback for hook SkinBuildSidebar
 	 *
 	 * @param Skin $skin
-	 * @param $bar
+	 * @param array &$bar
 	 *
 	 * @return bool
 	 */
@@ -52,7 +52,7 @@ class CollectionHooks {
 
 	/**
 	 * @param Skin $skin
-	 * @param $navUrls
+	 * @param array &$navUrls
 	 * @return bool
 	 */
 	public static function buildNavUrls( $skin, &$navUrls ) {
@@ -156,7 +156,7 @@ class CollectionHooks {
 
 	/**
 	 * Callback for hook SiteNoticeAfter
-	 * @param $siteNotice
+	 * @param string &$siteNotice
 	 * @param Skin $skin
 	 * @return bool
 	 */
@@ -287,8 +287,8 @@ class CollectionHooks {
 	}
 
 	/**
-	 * @param $title
-	 * @param $ajaxHint Defaults to null
+	 * @param string $title
+	 * @param string $ajaxHint Defaults to null
 	 * @param null|int $oldid
 	 * @return string
 	 */
@@ -303,10 +303,10 @@ class CollectionHooks {
 	}
 
 	/**
-	 * @param $imagePath
-	 * @param $ajaxHint
+	 * @param string $imagePath
+	 * @param string $ajaxHint
 	 * @param Title $title
-	 * @param $oldid
+	 * @param int $oldid
 	 * @return string
 	 */
 	public static function getBookCreatorBoxAddRemoveLink( $imagePath, $ajaxHint, $title, $oldid ) {
@@ -379,8 +379,8 @@ class CollectionHooks {
 	}
 
 	/**
-	 * @param $imagePath
-	 * @param $ajaxHint
+	 * @param string $imagePath
+	 * @param string $ajaxHint
 	 * @return string
 	 */
 	public static function getBookCreatorBoxShowBookLink( $imagePath, $ajaxHint ) {
@@ -425,8 +425,8 @@ class CollectionHooks {
 	}
 
 	/**
-	 * @param $imagePath
-	 * @param $ajaxHint
+	 * @param string $imagePath
+	 * @param string $ajaxHint
 	 * @return string
 	 */
 	public static function getBookCreatorBoxSuggestLink( $imagePath, $ajaxHint ) {

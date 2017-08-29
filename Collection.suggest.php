@@ -87,8 +87,8 @@ class CollectionSuggest {
 	}
 
 	/**
-	 * @param $lastAction
-	 * @param $article
+	 * @param string $lastAction
+	 * @param string|string[] $article
 	 * @return array
 	 */
 	public static function undo( $lastAction, $article ) {
@@ -126,7 +126,7 @@ class CollectionSuggest {
 	 */
 
 	/**
-	 * @param $article
+	 * @param string $article
 	 * @return mixed
 	 */
 	private static function unban( $article ) {
@@ -285,7 +285,7 @@ class CollectionProposals {
 	}
 
 	/**
-	 * @param $collection
+	 * @param array $collection
 	 */
 	public function setCollection( $collection ) {
 		$this->mColl = $collection;
@@ -573,7 +573,7 @@ class CollectionProposals {
 	 * Check if an article is banned or belongs to the book/collection
 	 *
 	 * @param string $link an articlename
-	 * @return boolean true: if the article can be added to the proposals
+	 * @return bool true: if the article can be added to the proposals
 	 *                        false: if the article can't be added to the proposals
 	 */
 	private function checkLink( $link ) {
@@ -602,11 +602,15 @@ class CollectionProposals {
  * sort $mPropList by the entries values
  * sort alphabetically by equal values
  *
- * @param $a, $b: arrays that contain two entries
+ * @param array $a array that contain two entries
  *                the keys: 'name' & 'val'
  *                'name': an articlename
  *                'val' : a value from 1 to 1.5
- * @return 1, -1 or 0
+ * @param array $b array that contain two entries
+ *                the keys: 'name' & 'val'
+ *                'name': an articlename
+ *                'val' : a value from 1 to 1.5
+ * @return int 1 -1 or 0
  */
 function wgCollectionCompareProps( $a, $b ) {
 	if ( $a['val'] == $b['val'] ) {
