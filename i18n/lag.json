@@ -4,7 +4,12 @@
 			"Baba Tabita"
 		]
 	},
+	"coll-remove": "Seyya",
 	"coll-show": "Lahya",
+	"coll-move_up": "Seesya mweeri",
+	"coll-move_down": "Seesya ɨsɨ",
+	"coll-create_a_book": "Ʉmba kɨtáabu",
+	"coll-book_creator": "Mʉʉmba wa kɨtáabu",
 	"coll-help": "ʉyaambɨri",
 	"coll-helppage": "Help:Vitáabu",
 	"coll-show_collection": "Lahya kɨtáabu"
