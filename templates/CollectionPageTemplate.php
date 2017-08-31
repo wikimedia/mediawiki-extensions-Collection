@@ -24,6 +24,44 @@ class CollectionPageTemplate extends QuickTemplate {
 		return $templateParser->processTemplate( 'warning', $args );
 	}
 
+	/**
+	 * Create a download form which allows you to download the book as pdf
+	 *
+	 * @param {ContextSource} $context being rendered in
+	 * @param {Array} $formatNames a list of keys of the available formats e.g. [ 'electron', 'rdf2text' ]
+	 * @return string
+	 */
+	public function getDownloadForm( $context, $formatNames ) {
+		if ( count( $formatNames ) == 1 ) {
+			$formatName = array_rand( $formatNames );
+			$description = wfMessage( 'coll-download_as_text', $this->data['formats'][$formatName] )->parseAsBlock();
+			$buttonLabel = wfMessage( 'coll-download_as', $this->data['formats'][$formatName] )->escaped();
+		} else {
+			$description = $context->getOutput()->parse( $this->translator->translate( 'coll-download_text' ) );
+			$buttonLabel = wfMessage( 'coll-download' )->escaped();
+		}
+		$templateParser = new TemplateParser( __DIR__ );
+		// we need to map the template formats to an object that the template will be able to render
+		$templateDataFormats = [];
+		foreach ( $formatNames as $formatName ) {
+			$templateDataFormats[] = [
+				'name' => $formatName,
+				'label' => wfMessage( 'coll-format-' . $formatName )->escaped(),
+			];
+		}
+		$downloadForm = $templateParser->processTemplate( 'download-box', [
+			'headline' => wfMessage( 'coll-download_title' ),
+			'description' => $description,
+			'formAction' => SkinTemplate::makeSpecialUrl( 'Book' ),
+			'formats' => $templateDataFormats,
+			'writer' => count( $formatNames ) == 1 ? $writer : false,
+			'formatSelectLabel' => wfMessage( 'coll-format_label' ),
+			'returnTo' => SpecialPage::getTitleFor( 'Book' )->getPrefixedText(),
+			'buttonLabel' => $buttonLabel,
+			'downloadDisabled' => count( $this->data['collection']['items'] ),
+		] );
+		return $downloadForm;
+	}
 	public function execute() {
 		$data = [
 			'collectionTitle' => $this->data['collection']['title'],
@@ -146,44 +184,8 @@ class CollectionPageTemplate extends QuickTemplate {
 						?>
 					</ul></div>
 				<?php
-			} /* if */
-			?>
-
-			<div class="collection-column-right-box" id="coll-downloadbox">
-				<h2><span class="mw-headline"><?php $this->msg( 'coll-download_title' ) ?></span></h2>
-				<?php if ( count( $this->data['formats'] ) == 1 ) {
-					$writer = array_rand( $this->data['formats'] );
-					echo wfMessage( 'coll-download_as_text', $this->data['formats'][$writer] )->parseAsBlock();
-					$buttonLabel = wfMessage( 'coll-download_as', $this->data['formats'][$writer] )->escaped();
-				} else {
-					$this->msgWiki( 'coll-download_text' );
-					$buttonLabel = wfMessage( 'coll-download' )->escaped();
-				} ?>
-				<form id="downloadForm" action="<?php echo htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book' ) ) ?>" method="post">
-					<table style="width:100%; background-color: transparent;"><tr><td><tbody><tr><td>
-										<?php if ( count( $this->data['formats'] ) == 1 ) { ?>
-											<input type="hidden" name="writer" value="<?php echo htmlspecialchars( $writer ) ?>" />
-										<?php } else { ?>
-											<label for="formatSelect"><?php $this->msg( 'coll-format_label' ) ?></label>
-											<select id="formatSelect" name="writer">
-												<?php foreach ( $this->data['formats'] as $writer => $name ) {
-													// Give grep a chance to find the usages:
-													// coll-format-rl, coll-format-epub, coll-format-odf,
-													// coll-format-zim, coll-format-docbook, coll-format-okawix_zeno
-													?>
-													<option value="<?php echo htmlspecialchars( $writer ) ?>"><?php echo wfMessage( 'coll-format-' . $writer )->escaped() ?></option>
-												<?php	} ?>
-											</select>
-										<?php } ?>
-									</td><td id="collection-download-button">
-										<input type="hidden" name="bookcmd" value="render" />
-										<input type="hidden" name="returnto" value="<?php echo SpecialPage::getTitleFor( 'Book' )->getPrefixedText(); ?>" />
-										<input id="downloadButton" type="submit" value="<?php echo $buttonLabel ?>"<?php if ( count( $this->data['collection']['items'] ) == 0 ) { ?> disabled="disabled"<?php } ?> />
-									</td></tr></tbody></table>
-				</form>
-			</div>
-
-			<?php
+			}
+			echo $this->getDownloadForm( $context, array_keys( $this->data['formats'] ) );
 			if ( $GLOBALS['wgUser']->isLoggedIn() ) {
 				$canSaveUserPage = $GLOBALS['wgUser']->isAllowed( 'collectionsaveasuserpage' );
 				$canSaveCommunityPage = $GLOBALS['wgUser']->isAllowed( 'collectionsaveascommunitypage' );
