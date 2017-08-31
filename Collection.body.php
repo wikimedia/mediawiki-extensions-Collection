@@ -220,42 +220,7 @@ class SpecialCollection extends SpecialPage {
 				$this->postZIP( $collection, $partner );
 				return;
 			case 'save_collection':
-				if ( $request->getVal( 'abort' ) ) {
-					$out->redirect( SkinTemplate::makeSpecialUrl( 'Book' ) );
-					return;
-				}
-				if ( !$user->matchEditToken( $request->getVal( 'token' ) ) ) {
-					return;
-				}
-				$colltype = $request->getVal( 'colltype' );
-				$prefixes = self::getBookPagePrefixes();
-				$title = null;
-				if ( $colltype == 'personal' ) {
-					$collname = $request->getVal( 'pcollname' );
-					if ( !$user->isAllowed( 'collectionsaveasuserpage' ) || empty( $collname ) ) {
-						return;
-					}
-					$title = Title::newFromText( $prefixes['user-prefix'] . $collname );
-				} elseif ( $colltype == 'community' ) {
-					$collname = $request->getVal( 'ccollname' );
-					if ( !$user->isAllowed( 'collectionsaveascommunitypage' ) || empty( $collname ) ) {
-						return;
-					}
-					$title = Title::newFromText( $prefixes['community-prefix'] . $collname );
-				}
-				if ( !$title ) {
-					return;
-				}
-				if ( $this->saveCollection( $title, $request->getBool( 'overwrite' ) ) ) {
-					$out->redirect( $title->getFullURL() );
-				} else {
-					$this->renderSaveOverwritePage(
-						$colltype,
-						$title,
-						$request->getVal( 'pcollname' ),
-						$request->getVal( 'ccollname' )
-					);
-				}
+				$this->processSaveCollectionCommand();
 				return;
 			case 'render':
 				$this->renderCollection(
@@ -301,35 +266,90 @@ class SpecialCollection extends SpecialPage {
 				$this->postZIP( CollectionSession::getCollection(), $partner );
 				return;
 			case 'suggest':
-				$add = $request->getVal( 'add' );
-				$ban = $request->getVal( 'ban' );
-				$remove = $request->getVal( 'remove' );
-				$addselected = $request->getVal( 'addselected' );
-
-				if ( $request->getVal( 'resetbans' ) ) {
-					CollectionSuggest::run( 'resetbans' );
-				} elseif ( isset( $add ) ) {
-					CollectionSuggest::run( 'add', $add );
-				} elseif ( isset( $ban ) ) {
-					CollectionSuggest::run( 'ban', $ban );
-				} elseif ( isset( $remove ) ) {
-					CollectionSuggest::run( 'remove', $remove );
-				} elseif ( isset( $addselected ) ) {
-					$articleList = $request->getArray( 'articleList' );
-					if ( !is_null( $articleList ) ) {
-						CollectionSuggest::run( 'addAll', $articleList );
-					} else {
-						CollectionSuggest::run();
-					}
-				} else {
-					CollectionSuggest::run();
-				}
+				$this->processSuggestCommand();
 				return;
 			case '':
 				$this->renderSpecialPage();
 				return;
 			default:
 				$out->showErrorPage( 'coll-unknown_subpage_title', 'coll-unknown_subpage_text' );
+		}
+	}
+
+	/**
+	 * Processes the suggest command
+	 */
+	private function processSuggestCommand() {
+		$request = $this->getRequest();
+
+		$add = $request->getVal( 'add' );
+		$ban = $request->getVal( 'ban' );
+		$remove = $request->getVal( 'remove' );
+		$addselected = $request->getVal( 'addselected' );
+
+		if ( $request->getVal( 'resetbans' ) ) {
+			CollectionSuggest::run( 'resetbans' );
+		} elseif ( isset( $add ) ) {
+			CollectionSuggest::run( 'add', $add );
+		} elseif ( isset( $ban ) ) {
+			CollectionSuggest::run( 'ban', $ban );
+		} elseif ( isset( $remove ) ) {
+			CollectionSuggest::run( 'remove', $remove );
+		} elseif ( isset( $addselected ) ) {
+			$articleList = $request->getArray( 'articleList' );
+			if ( !is_null( $articleList ) ) {
+				CollectionSuggest::run( 'addAll', $articleList );
+			} else {
+				CollectionSuggest::run();
+			}
+		} else {
+			CollectionSuggest::run();
+		}
+	}
+
+	/**
+	 * Processes the save book command
+	 */
+	private function processSaveCollectionCommand() {
+		$out = $this->getOutput();
+		$request = $this->getRequest();
+		$user = $this->getUser();
+
+		if ( $request->getVal( 'abort' ) ) {
+			$out->redirect( SkinTemplate::makeSpecialUrl( 'Book' ) );
+			return;
+		}
+		if ( !$user->matchEditToken( $request->getVal( 'token' ) ) ) {
+			return;
+		}
+		$colltype = $request->getVal( 'colltype' );
+		$prefixes = self::getBookPagePrefixes();
+		$title = null;
+		if ( $colltype == 'personal' ) {
+			$collname = $request->getVal( 'pcollname' );
+			if ( !$user->isAllowed( 'collectionsaveasuserpage' ) || empty( $collname ) ) {
+				return;
+			}
+			$title = Title::newFromText( $prefixes['user-prefix'] . $collname );
+		} elseif ( $colltype == 'community' ) {
+			$collname = $request->getVal( 'ccollname' );
+			if ( !$user->isAllowed( 'collectionsaveascommunitypage' ) || empty( $collname ) ) {
+				return;
+			}
+			$title = Title::newFromText( $prefixes['community-prefix'] . $collname );
+		}
+		if ( !$title ) {
+			return;
+		}
+		if ( $this->saveCollection( $title, $request->getBool( 'overwrite' ) ) ) {
+			$out->redirect( $title->getFullURL() );
+		} else {
+			$this->renderSaveOverwritePage(
+				$colltype,
+				$title,
+				$request->getVal( 'pcollname' ),
+				$request->getVal( 'ccollname' )
+			);
 		}
 	}
 
