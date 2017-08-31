@@ -9,12 +9,12 @@ module.exports = function ( grunt ) {
 		eslint: {
 			all: [
 				'*.js',
-				'modules/**/*.js'
+				'resources/**/*.js'
 			]
 		},
 		stylelint: {
 			all: [
-				'modules/**/*.css',
+				'resources/**/*.css',
 				'!node_modules/**'
 			]
 		},

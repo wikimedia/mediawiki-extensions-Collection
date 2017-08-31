@@ -213,29 +213,31 @@ $wgAvailableRights[] = 'collectionsaveasuserpage';
 $wgAvailableRights[] = 'collectionsaveascommunitypage';
 
 $collResourceTemplate = [
-	'localBasePath' => __DIR__ . '/modules',
-	'remoteExtPath' => 'Collection/modules'
+	'localBasePath' => __DIR__ . '/resources',
+	'remoteExtPath' => 'Collection/resources'
 ];
 
 $wgResourceModules += [
 	'ext.collection' => $collResourceTemplate + [
-		'scripts' => 'collection.js',
+		'scripts' => 'ext.collection/collection.js',
 		'dependencies' => [
 			'ext.collection.bookcreator',
 			'jquery.ui.sortable',
 			'mediawiki.language',
 		],
 	],
+	'ext.collection.bookcreator.styles' => $collResourceTemplate + [
+		'styles' => 'ext.collection.bookcreator.styles/bookcreator.css',
+	],
 	'ext.collection.bookcreator' => $collResourceTemplate + [
-		'scripts' => 'bookcreator.js',
-		'styles' => 'bookcreator.css',
-		'dependencies' => 'jquery.jStorage'
+		'scripts' => 'ext.collection.bookcreator/bookcreator.js',
+		'dependencies' => [ 'jquery.jStorage', 'ext.collection.bookcreator.styles' ],
 	],
 	'ext.collection.checkLoadFromLocalStorage' => $collResourceTemplate + [
-		'scripts' => 'check_load_from_localstorage.js',
-		'styles' => 'bookcreator.css',
+		'scripts' => 'ext.collection.checkLoadFromLocalStorage/check_load_from_localstorage.js',
 		'dependencies' => [
 			'ext.collection',
+			'ext.collection.bookcreator.styles',
 			'jquery.jStorage',
 		],
 		'messages' => [
@@ -243,7 +245,7 @@ $wgResourceModules += [
 		]
 	],
 	'ext.collection.suggest' => $collResourceTemplate + [
-		'scripts' => 'suggest.js',
+		'scripts' => 'ext.collection.suggest/suggest.js',
 		'dependencies' => 'ext.collection.bookcreator'
 	],
 ];
