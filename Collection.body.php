@@ -478,7 +478,7 @@ class SpecialCollection extends SpecialPage {
 		$this->setHeaders();
 		$out->setPageTitle( $this->msg( 'coll-manage_your_book' )->text() );
 		$out->addModules( 'ext.collection' );
-		$out->addModuleStyles( 'mediawiki.hlist' );
+		$out->addModuleStyles( [ 'mediawiki.hlist', 'ext.collection.bookcreator.styles' ] );
 
 		$template = new CollectionPageTemplate();
 		$template->set( 'context', $this->getContext() );

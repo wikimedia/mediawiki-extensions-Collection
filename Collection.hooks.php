@@ -217,6 +217,7 @@ class CollectionHooks {
 		}
 
 		$wgOut->addModules( 'ext.collection.bookcreator' );
+		$wgOut->addModuleStyles( 'ext.collection.bookcreator.styles' );
 
 		$addRemoveState = $mode;
 
