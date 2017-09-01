@@ -208,6 +208,7 @@ class CollectionHooks {
 	 */
 	public static function renderBookCreatorBox( $title, $mode = '' ) {
 		global $wgOut, $wgExtensionAssetsPath, $wgRequest;
+		$templateParser = new TemplateParser( __DIR__ . '/templates' );
 
 		$imagePath = "$wgExtensionAssetsPath/Collection/images";
 		$ptext = $title->getPrefixedText();
@@ -221,70 +222,24 @@ class CollectionHooks {
 
 		$addRemoveState = $mode;
 
-		$html = Xml::element( 'div',
-			[ 'class' => 'collection-creatorbox' ],
-			null
-		);
-
-		$html .= Xml::element( 'img',
-			[
-				'src' => "$imagePath/Open_book.png",
-				'alt' => '',
-				'width' => '80',
-				'height' => '45',
-				'class' => 'collection-creatorbox-book',
+		return $templateParser->processTemplate( 'create-book', [
+			"actionsHtml" => self::getBookCreatorBoxContent( $title, $addRemoveState, $oldid ),
+			"imagePath" => $imagePath,
+			"title" => wfMessage( 'coll-book_creator' )->text(),
+			"disable" => [
+				"url" => SpecialPage::getTitleFor( 'Book' )->getLocalUrl(
+					[ 'bookcmd' => 'stop_book_creator', 'referer' => $ptext ]
+				),
+				"title" => wfMessage( 'coll-book_creator_disable_tooltip' )->text(),
+				"label" => wfMessage( 'coll-disable' )->escaped(),
 			],
-			'',
-			true
-		);
-
-		$html .= Xml::tags( 'div',
-			[ 'class' => 'collection-creatorbox-row' ],
-			Xml::tags( 'div', null,
-				Linker::linkKnown(
-					Title::newFromText( wfMessage( 'coll-helppage' )->text() ),
-					Xml::element( 'img',
-						[
-							'src' => "$imagePath/silk-help.png",
-							'alt' => '',
-							'width' => '16',
-							'height' => '16',
-						]
-					)
-					. '&#160;' . wfMessage( 'coll-help' )->escaped(),
-					[
-						'rel' => 'nofollow',
-						'title' => wfMessage( 'coll-help_tooltip' )->text(),
-					]
-				)
-			)
-			. Xml::element( 'span',
-				[ 'class' => 'collection-creatorbox-title' ],
-				wfMessage( 'coll-book_creator' )->text()
-			)
-			. ' ('
-			. Linker::linkKnown(
-				SpecialPage::getTitleFor( 'Book' ),
-				wfMessage( 'coll-disable' )->escaped(),
-				[
-					'rel' => 'nofollow',
-					'title' => wfMessage( 'coll-book_creator_disable_tooltip' )->text(),
-				],
-				[ 'bookcmd' => 'stop_book_creator', 'referer' => $ptext ]
-			)
-			. ')'
-		);
-
-		$html .= Xml::tags( 'div',
-			[
-				'id' => 'coll-book_creator_box',
-				'class' => 'collection-creatorbox-row',
-			],
-			self::getBookCreatorBoxContent( $title, $addRemoveState, $oldid )
-		);
-
-		$html .= Xml::closeElement( 'div' );
-		return $html;
+			"help" => [
+				"url" => Title::newFromText( wfMessage( 'coll-helppage' )->text() )->getLocalUrl(),
+				"label" => wfMessage( 'coll-help' )->escaped(),
+				"title" => wfMessage( 'coll-help_tooltip' )->text(),
+				"icon" => $imagePath . '/silk-help.png',
+			]
+		] );
 	}
 
 	/**
