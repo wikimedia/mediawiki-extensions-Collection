@@ -688,7 +688,7 @@ class SpecialCollection extends SpecialPage {
 			self::limitExceeded();
 			return false;
 		}
-		$db = wfGetDB( DB_SLAVE );
+		$db = wfGetDB( DB_REPLICA );
 		$tables = [ 'page', 'categorylinks' ];
 		$fields = [ 'page_namespace', 'page_title' ];
 		$options = [
