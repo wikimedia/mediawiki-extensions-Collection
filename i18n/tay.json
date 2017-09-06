@@ -7,14 +7,22 @@
 			"Akamycoco"
 		]
 	},
+	"coll-manage_your_book": "Klahangiy quw biru’ su’",
+	"coll-start_book_creator": "Ps’rux cngs’ na biru’",
 	"coll-collection": "Biru’",
+	"coll-unknown_subpage_title": "Ini’ bqbaqiy ginlaylwan uzyuk  na zzngayan",
+	"coll-savedbook_template": "wal scucun na biru’",
 	"coll-remove": "laxan",
 	"coll-show": "Pkaykita’",
 	"coll-move_up": "Maykura’ yatux smhzi’",
 	"coll-move_down": "Maykura’ hugal smhzi’",
 	"coll-contents": "Binkgan lalu’ na biru’",
+	"coll-request_failed_title": "Wal yaqih quw biru’",
 	"coll-yes": "Aw’",
 	"coll-no": "Iyat",
+	"coll-download_failed_title": "Cyux m’uqu’ quw minsyacay su’",
+	"coll-book_title": "Pcyumung sa spzyang qbuci’ balay na  biru’",
+	"coll-format-okawix_zeno": "Okawix",
 	"coll-print_export": "Aniy insat/Pawsa’",
 	"coll-create_a_book": "Ps’rux biru’",
 	"coll-book_creator": "Ps’rux sa biru’ Cngs’",
@@ -24,6 +32,7 @@
 	"coll-help_tooltip": "Wayal naha’ biqan sa musa’ sinhyun",
 	"coll-helppage": "Help:Biru’",
 	"coll-n_pages": "$1 {{PLURAL:$1|zngayan}}",
+	"coll-printable_version_pdf": "Bniru’ na PDF",
 	"coll-remove_this_page": "Kahul sa biru’ su’ qaniy ’muzyut sa zngayan qaniy",
 	"coll-show_collection": "Pkaykita’ biru’",
 	"coll-make_suggestions": "Bniq na kay’ sa zngayan",
@@ -32,5 +41,6 @@
 	"coll-setting-toc-no": "Iyat",
 	"coll-attribution-anons": "Lmqing lalu’：$1",
 	"coll-article-attribution": "<b>$1</b> <i>tkhulan:</i> $2 <i>minniq:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>inkhulan na biru’：</i> $2 <i> biru’ na gaga’ na snwayal ：</i> $3 <i>wal miq sa pincyuwagan：</i> $4 <i> cin’ringan mniru’ ：</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>inkhulan na biru’：</i> $2 <i> biru’ na gaga’ na snwayal ：</i> $3 <i>wal miq sa pincyuwagan：</i> $4 <i> cin’ringan mniru’ ：</i> $5",
+	"coll-warning-leave-feedback": "Sbiliy miru’ sa bniq na kay’"
 }
