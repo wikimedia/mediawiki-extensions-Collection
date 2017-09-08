@@ -353,7 +353,7 @@ function wfAjaxCollectionGetBookCreatorBoxContent(
 $wgAjaxExportList[] = 'wfAjaxCollectionGetBookCreatorBoxContent';
 
 function wfAjaxCollectionGetItemList() {
-	$collection = $_SESSION['wsCollection'];
+	$collection = CollectionSession::getCollection();
 
 	$template = new CollectionListTemplate();
 	$template->set( 'collection', $collection );

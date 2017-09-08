@@ -22,7 +22,6 @@
  */
 
 class CollectionSession {
-
 	/**
 	 * @return bool
 	 */
@@ -172,7 +171,12 @@ class CollectionSession {
 	 * @return array
 	 */
 	public static function getCollection() {
-		return self::purge() ? $_SESSION['wsCollection'] : [];
+		return self::purge() ? $_SESSION['wsCollection'] : [
+			/* empty collection */
+			'name' => '',
+			'description' => '',
+			'items' => []
+		];
 	}
 
 	/**
