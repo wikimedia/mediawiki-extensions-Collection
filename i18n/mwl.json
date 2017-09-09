@@ -5,6 +5,8 @@
 		]
 	},
 	"coll-book_creator_intro": "<big>Cul ''criador de lhibros'' puode criar un lhibro que cuntén las páiginas wiki que scolher. Puode sportar l lhibro an formatos defrentes (por eisemplo, PDF ó ODF) ó solicitar ua cópia ampressa.</big>",
+	"coll-collection": "Lhibro",
+	"coll-about_pp": "Subre $1",
 	"coll-print_export": "Amprimir/sportar",
 	"coll-create_a_book": "Criar un lhibro",
 	"coll-create_a_book_tooltip": "Criar un lhibro ó coleçon de páiginas",
