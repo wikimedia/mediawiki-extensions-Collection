@@ -15,7 +15,8 @@
 			"Joan manel",
 			"Qllach",
 			"Jaumeortola",
-			"Macofe"
+			"Macofe",
+			"Abella"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crea llibres]]",
@@ -134,7 +135,7 @@
 	"right-collectionsaveasuserpage": "Desar els llibres com a pàgina d'usuari",
 	"right-collectionsaveascommunitypage": "Desar els llibres com una pàgina de la comunitat",
 	"coll-print_export": "Imprimeix/exporta",
-	"coll-create_a_book": "Crea un llibre",
+	"coll-create_a_book": "Crear un llibre",
 	"coll-create_a_book_tooltip": "Crea un llibre o una col·lecció de pàgines",
 	"coll-book_creator": "Creador de llibres",
 	"coll-download_as": "Baixa com a $1",
