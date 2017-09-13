@@ -193,5 +193,13 @@
 	"coll-image-attribution": "<b>$1</b> <i>来源：</i>$2 <i>许可：</i>$3 <i>贡献：</i>$4 <i>原始艺术家：</i>$5",
 	"coll-warning-text": "我们当前用于创建PDF的功能存在显著问题。很遗憾，我们需要替换它。这可能影响图书的样式和功能集。我们邀请您参与有关更换计划中必要功能的对话。要提供反馈，请访问项目页面：https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality",
 	"coll-warning-leave-feedback": "留下反馈",
-	"coll-warning-read-more": "阅读更多"
+	"coll-warning-read-more": "阅读更多",
+	"coll-toc-title": "目录",
+	"coll-contributors-title": "贡献者",
+	"coll-rendererror-title": "无法生成图书",
+	"coll-rendererror-no-session": "在会话中找不到图书定义。它可能由于不活跃而被丢弃。",
+	"coll-rendererror-pdf": "PDF渲染失败：$1",
+	"coll-rendererror-fetch": "检索$1失败：$2",
+	"coll-rendererror-fetch-wrapper": "当尝试检索页面内容时出错：$1",
+	"coll-rendererror-no-cache": "在缓存中找不到图书数据。这很可能是软件中的错误。"
 }

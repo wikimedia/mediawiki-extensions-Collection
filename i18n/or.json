@@ -7,7 +7,8 @@
 			"Psubhashish",
 			"ଶିତିକଣ୍ଠ ଦାଶ",
 			"MKar",
-			"Macofe"
+			"Macofe",
+			"DareDevil"
 		]
 	},
 	"coll-desc": "[[Special:Book|ବହି ତିଆରି]]",
@@ -162,5 +163,6 @@
 	"coll-suggest_empty": "ଖାଲି",
 	"coll-attribution-anons": "ଅଜଣା: $1",
 	"coll-article-attribution": "<b>$1</b> <i>ମୂଳାଧାର:</i> $2 <i>ଅବଦାନକାରୀ:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>ସୋର୍ସ:</i> $2 <i>ଲାଇସେନ୍ସ:</i> $3 <i>ଅବଦନକାରୀ:</i> $4 <i>ମୂଳ ଅବଦନକାରୀ:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>ସୋର୍ସ:</i> $2 <i>ଲାଇସେନ୍ସ:</i> $3 <i>ଅବଦନକାରୀ:</i> $4 <i>ମୂଳ ଅବଦନକାରୀ:</i> $5",
+	"coll-contributors-title": "ଅବଦାନକାରୀଗଣ"
 }

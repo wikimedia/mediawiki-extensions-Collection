@@ -195,5 +195,13 @@
 	"coll-image-attribution": "<b>$1</b> <i>Quelle:</i> $2 <i>Lizenz:</i> $3 <i>Autoren:</i> $4 <i>Ursprünglicher Schöpfer:</i> $5",
 	"coll-warning-text": "Wir haben bedeutende Probleme mit der Funktion, die wir derzeit zur Erstellung von PDF-Dateien nutzen. Wir müssen sie leider ersetzen. Dies kann Auswirkungen auf die Gestaltung und den Funktionssatz von Büchern haben. Wir laden dich zu einer Unterhaltung bezüglich der geplanten notwendigen Ersetzung der Funktion ein. Für Rückmeldungen besuche bitte die Projektseite hier: https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality",
 	"coll-warning-leave-feedback": "Eine Rückmeldung hinterlassen",
-	"coll-warning-read-more": "Mehr erfahren"
+	"coll-warning-read-more": "Mehr erfahren",
+	"coll-toc-title": "Inhaltsverzeichnis",
+	"coll-contributors-title": "Autoren",
+	"coll-rendererror-title": "Das Buch konnte nicht erzeugt werden",
+	"coll-rendererror-no-session": "Die Buchdefinition konnte nicht in der Sitzung gefunden werden. Sie könnte aufgrund von Inaktivität verworfen worden sein.",
+	"coll-rendererror-pdf": "PDF-Darstellung fehlgeschlagen: $1",
+	"coll-rendererror-fetch": "Der Abruf von $1 ist fehlgeschlagen: $2",
+	"coll-rendererror-fetch-wrapper": "Es gab Fehler beim Versuch, die Seiteninhalte abzurufen: $1",
+	"coll-rendererror-no-cache": "Die Buchdaten wurden nicht im Cache gefunden. Dies ist mit hoher Wahrscheinlichkeit ein Fehler in der Software."
 }

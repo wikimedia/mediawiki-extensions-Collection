@@ -181,5 +181,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>Quell:</i> $2 <i>Auteuren:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Quell:</i> $2 <i>Lizenz:</i> $3 <i>Auteuren:</i> $4 <i>Originalkënschtler:</i> $5",
 	"coll-warning-leave-feedback": "Réckmeldung ginn",
-	"coll-warning-read-more": "Liest méi"
+	"coll-warning-read-more": "Liest méi",
+	"coll-toc-title": "Inhaltsverzeechnes",
+	"coll-rendererror-title": "D'Buch konnt net generéiert ginn"
 }

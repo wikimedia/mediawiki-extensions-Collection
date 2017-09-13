@@ -96,7 +96,7 @@
 	"coll-rendering_finished_title": "Composição do ficheiro concluída",
 	"coll-rendering_finished_text": "<strong>O ficheiro foi gerado.</strong>\n<strong>[$1 Transfira o ficheiro]</strong> para o seu computador.",
 	"coll-rendering_finished_notes_heading": "Notas:",
-	"coll-rendering_finished_note_not_satisfied": "Não satisfeito com o resultado? Veja [[{{MediaWiki:Coll-helppage}}|a página de ajuda sobre livros]] para ver possibilidades de o melhorar.",
+	"coll-rendering_finished_note_not_satisfied": "Insatisfeito com o resultado? Consulte [[{{MediaWiki:Coll-helppage}}|a página de ajuda sobre livros]] para ver as possibilidades de o melhorar.",
 	"coll-rendering_finished_note_article_rdf2latex": "Neste momento alguns documentos não contêm tabelas. Uma possibilidade pode ser usar $1, selecionar \"Imprimir\" no menu do <i>browser</i> e usar a opção \"Gravar em PDF\".",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informativo sobre composição de páginas",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Texto informativo sobre composição de coleções",
@@ -196,5 +196,13 @@
 	"coll-image-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Licença:</i> $3 <i>Contribuidores:</i> $4 <i>Artista original:</i> $5",
 	"coll-warning-text": "Estamos a ter problemas na função que usamos atualmente para criar ficheiros PDF. Infelizmente, teremos de substituí-la. Isto poderá afetar os estilos e o conjunto de funcionalidades dos livros. Gostaríamos de convidá-lo para um diálogo sobre as funcionalidades necessárias no substituto proposto. Para deixar um comentário, visite a página do projeto aqui: https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality",
 	"coll-warning-leave-feedback": "Deixar um comentário",
-	"coll-warning-read-more": "Ler mais"
+	"coll-warning-read-more": "Ler mais",
+	"coll-toc-title": "Índice",
+	"coll-contributors-title": "Colaboradores",
+	"coll-rendererror-title": "Não foi possível gerar o livro",
+	"coll-rendererror-no-session": "A definição do livro não foi encontrada na sessão. Pode ter sido descartada por inatividade.",
+	"coll-rendererror-pdf": "A composição do PDF falhou: $1",
+	"coll-rendererror-fetch": "A obtenção de $1 falhou: $2",
+	"coll-rendererror-fetch-wrapper": "Ocorreram erros ao tentar obter o conteúdo da página: $1",
+	"coll-rendererror-no-cache": "Os dados do livro não foram encontrados na cache. Isto deve-se provavelmente a um erro do software."
 }

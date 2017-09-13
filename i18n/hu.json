@@ -10,7 +10,8 @@
 			"Dorgan",
 			"Tacsipacsi",
 			"Adam78",
-			"Macofe"
+			"Macofe",
+			"Bencemac"
 		]
 	},
 	"coll-desc": "[[Special:Book|Könyvek készítése]]",
@@ -170,5 +171,7 @@
 	"coll-setting-columns": "Hasábok száma:",
 	"coll-attribution-anons": "Névtelen: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Forrás:</i> $2 <i>Közreműködők:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Forrás:</i> $2 <i>Licenc:</i> $3 <i>Közreműködők:</i> $4 <i>Eredeti művész:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Forrás:</i> $2 <i>Licenc:</i> $3 <i>Közreműködők:</i> $4 <i>Eredeti művész:</i> $5",
+	"coll-toc-title": "Tartalomjegyzék",
+	"coll-contributors-title": "Közreműködők"
 }
