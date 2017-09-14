@@ -188,5 +188,13 @@
 	"coll-article-attribution": "<b>$1</b> <i>출처:</i> $2 <i>기여자:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>출처:</i> $2 <i>라이선스:</i> $3 <i>기여자:</i> $4 <i>원래 작가:</i> $5",
 	"coll-warning-leave-feedback": "피드백 남기기",
-	"coll-warning-read-more": "더 읽어보기"
+	"coll-warning-read-more": "더 읽어보기",
+	"coll-toc-title": "목차",
+	"coll-contributors-title": "기여자",
+	"coll-rendererror-title": "책을 만들 수 없습니다",
+	"coll-rendererror-no-session": "책 정의가 세션에 없습니다. 활동이 없어 폐기되었을 수 있습니다.",
+	"coll-rendererror-pdf": "PDF 렌더링을 실패했습니다: $1",
+	"coll-rendererror-fetch": "$1 가져오기를 실패했습니다: $2",
+	"coll-rendererror-fetch-wrapper": "문서 내용을 가져오려는 동안 오류가 발생했습니다:$1",
+	"coll-rendererror-no-cache": "캐시에 책 데이터가 없습니다. 소프트웨어 오류일 가능성이 높습니다."
 }

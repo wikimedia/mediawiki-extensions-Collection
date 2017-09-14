@@ -194,5 +194,13 @@
 	"coll-image-attribution": "<b>$1</b> <i>المصدر:</i> $2 <i>الترخيص:</i> $3 <i>المساهمون:</i> $4 <i>الفنان الأصلي:</i> $5",
 	"coll-warning-text": "نحن نواجه مشاكل كبيرة بخصوص الأداة التي نستخدمها حاليا لإنشاء الPDF. سنضطر آسفين لاستبدالها. هذا ربما يؤثر على التهيئة ومجموعة المميزات لBooks. نحن نود دعوتك لحوار حول الوظائف الضرورية في الاستبدال المقترح. للتعليقات، من فضلك زر صفحة المشروع هنا: https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality",
 	"coll-warning-leave-feedback": "اترك تعليقا",
-	"coll-warning-read-more": "اقرأ المزيد"
+	"coll-warning-read-more": "اقرأ المزيد",
+	"coll-toc-title": "جدول المحتويات",
+	"coll-contributors-title": "المساهمون",
+	"coll-rendererror-title": "لم يمكن توليد الكتاب",
+	"coll-rendererror-no-session": "تعريف الكتاب غير موجود في الجلسة. ربما يكون قد تم التغاضي عنه نظرا لعدم النشاط.",
+	"coll-rendererror-pdf": "عرض الPDF فشل: $1",
+	"coll-rendererror-fetch": "جلب $1 فشل: $2",
+	"coll-rendererror-fetch-wrapper": "حدثت أخطاء أثناء محاولة جلب محتويات الصفحة:$1",
+	"coll-rendererror-no-cache": "بيانات الكتاب غير موجودة في الكاش. هذا غالبا خطأ في البرنامج."
 }

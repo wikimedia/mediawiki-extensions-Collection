@@ -181,5 +181,13 @@
 	"coll-image-attribution": "<b>$1</b> <i>Sorgende:</i> $2 <i>Licenze:</i> $3 <i>Condrebbutore:</i> $4 <i>Artiste origgenale:</i> $5",
 	"coll-warning-text": "Ste avime de le brutte probbleme cu 'a funzione ca nuje usame normalmende pe ffà le PDF. Sfortunatamende l'amme cangiate. Stu fatte pò ffà danne sus a le stile e le funziune de le libbre. Nuje te 'nvitame a 'na conversazzione sus a le funzionalità necessarie jndr'à 'u cangiamende proposte. Pe segnalaziune, pe piacere, 'ndruche 'a pàgene d'u proggette aqquà: https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality",
 	"coll-warning-leave-feedback": "Lasse 'nu feedback",
-	"coll-warning-read-more": "Ligge de cchiù"
+	"coll-warning-read-more": "Ligge de cchiù",
+	"coll-toc-title": "Tabbelle de le condenute",
+	"coll-contributors-title": "Condrebbuture",
+	"coll-rendererror-title": "Non se pò ccrejà 'u libbre",
+	"coll-rendererror-no-session": "Definizzione d'u libbre non acchiate jndr'à sessione. Pò essere state scettate pe colpe de l'inattività.",
+	"coll-rendererror-pdf": "Rendering d'u PDF sciute male: $1",
+	"coll-rendererror-fetch": "Recupere $1 sciute male: $2",
+	"coll-rendererror-fetch-wrapper": "Onne assute errore duranne 'u tendative de recuperà le condenute d'a pàgene: $1",
+	"coll-rendererror-no-cache": "Date d'u lobbre non acchiate jndr'à cache. Pò essere ca jè 'n'errore d'u softuer."
 }

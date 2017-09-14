@@ -7,7 +7,8 @@
 			"Mousa",
 			"Koroğlu",
 			"Alp Er Tunqa",
-			"Ilğım"
+			"Ilğım",
+			"ییلماز"
 		]
 	},
 	"coll-desc": "[[Special:Book|کیتاب یارات]]",
@@ -125,7 +126,7 @@
 	"coll-format-okawix_zeno": "Okawix",
 	"right-collectionsaveasuserpage": "کیتابلاری ایستیفاده‌چی صحیفه‌‌سی اولاراق قئيد ائت",
 	"right-collectionsaveascommunitypage": "کیتابلاری بیرلیک صحیفه‌‌سی اولاراق قئيد ائت",
-	"coll-print_export": "یازدیر/ائشیگه چیخارت",
+	"coll-print_export": "چاپ ائت/ائشیگه چیخارت",
 	"coll-create_a_book": "کیتاب یارات",
 	"coll-create_a_book_tooltip": "کیتاب و یا صحیفه‌لر کوللئكتیوی یاراد",
 	"coll-book_creator": "کیتاب یارادان",

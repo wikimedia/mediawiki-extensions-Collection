@@ -181,5 +181,13 @@
 	"coll-image-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Licenza:</i> $3 <i>Colaboradores:</i> $4 <i>Artista orixinal:</i> $5",
 	"coll-warning-text": "Estamos a ter problemas importantes na función que usamos actualmente para crear ficheiros PDF. Desafortunadamente teremos que cambiala. Isto pode afectar ós estilos e ó conxunto de funcionalidades dos Libros. Gustaríanos convidalo a unha conversa sobre as funcionalidades necesarias no substituto proposto. Para deixar un comentario, visite a páxina do proxecto aquíː https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality",
 	"coll-warning-leave-feedback": "Deixe comentarios",
-	"coll-warning-read-more": "Ler máis"
+	"coll-warning-read-more": "Ler máis",
+	"coll-toc-title": "Táboa de contidos",
+	"coll-contributors-title": "Colaboradores",
+	"coll-rendererror-title": "Non se puido xearr o libro",
+	"coll-rendererror-no-session": "A definición do libro non se atopou na sesión. Pode que fose descartada por inactividade.",
+	"coll-rendererror-pdf": "A composición do PDF fallouː $1",
+	"coll-rendererror-fetch": "A recuperación de $1 fallouː $2",
+	"coll-rendererror-fetch-wrapper": "Houbo erros ó intentar obter o contido da páxinaː $1",
+	"coll-rendererror-no-cache": "Os datos do libro non se atoparon na caché. Probablemente é un erro do software."
 }
