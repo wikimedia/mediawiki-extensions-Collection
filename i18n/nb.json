@@ -191,5 +191,13 @@
 	"coll-image-attribution": "<b>$1</b> <i>Kilde:</i> $2 <i>Lisens:</i> $3 <i>Bidragsytere:</i> $4 <i>Opphavsperson:</i> $5",
 	"coll-warning-text": "Vi har alvorlige problemer med funksjonen som brukes for å lage PDF-utgaver. Så vi må dessverre bytte denne ut. Dette kan påvirke tidligere utseende og egenskaper satt i Bøker. Vi vil gjerne ha innspill på nødvendig funksjonalitet rundt foreslått erstatning. Gå til prosjektsiden her: https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality",
 	"coll-warning-leave-feedback": "Gi tilbakemelding",
-	"coll-warning-read-more": "Les mer"
+	"coll-warning-read-more": "Les mer",
+	"coll-toc-title": "Innholdsfortegnelse",
+	"coll-contributors-title": "Bidragsytere",
+	"coll-rendererror-title": "Kunne ikke generere boka",
+	"coll-rendererror-no-session": "Ingen bokdefinisjon funnet i økten. Den kan ha blitt forkastet på grunn av inaktivitet.",
+	"coll-rendererror-pdf": "PDF-gjengivelse feilet: $1",
+	"coll-rendererror-fetch": "Henting av $1 feilet: $2",
+	"coll-rendererror-fetch-wrapper": "Feil oppsto under henting av sideinnhold: $1",
+	"coll-rendererror-no-cache": "Bokdata ikke funnet i mellomlageret. Dette er trolig en feil med programvaren."
 }
