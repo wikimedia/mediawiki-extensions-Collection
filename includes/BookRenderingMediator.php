@@ -165,7 +165,6 @@ class BookRenderingMediator implements LoggerAwareInterface {
 		$mediawikiResponse->statusHeader( 200 );
 		$mediawikiResponse->header( 'Content-Type: application/pdf' );
 		$mediawikiResponse->header( "Content-Disposition: attachment; filename='book.pdf'" );
-		$mediawikiResponse->header( 'Content-Length: ' . strlen( $newPdfContent ) );
 		echo $newPdfContent;
 	}
 
