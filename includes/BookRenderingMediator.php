@@ -90,9 +90,11 @@ class BookRenderingMediator implements LoggerAwareInterface {
 		$keyBase = wfArrayFilterByKey( $collection, function ( $key ) {
 			return in_array( $key, [ 'title', 'subtitle', 'items' ], true );
 		} );
-		$keyBase['items'] = wfArrayFilterByKey( $keyBase['items'], function ( $key ) {
-			return in_array( $key, [ 'type', 'title', 'revision' ], true );
-		} );
+		$keyBase['items'] = array_map( function ( $item ) {
+			return wfArrayFilterByKey( $item, function ( $key ) {
+				return in_array( $key, [ 'type', 'title', 'revision' ], true );
+			} );
+		}, $keyBase['items'] );
 		$key = $this->htmlCache->makeGlobalKey( md5( json_encode( $keyBase ) ) );
 
 		$book = $this->htmlCache->get( $key );
