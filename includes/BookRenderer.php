@@ -55,7 +55,7 @@ class BookRenderer {
 		foreach ( $collection['items'] as $item ) {
 			if ( $item['type'] === 'chapter' ) {
 				$final .= Html::element( 'h1', [
-						'id' => 'mw-book-chapter-' . Sanitizer::escapeId( $item['title'] ),
+						'id' => 'mw-book-chapter-' . Sanitizer::escapeIdForAttribute( $item['title'] ),
 						'class' => 'mw-book-chapter',
 						'data-mw-sectionnumber' => $headingCounter->incrementAndGet( -2 ),
 					], $item['title'] ) . "\n";
@@ -129,7 +129,7 @@ class BookRenderer {
 					'text' => htmlspecialchars( $item['title'], ENT_QUOTES ),
 					'type' => 'chapter',
 					'level' => -2,
-					'anchor' => 'mw-book-chapter-' . Sanitizer::escapeId( $item['title'] ),
+					'anchor' => 'mw-book-chapter-' . Sanitizer::escapeIdForAttribute( $item['title'] ),
 					'number' => $headingCounter->incrementAndGet( -2 ),
 				];
 			} elseif ( $item['type'] === 'article' ) {

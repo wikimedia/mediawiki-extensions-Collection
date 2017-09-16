@@ -106,7 +106,6 @@ class RemexCollectionMunger implements TreeHandler {
 		$this->idMap = array_fill_keys( array_keys( $this->idMap ), false );
 		$this->sectionRef = &$sections;
 		$this->selfLink = $selfLink;
-		$this->sectionNumbers = [];
 		$this->sectionCounter = $sectionCounter;
 	}
 
