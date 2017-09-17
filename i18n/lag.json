@@ -12,5 +12,7 @@
 	"coll-book_creator": "Mʉʉmba wa kɨtáabu",
 	"coll-help": "ʉyaambɨri",
 	"coll-helppage": "Help:Vitáabu",
+	"coll-n_pages": "{{PLURAL:$1|ʉkuráasa|kuráasa}} $1",
+	"coll-remove_this_page": "Seyya ʉhʉ ʉkuráasa fuma kɨtáabu chaako",
 	"coll-show_collection": "Lahya kɨtáabu"
 }

@@ -187,5 +187,7 @@
 	"coll-attribution-page": "<h1>Źródła, autorzy i licencje treści i zdjęć</h1>\n<h2>Tekst</h2>\n$1<h2>Zdjęcia</h2>\n$2\n<h2>Licencja zawartości</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Źródło:</i> $2 <i>Autorzy:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Źródło:</i> $2 <i>Licencja:</i> $3 <i>Autorzy:</i> $4 <i>Artysta:</i> $5",
-	"coll-warning-read-more": "Czytaj więcej"
+	"coll-warning-read-more": "Czytaj więcej",
+	"coll-toc-title": "Spis treści",
+	"coll-contributors-title": "Autorzy"
 }
