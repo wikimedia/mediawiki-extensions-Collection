@@ -149,14 +149,14 @@ class BookRenderingMediator implements LoggerAwareInterface {
 		] );
 		$errorMsg = null;
 		if ( $electronResponse['error'] !== '' ) {
-			$message = $this->msg( 'coll-rendererror-pdf', $electronResponse['error'] );
+			$message = $out->msg( 'coll-rendererror-pdf', $electronResponse['error'] );
 			throw new ErrorPageError( 'coll-rendererror-title', $message );
 		} elseif ( $electronResponse['code'] !== 200 ) {
 			$errorMsg = $electronResponse['code'];
 			if ( $electronResponse['reason'] !== '' ) {
 				$errorMsg .= ' ' . $electronResponse['reason'];
 			}
-			$message = $this->msg( 'coll-rendererror-pdf', $errorMsg );
+			$message = $out->msg( 'coll-rendererror-pdf', $errorMsg );
 			throw new ErrorPageError( 'coll-rendererror-title', $message );
 		}
 		$newPdfContent = $electronResponse['body'];

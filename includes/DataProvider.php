@@ -34,7 +34,7 @@ class DataProvider implements LoggerAwareInterface {
 	}
 
 	/**
-	 * @inheritdoc
+	 * @inheritDoc
 	 * @param LoggerInterface $logger
 	 */
 	public function setLogger( LoggerInterface $logger ) {
@@ -99,7 +99,7 @@ class DataProvider implements LoggerAwareInterface {
 		}, $requests, $responses );
 		if ( $status->isOK() ) {
 			$status->setResult( true, array_combine(
-				array_map( function ( $title ) {
+				array_map( function ( Title $title ) {
 					return $title->getPrefixedDBkey();
 				}, $titles ),
 				array_map( function ( $item ) {
