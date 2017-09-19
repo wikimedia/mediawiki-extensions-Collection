@@ -204,5 +204,6 @@
 	"coll-article-attribution": "<b>$1</b> <i>Fuente:</i> $2 <i>Colaboradores:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Fuente:</i> $2 <i>Licencia:</i> $3 <i>Colaboradores:</i> $4 <i>Artista original:</i> $5",
 	"coll-warning-leave-feedback": "Dejar comentarios",
-	"coll-warning-read-more": "Más información"
+	"coll-warning-read-more": "Más información",
+	"coll-contributors-title": "Colaboradores"
 }

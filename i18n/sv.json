@@ -17,7 +17,8 @@
 			"Sannab",
 			"Thurs",
 			"WikiPhoenix",
-			"Macofe"
+			"Macofe",
+			"Fader"
 		]
 	},
 	"coll-desc": "[[Special:Book|Skapa böcker]]",
@@ -192,5 +193,6 @@
 	"coll-article-attribution": "<b>$1</b> <i>Källa:</i> $2 <i>Bidragsgivare:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Källa:</i> $2 <i>Licens:</i> $3 <i>Bidragsgivare:</i> $4 <i>Originalkonstnär:</i> $5",
 	"coll-warning-leave-feedback": "Lämna återkoppling",
-	"coll-warning-read-more": "Läs mer"
+	"coll-warning-read-more": "Läs mer",
+	"coll-contributors-title": "Bidragsgivare"
 }
