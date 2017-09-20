@@ -187,5 +187,8 @@
 	"coll-contributors-title": "অবদানকারীগণ",
 	"coll-rendererror-title": "বই উৎপন্ন করা যায়নি",
 	"coll-rendererror-no-session": "বইয়ের সংজ্ঞা সেশনে পাওয়া যায় নি। এটি নিষ্ক্রিয়তার কারণে বাতিল করা হতে পারে।",
-	"coll-rendererror-pdf": "PDF রেন্ডার করা ব্যর্থ হয়েছে: $1"
+	"coll-rendererror-pdf": "PDF রেন্ডার করা ব্যর্থ হয়েছে: $1",
+	"coll-rendererror-fetch": "$1 আনা ব্যর্থ হয়েছে: $2",
+	"coll-rendererror-fetch-wrapper": "পৃষ্ঠার বিষয়বস্তু আনার চেষ্টা করার সময় ত্রুটি হয়েছে: $1",
+	"coll-rendererror-no-cache": "বইয়ের উপাত্ত ক্যাশে পাওয়া যায় নি। এটি সম্ভবত সফটওয়্যারের একটি ত্রুটি।"
 }
