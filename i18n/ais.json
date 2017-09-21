@@ -7,6 +7,7 @@
 		]
 	},
 	"coll-manage_your_book": "mikuwan numisu a cudad",
+	"coll-book_creator_continue": "palalid pisaungay patizeng cengse nu cudadan",
 	"coll-collection": "cudad",
 	"coll-unknown_subpage_title": "caay kapulita sailuc-kasabelih",
 	"coll-savedbook_template": "masuped a cudad",
@@ -61,6 +62,7 @@
 	"coll-suggest_show": "paazih",
 	"coll-suggest_undo_tooltip": "patiku tina saungay",
 	"coll-suggest_undo": "patiku",
+	"coll-format-epub": "tyincesu-cudad (EPUB)",
 	"coll-format-zim": "Kiwix (OpenZIM)",
 	"coll-format-docbook": "DocBook",
 	"coll-format-okawix_zeno": "Okawix",

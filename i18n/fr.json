@@ -22,7 +22,8 @@
 			"Ultimate",
 			"Elfix",
 			"Macofe",
-			"Wladek92"
+			"Wladek92",
+			"DePlusJean"
 		]
 	},
 	"coll-desc": "Permet de [[Special:Book|créer des livres]]",
@@ -208,5 +209,5 @@
 	"coll-rendererror-pdf": "Échec du rendu du PDF : $1",
 	"coll-rendererror-fetch": "Échec de la récupération de $1 : $2",
 	"coll-rendererror-fetch-wrapper": "Il y a eu des erreurs en essayant de récupérer le contenu de la page : $1",
-	"coll-rendererror-no-cache": "Les données de livre ne sont pas trouvées en cache. C’est très certainement une erreur dans le logiciel."
+	"coll-rendererror-no-cache": "Le contenu du livre n'est pas accessible dans la mémoire tampon. Ceci est très certainement dû à une erreur de l'application."
 }
