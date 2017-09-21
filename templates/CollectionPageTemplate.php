@@ -5,25 +5,13 @@
  * @ingroup Templates
  */
 
+use \MediaWiki\Extensions\Collection\MessageBoxHelper;
+
 /**
  * HTML template for Special:Book
  * @ingroup Templates
  */
 class CollectionPageTemplate extends QuickTemplate {
-	/**
-	 * Create a warning box
-	 * @return string
-	 */
-	private function getWarningBox() {
-		$templateParser = new TemplateParser( __DIR__ );
-		$args = [
-			"text" => wfMessage( 'coll-warning-text' )->parse(),
-			"feedback" => wfMessage( 'coll-warning-leave-feedback' )->text(),
-			"more" => wfMessage( 'coll-warning-read-more' )->text()
-		];
-		return $templateParser->processTemplate( 'warning', $args );
-	}
-
 	/**
 	 * Create a download form which allows you to download the book as pdf
 	 *
@@ -103,7 +91,7 @@ class CollectionPageTemplate extends QuickTemplate {
 		$context = new DerivativeContext( $this->data['context'] );
 		$context->setRequest( new FauxRequest( $data ) );
 
-		echo ( $this->getWarningBox() );
+		echo ( MessageBoxHelper::renderWarningBoxes() );
 
 		$form = new HTMLForm( $fields, $context );
 		$form->setMethod( 'post' )
