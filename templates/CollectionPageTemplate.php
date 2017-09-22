@@ -28,14 +28,18 @@ class CollectionPageTemplate extends QuickTemplate {
 	 * Create a download form which allows you to download the book as pdf
 	 *
 	 * @param {ContextSource} $context being rendered in
-	 * @param {Array} $formatNames a list of keys of the available formats e.g. [ 'electron', 'rdf2text' ]
+	 * @param {Array} $writers A list of the available writers
 	 * @return string
 	 */
-	public function getDownloadForm( $context, $formatNames ) {
-		if ( count( $formatNames ) == 1 ) {
-			$formatName = array_rand( $formatNames );
-			$description = wfMessage( 'coll-download_as_text', $this->data['formats'][$formatName] )->parseAsBlock();
-			$buttonLabel = wfMessage( 'coll-download_as', $this->data['formats'][$formatName] )->escaped();
+	public function getDownloadForm( $context, $writers ) {
+		$defaultWriter = false;
+
+		if ( count( $writers ) == 1 ) {
+			$writer = current( $writers );
+			$defaultWriter = [ 'writer' => key( $writers ) ];
+
+			$description = wfMessage( 'coll-download_as_text', $writer )->parseAsBlock();
+			$buttonLabel = wfMessage( 'coll-download_as', $writer )->escaped();
 		} else {
 			$description = $context->getOutput()->parse( $this->translator->translate( 'coll-download_text' ) );
 			$buttonLabel = wfMessage( 'coll-download' )->escaped();
@@ -43,10 +47,10 @@ class CollectionPageTemplate extends QuickTemplate {
 		$templateParser = new TemplateParser( __DIR__ );
 		// we need to map the template formats to an object that the template will be able to render
 		$templateDataFormats = [];
-		foreach ( $formatNames as $formatName ) {
+		foreach ( $writers as $writerIdx => $writer ) {
 			$templateDataFormats[] = [
-				'name' => $formatName,
-				'label' => wfMessage( 'coll-format-' . $formatName )->escaped(),
+				'name' => $writerIdx,
+				'label' => wfMessage( 'coll-format-' . $writerIdx )->escaped(),
 			];
 		}
 		$downloadForm = $templateParser->processTemplate( 'download-box', [
@@ -54,7 +58,7 @@ class CollectionPageTemplate extends QuickTemplate {
 			'description' => $description,
 			'formAction' => SkinTemplate::makeSpecialUrl( 'Book' ),
 			'formats' => $templateDataFormats,
-			'writer' => count( $formatNames ) == 1 ? $writer : false,
+			'writer' => $defaultWriter,
 			'formatSelectLabel' => wfMessage( 'coll-format_label' ),
 			'returnTo' => SpecialPage::getTitleFor( 'Book' )->getPrefixedText(),
 			'buttonLabel' => $buttonLabel,
@@ -185,7 +189,7 @@ class CollectionPageTemplate extends QuickTemplate {
 					</ul></div>
 				<?php
 			}
-			echo $this->getDownloadForm( $context, array_keys( $this->data['formats'] ) );
+			echo $this->getDownloadForm( $context, $this->data['formats'] );
 			if ( $GLOBALS['wgUser']->isLoggedIn() ) {
 				$canSaveUserPage = $GLOBALS['wgUser']->isAllowed( 'collectionsaveasuserpage' );
 				$canSaveCommunityPage = $GLOBALS['wgUser']->isAllowed( 'collectionsaveascommunitypage' );
