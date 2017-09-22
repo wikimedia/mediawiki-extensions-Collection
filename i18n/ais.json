@@ -54,6 +54,7 @@
 	"coll-book_title": "miaca masaheciay a cudad",
 	"coll-order_from_pp": "pisaungay $1 pataayaway miazih",
 	"coll-about_pp": "mahizaay $1",
+	"coll-return_to": "tatiku [[:$1]]",
 	"coll-suggest_title": "patahkal nizateng kasabeleh nu cudad numisu",
 	"coll-suggest_reset_bans": "miliyaw patizeng",
 	"coll-suggest_reset_bans_tooltip": "paazih nasawniay masipuay a patahkal nizateng",
