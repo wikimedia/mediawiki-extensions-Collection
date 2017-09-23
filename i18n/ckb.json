@@ -4,7 +4,8 @@
 			"Calak",
 			"Muhammed taha",
 			"Asoxor",
-			"Sarchia"
+			"Sarchia",
+			"Lost Whispers"
 		]
 	},
 	"coll-manage_your_book": "کتێبەکەت بەڕێوەبەرە",
@@ -57,7 +58,7 @@
 	"coll-create_a_book": "دروستکردنی کتێبێک",
 	"coll-book_creator": "کتێب ساز",
 	"coll-download_as": "داگرتن وەک $1",
-	"coll-disable": "ناچالاک بکە",
+	"coll-disable": "لەکارخستن",
 	"coll-book_creator_disable": "کتێبساز لە کار بخە",
 	"coll-book_creator_disable_tooltip": "بەکارھێنانی دروستکەری کتێب بوەستێنە",
 	"coll-add_this_page": "ئەم پەڕەیە بە کتێبەکەت زیاد بکە",
