@@ -2,10 +2,7 @@
 
 namespace MediaWiki\Extensions\Collection;
 
-use LinkCache;
 use LogicException;
-use MediaWiki\Linker\LinkTarget;
-use MediaWiki\MediaWikiServices;
 use MediaWikiTestCase;
 use Title;
 use VirtualRESTServiceClient;

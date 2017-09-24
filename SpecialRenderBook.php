@@ -1,8 +1,6 @@
 <?php
 
-use MediaWiki\Extensions\Collection\BookRenderer;
 use MediaWiki\Extensions\Collection\BookRenderingMediator;
-use MediaWiki\Extensions\Collection\DataProvider;
 use MediaWiki\Logger\LoggerFactory;
 use MediaWiki\MediaWikiServices;
 
