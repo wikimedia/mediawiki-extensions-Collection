@@ -168,8 +168,10 @@
 			$( '#saveButton, #downloadButton, input.order' ).prop( 'disabled', true );
 			return;
 		} else {
-			$( '#downloadButton, input.order' ).prop( 'disabled', false );
+			$( 'input.order' ).prop( 'disabled', false );
+			$( '#downloadButton' ).prop( 'disabled', mw.config.get( 'wgCollectionDisableDownloadSection' ) );
 		}
+
 		if ( !$( '#saveButton' ).length ) {
 			return;
 		}

@@ -170,6 +170,10 @@ $wgCollectionShowRenderNotes = [
 	'coll-rendering_finished_note_not_satisfied',
 ];
 
+# Disable the download section
+# see https://phabricator.wikimedia.org/T175996
+$wgCollectionDisableDownloadSection = true;
+
 # ==============================================================================
 
 # register Special:Book:

@@ -1,4 +1,4 @@
-<div class="collection-column-right-box" id="coll-downloadbox">
+<div class="collection-column-right-box{{#sectionDisabled}} collection-box-disabled{{/sectionDisabled}}" id="coll-downloadbox">
 	<h2><span class="mw-headline">{{headline}}</span></h2>
 	{{{description}}}
 	<form id="downloadForm" action="{{formAction}}" method="post">
@@ -11,7 +11,7 @@
 						{{/writer}}
 						{{^writer}}
 						<label for="formatSelect">{{formatSelectLabel}}</label>
-						<select id="formatSelect" name="writer">
+						<select id="formatSelect" name="writer"{{#sectionDisabled}} disabled="disabled"{{/sectionDisabled}}>
 							{{#formats}}
 							<option value="{{name}}">{{label}}</option>
 							{{/formats}}
