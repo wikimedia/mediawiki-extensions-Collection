@@ -198,6 +198,6 @@
 	"coll-rendererror-no-session": "Book definition not found in session. It might have been discarded due to inactivity.",
 	"coll-rendererror-pdf": "PDF rendering failed: $1",
 	"coll-rendererror-fetch": "Fetching $1 failed: $2",
-	"coll-rendererror-fetch-wrapper": "There were errors while trying to fetch page contents:$1",
+	"coll-rendererror-fetch-wrapper": "There were errors while trying to fetch page contents:\n$1",
 	"coll-rendererror-no-cache": "Book data not found in cache. This is most likely an error in the software."
 }
