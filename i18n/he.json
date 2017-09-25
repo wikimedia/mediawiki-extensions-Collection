@@ -188,5 +188,13 @@
 	"coll-image-attribution": "<b>$1</b> <i>מקור:</i> $2 <i>רישיון</i> $3 <i>תורמים</i> $4 <i>האמן המקורי</i> $5",
 	"coll-warning-text": "יש לנו בעיות מהותיות עם הפונקצייה שאנחנו משתמשים בה עכשיו ליצירם PDF־ים. לצערנו אנחנו צריכים להחליף אותה. זה יכול להשפיע על הסגנון ועל היכולות של ספרים. אנחנו רוצים להזמין אותן לשיחה בנושא הפעולות שצריכות להיות בחלופה המוצעת. לשליחת משוב בנושא, אנא בקרו בדף https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality",
 	"coll-warning-leave-feedback": "שליחת משוב",
-	"coll-warning-read-more": "לקרוא עוד"
+	"coll-warning-read-more": "לקרוא עוד",
+	"coll-toc-title": "תוכן עניינין",
+	"coll-contributors-title": "תורמים",
+	"coll-rendererror-title": "לא היה אפשר ליצור את הספר",
+	"coll-rendererror-no-session": "הגדרת הספר לא נמצאה בהתחברות. ייתכן שהיא הושלכה בשל חוסר־פעילות.",
+	"coll-rendererror-pdf": "תיצוג PDF נכשל: $1",
+	"coll-rendererror-fetch": "אחזור $1 נכשל: $2",
+	"coll-rendererror-fetch-wrapper": "אירעו שגיאות בעת ניסיון לאחזר את תוכן הדף:$1",
+	"coll-rendererror-no-cache": "נתוני הספר לא נמצאו במטמון. זאת כנראה שגיאה בתוכנה."
 }
