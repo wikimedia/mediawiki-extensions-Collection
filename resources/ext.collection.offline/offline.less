@@ -1,73 +1,97 @@
 @import 'mediawiki.ui/variables.less';
 
-.mw-book-tocitem-type-chapter {
-	font-size: 140%;
-}
-.mw-book-toc li {
-	list-style: none;
-	font-size: 90%;
-}
+@media print {
+	html,
+	body,
+	.mw-body,
+	.mw-body-content,
+	#mw-content-text,
+	.cover-page {
+		height: 100%;
+		padding: 0;
+		margin: 0;
+	}
 
-.mw-book-tocitem-type-chapter,
-.mw-book-tocitem-type-article,
-.mw-book-tocitem-type-section,
-.mw-book-tocitem-type-contributors {
-	break-inside: avoid;
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		break-after: avoid;
 
-	a {
-		display: inline-flex;
+		&[data-mw-sectionnumber]:before {
+			content: attr( data-mw-sectionnumber ) ' ';
+		}
+	}
+
+	.cover-page {
+		border-width: 0;
+		display: table;
+		text-align: center;
+		vertical-align: middle;
 		width: 100%;
+
+		& header {
+			vertical-align: middle;
+			display: table-cell;
+
+			& h1,
+			& h2 {
+				border-width: 0;
+				margin: auto 0;
+			}
+		}
+	}
+
+	.mw-book-tocitem-type-chapter {
+		font-size: 140%;
+	}
+	.mw-book-toc {
+		page-break-after: always;
+
+		& li {
+			list-style: none;
+		}
+	}
+
+	.mw-book-tocitem-type-chapter,
+	.mw-book-tocitem-type-article,
+	.mw-book-tocitem-type-section,
+	.mw-book-tocitem-type-contributors {
 		break-inside: avoid;
-		align-items: baseline;
 
-		&:before {
-			content: attr( data-mw-sectionnumber ) '\00a0'; // nbsp
-		}
-		&:after {
-			flex-grow: 1;
-			align-self: flex-end;
-			text-align: right;
-			margin-left: 5px;
-			margin-right: 3px;
-			border-bottom: 1px dotted @colorText;
-			content: '\00a0';
-			// In the glorious future, this will add ToC numbers. See T169897.
-			// For now, they are added later via a PDF post-processing hack.
-			//content: target-counter(attr(href url), page)
+		a {
+			break-inside: avoid;
+			// overriding the rule from core
+			text-decoration: none !important; /* stylelint-disable-line declaration-no-important */
+
+			&:before {
+				content: attr( data-mw-sectionnumber ) '\00a0'; // nbsp
+			}
 		}
 	}
-}
 
-// Standard way of adding page numbers. See comment above.
-//@page :left {
-//	@bottom-left {
-//		content: counter(page);
-//	}
-//}
-//@page :right {
-//	@bottom-right {
-//		content: counter(page);
-//	}
-//}
+	// Standard way of adding page numbers. See comment above.
+	//@page :left {
+	//	@bottom-left {
+	//		content: counter(page);
+	//	}
+	//}
+	//@page :right {
+	//	@bottom-right {
+	//		content: counter(page);
+	//	}
+	//}
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	break-after: avoid;
-
-	&[data-mw-sectionnumber]:before {
-		content: attr( data-mw-sectionnumber ) ' ';
+	.mw-book-chapter {
+		break-before: page;
 	}
-}
-.mw-book-chapter {
-	break-before: page;
-}
 
-// Hide "Retrieved from..." footer. Books are printed via a one-time URL
-// so it's not really useful.
-.printfooter {
-	display: none;
+	// Hide "Retrieved from..." footer. Books are printed via a one-time URL
+	// so it's not really useful.
+	.printfooter {
+		display: none;
+	}
+
 }
