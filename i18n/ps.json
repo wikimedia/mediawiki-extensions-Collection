@@ -3,7 +3,8 @@
 		"authors": [
 			"Ahmed-Najib-Biabani-Ibrahimkhel",
 			"Ibrahim khashrowdi",
-			"Macofe"
+			"Macofe",
+			"Baloch Khan"
 		]
 	},
 	"coll-desc": "[[Special:Book|کتابونه جوړول]]",
@@ -110,7 +111,7 @@
 	"coll-printable_version_pdf": "د PDF په بڼه",
 	"coll-remove_this_page": "دا مخ له کتاب نه ليرې کول",
 	"coll-show_collection": "کتاب ښکاره کول",
-	"coll-show_collection_tooltip": "خپل د کتاب سمون/ښکته کولو/راغوښتلو لپاره کېښکاږئ",
+	"coll-show_collection_tooltip": "خپل د کتاب سمون/کښته کولو/راغوښتلو لپاره کېښکاږئ",
 	"coll-not_addable": "دا مخ ورگډېدلی نه شي",
 	"coll-make_suggestions": "مخونه وړانديزول",
 	"coll-make_suggestions_tooltip": "خپل د کتاب د مخونو پر بنسټ وړانديزونه ښکاره کول",

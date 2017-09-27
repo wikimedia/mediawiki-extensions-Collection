@@ -212,7 +212,7 @@
 	"coll-warning-disable-pdf-title": "Warning text about Book Creator undergoing changes",
 	"coll-warning-disable-pdf-text": "Text describing why Book Creator is undergoing changes",
 	"coll-warning-learn-more": "Text of the link 'Learn more' that points to new PDF funcionalit page {{Identical|Learn more}}",
-	"coll-notice-download-pdf-title" : "Notice text about possibility to download single pages as PDFs",
+	"coll-notice-download-pdf-title": "Notice text about possibility to download single pages as PDFs",
 	"coll-notice-download-pdf-text": "Text describing how to download article as PDF while Book Creator PDF feature is unavailable",
 	"coll-toc-title": "Text shown on top of PDF table of contents",
 	"coll-contributors-title": "Text shown on top of PDF contributors section",

@@ -82,7 +82,5 @@
 	"coll-attribution-anons": "Lmqing lalu’：$1",
 	"coll-article-attribution": "<b>$1</b> <i>tkhulan:</i> $2 <i>minniq:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>inkhulan na biru’：</i> $2 <i> biru’ na gaga’ na snwayal ：</i> $3 <i>wal miq sa pincyuwagan：</i> $4 <i> cin’ringan mniru’ ：</i> $5",
-	"coll-warning-leave-feedback": "Sbiliy miru’ sa bniq na kay’",
-	"coll-warning-read-more": "Pzyux na’ quw lpgun",
 	"coll-rendererror-pdf": "PDF maki’ kya qu wal yaqih: $1"
 }

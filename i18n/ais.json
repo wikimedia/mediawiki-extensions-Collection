@@ -111,7 +111,5 @@
 	"coll-setting-columns": "sausi nu langat:",
 	"coll-attribution-anons": "pacebaay ngangan：$1",
 	"coll-article-attribution": "<b>$1</b> <i> saangangan： </i> $2 <i>paaninay tu kalusasing:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>saangangan:</i> $2 <i>sapabeli tu kinli a cedang:</i> $3 <i>paaninay tu kalusasing:</i> $4 <i>saayaway a masacudaday:</i> $5",
-	"coll-warning-leave-feedback": "paliwan tu nabalucu’an",
-	"coll-warning-read-more": "kayadahan miasip"
+	"coll-image-attribution": "<b>$1</b> <i>saangangan:</i> $2 <i>sapabeli tu kinli a cedang:</i> $3 <i>paaninay tu kalusasing:</i> $4 <i>saayaway a masacudaday:</i> $5"
 }
