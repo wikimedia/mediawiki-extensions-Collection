@@ -196,6 +196,8 @@ $wgAutoloadClasses[\MediaWiki\Extensions\Collection\HeadingCounter::class]
 	= __DIR__ . '/includes/HeadingCounter.php';
 $wgAutoloadClasses[\MediaWiki\Extensions\Collection\BookRenderingMediator::class]
 	= __DIR__ . '/includes/BookRenderingMediator.php';
+$wgAutoloadClasses[\MediaWiki\Extensions\Collection\MessageBoxHelper::class ]
+	= __DIR__ . '/includes/MessageBoxHelper.php';
 
 $wgAutoloadClasses['CollectionPageTemplate'] = __DIR__ . '/templates/CollectionPageTemplate.php';
 $wgAutoloadClasses['CollectionListTemplate'] = __DIR__ . '/templates/CollectionListTemplate.php';
@@ -246,7 +248,7 @@ $wgResourceModules += [
 		],
 	],
 	'ext.collection.bookcreator.styles' => $collResourceTemplate + [
-		'styles' => 'ext.collection.bookcreator.styles/bookcreator.css',
+		'styles' => 'ext.collection.bookcreator.styles/bookcreator.css'
 	],
 	'ext.collection.bookcreator' => $collResourceTemplate + [
 		'scripts' => 'ext.collection.bookcreator/bookcreator.js',
@@ -269,6 +271,27 @@ $wgResourceModules += [
 	],
 	'ext.collection.offline' => $collResourceTemplate + [
 		'styles' => 'ext.collection.offline/offline.less',
+	],
+
+	// Message boxes introduced in T175996 to warn users about disabling PDF feature
+	'ext.collection.bookcreator.messageBox' => $collResourceTemplate + [
+		'dependencies' => [
+			'mediawiki.hlist',
+			'ext.collection.bookcreator.messageBox.styles',
+			'ext.collection.bookcreator.messageBox.icons',
+		],
+	],
+	'ext.collection.bookcreator.messageBox.styles' => $collResourceTemplate + [
+			'styles' => 'ext.collection.bookcreator.messageBox/messageBox.less',
+		],
+	'ext.collection.bookcreator.messageBox.icons' => $collResourceTemplate + [
+		'position' => 'top',
+		'class' => 'ResourceLoaderImageModule',
+		'selector' => '.collection-icon-{name}:before',
+		'images' => [
+			'warning' => 'ext.collection.bookcreator.messageBox/images/warning-icon.svg',
+			'info' => 'ext.collection.bookcreator.messageBox/images/info-icon.svg'
+		]
 	],
 ];
 

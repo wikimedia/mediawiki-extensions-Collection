@@ -20,6 +20,8 @@
  * http://www.gnu.org/copyleft/gpl.html
  */
 
+use \MediaWiki\Extensions\Collection\MessageBoxHelper;
+
 class SpecialCollection extends SpecialPage {
 	public $tempfile;
 
@@ -343,6 +345,9 @@ class SpecialCollection extends SpecialPage {
 		$this->setHeaders();
 		$out->setPageTitle( $this->msg( 'coll-book_creator' ) );
 
+		MessageBoxHelper::addModuleStyles( $out );
+		$out->addHTML( MessageBoxHelper::renderWarningBoxes() );
+
 		$out->addWikiMsg( 'coll-book_creator_intro' );
 
 		$out->addModules( 'ext.collection.checkLoadFromLocalStorage' );
@@ -475,6 +480,7 @@ class SpecialCollection extends SpecialPage {
 		}
 
 		$out = $this->getOutput();
+		MessageBoxHelper::addModuleStyles( $out );
 
 		$this->setHeaders();
 		$out->setPageTitle( $this->msg( 'coll-manage_your_book' )->text() );
