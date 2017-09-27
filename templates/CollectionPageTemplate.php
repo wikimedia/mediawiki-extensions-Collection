@@ -32,6 +32,7 @@ class CollectionPageTemplate extends QuickTemplate {
 	 * @return string
 	 */
 	public function getDownloadForm( $context, $writers ) {
+		global $wgCollectionDisableDownloadSection;
 		$defaultWriter = false;
 
 		if ( count( $writers ) == 1 ) {
@@ -53,8 +54,13 @@ class CollectionPageTemplate extends QuickTemplate {
 				'label' => wfMessage( 'coll-format-' . $writerIdx )->escaped(),
 			];
 		}
+
+		$downloadDisabled = count( $this->data['collection']['items'] ) == 0
+			|| $wgCollectionDisableDownloadSection;
+
 		$downloadForm = $templateParser->processTemplate( 'download-box', [
 			'headline' => wfMessage( 'coll-download_title' ),
+			'sectionDisabled' => $wgCollectionDisableDownloadSection === true,
 			'description' => $description,
 			'formAction' => SkinTemplate::makeSpecialUrl( 'Book' ),
 			'formats' => $templateDataFormats,
@@ -62,7 +68,7 @@ class CollectionPageTemplate extends QuickTemplate {
 			'formatSelectLabel' => wfMessage( 'coll-format_label' ),
 			'returnTo' => SpecialPage::getTitleFor( 'Book' )->getPrefixedText(),
 			'buttonLabel' => $buttonLabel,
-			'downloadDisabled' => count( $this->data['collection']['items'] ),
+			'downloadDisabled' => $downloadDisabled,
 		] );
 		return $downloadForm;
 	}

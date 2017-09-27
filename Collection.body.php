@@ -467,7 +467,8 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	public function renderSpecialPage() {
-		global $wgCollectionFormats, $wgCollectionRendererSettings;
+		global $wgCollectionFormats, $wgCollectionRendererSettings,
+			$wgCollectionDisableDownloadSection;
 
 		if ( !CollectionSession::hasSession() ) {
 			CollectionSession::startSession();
@@ -479,6 +480,9 @@ class SpecialCollection extends SpecialPage {
 		$out->setPageTitle( $this->msg( 'coll-manage_your_book' )->text() );
 		$out->addModules( 'ext.collection' );
 		$out->addModuleStyles( [ 'mediawiki.hlist', 'ext.collection.bookcreator.styles' ] );
+		$out->addJsConfigVars( [
+			'wgCollectionDisableDownloadSection' => $wgCollectionDisableDownloadSection
+		] );
 
 		$template = new CollectionPageTemplate();
 		$template->set( 'context', $this->getContext() );
