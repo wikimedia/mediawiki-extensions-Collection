@@ -117,6 +117,7 @@ class DataProvider implements LoggerAwareInterface {
 	 *   - displaytitle: [ dbkey => title, ... ]
 	 *   - sections: [ dbkey => [ [ title => ..., id => ..., level => ... ], ... ], ... ]
 	 *   - contributors: [ name => userid, ... ]
+	 *   - images: [ dbkey => [ [ title =>, url =>, license =>, credit =>, artist => ], ... ], ... ]
 	 *   - modules: [ module, ... ]
 	 *   - modulescripts: [ module, ... ]
 	 *   - modulestyles: [ module, ... ]
@@ -127,21 +128,23 @@ class DataProvider implements LoggerAwareInterface {
 			'displaytitle' => [],
 			'sections' => [],
 			'contributors' => [],
+			'images' => [],
 			'modules' => [],
 			'modulescripts' => [],
 			'modulestyles' => [],
 			'jsconfigvars' => [],
 		];
 
-		// get contributors
+		// get contributors and images
 		$params = [
 			'format' => 'json',
 			'action' => 'query',
-			'prop' => 'contributors',
+			'prop' => 'contributors|images',
 			'redirects' => 1,
 			'pclimit' => 'max', // 500; more titles than that will probably blow up Electron anyway
 			'titles' => implode( '|', $dbkeys ),
 		];
+		$images = [];
 		do {
 			$data = $this->makeActionApiRequest( $params );
 			$continue = isset( $data['continue'] ) ? $data['continue'] : [];
@@ -150,8 +153,55 @@ class DataProvider implements LoggerAwareInterface {
 				foreach ( $page['contributors'] as $key => $contrib ) {
 					$metadata['contributors'][$contrib['name']] = $contrib['userid'];
 				}
+				foreach ( $page['images'] as $image ) {
+					$images[] = $image['title'];
+				}
 			}
 		} while ( $continue );
+
+		// get image infos
+		if ( $images ) {
+			$params = [
+				'action' => 'query',
+				'titles' => implode( '|', $images ),
+				'prop' => 'imageinfo',
+				'iiprop' => 'url|extmetadata'
+			];
+			do {
+				$data = $this->makeActionApiRequest( $params );
+				$continue = isset( $data['continue'] ) ? $data['continue'] : [];
+				$params = $continue + $params;
+				foreach ( $data['query']['pages'] as $page ) {
+					if ( array_key_exists( 'imageinfo', $page ) ) {
+						$imageinfo = $page['imageinfo'][0];
+
+						$license = '';
+						$credit = '';
+						$artist = '';
+						if ( array_key_exists( 'extmetadata', $imageinfo ) ) {
+							$extmetadata = $imageinfo['extmetadata'];
+							if ( isset( $extmetadata['LicenseShortName']['value'] ) ) {
+								$license = $extmetadata['LicenseShortName']['value'];
+							}
+							if ( isset( $extmetadata['Credit']['value'] ) ) {
+								$credit = $extmetadata['Credit']['value'];
+							}
+							if ( isset( $extmetadata['Artist']['value'] ) ) {
+								$artist = $extmetadata['Artist']['value'];
+							}
+						}
+
+						$metadata['images'][$page['title']] = [
+							'title' => $page['title'],
+							'url' => isset( $imageinfo['url'] ) ? $imageinfo['url' ] : '',
+							'license' => $license,
+							'credit' => $credit,
+							'artist' => $artist
+						];
+					}
+				}
+			} while ( $continue );
+		}
 
 		// get sections & modules
 		foreach ( $dbkeys as $dbkey ) {
