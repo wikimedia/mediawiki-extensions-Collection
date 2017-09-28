@@ -190,6 +190,8 @@
 	"coll-attribution-page": "<h1>منابع متن و تصویر، مشارکت‌کنندگان و مجوزها</h1>\n<h2>متن</h2>\n$1<h2>تصاویر</h2>\n$2\n<h2>محتوای مجوز</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b><i>منبع:</i>  $2  <i>مشارکت‌کنندگان:</i>$3",
 	"coll-image-attribution": "<b>$1</b><i>منبع:</i>  $2  <i>مجوز:</i>  $3  <i>مشارکت‌کنندگان:</i>  $4  <i>هنرمند اصلی:</i>$5",
+	"coll-warning-learn-more": "بیشتر بدانید",
+	"coll-notice-download-pdf-title": "بارگیری صفحات تکی",
 	"coll-toc-title": "فهرست محتوا",
 	"coll-contributors-title": "مشارکت‌کنندگان",
 	"coll-rendererror-title": "امکان ساختن کتاب وجود ندارد",
