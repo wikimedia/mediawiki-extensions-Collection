@@ -193,6 +193,7 @@
 	"coll-images-source": "Source",
 	"coll-images-license": "License",
 	"coll-images-original-artist": "Original artist",
+	"coll-license-title": "Content License",
 	"coll-rendererror-title": "Could not generate the book",
 	"coll-rendererror-no-session": "Book definition not found in session. It might have been discarded due to inactivity.",
 	"coll-rendererror-pdf": "PDF rendering failed: $1",
