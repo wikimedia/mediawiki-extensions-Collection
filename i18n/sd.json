@@ -3,7 +3,8 @@
 		"authors": [
 			"Sindhu",
 			"Aursani",
-			"Mehtab ahmed"
+			"Mehtab ahmed",
+			"Indus Asia"
 		]
 	},
 	"coll-format_label": "فارميٽ:",
@@ -34,5 +35,5 @@
 	"coll-attribution-anons": "نامعلوم: $1",
 	"coll-article-attribution": "<b>$1</b> <i>ذريعو:</i> $2 <i>ڀاڱيدار:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>ذريعو:</i> $2 <i>لائسنس:</i> $3 <i>ڀاڱيدار:</i> $4 <i>اصلوڪو فنڪار:</i> $5",
-	"coll-warning-read-more": "وڌيڪ پڙھو"
+	"coll-warning-learn-more": "وڌيڪ ڄاڻو"
 }
