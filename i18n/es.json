@@ -203,7 +203,16 @@
 	"coll-attribution-page": "<h1>Origen del texto y las imágenes, colaboradores y licencias</h1>\n<h2>Texto</h2>\n$1<h2>Imágenes</h2>\n$2\n<h2>Licencia del contenido</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Fuente:</i> $2 <i>Colaboradores:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Fuente:</i> $2 <i>Licencia:</i> $3 <i>Colaboradores:</i> $4 <i>Artista original:</i> $5",
-	"coll-warning-leave-feedback": "Dejar comentarios",
-	"coll-warning-read-more": "Más información",
-	"coll-contributors-title": "Colaboradores"
+	"coll-warning-disable-pdf-title": "El Creador de libros está recibiendo modificaciones",
+	"coll-warning-disable-pdf-text": "A causa de problemas graves en nuestro sistema existente, el Creador de libros no admitirá la generación de libros en PDF por un período breve. Estamos trabajando intensamente para sustituir este sistema y volver a ofrecer la función de PDF en el Creador de libros.",
+	"coll-warning-learn-more": "Más información",
+	"coll-notice-download-pdf-title": "Descargar páginas individuales",
+	"coll-toc-title": "Sumario",
+	"coll-contributors-title": "Colaboradores",
+	"coll-rendererror-title": "No se pudo generar el libro",
+	"coll-rendererror-no-session": "No se encontró la definición del libro en la sesión. Es posible que se haya descartado por inactividad.",
+	"coll-rendererror-pdf": "Falló la representación del PDF: $1",
+	"coll-rendererror-fetch": "Falló la recuperación de $1: $2",
+	"coll-rendererror-fetch-wrapper": "Se produjeron errores al tratar de recuperar el contenido de la página: $1",
+	"coll-rendererror-no-cache": "No se encontraron los datos del libro en la antememoria. Lo más probable es que se trate de un defecto en el software."
 }
