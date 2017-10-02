@@ -1147,7 +1147,6 @@ class SpecialCollection extends SpecialPage {
 			break;
 		case 'failed':
 			$out->setPageTitle( $this->msg( 'coll-rendering_failed_title' ) );
-
 			$statusText = $result->get( 'status', 'status' );
 			if ( $statusText ) {
 				$status = $this->msg( 'coll-rendering_failed_status', $statusText )->text();
@@ -1353,10 +1352,13 @@ class SpecialCollection extends SpecialPage {
 		if ( !$result->isError() ) {
 			return true;
 		}
-		$this->getOutput()->showErrorPage(
-			'coll-request_failed_title',
-			'coll-request_failed_msg'
-		);
+		$output = $this->getOutput();
+		MessageBoxHelper::addModuleStyles( $output );
+		$output->prepareErrorPage( $output->msg( 'coll-request_failed_title' ) );
+		$output->addHTML( MessageBoxHelper::renderWarningBoxes() );
+		$output->addWikiMsgArray( 'coll-request_failed_msg', [] );
+		$output->returnToMain();
+
 		return false;
 	}
 
