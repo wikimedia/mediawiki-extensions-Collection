@@ -26,23 +26,24 @@ class BookRenderer {
 
 	/**
 	 * Generate the concatenated page.
-	 * @param array[] $collection Collection, as returned by CollectionSession::getCollection().
+	 * @param array[] $collection as returned by
+	 *   CollectionSession::getCollection().
 	 * @param string[] $pages Map of prefixed DB key => Parsoid HTML.
 	 * @param array[] &$metadata Map of prefixed DB key => metadata, as returned by fetchMetadata().
 	 *   Section data will be updated to account for heading level and id changes.
 	 *   Also, an outline will be added (see renderCoverAndToc() for format).
-	 * @return string HTML of the rendered book (without body/head).
+	 * @param boolean $hasChapters whether the book has articles
+	 * @param integer $articleCount number of articles in the book
+	 * @return array with keys html representing the data needed to render the book
 	 */
-	public function renderBook( $collection, $pages, &$metadata ) {
-		$hasChapters = (bool)array_filter( $collection['items'], function ( $item ) {
-			return $item['type'] === 'chapter';
-		} );
-		$articleCount = count( array_filter( $collection['items'], function ( $item ) {
-			return $item['type'] === 'article';
-		} ) );
-
-		$final = '';
+	private function getBookTemplateData(
+		$collection, $pages, $metadata, $hasChapters, $articleCount
+	) {
 		$headingCounter = new HeadingCounter();
+		$bookBodyHtml = '';
+		$items = $collection['items'];
+		$tocHeadingCounter = new HeadingCounter();
+		$outline = [];
 
 		// First we need to render the articles as we can't know the TOC anchors for sure
 		// until we have resolved id conflicts.
@@ -52,15 +53,22 @@ class BookRenderer {
 		$munger = new RemexCollectionMunger( $serializer, [
 			'topHeadingLevel' => $hasChapters ? 3 : 2,
 		] );
-		foreach ( $collection['items'] as $item ) {
+		foreach ( $items as $item ) {
+			$titleText = $item['title'];
+			$title = Title::newFromText( $titleText );
 			if ( $item['type'] === 'chapter' ) {
-				$final .= Html::element( 'h1', [
-						'id' => 'mw-book-chapter-' . Sanitizer::escapeIdForAttribute( $item['title'] ),
+				$outline[] = $this->getBookChapterData( $title, $tocHeadingCounter );
+				$bookBodyHtml .= Html::element( 'h1', [
+						'id' => 'mw-book-chapter-' . Sanitizer::escapeIdForAttribute( $titleText ),
 						'class' => 'mw-book-chapter',
 						'data-mw-sectionnumber' => $headingCounter->incrementAndGet( -2 ),
-					], $item['title'] ) . "\n";
+					], $titleText ) . "\n";
 			} elseif ( $item['type'] === 'article' ) {
-				$title = Title::newFromText( $item['title'] );
+				$outline = array_merge( $outline,
+					$this->getArticleChaptersData( $title, $tocHeadingCounter,
+						$metadata['displaytitle'], $metadata['sections'], $articleCount )
+				);
+
 				$dbkey = $title->getPrefixedDBkey();
 				$html = $this->getBodyContents( $pages[$dbkey] );
 
@@ -73,7 +81,8 @@ class BookRenderer {
 					$mungerOptions['sectionNumberPrefix'] = $headingAttribs['data-mw-sectionnumber']
 						= $headingCounter->incrementAndGet( -1 );
 				}
-				$final .= Html::rawElement( 'h2', $headingAttribs, $metadata['displaytitle'][$dbkey] ) . "\n";
+				$bookBodyHtml .= Html::rawElement( 'h2', $headingAttribs,
+					$metadata['displaytitle'][$dbkey] ) . "\n";
 
 				$munger->startCollectionSection( './' . $dbkey, $metadata['sections'][$dbkey],
 					$headingCounter );
@@ -90,71 +99,9 @@ class BookRenderer {
 					'fragmentNamespace' => \RemexHtml\HTMLData::NS_HTML,
 					'fragmentName' => 'body',
 				] );
-				$final .= Html::openElement( 'article' )
+				$bookBodyHtml .= Html::openElement( 'article' )
 					. substr( $serializer->getResult(), 15 ) // strip "<!DOCTYPE html>"
 					. Html::closeElement( 'article' );
-			}
-		}
-
-		$final = $this->renderCoverAndToc( $collection, $metadata )
-			. $final
-			. $this->renderContributors( $metadata, $headingCounter->incrementAndGetTopLevel() )
-			. $this->renderImageInfos( $metadata, $headingCounter->incrementAndGetTopLevel() )
-			. $this->renderLicense( $metadata, $headingCounter->incrementAndGetTopLevel() );
-		return $final;
-	}
-
-	/**
-	 * Generate HTML for book cover page and table of contents.
-	 * @param array $collection Collection, as returned by CollectionSession::getCollection().
-	 * @param array[] $metadata Map of prefixed DB key => metadata, as returned by fetchMetadata().
-	 *   An outline will be added which is similar to sections but flat and each item has the fields
-	 *     - text: text of the outline item (article title, section title etc)
-	 *     - type: 'chapter', 'article', 'section' or 'contributors'
-	 *     - level: heading level or -2 for chapter, -1 for article
-	 *     - anchor: id of the document node which the outline item refers to
-	 *     - number: a hierarchical section number (something like "1.2.3")
-	 * @return string HTML to prepend to the book.
-	 */
-	private function renderCoverAndToc( $collection, &$metadata ) {
-		$hasChapters = (bool)array_filter( $collection['items'], function ( $item ) {
-			return $item['type'] === 'chapter';
-		} );
-		$articleCount = count( array_filter( $collection['items'], function ( $item ) {
-			return $item['type'] === 'article';
-		} ) );
-		$headingCounter = new HeadingCounter();
-		$outline = [];
-		foreach ( $collection['items'] as $item ) {
-			if ( $item['type'] === 'chapter' ) {
-				$outline[] = [
-					'text' => htmlspecialchars( $item['title'], ENT_QUOTES ),
-					'type' => 'chapter',
-					'level' => -2,
-					'anchor' => 'mw-book-chapter-' . Sanitizer::escapeIdForAttribute( $item['title'] ),
-					'number' => $headingCounter->incrementAndGet( -2 ),
-				];
-			} elseif ( $item['type'] === 'article' ) {
-				$title = Title::newFromText( $item['title'] );
-				$dbkey = $title->getPrefixedDBkey();
-				if ( $articleCount > 1 ) {
-					$outline[] = [
-						'text' => $metadata['displaytitle'][$dbkey],
-						'type' => 'article',
-						'level' => -1,
-						'anchor' => 'mw-book-article-' . $dbkey,
-						'number' => $headingCounter->incrementAndGet( -1 ),
-					];
-				}
-				foreach ( $metadata['sections'][$dbkey] as $section ) {
-					$outline[] = [
-						'text' => $section['title'],
-						'type' => 'section',
-						'level' => $section['level'],
-						'anchor' => $section['id'],
-						'number' => $headingCounter->incrementAndGet( $section['level'] ),
-					];
-				}
 			} else {
 				throw new LogicException( 'Unknown collection item type: ' . $item['type'] );
 			}
@@ -167,33 +114,165 @@ class BookRenderer {
 		} else {
 			$metadataLevel = 0;
 		}
+		$outline = array_merge( $outline,
+			$this->getAdditionalBookChapters( $tocHeadingCounter, $metadataLevel,
+				$metadata['images'], $metadata['license'] )
+		);
+
+		$templateData = [
+			'contributors' => [
+				'data' => $metadata['contributors'],
+				'level' => $headingCounter->incrementAndGetTopLevel(),
+			],
+			'outline' => $outline,
+			'html' => $bookBodyHtml,
+		];
+		if ( $metadata['images'] ) {
+			$templateData['images'] = [
+				'data' => $metadata['images'],
+				'level' => $headingCounter->incrementAndGetTopLevel(),
+			];
+		}
+		if ( $metadata['license'] ) {
+			$templateData['license'] = [
+				'data' => $metadata['license'],
+				'level' => $headingCounter->incrementAndGetTopLevel(),
+			];
+		}
+		return $templateData;
+	}
+	/**
+	 * Generate the concatenated page.
+	 * @param array[] $collection Collection, as returned by CollectionSession::getCollection().
+	 * @param string[] $pages Map of prefixed DB key => Parsoid HTML.
+	 * @param array[] &$metadata Map of prefixed DB key => metadata, as returned by fetchMetadata().
+	 *   Section data will be updated to account for heading level and id changes.
+	 *   Also, an outline will be added (see renderCoverAndToc() for format).
+	 * @return string HTML of the rendered book (without body/head).
+	 */
+	public function renderBook( $collection, $pages, &$metadata ) {
+		$hasChapters = !empty( array_filter( $collection['items'], function ( $item ) {
+			return $item['type'] === 'chapter';
+		} ) );
+		$articleCount = count( array_filter( $collection['items'], function ( $item ) {
+			return $item['type'] === 'article';
+		} ) );
+
+		$book = $this->getBookTemplateData( $collection, $pages, $metadata,
+			$hasChapters, $articleCount );
+
+		$final = $this->renderCoverAndToc( $collection, $book['outline'] )
+			. $book['html']
+			. $this->renderContributors( $book['contributors']['data'], $book['contributors']['level'] );
+		if ( $book['images'] ) {
+			$final .= $this->renderImageInfos( $book['images']['data'], $book['images']['level'] );
+		}
+		if ( $book['license'] ) {
+			$final .= $this->renderLicense( $book['license']['data'], $book['license']['level'] );
+		}
+
+		return $final;
+	}
+
+	/**
+	 * Generate template data for outline chapter
+	 * @param Title $title for book
+	 * @param HeadingCounter $tocHeadingCounter
+	 * @return array
+	 */
+	private function getBookChapterData( $title, $tocHeadingCounter ) {
+		return [
+			'text' => htmlspecialchars( $title, ENT_QUOTES ),
+			'type' => 'chapter',
+			'level' => -2,
+			'anchor' => 'mw-book-chapter-' . Sanitizer::escapeIdForAttribute( $title ),
+			'number' => $tocHeadingCounter->incrementAndGet( -2 ),
+		];
+	}
+
+	/**
+	 * Generate template data for the chapters in the given article
+	 * @param Title $title to extract sections for
+	 * @param HeadingCounter $tocHeadingCounter
+	 * @param array[] $displayTitles mapping dbkeys to display titles for the book
+	 * @param array[] $sections Section data; each section is a triple
+	 *   [ title => ..., id => ..., level => ... ]. RemexCollectionMunger will update the id/level
+	 *   to keep in sync with document changes.
+	 * @param integer $articleCount number of articles in the book
+	 * @return array
+	 */
+	private function getArticleChaptersData(
+		$title, $tocHeadingCounter, $displayTitles, $sections, $articleCount
+	) {
+		$chapters = [];
+		$dbkey = $title->getPrefixedDBkey();
+
+		if ( $articleCount > 1 ) {
+			$chapters[] = [
+				'text' => $displayTitles[$dbkey],
+				'type' => 'article',
+				'level' => -1,
+				'anchor' => 'mw-book-article-' . $dbkey,
+				'number' => $tocHeadingCounter->incrementAndGet( -1 ),
+			];
+		}
+		foreach ( $sections[$dbkey] as $section ) {
+			$chapters[] = [
+				'text' => $section['title'],
+				'type' => 'section',
+				'level' => $section['level'],
+				'anchor' => $section['id'],
+				'number' => $tocHeadingCounter->incrementAndGet( $section['level'] ),
+			];
+		}
+		return $chapters;
+	}
+
+	/**
+	 * Generate template data for any additional chapters in the given article
+	 * @param HeadingCounter $tocHeadingCounter
+	 * @param integer $metadataLevel the table of contents level for a given article
+	 * @param boolean $hasImages whether the book contains images section
+	 * @param boolean $hasLicense whether the book contains a license section
+	 * @return array
+	 */
+	private function getAdditionalBookChapters(
+		$tocHeadingCounter, $metadataLevel, $hasImages = false, $hasLicense = false
+	) {
 		$outline[] = [
 			'text' => wfMessage( 'coll-contributors-title' )->text(),
 			'type' => 'contributors',
 			'level' => $metadataLevel,
 			'anchor' => 'mw-book-contributors',
-			'number' => $headingCounter->incrementAndGetTopLevel(),
+			'number' => $tocHeadingCounter->incrementAndGetTopLevel(),
 		];
-		if ( $metadata['images'] ) {
+		if ( $hasImages ) {
 			$outline[] = [
 				'text' => wfMessage( 'coll-images-title' )->text(),
 				'type' => 'images',
 				'level' => $metadataLevel,
 				'anchor' => 'mw-book-images',
-				'number' => $headingCounter->incrementAndGetTopLevel(),
+				'number' => $tocHeadingCounter->incrementAndGetTopLevel(),
 			];
 		}
-		if ( $metadata['license'] ) {
+		if ( $hasLicense ) {
 			$outline[] = [
 				'text' => wfMessage( 'coll-license-title' )->text(),
 				'type' => 'license',
 				'level' => $metadataLevel,
 				'anchor' => 'mw-book-license',
-				'number' => $headingCounter->incrementAndGetTopLevel(),
+				'number' => $tocHeadingCounter->incrementAndGetTopLevel(),
 			];
 		}
-		$metadata['outline'] = $outline;
-
+		return $outline;
+	}
+	/**
+	 * Generate HTML for book cover page and table of contents.
+	 * @param array $collection Collection, as returned by CollectionSession::getCollection().
+	 * @param array $outline of the book (chapters)
+	 * @return string HTML to prepend to the book.
+	 */
+	private function renderCoverAndToc( $collection, $outline ) {
 		return $this->templateParser->processTemplate( 'toc', $this->fixTemplateData( [
 			'title' => $collection['title'],
 			'subtitle' => $collection['subtitle'],
@@ -204,14 +283,14 @@ class BookRenderer {
 
 	/**
 	 * Generate HTML for the list of contributors.
-	 * @param array[] $metadata Map of prefixed DB key => metadata, as returned by fetchMetadata().
+	 * @param array[] $contributors who edited the book
 	 * @param string $sectionNumber The section number for the contributors section, if any.
 	 * @return string HTML to append to the book.
 	 */
-	private function renderContributors( $metadata, $sectionNumber = null ) {
+	private function renderContributors( $contributors, $sectionNumber = null ) {
 		$list = array_map( function ( $name ) {
 			return Html::element( 'li', [], $name );
-		}, array_keys( $metadata['contributors'] ) );
+		}, array_keys( $contributors ) );
 
 		$attribs = [ 'id' => 'mw-book-contributors' ];
 		if ( $sectionNumber ) {
@@ -224,22 +303,20 @@ class BookRenderer {
 
 	/**
 	 * Generate HTML for the images used in the book
-	 * @param array[] $metadata Map of prefixed DB key => metadata, as returned by fetchMetadata().
+	 * @param array[] $imageList
 	 * @param string $sectionNumber The section number for the images section, if any.
 	 * @return string HTML to append to the book.
 	 */
-	private function renderImageInfos( $metadata, $sectionNumber = null ) {
-		if ( !$metadata['images'] ) {
-			return '';
-		}
-
+	private function renderImageInfos( $imageList, $sectionNumber = null ) {
 		$messages = [
 			'sourceMsg' => wfMessage( 'coll-images-source' )->text(),
 			'licenseMsg' => wfMessage( 'coll-images-license' )->text(),
 			'artistMsg' => wfMessage( 'coll-images-original-artist' )->text()
 		];
+		// Mustache templates in Lightncandy are not able to access template data in parent object
+		// to circumvent that we have to repeat the common messages across all the items.
 		$images = [];
-		foreach ( $metadata['images'] as $image ) {
+		foreach ( $imageList as $image ) {
 			$images[] = array_merge( $image, $messages );
 		}
 		return $this->templateParser->processTemplate( 'images', [
@@ -251,17 +328,14 @@ class BookRenderer {
 
 	/**
 	 * Generate HTML for the content license of the book
-	 * @param array[] $metadata Map of prefixed DB key => metadata, as returned by fetchMetadata().
+	 * @param array $license with url and text fields
 	 * @param string $sectionNumber The section number for the images section, if any.
 	 * @return string HTML to append to the book.
 	 */
-	private function renderLicense( $metadata, $sectionNumber = null ) {
-		if ( !$metadata['license'] ) {
-			return '';
-		}
+	private function renderLicense( $license, $sectionNumber = null ) {
 		return $this->templateParser->processTemplate( 'license', [
 			'sectionNumber' => $sectionNumber,
-			'license' => $metadata['license'],
+			'license' => $license,
 			'headingMsg' => wfMessage( 'coll-license-title' )->text()
 		] );
 	}
