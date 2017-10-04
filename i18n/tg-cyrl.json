@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Ibrahim",
-			"ToJack"
+			"ToJack",
+			"Vashgird"
 		]
 	},
 	"coll-desc": "[[Special:Collection|Гирдоварии саҳифаҳо]], тавлиди PDFҳо",
@@ -64,6 +65,7 @@
 	"coll-invalid_podpartner_title": "Шарики Чоп-бо-дархости номӯътабар",
 	"coll-license": "Иҷозатнома",
 	"coll-return_to": "Бозгашт ба [[:$1]]",
+	"coll-print_export": "Чоп/берунбарӣ",
 	"coll-create_a_book": "Эҷоди як китоб",
 	"coll-book_creator": "Китобсоз",
 	"coll-download_as": "Дарёфтан чун $1",
