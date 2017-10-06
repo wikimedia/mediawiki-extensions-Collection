@@ -98,7 +98,8 @@ class BookRenderer {
 
 		$final = $this->renderCoverAndToc( $collection, $metadata )
 				 . $final
-				 . $this->renderContributors( $metadata, $headingCounter->incrementAndGetTopLevel() );
+				 . $this->renderContributors( $metadata, $headingCounter->incrementAndGetTopLevel() )
+				 . $this->renderImageInfos( $metadata, $headingCounter->incrementAndGetTopLevel() );
 		return $final;
 	}
 
@@ -159,19 +160,28 @@ class BookRenderer {
 		}
 
 		if ( $hasChapters ) {
-			$contributorsLevel = -2;
+			$metadataLevel = -2;
 		} elseif ( $articleCount > 1 ) {
-			$contributorsLevel = -1;
+			$metadataLevel = -1;
 		} else {
-			$contributorsLevel = 0;
+			$metadataLevel = 0;
 		}
 		$outline[] = [
 			'text' => wfMessage( 'coll-contributors-title' )->text(),
 			'type' => 'contributors',
-			'level' => $contributorsLevel,
+			'level' => $metadataLevel,
 			'anchor' => 'mw-book-contributors',
 			'number' => $headingCounter->incrementAndGetTopLevel(),
 		];
+		if ( $metadata['images'] ) {
+			$outline[] = [
+				'text' => wfMessage( 'coll-images-title' )->text(),
+				'type' => 'images',
+				'level' => $metadataLevel,
+				'anchor' => 'mw-book-images',
+				'number' => $headingCounter->incrementAndGetTopLevel(),
+			];
+		}
 		$metadata['outline'] = $outline;
 
 		return $this->templateParser->processTemplate( 'toc', $this->fixTemplateData( [
@@ -200,6 +210,33 @@ class BookRenderer {
 		return Html::element( 'h1', $attribs, 'Contributors' )
 			   . Html::rawElement( 'div', [ 'class' => 'contributors' ],
 				Html::rawElement( 'ul', [], implode( "\n", $list ) ) );
+	}
+
+	/**
+	 * Generate HTML for the images used in the book
+	 * @param array[] $metadata Map of prefixed DB key => metadata, as returned by fetchMetadata().
+	 * @param string $sectionNumber The section number for the images section, if any.
+	 * @return string HTML to append to the book.
+	 */
+	private function renderImageInfos( $metadata, $sectionNumber = null ) {
+		if ( !$metadata['images'] ) {
+			return '';
+		}
+
+		$messages = [
+			'sourceMsg' => wfMessage( 'coll-images-source' )->text(),
+			'licenseMsg' => wfMessage( 'coll-images-license' )->text(),
+			'artistMsg' => wfMessage( 'coll-images-original-artist' )->text()
+		];
+		$images = [];
+		foreach ( $metadata['images'] as $image ) {
+			$images[] = array_merge( $image, $messages );
+		}
+		return $this->templateParser->processTemplate( 'images', [
+			'sectionNumber' => $sectionNumber,
+			'images' => $images,
+			'headingMsg' => wfMessage( 'coll-images-title' )->text()
+		] );
 	}
 
 	/**
