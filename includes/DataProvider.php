@@ -63,6 +63,7 @@ class DataProvider implements LoggerAwareInterface {
 			if ( isset( $item['revision'] ) ) {
 				$url .= '/' . $item['revision'];
 			}
+
 			return [
 				'method' => 'GET',
 				'url' => $url,
@@ -153,20 +154,30 @@ class DataProvider implements LoggerAwareInterface {
 			'action' => 'query',
 			'prop' => 'contributors|images',
 			'redirects' => 1,
+			// Note that the imlimit and pclimit applies to all titles so this will result in
+			// an incomplete list of contributors
+			'imlimit' => 'max',
 			'pclimit' => 'max', // 500; more titles than that will probably blow up Electron anyway
 			'titles' => implode( '|', $dbkeys ),
 		];
 		$images = [];
+		$metadata['contributors'] = [];
 		do {
 			$data = $this->makeActionApiRequest( $params );
 			$continue = isset( $data['continue'] ) ? $data['continue'] : [];
 			$params = $continue + $params;
 			foreach ( $data['query']['pages'] as $page ) {
-				foreach ( $page['contributors'] as $key => $contrib ) {
-					$metadata['contributors'][$contrib['name']] = $contrib['userid'];
+				// Contributors will not be defined if pclimit is hit one of the other pages
+				if ( isset( $page['contributors'] ) ) {
+					foreach ( $page['contributors'] as $key => $contrib ) {
+						$metadata['contributors'][$contrib['name']] = $contrib['userid'];
+					}
 				}
-				foreach ( $page['images'] as $image ) {
-					$images[] = $image['title'];
+				// Imagess will not be defined if imlimit is hit one of the other pages
+				if ( isset( $page['images'] ) ) {
+					foreach ( $page['images'] as $image ) {
+						$images[] = $image['title'];
+					}
 				}
 			}
 		} while ( $continue );
@@ -213,6 +224,8 @@ class DataProvider implements LoggerAwareInterface {
 					}
 				}
 			} while ( $continue );
+		} else {
+			$metadata['images'][$page['title']] = [];
 		}
 
 		// get sections & modules
