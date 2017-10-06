@@ -97,9 +97,10 @@ class BookRenderer {
 		}
 
 		$final = $this->renderCoverAndToc( $collection, $metadata )
-				 . $final
-				 . $this->renderContributors( $metadata, $headingCounter->incrementAndGetTopLevel() )
-				 . $this->renderImageInfos( $metadata, $headingCounter->incrementAndGetTopLevel() );
+			. $final
+			. $this->renderContributors( $metadata, $headingCounter->incrementAndGetTopLevel() )
+			. $this->renderImageInfos( $metadata, $headingCounter->incrementAndGetTopLevel() )
+			. $this->renderLicense( $metadata, $headingCounter->incrementAndGetTopLevel() );
 		return $final;
 	}
 
@@ -182,6 +183,15 @@ class BookRenderer {
 				'number' => $headingCounter->incrementAndGetTopLevel(),
 			];
 		}
+		if ( $metadata['license'] ) {
+			$outline[] = [
+				'text' => wfMessage( 'coll-license-title' )->text(),
+				'type' => 'license',
+				'level' => $metadataLevel,
+				'anchor' => 'mw-book-license',
+				'number' => $headingCounter->incrementAndGetTopLevel(),
+			];
+		}
 		$metadata['outline'] = $outline;
 
 		return $this->templateParser->processTemplate( 'toc', $this->fixTemplateData( [
@@ -236,6 +246,23 @@ class BookRenderer {
 			'sectionNumber' => $sectionNumber,
 			'images' => $images,
 			'headingMsg' => wfMessage( 'coll-images-title' )->text()
+		] );
+	}
+
+	/**
+	 * Generate HTML for the content license of the book
+	 * @param array[] $metadata Map of prefixed DB key => metadata, as returned by fetchMetadata().
+	 * @param string $sectionNumber The section number for the images section, if any.
+	 * @return string HTML to append to the book.
+	 */
+	private function renderLicense( $metadata, $sectionNumber = null ) {
+		if ( !$metadata['license'] ) {
+			return '';
+		}
+		return $this->templateParser->processTemplate( 'license', [
+			'sectionNumber' => $sectionNumber,
+			'license' => $metadata['license'],
+			'headingMsg' => wfMessage( 'coll-license-title' )->text()
 		] );
 	}
 

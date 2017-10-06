@@ -118,6 +118,7 @@ class DataProvider implements LoggerAwareInterface {
 	 *   - sections: [ dbkey => [ [ title => ..., id => ..., level => ... ], ... ], ... ]
 	 *   - contributors: [ name => userid, ... ]
 	 *   - images: [ dbkey => [ [ title =>, url =>, license =>, credit =>, artist => ], ... ], ... ]
+	 *   - license: [ text => ..., url => ... ]
 	 *   - modules: [ module, ... ]
 	 *   - modulescripts: [ module, ... ]
 	 *   - modulestyles: [ module, ... ]
@@ -129,11 +130,22 @@ class DataProvider implements LoggerAwareInterface {
 			'sections' => [],
 			'contributors' => [],
 			'images' => [],
+			'license' => [],
 			'modules' => [],
 			'modulescripts' => [],
 			'modulestyles' => [],
 			'jsconfigvars' => [],
 		];
+
+		// get license
+		$data = $this->makeActionApiRequest( [
+			'action' => 'query',
+			'meta' => 'siteinfo',
+			'siprop' => 'rightsinfo'
+		] );
+		if ( isset( $data['query']['rightsinfo'] ) ) {
+			$metadata['license'] = $data['query']['rightsinfo'];
+		}
 
 		// get contributors and images
 		$params = [
