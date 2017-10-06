@@ -31,7 +31,6 @@ class BookRenderer {
 	 * @param string[] $pages Map of prefixed DB key => Parsoid HTML.
 	 * @param array[] $metadata Map of prefixed DB key => metadata, as returned by fetchMetadata().
 	 *   Section data will be updated to account for heading level and id changes.
-	 *   Also, an outline will be added (see renderCoverAndToc() for format).
 	 * @return array with keys html representing the data needed to render the book
 	 */
 	public function getBookTemplateData( $collection, $pages, $metadata ) {
@@ -45,6 +44,7 @@ class BookRenderer {
 
 		$headingCounter = new HeadingCounter();
 		$bookBodyHtml = '';
+		$title = $collection['title'];
 		$items = $collection['items'];
 		$tocHeadingCounter = new HeadingCounter();
 		$outline = [];
@@ -128,21 +128,40 @@ class BookRenderer {
 		}
 
 		$templateData = [
-			'outline' => $outline,
+			'toc' => [
+				'title' => $collection['title'],
+				'subtitle' => isset( $collection['subtitle'] ) ? $collection['subtitle'] : false,
+				'toctitle' => wfMessage( 'coll-toc-title' )->text(),
+				'tocitems' => $this->getNestedOutline( $outline ),
+			],
 			'html' => $bookBodyHtml,
 		];
 
 		if ( $hasArticles ) {
 			$templateData['contributors'] = [
-				'data' => $metadata['contributors'],
+				'names' => array_keys( $metadata['contributors'] ),
+				'headingMsg' => wfMessage( 'coll-contributors-title' )->text(),
 				'level' => $headingCounter->incrementAndGetTopLevel(),
 			];
 		} else {
 			$templateData['contributors'] = false;
 		}
 		if ( $hasImages ) {
+			$messages = [
+				'sourceMsg' => wfMessage( 'coll-images-source' )->text(),
+				'licenseMsg' => wfMessage( 'coll-images-license' )->text(),
+				'artistMsg' => wfMessage( 'coll-images-original-artist' )->text()
+			];
+			// Mustache templates in Lightncandy are not able to access template data in parent object
+			// to circumvent that we have to repeat the common messages across all the items.
+			$images = [];
+			foreach ( $metadata['images'] as $image ) {
+				$images[] = array_merge( $image, $messages );
+			}
+
 			$templateData['images'] = [
-				'data' => $metadata['images'],
+				'images' => $images,
+				'headingMsg' => wfMessage( 'coll-images-title' )->text(),
 				'level' => $headingCounter->incrementAndGetTopLevel(),
 			];
 		} else {
@@ -150,7 +169,8 @@ class BookRenderer {
 		}
 		if ( $hasLicense ) {
 			$templateData['license'] = [
-				'data' => $metadata['license'],
+				'license' => $metadata['license'],
+				'headingMsg' => wfMessage( 'coll-license-title' )->text(),
 				'level' => $headingCounter->incrementAndGetTopLevel(),
 			];
 		} else {
@@ -164,23 +184,12 @@ class BookRenderer {
 	 * @param string[] $pages Map of prefixed DB key => Parsoid HTML.
 	 * @param array[] &$metadata Map of prefixed DB key => metadata, as returned by fetchMetadata().
 	 *   Section data will be updated to account for heading level and id changes.
-	 *   Also, an outline will be added (see renderCoverAndToc() for format).
+	 *   Also, an outline will be added (see getBookTemplateData() for format).
 	 * @return string HTML of the rendered book (without body/head).
 	 */
 	public function renderBook( $collection, $pages, &$metadata ) {
 		$book = $this->getBookTemplateData( $collection, $pages, $metadata );
-
-		$final = $this->renderCoverAndToc( $collection, $book['outline'] )
-			. $book['html']
-			. $this->renderContributors( $book['contributors']['data'], $book['contributors']['level'] );
-		if ( $book['images'] ) {
-			$final .= $this->renderImageInfos( $book['images']['data'], $book['images']['level'] );
-		}
-		if ( $book['license'] ) {
-			$final .= $this->renderLicense( $book['license']['data'], $book['license']['level'] );
-		}
-
-		return $final;
+		return $this->templateParser->processTemplate( 'book', $this->fixTemplateData( $book ) );
 	}
 
 	/**
@@ -275,79 +284,6 @@ class BookRenderer {
 		}
 		return $outline;
 	}
-	/**
-	 * Generate HTML for book cover page and table of contents.
-	 * @param array $collection Collection, as returned by CollectionSession::getCollection().
-	 * @param array $outline of the book (chapters)
-	 * @return string HTML to prepend to the book.
-	 */
-	private function renderCoverAndToc( $collection, $outline ) {
-		return $this->templateParser->processTemplate( 'toc', $this->fixTemplateData( [
-			'title' => $collection['title'],
-			'subtitle' => $collection['subtitle'],
-			'toctitle' => wfMessage( 'coll-toc-title' )->text(),
-			'tocitems' => $this->getNestedOutline( $outline ),
-		] ) );
-	}
-
-	/**
-	 * Generate HTML for the list of contributors.
-	 * @param array[] $contributors who edited the book
-	 * @param string $sectionNumber The section number for the contributors section, if any.
-	 * @return string HTML to append to the book.
-	 */
-	private function renderContributors( $contributors, $sectionNumber = null ) {
-		$list = array_map( function ( $name ) {
-			return Html::element( 'li', [], $name );
-		}, array_keys( $contributors ) );
-
-		$attribs = [ 'id' => 'mw-book-contributors' ];
-		if ( $sectionNumber ) {
-			$attribs['data-mw-sectionnumber'] = $sectionNumber;
-		}
-		return Html::element( 'h1', $attribs, 'Contributors' )
-			   . Html::rawElement( 'div', [ 'class' => 'contributors' ],
-				Html::rawElement( 'ul', [], implode( "\n", $list ) ) );
-	}
-
-	/**
-	 * Generate HTML for the images used in the book
-	 * @param array[] $imageList
-	 * @param string $sectionNumber The section number for the images section, if any.
-	 * @return string HTML to append to the book.
-	 */
-	private function renderImageInfos( $imageList, $sectionNumber = null ) {
-		$messages = [
-			'sourceMsg' => wfMessage( 'coll-images-source' )->text(),
-			'licenseMsg' => wfMessage( 'coll-images-license' )->text(),
-			'artistMsg' => wfMessage( 'coll-images-original-artist' )->text()
-		];
-		// Mustache templates in Lightncandy are not able to access template data in parent object
-		// to circumvent that we have to repeat the common messages across all the items.
-		$images = [];
-		foreach ( $imageList as $image ) {
-			$images[] = array_merge( $image, $messages );
-		}
-		return $this->templateParser->processTemplate( 'images', [
-			'sectionNumber' => $sectionNumber,
-			'images' => $images,
-			'headingMsg' => wfMessage( 'coll-images-title' )->text()
-		] );
-	}
-
-	/**
-	 * Generate HTML for the content license of the book
-	 * @param array $license with url and text fields
-	 * @param string $sectionNumber The section number for the images section, if any.
-	 * @return string HTML to append to the book.
-	 */
-	private function renderLicense( $license, $sectionNumber = null ) {
-		return $this->templateParser->processTemplate( 'license', [
-			'sectionNumber' => $sectionNumber,
-			'license' => $license,
-			'headingMsg' => wfMessage( 'coll-license-title' )->text()
-		] );
-	}
 
 	/**
 	 * Get the part inside the <body> from an HTML file.
@@ -363,10 +299,10 @@ class BookRenderer {
 	/**
 	 * Turns a flat outline into a nested outline. Each outline item will contain
 	 * a field called 'children' which as an array of child outline items.
-	 * @param array[] $outline An outline, as returned by renderCoverAndToc().
+	 * @param array[] $outline An outline, as constructed by getBookTemplateData().
 	 * @return array[]
 	 */
-	private function getNestedOutline( array $outline ) {
+	public function getNestedOutline( array $outline ) {
 		$nestedOutline = [];
 		$lastItems = []; // level => last (currently open) item on that level
 		foreach ( $outline as &$item ) {
@@ -399,6 +335,9 @@ class BookRenderer {
 	 */
 	private function fixTemplateData( $data ) {
 		$fixedData = [];
+		if ( !is_array( $data ) ) {
+			return $data;
+		}
 		foreach ( $data as $field => $value ) {
 			// treat 0/'0' as truthy
 			$fixedData[$field . '?'] = !in_array( $value, [ false, [], '' ], true );

@@ -17,7 +17,7 @@ class BookRendererTest extends MediaWikiTestCase {
 		$templateParser = new TemplateParser( __DIR__ . '/../../../templates' );
 		$renderer = new BookRenderer( $templateParser );
 		$data = $renderer->getBookTemplateData( $collection, $pages, $metadata );
-		$this->assertArraySame( $expectedOutline, $data['outline'],
+		$this->assertArraySame( $renderer->getNestedOutline( $expectedOutline ), $data['toc']['tocitems'],
 			'Check table of contents generation' );
 	}
 
@@ -30,7 +30,7 @@ class BookRendererTest extends MediaWikiTestCase {
 		$this->assertSame( $data['images'], false, 'Template data for empty book has no images' );
 		$this->assertSame( $data['contributors'], false,
 			'Template data for empty book has no contributors' );
-		$this->assertArraySame( $data['outline'], [],
+		$this->assertArraySame( $data['toc']['tocitems'], [],
 			'Template data for empty book has empty outline' );
 	}
 
