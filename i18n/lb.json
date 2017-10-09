@@ -185,5 +185,10 @@
 	"coll-notice-download-pdf-title": "Eenzel Säiten eroflueden",
 	"coll-toc-title": "Inhaltsverzeechnes",
 	"coll-contributors-title": "Auteuren",
+	"coll-images-title": "Biller",
+	"coll-images-source": "Quell",
+	"coll-images-license": "Lizenz",
+	"coll-images-original-artist": "Kënschtler vum Original",
+	"coll-license-title": "Lizenz vum Inhalt",
 	"coll-rendererror-title": "D'Buch konnt net generéiert ginn"
 }

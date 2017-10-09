@@ -105,5 +105,10 @@
 	"coll-setting-columns": "Kolonnas:",
 	"coll-attribution-anons": "Anonīms: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Avots:</i> $2 <i>Dalībnieki:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Avots:</i> $2 <i>Licence:</i> $3 <i>Veidotāji:</i> $4 <i>Oriģinālais mākslinieks:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Avots:</i> $2 <i>Licence:</i> $3 <i>Veidotāji:</i> $4 <i>Oriģinālais mākslinieks:</i> $5",
+	"coll-warning-learn-more": "Uzzināt vairāk",
+	"coll-images-title": "Attēli",
+	"coll-images-source": "Avots",
+	"coll-images-license": "Licence",
+	"coll-license-title": "Satura licence"
 }

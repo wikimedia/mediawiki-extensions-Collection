@@ -189,5 +189,7 @@
 	"coll-image-attribution": "<b>$1</b> <i>Źródło:</i> $2 <i>Licencja:</i> $3 <i>Autorzy:</i> $4 <i>Artysta:</i> $5",
 	"coll-warning-learn-more": "Dowiedz się więcej",
 	"coll-toc-title": "Spis treści",
-	"coll-contributors-title": "Autorzy"
+	"coll-contributors-title": "Autorzy",
+	"coll-images-source": "Źródło",
+	"coll-images-license": "Licencja"
 }

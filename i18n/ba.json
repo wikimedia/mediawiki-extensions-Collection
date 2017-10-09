@@ -11,7 +11,8 @@
 			"Sagan",
 			"Азат Хәлилов",
 			"Ләйсән",
-			"Macofe"
+			"Macofe",
+			"Ансар"
 		]
 	},
 	"coll-desc": "[[Special:Book|Китаптар яһай]]",
@@ -185,5 +186,9 @@
 	"coll-attribution-page": "<h1>Текст һәм рәсем сығанағы, авторы һәм лицензияһы</h1>\n<h2>Текст</h2>\n$1<h2>Рәсем</h2>\n$2\n<h2>Лицензия</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Сығанаҡ:</i> $2 <i>Авторы:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Сығанаҡ:</i> $2 <i>Лицензия:</i> $3 <i>Авторҙар:</i> $4 <i>Рәссәм:</i> $5",
-	"coll-warning-read-more": "Тулыраҡ уҡырға"
+	"coll-images-title": "Һүрәттәр",
+	"coll-images-source": "Сығанаҡ",
+	"coll-images-license": "Лицензия",
+	"coll-images-original-artist": "Үҙенсәлекле рәссам",
+	"coll-license-title": "Эстәлек лицензияһы"
 }
