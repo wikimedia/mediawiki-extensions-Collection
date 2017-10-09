@@ -14,19 +14,15 @@ class BookRendererTest extends MediaWikiTestCase {
 	 * @param string[] $pages Map of prefixed DB key => Parsoid HTML.
 	 * @param array[] $metadata Map of prefixed DB key => metadata, as returned by fetchMetadata().
 	 * @param string $expectedHtml Expected HTML of the rendered book
-	 * @param array[] $expectedSections Expected state of $metadata['sections'] at end
-	 * @param array[] $expectedOutline Expected state of $metadata['outline'] at end
 	 */
 	public function testRenderBook(
-		$collection, $pages, $metadata, $expectedHtml, $expectedSections, $expectedOutline
+		$collection, $pages, $metadata, $expectedHtml
 	) {
 		$templateParser = new TemplateParser( __DIR__ . '/../../../templates' );
 		$templateParser->enableRecursivePartials( true );
 		$renderer = new BookRenderer( $templateParser );
 		$html = $renderer->renderBook( $collection, $pages, $metadata );
 		$this->assertSameExceptWhitespace( $expectedHtml, $html, 'HTML mismatch' );
-		$this->assertArraySame( $expectedSections, $metadata['sections'], 'Section mismatch' );
-		$this->assertArraySame( $expectedOutline, $metadata['outline'], 'Outline mismatch' );
 	}
 
 	public function provideRenderBook() {
