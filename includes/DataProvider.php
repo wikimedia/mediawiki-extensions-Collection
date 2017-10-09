@@ -225,7 +225,9 @@ class DataProvider implements LoggerAwareInterface {
 				}
 			} while ( $continue );
 		} else {
-			$metadata['images'][$page['title']] = [];
+			if ( isset( $page['title'] ) ) {
+				$metadata['images'][$page['title']] = [];
+			}
 		}
 
 		// get sections & modules
