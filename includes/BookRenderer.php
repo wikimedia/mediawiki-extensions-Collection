@@ -114,9 +114,12 @@ class BookRenderer {
 		} else {
 			$metadataLevel = 0;
 		}
+		$hasImages = isset( $metadata['images'] ) && $metadata['images'];
+		$hasLicense = isset( $metadata['license'] ) && $metadata['license'];
+
 		$outline = array_merge( $outline,
 			$this->getAdditionalBookChapters( $tocHeadingCounter, $metadataLevel,
-				$metadata['images'], $metadata['license'] )
+				$hasImages, $hasLicense )
 		);
 
 		$templateData = [
@@ -127,17 +130,21 @@ class BookRenderer {
 			'outline' => $outline,
 			'html' => $bookBodyHtml,
 		];
-		if ( $metadata['images'] ) {
+		if ( $hasImages ) {
 			$templateData['images'] = [
 				'data' => $metadata['images'],
 				'level' => $headingCounter->incrementAndGetTopLevel(),
 			];
+		} else {
+			$templateData['images'] = false;
 		}
-		if ( $metadata['license'] ) {
+		if ( $hasLicense ) {
 			$templateData['license'] = [
 				'data' => $metadata['license'],
 				'level' => $headingCounter->incrementAndGetTopLevel(),
 			];
+		} else {
+			$templateData['license'] = false;
 		}
 		return $templateData;
 	}
