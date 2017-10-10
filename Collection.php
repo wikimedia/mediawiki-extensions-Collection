@@ -228,6 +228,7 @@ $wgHooks['SkinTemplateBuildNavUrlsNav_urlsAfterPermalink'][] = 'CollectionHooks:
 $wgHooks['SidebarBeforeOutput'][] = 'CollectionHooks::buildSidebar';
 $wgHooks['SiteNoticeAfter'][] = 'CollectionHooks::siteNoticeAfter';
 $wgHooks['OutputPageCheckLastModified'][] = 'CollectionHooks::checkLastModified';
+$wgHooks['UnitTestsList'][] = 'CollectionHooks::onUnitTestsList';
 $wgExtensionFunctions[] = 'CollectionHooks::onSetup';
 
 $wgAvailableRights[] = 'collectionsaveasuserpage';
