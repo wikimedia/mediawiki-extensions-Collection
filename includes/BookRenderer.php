@@ -32,13 +32,16 @@ class BookRenderer {
 	 * @param array[] &$metadata Map of prefixed DB key => metadata, as returned by fetchMetadata().
 	 *   Section data will be updated to account for heading level and id changes.
 	 *   Also, an outline will be added (see renderCoverAndToc() for format).
-	 * @param boolean $hasChapters whether the book has articles
-	 * @param integer $articleCount number of articles in the book
 	 * @return array with keys html representing the data needed to render the book
 	 */
-	private function getBookTemplateData(
-		$collection, $pages, $metadata, $hasChapters, $articleCount
-	) {
+	private function getBookTemplateData( $collection, $pages, $metadata ) {
+		$hasChapters = !empty( array_filter( $collection['items'], function ( $item ) {
+			return $item['type'] === 'chapter';
+		} ) );
+		$articleCount = count( array_filter( $collection['items'], function ( $item ) {
+			return $item['type'] === 'article';
+		} ) );
+
 		$headingCounter = new HeadingCounter();
 		$bookBodyHtml = '';
 		$items = $collection['items'];
@@ -64,11 +67,6 @@ class BookRenderer {
 						'data-mw-sectionnumber' => $headingCounter->incrementAndGet( -2 ),
 					], $titleText ) . "\n";
 			} elseif ( $item['type'] === 'article' ) {
-				$outline = array_merge( $outline,
-					$this->getArticleChaptersData( $title, $tocHeadingCounter,
-						$metadata['displaytitle'], $metadata['sections'], $articleCount )
-				);
-
 				$dbkey = $title->getPrefixedDBkey();
 				$html = $this->getBodyContents( $pages[$dbkey] );
 
@@ -99,6 +97,10 @@ class BookRenderer {
 					'fragmentNamespace' => \RemexHtml\HTMLData::NS_HTML,
 					'fragmentName' => 'body',
 				] );
+				$outline = array_merge( $outline,
+					$this->getArticleChaptersData( $title, $tocHeadingCounter,
+						$metadata['displaytitle'], $metadata['sections'], $articleCount )
+				);
 				$bookBodyHtml .= Html::openElement( 'article' )
 					. substr( $serializer->getResult(), 15 ) // strip "<!DOCTYPE html>"
 					. Html::closeElement( 'article' );
@@ -158,15 +160,7 @@ class BookRenderer {
 	 * @return string HTML of the rendered book (without body/head).
 	 */
 	public function renderBook( $collection, $pages, &$metadata ) {
-		$hasChapters = !empty( array_filter( $collection['items'], function ( $item ) {
-			return $item['type'] === 'chapter';
-		} ) );
-		$articleCount = count( array_filter( $collection['items'], function ( $item ) {
-			return $item['type'] === 'article';
-		} ) );
-
-		$book = $this->getBookTemplateData( $collection, $pages, $metadata,
-			$hasChapters, $articleCount );
+		$book = $this->getBookTemplateData( $collection, $pages, $metadata );
 
 		$final = $this->renderCoverAndToc( $collection, $book['outline'] )
 			. $book['html']
