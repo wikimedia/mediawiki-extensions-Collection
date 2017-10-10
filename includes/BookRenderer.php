@@ -29,12 +29,12 @@ class BookRenderer {
 	 * @param array[] $collection as returned by
 	 *   CollectionSession::getCollection().
 	 * @param string[] $pages Map of prefixed DB key => Parsoid HTML.
-	 * @param array[] &$metadata Map of prefixed DB key => metadata, as returned by fetchMetadata().
+	 * @param array[] $metadata Map of prefixed DB key => metadata, as returned by fetchMetadata().
 	 *   Section data will be updated to account for heading level and id changes.
 	 *   Also, an outline will be added (see renderCoverAndToc() for format).
 	 * @return array with keys html representing the data needed to render the book
 	 */
-	private function getBookTemplateData( $collection, $pages, $metadata ) {
+	public function getBookTemplateData( $collection, $pages, $metadata ) {
 		$hasChapters = !empty( array_filter( $collection['items'], function ( $item ) {
 			return $item['type'] === 'chapter';
 		} ) );

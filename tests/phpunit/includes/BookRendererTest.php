@@ -9,6 +9,19 @@ use Title;
 
 class BookRendererTest extends MediaWikiTestCase {
 	/**
+	 * @dataProvider provideGetBookTemplateDataOutlineGeneration
+	 */
+	public function testGetBookTemplateDataOutlineGeneration(
+		$collection, $pages, $metadata, $expectedOutline
+	) {
+		$templateParser = new TemplateParser( __DIR__ . '/../../../templates' );
+		$renderer = new BookRenderer( $templateParser );
+		$data = $renderer->getBookTemplateData( $collection, $pages, $metadata );
+		$this->assertArraySame( $expectedOutline, $data['outline'],
+			'Check table of contents generation' );
+	}
+
+	/**
 	 * @dataProvider provideRenderBook
 	 * @param array[] $collection Collection, as returned by CollectionSession::getCollection().
 	 * @param string[] $pages Map of prefixed DB key => Parsoid HTML.
@@ -33,6 +46,17 @@ class BookRendererTest extends MediaWikiTestCase {
 			'id conflict' => $this->loadData( 'id_conflict' ),
 			'header conflict' => $this->loadData( 'header_conflict' ),
 		];
+	}
+
+	public function provideGetBookTemplateDataOutlineGeneration() {
+		$cases = [];
+		foreach ( [ 'single_page', 'two_pages', 'chapters', 'id_conflict', 'header_conflict' ] as $key ) {
+			$eg = $this->loadData( $key );
+			$cases[] = [
+				$eg['collection'], $eg['pages'], $eg['metadata'], $eg['expectedOutline'],
+			];
+		}
+		return $cases;
 	}
 
 	/**
