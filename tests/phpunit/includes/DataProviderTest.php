@@ -101,8 +101,17 @@ class DataProviderTest extends MediaWikiTestCase {
 		$dataProvider->expects( $this->any() )
 			->method( 'makeActionApiRequest' )
 			->willReturnCallback( function ( $params ) use ( $parse, $contributors ) {
-				if (
-					$params['action'] === 'query' && $params['prop'] === 'contributors'
+				if ( isset( $params['meta'] ) && $params['siprop'] === 'rightsinfo' ) {
+					return [
+						'query' => [
+							'rightsinfo' => [
+								'url' => '//creativecommons.org/licenses/by-sa/3.0/',
+								'text' => 'Creative Commons Attribution-Share Alike 3.0',
+							],
+						]
+					];
+				} elseif (
+					$params['action'] === 'query' && $params['prop'] === 'contributors|images'
 					&& !isset( $params['meta'] ) && !isset( $params['list'] )
 				) {
 					return [ 'query' => [ 'pages' => $contributors ] ];
@@ -175,6 +184,11 @@ class DataProviderTest extends MediaWikiTestCase {
 						],
 					],
 					'contributors' => [ 'X' => 1, 'Y' => 2 ],
+					'images' => [],
+					'license' => [
+						'url' => '//creativecommons.org/licenses/by-sa/3.0/',
+						'text' => 'Creative Commons Attribution-Share Alike 3.0',
+					],
 					'modules' => [ 'foo1', 'foo2' ],
 					'modulescripts' => [ 'fooscript' ],
 					'modulestyles' => [ 'foostyle' ],
@@ -261,6 +275,11 @@ class DataProviderTest extends MediaWikiTestCase {
 						],
 					],
 					'contributors' => [ 'X' => 1, 'Y' => 2, 'Z' => 3 ],
+					'images' => [],
+					'license' => [
+						'url' => '//creativecommons.org/licenses/by-sa/3.0/',
+						'text' => 'Creative Commons Attribution-Share Alike 3.0',
+					],
 					'modules' => [ 'foo1', 'foo2', 'bar' ],
 					'modulescripts' => [ 'fooscript', 'barscript' ],
 					'modulestyles' => [ 'foostyle', 'barstyle' ],
