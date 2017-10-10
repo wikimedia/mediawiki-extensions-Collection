@@ -301,14 +301,22 @@ class MWServeRenderingAPI extends CollectionRenderingAPI {
 		// If $serveURL has a | in it, we need to use a proxy.
 		list( $proxy, $serveURL ) = array_pad( explode( '|', $serveURL, 2 ), -2, '' );
 
+		if ( !$serveURL ) {
+			wfDebugLog( 'collection', 'The mwlib/OCG render server URL isn\'t configured.' );
+
+			return new CollectionAPIResult( false );
+		}
+
 		$response = Http::post(
 			$serveURL,
 			[ 'postData' => $params, 'proxy' => $proxy ],
 			__METHOD__
 		);
+
 		if ( $response === false ) {
 			wfDebugLog( 'collection', "Request to $serveURL resulted in error" );
 		}
+
 		return new CollectionAPIResult( $response );
 	}
 }
