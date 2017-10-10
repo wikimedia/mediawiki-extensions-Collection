@@ -8,21 +8,64 @@ use TemplateParser;
 use Title;
 
 class BookRendererTest extends MediaWikiTestCase {
+	const TEMPLATE_DIR = '/../../../templates';
+
 	/**
 	 * @dataProvider provideGetBookTemplateDataOutlineGeneration
 	 */
 	public function testGetBookTemplateDataOutlineGeneration(
 		$collection, $pages, $metadata, $expectedOutline
 	) {
-		$templateParser = new TemplateParser( __DIR__ . '/../../../templates' );
+		$templateParser = new TemplateParser( __DIR__ . self::TEMPLATE_DIR );
 		$renderer = new BookRenderer( $templateParser );
 		$data = $renderer->getBookTemplateData( $collection, $pages, $metadata );
 		$this->assertArraySame( $renderer->getNestedOutline( $expectedOutline ), $data['toc']['tocitems'],
 			'Check table of contents generation' );
 	}
 
+	public function testfixTemplateData() {
+		$templateParser = new TemplateParser( __DIR__ . self::TEMPLATE_DIR );
+		$renderer = new BookRenderer( $templateParser );
+		$fixedData = $renderer->fixTemplateData( [
+			'a' => false,
+			'b' => [],
+			'c' => [
+				'd' => [ 'a', 'b', 'c' ],
+				'e' => false,
+				'f' => [
+					'g' => [ 'a', 'b', 'c' ],
+				],
+			],
+			'd' => 'hello world',
+			'e' => 0,
+			'f' => 1,
+		] );
+		$this->assertArraySame( $fixedData, [
+			'a' => false,
+			'b?' => false,
+			'b' => [],
+			'c?' => true,
+			'c' => [
+				'd?' => true,
+				'd' => [ 'a', 'b', 'c' ],
+				'e' => false,
+				'f?' => true,
+				'f' => [
+					'g?' => true,
+					'g' => [ 'a', 'b', 'c' ],
+				],
+			],
+			'd?' => true,
+			'd' => 'hello world',
+			'e?' => true,
+			'e' => 0,
+			'f?' => true,
+			'f' => 1,
+		] );
+	}
+
 	public function testGetBookTemplateDataImagesGeneration() {
-		$templateParser = new TemplateParser( __DIR__ . '/../../../templates' );
+		$templateParser = new TemplateParser( __DIR__ . self::TEMPLATE_DIR );
 		$renderer = new BookRenderer( $templateParser );
 		$collection = [ 'items' => [], 'title' => 'Empty book' ];
 		$data = $renderer->getBookTemplateData( $collection, [], [] );
@@ -44,7 +87,7 @@ class BookRendererTest extends MediaWikiTestCase {
 	public function testRenderBook(
 		$collection, $pages, $metadata, $expectedHtml
 	) {
-		$templateParser = new TemplateParser( __DIR__ . '/../../../templates' );
+		$templateParser = new TemplateParser( __DIR__ . self::TEMPLATE_DIR );
 		$templateParser->enableRecursivePartials( true );
 		$renderer = new BookRenderer( $templateParser );
 		$html = $renderer->renderBook( $collection, $pages, $metadata );

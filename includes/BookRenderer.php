@@ -333,14 +333,16 @@ class BookRenderer {
 	 * @param array $data
 	 * @return array
 	 */
-	private function fixTemplateData( $data ) {
+	public function fixTemplateData( $data ) {
 		$fixedData = [];
 		if ( !is_array( $data ) ) {
 			return $data;
 		}
 		foreach ( $data as $field => $value ) {
 			// treat 0/'0' as truthy
-			$fixedData[$field . '?'] = !in_array( $value, [ false, [], '' ], true );
+			if ( !is_bool( $value ) ) {
+				$fixedData[$field . '?'] = !in_array( $value, [ false, [], '' ], true );
+			}
 			if ( is_array( $value ) ) {
 				if ( array_keys( $value ) === array_keys( array_values( $value ) ) ) {
 					// consecutive numeric keys - treat as an array
