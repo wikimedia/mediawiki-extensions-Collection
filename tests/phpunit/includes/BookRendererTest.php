@@ -21,6 +21,19 @@ class BookRendererTest extends MediaWikiTestCase {
 			'Check table of contents generation' );
 	}
 
+	public function testGetBookTemplateDataImagesGeneration() {
+		$templateParser = new TemplateParser( __DIR__ . '/../../../templates' );
+		$renderer = new BookRenderer( $templateParser );
+		$collection = [ 'items' => [], 'title' => 'Empty book' ];
+		$data = $renderer->getBookTemplateData( $collection, [], [] );
+		$this->assertSame( $data['license'], false, 'Template data for empty book has no license' );
+		$this->assertSame( $data['images'], false, 'Template data for empty book has no images' );
+		$this->assertSame( $data['contributors'], false,
+			'Template data for empty book has no contributors' );
+		$this->assertArraySame( $data['outline'], [],
+			'Template data for empty book has empty outline' );
+	}
+
 	/**
 	 * @dataProvider provideRenderBook
 	 * @param array[] $collection Collection, as returned by CollectionSession::getCollection().

@@ -41,6 +41,7 @@ class BookRenderer {
 		$articleCount = count( array_filter( $collection['items'], function ( $item ) {
 			return $item['type'] === 'article';
 		} ) );
+		$hasArticles = $articleCount > 0;
 
 		$headingCounter = new HeadingCounter();
 		$bookBodyHtml = '';
@@ -119,19 +120,26 @@ class BookRenderer {
 		$hasImages = isset( $metadata['images'] ) && $metadata['images'];
 		$hasLicense = isset( $metadata['license'] ) && $metadata['license'];
 
-		$outline = array_merge( $outline,
-			$this->getAdditionalBookChapters( $tocHeadingCounter, $metadataLevel,
-				$hasImages, $hasLicense )
-		);
+		if ( $hasArticles ) {
+			$outline = array_merge( $outline,
+				$this->getAdditionalBookChapters( $tocHeadingCounter, $metadataLevel,
+					$hasImages, $hasLicense )
+			);
+		}
 
 		$templateData = [
-			'contributors' => [
-				'data' => $metadata['contributors'],
-				'level' => $headingCounter->incrementAndGetTopLevel(),
-			],
 			'outline' => $outline,
 			'html' => $bookBodyHtml,
 		];
+
+		if ( $hasArticles ) {
+			$templateData['contributors'] = [
+				'data' => $metadata['contributors'],
+				'level' => $headingCounter->incrementAndGetTopLevel(),
+			];
+		} else {
+			$templateData['contributors'] = false;
+		}
 		if ( $hasImages ) {
 			$templateData['images'] = [
 				'data' => $metadata['images'],
