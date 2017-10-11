@@ -17,7 +17,8 @@
 			"Fasouzafreitas",
 			"TheEduGobi",
 			"Macofe",
-			"Felipe L. Ewald"
+			"Felipe L. Ewald",
+			"Eduardo Addad de Oliveira"
 		]
 	},
 	"coll-desc": "[[Special:Book|Criar livros]]",
@@ -196,7 +197,12 @@
 	"coll-attribution-page": "<h1>Fontes de texto e imagem, contribuidores e licenças </h1>\n<h2>Text</h2>\n$1<h2>Imagens</h2>\n$2\n<h2>Conteudo licenças</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Contribuidores:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Licença:</i> $3 <i>Contribuidores:</i> $4 <i>Artista original:</i> $5",
-	"coll-warning-text": "Estamos tendo problemas significativos com a função que atualmente usamos para criar PDFs. Desafortunadamente, temos que substituí-la. Isso pode afetar o estilo e o conjunto de recursos dos Livros. Gostaríamos de convidá-lo para uma conversa em torno da funcionalidade necessária na substituição proposta. Para comentários, visite a página do projeto aqui: https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality",
-	"coll-warning-leave-feedback": "Deixar um comentário",
-	"coll-warning-read-more": "Leia mais"
+	"coll-warning-disable-pdf-title": "Book Creator está passando por mudanças",
+	"coll-warning-learn-more": "Saiba mais",
+	"coll-notice-download-pdf-title": "Faça o download de páginas únicas",
+	"coll-images-title": "Imagens",
+	"coll-images-source": "Fonte",
+	"coll-images-license": "Licença",
+	"coll-images-original-artist": "Artista original",
+	"coll-license-title": "Licença de conteúdo"
 }
