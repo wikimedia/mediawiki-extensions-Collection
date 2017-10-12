@@ -166,7 +166,13 @@ class DataProvider implements LoggerAwareInterface {
 			$data = $this->makeActionApiRequest( $params );
 			$continue = isset( $data['continue'] ) ? $data['continue'] : [];
 			$params = $continue + $params;
-			foreach ( $data['query']['pages'] as $page ) {
+			if ( isset( $data['query']['pages'] ) ) {
+				$pages = $data['query']['pages'];
+			} else {
+				$pages = [];
+				wfDebugLog( 'collection', 'No pages were found in response: ' . json_decode( $data ) );
+			}
+			foreach ( $pages as $page ) {
 				// Contributors will not be defined if pclimit is hit one of the other pages
 				if ( isset( $page['contributors'] ) ) {
 					foreach ( $page['contributors'] as $key => $contrib ) {
