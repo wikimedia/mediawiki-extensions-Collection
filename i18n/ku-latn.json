@@ -3,7 +3,8 @@
 		"authors": [
 			"George Animal",
 			"Bikarhêner",
-			"Ghybu"
+			"Ghybu",
+			"Cûndûllah el-Kurdî"
 		]
 	},
 	"coll-collection": "Pirtûk",
@@ -72,5 +73,8 @@
 	"coll-setting-toc-yes": "Erê",
 	"coll-setting-toc-no": "Na",
 	"coll-attribution-anons": "Anonîm: $1",
-	"coll-article-attribution": "<b>$1</b> <i>Çavkanî:</i> $2 <i>Kesên ko Beşdarbûn:</i> $3"
+	"coll-article-attribution": "<b>$1</b> <i>Çavkanî:</i> $2 <i>Kesên ko Beşdarbûn:</i> $3",
+	"coll-images-title": "Wêne",
+	"coll-images-source": "Çavkanî",
+	"coll-images-license": "Lîsans"
 }
