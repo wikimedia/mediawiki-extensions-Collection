@@ -452,6 +452,7 @@ $specialPageAliases['uk'] = [
 /** Urdu (اردو) */
 $specialPageAliases['ur'] = [
 	'Book' => [ 'کتاب', 'انتخاب' ],
+	'RenderBook' => [ 'طبع_کتاب' ],
 ];
 
 /** Venetian (vèneto) */
