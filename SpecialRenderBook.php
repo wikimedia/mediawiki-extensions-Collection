@@ -14,10 +14,25 @@ class SpecialRenderBook extends SpecialPage {
 		$this->setListed( false );
 	}
 
+	/**
+	 * A placeholder method for checking whether the current user is
+	 * allowed to make use of the special page for testing purposes.
+	 * Currently this defaults to false, until we implement proper
+	 * permissioning (see T178289)
+	 * @param User $user to check permissions for
+	 * @return bool
+	 */
+	public function hasUserGotTestingPermission( $user ) {
+		return false;
+	}
+
 	public function execute( $subPage ) {
 		$key = null;
 		if ( strpos( $subPage, '/' ) !== false ) {
 			list( $subPage, $key ) = explode( '/', $subPage, 2 );
+		}
+		if ( !$this->hasUserGotTestingPermission( $this->getUser() ) ) {
+			return;
 		}
 
 		$services = MediaWikiServices::getInstance();
