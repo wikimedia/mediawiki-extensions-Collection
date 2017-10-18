@@ -63,6 +63,7 @@
 	"coll-rendering_status": "<strong>setyitase:</strong> $1",
 	"coll-rendering_article": "(Wiki kasabelih: $1)",
 	"coll-rendering_page": "(kasabelih: $1)",
+	"coll-rendering_finished_title": "malahci tu masanga’",
 	"coll-rendering_finished_notes_heading": "pacunus sakacaay kapawan:",
 	"coll-rendering_failed_title": "masanga’ mungangaw",
 	"coll-rendering_failed_status": "<strong> setyitase：</strong>$1",

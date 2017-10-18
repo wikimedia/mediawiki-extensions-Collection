@@ -196,5 +196,10 @@
 	"coll-warning-disable-pdf-text": "Book Creator kommer inte tillåta generering av böcker i PDF-format på ett tag på grund av allvarliga problem i vårt system. Vi arbetar hårt med att ersätta vårt system för att åtgärda problemet.",
 	"coll-warning-learn-more": "Läs mer",
 	"coll-notice-download-pdf-title": "Ladda ner enskilda sidor som PDF",
-	"coll-contributors-title": "Bidragsgivare"
+	"coll-contributors-title": "Bidragsgivare",
+	"coll-images-title": "Bilder",
+	"coll-images-source": "Källa",
+	"coll-images-license": "Licens",
+	"coll-images-original-artist": "Ursprunglig konstnär",
+	"coll-license-title": "Innehållslicens"
 }
