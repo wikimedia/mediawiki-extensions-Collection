@@ -15,8 +15,8 @@ class CollectionPageTemplate extends QuickTemplate {
 	/**
 	 * Create a download form which allows you to download the book as pdf
 	 *
-	 * @param {ContextSource} $context being rendered in
-	 * @param {Array} $writers A list of the available writers
+	 * @param ContextSource $context being rendered in
+	 * @param array $writers A list of the available writers
 	 * @return string
 	 */
 	public function getDownloadForm( $context, $writers ) {
