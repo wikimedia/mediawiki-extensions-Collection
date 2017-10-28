@@ -65,6 +65,7 @@
 	"coll-rendering_article": "(Wiki kasabelih: $1)",
 	"coll-rendering_page": "(kasabelih: $1)",
 	"coll-rendering_finished_title": "malahci tu masanga’",
+	"coll-rendering_finished_text": "<strong>cudad masanga’ tu.</strong>\n<strong>[$1 patasasa’ tina cudad]</strong> tayza misuay a tinnaw.",
 	"coll-rendering_finished_notes_heading": "pacunus sakacaay kapawan:",
 	"coll-rendering_failed_title": "masanga’ mungangaw",
 	"coll-rendering_failed_status": "<strong> setyitase：</strong>$1",
