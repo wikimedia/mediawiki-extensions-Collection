@@ -783,11 +783,35 @@ class SpecialCollection extends SpecialPage {
 			return false;
 		}
 		$collection = CollectionSession::getCollection();
-		$saved = $collection['items'][$index + $delta];
-		$collection['items'][$index + $delta] = $collection['items'][$index];
-		$collection['items'][$index] = $saved;
-		CollectionSession::setCollection( $collection );
-		return true;
+		$collection = self::moveItemInCollection( $collection, $index, $delta );
+		if ( $collection === false ) {
+			return false;
+		} else {
+			CollectionSession::setCollection( $collection );
+			return true;
+		}
+	}
+
+	/**
+	 * @param array $collection
+	 * @param int $index
+	 * @param int $delta
+	 * @return bool|collection
+	 */
+	public static function moveItemInCollection( $collection, $index, $delta ) {
+		$swapIndex = $index + $delta;
+		if ( !$collection || !isset( $collection['items'] ) ) {
+			return false;
+		}
+		$items = $collection['items'];
+		if ( isset( $items[$swapIndex] ) && isset( $items[$index] ) ) {
+			$saved = $items[$swapIndex];
+			$collection['items'][$swapIndex] = $items[$index];
+			$collection['items'][$index] = $saved;
+			return $collection;
+		} else {
+			return false;
+		}
 	}
 
 	/**
