@@ -11,7 +11,8 @@
 			"Обрадовић Горан",
 			"Srdjan m",
 			"Сербијана",
-			"Macofe"
+			"Macofe",
+			"Zoranzoki21"
 		]
 	},
 	"coll-desc": "[[Special:Book|Писац књига]]",
@@ -85,6 +86,7 @@
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/израђивање збирног текста",
 	"coll-rendering_finished_title": "Израђивање је завршено",
 	"coll-rendering_finished_text": "<strong>Документ је направљен.</strong>\n<strong>[$1 Преузмите датотеку]</strong> на свој рачунар.",
+	"coll-rendering_finished_notes_heading": "Напомене:",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/израђивање текста",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/израђивање збирног текста",
 	"coll-rendering_failed_status": "<strong>Стање:</strong> $1",
@@ -164,11 +166,20 @@
 	"coll-make_suggestions": "Предложи странице",
 	"coll-make_suggestions_tooltip": "Прикажи предлоге засноване на страницама из ваше књиге",
 	"coll-suggest_empty": "празно",
+	"coll-setting-papersize": "Величина папира:",
+	"coll-setting-papersize-letter": "Писмо",
 	"coll-setting-toc-auto": "Аутоматски",
 	"coll-setting-toc-yes": "Да",
 	"coll-setting-toc-no": "Не",
 	"coll-setting-columns": "Колона:",
 	"coll-attribution-anons": "Анонимно: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Извор:</i> $2 <i>Доприносиоци:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Извор:</i> $2 <i>Лиценца:</i> $3 <i>Допринели:</i> $4 <i>Оригинални уметник:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Извор:</i> $2 <i>Лиценца:</i> $3 <i>Допринели:</i> $4 <i>Оригинални уметник:</i> $5",
+	"coll-warning-learn-more": "Сазнајте више",
+	"coll-toc-title": "Садржај",
+	"coll-contributors-title": "Доприносиоци",
+	"coll-images-title": "Слике",
+	"coll-images-source": "Извор",
+	"coll-images-license": "Лиценца",
+	"coll-license-title": "Лиценца садржаја"
 }
