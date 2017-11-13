@@ -92,6 +92,7 @@
 	"coll-invalid_podpartner_title": "la’cusay a POD cabay mikadum",
 	"coll-invalid_podpartner_msg": "nipabeli a cabay mikadum la’cus, pitakus numisuay a MediaWiki mikuwanay.",
 	"coll-return_to": "tatiku [[:$1]]",
+	"coll-order_info_article": "{{MediaWiki:Coll-helppage}}/PediaPress miaca a cesyun",
 	"coll-suggest_title": "patahkal nizateng kasabeleh nu cudad numisu",
 	"coll-suggest_reset_bans": "miliyaw patizeng",
 	"coll-suggest_reset_bans_tooltip": "paazih nasawniay masipuay a patahkal nizateng",
