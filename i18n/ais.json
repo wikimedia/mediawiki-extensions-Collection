@@ -7,6 +7,7 @@
 		]
 	},
 	"coll-desc": "[[Special:Book|patizeng ku cudad]]",
+	"coll-book_creator_intro": "<big> pisaungay \" patizeng cengse nu cudadan \", kapah kisu pisaungay mapili’ay nu misu a kasabelih saka ku lacul patizeng cacay a cudad. kapah kisu patahkal  cudad lacul tu caay kaleacday a kese (tinaku PDF saca ODF) saca kakilul miaca masaheciay cudad.</big>",
 	"coll-manage_your_book": "mikuwan numisu a cudad",
 	"coll-book_creator_help": "piazihen [[{{MediaWiki:Coll-helppage}}|cudad buhci tu kamu kasabelih]] amaala sayadahay a cesyun.",
 	"coll-start_book_creator": "miteka pisaungay patizeng cengse nu cudadan",
@@ -19,6 +20,7 @@
 	"coll-couldnotaddarticle_msg": "la’cus micunus tina Wiki kasabelih.",
 	"coll-couldnotremovearticle_title": "la’cus misipu Wiki kasabelih",
 	"coll-couldnotremovearticle_msg": "la’cus misipu tina Wiki kasabelih.",
+	"coll-noscript_text": "<h1>maydih pisaungay JavaScript!</h1>\n<strong>saazihay-sakaluk nu misu caay midama JavaScript saca maedeb JavaScript.\namahica caay miwawah JavaScript. tina kasabelih caaytu malecek pisaungay.</strong>",
 	"coll-savedbook_template": "masuped a cudad",
 	"coll-your_book": "nu misuay a cudad",
 	"coll-download_title": "patasasa'",
@@ -54,6 +56,7 @@
 	"coll-personal_collection_label": "teked a cudad:",
 	"coll-community_collection_label": "komiyonityi a cudad:",
 	"coll-save_collection": "misuped tu cudad",
+	"coll-save_category": "sacahamin masupeday a cudad amacunus ta kakuniza [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]]",
 	"coll-overwrite_title": "kasabelih izaw tu.\nmatahpu tu haw?",
 	"coll-overwrite_text": "kasabelih [[:$1]] izaw tu.\nmaydih mitahpu sa nu misuay a cudad haw?",
 	"coll-yes": "hang",
@@ -65,6 +68,7 @@
 	"coll-limit_exceeded_title": "mangasiw ku cudad",
 	"coll-limit_exceeded_text": "cudad nu misu tatabaki mangaleb.\nla’cus micunus kasabelih yadah mangaleb.",
 	"coll-rendering_title": "misanga’ henay ayza",
+	"coll-rendering_text": "<p><strong> imahini misanga’ ku cudad, pihalhali.</strong></p>\n\n<p><strong> taayaw:</strong><span id=\"renderingProgress\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p> tina kasabelih paypinabeti amalunuk misabaluh,\namahica caay lunuk misabaluh, pisapecec saazihay-sakaluk a misaliyaw pipenecan.</p>",
 	"coll-rendering_status": "<strong>setyitase:</strong> $1",
 	"coll-rendering_article": "(Wiki kasabelih: $1)",
 	"coll-rendering_page": "(kasabelih: $1)",
@@ -76,6 +80,7 @@
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/masanga’ kasabelih cesyun a sulit",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/masanga’ lecapu cesyun a sulit",
 	"coll-rendering_failed_title": "masanga’ mungangaw",
+	"coll-rendering_failed_text": "<strong>masanga’ cudad tangan mungangaw.</strong>\n\n<p><span id=\"renderingStatus\">$1</span></p>",
 	"coll-rendering_failed_status": "<strong> setyitase：</strong>$1",
 	"coll-failed_page_info_text_article": "{{MediaWiki:Coll-helppage}}/masanga’ kasabelih cesyun a sulit",
 	"coll-failed_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/masanga’ lecapu cesyun a sulit",
@@ -161,6 +166,7 @@
 	"coll-setting-toc-no": "caay",
 	"coll-setting-columns": "sausi nu langat:",
 	"coll-attribution-anons": "pacebaay ngangan：$1",
+	"coll-attribution-page": "<h1>sulit atu zunga aangangan, paaniaangangan tu kalusasing, sapabeli tu kinli a cedang</h1>\n<h2>cudad</h2>\n$1<h2>zunga</h2>\n$2\n<h2>lacul sapabeli tu kinli a cedang</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i> saangangan： </i> $2 <i>paaninay tu kalusasing:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>saangangan:</i> $2 <i>sapabeli tu kinli a cedang:</i> $3 <i>paaninay tu kalusasing:</i> $4 <i>saayaway a masacudaday:</i> $5"
 }
