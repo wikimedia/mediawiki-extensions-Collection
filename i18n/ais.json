@@ -14,6 +14,7 @@
 	"coll-book_creator_continue": "palalid pisaungay patizeng cengse nu cudadan",
 	"coll-book_creator_text_article": "{{MediaWiki:Coll-helppage}}/patizeng cengse nu cudadan a sulit",
 	"coll-collection": "cudad",
+	"coll-collections": "cudad",
 	"coll-unknown_subpage_title": "caay kapulita sailuc-kasabelih",
 	"coll-unknown_subpage_text": "tina[[Special:Book|cudad]] sailuc-kasabelih inayi’.",
 	"coll-couldnotaddarticle_title": "la’cus micunus Wiki kasabelih",
@@ -26,6 +27,7 @@
 	"coll-download_title": "patasasa'",
 	"coll-download_text": "pipili’ kese atu sapecec  pipenecan patasasa’ a cudad.",
 	"coll-download_as_text": "pipecec pipenecan ku ̩$1 kese patasasa’ tu cudad.",
+	"coll-download": "patasasa'",
 	"coll-format_label": "tatudungay a kenis:",
 	"coll-remove": "milimad",
 	"coll-show": "paazi",
@@ -99,6 +101,7 @@
 	"coll-about_pp": "mahizaay $1",
 	"coll-invalid_podpartner_title": "la’cusay a POD cabay mikadum",
 	"coll-invalid_podpartner_msg": "nipabeli a cabay mikadum la’cus, pitakus numisuay a MediaWiki mikuwanay.",
+	"coll-license": "sapabeli tu kinli a cedang",
 	"coll-return_to": "tatiku [[:$1]]",
 	"coll-order_info_article": "{{MediaWiki:Coll-helppage}}/PediaPress miaca a cesyun",
 	"coll-suggest_title": "patahkal nizateng kasabeleh nu cudad numisu",
@@ -140,6 +143,7 @@
 	"coll-add_category_tooltip": "micunus tina kakuniza sacahamin a Wiki kasabelih tayza i cudad nu misu",
 	"coll-add_this_page": "micunus kina kasabelih patayza misuay a cudad",
 	"coll-add_page_tooltip": "cunusen ayzaay a Wiki kasabelih patayza misuay a cudad",
+	"coll-bookscategory": "cudad",
 	"coll-clear_collection": "milawpes tu cudad",
 	"coll-clear_collection_confirm": "malucek amisipu ku cudad nu misu haw?",
 	"coll-clear_collection_tooltip": "nay misuay ayzaay a cudad misipu sacahamin Wiki kasabelih.",
@@ -168,5 +172,10 @@
 	"coll-attribution-anons": "pacebaay ngangan：$1",
 	"coll-attribution-page": "<h1>sulit atu zunga aangangan, paaniaangangan tu kalusasing, sapabeli tu kinli a cedang</h1>\n<h2>cudad</h2>\n$1<h2>zunga</h2>\n$2\n<h2>lacul sapabeli tu kinli a cedang</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i> saangangan： </i> $2 <i>paaninay tu kalusasing:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>saangangan:</i> $2 <i>sapabeli tu kinli a cedang:</i> $3 <i>paaninay tu kalusasing:</i> $4 <i>saayaway a masacudaday:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>saangangan:</i> $2 <i>sapabeli tu kinli a cedang:</i> $3 <i>paaninay tu kalusasing:</i> $4 <i>saayaway a masacudaday:</i> $5",
+	"coll-warning-learn-more": "sayadahay ku tineng",
+	"coll-contributors-title": "paaninay tu kalusasing",
+	"coll-images-title": "zunga",
+	"coll-images-source": "saangangan",
+	"coll-images-license": "sapabeli tu kinli a cedang"
 }
