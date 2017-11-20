@@ -95,7 +95,10 @@ class BookRenderingMediator implements LoggerAwareInterface {
 				return in_array( $key, [ 'type', 'title', 'revision' ], true );
 			} );
 		}, $keyBase['items'] );
-		$key = $this->htmlCache->makeGlobalKey( md5( json_encode( $keyBase ) ) );
+		$key = $this->htmlCache->makeGlobalKey(
+			'collection-book',
+			md5( json_encode( $keyBase ) )
+		);
 
 		$book = $this->htmlCache->get( $key );
 		if ( !$book ) {
