@@ -5,7 +5,8 @@
 			"S.Örvarr.S",
 			"Snævar",
 			"Sveinn í Felli",
-			"Macofe"
+			"Macofe",
+			"Maxí"
 		]
 	},
 	"coll-desc": "[[Special:Book|Búa til bækur]]",
@@ -117,7 +118,7 @@
 	"coll-suggest_article_ban": "Síðan <strong>$1</strong> var fjarlægð úr uppástungum ($2).",
 	"coll-suggest_article_add": "Síðunni <strong>$1</strong> var bætt við bókina þína ($2).",
 	"coll-suggest_article_remove": "Síðan <strong>$1</strong> var fjarlægð úr bókinni þinni ($2).",
-	"coll-suggest_undo_tooltip": "Taka aftur þessa breytingu",
+	"coll-suggest_undo_tooltip": "taka aftur þessa breytingu",
 	"coll-suggest_undo": "Taka aftur",
 	"coll-load_local_book": "Smelltu á \"OK\" til þess að halda áfram með bókina $1 sem inniheldur $2 wiki {{PLURAL:$2|síðu|síður}}. Ýttu á \"cancel\" til þess að eyða henni og byrja með tóma bók.",
 	"coll-format-rl": "rafbók (PDF, gengin frá af mwlib)",

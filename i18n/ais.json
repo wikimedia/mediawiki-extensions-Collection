@@ -119,6 +119,7 @@
 	"coll-suggest_article_remove": "kasabelih <strong>$1</strong> namakayza tisuwanan a cudad ilabu’ misipu ($2).",
 	"coll-suggest_undo_tooltip": "patiku tina saungay",
 	"coll-suggest_undo": "patiku",
+	"coll-load_local_book": "cudad nu misu $1 izaw pulung $2 {{PLURAL:$2|belih}}, sapecec \"OK\" palalid mikawaway-kalumyiti. sapecec \"Cancel\" masipu zumasatu miliyaw patizeng ku cudad.",
 	"coll-format-rl": "tyincesu-cudad (PDF, mwlib mizungaay a cengse)",
 	"coll-format-epub": "tyincesu-cudad (EPUB)",
 	"coll-format-odf": "sasulit saungay-sakaluk (OpenDocument)",
