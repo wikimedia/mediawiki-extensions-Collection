@@ -4,7 +4,15 @@
 			"Gnangarra"
 		]
 	},
+	"coll-remove": "Barranginy",
+	"coll-show": "Yong-a",
 	"coll-move_up": "irak",
 	"coll-move_down": "ardak",
-	"coll-show_collection_tooltip": "Burrunginy wallak ijow/burrunginy bibol waanginy"
+	"coll-print_export": "Print/export",
+	"coll-create_a_book": "wallak ijow boola bibol",
+	"coll-download_as": "Download as $1",
+	"coll-help": "Mar yirra",
+	"coll-n_pages": "$1 {{PLURAL:$1|bibol}}",
+	"coll-show_collection_tooltip": "Burrunginy wallak ijow/burrunginy bibol waanginy",
+	"coll-image-attribution": "<b>$1</b> <i>Source:</i> $2 <i>License:</i> $3 <i>Contributors:</i> $4 <i>Original artist:</i> $5"
 }
