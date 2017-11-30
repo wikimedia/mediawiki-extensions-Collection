@@ -4,17 +4,20 @@
 			"Gnangarra"
 		]
 	},
-	"coll-remove": "Barranginy",
+	"coll-remove": "Moon garng",
 	"coll-show": "Yong-a",
 	"coll-move_up": "irak",
 	"coll-move_down": "ardak",
 	"coll-print_export": "Print/export",
-	"coll-create_a_book": "wallak ijow boola bibol",
+	"coll-create_a_book": "wallak boola bibol",
 	"coll-download_as": "Download as $1",
+	"coll-add_this_page": "nidja bibol noonook boola bibol",
 	"coll-help": "Mar yirra",
+	"coll-helppage": "Mar Yira:Boola bibol",
 	"coll-n_pages": "$1 {{PLURAL:$1|bibol}}",
+	"coll-remove_this_page": "Moon garng nidja bibol noonook boola bibol",
 	"coll-show_collection": "Yong-a boola bibol",
-	"coll-show_collection_tooltip": "Burrunginy wallak ijow/burrunginy bibol waanginy",
+	"coll-show_collection_tooltip": "Burrunginy wallak/burrunginy bibol waanginy",
 	"coll-attribution-anons": "Ngeern $1",
 	"coll-image-attribution": "<b>$1</b> <i>Source:</i> $2 <i>License:</i> $3 <i>Contributors:</i> $4 <i>Original artist:</i> $5"
 }
