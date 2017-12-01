@@ -127,6 +127,7 @@ $specialPageAliases['eo'] = [
 /** Spanish (español) */
 $specialPageAliases['es'] = [
 	'Book' => [ 'Libro', 'Libros', 'Colección', 'Colecciones' ],
+	'RenderBook' => [ 'Generar_libro', 'Generar_libros' ],
 ];
 
 /** Estonian (eesti) */
