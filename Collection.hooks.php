@@ -21,15 +21,6 @@
  */
 
 class CollectionHooks {
-	public static function onSetup() {
-		// This prevents this extension from being run in environments
-		// that don't have the dependent code in core; this should be
-		// updated as a part of when additional dependencies are
-		// created and pushed into MediaWiki's core.  In particular
-		// this tracks the use of OOjs UI in the Collection extension.
-		wfUseMW( '1.25wmf19' );
-	}
-
 	/**
 	 * Callback for hook SkinBuildSidebar
 	 *
