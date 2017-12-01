@@ -314,6 +314,12 @@ $specialPageAliases['mt'] = [
 	'Book' => [ 'Ktieb', 'Kollezzjoni' ],
 ];
 
+/** Mirandés (Mirandese) */
+$specialPageAliases['mwl'] = [
+	'Book' => [ 'Lhibro', 'Libro', 'Coleçon' ],
+	'RenderBook' => [ 'CumposiçonLhibro', 'CumposiçonLibro' ],
+];
+
 /** Erzya (эрзянь) */
 $specialPageAliases['myv'] = [
 	'Book' => [ 'Ставкс' ],
