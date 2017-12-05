@@ -180,7 +180,5 @@
 	"coll-attribution-anons": "{{PLURAL:$1|Một người vô danh|$1 người vô danh}}",
 	"coll-attribution-page": "<h1>Nguồn, người đóng góp, và giấy phép cho văn bản và hình ảnh</h1>\n<h2>Văn bản</h2>\n$1<h2>Hình ảnh</h2>\n$2\n<h2>Giấy phép nội dung</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Nguồn:</i> $2 <i>Người đóng góp:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Nguồn:</i> $2 <i>Giấy phép:</i> $3 <i>Người đóng góp:</i> $4 <i>Nghệ sĩ đầu tiên:</i> $5",
-	"coll-warning-leave-feedback": "Để lại phản hồi",
-	"coll-warning-read-more": "Đọc thêm"
+	"coll-image-attribution": "<b>$1</b> <i>Nguồn:</i> $2 <i>Giấy phép:</i> $3 <i>Người đóng góp:</i> $4 <i>Nghệ sĩ đầu tiên:</i> $5"
 }

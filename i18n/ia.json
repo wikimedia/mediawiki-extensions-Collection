@@ -177,8 +177,5 @@
 	"coll-attribution-anons": "Anonyme: $1",
 	"coll-attribution-page": "<h1>Fontes de texto e imagines, contributores e licentias</h1>\n<h2>Texto</h2>\n$1\n<h2>Imagines</h2>\n$2\n<h2>Licentia</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Contributores:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Licentia:</i> $3 <i>Contributores:</i> $4 <i>Artista original:</i> $5",
-	"coll-warning-text": "Nos ha actualmente importante problemas con le function que nos usa pro crear PDFs. Es necessari reimplaciar lo. Isto pote afficer le stilo e functionalitate de Libros. Nos volerea invitar te a un conversation sur le functionalitate necessari pro le substituto proponite. Pro dar tu opinion, per favor, visita le pagina de projecto hic: https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality",
-	"coll-warning-leave-feedback": "Dar nos tu opinion",
-	"coll-warning-read-more": "Leger plus"
+	"coll-image-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Licentia:</i> $3 <i>Contributores:</i> $4 <i>Artista original:</i> $5"
 }
