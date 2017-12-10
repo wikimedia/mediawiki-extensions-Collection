@@ -90,7 +90,7 @@
 	"coll-rendering_title": "產生中",
 	"coll-rendering_text": "<p><strong>正在產生文件，請稍候。</strong></p>\n\n<p><strong>進度：</strong><span id=\"renderingProgress\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p>此頁面每數秒會自動更新，\n如果未自動更新，請點選瀏覽器的 重新整理 按鈕。</p>",
 	"coll-rendering_status": "<strong>狀態：</strong> $1",
-	"coll-rendering_article": "(Wiki 頁面： $1)",
+	"coll-rendering_article": "(wiki 頁面： $1)",
 	"coll-rendering_page": "(頁面：$1)",
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/產生頁面資訊文字",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/產生集合資訊文字",
