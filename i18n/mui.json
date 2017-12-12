@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jawadywn"
+		]
+	},
+	"coll-remove": "Bunu",
+	"coll-show": "Jingokke",
+	"coll-move_up": "Pindahke ke pucuk",
+	"coll-move_down": "Pindahke ke bawah",
+	"coll-print_export": "Cap/simpen",
+	"coll-create_a_book": "Biat kitab",
+	"coll-download_as": "Mintak $1-nyo"
+}
