@@ -3,7 +3,8 @@
 		"authors": [
 			"Alma",
 			"Toliño",
-			"Elisardojm"
+			"Elisardojm",
+			"Banjo"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crear libros]]",
@@ -183,6 +184,7 @@
 	"coll-warning-disable-pdf-text": "A causa de problemas graves co sistema existente, o Creador de libros non admitirá a xeración de libros en PDF por un breve período. Estamos a traballar intensamente para substituír este sistema e volver a ofrecer a función de PDF no Creador de libros.",
 	"coll-warning-learn-more": "Máis información",
 	"coll-notice-download-pdf-title": "Descargar páxinas individuais",
+	"coll-notice-download-pdf-text": "Mentres que a composición do creador de libros en PDF está a substituírse, podes probar '''''Descargar como PDF''''' na barra de ferramentas lateral para os artigos individuais.",
 	"coll-toc-title": "Táboa de contidos",
 	"coll-contributors-title": "Colaboradores",
 	"coll-images-title": "Imaxes",
