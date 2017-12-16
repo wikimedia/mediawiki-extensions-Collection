@@ -180,8 +180,8 @@ $wgCollectionDisableDownloadSection = true;
 $wgAutoloadClasses['SpecialCollection'] = __DIR__ . '/Collection.body.php';
 $wgAutoloadClasses['CollectionSession'] = __DIR__ . '/Collection.session.php';
 $wgAutoloadClasses['CollectionHooks'] = __DIR__ . '/Collection.hooks.php';
-$wgAutoloadClasses['CollectionSuggest'] = __DIR__ . '/Collection.suggest.php';
-$wgAutoloadClasses['CollectionProposals'] = __DIR__ . '/Collection.suggest.php';
+$wgAutoloadClasses['CollectionSuggest'] = __DIR__ . '/CollectionSuggest.php';
+$wgAutoloadClasses['CollectionProposals'] = __DIR__ . '/CollectionProposals.php';
 
 $wgAutoloadClasses['SpecialRenderBook'] = __DIR__ . '/SpecialRenderBook.php';
 $wgAutoloadClasses[\MediaWiki\Extensions\Collection\DataProvider::class]
@@ -214,9 +214,9 @@ $wgAutoloadClasses['CollectionFailedTemplate'] =
 $wgAutoloadClasses['CollectionSuggestTemplate'] =
 	__DIR__ . '/templates/CollectionSuggestTemplate.php';
 
-$wgAutoloadClasses['CollectionRenderingAPI'] = __DIR__ . '/RenderingAPI.php';
-$wgAutoloadClasses['MWServeRenderingAPI'] = __DIR__ . '/RenderingAPI.php';
-$wgAutoloadClasses['CollectionAPIResult'] = __DIR__ . '/RenderingAPI.php';
+$wgAutoloadClasses['CollectionRenderingAPI'] = __DIR__ . '/rendering/CollectionRenderingAPI.php';
+$wgAutoloadClasses['MWServeRenderingAPI'] = __DIR__ . '/rendering/MWServeRenderingAPI.php';
+$wgAutoloadClasses['CollectionAPIResult'] = __DIR__ . '/rendering/CollectionAPIResult.php';
 
 $wgMessagesDirs['Collection'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['CollectionAlias'] = __DIR__ . '/Collection.alias.php';
