@@ -67,7 +67,7 @@
 	"coll-save_collection_text": "Escolliu on desar el vostre llibre:",
 	"coll-login_to_save": "Si voleu desar un llibre per a ús posterior, si us plau [[Special:UserLogin|iniciï la sessió o crei un compte]]",
 	"coll-personal_collection_label": "Llibre personal:",
-	"coll-community_collection_label": "Llibre de la comunitat:",
+	"coll-community_collection_label": "Llibre comunitari:",
 	"coll-save_collection": "Desa llibre",
 	"coll-save_category": "Tots els llibres queden desats en la categoria [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]].",
 	"coll-overwrite_title": "La pàgina existeix. Voleu substituir-la?",
