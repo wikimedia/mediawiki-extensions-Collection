@@ -9,7 +9,8 @@
 			"Tomasdd",
 			"Albertas",
 			"Zygimantus",
-			"Macofe"
+			"Macofe",
+			"Manvydasz"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kurti knygas]]",
@@ -163,7 +164,7 @@
 	"coll-helppage": "Help:Knygos",
 	"coll-load_collection": "Įkelti knygas",
 	"coll-load_collection_tooltip": "Įkelti šią knygą kaip jūsų dabartinę knygą",
-	"coll-n_pages": "$1 {{PLURAL:$1|puslapis|puslapiai}}",
+	"coll-n_pages": "$1 {{PLURAL:$1|puslapis|puslapiai|puslapių}}",
 	"coll-printable_version_pdf": "PDF versija",
 	"coll-remove_this_page": "Pašalinti šį puslapį iš jūsų knygos",
 	"coll-remove_page_tooltip": "Pašalinti dabartinį wiki puslapį iš jūsų knygos",
