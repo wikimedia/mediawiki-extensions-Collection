@@ -333,7 +333,19 @@ class CollectionProposals {
 				}
 			}
 		}
-		usort( $prop, "wgCollectionCompareProps" );
+		usort(
+			$prop,
+			function ( $a, $b ) {
+				if ( $a['val'] == $b['val'] ) {
+					return strcmp( $a['name'], $b['name'] );
+				}
+				if ( $a['val'] < $b['val'] ) {
+					return 1;
+				} else {
+					return -1;
+				}
+			}
+		);
 		$this->mPropList = [];
 		$have_real_weights = false;
 		foreach ( $prop as $p ) {
@@ -391,30 +403,5 @@ class CollectionProposals {
 	 */
 	private function getPropCount() {
 		return count( $this->mPropList );
-	}
-}
-
-/**
- * sort $mPropList by the entries values
- * sort alphabetically by equal values
- *
- * @param array $a array that contain two entries
- *                the keys: 'name' & 'val'
- *                'name': an articlename
- *                'val' : a value from 1 to 1.5
- * @param array $b array that contain two entries
- *                the keys: 'name' & 'val'
- *                'name': an articlename
- *                'val' : a value from 1 to 1.5
- * @return int 1 -1 or 0
- */
-function wgCollectionCompareProps( $a, $b ) {
-	if ( $a['val'] == $b['val'] ) {
-		return strcmp( $a['name'], $b['name'] );
-	}
-	if ( $a['val'] < $b['val'] ) {
-		return 1;
-	} else {
-		return - 1;
 	}
 }

@@ -16,11 +16,6 @@
 	<rule ref="Squiz.WhiteSpace.ScopeClosingBrace">
 		<exclude-pattern>*/templates/*\.php</exclude-pattern>
 	</rule>
-	<rule ref="MediaWiki.NamingConventions.PrefixedGlobalFunctions">
-		<properties>
-			<property name="ignoreList" type="array" value="wgCollectionCompareProps" />
-		</properties>
-	</rule>
 	<file>.</file>
 	<arg name="extensions" value="php,php5,inc"/>
 	<arg name="encoding" value="UTF-8"/>
