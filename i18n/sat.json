@@ -49,5 +49,8 @@
 	"coll-make_suggestions_tooltip": "ᱯᱚᱛᱚᱵ ᱨᱮᱭᱟᱜ ᱥᱟᱦᱴᱟ ᱧᱮᱞ ᱠᱟᱛᱮ ᱥᱚᱞᱦᱟ ᱩᱫᱩᱜᱽᱢᱮ",
 	"coll-attribution-anons": "Baḍae bạnuḱaḱ:$1",
 	"coll-article-attribution": "<b>$1</b> <i>oṛ:</i> $2 <i>kạmiạko:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>ᱥᱚᱨᱥ:</i> $2 <i>ᱞᱟᱭᱥᱮᱸᱥ:</i> $3 <i>ᱮᱱᱮᱢᱤᱭᱟᱹᱠᱚ:</i> $4 <i>ᱚᱥᱚᱞ ᱟᱴᱤᱥᱴ:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>ᱥᱚᱨᱥ:</i> $2 <i>ᱞᱟᱭᱥᱮᱸᱥ:</i> $3 <i>ᱮᱱᱮᱢᱤᱭᱟᱹᱠᱚ:</i> $4 <i>ᱚᱥᱚᱞ ᱟᱴᱤᱥᱴ:</i> $5",
+	"coll-images-license": "ᱞᱟᱭᱥᱮᱸᱥ",
+	"coll-images-original-artist": "ᱚᱥᱚᱞ ᱵᱟᱰᱚᱦᱤ",
+	"coll-license-title": "ᱩᱱᱩᱫᱩᱜ ᱞᱟᱭᱥᱮᱸᱥ"
 }
