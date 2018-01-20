@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Arsenekoumyk"
+		]
+	},
+	"coll-remove": "Тайдырмакъ",
+	"coll-show": "Гёрсетмек",
+	"coll-move_up": "Оьрге гёчюрмек",
+	"coll-move_down": "Тюпге гёчюрмек",
+	"coll-print_export": "Басмагъа/тышгъа чыгъарыву",
+	"coll-create_a_book": "Китап ясамакъ",
+	"coll-download_as": "$1 форматда эндирмек"
+}

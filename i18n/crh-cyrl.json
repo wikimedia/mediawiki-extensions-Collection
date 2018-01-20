@@ -1,8 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Danvintius Bookix"
+			"Danvintius Bookix",
+			"Don Alessandro"
 		]
 	},
-	"coll-download_as": "Юклемек"
+	"coll-download_as": "$1 оларакъ эндир"
 }
