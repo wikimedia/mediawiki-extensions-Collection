@@ -7,6 +7,9 @@ use MediaWikiTestCase;
 use Title;
 use VirtualRESTServiceClient;
 
+/**
+ * @covers \MediaWiki\Extensions\Collection\DataProvider
+ */
 class DataProviderTest extends MediaWikiTestCase {
 
 	/**

@@ -7,6 +7,9 @@ use MediaWikiTestCase;
 use TemplateParser;
 use Title;
 
+/**
+ * @covers \MediaWiki\Extensions\Collection\BookRenderer
+ */
 class BookRendererTest extends MediaWikiTestCase {
 	const TEMPLATE_DIR = '/../../../templates';
 
