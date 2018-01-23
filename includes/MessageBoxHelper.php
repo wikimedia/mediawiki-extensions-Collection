@@ -25,9 +25,6 @@ use OutputPage;
 use TemplateParser;
 
 /**
- * Class MessageBoxHelper
- * @package MediaWiki\Extensions\Collection
- *
  * A helper class to easily handle extra styles and render html for messages boxes informing
  * about on-ging Book Creator maintenance and unavailability of PDF generation feature.
  *
