@@ -10,5 +10,6 @@
 	"coll-move_down": "Тюпге гёчюрмек",
 	"coll-print_export": "Басмагъа/тышгъа чыгъарыву",
 	"coll-create_a_book": "Китап ясамакъ",
-	"coll-download_as": "$1 форматда эндирмек"
+	"coll-download_as": "$1 форматда эндирмек",
+	"coll-remove_this_page": "Сени китабынгдан бу сагьифаны тайдырмакъ"
 }
