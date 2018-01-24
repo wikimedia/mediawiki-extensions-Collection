@@ -2,9 +2,14 @@
 
 namespace MediaWiki\Extensions\Collection;
 
+use MediaWikiCoversValidator;
 use SpecialCollection;
 
+/**
+ * @covers SpecialCollection
+ */
 class SpecialCollectionTest extends \PHPUnit_Framework_TestCase {
+	use MediaWikiCoversValidator;
 
 	public function provideMoveItemInCollection() {
 		return [
