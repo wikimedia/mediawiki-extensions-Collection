@@ -10,6 +10,10 @@
 	"coll-move_down": "Тюпге гёчюрмек",
 	"coll-print_export": "Басмагъа/тышгъа чыгъарыву",
 	"coll-create_a_book": "Китап ясамакъ",
+	"coll-book_creator": "Китап язывчу",
 	"coll-download_as": "$1 форматда эндирмек",
+	"coll-disable": "сёндюрмек",
+	"coll-help": "Кёмек",
+	"coll-helppage": "Кёмек:Китаплар",
 	"coll-remove_this_page": "Сени китабынгдан бу сагьифаны тайдырмакъ"
 }
