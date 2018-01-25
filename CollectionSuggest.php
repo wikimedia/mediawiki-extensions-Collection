@@ -21,19 +21,12 @@
  */
 
 /**
- * Class: CollectionSuggest
- *
  * This class contains only static methods, so theres no need for a constructer.
  * When the page Special:Book/suggest/ is loaded the method run() is called.
  * Ajax calles refresh().
  * When clearing a book the method clear() should be called.
  */
 class CollectionSuggest {
-	/**
-	 * ===============================================================================
-	 * public methods
-	 * ===============================================================================
-	 */
 
 	/**
 	 * Main entrypoint
@@ -89,7 +82,7 @@ class CollectionSuggest {
 	/**
 	 * @param string $lastAction
 	 * @param string|string[] $article
-	 * @return array
+	 * @return string[] HTML
 	 */
 	public static function undo( $lastAction, $article ) {
 		switch ( $lastAction ) {
@@ -120,14 +113,7 @@ class CollectionSuggest {
 	}
 
 	/**
-	 * ===============================================================================
-	 * private methods
-	 * ===============================================================================
-	 */
-
-	/**
 	 * @param string $article
-	 * @return mixed
 	 */
 	private static function unban( $article ) {
 		if ( !isset( $_SESSION['wsCollectionSuggestBan'] ) ) {
@@ -212,9 +198,9 @@ class CollectionSuggest {
 	 * Add some articles and update the book of the Proposal-Object
 	 *
 	 * @param array $articleList with the names of the articles to be added
-	 * @param CollectionProposals $prop the proposal Object
+	 * @param CollectionProposals $prop
 	 */
-	private static function addArticlesFromName( $articleList, $prop ) {
+	private static function addArticlesFromName( $articleList, CollectionProposals $prop ) {
 		foreach ( $articleList as $article ) {
 			SpecialCollection::addArticleFromName( NS_MAIN, $article );
 		}

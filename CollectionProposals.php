@@ -21,8 +21,6 @@
  */
 
 /**
- * class: CollectionProposals
- *
  * it needs 3 Lists:
  * - one with the bookmembers
  * - one where it can save the banned articles
@@ -39,26 +37,29 @@
 class CollectionProposals {
 
 	/**
-	 * ==================================================
-	 * class attributes
-	 * ==================================================
-	 *
-	 * only mLinkList and mPropList can be accessed from
-	 * outside the class via getLinkList() and getPropsosals()
+	 * @var array
 	 */
 	private $mColl;
+
+	/**
+	 * @var array[]
+	 */
 	private $mPropList;
+
+	/**
+	 * @var array[]
+	 */
 	private $mLinkList;
+
+	/**
+	 * @var string[]
+	 */
 	private $mBanList;
 
 	/**
-	 * ==================================================
-	 * constructor
-	 * ==================================================
-	 *
 	 * @param array $coll the collection
-	 * @param array $ban the list of the banned articles
-	 * @param array $props the list of the proposals
+	 * @param string[] $ban the list of the banned articles
+	 * @param array[] $props the list of the proposals
 	 */
 	public function __construct( $coll, $ban, $props ) {
 		$this->mPropList = [];
@@ -68,13 +69,7 @@ class CollectionProposals {
 	}
 
 	/**
-	 * ==================================================
-	 * public methods
-	 * ==================================================
-	 */
-
-	/**
-	 * @return array
+	 * @return array[]
 	 */
 	public function getLinkList() {
 		return $this->mLinkList;
@@ -83,7 +78,7 @@ class CollectionProposals {
 	/**
 	 * @param array $collection
 	 */
-	public function setCollection( $collection ) {
+	public function setCollection( array $collection ) {
 		$this->mColl = $collection;
 	}
 
@@ -97,7 +92,7 @@ class CollectionProposals {
 	 * @param bool $doUpdate when true, $linkList will
 	 *        updated before calculating the proposals
 	 *        default is true
-	 * @return array a 2-dimensional array that contains the proposals
+	 * @return array[] a 2-dimensional array that contains the proposals
 	 *         the first dimesion is numeric, the second contains
 	 *         3 entries:
 	 *         - 'name': the name of a proposed article
@@ -126,12 +121,6 @@ class CollectionProposals {
 	public function hasBans() {
 		return count( $this->mBanList ) > 0;
 	}
-
-	/**
-	 * ==================================================
-	 * private methods
-	 * ==================================================
-	 */
 
 	private function updateLinkList() {
 		$this->addCollectionArticles();
@@ -200,7 +189,7 @@ class CollectionProposals {
 	 *
 	 * @param int $num_articles
 	 * @param string $wikitext article text
-	 * @return array with links and their weights
+	 * @return float[] with links and their weights
 	 */
 	private function getWeightedLinks( $num_articles, $wikitext ) {
 		global $wgCollectionSuggestCheapWeightThreshhold;
@@ -364,7 +353,7 @@ class CollectionProposals {
 	 * if the array doesn't contain the article
 	 *
 	 * @param string $entry an articlename
-	 * @param array $array to be searched, it has to 2-dimensional
+	 * @param array[] $array to be searched, it has to 2-dimensional
 	 *               the 2nd dimension needs the key 'name'
 	 * @return bool|int the key as integer or false
 	 */
