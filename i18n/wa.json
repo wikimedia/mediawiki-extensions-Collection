@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Srtxg"
+			"Srtxg",
+			"Reptilien.19831209BE1"
 		]
 	},
 	"coll-desc": "Permete di [[Special:Book|fé des lives]]",
@@ -64,6 +65,8 @@
 	"coll-helppage": "Help:Lives",
 	"coll-n_pages": "$1 {{PLURAL:$1|pådje|pådjes}}",
 	"coll-printable_version_pdf": "Modêye PDF",
+	"coll-remove_this_page": "Disfacer cisse pådje ci di vosse live",
+	"coll-show_collection": "Mostrer li live",
 	"coll-suggest_empty": "vude",
 	"coll-setting-papersize": "Grandeur do papî:",
 	"coll-setting-toc": "Mete li tåvlea d' l' ådvins",
