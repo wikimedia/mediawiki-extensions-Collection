@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Arsenekoumyk"
+			"Arsenekoumyk",
+			"ArslanX"
 		]
 	},
 	"coll-remove": "Тайдырмакъ",
@@ -15,5 +16,6 @@
 	"coll-disable": "сёндюрмек",
 	"coll-help": "Кёмек",
 	"coll-helppage": "Кёмек:Китаплар",
-	"coll-remove_this_page": "Сени китабынгдан бу сагьифаны тайдырмакъ"
+	"coll-remove_this_page": "Сени китабынгдан бу сагьифаны тайдырмакъ",
+	"coll-show_collection": "Китапны гёрсетмек"
 }
