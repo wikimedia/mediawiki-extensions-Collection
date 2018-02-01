@@ -15,7 +15,8 @@
 			"Arystanbek",
 			"Macofe",
 			"1917 Ekim Devrimi",
-			"Vito Genovese"
+			"Vito Genovese",
+			"Rapsar"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kitap oluştur]]",
@@ -188,5 +189,6 @@
 	"coll-attribution-anons": "Anonim: $1",
 	"coll-attribution-page": "<h1>Metin ve görüntü kaynakları, yazarlar ve lisans</h1>\n<h2>Metin</h2>\n$1<h2>Resimler</h2>\n$2\n<h2>İçerik lisans</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Kaynak:</i> $2 <i>Katkıda bulunanlar:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Kaynak:</i> $2 <i>Lisans:</i> $3 <i>Katkıda bulunanlar:</i> $4 <i>Özgün yazarı:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Kaynak:</i> $2 <i>Lisans:</i> $3 <i>Katkıda bulunanlar:</i> $4 <i>Özgün yazarı:</i> $5",
+	"coll-warning-learn-more": "Daha fazla bilgi"
 }

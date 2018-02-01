@@ -8,12 +8,14 @@
 			"StanProg",
 			"Termininja",
 			"Vodnokon4e",
-			"Macofe"
+			"Macofe",
+			"ShockD"
 		]
 	},
 	"coll-desc": "[[Special:Book|Създаване на книги]]",
 	"coll-manage_your_book": "Управление на книгата ви",
 	"coll-book_creator_help": "Вижте [[{{MediaWiki:Coll-helppage}}|страницата с помощ за книги]] за повече подробности.",
+	"coll-start_book_creator": "Пускане на създателя на книги",
 	"coll-collection": "Книга",
 	"coll-collections": "Книги",
 	"coll-unknown_subpage_title": "Непозната подстраница",
