@@ -3,7 +3,7 @@
 	"type": "mediawiki-extension",
 	"description": "The Collection extension allows users to collect articles and generate downloadable versions in different formats (PDF, OpenDocument, Text, etc.) for article collections and single articles.",
 	"homepage": "http://www.mediawiki.org/wiki/Extension:Collection",
-	"license": "GPL-2.0+",
+	"license": "GPL-2.0-or-later",
 	"require": {
 		"composer/installers": ">=1.0.1"
 	},
