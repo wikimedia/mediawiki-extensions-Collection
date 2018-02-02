@@ -30,7 +30,7 @@ class CollectionPageTemplate extends QuickTemplate {
 			$description = wfMessage( 'coll-download_as_text', $writer )->parseAsBlock();
 			$buttonLabel = wfMessage( 'coll-download_as', $writer )->escaped();
 		} else {
-			$description = $context->getOutput()->parse( $this->translator->translate( 'coll-download_text' ) );
+			$description = $context->getOutput()->parse( wfMessage( 'coll-download_text' )->text() );
 			$buttonLabel = wfMessage( 'coll-download' )->escaped();
 		}
 		$templateParser = new TemplateParser( __DIR__ );
