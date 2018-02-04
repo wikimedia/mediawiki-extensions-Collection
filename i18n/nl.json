@@ -191,6 +191,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>Bron:</i> $2 <i>Bijdragers:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Bron:</i> $2 <i>Licentie:</i> $3 <i>Bijdragers:</i> $4 <i>Oorspronkelijke artiest:</i> $5",
 	"coll-warning-learn-more": "Meer lezen",
+	"coll-notice-download-pdf-title": "Individuele pagina's downloaden",
 	"coll-toc-title": "Inhoudsopgave",
 	"coll-contributors-title": "Bijdragers",
 	"coll-images-title": "Afbeeldingen",
