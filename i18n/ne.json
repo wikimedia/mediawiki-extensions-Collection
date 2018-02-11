@@ -5,7 +5,8 @@
 			"Bhawani Gautam Rhk",
 			"बिप्लब आनन्द",
 			"राम प्रसाद जोशी",
-			"Macofe"
+			"Macofe",
+			"सरोज कुमार ढकाल"
 		]
 	},
 	"coll-desc": "[[Special:Book|पुस्तक बनाउने]]",
@@ -29,7 +30,7 @@
 	"coll-your_book": "तपाईंको पुस्तक",
 	"coll-download_title": "डाउनलोड",
 	"coll-download_text": "आफ्नो पुस्तक डाउनलोड गर्नका लागी स्वरूप छान्नुहोस र बटनमा क्लिक गर्नुस।",
-	"coll-download_as_text": "आफ्नो पुस्तकलाई $1 स्वरूपमा डाउनलोड गर्नका लागी बटनमा क्लिक गर्नुस।",
+	"coll-download_as_text": "आफ्नो पुस्तकलाई $1 स्वरूपमा डाउनलोड गर्नका लागि बटनमा क्लिक गर्नुस।",
 	"coll-download": "डाउनलोड",
 	"coll-format_label": "स्वरूप:",
 	"coll-remove": "हटाउने",
@@ -45,8 +46,8 @@
 	"coll-create_chapter": "अध्याय बनाउनुस",
 	"coll-sort_alphabetically": "वर्णानुक्रम अनुसार मिलाउने",
 	"coll-rename": "नाम परिवर्तन गर्ने",
-	"coll-new_chapter": "नयाँ अध्यायको लागी नाम राख्नुस",
-	"coll-rename_chapter": "नयाँ अध्यायको लागी नाम राख्नुस",
+	"coll-new_chapter": "नयाँ अध्यायको लागि नाम राख्नुहोस्",
+	"coll-rename_chapter": "नयाँ अध्यायको लागि नाम राख्नुहोस्",
 	"coll-no_such_category": "यस्तो कुनै श्रेणी छैन",
 	"coll-notitle_title": "यस पृष्ठको शिर्षक सुनिश्चित गर्न सकिएन",
 	"coll-notitle_msg": "पृष्ठको शीर्षक निर्धारण गर्न सकिएन।",
@@ -103,7 +104,7 @@
 	"coll-order_from_pp": "$1 देखि पूर्वरूप हेर्ने",
 	"coll-about_pp": "$1 को बारेमा",
 	"coll-invalid_podpartner_title": "अमान्य पिओडि साथी",
-	"coll-invalid_podpartner_msg": "चयन गरिएको प्रिन्ट-अन-डिमान्ड पार्टनर अमान्य छ।\nकृपया आफ्नो मीडियाविकि प्रवधकसँग सम्पर्क गर्नुहोस्।",
+	"coll-invalid_podpartner_msg": "चयन गरिएको प्रिन्ट-अन-डिमान्ड पार्टनर अमान्य छ।\nकृपया आफ्नो मिडियाविकी प्रबन्धकसँग सम्पर्क गर्नुहोस्।",
 	"coll-license": "अनुमतिपत्र",
 	"coll-return_to": "[[:$1]] मा फर्किने",
 	"coll-order_info_article": "{{MediaWiki:Coll-helppage}}/पिडीयाप्रेस क्रम जानकारी",
