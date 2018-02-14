@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Stavanger7"
+			"Stavanger7",
+			"Fanjiayi"
 		]
 	},
 	"coll-remove": "Remover",
+	"coll-show": "Monstrar",
 	"coll-print_export": "Printar/exportar",
 	"coll-create_a_book": "Crear un libre",
 	"coll-book_creator": "Creation de libres",
