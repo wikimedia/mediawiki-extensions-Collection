@@ -6,12 +6,12 @@
 	function set_status( html ) {
 		if ( html ) {
 			$( '#collectionSuggestStatus' )
-			.css( 'visibility', 'visible' )
-			.html( html );
+				.css( 'visibility', 'visible' )
+				.html( html );
 		} else {
 			$( '#collectionSuggestStatus' )
-			.css( 'visibility', 'hidden' )
-			.html( '&nbsp;' );
+				.css( 'visibility', 'hidden' )
+				.html( '&nbsp;' );
 		}
 	}
 

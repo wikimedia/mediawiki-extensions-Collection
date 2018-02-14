@@ -63,8 +63,8 @@
 			if ( result.state === 'progress' ) {
 				if ( result.status.progress ) {
 					$( '#renderingProgress' ).html(
-					mw.language.convertNumber( result.status.progress )
-				);
+						mw.language.convertNumber( result.status.progress )
+					);
 				}
 				if ( result.status.status ) {
 					var status = result.status.status;
@@ -74,8 +74,8 @@
 						status += gettext( '#renderingPage', result.status.page );
 					}
 					$( '#renderingStatus' ).html(
-					gettext( '#renderingStatusText', status )
-				);
+						gettext( '#renderingStatusText', status )
+					);
 				}
 				setTimeout( getMWServeStatus, 500 );
 			} else {
@@ -87,18 +87,18 @@
 	function clear_collection() {
 		if ( confirm( gettext( '#clearCollectionConfirmText' ) ) ) {
 			req( 'Clear',
-			[],
-			function ( result ) {
-				$( '#titleInput, #subtitleInput' ).val( '' );
-				refresh_list( result );
-				req( 'GetBookCreatorBoxContent', [
-					'showbook',
-					null,
-					mw.config.get( 'wgPageName' )
-				], function ( result2 ) {
-					$( '#coll-book_creator_box' ).html( result2.html );
+				[],
+				function ( result ) {
+					$( '#titleInput, #subtitleInput' ).val( '' );
+					refresh_list( result );
+					req( 'GetBookCreatorBoxContent', [
+						'showbook',
+						null,
+						mw.config.get( 'wgPageName' )
+					], function ( result2 ) {
+						$( '#coll-book_creator_box' ).html( result2.html );
+					} );
 				} );
-			} );
 		}
 		return false;
 	}
@@ -124,17 +124,17 @@
 
 	function remove_item( index ) {
 		req( 'RemoveItem',
-		[ index ],
-		function ( result ) {
-			refresh_list( result );
-			req( 'GetBookCreatorBoxContent', [
-				'showbook',
-				null,
-				mw.config.get( 'wgPageName' )
-			], function ( result2 ) {
-				$( '#coll-book_creator_box' ).html( result2.html );
+			[ index ],
+			function ( result ) {
+				refresh_list( result );
+				req( 'GetBookCreatorBoxContent', [
+					'showbook',
+					null,
+					mw.config.get( 'wgPageName' )
+				], function ( result2 ) {
+					$( '#coll-book_creator_box' ).html( result2.html );
+				} );
 			} );
-		} );
 		return false;
 	}
 
@@ -227,33 +227,33 @@
 			update_buttons();
 			make_sortable();
 			$( '#coll-orderbox li.collection-partner.coll-more_info.collapsed' ).css(
-			'list-style',
-			'url("' + collapseicon + '")'
-		);
+				'list-style',
+				'url("' + collapseicon + '")'
+			);
 			$( '#coll-orderbox' ).on(
-			'click',
-			'li.collection-partner.coll-more_info a.coll-partnerlink',
-			function ( event ) {
-				event.preventDefault();
-				event.stopPropagation();
-				var p = $( this ).parents( 'li.collection-partner' );
-				if ( p.hasClass( 'collapsed' ) ) {
-					p.css( 'list-style', 'url("' + expandicon + '")' );
-					p.find( '.coll-order_info' ).css( 'display', 'block' );
-					p.removeClass( 'collapsed' );
-				} else {
-					p.css( 'list-style', 'url("' + collapseicon + '")' );
-					p.find( '.coll-order_info' ).css( 'display', 'none' );
-					p.addClass( 'collapsed' );
-				}
-			} );
+				'click',
+				'li.collection-partner.coll-more_info a.coll-partnerlink',
+				function ( event ) {
+					event.preventDefault();
+					event.stopPropagation();
+					var p = $( this ).parents( 'li.collection-partner' );
+					if ( p.hasClass( 'collapsed' ) ) {
+						p.css( 'list-style', 'url("' + expandicon + '")' );
+						p.find( '.coll-order_info' ).css( 'display', 'block' );
+						p.removeClass( 'collapsed' );
+					} else {
+						p.css( 'list-style', 'url("' + collapseicon + '")' );
+						p.find( '.coll-order_info' ).css( 'display', 'none' );
+						p.addClass( 'collapsed' );
+					}
+				} );
 			$( '#personalCollTitle, #communityCollTitle' )
-			.val( $( '#titleInput' ).val() )
-			.change( update_buttons );
+				.val( $( '#titleInput' ).val() )
+				.change( update_buttons );
 			$( '#personalCollType, #communityCollType' )
-			.change( update_buttons );
+				.change( update_buttons );
 			$( '#titleInput, #subtitleInput, [id^="coll-input-setting-"]' )
-			.change( set_titles );
+				.change( set_titles );
 		}
 		if ( typeof collection_rendering !== 'undefined' ) {
 			getMWServeStatus();
