@@ -97,7 +97,7 @@
 			if ( !title ) {
 				return;
 			}
-		// Disable default browser tooltip
+			// Disable default browser tooltip
 			link.attr( 'title', '' );
 			show_soon_timeout = setTimeout( function () {
 				get_data_xhr = $.post( script_url, {
@@ -111,18 +111,18 @@
 						alt: ''
 					} );
 					$addremove_link
-					.text( '\u00a0' + result.text )
-					.prepend( img )
-					.unbind( 'click' )
-					.click( function () {
-						addremove_article( result.action, result.title );
-					} );
+						.text( '\u00a0' + result.text )
+						.prepend( img )
+						.unbind( 'click' )
+						.click( function () {
+							addremove_article( result.action, result.title );
+						} );
 					$popup_div
-					.css( {
-						left: mouse_pos.x + 2 + 'px',
-						top: mouse_pos.y + 2 + 'px'
-					} )
-					.show();
+						.css( {
+							left: mouse_pos.x + 2 + 'px',
+							top: mouse_pos.y + 2 + 'px'
+						} )
+						.show();
 				}, 'json' );
 			}, 300 );
 		}
@@ -162,13 +162,13 @@
 			}
 			var pos = $popup_div.offset();
 			if ( !is_inside(
-			mouse_pos.x,
-			mouse_pos.y,
-			pos.left,
-			pos.top,
-			$popup_div.width(),
-			$popup_div.height()
-		) ) {
+				mouse_pos.x,
+				mouse_pos.y,
+				pos.left,
+				pos.top,
+				$popup_div.width(),
+				$popup_div.height()
+			) ) {
 				hide();
 			}
 		}
@@ -190,20 +190,20 @@
 		':not(.sortheader)' +
 		':not([accesskey])' +
 		':not(.nopopup)'
-	).each( function () {
-		if ( this.onmousedown ) {
-			return;
-		}
-		var $this = $( this );
-		// title doesn't contain ":" (simplification!)
-		if ( !$this.attr( 'title' ) || $this.attr( 'title' ).indexOf( ':' ) !== -1 ) {
-			return;
-		}
-		if ( $this.parents( '.nopopups' ).length ) {
-			return;
-		}
-		$this.hover( function () { show( $this ); }, cancel );
-	} );
+		).each( function () {
+			if ( this.onmousedown ) {
+				return;
+			}
+			var $this = $( this );
+			// title doesn't contain ":" (simplification!)
+			if ( !$this.attr( 'title' ) || $this.attr( 'title' ).indexOf( ':' ) !== -1 ) {
+				return;
+			}
+			if ( $this.parents( '.nopopups' ).length ) {
+				return;
+			}
+			$this.hover( function () { show( $this ); }, cancel );
+		} );
 	} );
 
 }( mediaWiki, jQuery ) );
