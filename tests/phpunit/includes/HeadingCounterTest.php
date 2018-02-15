@@ -8,7 +8,7 @@ use MediaWikiCoversValidator;
 /**
  * @covers \MediaWiki\Extensions\Collection\HeadingCounter
  */
-class HeadingCounterTest extends \PHPUnit_Framework_TestCase {
+class HeadingCounterTest extends \PHPUnit\Framework\TestCase {
 	use MediaWikiCoversValidator;
 
 	/**

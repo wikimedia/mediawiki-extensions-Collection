@@ -8,7 +8,7 @@ use SpecialCollection;
 /**
  * @covers SpecialCollection
  */
-class SpecialCollectionTest extends \PHPUnit_Framework_TestCase {
+class SpecialCollectionTest extends \PHPUnit\Framework\TestCase {
 	use MediaWikiCoversValidator;
 
 	public function provideMoveItemInCollection() {
