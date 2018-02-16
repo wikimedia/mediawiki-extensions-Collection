@@ -27,5 +27,7 @@
 	"coll-show_collection_tooltip": "Тюзлемек/юклемек/тапшурмакъ учун бас",
 	"coll-make_suggestions": "Таклифли сагьифалар",
 	"coll-make_suggestions_tooltip": "Сени китабынгда энди бар сагьифаларына гёре таклифлер гёрсетмек",
-	"coll-attribution-anons": "Аноним: $1"
+	"coll-attribution-anons": "Аноним: $1",
+	"coll-article-attribution": "<b>$1</b> <i>Чыкъма:</i> $2 <i>Ясавчулар:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Чыкъма:</i> $2 <i>Лисензия:</i> $3 <i>Ясавчулар:</i> $4 <i>Суратчы:</i> $5"
 }
