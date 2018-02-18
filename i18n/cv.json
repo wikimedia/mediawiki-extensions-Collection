@@ -1,15 +1,22 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chuvash2014"
+			"Chuvash2014",
+			"Chavash"
 		]
 	},
 	"coll-collection": "Кĕнеке",
 	"coll-your_book": "Сирĕн кĕнекӳ",
 	"coll-format_label": "Формат:",
+	"coll-remove": "Катерт",
+	"coll-show": "Кăтарт",
+	"coll-move_up": "Ҫӳлерех хур",
+	"coll-move_down": "Аяларах хур",
 	"coll-update": "Çĕнĕлет",
+	"coll-print_export": "Пичет/экспорт",
 	"coll-create_a_book": "Кĕнеке тумалли",
 	"coll-book_creator": "Кĕнеке тăваканни",
+	"coll-download_as": "$1 пек тиесе антар",
 	"coll-disable": "чар",
 	"coll-bookscategory": "Кĕнекесем"
 }
