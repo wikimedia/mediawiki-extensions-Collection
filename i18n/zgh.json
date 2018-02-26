@@ -3,13 +3,15 @@
 		"authors": [
 			"Amara-Amaziɣ",
 			"ⵕⴰⵊⵉ",
-			"YesIn"
+			"YesIn",
+			"Mdb897"
 		]
 	},
 	"coll-remove": "ⵙⵉⵜⵜⵢ",
 	"coll-show": "ⵙⵎⴰⵍ",
 	"coll-move_up": "ⴰⵍⵍ",
 	"coll-move_down": "ⵙⵙⵓⴳⴳⵣ",
+	"coll-print_export": "ⵙⵙⵉⴳⵣ/ⵙⵙⵓⴼⵖ",
 	"coll-create_a_book": "ⵙⵏⴼⵍⵓⵍ ⴽⵔⴰ ⵏ ⵓⴷⵍⵉⵙ",
 	"coll-book_creator": "ⴰⵎⵙⵏⵓⵍⴼⵓ ⵏ ⵓⴷⵍⵉⵙ",
 	"coll-download_as": "ⴰⴳⵎ ⴰⵎ $1",
