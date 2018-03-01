@@ -104,11 +104,13 @@ class CollectionSuggest {
 
 	// remove the suggestion data from the session
 	public static function clear() {
-		if ( isset( $_SESSION['wsCollectionSuggestBan'] ) ) {
-			unset( $_SESSION['wsCollectionSuggestBan'] );
+		$session = SessionManager::getGlobalSession();
+
+		if ( isset( $session['wsCollectionSuggestBan'] ) ) {
+			unset( $session['wsCollectionSuggestBan'] );
 		}
-		if ( isset( $_SESSION['wsCollectionSuggestProp'] ) ) {
-			unset( $_SESSION['wsCollectionSuggestProp'] );
+		if ( isset( $session['wsCollectionSuggestProp'] ) ) {
+			unset( $session['wsCollectionSuggestProp'] );
 		}
 	}
 
@@ -116,17 +118,19 @@ class CollectionSuggest {
 	 * @param string $article
 	 */
 	private static function unban( $article ) {
-		if ( !isset( $_SESSION['wsCollectionSuggestBan'] ) ) {
+		$session = SessionManager::getGlobalSession();
+
+		if ( !isset( $session['wsCollectionSuggestBan'] ) ) {
 			return;
 		}
-		$bans = $_SESSION['wsCollectionSuggestBan'];
+		$bans = $session['wsCollectionSuggestBan'];
 		$newbans = [];
 		foreach ( $bans as $ban ) {
 			if ( $ban != $article ) {
 				$newbans[] = $ban;
 			}
 		}
-		$_SESSION['wsCollectionSuggestBan'] = $newbans;
+		$session['wsCollectionSuggestBan'] = $newbans;
 	}
 
 	/**
@@ -146,11 +150,13 @@ class CollectionSuggest {
 	private static function getCollectionSuggestTemplate( $mode, $param ) {
 		global $wgCollectionMaxSuggestions;
 
-		if ( !isset( $_SESSION['wsCollectionSuggestBan'] ) || $mode == 'resetbans' ) {
-			$_SESSION['wsCollectionSuggestBan'] = [];
+		$session = SessionManager::getGlobalSession();
+
+		if ( !isset( $session['wsCollectionSuggestBan'] ) || $mode == 'resetbans' ) {
+			$session['wsCollectionSuggestBan'] = [];
 		}
-		if ( !isset( $_SESSION['wsCollectionSuggestProp'] ) ) {
-			$_SESSION['wsCollectionSuggestProp'] = [];
+		if ( !isset( $session['wsCollectionSuggestProp'] ) ) {
+			$session['wsCollectionSuggestProp'] = [];
 		}
 
 		switch ( $mode ) {
@@ -159,11 +165,11 @@ class CollectionSuggest {
 				self::unban( $param );
 				break;
 			case 'ban':
-				$_SESSION['wsCollectionSuggestBan'][] = $param;
+				$session['wsCollectionSuggestBan'][] = $param;
 				break;
 			case 'remove':
 				SpecialCollection::removeArticleFromName( NS_MAIN, $param );
-				$_SESSION['wsCollectionSuggestBan'][] = $param;
+				$session['wsCollectionSuggestBan'][] = $param;
 				break;
 			case 'removeonly': // remove w/out banning (for undo)
 				SpecialCollection::removeArticleFromName( NS_MAIN, $param );
@@ -175,21 +181,21 @@ class CollectionSuggest {
 
 		$template = new CollectionSuggestTemplate();
 		$proposals = new CollectionProposals(
-			$_SESSION['wsCollection'],
-			$_SESSION['wsCollectionSuggestBan'],
-			$_SESSION['wsCollectionSuggestProp']
+			$session['wsCollection'],
+			$session['wsCollectionSuggestBan'],
+			$session['wsCollectionSuggestProp']
 		);
 
 		if ( $mode == 'addAll' ) {
 			self::addArticlesFromName( $param, $proposals );
 		}
 
-		$template->set( 'collection', $_SESSION['wsCollection'] );
+		$template->set( 'collection', $session['wsCollection'] );
 		$template->set( 'proposals', $proposals->getProposals( $wgCollectionMaxSuggestions ) );
 		$template->set( 'hasbans', $proposals->hasBans() );
 		$template->set( 'num_pages', CollectionSession::countArticles() );
 
-		$_SESSION['wsCollectionSuggestProp'] = $proposals->getLinkList();
+		$session['wsCollectionSuggestProp'] = $proposals->getLinkList();
 
 		return $template;
 	}
@@ -201,9 +207,10 @@ class CollectionSuggest {
 	 * @param CollectionProposals $prop
 	 */
 	private static function addArticlesFromName( $articleList, CollectionProposals $prop ) {
+		$session = SessionManager::getGlobalSession();
 		foreach ( $articleList as $article ) {
 			SpecialCollection::addArticleFromName( NS_MAIN, $article );
 		}
-		$prop->setCollection( $_SESSION['wsCollection'] );
+		$prop->setCollection( $session['wsCollection'] );
 	}
 }

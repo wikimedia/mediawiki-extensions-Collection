@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\Session\SessionManager;
+
 /**
  * Collection Extension for MediaWiki
  *
@@ -298,8 +300,9 @@ $wgResourceModules += [
 # register global Ajax functions:
 
 function wfAjaxGetCollection() {
-	if ( isset( $_SESSION['wsCollection'] ) ) {
-		$collection = $_SESSION['wsCollection'];
+	$session = SessionManager::getGlobalSession();
+	if ( isset( $session['wsCollection'] ) ) {
+		$collection = $session['wsCollection'];
 	} else {
 		$collection = [];
 	}
@@ -311,12 +314,12 @@ function wfAjaxGetCollection() {
 $wgAjaxExportList[] = 'wfAjaxGetCollection';
 
 function wfAjaxPostCollection( $collection = '', $redirect = '' ) {
-	if ( session_id() == '' ) {
-		wfSetupSession();
-	}
+	$session = SessionManager::getGlobalSession();
+	$session->persist();
+
 	$collection = FormatJson::decode( $collection, true );
 	$collection['enabled'] = true;
-	$_SESSION['wsCollection'] = $collection;
+	$session['wsCollection'] = $collection;
 	$r = new AjaxResponse();
 	if ( $redirect ) {
 		$title = Title::newFromText( $redirect );

@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\Session\SessionManager;
+
 /**
  * Collection Extension for MediaWiki
  *
@@ -26,27 +28,27 @@ class CollectionSession {
 	 * @return bool
 	 */
 	public static function hasSession() {
-		if ( !session_id() ) {
-			return false;
-		}
-		return isset( $_SESSION['wsCollection'] );
+		$session = SessionManager::getGlobalSession();
+		return isset( $session['wsCollection'] );
 	}
 
 	public static function startSession() {
-		if ( session_id() == '' ) {
-			wfSetupSession();
-		}
+		$session = SessionManager::getGlobalSession();
+		$session->persist();
+
 		self::clearCollection();
 	}
 
 	public static function touchSession() {
-		$collection = $_SESSION['wsCollection'];
+		$session = SessionManager::getGlobalSession();
+		$collection = $session['wsCollection'];
 		$collection['timestamp'] = wfTimestampNow();
-		$_SESSION['wsCollection'] = $collection;
+		$session['wsCollection'] = $collection;
 	}
 
 	public static function clearCollection() {
-		$_SESSION['wsCollection'] = [
+		$session = SessionManager::getGlobalSession();
+		$session['wsCollection'] = [
 			'enabled' => true,
 			'title' => '',
 			'subtitle' => '',
@@ -58,20 +60,21 @@ class CollectionSession {
 	}
 
 	public static function enable() {
-		if ( !self::hasSession() ) {
-			self::startSession();
-		} else {
-			$_SESSION['wsCollection']['enabled'] = true;
-			self::touchSession();
-		}
+		$session = SessionManager::getGlobalSession();
+		$session->persist();
+
+		$session['wsCollection']['enabled'] = true;
+		self::touchSession();
 	}
 
 	public static function disable() {
-		if ( !self::hasSession() ) {
+		$session = SessionManager::getGlobalSession();
+
+		if ( !isset( $session['wsCollection'] ) ) {
 			return;
 		}
 		self::clearCollection();
-		$_SESSION['wsCollection']['enabled'] = false;
+		$session['wsCollection']['enabled'] = false;
 		self::touchSession();
 	}
 
@@ -79,26 +82,34 @@ class CollectionSession {
 	 * @return bool
 	 */
 	public static function isEnabled() {
-		return self::hasSession() && isset( $_SESSION['wsCollection']['enabled'] ) &&
-			$_SESSION['wsCollection']['enabled'];
+		$session = SessionManager::getGlobalSession();
+
+		return isset( $session['wsCollection'] ) &&
+			isset( $session['wsCollection']['enabled'] ) &&
+			$session['wsCollection']['enabled'];
 	}
 
 	/**
 	 * @return bool
 	 */
 	public static function hasItems() {
-		return self::hasSession() && isset( $_SESSION['wsCollection']['items'] );
+		$session = SessionManager::getGlobalSession();
+
+		return isset( $session['wsCollection'] ) &&
+			isset( $session['wsCollection']['items'] );
 	}
 
 	/**
 	 * @return int
 	 */
 	public static function countArticles() {
+		$session = SessionManager::getGlobalSession();
+
 		if ( !self::hasItems() ) {
 			return 0;
 		}
 		$count = 0;
-		foreach ( $_SESSION['wsCollection']['items'] as $item ) {
+		foreach ( $session['wsCollection']['items'] as $item ) {
 			if ( $item['type'] == 'article' ) {
 				$count++;
 			}
@@ -116,7 +127,9 @@ class CollectionSession {
 			return - 1;
 		}
 
-		foreach ( $_SESSION['wsCollection']['items'] as $index => $item ) {
+		$session = SessionManager::getGlobalSession();
+
+		foreach ( $session['wsCollection']['items'] as $index => $item ) {
 			if ( $item['type'] == 'article' && $item['title'] == $title ) {
 				if ( $oldid ) {
 					if ( $item['revision'] == strval( $oldid ) ) {
@@ -136,10 +149,13 @@ class CollectionSession {
 	 * @return bool
 	 */
 	public static function purge() {
-		if ( !self::hasSession() ) {
+		$session = SessionManager::getGlobalSession();
+
+		if ( !isset( $session['wsCollection'] ) ) {
 			return false;
 		}
-		$coll = $_SESSION['wsCollection'];
+
+		$coll = $session['wsCollection'];
 		$newitems = [];
 		if ( isset( $coll['items'] ) ) {
 			$batch = new LinkBatch;
@@ -163,7 +179,7 @@ class CollectionSession {
 			}
 		}
 		$coll['items'] = $newitems;
-		$_SESSION['wsCollection'] = $coll;
+		$session['wsCollection'] = $coll;
 		return true;
 	}
 
@@ -171,7 +187,8 @@ class CollectionSession {
 	 * @return array
 	 */
 	public static function getCollection() {
-		return self::purge() ? $_SESSION['wsCollection'] : [
+		$session = SessionManager::getGlobalSession();
+		return self::purge() ? $session['wsCollection'] : [
 			/* empty collection */
 			'name' => '',
 			'description' => '',
@@ -183,7 +200,8 @@ class CollectionSession {
 	 * @param array $collection
 	 */
 	public static function setCollection( $collection ) {
-		$_SESSION['wsCollection'] = $collection;
+		$session = SessionManager::getGlobalSession();
+		$session['wsCollection'] = $collection;
 		self::touchSession();
 	}
 }

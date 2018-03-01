@@ -162,9 +162,13 @@ class CollectionHooks {
 			return true;
 		}
 
-		if ( !CollectionSession::hasSession()
-			|| !isset( $_SESSION['wsCollection']['enabled'] )
-			|| !$_SESSION['wsCollection']['enabled'] ) {
+		$session = SessionManager::getGlobalSession();
+
+		if (
+			!isset( $session['wsCollection'] ) ||
+			!isset( $session['wsCollection']['enabled'] ) ||
+			!$session['wsCollection']['enabled']
+		) {
 			return true;
 		}
 
@@ -429,8 +433,9 @@ class CollectionHooks {
 	 * @return bool
 	 */
 	public static function checkLastModified( $modifiedTimes ) {
-		if ( CollectionSession::hasSession() ) {
-			$modifiedTimes['collection'] = $_SESSION['wsCollection']['timestamp'];
+		$session = SessionManager::getGlobalSession();
+		if ( isset( $session['wsCollection'] ) ) {
+			$modifiedTimes['collection'] = $session['wsCollection']['timestamp'];
 		}
 		return true;
 	}
