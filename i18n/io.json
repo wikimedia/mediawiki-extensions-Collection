@@ -21,6 +21,7 @@
 	"coll-save_collection": "Registragar libro",
 	"coll-yes": "Yes",
 	"coll-no": "No",
+	"coll-load_overwrite_text": "Vu ja havas kelka pagini en vua libro.\nKa vu deziras riskribar ol, adjuntar nova kontenajo, o trastrekizar ica libro?",
 	"coll-cancel": "Anular",
 	"coll-update": "Aktualigar",
 	"coll-limit_exceeded_title": "Libro tro granda",
