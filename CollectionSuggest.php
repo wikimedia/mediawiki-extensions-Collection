@@ -20,6 +20,8 @@
  * http://www.gnu.org/copyleft/gpl.html
  */
 
+use MediaWiki\Session\SessionManager;
+
 /**
  * This class contains only static methods, so theres no need for a constructer.
  * When the page Special:Book/suggest/ is loaded the method run() is called.

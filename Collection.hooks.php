@@ -20,6 +20,8 @@
  * http://www.gnu.org/copyleft/gpl.html
  */
 
+use MediaWiki\Session\SessionManager;
+
 class CollectionHooks {
 	/**
 	 * Callback for hook SkinBuildSidebar
