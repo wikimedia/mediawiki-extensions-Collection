@@ -13,7 +13,8 @@
 			"Syreeni",
 			"McSalama",
 			"Macofe",
-			"Alluk."
+			"Alluk.",
+			"Pyscowicz"
 		]
 	},
 	"coll-desc": "[[Special:Book|Laadi kirjoja]].",
@@ -174,8 +175,15 @@
 	"coll-setting-papersize": "Paperin koko:",
 	"coll-setting-papersize-letter": "Kirje",
 	"coll-setting-toc": "Sisällytä sisällysluettelo",
+	"coll-setting-toc-yes": "Kyllä",
+	"coll-setting-toc-no": "Ei",
 	"coll-setting-columns": "Sarakkeita:",
 	"coll-attribution-anons": "Nimetön: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Lähde:</i> $2 <i>Osallistujat:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Lähde:</i> $2 <i>Lisenssi:</i> $3 <i>Osallistujat:</i> $4 <i>Alkuperäinen esittäjä:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Lähde:</i> $2 <i>Lisenssi:</i> $3 <i>Osallistujat:</i> $4 <i>Alkuperäinen esittäjä:</i> $5",
+	"coll-warning-learn-more": "Lue lisää",
+	"coll-notice-download-pdf-title": "Lataa yksittäiset sivut",
+	"coll-images-title": "Kuvat",
+	"coll-images-source": "Lähde",
+	"coll-images-license": "Lisenssi"
 }

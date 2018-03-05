@@ -11,7 +11,8 @@
 			"Omnipaedista",
 			"ZaDiak",
 			"Auslaender",
-			"Macofe"
+			"Macofe",
+			"Nikosgranturismogt"
 		]
 	},
 	"coll-desc": "[[Special:Book|Δημιουργία βιβλίων]]",
@@ -186,5 +187,14 @@
 	"coll-attribution-anons": "Ανώνυμες συνεισφορές: $1",
 	"coll-attribution-page": "<h1>Πηγές κειμένου και εικόνων, συνεισφέροντες και άδειες</h1>\n<h2>Κείμενο</h2>\n$1<h2>Εικόνες</h2>\n$2\n<h2>Άδεια χρήσης περιεχομένου</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Πηγή:</i> $2 <i>Συνεισφέροντες:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Πηγή:</i> $2 <i>Άδεια χρήσης:</i> $3 <i>Συνεισφέροντες:</i> $4 <i>Αρχικός δημιουργός:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Πηγή:</i> $2 <i>Άδεια χρήσης:</i> $3 <i>Συνεισφέροντες:</i> $4 <i>Αρχικός δημιουργός:</i> $5",
+	"coll-warning-learn-more": "Μάθετε περισσότερα",
+	"coll-notice-download-pdf-title": "Λήψη μονών σελίδων",
+	"coll-toc-title": "Πίνακας Περιεχομένων",
+	"coll-contributors-title": "Συνεισφέροντες",
+	"coll-images-title": "Εικόνες",
+	"coll-images-source": "Πηγή",
+	"coll-images-license": "Άδεια",
+	"coll-images-original-artist": "Αρχικός καλλιτέχνης",
+	"coll-license-title": "Άδεια περιεχομένου"
 }
