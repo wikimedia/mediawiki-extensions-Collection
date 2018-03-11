@@ -12,7 +12,8 @@
 			"Macofe",
 			"おはぐろ蜻蛉",
 			"Hinaloe",
-			"Phantomize"
+			"Phantomize",
+			"Yusuke1109"
 		]
 	},
 	"coll-desc": "[[Special:Book|ブックを作成する]]",
@@ -184,5 +185,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>情報源:</i> $2 <i>投稿者:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>情報源:</i> $2 <i>ライセンス:</i> $3 <i>投稿者:</i> $4 <i>原著者:</i> $5",
 	"coll-warning-learn-more": "詳細",
-	"coll-images-source": "ソース"
+	"coll-images-title": "画像",
+	"coll-images-source": "ソース",
+	"coll-images-license": "ライセンス"
 }
