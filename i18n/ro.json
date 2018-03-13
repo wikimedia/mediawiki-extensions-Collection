@@ -122,7 +122,7 @@
 	"coll-load_local_book": "Apăsați OK pentru a continua cu actuala carte (intitulată $1), care conține $2 pagini. Apăsați Renunțare pentru a o șterge și a începe o nouă carte.",
 	"coll-format-rl": "carte electronică (PDF)",
 	"coll-format-epub": "carte electronică (EPUB)",
-	"coll-format-odf": "procesor de documente (OpenDocument)",
+	"coll-format-odf": "Document Word (OpenDocument)",
 	"coll-format-zim": "Kiwix (OpenZIM)",
 	"coll-format-docbook": "DocBook",
 	"coll-format-okawix_zeno": "Okawix",
