@@ -1,13 +1,16 @@
 <?php
 
+namespace MediaWiki\Extensions\Collection\Specials;
+
 use MediaWiki\Extensions\Collection\BookRenderingMediator;
 use MediaWiki\Logger\LoggerFactory;
 use MediaWiki\MediaWikiServices;
+use SpecialPage;
 
 /**
  * Special page to display a book as a single HTML page.
  */
-class SpecialRenderBook extends SpecialPage {
+class RenderBook extends SpecialPage {
 
 	public function __construct() {
 		parent::__construct( 'RenderBook' );
