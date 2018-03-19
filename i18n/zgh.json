@@ -4,7 +4,8 @@
 			"Amara-Amaziɣ",
 			"ⵕⴰⵊⵉ",
 			"YesIn",
-			"Mdb897"
+			"Mdb897",
+			"Brahim-essaidi"
 		]
 	},
 	"coll-remove": "ⵙⵉⵜⵜⵢ",
@@ -24,6 +25,7 @@
 	"coll-remove_this_page": "ⴽⴽⵙ ⵜⴰⵙⵏⴰ ⴰ ⵙⴳ ⵓⴷⵍⵉⵙ  {{GENDER:|ⵏⵏⴽ|ⵏⵏⵎ}}",
 	"coll-show_collection": "ⵙⴽⵏ ⴰⴷⵍⵉⵙ",
 	"coll-show_collection_tooltip": "ⴽⵍⵉⴽⵉ ⴱⴰⵛ ⴰⴷ ⵜⵙⵏⴼⵍⴷ/ⵜⴰⴳⵎⴷ/ⵜⴻⵜⵜⵔⴷ ⴰⴷⵍⵉⵙ {{GENDER:|ⵏⵏⴽ|ⵏⵏⵎ}}",
+	"coll-make_suggestions": "ⵜⴰⵙⵏⵉⵡⵉⵏ ⵜⵜⵓⵙⵓⵎⵔⵏⵉⵏ",
 	"coll-attribution-anons": "ⴰⵔⵓⵙⵙⵉⵏ: $1",
 	"coll-article-attribution": "<b>$1</b> <i>ⴰⵙⴰⴳⵎ:</i> $2 <i>ⵉⵏⴰⵎⵓⵜⵏ:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>ⴰⵙⴰⴳⵎ:</i> $2 <i>ⵜⵓⵔⴰⴳⵜ:</i> $3 <i>ⵉⵏⴰⵎⵓⵜⵏ:</i> $4 <i>ⴰⵏⴰⵥⵓⵔ ⴰⵙⴰⵍⴰⵏ:</i> $5"

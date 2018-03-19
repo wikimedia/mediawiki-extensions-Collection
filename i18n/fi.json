@@ -14,7 +14,8 @@
 			"McSalama",
 			"Macofe",
 			"Alluk.",
-			"Pyscowicz"
+			"Pyscowicz",
+			"Pahkiqaz"
 		]
 	},
 	"coll-desc": "[[Special:Book|Laadi kirjoja]].",
@@ -132,7 +133,7 @@
 	"coll-load_local_book": "Napsauta OK jatkaaksesi kirjan $1 ($2 sivua) työstämistä. Napsauta Peruuta poistaaksesi sen ja aloittaaksesi uuden kirjan.",
 	"coll-format-rl": "e-kirja (PDF)",
 	"coll-format-epub": "e-kirja (EPUB)",
-	"coll-format-odf": "tekstinkäsittelyohjelma (OpenDocument)",
+	"coll-format-odf": "Tekstinkäsittelyohjelma (OpenDocument)",
 	"coll-format-zim": "Kiwix (OpenZIM)",
 	"coll-format-docbook": "DocBook",
 	"coll-format-okawix_zeno": "Okawix",
