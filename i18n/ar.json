@@ -16,7 +16,8 @@
 			"Macofe",
 			"Helmoony",
 			"Moud hosny",
-			"Mido"
+			"Mido",
+			"ديفيد"
 		]
 	},
 	"coll-desc": "[[Special:Book|ينشيء كتبا]]",
@@ -208,6 +209,6 @@
 	"coll-rendererror-no-session": "تعريف الكتاب غير موجود في الجلسة. ربما يكون قد تم التغاضي عنه نظرا لعدم النشاط.",
 	"coll-rendererror-pdf": "عرض الPDF فشل: $1",
 	"coll-rendererror-fetch": "جلب $1 فشل: $2",
-	"coll-rendererror-fetch-wrapper": "حدثت أخطاء أثناء محاولة جلب محتويات الصفحة:$1",
+	"coll-rendererror-fetch-wrapper": "حدثت أخطاء أثناء محاولة جلب محتويات الصفحة:\n$1",
 	"coll-rendererror-no-cache": "بيانات الكتاب غير موجودة في الكاش. هذا غالبا خطأ في البرنامج."
 }

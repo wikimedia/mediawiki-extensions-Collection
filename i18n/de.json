@@ -209,6 +209,6 @@
 	"coll-rendererror-no-session": "Die Buchdefinition konnte nicht in der Sitzung gefunden werden. Sie könnte aufgrund von Inaktivität verworfen worden sein.",
 	"coll-rendererror-pdf": "PDF-Darstellung fehlgeschlagen: $1",
 	"coll-rendererror-fetch": "Der Abruf von $1 ist fehlgeschlagen: $2",
-	"coll-rendererror-fetch-wrapper": "Es gab Fehler beim Versuch, die Seiteninhalte abzurufen: $1",
+	"coll-rendererror-fetch-wrapper": "Es gab Fehler beim Versuch, die Seiteninhalte abzurufen:\n$1",
 	"coll-rendererror-no-cache": "Die Buchdaten wurden nicht im Cache gefunden. Dies ist mit hoher Wahrscheinlichkeit ein Fehler in der Software."
 }

@@ -4,7 +4,8 @@
 			"Alma",
 			"Toliño",
 			"Elisardojm",
-			"Banjo"
+			"Banjo",
+			"Fitoschido"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crear libros]]",
@@ -196,6 +197,6 @@
 	"coll-rendererror-no-session": "A definición do libro non se atopou na sesión. Pode que fose descartada por inactividade.",
 	"coll-rendererror-pdf": "A composición do PDF fallouː $1",
 	"coll-rendererror-fetch": "A recuperación de $1 fallouː $2",
-	"coll-rendererror-fetch-wrapper": "Houbo erros ó intentar obter o contido da páxinaː $1",
+	"coll-rendererror-fetch-wrapper": "Houbo erros ó intentar obter o contido da páxina:\n$1",
 	"coll-rendererror-no-cache": "Os datos do libro non se atoparon na caché. Probablemente é un erro do software."
 }

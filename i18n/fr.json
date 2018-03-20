@@ -215,6 +215,6 @@
 	"coll-rendererror-no-session": "La définition du livre n’a pas été trouvée dans la session. Elle peut avoir été abandonnée pour cause d’inactivité.",
 	"coll-rendererror-pdf": "Échec du rendu du PDF : $1",
 	"coll-rendererror-fetch": "Échec de la récupération de $1 : $2",
-	"coll-rendererror-fetch-wrapper": "Il y a eu des erreurs en essayant de récupérer le contenu de la page : $1",
+	"coll-rendererror-fetch-wrapper": "Il y a eu des erreurs en essayant de récupérer le contenu de la page :\n$1",
 	"coll-rendererror-no-cache": "Le contenu du livre n'est pas accessible dans la mémoire tampon. Ceci est très certainement dû à une erreur de l'application."
 }
