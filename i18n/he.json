@@ -202,6 +202,6 @@
 	"coll-rendererror-no-session": "הגדרת הספר לא נמצאה בהתחברות. ייתכן שהיא הושלכה בשל חוסר־פעילות.",
 	"coll-rendererror-pdf": "תיצוג PDF נכשל: $1",
 	"coll-rendererror-fetch": "אחזור $1 נכשל: $2",
-	"coll-rendererror-fetch-wrapper": "אירעו שגיאות בעת ניסיון לאחזר את תוכן הדף:$1",
+	"coll-rendererror-fetch-wrapper": "אירעו שגיאות בעת ניסיון לאחזר את תוכן הדף:\n$1",
 	"coll-rendererror-no-cache": "נתוני הספר לא נמצאו במטמון. זאת כנראה שגיאה בתוכנה."
 }

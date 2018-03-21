@@ -203,6 +203,6 @@
 	"coll-rendererror-no-session": "책 정의가 세션에 없습니다. 활동이 없어 폐기되었을 수 있습니다.",
 	"coll-rendererror-pdf": "PDF 렌더링을 실패했습니다: $1",
 	"coll-rendererror-fetch": "$1 가져오기를 실패했습니다: $2",
-	"coll-rendererror-fetch-wrapper": "문서 내용을 가져오려는 동안 오류가 발생했습니다:$1",
+	"coll-rendererror-fetch-wrapper": "문서 내용을 가져오려는 동안 오류가 발생했습니다:\n$1",
 	"coll-rendererror-no-cache": "캐시에 책 데이터가 없습니다. 소프트웨어 오류일 가능성이 높습니다."
 }
