@@ -191,7 +191,7 @@ class CollectionPageTemplate extends QuickTemplate {
 				$canSaveUserPage = false;
 				$canSaveCommunityPage = false;
 			}
-			if ( $GLOBALS['wgEnableWriteAPI'] && ( $canSaveUserPage || $canSaveCommunityPage ) ) {
+			if ( $canSaveUserPage || $canSaveCommunityPage ) {
 				?>
 				<div class="collection-column-right-box" id="coll-savebox">
 					<h2><span class="mw-headline"><?php $this->msg( 'coll-save_collection_title' ) ?></span></h2>

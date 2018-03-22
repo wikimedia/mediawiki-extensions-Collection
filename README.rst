@@ -23,10 +23,6 @@ the Wikimedia Foundation, and other contributors
 Prerequisites
 =============
 
-If you use a render server the `MediaWiki API`_ must be enabled
-(i.e. just don't override the default value of ``true`` for
-``$wgEnableApi`` in your ``LocalSettings.php``).
-
 Install PHP with cURL support
 -----------------------------
 
@@ -306,14 +302,6 @@ people do not have to change them:
   Setting ``$wgCollectionPODPartners`` to false disables ordering interface
   altogether.
 
-``$wgEnableWriteAPI``
-
-  If you want to let users save their collections as wiki pages, make sure
-  $wgEnableWriteAPI is set to true, i.e. put this line in your ``LocalSettings.php``::
-
-    $wgEnableWriteAPI = true;
-
-  (This is the default.)
 
   There are two MediaWiki rights that are checked, before users are allowed
   to save collections: To be able to save collection pages under the User
