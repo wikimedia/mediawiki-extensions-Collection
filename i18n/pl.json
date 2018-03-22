@@ -192,5 +192,6 @@
 	"coll-contributors-title": "Autorzy",
 	"coll-images-title": "Obrazy",
 	"coll-images-source": "Źródło",
-	"coll-images-license": "Licencja"
+	"coll-images-license": "Licencja",
+	"coll-rendererror-fetch-wrapper": "Podczas próby pobrania zawartości strony wystąpiły błędy:\n$1"
 }
