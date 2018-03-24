@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"ArmenBakkalian"
+		]
+	},
+	"coll-remove": "Հեռաձնել",
+	"coll-show": "Ցուցադրել",
+	"coll-move_up": "Վեր տեղափոխել",
+	"coll-move_down": "Վար տեղափոխել",
+	"coll-print_export": "Տպել/արտահանել",
+	"coll-create_a_book": "Գիրք ստեղծել",
+	"coll-download_as": "Ներբեռնել որպէս $1"
+}
