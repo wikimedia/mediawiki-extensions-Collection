@@ -16,7 +16,8 @@
 			"JurgenNL",
 			"Esketti",
 			"Macofe",
-			"Mainframe98"
+			"Mainframe98",
+			"Patio"
 		]
 	},
 	"coll-desc": "[[Special:Book|Boeken maken]]",
@@ -197,5 +198,6 @@
 	"coll-images-title": "Afbeeldingen",
 	"coll-images-source": "Bron",
 	"coll-images-license": "Licentie",
-	"coll-license-title": "Inhoudslicentie"
+	"coll-license-title": "Inhoudslicentie",
+	"coll-rendererror-fetch-wrapper": "Er waren fouten bij raadpleegpoging pagina-inhoud: $1"
 }
