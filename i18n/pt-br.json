@@ -213,6 +213,6 @@
 	"coll-rendererror-no-session": "A definição do livro não foi encontrada na sessão. Pode ter sido descartada por inatividade.",
 	"coll-rendererror-pdf": "A composição do PDF falhou: $1",
 	"coll-rendererror-fetch": "A obtenção de $1 falhou: $2",
-	"coll-rendererror-fetch-wrapper": "Ocorreram erros ao tentar obter o conteúdo da página: $1",
+	"coll-rendererror-fetch-wrapper": "Ocorreram erros ao tentar obter o conteúdo da página:\n$1",
 	"coll-rendererror-no-cache": "Os dados do livro não foram encontrados na cache. Isto deve-se provavelmente a um erro do software."
 }
