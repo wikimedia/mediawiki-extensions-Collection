@@ -185,7 +185,8 @@ $wgAutoloadClasses['CollectionHooks'] = __DIR__ . '/Collection.hooks.php';
 $wgAutoloadClasses['CollectionSuggest'] = __DIR__ . '/CollectionSuggest.php';
 $wgAutoloadClasses['CollectionProposals'] = __DIR__ . '/CollectionProposals.php';
 
-$wgAutoloadClasses['SpecialRenderBook'] = __DIR__ . '/SpecialRenderBook.php';
+$wgAutoloadClasses[\MediaWiki\Extensions\Collection\Specials\RenderBook::class]
+	= __DIR__ . '/includes/Specials/SpecialRenderBook.php';
 $wgAutoloadClasses[\MediaWiki\Extensions\Collection\DataProvider::class]
 	= __DIR__ . '/includes/DataProvider.php';
 $wgAutoloadClasses[\MediaWiki\Extensions\Collection\ElectronVirtualRestService::class]
@@ -224,7 +225,7 @@ $wgMessagesDirs['Collection'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['CollectionAlias'] = __DIR__ . '/Collection.alias.php';
 
 $wgSpecialPages['Book'] = 'SpecialCollection';
-$wgSpecialPages['RenderBook'] = 'SpecialRenderBook';
+$wgSpecialPages['RenderBook'] = \MediaWiki\Extensions\Collection\Specials\RenderBook::class;
 
 $wgHooks['SkinTemplateBuildNavUrlsNav_urlsAfterPermalink'][] = 'CollectionHooks::buildNavUrls';
 $wgHooks['SidebarBeforeOutput'][] = 'CollectionHooks::buildSidebar';
