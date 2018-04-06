@@ -12,7 +12,8 @@
 			"Srdjan m",
 			"Сербијана",
 			"Macofe",
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"BadDog"
 		]
 	},
 	"coll-desc": "[[Special:Book|Писац књига]]",
@@ -132,7 +133,7 @@
 	"coll-format-okawix_zeno": "Okawix",
 	"right-collectionsaveasuserpage": "чување књига у виду корисничке странице",
 	"right-collectionsaveascommunitypage": "чување књига у виду заједничке странице",
-	"coll-print_export": "Штампај/извези",
+	"coll-print_export": "Штампање/извоз",
 	"coll-create_a_book": "Направи књигу",
 	"coll-create_a_book_tooltip": "Направи књигу или збирку страница",
 	"coll-book_creator": "Књиговезница",
