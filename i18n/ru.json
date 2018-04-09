@@ -20,7 +20,8 @@
 			"NBS",
 			"Macofe",
 			"Facenapalm",
-			"Kareyac"
+			"Kareyac",
+			"Happy13241"
 		]
 	},
 	"coll-desc": "[[Special:Book|Создание книг]]",
@@ -196,10 +197,22 @@
 	"coll-attribution-page": "<h1>Источники текстов и изображения, авторы и лицензии</h1>\n<h2>Текст</h2>\n$1<h2>Изображения</h2>\n$2\n<h2>Лицензия</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Источник:</i> $2 <i>Авторы:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Источник:</i> $2 <i>Лицензия:</i> $3 <i>Авторы:</i> $4 <i>Художник:</i> $5",
+	"coll-warning-disable-pdf-title": "Создатель книги претерпевает изменения",
+	"coll-warning-disable-pdf-text": "Из-за серьезных проблем с нашей существующей системой Book Creator больше не будет поддерживать сохранение книги в виде PDF в течение короткого периода времени. Мы прилагаем все усилия, чтобы заменить нашу систему и снова включить PDF-файлы в Book Creator.",
 	"coll-warning-learn-more": "Узнать больше",
+	"coll-notice-download-pdf-title": "Загрузите одиночные страницы",
+	"coll-notice-download-pdf-text": "В то время как рендеринг PDF-книги Book Creator заменяется, вы можете попробовать '''''Загрузить в формате PDF'''' из инструментов боковой панели для отдельных статей.",
 	"coll-toc-title": "Содержание",
 	"coll-contributors-title": "Авторы",
 	"coll-images-title": "Изображения",
 	"coll-images-source": "Источник",
-	"coll-images-license": "Лицензия"
+	"coll-images-license": "Лицензия",
+	"coll-images-original-artist": "Оригинальный художник",
+	"coll-license-title": "Лицензия содержимого",
+	"coll-rendererror-title": "Не удалось создать книгу",
+	"coll-rendererror-no-session": "Определение книги не найдено в сеансе. Это могло быть отброшено из-за бездействия.",
+	"coll-rendererror-pdf": "Не удалось выполнить рендеринг PDF: $1",
+	"coll-rendererror-fetch": "Получение $1 не удалось: $2",
+	"coll-rendererror-fetch-wrapper": "При попытке получить содержимое страницы были ошибки:\n$1",
+	"coll-rendererror-no-cache": "Данные книги не найдены в кеше. Скорее всего, это ошибка в программном обеспечении."
 }
