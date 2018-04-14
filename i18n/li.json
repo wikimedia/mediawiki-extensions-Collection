@@ -47,7 +47,7 @@
 	"coll-new_chapter": "Veur de naam van 't nuuj hoofstök in",
 	"coll-rename_chapter": "Veur 'ne nuuje naam in veur 't huidstök",
 	"coll-no_such_category": "De kattegorie besteit neet",
-	"coll-notitle_title": "De titel ven g'r pazjena kós neet vasgesteldj waere.",
+	"coll-notitle_title": "Kós paginanaam neet bekómme",
 	"coll-error_reponse": "De server haet 'n foutmèljing trökgegaeve",
 	"coll-empty_collection": "Laeg book",
 	"coll-revision": "Versie: $1",
