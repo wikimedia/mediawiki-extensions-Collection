@@ -206,6 +206,6 @@
 	"coll-rendererror-title": "امکان ساختن کتاب وجود ندارد",
 	"coll-rendererror-pdf": "رندر کردن پی‌دی‌اف شکست خورد: $1",
 	"coll-rendererror-fetch": "دریافت $1 شکست خورد: $2",
-	"coll-rendererror-fetch-wrapper": "گرفتن محتویات صفحه با خطا مواجه شد:$1",
+	"coll-rendererror-fetch-wrapper": "گرفتن محتویات صفحه با خطا مواجه شد:\n$1",
 	"coll-rendererror-no-cache": "اطلاعات کتاب در کاشه پیدا نشد. احتمالا خطایی در نرم‌افزار وجود دارد."
 }
