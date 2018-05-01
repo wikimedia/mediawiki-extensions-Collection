@@ -12,10 +12,18 @@
 	"coll-create_a_book": "Peugöt buku",
 	"coll-book_creator": "Ureueng peugöt buku",
 	"coll-download_as": "Andam seubagoë $1",
+	"coll-disable": "Pumaté",
+	"coll-book_creator_disable": "Pumaté pumeugöt kitab",
+	"coll-book_creator_disable_tooltip": "Bèk ngui lé pumeugöt kitab",
+	"coll-help": "Beunantu",
+	"coll-help_tooltip": "Peudeuih beunantu bhaih peugöt kitab",
 	"coll-helppage": "Help:Buku",
 	"coll-n_pages": "$1 {{PLURAL:$1|mieng}}",
 	"coll-remove_this_page": "Sampôh laman nyoë nibak kitab droëneuh",
 	"coll-show_collection": "Peudeuh buku",
+	"coll-show_collection_tooltip": "Teugön keu neuandam/keubah/peusan kitabneuh",
+	"coll-make_suggestions": "Saran mieng",
+	"coll-make_suggestions_tooltip": "Peudeuih saran meunurôt mieng lam kitabneuh",
 	"coll-attribution-anons": "Ureuëng ngui hana meusoë: $1",
 	"coll-image-attribution": "<b>$1</b> <i>Nè:</i> $2 <i>Lisènsi:</i> $3 <i>Ureuëng Pasoë:</i> $4 <i>Ureuëng Peugöt:</i> $5"
 }
