@@ -7,6 +7,7 @@
 			"Akapochtli"
 		]
 	},
+	"coll-download": "Tocontemoz",
 	"coll-remove": "Ticquixtiz",
 	"coll-show": "Tiquittaz",
 	"coll-move_up": "Tictlehcahuiz",
@@ -17,10 +18,10 @@
 	"coll-no": "Ahmo",
 	"coll-cancel": "Ticcuepāz",
 	"coll-update": "Tiquiyancuīyāz",
-	"coll-print_export": "Tepoztlahcuilōliztli/tlazazacaliztli",
+	"coll-print_export": "Tepoztlahcuiloliztli/tlazazacaliztli",
 	"coll-create_a_book": "Ticchihuaz ce amoxtli",
 	"coll-book_creator": "Āmoxchīuhqui",
-	"coll-download_as": "$1teuh ticmomāmaltīz",
+	"coll-download_as": "Tocontemoz iuhqui $1",
 	"coll-bookscategory": "Amoxtin",
 	"coll-help": "Tepalehuiliztli",
 	"coll-helppage": "Help:Āmoxtli",
