@@ -1,14 +1,24 @@
 {
 	"@metadata": {
 		"authors": [
-			"Andria"
+			"Andria",
+			"L2212"
 		]
 	},
 	"coll-collection": "Libru",
 	"coll-collections": "Libros",
+	"coll-remove": "Boga",
 	"coll-show": "Ammustra",
+	"coll-move_up": "Moe in subra",
+	"coll-move_down": "Moe in suta",
 	"coll-yes": "Eja",
 	"coll-suggest_show": "ammustra",
+	"coll-print_export": "Imprenta/esporta",
+	"coll-create_a_book": "Crea unu libru",
+	"coll-book_creator": "Creadore de libros",
+	"coll-download_as": "Iscàrriga comente $1",
 	"coll-bookscategory": "Libros",
-	"coll-show_collection": "Ammustra libru"
+	"coll-helppage": "Help:Libros",
+	"coll-show_collection": "Ammustra libru",
+	"coll-attribution-anons": "Anònimu: $1"
 }
