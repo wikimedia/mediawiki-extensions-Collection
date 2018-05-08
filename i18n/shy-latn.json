@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Vikoula5"
+		]
+	},
+	"coll-show": "Ssken",
+	"coll-suggest_show": "Ssken",
+	"coll-disable": "Yensa",
+	"coll-help": "Tallalt",
+	"coll-n_pages": "{{PLURAL:$1|asebter|isebtar}}"
+}
