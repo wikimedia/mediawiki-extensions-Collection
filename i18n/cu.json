@@ -27,7 +27,10 @@
 	"coll-suggest_undo": "отъмѣтаниѥ",
 	"coll-print_export": "пєчать или поѩтиѥ",
 	"coll-create_a_book": "сътворєниѥ кънигъ",
+	"coll-book_creator": "сътворѥниѥ кънигъ",
 	"coll-download_as": "поѩтиѥ ꙗко $1",
+	"coll-add_this_page": "сѥѩ страницѧ въ твоѩ кънигꙑ приложєниѥ",
+	"coll-add_page_tooltip": "сѥѩ страницѧ въ твоѩ кънигꙑ приложєниѥ",
 	"coll-bookscategory": "кънигꙑ",
 	"coll-help": "помощь",
 	"coll-help_tooltip": "помощи о кънигъ сътворѥнии поꙁьрѣниѥ",
@@ -39,5 +42,7 @@
 	"coll-setting-toc-yes": "да",
 	"coll-setting-toc-no": "нѣтъ",
 	"coll-setting-columns": "стлъбьци :",
-	"coll-attribution-anons": "анѡнѷмьно : $1"
+	"coll-attribution-anons": "анѡнѷмьно : $1",
+	"coll-article-attribution": "<b>$1</b> <i>кладѧꙁь :</i> $2 <i>дѣтєлє :</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>кладѧꙁь :</i> $2 <i>прощєниѥ :</i> $3 <i>дѣꙗтєлє :</i> $4 <i>исконьнъ творьць :</i> $5"
 }
