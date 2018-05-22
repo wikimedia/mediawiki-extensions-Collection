@@ -190,9 +190,10 @@ class CollectionSession {
 		$session = SessionManager::getGlobalSession();
 		return self::purge() ? $session['wsCollection'] : [
 			/* empty collection */
-			'name' => '',
-			'description' => '',
-			'items' => []
+			'title' => '',
+			'subtitle' => '',
+			'settings' => [],
+			'items' => [],
 		];
 	}
 
