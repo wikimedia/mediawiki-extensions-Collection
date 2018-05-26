@@ -241,7 +241,7 @@ class CollectionHooks {
 
 	/**
 	 * @param string $title
-	 * @param string $ajaxHint Defaults to null
+	 * @param string|null $ajaxHint Defaults to null
 	 * @param null|int $oldid
 	 * @return string
 	 */
