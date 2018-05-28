@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Chelin",
-			"C.R."
+			"C.R.",
+			"Ruthven"
 		]
 	},
 	"coll-desc": "[[Special:Book|Ccrìa 'e libbre]]",
@@ -151,7 +152,7 @@
 	"coll-bookscategory": "Libbre",
 	"coll-clear_collection": "Sbacanta 'o libbro",
 	"coll-clear_collection_confirm": "Overo vulite sbacantà sano sano 'o libbro?",
-	"coll-clear_collection_tooltip": "Lèva tutt' 'e paggene wiki d' 'o libbro 'e mò vuosto",
+	"coll-clear_collection_tooltip": "Lèva tutt' 'e ppaggene wiki d'ô libbro vuosto 'e mo",
 	"coll-help": "Ajùto",
 	"coll-help_tooltip": "Fà veré l'aiuto ncopp' 'a criazione 'e libbre",
 	"coll-helppage": "Help:Libbre",
