@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Simartampua"
+			"Simartampua",
+			"Apundung"
 		]
 	},
 	"coll-remove": "Mangapus",
@@ -21,7 +22,7 @@
 	"coll-help_tooltip": "Patidaon tontang bantuan mambaen buku",
 	"coll-helppage": "Help:Buku",
 	"coll-n_pages": "$1 {{PLURAL:$1|page|alaman}}",
-	"coll-remove_this_page": "Apus alaman om tingon bukumu",
+	"coll-remove_this_page": "Apus alaman on tingon bukumu",
 	"coll-show_collection": "Patidaon buku",
 	"coll-show_collection_tooltip": "Klik giot mangedit / mangunduh / mamesan buku Muyu",
 	"coll-make_suggestions": "Alaman naisarankon",

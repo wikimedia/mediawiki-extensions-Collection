@@ -197,5 +197,6 @@
 	"coll-images-source": "Πηγή",
 	"coll-images-license": "Άδεια",
 	"coll-images-original-artist": "Αρχικός καλλιτέχνης",
-	"coll-license-title": "Άδεια περιεχομένου"
+	"coll-license-title": "Άδεια περιεχομένου",
+	"coll-rendererror-title": "Αποτυχία δημιουργίας του βιβλίου"
 }
