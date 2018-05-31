@@ -200,5 +200,6 @@
 	"coll-images-source": "Bron",
 	"coll-images-license": "Licentie",
 	"coll-license-title": "Inhoudslicentie",
+	"coll-rendererror-title": "Kon het boek niet genereren",
 	"coll-rendererror-fetch-wrapper": "Er waren fouten bij raadpleegpoging pagina-inhoud: $1"
 }
