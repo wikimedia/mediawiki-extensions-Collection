@@ -10,5 +10,7 @@
 	"coll-move_down": "ꯃꯈꯥꯗꯥ ꯂꯦꯡꯍꯟꯕꯥ",
 	"coll-print_export": "ꯅꯝꯕꯥ/ꯂꯧꯊꯣꯛꯄꯥ",
 	"coll-create_a_book": "ꯂꯥꯏꯔꯤꯛ ꯱ ꯁꯥꯕꯥ",
-	"coll-download_as": " $1 oina Chingtharak oo"
+	"coll-download_as": " $1 oina Chingtharak oo",
+	"coll-remove_this_page": "ꯃꯁꯤꯒꯤ ꯂꯥꯃꯥꯏꯁꯤ ꯅꯪꯒꯤ ꯂꯥꯏꯔꯤꯛꯇꯒꯤ ꯃꯥꯡꯍꯟꯂꯨ",
+	"coll-image-attribution": "<b>$1</b> <i>Source:</i> $2 <i>License:</i> $3 <i>Contributors:</i> $4 <i>Original artist:</i> $5"
 }
