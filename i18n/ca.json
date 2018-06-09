@@ -16,7 +16,8 @@
 			"Qllach",
 			"Jaumeortola",
 			"Macofe",
-			"Abella"
+			"Abella",
+			"Matěj Suchánek"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crea llibres]]",
@@ -125,7 +126,7 @@
 	"coll-suggest_article_remove": "S'ha retirat la pàgina <strong>$1</strong> del vostre llibre ($2).",
 	"coll-suggest_undo_tooltip": "Desfés l'acció",
 	"coll-suggest_undo": "desfés",
-	"coll-load_local_book": "Feu clic a «OK» per a continuar el vostre llibre $1 que conté $2 {{PLURAL|$2|pàgina|pàgines}} wiki. Feu clic a «Canceŀla» per a esborrar-lo i començar amb un llibre buit.",
+	"coll-load_local_book": "Feu clic a «OK» per a continuar el vostre llibre $1 que conté $2 {{PLURAL:$2|pàgina|pàgines}} wiki. Feu clic a «Canceŀla» per a esborrar-lo i començar amb un llibre buit.",
 	"coll-format-rl": "llibre electrònic (PDF, renderització de mwlib)",
 	"coll-format-epub": "llibre electrònic (EPUB)",
 	"coll-format-odf": "Processador de textos (OpenDocument)",
