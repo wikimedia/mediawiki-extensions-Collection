@@ -11,5 +11,9 @@
 	"coll-print_export": "Տպել/արտահանել",
 	"coll-create_a_book": "Գիրք ստեղծել",
 	"coll-download_as": "Ներբեռնել որպէս $1",
+	"coll-disable": "անջատել",
+	"coll-help": "Օգնութիւն",
+	"coll-helppage": "Help:Գիրքեր",
+	"coll-attribution-anons": "Անանուն՝ $1",
 	"coll-image-attribution": "<b>$1</b> <i>Աղբիւր՝</i> $2 <i>Արտօնագիր՝</i> $3 <i>Համահեղինակներ՝</i> $4 <i>Բուն հեղինակ՝</i> $5"
 }
