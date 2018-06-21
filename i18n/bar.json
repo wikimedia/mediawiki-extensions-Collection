@@ -2,9 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Mucalexx",
-			"Als-Holder"
+			"Als-Holder",
+			"Alexx"
 		]
 	},
+	"coll-remove": "Entferna",
+	"coll-show": "Zoag",
+	"coll-move_down": "owé vaschiam",
 	"coll-community_collection_label": "Gmoahschoftlichs Buach",
 	"coll-print_export": "Drucka/exportian",
 	"coll-create_a_book": "Buach erstöin",
