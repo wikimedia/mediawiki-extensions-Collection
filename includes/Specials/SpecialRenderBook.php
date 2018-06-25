@@ -2,10 +2,15 @@
 
 namespace MediaWiki\Extensions\Collection\Specials;
 
+use CollectionSession;
+use ErrorPageError;
+use Html;
 use MediaWiki\Extensions\Collection\BookRenderingMediator;
 use MediaWiki\Logger\LoggerFactory;
 use MediaWiki\MediaWikiServices;
+use User;
 use SpecialPage;
+use TemplateParser;
 
 /**
  * Special page to display a book as a single HTML page.
