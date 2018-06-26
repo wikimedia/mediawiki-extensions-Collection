@@ -21,7 +21,7 @@ class DataProvider implements LoggerAwareInterface {
 	/** @var VirtualRESTServiceClient */
 	protected $client;
 
-	/** @var LoggerAwareInterface */
+	/** @var LoggerInterface */
 	protected $logger;
 
 	/**
