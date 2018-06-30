@@ -26,5 +26,7 @@
 	"coll-show_collection_tooltip": "ꯁꯦꯝꯒꯠꯂꯛꯐꯝꯗꯥ ꯅꯝꯃꯨ/ꯆꯤꯡꯊꯕꯥ/ꯂꯥꯏꯔꯤꯛ ꯃꯊꯡ ꯃꯅꯥꯑꯣ ꯑꯣꯏꯅꯥ",
 	"coll-make_suggestions": "Suggest ꯂꯥꯃꯥꯏ",
 	"coll-make_suggestions_tooltip": "suggestions ꯎꯨꯠꯂꯨ ꯅꯪꯒꯤ ꯂꯥꯏꯔꯤꯛꯁꯤꯒꯤ ꯂꯥꯃꯥꯏꯁꯤꯒꯤ ꯃꯇꯨꯡ ꯏꯟꯅꯥ",
+	"coll-attribution-anons": "$1 ꯑꯦꯅꯣꯅꯤꯃꯨꯁ",
+	"coll-article-attribution": "<b>$1</b> <i>Source:</i> $2 <i>Contributors:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Source:</i> $2 <i>License:</i> $3 <i>Contributors:</i> $4 <i>Original artist:</i> $5"
 }
