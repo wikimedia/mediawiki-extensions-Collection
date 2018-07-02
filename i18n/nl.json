@@ -97,6 +97,7 @@
 	"coll-rendering_finished_title": "Renderen afgerond",
 	"coll-rendering_finished_text": "<strong>Het document is aangemaakt.</strong>\n<strong>[$1 Het bestand downloaden]</strong>.",
 	"coll-rendering_finished_notes_heading": "Opmerkingen:",
+	"coll-rendering_finished_note_not_satisfied": "Niet tevreden het resultaat? Zie [[{{MediaWiki:Coll-helppage}}|de hulppagina voor boeken]] voor verbeteringsmogelijkheden.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informatietekst bij renderen pagina",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informatietekst bij renderen verzameling",
 	"coll-rendering_failed_title": "Renderen is mislukt",

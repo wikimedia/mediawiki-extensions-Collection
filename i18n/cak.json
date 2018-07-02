@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"RisingVoices"
+			"RisingVoices",
+			"Chocoj"
 		]
 	},
-	"coll-remove": "tik'am el"
+	"coll-remove": "tik'am el",
+	"coll-show": "Tak'utu'"
 }
