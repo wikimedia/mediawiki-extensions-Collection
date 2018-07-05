@@ -205,6 +205,6 @@
 	"coll-rendererror-no-session": "Ingen bokdefinisjon funnet i økten. Den kan ha blitt forkastet på grunn av inaktivitet.",
 	"coll-rendererror-pdf": "PDF-gjengivelse feilet: $1",
 	"coll-rendererror-fetch": "Henting av $1 feilet: $2",
-	"coll-rendererror-fetch-wrapper": "Feil oppsto under henting av sideinnhold: $1",
+	"coll-rendererror-fetch-wrapper": "Feil oppsto under henting av sideinnhold:\n$1",
 	"coll-rendererror-no-cache": "Bokdata ikke funnet i mellomlageret. Dette er trolig en feil med programvaren."
 }
