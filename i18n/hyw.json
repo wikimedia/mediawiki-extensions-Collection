@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"ArmenBakkalian"
+			"ArmenBakkalian",
+			"Azniv Stepanian"
 		]
 	},
-	"coll-remove": "Հեռաձնել",
-	"coll-show": "Ցուցադրել",
+	"coll-remove": "Հանել",
+	"coll-show": "Ցուցնել",
 	"coll-move_up": "Վեր տեղափոխել",
 	"coll-move_down": "Վար տեղափոխել",
-	"coll-print_export": "Տպել/արտահանել",
+	"coll-print_export": "Տպել/արտածել",
 	"coll-create_a_book": "Գիրք ստեղծել",
 	"coll-download_as": "Ներբեռնել որպէս $1",
 	"coll-disable": "անջատել",
