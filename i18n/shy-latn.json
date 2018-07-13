@@ -4,8 +4,14 @@
 			"Vikoula5"
 		]
 	},
+	"coll-remove": "Kkes",
 	"coll-show": "Ssken",
+	"coll-move_up": "Ali",
+	"coll-move_down": "Ader",
 	"coll-suggest_show": "Ssken",
+	"coll-print_export": "Siggez/sifeḍ",
+	"coll-create_a_book": "Rnu adlis",
+	"coll-download_as": "Sider am $1",
 	"coll-disable": "Yensa",
 	"coll-help": "Tallalt",
 	"coll-n_pages": "{{PLURAL:$1|asebter|isebtar}}"
