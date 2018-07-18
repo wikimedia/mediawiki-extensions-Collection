@@ -421,10 +421,10 @@ system message.
 
 
 .. _mwlib: http://mwlib.readthedocs.org/
-.. _MediaWiki: http://www.mediawiki.org/
+.. _MediaWiki: https://www.mediawiki.org/
 .. _OCG: https://www.mediawiki.org/wiki/Offline_content_generator
 .. _`PediaPress GmbH`: http://pediapress.com/
-.. _`Wikimedia Foundation`: http://wikimediafoundation.org/
+.. _`Wikimedia Foundation`: https://foundation.wikimedia.org/
 .. _`Commonwealth of Learning`: http://www.col.org/
-.. _`MediaWiki API`: http://www.mediawiki.org/wiki/API
-.. _`Meta-Wiki`: http://meta.wikimedia.org/wiki/Book_tool/Help/Books
+.. _`MediaWiki API`: https://www.mediawiki.org/wiki/API
+.. _`Meta-Wiki`: https://meta.wikimedia.org/wiki/Book_tool/Help/Books
