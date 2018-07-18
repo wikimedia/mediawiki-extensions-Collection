@@ -26,10 +26,10 @@ class HeadingCounter {
 	 */
 	public function incrementAndGet( $level ) {
 		$top = reset( $this->headingNumbers );
-		$this->headingNumbers = wfArrayFilterByKey( $this->headingNumbers,
+		$this->headingNumbers = array_filter( $this->headingNumbers,
 			function ( $l ) use ( $level ) {
 				return $l <= $level;
-			} );
+			}, ARRAY_FILTER_USE_KEY );
 		if ( !$this->headingNumbers && $top ) {
 			// The new section is higher than all previous ones. Let's inherit the count from the
 			// previous top section. E.g. for "<h3/><h2/>" we want the section numbers to be

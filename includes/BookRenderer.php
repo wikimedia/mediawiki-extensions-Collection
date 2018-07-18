@@ -309,9 +309,10 @@ class BookRenderer {
 			$item['children'] = [];
 
 			$level = $item['level'];
-			$lastItems = wfArrayFilterByKey( $lastItems, function ( $key ) use ( $level ) {
+			$lastItems = array_filter( $lastItems, function ( $key ) use ( $level ) {
 				return $key < $level;
-			} );
+			}, ARRAY_FILTER_USE_KEY );
+
 			if ( $lastItems ) {
 				end( $lastItems );
 				$key = key( $lastItems );
