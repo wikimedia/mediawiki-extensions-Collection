@@ -130,7 +130,7 @@
 	"coll-download_as": "Ikargang-pakuha bilang $1",
 	"coll-download_as_tooltip": "Magkargang-pababa ng $1 na bersyon ng pahinang pangwiking ito",
 	"coll-disable": "huwag paganahin",
-	"coll-book_creator_disable": "Huwag paganahin ang panglikha ng aklat",
+	"coll-book_creator_disable": "Huwag paganahin ang panlikha ng aklat",
 	"coll-book_creator_disable_tooltip": "Ihinto ang paggamit ng panglikha ng aklat",
 	"coll-add_linked_article": "Idagdag ang nakakawing na pahinang pangwiki sa aklat mo",
 	"coll-remove_linked_article": "Tanggalin ang nakakawing na pahinang pangwiki mula sa aklat mo",
@@ -158,5 +158,5 @@
 	"coll-make_suggestions_tooltip": "Ipakita ang mga mungkahi ayon sa mga pahinang nasa loob ng aklat mo",
 	"coll-suggest_empty": "walang laman",
 	"coll-article-attribution": "<b>$1</b> <i>Sanggunian:</i> $2 <i>Mga taga-ambag:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Pinagmulan:</i> $2 <i>Lisensya:</i> $3 <i>Mga inambag:</i> $4 <i>Orihinal na artista:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Pinagmulan:</i> $2 <i>Lisensiya:</i> $3 <i>Mga inambag:</i> $4 <i>Orihinal na artista:</i> $5"
 }

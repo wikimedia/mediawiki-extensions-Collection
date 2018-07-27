@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"ArmenBakkalian",
-			"Azniv Stepanian"
+			"Azniv Stepanian",
+			"Rajemian"
 		]
 	},
 	"coll-remove": "Հանել",
@@ -15,6 +16,7 @@
 	"coll-disable": "անջատել",
 	"coll-help": "Օգնութիւն",
 	"coll-helppage": "Help:Գիրքեր",
+	"coll-remove_this_page": "Այս էջը ձեր գիրքէն հանել",
 	"coll-attribution-anons": "Անանուն՝ $1",
 	"coll-image-attribution": "<b>$1</b> <i>Աղբիւր՝</i> $2 <i>Արտօնագիր՝</i> $3 <i>Համահեղինակներ՝</i> $4 <i>Բուն հեղինակ՝</i> $5"
 }
