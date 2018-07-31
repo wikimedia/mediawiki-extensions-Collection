@@ -4,6 +4,10 @@
 			"Htawmonzel"
 		]
 	},
+	"coll-remove": "ပတိတ်",
+	"coll-move_up": "ပြံင်ပတိုန် လတူ",
+	"coll-move_down": "ပြံင်ဖျေဟ် သၟဝ်",
+	"coll-print_export": "ပရေန်/ပတိတ်",
 	"coll-create_a_book": "ခၞံကၠောန် လိက်ကၞပ် မွဲ",
 	"coll-download_as": "တံင်လုပ် နဒဒှ် $1"
 }
