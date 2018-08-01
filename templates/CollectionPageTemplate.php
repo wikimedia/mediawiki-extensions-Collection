@@ -13,6 +13,26 @@ use \MediaWiki\Extensions\Collection\MessageBoxHelper;
  */
 class CollectionPageTemplate extends QuickTemplate {
 	/**
+	 * Get the current stored collection or empty collection if none exists
+	 *
+	 * @return object
+	 */
+	protected function getCollection() {
+		if ( isset( $this->data['collection'] ) && is_array( $this->data['collection'] ) ) {
+			$collection = $this->data['collection'];
+		} else {
+			$collection = [];
+		}
+		// If undefined set title and subtitle to empty string (T189636)
+		$collection += [
+			'title' => '',
+			'subtitle' => '',
+			'settings' => [],
+			'items' => [],
+		];
+		return $collection;
+	}
+	/**
 	 * Create a download form which allows you to download the book as pdf
 	 *
 	 * @param ContextSource $context being rendered in
@@ -43,7 +63,7 @@ class CollectionPageTemplate extends QuickTemplate {
 			];
 		}
 
-		$downloadDisabled = count( $this->data['collection']['items'] ) == 0
+		$downloadDisabled = count( $this->getCollection()['items'] ) == 0
 			|| $wgCollectionDisableDownloadSection;
 
 		$downloadForm = $templateParser->processTemplate( 'download-box', [
@@ -61,9 +81,10 @@ class CollectionPageTemplate extends QuickTemplate {
 		return $downloadForm;
 	}
 	public function execute() {
+		$collection = $this->getCollection();
 		$data = [
-			'collectionTitle' => $this->data['collection']['title'],
-			'collectionSubtitle' => $this->data['collection']['subtitle'],
+			'collectionTitle' => $collection['title'],
+			'collectionSubtitle' => $collection['subtitle'],
 		];
 		$fields = [
 			'collectionTitle' => [
@@ -93,8 +114,8 @@ class CollectionPageTemplate extends QuickTemplate {
 			$descriptor['id'] = "coll-input-setting-$fieldname";
 			$descriptor['name'] = $fieldname;
 			$fields[$fieldname] = $descriptor;
-			if ( isset( $this->data['collection']['settings'][$fieldname] ) ) {
-				$data[$fieldname] = $this->data['collection']['settings'][$fieldname];
+			if ( isset( $collection['settings'][$fieldname] ) ) {
+				$data[$fieldname] = $collection['settings'][$fieldname];
 			}
 		}
 
@@ -125,7 +146,7 @@ class CollectionPageTemplate extends QuickTemplate {
 			<div id="collectionListContainer">
 				<?php
 				$listTemplate = new CollectionListTemplate();
-				$listTemplate->set( 'collection', $this->data['collection'] );
+				$listTemplate->set( 'collection', $collection );
 				$listTemplate->execute();
 				?>
 			</div>
@@ -172,7 +193,7 @@ class CollectionPageTemplate extends QuickTemplate {
 										<form action="<?php echo htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book' ) ) ?>" method="post">
 											<input type="hidden" name="bookcmd" value="post_zip" />
 											<input type="hidden" name="partner" value="<?php echo htmlspecialchars( $partnerKey ) ?>" />
-											<input type="submit" value="<?php echo wfMessage( 'coll-order_from_pp', $partnerData['name'] )->escaped() ?>" class="order" <?php if ( count( $this->data['collection']['items'] ) == 0 ) { ?> disabled="disabled"<?php } ?> />
+											<input type="submit" value="<?php echo wfMessage( 'coll-order_from_pp', $partnerData['name'] )->escaped() ?>" class="order" <?php if ( count( $collection['items'] ) == 0 ) { ?> disabled="disabled"<?php } ?> />
 										</form>
 									</div>
 								</div>
@@ -227,7 +248,7 @@ class CollectionPageTemplate extends QuickTemplate {
 									</td></tr>
 							<?php } // if ($canSaveCommunityPage) ?>
 							<tr><td>&#160;</td><td id="collection-save-button">
-									<input id="saveButton" type="submit" value="<?php $this->msg( 'coll-save_collection' ) ?>"<?php if ( count( $this->data['collection']['items'] ) == 0 ) { ?> disabled="disabled"<?php } ?> />
+									<input id="saveButton" type="submit" value="<?php $this->msg( 'coll-save_collection' ) ?>"<?php if ( count( $collection['items'] ) == 0 ) { ?> disabled="disabled"<?php } ?> />
 							</tr></tbody></table>
 						<input name="token" type="hidden" value="<?php echo htmlspecialchars( $GLOBALS['wgUser']->getEditToken() ) ?>" />
 						<input name="bookcmd" type="hidden" value="save_collection" />
