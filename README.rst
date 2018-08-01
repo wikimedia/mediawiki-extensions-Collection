@@ -424,7 +424,7 @@ system message.
 .. _MediaWiki: https://www.mediawiki.org/
 .. _OCG: https://www.mediawiki.org/wiki/Offline_content_generator
 .. _`PediaPress GmbH`: http://pediapress.com/
-.. _`Wikimedia Foundation`: https://foundation.wikimedia.org/
+.. _`Wikimedia Foundation`: https://wikimediafoundation.org/
 .. _`Commonwealth of Learning`: http://www.col.org/
 .. _`MediaWiki API`: https://www.mediawiki.org/wiki/API
 .. _`Meta-Wiki`: https://meta.wikimedia.org/wiki/Book_tool/Help/Books
