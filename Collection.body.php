@@ -1078,15 +1078,15 @@ class SpecialCollection extends SpecialPage {
 		$api = CollectionRenderingAPI::instance( $writer );
 		$response = $api->forceRender( $collectionID );
 
-		if ( !$response ) {
+		if ( !$response || $response->isError() ) {
 			return;
 		}
 
 		$query = 'bookcmd=rendering'
 			. '&return_to=' . urlencode( $request->getVal( 'return_to', '' ) )
-			. '&collection_id=' . urlencode( $response->response['collection_id'] )
-			. '&writer=' . urlencode( $response->response['writer'] );
-		if ( isset( $response->response['is_cached'] ) && $response->response['is_cached'] ) {
+			. '&collection_id=' . urlencode( $response->get( 'collection_id' ) )
+			. '&writer=' . urlencode( $response->get( 'writer' ) );
+		if ( $response->get( 'is_cached' ) ) {
 			$query .= '&is_cached=1';
 		}
 		$this->getOutput()->redirect( SkinTemplate::makeSpecialUrl( 'Book', $query ) );
