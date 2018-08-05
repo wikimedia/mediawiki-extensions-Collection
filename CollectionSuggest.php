@@ -104,7 +104,9 @@ class CollectionSuggest {
 		];
 	}
 
-	// remove the suggestion data from the session
+	/**
+	 * Remove the suggestion data from the session
+	 */
 	public static function clear() {
 		$session = SessionManager::getGlobalSession();
 

@@ -34,10 +34,9 @@ abstract class CollectionRenderingAPI {
 	abstract protected function makeRequest( $command, array $params );
 
 	/**
-	 * @return String expanded $wgScriptPath to work around T39868
-	 * @private
+	 * @return string Expanded wgScriptPath to work around T39868
 	 */
-	function getBaseURL() {
+	private function getBaseURL() {
 		global $wgScriptPath;
 		$scriptPath = $wgScriptPath ? $wgScriptPath : "/";
 		return wfExpandUrl( $scriptPath, PROTO_CANONICAL );

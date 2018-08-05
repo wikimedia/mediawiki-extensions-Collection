@@ -221,7 +221,7 @@ class RemexCollectionMunger implements TreeHandler {
 	 * Translate a position in one of the source documents to a position in the document collection.
 	 * This is only used for debugging so we just generate a number which makes it obvious where
 	 * to look in the source documents.
-	 * @param $originalSourceStart
+	 * @param int $originalSourceStart
 	 * @return int
 	 */
 	private function getPosition( $originalSourceStart ) {
