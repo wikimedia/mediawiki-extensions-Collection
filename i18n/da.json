@@ -10,7 +10,8 @@
 			"Thomsen",
 			"MGA73",
 			"Ribewiki",
-			"Macofe"
+			"Macofe",
+			"Saederup92"
 		]
 	},
 	"coll-desc": "[[Special:Book|Skab bøger]]",
@@ -163,6 +164,8 @@
 	"coll-make_suggestions": "Foreslå sider",
 	"coll-make_suggestions_tooltip": "Vis forslag baseret på siderne i din bog",
 	"coll-suggest_empty": "tom",
+	"coll-setting-toc-yes": "Ja",
+	"coll-setting-toc-no": "Nej",
 	"coll-attribution-anons": "Anonym:$1",
 	"coll-article-attribution": "<b>$1</b> <i>Kilde:</i> $2 <i>Bidragydere:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Kilde:</i> $2 <i>Licens:</i> $3 <i>Bidragydere:</i> $4 <i>Original kunstner:</i> $5"
