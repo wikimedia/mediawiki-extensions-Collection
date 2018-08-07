@@ -1370,7 +1370,7 @@ class SpecialCollection extends SpecialPage {
 	/**
 	 * @param CollectionAPIResult $result
 	 *
-	 * @return bool: Whether the result had errors
+	 * @return bool Whether the result had errors
 	 */
 	private function handleResult( $result ) {
 		if ( !$result->isError() ) {
