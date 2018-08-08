@@ -193,6 +193,7 @@
 	"coll-images-title": "Obrazy",
 	"coll-images-source": "Źródło",
 	"coll-images-license": "Licencja",
+	"coll-rendererror-title": "Nie można wygenerować książki",
 	"coll-rendererror-pdf": "Renderowanie PDF nie powiodło się: $1",
 	"coll-rendererror-fetch-wrapper": "Podczas próby pobrania zawartości strony wystąpiły błędy:\n$1"
 }

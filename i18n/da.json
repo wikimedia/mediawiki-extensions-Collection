@@ -168,5 +168,9 @@
 	"coll-setting-toc-no": "Nej",
 	"coll-attribution-anons": "Anonym:$1",
 	"coll-article-attribution": "<b>$1</b> <i>Kilde:</i> $2 <i>Bidragydere:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Kilde:</i> $2 <i>Licens:</i> $3 <i>Bidragydere:</i> $4 <i>Original kunstner:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Kilde:</i> $2 <i>Licens:</i> $3 <i>Bidragydere:</i> $4 <i>Original kunstner:</i> $5",
+	"coll-warning-learn-more": "Lær mere",
+	"coll-toc-title": "Indholdsfortegnelse",
+	"coll-contributors-title": "Bidragsydere",
+	"coll-images-title": "Billeder"
 }
