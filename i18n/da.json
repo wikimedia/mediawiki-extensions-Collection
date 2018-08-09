@@ -164,6 +164,7 @@
 	"coll-make_suggestions": "Foreslå sider",
 	"coll-make_suggestions_tooltip": "Vis forslag baseret på siderne i din bog",
 	"coll-suggest_empty": "tom",
+	"coll-setting-papersize-letter": "Brev",
 	"coll-setting-toc-yes": "Ja",
 	"coll-setting-toc-no": "Nej",
 	"coll-attribution-anons": "Anonym:$1",
