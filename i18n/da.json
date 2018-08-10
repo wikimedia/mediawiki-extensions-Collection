@@ -173,5 +173,7 @@
 	"coll-warning-learn-more": "Lær mere",
 	"coll-toc-title": "Indholdsfortegnelse",
 	"coll-contributors-title": "Bidragsydere",
-	"coll-images-title": "Billeder"
+	"coll-images-title": "Billeder",
+	"coll-images-source": "Kilde",
+	"coll-images-license": "Licens"
 }
