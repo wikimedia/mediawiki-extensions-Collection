@@ -36,7 +36,7 @@
 	"coll-savedbook_template": "сачувана_књига",
 	"coll-your_book": "Ваша књига",
 	"coll-download_title": "Преузимање",
-	"coll-download_text": "Изаберите жељени формат и кликните на дугме за преузимање.",
+	"coll-download_text": "Да бисте преузели своју књигу, одаберите формат и кликните на дугме.",
 	"coll-download_as_text": "Кликните на дугме да бисте преузели књигу у формату $1.",
 	"coll-download": "Преузми",
 	"coll-format_label": "Формат:",
