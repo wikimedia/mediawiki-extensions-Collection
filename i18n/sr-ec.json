@@ -112,7 +112,7 @@
 	"coll-suggest_title": "Предложене странице за вашу књигу",
 	"coll-suggest_intro_text": "Предлози су засновани на текућем скупу страница у вашој књизи.\nСписак се ажурира сваки пут када кликнете на дугмиће за додавање и уклањање.",
 	"coll-suggested_articles": "Предлози",
-	"coll-suggest_reset_bans": "поништи",
+	"coll-suggest_reset_bans": "ресетуј",
 	"coll-suggest_reset_bans_tooltip": "Прикажи скорашње уклоњене предлоге",
 	"coll-suggest_add_selected": "Додај изабране странице",
 	"coll-suggest_ban_selected": "Уклони изабране странице",
