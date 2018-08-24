@@ -30,7 +30,7 @@
  *
  * @param {string} id Element ID of element containing text
  * @param {string} [param] Text to replace %PARAM% with
- * @return {string} text of elment with ID id
+ * @return {string} text of element with ID id
  */
 	function gettext( id, param ) {
 		var txt = $( id ).html();
