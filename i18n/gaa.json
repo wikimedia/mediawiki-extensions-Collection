@@ -1,8 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Flixtey"
+			"Flixtey",
+			"Mybluberet"
 		]
 	},
+	"coll-remove": "Jiemɔ",
+	"coll-show": "Kɛtsɔɔ",
+	"coll-move_up": "Kɛya ŋwɛi",
+	"coll-move_down": "Kɛya shishi",
+	"coll-create_a_book": "Bɔɔ wolo",
 	"coll-help": "Wamɔ"
 }
