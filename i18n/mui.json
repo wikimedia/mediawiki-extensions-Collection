@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jawadywn"
+			"Jawadywn",
+			"Masjawad99"
 		]
 	},
 	"coll-remove": "Bunu",
@@ -14,5 +15,6 @@
 	"coll-helppage": "Help:Buku",
 	"coll-remove_this_page": "Buang karangan ni dari buku dulur",
 	"coll-show_collection": "Jingok buku",
-	"coll-make_suggestions": "Saranke karangan"
+	"coll-make_suggestions": "Saranke karangan",
+	"coll-image-attribution": "<b>$1</b> <i>Sumber:</i> $2 <i>Lisensi:</i> $3 <i>Kontributor:</i> $4 <i>Pembuat asli:</i> $5"
 }
