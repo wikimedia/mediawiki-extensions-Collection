@@ -10,5 +10,8 @@
 	"coll-move_up": "Kɛya ŋwɛi",
 	"coll-move_down": "Kɛya shishi",
 	"coll-create_a_book": "Bɔɔ wolo",
-	"coll-help": "Wamɔ"
+	"coll-download_as": "Gblamɔ as $1",
+	"coll-add_this_page": "Kɛ baafa nɛɛ afata owolo lɛ he",
+	"coll-help": "Wamɔ",
+	"coll-remove_this_page": "Jiemɔ baafa nɛɛ kɛjɛ owolo lɛ mli"
 }
