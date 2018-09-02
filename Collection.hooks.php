@@ -288,7 +288,7 @@ class CollectionHooks {
 			$captionMsg = 'coll-add_category';
 			$tooltipMsg = 'coll-add_category_tooltip';
 			$query = [ 'bookcmd' => 'add_category', 'cattitle' => $title->getText() ];
-			$onclick = "collectionCall('AddCategory', ['addcategory', ".
+			$onclick = "collectionCall('AddCategory', ['addcategory', " .
 				"mw.config.get('wgTitle')]); return false;";
 		} else {
 			$collectionArgsJs = "mw.config.get('wgNamespaceNumber'), mw.config.get('wgTitle'), " .

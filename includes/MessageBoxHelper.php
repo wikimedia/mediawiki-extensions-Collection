@@ -57,7 +57,7 @@ class MessageBoxHelper {
 	 * @return string Generated HTML
 	 */
 	public static function renderWarningBoxes() {
-		$templateParser = new TemplateParser( __DIR__. DIRECTORY_SEPARATOR . '..'
+		$templateParser = new TemplateParser( __DIR__ . DIRECTORY_SEPARATOR . '..'
 			. DIRECTORY_SEPARATOR . 'templates' );
 
 		$args = [

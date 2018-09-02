@@ -330,7 +330,7 @@ class DataProviderTest extends MediaWikiTestCase {
 					];
 					break;
 				default:
-					throw new LogicException( __METHOD__  . ': invalid type ' . $element[1] );
+					throw new LogicException( __METHOD__ . ': invalid type ' . $element[1] );
 			}
 		}
 		return $collection;
