@@ -2,10 +2,25 @@
 	"@metadata": {
 		"authors": [
 			"唐吉訶德的侍從",
-			"GnuDoyng"
+			"GnuDoyng",
+			"Davidzdh"
 		]
 	},
+	"coll-remove": "Dṳ̀-lâi",
+	"coll-show": "Hiêng",
+	"coll-move_up": "Gà̤-dēng giàng",
+	"coll-move_down": "Â-dā̤ giàng",
 	"coll-print_export": "Páh-éng/Dô̤-chók",
 	"coll-create_a_book": "Siā cī buōng cṳ̆",
-	"coll-download_as": "Â-diòng có̤ $1"
+	"coll-book_creator": "Gióng-lĭk dù-cṳ̄ gì tiàng-sê̤ṳ",
+	"coll-download_as": "Hâ-cái có̤ $1",
+	"coll-disable": "Dìng-ê̤ṳng",
+	"coll-book_creator_disable_tooltip": "Dìng-cī sāi-ê̤ṳng gióng-lĭk dù-cṳ̄ gì tiàng-sê̤ṳ",
+	"coll-help": "Suók-mìng",
+	"coll-helppage": "Help:Dù-cṳ̄",
+	"coll-remove_this_page": "Gê̤ṳng cī-hiĕk téng găng-sê-dăng lā̤ iè-kŭi kó̤",
+	"coll-show_collection": "Hiēng-sê dù-cṳ̄",
+	"coll-make_suggestions": "Gióng-ngiê-hiĕk",
+	"coll-attribution-anons": "Nĭk-mìng：$1",
+	"coll-image-attribution": "<b>$1</b> <i>Lài-nguòng:</i> $2 <i>Sêu-guòng dèu-kuāng:</i> $3 <i>Góng-hióng-ciā:</i> $4 <i>Nguòng-sṳ̄ cáuk-ciā:</i> $5"
 }
