@@ -119,7 +119,7 @@
 	"coll-suggest_add_selected": "Engadir as páxinas seleccionadas",
 	"coll-suggest_ban_selected": "Eliminar as páxinas seleccionadas",
 	"coll-suggest_your_book": "O seu libro",
-	"coll-suggest_show": "mostrar",
+	"coll-suggest_show": "amosar",
 	"coll-suggest_ban_tooltip": "Eliminar esta páxina da lista de suxestións",
 	"coll-suggest_article_ban": "A páxina \"<strong>$1</strong>\" foi eliminada das suxestións ($2).",
 	"coll-suggest_article_add": "A páxina \"<strong>$1</strong>\" foi engadida ao seu libro ($2).",

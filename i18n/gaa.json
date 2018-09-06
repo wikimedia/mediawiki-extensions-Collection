@@ -20,6 +20,8 @@
 	"coll-helppage": "Wamɔ:Woji",
 	"coll-remove_this_page": "Jiemɔ baafa nɛɛ kɛjɛ owolo lɛ mli",
 	"coll-show_collection": "Tsɔɔmɔ wolo",
+	"coll-show_collection_tooltip": "Nyɛɛ nɔ kɛtsake /kɛgbla/kɛhe owolo lɛ",
 	"coll-make_suggestions": "Tsii baafai ta",
-	"coll-make_suggestions_tooltip": "Tsɔɔmɔ taitsii ni jɛ owolo baafai lɛ"
+	"coll-make_suggestions_tooltip": "Tsɔɔmɔ taitsii ni jɛ owolo baafai lɛ",
+	"coll-attribution-anons": "Aleee :$1"
 }
