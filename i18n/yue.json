@@ -5,10 +5,12 @@
 			"Yueman",
 			"CRCHF",
 			"Ktchankt",
-			"Macofe"
+			"Macofe",
+			"Hello903hello"
 		]
 	},
 	"coll-desc": "[[Special:Book|整書]]",
+	"coll-manage_your_book": "管理你嘅書",
 	"coll-collection": "書",
 	"coll-collections": "書",
 	"coll-unknown_subpage_title": "未知嘅細頁",
@@ -66,6 +68,7 @@
 	"coll-rendering_page": "(頁: $1)",
 	"coll-rendering_finished_title": "生成好晒",
 	"coll-rendering_finished_text": "<strong>個文件檔已經生成好。</strong>\n<strong>[$1 下載個檔案]</strong>到你嘅電腦。",
+	"coll-rendering_failed_status": "<strong>狀態：</strong> $1",
 	"coll-notfound_title": "搵唔到書",
 	"coll-notfound_text": "搵唔到書版。",
 	"coll-download_notfound_title": "搵唔到檔案",
@@ -83,9 +86,18 @@
 	"coll-return_to": "返去[[:$1]]",
 	"coll-suggested_articles": "提議",
 	"coll-suggest_reset_bans": "重設",
+	"coll-suggest_your_book": "你嘅書",
 	"coll-suggest_show": "顯示",
 	"coll-suggest_undo_tooltip": "還原呢個動作",
 	"coll-suggest_undo": "還原",
+	"coll-format-rl": "電子書（PDF，mwlib彩現器）",
+	"coll-format-epub": "電子書（EPUB）",
+	"coll-format-odf": "文字處理器（OpenDocument）",
+	"coll-format-zim": "Kiwix（OpenZIM）",
+	"coll-format-docbook": "DocBook",
+	"coll-format-okawix_zeno": "Okawix",
+	"coll-format-rdf2latex": "電子書（PDF，ocg latex彩現器）",
+	"coll-format-rdf2text": "文字處理器（純文字）",
 	"coll-print_export": "打印/匯出",
 	"coll-create_a_book": "整一本書",
 	"coll-book_creator": "整書機",
@@ -119,5 +131,10 @@
 	"coll-setting-columns": "列數：",
 	"coll-attribution-anons": "匿名：$1",
 	"coll-article-attribution": "<b>$1</b> <i>來源：</i> $2 <i>貢獻人：</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>來源：</i> $2 <i>牌照：</i> $3 <i>貢獻人：</i> $4 <i>原作者：</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>來源：</i> $2 <i>牌照：</i> $3 <i>貢獻人：</i> $4 <i>原作者：</i> $5",
+	"coll-warning-learn-more": "知多啲",
+	"coll-toc-title": "目錄",
+	"coll-contributors-title": "貢獻者",
+	"coll-images-title": "圖",
+	"coll-images-source": "來源"
 }
