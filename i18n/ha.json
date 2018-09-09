@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"DonCamillo"
+			"DonCamillo",
+			"Ammarpad"
 		]
 	},
 	"coll-remove": "Cire",
@@ -10,6 +11,7 @@
 	"coll-suggest_show": "nuna",
 	"coll-create_a_book": "Ƙirƙira littafin",
 	"coll-help": "Taimako",
+	"coll-n_pages": "{{PLURAL:$1|Shafi|Shafuka}} $1",
 	"coll-show_collection": "Nuna littafin",
 	"coll-make_suggestions": "Shawara shafuka"
 }
