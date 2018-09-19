@@ -26,7 +26,7 @@
 	"coll-show_collection_tooltip": "Kliké pou modifyé / télécharjé / koumandé zòt liv",
 	"coll-make_suggestions": "Sigjéré dé paj",
 	"coll-make_suggestions_tooltip": "Montré sigjèstyon-yan fondé asou paj-ya annan zòt liv",
-	"coll-attribution-anons": "Anonim : $1",
+	"coll-attribution-anons": "Annonnim : $1",
 	"coll-article-attribution": "<b>$1</b> <i>Sours :</i> $2 <i>Kontribitò :</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Sours :</i> $2 <i>Lisans :</i> $3 <i>Kontribitò :</i> $4 <i>Artis d’orijin :</i> $5"
 }

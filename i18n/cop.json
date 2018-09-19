@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"ⲁϩⲙⲉⲧ"
+			"ⲁϩⲙⲉⲧ",
+			"Bloomaround"
 		]
 	},
+	"coll-print_export": "ⲱϥⲓ/ϥⲓ ⲉⲃⲟⲗ",
 	"coll-create_a_book": "ⲑⲁⲙⲓⲉ ⲟⲩϫⲱⲙ",
 	"coll-download_as": "ⲟⲡⲧⲥ ⲉⲡⲉⲥⲏⲧ ϩⲱⲥ $1",
 	"coll-help": "ⲥⲁϩⲛⲓ",
