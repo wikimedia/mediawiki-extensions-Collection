@@ -1,9 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Htawmonzel"
+			"Htawmonzel",
+			"Aue Nai"
 		]
 	},
+	"coll-desc": "[[Special:Book|ခၞံကၠောန် လိက်အုပ်ဂမၠိုၚ်]]",
+	"coll-manage_your_book": "ကောပ်ကာဲ လိက်အုပ် မၞး",
+	"coll-book_creator_help": "ရံၚ် [[{{MediaWiki:Coll-helppage}}|မုက်လိက်ရီုပရူလိက်အုပ်ဂမၠိုၚ်]] သွက်တၚ်နၚ်ဗွဲမဂၠိုၚ်.",
+	"coll-collection": "လိက်",
+	"coll-collections": "လိက်ဂမၠိုၚ်",
+	"coll-your_book": "လိက်အုပ် မၞး",
+	"coll-download_title": "တံင်လုပ်",
+	"coll-download_text": "သ္ဂောံဂြဲဖျေံလိက်အုပ်မၞးဂှ် ရုဲစှ် နဲကဲကၠောန်ၜိုတ်မွဲ တုဲ ဍဵုကေတ် ကောန်ဍောၚ်",
 	"coll-remove": "ပတိတ်",
 	"coll-show": "ထ္ၜး",
 	"coll-move_up": "ပြံင်ပတိုန် လတူ",
