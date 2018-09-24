@@ -112,7 +112,7 @@
 	"coll-suggest_article_ban": "Kaca <strong>$1</strong> wis dibusak saka saran ($2).",
 	"coll-suggest_article_add": "Kaca <strong>$1</strong> wis ditambahaké nèng buku panjenengan ($2).",
 	"coll-suggest_article_remove": "Kaca <strong>$1</strong> wis dibusak saka buku panjenengan ($2).",
-	"coll-suggest_undo_tooltip": "Wurungaké tumindak iki",
+	"coll-suggest_undo_tooltip": "Wurungaké laku iki",
 	"coll-suggest_undo": "balèkaké",
 	"coll-load_local_book": "Klik \"OK\" saperlu mbacutaké bukuné panjenengan $1 sing ngemu $2 {{PLURAL:$2|kaca}} wiki. Klik \"Cancel\" saperlu mbusak lan miwiti buku kosong.",
 	"coll-format-rl": "buku-é (PDF)",
