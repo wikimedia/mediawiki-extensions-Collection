@@ -68,6 +68,7 @@
 	"coll-rendering_page": "(頁: $1)",
 	"coll-rendering_finished_title": "生成好晒",
 	"coll-rendering_finished_text": "<strong>個文件檔已經生成好。</strong>\n<strong>[$1 下載個檔案]</strong>到你嘅電腦。",
+	"coll-rendering_finished_notes_heading": "註：",
 	"coll-rendering_failed_status": "<strong>狀態：</strong> $1",
 	"coll-notfound_title": "搵唔到書",
 	"coll-notfound_text": "搵唔到書版。",
@@ -136,5 +137,6 @@
 	"coll-toc-title": "目錄",
 	"coll-contributors-title": "貢獻者",
 	"coll-images-title": "圖",
-	"coll-images-source": "來源"
+	"coll-images-source": "來源",
+	"coll-images-license": "授權牌照"
 }
