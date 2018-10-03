@@ -87,6 +87,7 @@
 	"coll-rendering_finished_text": "<strong>Dit dokument er blevet genereret.</strong>\n<strong>[$1 Download filen]</strong> til din computer.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Skriver sideinformation",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Skriver information om samling",
+	"coll-rendering_failed_status": "<strong>Status:</strong> $1",
 	"coll-notfound_title": "Bog ikke fundet",
 	"coll-notfound_text": "Kunne ikke finde bogsiden.",
 	"coll-download_notfound_title": "Fil ikke fundet",
