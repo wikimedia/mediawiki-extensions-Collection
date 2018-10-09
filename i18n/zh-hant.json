@@ -212,6 +212,6 @@
 	"coll-rendererror-no-session": "在 session 裡查無書籍的定義，可能是出於不活躍而被捨棄。",
 	"coll-rendererror-pdf": "PDF 呈現失敗：$1",
 	"coll-rendererror-fetch": "索取 $1 時失敗：$2",
-	"coll-rendererror-fetch-wrapper": "載嘗試索取頁面內容時發生錯誤：$1",
+	"coll-rendererror-fetch-wrapper": "在嘗試索取頁面內容時發生錯誤：\n$1",
 	"coll-rendererror-no-cache": "在快取裡找不到書籍資料，這可能是軟體出錯的緣故。"
 }
