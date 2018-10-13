@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Asenoner"
+		]
+	},
+	"coll-remove": "Tò demez",
+	"coll-show": "Mostra",
+	"coll-move_up": "Sposta su",
+	"coll-move_down": "Sposta ju",
+	"coll-print_export": "Stampa/esporta",
+	"coll-create_a_book": "Mët adum n liber",
+	"coll-download_as": "Cëria ju coche $1"
+}
