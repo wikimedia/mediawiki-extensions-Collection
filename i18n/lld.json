@@ -10,5 +10,6 @@
 	"coll-move_down": "Sposta ju",
 	"coll-print_export": "Stampa/esporta",
 	"coll-create_a_book": "Mët adum n liber",
-	"coll-download_as": "Cëria ju coche $1"
+	"coll-download_as": "Cëria ju coche $1",
+	"coll-image-attribution": "\n<b>$1</b> <i>Font:</i> $2 <i>Lizënza:</i> $3 <i>L à da contribuc:</i> $4 <i>Artist uriginel:</i> $5"
 }
