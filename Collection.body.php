@@ -412,7 +412,7 @@ class SpecialCollection extends SpecialPage {
 		if ( !is_null( $t ) ) {
 			$wikiPage = WikiPage::factory( $t );
 			if ( $wikiPage->exists() ) {
-				$out->addWikiText( '{{:' . $title_string . '}}' );
+				$out->addWikiTextAsInterface( '{{:' . $title_string . '}}' );
 				return;
 			}
 		}

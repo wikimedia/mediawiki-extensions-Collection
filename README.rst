@@ -10,14 +10,14 @@ generate downloadable version in different formats (PDF, OpenDocument Text etc.)
 for article collections and single articles.
 
 The extension has been developed for and tested with MediaWiki_
-version 1.25wmf19 and later, due to the use of the OOjs UI widget
-library.
+version 1.32 and later, due to the use of the OOjs UI widget
+library and some MW API changes.
 
 The extension is being developed under the GNU General Public License by
 `PediaPress GmbH`_ in close collaboration with `Wikimedia Foundation`_
 and the `Commonwealth of Learning`_.
 
-Copyright (C) 2008-2015, PediaPress GmbH, Siebrand Mazeland, Marcin Cieślak,
+Copyright (C) 2008-2018, PediaPress GmbH, Siebrand Mazeland, Marcin Cieślak,
 the Wikimedia Foundation, and other contributors
 
 Prerequisites
