@@ -13,8 +13,8 @@
 	"coll-couldnotremovearticle_msg": "ꯋꯥꯀꯤ ꯂꯃꯥꯏ ꯂꯧꯊꯣꯛꯄ ꯌꯥꯔꯣꯏ ꯫",
 	"coll-download": "ꯆꯤꯡꯊꯕ",
 	"coll-format_label": "ꯃꯑꯣꯡ:",
-	"coll-remove": "ꯃꯥꯡꯍꯟꯕꯥ",
-	"coll-show": "ꯎꯨꯇꯄ",
+	"coll-remove": "ꯂꯧꯊꯣꯛꯄ",
+	"coll-show": "ꯎꯨꯠꯄꯥ",
 	"coll-move_to_top": "ꯃꯊꯛꯇ ꯆꯠꯂꯨ",
 	"coll-move_up": "ꯃꯊꯛꯇꯥ ꯂꯦꯡꯍꯟꯕꯥ",
 	"coll-move_down": "ꯃꯈꯥꯗꯥ ꯂꯦꯡꯍꯟꯕꯥ",
@@ -42,7 +42,7 @@
 	"coll-help_tooltip": "ꯂꯥꯏꯔꯤꯛ ꯁꯥꯔꯛꯅꯕꯒꯤ ꯃꯇꯥꯡꯗꯥ ꯃꯇꯦꯡ ꯎꯨꯠꯂꯨ",
 	"coll-helppage": "Help:ꯂꯥꯏꯔꯤꯛꯁꯤꯡ",
 	"coll-n_pages": "$1 {{PLURAL:$1|page|pages}}",
-	"coll-remove_this_page": "ꯃꯁꯤꯒꯤ ꯂꯥꯃꯥꯏꯁꯤ ꯅꯪꯒꯤ ꯂꯥꯏꯔꯤꯛꯇꯒꯤ ꯃꯥꯡꯍꯟꯂꯨ",
+	"coll-remove_this_page": "ꯃꯁꯤꯒꯤ ꯂꯃꯥꯏꯁꯤ ꯅꯪꯒꯤ ꯂꯥꯏꯔꯤꯛꯇꯒꯤ ꯂꯧꯊꯣꯛ ꯎ",
 	"coll-show_collection": "ꯂꯥꯏꯔꯤꯛ ꯎꯨꯠꯂꯨ",
 	"coll-show_collection_tooltip": "ꯁꯦꯝꯒꯠꯂꯛꯐꯝꯗꯥ ꯅꯝꯃꯨ/ꯆꯤꯡꯊꯕꯥ/ꯂꯥꯏꯔꯤꯛ ꯃꯊꯡ ꯃꯅꯥꯑꯣ ꯑꯣꯏꯅꯥ",
 	"coll-make_suggestions": "Suggest ꯂꯥꯃꯥꯏ",
@@ -52,6 +52,6 @@
 	"coll-setting-toc-yes": "ꯍꯣꯏ",
 	"coll-setting-toc-no": "ꯅꯠꯇꯦ",
 	"coll-attribution-anons": "$1 ꯑꯦꯅꯣꯅꯤꯃꯨꯁ",
-	"coll-article-attribution": "<b>$1</b> <i>Source:</i> $2 <i>Contributors:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Source:</i> $2 <i>License:</i> $3 <i>Contributors:</i> $4 <i>Original artist:</i> $5"
+	"coll-article-attribution": "<b>$1</b> <i>ꯍꯧꯔꯛꯐꯝ:</i> $2 <i>ꯁꯔꯨꯛꯌꯥꯔꯤꯕꯁꯤꯡ:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>ꯍꯧꯔꯛꯐꯝ:</i> $2 <i>ꯑꯌꯥꯕ:</i> $3 <iꯁꯔꯨꯛꯌꯥꯔꯤꯕꯁꯤꯡ:</i> $4 <i>ꯑꯁꯦꯕ ꯑꯔꯇꯤꯁ:</i> $5"
 }
