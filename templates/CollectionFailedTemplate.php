@@ -25,7 +25,7 @@ class CollectionFailedTemplate extends QuickTemplate {
 		}
 		$t = Title::newFromText( $title_string );
 		if ( $t && $t->exists() ) {
-			echo $GLOBALS['wgOut']->parse( '{{:' . $t . '}}' );
+			echo $GLOBALS['wgOut']->parseAsContent( '{{:' . $t . '}}' );
 		}
 		?>
 

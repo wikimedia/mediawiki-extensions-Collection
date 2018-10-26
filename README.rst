@@ -10,7 +10,7 @@ generate downloadable version in different formats (PDF, OpenDocument Text etc.)
 for article collections and single articles.
 
 The extension has been developed for and tested with MediaWiki_
-version 1.32 and later, due to the use of the OOjs UI widget
+version 1.33 and later, due to the use of the OOjs UI widget
 library and some MW API changes.
 
 The extension is being developed under the GNU General Public License by
