@@ -34,7 +34,7 @@ Installation and Configuration of the Collection Extension
 
 * For *MediaWiki* versions up to and including **1.24**:
   Download the Collection extension matching your *MediaWiki* version from
-  http://www.mediawiki.org/wiki/Special:ExtensionDistributor/Collection
+  https://www.mediawiki.org/wiki/Special:ExtensionDistributor/Collection
   and unpack it into your mediawiki extensions directory::
 
     cd /srv/http/wiki/extensions
