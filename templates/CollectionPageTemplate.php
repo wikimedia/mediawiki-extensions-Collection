@@ -185,7 +185,7 @@ class CollectionPageTemplate extends QuickTemplate {
 									if ( $infopage && $infopage->exists() ) { ?>
 										<div class="coll-order_info" style="display:none;">
 											<?php
-											echo $GLOBALS['wgOut']->parse( '{{:' . $infopage . '}}' );
+											echo $GLOBALS['wgOut']->parseAsContent( '{{:' . $infopage . '}}' );
 											?>
 										</div>
 									<?php   }					?>
