@@ -144,7 +144,7 @@ class RemexCollectionMunger implements TreeHandler {
 	 * Called by RemexHTML when parsing an element.
 	 * @inheritDoc
 	 */
-	function insertElement(
+	public function insertElement(
 		$preposition, $ref, Element $element, $void, $sourceStart, $sourceLength
 	) {
 		// if the serializer has already seen this element, we already munged it
@@ -161,7 +161,7 @@ class RemexCollectionMunger implements TreeHandler {
 	 * Called by RemexHTML when parsing an end tag.
 	 * @inheritDoc
 	 */
-	function endTag( Element $element, $sourceStart, $sourceLength ) {
+	public function endTag( Element $element, $sourceStart, $sourceLength ) {
 		$this->serializer->endTag( $element, $this->getPosition( $sourceStart ), $sourceLength );
 	}
 
@@ -169,7 +169,7 @@ class RemexCollectionMunger implements TreeHandler {
 	 * Called by RemexHTML when parsing a doctype declaration.
 	 * @inheritDoc
 	 */
-	function doctype( $name, $public, $system, $quirks, $sourceStart, $sourceLength ) {
+	public function doctype( $name, $public, $system, $quirks, $sourceStart, $sourceLength ) {
 		// we only need the body so no point in forwarding this
 	}
 
@@ -177,7 +177,7 @@ class RemexCollectionMunger implements TreeHandler {
 	 * Called by RemexHTML when parsing a comment.
 	 * @inheritDoc
 	 */
-	function comment( $preposition, $ref, $text, $sourceStart, $sourceLength ) {
+	public function comment( $preposition, $ref, $text, $sourceStart, $sourceLength ) {
 		$this->serializer->comment( $preposition, $ref, $text,
 			$this->getPosition( $sourceStart ), $sourceLength );
 	}
@@ -186,7 +186,7 @@ class RemexCollectionMunger implements TreeHandler {
 	 * Called by RemexHTML on parse errors.
 	 * @inheritDoc
 	 */
-	function error( $text, $pos ) {
+	public function error( $text, $pos ) {
 		$this->serializer->error( $text, $this->getPosition( $pos ) );
 	}
 
@@ -194,7 +194,7 @@ class RemexCollectionMunger implements TreeHandler {
 	 * Called by RemexHTML when updating element attributes.
 	 * @inheritDoc
 	 */
-	function mergeAttributes( Element $element, Attributes $attrs, $sourceStart ) {
+	public function mergeAttributes( Element $element, Attributes $attrs, $sourceStart ) {
 		// RemexHTML should only call this method for <html> and <body> which we discard
 		// so there is probably no need to fix ids but do it anyway just in case
 		$this->fixId( $attrs, $element );
@@ -205,7 +205,7 @@ class RemexCollectionMunger implements TreeHandler {
 	 * Called by RemexHTML in some edge cases when fixing invalid HTML.
 	 * @inheritDoc
 	 */
-	function removeNode( Element $element, $sourceStart ) {
+	public function removeNode( Element $element, $sourceStart ) {
 		$this->serializer->removeNode( $element, $this->getPosition( $sourceStart ) );
 	}
 
@@ -213,7 +213,7 @@ class RemexCollectionMunger implements TreeHandler {
 	 * Called by RemexHTML in some edge cases when fixing invalid HTML.
 	 * @inheritDoc
 	 */
-	function reparentChildren( Element $element, Element $newParent, $sourceStart ) {
+	public function reparentChildren( Element $element, Element $newParent, $sourceStart ) {
 		$this->serializer->reparentChildren( $element, $newParent, $this->getPosition( $sourceStart ) );
 	}
 
