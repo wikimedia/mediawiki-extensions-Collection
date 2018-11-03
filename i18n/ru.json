@@ -24,7 +24,8 @@
 			"Happy13241",
 			"Movses",
 			"Ole Yves",
-			"Stjn"
+			"Stjn",
+			"Vlad5250"
 		]
 	},
 	"coll-desc": "[[Special:Book|Создание книг]]",
@@ -153,8 +154,8 @@
 	"coll-format-okawix_zeno": "Okawix",
 	"coll-format-rdf2latex": "электронная книга (PDF, обработчик ocg latex)",
 	"coll-format-rdf2text": "Текстовый процессор (обычный текст)",
-	"right-collectionsaveasuserpage": "сохранение книг как страниц участника",
-	"right-collectionsaveascommunitypage": "сохранение книг как страниц сообщества",
+	"right-collectionsaveasuserpage": "Сохранение книг как страниц участника",
+	"right-collectionsaveascommunitypage": "Сохранение книг как страниц сообщества",
 	"coll-print_export": "Печать/экспорт",
 	"coll-create_a_book": "Создать книгу",
 	"coll-create_a_book_tooltip": "Создать книгу или коллекцию статей",
