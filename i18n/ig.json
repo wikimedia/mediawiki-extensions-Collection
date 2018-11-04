@@ -1,10 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ukabia"
+			"Ukabia",
+			"Uzoma Ozurumba"
 		]
 	},
+	"coll-remove": "Wepụ",
 	"coll-show": "Zi",
+	"coll-move_up": "Gaa elu",
+	"coll-move_down": "Gbadaa",
 	"coll-title": "Íshí:",
 	"coll-yes": "Eeh",
 	"coll-no": "Mbà",
