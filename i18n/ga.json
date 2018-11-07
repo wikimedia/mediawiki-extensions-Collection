@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"පසිඳු කාවින්ද",
-			"Tem"
+			"Tem",
+			"Kwekubo"
 		]
 	},
 	"coll-format_label": "Formáid:",
@@ -16,7 +17,7 @@
 	"coll-suggest_reset_bans": "Athshocraigh",
 	"coll-suggest_show": "taispeáin",
 	"coll-print_export": "Priontáil/easpórtáil",
-	"coll-create_a_book": "Leabhar a chruthú",
+	"coll-create_a_book": "Cruthaigh leabhar",
 	"coll-book_creator": "Cruthaitheoir leabhair",
 	"coll-download_as": "Íoslódáil mar $1",
 	"coll-help": "Cuidiú",
