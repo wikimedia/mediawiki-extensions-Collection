@@ -7,7 +7,9 @@
 	"coll-remove": "Sulara",
 	"coll-show": "Nedira",
 	"coll-move_up": "Arrundara",
+	"coll-move_down": "Titon arplekura",
 	"coll-print_export": "Rubiara / divburera",
 	"coll-create_a_book": "Va neva redú",
-	"coll-download_as": "Wetce $1 malvajá"
+	"coll-download_as": "Wetce $1 malvajá",
+	"coll-remove_this_page": "Divsuzdaxara va batu bu"
 }
