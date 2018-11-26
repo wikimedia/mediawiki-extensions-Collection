@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Macofe",
-			"Csisc"
+			"Csisc",
+			"Meno25"
 		]
 	},
 	"coll-desc": "[[Special:Book|ينشيء كتبا]]",
@@ -59,7 +60,7 @@
 	"coll-load_overwrite_text": "لديك بالفعل عدة صفحات في كتابك.\nهل تريد الكتابة على كتابك الحالي، إضافة المحتوى الجديد أو إلغاء تحميل هذا الكتاب؟",
 	"coll-overwrite": "كتابة عليها",
 	"coll-append": "انتظار",
-	"coll-update": "حدّث",
+	"coll-update": "تحديث",
 	"coll-limit_exceeded_title": "الكتاب كبير جدا",
 	"coll-limit_exceeded_text": "كتابك كبير جدا.\nلا مزيد من الصفحات يمكن إضافتها.",
 	"coll-rendering_title": "عرض",
