@@ -53,7 +53,7 @@
 	"coll-new_chapter": "Introduceți numele noului capitol",
 	"coll-rename_chapter": "Introduceți noul nume al capitolului",
 	"coll-no_such_category": "Nu există o asemenea categorie",
-	"coll-notitle_title": "Titlul paginii nu a putut fi determinat.",
+	"coll-notitle_title": "Titlul paginii nu a putut fi determinat",
 	"coll-error_reponse": "Mesaj de eroare de la server",
 	"coll-empty_collection": "Carte fără conținut",
 	"coll-revision": "Versiune: $1",
