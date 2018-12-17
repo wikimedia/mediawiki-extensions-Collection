@@ -43,5 +43,6 @@
 	"coll-remove_this_page": "Нардамс те лопанть кинигастот",
 	"coll-show_collection": "Невтемс киниганть",
 	"coll-show_collection_tooltip": "Лепштямс кинигат витнемга-петнемга/таргамга/кармавтомга",
-	"coll-suggest_empty": "чаво"
+	"coll-suggest_empty": "чаво",
+	"coll-attribution-anons": "Лемтеме: $1"
 }
