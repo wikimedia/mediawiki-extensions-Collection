@@ -356,7 +356,6 @@ class SpecialCollection extends SpecialPage {
 	/**
 	 * @param string $referer
 	 * @param string $par
-	 * @return mixed
 	 */
 	public function renderBookCreatorPage( $referer, $par ) {
 		$out = $this->getOutput();
@@ -796,7 +795,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param array $collection
 	 * @param int $index
 	 * @param int $delta
-	 * @return bool|collection
+	 * @return array|false
 	 */
 	public static function moveItemInCollection( $collection, $index, $delta ) {
 		$swapIndex = $index + $delta;
@@ -1291,7 +1290,7 @@ class SpecialCollection extends SpecialPage {
 	 * Apply query string parameters to the given collection.
 	 * Use defaults specified in $wgCollectionRendererSettings.
 	 * @param array &$collection
-	 * @param Request &$request
+	 * @param WebRequest &$request
 	 */
 	public function applySettings( &$collection, &$request ) {
 		global $wgCollectionRendererSettings;

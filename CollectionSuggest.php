@@ -68,7 +68,7 @@ class CollectionSuggest {
 	 *        'removeOnly' => Remove a title without banning it.
 	 * @param string|string[] $param Name of the article to be added, banned
 	 *        or removed, or a list of article names to be added.
-	 * @return string html-code for the proposallist and the memberlist
+	 * @return string[] HTML code for the proposallist and the memberlist
 	 */
 	public static function refresh( $mode, $param ) {
 		$template = self::getCollectionSuggestTemplate( $mode, $param );

@@ -63,7 +63,7 @@ class CollectionHooks {
 	 *
 	 * @param Skin $sk
 	 *
-	 * @return string
+	 * @return array[]|false
 	 */
 	public static function getPortlet( $sk ) {
 		global $wgCollectionArticleNamespaces;
@@ -240,7 +240,7 @@ class CollectionHooks {
 	}
 
 	/**
-	 * @param string $title
+	 * @param Title $title
 	 * @param string|null $ajaxHint Defaults to null
 	 * @param null|int $oldid
 	 * @return string

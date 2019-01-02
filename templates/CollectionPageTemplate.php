@@ -15,7 +15,7 @@ class CollectionPageTemplate extends QuickTemplate {
 	/**
 	 * Get the current stored collection or empty collection if none exists
 	 *
-	 * @return object
+	 * @return array
 	 */
 	protected function getCollection() {
 		if ( isset( $this->data['collection'] ) && is_array( $this->data['collection'] ) ) {
