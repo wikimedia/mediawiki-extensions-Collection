@@ -15,7 +15,8 @@
 			"Macofe",
 			"Matteocng",
 			"Einreiher",
-			"Selven"
+			"Selven",
+			"Wim b"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crea libri]]",
@@ -191,7 +192,11 @@
 	"coll-attribution-page": "<h1>Fonti per testo e immagini; autori; licenze</h1>\n<h2>Testo</h2>\n$1<h2>Immagini</h2>\n$2\n<h2>Licenza dell'opera</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Contributori:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Licenza:</i> $3 <i>Contributori:</i> $4 <i>Artista originale:</i> $5",
+	"coll-warning-disable-pdf-title": "Il creatore di libri sta subendo modifiche",
+	"coll-warning-disable-pdf-text": "A causa di gravi problemi nel nostro sistema esistente, il creatore di libri non supporterà il salvataggio di libri in PDF per un breve periodo. Stiamo lavorando sodo per sostituire il nostro sistema e tornare ad offrire i PDF all'interno del creatore di libri.",
 	"coll-warning-learn-more": "Ulteriori informazioni",
+	"coll-notice-download-pdf-title": "Scarica singole pagine",
+	"coll-notice-download-pdf-text": "Mentre il rendering PDF del creatore di libri viene sostituito, puoi provare '''''Scarica come PDF'''''  dalla barra degli strumenti laterale per singole voci.",
 	"coll-toc-title": "Sommario",
 	"coll-contributors-title": "Contributori",
 	"coll-images-title": "Immagini",
@@ -203,5 +208,6 @@
 	"coll-rendererror-no-session": "Definizione del libro non trovata nella sessione. Potrebbe essere stata scartata a causa dell'inattività.",
 	"coll-rendererror-pdf": "Rendering PDF non riuscito: $1",
 	"coll-rendererror-fetch": "Recupero $1 non riuscito: $2",
-	"coll-rendererror-fetch-wrapper": "Ci sono stati errori durante il tentativo di recuperare i contenuti della pagina:\n$1"
+	"coll-rendererror-fetch-wrapper": "Ci sono stati errori durante il tentativo di recuperare i contenuti della pagina:\n$1",
+	"coll-rendererror-no-cache": "I dati del libro non sono reperibili nella cache. Il motivo più probabile è un errore nel software."
 }
