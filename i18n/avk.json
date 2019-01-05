@@ -23,6 +23,7 @@
 	"coll-n_pages": "$1 {{PLURAL:$1|bu}}",
 	"coll-remove_this_page": "Divsuzdaxara va batu bu",
 	"coll-show_collection": "Nedira va neva",
+	"coll-show_collection_tooltip": "Betatason va rinafa neva oku malvajatason oku lusteteson, vulegal !!",
 	"coll-make_suggestions": "Tiavenu bu",
 	"coll-make_suggestions_tooltip": "Va tiavera mal bu koe rinafa neva nedir",
 	"coll-attribution-anons": "Yoltiskik : $1",

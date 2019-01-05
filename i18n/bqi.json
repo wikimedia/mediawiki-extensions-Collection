@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Mogoeilor",
-			"Beyronvan"
+			"Beyronvan",
+			"Isevand"
 		]
 	},
 	"coll-remove": "ؤرداشتن",
@@ -20,7 +21,7 @@
 	"coll-add_page_tooltip": "ويكی بلگه تازه نه ب کتاڤتۈن اضاف کۈنين",
 	"coll-help": "هومیاري",
 	"coll-help_tooltip": "هومياری راجوڤ كتاوسازی نه نشون بڌإ",
-	"coll-helppage": "هومیاری:کتاڤا",
+	"coll-helppage": "هومیاری:کتاڤٱل",
 	"coll-n_pages": "{{PLURAL:$1|بألگأ|بألگإ آ}}",
 	"coll-remove_this_page": "ورداشتن ای بلگه ز كتاوتون",
 	"coll-show_collection": "نشون دائن كتاو",
