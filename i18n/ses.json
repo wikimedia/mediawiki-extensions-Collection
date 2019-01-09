@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Songhay"
+		]
+	},
+	"coll-remove": "Kaa",
+	"coll-show": "Cebe",
+	"coll-move_up": "Zijandi",
+	"coll-move_down": "Zumandi",
+	"coll-print_export": "Kay/kaataray",
+	"coll-create_a_book": "Citaabu tee",
+	"coll-download_as": "Zumandi sanda $1",
+	"coll-remove_this_page": "Moɲoo woo kaa war citaaboo ra"
+}
