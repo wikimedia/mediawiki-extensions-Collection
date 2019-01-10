@@ -23,10 +23,15 @@
 use \MediaWiki\Extensions\Collection\MessageBoxHelper;
 
 class SpecialCollection extends SpecialPage {
+
+	/** @var resource */
 	public $tempfile;
 
+	/** @var false|array[] */
+	private $mPODPartners;
+
 	/**
-	 * @param bool|array $PODPartners
+	 * @param false|array[] $PODPartners
 	 */
 	public function __construct( $PODPartners = false ) {
 		parent::__construct( "Book" );
