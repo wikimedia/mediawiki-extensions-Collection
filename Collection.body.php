@@ -928,7 +928,7 @@ class SpecialCollection extends SpecialPage {
 	/**
 	 * @param Title $title
 	 * @param bool $append
-	 * @return array|bool
+	 * @return array|false
 	 */
 	public function loadCollection( $title, $append = false ) {
 		$out = $this->getOutput();

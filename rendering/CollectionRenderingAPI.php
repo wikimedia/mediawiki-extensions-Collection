@@ -4,12 +4,17 @@
  * Base class for API that interacts with book rendering service
  */
 abstract class CollectionRenderingAPI {
-	/** @var CollectionRenderingAPI */
+	/** @var self */
 	private static $inst;
 
-	/** @var string */
+	/** @var string|false */
 	protected $writer;
 
+	/**
+	 * @param string|false $writer Name of a writer, or false if none specified/needed.
+	 *
+	 * @return self
+	 */
 	public static function instance( $writer = false ) {
 		if ( !self::$inst ) {
 			self::$inst = new MWServeRenderingAPI( $writer );
@@ -18,7 +23,7 @@ abstract class CollectionRenderingAPI {
 	}
 
 	/**
-	 * @param string|bool $writer Writer or false if none specified/needed
+	 * @param string|false $writer Name of a writer, or false if none specified/needed.
 	 */
 	public function __construct( $writer ) {
 		$this->writer = $writer;
