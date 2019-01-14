@@ -407,13 +407,9 @@ function wfAjaxCollectionGetItemList() {
 	$template = new CollectionListTemplate();
 	$template->set( 'collection', $collection );
 	$template->set( 'is_ajax', true );
-	ob_start();
-	$template->execute();
-	$html = ob_get_contents();
-	ob_end_clean();
 
 	$result = [];
-	$result['html'] = $html;
+	$result['html'] = $template->getHTML();
 	$result['collection'] = $collection;
 	$r = new AjaxResponse( FormatJson::encode( $result ) );
 	$r->setContentType( 'application/json' );

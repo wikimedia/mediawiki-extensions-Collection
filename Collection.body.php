@@ -1367,6 +1367,7 @@ class SpecialCollection extends SpecialPage {
 		$this->getOutput()->setPageTitle( $this->msg( 'coll-load_collection' ) );
 
 		$template = new CollectionLoadOverwriteTemplate();
+		$template->set( 'output', $this->getOutput() );
 		$template->set( 'title', $title );
 		$this->getOutput()->addTemplate( $template );
 	}

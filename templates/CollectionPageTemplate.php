@@ -50,7 +50,7 @@ class CollectionPageTemplate extends QuickTemplate {
 			$description = wfMessage( 'coll-download_as_text', $writer )->parseAsBlock();
 			$buttonLabel = wfMessage( 'coll-download_as', $writer )->escaped();
 		} else {
-			$description = $context->getOutput()->parseAsInterface( wfMessage( 'coll-download_text' )->plain() );
+			$description = $this->parseAsInterface( 'coll-download_text', $context );
 			$buttonLabel = wfMessage( 'coll-download' )->escaped();
 		}
 		$templateParser = new TemplateParser( __DIR__ );
@@ -163,7 +163,7 @@ class CollectionPageTemplate extends QuickTemplate {
 				<div class="collection-column-right-box" id="coll-orderbox">
 					<h2><span class="mw-headline"><?php $this->msg( 'coll-book_title' ) ?></span></h2>
 					<?php
-					$this->msgWiki( 'coll-book_text' );
+					echo $this->parseAsInterface( 'coll-book_text', $context );
 					?>
 					<ul>
 						<?php
@@ -217,7 +217,7 @@ class CollectionPageTemplate extends QuickTemplate {
 				<div class="collection-column-right-box" id="coll-savebox">
 					<h2><span class="mw-headline"><?php $this->msg( 'coll-save_collection_title' ) ?></span></h2>
 					<?php
-					$this->msgWiki( 'coll-save_collection_text' );
+					echo $this->parseAsInterface( 'coll-save_collection_text', $context );
 					?>
 					<form id="saveForm" action="<?php echo htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book' ) ) ?>" method="post">
 						<table style="width:100%; background-color: transparent;"><tbody>
@@ -256,7 +256,7 @@ class CollectionPageTemplate extends QuickTemplate {
 
 					<?php
 					if ( !wfMessage( 'coll-bookscategory' )->inContentLanguage()->isDisabled() ) {
-						$this->msgWiki( 'coll-save_category' );
+						echo $this->parseAsInterface( 'coll-save_category', $context );
 					}
 					?>
 				</div>
@@ -268,4 +268,15 @@ class CollectionPageTemplate extends QuickTemplate {
 
 		<?php
 	}
+
+	/**
+	 * @param string $msgKey
+	 * @param IContextSource $context
+	 *
+	 * @return string HTML
+	 */
+	private function parseAsInterface( $msgKey, IContextSource $context ) {
+		return $context->getOutput()->parseAsInterface( wfMessage( $msgKey )->plain() );
+	}
+
 }
