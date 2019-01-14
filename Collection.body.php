@@ -222,7 +222,7 @@ class SpecialCollection extends SpecialPage {
 				}
 				$collection = $this->loadCollection( $title );
 				$partner = $request->getVal( 'partner', key( $this->mPODPartners ) );
-				$this->postZIP( $collection, $partner );
+				$this->postZip( $collection, $partner );
 				return;
 			case 'save_collection':
 				$this->processSaveCollectionCommand();
@@ -268,7 +268,7 @@ class SpecialCollection extends SpecialPage {
 				return;
 			case 'post_zip':
 				$partner = $request->getVal( 'partner', 'pediapress' );
-				$this->postZIP( CollectionSession::getCollection(), $partner );
+				$this->postZip( CollectionSession::getCollection(), $partner );
 				return;
 			case 'suggest':
 				$this->processSuggestCommand();
@@ -1324,7 +1324,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param array $collection
 	 * @param string $partner
 	 */
-	public function postZIP( $collection, $partner ) {
+	public function postZip( $collection, $partner ) {
 		$out = $this->getOutput();
 		if ( !isset( $this->mPODPartners[$partner] ) ) {
 			$out->showErrorPage( 'coll-invalid_podpartner_title', 'coll-invalid_podpartner_msg' );

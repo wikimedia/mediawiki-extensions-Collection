@@ -41,7 +41,7 @@ abstract class CollectionRenderingAPI {
 	/**
 	 * @return string Expanded wgScriptPath to work around T39868
 	 */
-	private function getBaseURL() {
+	private function getBaseUrl() {
 		global $wgScriptPath;
 
 		return wfExpandUrl( $wgScriptPath ?: '/', PROTO_CANONICAL );
@@ -55,7 +55,7 @@ abstract class CollectionRenderingAPI {
 	 */
 	public function render( $collection ) {
 		return $this->doRender( [
-				'metabook' => $this->buildJSONCollection( $collection ),
+				'metabook' => $this->buildJsonCollection( $collection ),
 			]
 		);
 	}
@@ -77,7 +77,7 @@ abstract class CollectionRenderingAPI {
 	protected function doRender( array $params ) {
 		global $wgContLang;
 
-		$params['base_url'] = $this->getBaseURL();
+		$params['base_url'] = $this->getBaseUrl();
 		$params['script_extension'] = '.php';
 		$params['language'] = $wgContLang->getCode();
 		return $this->makeRequest( 'render', $params );
@@ -95,8 +95,8 @@ abstract class CollectionRenderingAPI {
 	public function postZip( $collection, $url ) {
 		return $this->makeRequest( 'zip_post',
 			[
-				'metabook' => $this->buildJSONCollection( $collection ),
-				'base_url' => $this->getBaseURL(),
+				'metabook' => $this->buildJsonCollection( $collection ),
+				'base_url' => $this->getBaseUrl(),
 				'script_extension' => '.php',
 				'pod_api_url' => $url,
 			]
@@ -171,7 +171,7 @@ abstract class CollectionRenderingAPI {
 	 * @param array $collection
 	 * @return string
 	 */
-	protected function buildJSONCollection( $collection ) {
+	protected function buildJsonCollection( $collection ) {
 		$result = [
 			'type' => 'collection',
 			'licenses' => $this->getLicenseInfos()
@@ -217,7 +217,7 @@ abstract class CollectionRenderingAPI {
 		$result['wikis'] = [
 			[
 				'type' => 'wikiconf',
-				'baseurl' => $this->getBaseURL(),
+				'baseurl' => $this->getBaseUrl(),
 				'script_extension' => '.php',
 				'format' => 'nuwiki',
 			],
