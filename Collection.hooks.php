@@ -203,7 +203,7 @@ class CollectionHooks {
 	 * @param string $mode
 	 * @return string
 	 */
-	public static function renderBookCreatorBox( $title, $mode = '' ) {
+	public static function renderBookCreatorBox( Title $title, $mode = '' ) {
 		global $wgOut, $wgExtensionAssetsPath, $wgRequest;
 		$templateParser = new TemplateParser( __DIR__ . '/templates' );
 
@@ -245,7 +245,7 @@ class CollectionHooks {
 	 * @param null|int $oldid
 	 * @return string
 	 */
-	public static function getBookCreatorBoxContent( $title, $ajaxHint = null, $oldid = null ) {
+	public static function getBookCreatorBoxContent( Title $title, $ajaxHint = null, $oldid = null ) {
 		global $wgExtensionAssetsPath;
 
 		$imagePath = "$wgExtensionAssetsPath/Collection/images";
@@ -262,7 +262,12 @@ class CollectionHooks {
 	 * @param int $oldid
 	 * @return string
 	 */
-	public static function getBookCreatorBoxAddRemoveLink( $imagePath, $ajaxHint, $title, $oldid ) {
+	public static function getBookCreatorBoxAddRemoveLink(
+		$imagePath,
+		$ajaxHint,
+		Title $title,
+		$oldid
+	) {
 		$namespace = $title->getNamespace();
 		$ptext = $title->getPrefixedText();
 

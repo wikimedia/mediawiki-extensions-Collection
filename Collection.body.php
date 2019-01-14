@@ -825,7 +825,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param int $delta
 	 * @return array|false
 	 */
-	public static function moveItemInCollection( $collection, $index, $delta ) {
+	public static function moveItemInCollection( array $collection, $index, $delta ) {
 		$swapIndex = $index + $delta;
 		if ( !$collection || !isset( $collection['items'] ) ) {
 			return false;
@@ -844,7 +844,7 @@ class SpecialCollection extends SpecialPage {
 	/**
 	 * @param array $items
 	 */
-	public static function setSorting( $items ) {
+	public static function setSorting( array $items ) {
 		if ( !CollectionSession::hasSession() ) {
 			return;
 		}
@@ -956,11 +956,6 @@ class SpecialCollection extends SpecialPage {
 	private function loadCollection( $title, $append = false ) {
 		$out = $this->getOutput();
 
-		if ( is_null( $title ) ) {
-			$out->showErrorPage( 'coll-notitle_title', 'coll-notitle_msg' );
-			return null;
-		}
-
 		if ( !$title->exists() ) {
 			$out->showErrorPage( 'coll-notfound_title', 'coll-notfound_msg' );
 			return false;
@@ -995,7 +990,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param bool $forceOverwrite
 	 * @return bool
 	 */
-	private function saveCollection( $title, $forceOverwrite = false ) {
+	private function saveCollection( Title $title, $forceOverwrite = false ) {
 		$wikiPage = WikiPage::factory( $title );
 		if ( $wikiPage->exists() && !$forceOverwrite ) {
 			return false;
@@ -1074,7 +1069,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param Title $referrer Used only to provide a returnto parameter.
 	 * @param string $writer A writer registered in the appropriate configuration.
 	 */
-	private function renderCollection( $collection, Title $referrer, $writer ) {
+	private function renderCollection( array $collection, Title $referrer, $writer ) {
 		if ( !$writer ) {
 			$writer = 'rl';
 		}
@@ -1351,7 +1346,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param array $collection
 	 * @param string $partner
 	 */
-	private function postZip( $collection, $partner ) {
+	private function postZip( array $collection, $partner ) {
 		$out = $this->getOutput();
 		if ( !isset( $this->mPODPartners[$partner] ) ) {
 			$out->showErrorPage( 'coll-invalid_podpartner_title', 'coll-invalid_podpartner_msg' );
@@ -1404,7 +1399,7 @@ class SpecialCollection extends SpecialPage {
 	 *
 	 * @return bool Whether the result had errors
 	 */
-	private function handleResult( $result ) {
+	private function handleResult( CollectionAPIResult $result ) {
 		if ( !$result->isError() ) {
 			return true;
 		}

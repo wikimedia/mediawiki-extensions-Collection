@@ -15,7 +15,7 @@ class SpecialCollectionTest extends \PHPUnit\Framework\TestCase {
 		return [
 			// Cannot swap anything in a null object
 			[
-				null,
+				[],
 				0, 1,
 				false
 			],
@@ -49,7 +49,7 @@ class SpecialCollectionTest extends \PHPUnit\Framework\TestCase {
 	/**
 	 * @dataProvider provideMoveItemInCollection
 	 */
-	public function testMoveItemInCollection( $collection, $index, $delta, $expectedResult ) {
+	public function testMoveItemInCollection( array $collection, $index, $delta, $expectedResult ) {
 		$this->assertSame(
 			SpecialCollection::moveItemInCollection( $collection, $index, $delta ),
 			$expectedResult

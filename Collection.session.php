@@ -200,7 +200,7 @@ class CollectionSession {
 	/**
 	 * @param array $collection
 	 */
-	public static function setCollection( $collection ) {
+	public static function setCollection( array $collection ) {
 		$session = SessionManager::getGlobalSession();
 		$session['wsCollection'] = $collection;
 		self::touchSession();

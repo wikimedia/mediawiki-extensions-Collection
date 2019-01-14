@@ -53,7 +53,7 @@ abstract class CollectionRenderingAPI {
 	 *
 	 * @return CollectionAPIResult
 	 */
-	public function render( $collection ) {
+	public function render( array $collection ) {
 		return $this->doRender( [
 				'metabook' => $this->buildJsonCollection( $collection ),
 			]
@@ -92,7 +92,7 @@ abstract class CollectionRenderingAPI {
 	 *
 	 * @return CollectionAPIResult
 	 */
-	public function postZip( $collection, $url ) {
+	public function postZip( array $collection, $url ) {
 		return $this->makeRequest( 'zip_post',
 			[
 				'metabook' => $this->buildJsonCollection( $collection ),
@@ -171,7 +171,7 @@ abstract class CollectionRenderingAPI {
 	 * @param array $collection
 	 * @return string
 	 */
-	protected function buildJsonCollection( $collection ) {
+	protected function buildJsonCollection( array $collection ) {
 		$result = [
 			'type' => 'collection',
 			'licenses' => $this->getLicenseInfos()
