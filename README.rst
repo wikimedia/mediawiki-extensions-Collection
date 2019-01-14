@@ -131,17 +131,17 @@ people do not have to change them:
    An array mapping names of writers on the server to the name of the
    produced format.  The default value is::
 
-       array(
+       [
 	   'rl' => 'PDF',
-       )
+       ]
 
    i.e. only PDF enabled. If you want to add OpenDocument Text in addition to
    PDF you can set $wgCollectionFormats to something like this::
 
-       $wgCollectionFormats = array(
+       $wgCollectionFormats = [
 	   'rl' => 'PDF',
 	   'odf' => 'ODT',
-       );
+       ];
 
    On the public mwlib_ render server tools.pediapress.com, currently
    the following writers are available:
@@ -167,9 +167,9 @@ people do not have to change them:
    for them.  For example, if you wanted to configure an OCG_ server
    for PDF only, you might have::
 
-       $wgCollectionFormatToServeURL = array(
+       $wgCollectionFormatToServeURL = [
 	   'rdf2latex' => 'http://my-ocg-server.com:8000',
-       );
+       ];
 
    You can specify proxies in the same way as for ``$wgCollectionMWServeURL``.
 
@@ -178,9 +178,9 @@ people do not have to change them:
    used for them.  For example, to use the public pediapress POD
    server, you might have::
 
-       $wgCollectionCommandToServeURL = array(
+       $wgCollectionCommandToServeURL = [
 	   'zip_post' => 'http://tools.pediapress.com/mw-serve/',
-       );
+       ];
 
    Again, proxies can be prefixed to the URL, separated by ``|``, in
    the same way as for ``$wgCollectionMWServeURL``.
@@ -189,18 +189,18 @@ people do not have to change them:
    An array matching content types to filenames for downloaded documents. The
    default is::
 
-	  $wgCollectionContentTypeToFilename = array(
+	  $wgCollectionContentTypeToFilename = [
 		  'application/pdf' => 'collection.pdf',
 		  'application/vnd.oasis.opendocument.text' => 'collection.odt',
 		  'text/plain' => 'collection.txt',
-	  );
+	  ];
 
 ``$wgCollectionPortletFormats`` (array)
    An array containing formats (keys in $wgCollectionFormats) that shall be
    displayed as "Download as XYZ" links in the "Print/export" portlet.
    The default value is::
 
-       array( 'rl' );
+       [ 'rl' ];
 
    i.e. there's one link "Download as PDF".
 
@@ -214,7 +214,7 @@ people do not have to change them:
    Category pages (NS_CATEGORY) are always an exception (all articles in a
    category are added, not the category page itself). Default is::
 
-    array(
+    [
       NS_MAIN,
       NS_TALK,
       NS_USER,
@@ -235,7 +235,7 @@ people do not have to change them:
       109,
       110,
       111,
-    );
+    ];
 
 ``$wgCommunityCollectionNamespace`` (integer)
    Namespace for "community collections", i.e. the namespace where non-personal
@@ -278,14 +278,14 @@ people do not have to change them:
 
   ::
 
-        $wgCollectionPODPartners = array(
-                'pediapress' => array(
+        $wgCollectionPODPartners = [
+                'pediapress' => [
                         'name' => 'PediaPress',
                         'url' => 'http://pediapress.com/',
                         'posturl' => 'http://pediapress.com/api/collections/',
                         'infopagetitle' => 'coll-order_info_article',
-                ),
-        );
+                ],
+        ];
 
   (This is the default.)
 
