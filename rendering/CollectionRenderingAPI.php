@@ -43,8 +43,8 @@ abstract class CollectionRenderingAPI {
 	 */
 	private function getBaseURL() {
 		global $wgScriptPath;
-		$scriptPath = $wgScriptPath ? $wgScriptPath : "/";
-		return wfExpandUrl( $scriptPath, PROTO_CANONICAL );
+
+		return wfExpandUrl( $wgScriptPath ?: '/', PROTO_CANONICAL );
 	}
 
 	/**
