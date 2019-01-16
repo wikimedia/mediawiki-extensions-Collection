@@ -572,12 +572,12 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param array $a
-	 * @param array $b
-	 * @return int
+	 * @param array &$items
 	 */
-	public static function title_cmp( $a, $b ) {
-		return strcasecmp( $a['title'], $b['title'] );
+	private static function sortByTitle( array &$items ) {
+		usort( $items, function ( $a, $b ) {
+			return strcasecmp( $a['title'], $b['title'] );
+		} );
 	}
 
 	public static function sortItems() {
@@ -592,14 +592,14 @@ class SpecialCollection extends SpecialPage {
 		$new_items = [];
 		foreach ( $collection['items'] as $item ) {
 			if ( $item['type'] == 'chapter' ) {
-				usort( $articles, [ __CLASS__, 'title_cmp' ] );
+				self::sortByTitle( $articles );
 				$new_items = array_merge( $new_items, $articles, [ $item ] );
 				$articles = [];
 			} elseif ( $item['type'] == 'article' ) {
 				$articles[] = $item;
 			}
 		}
-		usort( $articles, [ __CLASS__, 'title_cmp' ] );
+		self::sortByTitle( $articles );
 		$collection['items'] = array_merge( $new_items, $articles );
 		CollectionSession::setCollection( $collection );
 	}
@@ -1232,7 +1232,9 @@ class SpecialCollection extends SpecialPage {
 		$url = $r->get( 'url' );
 		if ( $url ) {
 			$req = MWHttpRequest::factory( $url );
-			$req->setCallback( [ $this, 'writeToTempFile' ] );
+			$req->setCallback( function ( $fh, $content ) {
+				return fwrite( $this->tempfile, $content );
+			} );
 			if ( $req->execute()->isOK() ) {
 				$info = true;
 			}
@@ -1274,15 +1276,6 @@ class SpecialCollection extends SpecialPage {
 		fseek( $this->tempfile, 0 );
 		fpassthru( $this->tempfile );
 		$this->getOutput()->disable();
-	}
-
-	/**
-	 * @param array $res
-	 * @param string $content
-	 * @return int
-	 */
-	private function writeToTempFile( $res, $content ) {
-		return fwrite( $this->tempfile, $content );
 	}
 
 	/**
