@@ -92,6 +92,7 @@ class SpecialCollection extends SpecialPage {
 				}
 				$out->redirect( $title->getFullURL() );
 				return;
+
 			case 'stop_book_creator':
 				$title = Title::newFromText( $request->getVal( 'referer', '' ) );
 				if ( is_null( $title ) || $title->equals( $this->getPageTitle( $par ) ) ) {
@@ -105,6 +106,7 @@ class SpecialCollection extends SpecialPage {
 				}
 				$out->redirect( $title->getFullURL() );
 				return;
+
 			case 'add_article':
 				if ( CollectionSession::countArticles() >= $wgCollectionMaxArticles ) {
 					self::limitExceeded();
@@ -129,6 +131,7 @@ class SpecialCollection extends SpecialPage {
 					);
 				}
 				return;
+
 			case 'remove_article':
 				$oldid = $request->getInt( 'oldid', 0 );
 				$title = Title::newFromText( $request->getVal( 'arttitle', '' ) );
@@ -149,6 +152,7 @@ class SpecialCollection extends SpecialPage {
 					);
 				}
 				return;
+
 			case 'clear_collection':
 				CollectionSession::clearCollection();
 				$redirect = $request->getVal( 'return_to' );
@@ -161,6 +165,7 @@ class SpecialCollection extends SpecialPage {
 				}
 				$out->redirect( $redirectURL );
 				return;
+
 			case 'set_titles':
 				self::setTitles(
 					$request->getText( 'collectionTitle', '' ),
@@ -168,10 +173,12 @@ class SpecialCollection extends SpecialPage {
 				);
 				$out->redirect( SkinTemplate::makeSpecialUrl( 'Book' ) );
 				return;
+
 			case 'sort_items':
 				self::sortItems();
 				$out->redirect( SkinTemplate::makeSpecialUrl( 'Book' ) );
 				return;
+
 			case 'add_category':
 				$title = Title::makeTitleSafe( NS_CATEGORY, $request->getVal( 'cattitle', '' ) );
 				if ( !$title ) {
@@ -183,14 +190,17 @@ class SpecialCollection extends SpecialPage {
 					$out->redirect( $request->getVal( 'return_to', $title->getFullURL() ) );
 				}
 				return;
+
 			case 'remove_item':
 				self::removeItem( $request->getInt( 'index', 0 ) );
 				$out->redirect( SkinTemplate::makeSpecialUrl( 'Book' ) );
 				return;
+
 			case 'move_item':
 				self::moveItem( $request->getInt( 'index', 0 ), $request->getInt( 'delta', 0 ) );
 				$out->redirect( SkinTemplate::makeSpecialUrl( 'Book' ) );
 				return;
+
 			case 'load_collection':
 				$title = Title::newFromText( $request->getVal( 'colltitle', '' ) );
 				if ( !$title ) {
@@ -215,6 +225,7 @@ class SpecialCollection extends SpecialPage {
 				}
 				$this->renderLoadOverwritePage( $title );
 				return;
+
 			case 'order_collection':
 				$title = Title::newFromText( $request->getVal( 'colltitle', '' ) );
 				if ( !$title ) {
@@ -224,9 +235,11 @@ class SpecialCollection extends SpecialPage {
 				$partner = $request->getVal( 'partner', key( $this->mPODPartners ) );
 				$this->postZip( $collection, $partner );
 				return;
+
 			case 'save_collection':
 				$this->processSaveCollectionCommand();
 				return;
+
 			case 'render':
 				$this->renderCollection(
 					CollectionSession::getCollection(),
@@ -234,15 +247,19 @@ class SpecialCollection extends SpecialPage {
 					$request->getVal( 'writer', '' )
 				);
 				return;
+
 			case 'forcerender':
 				$this->forceRenderCollection();
 				return;
+
 			case 'rendering':
 				$this->renderRenderingPage();
 				return;
+
 			case 'download':
 				$this->download();
 				return;
+
 			case 'render_article':
 				$title = Title::newFromText( $request->getVal( 'arttitle', '' ) );
 				if ( !$title ) {
@@ -255,6 +272,7 @@ class SpecialCollection extends SpecialPage {
 					$this->renderCollection( $collection, $title, $request->getVal( 'writer', 'rl' ) );
 				}
 				return;
+
 			case 'render_collection':
 				$title = Title::newFromText( $request->getVal( 'colltitle', '' ) );
 				if ( !$title ) {
@@ -266,16 +284,20 @@ class SpecialCollection extends SpecialPage {
 					$this->renderCollection( $collection, $title, $request->getVal( 'writer', 'rl' ) );
 				}
 				return;
+
 			case 'post_zip':
 				$partner = $request->getVal( 'partner', 'pediapress' );
 				$this->postZip( CollectionSession::getCollection(), $partner );
 				return;
+
 			case 'suggest':
 				$this->processSuggestCommand();
 				return;
+
 			case '':
 				$this->renderSpecialPage();
 				return;
+
 			default:
 				$out->showErrorPage( 'coll-unknown_subpage_title', 'coll-unknown_subpage_text' );
 		}
@@ -327,6 +349,7 @@ class SpecialCollection extends SpecialPage {
 		if ( !$user->matchEditToken( $request->getVal( 'token' ) ) ) {
 			return;
 		}
+
 		$colltype = $request->getVal( 'colltype' );
 		$prefixes = self::getBookPagePrefixes();
 		$title = null;
@@ -346,6 +369,7 @@ class SpecialCollection extends SpecialPage {
 		if ( !$title ) {
 			return;
 		}
+
 		if ( $this->saveCollection( $title, $request->getBool( 'overwrite' ) ) ) {
 			$out->redirect( $title->getFullURL() );
 		} else {
@@ -371,7 +395,6 @@ class SpecialCollection extends SpecialPage {
 
 		MessageBoxHelper::addModuleStyles( $out );
 		$out->addHTML( MessageBoxHelper::renderWarningBoxes() );
-
 		$out->addWikiMsg( 'coll-book_creator_intro' );
 
 		$out->addModules( 'ext.collection.checkLoadFromLocalStorage' );
@@ -565,6 +588,7 @@ class SpecialCollection extends SpecialPage {
 			CollectionSession::setCollection( $collection );
 			return;
 		}
+
 		$articles = [];
 		$new_items = [];
 		foreach ( $collection['items'] as $item ) {
@@ -977,6 +1001,7 @@ class SpecialCollection extends SpecialPage {
 		if ( $wikiPage->exists() && !$forceOverwrite ) {
 			return false;
 		}
+
 		$collection = CollectionSession::getCollection();
 		$articleText = "{{" . $this->msg( 'coll-savedbook_template' )->inContentLanguage()->text();
 		if ( !empty( $collection['settings'] ) ) {
@@ -1155,6 +1180,7 @@ class SpecialCollection extends SpecialPage {
 			$out->addTemplate( $template );
 			$stats->increment( 'collection.renderingpage.pending' );
 			break;
+
 		case 'finished':
 			$out->setPageTitle( $this->msg( 'coll-rendering_finished_title' ) );
 
@@ -1173,6 +1199,7 @@ class SpecialCollection extends SpecialPage {
 			$out->addTemplate( $template );
 			$stats->increment( 'collection.renderingpage.finished' );
 			break;
+
 		case 'failed':
 			$out->setPageTitle( $this->msg( 'coll-rendering_failed_title' ) );
 			$statusText = $result->get( 'status', 'status' );
@@ -1189,6 +1216,7 @@ class SpecialCollection extends SpecialPage {
 			$out->addTemplate( $template );
 			$stats->increment( 'collection.renderingpage.failed' );
 			break;
+
 		default:
 			$stats->increment( 'collection.renderingpage.unknown' );
 			throw new Exception( __METHOD__ . "(): unknown state '{$result->get( 'state' )}'" );
@@ -1381,6 +1409,7 @@ class SpecialCollection extends SpecialPage {
 		if ( !$result->isError() ) {
 			return true;
 		}
+
 		$output = $this->getOutput();
 		MessageBoxHelper::addModuleStyles( $output );
 		$output->prepareErrorPage( $output->msg( 'coll-request_failed_title' ) );
