@@ -32,6 +32,7 @@ class CollectionPageTemplate extends QuickTemplate {
 		];
 		return $collection;
 	}
+
 	/**
 	 * Create a download form which allows you to download the book as pdf
 	 *

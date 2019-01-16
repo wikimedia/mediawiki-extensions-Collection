@@ -178,6 +178,7 @@ class BookRenderer {
 		}
 		return $templateData;
 	}
+
 	/**
 	 * Generate the concatenated page.
 	 * @param array[] $collection Collection, as returned by CollectionSession::getCollection().
