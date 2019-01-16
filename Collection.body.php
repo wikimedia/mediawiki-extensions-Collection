@@ -48,7 +48,7 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @return String
+	 * @return string
 	 */
 	public function getDescription() {
 		return $this->msg( 'coll-collection' )->escaped();
@@ -62,7 +62,6 @@ class SpecialCollection extends SpecialPage {
 
 		$out = $this->getOutput();
 		$request = $this->getRequest();
-		$user = $this->getUser();
 
 		// support previous URLs (e.g. used in templates) which used the "$par" part
 		// (i.e. subpages of the Special page)
