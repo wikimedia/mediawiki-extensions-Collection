@@ -34,6 +34,7 @@
 	"coll-create_a_book": "Шкамс кинига",
 	"coll-book_creator": "Кинигань шкиця",
 	"coll-download_as": "Таргамс тень $1 формасо",
+	"coll-book_creator_disable": "Лоткавтомс кинингань шкамканть",
 	"coll-add_category": "Поладомс кинигазот те категориянть",
 	"coll-add_this_page": "Поладомс те лопанть кинигазот",
 	"coll-add_page_tooltip": "Поладомс викинь тете лопанть кинигазот",
@@ -43,6 +44,8 @@
 	"coll-remove_this_page": "Нардамс те лопанть кинигастот",
 	"coll-show_collection": "Невтемс киниганть",
 	"coll-show_collection_tooltip": "Лепштямс кинигат витнемга-петнемга/таргамга/кармавтомга",
+	"coll-make_suggestions": "Ваномс лопат",
+	"coll-make_suggestions_tooltip": "Максомс ваномс лопат тень коряс, мезе уш кинигасот",
 	"coll-suggest_empty": "чаво",
 	"coll-attribution-anons": "Лемтеме: $1"
 }
