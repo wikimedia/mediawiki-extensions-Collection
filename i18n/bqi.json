@@ -7,9 +7,9 @@
 		]
 	},
 	"coll-remove": "ؤرداشتن",
-	"coll-show": "نشون دائن",
-	"coll-move_up": "رأهڌن وارو",
-	"coll-move_down": "رهڌن ڤا لأم(دڤۈن)",
+	"coll-show": "نشۊن دائن",
+	"coll-move_up": "رٱهڌن ڤارو",
+	"coll-move_down": "رٱهڌن ڤا داْڤۊن",
 	"coll-print_export": "پلا کردن/ڤ دٱر داڌن",
 	"coll-create_a_book": "راست كردن كتاو",
 	"coll-book_creator": "كتاڤ راسد كون",
@@ -23,12 +23,12 @@
 	"coll-help_tooltip": "هومياری راجوڤ كتاوسازی نه نشون بڌإ",
 	"coll-helppage": "هومیاری:کتاڤٱل",
 	"coll-n_pages": "{{PLURAL:$1|بألگأ|بألگإ آ}}",
-	"coll-remove_this_page": "ورداشتن ای بلگه ز كتاوتون",
+	"coll-remove_this_page": "ڤورداشتن ای بٱلگاْ ز کتاڤتۊن",
 	"coll-show_collection": "نشون دائن كتاو",
 	"coll-show_collection_tooltip": "سی ويرايشت بپورنين/گرهڌن/کتاڤتۈن نه بخاین",
 	"coll-make_suggestions": "بألگإ آ پيشناڌي",
 	"coll-make_suggestions_tooltip": "پيشناڌایي کإ ري اساس بلگأیل نه مإن کتاڤتۈن نشون بڌين",
 	"coll-attribution-anons": "نادیار:$1",
 	"coll-article-attribution": "<b>$1</b> <i>سرچشمأ:</i> $2 <i>هوميارا:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>سرچشمأ:</i> $2 <i>لیسانس:</i> $3 <i>هومیارا:</i> $4 <i>هنرمند أصلی:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>سرچشمٱ:</i> $2 <i>لیسانس:</i> $3 <i>هومیارٱل:</i> $4 <i>هونٱرمٱند ٱسلی:</i> $5"
 }
