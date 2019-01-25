@@ -194,6 +194,7 @@
 	"coll-images-title": "Kuvat",
 	"coll-images-source": "Lähde",
 	"coll-images-license": "Lisenssi",
+	"coll-images-original-artist": "Alkuperäinen taiteilija",
 	"coll-license-title": "Sisältölisenssi",
 	"coll-rendererror-title": "Kirjaa ei voitu luoda",
 	"coll-rendererror-pdf": "PDF-renderöinti epäonnistui: $1"
