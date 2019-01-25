@@ -119,7 +119,7 @@ class BookRenderingMediator implements LoggerAwareInterface {
 
 	/**
 	 * Append a book to the output.
-	 * @param array[] $book See getBookFromCache().
+	 * @param array $book See getBookFromCache().
 	 * @param OutputPage $out Output to send to.
 	 * @param bool $raw If true, set the output page to raw (no skin).
 	 */
