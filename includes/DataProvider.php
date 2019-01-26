@@ -170,7 +170,7 @@ class DataProvider implements LoggerAwareInterface {
 				$pages = $data['query']['pages'];
 			} else {
 				$pages = [];
-				wfDebugLog( 'collection', 'No pages were found in response: ' . json_decode( $data ) );
+				wfDebugLog( 'collection', 'No pages were found in response: ' . json_encode( $data ) );
 			}
 			foreach ( $pages as $page ) {
 				// Contributors will not be defined if pclimit is hit one of the other pages
