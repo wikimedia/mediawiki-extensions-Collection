@@ -36,7 +36,7 @@
 	"coll-couldnotremovearticle_msg": "Wikisivua ei voitu poistaa.",
 	"coll-noscript_text": "<h1>Vaatii toimiakseen JavaScriptin</h1>\n<strong>Selain ei tue JavaScriptiä tai JavaScript on poistettu käytöstä.\nTämä sivu ei toimi oikein, ellei JavaScript ole käytössä.</strong>",
 	"coll-savedbook_template": "tallennettu_kirja",
-	"coll-your_book": "Sinun kirjasi",
+	"coll-your_book": "Kirjasi",
 	"coll-download_title": "Lataa",
 	"coll-download_text": "Ladataksesi kirjan, valitse tiedostomuoto ja napsauta painiketta.",
 	"coll-download_as_text": "Voit ladata kirjasi $1-muodossa napsauttamalla painiketta.",
