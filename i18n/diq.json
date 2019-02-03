@@ -9,7 +9,8 @@
 			"Kumkumuk",
 			"Asmen",
 			"1917 Ekim Devrimi",
-			"Gırd"
+			"Gırd",
+			"Orbot707"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kıtabe vıraze]]",
@@ -186,5 +187,12 @@
 	"coll-article-attribution": "<b>$1</b> <i>Çıme:</i> $2 <i>İştıraqkeri:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Çıme:</i> $2 <i>Lisans:</i> $3 <i>İştıraqkeri:</i> $4 <i>Nuştoğo raştıkên:</i> $5",
 	"coll-warning-learn-more": "Tayêna bımuse",
-	"coll-images-source": "Çıme"
+	"coll-toc-title": "Tabloyê zerreki",
+	"coll-contributors-title": "İştırakkerdoği",
+	"coll-images-title": "Resımi",
+	"coll-images-source": "Çıme",
+	"coll-images-license": "Lisans",
+	"coll-images-original-artist": "Artisto oricinal",
+	"coll-license-title": "Lisansê zerreki",
+	"coll-rendererror-title": "Kıtabo ke nêvıraziyeno"
 }

@@ -67,7 +67,7 @@
 	"coll-notitle_msg": "無法辨識此頁面的標題。",
 	"coll-request_failed_title": "書籍呈現失敗",
 	"coll-request_failed_msg": "呈現書籍時發生錯誤。",
-	"coll-error_reponse": "伺服器回傳錯誤",
+	"coll-error_reponse": "伺服器回應錯誤",
 	"coll-empty_collection": "空的書籍",
 	"coll-revision": "修訂：$1",
 	"coll-save_collection_title": "儲存並分享您的書籍",
