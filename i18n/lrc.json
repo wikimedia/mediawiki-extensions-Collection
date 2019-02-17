@@ -176,6 +176,6 @@
 	"coll-attribution-anons": "نادیار:$1",
 	"coll-attribution-page": "<h1>سرچشمه یا عسگ و نیسسه،هومیاریا، و لیسانسا</h1>\n<h2>نیسسه</h2>\n$1<h2>عسگیا</h2>\n$2\n<h2>مینونه لیسانسیا</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>سرچشمه:</i> $2 <i>هومیارا:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>سرچشمه:</i> $2 <i>لیسانس:</i> $3 <i>هومیارا:</i> $4 <i>هنرمن اصلی:</i> $5",
+	"coll-image-attribution": "<b>$1</b> <i>سرچشمٱ:</i> $2 <i>لٛیسانس:</i> $3 <i>هومیارا:</i> $4 <i>هونٱرمٱند ٱسلی:</i> $5",
 	"coll-images-license": "لایسنس"
 }

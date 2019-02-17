@@ -1,18 +1,23 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lanciné.kounfantoh.fofana"
+			"Lanciné.kounfantoh.fofana",
+			"Youssoufkadialy"
 		]
 	},
 	"coll-remove": "ߊ߬ ߛߋ߲߬ߓߐ߫",
 	"coll-show": "ߦߌ߬ߘߊ߬ߟߌ",
 	"coll-move_up": "ߌ ߡߊߦߟߍ߬",
+	"coll-move_down": "ߌ ߡߊߖߌ߰",
 	"coll-print_export": "ߊ߬ ߜߌ߬ߙߌ߲߬ߘߌ߬",
 	"coll-create_a_book": "ߞߊ߬ߝߊ ߘߏ߫ ߟߊߘߊ߲߫",
 	"coll-book_creator": "ߞߝߊ߬ ߛߓߍ߬ߟߊ",
+	"coll-download_as": "ߊ߬ ߓߟߐߟߐߟߊߖߌ߰ $1",
+	"coll-book_creator_disable": "ߞߝߊ߬ ߟߊ߬ߘߊ߲߬ߟߊ߲ ߠߊߟߐ߬",
 	"coll-book_creator_disable_tooltip": "ߞߝߊ߬ ߟߊ߬ߘߊ߲߬ߟߊ߲ ߟߊߓߊ߯ߙߊ ߟߊߟߐ߬",
 	"coll-add_this_page": "ߘߐߜߍ ߣߌ߲߬ ߠߊߕߘߍ߬ ߌ ߟߊ߫ ߞߊ߬ߝߊ ߘߐ߫",
 	"coll-add_page_tooltip": "ߥߞߌ߫ ߞߐߜߍ ߣߌ߲߬ ߠߊߘߏ߲߬ ߌ ߟߊ߫ ߞߊ߬ߝߊ ߘߐ߫",
+	"coll-help": "ߘߍ߬ߡߍ߲߬ߠߌ߲",
 	"coll-remove_this_page": "ߞߐߜߍ ߣߌ߲߬ ߛߋ߲߬ߓߐ߫ ߌ ߟߊ߫ ߞߊ߬ߝߊ ߘߐ߫",
 	"coll-show_collection": "ߞߊ߬ߝߊ ߦߌ߬ߘߊ߬"
 }
