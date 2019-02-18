@@ -5,7 +5,8 @@
 			"Eleassar",
 			"Freakolowsky",
 			"Smihael",
-			"Macofe"
+			"Macofe",
+			"Yerpo"
 		]
 	},
 	"coll-desc": "[[Special:Book|Ustvari e-knjige]]",
@@ -180,5 +181,19 @@
 	"coll-attribution-anons": "Brezimni: $1",
 	"coll-attribution-page": "<h1>Viri besedila in slik, sodelavci in dovoljenja</h1>\n<h2>Besedilo</h2>\n$1<h2>Slike</h2>\n$2\n<h2>Dovoljenje vsebine</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Vir:</i> $2 <i>Sodelavci:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Vir:</i> $2 <i>Dovoljenje:</i> $3 <i>Sodelavci:</i> $4 <i>Izvirni umetnik:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Vir:</i> $2 <i>Dovoljenje:</i> $3 <i>Sodelavci:</i> $4 <i>Izvirni umetnik:</i> $5",
+	"coll-warning-disable-pdf-title": "Ustvarjalec knjig je v postopku spreminjanja",
+	"coll-warning-disable-pdf-text": "Zaradi hudih težav z obstoječim sistemom Ustvarjalec knjig kratek čas ne bo podpiral shranjevanja knjig v formatu PDF. Aktivno delamo na prenovi sistema in ponovni vzpostavitvi PDF-ov v Ustvarjalcu knjig.",
+	"coll-warning-learn-more": "Več o tem",
+	"coll-notice-download-pdf-title": "Prenesi posamezne strani",
+	"coll-notice-download-pdf-text": "Do zamenjave sistema generiranja datotek PDF v Ustvarjalcu knjig lahko preskusite orodje '''''Prenesi kot PDF''''' v menijih za posamezne članke.",
+	"coll-toc-title": "Kazalo vsebine",
+	"coll-contributors-title": "Avtorji",
+	"coll-images-title": "Slike",
+	"coll-images-source": "Vir",
+	"coll-images-license": "Dovoljenje",
+	"coll-images-original-artist": "Avtor izvirnika",
+	"coll-license-title": "Dovoljenje za vsebino",
+	"coll-rendererror-title": "Knjige ni bilo mogoče generirati",
+	"coll-rendererror-no-cache": "V predpomnilniku ni podatkov o knjigi. To je verjetno programska napaka."
 }
