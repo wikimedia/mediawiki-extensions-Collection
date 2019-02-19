@@ -10,6 +10,7 @@ use MediaWikiCoversValidator;
  */
 class HeadingCounterTest extends \PHPUnit\Framework\TestCase {
 	use MediaWikiCoversValidator;
+	use \PHPUnit4And6Compat;
 
 	/**
 	 * @dataProvider provideIncrementAndGet
@@ -61,11 +62,9 @@ class HeadingCounterTest extends \PHPUnit\Framework\TestCase {
 		];
 	}
 
-	/**
-	 * @expectedException LogicException
-	 */
 	public function testIncrementAndGetTopLevel_error() {
 		$headingCounter = new HeadingCounter();
+		$this->expectException( LogicException::class );
 		$headingCounter->incrementAndGetTopLevel();
 	}
 
