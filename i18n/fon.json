@@ -4,6 +4,9 @@
 			"Mahuton"
 		]
 	},
+	"coll-remove": "Ɖé sin",
+	"coll-move_up": "Ɖɔn yi jí",
+	"coll-move_down": "Ɖɔn wá do",
 	"coll-print_export": "Zín wémá élɔ",
 	"coll-create_a_book": "Sɔ ɖo bló wémá ná",
 	"coll-download_as": "Sɔ wémá ɔ, ɖo alɔ é jí é ɖé ɖo $1,  wá ɖo nulɛnmɔ towé jí"
