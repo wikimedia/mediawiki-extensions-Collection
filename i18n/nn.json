@@ -158,5 +158,6 @@
 	"coll-attribution-anons": "Anonyme: $1",
 	"coll-attribution-page": "<h1>Tekst- og biletkjelder, bidragsytarar og lisensar</h1>\n<h2>Tekst</h2>\n$1<h2>Bilete</h2>\n$2\n<h2>Innhaldslisens</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Kjelde:</i> $2 <i>Bidragsytarar:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Kjelde:</i> $2 <i>Lisens:</i> $3 <i>Bidragsytarar:</i> $4 <i>Kunstnar:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Kjelde:</i> $2 <i>Lisens:</i> $3 <i>Bidragsytarar:</i> $4 <i>Kunstnar:</i> $5",
+	"coll-warning-learn-more": "Lær meir"
 }
