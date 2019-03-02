@@ -255,7 +255,7 @@ abstract class CollectionRenderingAPI {
 				$result['wikis'][$i]['prefix'] = $params['prefix'];
 				$result['wikis'][$i]['domain'] = $domain;
 			}
-		} elseif ( class_exists( VisualEditorHooks::class ) ) {
+		} elseif ( ExtensionRegistry::getInstance()->isLoaded( 'VisualEditor' ) ) {
 			// fall back to Visual Editor configuration globals
 			global $wgVisualEditorParsoidURL, $wgVisualEditorParsoidPrefix,
 				$wgVisualEditorParsoidDomain, $wgVisualEditorRestbaseURL;
