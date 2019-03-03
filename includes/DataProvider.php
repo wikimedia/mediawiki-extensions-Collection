@@ -121,7 +121,6 @@ class DataProvider implements LoggerAwareInterface {
 	 *   - images: [ dbkey => [ [ title =>, url =>, license =>, credit =>, artist => ], ... ], ... ]
 	 *   - license: [ text => ..., url => ... ]
 	 *   - modules: [ module, ... ]
-	 *   - modulescripts: [ module, ... ]
 	 *   - modulestyles: [ module, ... ]
 	 *   - jsconfigvars: [ var, ... ]
 	 */
@@ -133,7 +132,6 @@ class DataProvider implements LoggerAwareInterface {
 			'images' => [],
 			'license' => [],
 			'modules' => [],
-			'modulescripts' => [],
 			'modulestyles' => [],
 			'jsconfigvars' => [],
 		];
@@ -252,7 +250,7 @@ class DataProvider implements LoggerAwareInterface {
 					'level' => intval( $sectionData['level'] ),
 				];
 			}, $data['parse']['sections'] );
-			foreach ( [ 'modules', 'modulescripts', 'modulestyles', 'jsconfigvars' ] as $field ) {
+			foreach ( [ 'modules', 'modulestyles', 'jsconfigvars' ] as $field ) {
 				// let's hope there is no conflict in jsconfigvars...
 				$metadata[$field] = array_merge( $metadata[$field], $data['parse'][$field] );
 			}

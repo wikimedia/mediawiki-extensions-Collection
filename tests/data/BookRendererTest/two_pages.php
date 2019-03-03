@@ -35,7 +35,6 @@ return [
 		],
 		'contributors' => [ 'X' => 1 ],
 		'modules' => [ 'foo' ],
-		'modulescripts' => [ 'fooscript' ],
 		'modulestyles' => [ 'foostyle' ],
 		'jsconfigvars' => [ 'x' => 1 ],
 	],
