@@ -52,7 +52,7 @@ class BookRenderingMediator implements LoggerAwareInterface {
 	 * @param array[] $collection Collection data, as returned by CollectionSession::getCollection().
 	 * @return mixed[] associative array with:
 	 *    - 'html': HTML, not including <body> or anything outside that.
-	 *    - 'modules', 'modulescripts', 'modulestyles', 'jsconfigvars': ResourceLoader data
+	 *    - 'modules', 'modulestyles', 'jsconfigvars': ResourceLoader data
 	 * @throws ErrorPageError When one of the internal API calls fails.
 	 */
 	public function getBook( array $collection ) {
@@ -75,7 +75,7 @@ class BookRenderingMediator implements LoggerAwareInterface {
 		}
 		$html = $bookRenderer->renderBook( $collection, $pages, $metadata );
 
-		$fields = [ 'html', 'modules', 'modulescripts', 'modulestyles', 'jsconfigvars' ];
+		$fields = [ 'html', 'modules', 'modulestyles', 'jsconfigvars' ];
 		return array_intersect_key( [ 'html' => $html ] + $metadata, array_fill_keys( $fields, null ) );
 	}
 
@@ -132,7 +132,6 @@ class BookRenderingMediator implements LoggerAwareInterface {
 
 		$out->addModuleStyles( [ 'ext.collection.offline' ] );
 		$out->addModules( $book['modules'] );
-		$out->addModuleScripts( $book['modulescripts'] );
 		$out->addModuleStyles( $book['modulestyles'] );
 		$out->addJsConfigVars( $book['jsconfigvars'] );
 		$out->addHTML( $book['html'] );
