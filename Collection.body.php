@@ -852,7 +852,7 @@ class SpecialCollection extends SpecialPage {
 		$old_items = $collection['items'];
 		$new_items = [];
 		foreach ( $items as $new_index => $old_index ) {
-			$new_items[$new_index] = isset( $old_items[$old_index] ) ? $old_items[$old_index] : null;
+			$new_items[$new_index] = $old_items[$old_index] ?? null;
 		}
 		$collection['items'] = $new_items;
 		CollectionSession::setCollection( $collection );

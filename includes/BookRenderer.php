@@ -130,7 +130,7 @@ class BookRenderer {
 		$templateData = [
 			'toc' => [
 				'title' => $collection['title'],
-				'subtitle' => isset( $collection['subtitle'] ) ? $collection['subtitle'] : false,
+				'subtitle' => $collection['subtitle'] ?? false,
 				'toctitle' => wfMessage( 'coll-toc-title' )->text(),
 				'tocitems' => $this->getNestedOutline( $outline ),
 			],

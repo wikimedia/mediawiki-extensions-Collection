@@ -162,7 +162,7 @@ class DataProvider implements LoggerAwareInterface {
 		$metadata['contributors'] = [];
 		do {
 			$data = $this->makeActionApiRequest( $params );
-			$continue = isset( $data['continue'] ) ? $data['continue'] : [];
+			$continue = $data['continue'] ?? [];
 			$params = $continue + $params;
 			if ( isset( $data['query']['pages'] ) ) {
 				$pages = $data['query']['pages'];
@@ -196,7 +196,7 @@ class DataProvider implements LoggerAwareInterface {
 			];
 			do {
 				$data = $this->makeActionApiRequest( $params );
-				$continue = isset( $data['continue'] ) ? $data['continue'] : [];
+				$continue = $data['continue'] ?? [];
 				$params = $continue + $params;
 				foreach ( $data['query']['pages'] as $page ) {
 					if ( array_key_exists( 'imageinfo', $page ) ) {
@@ -220,7 +220,7 @@ class DataProvider implements LoggerAwareInterface {
 
 						$metadata['images'][$page['title']] = [
 							'title' => $page['title'],
-							'url' => isset( $imageinfo['url'] ) ? $imageinfo['url' ] : '',
+							'url' => $imageinfo['url'] ?? '',
 							'license' => $license,
 							'credit' => $credit,
 							'artist' => $artist
