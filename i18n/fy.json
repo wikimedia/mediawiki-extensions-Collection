@@ -5,7 +5,8 @@
 			"SK-luuut",
 			"Snakesteuben",
 			"Robin0van0der0vliet",
-			"Robin van der Vliet"
+			"Robin van der Vliet",
+			"PiefPafPier"
 		]
 	},
 	"coll-remove": "Fuortsmite",
@@ -19,7 +20,7 @@
 	"coll-print_export": "Ofdrukke/eksportearje",
 	"coll-create_a_book": "Boek meitsje",
 	"coll-book_creator": "Boekenmakker",
-	"coll-download_as": "Downloade as $1",
+	"coll-download_as": "Ynlade as $1",
 	"coll-disable": "útskeakelje",
 	"coll-help": "Help",
 	"coll-helppage": "Help:Boeken",
