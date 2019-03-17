@@ -4,5 +4,10 @@
 			"Nomden"
 		]
 	},
-	"coll-move_up": "Nyukela ngasentla"
+	"coll-remove": "Susa/khupha",
+	"coll-show": "Bonisa",
+	"coll-move_up": "Nyukela ngasentla",
+	"coll-move_down": "yihla ubhek'ezantsi",
+	"coll-help": "Nceda",
+	"coll-show_collection": "bonisa incwadi"
 }

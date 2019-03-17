@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Peter57770"
+			"Peter57770",
+			"R12ntech"
 		]
 	},
 	"coll-remove": "Yuȟéyab ičú wo/we",
@@ -10,5 +11,6 @@
 	"coll-move_down": "Khútakiya",
 	"coll-print_export": "Máza aglíheya/yutȟáŋkal ičú wo/we",
 	"coll-create_a_book": "Wówapi káǧa yo/ye",
-	"coll-download_as": "$1 s'e khulwókšu wo/we"
+	"coll-download_as": "$1 s'e khulwókšu wo/we",
+	"coll-help": "Ómakiya yo/ye"
 }

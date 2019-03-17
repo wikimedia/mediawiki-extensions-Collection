@@ -66,7 +66,7 @@
 	"coll-load_overwrite_text": "لديك بالفعل عده صفحات فى كتابك.\nهل تريد الكتابه على كتابك الحالى، إضافه المحتوى الجديد أو إلغاء تحميل هذا الكتاب؟",
 	"coll-overwrite": "كتابه عليها",
 	"coll-append": "انتظار",
-	"coll-cancel": "ألغِ",
+	"coll-cancel": "الغى",
 	"coll-update": "تحديث",
 	"coll-limit_exceeded_title": "الكتاب كبير جدا",
 	"coll-limit_exceeded_text": "كتابك كبير جدا.\nلا مزيد من الصفحات يمكن إضافتها.",
