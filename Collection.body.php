@@ -231,8 +231,10 @@ class SpecialCollection extends SpecialPage {
 					return;
 				}
 				$collection = $this->loadCollection( $title );
-				$partner = $request->getVal( 'partner', key( $this->mPODPartners ) );
-				$this->postZip( $collection, $partner );
+				if ( $collection ) {
+					$partner = $request->getVal( 'partner', key( $this->mPODPartners ) );
+					$this->postZip( $collection, $partner );
+				}
 				return;
 
 			case 'save_collection':
@@ -953,7 +955,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param bool $append
 	 * @return array|false
 	 */
-	private function loadCollection( $title, $append = false ) {
+	private function loadCollection( Title $title, $append = false ) {
 		$out = $this->getOutput();
 
 		if ( !$title->exists() ) {
