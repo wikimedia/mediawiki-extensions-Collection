@@ -10,7 +10,8 @@
 			"Albertas",
 			"Zygimantus",
 			"Macofe",
-			"Manvydasz"
+			"Manvydasz",
+			"Vogone"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kurti knygas]]",
@@ -185,6 +186,9 @@
 	"coll-attribution-page": "<h1>Teksto ir paveikslėlių šaltiniai, kūrėjai ir licencijos</h1>\n<h2>Tekstas</h2>\n$1<h2>Paveikslėliai</h2>\n$2\n<h2>Turinio licencija</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Šaltinis:</i> $2 <i>Autoriai:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Šaltinis:</i> $2 <i>Licencija:</i> $3 <i>Autoriai:</i> $4 <i>Kūrėjas:</i> $5",
+	"coll-warning-learn-more": "Sužinoti daugiau",
+	"coll-toc-title": "Turinys",
+	"coll-contributors-title": "Autoriai",
 	"coll-images-title": "Paveikslėliai",
 	"coll-images-source": "Šaltinis",
 	"coll-images-license": "Licencija",
