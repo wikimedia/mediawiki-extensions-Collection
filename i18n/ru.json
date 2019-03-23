@@ -25,7 +25,8 @@
 			"Movses",
 			"Ole Yves",
 			"Stjn",
-			"Vlad5250"
+			"Vlad5250",
+			"Diralik"
 		]
 	},
 	"coll-desc": "[[Special:Book|Создание книг]]",
@@ -44,7 +45,7 @@
 	"coll-couldnotaddarticle_msg": "Эта статья не может быть добавлена.",
 	"coll-couldnotremovearticle_title": "Не удалось удалить статью",
 	"coll-couldnotremovearticle_msg": "Эта статья не может быть удалена.",
-	"coll-noscript_text": "<h1>Требуется JavaScript!</h1>\n<strong>Ваш браузер не поддерживает JavaScript или данная поддержка была отключена.\nЭта страница не будет работать правильно, если JavaScript не включен.</strong>",
+	"coll-noscript_text": "<h1>Требуется JavaScript!</h1>\n<strong>Ваш браузер не поддерживает JavaScript или данная поддержка была отключена.\nЭта страница не будет работать правильно, если JavaScript отключён.</strong>",
 	"coll-savedbook_template": "сохранённая книга",
 	"coll-your_book": "Ваша книга",
 	"coll-download_title": "Скачать",
@@ -115,7 +116,7 @@
 	"coll-notfound_title": "Книга не найдена",
 	"coll-notfound_text": "Невозможно найти страницу книги.",
 	"coll-download_notfound_title": "Файл не найден",
-	"coll-download_notfound_text": "Файла, который вы пытаетесь загрузить, не существует. Может быть, он был удален, и его необходимо воссоздать.",
+	"coll-download_notfound_text": "Файла, который вы пытаетесь загрузить, не существует. Может быть, он был удалён, и его необходимо воссоздать.",
 	"coll-download_failed_title": "Ошибка в процессе скачивания",
 	"coll-download_failed_text": "Обнаружена ошибка при скачивании файла: $1",
 	"coll-is_cached": "<ul><li>Найдена закэшированная версия этого документа, отрисовка не потребовалась. [$1 Всё-таки запустить отрисовку.]</li></ul>",
