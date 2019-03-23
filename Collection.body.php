@@ -959,7 +959,7 @@ class SpecialCollection extends SpecialPage {
 		$out = $this->getOutput();
 
 		if ( !$title->exists() ) {
-			$out->showErrorPage( 'coll-notfound_title', 'coll-notfound_msg' );
+			$out->showErrorPage( 'coll-notfound_title', 'coll-notfound_text' );
 			return false;
 		}
 
