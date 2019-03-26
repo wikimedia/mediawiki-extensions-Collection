@@ -4,7 +4,8 @@
 			"Praveenp",
 			"Shijualex",
 			"Vssun",
-			"Macofe"
+			"Macofe",
+			"Adithyak1997"
 		]
 	},
 	"coll-desc": "[[Special:Book|പുസ്തകം സൃഷ്ടിക്കുക]]",
@@ -176,5 +177,7 @@
 	"coll-attribution-anons": "അജ്ഞാതം: $1",
 	"coll-attribution-page": "<h1>എഴുത്തിന്റെയും ചിത്രങ്ങളുടേയും സ്രോതസ്സുകൾ, സംഭാവകർ ഒപ്പം അനുമതികൾ</h1>\n<h2>എഴുത്ത്</h2>\n$1<h2>ചിത്രങ്ങൾ</h2>\n$2\n<h2>ഉള്ളടക്കത്തിന്റെ അനുവാദപത്രം</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>സ്രോതസ്സ്:</i> $2 <i>സംഭാവകർ:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>സ്രോതസ്സ്:</i> $2 <i>അനുമതി:</i> $3 <i>സംഭാവന ചെയ്തവർ:</i> $4 <i>യഥാർത്ഥ കലാകാരൻ/കലാകാരി:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>സ്രോതസ്സ്:</i> $2 <i>അനുമതി:</i> $3 <i>സംഭാവന ചെയ്തവർ:</i> $4 <i>യഥാർത്ഥ കലാകാരൻ/കലാകാരി:</i> $5",
+	"coll-images-title": "ചിത്രങ്ങൾ",
+	"coll-images-source": "സ്രോതസ്സ്"
 }
