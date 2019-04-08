@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Lanciné.kounfantoh.fofana",
-			"Youssoufkadialy"
+			"Youssoufkadialy",
+			"Lancine.kounfantoh.fofana"
 		]
 	},
 	"coll-remove": "ߊ߬ ߛߋ߲߬ߓߐ߫",
@@ -13,6 +14,7 @@
 	"coll-create_a_book": "ߞߊ߬ߝߊ ߘߏ߫ ߟߊߘߊ߲߫",
 	"coll-book_creator": "ߞߝߊ߬ ߛߓߍ߬ߟߊ",
 	"coll-download_as": "ߊ߬ ߓߟߐߟߐߟߊߖߌ߰ $1",
+	"coll-disable": "ߓߘߊ߫ ߓߟߏߞߊ߬",
 	"coll-book_creator_disable": "ߞߝߊ߬ ߟߊ߬ߘߊ߲߬ߟߊ߲ ߠߊߟߐ߬",
 	"coll-book_creator_disable_tooltip": "ߞߝߊ߬ ߟߊ߬ߘߊ߲߬ߟߊ߲ ߟߊߓߊ߯ߙߊ ߟߊߟߐ߬",
 	"coll-add_this_page": "ߘߐߜߍ ߣߌ߲߬ ߠߊߕߘߍ߬ ߌ ߟߊ߫ ߞߊ߬ߝߊ ߘߐ߫",
