@@ -3,13 +3,15 @@
 		"authors": [
 			"ArmenBakkalian",
 			"Azniv Stepanian",
-			"Rajemian"
+			"Rajemian",
+			"Kareyac"
 		]
 	},
 	"coll-remove": "Հանել",
 	"coll-show": "Ցուցնել",
 	"coll-move_up": "Վեր տեղափոխել",
 	"coll-move_down": "Վար տեղափոխել",
+	"coll-cancel": "Չեղարկել",
 	"coll-print_export": "Տպել/արտածել",
 	"coll-create_a_book": "Գիրք ստեղծել",
 	"coll-book_creator": "Ստեղծել գիրք",
