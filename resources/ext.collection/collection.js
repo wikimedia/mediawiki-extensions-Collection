@@ -22,16 +22,16 @@
 /* global confirm, prompt, collection_id, writer, wfCollectionSave */
 ( function ( mw, $ ) {
 
-/******************************************************************************/
+	/******************************************************************************/
 
-/**
- * Return text of element with given selector. Optionally replace %PARAM% with value
- * of param. This allows usage of localization features in PHP from JavaScript.
- *
- * @param {string} id Element ID of element containing text
- * @param {string} [param] Text to replace %PARAM% with
- * @return {string} text of element with ID id
- */
+	/**
+	 * Return text of element with given selector. Optionally replace %PARAM% with value
+	 * of param. This allows usage of localization features in PHP from JavaScript.
+	 *
+	 * @param {string} id Element ID of element containing text
+	 * @param {string} [param] Text to replace %PARAM% with
+	 * @return {string} text of element with ID id
+	 */
 	function gettext( id, param ) {
 		var txt = $( id ).html();
 		if ( param ) {
