@@ -25,5 +25,7 @@
 	"coll-n_pages": "$1 {{PLURAL:$1|ߘߐߜߍ|ߞߐߜߍ ߟߎ߬}}",
 	"coll-remove_this_page": "ߞߐߜߍ ߣߌ߲߬ ߛߋ߲߬ߓߐ߫ ߌ ߟߊ߫ ߞߊ߬ߝߊ ߘߐ߫",
 	"coll-show_collection": "ߞߊ߬ߝߊ ߦߌ߬ߘߊ߬",
-	"coll-show_collection_tooltip": "ߊ߬ ߛߐ߲߬ߞߌ߲߫ ߞߴߌ ߟߊ߫ ߞߊ߬ߝߊ ߡߊߦߟߍ߬ߡߊ߲߬/ߟߊߖߌ߰ ߌ ߞߎ߲߬/ߡߊߞߟߌ߫"
+	"coll-show_collection_tooltip": "ߊ߬ ߛߐ߲߬ߞߌ߲߫ ߞߴߌ ߟߊ߫ ߞߊ߬ߝߊ ߡߊߦߟߍ߬ߡߊ߲߬/ߟߊߖߌ߰ ߌ ߞߎ߲߬/ߡߊߞߟߌ߫",
+	"coll-make_suggestions": "ߞߐߜߍ ߞߎ߲߭ߦߌ߬ߘߊ߬ߣߍ߲ ߠߎ߬",
+	"coll-make_suggestions_tooltip": "ߞߐߜߍ ߞߎ߲߬ߦߌ߬ߘߊ߬ߣߍ߲ ߠߎ߬ ߦߌ߬ߘߊ߬ ߌ ߟߊ߫ ߞߊ߬ߝߊ ߘߐ߫"
 }
