@@ -202,7 +202,12 @@
 			if ( $this.parents( '.nopopups' ).length ) {
 				return;
 			}
-			$this.hover( function () { show( $this ); }, cancel );
+			$this.hover(
+				function () {
+					show( $this );
+				},
+				cancel
+			);
 		} );
 	} );
 
