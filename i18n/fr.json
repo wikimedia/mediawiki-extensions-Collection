@@ -23,7 +23,8 @@
 			"Elfix",
 			"Macofe",
 			"Wladek92",
-			"DePlusJean"
+			"DePlusJean",
+			"Pols12"
 		]
 	},
 	"coll-desc": "Permet de [[Special:Book|créer des livres]]",
@@ -152,7 +153,9 @@
 	"coll-format-okawix_zeno": "Okawix",
 	"coll-format-rdf2latex": "e-book (PDF, rendu ocg latex)",
 	"coll-format-rdf2text": "Traitement de texte (texte brut)",
+	"action-collectionsaveasuserpage": "sauvegarder des livres comme des pages d’utilisateur",
 	"right-collectionsaveasuserpage": "Sauvegarder des livres sur des pages utilisateur",
+	"action-collectionsaveascommunitypage": "sauvegarder des livres comme des pages communautaires",
 	"right-collectionsaveascommunitypage": "Sauvegarder des livres sur des pages communautaires",
 	"coll-print_export": "Imprimer / exporter",
 	"coll-create_a_book": "Créer un livre",

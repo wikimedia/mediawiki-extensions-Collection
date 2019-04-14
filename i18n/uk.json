@@ -14,7 +14,8 @@
 			"Piramidion",
 			"Dars",
 			"Macofe",
-			"SimondR"
+			"SimondR",
+			"Vlad5250"
 		]
 	},
 	"coll-desc": "[[Special:Book|Створює книги]]",
@@ -143,7 +144,9 @@
 	"coll-format-okawix_zeno": "Okawix",
 	"coll-format-rdf2latex": "електронна книга (PDF, обробник ocg latex)",
 	"coll-format-rdf2text": "Текстовий процесор (звичайний текст)",
+	"action-collectionsaveasuserpage": "збереження книг як сторінок користувачів",
 	"right-collectionsaveasuserpage": "збереження книг як сторінок користувачів",
+	"action-collectionsaveascommunitypage": "збереження книг як сторінок спільноти",
 	"right-collectionsaveascommunitypage": "збереження книг як сторінок спільноти",
 	"coll-print_export": "Друк/експорт",
 	"coll-create_a_book": "Створити книгу",
