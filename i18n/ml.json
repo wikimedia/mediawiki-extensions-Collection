@@ -82,6 +82,7 @@
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/ശേഖരത്തിന്റെ വിവരങ്ങളുള്ള എഴുത്ത് പ്രദർശനയോഗ്യമാക്കുന്നു",
 	"coll-rendering_finished_title": "റെൻഡർ ചെയ്യൽ പൂർണ്ണം",
 	"coll-rendering_finished_text": "<strong>വിവര പ്രമാണം സൃഷ്ടിച്ചിരിക്കുന്നു.</strong>\nതാങ്കളുടെ കമ്പ്യൂട്ടറിലേയ്ക്ക് <strong>[$1 പ്രമാണം ഡൗൺലോഡ് ചെയ്യുക]</strong>.",
+	"coll-rendering_finished_notes_heading": "കുറിപ്പുകൾ:",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/താളിന്റെ വിവരങ്ങളുള്ള എഴുത്ത് പ്രദർശനയോഗ്യമാക്കുന്നു",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/ശേഖരത്തിന്റെ വിവരങ്ങളുള്ള എഴുത്ത് പ്രദർശനയോഗ്യമാക്കുന്നു",
 	"coll-rendering_failed_title": "റെൻഡർ ചെയ്യൽ പരാജയപ്പെട്ടു",
@@ -122,7 +123,7 @@
 	"coll-suggest_article_remove": "താൾ <strong>$1</strong>, താങ്കളുടെ പുസ്തകത്തിൽ നിന്നും നീക്കം ചെയ്തു ($2).",
 	"coll-suggest_undo_tooltip": "ഈ പ്രവൃത്തി തിരസ്കരിക്കുക",
 	"coll-suggest_undo": "തിരസ്കരിക്കുക",
-	"coll-load_local_book": "$2 വിക്കി താളുകൾ ഉൾക്കൊള്ളുന്ന $1 പുസ്തകത്തിന്റെ പ്രവൃത്തികൾ തുടരാൻ ശരി എന്നത് ഞെക്കുക. അത് മായ്ച്ച് ശൂന്യമായ പുസ്തകത്തിൽ തുടങ്ങാൻ റദ്ദാക്കുക ഞെക്കുക.",
+	"coll-load_local_book": "$2 വിക്കി {{PLURAL:$2|താൾ|താളുകൾ}} ഉൾക്കൊള്ളുന്ന $1 പുസ്തകത്തിന്റെ പ്രവൃത്തികൾ തുടരാൻ \"ശരി\" എന്നത് ഞെക്കുക. അത് മായ്ച്ച് ശൂന്യമായ പുസ്തകത്തിൽ തുടങ്ങാൻ റദ്ദാക്കുക ഞെക്കുക.",
 	"coll-format-rl": "ഇ-പുസ്തകം (പി.ഡി.എഫ്., എം.ഡബ്ല്യു.ലിബ് റെൻഡറർ)",
 	"coll-format-epub": "ഇ-പുസ്തകം (ഇപബ്)",
 	"coll-format-odf": "വേഡ് പ്രോസസ്സർ (ഓപ്പൺഡോക്യുമെന്റ്)",
@@ -178,6 +179,11 @@
 	"coll-attribution-page": "<h1>എഴുത്തിന്റെയും ചിത്രങ്ങളുടേയും സ്രോതസ്സുകൾ, സംഭാവകർ ഒപ്പം അനുമതികൾ</h1>\n<h2>എഴുത്ത്</h2>\n$1<h2>ചിത്രങ്ങൾ</h2>\n$2\n<h2>ഉള്ളടക്കത്തിന്റെ അനുവാദപത്രം</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>സ്രോതസ്സ്:</i> $2 <i>സംഭാവകർ:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>സ്രോതസ്സ്:</i> $2 <i>അനുമതി:</i> $3 <i>സംഭാവന ചെയ്തവർ:</i> $4 <i>യഥാർത്ഥ കലാകാരൻ/കലാകാരി:</i> $5",
+	"coll-warning-learn-more": "കൂടുതൽ അറിയുക",
+	"coll-toc-title": "ഉള്ളടക്കപ്പട്ടിക",
+	"coll-contributors-title": "സംഭാവന ചെയ്തവർ",
 	"coll-images-title": "ചിത്രങ്ങൾ",
-	"coll-images-source": "സ്രോതസ്സ്"
+	"coll-images-source": "സ്രോതസ്സ്",
+	"coll-images-license": "ഉപയോഗാനുമതി",
+	"coll-license-title": "ഉള്ളടക്കത്തിന്റെ അനുമതി"
 }

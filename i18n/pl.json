@@ -14,7 +14,8 @@
 			"ToSter",
 			"Wpedzich",
 			"Peter Bowman",
-			"Woytecr"
+			"Woytecr",
+			"Railfail536"
 		]
 	},
 	"coll-desc": "[[Special:Book|Tworzenie książki]]",
@@ -140,7 +141,9 @@
 	"coll-format-okawix_zeno": "Okawix",
 	"coll-format-rdf2latex": "e-book (PDF, renderowanie ocg latex)",
 	"coll-format-rdf2text": "Edytor tekstu (zwykły tekst)",
+	"action-collectionsaveasuserpage": "zapisywania książek jako strony użytkownika",
 	"right-collectionsaveasuserpage": "Zapisywanie książek jako strony użytkownika",
+	"action-collectionsaveascommunitypage": "zapisywania książek jako wspólnej strony",
 	"right-collectionsaveascommunitypage": "Zapisywanie książek jako wspólnej strony",
 	"coll-print_export": "Drukuj lub eksportuj",
 	"coll-create_a_book": "Utwórz książkę",
