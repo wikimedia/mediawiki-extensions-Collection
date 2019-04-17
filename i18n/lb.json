@@ -133,6 +133,7 @@
 	"coll-format-okawix_zeno": "Okawix",
 	"coll-format-rdf2latex": "E-Book (PDF, OCG-Latex-Renderer)",
 	"coll-format-rdf2text": "Textveraarbechtung (Kloertext)",
+	"action-collectionsaveasuserpage": "Bicher als Benotzersäit späicheren",
 	"right-collectionsaveasuserpage": "Bicher als Benotzersäit späicheren",
 	"right-collectionsaveascommunitypage": "Bicher als Gemeinschaftssäit späicheren",
 	"coll-print_export": "Drécken/exportéieren",
