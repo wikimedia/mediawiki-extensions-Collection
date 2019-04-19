@@ -133,6 +133,7 @@
 	"coll-format-zim": "Kiwix (OpenZIM)",
 	"coll-format-docbook": "DocBook",
 	"coll-format-okawix_zeno": "Okawix",
+	"action-collectionsaveasuserpage": "desar llibres com a pàgines d’usuari",
 	"right-collectionsaveasuserpage": "Desar els llibres com a pàgina d'usuari",
 	"right-collectionsaveascommunitypage": "Desar els llibres com una pàgina de la comunitat",
 	"coll-print_export": "Imprimeix/exporta",

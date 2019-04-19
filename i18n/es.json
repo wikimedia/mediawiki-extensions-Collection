@@ -27,7 +27,8 @@
 			"Ryo567",
 			"Indiralena",
 			"Peter Bowman",
-			"Dgstranz"
+			"Dgstranz",
+			"Ciencia Al Poder"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crear libros]]",
@@ -220,5 +221,5 @@
 	"coll-rendererror-pdf": "Falló la representación del PDF: $1",
 	"coll-rendererror-fetch": "Falló la recuperación de $1: $2",
 	"coll-rendererror-fetch-wrapper": "Se produjeron errores al tratar de recuperar el contenido de la página:\n$1",
-	"coll-rendererror-no-cache": "No se encontraron los datos del libro en la antememoria. Lo más probable es que se trate de un defecto en el software."
+	"coll-rendererror-no-cache": "No se encontraron los datos del libro en la caché. Lo más probable es que se trate de un defecto en el software."
 }

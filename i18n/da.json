@@ -130,6 +130,7 @@
 	"coll-format-docbook": "DocBook",
 	"coll-format-okawix_zeno": "Okawix",
 	"coll-format-rdf2latex": "e-bog (PDF, ocg latex renderer)",
+	"action-collectionsaveasuserpage": "gem bøger som brugerside",
 	"right-collectionsaveasuserpage": "Gem bøger som brugerside",
 	"right-collectionsaveascommunitypage": "Gem bøger som en fælles side",
 	"coll-print_export": "Udskriv/eksportér",

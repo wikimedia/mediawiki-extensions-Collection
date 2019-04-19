@@ -114,7 +114,7 @@
 	"coll-suggest_article_remove": "الصفحه <strong>$1</strong> تمت إزالتها من كتابك ($2).",
 	"coll-suggest_undo_tooltip": "استرجع هذه الإجراء",
 	"coll-suggest_undo": "ارجع",
-	"coll-load_local_book": "اضغط OK للاستمرار فى كتابك $1 اللى فيه $2 من صفحات الويكى. اضغط Cancel علشان تمسحه و تبتدى كتاب فاضى.",
+	"coll-load_local_book": "اضغط OK للاستمرار فى كتابك $1 اللى فيه $2 {{PLURAL:$2|صفحه}} من صفحات الويكى. اضغط Cancel علشان تمسحه و تبتدى كتاب فاضى.",
 	"coll-format-rl": "كتاب إلكترونى (PDF)",
 	"coll-format-epub": "كتاب إلكترونى (EPUB)",
 	"right-collectionsaveasuserpage": "سييف الكتب كصفحه يوزر",
