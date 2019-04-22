@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Carma citrawati"
+		]
+	},
+	"coll-remove": "apus",
+	"coll-show": "sinahang",
+	"coll-move_up": "gingsirang",
+	"coll-move_down": "gingsirang ring sor",
+	"coll-print_export": "cétak/ekspor",
+	"coll-create_a_book": "makarya buku",
+	"coll-download_as": "unduh $1"
+}
