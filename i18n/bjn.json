@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"J Subhi"
+			"J Subhi",
+			"Ezagren"
 		]
 	},
-	"coll-show": "Tampaiakan"
+	"coll-show": "Tampaiakan",
+	"coll-create_a_book": "Ulah buku",
+	"coll-download_as": "Unduh vérsi $1"
 }
