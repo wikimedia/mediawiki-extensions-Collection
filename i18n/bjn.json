@@ -5,7 +5,26 @@
 			"Ezagren"
 		]
 	},
+	"coll-remove": "Hapus",
 	"coll-show": "Tampaiakan",
+	"coll-move_up": "Alihakan ka atas",
+	"coll-move_down": "Alihakan ka bawah",
+	"coll-print_export": "Citak/ékspor",
 	"coll-create_a_book": "Ulah buku",
-	"coll-download_as": "Unduh vérsi $1"
+	"coll-book_creator": "Paulah buku",
+	"coll-download_as": "Unduh vérsi $1",
+	"coll-disable": "tukup",
+	"coll-book_creator_disable": "Tukup paulah buku",
+	"coll-book_creator_disable_tooltip": "Ampih mamakai paulah buku",
+	"coll-add_page_tooltip": "Tambahakan tungkaran wiki ngini ka dalam buku Pian",
+	"coll-help": "Patulung",
+	"coll-help_tooltip": "Tunjukakan patulung paulahan buku",
+	"coll-helppage": "Help:Buku",
+	"coll-n_pages": "$1 {{PLURAL:$1|tungkaran|tungkaran}}",
+	"coll-remove_this_page": "Buang tungkaran ngini matan buku pian",
+	"coll-show_collection": "Lihat buku",
+	"coll-show_collection_tooltip": "Klik gasan mambabak/maunduh/mamasan buku Pian",
+	"coll-make_suggestions": "Saranakan tungkaran",
+	"coll-make_suggestions_tooltip": "Tampaiakan saran bapandal tungkaran dalam buku Pian",
+	"coll-image-attribution": "<b>$1</b> <i>Asal-mula:</i> $2 <i>Lisénsi:</i> $3 <i>Panyumbang:</i> $4 <i>Paulah asli:</i> $5"
 }

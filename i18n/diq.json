@@ -192,6 +192,7 @@
 	"coll-warning-disable-pdf-text": "Sistemê şımaya eleqeyın poğta tay problemana, kıtab vıraştoğ, Kılm zamani miyan dı jew kıtabi gorey PDF nêşeno qeyd bıkero. Sistemê xo vurnayışi u PDF'yan kıtab vıraştoği de reyna aktiv kerıdşi rê heqiqaten mayê zaf guriyem.",
 	"coll-warning-learn-more": "Tayêna bımuse",
 	"coll-notice-download-pdf-title": "Pelanê basita ronê",
+	"coll-notice-download-pdf-text": "Eke kıtabvıraştoğ karê vurnayışê PDFy vıraştışi de, seba meqaleyanê şexsiyan hacetanê çuwa kınareyi ra, şenê ronayışê formatê PDFyi bıcerrebnê.",
 	"coll-toc-title": "Tabloyê zerreki",
 	"coll-contributors-title": "İştırakkerdoği",
 	"coll-images-title": "Resımi",
@@ -199,5 +200,10 @@
 	"coll-images-license": "Lisans",
 	"coll-images-original-artist": "Artisto oricinal",
 	"coll-license-title": "Lisansê zerreki",
-	"coll-rendererror-title": "Kıtabo ke nêvıraziyeno"
+	"coll-rendererror-title": "Kıtabo ke nêvıraziyeno",
+	"coll-rendererror-no-session": "Şınasiya kıtabronıştışi de nêvêniya. Belkiya bêhereketmendışi ra veciyayo.",
+	"coll-rendererror-pdf": "Xırabiya vıraştışê PDFyi: $1",
+	"coll-rendererror-fetch": "Ardışê $1 nêbi: $ 2",
+	"coll-rendererror-fetch-wrapper": "Gırewtışê zerrekê pele de xeteyi veciyayi: $1",
+	"coll-rendererror-no-cache": "Datay kıtabi verhafıza de nêvineyê. Muhtemelen software de xeta esta."
 }
