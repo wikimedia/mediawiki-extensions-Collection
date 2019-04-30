@@ -203,7 +203,7 @@
 	"coll-rendererror-title": "Kıtabo ke nêvıraziyeno",
 	"coll-rendererror-no-session": "Şınasiya kıtabronıştışi de nêvêniya. Belkiya bêhereketmendışi ra veciyayo.",
 	"coll-rendererror-pdf": "Xırabiya vıraştışê PDFyi: $1",
-	"coll-rendererror-fetch": "Ardışê $1 nêbi: $ 2",
+	"coll-rendererror-fetch": "Ardışê $1 nêbi: $2",
 	"coll-rendererror-fetch-wrapper": "Gırewtışê zerrekê pele de xeteyi veciyayi: $1",
 	"coll-rendererror-no-cache": "Datay kıtabi verhafıza de nêvineyê. Muhtemelen software de xeta esta."
 }
