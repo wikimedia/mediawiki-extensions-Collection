@@ -3,14 +3,15 @@
 		"authors": [
 			"Lanciné.kounfantoh.fofana",
 			"Youssoufkadialy",
-			"Lancine.kounfantoh.fofana"
+			"Lancine.kounfantoh.fofana",
+			"Nafadji Mory Diané"
 		]
 	},
 	"coll-remove": "ߊ߬ ߛߋ߲߬ߓߐ߫",
 	"coll-show": "ߦߌ߬ߘߊ߬ߟߌ",
 	"coll-move_up": "ߌ ߡߊߦߟߍ߬",
 	"coll-move_down": "ߌ ߡߊߖߌ߰",
-	"coll-print_export": "ߊ߬ ߜߌ߬ߙߌ߲߬ߘߌ߬",
+	"coll-print_export": "ߜߌ߬ߙߌ߲߬ߘߌ߬ߟߌ/ߦߌ߬ߙߌ߲߬ߘߌ߬ߟߌ",
 	"coll-create_a_book": "ߞߊ߬ߝߊ ߘߏ߫ ߟߊߘߊ߲߫",
 	"coll-book_creator": "ߞߝߊ߬ ߛߓߍ߬ߟߊ",
 	"coll-download_as": "ߊ߬ ߓߟߐߟߐߟߊߖߌ߰ $1",
@@ -27,5 +28,6 @@
 	"coll-show_collection": "ߞߊ߬ߝߊ ߦߌ߬ߘߊ߬",
 	"coll-show_collection_tooltip": "ߊ߬ ߛߐ߲߬ߞߌ߲߫ ߞߴߌ ߟߊ߫ ߞߊ߬ߝߊ ߡߊߦߟߍ߬ߡߊ߲߬/ߟߊߖߌ߰ ߌ ߞߎ߲߬/ߡߊߞߟߌ߫",
 	"coll-make_suggestions": "ߞߐߜߍ ߞߎ߲߭ߦߌ߬ߘߊ߬ߣߍ߲ ߠߎ߬",
-	"coll-make_suggestions_tooltip": "ߞߐߜߍ ߞߎ߲߬ߦߌ߬ߘߊ߬ߣߍ߲ ߠߎ߬ ߦߌ߬ߘߊ߬ ߌ ߟߊ߫ ߞߊ߬ߝߊ ߘߐ߫"
+	"coll-make_suggestions_tooltip": "ߞߐߜߍ ߞߎ߲߬ߦߌ߬ߘߊ߬ߣߍ߲ ߠߎ߬ ߦߌ߬ߘߊ߬ ߌ ߟߊ߫ ߞߊ߬ߝߊ ߘߐ߫",
+	"coll-attribution-anons": "ߕߐ߯ߟߐ߲ߓߊߟߌ: $1"
 }
