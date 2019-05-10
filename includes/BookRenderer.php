@@ -253,17 +253,19 @@ class BookRenderer {
 	 * @param integer $metadataLevel the table of contents level for a given article
 	 * @param boolean $hasImages whether the book contains images section
 	 * @param boolean $hasLicense whether the book contains a license section
-	 * @return array
+	 * @return array[]
 	 */
 	private function getAdditionalBookChapters(
 		$tocHeadingCounter, $metadataLevel, $hasImages = false, $hasLicense = false
 	) {
-		$outline[] = [
-			'text' => wfMessage( 'coll-contributors-title' )->text(),
-			'type' => 'contributors',
-			'level' => $metadataLevel,
-			'anchor' => 'mw-book-contributors',
-			'number' => $tocHeadingCounter->incrementAndGetTopLevel(),
+		$outline = [
+			[
+				'text' => wfMessage( 'coll-contributors-title' )->text(),
+				'type' => 'contributors',
+				'level' => $metadataLevel,
+				'anchor' => 'mw-book-contributors',
+				'number' => $tocHeadingCounter->incrementAndGetTopLevel(),
+			],
 		];
 		if ( $hasImages ) {
 			$outline[] = [
