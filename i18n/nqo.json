@@ -4,7 +4,8 @@
 			"Lanciné.kounfantoh.fofana",
 			"Youssoufkadialy",
 			"Lancine.kounfantoh.fofana",
-			"Nafadji Mory Diané"
+			"Nafadji Mory Diané",
+			"Amire80"
 		]
 	},
 	"coll-remove": "ߊ߬ ߛߋ߲߬ߓߐ߫",
@@ -22,7 +23,7 @@
 	"coll-add_page_tooltip": "ߥߞߌ߫ ߞߐߜߍ ߣߌ߲߬ ߠߊߘߏ߲߬ ߌ ߟߊ߫ ߞߊ߬ߝߊ ߘߐ߫",
 	"coll-help": "ߘߍ߬ߡߍ߲߬ߠߌ߲",
 	"coll-help_tooltip": "ߞߊ߬ߝߊ ߟߊߘߊ߲ߠߌ߲ ߘߍ߬ߡߍ߲߬ߠߌ߲ ߦߌ߬ߘߊ߬",
-	"coll-helppage": "Help: ߞߊ߬ߝߊ ߟߎ߬",
+	"coll-helppage": "Help:ߞߊ߬ߝߊ ߟߎ߬",
 	"coll-n_pages": "$1 {{PLURAL:$1|ߘߐߜߍ|ߞߐߜߍ ߟߎ߬}}",
 	"coll-remove_this_page": "ߞߐߜߍ ߣߌ߲߬ ߛߋ߲߬ߓߐ߫ ߌ ߟߊ߫ ߞߊ߬ߝߊ ߘߐ߫",
 	"coll-show_collection": "ߞߊ߬ߝߊ ߦߌ߬ߘߊ߬",
@@ -30,5 +31,6 @@
 	"coll-make_suggestions": "ߞߐߜߍ ߞߎ߲߭ߦߌ߬ߘߊ߬ߣߍ߲ ߠߎ߬",
 	"coll-make_suggestions_tooltip": "ߞߐߜߍ ߞߎ߲߬ߦߌ߬ߘߊ߬ߣߍ߲ ߠߎ߬ ߦߌ߬ߘߊ߬ ߌ ߟߊ߫ ߞߊ߬ߝߊ ߘߐ߫",
 	"coll-attribution-anons": "ߕߐ߯ߟߐ߲ߓߊߟߌ: $1",
+	"coll-article-attribution": "<b>$1</b><i>ߛߎ߲</i>$2<i>ߓߟߏߓߌߟߊߢߐ߲߯ߞߊ߲ߠߊ</i>$3",
 	"coll-image-attribution": "<b>$1</b><i>ߛߎ߲</i>$2<i>ߘߌ߬ߢߍ</i>$3<i>ߓߟߏߓߌߟߊߢߐ߲߯ߞߊ߲ߠߊ:</i>$4<i>ߓߐߛߎ߲ߡߊ ߞߎ߬ߛߊ߲:</i>$5"
 }
