@@ -211,10 +211,8 @@ class CollectionProposals {
 			}
 
 			// handle links with a displaytitle
-			$matches = [];
 			if ( preg_match( '/(.+?)\|(.+)/', $link, $matches ) ) {
-				$link = $matches[1];
-				$alias = $matches[2];
+				list( , $link, $alias ) = $matches;
 			} else {
 				$alias = $link;
 			}

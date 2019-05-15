@@ -53,9 +53,6 @@ class CollectionAPIResult {
 	 * @return string Internal (not user-facing) error description
 	 */
 	protected function getError() {
-		if ( isset( $this->response['error'] ) ) {
-			return $this->response['error'];
-		}
-		return '(error unknown)';
+		return $this->response['error'] ?? '(error unknown)';
 	}
 }
