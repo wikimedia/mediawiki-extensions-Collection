@@ -10,7 +10,8 @@
 			"Strainu",
 			"ImGelu",
 			"Wintereu",
-			"Macofe"
+			"Macofe",
+			"Andrei Stroe"
 		]
 	},
 	"coll-desc": "[[Special:Book|Creare de cărți]]",
@@ -119,8 +120,8 @@
 	"coll-suggest_article_remove": "Pagina <strong>$1</strong> a fost eliminată din cartea dumneavostră ($2).",
 	"coll-suggest_undo_tooltip": "Anularea acestei acțiuni",
 	"coll-suggest_undo": "anulează",
-	"coll-load_local_book": "Apăsați OK pentru a continua cu actuala carte (intitulată $1), care conține $2 pagini. Apăsați Renunțare pentru a o șterge și a începe o nouă carte.",
-	"coll-format-rl": "carte electronică (PDF)",
+	"coll-load_local_book": "Apăsați „OK” pentru a continua cu actuala carte (intitulată $1), care conține {{PLURAL:$2|pagină|pagini}}. Apăsați „Renunțare” pentru a o șterge și a începe o nouă carte.",
+	"coll-format-rl": "carte electronică (PDF, renderer mwlib)",
 	"coll-format-epub": "carte electronică (EPUB)",
 	"coll-format-odf": "Document Word (OpenDocument)",
 	"coll-format-zim": "Kiwix (OpenZIM)",
