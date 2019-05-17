@@ -1,0 +1,260 @@
+{
+	"name": "Collection",
+	"version": "1.7.0",
+	"author": [
+		"PediaPress GmbH",
+		"Siebrand Mazeland",
+		"Marcin Cieślak"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:Collection",
+	"descriptionmsg": "coll-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"requires": {
+		"MediaWiki": ">= 1.29.0"
+	},
+	"AvailableRights": [
+		"collectionsaveasuserpage",
+		"collectionsaveascommunitypage"
+	],
+	"SpecialPages": {
+		"Book": "SpecialCollection",
+		"RenderBook": "MediaWiki\\Extensions\\Collection\\Specials\\RenderBook"
+	},
+	"MessagesDirs": {
+		"Collection": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"CollectionAlias": "Collection.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialCollection": "Collection.body.php",
+		"CollectionSession": "Collection.session.php",
+		"CollectionHooks": "Collection.hooks.php",
+		"CollectionSuggest": "CollectionSuggest.php",
+		"CollectionProposals": "CollectionProposals.php",
+		"MediaWiki\\Extensions\\Collection\\Specials\\RenderBook": "includes/Specials/SpecialRenderBook.php",
+		"MediaWiki\\Extensions\\Collection\\DataProvider": "includes/DataProvider.php",
+		"MediaWiki\\Extensions\\Collection\\ElectronVirtualRestService": "includes/ElectronVirtualRestService.php",
+		"MediaWiki\\Extensions\\Collection\\BookRenderer": "includes/BookRenderer.php",
+		"MediaWiki\\Extensions\\Collection\\RemexCollectionMunger": "includes/RemexCollectionMunger.php",
+		"MediaWiki\\Extensions\\Collection\\HeadingCounter": "includes/HeadingCounter.php",
+		"MediaWiki\\Extensions\\Collection\\BookRenderingMediator": "includes/BookRenderingMediator.php",
+		"MediaWiki\\Extensions\\Collection\\MessageBoxHelper": "includes/MessageBoxHelper.php",
+		"CollectionPageTemplate": "templates/CollectionPageTemplate.php",
+		"CollectionListTemplate": "templates/CollectionListTemplate.php",
+		"CollectionLoadOverwriteTemplate": "templates/CollectionLoadOverwriteTemplate.php",
+		"CollectionSaveOverwriteTemplate": "templates/CollectionSaveOverwriteTemplate.php",
+		"CollectionRenderingTemplate": "templates/CollectionRenderingTemplate.php",
+		"CollectionFinishedTemplate": "templates/CollectionFinishedTemplate.php",
+		"CollectionFailedTemplate": "templates/CollectionFailedTemplate.php",
+		"CollectionSuggestTemplate": "templates/CollectionSuggestTemplate.php",
+		"CollectionRenderingAPI": "rendering/CollectionRenderingAPI.php",
+		"MWServeRenderingAPI": "rendering/MWServeRenderingAPI.php",
+		"CollectionAPIResult": "rendering/CollectionAPIResult.php"
+	},
+	"ResourceModules": {
+		"ext.collection": {
+			"scripts": "ext.collection/collection.js",
+			"dependencies": [
+				"ext.collection.bookcreator",
+				"jquery.ui.sortable",
+				"mediawiki.language"
+			]
+		},
+		"ext.collection.bookcreator.styles": {
+			"styles": "ext.collection.bookcreator.styles/bookcreator.css"
+		},
+		"ext.collection.bookcreator": {
+			"scripts": "ext.collection.bookcreator/bookcreator.js",
+			"dependencies": [
+				"jquery.jStorage",
+				"ext.collection.bookcreator.styles"
+			]
+		},
+		"ext.collection.checkLoadFromLocalStorage": {
+			"scripts": "ext.collection.checkLoadFromLocalStorage/check_load_from_localstorage.js",
+			"dependencies": [
+				"ext.collection",
+				"ext.collection.bookcreator.styles",
+				"jquery.jStorage"
+			],
+			"messages": [
+				"coll-load_local_book"
+			]
+		},
+		"ext.collection.suggest": {
+			"scripts": "ext.collection.suggest/suggest.js",
+			"dependencies": "ext.collection.bookcreator"
+		},
+		"ext.collection.offline": {
+			"styles": "ext.collection.offline/offline.less"
+		},
+		"ext.collection.bookcreator.messageBox": {
+			"dependencies": [
+				"mediawiki.hlist",
+				"ext.collection.bookcreator.messageBox.styles",
+				"ext.collection.bookcreator.messageBox.icons"
+			]
+		},
+		"ext.collection.bookcreator.messageBox.styles": {
+			"styles": "ext.collection.bookcreator.messageBox/messageBox.less"
+		},
+		"ext.collection.bookcreator.messageBox.icons": {
+			"position": "top",
+			"class": "ResourceLoaderImageModule",
+			"selector": ".collection-icon-{name}:before",
+			"images": {
+				"warning": "ext.collection.bookcreator.messageBox/images/warning-icon.svg",
+				"info": "ext.collection.bookcreator.messageBox/images/info-icon.svg"
+			}
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "Collection/resources"
+	},
+	"Hooks": {
+		"SkinTemplateBuildNavUrlsNav_urlsAfterPermalink": "CollectionHooks::buildNavUrls",
+		"SidebarBeforeOutput": "CollectionHooks::buildSidebar",
+		"SiteNoticeAfter": "CollectionHooks::siteNoticeAfter",
+		"OutputPageCheckLastModified": "CollectionHooks::checkLastModified",
+		"UnitTestsList": "CollectionHooks::onUnitTestsList"
+	},
+	"config": {
+		"CollectionMWServeURL": {
+			"value": "https://tools.pediapress.com/mw-serve/"
+		},
+		"CollectionMWServeCredentials": {
+			"value": null
+		},
+		"CollectionMWServeCert": {
+			"value": null
+		},
+		"CollectionArticleNamespaces": {
+			"value": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				8,
+				9,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111
+			]
+		},
+		"CommunityCollectionNamespace": {
+			"value": 4
+		},
+		"CollectionMaxArticles": {
+			"value": 500
+		},
+		"CollectionLicenseName": {
+			"value": null
+		},
+		"CollectionLicenseURL": {
+			"value": null
+		},
+		"CollectionFormats": {
+			"value": {
+				"rl": "PDF"
+			}
+		},
+		"CollectionRendererSettings": {
+			"value": {
+				"papersize": {
+					"type": "select",
+					"label-message": "coll-setting-papersize",
+					"default": "a4",
+					"options": {
+						"coll-setting-papersize-a4": "a4",
+						"coll-setting-papersize-letter": "letter"
+					}
+				},
+				"toc": {
+					"type": "select",
+					"label-message": "coll-setting-toc",
+					"default": "auto",
+					"options": {
+						"coll-setting-toc-auto": "auto",
+						"coll-setting-toc-yes": "yes",
+						"coll-setting-toc-no": "no"
+					}
+				},
+				"columns": {
+					"type": "select",
+					"label-message": "coll-setting-columns",
+					"default": "2",
+					"options": {
+						"coll-setting-columns-1": "1",
+						"coll-setting-columns-2": "2"
+					}
+				}
+			}
+		},
+		"CollectionCommandToServeURL": {
+			"value": []
+		},
+		"CollectionFormatToServeURL": {
+			"value": []
+		},
+		"CollectionContentTypeToFilename": {
+			"value": {
+				"application/pdf": "collection.pdf",
+				"application/vnd.oasis.opendocument.text": "collection.odt",
+				"text/plain": "collection.txt"
+			}
+		},
+		"CollectionPortletFormats": {
+			"value": [
+				"rl"
+			]
+		},
+		"CollectionPortletForLoggedInUsersOnly": {
+			"value": false
+		},
+		"CollectionMaxSuggestions": {
+			"value": 10
+		},
+		"CollectionSuggestCheapWeightThreshhold": {
+			"value": 50
+		},
+		"CollectionSuggestThreshhold": {
+			"value": 100
+		},
+		"CollectionPODPartners": {
+			"value": {
+				"pediapress": {
+					"name": "PediaPress",
+					"url": "https://pediapress.com/",
+					"posturl": "https://pediapress.com/api/collections/",
+					"infopagetitle": "coll-order_info_article"
+				}
+			}
+		},
+		"CollectionShowRenderNotes": {
+			"value": [
+				"coll-rendering_finished_note_not_satisfied"
+			]
+		},
+		"CollectionDisableDownloadSection": {
+			"value": true
+		}
+	},
+	"load_composer_autoloader": true,
+	"manifest_version": 2
+}
