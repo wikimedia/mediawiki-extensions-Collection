@@ -1,6 +1,6 @@
 {
 	"name": "Collection",
-	"version": "1.7.0",
+	"version": "1.8.0",
 	"author": [
 		"PediaPress GmbH",
 		"Siebrand Mazeland",
@@ -11,7 +11,7 @@
 	"license-name": "GPL-2.0-or-later",
 	"type": "specialpage",
 	"requires": {
-		"MediaWiki": ">= 1.29.0"
+		"MediaWiki": ">= 1.34.0"
 	},
 	"callback": "CollectionHooks::registerExtension",
 	"AvailableRights": [
