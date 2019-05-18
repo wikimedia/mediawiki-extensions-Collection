@@ -125,15 +125,19 @@
 	},
 	"config": {
 		"CollectionMWServeURL": {
+			"description": "URL of mw-serve render server",
 			"value": "https://tools.pediapress.com/mw-serve/"
 		},
 		"CollectionMWServeCredentials": {
+			"description": "Login credentials to this MediaWiki as 'USERNAME:PASSWORD' string",
 			"value": null
 		},
 		"CollectionMWServeCert": {
+			"description": "PEM-encoded SSL certificate for the mw-serve render server to pass to CURL",
 			"value": null
 		},
 		"CollectionArticleNamespaces": {
+			"description": "Array of namespaces that can be added to a collection",
 			"value": [
 				0,
 				1,
@@ -158,23 +162,29 @@
 			]
 		},
 		"CommunityCollectionNamespace": {
+			"description": "Namespace for \"community books\"",
 			"value": 4
 		},
 		"CollectionMaxArticles": {
+			"description": "Maximum no. of articles in a book",
 			"value": 500
 		},
 		"CollectionLicenseName": {
+			"description": "Name of license",
 			"value": null
 		},
 		"CollectionLicenseURL": {
+			"description": "HTTP(s) URL pointing to license in wikitext format",
 			"value": null
 		},
 		"CollectionFormats": {
+			"description": "List of available download formats, as mapping of mwlib writer to format name",
 			"value": {
 				"rl": "PDF"
 			}
 		},
 		"CollectionRendererSettings": {
+			"description": "Additional renderer options for collections. Format is as for HTMLForm::loadInputFromParameters. Note that fieldnames may only contain [a-zA-Z0-9_-], and values may not contain pipes or newlines. If the 'options' field is an array, keys will be interpreted as messages",
 			"value": {
 				"papersize": {
 					"type": "select",
@@ -207,12 +217,15 @@
 			}
 		},
 		"CollectionCommandToServeURL": {
+			"description": "Some commands require an external server",
 			"value": []
 		},
 		"CollectionFormatToServeURL": {
+			"description": "For formats which rendering depends on an external server",
 			"value": []
 		},
 		"CollectionContentTypeToFilename": {
+			"description": "",
 			"value": {
 				"application/pdf": "collection.pdf",
 				"application/vnd.oasis.opendocument.text": "collection.odt",
@@ -247,11 +260,13 @@
 			}
 		},
 		"CollectionShowRenderNotes": {
+			"description": "Optional notes that are displayed on the download screen for the rendered document. Each entry is a message key",
 			"value": [
 				"coll-rendering_finished_note_not_satisfied"
 			]
 		},
 		"CollectionDisableDownloadSection": {
+			"description": "Disable the download section see https://phabricator.wikimedia.org/T175996",
 			"value": true
 		}
 	},
