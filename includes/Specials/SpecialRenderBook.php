@@ -15,7 +15,7 @@ use TemplateParser;
 /**
  * Special page to display a book as a single HTML page.
  */
-class RenderBook extends SpecialPage {
+class SpecialRenderBook extends SpecialPage {
 
 	public function __construct() {
 		parent::__construct( 'RenderBook' );
