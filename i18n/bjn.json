@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"J Subhi",
-			"Ezagren"
+			"Ezagren",
+			"Mnam23"
 		]
 	},
 	"coll-remove": "Hapus",
@@ -23,8 +24,8 @@
 	"coll-helppage": "Help:Buku",
 	"coll-n_pages": "$1 {{PLURAL:$1|tungkaran|tutungkaran}}",
 	"coll-remove_this_page": "Buang tungkaran ngini matan buku pian",
-	"coll-show_collection": "Lihat buku",
-	"coll-show_collection_tooltip": "Klik gasan mambabak/maunduh/mamasan buku Pian",
+	"coll-show_collection": "Tiring buku",
+	"coll-show_collection_tooltip": "Kalik gasan mambabak/maunduh/mamasan buku Pian",
 	"coll-make_suggestions": "Saranakan tungkaran",
 	"coll-make_suggestions_tooltip": "Tampaiakan saran bapandal tungkaran dalam buku Pian",
 	"coll-attribution-anons": "Pamakai anonim: $1",

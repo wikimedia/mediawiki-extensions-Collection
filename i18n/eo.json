@@ -11,7 +11,8 @@
 			"KuboF",
 			"Robin van der Vliet",
 			"Macofe",
-			"NMaia"
+			"NMaia",
+			"Mirin"
 		]
 	},
 	"coll-desc": "[[Special:Book|Krei librojn]]",
@@ -133,6 +134,7 @@
 	"coll-format-okawix_zeno": "Okawix",
 	"coll-format-rdf2latex": "cifereca libro (PDF, dildigilo ocg latex)",
 	"coll-format-rdf2text": "Teksta procezilo (plata teksto)",
+	"action-collectionsaveasuserpage": "konservi librojn kiel paĝo de uzanto",
 	"right-collectionsaveasuserpage": "Konservi librojn kiel uzanto-paĝo",
 	"right-collectionsaveascommunitypage": "Konservi librojn kiel komunuma paĝo",
 	"coll-print_export": "Presi/elporti",
@@ -179,5 +181,14 @@
 	"coll-attribution-anons": "Anonimaj: $1",
 	"coll-attribution-page": "<h1>Fontoj de teksto kaj bildoj, kontribuintoj kaj permesiloj</h1>\n<h2>Teksto</h2>\n$1<h2>Bildoj</h2>\n$2\n<h2>Permesilo de enhavo</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Fonto:</i> $2 <i>Kontribuintoj:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Fonto:</i> $2 <i>Permesilo:</i> $3 <i>Kontribuintoj:</i> $4 <i>Origina artisto:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Fonto:</i> $2 <i>Permesilo:</i> $3 <i>Kontribuintoj:</i> $4 <i>Origina artisto:</i> $5",
+	"coll-warning-learn-more": "Lerni plu",
+	"coll-toc-title": "Enhavtabelo",
+	"coll-contributors-title": "Kontribuintoj",
+	"coll-images-title": "Bildoj",
+	"coll-images-source": "Fonto",
+	"coll-images-license": "Permesilo",
+	"coll-images-original-artist": "Originala artisto",
+	"coll-license-title": "Enhavopermesilo",
+	"coll-rendererror-title": "Ne povis produkti la libron"
 }
