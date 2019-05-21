@@ -231,7 +231,7 @@ class CollectionHooks {
 	 */
 	public static function renderBookCreatorBox( Title $title, $mode = '' ) {
 		global $wgOut, $wgExtensionAssetsPath, $wgRequest;
-		$templateParser = new TemplateParser( __DIR__ . '/templates' );
+		$templateParser = new TemplateParser( dirname( __DIR__ ) . '/templates' );
 
 		$imagePath = "$wgExtensionAssetsPath/Collection/images";
 		$ptext = $title->getPrefixedText();
@@ -483,6 +483,6 @@ class CollectionHooks {
 	 * @param array &$paths
 	 */
 	public static function onUnitTestsList( array &$paths ) {
-		$paths[] = __DIR__ . '/tests/phpunit';
+		$paths[] = dirname( __DIR__ ) . '/tests/phpunit';
 	}
 }
