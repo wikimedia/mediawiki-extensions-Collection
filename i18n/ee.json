@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Natsubee",
-			"Aguve"
+			"Aguve",
+			"Enock4seth"
 		]
 	},
 	"coll-remove": "Ɖee ɖa",
@@ -14,6 +15,7 @@
 	"coll-license": "Mɔɖeɖe",
 	"coll-print_export": "Tae/kɔe",
 	"coll-create_a_book": "Ʋu axaléɖiƒe",
+	"coll-book_creator": "Agbalẽ wɔla",
 	"coll-download_as": "Wɔ kɔpi $1",
 	"coll-add_this_page": "Tsɔ axa sia kpe axaléɖiƒe",
 	"coll-remove_this_page": "Ɖe axa sia ɖa le wò axaléɖiƒea",
