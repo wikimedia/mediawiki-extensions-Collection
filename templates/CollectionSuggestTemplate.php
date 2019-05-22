@@ -62,6 +62,8 @@ class CollectionSuggestTemplate extends QuickTemplate {
 		$mediapath = $wgExtensionAssetsPath . '/Collection/images/';
 		$baseUrl = $wgScript . "/";
 
+		$prop = $this->data['proposals'];
+
 		$artName = $prop[0]['name'];
 		$title = Title::newFromText( $artName );
 		$url = $title->getLocalUrl();
@@ -73,7 +75,7 @@ class CollectionSuggestTemplate extends QuickTemplate {
 		$out .= '<a href="' . htmlspecialchars( $url ) . '" title="' . htmlspecialchars( $artName ) . '">' . htmlspecialchars( $artName ) . '</a>';
 		$out .= '</li>';
 
-		$num = count( $this->data['proposals'] );
+		$num = count( $prop );
 		for ( $i = 1; $i < $num; $i++ ) {
 			$artName = $prop[$i]['name'];
 			$url = $baseUrl . $artName;
@@ -103,7 +105,7 @@ class CollectionSuggestTemplate extends QuickTemplate {
 		$mediapath = $wgExtensionAssetsPath . '/Collection/images/';
 		$out = '';
 
-		foreach ( $coll['items'] as $key => $value ) {
+		foreach ( $coll['items'] as $value ) {
 			if ( $value['type'] === 'article' ) {
 				$artName = $value['title'];
 				$out .= '<li><a href="' . htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book', [ 'bookcmd' => 'suggest', 'remove' => $artName ] ) ) . '" onclick="' . htmlspecialchars( 'collectionSuggestCall("RemoveArticle", ' . Xml::encodeJsVar( [ $artName ] ) . '); return false;' ) . '" title="' . wfMessage( 'coll-remove_this_page' )->escaped() . '"><img src="' . htmlspecialchars( $mediapath . 'remove.png' ) . '" width="10" height="10" alt=""></a> ';
