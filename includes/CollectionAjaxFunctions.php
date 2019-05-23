@@ -49,17 +49,17 @@ class CollectionAjaxFunctions {
 
 	public static function onAjaxCollectionAddArticle( $namespace = 0, $title = '', $oldid = '' ) {
 		SpecialCollection::addArticleFromName( $namespace, $title, $oldid );
-		return wfAjaxCollectionGetItemList();
+		return self::onAjaxCollectionGetItemList();
 	}
 
 	public static function onAjaxCollectionRemoveArticle( $namespace = 0, $title = '', $oldid = '' ) {
 		SpecialCollection::removeArticleFromName( $namespace, $title, $oldid );
-		return wfAjaxCollectionGetItemList();
+		return self::onAjaxCollectionGetItemList();
 	}
 
 	public static function onAjaxCollectionAddCategory( $title = '' ) {
 		SpecialCollection::addCategoryFromName( $title );
-		return wfAjaxCollectionGetItemList();
+		return self::onAjaxCollectionGetItemList();
 	}
 
 	public static function onAjaxCollectionGetBookCreatorBoxContent(
@@ -100,17 +100,17 @@ class CollectionAjaxFunctions {
 
 	public static function onAjaxCollectionRemoveItem( $index ) {
 		SpecialCollection::removeItem( (int)$index );
-		return wfAjaxCollectionGetItemList();
+		return self::onAjaxCollectionGetItemList();
 	}
 
 	public static function onAjaxCollectionAddChapter( $name ) {
 		SpecialCollection::addChapter( $name );
-		return wfAjaxCollectionGetItemList();
+		return self::onAjaxCollectionGetItemList();
 	}
 
 	public static function onAjaxCollectionRenameChapter( $index, $name ) {
 		SpecialCollection::renameChapter( (int)$index, $name );
-		return wfAjaxCollectionGetItemList();
+		return self::onAjaxCollectionGetItemList();
 	}
 
 	public static function onAjaxCollectionSetTitles( $title, $subtitle, $settings = '' ) {
@@ -119,7 +119,7 @@ class CollectionAjaxFunctions {
 		if ( is_array( $settings ) ) {
 			SpecialCollection::setSettings( $settings );
 		}
-		return wfAjaxCollectionGetItemList();
+		return self::onAjaxCollectionGetItemList();
 	}
 
 	public static function onAjaxCollectionSetSorting( $items_string ) {
@@ -132,13 +132,13 @@ class CollectionAjaxFunctions {
 			}
 		}
 		SpecialCollection::setSorting( $items );
-		return wfAjaxCollectionGetItemList();
+		return self::onAjaxCollectionGetItemList();
 	}
 
 	public static function onAjaxCollectionClear() {
 		CollectionSession::clearCollection();
 		CollectionSuggest::clear();
-		return wfAjaxCollectionGetItemList();
+		return self::onAjaxCollectionGetItemList();
 	}
 
 	public static function onAjaxCollectionGetPopupData( $title ) {
@@ -220,7 +220,7 @@ class CollectionAjaxFunctions {
 
 	public static function onAjaxCollectionSortItems() {
 		SpecialCollection::sortItems();
-		return wfAjaxCollectionGetItemList();
+		return self::onAjaxCollectionGetItemList();
 	}
 
 }
