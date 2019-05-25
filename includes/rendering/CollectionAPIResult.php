@@ -4,7 +4,7 @@
  * A wrapper for data returned by the API
  */
 class CollectionAPIResult {
-	/** @var array: Decoded JSON returned by server */
+	/** @var array Decoded JSON returned by server */
 	public $response = [];
 
 	/**
