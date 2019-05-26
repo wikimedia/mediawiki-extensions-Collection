@@ -55,8 +55,10 @@
 	"coll-new_chapter": "Enigi nomon por nova ĉapitro",
 	"coll-rename_chapter": "Enigi novan nomon por ĉapitro",
 	"coll-no_such_category": "Nenia kategorio",
-	"coll-notitle_title": "La titolo de la paĝo ne estis determinebla.",
+	"coll-notitle_title": "Ne povis akiri titolon de paĝo",
+	"coll-notitle_msg": "Ne povis determini titolon de la paĝo.",
 	"coll-request_failed_title": "Kreo de libro malsukcesis",
+	"coll-request_failed_msg": "Eraro okazis dum farado de via libro.",
 	"coll-error_reponse": "Erara respondo de servilo",
 	"coll-empty_collection": "Malplena libro",
 	"coll-revision": "Versio: $1",
@@ -136,6 +138,7 @@
 	"coll-format-rdf2text": "Teksta procezilo (plata teksto)",
 	"action-collectionsaveasuserpage": "konservi librojn kiel paĝo de uzanto",
 	"right-collectionsaveasuserpage": "Konservi librojn kiel uzanto-paĝo",
+	"action-collectionsaveascommunitypage": "konservi librojn kiel komunuman paĝon",
 	"right-collectionsaveascommunitypage": "Konservi librojn kiel komunuma paĝo",
 	"coll-print_export": "Presi/elporti",
 	"coll-create_a_book": "Krei libron",
@@ -183,6 +186,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>Fonto:</i> $2 <i>Kontribuintoj:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Fonto:</i> $2 <i>Permesilo:</i> $3 <i>Kontribuintoj:</i> $4 <i>Origina artisto:</i> $5",
 	"coll-warning-learn-more": "Lerni plu",
+	"coll-notice-download-pdf-title": "Elŝuti unuopajn paĝojn",
 	"coll-toc-title": "Enhavtabelo",
 	"coll-contributors-title": "Kontribuintoj",
 	"coll-images-title": "Bildoj",
@@ -190,5 +194,8 @@
 	"coll-images-license": "Permesilo",
 	"coll-images-original-artist": "Originala artisto",
 	"coll-license-title": "Enhavopermesilo",
-	"coll-rendererror-title": "Ne povis produkti la libron"
+	"coll-rendererror-title": "Ne povis produkti la libron",
+	"coll-rendererror-pdf": "Farado de PDF malsukcesis: $1",
+	"coll-rendererror-fetch": "Akirado de $1 malsukcesis: $2",
+	"coll-rendererror-fetch-wrapper": "Eraroj okazis dum akirado de la enhavo de la paĝoj:\n$1"
 }

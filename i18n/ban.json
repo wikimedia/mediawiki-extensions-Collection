@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Carma citrawati",
-			"Joseagush"
+			"Joseagush",
+			"NoiX180"
 		]
 	},
 	"coll-remove": "apus",
@@ -10,9 +11,9 @@
 	"coll-move_up": "gingsirang",
 	"coll-move_down": "gingsirang ring sor",
 	"coll-print_export": "cétak/ekspor",
-	"coll-create_a_book": "makarya buku",
+	"coll-create_a_book": "Karyanin buku",
 	"coll-download_as": "unduh $1",
-	"coll-help": "Tulung",
+	"coll-help": "Wantuan",
 	"coll-helppage": "Help:Buku",
 	"coll-remove_this_page": "Apus lembar niki ring daftar paninjoan ida dane"
 }

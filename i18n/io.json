@@ -6,6 +6,9 @@
 		]
 	},
 	"coll-desc": "[[Special:Book|Kreez libri]]",
+	"coll-book_creator_intro": "<big>Per la funciono \"kreero di libri\" (''book creator'') vu povas krear libro qua kontenas pagini quin vu selektos. Vu povos exportor la libro per diferanta formati (exemple PDF od ODF) o komendar imprimata kopiuro.</big>",
+	"coll-book_creator_help": "Videz [[{{MediaWiki:Coll-helppage}}|la helpo-pagino pri libri]], por plusa informi.",
+	"coll-start_book_creator": "Komencar kreado di libro",
 	"coll-collection": "Libro",
 	"coll-collections": "Libri",
 	"coll-your_book": "Vua libro",
@@ -64,5 +67,6 @@
 	"coll-suggest_empty": "vakua",
 	"coll-attribution-anons": "Anonima: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Fonto:</i> $2 <i>Kontributadi:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Fonto:</i> $2 <i>Permiso:</i> $3 <i>Kontributeri:</i> $4 <i>Original artisto:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Fonto:</i> $2 <i>Permiso:</i> $3 <i>Kontributeri:</i> $4 <i>Original artisto:</i> $5",
+	"coll-warning-disable-pdf-text": "Pro severa problemi kun nia existanta sistemo, la kreero di libri (''Book Creator'') ne pluse suportos, dum kurta tempo, la kreado di PDF-libri. Ni laborabas multe por remplasar nia sistempo e ri-posibligar la kreado di PDF-libri per ''Book Creator''."
 }
