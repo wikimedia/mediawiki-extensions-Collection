@@ -199,16 +199,17 @@ class CollectionAjaxFunctions {
 		$r->setContentType( 'application/json' );
 		return $r;
 	}
+
 	public static function onAjaxCollectionSuggestBanArticle( $article ) {
-		return wfCollectionSuggestAction( 'ban', $article );
+		return self::onCollectionSuggestAction( 'ban', $article );
 	}
 
 	public static function onAjaxCollectionSuggestAddArticle( $article ) {
-		return wfCollectionSuggestAction( 'add', $article );
+		return self::onCollectionSuggestAction( 'add', $article );
 	}
 
 	public static function onAjaxCollectionSuggestRemoveArticle( $article ) {
-		return wfCollectionSuggestAction( 'remove', $article );
+		return self::onCollectionSuggestAction( 'remove', $article );
 	}
 
 	public static function onAjaxCollectionSuggestUndoArticle( $lastAction, $article ) {
