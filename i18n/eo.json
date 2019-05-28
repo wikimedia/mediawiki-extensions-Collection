@@ -90,6 +90,7 @@
 	"coll-rendering_finished_title": "Generado finiĝis.",
 	"coll-rendering_finished_text": "<strong>La dokumento estis generita.</strong>\n<strong>[$1 Elŝuti la dosieron]</strong> al via komputilo.",
 	"coll-rendering_finished_notes_heading": "Notoj:",
+	"coll-rendering_finished_note_not_satisfied": "Ĉu vi ne estas kontenta pri la rezulto? Vidu [[{{MediaWiki:Coll-helppage}}|la helpopaĝon pri libroj]] por plibonigi ĝin.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informoteksto pri bildigante paĝon",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informoteksto pri bildigante kolekton",
 	"coll-rendering_failed_title": "Kreo malsukcesis",
