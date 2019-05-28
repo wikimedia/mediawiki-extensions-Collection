@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\Session\SessionManager;
+
 class CollectionAjaxFunctions {
 
 	public static function onAjaxGetCollection() {
