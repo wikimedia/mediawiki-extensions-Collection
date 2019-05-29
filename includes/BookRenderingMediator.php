@@ -194,7 +194,7 @@ class BookRenderingMediator implements LoggerAwareInterface {
 			'electron' => ElectronVirtualRestService::class,
 		];
 		foreach ( $modules as $module => $class ) {
-			if ( !isset( $config['modules'][$module] ) ) {
+			if ( !isset( $config['modules'][$module] ) || !is_array( $config['modules'][$module] ) ) {
 				throw new Exception( "VirtualRESTService module $module is not configured propely" );
 			}
 			$params = $config['modules'][$module];
