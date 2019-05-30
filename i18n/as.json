@@ -4,7 +4,8 @@
 			"Bishnu Saikia",
 			"Gitartha.bordoloi",
 			"IKHazarika",
-			"Macofe"
+			"Macofe",
+			"Simbu123"
 		]
 	},
 	"coll-desc": "[[Special:Book|গ্ৰন্থ সৃষ্টি কৰক]]",
@@ -48,6 +49,7 @@
 	"coll-rename_chapter": "অধ্যায়ৰ নতুন নাম লিখক",
 	"coll-no_such_category": "তেনে কোনো শ্ৰেণী নাই",
 	"coll-notitle_title": "পৃষ্ঠাখনৰ শিৰোনামা চিহ্নিত কৰিব পৰা নগ'ল।",
+	"coll-request_failed_title": "কিতাপ ৰেণ্ডাৰিং বিফল",
 	"coll-error_reponse": "চাৰ্ভাৰৰ পৰা সঁহাৰি ত্ৰুটি পোৱা গৈছে",
 	"coll-empty_collection": "উকা কিতাপ",
 	"coll-revision": "সংশোধন: $1",
@@ -78,6 +80,7 @@
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/সংগ্ৰহ তথ্য পাঠ মুদ্ৰিত হৈ আছে",
 	"coll-rendering_finished_title": "ৰেণ্ডাৰিং সম্পূৰ্ণ হৈছে",
 	"coll-rendering_finished_text": "<strong>ডকুমেণ্ট ফাইল তৈয়াৰ কৰা হৈছে।</strong>\nআপোনাৰ কম্পিউটাৰত <strong>[$1 ফাইলটো ডাউনল'ড কৰক]</strong>।",
+	"coll-rendering_finished_notes_heading": "টোকা:",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/পৃষ্ঠাৰ তথ্য পাঠ মুদ্ৰিত হৈ আছে",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/সংগ্ৰহ তথ্য পাঠ মুদ্ৰিত হৈ আছে",
 	"coll-notfound_title": "গ্ৰন্থ পোৱা নগ'ল",
@@ -122,7 +125,7 @@
 	"coll-format-okawix_zeno": "অ'কাৱিক্স",
 	"right-collectionsaveasuserpage": "সদস্য পৃষ্ঠাৰূপে গ্ৰন্থ সাঁচক",
 	"right-collectionsaveascommunitypage": "সমজুৱা পৃষ্ঠাৰূপে গ্ৰন্থ সাঁচক",
-	"coll-print_export": "মুদ্রণ/ৰপ্তানী",
+	"coll-print_export": "মুদ্ৰণ/ৰপ্তানী",
 	"coll-create_a_book": "কিতাপ সৃষ্টি কৰক",
 	"coll-create_a_book_tooltip": "পৃষ্ঠাৰ সংকলন বা কিতাপ তৈয়াৰ কৰক",
 	"coll-book_creator": "কিতাপ প্ৰস্তুতকৰ্তা",
