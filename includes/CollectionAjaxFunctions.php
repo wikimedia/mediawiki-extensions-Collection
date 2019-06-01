@@ -100,22 +100,22 @@ class CollectionAjaxFunctions {
 		return $r;
 	}
 
-	public static function onAjaxCollectionRemoveItem( $index ) {
+	public static function onAjaxCollectionRemoveItem( $index = 0 ) {
 		SpecialCollection::removeItem( (int)$index );
 		return self::onAjaxCollectionGetItemList();
 	}
 
-	public static function onAjaxCollectionAddChapter( $name ) {
+	public static function onAjaxCollectionAddChapter( $name = '' ) {
 		SpecialCollection::addChapter( $name );
 		return self::onAjaxCollectionGetItemList();
 	}
 
-	public static function onAjaxCollectionRenameChapter( $index, $name ) {
+	public static function onAjaxCollectionRenameChapter( $index = 0, $name = '' ) {
 		SpecialCollection::renameChapter( (int)$index, $name );
 		return self::onAjaxCollectionGetItemList();
 	}
 
-	public static function onAjaxCollectionSetTitles( $title, $subtitle, $settings = '' ) {
+	public static function onAjaxCollectionSetTitles( $title = '', $subtitle = '', $settings = '' ) {
 		SpecialCollection::setTitles( $title, $subtitle );
 		$settings = FormatJson::decode( $settings, true );
 		if ( is_array( $settings ) ) {
@@ -124,7 +124,7 @@ class CollectionAjaxFunctions {
 		return self::onAjaxCollectionGetItemList();
 	}
 
-	public static function onAjaxCollectionSetSorting( $items_string ) {
+	public static function onAjaxCollectionSetSorting( $items_string = '' ) {
 		$parsed = [];
 		parse_str( $items_string, $parsed );
 		$items = [];
@@ -143,7 +143,7 @@ class CollectionAjaxFunctions {
 		return self::onAjaxCollectionGetItemList();
 	}
 
-	public static function onAjaxCollectionGetPopupData( $title ) {
+	public static function onAjaxCollectionGetPopupData( $title = '' ) {
 		global $wgExtensionAssetsPath;
 		$result = [];
 		$imagePath = "$wgExtensionAssetsPath/Collection/images";
@@ -176,7 +176,7 @@ class CollectionAjaxFunctions {
 	 * @param string $article title passed in from client
 	 * @return AjaxResponse with JSON-encoded array including HTML fragment.
 	 */
-	public static function onCollectionSuggestAction( $action, $article ) {
+	public static function onCollectionSuggestAction( $action = '', $article = '' ) {
 		$result = CollectionSuggest::refresh( $action, $article );
 		$undoLink = Xml::element( 'a',
 			[
@@ -202,19 +202,19 @@ class CollectionAjaxFunctions {
 		return $r;
 	}
 
-	public static function onAjaxCollectionSuggestBanArticle( $article ) {
+	public static function onAjaxCollectionSuggestBanArticle( $article = '' ) {
 		return self::onCollectionSuggestAction( 'ban', $article );
 	}
 
-	public static function onAjaxCollectionSuggestAddArticle( $article ) {
+	public static function onAjaxCollectionSuggestAddArticle( $article = '' ) {
 		return self::onCollectionSuggestAction( 'add', $article );
 	}
 
-	public static function onAjaxCollectionSuggestRemoveArticle( $article ) {
+	public static function onAjaxCollectionSuggestRemoveArticle( $article = '' ) {
 		return self::onCollectionSuggestAction( 'remove', $article );
 	}
 
-	public static function onAjaxCollectionSuggestUndoArticle( $lastAction, $article ) {
+	public static function onAjaxCollectionSuggestUndoArticle( $lastAction = '', $article = '' ) {
 		$result = CollectionSuggest::undo( $lastAction, $article );
 		$r = new AjaxResponse( FormatJson::encode( $result ) );
 		$r->setContentType( 'application/json' );
