@@ -8,12 +8,18 @@
 	},
 	"coll-remove": "apus",
 	"coll-show": "sinahang",
-	"coll-move_up": "gingsirang",
-	"coll-move_down": "gingsirang ring sor",
-	"coll-print_export": "cétak/ekspor",
+	"coll-move_up": "Gingsirang ring luur",
+	"coll-move_down": "Gingsirang ring sor",
+	"coll-save_collection": "Raksa buku",
+	"action-collectionsaveasuserpage": "raksa buku pinaka kaca sang anganggé",
+	"action-collectionsaveascommunitypage": "raksa buku pinaka kaca sekaa",
+	"coll-print_export": "Cétak/éspor",
 	"coll-create_a_book": "Karyanin buku",
 	"coll-download_as": "unduh $1",
 	"coll-help": "Wantuan",
 	"coll-helppage": "Help:Buku",
-	"coll-remove_this_page": "Apus lembar niki ring daftar paninjoan ida dane"
+	"coll-n_pages": "$1 {{PLURAL:$1|kaca}}",
+	"coll-remove_this_page": "Apus lembar niki ring daftar paninjoan ida dane",
+	"coll-article-attribution": "<b>$1</b> <i>Wit:</i> $2 <i>Sang anuut:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Wit:</i> $2 <i>Lisènsi:</i> $3 <i>Sang anuut:</i> $4 <i>Sang angaryanin:</i> $5"
 }
