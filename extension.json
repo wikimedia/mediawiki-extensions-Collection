@@ -105,7 +105,6 @@
 			"styles": "ext.collection.bookcreator.messageBox/messageBox.less"
 		},
 		"ext.collection.bookcreator.messageBox.icons": {
-			"position": "top",
 			"class": "ResourceLoaderImageModule",
 			"selector": ".collection-icon-{name}:before",
 			"images": {
