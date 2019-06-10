@@ -105,7 +105,7 @@
 	"coll-order_from_pp": "Прегледај са $1-ом",
 	"coll-about_pp": "О $1",
 	"coll-invalid_podpartner_title": "Неисправан партнер за штампање на захтев",
-	"coll-invalid_podpartner_msg": "Изабрани партнер за штампање на захтев је неисправан.\nКонтактирајте администратора Медијавикија.",
+	"coll-invalid_podpartner_msg": "Наведени POD партнер није важећи.\nОбратите се администратору вашег Медијавикија.",
 	"coll-license": "Лиценца",
 	"coll-return_to": "Назад на [[:$1]]",
 	"coll-order_info_article": "{{MediaWiki:Coll-helppage}}/подаци о наручивању на Педијапресу",

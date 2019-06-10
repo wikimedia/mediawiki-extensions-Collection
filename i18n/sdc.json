@@ -1,0 +1,32 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jun Misugi"
+		]
+	},
+	"coll-remove": "Buggà",
+	"coll-show": "Ammusthrà",
+	"coll-move_up": "in sobbra",
+	"coll-move_down": "ingiossu",
+	"coll-print_export": "Imprimì/ippurthà",
+	"coll-create_a_book": "Crià libru",
+	"coll-book_creator": "Criadori di libri",
+	"coll-download_as": "Ischarriggà cumenti $1",
+	"coll-disable": "isthudà",
+	"coll-book_creator_disable": "Accabà criadori di libri",
+	"coll-book_creator_disable_tooltip": "Accabà l'usu di lu criadori di libri",
+	"coll-add_this_page": "Cumprì lu tóiu libru cu kistha bozi",
+	"coll-add_page_tooltip": "Cumprì lu tóiu libru cu' la vichibozi currenti",
+	"coll-help": "Aggiuddu",
+	"coll-help_tooltip": "Musthrà aggiuddu pa crià libri",
+	"coll-helppage": "Help:Libri",
+	"coll-n_pages": "$1 {{PLURAL:$1|pàgina|pàgini}}",
+	"coll-remove_this_page": "Elimina chistha pàgina da lu tóiu libru",
+	"coll-show_collection": "Musthrà libru",
+	"coll-show_collection_tooltip": "Incalchà lu buttoni pa mudifiggà/ischarriggà/order your book",
+	"coll-make_suggestions": "Cunsiglià pàgini",
+	"coll-make_suggestions_tooltip": "Ammusthrà cunsiglii reratibi a li pàgini i' lu tóiu libru",
+	"coll-attribution-anons": "Anònimi: $1",
+	"coll-article-attribution": "<b>$1</b> <i>Fonti:</i> $2 <i>Autori:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Fonti:</i> $2 <i>Licènzia:</i> $3 <i>Autori:</i> $4 <i>Arthistha originàriu/a,:</i> $5"
+}
