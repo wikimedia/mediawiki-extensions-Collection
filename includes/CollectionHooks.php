@@ -473,16 +473,4 @@ class CollectionHooks {
 		return true;
 	}
 
-	/**
-	 * [UnitTestsList][0] hook handler.
-	 *
-	 * Registers the extension's PHPUnit tests.
-	 *
-	 * [0]: https://www.mediawiki.org/wiki/Manual:Hooks/UnitTestsList.
-	 *
-	 * @param array &$paths
-	 */
-	public static function onUnitTestsList( array &$paths ) {
-		$paths[] = dirname( __DIR__ ) . '/tests/phpunit';
-	}
 }

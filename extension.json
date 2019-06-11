@@ -121,8 +121,7 @@
 		"SkinTemplateBuildNavUrlsNav_urlsAfterPermalink": "CollectionHooks::buildNavUrls",
 		"SidebarBeforeOutput": "CollectionHooks::buildSidebar",
 		"SiteNoticeAfter": "CollectionHooks::siteNoticeAfter",
-		"OutputPageCheckLastModified": "CollectionHooks::checkLastModified",
-		"UnitTestsList": "CollectionHooks::onUnitTestsList"
+		"OutputPageCheckLastModified": "CollectionHooks::checkLastModified"
 	},
 	"config": {
 		"CollectionMWServeURL": {
