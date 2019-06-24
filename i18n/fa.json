@@ -81,7 +81,7 @@
 	"coll-overwrite": "رونویسی",
 	"coll-append": "افزودن",
 	"coll-cancel": "لغو",
-	"coll-update": "روزامدسازی",
+	"coll-update": "روزآمدسازی",
 	"coll-limit_exceeded_title": "کتاب بیش از اندازه بزرگ است",
 	"coll-limit_exceeded_text": "کتاب شما بیش از اندازه بزرگ است است.\nامکان افزودن صفحهٔ جدیدی را ندارید.",
 	"coll-rendering_title": "در حال پردازش",

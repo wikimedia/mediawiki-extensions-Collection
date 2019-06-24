@@ -4,6 +4,9 @@
 			"Jun Misugi"
 		]
 	},
+	"coll-desc": "Aggiugni 'na [[Special:Book|pàgina ippiziari]] pai crià libri.",
+	"coll-book_creator_help": "Vedi la [[{{MediaWiki:Coll-helppage}}|pàgina d'aggiuddu pai libri]] pai più d'infoimmazioni.",
+	"coll-start_book_creator": "Ischuminzà criadori di libri",
 	"coll-remove": "Buggà",
 	"coll-show": "Ammusthrà",
 	"coll-move_up": "in sobbra",
