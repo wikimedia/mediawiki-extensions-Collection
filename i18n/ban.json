@@ -7,7 +7,7 @@
 		]
 	},
 	"coll-remove": "apus",
-	"coll-show": "sinahang",
+	"coll-show": "Sinahang",
 	"coll-move_up": "Gingsirang ring luur",
 	"coll-move_down": "Gingsirang ring sor",
 	"coll-save_collection": "Raksa buku",
@@ -20,6 +20,7 @@
 	"coll-helppage": "Help:Buku",
 	"coll-n_pages": "$1 {{PLURAL:$1|kaca}}",
 	"coll-remove_this_page": "Apus lembar niki ring daftar paninjoan ida dane",
+	"coll-show_collection": "Sinahang buku",
 	"coll-article-attribution": "<b>$1</b> <i>Wit:</i> $2 <i>Sang anuut:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Wit:</i> $2 <i>Lisènsi:</i> $3 <i>Sang anuut:</i> $4 <i>Sang angaryanin:</i> $5"
 }
