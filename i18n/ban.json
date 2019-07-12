@@ -30,6 +30,7 @@
 	"coll-n_pages": "$1 {{PLURAL:$1|kaca}}",
 	"coll-remove_this_page": "Apus lembar niki ring daftar paninjoan ida dane",
 	"coll-show_collection": "Sinahang buku",
+	"coll-show_collection_tooltip": "Celek anggon ngubah sasuratan/mengunduh/mesen buku ragane",
 	"coll-make_suggestions": "Kaca sané kaanjurang",
 	"coll-make_suggestions_tooltip": "Ngénjérang anjuran manut saking kaca ring buku ragané",
 	"coll-attribution-anons": "Panganggé sané nénten nganggén wasta: $1",
