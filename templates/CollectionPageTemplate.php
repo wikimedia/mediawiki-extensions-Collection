@@ -81,6 +81,7 @@ class CollectionPageTemplate extends QuickTemplate {
 		] );
 		return $downloadForm;
 	}
+
 	public function execute() {
 		$collection = $this->getCollection();
 		$data = [
