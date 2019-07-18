@@ -5,7 +5,8 @@
 			"Timming",
 			"Ильнар",
 			"Derslek",
-			"Macofe"
+			"Macofe",
+			"Ерней"
 		]
 	},
 	"coll-desc": "[[Special:Book|Китап төзүче]]",
@@ -74,7 +75,7 @@
 	"coll-suggest_show": "күрсәтү",
 	"coll-suggest_undo": "үткәрмәү",
 	"coll-print_export": "Бастыру/экспорт",
-	"coll-create_a_book": "Китап ясау",
+	"coll-create_a_book": "Китап булдыру",
 	"coll-create_a_book_tooltip": "Китап  яки мәкаләләр җыентыган ясау",
 	"coll-book_creator": "Китап ясау",
 	"coll-download_as": "$1 иттереп алу",

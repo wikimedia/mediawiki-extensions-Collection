@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Khanmarat"
+			"Khanmarat",
+			"Sorbat"
 		]
 	},
 	"coll-remove": "Уйғалы",
@@ -14,7 +15,7 @@
 	"coll-download_as": "$1 итеп күцергәле",
 	"coll-disable": "Сүнтергәле",
 	"coll-book_creator_disable": "Китап оста функцияны сүнтергәле",
-	"coll-book_creator_disable_tooltip": "Китап останы ҡулланыуны ҡуйың",
+	"coll-book_creator_disable_tooltip": "Китап останы ошланыуны ҡуйың",
 	"coll-add_this_page": "Пы питне сеснең китапҡа өстәгәле",
 	"coll-add_page_tooltip": "Ошо вики-питне китапҡа өстәгәле",
 	"coll-help": "Пелешмә",
