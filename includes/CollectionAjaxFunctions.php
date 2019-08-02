@@ -20,9 +20,16 @@ class CollectionAjaxFunctions {
 		$session = SessionManager::getGlobalSession();
 		$session->persist();
 		$collection = FormatJson::decode( $collection, true );
+		$r = new AjaxResponse();
+		if ( is_null( $collection ) ) {
+			wfDebugLog( 'collection', 'Invalid collection received.' );
+			$r->setResponseCode( 400 );
+			$r->setContentType( 'text/plain' );
+			$r->addText( 'Invalid collection.' );
+			return $r;
+		}
 		$collection['enabled'] = true;
 		$session['wsCollection'] = $collection;
-		$r = new AjaxResponse();
 		if ( $redirect ) {
 			$title = Title::newFromText( $redirect );
 			$redirecturl = wfExpandUrl( $title->getFullURL(), PROTO_CURRENT );

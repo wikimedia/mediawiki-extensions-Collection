@@ -188,13 +188,14 @@ class CollectionSession {
 	 */
 	public static function getCollection() {
 		$session = SessionManager::getGlobalSession();
-		return self::purge() ? $session['wsCollection'] : [
-			/* empty collection */
+		$collection = self::purge() ? $session['wsCollection'] : [];
+		return array_merge( [
+			/* Make sure required properties are present.  */
 			'title' => '',
 			'subtitle' => '',
 			'settings' => [],
 			'items' => [],
-		];
+		], $collection );
 	}
 
 	/**
