@@ -14,7 +14,8 @@
 			"Hinaloe",
 			"Phantomize",
 			"Yusuke1109",
-			"夢蝶葬花"
+			"夢蝶葬花",
+			"Afaz"
 		]
 	},
 	"coll-desc": "[[Special:Book|ブックを作成する]]",
@@ -140,7 +141,9 @@
 	"coll-format-okawix_zeno": "Okawix",
 	"coll-format-rdf2latex": "電子書籍 (PDF、ocg latex レンダラー)",
 	"coll-format-rdf2text": "ワードプロセッサー（プレインテキスト）",
+	"action-collectionsaveasuserpage": "ブックを利用者ページとして保存",
 	"right-collectionsaveasuserpage": "ブックを利用者ページとして保存",
+	"action-collectionsaveascommunitypage": "ブックを共有ページとして保存",
 	"right-collectionsaveascommunitypage": "ブックを共有ページとして保存",
 	"coll-print_export": "印刷/書き出し",
 	"coll-create_a_book": "ブックの新規作成",

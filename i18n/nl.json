@@ -147,7 +147,9 @@
 	"coll-format-okawix_zeno": "Okawix",
 	"coll-format-rdf2latex": "e-boek (PDF, ocg-latexrenderer)",
 	"coll-format-rdf2text": "Tekstverwerker (tekst zonder opmaak)",
+	"action-collectionsaveasuserpage": "Boeken opslaan als gebruikerspagina",
 	"right-collectionsaveasuserpage": "Boeken opslaan als gebruikerspagina",
+	"action-collectionsaveascommunitypage": "Boeken opslaan als gemeenschapspagina",
 	"right-collectionsaveascommunitypage": "Boeken opslaan als gemeenschapspagina",
 	"coll-print_export": "Afdrukken/exporteren",
 	"coll-create_a_book": "Boek maken",
@@ -201,7 +203,9 @@
 	"coll-images-title": "Afbeeldingen",
 	"coll-images-source": "Bron",
 	"coll-images-license": "Licentie",
+	"coll-images-original-artist": "Originele artiest",
 	"coll-license-title": "Inhoudslicentie",
 	"coll-rendererror-title": "Kon het boek niet genereren",
+	"coll-rendererror-pdf": "PDF-rendering mislukt: $1",
 	"coll-rendererror-fetch-wrapper": "Er waren fouten bij raadpleegpoging pagina-inhoud: $1"
 }

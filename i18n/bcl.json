@@ -3,7 +3,8 @@
 		"authors": [
 			"Geopoet",
 			"Macofe",
-			"ShimunUfesoj"
+			"ShimunUfesoj",
+			"Brazal.dang"
 		]
 	},
 	"coll-desc": "[[Special:Book|Magmukna nin mga libro]]",
@@ -114,8 +115,8 @@
 	"coll-suggest_article_remove": "An pahina <strong>$1</strong> pinagtangkas na gikan sa saimong libro ($2).",
 	"coll-suggest_undo_tooltip": "Suliton ining action",
 	"coll-suggest_undo": "sulíton",
-	"coll-load_local_book": "I-klik an OK sa pagpadagos sa saimong libro $1 na may laog na $2 pahina nin wiki. I-klik an Cancel sa pagpura kaini asin magpoon nin sarong blangkong libro.",
-	"coll-format-rl": "e-libro (PDF)",
+	"coll-load_local_book": "I-klik an OK sa pagpadagos sa saimong libro $1 na may laog na {{PLURAL:$2|page|pahina}} nin wiki. I-klik an Cancel sa pagpura kaini asin magpoon nin sarong blangkong libro.",
+	"coll-format-rl": "e-libro (PDF, mwlib renderer)",
 	"coll-format-epub": "e-libro (EPUB)",
 	"coll-format-odf": "tagaproseso nin taramon (Bukas-na-Dokumento)",
 	"coll-format-zim": "Kiwix (Bukas-na-ZIM)",
