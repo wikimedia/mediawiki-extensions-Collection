@@ -531,6 +531,7 @@ class SpecialCollection extends SpecialPage {
 		MessageBoxHelper::addModuleStyles( $out );
 
 		$this->setHeaders();
+		$this->addHelpLink( 'Special:MyLanguage/Extension:Collection/Help' );
 		$out->setPageTitle( $this->msg( 'coll-manage_your_book' )->text() );
 		$out->addModules( 'ext.collection' );
 		$out->addModuleStyles( [ 'mediawiki.hlist', 'ext.collection.bookcreator.styles' ] );
