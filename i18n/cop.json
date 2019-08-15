@@ -11,9 +11,12 @@
 	"coll-move_down": "ⲕⲓⲙ ⲉϦⲣⲏⲓ",
 	"coll-print_export": "ⲱϥⲓ/ϥⲓ ⲉⲃⲟⲗ",
 	"coll-create_a_book": "ⲑⲁⲙⲓⲉ ⲟⲩϫⲱⲙ",
+	"coll-book_creator": "ⲣⲉϥⲑⲁⲙⲓⲟ ⲛ̀ϫⲱⲙ",
 	"coll-download_as": "ⲟⲡⲧⲥ ⲉⲡⲉⲥⲏⲧ ϩⲱⲥ $1",
 	"coll-add_page_tooltip": "ⲧⲟⲩϩⲟ ϯⲥⲉⲗⲓⲥ `ⲛⲃⲓⲕⲓ `ⲙⲡⲁⲓⲥⲟⲡ ⲉⲡⲉⲕϫⲱⲙ",
 	"coll-help": "ⲥⲁϩⲛⲓ",
 	"coll-helppage": "Help:ϫⲱⲙ",
-	"coll-remove_this_page": "ⲥⲱϩⲓ ⲧⲁⲓⲥⲉⲗⲓⲥ ⲉⲃⲟⲗ ⲙ̀ⲡⲉⲧⲉⲛϫⲱⲙ"
+	"coll-remove_this_page": "ⲥⲱϩⲓ ⲧⲁⲓⲥⲉⲗⲓⲥ ⲉⲃⲟⲗ ⲙ̀ⲡⲉⲧⲉⲛϫⲱⲙ",
+	"coll-show_collection": "ⲟⲩⲱⲛϩ ⲟⲩϫⲱⲙ",
+	"coll-make_suggestions": "ϯⲙⲉⲩⲓ ϩⲁⲛⲥⲉⲗⲓⲥ"
 }
