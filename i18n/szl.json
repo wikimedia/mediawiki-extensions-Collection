@@ -1,17 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Krol111"
+			"Krol111",
+			"Uostofchuodnego"
 		]
 	},
-	"coll-remove": "Wyćep",
-	"coll-show": "Pokoż",
-	"coll-move_up": "Przećep w gůra",
-	"coll-move_down": "Przećep w důł",
-	"coll-print_export": "Drukuj abo eksportuj",
-	"coll-create_a_book": "Zbajstluj kśůnżka",
+	"coll-remove": "Skasuj",
+	"coll-show": "Pokŏż",
+	"coll-move_up": "Przeniyś do gōry",
+	"coll-move_down": "Przeniyś w dōł",
+	"coll-print_export": "Durkuj abo eksportuj",
+	"coll-create_a_book": "Stwōrz ksiōnżkã",
 	"coll-book_creator": "Gynerator kśůnżki",
-	"coll-download_as": "Pobjer kej $1",
+	"coll-download_as": "Pobier za $1",
 	"coll-disable": "wyłůncz",
 	"coll-book_creator_disable": "Wyłůncz tworzyńe kśůnżek",
 	"coll-book_creator_disable_tooltip": "Wyłůncz gyneratora ksůnżki",
@@ -19,6 +20,7 @@
 	"coll-add_page_tooltip": "Dokludź uobecno zajta wiki do kśůnżki",
 	"coll-help": "Půmoc",
 	"coll-help_tooltip": "Pokoż hilfa uo tworzyńu kśůnżek",
+	"coll-helppage": "Help:Ksiōnżki",
 	"coll-n_pages": "$1 {{PLURAL:$1|zajta|zajty|zajt}}",
 	"coll-remove_this_page": "Wyćep ta zajta ze kśůnżki",
 	"coll-show_collection": "Pokoż kśůnżka",
