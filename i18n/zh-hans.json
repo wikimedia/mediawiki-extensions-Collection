@@ -16,7 +16,8 @@
 			"Hudafu",
 			"Arthur2e5",
 			"Wmr",
-			"佛壁灯"
+			"佛壁灯",
+			"94rain"
 		]
 	},
 	"coll-desc": "[[Special:Book|创建图书]]",
@@ -148,7 +149,7 @@
 	"action-collectionsaveasuserpage": "保存图书为用户页面",
 	"right-collectionsaveasuserpage": "保存图书为用户页面",
 	"action-collectionsaveascommunitypage": "保存图书为社区页面",
-	"right-collectionsaveascommunitypage": "保存图书为社区页面",
+	"right-collectionsaveascommunitypage": "保存图书为社群页面",
 	"coll-print_export": "打印/导出",
 	"coll-create_a_book": "创建图书",
 	"coll-create_a_book_tooltip": "创建图书或页面收藏",
