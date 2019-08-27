@@ -59,6 +59,8 @@
 	"coll-update": "अपडेट",
 	"coll-limit_exceeded_title": "पुस्तक बहुत बड़ी अ",
 	"coll-limit_exceeded_text": "आपकय पुस्तक बहुत बड़ी अ।\nअउर पृष्ठ नही जोड़ा जाय सकत।",
+	"coll-about_pp": "$1 के बारे मा",
+	"coll-invalid_podpartner_title": "अमान्य POD साथी",
 	"coll-license": "लाइसेंस",
 	"coll-return_to": "वापसी  [[:$1]] का",
 	"coll-order_info_article": "{{MediaWiki:Coll-helppage}}/पीडियाप्रैस आदेश जानकारी",
