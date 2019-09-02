@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 /**
  * Base class for API that interacts with book rendering service
  */
@@ -75,11 +77,10 @@ abstract class CollectionRenderingAPI {
 	}
 
 	protected function doRender( array $params ) {
-		global $wgContLang;
-
 		$params['base_url'] = $this->getBaseUrl();
 		$params['script_extension'] = '.php';
-		$params['language'] = $wgContLang->getCode();
+		$params['language'] = MediaWikiServices::getInstance()->getContentLanguage()
+			->getCode();
 		return $this->makeRequest( 'render', $params );
 	}
 
