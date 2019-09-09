@@ -191,12 +191,18 @@
 	"coll-article-attribution": "<b>$1</b> <i>Źródło:</i> $2 <i>Autorzy:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Źródło:</i> $2 <i>Licencja:</i> $3 <i>Autorzy:</i> $4 <i>Artysta:</i> $5",
 	"coll-warning-learn-more": "Dowiedz się więcej",
+	"coll-notice-download-pdf-title": "Pobierz pojedyncze strony",
 	"coll-toc-title": "Spis treści",
 	"coll-contributors-title": "Autorzy",
 	"coll-images-title": "Obrazy",
 	"coll-images-source": "Źródło",
 	"coll-images-license": "Licencja",
+	"coll-images-original-artist": "Oryginalny artysta",
+	"coll-license-title": "Licencja treści",
 	"coll-rendererror-title": "Nie można wygenerować książki",
+	"coll-rendererror-no-session": "Definicja książki nie została odnaleziona w sesji. Mogła zostać odrzucona w związku z nieaktywnością.",
 	"coll-rendererror-pdf": "Renderowanie PDF nie powiodło się: $1",
-	"coll-rendererror-fetch-wrapper": "Podczas próby pobrania zawartości strony wystąpiły błędy:\n$1"
+	"coll-rendererror-fetch": "Pobieranie $1 nie powiodło się: $2",
+	"coll-rendererror-fetch-wrapper": "Podczas próby pobrania zawartości strony wystąpiły błędy:\n$1",
+	"coll-rendererror-no-cache": "Dane książki nie zostały odnalezione w pamięci podręcznej. Najprawdopodobniej jest to błąd w oprogramowaniu."
 }

@@ -24,7 +24,8 @@
 			"Macofe",
 			"Wladek92",
 			"DePlusJean",
-			"Pols12"
+			"Pols12",
+			"Thibaut120094"
 		]
 	},
 	"coll-desc": "Permet de [[Special:Book|créer des livres]]",
@@ -103,7 +104,7 @@
 	"coll-rendering_finished_text": "<strong>Le fichier document a été généré.</strong>\n<strong>[$1 Télécharger le fichier]</strong> sur votre ordinateur.",
 	"coll-rendering_finished_notes_heading": "Notes :",
 	"coll-rendering_finished_note_not_satisfied": "Pas satisfait du résultat ? Voir la [[{{MediaWiki:Coll-helppage}}|page d’aide sur les livres]] pour les améliorations possibles.",
-	"coll-rendering_finished_note_article_rdf2latex": "Actuellement, certains documents ne contiennent pas de tableaux. Une alternative peut être d’utiliser le $1 : sélectionnez « Imprimer » dans le menu du navigateur, puis utilisez l’option « Enregistrer en tant que PDF ».",
+	"coll-rendering_finished_note_article_rdf2latex": "Actuellement, certains documents ne contiennent pas de tableaux. Une alternative peut être d’utiliser le $1 : sélectionnez « Imprimer » dans le menu du navigateur, puis utilisez l’option « Enregistrer en tant que PDF ».",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informations sur le rendu des pages",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informations sur le rendu des collections",
 	"coll-rendering_failed_title": "Échec du rendu",
