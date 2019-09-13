@@ -6,6 +6,8 @@
 	},
 	"coll-remove": "Ukloniti",
 	"coll-show": "Prikaži",
+	"coll-move_up": "Premjesti gore",
+	"coll-move_down": "Premjesti dolje",
 	"coll-create_a_book": "Kreiraj zbirku",
 	"coll-download_as": "Preuzmi kao $1",
 	"coll-disable": "onemogući",
