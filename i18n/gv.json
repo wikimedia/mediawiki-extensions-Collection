@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"MacTire02"
+			"MacTire02",
+			"Xð"
 		]
 	},
 	"coll-collection": "Lioar",
@@ -17,5 +18,6 @@
 	"coll-cancel": "Dolley magh",
 	"coll-about_pp": "Mychione $1",
 	"coll-create_a_book": "My haglym",
+	"coll-help": "Cooney",
 	"coll-helppage": "Help:Lioaryn"
 }
