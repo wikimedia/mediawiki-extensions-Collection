@@ -5,5 +5,12 @@
 		]
 	},
 	"coll-remove": "Ota poies",
+	"coll-show": "Näytä",
+	"coll-move_up": "Siirä ylös",
+	"coll-move_down": "Siirä alas",
+	"coll-print_export": "Printtaa/vie",
+	"coll-create_a_book": "Luo kirja",
+	"coll-download_as": "Lattaa $1-fiilinä",
+	"coll-add_this_page": "Lissää tämä sivu kirjaasi",
 	"coll-help": "Apua"
 }
