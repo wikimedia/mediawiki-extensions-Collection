@@ -27,7 +27,8 @@
 			"Hamilton Abreu",
 			"Pikne",
 			"Robby",
-			"Amire80"
+			"Amire80",
+			"Verdy p"
 		]
 	},
 	"coll-desc": "{{desc|name=Collection|url=https://www.mediawiki.org/wiki/Extension:Collection}}",
@@ -47,7 +48,7 @@
 	"coll-couldnotremovearticle_title": "Used as title for the error message {{msg-mw|Coll-couldnotremovearticle msg}}.",
 	"coll-couldnotremovearticle_msg": "Used as error message.\n\nThe title for this error is {{msg-mw|Coll-couldnotremovearticle title}}.",
 	"coll-noscript_text": "Unused at this time.",
-	"coll-savedbook_template": "This is the name of a template that is inserted at the top of pages for saved collections ([[wikipedia:Template:Saved_book|example]]).",
+	"coll-savedbook_template": "This is the name of a template that is inserted at the top of pages for saved collections ([[wikipedia:Template:Saved_book|example in English Wikipedia]]: look in its interlanguage side links for the supported template names in other language).",
 	"coll-your_book": "{{Identical|Book}}",
 	"coll-download_title": "Header for the download section on [[Special:Book]].\n{{Identical|Download}}",
 	"coll-download_text": "Followed by the Download form.\n\nThe button is labeled {{msg-mw|Coll-download}}.",
