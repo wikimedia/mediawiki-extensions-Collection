@@ -10,7 +10,6 @@ use MediaWikiCoversValidator;
  */
 class HeadingCounterTest extends \PHPUnit\Framework\TestCase {
 	use MediaWikiCoversValidator;
-	use \PHPUnit4And6Compat;
 
 	/**
 	 * @dataProvider provideIncrementAndGet

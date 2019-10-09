@@ -25,18 +25,17 @@ class CollectionAPIResult {
 
 	/**
 	 * Returns data for specified key(s)
-	 * Has variable number of parameters, e.g. get( 'foo', 'bar', 'baz' )
 	 * @param string $key
+	 * @param string ...$keys
 	 * @return mixed
 	 */
-	public function get( $key /*, ... */ ) {
-		$args = func_get_args();
+	public function get( $key, ...$keys ) {
 		$val = $this->response;
-		foreach ( $args as $arg ) {
-			if ( !isset( $val[$arg] ) ) {
+		foreach ( func_get_args() as $key ) {
+			if ( !isset( $val[$key] ) ) {
 				return '';
 			}
-			$val = $val[$arg];
+			$val = $val[$key];
 		}
 		return $val;
 	}

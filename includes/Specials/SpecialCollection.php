@@ -20,7 +20,7 @@
  * http://www.gnu.org/copyleft/gpl.html
  */
 
-use \MediaWiki\Extensions\Collection\MessageBoxHelper;
+use MediaWiki\Extensions\Collection\MessageBoxHelper;
 
 class SpecialCollection extends SpecialPage {
 
