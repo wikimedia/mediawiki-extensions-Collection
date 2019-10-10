@@ -5,7 +5,7 @@
  * @ingroup Templates
  */
 
-use \MediaWiki\Extensions\Collection\MessageBoxHelper;
+use MediaWiki\Extensions\Collection\MessageBoxHelper;
 
 /**
  * HTML template for Special:Book
