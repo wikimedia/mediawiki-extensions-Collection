@@ -187,6 +187,7 @@ class CollectionPageTemplate extends QuickTemplate {
 									if ( $infopage && $infopage->exists() ) { ?>
 										<div class="coll-order_info" style="display:none;">
 											<?php
+											// @phan-suppress-next-line SecurityCheck-XSS False positive (T235021)
 											echo $GLOBALS['wgOut']->parseAsContent( '{{:' . $infopage . '}}' );
 											?>
 										</div>
