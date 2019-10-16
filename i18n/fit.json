@@ -12,5 +12,6 @@
 	"coll-create_a_book": "Luo kirja",
 	"coll-download_as": "Lattaa $1-fiilinä",
 	"coll-add_this_page": "Lissää tämä sivu kirjaasi",
-	"coll-help": "Apua"
+	"coll-help": "Apua",
+	"coll-remove_this_page": "Ota poies tämä sivu sinun kirjasta"
 }
