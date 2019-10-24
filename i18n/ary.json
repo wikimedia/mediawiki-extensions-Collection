@@ -1,8 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Anass Sedrati"
+			"Anass Sedrati",
+			"SADIQUI"
 		]
 	},
-	"coll-remove": "حيًد"
+	"coll-remove": "حيًد",
+	"coll-show": "وري",
+	"coll-move_up": "طلع للفوق",
+	"coll-move_down": "نزل للتحت",
+	"coll-print_export": "طباعة/تصدير",
+	"coll-create_a_book": "صاوب كتاب",
+	"coll-download_as": "تحميل بصيغة $1",
+	"coll-add_this_page": "زيد هاد الصفحة للكتاب ديالك",
+	"coll-help": "مساعدة",
+	"coll-remove_this_page": "حيد هاد الصفحة من الكتاب ديالك"
 }
