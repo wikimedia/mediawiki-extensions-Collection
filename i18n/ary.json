@@ -11,8 +11,17 @@
 	"coll-move_down": "نزل للتحت",
 	"coll-print_export": "طباعة/تصدير",
 	"coll-create_a_book": "صاوب كتاب",
+	"coll-book_creator": "منشئ الكتب",
 	"coll-download_as": "تحميل بصيغة $1",
+	"coll-book_creator_disable_tooltip": "وقّف استخدام منشئ الكتب",
 	"coll-add_this_page": "زيد هاد الصفحة للكتاب ديالك",
+	"coll-add_page_tooltip": "زيد هاد الصفحة الحالية لكتابك",
 	"coll-help": "مساعدة",
-	"coll-remove_this_page": "حيد هاد الصفحة من الكتاب ديالك"
+	"coll-help_tooltip": "شوف مساعدة على كيفية إنشاء الكتب",
+	"coll-helppage": "Help:كتوبا",
+	"coll-remove_this_page": "حيد هاد الصفحة من الكتاب ديالك",
+	"coll-show_collection": "شوف الكتاب",
+	"coll-attribution-anons": "مجهولين: $1",
+	"coll-article-attribution": "<b>$1</b> <i>المصدر:</i> $2 <i>المساهمين:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>المصدر:</i> $2 <i>الترخيص:</i> $3 <i>المساهمين:</i> $4 <i>الفنان الأصلي:</i> $5"
 }
