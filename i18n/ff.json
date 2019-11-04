@@ -1,0 +1,20 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ibrahima"
+		]
+	},
+	"coll-remove": "Ittu",
+	"coll-show": "Hollu",
+	"coll-move_up": "Faarnu dow",
+	"coll-move_down": "Faarnu les",
+	"coll-create_a_book": "Sos deftere",
+	"coll-download_as": "Aawto e innde $1",
+	"coll-disable": "daaƴ",
+	"coll-add_this_page": "Ɓeydu ngoo hello e deftere maa",
+	"coll-help": "Balal",
+	"coll-n_pages": "$1 {{PLURAL:$1|hello|kelle}}",
+	"coll-remove_this_page": "Momtu ngoo hello e deftere maa",
+	"coll-show_collection": "Hollu deftere",
+	"coll-make_suggestions": "Wasiyo kelle"
+}
