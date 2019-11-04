@@ -44,6 +44,7 @@ class ElectronVirtualRestService extends VirtualRESTService {
 
 	/**
 	 * @inheritDoc
+	 * @phan-param array[] $reqs
 	 */
 	public function onRequests( array $reqs, Closure $idGeneratorFunc ) {
 		$result = [];

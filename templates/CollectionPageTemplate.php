@@ -170,6 +170,7 @@ class CollectionPageTemplate extends QuickTemplate {
 					<ul>
 						<?php
 						foreach ( $this->data['podpartners'] as $partnerKey => $partnerData ) {
+							'@phan-var array $partnerData';
 							$infopage = false;
 							$partnerClasses = "";
 							$about_partner = wfMessage( 'coll-about_pp', $partnerData['name'] )->escaped();

@@ -46,6 +46,7 @@ class BookRenderer {
 		$bookBodyHtml = '';
 		$title = $collection['title'];
 		$items = $collection['items'];
+		'@phan-var array[] $items';
 		$tocHeadingCounter = new HeadingCounter();
 		$outline = [];
 
@@ -236,6 +237,7 @@ class BookRenderer {
 			];
 		}
 		foreach ( $sections[$dbkey] as $section ) {
+			'@phan-var array $section';
 			$chapters[] = [
 				'text' => $section['title'],
 				'type' => 'section',

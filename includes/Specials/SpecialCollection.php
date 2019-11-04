@@ -594,6 +594,7 @@ class SpecialCollection extends SpecialPage {
 		$articles = [];
 		$new_items = [];
 		foreach ( $collection['items'] as $item ) {
+			'@phan-var array $item';
 			if ( $item['type'] == 'chapter' ) {
 				self::sortByTitle( $articles );
 				$new_items = array_merge( $new_items, $articles, [ $item ] );
