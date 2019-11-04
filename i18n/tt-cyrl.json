@@ -59,7 +59,7 @@
 	"coll-limit_exceeded_title": "Китап бигрәк зур",
 	"coll-limit_exceeded_text": "Китабыгыз бигрәк зур.\nАңа битләрне өстеп булмый.",
 	"coll-rendering_title": "Ясау",
-	"coll-rendering_text": "<p><strong>Зинһар, котегез — документны ясау бара.</strong></p>\n\n<p><strong>Эш барышы:</strong> <span id=\"renderingProgress\">$1</span> % <span id=\"renderingStatus\">$2</span></p>\n\n<p>Әлеге бит берничә секунда саен яңарып торырга тиеш.\nӘгәрдә бу гамәл күренмәсә, гизгечнең \"Ядарту\" төймәсенә басыгыз.</p>",
+	"coll-rendering_text": "<p><strong>Документ төзелә, көтегез әле.</strong></p>\n\n<p><strong>Эш барышы:</strong> <span id=\"renderingProgress\">$1</span> % <span id=\"renderingStatus\">$2</span></p>\n\n<p>Бу бит берничә секунд саен яңарып торырга тиеш.\nӘгәр дә бу гамәл күренмәсә, гизгечнең «яңарту» төймәсенә басыгыз.</p>",
 	"coll-rendering_status": "<strong>Статусы:</strong> $1",
 	"coll-rendering_article": "(мәкалә: $1)",
 	"coll-rendering_page": "(бит: $1)",
