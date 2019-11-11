@@ -27,6 +27,8 @@
 	"coll-printable_version_pdf": "PDF-versuuni",
 	"coll-remove_this_page": "Ota poies tämä sivu sinun kirjasta",
 	"coll-show_collection_tooltip": "Knapauta mookataksesi, ladataksesi tai tilataksesi kirjasi",
+	"coll-make_suggestions": "Ehotetut sivut",
+	"coll-make_suggestions_tooltip": "Näytä ehotukset, jotka perustuvat kirjan sivuihin",
 	"coll-setting-toc-yes": "Joo",
 	"coll-setting-toc-no": "Ei",
 	"coll-warning-learn-more": "Lue lissää",
