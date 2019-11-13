@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Rul1902",
-			"Jaeminlovetaejoon"
+			"Jaeminlovetaejoon",
+			"SawJaemin"
 		]
 	},
 	"coll-remove": "သုးကွံာ်",
@@ -13,5 +14,5 @@
 	"coll-create_a_book": "တံထီၣ်လံာ်",
 	"coll-download_as": "ဒီလိး $1",
 	"coll-help": "မၤစၢၤ",
-	"coll-helppage": "မၤစၢၤ:လံာ်"
+	"coll-helppage": "လံာ်"
 }
