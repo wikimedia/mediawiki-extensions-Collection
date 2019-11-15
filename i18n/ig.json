@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Ukabia",
-			"Uzoma Ozurumba"
+			"Uzoma Ozurumba",
+			"Oby Ezeilo"
 		]
 	},
 	"coll-remove": "Wepụ",
@@ -29,5 +30,6 @@
 	"coll-remove_this_page": "Wepụ ihu akwukwọ a na akwukwọ gi",
 	"coll-show_collection": "Zi akwụkwọ",
 	"coll-show_collection_tooltip": "pia ka idezia/nwete/nata akwụkwọ gi",
-	"coll-make_suggestions": "Tụọ aro ihuakụkwọ"
+	"coll-make_suggestions": "Tụọ aro ihuakụkwọ",
+	"coll-image-attribution": "<b>$1</b> <i>nsi nweta:</i> $2 <i>ikike:</i> $3 <i>ndị enyemaka:</i> $4 <i>onye chepụtara ihe:</i> $5"
 }
