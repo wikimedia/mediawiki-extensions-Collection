@@ -7,5 +7,10 @@
 	"coll-remove": "Siho",
 	"coll-show": "Čääiti",
 	"coll-move_up": "Sirde pajas",
-	"coll-move_down": "Sirde vuálás"
+	"coll-move_down": "Sirde vuálás",
+	"coll-create_a_book": "Räähti kirje",
+	"coll-download_as": "Luođii $1-tiätuvuárkkan",
+	"coll-help": "Vekki",
+	"coll-remove_this_page": "Meddâlist taam siijđo kirjestâd",
+	"coll-image-attribution": "<b>$1</b> <i>Käldee:</i> $2 <i>Liiseens:</i> $3 <i>Uásálisteeh:</i> $4 <i>Originaal artist:</i> $5"
 }
