@@ -19,7 +19,8 @@
 			"Mainframe98",
 			"Patio",
 			"Ooswesthoesbes",
-			"KlaasZ4usV"
+			"KlaasZ4usV",
+			"Rots61"
 		]
 	},
 	"coll-desc": "[[Special:Book|Boeken maken]]",
@@ -50,7 +51,7 @@
 	"coll-show": "Weergeven",
 	"coll-move_to_top": "Helemaal naar boven",
 	"coll-move_up": "Naar boven",
-	"coll-move_down": "Naar onderen",
+	"coll-move_down": "Naar beneden",
 	"coll-move_to_bottom": "Helemaal naar onderen",
 	"coll-title": "Titel:",
 	"coll-subtitle": "Ondertitel:",
