@@ -104,5 +104,6 @@
 	"coll-setting-toc-no": "کو",
 	"coll-setting-columns": "کالم:",
 	"coll-attribution-anons": "بے نامی: $1",
-	"coll-article-attribution": "<b>$1</b> <i>ماخذ:</i> $2 <i>تبدیلیاں کرݨ آلے:</i> $3"
+	"coll-article-attribution": "<b>$1</b> <i>ماخذ:</i> $2 <i>تبدیلیاں کرݨ آلے:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>ماخذ:</i> $2 <i>لائسنس:</i> $3 <i>حصہ پاوݨ آلے:</i> $4 <i>اصل آرٹسٹ:</i> $5"
 }

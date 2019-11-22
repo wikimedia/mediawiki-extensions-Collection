@@ -11,7 +11,8 @@
 			"MGA73",
 			"Ribewiki",
 			"Macofe",
-			"Saederup92"
+			"Saederup92",
+			"Jhertel"
 		]
 	},
 	"coll-desc": "[[Special:Book|Skab bøger]]",
@@ -146,8 +147,8 @@
 	"coll-remove_linked_article": "Fjern den linkede wikiside fra din bog",
 	"coll-add_category": "Tilføj denne kategori til din bog",
 	"coll-add_category_tooltip": "Tilføj alle wikisider i kategorien til din bog",
-	"coll-add_this_page": "Tilføj denne side til din bog",
-	"coll-add_page_tooltip": "Tilføj den nuværende wikiside til din bog",
+	"coll-add_this_page": "Føj denne side til din bog",
+	"coll-add_page_tooltip": "Føj den nuværende wikiside til din bog",
 	"coll-bookscategory": "Bøger",
 	"coll-clear_collection": "Tøm bogen",
 	"coll-clear_collection_confirm": "Vil du virkelig tømme din bog helt?",
@@ -171,7 +172,7 @@
 	"coll-setting-toc-yes": "Ja",
 	"coll-setting-toc-no": "Nej",
 	"coll-setting-columns": "Kolonner:",
-	"coll-attribution-anons": "Anonym:$1",
+	"coll-attribution-anons": "Anonyme: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Kilde:</i> $2 <i>Bidragydere:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Kilde:</i> $2 <i>Licens:</i> $3 <i>Bidragydere:</i> $4 <i>Original kunstner:</i> $5",
 	"coll-warning-learn-more": "Lær mere",
