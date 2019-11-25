@@ -62,7 +62,7 @@
 			"scripts": "ext.collection/collection.js",
 			"dependencies": [
 				"ext.collection.bookcreator",
-				"jquery.ui.sortable",
+				"jquery.ui",
 				"mediawiki.language"
 			]
 		},
