@@ -10,7 +10,8 @@
 			"Woraponboonkerd",
 			"Macofe",
 			"Pon44695",
-			"Aefgh39622"
+			"Aefgh39622",
+			"Geonuch"
 		]
 	},
 	"coll-desc": "[[Special:Book|สร้างหนังสือ]]",
@@ -130,6 +131,7 @@
 	"coll-suggest_undo_tooltip": "เลิกทำการกระทำนี้",
 	"coll-suggest_undo": "เลิกทำ",
 	"coll-load_local_book": "คลิกตกลงเพื่อดำเนินการต่อกับหนังสือ $1 ของคุณซึ่งประกอบด้วยหน้าวิกิ $2 หน้า คลิกยกเลิกเพื่อลบออกและเริ่มต้นใหม่ด้วยหนังสือว่าง",
+	"coll-format-epub": "อีบุ๊ก (EPUB)",
 	"right-collectionsaveasuserpage": "บันทึกหนังสือในหน้าผู้ใช้",
 	"right-collectionsaveascommunitypage": "บันทึกหนังสือเป็นหนังสือส่วนรวม",
 	"coll-print_export": "พิมพ์/ส่งออก",
