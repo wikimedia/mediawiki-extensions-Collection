@@ -7,6 +7,7 @@
 	},
 	"coll-download_title": "Æрбавгæн",
 	"coll-download": "Æрбавгæн",
+	"coll-remove": "Сыхал",
 	"coll-show": "Равдис",
 	"coll-title": "Сæргонд:",
 	"coll-yes": "О",
@@ -15,5 +16,6 @@
 	"coll-create_a_book": "Чиныг скæнын",
 	"coll-download_as": "Æрбавгæн куыд $1",
 	"coll-help": "Æххуыс",
+	"coll-show_collection": "Чиныджы равдис",
 	"coll-suggest_empty": "афтид"
 }
