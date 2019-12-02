@@ -14,9 +14,11 @@
 	"coll-print_export": "တၢ်စဲကျံး/တၢ်ဆှၢဟးထီၣ်",
 	"coll-create_a_book": "တ့ထီၣ်လံာ်",
 	"coll-download_as": "ဒီလိး $1",
+	"coll-disable": "တြီဃာ်",
 	"coll-help": "မၤစၢၤ",
 	"coll-helppage": "Help:လံာ်",
 	"coll-show_collection": "နဲၣ်ဖျါလံာ်",
 	"coll-make_suggestions": "ဒုးနဲၣကဘျံးပၤ",
+	"coll-make_suggestions_tooltip": "Show suggestions based on the pages in your book",
 	"coll-image-attribution": "<b>$1</b> <i>Source:</i> $2 <i>License:</i> $3 <i>Contributors:</i> $4 <i>Original artist:</i> $5"
 }
