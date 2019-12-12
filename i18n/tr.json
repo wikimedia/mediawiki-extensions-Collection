@@ -19,7 +19,8 @@
 			"Rapsar",
 			"By erdo can",
 			"TmY e12",
-			"ToprakM"
+			"ToprakM",
+			"BaRaN6161 TURK"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kitap oluştur]]",
@@ -97,6 +98,8 @@
 	"coll-rendering_finished_title": "Oluşturma tamamlandı",
 	"coll-rendering_finished_text": "<strong>Belge oluşturuldu.</strong>\nDosyayı bilgisayarınıza <strong>[$1 indirin]</strong>.",
 	"coll-rendering_finished_notes_heading": "Notlar:",
+	"coll-rendering_finished_note_not_satisfied": "Çıkıştan memnun değil misiniz? İyileştirme olanakları için [[{{MediaWiki:Coll-helppage}}|kitaplar hakkındaki yardım sayfası]] bölümüne bakın.",
+	"coll-rendering_finished_note_article_rdf2latex": "Şu anda bazı belgeler tablo içermiyor. Alternatif olarak, $1 kullanmak, tarayıcı menüsünde \"Yazdır\"'ı seçmek ve \"PDF Olarak Kaydet\" seçeneğini kullanmak olabilir.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/İşleyici sayfası bilgi metni",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/İşleyici koleksiyonu bilgi metni",
 	"coll-rendering_failed_title": "Oluşturma başarısız oldu",
@@ -146,7 +149,9 @@
 	"coll-format-okawix_zeno": "Okawix",
 	"coll-format-rdf2latex": "e-kitap (PDF, and West Interactive lateks oluşturucu)",
 	"coll-format-rdf2text": "Kelime işlemci (düz metin)",
+	"action-collectionsaveasuserpage": "kitapları kullanıcı sayfası olarak kaydet",
 	"right-collectionsaveasuserpage": "Kitapları kullanıcı sayfası olarak kaydet",
+	"action-collectionsaveascommunitypage": "kitapları topluluk sayfası olarak kaydet",
 	"right-collectionsaveascommunitypage": "Kitapları topluluk sayfası olarak kaydet",
 	"coll-print_export": "Yazdır/dışa aktar",
 	"coll-create_a_book": "Bir kitap oluştur",
@@ -198,9 +203,17 @@
 	"coll-warning-learn-more": "Daha fazla bilgi",
 	"coll-notice-download-pdf-title": "Basit sayfaları indir",
 	"coll-notice-download-pdf-text": "Kitap Oluşturucu PDF oluşturma işlemi değiştirilirken, tek tek makaleler için kenar çubuğu araçlarından PDF olarak indir'i deneyebilirsiniz.",
+	"coll-toc-title": "İçindekiler",
 	"coll-contributors-title": "Katkıda bulunanlar",
 	"coll-images-title": "Resimler",
 	"coll-images-source": "Kaynak",
 	"coll-images-license": "Lisans",
-	"coll-license-title": "İçerik Lisansı"
+	"coll-images-original-artist": "Orijinal sanatçı",
+	"coll-license-title": "İçerik Lisansı",
+	"coll-rendererror-title": "Kitap oluşturulamadı",
+	"coll-rendererror-no-session": "Kitap tanımı, oturumda bulunamadı. Hareketsizlik nedeniyle atılmış olabilir.",
+	"coll-rendererror-pdf": "PDF oluşturma başarısız oldu: $1",
+	"coll-rendererror-fetch": "$1 getirilemedi: $2",
+	"coll-rendererror-fetch-wrapper": "Sayfa içeriğini almaya çalışırken hatalar oluştu:\n$1",
+	"coll-rendererror-no-cache": "Kitap verileri önbellekte bulunamadı. Bu büyük olasılıkla yazılımdaki bir hatadır."
 }
