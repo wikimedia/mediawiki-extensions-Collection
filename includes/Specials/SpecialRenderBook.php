@@ -55,12 +55,12 @@ class SpecialRenderBook extends SpecialPage {
 
 		switch ( $subPage ) {
 			case 'clear':
-				$services->getMainWANObjectCache()->delete( $key );
+				$services->getMainWANObjectCache()->delete( (string)$key );
 				$this->getOutput()->redirect( $this->getPageTitle( 'test' )->getFullURL() );
 				return;
 			case 'raw':
 			case 'skinned':
-				$book = $mediator->getBookByCacheKey( $key );
+				$book = $mediator->getBookByCacheKey( (string)$key );
 				if ( !$book ) {
 					throw new ErrorPageError( 'coll-rendererror-title', 'coll-rendererror-no-cache' );
 				}

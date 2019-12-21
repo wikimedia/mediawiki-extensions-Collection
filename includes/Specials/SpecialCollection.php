@@ -213,7 +213,7 @@ class SpecialCollection extends SpecialPage {
 					|| $request->getVal( 'overwrite' )
 					|| $request->getVal( 'append' )
 				) {
-					$collection = $this->loadCollection( $title, $request->getVal( 'append' ) );
+					$collection = $this->loadCollection( $title, $request->getBool( 'append' ) );
 					if ( $collection ) {
 						CollectionSession::startSession();
 						CollectionSession::setCollection( $collection );
@@ -367,7 +367,7 @@ class SpecialCollection extends SpecialPage {
 			}
 			$title = Title::newFromText( $prefixes['community-prefix'] . $collname );
 		}
-		if ( !$title ) {
+		if ( !$title || !$colltype ) {
 			return;
 		}
 
@@ -700,7 +700,7 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param string $namespace
+	 * @param int $namespace
 	 * @param string $name
 	 * @param int $oldid
 	 * @return bool
@@ -878,6 +878,7 @@ class SpecialCollection extends SpecialPage {
 			!$append &&
 			preg_match( '/^\s*\|\s*setting-([a-zA-Z0-9_-]+)\s*=\s*([^|]*)\s*$/', $line, $match )
 		) {
+			// @phan-suppress-next-line PhanTypePossiblyInvalidDimOffset
 			$collection['settings'][$match[ 1 ]] = $match[ 2 ];
 		} elseif ( substr( $line, 0, 1 ) == ';' ) { // chapter
 			return [
@@ -904,7 +905,7 @@ class SpecialCollection extends SpecialPage {
 				} else {
 					$displayTitle = null;
 				}
-				$oldid = $match[2];
+				$oldid = (int)$match[2];
 				$currentVersion = 0;
 			} else {
 				return null;

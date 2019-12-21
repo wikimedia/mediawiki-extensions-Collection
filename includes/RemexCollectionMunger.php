@@ -228,7 +228,7 @@ class RemexCollectionMunger implements TreeHandler {
 		// "concatenate" document index and position within document.
 		// this leaves ~100MB index space for each document which is plenty, and still fits
 		// comfortably into an int even on 32-bit builds.
-		return $this->documentIndex * 1e8 + $originalSourceStart;
+		return (int)( $this->documentIndex * 1e8 + $originalSourceStart );
 	}
 
 	/**
@@ -311,7 +311,7 @@ class RemexCollectionMunger implements TreeHandler {
 			$element->htmlName === 'a' && isset( $attrs['href'] )
 			&& $this->startsWith( $attrs['href'], $this->selfLink . '#' )
 		) {
-			$id = substr( $attrs['href'], strlen( $this->selfLink ) + 1 );
+			$id = (int)substr( $attrs['href'], strlen( $this->selfLink ) + 1 );
 			$id = $this->getUnreservedId( $id );
 			$attrs['href'] = '#' . $id;
 		}
@@ -328,10 +328,10 @@ class RemexCollectionMunger implements TreeHandler {
 		if ( !isset( $this->idMap[$id] ) ) {
 			// No conflict. Mark this id as being in use.
 			$this->idMap[$id] = true;
-			return $id;
+			return (string)$id;
 		} elseif ( $this->idMap[$id] === true ) {
 			// This id has been used in the same source document. That's fine, nothing to do.
-			return $id;
+			return (string)$id;
 		} elseif ( $this->idMap[$id] === false ) {
 			// This id has been used in a different source document, must remap.
 			$n = 2;
