@@ -35,7 +35,7 @@
 	"coll-download_as_text": "మీ పుస్తకాన్ని $1 ఫార్మాట్లో దించుకోవడానికి ఈ బొత్తాన్ని నొక్కండి.",
 	"coll-download": "దిగుమతి",
 	"coll-format_label": "ఫార్మాటు:",
-	"coll-remove": "తొలగించు",
+	"coll-remove": "తీసివెయ్యి",
 	"coll-show": "చూపించు",
 	"coll-move_to_top": "అన్నిటికన్నా పైన పెట్టు",
 	"coll-move_up": "పైకి కదుపు",
@@ -167,5 +167,5 @@
 	"coll-setting-columns": "నిలువువరుసలు:",
 	"coll-attribution-anons": "అజ్ఞాతం: $1",
 	"coll-article-attribution": "<b>$1</b> <i>లంకె:</i> $2 <i>తోడ్పడినవారు:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>మూలం:</i> $2 <i>లైసెన్స్:</i> $3 <i>తోడ్పాటుదారులు:</i> $4 <i>కళాకారుడు:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>మూలం:</i> $2 <i>లైసెన్స్:</i> $3 <i>తోడ్పాటుదారులు:</i> $4 <i>ఒరిజినల్ కళాకారుడు:</i> $5"
 }
