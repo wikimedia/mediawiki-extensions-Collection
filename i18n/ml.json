@@ -185,5 +185,8 @@
 	"coll-images-title": "ചിത്രങ്ങൾ",
 	"coll-images-source": "സ്രോതസ്സ്",
 	"coll-images-license": "ഉപയോഗാനുമതി",
-	"coll-license-title": "ഉള്ളടക്കത്തിന്റെ അനുമതി"
+	"coll-images-original-artist": "യഥാർത്ഥ കലാകാരൻ/കലാകാരി",
+	"coll-license-title": "ഉള്ളടക്കത്തിന്റെ അനുമതി",
+	"coll-rendererror-pdf": "പി.ഡി.എഫ്. നിർമ്മിതി പരാജയപ്പെട്ടു: $1",
+	"coll-rendererror-fetch": "$1 എടുക്കൽ പരാജയപ്പെട്ടു: $2"
 }
