@@ -29,7 +29,7 @@ class MWServeRenderingAPI extends CollectionRenderingAPI {
 		if ( !$serveURL ) {
 			wfDebugLog( 'collection', 'The mwlib/OCG render server URL isn\'t configured.' );
 
-			return new CollectionAPIResult( false );
+			return new CollectionAPIResult( null );
 		}
 
 		$response = Http::post(

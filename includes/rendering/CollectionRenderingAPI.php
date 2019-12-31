@@ -65,7 +65,7 @@ abstract class CollectionRenderingAPI {
 	/**
 	 * Requests a queued collection to be immediately rendered
 	 *
-	 * @param int $collectionId
+	 * @param string $collectionId
 	 * @return CollectionAPIResult
 	 */
 	public function forceRender( $collectionId ) {
@@ -107,7 +107,7 @@ abstract class CollectionRenderingAPI {
 	/**
 	 * Returns information about a collection's rendering status
 	 *
-	 * @param int $collectionId
+	 * @param string $collectionId
 	 * @return CollectionAPIResult
 	 */
 	public function getRenderStatus( $collectionId ) {
@@ -122,7 +122,7 @@ abstract class CollectionRenderingAPI {
 	/**
 	 * Requests a download of rendered collection
 	 *
-	 * @param int $collectionId
+	 * @param string $collectionId
 	 * @return CollectionAPIResult
 	 */
 	public function download( $collectionId ) {
