@@ -352,7 +352,7 @@ class SpecialCollection extends SpecialPage {
 		}
 
 		$colltype = $request->getVal( 'colltype' );
-		$prefixes = self::getBookPagePrefixes();
+		$prefixes = $this->getBookPagePrefixes();
 		$title = null;
 		if ( $colltype == 'personal' ) {
 			$collname = $request->getVal( 'pcollname' );
@@ -492,25 +492,25 @@ class SpecialCollection extends SpecialPage {
 	/**
 	 * @return array
 	 */
-	private static function getBookPagePrefixes() {
-		global $wgUser, $wgCommunityCollectionNamespace;
-
+	private function getBookPagePrefixes() {
 		$result = [];
+		$user = $this->getUser();
+		$communityCollectionNamespace = $this->getConfig()->get( 'CommunityCollectionNamespace' );
 
-		$t = wfMessage( 'coll-user_book_prefix', $wgUser->getName() )->inContentLanguage();
+		$t = $this->msg( 'coll-user_book_prefix', $user->getName() )->inContentLanguage();
 		if ( $t->isDisabled() ) {
-			$userPageTitle = $wgUser->getUserPage()->getPrefixedText();
+			$userPageTitle = $user->getUserPage()->getPrefixedText();
 			$result['user-prefix'] = $userPageTitle . '/'
-				. wfMessage( 'coll-collections' )->inContentLanguage()->text() . '/';
+				. $this->msg( 'coll-collections' )->inContentLanguage()->text() . '/';
 		} else {
 			$result['user-prefix'] = $t->text();
 		}
 
-		$comBookPrefix = wfMessage( 'coll-community_book_prefix' )->inContentLanguage();
+		$comBookPrefix = $this->msg( 'coll-community_book_prefix' )->inContentLanguage();
 		if ( $comBookPrefix->isDisabled() ) {
 			$title = Title::makeTitle(
-				$wgCommunityCollectionNamespace,
-				wfMessage( 'coll-collections' )->inContentLanguage()->text()
+				$communityCollectionNamespace,
+				$this->msg( 'coll-collections' )->inContentLanguage()->text()
 			);
 			$result['community-prefix'] = $title->getPrefixedText() . '/';
 		} else {
@@ -545,7 +545,7 @@ class SpecialCollection extends SpecialPage {
 		$template->set( 'podpartners', $this->mPODPartners );
 		$template->set( 'settings', $wgCollectionRendererSettings );
 		$template->set( 'formats', $wgCollectionFormats );
-		$prefixes = self::getBookPagePrefixes();
+		$prefixes = $this->getBookPagePrefixes();
 		$template->set( 'user-book-prefix', $prefixes['user-prefix'] );
 		$template->set( 'community-book-prefix', $prefixes['community-prefix'] );
 		$out->addTemplate( $template );
