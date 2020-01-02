@@ -268,6 +268,10 @@
 		"CollectionDisableDownloadSection": {
 			"description": "Disable the download section see https://phabricator.wikimedia.org/T175996",
 			"value": true
+		},
+		"CollectionDisableSidebarLink": {
+			"description": "Disable the link to the book creator in the sidebar",
+			"value": false
 		}
 	},
 	"load_composer_autoloader": true,

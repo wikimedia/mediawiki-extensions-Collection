@@ -118,13 +118,15 @@ class CollectionHooks {
 
 		$booktitle = SpecialPage::getTitleFor( 'Book' );
 		if ( !CollectionSession::isEnabled() ) {
-			$out[] = [
-				'text' => $sk->msg( 'coll-create_a_book' )->escaped(),
-				'id' => 'coll-create_a_book',
-				'href' => $booktitle->getLocalURL(
-					[ 'bookcmd' => 'book_creator', 'referer' => $title->getPrefixedText() ]
-				),
-			];
+			if ( !$sk->getConfig()->get( 'CollectionDisableSidebarLink' ) ) {
+				$out[] = [
+					'text' => $sk->msg( 'coll-create_a_book' )->escaped(),
+					'id' => 'coll-create_a_book',
+					'href' => $booktitle->getLocalURL(
+						[ 'bookcmd' => 'book_creator', 'referer' => $title->getPrefixedText() ]
+						),
+				];
+			}
 		} else {
 			$out[] = [
 				'text' => $sk->msg( 'coll-book_creator_disable' )->escaped(),
