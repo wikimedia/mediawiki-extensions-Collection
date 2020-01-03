@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Anass Sedrati",
-			"SADIQUI"
+			"SADIQUI",
+			"Reda Benkhadra"
 		]
 	},
 	"coll-remove": "حيًد",
 	"coll-show": "وري",
-	"coll-move_up": "طلع للفوق",
-	"coll-move_down": "نزل للتحت",
+	"coll-move_up": "طلع لفوق",
+	"coll-move_down": "نزل لتحت",
 	"coll-print_export": "طباعة/تصدير",
 	"coll-create_a_book": "صاوب كتاب",
 	"coll-book_creator": "منشئ الكتب",
