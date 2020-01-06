@@ -23,6 +23,7 @@
 	"coll-remove_this_page": "حيد هاد الصفحة من الكتاب ديالك",
 	"coll-show_collection": "شوف الكتاب",
 	"coll-make_suggestions": "قتارح شي صفحات",
+	"coll-suggest_empty": "خاوي",
 	"coll-attribution-anons": "مجهولين: $1",
 	"coll-article-attribution": "<b>$1</b> <i>المصدر:</i> $2 <i>المساهمين:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>المصدر:</i> $2 <i>الترخيص:</i> $3 <i>المساهمين:</i> $4 <i>الفنان الأصلي:</i> $5"
