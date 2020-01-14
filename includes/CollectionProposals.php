@@ -127,7 +127,9 @@ class CollectionProposals {
 		$this->deleteUnusedArticles();
 	}
 
-	// Check if all articles form the book are in $mLinkList
+	/**
+	 * Check if all articles form the book are in $mLinkList
+	 */
 	private function addCollectionArticles() {
 		global $wgCollectionSuggestThreshhold;
 
@@ -145,7 +147,7 @@ class CollectionProposals {
 				$title = Title::makeTitleSafe( NS_MAIN, $articleName );
 				$article = new Article( $title, $item['revision'] );
 
-				if ( is_null( $article ) ) {
+				if ( $article === null ) {
 					continue;
 				}
 
@@ -160,7 +162,9 @@ class CollectionProposals {
 		}
 	}
 
-	// Delete items from $mLinkList that are not in the collection any more
+	/**
+	 * Delete items from $mLinkList that are not in the collection any more
+	 */
 	private function deleteUnusedArticles() {
 		$newList = [];
 		foreach ( $this->mLinkList as $item ) {
@@ -219,7 +223,7 @@ class CollectionProposals {
 
 			// check & normalize title
 			$title = Title::makeTitleSafe( NS_MAIN, $link );
-			if ( is_null( $title ) || !$title->exists() ) {
+			if ( $title === null || !$title->exists() ) {
 				continue;
 			}
 			$resolved = $this->resolveRedirects( $title );

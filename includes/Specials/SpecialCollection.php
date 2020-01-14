@@ -83,7 +83,7 @@ class SpecialCollection extends SpecialPage {
 
 			case 'start_book_creator':
 				$title = Title::newFromText( $request->getVal( 'referer', '' ) );
-				if ( is_null( $title ) ) {
+				if ( $title === null ) {
 					$title = Title::newMainPage();
 				}
 				if ( $request->getVal( 'confirm' ) ) {
@@ -94,7 +94,7 @@ class SpecialCollection extends SpecialPage {
 
 			case 'stop_book_creator':
 				$title = Title::newFromText( $request->getVal( 'referer', '' ) );
-				if ( is_null( $title ) || $title->equals( $this->getPageTitle( $par ) ) ) {
+				if ( $title === null || $title->equals( $this->getPageTitle( $par ) ) ) {
 					$title = Title::newMainPage();
 				}
 				if ( $request->getVal( 'confirm' ) ) {
@@ -325,7 +325,7 @@ class SpecialCollection extends SpecialPage {
 			CollectionSuggest::run( 'remove', $remove );
 		} elseif ( isset( $addselected ) ) {
 			$articleList = $request->getArray( 'articleList' );
-			if ( !is_null( $articleList ) ) {
+			if ( $articleList !== null ) {
 				CollectionSuggest::run( 'addAll', $articleList );
 			} else {
 				CollectionSuggest::run();
@@ -401,7 +401,7 @@ class SpecialCollection extends SpecialPage {
 		$out->addModules( 'ext.collection.checkLoadFromLocalStorage' );
 
 		$title = Title::newFromText( $referer );
-		if ( is_null( $title ) || $title->equals( $this->getPageTitle( $par ) ) ) {
+		if ( $title === null || $title->equals( $this->getPageTitle( $par ) ) ) {
 			$title = Title::newMainPage();
 		}
 
@@ -437,7 +437,7 @@ class SpecialCollection extends SpecialPage {
 
 		$title_string = $this->msg( 'coll-book_creator_text_article' )->inContentLanguage()->text();
 		$t = Title::newFromText( $title_string );
-		if ( !is_null( $t ) ) {
+		if ( $t !== null ) {
 			$wikiPage = WikiPage::factory( $t );
 			if ( $wikiPage->exists() ) {
 				$out->addWikiTextAsInterface( '{{:' . $title_string . '}}' );
@@ -982,7 +982,7 @@ class SpecialCollection extends SpecialPage {
 
 		foreach ( preg_split( '/[\r\n]+/', $wikiPage->getContent()->getNativeData() ) as $line ) {
 			$item = $this->parseCollectionLine( $collection, $line, $append );
-			if ( !is_null( $item ) ) {
+			if ( $item !== null ) {
 				$items[] = $item;
 			}
 		}
@@ -1044,7 +1044,7 @@ class SpecialCollection extends SpecialPage {
 		$t = $this->msg( 'coll-bookscategory' )->inContentLanguage();
 		if ( !$t->isDisabled() ) {
 			$catTitle = Title::makeTitle( NS_CATEGORY, $t->text() );
-			if ( !is_null( $catTitle ) ) {
+			if ( $catTitle !== null ) {
 				$articleText .= "\n[[" . $catTitle->getPrefixedText() .
 					"|" . wfEscapeWikiText( $title->getSubpageText() ) . "]]\n";
 			}
@@ -1291,7 +1291,7 @@ class SpecialCollection extends SpecialPage {
 	 * @return array|null
 	 */
 	private function makeCollection( $title, $oldid ) {
-		if ( is_null( $title ) ) {
+		if ( $title === null ) {
 			$this->getOutput()->showErrorPage( 'coll-notitle_title', 'coll-notitle_msg' );
 			return null;
 		}
@@ -1330,7 +1330,7 @@ class SpecialCollection extends SpecialPage {
 			if ( !isset( $collections['settings'][$key] ) ) {
 				$collection['settings'][$key] = $desc['default'];
 			}
-			if ( !is_null( $val ) ) {
+			if ( $val !== null ) {
 				foreach ( $desc['options'] as $ignore => $valid ) {
 					if ( $val == $valid ) {
 						$collection['settings'][$key] = $valid;

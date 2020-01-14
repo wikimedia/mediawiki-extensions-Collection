@@ -218,7 +218,7 @@ class BookRenderer {
 	 * @param array[] $sections Section data; each section is a triple
 	 *   [ title => ..., id => ..., level => ... ]. RemexCollectionMunger will update the id/level
 	 *   to keep in sync with document changes.
-	 * @param integer $articleCount number of articles in the book
+	 * @param int $articleCount number of articles in the book
 	 * @return array
 	 */
 	private function getArticleChaptersData(
@@ -252,9 +252,9 @@ class BookRenderer {
 	/**
 	 * Generate template data for any additional chapters in the given article
 	 * @param HeadingCounter $tocHeadingCounter
-	 * @param integer $metadataLevel the table of contents level for a given article
-	 * @param boolean $hasImages whether the book contains images section
-	 * @param boolean $hasLicense whether the book contains a license section
+	 * @param int $metadataLevel the table of contents level for a given article
+	 * @param bool $hasImages whether the book contains images section
+	 * @param bool $hasLicense whether the book contains a license section
 	 * @return array[]
 	 */
 	private function getAdditionalBookChapters(

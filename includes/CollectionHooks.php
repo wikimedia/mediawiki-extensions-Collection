@@ -98,7 +98,7 @@ class CollectionHooks {
 
 		$title = $sk->getTitle();
 
-		if ( is_null( $title ) || !$title->exists() ) {
+		if ( $title === null || !$title->exists() ) {
 			return false;
 		}
 

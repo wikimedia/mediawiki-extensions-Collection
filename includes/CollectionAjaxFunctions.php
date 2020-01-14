@@ -21,7 +21,7 @@ class CollectionAjaxFunctions {
 		$session->persist();
 		$collection = FormatJson::decode( $collection, true );
 		$r = new AjaxResponse();
-		if ( is_null( $collection ) ) {
+		if ( $collection === null ) {
 			wfDebugLog( 'collection', 'Invalid collection received.' );
 			$r->setResponseCode( 400 );
 			$r->setContentType( 'text/plain' );
@@ -76,14 +76,14 @@ class CollectionAjaxFunctions {
 		$oldid = null,
 		$pageName = null
 	) {
-		if ( !is_null( $oldid ) ) {
+		if ( $oldid !== null ) {
 			$oldid = intval( $oldid );
 		}
 		$title = null;
-		if ( !is_null( $pageName ) ) {
+		if ( $pageName !== null ) {
 			$title = Title::newFromText( $pageName );
 		}
-		if ( is_null( $title ) ) {
+		if ( $title === null ) {
 			$title = Title::newMainPage();
 		}
 		$html = CollectionHooks::getBookCreatorBoxContent( $title, $ajaxHint, $oldid );

@@ -197,19 +197,19 @@ abstract class CollectionRenderingAPI {
 			$currentChapter = null;
 			foreach ( $collection['items'] as $item ) {
 				if ( $item['type'] == 'article' ) {
-					if ( is_null( $currentChapter ) ) {
+					if ( $currentChapter === null ) {
 						$items[] = $item;
 					} else {
 						$currentChapter['items'][] = $item;
 					}
 				} elseif ( $item['type'] == 'chapter' ) {
-					if ( !is_null( $currentChapter ) ) {
+					if ( $currentChapter !== null ) {
 						$items[] = $currentChapter;
 					}
 					$currentChapter = $item;
 				}
 			}
-			if ( !is_null( $currentChapter ) ) {
+			if ( $currentChapter !== null ) {
 				$items[] = $currentChapter;
 			}
 		}

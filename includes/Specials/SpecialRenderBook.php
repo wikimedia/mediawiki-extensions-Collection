@@ -8,9 +8,9 @@ use Html;
 use MediaWiki\Extensions\Collection\BookRenderingMediator;
 use MediaWiki\Logger\LoggerFactory;
 use MediaWiki\MediaWikiServices;
-use User;
 use SpecialPage;
 use TemplateParser;
+use User;
 
 /**
  * Special page to display a book as a single HTML page.
