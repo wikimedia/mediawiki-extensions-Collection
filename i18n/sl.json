@@ -6,7 +6,8 @@
 			"Freakolowsky",
 			"Smihael",
 			"Macofe",
-			"Yerpo"
+			"Yerpo",
+			"HairyFotr"
 		]
 	},
 	"coll-desc": "[[Special:Book|Ustvari e-knjige]]",
@@ -183,10 +184,10 @@
 	"coll-article-attribution": "<b>$1</b> <i>Vir:</i> $2 <i>Sodelavci:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Vir:</i> $2 <i>Dovoljenje:</i> $3 <i>Sodelavci:</i> $4 <i>Izvirni umetnik:</i> $5",
 	"coll-warning-disable-pdf-title": "Ustvarjalec knjig je v postopku spreminjanja",
-	"coll-warning-disable-pdf-text": "Zaradi hudih težav z obstoječim sistemom Ustvarjalec knjig kratek čas ne bo podpiral shranjevanja knjig v formatu PDF. Aktivno delamo na prenovi sistema in ponovni vzpostavitvi PDF-ov v Ustvarjalcu knjig.",
+	"coll-warning-disable-pdf-text": "Zaradi hudih težav z obstoječim sistemom, Ustvarjalec knjig ne bo več podpiral shranjevanja knjig v formatu PDF.",
 	"coll-warning-learn-more": "Več o tem",
 	"coll-notice-download-pdf-title": "Prenesi posamezne strani",
-	"coll-notice-download-pdf-text": "Do zamenjave sistema generiranja datotek PDF v Ustvarjalcu knjig lahko preskusite orodje '''''Prenesi kot PDF''''' v menijih za posamezne članke.",
+	"coll-notice-download-pdf-text": "Medtem ko je sistem generiranja datotek PDF v Ustvarjalcu knjig onemogočen, lahko preskusite orodje '''''Prenesi kot PDF''''' v menijih za posamezne članke.",
 	"coll-toc-title": "Kazalo vsebine",
 	"coll-contributors-title": "Avtorji",
 	"coll-images-title": "Slike",
