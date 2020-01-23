@@ -162,8 +162,8 @@
 	"coll-article-attribution": "<b>$1</b> <i>Zdroj:</i> $2 <i>Prispievatelia:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Zdroj:</i> $2 <i>Licencia:</i> $3 <i>Prispievatelia:</i> $4 <i>Pôvodný autor:</i> $5",
 	"coll-warning-disable-pdf-title": "Funkcia tvorby knihy prechádza zmenami",
-	"coll-warning-disable-pdf-text": "Kvôli závážným problémom s naším existujúcim systémom nebude funkcia tvorby knihy nakrátko podporovať uloženie knihy ako PDF. Usilovne pracujeme na nahradení nášho systému a opätovnom povolení PDF súborov vo funckii tvorby knihy.",
+	"coll-warning-disable-pdf-text": "Kvôli závážným problémom s naším existujúcim systémom nebude viac funkcia tvorby knihy podporovať uloženie knihy ako PDF.",
 	"coll-warning-learn-more": "Viac informácií",
 	"coll-notice-download-pdf-title": "Stiahnuť samostatné stránky",
-	"coll-notice-download-pdf-text": "Pokým nahrádzame vytváranie PDF súborov vo funkcii tvorby knihy, môžete skúsiť '''''Stiahnuť ako PDF''''' v ľavom paneli pre samostatné články."
+	"coll-notice-download-pdf-text": "Pokým je vytváranie PDF súborov vo funkcii tvorby knihy vypnuté, môžete skúsiť '''''Stiahnuť ako PDF''''' v ľavom paneli pre samostatné články."
 }
