@@ -207,7 +207,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>Fuente:</i> $2 <i>Colaboradores:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Fuente:</i> $2 <i>Licencia:</i> $3 <i>Colaboradores:</i> $4 <i>Artista original:</i> $5",
 	"coll-warning-disable-pdf-title": "El Creador de libros está recibiendo modificaciones",
-	"coll-warning-disable-pdf-text": "A causa de problemas graves en nuestro sistema existente, el Creador de libros no admitirá la generación de libros en PDF por un período breve. Estamos trabajando intensamente para sustituir este sistema y volver a ofrecer la función de PDF en el Creador de libros.",
+	"coll-warning-disable-pdf-text": "A causa de problemas graves en nuestro sistema existente, el creador de libros no admitirá la generación de libros en PDF.",
 	"coll-warning-learn-more": "Más información",
 	"coll-notice-download-pdf-title": "Descargar páginas individuales",
 	"coll-notice-download-pdf-text": "Estamos en proceso de sustituir el procesador de PDF del Creador de libros. En el ínterin, puedes probar la opción «'''Descargar como PDF'''» en la barra lateral para artículos individuales.",
