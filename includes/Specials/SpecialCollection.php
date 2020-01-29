@@ -878,7 +878,6 @@ class SpecialCollection extends SpecialPage {
 			!$append &&
 			preg_match( '/^\s*\|\s*setting-([a-zA-Z0-9_-]+)\s*=\s*([^|]*)\s*$/', $line, $match )
 		) {
-			// @phan-suppress-next-line PhanTypePossiblyInvalidDimOffset
 			$collection['settings'][$match[ 1 ]] = $match[ 2 ];
 		} elseif ( substr( $line, 0, 1 ) == ';' ) { // chapter
 			return [

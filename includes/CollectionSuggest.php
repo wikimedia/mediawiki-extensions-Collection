@@ -97,6 +97,9 @@ class CollectionSuggest {
 		case 'remove':
 			$template = self::getCollectionSuggestTemplate( 'add', $article );
 			break;
+		default:
+			// FIXME: Is this even possible? Shouldn't this fail with an exception?
+			return [];
 		}
 		return [
 			'suggestions_html' => $template->getProposalList(),
