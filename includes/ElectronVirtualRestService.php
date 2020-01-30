@@ -32,13 +32,18 @@ class ElectronVirtualRestService extends VirtualRESTService {
 			'timeout' => null,
 			'HTTPProxy' => null,
 		], $params );
-		$mparams['options'] = array_merge( [
-			'accessKey' => 'secret',
-		], $mparams['options'] );
+
+		$mparams['options'] = array_merge(
+			[ 'accessKey' => 'secret' ],
+			(array)$mparams['options']
+		);
+
+		$mparams['url'] = (string)$mparams['url'];
 		// Ensure that the url parameter has a trailing slash.
 		if ( substr( $mparams['url'], -1 ) !== '/' ) {
 			$mparams['url'] .= '/';
 		}
+
 		parent::__construct( $mparams );
 	}
 
