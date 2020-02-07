@@ -3,7 +3,8 @@
 		"authors": [
 			"Esbardu",
 			"Xuacu",
-			"Macofe"
+			"Macofe",
+			"1233qwer1234qwer4"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crear llibros]]",
@@ -196,7 +197,7 @@
 	"coll-rendererror-title": "Nun pudo xenerase'l llibru",
 	"coll-rendererror-no-session": "La definición del llibru nun s'alcontró na sesión. Podría tar descartada por inactividá.",
 	"coll-rendererror-pdf": "Falló la xeneración de PDFː $1",
-	"coll-rendererror-fetch": "Falló la recuperación de $1ː $2",
+	"coll-rendererror-fetch": "Falló la recuperación de $1: $2",
 	"coll-rendererror-fetch-wrapper": "Hebo errores al tentar llograr el conteníu de la páxina:\n$1",
 	"coll-rendererror-no-cache": "Los datos del llibru nun s'alcontraron na caché. Probablemente ye un error del software."
 }
