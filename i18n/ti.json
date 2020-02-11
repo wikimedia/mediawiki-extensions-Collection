@@ -5,10 +5,13 @@
 		]
 	},
 	"coll-download_title": "አውርድ",
+	"coll-remove": "ኣልግስ",
 	"coll-show": "ኣርእይ",
 	"coll-rename": "ደጊምኸ ስም ሃብ",
 	"coll-suggest_show": "ኣርእይ",
 	"coll-print_export": "ሕተም/ስደድ",
+	"coll-create_a_book": "መጽሓፍ ፈጠረ",
+	"coll-download_as": "ኣውርድ ከም $1",
 	"coll-help": "ሓገዝ",
 	"coll-helppage": "Help:መጽሓፍቲ"
 }

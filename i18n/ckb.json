@@ -6,7 +6,8 @@
 			"Asoxor",
 			"Sarchia",
 			"Lost Whispers",
-			"Épine"
+			"Épine",
+			"ئارام بکر"
 		]
 	},
 	"coll-manage_your_book": "کتێبەکەت بەڕێوەبەرە",
@@ -59,7 +60,7 @@
 	"coll-print_export": "چاپ/ھەناردن",
 	"coll-create_a_book": "دروستکردنی کتێبێک",
 	"coll-book_creator": "کتێب ساز",
-	"coll-download_as": "داگرتن وەک $1",
+	"coll-download_as": "داگرتن بە $1",
 	"coll-disable": "لەکارخستن",
 	"coll-book_creator_disable": "کتێبساز لە کار بخە",
 	"coll-book_creator_disable_tooltip": "بەکارھێنانی دروستکەری کتێب بوەستێنە",
