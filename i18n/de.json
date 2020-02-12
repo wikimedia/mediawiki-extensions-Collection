@@ -196,7 +196,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>Quelle:</i> $2 <i>Autoren:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Quelle:</i> $2 <i>Lizenz:</i> $3 <i>Autoren:</i> $4 <i>Ursprünglicher Schöpfer:</i> $5",
 	"coll-warning-disable-pdf-title": "Der Buchgenerator wird Änderungen unterzogen",
-	"coll-warning-disable-pdf-text": "Aufgrund mehrerer Probleme mit unserem vorhandenen System unterstützt der Buchgenerator für kurze Zeit kein Speichern von Büchern als PDF-Datei mehr.",
+	"coll-warning-disable-pdf-text": "Aufgrund mehrerer Probleme mit unserem vorhandenen System unterstützt der Buchgenerator das Speichern von Büchern als PDF-Datei nicht mehr.",
 	"coll-warning-learn-more": "Mehr erfahren",
 	"coll-notice-download-pdf-title": "Einzelne Seiten herunterladen",
 	"coll-notice-download-pdf-text": "Da das Buchgenerator-PDF-Rendering abgeschaltet wurde, kannst du für einzelne Artikel '''''Als PDF herunterladen''''' von den Seitenleistenwerkzeugen versuchen.",
