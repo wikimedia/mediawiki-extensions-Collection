@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"JinJian",
-			"Macofe"
+			"Macofe",
+			"Harvzsf"
 		]
 	},
 	"coll-desc": "[[Special:Book|Paghimo hin mga libro]]",
@@ -45,7 +46,8 @@
 	"coll-new_chapter": "Ngarana para hin bag-o nga kapitulo",
 	"coll-rename_chapter": "Pagbutang hin bag-o nga ngaran para han kapitulo",
 	"coll-no_such_category": "Waray sugad nga kaarangay",
-	"coll-notitle_title": "Diri masasabatan an titulo han pakli.",
+	"coll-notitle_title": "Waray makuha an titulo han pakli.",
+	"coll-notitle_msg": "Waray masabta an titulo han pakli.",
 	"coll-error_reponse": "May sayop sumala han serbidor",
 	"coll-empty_collection": "Waray sulod nga libro",
 	"coll-revision": "Rebisyon: $1",
@@ -112,13 +114,17 @@
 	"coll-suggest_undo_tooltip": "Igpawara ini nga binuhat",
 	"coll-suggest_undo": "Igpawara an binuhat",
 	"coll-load_local_book": "Igpidlit an OK para makapadayon han imo libro nga $1 nga naglalakip hin $2 nga mga wiki nga pakli.  Igpidlit an Cancel para igpara ini ngan magtikang hin uska waray sulod nga libro.",
-	"coll-format-rl": "e-libro (PDF)",
+	"coll-format-rl": "e-libro (PDF, mwlib nga renderer)",
 	"coll-format-epub": "e-libro (EPUB)",
-	"coll-format-odf": "word processor (OpenDocument)",
+	"coll-format-odf": "Word processor (OpenDocument)",
 	"coll-format-zim": "Kiwix (OpenZIM)",
 	"coll-format-docbook": "DocBook",
 	"coll-format-okawix_zeno": "Okawix",
+	"coll-format-rdf2latex": "e-libro (PDF, ocg latex nga renderer)",
+	"coll-format-rdf2text": "Word processor (plain nga text)",
+	"action-collectionsaveasuserpage": "Igtipig an mga libro komo pakli hin gumaramit",
 	"right-collectionsaveasuserpage": "Igtipig an mga libro komo pakli hin gumaramit",
+	"action-collectionsaveascommunitypage": "Igtipig an libro komo pakli han katiringban",
 	"right-collectionsaveascommunitypage": "Igtipig an libro komo pakli han katiringban",
 	"coll-print_export": "Pagpatika/pag-ambit",
 	"coll-create_a_book": "Paghimo hin libro",
@@ -158,5 +164,11 @@
 	"coll-setting-toc-no": "Diri",
 	"coll-attribution-anons": "Waray nagpakilala: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Tinikangan:</i> $2 <i>Mga mag-aamot:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Ginkuhaan:</i> $2 <i>Lisensya:</i> $3 <i>Mga kontributor:</i> $4 <i>Orihinal nga artist:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Ginkuhaan:</i> $2 <i>Lisensya:</i> $3 <i>Mga kontributor:</i> $4 <i>Orihinal nga artist:</i> $5",
+	"coll-images-title": "Mga hulagway",
+	"coll-images-source": "Ginkuhaan",
+	"coll-images-license": "Lisensya",
+	"coll-images-original-artist": "Orihinal nga artista",
+	"coll-license-title": "Lisensya han sulod",
+	"coll-rendererror-title": "Waray makahimo han barasahon"
 }
