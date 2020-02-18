@@ -212,5 +212,6 @@
 	"coll-license-title": "Inhoudslicentie",
 	"coll-rendererror-title": "Kon het boek niet genereren",
 	"coll-rendererror-pdf": "PDF-rendering mislukt: $1",
+	"coll-rendererror-fetch": "Kon $1 niet ophalen: $2",
 	"coll-rendererror-fetch-wrapper": "Er waren fouten bij raadpleegpoging pagina-inhoud: $1"
 }

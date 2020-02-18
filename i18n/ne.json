@@ -6,7 +6,8 @@
 			"बिप्लब आनन्द",
 			"राम प्रसाद जोशी",
 			"Macofe",
-			"सरोज कुमार ढकाल"
+			"सरोज कुमार ढकाल",
+			"पर्वत सुबेदी"
 		]
 	},
 	"coll-desc": "[[Special:Book|पुस्तक बनाउने]]",
@@ -83,6 +84,7 @@
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/सङ्ग्रह जानकारी पाठ प्रतिपादन हुँदै छ",
 	"coll-rendering_finished_title": "प्रतिपादन समाप्त",
 	"coll-rendering_finished_text": "<strong>फाइल जनरेट भइसकेको छ।</strong>\nआफ्नो कम्प्युटरमा <strong>[$1 फाइल डाउनलोड गर्नुहोस]</strong>।",
+	"coll-rendering_finished_notes_heading": "टिप्पणी:",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/पृष्ठ जानकारी पाठ प्रतिपादन हुँदै छ",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/सङ्ग्रह जानकारी पाठ प्रतिपादन हुँदै छ",
 	"coll-rendering_failed_title": "प्रतिपादन असफल",
@@ -177,5 +179,9 @@
 	"coll-attribution-anons": "अज्ञात:$1",
 	"coll-attribution-page": "<h1>पाठ र चित्र स्रोतहरू, योगदानकर्ताहरू, र लाइसेन्स</h1>\n<h2>पाठ</h2>\n$1<h2>चित्रहरू</h2>\n$2\n<h2>सामग्री लाइसेन्स</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>स्रोत:</i> $2 <i>योगदानकर्ताहरू:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>स्रोत:</i> $2 <i>लाइसेन्स:</i> $3 <i>योगदानकर्ताहरू:</i> $4 <i>मूल कलाकार:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>स्रोत:</i> $2 <i>लाइसेन्स:</i> $3 <i>योगदानकर्ताहरू:</i> $4 <i>मूल कलाकार:</i> $5",
+	"coll-contributors-title": "योगदानकर्ताहरू",
+	"coll-images-title": "चित्रहरू",
+	"coll-images-source": "स्रोत",
+	"coll-images-license": "अनुमतिपत्र"
 }
