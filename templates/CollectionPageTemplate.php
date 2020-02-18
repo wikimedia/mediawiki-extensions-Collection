@@ -209,9 +209,10 @@ class CollectionPageTemplate extends QuickTemplate {
 				<?php
 			}
 			echo $this->getDownloadForm( $context, $this->data['formats'] );
-			if ( $GLOBALS['wgUser']->isLoggedIn() ) {
-				$canSaveUserPage = $GLOBALS['wgUser']->isAllowed( 'collectionsaveasuserpage' );
-				$canSaveCommunityPage = $GLOBALS['wgUser']->isAllowed( 'collectionsaveascommunitypage' );
+			$user = $context->getUser();
+			if ( $user->isLoggedIn() ) {
+				$canSaveUserPage = $user->isAllowed( 'collectionsaveasuserpage' );
+				$canSaveCommunityPage = $user->isAllowed( 'collectionsaveascommunitypage' );
 			} else {
 				$canSaveUserPage = false;
 				$canSaveCommunityPage = false;
@@ -254,7 +255,7 @@ class CollectionPageTemplate extends QuickTemplate {
 							<tr><td>&#160;</td><td id="collection-save-button">
 									<input id="saveButton" type="submit" value="<?php $this->msg( 'coll-save_collection' ) ?>"<?php if ( count( $collection['items'] ) == 0 ) { ?> disabled="disabled"<?php } ?> />
 							</tr></tbody></table>
-						<input name="token" type="hidden" value="<?php echo htmlspecialchars( $GLOBALS['wgUser']->getEditToken() ) ?>" />
+						<input name="token" type="hidden" value="<?php echo htmlspecialchars( $user->getEditToken() ) ?>" />
 						<input name="bookcmd" type="hidden" value="save_collection" />
 					</form>
 
