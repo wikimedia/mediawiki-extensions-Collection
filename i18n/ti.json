@@ -4,15 +4,21 @@
 			"Joanmp17"
 		]
 	},
+	"coll-collection": "መጽሓፍ",
+	"coll-collections": "መጻሕፍቲ",
 	"coll-download_title": "አውርድ",
+	"coll-download": "አውርድ",
 	"coll-remove": "ኣልግስ",
 	"coll-show": "ኣርእይ",
 	"coll-rename": "ደጊምኸ ስም ሃብ",
+	"coll-yes": "እወ",
+	"coll-no": "ኣይፋል",
+	"coll-cancel": "ኣትርፍ",
 	"coll-update": "ኣሐዲስ",
 	"coll-suggest_show": "ኣርእይ",
 	"coll-print_export": "ሕተም/ስደድ",
 	"coll-create_a_book": "መጽሓፍ ፈጠረ",
-	"coll-download_as": "ኣውርድ ከም $1",
+	"coll-download_as": "ከም $1 ኣውርድ",
 	"coll-help": "ሓገዝ",
 	"coll-helppage": "Help:መጽሓፍቲ"
 }
