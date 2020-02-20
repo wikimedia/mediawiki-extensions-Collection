@@ -893,7 +893,7 @@ class SpecialCollection extends SpecialPage {
 				} else {
 					$displayTitle = null;
 				}
-				$oldid = - 1;
+				$oldid = 0;
 				$currentVersion = 1;
 			} elseif (
 				preg_match( '/^\[\{\{fullurl:(.*?)\|oldid=(.*?)\}\}\s+(.*?)\]$/', $articleTitle, $match )
@@ -914,21 +914,17 @@ class SpecialCollection extends SpecialPage {
 			if ( !$articleTitle ) {
 				return null;
 			}
-			if ( $oldid < 0 ) {
-				$article = new Article( $articleTitle, 0 );
-			} else {
-				$article = new Article( $articleTitle, $oldid );
-			}
-			if ( !$article->exists() ) {
+
+			$wikiPage = WikiPage::factory( $articleTitle );
+			if ( !$wikiPage->exists() ) {
 				return null;
 			}
 
-			$revision = Revision::newFromTitle( $articleTitle, $article->getOldID() );
+			$revision = Revision::newFromTitle( $articleTitle, $oldid );
 			if ( !$revision ) {
 				return null;
 			}
-			$latest = $article->getLatest();
-			$oldid = $article->getOldID();
+			$latest = $wikiPage->getLatest();
 
 			if ( !$oldid ) {
 				$oldid = $latest;
@@ -1300,7 +1296,7 @@ class SpecialCollection extends SpecialPage {
 			'title' => $title->getPrefixedText()
 		];
 		if ( $oldid ) {
-			$article['revision'] = strval( $oldid );
+			$article['revision'] = (string)$oldid;
 		}
 
 		$revision = Revision::newFromTitle( $title, $oldid );
