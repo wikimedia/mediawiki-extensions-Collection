@@ -16,9 +16,14 @@
 	"coll-cancel": "ኣትርፍ",
 	"coll-update": "ኣሐዲስ",
 	"coll-suggest_show": "ኣርእይ",
+	"coll-suggest_undo": "ፈትሐ",
 	"coll-print_export": "ሕተም/ስደድ",
 	"coll-create_a_book": "መጽሓፍ ፈጠረ",
 	"coll-download_as": "ከም $1 ኣውርድ",
+	"coll-bookscategory": "መጻሕፍቲ",
 	"coll-help": "ሓገዝ",
-	"coll-helppage": "Help:መጽሓፍቲ"
+	"coll-helppage": "Help:መጽሓፍቲ",
+	"coll-setting-toc-yes": "እወ",
+	"coll-setting-toc-no": "ኣይፋል",
+	"coll-images-source": "ምንጪ"
 }
