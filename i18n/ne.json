@@ -7,7 +7,8 @@
 			"राम प्रसाद जोशी",
 			"Macofe",
 			"सरोज कुमार ढकाल",
-			"पर्वत सुबेदी"
+			"पर्वत सुबेदी",
+			"हिमाल सुबेदी"
 		]
 	},
 	"coll-desc": "[[Special:Book|पुस्तक बनाउने]]",
@@ -34,7 +35,7 @@
 	"coll-download_as_text": "आफ्नो पुस्तकलाई $1 स्वरूपमा डाउनलोड गर्नका लागि बटनमा क्लिक गर्नुस।",
 	"coll-download": "डाउनलोड",
 	"coll-format_label": "स्वरूप:",
-	"coll-remove": "हटाउने",
+	"coll-remove": "हटाउनुहोस्",
 	"coll-show": "देखाउने",
 	"coll-move_to_top": "सबैभन्दा माथि पठाउने",
 	"coll-move_up": "माथि पठाउने",
@@ -167,7 +168,7 @@
 	"coll-show_collection_tooltip": "पुस्तकलाई सम्पादन/डाउनलोड/आज्ञा दिन क्लिक गर्नुस",
 	"coll-not_addable": "यो पाना जोड्न सकिदैन",
 	"coll-make_suggestions": "पृष्ठ सुझाव",
-	"coll-make_suggestions_tooltip": "तपाईंको पुस्तकको पृष्ठहरू अनुसार सुझाव देखाउने",
+	"coll-make_suggestions_tooltip": "तपाईको पुस्तकको पृष्ठहरू अनुसार सुझाव देखाउने",
 	"coll-suggest_empty": "रित्तो",
 	"coll-setting-papersize": "पाना आकार:",
 	"coll-setting-papersize-letter": "पत्र",
