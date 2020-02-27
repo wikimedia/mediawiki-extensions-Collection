@@ -113,7 +113,7 @@
 	"coll-suggest_article_remove": "An pakli nga <strong>$1</strong> in gintanggal tikang ha imo libro ($2).",
 	"coll-suggest_undo_tooltip": "Igpawara ini nga binuhat",
 	"coll-suggest_undo": "Igpawara an binuhat",
-	"coll-load_local_book": "Igpidlit an OK para makapadayon han imo libro nga $1 nga naglalakip hin $2 nga mga wiki nga pakli.  Igpidlit an Cancel para igpara ini ngan magtikang hin uska waray sulod nga libro.",
+	"coll-load_local_book": "Igpidlit an \"OK\" para makapadayon han imo libro nga $1 nga naglalakip hin $2 nga mga wiki {{PLURAL:$2|nga pakli|nga mga pakli}}.  Igpidlit an \"Cancel\" para igpara ini ngan magtikang hin uska waray sulod nga libro.",
 	"coll-format-rl": "e-libro (PDF, mwlib nga renderer)",
 	"coll-format-epub": "e-libro (EPUB)",
 	"coll-format-odf": "Word processor (OpenDocument)",
