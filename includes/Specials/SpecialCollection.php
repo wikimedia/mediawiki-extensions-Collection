@@ -21,6 +21,7 @@
  */
 
 use MediaWiki\Extensions\Collection\MessageBoxHelper;
+use MediaWiki\MediaWikiServices;
 
 class SpecialCollection extends SpecialPage {
 
@@ -678,7 +679,9 @@ class SpecialCollection extends SpecialPage {
 			CollectionSession::startSession();
 		}
 		$collection = CollectionSession::getCollection();
-		$revision = Revision::newFromTitle( $title, $oldid );
+		$revision = MediaWikiServices::getInstance()
+			->getRevisionLookup()
+			->getRevisionByTitle( $title, $oldid );
 		if ( !$revision ) {
 			return false;
 		}
@@ -920,7 +923,9 @@ class SpecialCollection extends SpecialPage {
 				return null;
 			}
 
-			$revision = Revision::newFromTitle( $articleTitle, $oldid );
+			$revision = MediaWikiServices::getInstance()
+				->getRevisionLookup()
+				->getRevisionByTitle( $articleTitle, $oldid );
 			if ( !$revision ) {
 				return null;
 			}
@@ -1299,7 +1304,9 @@ class SpecialCollection extends SpecialPage {
 			$article['revision'] = (string)$oldid;
 		}
 
-		$revision = Revision::newFromTitle( $title, $oldid );
+		$revision = MediaWikiServices::getInstance()
+			->getRevisionLookup()
+			->getRevisionByTitle( $title, $oldid );
 		if ( $revision ) {
 			$article['timestamp'] = wfTimestamp( TS_UNIX, $revision->getTimestamp() );
 		}
