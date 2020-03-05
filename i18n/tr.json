@@ -121,7 +121,7 @@
 	"coll-order_from_pp": "$1 ile önizle",
 	"coll-about_pp": "$1 hakkında",
 	"coll-invalid_podpartner_title": "Geçersiz POD ortağı",
-	"coll-invalid_podpartner_msg": "Sağlanan POD ortağı geçersiz.\nLütfen MedyaViki yöneticinizle irtibat kurun.",
+	"coll-invalid_podpartner_msg": "Sağlanan POD ortağı geçersiz.\nLütfen MediaWiki yöneticinizle irtibat kurun.",
 	"coll-license": "Lisans",
 	"coll-return_to": "[[:$1]] sayfasına geri dön",
 	"coll-order_info_article": "{{MediaWiki:Coll-helppage}}/PediaPress sipariş bilgisi",
