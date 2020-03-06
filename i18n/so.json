@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Abdullahi"
+		]
+	},
+	"coll-remove": "ka saar",
+	"coll-show": "Muuji",
+	"coll-move_up": "Kor u soco",
+	"coll-move_down": "Hoos u soco",
+	"coll-print_export": "Daabac/dhoofin",
+	"coll-create_a_book": "sameey boog",
+	"coll-download_as": "u soo dejiso sidii",
+	"coll-remove_this_page": "Boggaan ka saar book kaaga"
+}
