@@ -1,5 +1,6 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
 use MediaWiki\Session\SessionManager;
 
 /**
@@ -159,7 +160,7 @@ class CollectionSession {
 		$newitems = [];
 		if ( isset( $coll['items'] ) ) {
 			$batch = new LinkBatch;
-			$lc = LinkCache::singleton();
+			$lc = MediaWikiServices::getInstance()->getLinkCache();
 			foreach ( $coll['items'] as $item ) {
 				if ( $item['type'] == 'article' ) {
 					$t = Title::newFromText( $item['title'] );
