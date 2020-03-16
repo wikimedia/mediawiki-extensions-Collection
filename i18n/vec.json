@@ -4,7 +4,8 @@
 			"Candalua",
 			"GatoSelvadego",
 			"Nick1915",
-			"Macofe"
+			"Macofe",
+			"Fierodelveneto"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crea libri]]",
@@ -34,8 +35,8 @@
 	"coll-remove": "Cava",
 	"coll-show": "Mostra",
 	"coll-move_to_top": "Sposta insima",
-	"coll-move_up": "Sposta piassè in alto",
-	"coll-move_down": "Sposta piassè zo",
+	"coll-move_up": "Sposta piasè pì alto",
+	"coll-move_down": "Sposta piasè in xò",
 	"coll-move_to_bottom": "Sposta in fondo",
 	"coll-title": "Titolo:",
 	"coll-subtitle": "Sototitolo:",
