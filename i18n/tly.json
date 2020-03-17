@@ -3,7 +3,8 @@
 		"authors": [
 			"Erdemaslancan",
 			"Гусейн",
-			"Ganbarzada"
+			"Ganbarzada",
+			"Patriot Kur"
 		]
 	},
 	"coll-collection": "Китобон",
@@ -31,6 +32,7 @@
 	"coll-download_as": "Bənə $1 eğand",
 	"coll-bookscategory": "Китобон",
 	"coll-help": "Арајиш",
+	"coll-helppage": "Help:Kitobon",
 	"coll-n_pages": "$1 {{PLURAL:$1|бајт|бајтон}}",
 	"coll-suggest_empty": "тәј"
 }
