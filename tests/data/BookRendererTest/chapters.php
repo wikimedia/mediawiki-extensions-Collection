@@ -14,7 +14,7 @@ return [
 		// @codingStandardsIgnoreStart Generic.Files.LineLength.TooLong
 		'Foo' => '<html><body>Foo body<h2 id="Foo_section_1">Foo section 1</h2>Section 1 body</body></html>',
 		'Bar' => '<html><body>Bar body<h2 id="Bar_section_1">Bar section 1</h2>Section 1 body</body></html>',
-		// @codingStandardsIgnoreStart
+		// @codingStandardsIgnoreEnd
 	],
 	'metadata' => [
 		'displaytitle' => [ 'Foo' => 'Foo', 'Bar' => 'Bar' ],
