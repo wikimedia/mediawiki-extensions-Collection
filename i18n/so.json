@@ -11,5 +11,6 @@
 	"coll-print_export": "Daabac/dhoofin",
 	"coll-create_a_book": "sameey buug",
 	"coll-download_as": "Soo dejiso sida $1",
-	"coll-remove_this_page": "Boggaan ka saar book kaaga"
+	"coll-remove_this_page": "Boggaan ka saar book kaaga",
+	"coll-image-attribution": "<b>$1</b> <i>Xigasho</i> $2 <i>Laysinka:</i> $3 <i>Wax ku darsayaasha:</i> $4 <i>Farshaxakii asalka ahaa:</i> $5"
 }
