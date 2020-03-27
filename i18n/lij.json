@@ -133,7 +133,9 @@
 	"coll-format-okawix_zeno": "Okawix",
 	"coll-format-rdf2latex": "e-book (PDF, ocg latex renderer)",
 	"coll-format-rdf2text": "Elaboratô de scriti (testo sempliçe)",
+	"action-collectionsaveasuserpage": "sarva i libri comme paggina utente",
 	"right-collectionsaveasuserpage": "Sarva i libri comme paggina utente",
+	"action-collectionsaveascommunitypage": "sarvâ i libbri comme paggina da comunitæ",
 	"right-collectionsaveascommunitypage": "Sarva i libri comme paggina da comunitæ",
 	"coll-print_export": "Stampa/esporta",
 	"coll-create_a_book": "Crea un libbro",
@@ -180,6 +182,7 @@
 	"coll-attribution-page": "<h1>Fonte pe testo e inmaggine; aotoî; liçençie</h1>\n<h2>Testo</h2>\n$1<h2>Immaggine</h2>\n$2\n<h2>Liçençia do contegnuo</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Contributoî:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Liçença:</i> $3 <i>Contributoî:</i> $4 <i>Artista originale:</i> $5",
+	"coll-warning-disable-pdf-title": "O Creatô de Libri o l'è aproeuvo a subî de modiffiche",
 	"coll-rendererror-fetch": "Recuppero $1 falio: $2",
 	"coll-rendererror-fetch-wrapper": "Gh'è stæto di ari sercando de ricuperâ i contegnui da paggina:\n$1"
 }
