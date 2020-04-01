@@ -183,6 +183,21 @@
 	"coll-article-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Contributoî:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Liçença:</i> $3 <i>Contributoî:</i> $4 <i>Artista originale:</i> $5",
 	"coll-warning-disable-pdf-title": "O Creatô de Libri o l'è aproeuvo a subî de modiffiche",
+	"coll-warning-disable-pdf-text": "A couza de gravi problemi into nostro scistema existente, o Creatô de Libbri o no suportiâ ciu o sarvataggio di libbri in formato PDF.",
+	"coll-warning-learn-more": "Pe saveine de ciu",
+	"coll-notice-download-pdf-title": "Scarrega scingole paggine",
+	"coll-notice-download-pdf-text": "Dementre che o compoxitô PDF do Creatô de Libbri o l'è dezabilitou, ti poeu provâ '''''Scarrega comme PDF''''' inta bara di strumenti laterâ pe-e scingole voxe.",
+	"coll-toc-title": "Toa di Contegnui",
+	"coll-contributors-title": "Contributoî",
+	"coll-images-title": "Inmaggine",
+	"coll-images-source": "Vivagna",
+	"coll-images-license": "Liçençia",
+	"coll-images-original-artist": "Artista originâ",
+	"coll-license-title": "Lisensia pe-o contegnuo",
+	"coll-rendererror-title": "Imposcibbile generâ o libbro",
+	"coll-rendererror-no-session": "Definission do libbro non trovâ inta sescion. A poriæ ese stæta scartâ pe inattivitæ.",
+	"coll-rendererror-pdf": "Compoxission PDF non riuscia: $1",
 	"coll-rendererror-fetch": "Recuppero $1 falio: $2",
-	"coll-rendererror-fetch-wrapper": "Gh'è stæto di ari sercando de ricuperâ i contegnui da paggina:\n$1"
+	"coll-rendererror-fetch-wrapper": "Gh'è stæto di ari sercando de ricuperâ i contegnui da paggina:\n$1",
+	"coll-rendererror-no-cache": "I dæti do libbro no son reperibili inta cache. L'è ben probabbile che ghe sæ 'n aro into software."
 }
