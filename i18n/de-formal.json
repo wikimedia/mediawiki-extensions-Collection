@@ -3,10 +3,10 @@
 		"authors": [
 			"Dst",
 			"Kghbln",
-			"MichaelFrey",
-			"Umherirrender",
 			"Macofe",
-			"Rhirsch"
+			"MichaelFrey",
+			"Rhirsch",
+			"Umherirrender"
 		]
 	},
 	"coll-book_creator_intro": "<big>Mit der ''Buchfunktion'' können Sie ein Buch aus beliebigen Wikiseiten erstellen.\nSie können das Buch in unterschiedlichen Formaten exportieren (beispielsweise PDF oder ODF) oder in gedruckter Form bestellen.</big>",

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"AKlapper",
 			"Das Schäfchen",
 			"Filzstift",
 			"Geitost",
@@ -16,8 +17,7 @@
 			"The Evil IP address",
 			"Umherirrender",
 			"VolkerHaas",
-			"XenonX3",
-			"AKlapper"
+			"XenonX3"
 		]
 	},
 	"coll-desc": "Ergänzt eine [[Special:Book|Spezialseite]] zum Erstellen von Büchern",
