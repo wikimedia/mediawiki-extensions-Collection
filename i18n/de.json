@@ -20,7 +20,7 @@
 			"XenonX3"
 		]
 	},
-	"coll-desc": "Ergänzt eine [[Special:Book|Spezialseite]] zum Erstellen von Büchern",
+	"coll-desc": "Erweitert das Wiki um eine [[Special:Book|Spezialseite]] zum Erstellen von Büchern",
 	"coll-book_creator_intro": "<big>Mit der ''Buchfunktion'' kannst du ein Buch aus beliebigen Wikiseiten erstellen.\nDu kannst das Buch in unterschiedlichen Formaten exportieren (beispielsweise PDF oder ODF) oder in gedruckter Form bestellen.</big>",
 	"coll-manage_your_book": "Dein Buch verwalten",
 	"coll-book_creator_help": "Weitere Informationen sind in der [[{{MediaWiki:Coll-helppage}}|Hilfe zu Büchern]] zu finden.",
