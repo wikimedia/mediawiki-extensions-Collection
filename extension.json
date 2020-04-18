@@ -37,14 +37,6 @@
 		"CollectionHooks": "includes/CollectionHooks.php",
 		"CollectionSuggest": "includes/CollectionSuggest.php",
 		"CollectionProposals": "includes/CollectionProposals.php",
-		"MediaWiki\\Extensions\\Collection\\Specials\\SpecialRenderBook": "includes/Specials/SpecialRenderBook.php",
-		"MediaWiki\\Extensions\\Collection\\DataProvider": "includes/DataProvider.php",
-		"MediaWiki\\Extensions\\Collection\\ElectronVirtualRestService": "includes/ElectronVirtualRestService.php",
-		"MediaWiki\\Extensions\\Collection\\BookRenderer": "includes/BookRenderer.php",
-		"MediaWiki\\Extensions\\Collection\\RemexCollectionMunger": "includes/RemexCollectionMunger.php",
-		"MediaWiki\\Extensions\\Collection\\HeadingCounter": "includes/HeadingCounter.php",
-		"MediaWiki\\Extensions\\Collection\\BookRenderingMediator": "includes/BookRenderingMediator.php",
-		"MediaWiki\\Extensions\\Collection\\MessageBoxHelper": "includes/MessageBoxHelper.php",
 		"CollectionPageTemplate": "templates/CollectionPageTemplate.php",
 		"CollectionListTemplate": "templates/CollectionListTemplate.php",
 		"CollectionLoadOverwriteTemplate": "templates/CollectionLoadOverwriteTemplate.php",
@@ -56,6 +48,9 @@
 		"CollectionRenderingAPI": "includes/rendering/CollectionRenderingAPI.php",
 		"MWServeRenderingAPI": "includes/rendering/MWServeRenderingAPI.php",
 		"CollectionAPIResult": "includes/rendering/CollectionAPIResult.php"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extensions\\Collection\\": "includes/"
 	},
 	"ResourceModules": {
 		"ext.collection": {
