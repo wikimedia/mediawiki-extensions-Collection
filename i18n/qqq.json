@@ -163,7 +163,7 @@
 	"action-collectionsaveascommunitypage": "{{doc-action|collectionsaveascommunitypage}}",
 	"right-collectionsaveascommunitypage": "{{doc-right|collectionsaveascommunitypage}}",
 	"coll-print_export": "Caption of a frame in the toolbar (on the left-hand side of the screen), similar to {{msg-mw|toolbox}} or {{msg-mw|otherlanguages}}.\n{{Identical|Print/Export}}",
-	"coll-create_a_book": "Used as link text.\n\nThe link points to the \"Book creator\" page.\n{{Identical|Books}}",
+	"coll-create_a_book": "Used as link text in the sidebar.\n\nThe link points to the \"Book creator\" page.\n{{Identical|Books}}",
 	"coll-create_a_book_tooltip": "Used as tooltip for the link.\n\nThe text of the link is {{msg-mw|Coll-create a book}}.",
 	"coll-book_creator": "Used as page title.\n\nAlso used as heading in \"Book creator box\".",
 	"coll-download_as": "Used for two different purposes:\n# As link text in the toolbox in the side bar to download wiki pages in a specified file format (such as PDF). The link has {{msg-mw|coll-download as tooltip}} as tooltip.\n# As button text for the download button on [[Special:Book]] when there is only one file format. The button is next to the text of {{msg-mw|coll-download as text}}. (If there is a choice of file format {{msg-mw|coll-download}} together with {{msg-mw|coll-download text}} is used instead.)\n\nParameters:\n* $1 - in both cases, a file format\n{{Identical|Download}}",

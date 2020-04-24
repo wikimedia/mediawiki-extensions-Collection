@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Asenoner"
+			"Asenoner",
+			"Starladin"
 		]
 	},
 	"coll-remove": "Tò demez",
@@ -11,5 +12,6 @@
 	"coll-print_export": "Stampa/esporta",
 	"coll-create_a_book": "Mët adum n liber",
 	"coll-download_as": "Cëria ju coche $1",
+	"coll-remove_this_page": "Tol demez chësta plata da to liber",
 	"coll-image-attribution": "\n<b>$1</b> <i>Font:</i> $2 <i>Lizënza:</i> $3 <i>L à da contribuc:</i> $4 <i>Artist uriginel:</i> $5"
 }
