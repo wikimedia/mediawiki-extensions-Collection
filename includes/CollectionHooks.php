@@ -237,7 +237,7 @@ class CollectionHooks {
 
 		$imagePath = "$wgExtensionAssetsPath/Collection/images";
 		$ptext = $title->getPrefixedText();
-		$oldid = $wgRequest->getVal( 'oldid', 0 );
+		$oldid = $wgRequest->getInt( 'oldid', 0 );
 		if ( $oldid == $title->getLatestRevID() ) {
 			$oldid = 0;
 		}
