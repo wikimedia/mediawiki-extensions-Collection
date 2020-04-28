@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Salomo Christian Hutajulu"
+		]
+	},
+	"coll-remove": "Sesa",
+	"coll-show": "Patuduhon",
+	"coll-move_up": "Nangkokhon",
+	"coll-move_down": "Tuathon",
+	"coll-book_creator": "Sitompa ni buku",
+	"coll-help": "Urupi",
+	"coll-helppage": "Help:Buku",
+	"coll-show_collection": "Idahon buku"
+}
