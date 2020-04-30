@@ -27,5 +27,6 @@
 	"coll-show_collection_tooltip": "Clicchëia por mudé/dejciarié o aposté to liber",
 	"coll-make_suggestions": "Aconsiëia plates",
 	"coll-make_suggestions_tooltip": "Mostra propostes sön la basa dles plates te to liber",
+	"coll-article-attribution": "<b>$1</b> <i>Funtana:</i> $2 <i>Contribuënc:</i> $3",
 	"coll-image-attribution": "\n<b>$1</b> <i>Font:</i> $2 <i>Lizënza:</i> $3 <i>L à da contribuc:</i> $4 <i>Artist uriginel:</i> $5"
 }
