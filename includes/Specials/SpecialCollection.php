@@ -978,9 +978,12 @@ class SpecialCollection extends SpecialPage {
 			$items = $collection['items'];
 		}
 
-		$wikiPage = new WikiPage( $title );
+		$lines = preg_split(
+			'/[\r\n]+/',
+			WikiPage::factory( $title )->getContent()->getNativeData()
+		);
 
-		foreach ( preg_split( '/[\r\n]+/', $wikiPage->getContent()->getNativeData() ) as $line ) {
+		foreach ( $lines as $line ) {
 			$item = $this->parseCollectionLine( $collection, $line, $append );
 			if ( $item !== null ) {
 				$items[] = $item;
