@@ -50,6 +50,7 @@
 	"coll-rendering_status": "<strong>Estat:</strong> $1",
 	"coll-rendering_article": "(pådje do wiki : $1)",
 	"coll-rendering_page": "(pådje: $1)",
+	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Racsegnes sol rindou des pådjes",
 	"coll-notfound_title": "Live nén trové",
 	"coll-download_notfound_title": "Fitchî nén trové",
 	"coll-about_pp": "Åd fwait di $1",
@@ -86,5 +87,10 @@
 	"coll-attribution-anons": "Anonimes: $1",
 	"coll-attribution-page": "<h1>Sourdants, contribouweus et licinces do tecse et ds imådjes</h1>\n<h2>Tecse</h2>\n$1<h2>Imådjes</h2>\n$2\n<h2>Licince do do contnou</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Sourdant:</i> $2 <i>Contribouweus:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Sourdant:</i> $2 <i>Licince:</i> $3 <i>Contribouweus:</i> $4 <i>Årtisse oridjinnå:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Sourdant:</i> $2 <i>Licince:</i> $3 <i>Contribouweus:</i> $4 <i>Årtisse oridjinnå:</i> $5",
+	"coll-contributors-title": "Contribouweus",
+	"coll-images-title": "Imådjes",
+	"coll-images-source": "Sourdant",
+	"coll-images-license": "Licince",
+	"coll-license-title": "Licince do contnou"
 }
