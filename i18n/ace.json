@@ -23,7 +23,7 @@
 	"coll-n_pages": "$1 {{PLURAL:$1|laman}}",
 	"coll-remove_this_page": "Sampôh laman nyoë nibak kitab droëneuh",
 	"coll-show_collection": "Peuleumah buku",
-	"coll-show_collection_tooltip": "Teugön keu peusaneut/cok keubah/peusan kitabneuh",
+	"coll-show_collection_tooltip": "Teugön keu peusaneut/cok keubah/peusan kitab",
 	"coll-make_suggestions": "Saran laman",
 	"coll-make_suggestions_tooltip": "Peuleumah saran meunurôt laman lam kitabneuh",
 	"coll-attribution-anons": "Ureuëng ngui hana meusoë: $1",
