@@ -1371,13 +1371,15 @@ class SpecialCollection extends SpecialPage {
 	 */
 	private function renderSaveOverwritePage( $colltype, $title, $pcollname, $ccollname ) {
 		$this->setHeaders();
-		$this->getOutput()->setPageTitle( $this->msg( 'coll-save_collection' ) );
+		$out = $this->getOutput();
+		$out->setPageTitle( $this->msg( 'coll-save_collection' ) );
 
 		$template = new CollectionSaveOverwriteTemplate();
 		$template->set( 'title', $title );
 		$template->set( 'pcollname', $pcollname );
 		$template->set( 'ccollname', $ccollname );
 		$template->set( 'colltype', $colltype );
+		$template->set( 'skin', $out->getSkin() );
 		$this->getOutput()->addTemplate( $template );
 	}
 
