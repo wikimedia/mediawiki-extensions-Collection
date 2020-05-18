@@ -10,16 +10,16 @@ use MediaWiki\Logger\LoggerFactory;
 use MediaWiki\MediaWikiServices;
 use SpecialPage;
 use TemplateParser;
+use UnlistedSpecialPage;
 use User;
 
 /**
  * Special page to display a book as a single HTML page.
  */
-class SpecialRenderBook extends SpecialPage {
+class SpecialRenderBook extends UnlistedSpecialPage {
 
 	public function __construct() {
 		parent::__construct( 'RenderBook' );
-		$this->setListed( false );
 	}
 
 	/**
