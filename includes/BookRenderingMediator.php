@@ -6,7 +6,7 @@ use Config;
 use DerivativeContext;
 use ErrorPageError;
 use Exception;
-use MultiHttpClient;
+use MediaWiki\MediaWikiServices;
 use OutputPage;
 use Psr\Log\LoggerAwareInterface;
 use Psr\Log\LoggerAwareTrait;
@@ -185,9 +185,11 @@ class BookRenderingMediator implements LoggerAwareInterface {
 		// expect a completely different structure for $wgVirtualRestConfig to
 		// what is actually there in either WMF production or Vagrant. See T175224.
 
-		$client = new VirtualRESTServiceClient( new MultiHttpClient( [
-			'logger' => $logger,
-		] ) );
+		$client = new VirtualRESTServiceClient(
+			MediaWikiServices::getInstance()->getHttpRequestFactory()->createMultiClient( [
+				'logger' => $logger,
+			] )
+		);
 		$config = $config->get( 'VirtualRestConfig' );
 		$modules = [
 			'restbase' => RestbaseVirtualRESTService::class,
