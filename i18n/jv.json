@@ -4,6 +4,7 @@
 			"Bennylin",
 			"Macofe",
 			"Meursault2004",
+			"N219",
 			"NoiX180",
 			"Pras"
 		]
@@ -96,7 +97,7 @@
 	"coll-order_from_pp": "Pratuduh nganggo $1",
 	"coll-about_pp": "Perkara $1",
 	"coll-invalid_podpartner_title": "Partner POD ora sah",
-	"coll-invalid_podpartner_msg": "Partner POD sing disadiyakaké ora sah.\nMangga hubungi pangurus MediaWiki panjenengan.",
+	"coll-invalid_podpartner_msg": "Partner POD sing disadiyakaké ora sah.\nMangga hubungi panata MediaWiki panjenengan.",
 	"coll-license": "Lisènsi",
 	"coll-return_to": "Bali menyang [[:$1]]",
 	"coll-order_info_article": "{{MediaWiki:Coll-helppage}}/Informasi pamesenan PediaPress",
