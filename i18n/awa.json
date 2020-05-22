@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"1AnuraagPandey",
+			"1PandeyAnurag",
 			"Ajeetsinghawadh"
 		]
 	},
@@ -42,8 +43,8 @@
 	"coll-create_chapter": "अध्याय बनायें",
 	"coll-sort_alphabetically": "वर्णक्रम अनुसार क्रमबद्ध करा जाए",
 	"coll-rename": "नाम बदलें",
-	"coll-new_chapter": "नये अध्याय के लिये नाम दें",
-	"coll-rename_chapter": "नये अध्याय के लिये नाम दें",
+	"coll-new_chapter": "नवा अध्याय खर्तिन नाँव दिहा जाय",
+	"coll-rename_chapter": "नँवा अध्याय खर्तिन नाँव दिहा जाय",
 	"coll-no_such_category": "ऐसी कोई श्रेणी नहीं है",
 	"coll-notitle_title": "पृष्ठ कय शीर्षक प्राप्त नही होय सका।",
 	"coll-notitle_msg": "पृष्ठ के शीर्षक कय पता नही लाग।",
