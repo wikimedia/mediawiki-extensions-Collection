@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Bennylin",
+			"Diki Ananta",
 			"Macofe",
 			"Meursault2004",
 			"N219",
@@ -123,7 +124,7 @@
 	"coll-format-zim": "Kiwix (OpenZIM)",
 	"coll-format-docbook": "DocBook",
 	"coll-format-okawix_zeno": "Okawix",
-	"right-collectionsaveasuserpage": "Simpen buku minangka kaca panganggo",
+	"right-collectionsaveasuserpage": "Simpen buku minangka kaca naraguna",
 	"right-collectionsaveascommunitypage": "Simpen buku minangka kaca komunitas",
 	"coll-print_export": "Cithak/èspor",
 	"coll-create_a_book": "Gawé buku",
