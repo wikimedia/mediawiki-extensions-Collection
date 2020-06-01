@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Belkacem77",
-			"Mmistmurt"
+			"Mmistmurt",
+			"YouvaDjouadi"
 		]
 	},
 	"coll-collections": "Idlisen",
@@ -29,7 +30,7 @@
 	"coll-suggest_article_ban": "Asebter <strong>$1</strong> yettwakkes yakan seg isumar ($2)",
 	"right-collectionsaveasuserpage": "Sekles idlisen ɣef isebtar n useqdac",
 	"coll-print_export": "Siggez/sifeḍ",
-	"coll-create_a_book": "Rnu adlis",
+	"coll-create_a_book": "Snulfu-d adlis",
 	"coll-book_creator": "Amesnulfuy n yidlisen",
 	"coll-download_as": "Sider am $1",
 	"coll-disable": "sens",
