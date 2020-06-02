@@ -25,7 +25,6 @@ class CollectionFailedTemplate extends QuickTemplate {
 		}
 		$t = Title::newFromText( $title_string );
 		if ( $t && $t->exists() ) {
-			// @phan-suppress-next-line SecurityCheck-XSS False positive (T235021)
 			echo $GLOBALS['wgOut']->parseAsContent( '{{:' . $t . '}}' );
 		}
 		?>
