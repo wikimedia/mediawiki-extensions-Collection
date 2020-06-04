@@ -1,12 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
+			"Iohanen",
 			"Midnight Gambler"
 		]
 	},
 	"coll-remove": "Entferne",
 	"coll-show": "Zeich",
 	"coll-move_up": "hoch",
+	"coll-download_as": "Als $1 runnerlaade",
 	"coll-help": "Hellef",
+	"coll-show_collection_tooltip": "Klicke, um dein Buch zu ëditeere/runnerzulaade/bestelle",
 	"coll-attribution-anons": "Anonymous: $1"
 }
