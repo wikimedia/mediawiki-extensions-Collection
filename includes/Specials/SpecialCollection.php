@@ -1239,7 +1239,7 @@ class SpecialCollection extends SpecialPage {
 		$info = false;
 		$url = $r->get( 'url' );
 		if ( $url ) {
-			$req = MWHttpRequest::factory( $url );
+			$req = MWHttpRequest::factory( $url, null, __METHOD__ );
 			$req->setCallback( function ( $fh, $content ) {
 				return fwrite( $this->tempfile, $content );
 			} );
