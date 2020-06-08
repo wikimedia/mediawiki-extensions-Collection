@@ -147,7 +147,7 @@
 	"coll-format-zim": "Kiwix (OpenZIM)",
 	"coll-format-docbook": "DökümanKitap",
 	"coll-format-okawix_zeno": "Okawix",
-	"coll-format-rdf2latex": "e-kitap (PDF, and West Interactive lateks oluşturucu)",
+	"coll-format-rdf2latex": "e-kitap (PDF, ocg lateks oluşturucu)",
 	"coll-format-rdf2text": "Kelime işlemci (düz metin)",
 	"action-collectionsaveasuserpage": "kitapları kullanıcı sayfası olarak kaydet",
 	"right-collectionsaveasuserpage": "Kitapları kullanıcı sayfası olarak kaydet",
