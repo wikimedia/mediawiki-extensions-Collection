@@ -113,8 +113,7 @@
 		"remoteExtPath": "Collection/resources"
 	},
 	"Hooks": {
-		"SkinTemplateBuildNavUrlsNav_urlsAfterPermalink": "CollectionHooks::buildNavUrls",
-		"SidebarBeforeOutput": "CollectionHooks::buildSidebar",
+		"SidebarBeforeOutput": "CollectionHooks::onSidebarBeforeOutput",
 		"SiteNoticeAfter": "CollectionHooks::siteNoticeAfter",
 		"OutputPageCheckLastModified": "CollectionHooks::checkLastModified"
 	},

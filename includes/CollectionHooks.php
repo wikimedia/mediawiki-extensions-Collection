@@ -50,38 +50,26 @@ class CollectionHooks {
 	}
 
 	/**
-	 * Callback for hook SkinBuildSidebar
+	 * Callback for SidebarBeforeOutput hook
 	 *
 	 * @param Skin $skin
-	 * @param array &$bar
-	 *
-	 * @return bool
+	 * @param array &$sidebar
 	 */
-	public static function buildSidebar( $skin, &$bar ) {
+	public static function onSidebarBeforeOutput( Skin $skin, &$sidebar ) {
 		global $wgCollectionPortletForLoggedInUsersOnly;
 
 		if ( !$wgCollectionPortletForLoggedInUsersOnly || $skin->getUser()->isLoggedIn() ) {
+
 			$portlet = self::getPortlet( $skin );
+
 			if ( $portlet ) {
-				$bar[ 'coll-print_export' ] = $portlet;
+				// Unset 'print' item. We have moved it to our own section.
+				unset( $sidebar['TOOLBOX']['print'] );
+
+				// Add our section
+				$sidebar[ 'coll-print_export' ] = $portlet;
 			}
 		}
-		return true;
-	}
-
-	/**
-	 * @param Skin $skin
-	 * @param array &$navUrls
-	 * @return bool
-	 */
-	public static function buildNavUrls( $skin, &$navUrls ) {
-		global $wgCollectionPortletForLoggedInUsersOnly;
-
-		if ( !$wgCollectionPortletForLoggedInUsersOnly || $skin->getUser()->isLoggedIn() ) {
-			// We move this guy out to our own box
-			$navUrls['print'] = false;
-		}
-		return true;
 	}
 
 	/**
@@ -474,5 +462,4 @@ class CollectionHooks {
 		}
 		return true;
 	}
-
 }
