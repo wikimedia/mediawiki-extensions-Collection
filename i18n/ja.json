@@ -6,6 +6,7 @@
 			"Fryed-peach",
 			"Hinaloe",
 			"JtFuruhata",
+			"Linuxmetel",
 			"Macofe",
 			"Marine-Blue",
 			"Mfuji",
@@ -196,6 +197,7 @@
 	"coll-images-title": "画像",
 	"coll-images-source": "ソース",
 	"coll-images-license": "ライセンス",
+	"coll-license-title": "コンテンツのライセンス",
 	"coll-rendererror-fetch": "$1の取得に失敗しました:$2",
 	"coll-rendererror-no-cache": "ブックデータがキャッシュに見つかりません。これはソフトウェアのエラーである可能性が最も高いです。"
 }
