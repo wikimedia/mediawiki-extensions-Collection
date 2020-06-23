@@ -7,7 +7,8 @@
 			"Li-sung",
 			"Macofe",
 			"Matěj Grabovský",
-			"Mormegil"
+			"Mormegil",
+			"Patriccck"
 		]
 	},
 	"coll-desc": "[[Special:Book|Vytváření knih]]",
@@ -179,7 +180,7 @@
 	"coll-setting-toc-yes": "Ano",
 	"coll-setting-toc-no": "Ne",
 	"coll-setting-columns": "Sloupce:",
-	"coll-attribution-anons": "Anonymové: $1",
+	"coll-attribution-anons": "Editace neregistrovaných: $1",
 	"coll-attribution-page": "<h1>Zdroje textu a obrázků, přispěvatelé a licence</h1>\n<h2>Text</h2>\n$1<h2>Obrázky</h2>\n$2\n<h2>Licence obsahu</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Zdroj:</i> $2 <i>Přispěvatelé:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Zdroj:</i> $2 <i>Licence:</i> $3 <i>Přispěvatelé:</i> $4 <i>Původní autor:</i> $5",
