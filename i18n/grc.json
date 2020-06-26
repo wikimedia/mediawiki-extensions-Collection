@@ -3,7 +3,8 @@
 		"authors": [
 			"Crazymadlover",
 			"Gts-tg",
-			"Omnipaedista"
+			"Omnipaedista",
+			"PastelKos"
 		]
 	},
 	"coll-collection": "Βιβλίον",
@@ -33,7 +34,7 @@
 	"coll-book_creator": "Δημιουργός βίβλου",
 	"coll-download_as": "Καταφορτίζειν ὡς $1",
 	"coll-disable": "Ἀπενεργηθείν",
-	"coll-book_creator_disable": "Ἀπενεργοποίησις δημιουργού βιβλίων",
+	"coll-book_creator_disable": "Ἀπενεργοποίησις δημιουργοῦ βίβλων",
 	"coll-book_creator_disable_tooltip": "Παύειν χρειά δημιουργού βιβλίων",
 	"coll-add_category": "Προστιθέναι κατηγορίαν εἰς τὸ βιβλίον σου",
 	"coll-add_this_page": "Προστιθέναι δέλτον εἰς τὸ βιβλίον σου",
