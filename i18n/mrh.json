@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Laitei",
+			"Teitei Para"
+		]
+	},
+	"coll-remove": "Thy",
+	"coll-show": "Palâ",
+	"coll-move_up": "Chôlâ paly",
+	"coll-move_down": "Ry lâ paly",
+	"coll-print_export": "Chhuh/papua",
+	"coll-create_a_book": "Châbu bu kha tao",
+	"coll-download_as": "$1 châta adao",
+	"coll-remove_this_page": "He châhmia he na châbu tawh thy teih",
+	"coll-image-attribution": "<b>$1</b> <i>Hnawh:</i> $2 <i>License:</i> $3 <i>Paduatuhpazy:</i> $4 <i>Châ rohtuh kakuapa:</i> $5"
+}
