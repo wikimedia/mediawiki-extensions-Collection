@@ -25,7 +25,7 @@
 	"coll-move_up": "Ümhouge",
 	"coll-move_down": "Ümdale",
 	"coll-rename": "Herneumen",
-	"coll-cancel": "Aofbreken",
+	"coll-cancel": "Afbreaken",
 	"coll-update": "Biewarken",
 	"coll-rendering_title": "Dokument wördt emaakt",
 	"coll-rendering_text": "<p><strong>t Dokument wördt an-emaakt.</strong></p>\n\n<p><strong>Voortgang:</strong> <span id=\"renderingProgress\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p>Disse zied wördt dikkels bie-ewörken.\nAs t niet warkt, klik dan op de knoppe \"Verniejen\" in joew webkieker.</p>",
