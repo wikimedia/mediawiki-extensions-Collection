@@ -197,5 +197,5 @@
 	"coll-rendererror-pdf": "D'Erstelle vum PDF huet net funktionéiert: $1",
 	"coll-rendererror-fetch": "D'Ofruffe vu(n) $1 huet net funktionéiert: $2",
 	"coll-rendererror-fetch-wrapper": "Et gouf Feeler beim Versuch d'Inhalter vun der Säit ofzeruffen: $1",
-	"coll-rendererror-no-cache": "D'Donnéeë vum Buch goufen am Tëschespäicher (Cache) net fonnt. Dëst ass wahrscheinlech e Feeler an der Software."
+	"coll-rendererror-no-cache": "D'Donnéeë vum Buch goufen am Tëschespäicher (Cache) net fonnt. Dëst ass warscheinlech e Feeler an der Software."
 }
