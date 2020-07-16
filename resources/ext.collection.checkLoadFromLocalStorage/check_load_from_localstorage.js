@@ -1,4 +1,4 @@
-/* global confirm*/
+/* global confirm */
 ( function ( mw, $ ) {
 
 	var script_url = mw.util.wikiScript();
