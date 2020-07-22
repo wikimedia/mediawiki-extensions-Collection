@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Akamycoco",
 			"Iyuqciyang"
 		]
 	},
@@ -13,6 +14,7 @@
 	"coll-about_pp": "Quri $1",
 	"coll-suggest_show": "pqita",
 	"coll-print_export": "Pteeura patas/pdsi",
+	"coll-create_a_book": "phiyug patas",
 	"coll-book_creator": "Euda phiyug patas",
 	"coll-download_as": "Mangal patas $1",
 	"coll-disable": "tndu dmuuy",
