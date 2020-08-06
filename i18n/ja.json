@@ -10,6 +10,7 @@
 			"Macofe",
 			"Marine-Blue",
 			"Mfuji",
+			"Object＊tofu",
 			"Phantomize",
 			"Shirayuki",
 			"Sujiniku",
@@ -197,7 +198,9 @@
 	"coll-images-title": "画像",
 	"coll-images-source": "ソース",
 	"coll-images-license": "ライセンス",
+	"coll-images-original-artist": "オリジナルアーティスト",
 	"coll-license-title": "コンテンツのライセンス",
+	"coll-rendererror-title": "ブックを作成できませんでした",
 	"coll-rendererror-fetch": "$1の取得に失敗しました:$2",
 	"coll-rendererror-no-cache": "ブックデータがキャッシュに見つかりません。これはソフトウェアのエラーである可能性が最も高いです。"
 }
