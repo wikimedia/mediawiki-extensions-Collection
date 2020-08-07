@@ -1,8 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Moon0319",
 			"Араси"
 		]
 	},
+	"coll-show": "ᡳᠯᡝᡨᡠᠯᡝᡵᡝ",
+	"coll-move_up": "ᡡᡝᡵᠰᡮᡥᡠᡳᡡᡳᠩ ᠣᡦ",
+	"coll-move_down": "ᡡᡝᡵᠰᡮᡥᡠᡳᡡᡳᠩ ᠣᠨᡩᡝᡵ",
 	"coll-create_a_book": "ᠪᡳᡨ᠌ᡥᡝ  ᠪᡝ ᠪᠠᠨᠵᡳᠪᡠᡴᡳ"
 }
