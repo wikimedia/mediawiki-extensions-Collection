@@ -139,5 +139,6 @@
 	"coll-warning-disable-pdf-text": "Book Creator системин халонаш йолуш, хӀинца PDF форматехь жайнаш Ӏалашдан цало. Оха да луш  дерг деш ду юху а Book Creator чохь PDF-файлаш Ӏалашъян таро тоеш.",
 	"coll-warning-learn-more": "Цул совнаха хаа",
 	"coll-notice-download-pdf-title": "Схьаэца къаьстина агӀонаш",
-	"coll-notice-download-pdf-text": "PDF-рендер Book Creator гӀоьнца хийцанбина хиларна, хьан йиш ю '''''PDF санна схьаэца''''' функци лело, иза ю агӀорхьарчу панель тӀехь ешаран рожехь."
+	"coll-notice-download-pdf-text": "PDF-рендер Book Creator гӀоьнца хийцанбина хиларна, хьан йиш ю '''''PDF санна схьаэца''''' функци лело, иза ю агӀорхьарчу панель тӀехь ешаран рожехь.",
+	"coll-images-source": "Хьост"
 }

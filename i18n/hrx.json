@@ -8,6 +8,8 @@
 	"coll-remove": "Entferne",
 	"coll-show": "Zeich",
 	"coll-move_up": "hoch",
+	"coll-print_export": "Drucke/exporteere",
+	"coll-create_a_book": "Buch erstelle",
 	"coll-download_as": "Als $1 runnerlaade",
 	"coll-help": "Hellef",
 	"coll-show_collection_tooltip": "Klicke, um dein Buch zu ëditeere/runnerzulaade/bestelle",
