@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Asenoner",
+			"Fierodelveneto",
 			"Starladin"
 		]
 	},
@@ -9,7 +10,7 @@
 	"coll-show": "Mostra",
 	"coll-move_up": "Sposta su",
 	"coll-move_down": "Sposta ju",
-	"coll-print_export": "Stampa/esporta",
+	"coll-print_export": "Stampe/esporte",
 	"coll-create_a_book": "Mët adum n liber",
 	"coll-book_creator": "Generadú de libri",
 	"coll-download_as": "Cëria ju coche $1",
