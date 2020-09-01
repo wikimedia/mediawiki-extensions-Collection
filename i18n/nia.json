@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Slaia"
+		]
+	},
+	"coll-remove": "Fawu'a",
+	"coll-show": "Oroma'ö",
+	"coll-move_up": "Sösögö miyaŵa",
+	"coll-move_down": "Sösögö mitou",
+	"coll-print_export": "Raka/Ekspor",
+	"coll-create_a_book": "Bali'ö sambua buku",
+	"coll-download_as": "Failo'ö tobali $1"
+}
