@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Boesenbergia"
+			"Boesenbergia",
+			"NoiX180"
 		]
 	},
 	"coll-remove": "Kosot",
@@ -9,5 +10,7 @@
 	"coll-move_up": "Allè ka attas",
 	"coll-move_down": "Allè ka bâbâ",
 	"coll-print_export": "Cèta'/èkspor",
-	"coll-create_a_book": "Ghâbây buku"
+	"coll-create_a_book": "Ghâbây buku",
+	"coll-help": "Bhântoan",
+	"coll-n_pages": "$1 {{PLURAL:$1|kaca}}"
 }
