@@ -14,6 +14,7 @@
 		"no-use-before-define": 0,
 		"vars-on-top": 0,
 		"one-var": 0,
-		"no-redeclare": "warn"
+		"no-redeclare": "warn",
+		"no-shadow": "warn"
 	}
 }
