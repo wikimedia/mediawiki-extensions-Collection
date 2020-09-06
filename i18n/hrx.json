@@ -8,10 +8,12 @@
 	"coll-remove": "Entferne",
 	"coll-show": "Zeich",
 	"coll-move_up": "hoch",
+	"coll-move_down": "noch unne ferschieve",
 	"coll-print_export": "Drucke/exporteere",
 	"coll-create_a_book": "Buch erstelle",
 	"coll-download_as": "Als $1 runnerlaade",
 	"coll-help": "Hellef",
+	"coll-remove_this_page": "Dies Seit aus deim Buch entferne",
 	"coll-show_collection_tooltip": "Klicke, um dein Buch zu ëditeere/runnerzulaade/bestelle",
 	"coll-attribution-anons": "Anonymous: $1"
 }

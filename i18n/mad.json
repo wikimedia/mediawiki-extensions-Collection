@@ -11,6 +11,11 @@
 	"coll-move_down": "Allè ka bâbâ",
 	"coll-print_export": "Cèta'/èkspor",
 	"coll-create_a_book": "Ghâbây buku",
+	"coll-add_this_page": "Tambâaghi kaca arèya ka buku bâ'na",
+	"coll-add_page_tooltip": "Tambâaghi kaca wiki arèya ka buku bâ'na",
 	"coll-help": "Bhântoan",
-	"coll-n_pages": "$1 {{PLURAL:$1|kaca}}"
+	"coll-helppage": "Help:Buku",
+	"coll-n_pages": "$1 {{PLURAL:$1|kaca}}",
+	"coll-remove_this_page": "Buwâng kaca arèya dâri buku bâ'na",
+	"coll-show_collection": "Angghâlaghi buku"
 }
