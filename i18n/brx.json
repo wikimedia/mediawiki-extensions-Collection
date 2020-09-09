@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Brxeditor",
 			"ⓝⓘⓙⓦⓜ"
 		]
 	},
 	"coll-remove": "खोमोर",
 	"coll-show": "दिन्थि",
+	"coll-move_up": "गोजौथिं थां",
+	"coll-move_down": "गाहायथिं थां",
 	"coll-create_a_book": "मोनसे ब य"
 }
