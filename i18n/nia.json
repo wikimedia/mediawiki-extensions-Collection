@@ -12,6 +12,15 @@
 	"coll-create_a_book": "Bali'ö sambua buku",
 	"coll-book_creator": "Sama'anö buku",
 	"coll-download_as": "Failo'ö tobali $1",
+	"coll-disable": "batogö",
+	"coll-book_creator_disable": "Batogö book creator",
+	"coll-book_creator_disable_tooltip": "Batogö wangoguna'ö book creator",
+	"coll-add_this_page": "Nönö nga'örö andre ba mbukumö",
+	"coll-add_page_tooltip": "Nönögö nga'örö wiki andre ba mbukumö",
+	"coll-help": "Fanolo",
+	"coll-help_tooltip": "Oroma'ö wanolo ba wamazökhi buku",
 	"coll-helppage": "Help:Buku",
-	"coll-remove_this_page": "Heta nga'örö andre moroi ba mbukumö"
+	"coll-remove_this_page": "Heta nga'örö andre moroi ba mbukumö",
+	"coll-show_collection": "Oroma'ö mbuku",
+	"coll-show_collection_tooltip": "Höndrögö ba wamulö'ö/wamailo/wowöli buku"
 }
