@@ -28,5 +28,7 @@
 	"coll-suggest_ban_selected": "Galinon a mga naliping pahina",
 	"coll-suggest_your_book": "A kanimong libro",
 	"coll-suggest_show": "ipabayad",
-	"coll-create_a_book": "Gumibo sa libro"
+	"coll-create_a_book": "Gumibo sa libro",
+	"coll-help": "Tabang",
+	"coll-attribution-anons": "Diri isi: $1"
 }
