@@ -11,7 +11,7 @@ use Title;
  * @covers \MediaWiki\Extensions\Collection\BookRenderer
  */
 class BookRendererTest extends MediaWikiTestCase {
-	const TEMPLATE_DIR = '/../../../templates';
+	private const TEMPLATE_DIR = '/../../../templates';
 
 	/**
 	 * @dataProvider provideGetBookTemplateDataOutlineGeneration
