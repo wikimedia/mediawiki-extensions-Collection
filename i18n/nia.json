@@ -22,5 +22,7 @@
 	"coll-helppage": "Help:Buku",
 	"coll-remove_this_page": "Heta nga'örö andre moroi ba mbukumö",
 	"coll-show_collection": "Oroma'ö mbuku",
-	"coll-show_collection_tooltip": "Höndrögö ba wamulö'ö/wamailo/wowöli buku"
+	"coll-show_collection_tooltip": "Höndrögö ba wamulö'ö/wamailo/wowöli buku",
+	"coll-attribution-anons": "Sangoguna si lö töi: $1",
+	"coll-article-attribution": "<b>$1</b> <i>Umbu:</i> $2 <i>Kontributor:</i> $3"
 }
