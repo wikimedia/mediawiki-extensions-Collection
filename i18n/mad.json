@@ -14,8 +14,10 @@
 	"coll-add_this_page": "Tambâaghi kaca arèya ka buku bâ'na",
 	"coll-add_page_tooltip": "Tambâaghi kaca wiki arèya ka buku bâ'na",
 	"coll-help": "Bhântoan",
+	"coll-help_tooltip": "Angghâlaghi bhântoan paghâbâyân buku",
 	"coll-helppage": "Help:Buku",
 	"coll-n_pages": "$1 {{PLURAL:$1|kaca}}",
-	"coll-remove_this_page": "Buwâng kaca arèya dâri buku bâ'na",
-	"coll-show_collection": "Angghâlaghi buku"
+	"coll-remove_this_page": "Buwâng kaca rèya dâri buku bâ'na",
+	"coll-show_collection": "Angghâlaghi buku",
+	"coll-make_suggestions_tooltip": "Angghâlaghi saran adhâsâraghi kaca-kaca è bukuna bâ'na"
 }

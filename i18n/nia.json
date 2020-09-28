@@ -20,9 +20,13 @@
 	"coll-help": "Fanolo",
 	"coll-help_tooltip": "Oroma'ö wanolo ba wamazökhi buku",
 	"coll-helppage": "Help:Buku",
+	"coll-n_pages": "$1 {{PLURAL:$1|nga'örö}}",
 	"coll-remove_this_page": "Heta nga'örö andre moroi ba mbukumö",
 	"coll-show_collection": "Oroma'ö mbuku",
 	"coll-show_collection_tooltip": "Höndrögö ba wamulö'ö/wamailo/wowöli buku",
+	"coll-make_suggestions": "Tötöi nga'örö somasi ndra'ugö",
+	"coll-make_suggestions_tooltip": "Oroma'ö nga'örö tanö bö'ö si fakhili ba nga'örö si so bakha ba mbukumö",
 	"coll-attribution-anons": "Sangoguna si lö töi: $1",
-	"coll-article-attribution": "<b>$1</b> <i>Umbu:</i> $2 <i>Kontributor:</i> $3"
+	"coll-article-attribution": "<b>$1</b> <i>Umbu:</i> $2 <i>Kontributor:</i> $3",
+	"coll-image-attribution": "<b>$1</b> <i>Umbu:</i> $2 <i>Lisensi:</i> $3 <i>Kontributor:</i> $4 <i>Artis asli:</i> $5"
 }
