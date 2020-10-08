@@ -20,5 +20,6 @@
 	"coll-show_collection": "ⲟⲩⲱⲛϩ ⲟⲩϫⲱⲙ",
 	"coll-show_collection_tooltip": "ⲁⲣⲓⲱϥⲓ ⲉ ⲫⲱⲛϩ/ⲟⲡⲧⲥ ⲉⲡⲉⲥⲏⲧ/ϯϣⲁⲣⲟ ⲡⲉⲧⲉⲛϫⲱⲙ",
 	"coll-make_suggestions": "ϯⲙⲉⲩⲓ ⲛⲓϩⲟ",
-	"coll-attribution-anons": "ⲛ̀ⲁⲑⲣⲁⲛ: $1"
+	"coll-attribution-anons": "ⲛ̀ⲁⲑⲣⲁⲛ: $1",
+	"coll-image-attribution": "<b>$1</b> <i>ⲁⲣⲭⲏ:</i> $2 <i>ϫⲓⲛϯⲙⲁ:</i> $3 <i>ϩⲁⲛⲣⲉϥϯ:</i> $4 <i>ⲣⲉϥⲫⲟⲛⲕ ⲛ̀ⲁⲣⲭⲉⲟⲥ:</i> $5"
 }
