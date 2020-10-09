@@ -94,7 +94,7 @@
 	"coll-blacklisted-templates": "બ્લેકલિસ્ટ [[:$1]]માંના ઢાંચાઓ બાકાત રાખવામાં આવ્યા છે.",
 	"coll-book_title": "છાપેલા પુસ્તકની ફરમાયશ કરો",
 	"coll-book_text": "અમારા પ્રિન્ટ-ઓન-ડિમાન્ડ (આવશ્યકતા સમયે છાપી આપતા) ભાગીદાર પાસેથી પુસ્તક છપાવો",
-	"coll-order_from_pp": "$1માં ઝલક બતાવો",
+	"coll-order_from_pp": "$1 સાથે ઝલક બતાવો",
 	"coll-about_pp": "$1 વિષે",
 	"coll-invalid_podpartner_title": "Invalid POD partner",
 	"coll-invalid_podpartner_msg": "પસંદ કરેલ POD ભાગીદાર અમાન્ય છે.\nતમારા મીડિયાવિકિ પ્રબંધકનો સંપર્ક કરો.",
