@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Батыр Комдошев"
+		]
+	},
+	"coll-remove": "Јоголтып салар",
+	"coll-show": "Кӧргӱзер",
+	"coll-move_up": "Ӧрӧ јылдырар",
+	"coll-move_down": "Тӧмӧн јылдырар",
+	"coll-print_export": "Кепке базар/экспорт",
+	"coll-create_a_book": "Бичикти эдер",
+	"coll-download_as": "Мынай чыгарып алар $1",
+	"coll-remove_this_page": "Бу бӱкти ширтениҥ тизиминеҥ чыгарар",
+	"coll-image-attribution": "<b>$1</b> <i>Алган јери:</i> $2 <i>Лицензиязы:</i> $3 <i>Авторы:</i> $4 <i>Јурукчы:</i> $5"
+}

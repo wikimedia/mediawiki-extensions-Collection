@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amara-Amaziɣ"
+			"Amara-Amaziɣ",
+			"Ayour2002",
+			"Lhoussine AIT TAYFST"
 		]
 	},
 	"coll-desc": "[[Special:Book|ⵙⵏⵓⵍⴼⵓ ⵉⴷⵍⵉⵙⵏ]]",
@@ -9,27 +11,33 @@
 	"coll-collections": "ⵉⴷⵍⵉⵙⵏ",
 	"coll-download_title": "ⴰⴳⵎ",
 	"coll-download": "ⴰⴳⵎ",
-	"coll-remove": "ⴽⴽⵙ",
-	"coll-show": "ⵎⵍ",
-	"coll-move_up": "ⵖⵍⵢ",
-	"coll-move_down": "ⴳⴳⵯⵣ",
+	"coll-remove": "Kks",
+	"coll-show": "Ml",
+	"coll-move_up": "Ɣli",
+	"coll-move_down": "Ggʷiz",
 	"coll-contents": "ⵜⵓⵎⴰⵢⵉⵏ",
 	"coll-yes": "ⵢⴰⵀ",
 	"coll-no": "ⵓⵀⵓ",
 	"coll-rendering_page": "(ⵜⴰⵙⵏⴰ: $1)",
 	"coll-about_pp": "ⵖⴼ $1",
 	"coll-license": "ⵜⵓⵔⴰⴳⵜ",
-	"coll-create_a_book": "ⵙⵏⵓⵍⴼⵓ ⴽⵔⴰ ⵏ ⵓⴷⵍⵉⵙ",
-	"coll-book_creator": "ⴰⵎⵙⵏⵓⵍⴼⵓ ⵏ ⵉⴷⵍⵉⵙⵏ",
-	"coll-download_as": "ⴰⴳⵎ ⵜ ⵉⴷ ⵙ $1",
+	"coll-print_export": "Asiggz/Asifḍ",
+	"coll-create_a_book": "Rnu kran udlis",
+	"coll-book_creator": "Amsnulfu n idlisn",
+	"coll-download_as": "Agm-t-id s $1",
+	"coll-disable": "Sexsi",
+	"coll-book_creator_disable": "Ssexsi adlis n umsnflul",
+	"coll-add_page_tooltip": "Ssnulfu tasna yad n wiki i wdlis nk",
 	"coll-bookscategory": "ⵉⴷⵍⵉⵙⵏ",
-	"coll-help": "ⵜⵉⵡⵉⵙⵉ",
-	"coll-helppage": "Help:ⵉⴷⵍⵉⵙⵏ",
-	"coll-n_pages": "$1 {{PLURAL:$1|ⵜⴰⵙⵏⴰ|ⵜⴰⵙⵏⵉⵡⵉⵏ}}",
-	"coll-show_collection": "ⵎⵍ ⴰⴷⵍⵉⵙ",
-	"coll-show_collection_tooltip": "ⴽⵍⵉⴽⵉ ⴼⴰⴷ ⴰⴷ ⵜⵙⵏⴼⵍⵜ/ⵜⴰⴳⵎⵜ/ⵜⴹⴰⵍⴱⵜ ⴰⴷⵍⵉⵙ ⵏⵏⴽ·ⵎ",
-	"coll-make_suggestions": "ⵙⵙⵓⵎⵔ ⵜⴰⵙⵏⵉⵡⵉⵏ",
+	"coll-help": "Tiwisi",
+	"coll-helppage": "Help:Idlisn",
+	"coll-n_pages": "$1 {{PLURAL:$1|tasna|tasniwin}}",
+	"coll-remove_this_page": "Kks tasna ad zɣ udlis nnk",
+	"coll-show_collection": "Ml adlis",
+	"coll-show_collection_tooltip": "Add afad ad tsnflt/tagmt/tḍalbt adlis {{GENDER:|nnk|nnm}}",
+	"coll-make_suggestions": "Ssumr tasniwin",
 	"coll-setting-toc-yes": "ⵢⴰⵀ",
 	"coll-setting-toc-no": "ⵓⵀⵓ",
-	"coll-article-attribution": "<b>$1</b> <i>ⴰⵙⴰⴳⵎ :</i> $2 <i>ⵉⵎⴷⵔⴰⵡⵏ :</i> $3"
+	"coll-attribution-anons": "Aɣrib: $1",
+	"coll-article-attribution": "<b>$1</b> <i>Asagm:</i> $2 <i>Imdrawn:</i> $3"
 }
