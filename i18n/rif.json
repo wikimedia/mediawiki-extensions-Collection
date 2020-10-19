@@ -1,9 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Amara-Amaziɣ"
+			"Amara-Amaziɣ",
+			"Syphax Amaynu"
 		]
 	},
+	"coll-remove": "Kkes",
+	"coll-show": "sskn-d",
+	"coll-move_up": "Suli",
+	"coll-move_down": "Sehwa",
 	"coll-help": "ⵜⵉⵡⵉⵙⵉ",
 	"coll-helppage": "Help:ⵉⴷⵍⵉⵙⵏ",
 	"coll-n_pages": "$1 {{PLURAL:$1|ⵜⴰⵙⵏⴰ|ⵜⴰⵙⵏⵉⵡⵉⵏ}}"
