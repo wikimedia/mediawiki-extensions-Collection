@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Muotâ",
 			"Trondtr",
 			"Yupik"
 		]
@@ -15,7 +16,7 @@
 	"coll-print_export": "Printtii teikâ tuálvu",
 	"coll-create_a_book": "Räähti kirje",
 	"coll-book_creator": "Kirje huksimsaje",
-	"coll-download_as": "Luođii $1-tiätuvuárkkan",
+	"coll-download_as": "Luođii $1-tiätuvuárkkán",
 	"coll-disable": "Meddâlist kiävtust",
 	"coll-book_creator_disable": "Meddâlist kirje rähtimtile kiävtust",
 	"coll-book_creator_disable_tooltip": "Loopât kirje hammimtile",
