@@ -15,6 +15,8 @@
 	"coll-download_as": "Download gabe $1",
 	"coll-help": "Urupi",
 	"coll-helppage": "Help:Buku",
+	"coll-n_pages": "$1{{PLURAL:$1|alaman|angka alaman}}",
 	"coll-remove_this_page": "Pelean alaman on sian buku ni hamu",
-	"coll-show_collection": "Idahon buku"
+	"coll-show_collection": "Idahon buku",
+	"coll-make_suggestions": "Anjurhon alaman"
 }
