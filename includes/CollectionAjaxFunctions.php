@@ -162,7 +162,7 @@ class CollectionAjaxFunctions {
 				$title = $t->getPrefixedText();
 			}
 		}
-		if ( CollectionSession::findArticle( $title ) == - 1 ) {
+		if ( CollectionSession::findArticle( $title ) == -1 ) {
 			$result['action'] = 'add';
 			$result['text'] = wfMessage( 'coll-add_linked_article' )->text();
 			$result['img'] = "$imagePath/silk-add.png";

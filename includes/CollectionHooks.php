@@ -315,7 +315,7 @@ class CollectionHooks {
 			$collectionArgsJs = "mw.config.get('wgNamespaceNumber'), mw.config.get('wgTitle'), " .
 				Xml::encodeJsVar( $oldid );
 			if ( $ajaxHint == 'addarticle'
-				|| ( $ajaxHint == '' && CollectionSession::findArticle( $ptext, $oldid ) == - 1 ) ) {
+				|| ( $ajaxHint == '' && CollectionSession::findArticle( $ptext, $oldid ) == -1 ) ) {
 				$id = 'coll-add_article';
 				$icon = 'silk-add.png';
 				$captionMsg = 'coll-add_this_page';

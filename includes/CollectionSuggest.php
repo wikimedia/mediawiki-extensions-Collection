@@ -88,18 +88,18 @@ class CollectionSuggest {
 	 */
 	public static function undo( $lastAction, $article ) {
 		switch ( $lastAction ) {
-		case 'add':
-			$template = self::getCollectionSuggestTemplate( 'removeonly', $article );
-			break;
-		case 'ban':
-			$template = self::getCollectionSuggestTemplate( 'unban', $article );
-			break;
-		case 'remove':
-			$template = self::getCollectionSuggestTemplate( 'add', $article );
-			break;
-		default:
-			// FIXME: Is this even possible? Shouldn't this fail with an exception?
-			return [];
+			case 'add':
+				$template = self::getCollectionSuggestTemplate( 'removeonly', $article );
+				break;
+			case 'ban':
+				$template = self::getCollectionSuggestTemplate( 'unban', $article );
+				break;
+			case 'remove':
+				$template = self::getCollectionSuggestTemplate( 'add', $article );
+				break;
+			default:
+				// FIXME: Is this even possible? Shouldn't this fail with an exception?
+				return [];
 		}
 		return [
 			'suggestions_html' => $template->getProposalList(),

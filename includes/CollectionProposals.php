@@ -168,7 +168,7 @@ class CollectionProposals {
 	private function deleteUnusedArticles() {
 		$newList = [];
 		foreach ( $this->mLinkList as $item ) {
-			if ( CollectionSession::findArticle( $item['name'] ) != - 1 ) {
+			if ( CollectionSession::findArticle( $item['name'] ) != -1 ) {
 				$newList[] = $item;
 			}
 		}

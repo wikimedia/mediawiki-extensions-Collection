@@ -125,7 +125,7 @@ class CollectionSession {
 	 */
 	public static function findArticle( $title, $oldid = 0 ) {
 		if ( !self::hasItems() ) {
-			return - 1;
+			return -1;
 		}
 
 		$session = SessionManager::getGlobalSession();
@@ -143,7 +143,7 @@ class CollectionSession {
 				}
 			}
 		}
-		return - 1;
+		return -1;
 	}
 
 	/**
