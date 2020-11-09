@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Anugrahgori",
 			"Slaia"
 		]
 	},
@@ -9,7 +10,7 @@
 	"coll-move_up": "Sösögö miyaŵa",
 	"coll-move_down": "Sösögö mitou",
 	"coll-print_export": "Raka/Ekspor",
-	"coll-create_a_book": "Bali'ö sambua buku",
+	"coll-create_a_book": "Fazökhi sambua buku",
 	"coll-book_creator": "Sama'anö buku",
 	"coll-download_as": "Failo'ö tobali $1",
 	"coll-disable": "batogö",

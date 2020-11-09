@@ -1,13 +1,20 @@
 {
 	"@metadata": {
 		"authors": [
+			"ChoiChong",
 			"Moon0319",
 			"Араси"
 		]
 	},
+	"coll-remove": "ᠠᠴᡳᠩᡤᡳᠶᠠᠮᠪᡳ",
 	"coll-show": "ᡳᠯᡝᡨᡠᠯᡝᡵᡝ",
 	"coll-move_up": "ᡡᡝᡵᠰᡮᡥᡠᡳᡡᡳᠩ ᠣᡦ",
 	"coll-move_down": "ᡡᡝᡵᠰᡮᡥᡠᡳᡡᡳᠩ ᠣᠨᡩᡝᡵ",
 	"coll-create_a_book": "ᠪᡳᡨ᠌ᡥᡝ  ᠪᡝ ᠪᠠᠨᠵᡳᠪᡠᡴᡳ",
-	"coll-help": "ᠠᡳᠰᡳᠯᠠᡵᠠᠩᡤᡝ"
+	"coll-book_creator": "ᡶᡠᡴᠵᡳᠯᡝᠮᠪᡳ ᠪᡳᡨᡥᡝ",
+	"coll-disable": "ᠪᠠᡳᡨᠠᠯᠠᠮᠪᡳ ᠨᠠᡴᠠᠮᠪᡳ",
+	"coll-help": "ᠠᡳᠰᡳᠯᠠᡵᠠᠩᡤᡝ",
+	"coll-helppage": "Help:ᠪᡳᡨᡥᡝ",
+	"coll-show_collection": "ᡳᠯᡝᡨᡠᠯᡝᠮᠪᡳ ᠪᡳᡨᡥᡝ",
+	"coll-attribution-anons": "ᠠᡴᡡ-ᡤᡝᠪᡠ：$1"
 }
