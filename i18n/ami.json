@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Akamycoco",
 			"Vickylin77s"
 		]
 	},
@@ -15,6 +16,7 @@
 	"coll-create_a_book": "misanga’ to codad",
 	"coll-book_creator": "codad misanga’ cen-se",
 	"coll-download_as": "Pala- $1 a mi’anang",
+	"coll-disable": "materepay",
 	"coll-book_creator_disable": " materepay codad misanga’ cen-se",
 	"coll-book_creator_disable_tooltip": "materepay codad misanga’ cen-se",
 	"coll-add_this_page": "Mikapot a micomod tonini a feliha tayra i codad no miso",
