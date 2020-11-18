@@ -24,7 +24,7 @@
 	"coll-help": "o pakafana’",
 	"coll-help_tooltip": "pahapinangen kora sapakafana’ to pisanga’ to codad",
 	"coll-helppage": "Help:codad",
-	"coll-n_pages": "$1 ko felih",
+	"coll-n_pages": "$1{{PLURAL:$1|ko felih}}",
 	"coll-remove_this_page": "falahen kona felih nani codad no miso",
 	"coll-show_collection": "pahapinang to codad",
 	"coll-show_collection_tooltip": " pili’en a mimi^mi konini a misinanot, miterek ano eca pali’ayaw micakay to codad no miso",
