@@ -5,12 +5,5 @@
 			"KATRINE1993"
 		]
 	},
-	"coll-remove": "Quitar, eliminar",
-	"coll-show": "Mostrar",
-	"coll-move_up": "Subir",
-	"coll-move_down": "Bajar",
-	"coll-print_export": "Imprimir/exportar",
-	"coll-create_a_book": "Crear un libro",
-	"coll-download_as": "Descargar como $1",
 	"coll-remove_this_page": "Quitar esta página de su lista de seguimiento"
 }
