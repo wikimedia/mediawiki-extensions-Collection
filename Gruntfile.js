@@ -10,17 +10,16 @@ module.exports = function ( grunt ) {
 				cache: true
 			},
 			all: [
-				'*.js',
-				'**/*.json',
-				'resources/**/*.js',
-				'!node_modules/**'
+				'**/*.{json,js}',
+				'!node_modules/**',
+				'!vendor/**'
 			]
 		},
 		stylelint: {
 			all: [
-				'resources/**/*.css',
-				'resources/**/*.less',
-				'!node_modules/**'
+				'**/*.{css,less}',
+				'!node_modules/**',
+				'!vendor/**'
 			]
 		},
 		banana: {
