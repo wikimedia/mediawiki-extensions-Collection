@@ -68,6 +68,7 @@
 			"scripts": "ext.collection.bookcreator/bookcreator.js",
 			"dependencies": [
 				"jquery.jStorage",
+				"mediawiki.util",
 				"ext.collection.bookcreator.styles"
 			]
 		},
