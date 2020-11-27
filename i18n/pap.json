@@ -1,9 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Irus"
+			"Irus",
+			"ObaTango"
 		]
 	},
+	"coll-remove": "Eliminá",
+	"coll-show": "Mustra",
 	"coll-create_a_book": "Krea un buki",
-	"coll-download_as": "Deskargá manera $1"
+	"coll-download_as": "Deskargá komo $1"
 }
