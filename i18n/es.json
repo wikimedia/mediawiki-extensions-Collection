@@ -210,7 +210,7 @@
 	"coll-warning-disable-pdf-text": "A causa de problemas graves en nuestro sistema existente, el creador de libros no admitirá la generación de libros en PDF.",
 	"coll-warning-learn-more": "Más información",
 	"coll-notice-download-pdf-title": "Descargar páginas individuales",
-	"coll-notice-download-pdf-text": "Estamos en proceso de sustituir el procesador de PDF del Creador de libros. En el ínterin, puedes probar la opción «'''Descargar como PDF'''» en la barra lateral para artículos individuales.",
+	"coll-notice-download-pdf-text": "Aunque la representación en PDF del Creador de libros está desactivada, se puede utilizar la opción '''''Descargar como PDF''''' en la barra lateral para artículos individuales.",
 	"coll-toc-title": "Sumario",
 	"coll-contributors-title": "Colaboradores",
 	"coll-images-title": "Imágenes",
