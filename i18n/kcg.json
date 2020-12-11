@@ -1,0 +1,15 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kambai Akau"
+		]
+	},
+	"coll-remove": "Turung",
+	"coll-show": "Tsa",
+	"coll-move_up": "Shyei a̠za",
+	"coll-move_down": "Shyei a̠tak",
+	"coll-print_export": "Lwi/Ghwut ndyo",
+	"coll-create_a_book": "Mat kwambwat",
+	"coll-download_as": "Cyok ndyo nang $1",
+	"coll-remove_this_page": "Turung peji jini neet kwambwat ang hu"
+}
