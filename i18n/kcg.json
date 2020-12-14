@@ -10,6 +10,18 @@
 	"coll-move_down": "Shyei a̠tak",
 	"coll-print_export": "Lwi/Ghwut ndyo",
 	"coll-create_a_book": "Mat kwambwat",
+	"coll-book_creator": "A̠tyumat kwambwat",
 	"coll-download_as": "Cyok ndyo nang $1",
-	"coll-remove_this_page": "Turung peji jini neet kwambwat ang hu"
+	"coll-disable": "hyat",
+	"coll-book_creator_disable": "Hyat kyangmat kwambwat",
+	"coll-book_creator_disable_tooltip": "Yok nyian ta̠m ma̠ng kyangmat kwambwat hu",
+	"coll-add_page_tooltip": "Mbeang peji wiki yong huni ma̠ kwambwat ang hu",
+	"coll-help": "Beang",
+	"coll-help_tooltip": "Tsa beang tazwa mat nkwambwat",
+	"coll-helppage": "Help:Nkwambwat",
+	"coll-remove_this_page": "Turung peji jini neet kwambwat ang hu",
+	"coll-show_collection": "Tsa kwambwat",
+	"coll-show_collection_tooltip": "Nyap a jhyuk/cyok ma̠ng/nyia̠ oda kwambwat ang hu",
+	"coll-attribution-anons": "A̠sanga̠lyoot: $1",
+	"coll-article-attribution": "<b>$1</b> <i>A̠vwuoneet:</i> $2 <i>Á̠nietnwuat:</i> $3"
 }
