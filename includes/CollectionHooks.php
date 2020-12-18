@@ -58,7 +58,7 @@ class CollectionHooks {
 	public static function onSidebarBeforeOutput( Skin $skin, &$sidebar ) {
 		global $wgCollectionPortletForLoggedInUsersOnly;
 
-		if ( !$wgCollectionPortletForLoggedInUsersOnly || $skin->getUser()->isLoggedIn() ) {
+		if ( !$wgCollectionPortletForLoggedInUsersOnly || $skin->getUser()->isRegistered() ) {
 
 			$portlet = self::getPortlet( $skin );
 

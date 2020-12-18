@@ -209,7 +209,7 @@ class CollectionPageTemplate extends QuickTemplate {
 			}
 			echo $this->getDownloadForm( $context, $this->data['formats'] );
 			$user = $context->getUser();
-			if ( $user->isLoggedIn() ) {
+			if ( $user->isRegistered() ) {
 				$canSaveUserPage = $user->isAllowed( 'collectionsaveasuserpage' );
 				$canSaveCommunityPage = $user->isAllowed( 'collectionsaveascommunitypage' );
 			} else {
