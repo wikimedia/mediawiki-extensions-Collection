@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Erdemaslancan",
 			"Ganbarzada",
 			"Patriot Kur",
@@ -16,7 +17,7 @@
 	"coll-move_up": "Bəpe barde",
 	"coll-move_down": "Beyji barde",
 	"coll-title": "Sərlovhə:",
-	"coll-contents": "Мәзмунон.",
+	"coll-contents": "Мәзмунон",
 	"coll-rename": "Номи дәгиш кардеј",
 	"coll-yes": "Ha",
 	"coll-no": "Ne",
