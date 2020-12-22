@@ -5,10 +5,12 @@
 			"Khalid Mahmood"
 		]
 	},
+	"coll-format_label": "فارمیٹ:",
 	"coll-remove": "ہٹاؤ",
 	"coll-show": "وکھاؤ",
 	"coll-move_up": "اتے لے جاؤ",
 	"coll-move_down": "تھلے لے آؤ",
+	"coll-cancel": "رد کرو",
 	"coll-print_export": "چھاپو/اگے بھیجو",
 	"coll-create_a_book": "کتاب بناؤ",
 	"coll-book_creator": "کتاب بنانوالا",
