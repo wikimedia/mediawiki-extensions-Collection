@@ -12,8 +12,6 @@
 	"coll-download_title": "Download karo",
 	"coll-remove": "Hatao",
 	"coll-show": "Dekhao",
-	"coll-move_up": "Move up",
-	"coll-move_down": "Move down",
 	"coll-yes": "Haan",
 	"coll-no": "Nai",
 	"coll-print_export": "Print/export karo",
@@ -30,15 +28,10 @@
 	"coll-add_page_tooltip": "Abhi ke wiki panna ke book me jorro",
 	"coll-help": "Madat",
 	"coll-help_tooltip": "Book banae ke baare me madat dekhao",
-	"coll-helppage": "Help:Books",
 	"coll-n_pages": "$1 {{PLURAL:$1|panna}}",
 	"coll-remove_this_page": "Aapan buk se ii panna ke hatao",
 	"coll-show_collection": "Book dekhao",
-	"coll-show_collection_tooltip": "Click to edit/download/order your book",
 	"coll-make_suggestions": "Panna ke suggest karo",
 	"coll-make_suggestions_tooltip": "Uu suggestion ke dekhao jon ki aap ke book ke panna pe aadharit hai",
-	"coll-suggest_empty": "khaali",
-	"coll-attribution-anons": "Anonymous: $1",
-	"coll-article-attribution": "<b>$1</b> <i>Source:</i> $2 <i>Contributors:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Source:</i> $2 <i>License:</i> $3 <i>Contributors:</i> $4 <i>Original artist:</i> $5"
+	"coll-suggest_empty": "khaali"
 }
