@@ -4,6 +4,9 @@
 			"Salvemm el lombard"
 		]
 	},
+	"coll-cancel": "Anula",
+	"coll-update": "Asgiorna",
+	"coll-limit_exceeded_title": "Liber trop grand",
 	"coll-print_export": "Stampa/esporta",
 	"coll-download_as": "descarega come $1"
 }
