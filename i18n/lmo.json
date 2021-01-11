@@ -4,9 +4,11 @@
 			"Salvemm el lombard"
 		]
 	},
+	"coll-collection": "Liber",
+	"coll-collections": "Liber",
 	"coll-cancel": "Anula",
 	"coll-update": "Asgiorna",
-	"coll-limit_exceeded_title": "Liber trop grand",
+	"coll-limit_exceeded_title": "Liber trop grant",
 	"coll-print_export": "Stampa/esporta",
-	"coll-download_as": "descarega come $1"
+	"coll-download_as": "Descarega come $1"
 }
