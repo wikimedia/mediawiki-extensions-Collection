@@ -67,7 +67,7 @@
 	"coll-append": "Sgionta adree",
 	"coll-cancel": "Anula",
 	"coll-update": "Asgiorna",
-	"coll-limit_exceeded_title": "Liber trop grant",
+	"coll-limit_exceeded_title": "Liber trop grand",
 	"coll-limit_exceeded_text": "El to liber l'è trop grand.\nNo l'è pu possibil sgiontagh di pagine.",
 	"coll-rendering_title": "Realizazzion",
 	"coll-rendering_text": "<p><strong>Speta intanta che 'l document l'è dree a vesser ingenerad.</strong></p>\n\n<p><strong>Progress:</strong> <span id=\"renderingProgress\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p>Questa pagina chì la gh'avariss de asgionrass ogni on pocc de segond\nSe 'l succed minga, schiscia el pulsant de asgiornament de to programa de navigazzion.</p>",
