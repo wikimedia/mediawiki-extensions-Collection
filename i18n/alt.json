@@ -11,7 +11,7 @@
 	"coll-print_export": "Кепке базар/экспорт",
 	"coll-create_a_book": "Бичикти эдер",
 	"coll-book_creator": "Бичиктиҥ тӧзӧлгӧзи",
-	"coll-download_as": "Мынай чыгарып алар $1",
+	"coll-download_as": "$1 этире чыгарып алар",
 	"coll-disable": "Токтодор",
 	"coll-book_creator_disable": "Бичик јайаачыны токтодып салар",
 	"coll-book_creator_disable_tooltip": "Бичик јайаап эдинерин токтодор",
