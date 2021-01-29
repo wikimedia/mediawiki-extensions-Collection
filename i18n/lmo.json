@@ -93,7 +93,7 @@
 	"coll-download_notfound_title": "Fail minga trovad",
 	"coll-download_notfound_text": "El fail che te se 'dree a descaregà l'esist minga; facilment l'è stad scancelad el gh'hà de vesser cread  anmò.",
 	"coll-download_failed_title": "Eror in el cors del descaregament",
-	"coll-download_failed_text": "A l'è capità un eror ind el cors del descaregament del fail: $1",
+	"coll-download_failed_text": "A l'è capità un eror in del cors del descaregament del fail: $1",
 	"coll-is_cached": "<ul><li>Una version del document l'è stada trovada ind la cache; a gh'è stad minga besogn de realizzall. [$1 Sforza la realizzazion anmò].</li></ul>",
 	"coll-excluded-templates": "* I modei de la categoria [[:Category:$1|$1]] a inn stad tegnud foeura.",
 	"coll-blacklisted-templates": "* I modei in la lista negra [[:$1]] a inn stad tegnud foeura.",
