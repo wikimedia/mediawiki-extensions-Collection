@@ -187,7 +187,7 @@
 	"coll-warning-disable-pdf-title": "Book Creator is undergoing changes",
 	"coll-warning-disable-pdf-text": "Due to severe issues with our existing system, the Book Creator will no longer support saving a book as a PDF.",
 	"coll-warning-learn-more": "Learn more",
-	"coll-notice-download-pdf-title" : "Download single pages",
+	"coll-notice-download-pdf-title": "Download single pages",
 	"coll-notice-download-pdf-text": "While the Book Creator PDF rendering is disabled, you can try '''''Download as PDF''''' from the sidebar tools for individual articles.",
 	"coll-toc-title": "Table of Contents",
 	"coll-contributors-title": "Contributors",
