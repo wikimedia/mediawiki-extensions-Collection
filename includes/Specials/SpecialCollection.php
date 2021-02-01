@@ -439,8 +439,7 @@ class SpecialCollection extends SpecialPage {
 		$title_string = $this->msg( 'coll-book_creator_text_article' )->inContentLanguage()->text();
 		$t = Title::newFromText( $title_string );
 		if ( $t !== null ) {
-			$wikiPage = WikiPage::factory( $t );
-			if ( $wikiPage->exists() ) {
+			if ( $t->exists() ) {
 				$out->addWikiTextAsInterface( '{{:' . $title_string . '}}' );
 				return;
 			}
@@ -918,8 +917,7 @@ class SpecialCollection extends SpecialPage {
 				return null;
 			}
 
-			$wikiPage = WikiPage::factory( $articleTitle );
-			if ( !$wikiPage->exists() ) {
+			if ( !$articleTitle->exists() ) {
 				return null;
 			}
 
@@ -929,7 +927,7 @@ class SpecialCollection extends SpecialPage {
 			if ( !$revision ) {
 				return null;
 			}
-			$latest = $wikiPage->getLatest();
+			$latest = $articleTitle->getLatestRevID();
 
 			if ( !$oldid ) {
 				$oldid = $latest;
@@ -999,8 +997,7 @@ class SpecialCollection extends SpecialPage {
 	 * @return bool
 	 */
 	private function saveCollection( Title $title, $forceOverwrite = false ) {
-		$wikiPage = WikiPage::factory( $title );
-		if ( $wikiPage->exists() && !$forceOverwrite ) {
+		if ( $title->exists() && !$forceOverwrite ) {
 			return false;
 		}
 
