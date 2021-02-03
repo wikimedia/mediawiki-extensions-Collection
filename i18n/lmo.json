@@ -77,7 +77,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informazzion sora la rappresentazzion di pagine",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informazzion sora la rappresentazzion di colezzion",
 	"coll-rendering_finished_title": "Rappresentazzion finida",
-	"coll-rendering_finished_text": "<strong>El document l'è stad cread.</strong>\n<strong>[$1 Descrega el fail]</strong> ind el to compiuter.",
+	"coll-rendering_finished_text": "<strong>El document l'è stad cread.</strong>\n<strong>[$1 Descrega el fail]</strong> in del to compiuter.",
 	"coll-rendering_finished_notes_heading": "Note:",
 	"coll-rendering_finished_note_not_satisfied": "Te see minga sodisfad del risultad? Varda [[{{MediaWiki:Coll-helppage}}|la pagina de ajut sora i liber]] per podè migliorall.",
 	"coll-rendering_finished_note_article_rdf2latex": "Adesedess on quai document el gh'hà minga dent di tabelle. Inscambi a se podaria drovà \"$1\", selezionà \"Stampa\" ind el menu del programa de navigazzion, e drovà la fonzion \"Salva come PDF\".",
@@ -192,9 +192,9 @@
 	"coll-images-original-artist": "Artista original",
 	"coll-license-title": "Licenza del contegnud",
 	"coll-rendererror-title": "Impossibil ingenerà el liber",
-	"coll-rendererror-no-session": "Definizzion del liber minga trovada ind la session. La podariss vesser stada scartada per via de l'ozzi.",
+	"coll-rendererror-no-session": "Definizzion del liber minga trovada in la session. La podariss vesser stada scartada per via de l'ozzi.",
 	"coll-rendererror-pdf": "Realizazzion PDF minga riessida: $1",
 	"coll-rendererror-fetch": "Recuper $1 minga riessid: $2",
 	"coll-rendererror-fetch-wrapper": "A inn capitad di eror intanta che 'l sistema l'era 'dree a recuperà i contegnud de la pagina:\n$1",
-	"coll-rendererror-no-cache": "I dati del liber a inn stada minga trovad ind la cache. Facilment l'è un eror de la programadura."
+	"coll-rendererror-no-cache": "I dati del liber a inn stada minga trovad in la cache. Facilment l'è un eror de la programadura."
 }
