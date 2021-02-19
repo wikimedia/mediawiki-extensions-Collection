@@ -80,7 +80,7 @@
 	"coll-rendering_finished_text": "<strong>El document l'è stad cread.</strong>\n<strong>[$1 Descrega el fail]</strong> in del to compiuter.",
 	"coll-rendering_finished_notes_heading": "Note:",
 	"coll-rendering_finished_note_not_satisfied": "Te see minga sodisfad del risultad? Varda [[{{MediaWiki:Coll-helppage}}|la pagina de ajut sora i liber]] per podè migliorall.",
-	"coll-rendering_finished_note_article_rdf2latex": "Adesedess on quai document el gh'hà minga dent di tabelle. Inscambi a se podaria drovà \"$1\", selezionà \"Stampa\" in del menu del programa de navigazzion, e drovà la fonzion \"Salva come PDF\".",
+	"coll-rendering_finished_note_article_rdf2latex": "On quai document el gh'hà minga dent di tabelle adsedess. Inscambi a se podaria drovà \"$1\", selezionà \"Stampa\" in del menu del programa de navigazzion, e drovà la fonzion \"Salva come PDF\".",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informazzion sora la realizazzion di pagine",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informazzion sora la realizzazion di colezzion",
 	"coll-rendering_failed_title": "Realizazzion fallada",
