@@ -50,7 +50,7 @@ Installation and Configuration of the Collection Extension
 
 * Put this line in your ``LocalSettings.php``::
 
-    require_once("$IP/extensions/Collection/Collection.php");
+    wfLoadExtension( 'Collection' );
 
 If you intend to use the public render server, you're now ready to go.
 
@@ -343,9 +343,8 @@ You may also want to configure some of the following:
 
     [{{fullurl:Special:Book|bookcmd=load_collection&amp;colltitle={{FULLPAGENAMEE}}}} Book&nbsp;Creator]
 
-* To enable ZENO and Okawix export, uncomment the corresponding lines in
-  ``$wgCollectionFormats`` (file Collection.php). These exports are devoted
-  to the Wikimedia projects and their mirrors.
+* To enable ZENO and Okawix export, set ``$wgCollectionFormats`` in your LocalSettings.php.
+  These exports are devoted to the Wikimedia projects and their mirrors.
 
   They cannot be used on other wikis since they get data and search engine
   indexes from the cache of wikiwix.com.
