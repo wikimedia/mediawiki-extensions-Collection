@@ -123,8 +123,6 @@
 	"coll-download_failed_title": "Unused at this time.\n\nUsed as title for the error message {{msg-mw|Coll-download failed text}}.",
 	"coll-download_failed_text": "Unused at this time.\n\nUsed as error message. Parameters:\n* $1 - filename\nThe title for this message is {{msg-mw|Coll-download failed title}}.",
 	"coll-is_cached": "Parameters:\n* $1 - URL of Special:Book?bookcmd=forcerender",
-	"coll-excluded-templates": "Part of the text of the special page \"Rendering finished\" which appears after clicking on 'Download' and a book has been generated.\n\nParameters:\n* $1 - the message {{msg-mw|Coll-exclusion category title}}",
-	"coll-blacklisted-templates": "Part of the text of the special page 'Rendering finished' which appears after clicking on 'Download' and a book has been generated.\n\nParameters:\n* $1 - the message {{msg-mw|Coll-template blacklist title}}",
 	"coll-book_title": "Used as headline",
 	"coll-book_text": "Used as text",
 	"coll-order_from_pp": "Used as label for the Submit button. Parameters:\n* $1 - the name of a print provider (a company name)",
