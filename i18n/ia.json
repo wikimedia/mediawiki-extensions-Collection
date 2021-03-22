@@ -96,8 +96,6 @@
 	"coll-download_failed_title": "Error durante le discargamento",
 	"coll-download_failed_text": "Il occurreva un error durante le discargamento del file: $1",
 	"coll-is_cached": "<ul><li>Un version del documento ha essite trovate in le cache, ergo non esseva necessari facer un altere rendition. [$1 Fortiar le re-rendition.]</li></ul>",
-	"coll-excluded-templates": "* Le patronos in le categoria [[:Category:$1|$1]] ha essite excludite.",
-	"coll-blacklisted-templates": "* Le patronos in le lista nigre [[:$1]] ha essite excludite.",
 	"coll-book_title": "Commandar como libro imprimite",
 	"coll-book_text": "Obtene un libro imprimite de nostre partenario de impression a requesta (print on demand):",
 	"coll-order_from_pp": "Previsualisar con $1",

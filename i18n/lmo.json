@@ -95,8 +95,6 @@
 	"coll-download_failed_title": "Eror in el cors del descaregament",
 	"coll-download_failed_text": "A l'è capità un eror in del cors del descaregament del fail: $1",
 	"coll-is_cached": "<ul><li>Una version del document l'è stada trovada in la cache; a gh'è stad minga besogn de realizzall. [$1 Sforza la realizzazion anmò].</li></ul>",
-	"coll-excluded-templates": "* I modei de la categoria [[:Category:$1|$1]] a inn stad tegnud foeura.",
-	"coll-blacklisted-templates": "* I modei in la lista negra [[:$1]] a inn stad tegnud foeura.",
 	"coll-book_title": "Met in ordin compagn che un liber stampad",
 	"coll-book_text": "Oten un liber stampad d'un noster colaborador de stampa su comandà (stampa-su-comandà):",
 	"coll-order_from_pp": "Previsualizazzion con $1",

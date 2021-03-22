@@ -122,8 +122,6 @@
 	"coll-download_failed_title": "Error durante la descarga",
 	"coll-download_failed_text": "Hubo un error cuando se descargaba el archivo: $1",
 	"coll-is_cached": "<ul><li>Se ha encontrado una versión en caché del documento, por lo que no fue necesario representarlo. [$1 Forzar representación].</li></ul>",
-	"coll-excluded-templates": "* Se han excluido las plantillas de la categoría [[:Category:$1|$1]].",
-	"coll-blacklisted-templates": "* Se han excluido las plantillas en la lista negra [[:$1]].",
 	"coll-book_title": "Solicitar el libro impreso",
 	"coll-book_text": "Obtener un libro impreso de uno de nuestros socios para solicitudes de impresión.",
 	"coll-order_from_pp": "Previsualizar con $1",

@@ -100,8 +100,6 @@
 	"coll-download_failed_title": "Error durant la baixada",
 	"coll-download_failed_text": "S'ha produït un error en descarregar l'arxiu: $1",
 	"coll-is_cached": "<ul><li>S'ha trobat una versió del document en la memòria cau i per tant no ha estat necessària cap renderització. [$1 Forçar renderització.]</li></ul>",
-	"coll-excluded-templates": "* No s'han inclòs les plantilles de la categoria [[:Category:$1|$1]].",
-	"coll-blacklisted-templates": "* S'han exclòs les plantilles de la llista negra [[:$1]].",
 	"coll-book_title": "Encarrega-ho com a llibre imprès",
 	"coll-book_text": "Obtenir el llibre imprès del nostre soci de peticions d'impressió:",
 	"coll-order_from_pp": "Previsualització amb $1",

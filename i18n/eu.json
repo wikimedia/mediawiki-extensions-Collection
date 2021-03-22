@@ -92,8 +92,6 @@
 	"coll-download_failed_title": "Akatsa suertatu da jaisterakoan",
 	"coll-download_failed_text": "Akats bat egon da $1 fitxategia jaisten ari zela",
 	"coll-is_cached": "<ul><li>Katxean dokumentuaren bertsio bat aurktiu da, beraz renderizatzea ez da beharrezkoa izan. [$1 Berriro renderizatzera derrigortu.]</li></ul>",
-	"coll-excluded-templates": "* [[:Category:$1|$1]] kategorian dauden txantiloiak ez dira sartu.",
-	"coll-blacklisted-templates": "* [[:$1]] zerrenda beltzeko txantiloiak ez dira sartu.",
 	"coll-book_title": "Inprimatutako liburu gisa eskatu",
 	"coll-book_text": "Eska iezaiozu inprimatutako liburu bat gure eskatutakoa-inprimatu kideari:",
 	"coll-order_from_pp": "$1-(e)kin aurrikusi",

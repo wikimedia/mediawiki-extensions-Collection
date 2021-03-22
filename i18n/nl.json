@@ -114,8 +114,6 @@
 	"coll-download_failed_title": "Fout bij het downloaden",
 	"coll-download_failed_text": "Er is een fout opgetreden bij het downloaden: $1",
 	"coll-is_cached": "<ul><li>Er is een versie van het document beschikbaar in de cache, dus opnieuw renderen was niet nodig.\n[$1 Opnieuw renderen.]</li></ul>",
-	"coll-excluded-templates": "* Sjablonen in de categorie [[:Category:$1|$1]] worden genegeerd.",
-	"coll-blacklisted-templates": "* Sjablonen op de zwarte lijst [[:$1]] worden genegeerd.",
 	"coll-book_title": "Als gedrukt boek bestellen",
 	"coll-book_text": "U kunt een gedrukt boek bestellen bij een print-on-demand-partner:",
 	"coll-order_from_pp": "Voorvertoning van $1",

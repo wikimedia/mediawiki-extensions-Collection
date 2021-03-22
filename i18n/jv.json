@@ -92,8 +92,6 @@
 	"coll-download_failed_title": "Masalah nalika ngundhuh",
 	"coll-download_failed_text": "Ana masalah nalika ngundhuh barkas: $1",
 	"coll-is_cached": "<ul><li>Vèrsi kasimpen saka dokumèn iki wis ditemokaké, mula ora perlu ana pangowahan (''rendering''). [$1 Peksa ''re-rendering''.]</li></ul>",
-	"coll-excluded-templates": "* Cithakan-cithakan ing kategori [[:Category:$1|$1]] wis di wetokaké.",
-	"coll-blacklisted-templates": "* Cithakan-cithakan ing dhaptar-ireng [[:$1]] wis diwetokaké.",
 	"coll-book_title": "Urut kaya buku cithakan",
 	"coll-book_text": "Jupuken buku cithakan saka partner ''print-on-demand'' kita:",
 	"coll-order_from_pp": "Pratuduh nganggo $1",

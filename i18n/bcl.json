@@ -89,8 +89,6 @@
 	"coll-download_failed_title": "Kasalaan mantang ikinakarga",
 	"coll-download_failed_text": "Nagkaigwa nin kasalaan kunsoarin ikinakarga an bangay: $1",
 	"coll-is_cached": "<ul><li>Sarong nakatagong bersyon kan dokumento nanagboan, kaya mayong paghahaya an kinakaipuhan.[$1 Pirit na paghayaon otro.]</li></ul>",
-	"coll-excluded-templates": "* Mga templato sa kategoriya [[:Category:$1|$1]] dae na pinagbali.",
-	"coll-blacklisted-templates": "* Mga templato sa pinaghaboan [[:$1]] dae na pinagbali.",
 	"coll-book_title": "Pasurunod bilang sarong imprintadong libro",
 	"coll-book_text": "Magkua nin sarong imprintadong libro gikan sa samuyang kasosyo sa imprintaron-kun-kinakaipo.",
 	"coll-order_from_pp": "Patanaw sa $1",

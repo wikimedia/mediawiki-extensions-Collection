@@ -87,8 +87,6 @@
 	"coll-download_failed_title": "Sayop ha durante han pagkarga-paubos",
 	"coll-download_failed_text": "May-ada sayop han pagkarga-paubos an paypay: $1",
 	"coll-is_cached": "<ul><li>Nabilngan an cached version han dokumento, waray na rendering nga kinahanglan.\n[$1 Pirit hin pag-utro hit pagrender. ]</li></ul>",
-	"coll-excluded-templates": "* An mga batakan ha kaarangay nga [[:Category:$1|$1]] in waray gin-apil.",
-	"coll-blacklisted-templates": "* An mga batakan nga naka-blacklist [[:$1]] in waray gin-apil.",
 	"coll-book_title": "Ig-order komo uska imprentado nga libro",
 	"coll-book_text": "Kuha hin imprentado nga libro tikang han amon kapartner nga print-on-demand.",
 	"coll-order_from_pp": "Pahiunaa pagkita an $1",

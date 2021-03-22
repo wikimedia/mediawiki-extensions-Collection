@@ -117,8 +117,6 @@
 	"coll-download_failed_title": "İndirme sırasında hata",
 	"coll-download_failed_text": "Dosya indirilirken hata oluştu: $1",
 	"coll-is_cached": "<ul><li>Belgenin önbellekteki bir sürümü bulundu, bu yüzden oluşturmaya gerekmemektedir. [$1 Yeniden oluşturmaya zorla].</li></ul>",
-	"coll-excluded-templates": "* [[:Category:$1|$1]] kategorisindeki şablonlar hariç tutuldu.",
-	"coll-blacklisted-templates": "* [[:$1]] kara listesindeki şablonlar hariç tutuldu.",
 	"coll-book_title": "Basılı bir kitap olarak sipariş et",
 	"coll-book_text": "Talebe-göre-basım ortağımızdan basılı bir kitap al:",
 	"coll-order_from_pp": "$1 ile önizle",

@@ -106,8 +106,6 @@
 	"coll-download_failed_title": "Eraro dum elŝuto",
 	"coll-download_failed_text": "Estis eraro kiam elŝutante la dosieron: $1",
 	"coll-is_cached": "<ul><li>Kaŝmemora versio de la dokumento estis trovita, tial bildigado ne bezonis.[$1 Devigi re-bildigadon.]</li></ul>",
-	"coll-excluded-templates": "* Ŝablonoj en kategorio [[:Category:$1|$1]] estis ekskluzivita.",
-	"coll-blacklisted-templates": "* Ŝablonoj en nigralisto [[:$1]] estis malebligitaj.",
 	"coll-book_title": "Mendi kiel presitan libron",
 	"coll-book_text": "Akiri presitan libron de nia ek-eldoneja partnero:",
 	"coll-order_from_pp": "Antaŭvidi kun $1",

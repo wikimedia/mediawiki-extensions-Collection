@@ -107,8 +107,6 @@
 	"coll-download_failed_title": "Feil under nedlasting",
 	"coll-download_failed_text": "Det oppsto en feil under nedlasting av filen: $1",
 	"coll-is_cached": "<ul><li>En mellomlagret versjon av dokumentet ble funnet, så ingen rendrering var nødvendig. [$1 Tving ny rendrering.]</li></ul>",
-	"coll-excluded-templates": "* Maler i kategorien [[:Category:$1|$1]] har blitt utelatt.",
-	"coll-blacklisted-templates": "* Maler på svartelisten ([[:$1]]) har blitt utelatt.",
 	"coll-book_title": "Bestill som trykt bok",
 	"coll-book_text": "Fra partneren vår kan du få en bok trykket på forespørsel.",
 	"coll-order_from_pp": "Forhåndsvis med $1",

@@ -76,8 +76,6 @@
 	"coll-download_notfound_title": "搵唔到快勞",
 	"coll-download_failed_title": "下載出錯",
 	"coll-is_cached": "<ul><li>搵到個文件嘅快取版，唔需要重新生成過。[$1 強制重新生成。]</li></ul>",
-	"coll-excluded-templates": "* 響[[:Category:$1|$1]]分類上面嘅模已經排除。",
-	"coll-blacklisted-templates": "* 響[[:$1]]黑名單上面嘅嘢已經排除。",
 	"coll-book_title": "柯打一本印刷書",
 	"coll-book_text": "響印刷需求拍擋拎一本印刷書:",
 	"coll-order_from_pp": "響$1柯打書",

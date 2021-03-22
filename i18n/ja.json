@@ -109,8 +109,6 @@
 	"coll-download_failed_title": "ダウンロード中にエラー",
 	"coll-download_failed_text": "以下のファイルをダウンロードする際にエラーが発生しました: $1",
 	"coll-is_cached": "<ul><li>ドキュメントのキャッシュされた版を見つけたため、レンダリングは不要です。\n[$1 強制的に再レンダリングする。]</li></ul>",
-	"coll-excluded-templates": "* カテゴリ [[:Category:$1|$1]] にあるテンプレートは除外されています。",
-	"coll-blacklisted-templates": "* ブラックリスト [[:$1]] にあるテンプレートは除外されています。",
 	"coll-book_title": "印刷済みの本として注文",
 	"coll-book_text": "印刷済みの本を私たちのオンデマンド印刷パートナーから入手:",
 	"coll-order_from_pp": "$1でプレビュー",

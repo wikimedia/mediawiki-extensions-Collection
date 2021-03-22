@@ -91,8 +91,6 @@
 	"coll-download_failed_title": "Fazi e-ser pellgargañ",
 	"coll-download_failed_text": "Ur fazi zo bet e-ser pellgargañ ar restr : $1",
 	"coll-is_cached": "<ul><li>Kavet ez eus bet ur stumm krubuilhet eus an teul, setu n'eo ket bet dav amdreiñ.\n[$1 Amdreiñ dre ret.]</li></ul>",
-	"coll-excluded-templates": "* N'eo ket bet kemeret patromoù zo e kont er rummad [[:Category:$1|$1]].",
-	"coll-blacklisted-templates": "* N'eo ket bet kemeret ar patromoù war al listenn zu e kont [[:$1]].",
 	"coll-book_title": "Urzhiañ dindan stumm ul levr moullet",
 	"coll-book_text": "Kaout ul levr moullet dre hor c'heveler moullañ diouzh ar goulenn :",
 	"coll-order_from_pp": "Rakwelet gant $1",

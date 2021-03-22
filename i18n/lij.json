@@ -98,8 +98,6 @@
 	"coll-download_failed_title": "Errô into download",
 	"coll-download_failed_text": "Gh'è stæto un erô into download do file: $1",
 	"coll-is_cached": "<ul><li>Una verscion do documento a l'è stæta trovâ inta cache; a converscion a no l'è stæta necessaia. [$1 Sforça a re-converscion].</li></ul>",
-	"coll-excluded-templates": "* I template inta categoria [[:Category:$1|$1]] son stæti escluxi.",
-	"coll-blacklisted-templates": "* I template inta blacklist [[:$1]] son stæti escluxi.",
 	"coll-book_title": "Ordina comme libbro stampou",
 	"coll-book_text": "Otegni un libbro stampou da un di nostri partner de stampa-sciu-recesta (print-on-demand):",
 	"coll-order_from_pp": "Anteprimma con $1",

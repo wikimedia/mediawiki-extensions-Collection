@@ -95,8 +95,6 @@
 	"coll-download_failed_title": "Greška prilikom skidanja",
 	"coll-download_failed_text": "Javila se greška prilikom skidanja fajla: $1",
 	"coll-is_cached": "<ul><li>Pronađeno je ranije izdanje dokumenta. Izrađivanje nije neophodno.\n[$1 Primoraj ponovno izrađivanje.]</li></ul>",
-	"coll-excluded-templates": "* Šabloni u kategoriji [[:Category:$1|$1]] su isključeni.",
-	"coll-blacklisted-templates": "* Šabloni na crnoj listi [[:$1]] su isključeni.",
 	"coll-book_title": "Naruči kao odštampanu knjigu",
 	"coll-book_text": "Dobijte odštampanu knjigu od našeg partnera za štampanje na zahtev:",
 	"coll-order_from_pp": "Pregledaj sa $1",

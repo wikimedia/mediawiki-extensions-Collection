@@ -101,8 +101,6 @@
 	"coll-download_failed_title": "Produciuse un erro durante a descarga",
 	"coll-download_failed_text": "Houbo un erro durante a descarga do ficheiro: $1",
 	"coll-is_cached": "<ul><li>Atopouse unha versión do documento na memoria caché, polo que non vai ser necesaria a renderización. [$1 Forzar a renderización.]</li></ul>",
-	"coll-excluded-templates": "* O modelos que están na categoría \"[[:Category:$1|$1]]\" foron excluídos.",
-	"coll-blacklisted-templates": "* O modelos da lista negra \"[[:$1]]\" foron excluídos.",
 	"coll-book_title": "Encargar como un libro impreso",
 	"coll-book_text": "Obteña un libro impreso desde un dos nosos seguintes compañeiros de solicitudes de impresión:",
 	"coll-order_from_pp": "Vista previa con $1",

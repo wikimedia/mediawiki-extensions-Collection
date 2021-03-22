@@ -69,8 +69,6 @@
 	"coll-download_notfound_title": "Datei nich funnen",
 	"coll-download_notfound_text": "De Datei, de du dalladen wullst, de gifft dat nich: Villicht is se wegdaan worrn oder se mutt nee opstellt warrn.",
 	"coll-is_cached": "<ul><li>Dat geev en twischenspiekert Version vun dat Dokument, nee Rendern weer nich nödig. [$1 Nu nee rendern.]</li></ul>",
-	"coll-excluded-templates": "* Vörlagen ut de Kategorie [[:Category:$1|$1]] sünd utslaten bleven.",
-	"coll-blacklisted-templates": "* Vörlagen vun de Swarte List [[:$1]] sünd utslaten bleven.",
 	"coll-book_title": "As druckt Book bestellen",
 	"coll-book_text": "Bestell en druckt Book bi een vun uns Print-on-Demand-Partners:",
 	"coll-order_from_pp": "Book bestellen bi $1",

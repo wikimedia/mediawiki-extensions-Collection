@@ -53,8 +53,6 @@
 	"coll-notfound_title": "Buk no petuvon",
 	"coll-notfound_text": "No eplöpos ad tuvön bukapadi.",
 	"coll-download_notfound_title": "Ragiv no petuvon",
-	"coll-excluded-templates": "* Samafomots in klad: [[:Category:$1|$1]] pefakipons.",
-	"coll-blacklisted-templates": "* Samafomots blägaliseda: [[:$1]] pefakipons.",
 	"coll-about_pp": "Tefü $1",
 	"coll-return_to": "Geikön lü [[:$1]]",
 	"coll-suggest_your_book": "Buk olik",

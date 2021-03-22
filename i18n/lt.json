@@ -104,8 +104,6 @@
 	"coll-download_failed_title": "Klaida atsiuntimo metu",
 	"coll-download_failed_text": "Įvyko klaida, atsiunčiat failą:$1",
 	"coll-is_cached": "<ul><li>Dokumento podėlio versija nerasta, todėl atvaizdavimas buvo būtinas. [$1 Priversti pakartotinį atvaizdavimą].</li></ul>",
-	"coll-excluded-templates": "* Kategorijos [[:Category:$1|$1]] šablonai buvo pašalinti.",
-	"coll-blacklisted-templates": "* Šablonai, esantys juodajame sąraše [[:$1]], buvo pašalinti.",
 	"coll-book_title": "Užsisakyti spausdintą knygą",
 	"coll-book_text": "Gauti spausdintą knygos versiją iš mūsų spausdinti-pagal-pareikalavimą partnerių.",
 	"coll-order_from_pp": "Peržiūrėti su $1",

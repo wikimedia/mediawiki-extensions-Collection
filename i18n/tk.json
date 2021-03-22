@@ -82,8 +82,6 @@
 	"coll-download_failed_title": "Düşürilýän mahaly säwlik",
 	"coll-download_failed_text": "Faýl düşürilýärkä säwlik döredi: $1",
 	"coll-is_cached": "<ul><li>Bu dokumantiň keşli wersiýasy tapyldy, şol sebäpli ony işlemek gerek bolmady. [$1 Şonda-da täzeden işletdir.]</li></ul>",
-	"coll-excluded-templates": "* [[:Category:$1|$1]] kategoriýasyndaky şablonlar degişli edilmedi.",
-	"coll-blacklisted-templates": "* [[:$1]] gara sanawyndaky şablonlar degişli edilmedi.",
 	"coll-book_title": "Çap edilen kitap hökmünde buýurma ber",
 	"coll-book_text": "Tlap boýunça print edýän partnýorymyzdan print edilen kitap al:",
 	"coll-order_from_pp": "$1 bilen deslapky synla",

@@ -101,8 +101,6 @@
 	"coll-download_failed_title": "Hiba a letöltés közben",
 	"coll-download_failed_text": "Hiba történt a fájl letöltése közben: $1",
 	"coll-is_cached": "<ul><li>Sikerült megtalálni a dokumentum egy gyorsítótárazott változatát, így nem kellett újra elkészíteni. [$1 Mindenképpen készítse el újra.]</li></ul>",
-	"coll-excluded-templates": "* A(z) [[:Category:$1|$1]] kategóriában lévő sablonok figyelmen kívül lettek hagyva.",
-	"coll-blacklisted-templates": "* A(z) [[:$1]] feketelistán található sablonok figyelmen kívül lettek hagyva.",
 	"coll-book_title": "Megrendelés nyomtatott könyvként",
 	"coll-book_text": "Nyomtatott könyv megrendelése a kérésre nyomtató partnerünktől.",
 	"coll-order_from_pp": "Előnézet: $1",

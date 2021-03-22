@@ -96,8 +96,6 @@
 	"coll-download_failed_title": "Biddut idi las-ud ti panangikarga",
 	"coll-download_failed_text": "Adda maysa a biddut idi agikarkarga iti papeles: $1",
 	"coll-is_cached": "<ul><li>Nabirukanen ti naidulin a bersion ti dokumento, isu a saanen a nasken ti panagipaay.\n[$1 Piliten ti panagipaay manen.]</li></ul>",
-	"coll-excluded-templates": "* Dagiti plantilia iti kategoria [[:Category:$1|$1]] ket saanen a nairaman.",
-	"coll-blacklisted-templates": "* Dagiti plantilia iti blacklist [[:$1]] ket saanen a nairaman.",
 	"coll-book_title": "Agbilin a kas naimaldit a libro",
 	"coll-book_text": "Agala ti naimaldit a libro manipud iti kaadumi nga agimalmaldit.",
 	"coll-order_from_pp": "Agipadas nga agraman iti $1",

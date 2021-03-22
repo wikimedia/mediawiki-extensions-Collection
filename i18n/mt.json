@@ -89,8 +89,6 @@
 	"coll-download_failed_title": "Żball fit-tniżżil tal-fajl",
 	"coll-download_failed_text": "Kien hemm żball matul it-tniżżil tal-fajl: $1",
 	"coll-is_cached": "<ul><li>Verżjoni tad-dokument instabet fil-''cache'' u għalhekk il-konverżjoni ma kinitx neċessarja.\n[$1 Erġa' kkonverti.]</li></ul>",
-	"coll-excluded-templates": "* Mudelli fil-kategorija [[:Category:$1|$1]] ġew esklużi.",
-	"coll-blacklisted-templates": "* Mudelli fil-lista s-sewda [[:$1]] ġew esklużi.",
 	"coll-book_title": "Ordnah bħala ktieb stampat",
 	"coll-book_text": "Ikseb ktieb stmapat mis-sieħeb tagħna ta' ''print-on-demand''.",
 	"coll-order_from_pp": "Previżjoni b'$1",

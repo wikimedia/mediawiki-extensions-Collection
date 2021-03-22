@@ -98,8 +98,6 @@
 	"coll-download_failed_title": "Errore pe' tramente ca se scarrecava",
 	"coll-download_failed_text": "Nce steva n'errore pe' tramente ca se scarrecava 'o file: $1",
 	"coll-is_cached": "<ul><li>Na verziona d' 'o documento è stata truvata dint' 'a cache, accussì lll'agghiurnamento nun fuje necessario. [$1 Force re-rendering].</li></ul>",
-	"coll-excluded-templates": "* 'E template int' 'a categurìa [[:Category:$1|$1]] so' state lassate fore.",
-	"coll-blacklisted-templates": "* 'E mudelle ncopp' 'a lista nira [[:$1]] se sò lassate fore.",
 	"coll-book_title": "Ordena comm'a nu libbro stampato",
 	"coll-book_text": "Piglia 'o libbro 'a nu cumpagno nuosto 'e stampa-a-richiesta.",
 	"coll-order_from_pp": "Anteprimma cu $1",

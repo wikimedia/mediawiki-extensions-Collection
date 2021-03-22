@@ -97,8 +97,6 @@
 	"coll-download_failed_title": "Fejl under download",
 	"coll-download_failed_text": "Det opstod en fejl ved download af filen: $1",
 	"coll-is_cached": "<ul><li>En cached version af dokumentet er blevet fundet, så en ny generering var unødvendig. \n[$1 Fremtving ny generering].</li></ul>",
-	"coll-excluded-templates": "* Skabeloner i kategorien [[:Category:$1|$1]], er blevet udelukket.",
-	"coll-blacklisted-templates": "* Skabeloner på sortlisten [[:$1]] er blevet udelukket.",
 	"coll-book_title": "Bestil som en trykt bog",
 	"coll-book_text": "Bestil en trykt udgave fra vores print-on-demand partner.",
 	"coll-order_from_pp": "Forhåndsvis med $1",

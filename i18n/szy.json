@@ -94,8 +94,6 @@
 	"coll-download_failed_title": "patasasa’ mungangaw",
 	"coll-download_failed_text": "patasasa’ a tangan mungangaw：$1",
 	"coll-is_cached": "<ul><li> matepa tu ku cudad i kabilil-miala baziyong, caay ku kakaydihan miliyaw masanga’.\n[$1 pacici miliyaw masanga’]. </li></ul>",
-	"coll-excluded-templates": "* i kakuniza [[:Category:$1|$1]] labu’ay taazihan mitudung maasik tuway",
-	"coll-blacklisted-templates": "* nay malangat piazihan tu sulit [[:$1]] a taazihan mitudung masipu tuway.",
 	"coll-book_title": "miaca masaheciay a cudad",
 	"coll-book_text": "nay cabay mikadum nu mita maala masaheciay a cudad.",
 	"coll-order_from_pp": "pisaungay $1 pataayaway miazih",

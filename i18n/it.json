@@ -110,8 +110,6 @@
 	"coll-download_failed_title": "Errore durante il download",
 	"coll-download_failed_text": "Si è verificato un errore durante il download del file: $1",
 	"coll-is_cached": "<ul><li>Una versione del documento è stata trovata nella cache; la conversione non è stata necessaria. [$1 Forza la ri-conversione].</li></ul>",
-	"coll-excluded-templates": "* I template nella categoria [[:Category:$1|$1]] sono stati esclusi.",
-	"coll-blacklisted-templates": "* I template nella blacklist [[:$1]] sono stati esclusi.",
 	"coll-book_title": "Ordina come libro stampato",
 	"coll-book_text": "Ottieni un libro stampato da uno dei nostri partner di stampa su richiesta (print-on-demand):",
 	"coll-order_from_pp": "Anteprima con $1",

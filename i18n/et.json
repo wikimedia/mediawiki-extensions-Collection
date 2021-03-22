@@ -91,8 +91,6 @@
 	"coll-download_failed_title": "Tõrge allalaadimisel",
 	"coll-download_failed_text": "Allalaadimisel ilmnes tõrge: $1",
 	"coll-is_cached": "<ul><li>Leitud on dokumendi puhverdatud versioon ja küljendamine polnud vajalik.\n[$1 Käse taasküljendada.]</li></ul>",
-	"coll-excluded-templates": "* Mallid kategoorias [[:Category:$1|$1]] on välja jäetud.",
-	"coll-blacklisted-templates": "* Mustas nimekirjas [[:$1]] olevad mallid on välja jäetud.",
 	"coll-book_title": "Trükitud raamatu tellimine",
 	"coll-book_text": "Hangi trükitud raamat meie nõudetrükkimispartnerilt.",
 	"coll-order_from_pp": "Vaata trükikoja $1 eelvaadet",

@@ -92,8 +92,6 @@
 	"coll-download_failed_title": "Zmylk při sćehnjenju",
 	"coll-download_failed_text": "Při sćehnjenju dataje je zmylk wustupił: $1",
 	"coll-is_cached": "<ul><li>Pufrowana wersija dokumenta bu namakana, tohodla tworjenje njeje trěbne było. [$1 Znowatworjenje wunuzować.]</li></ul>",
-	"coll-excluded-templates": "* Předłohi w kategoriji [[:Category:$1|$1]] buchu wuzamknjene.",
-	"coll-blacklisted-templates": "* Předłohi na čornej lisćinje [[:$1]] buchu wuzamknjene.",
 	"coll-book_title": "Jako wućišćanu knihu skazać",
 	"coll-book_text": "Wućišćanu knihu wot našeho partnera za ćišćenje na žadanje:",
 	"coll-order_from_pp": "Přehlad pola $1",

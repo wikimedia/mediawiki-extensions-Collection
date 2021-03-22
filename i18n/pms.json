@@ -93,8 +93,6 @@
 	"coll-download_failed_title": "Eror durant ël dëscariament.",
 	"coll-download_failed_text": "A l'é staje n'eror durant ël dëscariament ëd l'archivi: $1",
 	"coll-is_cached": "<ul><li>A l'é trovasse na version memorisà dël document, parèj a- é pa damanca ëd conversion.\n[$1 Forsé la conversion.]</li></ul>",
-	"coll-excluded-templates": "* Jë stamp an categorìa [[:Category:$1|$1]] a son ëstàit escludù.",
-	"coll-blacklisted-templates": "* Jë stamp ant la lista nèira [[:$1]] a son ëstàit escludù.",
 	"coll-book_title": "Órdina com un lìber stampà",
 	"coll-book_text": "Pijé un lìber stampà da nòstr sòcio dë stampa su arcesta.",
 	"coll-order_from_pp": "Preuva con $1",

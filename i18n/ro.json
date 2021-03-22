@@ -101,8 +101,6 @@
 	"coll-download_failed_title": "Eroare în timpul descărcării",
 	"coll-download_failed_text": "S-a produs o eroare în timpul descărcării fișierului: $1",
 	"coll-is_cached": "<ul><li>O versiune din cache a documentului a fost găsită, deci nu a mai fost necesară o regenerare.\n[$1 Forțează regenerarea.]</li></ul>",
-	"coll-excluded-templates": "* Formatele din categoria [[:Category:$1|$1]] au fost excluse.",
-	"coll-blacklisted-templates": "* Formatele aflate în lista neagră de la [[:$1]] au fost excluse.",
 	"coll-book_title": "Comandarea ca document tipărit",
 	"coll-book_text": "Obțineți o carte tipărită de la partenerul nostru.",
 	"coll-order_from_pp": "Previzualizează cu $1",

@@ -87,8 +87,6 @@
 	"coll-download_failed_title": "Fähler bim Abelade",
 	"coll-download_failed_text": "S het e Fähler gee bim Abelade vu dr Datei: $1",
 	"coll-is_cached": "<ul><li>S git e Version vum Dokumänt, wu zwischegspycheret isch, so dass kei Erstellig notwändig gsi isch ([$1 Nejerstellig erzwinge]).</li></ul>",
-	"coll-excluded-templates": "* Vorlage us dr Kategorii [[:Category:$1|$1]] sin usgschlosse wore.",
-	"coll-blacklisted-templates": "* Vorlage vu dr Schwarze Lischt [[:$1]] sin usgschlosse wore.",
 	"coll-book_title": "As druckts Buech bstelle",
 	"coll-book_text": "Bstell e druckti Buechusgab bi unserem Print-on-Demand-Partner:",
 	"coll-order_from_pp": "Vorschau bi $1",

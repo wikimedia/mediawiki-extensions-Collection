@@ -98,8 +98,6 @@
 	"coll-download_failed_title": "Error demientres la descarga",
 	"coll-download_failed_text": "Hebo un error al descargar el ficheru: $1",
 	"coll-is_cached": "<ul><li>Atopose una versión del documentu na caché, polo que nun va ser necesario renderizalu. [$1 Forzar la renderización.]</li></ul>",
-	"coll-excluded-templates": "* Excluyeronse les plantíes de la categoría [[:Category:$1|$1]].",
-	"coll-blacklisted-templates": "* Excluyeronse les plantíes de la llista prieta [[:$1]].",
 	"coll-book_title": "Encargar como llibru impresu",
 	"coll-book_text": "Recibalu como llibru impresu del nuesu sociu d'impresión baxo demanda.",
 	"coll-order_from_pp": "Previsualizar con $1",

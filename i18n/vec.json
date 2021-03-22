@@ -88,8 +88,6 @@
 	"coll-download_failed_title": "Eròr durante el descargamento",
 	"coll-download_failed_text": "Xe capità un eròr co te geri drio descargar el file: $1",
 	"coll-is_cached": "<ul><li>In te la cache xe stà catà na version del documento, quindi no ghè stà bisogno de far la conversion. [$1 Forza la ri-conversion.]</li></ul>",
-	"coll-excluded-templates": "* I modèi in te la categoria [[:Category:$1|$1]] i xe stà esclusi.",
-	"coll-blacklisted-templates": "* I modèi in te la lista nera [[:$1]] i xe stà esclusi.",
 	"coll-book_title": "Ordina come libro stanpà",
 	"coll-book_text": "Otien un libro stanpà da uno dei nostri soci che i te lo stanpa su richiesta:",
 	"coll-order_from_pp": "Anteprima co $1",

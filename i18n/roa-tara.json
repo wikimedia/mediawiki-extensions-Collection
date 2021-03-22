@@ -97,8 +97,6 @@
 	"coll-download_failed_title": "Errore durande 'u download",
 	"coll-download_failed_text": "S'a verificate 'n'errore quanne ste scarecave 'u file: $1",
 	"coll-is_cached": "<ul><li>'Na versione d'u documende ha state acchiate jndr'à cache, accussì l'aggiornamende jè necessarie.\n[$1 Forze l'aggiornamende.]</li></ul>",
-	"coll-excluded-templates": "* Le template jndr'à categorije [[:Category:$1|$1]] onne state escluse.",
-	"coll-blacklisted-templates": "* Le template sus a lista gnore [[:$1]] onne state escluse.",
 	"coll-book_title": "Ordene cumme 'nu libbre stambate",
 	"coll-book_text": "Pigghie 'u libbre stambate da le partner nuèstre de stambe a richieste.",
 	"coll-order_from_pp": "Andeprime cu $1",

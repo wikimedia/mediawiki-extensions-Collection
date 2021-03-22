@@ -86,8 +86,6 @@
 	"coll-download_failed_title": "अवतारणावसरे दोषः",
 	"coll-download_failed_text": "$1 सञ्चिकायाः अवतारणावसरे दोषः",
 	"coll-is_cached": "<ul><li>लेखस्य परिष्कृतावृत्तिः प्राप्ता इत्यतः संयोजनं नापेक्षितम् ।\n[$1 पुनः संयोजनं भवतु]</li></ul>",
-	"coll-excluded-templates": "* वर्गे प्राकृतिः न योजिता [[:Category:$1|$1]] ।",
-	"coll-blacklisted-templates": "*  [[:$1]] अवरुद्धप्राकृत्यावली वर्जिता ।",
 	"coll-book_title": "मुद्रितपुस्तकरूपम् आदिशतु",
 	"coll-book_text": "मुद्रणाभ्यर्थनद्वारा मुद्रितपुस्तकं प्राप्नोतु",
 	"coll-order_from_pp": "$1 द्वारा प्राग्दृश्यम्",

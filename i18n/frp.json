@@ -85,8 +85,6 @@
 	"coll-download_failed_title": "Èrror pendent lo tèlèchargement",
 	"coll-download_failed_text": "Una èrror est arrevâ pendent lo tèlèchargement du fichiér : $1",
 	"coll-is_cached": "<ul><li>Una vèrsion en cache du document at étâ trovâ, nion rendu ére nècèssèro.\n[$1 Forciér un novél rendu.]</li></ul>",
-	"coll-excluded-templates": "* Des modèlos de la catègorie [[:Category:$1|$1]] ont étâ èxcllus.",
-	"coll-blacklisted-templates": "* Des modèlos de la lista nêre [[:$1]] ont étâ èxcllus.",
 	"coll-book_title": "Comandar desot la fôrma d’un lévro emprimâ",
 	"coll-book_text": "Avéd un lévro emprimâ per noutron partenèro d’emprèssion a la demanda :",
 	"coll-order_from_pp": "Apèrçu avouéc $1",

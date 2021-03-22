@@ -88,8 +88,6 @@
 	"coll-download_failed_title": "Kamalian habang ikinakargang-pababa",
 	"coll-download_failed_text": "Mayroon kamalian habang kinakargang pababa ang talaksan: $1",
 	"coll-is_cached": "<ul><li>Natagpuan ang isang nakatagong bersyon ng kasulatan (dokumento), kaya't hindi na kailangan pa ang \"paghahain\". [$1 Pilitin ang muling paghahain.]</li></ul>",
-	"coll-excluded-templates": "* Hindi isinali ang mga suleras na nasa kauriang [[:Category:$1|$1]].",
-	"coll-blacklisted-templates": "* Hindi isinali ang mga suleras na nasa talaan ng mga pinagbabawalan [[:$1]]",
 	"coll-book_title": "Orderin bilang isang nakalimbag na aklat",
 	"coll-book_text": "Kumuha ng isang nakalimbag na aklat mula sa aming kasosyo sa \"ilimbag-kapag-hiniling\" (IKH):",
 	"coll-order_from_pp": "Paunang tingnan na may $1",

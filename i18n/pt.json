@@ -112,8 +112,6 @@
 	"coll-download_failed_title": "Erro durante o descarregamento",
 	"coll-download_failed_text": "Ocorreu um erro ao descarregar o ficheiro: $1",
 	"coll-is_cached": "<ul><li>Foi encontrada uma versão deste documento em cache, dispensando a sua composição.\n[$1 Forçar nova composição.]</li></ul>",
-	"coll-excluded-templates": "* As predefinições na categoria [[:Category:$1|$1]] foram excluídas.",
-	"coll-blacklisted-templates": "* As predefinições na lista negra [[:$1]] foram excluídas.",
 	"coll-book_title": "Encomendar como livro impresso",
 	"coll-book_text": "Adquira um livro impresso pelo nosso parceiro de impressão por encomenda.",
 	"coll-order_from_pp": "Antever o livro com $1",

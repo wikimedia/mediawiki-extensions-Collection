@@ -90,8 +90,6 @@
 	"coll-download_failed_title": "Cafwyd gwall wrth lawrlwytho",
 	"coll-download_failed_text": "Cafwyd gwall wrth islwytho'r ffeil: $1",
 	"coll-is_cached": "<ul><li>Cafwyd hyd i fersiwn o'r ddogfen mewn celc, felly nid oedd rhaid ei gynhyrchu.\n[$1 Gorfodi ei chynhyrchu o'r newydd.]</li></ul>",
-	"coll-excluded-templates": "* Wedi hepgor y nodiadau yn y categori [[:Category:$1|$1]].",
-	"coll-blacklisted-templates": "* Ni chynhwyswyd nodiadau sydd ar y rhestr waharddedig [[:$1]].",
 	"coll-book_title": "Archebu fel llyfr printiedig",
 	"coll-book_text": "Archebu llyfr oddi wrth ein partner argraffu ''print-on-demand''.",
 	"coll-order_from_pp": "Gweld rhagolwg ar $1",

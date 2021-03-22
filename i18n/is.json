@@ -97,8 +97,6 @@
 	"coll-download_failed_title": "Villa við niðurhölun",
 	"coll-download_failed_text": "Niðurhal skrárinnar mistókst með eftirfarandi villu: $1",
 	"coll-is_cached": "<ul><li>Þessi skrá fannst í skyndiminninu og því þurfti ekki að umskrifa.\n[$1 Neyða endurskrifun.]</li></ul>",
-	"coll-excluded-templates": "* Sniðum í flokknum [[:Category:$1|$1]] hafa verið sleppt.",
-	"coll-blacklisted-templates": "* Snið á bannlista [[:$1]] hefur verið sleppt.",
 	"coll-book_title": "Panta prentaða bók",
 	"coll-book_text": "Fá prentaða bók frá samstarfsaðila okkar sem prentar eftir þörfum.",
 	"coll-order_from_pp": "Forskoða með $1",

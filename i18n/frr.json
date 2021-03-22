@@ -96,8 +96,6 @@
 	"coll-download_failed_title": "Bi't deelloosin as wat skiaf gingen",
 	"coll-download_failed_text": "Bi't deeloosin faan't datei $1 as wat skiaf gingen",
 	"coll-is_cached": "<ul><li>Diar wiar al en teskenseekert werjuun, det dokument säär ei nei tuupsteld wurd. [$1 Likes nei tuupstel.]</li></ul>",
-	"coll-excluded-templates": "* Föörlaagen ütj det kategorii „[[:Category:$1|$1]]“ san ei auernimen wurden.",
-	"coll-blacklisted-templates": "* Föörlaagen faan det suart list [[:$1]] san ei auernimen wurden.",
 	"coll-book_title": "Bestel üs drükt buk",
 	"coll-book_text": "Bestel en drükt buk bi üs print-on-demand-onernemen.",
 	"coll-order_from_pp": "Iarst ans luke bi $1",

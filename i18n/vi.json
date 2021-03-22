@@ -99,8 +99,6 @@
 	"coll-download_failed_title": "Có lỗi khi tải về",
 	"coll-download_failed_text": "Đã có lỗi xảy ra khi tải tập tin: $1",
 	"coll-is_cached": "<ul><li>Không cần kết xuất mới vì đã tìm thấy phiên bản trong bộ nhớ. [$1 Kết xuất lại.]</li></ul>",
-	"coll-excluded-templates": "* Các bản mẫu trong thể loại [[:Category:$1|$1]] được bỏ qua.",
-	"coll-blacklisted-templates": "* Các bản mẫu trùng với danh sách đen [[:$1]] được bỏ qua.",
 	"coll-book_title": "Đặt sách in",
 	"coll-book_text": "Mua một cuốn sách in từ bên cộng tác in-theo-yêu-cầu:",
 	"coll-order_from_pp": "Xem trước dùng $1",

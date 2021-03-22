@@ -100,8 +100,6 @@
 	"coll-download_failed_title": "Pogreška tijekom preuzimanja",
 	"coll-download_failed_text": "Došlo je do pogreške pri preuzimanju datoteke: $1",
 	"coll-is_cached": "<ul><li>Pronađena je inačica datoteke u pričuvnoj memoriji, stoga izvođenje datoteke nije potrebno.\n[$1 Zahtijevaj ponovno izvođenje.]</li></ul>",
-	"coll-excluded-templates": "* Predlošci u kategoriji [[:Category:$1|$1]] su ostali isključeni.",
-	"coll-blacklisted-templates": "* Predlošci na crnoj listi [[:$1]] su ostali isključeni.",
 	"coll-book_title": "Naručite kao ispisanu zbirku",
 	"coll-book_text": "Naručiti ispisanu zbirku od sljedećih partnera za ispisivanje na zahtjev (POD):",
 	"coll-order_from_pp": "Pregledaj s $1",

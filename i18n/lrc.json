@@ -95,8 +95,6 @@
 	"coll-download_failed_title": "خطا د وخت گرتن",
 	"coll-download_failed_text": "د وخت گرتن جانیا خطا پيش اومائه: $1",
 	"coll-is_cached": "<ul><li>A cached version of the document has been found, so no rendering was necessary.\n[$1 Force re-rendering.]</li></ul>",
-	"coll-excluded-templates": "* چوئه یا د دسه [[:Category:$1|$1]] اوسه شامل بيه.",
-	"coll-blacklisted-templates": "* چوئه یا سی[[:$1]] همه ش تموم بيه.",
 	"coll-book_title": "سفارش بئيت چی كتاو چاپ بيه",
 	"coll-book_text": "د شریک چاپ هاستنی اؽما یاٛ کتاو چاپی باٛیرؽت.",
 	"coll-order_from_pp": "باز نئری وا $1",

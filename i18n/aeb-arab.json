@@ -81,8 +81,6 @@
 	"coll-download_failed_title": "خطأ أثناء التنزيل",
 	"coll-download_failed_text": "وُجد خطأ أثناء تنزيل الملف: $1",
 	"coll-is_cached": "<ul><li>نسخة مخزنة من الوثيقة تم العثور عليها، لذا لا تحديث كان ضروريا. [$1 إجبار على إعادة التحديث.]</li></ul>",
-	"coll-excluded-templates": "* القوالب في التصنيف [[:Category:$1|$1]] تم إقصاؤها.",
-	"coll-blacklisted-templates": "* القوالب في القائمة السوداء [[:$1]] تم إقصاؤها.",
 	"coll-book_title": "طلب ككتاب مطبوع",
 	"coll-book_text": "احصل على كتاب مطبوع من شريكنا للطباعة عند الطلب:",
 	"coll-order_from_pp": "معاينة مع $1",

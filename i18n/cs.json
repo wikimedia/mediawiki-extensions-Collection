@@ -103,8 +103,6 @@
 	"coll-download_failed_title": "Chyba při stahování",
 	"coll-download_failed_text": "Při stahování souboru došlo k chybě: $1",
 	"coll-is_cached": "<ul><li>Byla nalezena cachovaná verze tohoto dokumentu, takže nebylo třeba vykreslovat. [$1 Vynutit nové vykreslení.]</li></ul>",
-	"coll-excluded-templates": "* Šablony v kategorii [[:Category:$1|$1]] byly vynechány.",
-	"coll-blacklisted-templates": "* Šablony na černé listině [[:$1]] byly vynechány.",
 	"coll-book_title": "Objednat jako tištěnou knihu",
 	"coll-book_text": "Od našeho partnera pro tisk na vyžádání můžete získat tištěnou knihu:",
 	"coll-order_from_pp": "Náhled knihy prostřednictvím {{grammar:2sg|$1}}",

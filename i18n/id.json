@@ -101,8 +101,6 @@
 	"coll-download_failed_title": "Kesalahan selama pengunduhan",
 	"coll-download_failed_text": "Terjadi kesalahan ketika mengunduh berkas: $1",
 	"coll-is_cached": "<ul><li>Versi tersimpan dari dokumen ini telah ditemukan, sehingga tidak diperlukan pengolahan apa pun. [$1 Paksa pengolahan ulang.]</li></ul>",
-	"coll-excluded-templates": "* Templat di kategori [[:Category:$1|$1]] telah dikecualikan.",
-	"coll-blacklisted-templates": "* Templat pada daftar hitam[[:$1]] telah dikecualikan.",
 	"coll-book_title": "Pesan sebagai buku tercetak",
 	"coll-book_text": "Dapatkan buku tercetak dari rekanan cetak-sesuai-permintaan kami.",
 	"coll-order_from_pp": "Pesan buku dari $1",

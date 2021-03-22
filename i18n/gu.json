@@ -91,8 +91,6 @@
 	"coll-download_failed_title": "ડાઉનલોડ દરમ્યાન ત્રુટિ",
 	"coll-download_failed_text": "ફાઇલ $1 ડાઉનલોડ કરતાં ત્રુટિ ઉદ્ભવી છે",
 	"coll-is_cached": "<ul><li>A cached version of the document has been found, so no rendering was necessary.\n[$1 Force re-rendering.]</li></ul>",
-	"coll-excluded-templates": "[[:Category:$1|$1]]માં રહેલા ઢાંચાઓ બાકાત રાખવામાં આવ્યાં છે.",
-	"coll-blacklisted-templates": "બ્લેકલિસ્ટ [[:$1]]માંના ઢાંચાઓ બાકાત રાખવામાં આવ્યા છે.",
 	"coll-book_title": "છાપેલા પુસ્તકની ફરમાયશ કરો",
 	"coll-book_text": "અમારા પ્રિન્ટ-ઓન-ડિમાન્ડ (આવશ્યકતા સમયે છાપી આપતા) ભાગીદાર પાસેથી પુસ્તક છપાવો",
 	"coll-order_from_pp": "$1 સાથે ઝલક બતાવો",

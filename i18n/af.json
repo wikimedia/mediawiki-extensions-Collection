@@ -81,8 +81,6 @@
 	"coll-download_notfound_text": "Die lêer wat u probeer om af te laai bestaan ​​nie:\nMiskien is dit is verwyder en moet genereerde.",
 	"coll-download_failed_title": "Fout tydens aflaai",
 	"coll-download_failed_text": "Daar was 'n fout met die aflaai van lêer: $1",
-	"coll-excluded-templates": "* Sjablone in die kategorie [[:Category:$1|$1]] is uitgesluit.",
-	"coll-blacklisted-templates": "* Sjablone op die swartlys [[:$1]] is uitgesluit.",
 	"coll-book_title": "Bestel as 'n gedrukte boek",
 	"coll-book_text": "Kry 'n gedrukte boek uit ons druk-op-aanvraag-vennoot.",
 	"coll-order_from_pp": "Voorskou met $1",

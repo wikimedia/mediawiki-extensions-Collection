@@ -96,8 +96,6 @@
 	"coll-download_failed_title": "Erro durante la çcarga",
 	"coll-download_failed_text": "Hoube un erro al çcargar l fexeiro: $1",
 	"coll-is_cached": "<ul><li>Fui ancuontrada ua berson deste decumiento an cache, çpensando la sue cumposiçon. [$1 Fuorçar nuoba cumposiçon].</li></ul>",
-	"coll-excluded-templates": "* Ls modelos na catadorie [[:Category:$1|$1]] fúrun botados fuora.",
-	"coll-blacklisted-templates": "* Ls modelos na lhista negra [[:$1]] fúrun botados fuora.",
 	"coll-book_title": "Anquemendar cumo lhibro ampresso",
 	"coll-book_text": "Outener un lhibro ampresso pul nuosso praceiro de ampresson por anquemenda.",
 	"coll-order_from_pp": "Anteber l lhibro cun $1",

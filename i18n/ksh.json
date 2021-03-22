@@ -94,8 +94,6 @@
 	"coll-download_failed_title": "Fähler beim eronger Laade",
 	"coll-download_failed_text": "Ene Fähler es opjetrodde beim eronger Lahde vun dä Dattei „$1“",
 	"coll-is_cached": "<ul><li>Mer han en Väsjohn fun dämm Dokkemänt em Zwescheschpeijscher, et moot nit widder neu ußjejovve wääde. [$1 Doch neu widder ußjävve.]</li></ul>",
-	"coll-excluded-templates": "* De Schablohne us dä Saachjropp [[:Category:$1|$1]] wohre ußjeschloße.",
-	"coll-blacklisted-templates": "* Schabloone en de „Schwatze Leß“ ([[:$1]]) sin nit met dobei.",
 	"coll-book_title": "Donn der Drock vun däm Bohch beschtälle",
 	"coll-book_text": "Donn e Bohch beschtälle en dä Dröckerei:",
 	"coll-order_from_pp": "Vöraff-Aanseesch vun däm Bohch bei $1",

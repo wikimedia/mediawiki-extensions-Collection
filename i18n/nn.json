@@ -89,8 +89,6 @@
 	"coll-download_failed_title": "Feil i løpet av nedlastinga",
 	"coll-download_failed_text": "Det vart ein feil i samband med nedlasdting av fila: $1",
 	"coll-is_cached": "<ul><li>Ein mellomlagra versjon av dokumentet vart funnen, so ingen rendering var naudsynleg. [$1 Tving ny rendering.]</li></ul>",
-	"coll-excluded-templates": "* Malar i kategorien [[:Category:$1|$1]] har vorte utelatne.",
-	"coll-blacklisted-templates": "* Malar på svartelista ([[:$1]]) har vorte utelatne.",
 	"coll-book_title": "Ting som ei trykt bok",
 	"coll-book_text": "Få ei printa bok frå print-på-tinging-partnaren vår:",
 	"coll-order_from_pp": "Førehandsvis med $1",

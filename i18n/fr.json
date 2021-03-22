@@ -120,8 +120,6 @@
 	"coll-download_failed_title": "Erreur lors du téléchargement",
 	"coll-download_failed_text": "Une erreur est survenue pendant le téléchargement du fichier : $1",
 	"coll-is_cached": "<ul><li>Une version en cache du document a été trouvée, aussi aucun rendu n’était nécessaire. [$1 Forcer un nouveau rendu].</li></ul>",
-	"coll-excluded-templates": "* Des modèles de la catégorie [[:Category:$1|$1]] ont été exclus.",
-	"coll-blacklisted-templates": "* Des modèles de la liste noire ([[:$1]]) ont été exclus.",
 	"coll-book_title": "Commander sous la forme d’un livre imprimé",
 	"coll-book_text": "Obtenez un livre imprimé par notre partenaire d’impression à la demande.",
 	"coll-order_from_pp": "Aperçu avec $1",

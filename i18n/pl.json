@@ -107,8 +107,6 @@
 	"coll-download_failed_title": "Błąd podczas pobierania",
 	"coll-download_failed_text": "Wystąpił błąd podczas pobierania pliku $1",
 	"coll-is_cached": "<ul><li>Dokument odnaleziono w pamięci podręcznej, więc nie ma potrzeby renderowania.\n[$1 Wymuś ponowne wygenerowanie.]</li></ul>",
-	"coll-excluded-templates": "* Szablony w kategorii [[:Category:$1|$1]] zostały pominięte.",
-	"coll-blacklisted-templates": "* Szablony z czarnej listy [[:$1]] zostały pominięte.",
 	"coll-book_title": "Zamów w formie wydrukowanej książki",
 	"coll-book_text": "Zamów wydrukowaną książkę od jednego z naszych partnerów realizujących usługę wydruku na żądanie:",
 	"coll-order_from_pp": "Zamów książkę z $1",

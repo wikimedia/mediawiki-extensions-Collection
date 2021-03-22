@@ -94,8 +94,6 @@
 	"coll-download_failed_title": "Berlaku ralat ketika memuat turun",
 	"coll-download_failed_text": "Berlaku ralat ketika memuat turun fail ini: $1",
 	"coll-is_cached": "<ul><li>Versi tercache bagi dokumen itu telah ditemui, jadi penjanaan tidak diperlukan. [$1 Arahkan penjanaan semula.]</li></ul>",
-	"coll-excluded-templates": "* Templat-templat dalam kategori [[:Category:$1|$1]] telah dikecualikan.",
-	"coll-blacklisted-templates": "* Templat-templat dalam senarai hitam [[:$1]] telah dikecualikan.",
 	"coll-book_title": "Tempah buku bercetak",
 	"coll-book_text": "Dapatkan buku bercetak daripada rakan percetakan kami:",
 	"coll-order_from_pp": "Pralihat dengan $1",

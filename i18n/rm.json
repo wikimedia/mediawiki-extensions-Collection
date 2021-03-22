@@ -85,8 +85,6 @@
 	"coll-download_failed_title": "Errur durant telechargiar",
 	"coll-download_failed_text": "I ha dà ina errur durant telechargiar la datoteca: $1",
 	"coll-is_cached": "<ul><li>En il cache è vegnida chattada ina versiun da quest document, pia n'è nagina calculaziun grafica necessaria.\n[$1 Sfurzar da recalcular la grafica.]</li></ul>",
-	"coll-excluded-templates": "* Models en la categoria [[:Category:$1|$1]] èn vegnids exclus.",
-	"coll-blacklisted-templates": "* Models sin la glista naira [[:$1]] èn vegnids exclus.",
 	"coll-book_title": "Empustar sco cudesch stampà",
 	"coll-book_text": "Empustar in cudesch stampà tar noss partenari per la stampa sin dumonda.",
 	"coll-order_from_pp": "Prevista tar $1",
