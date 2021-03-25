@@ -151,7 +151,7 @@
 	"coll-helppage": "Help:Liburuak",
 	"coll-load_collection": "Liburua kargatu",
 	"coll-load_collection_tooltip": "Liburu hau kargatu zure liburu gisa",
-	"coll-n_pages": "{{PLURAL:$1|Orrialde 1|$1 orrialde}}",
+	"coll-n_pages": "{{PLURAL:$1|Orri bat|$1 orri}}",
 	"coll-printable_version_pdf": "PDF bertsioa",
 	"coll-remove_this_page": "Kendu orrialde hau zure liburutik",
 	"coll-remove_page_tooltip": "Kendu orrialde hau zure liburutik",
