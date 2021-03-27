@@ -10,9 +10,7 @@
 return [
 	'collection' => $this->makeCollection( 'Book title', 'Book subtitle',
 		[ [ 'Foo', 'article' ] ] ),
-	// @codingStandardsIgnoreStart Generic.Files.LineLength.TooLong
 	'pages' => [ 'Foo' => '<html><body>Foo body<h2 id="Section_1">Section 1</h2>Section 1 body</body></html>' ],
-	// @codingStandardsIgnoreEnd
 	'metadata' => [
 		'displaytitle' => [ 'Foo' => '<b>Foo</b>' ],
 		'sections' => [
