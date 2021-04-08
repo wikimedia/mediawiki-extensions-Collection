@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"J budissin",
 			"Macofe",
 			"Michawiki"
 		]
@@ -26,7 +27,7 @@
 	"coll-your_book": "Twoja kniha",
 	"coll-download_title": "Sćahnyć",
 	"coll-download_text": "Zo by swoju knihu sćahnył, wubjer format a klikń na tłóčatko.",
-	"coll-download_as_text": "Zo by swoju knihu w formaće $1 sćahnył, klikń na tłóčatko.",
+	"coll-download_as_text": "Zo by swoju knihu w formaće $1 sćahnył{{GENDER:||a|(a)}}, klikń na tłóčatko.",
 	"coll-download": "Sćahnyć",
 	"coll-format_label": "Format:",
 	"coll-remove": "Wotstronić",
