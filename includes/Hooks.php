@@ -22,13 +22,14 @@
 
 namespace MediaWiki\Extension\Collection;
 
+use HtmlArmor;
 use MediaWiki\Context\RequestContext;
 use MediaWiki\Hook\SidebarBeforeOutputHook;
 use MediaWiki\Hook\SiteNoticeAfterHook;
 use MediaWiki\Html\Html;
 use MediaWiki\Html\TemplateParser;
-use MediaWiki\Linker\Linker;
 use MediaWiki\MainConfigNames;
+use MediaWiki\MediaWikiServices;
 use MediaWiki\Output\Hook\OutputPageCheckLastModifiedHook;
 use MediaWiki\Output\OutputPage;
 use MediaWiki\Session\SessionManager;
@@ -323,10 +324,10 @@ class Hooks implements
 				$onclick = "collectionCall('removearticle', " . $collectionArgsJs . "); return false;";
 			}
 		}
-
-		return Linker::linkKnown(
+		$linkRenderer = MediaWikiServices::getInstance()->getLinkRenderer();
+		return $linkRenderer->makeKnownLink(
 			SpecialPage::getTitleFor( 'Book' ),
-			Html::element( 'img',
+			new HtmlArmor( Html::element( 'img',
 				[
 					'src' => "$imagePath/$icon",
 					'alt' => '',
@@ -334,7 +335,7 @@ class Hooks implements
 					'height' => '16',
 				]
 			)
-			. '&#160;' . wfMessage( $captionMsg )->escaped(),
+			. '&#160;' . wfMessage( $captionMsg )->escaped() ),
 			[
 				'id' => $id,
 				'rel' => 'nofollow',
@@ -370,9 +371,10 @@ class Hooks implements
 				. ' (' . wfMessage( 'coll-n_pages' )->numParams( $numArticles )->escaped() . ')'
 			); // @todo FIXME: Hard coded parentheses.
 		} else {
-			return Linker::linkKnown(
+			$linkRenderer = MediaWikiServices::getInstance()->getLinkRenderer();
+			return $linkRenderer->makeLink(
 				SpecialPage::getTitleFor( 'Book' ),
-				Html::element( 'img',
+				new HtmlArmor( Html::element( 'img',
 					[
 						'src' => "$imagePath/silk-book_open.png",
 						'alt' => '',
@@ -381,7 +383,7 @@ class Hooks implements
 					]
 				)
 				. '&#160;' . wfMessage( 'coll-show_collection' )->escaped()
-					. ' (' . wfMessage( 'coll-n_pages' )->numParams( $numArticles )->escaped() . ')',
+					. ' (' . wfMessage( 'coll-n_pages' )->numParams( $numArticles )->escaped() . ')' ),
 				[
 					'rel' => 'nofollow',
 					'title' => wfMessage( 'coll-show_collection_tooltip' )->text(),
@@ -418,9 +420,10 @@ class Hooks implements
 				. '&#160;' . wfMessage( 'coll-make_suggestions' )->escaped()
 			);
 		} else {
-			return Linker::linkKnown(
+			$linkRenderer = MediaWikiServices::getInstance()->getLinkRenderer();
+			return $linkRenderer->makeLink(
 				SpecialPage::getTitleFor( 'Book' ),
-				Html::element( 'img',
+				new HtmlArmor( Html::element( 'img',
 					[
 						'src' => "$imagePath/silk-wand.png",
 						'alt' => '',
@@ -429,7 +432,7 @@ class Hooks implements
 						'style' => 'vertical-align: text-bottom',
 					]
 				)
-				. '&#160;' . wfMessage( 'coll-make_suggestions' )->escaped(),
+				. '&#160;' . wfMessage( 'coll-make_suggestions' )->escaped() ),
 				[
 					'rel' => 'nofollow',
 					'title' => wfMessage( 'coll-make_suggestions_tooltip' )->text(),
