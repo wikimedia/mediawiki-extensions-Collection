@@ -62,7 +62,7 @@
 			]
 		},
 		"ext.collection.bookcreator.styles": {
-			"styles": "ext.collection.bookcreator.styles/bookcreator.css"
+			"styles": "ext.collection.bookcreator.styles/bookcreator.less"
 		},
 		"ext.collection.bookcreator": {
 			"scripts": "ext.collection.bookcreator/bookcreator.js",
