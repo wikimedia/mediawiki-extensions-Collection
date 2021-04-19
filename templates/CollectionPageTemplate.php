@@ -124,6 +124,9 @@ class CollectionPageTemplate extends QuickTemplate {
 		$context = new DerivativeContext( $this->data['context'] );
 		$context->setRequest( new FauxRequest( $data ) );
 
+		?>
+		<div class="mw-collection-container">
+		<?php
 		echo ( MessageBoxHelper::renderWarningBoxes() );
 
 		$form = new HTMLForm( $fields, $context );
@@ -267,8 +270,7 @@ class CollectionPageTemplate extends QuickTemplate {
 			<?php } ?>
 
 		</div>
-
-
+		</div> <!-- .mw-collection-container-->
 
 		<?php
 	}
