@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"GwikorFrank",
 			"Kernoweger",
 			"Kw-Moon",
 			"Nrowe"
@@ -26,7 +27,7 @@
 	"coll-n_pages": "$1 {{PLURAL:$1|folen}}",
 	"coll-remove_this_page": "Dilea an folen ma dhyworth agas lyver",
 	"coll-show_collection": "Diskwedhes an lyver",
-	"coll-show_collection_tooltip": "Klyckyewgh rag chanjya/iskarga/erghi agas lyvrow",
+	"coll-show_collection_tooltip": "Klyckyewgh rag golegi/iskarga/erghi agas lyvrow",
 	"coll-make_suggestions": "Profya folennow",
 	"coll-make_suggestions_tooltip": "Diskedhes profyansow selyes war an folennow y'gas lyver",
 	"coll-image-attribution": "<b>$1</b> <i>Pennfenten:</i> $2 <i>Kummyas:</i> $3 <i>Kevriysi:</i> $4 <i>Artydh gwreydhek:</i> $5"
