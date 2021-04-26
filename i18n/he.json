@@ -123,7 +123,7 @@
 	"coll-suggest_ban_selected": "הסרת הדפים שנבחרו",
 	"coll-suggest_your_book": "הספר שלך",
 	"coll-suggest_show": "הצגה",
-	"coll-suggest_ban_tooltip": "הסרת דף זה מרשימת ההצעות",
+	"coll-suggest_ban_tooltip": "הסרת הדף הזה מרשימת ההצעות",
 	"coll-suggest_article_ban": "הדף <strong>$1</strong> הוסר מרשימת ההצעות ($2).",
 	"coll-suggest_article_add": "הדף <strong>$1</strong> נוסף לספר שלך ($2).",
 	"coll-suggest_article_remove": "הדף <strong>$1</strong> הוסר מהספר שלך ($2).",
