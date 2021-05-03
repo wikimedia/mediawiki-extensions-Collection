@@ -21,13 +21,13 @@ class DataProviderTest extends MediaWikiTestCase {
 	 */
 	public function testFetchPages( $response, $collection, $expectedUrls, $expectedPages ) {
 		$client = $this->getMockBuilder( VirtualRESTServiceClient::class )
-			->setMethods( [ 'runMulti' ] )
+			->onlyMethods( [ 'runMulti' ] )
 			->disableOriginalConstructor()
 			->getMock();
 		$client->expects( $this->any() )
 			->method( 'runMulti' )
 			->willReturnCallback( function ( $requests ) use ( $response, $expectedUrls ) {
-				$urls = array_map( function ( $req ) {
+				$urls = array_map( static function ( $req ) {
 					return $req['url'];
 				}, $requests );
 				$this->assertSame( $expectedUrls, $urls );
@@ -98,7 +98,7 @@ class DataProviderTest extends MediaWikiTestCase {
 	 */
 	public function testFetchMetadata( $dbkeys, $parse, $contributors, $expectedMetadata ) {
 		$dataProvider = $this->getMockBuilder( DataProvider::class )
-			->setMethods( [ 'makeActionApiRequest' ] )
+			->onlyMethods( [ 'makeActionApiRequest' ] )
 			->disableOriginalConstructor()
 			->getMock();
 		$dataProvider->expects( $this->any() )

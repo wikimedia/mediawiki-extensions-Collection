@@ -578,7 +578,7 @@ class SpecialCollection extends SpecialPage {
 	 * @param array &$items
 	 */
 	private static function sortByTitle( array &$items ) {
-		usort( $items, function ( $a, $b ) {
+		usort( $items, static function ( $a, $b ) {
 			return strcasecmp( $a['title'], $b['title'] );
 		} );
 	}

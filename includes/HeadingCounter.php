@@ -27,7 +27,7 @@ class HeadingCounter {
 	public function incrementAndGet( $level ) {
 		$top = reset( $this->headingNumbers );
 		$this->headingNumbers = array_filter( $this->headingNumbers,
-			function ( $l ) use ( $level ) {
+			static function ( $l ) use ( $level ) {
 				return $l <= $level;
 			}, ARRAY_FILTER_USE_KEY );
 		if ( !$this->headingNumbers && $top ) {

@@ -326,7 +326,7 @@ class CollectionProposals {
 		}
 		usort(
 			$prop,
-			function ( $a, $b ) {
+			static function ( $a, $b ) {
 				if ( $a['val'] == $b['val'] ) {
 					return strcmp( $a['name'], $b['name'] );
 				}
