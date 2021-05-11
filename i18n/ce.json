@@ -32,10 +32,10 @@
 	"coll-format_label": "Формат:",
 	"coll-remove": "ДӀайаккха",
 	"coll-show": "Гайта",
-	"coll-move_to_top": "Лаккха яккха",
-	"coll-move_up": "Лаккха яккха",
-	"coll-move_down": "Лаха яккха",
-	"coll-move_to_bottom": "Лаха яккха",
+	"coll-move_to_top": "Лаккха йаккха",
+	"coll-move_up": "Лаккха йаккха",
+	"coll-move_down": "Лаха йаккха",
+	"coll-move_to_bottom": "Лаха йаккха",
 	"coll-title": "Корта:",
 	"coll-subtitle": "Корталг:",
 	"coll-contents": "Чулацам",
@@ -139,6 +139,6 @@
 	"coll-warning-disable-pdf-text": "Book Creator системин халонаш йолуш, хӀинца PDF форматехь жайнаш Ӏалашдан цало. Оха далушдерг деш ду йуха а Book Creator чохь PDF-файлаш Ӏалашйан таро тоеш.",
 	"coll-warning-learn-more": "Цул совнаха хаа",
 	"coll-notice-download-pdf-title": "Схьаэца къаьстина агӀонаш",
-	"coll-notice-download-pdf-text": "PDF-рендер Book Creator гӀоьнца хийцанбина хиларна, хьан йиш ю '''''PDF санна схьаэца''''' функци лело, иза ю агӀорхьарчу панель тӀехь ешаран рожехь.",
+	"coll-notice-download-pdf-text": "PDF-рендер Book Creator гӀоьнца хийцанбина хиларна, хьан йиш йу '''''PDF санна схьаэца''''' функци лело, иза йу агӀорхьарчу панель тӀехь йешаран рожехь.",
 	"coll-images-source": "Хьост"
 }
