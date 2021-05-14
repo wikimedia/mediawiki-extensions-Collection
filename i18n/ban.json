@@ -9,6 +9,12 @@
 			"NoiX180"
 		]
 	},
+	"coll-collection": "Buku",
+	"coll-collections": "Buku",
+	"coll-savedbook_template": "buku_kasimpen",
+	"coll-your_book": "Buku ida",
+	"coll-download_title": "Unduh",
+	"coll-download": "Unduh",
 	"coll-format_label": "Pormat:",
 	"coll-remove": "Usap",
 	"coll-show": "Sinahang",
@@ -18,6 +24,9 @@
 	"coll-subtitle": "Submurda:",
 	"coll-contents": "Daging",
 	"coll-rename": "Ganti aran",
+	"coll-no_such_category": "Tanpa kategori punika",
+	"coll-empty_collection": "Buku puyung",
+	"coll-revision": "Révisi: $1",
 	"coll-save_collection": "Raksa buku",
 	"coll-yes": "Inggih",
 	"coll-no": "Nénten",
