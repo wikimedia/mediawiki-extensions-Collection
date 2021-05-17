@@ -151,11 +151,13 @@ class CollectionProposals {
 					continue;
 				}
 
+				$content = $article->getPage()->getContent();
 				$this->mLinkList[] = [
 					'name' => $articleName,
 					'links' => $this->getWeightedLinks(
 						$numItems,
-						ContentHandler::getContentText( $article->getPage()->getContent() )
+						( $content instanceof TextContent )
+							? $content->getText() : null
 					),
 				];
 			}
