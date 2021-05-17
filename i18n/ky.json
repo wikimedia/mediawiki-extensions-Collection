@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bosogo",
 			"Growingup",
 			"Janatkg"
 		]
@@ -14,6 +15,7 @@
 	"coll-no": "Жок",
 	"coll-cancel": "Жокко чыгаруу",
 	"coll-update": "Жаңыртуу",
+	"coll-print_export": "Басып чыгаруу/экспорттоо",
 	"coll-create_a_book": "Китеп түзүү",
 	"coll-download_as": "$1 түрүндө көчүрүп алуу",
 	"coll-help": "Жардам",
