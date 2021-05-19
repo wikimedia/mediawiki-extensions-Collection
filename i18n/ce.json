@@ -74,7 +74,7 @@
 	"coll-rendering_failed_title": "файл кхолла ца ели",
 	"coll-rendering_failed_text": "<strong>Файлан документ кхолла таро ца хилий.</strong>\n\n<p><span id=\"renderingStatus\">$1</span></p>",
 	"coll-rendering_failed_status": "<strong>Статус:</strong> $1",
-	"coll-failed_page_info_text_article": "{{MediaWiki:Coll-helppage}}/АгӀона йоза тадар",
+	"coll-failed_page_info_text_article": "{{MediaWiki:Coll-helppage}}/АгӀонан йоза тадар",
 	"coll-notfound_title": "Жайна цакарий",
 	"coll-book_title": "Заказ де зорбанан жайна",
 	"coll-book_text": "Тхан партнёрера схьаэца жайна:",
