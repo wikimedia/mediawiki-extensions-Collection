@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ammartivari",
+			"Besnik b",
 			"Kosovastar",
 			"Liridon",
 			"Olsi"
@@ -14,7 +15,7 @@
 	"coll-contents": "Përmbajtja",
 	"coll-rename": "Riemërto",
 	"coll-load_local_book": "Kliko \"OK\" për të vazhduar me librin tuaj $1 i cili përmban $2 wiki {{PLURAL:$2|page|pages}}. Kliko \"Cancel\" për të fshirë atë dhe për të filluar me një librit të zbrazët.",
-	"coll-print_export": "Printo/eksporto",
+	"coll-print_export": "Shtyp/eksporto",
 	"coll-create_a_book": "Krijo një libër",
 	"coll-book_creator": "Krijues i librit",
 	"coll-download_as": "Shkarkoje si $1",
