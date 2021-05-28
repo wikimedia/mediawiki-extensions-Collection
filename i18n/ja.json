@@ -15,6 +15,7 @@
 			"Phantomize",
 			"Shirayuki",
 			"Sujiniku",
+			"UsagiNeko",
 			"Yusuke1109",
 			"おはぐろ蜻蛉",
 			"夢蝶葬花",
@@ -204,6 +205,7 @@
 	"coll-images-original-artist": "オリジナルアーティスト",
 	"coll-license-title": "コンテンツのライセンス",
 	"coll-rendererror-title": "ブックを作成できませんでした",
+	"coll-rendererror-pdf": "PDFのレンダリングに失敗: $1",
 	"coll-rendererror-fetch": "$1の取得に失敗しました:$2",
 	"coll-rendererror-no-cache": "ブックデータがキャッシュに見つかりません。これはソフトウェアのエラーである可能性が最も高いです。"
 }
