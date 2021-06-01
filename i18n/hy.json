@@ -56,7 +56,7 @@
 	"coll-no": "Ոչ",
 	"coll-load_overwrite_text": "Դուք արդեն ունեք որոշ էջեր ձեր գրքում։\nՑանկանում եք վերգրե՞լ ընթացիք գիրքը, ավելացնե՞լ նոր նյութը, թե բեկանե՞լ գրքի բեռնումը։",
 	"coll-overwrite": "Վերգրել",
-	"coll-append": "Ավելացնել",
+	"coll-append": "Հավելել",
 	"coll-cancel": "Բեկանել",
 	"coll-update": "Թարմացնել",
 	"coll-limit_exceeded_title": "Գիրքը շատ մեծ է",
