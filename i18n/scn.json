@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Aushulz",
 			"Gmelfi",
 			"Macofe",
@@ -24,7 +25,6 @@
 	"coll-couldnotaddarticle_msg": "La pàggina dâ wiki nun si potti agghiùnciri.",
 	"coll-couldnotremovearticle_title": "Nun si potti livari na pàggina dâ wiki",
 	"coll-couldnotremovearticle_msg": "La pàggina dâ wiki nun si potti livari.",
-	"coll-noscript_text": "<h1>Ci voli lu JavaScript!</h1>\n<strong>Lu tò browser nun supporta lu JavaScript o puru lu disattivau.\nSta pàggina nun pò funziunari bona senza lu JavaScript attivatu.</strong>",
 	"coll-savedbook_template": "libbru_sarvatu",
 	"coll-your_book": "Lu tò libbru",
 	"coll-remove": "Leva",
@@ -50,6 +50,7 @@
 	"coll-suggest_title": "Pàggini suggiriti pô vostru libbru",
 	"coll-suggested_articles": "Cunzigghi",
 	"coll-suggest_show": "ammustra",
+	"coll-suggest_undo": "annulla",
 	"coll-print_export": "Stampa/esporta",
 	"coll-create_a_book": "Crea nu libbru",
 	"coll-book_creator": "Criaturi dî libbra",

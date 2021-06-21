@@ -21,7 +21,6 @@
 	"coll-couldnotaddarticle_msg": "यह विकि पृष्ठ जोडल नै जा सकत।",
 	"coll-couldnotremovearticle_title": "विकि पृष्ठ हटाएल नै जा सकल",
 	"coll-couldnotremovearticle_msg": "ए विकि पृष्ठके पुस्तक सँ हटाएल नै जा सकल।",
-	"coll-noscript_text": "<h1>जावास्क्रिप्ट आवश्यक आची!</h1>\n<strong>अहाँके ब्राउजर जावास्क्रिप्ट समर्थन प्रदान नै करैत अछि, या जावास्क्रिप्ट बन्द केल गेल अछि।\nबिना जावास्क्रिप्ट के ए पृष्ठ ठीक सँ काम नै करत।</strong>",
 	"coll-savedbook_template": "संग्रह_पुस्तक",
 	"coll-your_book": "अहाँके पुस्तक",
 	"coll-download_title": "अवारोपन",

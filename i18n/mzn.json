@@ -20,8 +20,6 @@
 	"coll-new_chapter": "نو تیکه وسه اته جدید نوم وارد هاکنین",
 	"coll-rename_chapter": "نو تیکه وسه اته جدید نوم وارد هاکنین",
 	"coll-empty_collection": "خالی کتاب",
-	"coll-personal_collection_label": "کتاب شخصی:",
-	"coll-community_collection_label": "کتاب عمومی:",
 	"coll-save_collection": "ذخیره هاکردن کتاب",
 	"coll-load_overwrite_text": "شما اسا صفحه‌ئونی شه کتاب دله دارنی.\nشما خانّی کتاب فعلی ره رونویسی هاکنین، محتوای جدید ره ونه دله دکشین یا بارگیری این کتاب ره إس هادین؟",
 	"coll-limit_exceeded_title": "کتاب خله خله گت هسته",
