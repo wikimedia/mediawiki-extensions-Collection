@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Misteld"
+			"Misteld",
+			"Samatics"
 		]
 	},
-	"coll-print_export": "Zin jẹgbonu/ detọ́n",
+	"coll-print_export": "Zin in jẹgbonu/ detọ́n",
 	"coll-download_as": "Mọyi tasi $1"
 }
