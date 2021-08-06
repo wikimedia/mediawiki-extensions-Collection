@@ -48,7 +48,7 @@
 	"coll-request_failed_title": "Le generation del libro ha fallite",
 	"coll-request_failed_msg": "Un error ha occurrite durante le tentativa de generar tu libro.",
 	"coll-empty_collection": "Libro vacue",
-	"coll-save_collection_title": "Salveguardar e divider tu libro",
+	"coll-save_collection_title": "Salveguardar e condivider tu libro",
 	"coll-save_collection_text": "Selige un location:",
 	"coll-save_collection": "Salveguardar libro",
 	"coll-save_category": "Tote le libros immagazinate es addite al categoria [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]].",
