@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Adriendelucca",
 			"Fohanno",
 			"Fulup",
 			"Gwenn-Ael",
@@ -48,6 +49,7 @@
 	"coll-rename_chapter": "Merkañ titl nevez ar rannbennad-mañ",
 	"coll-notitle_title": "N'eus ket bet gallet tapout titl ar bajenn.",
 	"coll-notitle_msg": "N'eus ket bet gallet didermeniñ titl ar bajenn.",
+	"coll-request_failed_title": "N'halled ket skeudenniñ al levr",
 	"coll-empty_collection": "Levr goullo",
 	"coll-save_collection_title": "Enrollañ ho levr ha rannañ anezhañ gant tud all",
 	"coll-save_collection_text": "Dibabit ul lec'h stokañ evit ho levr :",
@@ -76,6 +78,7 @@
 	"coll-rendering_finished_notes_heading": "Notennoù :",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Deouez testenn titouroù ar bajenn",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Deouez testenn titouroù an dastumadeg",
+	"coll-rendering_failed_title": "Skeudennadur c'hwitet",
 	"coll-rendering_failed_status": "<strong>Statud :</strong> $1",
 	"coll-notfound_title": "N'eo ket bet kavet al levr",
 	"coll-notfound_text": "N'eus ket bet tu da gavout pajenn al levr.",
@@ -159,5 +162,11 @@
 	"coll-setting-columns": "Bannoù :",
 	"coll-attribution-anons": "Dizanv : $1",
 	"coll-article-attribution": "<b>$1</b> <i>Mammenn :</i> $2 <i>Perzhidi :</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Tarzh:</i> $2 <i>Licence :</i> $3 <i>Degaserien:</i> $4 <i>Arzour a orin :</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Tarzh:</i> $2 <i>Licence :</i> $3 <i>Degaserien:</i> $4 <i>Arzour a orin :</i> $5",
+	"coll-warning-learn-more": "Gouzout hiroc'h",
+	"coll-contributors-title": "Kenlabourerien",
+	"coll-images-title": "Skeudennoù",
+	"coll-images-source": "Mammenn",
+	"coll-images-license": "Aotre-implijout",
+	"coll-images-original-artist": "Arzour orin"
 }
