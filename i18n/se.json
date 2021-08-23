@@ -1,7 +1,13 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Yupik"
+		]
 	},
 	"coll-remove": "Sihko",
-	"coll-help": "Veahkki"
+	"coll-show": "Čájet",
+	"coll-license": "Liseansa",
+	"coll-suggest_show": "čájet",
+	"coll-help": "Veahkki",
+	"coll-images-license": "Liseansa"
 }
