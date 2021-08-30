@@ -49,6 +49,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Nfurmazzioni supra la rinnuta dê pàggini",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Nfurmazzioni supra la rinnuta dî cullizzioni",
 	"coll-rendering_finished_text": "<strong>Lu documentu fu giniratu.</strong>\n<strong>[$1 Scaricari lu file]</strong> supra lu vostru computer.",
+	"coll-rendering_finished_notes_heading": "Noti:",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Nfurmazzioni supra la rinnuta dî cullizzioni",
 	"coll-rendering_failed_status": "<strong>Statu:</strong> $1",
 	"coll-failed_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Nfurmazzioni supra la rinnuta dî pàggini",
