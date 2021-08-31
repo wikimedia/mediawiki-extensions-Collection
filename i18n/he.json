@@ -191,7 +191,7 @@
 	"coll-images-original-artist": "האומן המקורי",
 	"coll-license-title": "רישיון התוכן",
 	"coll-rendererror-title": "לא היה אפשר ליצור את הספר",
-	"coll-rendererror-no-session": "הגדרת הספר לא נמצאה בהתחברות. ייתכן שהיא הושלכה בשל חוסר־פעילות.",
+	"coll-rendererror-no-session": "הגדרת הספר לא נמצאה בהתחברות. ייתכן שהיא נזרקה בשל חוסר־פעילות.",
 	"coll-rendererror-pdf": "תיצוג PDF נכשל: $1",
 	"coll-rendererror-fetch": "אחזור $1 נכשל: $2",
 	"coll-rendererror-fetch-wrapper": "אירעו שגיאות בעת ניסיון לאחזר את תוכן הדף:\n$1",
