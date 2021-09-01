@@ -8,9 +8,10 @@
 	"coll-show": "Вӯзьхэ",
 	"coll-move_up": "Лыгксаһтӭ паййла",
 	"coll-move_down": "Лыгксаһтӭ вӯлльга",
-	"coll-print_export": "Печа̄дтмушш/экспорт",
+	"coll-print_export": "Печадтҍмушш/экспорт",
 	"coll-create_a_book": "Лыһкэ кнӣга",
 	"coll-book_creator": "Книга лыһкэй",
+	"coll-download_as": "Соаӆӆкэ гу $1",
 	"coll-help": "Справка",
 	"coll-helppage": "Help:Кырьй",
 	"coll-attribution-anons": "Аноним: $1"
