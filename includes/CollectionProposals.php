@@ -63,8 +63,8 @@ class CollectionProposals {
 	 */
 	public function __construct( $coll, $ban, $props ) {
 		$this->mPropList = [];
-		$this->mColl = $coll;
-		$this->mBanList = $ban;
+		$this->mColl = is_array( $coll ) ? $coll : [];
+		$this->mBanList = is_array( $ban ) ? $ban : [];
 		$this->mLinkList = is_array( $props ) ? $props : [];
 	}
 
