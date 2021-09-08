@@ -76,6 +76,7 @@ class DataProvider implements LoggerAwareInterface {
 		$responses = $this->client->runMulti( $requests );
 
 		$status = StatusValue::newGood();
+		// @phan-suppress-next-line PhanPluginUseReturnValueInternalKnown Not intending to modify the arrays
 		array_map( function ( $req, $resp ) use ( $status ) {
 			if ( $resp['error'] !== '' ) {
 				// curl error. Logging will happen in MultiHttpClient.
