@@ -10,9 +10,11 @@
 	"coll-book_creator_help": "အချက်အလက်အတွက် [[{{MediaWiki:Coll-helppage}}|စာအုပ်များအကြောင်း အကူအညီစာမျက်နှာ]] ကိုကြည့်ပါ",
 	"coll-start_book_creator": "စာအုပ်ဖန်တီးသူကို စတင်ရန်",
 	"coll-book_creator_continue": "စာအုပ်ဖန်တီးသူကို အသုံးပြု၍ ဆက်လုပ်ရန်",
+	"coll-book_creator_disable_text": "''စာအုပ်ဖန်တီးသူ''သည် အသုံးပြုမရဖြစ်သွားပြီး သင်ဆောင်ရွက်နေသောစာအုပ်သည် ဖယ်ရှားခံရပါလိမ့်မည်။",
 	"coll-book_creator_text_article": "{{MediaWiki:Coll-helppage}}/စာအုပ်ဖန်တီးသူ စာသား",
 	"coll-collection": "စာအုပ်",
 	"coll-collections": "စာအုပ်များ",
+	"coll-unknown_subpage_title": "အမည်မသိ စာမျက်နှာခွဲ",
 	"coll-unknown_subpage_text": "[[Special:Book|စာအုပ်]]၏ စာမျက်နှာခွဲ မတည်ရှိပါ။",
 	"coll-couldnotaddarticle_title": "ဝီကီစာမျက်နှာကို မပေါင်းထည့်နိုင်ပါ",
 	"coll-couldnotaddarticle_msg": "ဤဝီကီစာမျက်နှာကို မပေါင်းထည့်ပေးနိုင်ပါ။",
@@ -42,8 +44,10 @@
 	"coll-save_collection_title": "သင်၏စာအုပ်ကို သိမ်းဆည်းမျှဝေရန်",
 	"coll-save_collection_text": "သင်၏စာအုပ်အတွက် သိုလှောင်ခန်းတစ်ခု ရွေးချယ်ပါ:",
 	"coll-save_collection": "စာအုပ် သိမ်းရန်",
+	"coll-save_category": "သိမ်းထားသောစာအုပ်အားလုံးကို [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]]ကဏ္ဍတွင် ထည့်သွင်းထားပါသည်။",
 	"coll-overwrite_text": "[[:$1]] အမည်ဖြင့် စာမျက်နှာတစ်ခု ရှိနှင့်ပြီးဖြစ်သည်။ ယင်းအား သင်၏စာအုပ်ဖြင့် အစားထိုးလိုပါသလား။",
 	"coll-no": "မလုပ်ပါ",
+	"coll-overwrite": "ထပ်ပိုးရေးသားရန်",
 	"coll-cancel": "မလုပ်တော့ပါ",
 	"coll-update": "မွမ်းမံ",
 	"coll-limit_exceeded_title": "စာအုပ် ကြီးမားလွန်း",
@@ -120,5 +124,6 @@
 	"coll-contributors-title": "ဆောင်ရွက်ပေးထားသူများ",
 	"coll-images-title": "ရုပ်ပုံများ",
 	"coll-images-source": "ရင်းမြစ်",
-	"coll-images-license": "လိုင်စင်"
+	"coll-images-license": "လိုင်စင်",
+	"coll-license-title": "အကြောင်းအရာလိုင်စင်"
 }
