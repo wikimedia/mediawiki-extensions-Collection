@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Beunice",
 			"Hangmanwa7id"
 		]
 	},
@@ -8,6 +9,7 @@
 	"coll-show": "Afficher",
 	"coll-move_up": "Élever",
 	"coll-move_down": "Descendre",
+	"coll-print_export": "Imprimer / exporter",
 	"coll-create_a_book": "Créer un livre",
 	"coll-download_as": "Télécharger comme $1",
 	"coll-disable": "désactiver",
