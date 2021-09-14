@@ -24,7 +24,8 @@
 	},
 	"MessagesDirs": {
 		"Collection": [
-			"i18n"
+			"i18n",
+			"i18n/api"
 		]
 	},
 	"ExtensionMessagesFiles": {
@@ -48,6 +49,11 @@
 		"CollectionRenderingAPI": "includes/rendering/CollectionRenderingAPI.php",
 		"MWServeRenderingAPI": "includes/rendering/MWServeRenderingAPI.php",
 		"CollectionAPIResult": "includes/rendering/CollectionAPIResult.php"
+	},
+	"APIModules": {
+		"collection-list": {
+			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiGetCollection"
+		}
 	},
 	"AutoloadNamespaces": {
 		"MediaWiki\\Extensions\\Collection\\": "includes/"

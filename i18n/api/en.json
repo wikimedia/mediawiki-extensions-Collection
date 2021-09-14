@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Derick Alangi"
+		]
+	},
+	"apihelp-collection-list-example": "List pages currently in the collection.",
+	"apihelp-collection-list-summary": "Api module for listing current pages in a collection"
+}

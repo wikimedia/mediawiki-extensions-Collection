@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Derick Alangi"
+		]
+	},
+	"apihelp-collection-list-example": "{{doc-apihelp-example|collection-list}}",
+	"apihelp-collection-list-summary": "{{doc-apihelp-example|collection-list}}"
+}
