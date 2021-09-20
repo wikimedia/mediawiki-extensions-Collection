@@ -5,5 +5,8 @@
 		]
 	},
 	"apihelp-collection-list-example": "List pages currently in the collection.",
-	"apihelp-collection-list-summary": "Api module for listing current pages in a collection"
+	"apihelp-collection-list-summary": "Api module for listing current pages in a collection",
+	"apihelp-collection-addarticle-example": "Add an article to the collection.",
+	"apihelp-collection-addarticle-summary": "Api module for adding and article to the collection",
+	"coll-api-addarticle-article-not-added": "Article was not added to collection. Make sure the title is in the specified namespace or check if the article already exist in the collection."
 }

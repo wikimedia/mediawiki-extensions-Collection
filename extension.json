@@ -53,6 +53,9 @@
 	"APIModules": {
 		"collection-list": {
 			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiGetCollection"
+		},
+		"collection-addarticle": {
+			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiAddArticle"
 		}
 	},
 	"AutoloadNamespaces": {
