@@ -8,5 +8,8 @@
 	"apihelp-collection-list-summary": "Api module for listing current pages in a collection",
 	"apihelp-collection-addarticle-example": "Add an article to the collection.",
 	"apihelp-collection-addarticle-summary": "Api module for adding and article to the collection",
+	"apihelp-collection-settitles-example": "Set a title and subtitle to the collection",
+	"apihelp-collection-settitles-settings-example": "Set a title, subtitle, and settings to the collection",
+	"apihelp-collection-settitles-summary": "Api module for setting a title, subtitle, and settings for a collection",
 	"coll-api-addarticle-article-not-added": "Article was not added to collection. Make sure the title is in the specified namespace or check if the article already exist in the collection."
 }
