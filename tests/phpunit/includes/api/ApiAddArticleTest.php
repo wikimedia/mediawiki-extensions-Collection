@@ -52,7 +52,7 @@ class ApiAddArticleTest extends ApiTestCase {
 		$this->expectException( ApiUsageException::class );
 		$title = $this->getNonexistingTestPage()->getTitle();
 
-		$this->doApiRequestWithToken( [
+		$this->doApiRequest( [
 			'action' => 'collection-addarticle',
 			'namespace' => $title->getNamespace(),
 			'title' => $title->getDBkey()

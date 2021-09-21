@@ -11,5 +11,8 @@
 	"apihelp-collection-settitles-example": "Set a title and subtitle to the collection",
 	"apihelp-collection-settitles-settings-example": "Set a title, subtitle, and settings to the collection",
 	"apihelp-collection-settitles-summary": "Api module for setting a title, subtitle, and settings for a collection",
-	"coll-api-addarticle-article-not-added": "Article was not added to collection. Make sure the title is in the specified namespace or check if the article already exist in the collection."
+	"coll-api-addarticle-article-not-added": "Article was not added to collection. Make sure the title is in the specified namespace or check if the article already exist in the collection.",
+	"apihelp-collection-removearticle-example": "Remove an article from the collection.",
+	"apihelp-collection-removearticle-summary": "Api module for removing an article from the collection",
+	"coll-api-removearticle-article-not-removed": "Article was not remove from collection. Make sure the title is in the specified namespace or check if the article does not exist in the collection."
 }

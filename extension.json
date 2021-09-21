@@ -59,6 +59,9 @@
 		},
 		"collection-addarticle": {
 			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiAddArticle"
+		},
+		"collection-removearticle": {
+			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiRemoveArticle"
 		}
 	},
 	"AutoloadNamespaces": {
