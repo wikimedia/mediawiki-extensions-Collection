@@ -14,5 +14,8 @@
 	"coll-api-addarticle-article-not-added": "Text shown when an article was not successfully added to the user's collection. It could most likely be due to the fact that the title is not in the specified namespace in the API request or that th article could have already been added to the collection in a previous request.",
 	"apihelp-collection-removearticle-example": "{{doc-apihelp-example|collection-removearticle}}",
 	"apihelp-collection-removearticle-summary": "{{doc-apihelp-summary|collection-removearticle}}",
-	"coll-api-removearticle-article-not-removed": "Text shown when an article was not successfully removed from the user's collection. It could most likely be due to the fact that the title is not in the specified namespace in the API request or that the article does not exist in the user's collection."
+	"coll-api-removearticle-article-not-removed": "Text shown when an article was not successfully removed from the user's collection. It could most likely be due to the fact that the title is not in the specified namespace in the API request or that the article does not exist in the user's collection.",
+	"apihelp-collection-addcategory-example": "{{doc-apihelp-example|collection-addcategory}}",
+	"apihelp-collection-addcategory-summary": "{{doc-apihelp-summary|collection-addcategory}}",
+	"coll-api-addcategory-category-does-not-exist": "The text shown when a user tries to add articles from a category that does not exist, is invalid or that exceeds the limit of articles to be in a category specified with $wgCollectionMaxArticles."
 }

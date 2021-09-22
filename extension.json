@@ -62,6 +62,9 @@
 		},
 		"collection-removearticle": {
 			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiRemoveArticle"
+		},
+		"collection-addcategory": {
+			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiAddCategory"
 		}
 	},
 	"AutoloadNamespaces": {
