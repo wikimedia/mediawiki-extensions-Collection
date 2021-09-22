@@ -65,6 +65,9 @@
 		},
 		"collection-addcategory": {
 			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiAddCategory"
+		},
+		"collection-addchapter": {
+			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiAddChapter"
 		}
 	},
 	"AutoloadNamespaces": {

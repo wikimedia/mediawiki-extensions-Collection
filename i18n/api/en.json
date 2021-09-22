@@ -17,5 +17,7 @@
 	"coll-api-removearticle-article-not-removed": "Article was not remove from collection. Make sure the title is in the specified namespace or check if the article does not exist in the collection.",
 	"apihelp-collection-addcategory-example": "Add articles from a given category to a user's collection.",
 	"apihelp-collection-addcategory-summary": "Api module for adding articles from a giving category to a user's collection.",
-	"coll-api-addcategory-category-does-not-exist": "The category you are trying to add articles from does not exist, is invalid or has articles more than the limit specified."
+	"coll-api-addcategory-category-does-not-exist": "The category you are trying to add articles from does not exist, is invalid or has articles more than the limit specified.",
+	"apihelp-collection-addchapter-example": "Add a chapter to the collection.",
+	"apihelp-collection-addchapter-summary": "Api module for adding a chapter to the collection"
 }
