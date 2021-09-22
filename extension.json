@@ -74,6 +74,9 @@
 		},
 		"collection-clear": {
 			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiClearCollection"
+		},
+		"collection-setsorting": {
+			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiSetSorting"
 		}
 	},
 	"AutoloadNamespaces": {
