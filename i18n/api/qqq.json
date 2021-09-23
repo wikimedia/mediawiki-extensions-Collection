@@ -5,8 +5,11 @@
 		]
 	},
 	"apihelp-collection-list-example": "{{doc-apihelp-example|collection-list}}",
-	"apihelp-collection-list-summary": "{{doc-apihelp-example|collection-list}}",
+	"apihelp-collection-list-summary": "{{doc-apihelp-summary|collection-list}}",
 	"apihelp-collection-addarticle-example": "{{doc-apihelp-example|collection-addarticle}}",
-	"apihelp-collection-addarticle-summary": "{{doc-apihelp-example|collection-addarticle}}",
+	"apihelp-collection-addarticle-summary": "{{doc-apihelp-summary|collection-addarticle}}",
+	"apihelp-collection-settitles-example": "{{doc-apihelp-example|collection-settitles}}",
+	"apihelp-collection-settitles-settings-example": "{{doc-apihelp-example|collection-settitles}}",
+	"apihelp-collection-settitles-summary": "{{doc-apihelp-summary|collection-settitles}}",
 	"coll-api-addarticle-article-not-added": "Text shown when an article was not successfully added to the user's collection. It could most likely be due to the fact that the title is not in the specified namespace in the API request or that th article could have already been added to the collection in a previous request."
 }
