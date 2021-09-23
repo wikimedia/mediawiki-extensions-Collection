@@ -36,6 +36,8 @@ class ApiCollection extends ApiBase {
 		'setsorting' => ApiSetSorting::class,
 		'settitles' => ApiSetTitles::class,
 		'sortitems' => ApiSortItems::class,
+		'suggestarticleaction' => ApiSuggestArticleAction::class,
+		'suggestundoarticleaction' => ApiSuggestUndoArticleAction::class,
 	];
 
 	/** @var ApiModuleManager */

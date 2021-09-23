@@ -40,5 +40,11 @@
 	"apihelp-collection+getbookcreatorboxcontent-summary": "{{doc-apihelp-summary|collection-getbookcreatorboxcontent}}",
 	"apihelp-collection+postcollection-example": "{{doc-apihelp-example|collection+postcollection}}",
 	"apihelp-collection+postcollection-summary": "{{doc-apihelp-summary|collection+postcollection}}",
-	"coll-api-invalid-collection": "The error message shown when an invalid collection is received."
+	"coll-api-invalid-collection": "The error message shown when an invalid collection is received.",
+	"apihelp-collection+suggestarticleaction-example": "{{doc-apihelp-example|collection+suggestarticleaction}}",
+	"apihelp-collection+suggestarticleaction-summary": "{{doc-apihelp-summary|collection+suggestarticleaction}}",
+	"apihelp-collection+suggestarticleaction-param-suggestaction": "{{doc-apihelp-param|collection+suggestarticleaction|suggestaction}}",
+	"apihelp-collection+suggestundoarticleaction-example": "{{doc-apihelp-example|collection+suggestundoarticleaction}}",
+	"apihelp-collection+suggestundoarticleaction-summary": "{{doc-apihelp-summary|collection+suggestundoarticleaction}}",
+	"apihelp-collection+suggestundoarticleaction-param-lastaction": "{{doc-apihelp-param|collection-suggestundoarticleaction|lastaction}}"
 }
