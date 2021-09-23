@@ -29,5 +29,7 @@
 	"apihelp-collection-setsorting-summary": "Api module for reordering items in a collection",
 	"apihelp-collection-setsorting-param-items": "Items should be listed using their old index and ordered by their new position",
 	"apihelp-collection-sortitems-example": "Sort collection articles alphabetically",
-	"apihelp-collection-sortitems-summary": "Api module to sort articles in collection alphabetically. Articles within chapters are grouped and sorted together"
+	"apihelp-collection-sortitems-summary": "Api module to sort articles in collection alphabetically. Articles within chapters are grouped and sorted together",
+	"apihelp-collection-getpopupdata-example": "Gets a popup to add/remove an article to the collection",
+	"apihelp-collection-getpopupdata-summary": "Api module to get data and html to construct a popup"
 }

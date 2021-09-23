@@ -57,6 +57,13 @@
 		"collection-settitles": {
 			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiSetTitles"
 		},
+		"collection-getpopupdata": {
+			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiGetPopupData",
+			"services": [
+				"TitleFactory",
+				"WikiPageFactory"
+			]
+		},
 		"collection-addarticle": {
 			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiAddArticle"
 		},
