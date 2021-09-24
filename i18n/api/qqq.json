@@ -21,5 +21,7 @@
 	"apihelp-collection-addchapter-summary": "{{doc-apihelp-summary|collection-addchapter}}",
 	"apihelp-collection-renamechapter-example": "{{doc-apihelp-example|collection-renamechapter}}",
 	"apihelp-collection-renamechapter-summary": "{{doc-apihelp-summary|collection-renamechapter}}",
+	"apihelp-collection-clear-example": "{{doc-apihelp-example|collection-clear}}",
+	"apihelp-collection-clear-summary": "{{doc-apihelp-summary|collection-clear}}",
 	"coll-api-addarticle-article-not-added": "Text shown when an article was not successfully added to the user's collection. It could most likely be due to the fact that the title is not in the specified namespace in the API request or that th article could have already been added to the collection in a previous request."
 }

@@ -21,5 +21,7 @@
 	"apihelp-collection-addchapter-example": "Add a chapter to the collection.",
 	"apihelp-collection-addchapter-summary": "Api module for adding a chapter to the collection",
 	"apihelp-collection-renamechapter-example": "Rename a chapter in the user's collection.",
-	"apihelp-collection-renamechapter-summary": "Api module for renaming a chapter in the user's collection"
+	"apihelp-collection-renamechapter-summary": "Api module for renaming a chapter in the user's collection",
+	"apihelp-collection-clear-example": "Clears collection and suggestions",
+	"apihelp-collection-clear-summary": "Api module for clearing the collection and suggestions"
 }
