@@ -37,5 +37,8 @@
 	"apihelp-collection-param-submodule": "Submodule for performing various operations on a wiki user's collection.",
 	"apihelp-collection-summary": "Api module for performing various operations on a wiki user's collection.",
 	"apihelp-collection+getbookcreatorboxcontent-example": "Get book creator box content of the user's collection.",
-	"apihelp-collection+getbookcreatorboxcontent-summary": "Api submodule for grabbing the box content of the user's book creator box special page."
+	"apihelp-collection+getbookcreatorboxcontent-summary": "Api submodule for grabbing the box content of the user's book creator box special page.",
+	"apihelp-collection+postcollection-example": "Post articles to a user's collection",
+	"apihelp-collection+postcollection-summary": "Api module for posting articles to a user's collection",
+	"coll-api-invalid-collection": "Invalid collection received."
 }

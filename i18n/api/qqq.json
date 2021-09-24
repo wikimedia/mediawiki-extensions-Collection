@@ -37,5 +37,8 @@
 	"apihelp-collection-param-submodule": "{{doc-apihelp-example|apihelp-collection-param-submodule}}",
 	"apihelp-collection-summary": "{{doc-api-help-summary|apihelp-collection-summary}}",
 	"apihelp-collection+getbookcreatorboxcontent-example": "{{doc-apihelp-example|collection-getbookcreatorboxcontent}}",
-	"apihelp-collection+getbookcreatorboxcontent-summary": "{{doc-apihelp-summary|collection-getbookcreatorboxcontent}}"
+	"apihelp-collection+getbookcreatorboxcontent-summary": "{{doc-apihelp-summary|collection-getbookcreatorboxcontent}}",
+	"apihelp-collection+postcollection-example": "{{doc-apihelp-example|collection+postcollection}}",
+	"apihelp-collection+postcollection-summary": "{{doc-apihelp-summary|collection+postcollection}}",
+	"coll-api-invalid-collection": "The error message shown when an invalid collection is received."
 }
