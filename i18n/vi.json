@@ -3,6 +3,7 @@
 		"authors": [
 			"Macofe",
 			"Minh Nguyen",
+			"NguoiDungKhongDinhDanh",
 			"Trần Nguyễn Minh Huy",
 			"Vinhtantran",
 			"Withoutaname"
@@ -123,9 +124,9 @@
 	"coll-format-okawix_zeno": "Okawix",
 	"coll-format-rdf2latex": "Sách điện tử (PDF, kết họa LaTeX ocg)",
 	"coll-format-rdf2text": "Trình soạn thảo văn bản (văn bản thuần)",
-	"action-collectionsaveasuserpage": "lưu sách thành trang cá nhân",
-	"right-collectionsaveasuserpage": "Lưu sách vở thành trang cá nhân",
-	"action-collectionsaveascommunitypage": "lưu sách làm trang cộng đồng",
+	"action-collectionsaveasuserpage": "lưu sách thành trang thành viên",
+	"right-collectionsaveasuserpage": "Lưu sách thành trang thành viên",
+	"action-collectionsaveascommunitypage": "lưu sách thành trang cộng đồng",
 	"right-collectionsaveascommunitypage": "Lưu sách thành trang cộng đồng",
 	"coll-print_export": "In/xuất ra",
 	"coll-create_a_book": "Tạo một quyển sách",
