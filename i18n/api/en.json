@@ -19,5 +19,7 @@
 	"apihelp-collection-addcategory-summary": "Api module for adding articles from a giving category to a user's collection.",
 	"coll-api-addcategory-category-does-not-exist": "The category you are trying to add articles from does not exist, is invalid or has articles more than the limit specified.",
 	"apihelp-collection-addchapter-example": "Add a chapter to the collection.",
-	"apihelp-collection-addchapter-summary": "Api module for adding a chapter to the collection"
+	"apihelp-collection-addchapter-summary": "Api module for adding a chapter to the collection",
+	"apihelp-collection-renamechapter-example": "Rename a chapter in the user's collection.",
+	"apihelp-collection-renamechapter-summary": "Api module for renaming a chapter in the user's collection"
 }
