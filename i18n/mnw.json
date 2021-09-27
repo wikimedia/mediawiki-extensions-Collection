@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Aue Nai",
-			"Htawmonzel"
+			"Htawmonzel",
+			"咽頭べさ"
 		]
 	},
 	"coll-desc": "[[Special:Book|ခၞံကၠောန် လိက်အုပ်ဂမၠိုၚ်]]",
@@ -13,6 +14,7 @@
 	"coll-your_book": "လိက်အုပ် မၞး",
 	"coll-download_title": "တံင်လုပ်",
 	"coll-download_text": "သ္ဂောံဂြဲဖျေံလိက်အုပ်မၞးဂှ် ရုဲစှ် နဲကဲကၠောန်ၜိုတ်မွဲ တုဲ ဍဵုကေတ် ကောန်ဍောၚ်",
+	"coll-format_label": "ဗီုပြင်:",
 	"coll-remove": "ပတိတ်",
 	"coll-show": "ထ္ၜး",
 	"coll-move_up": "ပြံင်ပတိုန် လတူ",
