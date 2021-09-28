@@ -71,6 +71,9 @@
 		},
 		"collection-renamechapter": {
 			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiRenameChapter"
+		},
+		"collection-clear": {
+			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiClearCollection"
 		}
 	},
 	"AutoloadNamespaces": {
