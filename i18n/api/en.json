@@ -27,5 +27,7 @@
 	"apihelp-collection-setsorting-example": "In a collection of 3 items, Swap the first and second item",
 	"apihelp-collection-setsorting-deletion-example": "In a collection of 3 items, make the 3rd item first and delete the 2nd item",
 	"apihelp-collection-setsorting-summary": "Api module for reordering items in a collection",
-	"apihelp-collection-setsorting-param-items": "Items should be listed using their old index and ordered by their new position"
+	"apihelp-collection-setsorting-param-items": "Items should be listed using their old index and ordered by their new position",
+	"apihelp-collection-sortitems-example": "Sort collection articles alphabetically",
+	"apihelp-collection-sortitems-summary": "Api module to sort articles in collection alphabetically. Articles within chapters are grouped and sorted together"
 }
