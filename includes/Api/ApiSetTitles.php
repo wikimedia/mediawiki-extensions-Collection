@@ -23,21 +23,12 @@
 namespace MediaWiki\Extensions\Collection\Api;
 
 use ApiBase;
-use ApiMain;
 use FormatJson;
 use SpecialCollection;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiSetTitles extends ApiBase {
 	use GetCollectionItemListTrait;
-
-	/**
-	 * @param ApiMain $main main module
-	 * @param string $action name of this module
-	 */
-	public function __construct( ApiMain $main, string $action ) {
-		parent::__construct( $main, $action );
-	}
 
 	/**
 	 * execute the API request
