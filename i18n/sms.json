@@ -4,13 +4,21 @@
 			"Yupik"
 		]
 	},
+	"coll-collection": "Ǩeʹrjj",
+	"coll-collections": "Ǩeeʹrj",
+	"coll-your_book": "Tuu ǩeʹrjj",
 	"coll-download_title": "Laadd",
 	"coll-download": "Laadd",
 	"coll-show": "Čuäʹjet",
 	"coll-license": "Liseʹnss",
+	"coll-suggest_your_book": "Tuu ǩeʹrjj",
 	"coll-suggest_show": "čuäʹjet",
 	"coll-suggest_undo": "kååʹmet",
+	"coll-create_a_book": "Raaj ǩeeʹrj",
 	"coll-download_as": "Laadd $1-teâttõssân",
+	"coll-bookscategory": "Ǩeeʹrj",
+	"coll-helppage": "Help:Ǩeeʹrj",
+	"coll-show_collection": "Čuäʹjet ǩeeʹrj",
 	"coll-attribution-anons": "Nõõmteʹm: $1",
 	"coll-images-license": "Liseʹnss"
 }

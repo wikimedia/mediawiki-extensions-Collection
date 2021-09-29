@@ -5,6 +5,18 @@
 			"咽頭べさ"
 		]
 	},
+	"coll-collection": "လိခ်အုပ်",
+	"coll-collections": "လိခ်အုပ်ဖုံႏ",
+	"coll-format_label": "ဖော့မတ်:",
+	"coll-title": "ကꩻတူႏရဲန်ႏ:",
+	"coll-contents": "မာတိကာ",
+	"coll-yes": "မွေး",
+	"coll-no": "မွေးတဝ်း",
+	"coll-cancel": "မာꩻတဝ်းဒွုမ်",
+	"coll-rendering_article": "(ဝီခီစာလိတ်မဲ့ငါ: $1)",
+	"coll-rendering_page": "(လိတ်မဲ့ငါ: $1)",
+	"coll-about_pp": "$1 ခရာႏ",
+	"coll-license": "လုဲင်သိဥ်",
 	"coll-print_export": "ထေထန်ႏ/ပရင့်",
 	"coll-create_a_book": "ဖန်ဆင်ꩻလိတ်ဖွူꩻ",
 	"coll-create_a_book_tooltip": "ဖန်ဆင်ꩻ လိတ်ဖွူꩻ တဝ်းလဲ့ လိတ်မဲ့ငါ ခြွဉ်းဗူႏမုꩻတဗာႏ"

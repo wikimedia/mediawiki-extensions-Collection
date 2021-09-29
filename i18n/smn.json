@@ -6,6 +6,9 @@
 			"Yupik"
 		]
 	},
+	"coll-collection": "Kirje",
+	"coll-collections": "Kirjeh",
+	"coll-your_book": "Tuu kirje",
 	"coll-download_title": "Luođii",
 	"coll-download": "Luođii",
 	"coll-remove": "Siho",
@@ -13,6 +16,7 @@
 	"coll-move_up": "Sirde pajas",
 	"coll-move_down": "Sirde vuálás",
 	"coll-license": "Liiseens",
+	"coll-suggest_your_book": "Tuu kirje",
 	"coll-suggest_show": "čääiti",
 	"coll-print_export": "Printtii teikâ tuálvu",
 	"coll-create_a_book": "Räähti kirje",
@@ -23,6 +27,7 @@
 	"coll-book_creator_disable_tooltip": "Loopât kirje hammimtile",
 	"coll-add_this_page": "Laaseet taam siijđo kirjásâd",
 	"coll-add_page_tooltip": "Lasseet tááláá wikisiijđo kirjásâd",
+	"coll-bookscategory": "Kirjeh",
 	"coll-help": "Iše",
 	"coll-help_tooltip": "Čääiti ravvuu kirjij rähtimist",
 	"coll-helppage": "Help:Kirjeh",
