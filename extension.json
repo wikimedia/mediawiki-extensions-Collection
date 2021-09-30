@@ -64,6 +64,9 @@
 				"WikiPageFactory"
 			]
 		},
+		"collection-removeitem": {
+			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiRemoveItem"
+		},
 		"collection-addarticle": {
 			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiAddArticle"
 		},
