@@ -27,7 +27,7 @@ use SpecialCollection;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiRemoveArticle extends ApiBase {
-	use GetCollectionItemListTrait;
+	use CollectionTrait;
 
 	/**
 	 * execute the API request
@@ -72,8 +72,8 @@ class ApiRemoveArticle extends ApiBase {
 	 */
 	protected function getExamplesMessages(): array {
 		return [
-			'action=collection-removearticle&namespace=0&title=Main_Page&oldid=0'
-				=> 'apihelp-collection-removearticle-example',
+			'action=collection&submodule=removearticle&namespace=0&title=Main_Page&oldid=0'
+				=> 'apihelp-collection+removearticle-example',
 		];
 	}
 }

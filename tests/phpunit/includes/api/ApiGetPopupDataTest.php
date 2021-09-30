@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Tests for Collection api.php?action=collection-getpopupdata.
+ * Tests for Collection api.php?action=collection&submodule=getpopupdata.
  *
  * @group API
  * @group Database
@@ -15,21 +15,24 @@ class ApiGetPopupDataTest extends ApiTestCase {
 		$page = $this->getExistingTestPage();
 
 		$results = $this->doApiRequest( [
-			'action' => 'collection-getpopupdata',
+			'action' => 'collection',
+			'submodule' => 'getpopupdata',
 			'title' => $page->getDBkey()
-		] )[0]['collection-getpopupdata'];
+		] )[0]['getpopupdata'];
 		$this->assertEquals( 'add', $results['action'] );
 
 		$this->doApiRequest( [
-			'action' => 'collection-addarticle',
+			'action' => 'collection',
+			'submodule' => 'addarticle',
 			'namespace' => $page->getNamespace(),
 			'title' => $page->getDBkey()
 		] );
 
 		$results = $this->doApiRequest( [
-			'action' => 'collection-getpopupdata',
+			'action' => 'collection',
+			'submodule' => 'getpopupdata',
 			'title' => $page->getDBkey()
-		] )[0]['collection-getpopupdata'];
+		] )[0]['getpopupdata'];
 		$this->assertEquals( 'remove', $results['action'] );
 	}
 
@@ -37,7 +40,8 @@ class ApiGetPopupDataTest extends ApiTestCase {
 		$this->expectException( ApiUsageException::class );
 
 		$this->doApiRequest( [
-			'action' => 'collection-getpopupdata',
+			'action' => 'collection',
+			'submodule' => 'getpopupdata',
 		] );
 	}
 }

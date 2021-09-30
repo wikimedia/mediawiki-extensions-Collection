@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Tests for Collection api.php?action=collection-renamechapter
+ * Tests for Collection api.php?action=collection&submodule=renamechapter
  *
  * @group API
  * @group medium
@@ -13,27 +13,31 @@ class ApiRenameChapterTest extends ApiTestCase {
 	public function testApiAddChapter() {
 		// Add about 4 chapters to prep for renaming
 		$this->doApiRequest( [
-			'action' => 'collection-addchapter',
+			'action' => 'collection',
+			'submodule' => 'addchapter',
 			'chaptername' => 'Chapter 1'
-		] )[0];
+		] );
 		$this->doApiRequest( [
-			'action' => 'collection-addchapter',
+			'action' => 'collection',
+			'submodule' => 'addchapter',
 			'chaptername' => 'Chapter 2'
-		] )[0];
+		] );
 		$this->doApiRequest( [
-			'action' => 'collection-addchapter',
+			'action' => 'collection',
+			'submodule' => 'addchapter',
 			'chaptername' => 'Chapter 3'
-		] )[0];
+		] );
 		$apiResultChapterAdded = $this->doApiRequest( [
-			'action' => 'collection-addchapter',
+			'action' => 'collection',
+			'submodule' => 'addchapter',
 			'chaptername' => 'Chapter 4'
-		] )[0];
+		] )[0]['addchapter']['collection']['items'];
 
 		// Assert to make sure the chapters where added
-		$collection = $apiResultChapterAdded['collection-addchapter']['collection']['items'];
+		$collection = $apiResultChapterAdded;
 		$this->assertCount( 4, $collection );
-		$chapterTitle = $apiResultChapterAdded['collection-addchapter']['collection']['items'][0]['title'];
-		$chapterType = $apiResultChapterAdded['collection-addchapter']['collection']['items'][0]['type'];
+		$chapterTitle = $apiResultChapterAdded[0]['title'];
+		$chapterType = $apiResultChapterAdded[0]['type'];
 
 		$this->assertIsArray( $collection );
 		$this->assertSame(
@@ -49,15 +53,16 @@ class ApiRenameChapterTest extends ApiTestCase {
 
 		// Let's rename chapter 4 and see if rename API works.
 		$apiResultChapterRenamed = $this->doApiRequest( [
-			'action' => 'collection-renamechapter',
+			'action' => 'collection',
+			'submodule' => 'renamechapter',
 			'index' => 3,
 			'chaptername' => 'Chapter 4 renamed'
-		] )[0];
+		] )[0]['renamechapter']['collection']['items'];
 
-		$collection = $apiResultChapterRenamed['collection-renamechapter']['collection']['items'];
+		$collection = $apiResultChapterRenamed;
 		$this->assertCount( 4, $collection );
-		$chapterTitle = $apiResultChapterRenamed['collection-renamechapter']['collection']['items'][3]['title'];
-		$chapterType = $apiResultChapterRenamed['collection-renamechapter']['collection']['items'][3]['type'];
+		$chapterTitle = $apiResultChapterRenamed[3]['title'];
+		$chapterType = $apiResultChapterRenamed[3]['type'];
 
 		$this->assertIsArray( $collection );
 		$this->assertSame(
@@ -73,9 +78,10 @@ class ApiRenameChapterTest extends ApiTestCase {
 
 		// Check the user's collection again
 		$apiResult = $this->doApiRequest( [
-			'action' => 'collection-list'
+			'action' => 'collection',
+			'submodule' => 'getcollection',
 		] )[0];
-		$collection = $apiResult['collection-list']['items'];
+		$collection = $apiResult['getcollection']['items'];
 
 		$this->assertCount( 4, $collection, '4 chapters in the collection' );
 		$this->assertSame( 'Chapter 4 renamed', $collection[3]['title'] );
@@ -85,7 +91,8 @@ class ApiRenameChapterTest extends ApiTestCase {
 		$this->expectException( ApiUsageException::class );
 
 		$this->doApiRequest( [
-			'action' => 'collection-renamechapter',
+			'action' => 'collection',
+			'submodule' => 'renamechapter',
 			'chaptername' => 'Test',
 		] )[0];
 	}
@@ -94,7 +101,8 @@ class ApiRenameChapterTest extends ApiTestCase {
 		$this->expectException( ApiUsageException::class );
 
 		$this->doApiRequest( [
-			'action' => 'collection-renamechapter',
+			'action' => 'collection',
+			'submodule' => 'renamechapter',
 			'index' => 8,
 		] )[0];
 	}

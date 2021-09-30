@@ -3,7 +3,7 @@
 use MediaWiki\Session\SessionManager;
 
 /**
- * Tests for Collection api.php?action=collection-clear.
+ * Tests for Collection api.php?action=collection&submodule=clearcollection.
  *
  * @group API
  * @group medium
@@ -20,7 +20,8 @@ class ApiClearCollectionTest extends ApiTestCase {
 		$session['wsCollectionSuggestProp'] = 'testSuggestProp';
 
 		$this->doApiRequest( [
-			'action' => 'collection-clear'
+			'action' => 'collection',
+			'submodule' => 'clearcollection',
 		] );
 
 		$this->assertArraySubmapSame( [

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Tests for Collection api.php?action=collection-addcategory
+ * Tests for Collection api.php?action=collection&submodule=addcategory
  *
  * @group API
  * @group Database
@@ -26,13 +26,14 @@ class ApiAddCategoryTest extends ApiTestCase {
 
 		// Add category to the user's collection
 		$apiResult = $this->doApiRequest( [
-			'action' => 'collection-addcategory',
+			'action' => 'collection',
+			'submodule' => 'addcategory',
 			'title' => $category['title']->getDBKey()
 		] )[0];
 
 		// Assert that articles from the category are in the
 		// user's collection as expected.
-		$collection = $apiResult['collection-addcategory']['collection']['items'];
+		$collection = $apiResult['addcategory']['collection']['items'];
 		$this->assertCount( 4, $collection );
 	}
 }

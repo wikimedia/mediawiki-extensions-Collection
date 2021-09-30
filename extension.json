@@ -51,45 +51,8 @@
 		"CollectionAPIResult": "includes/rendering/CollectionAPIResult.php"
 	},
 	"APIModules": {
-		"collection-list": {
-			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiGetCollection"
-		},
-		"collection-settitles": {
-			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiSetTitles"
-		},
-		"collection-getpopupdata": {
-			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiGetPopupData",
-			"services": [
-				"TitleFactory",
-				"WikiPageFactory"
-			]
-		},
-		"collection-removeitem": {
-			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiRemoveItem"
-		},
-		"collection-addarticle": {
-			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiAddArticle"
-		},
-		"collection-removearticle": {
-			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiRemoveArticle"
-		},
-		"collection-addcategory": {
-			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiAddCategory"
-		},
-		"collection-addchapter": {
-			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiAddChapter"
-		},
-		"collection-renamechapter": {
-			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiRenameChapter"
-		},
-		"collection-clear": {
-			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiClearCollection"
-		},
-		"collection-setsorting": {
-			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiSetSorting"
-		},
-		"collection-sortitems": {
-			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiSortItems"
+		"collection": {
+			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiCollection"
 		}
 	},
 	"AutoloadNamespaces": {

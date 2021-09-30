@@ -26,7 +26,7 @@ use ApiBase;
 use SpecialCollection;
 
 class ApiSortItems extends ApiBase {
-	use GetCollectionItemListTrait;
+	use CollectionTrait;
 
 	/**
 	 * execute the API request
@@ -41,8 +41,8 @@ class ApiSortItems extends ApiBase {
 	 */
 	protected function getExamplesMessages(): array {
 		return [
-			'action=collection-sortitems'
-				=> 'apihelp-collection-sortitems-example',
+			'action=collection&submodule=sortitems'
+				=> 'apihelp-collection+sortitems-example',
 		];
 	}
 }

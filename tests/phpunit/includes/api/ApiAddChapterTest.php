@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Tests for Collection api.php?action=collection-addchapter
+ * Tests for Collection api.php?action=collection&submodule=addchapter
  *
  * @group API
  * @group medium
@@ -12,13 +12,14 @@ class ApiAddChapterTest extends ApiTestCase {
 
 	public function testApiAddChapter() {
 		$apiResultChapterAdded = $this->doApiRequest( [
-			'action' => 'collection-addchapter',
+			'action' => 'collection',
+			'submodule' => 'addchapter',
 			'chaptername' => 'Test chapter'
 		] )[0];
 
-		$collection = $apiResultChapterAdded['collection-addchapter']['collection']['items' ];
-		$chapterTitle = $apiResultChapterAdded['collection-addchapter']['collection']['items'][0]['title'];
-		$chapterType = $apiResultChapterAdded['collection-addchapter']['collection']['items'][0]['type'];
+		$collection = $apiResultChapterAdded['addchapter']['collection']['items' ];
+		$chapterTitle = $apiResultChapterAdded['addchapter']['collection']['items'][0]['title'];
+		$chapterType = $apiResultChapterAdded['addchapter']['collection']['items'][0]['type'];
 
 		$this->assertIsArray( $collection );
 		$this->assertSame(
@@ -35,12 +36,13 @@ class ApiAddChapterTest extends ApiTestCase {
 
 		// Assert that the chapters were indeed added
 		$apiResult = $this->doApiRequest( [
-			'action' => 'collection-list',
+			'action' => 'collection',
+			'submodule' => 'getcollection'
 		] )[0];
 
-		$chapterTitle = $apiResult['collection-list']['items'][0]['title'];
+		$chapterTitle = $apiResult['getcollection']['items'][0]['title'];
 
-		$this->assertCount( 1, $apiResult['collection-list']['items'] );
+		$this->assertCount( 1, $apiResult['getcollection']['items'] );
 		$this->assertSame( 'Test chapter', $chapterTitle );
 	}
 }

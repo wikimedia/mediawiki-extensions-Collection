@@ -27,7 +27,7 @@ use SpecialCollection;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiAddArticle extends ApiBase {
-	use GetCollectionItemListTrait;
+	use CollectionTrait;
 
 	/**
 	 * execute the API request
@@ -69,8 +69,8 @@ class ApiAddArticle extends ApiBase {
 	 */
 	protected function getExamplesMessages(): array {
 		return [
-			'action=collection-addarticle&namespace=0&title=Main_Page&oldid=0'
-				=> 'apihelp-collection-addarticle-example',
+			'action=collection&submodule=addarticle&namespace=0&title=Main_Page&oldid=0'
+				=> 'apihelp-collection+addarticle-example',
 		];
 	}
 }

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Tests for Collection api.php?action=collection-removeitem.
+ * Tests for Collection api.php?action=collection&submodule=removeitem.
  *
  * @group API
  * @group Database
@@ -37,12 +37,13 @@ class ApiRemoveItemTest extends ApiTestCase {
 
 	public function testApiRemoveItemWithDefaultIndex() {
 		$apiResultAddArticle = $this->doApiRequest( [
-			'action' => 'collection-addarticle',
+			'action' => 'collection',
+			'submodule' => 'addarticle',
 			'namespace' => NS_PROJECT,
 			'title' => $this->getTestPage()->getDBkey()
 		] )[0];
 
-		$collectionItemZeroTitle = $apiResultAddArticle['collection-addarticle']['collection']['items'][0]['title'];
+		$collectionItemZeroTitle = $apiResultAddArticle['addarticle']['collection']['items'][0]['title'];
 		$this->assertSame(
 			'Collection:UTPage',
 			$collectionItemZeroTitle,
@@ -50,10 +51,11 @@ class ApiRemoveItemTest extends ApiTestCase {
 		);
 
 		$apiResult = $this->doApiRequest( [
-			'action' => 'collection-removeitem',
+			'action' => 'collection',
+			'submodule' => 'removeitem',
 		] )[0];
 
-		$collectionItems = $apiResult['collection-removeitem']['collection']['items'];
+		$collectionItems = $apiResult['removeitem']['collection']['items'];
 		$this->assertSame(
 			[],
 			$collectionItems,
@@ -64,25 +66,28 @@ class ApiRemoveItemTest extends ApiTestCase {
 	public function testApiRemoveItemWithSpecificIndex() {
 		// Add 3 pages to the collection first.
 		$this->doApiRequest( [
-			'action' => 'collection-addarticle',
+			'action' => 'collection',
+			'submodule' => 'addarticle',
 			'namespace' => NS_PROJECT,
 			'title' => $this->getTestPage( 'Page1' )->getDBkey()
 		] )[0];
 
 		$this->doApiRequest( [
-			'action' => 'collection-addarticle',
+			'action' => 'collection',
+			'submodule' => 'addarticle',
 			'namespace' => NS_PROJECT,
 			'title' => $this->getTestPage( 'Page2' )->getDBkey()
 		] )[0];
 
 		$apiResultAddedArticles = $this->doApiRequest( [
-			'action' => 'collection-addarticle',
+			'action' => 'collection',
+			'submodule' => 'addarticle',
 			'namespace' => NS_PROJECT,
 			'title' => $this->getTestPage( 'Page3' )->getDBkey()
 		] )[0];
 
 		// Before removing from index 2, assert we have 3 items in the list now.
-		$collectionItems = $apiResultAddedArticles['collection-addarticle']['collection']['items'];
+		$collectionItems = $apiResultAddedArticles['addarticle']['collection']['items'];
 		$this->assertCount(
 			3,
 			$collectionItems,
@@ -91,11 +96,12 @@ class ApiRemoveItemTest extends ApiTestCase {
 
 		// Now remove the item at index 1
 		$apiResult = $this->doApiRequest( [
-			'action' => 'collection-removeitem',
+			'action' => 'collection',
+			'submodule' => 'removeitem',
 			'index' => 1,
 		] )[0];
 
-		$collectionItems = $apiResult['collection-removeitem']['collection']['items'];
+		$collectionItems = $apiResult['removeitem']['collection']['items'];
 		$this->assertSame(
 			'Collection:Page3',
 			$collectionItems[1]['title'],
@@ -104,11 +110,12 @@ class ApiRemoveItemTest extends ApiTestCase {
 
 		// Grab the collection list and see if it was indeed removed.
 		$collection = $this->doApiRequest( [
-			'action' => 'collection-list'
+			'action' => 'collection',
+			'submodule' => 'getcollection',
 		] )[0];
 
 		// At this point, we should have 2 items. One has been removed above.
-		$this->assertCount( 2, $collection['collection-list']['items'] );
+		$this->assertCount( 2, $collection['getcollection']['items'] );
 	}
 
 	public function testApiRemoveItemWithBadParam() {
@@ -116,7 +123,8 @@ class ApiRemoveItemTest extends ApiTestCase {
 		$this->expectExceptionMessage( 'Invalid value "badparam" for integer parameter "index".' );
 
 		$this->doApiRequest( [
-			'action' => 'collection-removeitem',
+			'action' => 'collection',
+			'submodule' => 'removeitem',
 			'index' => 'badparam',
 		] )[0];
 	}

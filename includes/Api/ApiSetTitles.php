@@ -28,7 +28,7 @@ use SpecialCollection;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiSetTitles extends ApiBase {
-	use GetCollectionItemListTrait;
+	use CollectionTrait;
 
 	/**
 	 * execute the API request
@@ -67,10 +67,11 @@ class ApiSetTitles extends ApiBase {
 	 */
 	protected function getExamplesMessages(): array {
 		return [
-			'action=collection-settitles&title=foo&subtitle=bar'
-				=> 'apihelp-collection-settitles-example',
-			'action=collection-settitles&title=foo&subtitle=bar&settings={"papersize":"a4","toc":"auto","columns":"2"}'
-				=> 'apihelp-collection-settitles-settings-example'
+			'action=collection&submodule=settitles&title=foo&subtitle=bar'
+				=> 'apihelp-collection+settitles-example',
+			'action=collection&submodule=settitles&title=foo&subtitle=bar&' .
+			'settings={"papersize":"a4","toc":"auto","columns":"2"}'
+				=> 'apihelp-collection+settitles-settings-example'
 		];
 	}
 }

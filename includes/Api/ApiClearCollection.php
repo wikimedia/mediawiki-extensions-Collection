@@ -27,7 +27,7 @@ use CollectionSession;
 use CollectionSuggest;
 
 class ApiClearCollection extends ApiBase {
-	use GetCollectionItemListTrait;
+	use CollectionTrait;
 
 	/**
 	 * execute the API request
@@ -44,7 +44,8 @@ class ApiClearCollection extends ApiBase {
 	 */
 	protected function getExamplesMessages(): array {
 		return [
-			'action=collection-clear' => 'apihelp-collection-clear-example',
+			'action=collection&submodule=clearcollection'
+				=> 'apihelp-collection+clearcollection-example',
 		];
 	}
 }

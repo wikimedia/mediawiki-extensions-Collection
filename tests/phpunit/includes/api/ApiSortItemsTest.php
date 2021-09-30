@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Tests for Collection api.php?action=collection-sortitems.
+ * Tests for Collection api.php?action=collection&submodule=sortitems.
  *
  * @group API
  * @group Database
@@ -27,8 +27,9 @@ class ApiSortItemsTest extends ApiTestCase {
 		] );
 
 		$result = $this->doApiRequest( [
-			'action' => 'collection-sortitems'
-		] )[0]['collection-sortitems']['collection']['items'];
+			'action' => 'collection',
+			'submodule' => 'sortitems',
+		] )[0]['sortitems']['collection']['items'];
 
 		$this->assertArrayEquals( $expected, $result );
 	}

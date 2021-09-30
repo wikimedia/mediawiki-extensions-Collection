@@ -27,7 +27,7 @@ use SpecialCollection;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiAddChapter extends ApiBase {
-	use GetCollectionItemListTrait;
+	use CollectionTrait;
 
 	/**
 	 * execute the API request
@@ -53,8 +53,8 @@ class ApiAddChapter extends ApiBase {
 	 */
 	protected function getExamplesMessages(): array {
 		return [
-			'action=collection-addchapter&chaptername=Test'
-				=> 'apihelp-collection-addchapter-example',
+			'action=collection&submodule=addchapter&chaptername=Test'
+				=> 'apihelp-collection+addchapter-example',
 		];
 	}
 }

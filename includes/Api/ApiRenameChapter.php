@@ -27,7 +27,7 @@ use SpecialCollection;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiRenameChapter extends ApiBase {
-	use GetCollectionItemListTrait;
+	use CollectionTrait;
 
 	/**
 	 * execute the API request
@@ -59,8 +59,8 @@ class ApiRenameChapter extends ApiBase {
 	 */
 	protected function getExamplesMessages(): array {
 		return [
-			'action=collection-renamechapter&index=2&chaptername=Renamed'
-				=> 'apihelp-collection-renamechapter-example',
+			'action=collection&submodule=renamechapter&index=2&chaptername=Renamed'
+				=> 'apihelp-collection+renamechapter-example',
 		];
 	}
 }

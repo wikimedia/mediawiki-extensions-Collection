@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Tests for Collection api.php?action=collection-setsorting.
+ * Tests for Collection api.php?action=collection&submodule=setsorting.
  *
  * @group API
  * @group medium
@@ -21,9 +21,10 @@ class ApiSetSortingTest extends ApiTestCase {
 			] );
 
 		$result = $this->doApiRequest( [
-			'action' => 'collection-setsorting',
+			'action' => 'collection',
+			'submodule' => 'setsorting',
 			'items' => '1|0|2',
-		] )[0]['collection-setsorting']['collection']['items'];
+		] )[0]['setsorting']['collection']['items'];
 
 		$this->assertArraySubmapSame(
 			[
@@ -48,9 +49,10 @@ class ApiSetSortingTest extends ApiTestCase {
 		] );
 
 		$result = $this->doApiRequest( [
-			'action' => 'collection-setsorting',
+			'action' => 'collection',
+			'submodule' => 'setsorting',
 			'items' => '2|0',
-		] )[0]['collection-setsorting']['collection']['items'];
+		] )[0]['setsorting']['collection']['items'];
 
 		$this->assertArraySubmapSame(
 			[
@@ -65,9 +67,10 @@ class ApiSetSortingTest extends ApiTestCase {
 
 	public function testApiSetSorting_UninitializedSession() {
 		$result = $this->doApiRequest( [
-			'action' => 'collection-setsorting',
+			'action' => 'collection',
+			'submodule' => 'setsorting',
 			'items' => '2|0',
-		] )[0]['collection-setsorting']['collection']['items'];
+		] )[0]['setsorting']['collection']['items'];
 
 		$this->assertCount( 0, $result );
 	}

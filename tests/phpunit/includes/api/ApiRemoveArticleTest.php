@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Tests for Collection api.php?action=collection-removearticle
+ * Tests for Collection api.php?action=collection&submodule=removearticle
  *
  * @group API
  * @group Database
@@ -24,19 +24,21 @@ class ApiRemoveArticleTest extends ApiTestCase {
 		$page = $this->getExistingTestPage( $title );
 
 		$this->doApiRequest( [
-			'action' => 'collection-addarticle',
+			'action' => 'collection',
+			'submodule' => 'addarticle',
 			'namespace' => NS_PROJECT,
 			'title' => $page->getDBkey()
 		] )[0];
 
 		// Now, remove the article from the collection
 		$apiResultRemoveArticle = $this->doApiRequest( [
-			'action' => 'collection-removearticle',
+			'action' => 'collection',
+			'submodule' => 'removearticle',
 			'namespace' => NS_PROJECT,
 			'title' => $page->getDBkey()
 		] )[0];
 
-		$collect = $apiResultRemoveArticle['collection-removearticle']['collection']['items'];
+		$collect = $apiResultRemoveArticle['removearticle']['collection']['items'];
 
 		// Make sure that the single item added is removed,
 		// because here we have an empty array (no items)
@@ -52,7 +54,8 @@ class ApiRemoveArticleTest extends ApiTestCase {
 		$title = $this->getNonexistingTestPage()->getTitle();
 
 		$this->doApiRequest( [
-			'action' => 'collection-removearticle',
+			'action' => 'collection',
+			'submodule' => 'removearticle',
 			'namespace' => $title->getNamespace(),
 			'title' => $title->getDBkey()
 		] )[0];

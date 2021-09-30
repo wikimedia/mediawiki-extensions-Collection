@@ -22,10 +22,31 @@
 
 namespace MediaWiki\Extensions\Collection\Api;
 
+use ApiBase;
 use CollectionListTemplate;
 use CollectionSession;
 
-trait GetCollectionItemListTrait {
+trait CollectionTrait {
+	/** @var ApiBase */
+	private $parent;
+
+	/**
+	 * Get the parent module.
+	 * @return ApiBase
+	 */
+	public function getParent() {
+		return $this->parent;
+	}
+
+	/**
+	 * @param ApiBase $parent
+	 * @param string $moduleName
+	 */
+	public function __construct( ApiBase $parent, $moduleName ) {
+		// @phan-suppress-next-line PhanTraitParentReference
+		parent::__construct( $parent->getMain(), $moduleName );
+		$this->parent = $parent;
+	}
 
 	/**
 	 * Used to get the list of items from a user's collection after

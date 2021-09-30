@@ -27,7 +27,7 @@ use SpecialCollection;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiAddCategory extends ApiBase {
-	use GetCollectionItemListTrait;
+	use CollectionTrait;
 
 	/**
 	 * execute the API request
@@ -63,8 +63,8 @@ class ApiAddCategory extends ApiBase {
 	 */
 	protected function getExamplesMessages(): array {
 		return [
-			'action=collection-addcategory&title=Main_Page'
-				=> 'apihelp-collection-addcategory-example',
+			'action=collection&submodule=addcategory&title=Main_Page'
+				=> 'apihelp-collection+addcategory-example',
 		];
 	}
 }

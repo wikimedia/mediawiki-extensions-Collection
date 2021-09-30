@@ -3,7 +3,7 @@
 use MediaWiki\Session\SessionManager;
 
 /**
- * Tests for Collection api.php?action=collection-list.
+ * Tests for Collection api.php?action=collection&submodule=getcollection
  *
  * @group API
  * @group medium
@@ -16,10 +16,11 @@ class ApiGetCollectionTest extends ApiTestCase {
 		$session['wsCollection'] = [ 'SessionData1', 'SessionData2' ];
 
 		$apiResult = $this->doApiRequest( [
-			'action' => 'collection-list'
+			'action' => 'collection',
+			'submodule' => 'getcollection',
 		] )[0];
 
-		$expected = [ 'collection-list' => $session['wsCollection'] ];
+		$expected = [ 'getcollection' => $session['wsCollection'] ];
 
 		$this->assertSame( $expected, $apiResult );
 	}

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Tests for Collection api.php?action=collection-addarticle.
+ * Tests for Collection api.php?action=collection&submodule=addarticle.
  *
  * @group API
  * @group Database
@@ -24,12 +24,13 @@ class ApiAddArticleTest extends ApiTestCase {
 		$page = $this->getExistingTestPage( $title );
 
 		$apiResultAddArticle = $this->doApiRequest( [
-			'action' => 'collection-addarticle',
+			'action' => 'collection',
+			'submodule' => 'addarticle',
 			'namespace' => NS_PROJECT,
 			'title' => $page->getDBkey()
 		] )[0];
 
-		$collectPage = $apiResultAddArticle['collection-addarticle']['collection']['items'][0]['title'];
+		$collectPage = $apiResultAddArticle['addarticle']['collection']['items'][0]['title'];
 		$this->assertSame(
 			'Collection:UTPage',
 			$collectPage,
@@ -37,10 +38,11 @@ class ApiAddArticleTest extends ApiTestCase {
 		);
 
 		$apiResultList = $this->doApiRequest( [
-			'action' => 'collection-list',
+			'action' => 'collection',
+			'submodule' => 'getcollection'
 		] )[0];
 
-		$collectPage2 = $apiResultList['collection-list']['items'][0]['title'];
+		$collectPage2 = $apiResultList['getcollection']['items'][0]['title'];
 		$this->assertSame(
 			'Collection:UTPage',
 			$collectPage2,
@@ -53,7 +55,8 @@ class ApiAddArticleTest extends ApiTestCase {
 		$title = $this->getNonexistingTestPage()->getTitle();
 
 		$this->doApiRequest( [
-			'action' => 'collection-addarticle',
+			'action' => 'collection',
+			'submodule' => 'addarticle',
 			'namespace' => $title->getNamespace(),
 			'title' => $title->getDBkey()
 		] )[0];

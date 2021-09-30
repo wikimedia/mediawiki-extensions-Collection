@@ -27,7 +27,7 @@ use SpecialCollection;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiSetSorting extends ApiBase {
-	use GetCollectionItemListTrait;
+	use CollectionTrait;
 
 	/**
 	 * execute the API request
@@ -54,10 +54,10 @@ class ApiSetSorting extends ApiBase {
 	 */
 	protected function getExamplesMessages(): array {
 		return [
-			'action=collection-setsorting&items=1|0|2'
-				=> 'apihelp-collection-setsorting-example',
+			'action=collection&submodule=setsorting&items=1|0|2'
+				=> 'apihelp-collection+setsorting-example',
 			'action=collection-setsorting&items=2|0'
-				=> 'apihelp-collection-setsorting-deletion-example',
+				=> 'apihelp-collection+setsorting-deletion-example',
 		];
 	}
 }

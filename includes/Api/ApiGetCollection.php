@@ -26,6 +26,7 @@ use ApiBase;
 use MediaWiki\Session\SessionManager;
 
 class ApiGetCollection extends ApiBase {
+	use CollectionTrait;
 
 	/**
 	 * execute the API request
@@ -35,7 +36,7 @@ class ApiGetCollection extends ApiBase {
 		if ( isset( $session['wsCollection'] ) ) {
 			$collection = $session['wsCollection'];
 		} else {
-			$collection = [];
+			$collection = [ 'getcollection' => [] ];
 		}
 
 		$this->getResult()->addValue( null, $this->getModuleName(), $collection );
@@ -46,7 +47,7 @@ class ApiGetCollection extends ApiBase {
 	 */
 	protected function getExamplesMessages(): array {
 		return [
-			'action=collection-list' => 'apihelp-collection-list-example',
+			'action=collection&submodule=getcollection' => 'apihelp-collection+getcollection-example',
 		];
 	}
 }

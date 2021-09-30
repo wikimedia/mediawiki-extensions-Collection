@@ -23,7 +23,6 @@
 namespace MediaWiki\Extensions\Collection\Api;
 
 use ApiBase;
-use ApiMain;
 use CollectionSession;
 use MediaWiki\Page\WikiPageFactory;
 use Title;
@@ -31,27 +30,27 @@ use TitleFactory;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiGetPopupData extends ApiBase {
+	use CollectionTrait;
 
 	/** @var TitleFactory */
 	private $titleFactory;
-
 	/** @var WikiPageFactory */
 	private $wikiPageFactory;
 
 	/**
-	 * @param ApiMain $main
+	 * @param ApiBase $parent
 	 * @param string $action
 	 * @param TitleFactory $titleFactory
 	 * @param WikiPageFactory $wikiPageFactory
 	 */
 	public function __construct(
-		ApiMain $main,
+		ApiBase $parent,
 		$action,
 		TitleFactory $titleFactory,
 		WikiPageFactory $wikiPageFactory
 	) {
-		parent::__construct( $main, $action );
-
+		parent::__construct( $parent->getMain(), $action );
+		$this->parent = $parent;
 		$this->titleFactory = $titleFactory;
 		$this->wikiPageFactory = $wikiPageFactory;
 	}
@@ -102,8 +101,8 @@ class ApiGetPopupData extends ApiBase {
 	 */
 	protected function getExamplesMessages(): array {
 		return [
-			'action=collection-getpopupdata&title=foobar'
-				=> 'apihelp-collection-getpopupdata-example'
+			'action=collection&submodule=getpopupdata&title=foobar'
+				=> 'apihelp-collection+getpopupdata-example'
 		];
 	}
 }

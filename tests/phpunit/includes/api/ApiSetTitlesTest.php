@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Tests for Collection api.php?action=collection-settitles
+ * Tests for Collection api.php?action=collection&submodule=settitles
  *
  * @group API
  * @group medium
@@ -14,7 +14,8 @@ class ApiSetTitlesTest extends ApiTestCase {
 	 * @dataProvider provideTestApiSetTitles_Good
 	 */
 	public function testApiSetTitles_Good( array $expected, array $toInsert ) {
-		$toInsert['action'] = 'collection-settitles';
+		$toInsert['action'] = 'collection';
+		$toInsert['submodule'] = 'settitles';
 		$this->doApiRequest( $toInsert );
 
 		$collection = CollectionSession::getCollection();
@@ -66,7 +67,8 @@ class ApiSetTitlesTest extends ApiTestCase {
 		$this->expectException( ApiUsageException::class );
 
 		$this->doApiRequest( [
-			'action' => 'collection-settitles',
+			'action' => 'collection',
+			'submodule' => 'settitles',
 			'subtitle' => 'test-subtitle',
 		] );
 	}
