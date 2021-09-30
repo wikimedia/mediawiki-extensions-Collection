@@ -21,6 +21,7 @@ class ApiCollection extends ApiBase {
 		'addchapter' => ApiAddChapter::class,
 		'clearcollection' => ApiClearCollection::class,
 		'getcollection' => ApiGetCollection::class,
+		'getbookcreatorboxcontent' => ApiGetBookCreatorBoxContent::class,
 		'getpopupdata' => [
 			'class' => ApiGetPopupData::class,
 			'services' => [

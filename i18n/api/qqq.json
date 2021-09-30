@@ -35,5 +35,7 @@
 	"apihelp-collection+removeitem-example": "{{doc-apihelp-example|collection+removeitem}}",
 	"apihelp-collection+removeitem-summary": "{{doc-apihelp-summary|collection+removeitem}}",
 	"apihelp-collection-param-submodule": "{{doc-apihelp-example|apihelp-collection-param-submodule}}",
-	"apihelp-collection-summary": "{{doc-api-help-summary|apihelp-collection-summary}}"
+	"apihelp-collection-summary": "{{doc-api-help-summary|apihelp-collection-summary}}",
+	"apihelp-collection+getbookcreatorboxcontent-example": "{{doc-apihelp-example|collection-getbookcreatorboxcontent}}",
+	"apihelp-collection+getbookcreatorboxcontent-summary": "{{doc-apihelp-summary|collection-getbookcreatorboxcontent}}"
 }
