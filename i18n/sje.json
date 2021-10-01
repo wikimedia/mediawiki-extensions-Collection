@@ -4,8 +4,9 @@
 			"Olve Utne"
 		]
 	},
-	"coll-download_title": "Lässti vuolláj",
-	"coll-download_as_text": "Degu duv girjev $1-formáhtan vuolláj lässtit, klihkki knáhpav.",
+	"coll-download_title": "Lässti vulus",
+	"coll-download_as_text": "Degu duv girjev $1-formáhtan vulus lässtit, klihkki knáhpav.",
+	"coll-move_down": "Sirde vulus",
 	"coll-print_export": "Prennti/eksporteri",
-	"coll-download_as": "Lässti vuolláj dugu $1"
+	"coll-download_as": "Lässti vulus dugu $1"
 }
