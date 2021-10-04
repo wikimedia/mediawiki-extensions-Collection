@@ -54,6 +54,7 @@
 	"coll-rendering_failed_status": "<strong>Statu:</strong> $1",
 	"coll-failed_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Nfurmazzioni supra la rinnuta dî pàggini",
 	"coll-about_pp": "Nfurmazzioni supra $1",
+	"coll-license": "Licenza",
 	"coll-suggest_title": "Pàggini suggiriti pô vostru libbru",
 	"coll-suggested_articles": "Cunzigghi",
 	"coll-suggest_show": "ammustra",
@@ -85,5 +86,6 @@
 	"coll-attribution-anons": "Anònimi: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Fonti:</i> $2 <i>Cuntribbutura:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Funti:</i> $2 <i>Licenzia:</i> $3 <i>Cuntribbuturi:</i> $4 <i>Artista urigginali:</i> $5",
-	"coll-images-title": "Mmàggini"
+	"coll-images-title": "Mmàggini",
+	"coll-images-license": "Licenza"
 }
