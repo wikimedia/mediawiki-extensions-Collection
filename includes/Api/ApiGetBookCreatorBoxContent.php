@@ -39,7 +39,7 @@ class ApiGetBookCreatorBoxContent extends ApiBase {
 		$title = $title ?? Title::newMainPage();
 		$html = CollectionHooks::getBookCreatorBoxContent( $title, $params['hint'], $oldid );
 		$result = [ 'html' => $html ];
-		$this->getResult()->addValue( null, 'collection-result', $result );
+		$this->getResult()->addValue( null, $this->getModuleName(), $result );
 	}
 
 	/** @inheritDoc */

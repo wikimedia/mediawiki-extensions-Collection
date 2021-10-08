@@ -73,7 +73,7 @@
 		"ext.collection.bookcreator": {
 			"scripts": "ext.collection.bookcreator/bookcreator.js",
 			"dependencies": [
-				"jquery.jStorage",
+				"mediawiki.storage",
 				"mediawiki.util",
 				"ext.collection.bookcreator.styles"
 			]
@@ -83,7 +83,7 @@
 			"dependencies": [
 				"ext.collection",
 				"ext.collection.bookcreator.styles",
-				"jquery.jStorage"
+				"mediawiki.storage"
 			],
 			"messages": [
 				"coll-load_local_book"

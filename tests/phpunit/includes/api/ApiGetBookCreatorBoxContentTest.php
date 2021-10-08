@@ -27,24 +27,18 @@ class ApiGetBookCreatorBoxContentTest extends ApiTestCase {
 		$apiResult = $this->doApiRequest( [
 			'action' => 'collection',
 			'submodule' => 'getbookcreatorboxcontent',
-		] )[0];
+		] )[0]['getbookcreatorboxcontent']['html'];
 
-		$this->assertStringContainsString(
-			"Show book (1 page)",
-			$apiResult['collection-result']['html']
-		);
+		$this->assertStringContainsString( "Show book (1 page)", $apiResult );
 
 		// Let's use other params
 		$apiResult1 = $this->doApiRequest( [
 			'action' => 'collection',
 			'submodule' => 'getbookcreatorboxcontent',
 			'pagename' => $page->getDBkey()
-		] )[0];
+		] )[0]['getbookcreatorboxcontent']['html'];
 
-		$this->assertStringContainsString(
-			"UTPage",
-			$apiResult1['collection-result']['html']
-		);
+		$this->assertStringContainsString( "UTPage", $apiResult1 );
 	}
 
 	public function testGetBookCreatorBoxContentWithNoCollectionItems() {
@@ -59,18 +53,12 @@ class ApiGetBookCreatorBoxContentTest extends ApiTestCase {
 		$apiResult = $this->doApiRequest( [
 			'action' => 'collection',
 			'submodule' => 'getbookcreatorboxcontent',
-		] )[0];
+		] )[0]['getbookcreatorboxcontent']['html'];
 
-		$this->assertStringContainsString(
-			"Show book (0 pages)",
-			$apiResult['collection-result']['html']
-		);
+		$this->assertStringContainsString( "Show book (0 pages)", $apiResult );
 
-		// When "pagename" is not avaiable, default to Main_Page
-		$this->assertStringContainsString(
-			"Main+Page",
-			$apiResult['collection-result']['html']
-		);
+		// When "pagename" is not available, default to Main_Page
+		$this->assertStringContainsString( "Main+Page", $apiResult );
 	}
 
 }
