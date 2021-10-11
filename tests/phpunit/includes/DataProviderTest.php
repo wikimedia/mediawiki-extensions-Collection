@@ -3,14 +3,14 @@
 namespace MediaWiki\Extensions\Collection;
 
 use LogicException;
-use MediaWikiTestCase;
+use MediaWikiIntegrationTestCase;
 use Title;
 use VirtualRESTServiceClient;
 
 /**
  * @covers \MediaWiki\Extensions\Collection\DataProvider
  */
-class DataProviderTest extends MediaWikiTestCase {
+class DataProviderTest extends MediaWikiIntegrationTestCase {
 
 	/**
 	 * @dataProvider provideFetchPages

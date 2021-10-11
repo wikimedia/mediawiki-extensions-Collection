@@ -3,14 +3,14 @@
 namespace MediaWiki\Extensions\Collection;
 
 use LogicException;
-use MediaWikiTestCase;
+use MediaWikiIntegrationTestCase;
 use TemplateParser;
 use Title;
 
 /**
  * @covers \MediaWiki\Extensions\Collection\BookRenderer
  */
-class BookRendererTest extends MediaWikiTestCase {
+class BookRendererTest extends MediaWikiIntegrationTestCase {
 	private const TEMPLATE_DIR = '/../../../templates';
 
 	/**
