@@ -632,9 +632,14 @@ class SpecialCollection extends SpecialPage {
 			return;
 		}
 		$collection = CollectionSession::getCollection();
-		if ( $collection['items'][$index]['type'] != 'chapter' ) {
+
+		// T293261: Make sure the index exist in the array
+		if ( !array_key_exists( $index, $collection['items'] ) ||
+			$collection['items'][$index]['type'] !== 'chapter'
+		) {
 			return;
 		}
+
 		$collection['items'][$index]['title'] = $name;
 		CollectionSession::setCollection( $collection );
 	}

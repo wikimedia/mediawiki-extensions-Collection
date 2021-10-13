@@ -10,7 +10,7 @@
  */
 class ApiRenameChapterTest extends ApiTestCase {
 
-	public function testApiAddChapter() {
+	public function testApiRenameChapter() {
 		// Add about 4 chapters to prep for renaming
 		$this->doApiRequest( [
 			'action' => 'collection',
@@ -105,5 +105,40 @@ class ApiRenameChapterTest extends ApiTestCase {
 			'submodule' => 'renamechapter',
 			'index' => 8,
 		] )[0];
+	}
+
+	public function testApiRenameChapterWithIndexOutOfRange() {
+		// Add about 2 chapters to prep for renaming
+		$this->doApiRequest( [
+			'action' => 'collection',
+			'submodule' => 'addchapter',
+			'chaptername' => 'Chapter 1'
+		] );
+		$apiResultChapterAdded = $this->doApiRequest( [
+			'action' => 'collection',
+			'submodule' => 'addchapter',
+			'chaptername' => 'Chapter 2'
+		] );
+
+		// Let's rename chapter 4 and see if rename API works.
+		$apiResultChapterRenamed = $this->doApiRequest( [
+			'action' => 'collection',
+			'submodule' => 'renamechapter',
+			'index' => 5, // try to rename a chapter not in the book - index out of range
+			'chaptername' => 'Chapter 5 renamed'
+		] )[0]['renamechapter']['collection']['items'];
+
+		// Nothing got renamed, still 2 chapters
+		$collection = $apiResultChapterRenamed;
+		$this->assertCount( 2, $collection );
+
+		// Check the user's collection again
+		$apiResult = $this->doApiRequest( [
+			'action' => 'collection',
+			'submodule' => 'getcollection',
+		] )[0];
+		$collection = $apiResult['getcollection']['items'];
+
+		$this->assertCount( 2, $collection, '2 chapters in the collection' );
 	}
 }
