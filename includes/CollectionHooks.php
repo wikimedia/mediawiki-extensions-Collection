@@ -457,7 +457,7 @@ class CollectionHooks {
 	 */
 	public static function checkLastModified( $modifiedTimes ) {
 		$session = SessionManager::getGlobalSession();
-		if ( isset( $session['wsCollection'] ) ) {
+		if ( isset( $session['wsCollection']['timestamp'] ) ) {
 			$modifiedTimes['collection'] = $session['wsCollection']['timestamp'];
 		}
 		return true;
