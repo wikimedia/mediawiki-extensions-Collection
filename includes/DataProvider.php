@@ -180,9 +180,7 @@ class DataProvider implements LoggerAwareInterface {
 				}
 				// Imagess will not be defined if imlimit is hit one of the other pages
 				if ( isset( $page['images'] ) ) {
-					foreach ( $page['images'] as $image ) {
-						$images[] = $image['title'];
-					}
+					$images = array_merge( $images, array_column( $page['images'], 'title' ) );
 				}
 			}
 		} while ( $continue );

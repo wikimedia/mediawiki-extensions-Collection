@@ -133,8 +133,10 @@ class CollectionProposals {
 	private function addCollectionArticles() {
 		global $wgCollectionSuggestThreshhold;
 
-		$numItems = isset( $this->mColl['items'] ) ? count( $this->mColl['items'] ) : 0;
-
+		if ( !isset( $this->mColl['items'] ) ) {
+			return;
+		}
+		$numItems = count( $this->mColl['items'] );
 		if ( $numItems === 0 || $numItems > $wgCollectionSuggestThreshhold ) {
 			return;
 		}

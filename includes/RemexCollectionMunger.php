@@ -249,9 +249,9 @@ class RemexCollectionMunger implements TreeHandler {
 		if ( $newLevel !== $level ) {
 			// update section data
 			if ( isset( $element->attrs['id'] ) ) {
-				foreach ( $this->sectionRef as $index => $section ) {
+				foreach ( $this->sectionRef as &$section ) {
 					if ( $section['id'] === $element->attrs['id'] ) {
-						$this->sectionRef[$index]['level'] = $newLevel;
+						$section['level'] = $newLevel;
 					}
 				}
 			}
@@ -295,9 +295,9 @@ class RemexCollectionMunger implements TreeHandler {
 			if ( $newId !== $attrs['id'] ) {
 				// if we renamed a heading anchor, update section data
 				if ( $this->isHeading( $element ) ) {
-					foreach ( $this->sectionRef as $index => $section ) {
+					foreach ( $this->sectionRef as &$section ) {
 						if ( $section['id'] === $attrs['id'] ) {
-							$this->sectionRef[$index]['id'] = $newId;
+							$section['id'] = $newId;
 							break;
 						}
 					}
