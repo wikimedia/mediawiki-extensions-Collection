@@ -24,8 +24,7 @@ class DataProviderTest extends MediaWikiIntegrationTestCase {
 			->onlyMethods( [ 'runMulti' ] )
 			->disableOriginalConstructor()
 			->getMock();
-		$client->expects( $this->any() )
-			->method( 'runMulti' )
+		$client->method( 'runMulti' )
 			->willReturnCallback( function ( $requests ) use ( $response, $expectedUrls ) {
 				$urls = array_map( static function ( $req ) {
 					return $req['url'];
@@ -101,8 +100,7 @@ class DataProviderTest extends MediaWikiIntegrationTestCase {
 			->onlyMethods( [ 'makeActionApiRequest' ] )
 			->disableOriginalConstructor()
 			->getMock();
-		$dataProvider->expects( $this->any() )
-			->method( 'makeActionApiRequest' )
+		$dataProvider->method( 'makeActionApiRequest' )
 			->willReturnCallback( function ( $params ) use ( $parse, $contributors ) {
 				if ( isset( $params['meta'] ) && $params['siprop'] === 'rightsinfo' ) {
 					return [

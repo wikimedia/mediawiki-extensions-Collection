@@ -72,9 +72,9 @@ class BookRendererTest extends MediaWikiIntegrationTestCase {
 		$renderer = new BookRenderer( $templateParser );
 		$collection = [ 'items' => [], 'title' => 'Empty book' ];
 		$data = $renderer->getBookTemplateData( $collection, [], [] );
-		$this->assertSame( false, $data['license'], 'Template data for empty book has no license' );
-		$this->assertSame( false, $data['images'], 'Template data for empty book has no images' );
-		$this->assertSame( false, $data['contributors'],
+		$this->assertFalse( $data['license'], 'Template data for empty book has no license' );
+		$this->assertFalse( $data['images'], 'Template data for empty book has no images' );
+		$this->assertFalse( $data['contributors'],
 			'Template data for empty book has no contributors' );
 		$this->assertArraySame( $data['toc']['tocitems'], [],
 			'Template data for empty book has empty outline' );
