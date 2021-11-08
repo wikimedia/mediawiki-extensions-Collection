@@ -7,10 +7,12 @@
 			"SawJaemin"
 		]
 	},
+	"coll-format_label": "ဖိမဲၣ်:",
 	"coll-remove": "သုးကွံာ်",
 	"coll-show": "နဲၣ်ဖျါ",
 	"coll-move_up": "သုးထီၣ်",
 	"coll-move_down": "သုးလီၤ",
+	"coll-contents": "တၢ်ဂ့ၢ်ခိၣ်တီ",
 	"coll-print_export": "တၢ်စဲကျံး/တၢ်ဆှၢဟးထီၣ်",
 	"coll-create_a_book": "တ့ထီၣ်လံာ်",
 	"coll-book_creator": "တၢ်တ့ထီၣ်လံာ်",
@@ -24,5 +26,8 @@
 	"coll-remove_this_page": "ထူးသံကွံာ်ကဘျံးပၤတခါအံၤလၢနလံာ်ပူၤ",
 	"coll-show_collection": "နဲၣ်ဖျါလံာ်",
 	"coll-make_suggestions": "ဒုးနဲၣကဘျံးပၤ",
-	"coll-attribution-anons": "လၢတဒုာ်သံၣ်ညါအနီၢ်ကစၢ်: $1"
+	"coll-suggest_empty": "တအိၣ်ဘၣ်",
+	"coll-setting-toc": "ပာ်ဃုာ်ဒီးတၢ်ဂ့ၢ်ခိၣ်တီ",
+	"coll-attribution-anons": "လၢတဒုာ်သံၣ်ညါအနီၢ်ကစၢ်: $1",
+	"coll-toc-title": "တၢ်ဂ့ၢ်ခိၣ်တီ"
 }
