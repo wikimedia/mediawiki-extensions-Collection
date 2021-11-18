@@ -309,7 +309,7 @@ class CollectionHooks {
 			$captionMsg = 'coll-add_category';
 			$tooltipMsg = 'coll-add_category_tooltip';
 			$query = [ 'bookcmd' => 'add_category', 'cattitle' => $title->getText() ];
-			$onclick = "collectionCall('AddCategory', ['addcategory', " .
+			$onclick = "collectionCall('addcategory', mw.config.get('wgNamespaceNumber')," .
 				"mw.config.get('wgTitle')]); return false;";
 		} else {
 			$collectionArgsJs = "mw.config.get('wgNamespaceNumber'), mw.config.get('wgTitle'), " .
@@ -321,16 +321,14 @@ class CollectionHooks {
 				$captionMsg = 'coll-add_this_page';
 				$tooltipMsg = 'coll-add_page_tooltip';
 				$query = [ 'bookcmd' => 'add_article', 'arttitle' => $ptext, 'oldid' => $oldid ];
-				$onclick = "collectionCall('AddArticle', ['removearticle'," .
-					$collectionArgsJs . "]); return false;";
+				$onclick = "collectionCall('addarticle', " . $collectionArgsJs . "); return false;";
 			} else {
 				$id = 'coll-remove_article';
 				$icon = 'silk-remove.png';
 				$captionMsg = 'coll-remove_this_page';
 				$tooltipMsg = 'coll-remove_page_tooltip';
 				$query = [ 'bookcmd' => 'remove_article', 'arttitle' => $ptext, 'oldid' => $oldid ];
-				$onclick = "collectionCall('RemoveArticle', ['addarticle', " .
-					$collectionArgsJs . "]); return false;";
+				$onclick = "collectionCall('removearticle', " . $collectionArgsJs . "); return false;";
 			}
 		}
 

@@ -1,10 +1,9 @@
-/* global confirm */
 ( function ( mw, $ ) {
 
 	var script_url = mw.util.wikiScript();
 
 	$( function () {
-		var c = $.jStorage.get( 'collection' ),
+		var c = mw.storage.get( 'collection' ),
 			num_pages = 0,
 			shownTitle = '',
 			message;

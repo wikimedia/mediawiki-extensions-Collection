@@ -19,10 +19,14 @@
  * http://www.gnu.org/copyleft/gpl.html
  */
 
-/* global confirm, prompt, collection_id, writer, wfCollectionSave */
+/* global collection_id, writer, wfCollectionSave */
 ( function ( mw, $ ) {
 
-	/******************************************************************************/
+	var script_url = mw.util.wikiScript(), // TODO: Still used on L#85, remove when no usage.
+		media_path = mw.config.get( 'wgExtensionAssetsPath' ) + '/Collection/images/',
+		collapseicon = media_path + '/collapse.png',
+		expandicon = media_path + '/expand.png',
+		chapter_max_len = 200;
 
 	/**
 	 * Return text of element with given selector. Optionally replace %PARAM% with value
@@ -40,20 +44,43 @@
 		return txt;
 	}
 
-	function req( func, args, callback ) {
-		$.post( script_url, {
-			action: 'ajax',
-			rs: 'CollectionAjaxFunctions::onAjaxCollection' + func,
-			'rsargs[]': args
-		}, callback, 'json' );
+	/**
+	 * Get the book creator box content.
+	 */
+	function get_book_creator_box_content() {
+		var params = {
+			action: 'collection',
+			submodule: 'getbookcreatorboxcontent',
+			hint: 'showbook',
+			oldid: null,
+			pagename: mw.config.get( 'wgPageName' ),
+			format: 'json'
+		};
+
+		reqApiModule(
+			params,
+			function ( result ) {
+				$( '#coll-book_creator_box' ).html( result.getbookcreatorboxcontent.html );
+			}
+		);
 	}
 
-	var script_url = mw.util.wikiScript(),
-		media_path = mw.config.get( 'wgExtensionAssetsPath' ) + '/Collection/images/',
-		collapseicon = media_path + '/collapse.png',
-		expandicon = media_path + '/expand.png',
-		chapter_max_len = 200;
+	/**
+	 * Require API module for processing the request.
+	 *
+	 * @param {Object} params
+	 * @param {Function} callback
+	 */
+	function reqApiModule( params, callback ) {
+		/* eslint no-shadow: 0 */
+		var script_url = mw.util.wikiScript( 'api' );
 
+		$.post( script_url, params, callback, 'json' );
+	}
+
+	/**
+	 * TODO: Turn to API module and migrate usage from AJAX.
+	 */
 	function getMWServeStatus() {
 		$.getJSON( script_url, {
 			action: 'ajax',
@@ -84,62 +111,119 @@
 		} );
 	}
 
+	/**
+	 * Clear a user's collection via the UI.
+	 *
+	 * @return {boolean}
+	 */
 	function clear_collection() {
+		var params = {
+			action: 'collection',
+			submodule: 'clearcollection',
+			format: 'json'
+		};
+
 		if ( confirm( gettext( '#clearCollectionConfirmText' ) ) ) {
-			req( 'Clear',
-				[],
+			reqApiModule( params,
 				function ( result ) {
 					$( '#titleInput, #subtitleInput' ).val( '' );
-					refresh_list( result );
-					req( 'GetBookCreatorBoxContent', [
-						'showbook',
-						null,
-						mw.config.get( 'wgPageName' )
-					], function ( result2 ) {
-						$( '#coll-book_creator_box' ).html( result2.html );
-					} );
-				} );
+					refresh_list( result.clearcollection );
+					get_book_creator_box_content();
+				}
+			);
 		}
+
 		return false;
 	}
 
+	/**
+	 * Create a new chapter in the book.
+	 *
+	 * @return {boolean}
+	 */
 	function create_chapter() {
-		var name = prompt( gettext( '#newChapterText' ) );
+		var name = prompt( gettext( '#newChapterText' ) ),
+			params;
+
 		if ( name ) {
 			name = name.substring( 0, chapter_max_len );
-			req( 'AddChapter', [ name ], refresh_list );
+			params = {
+				action: 'collection',
+				submodule: 'addchapter',
+				chaptername: name,
+				format: 'json'
+			};
+
+			reqApiModule( params, function ( result ) {
+				refresh_list( result.addchapter );
+			} );
 			update_buttons();
 		}
+
 		return false;
 	}
 
+	/**
+	 * Rename a chapter in the book of a user's collection.
+	 *
+	 * @param {number} index Index for renaming
+	 * @param {string} old_name Old chapter name
+	 * @return {boolean}
+	 */
 	function rename_chapter( index, old_name ) {
-		var new_name = prompt( gettext( '#renameChapterText' ), old_name );
+		var new_name = prompt( gettext( '#renameChapterText' ), old_name ),
+			params;
+
 		if ( new_name ) {
 			new_name = new_name.substring( 0, chapter_max_len );
-			req( 'RenameChapter', [ index, new_name ], refresh_list );
-		}
-		return false;
-	}
+			params = {
+				action: 'collection',
+				submodule: 'renamechapter',
+				chaptername: new_name,
+				index: index,
+				format: 'json'
+			};
 
-	function remove_item( index ) {
-		req( 'RemoveItem',
-			[ index ],
-			function ( result ) {
-				refresh_list( result );
-				req( 'GetBookCreatorBoxContent', [
-					'showbook',
-					null,
-					mw.config.get( 'wgPageName' )
-				], function ( result2 ) {
-					$( '#coll-book_creator_box' ).html( result2.html );
-				} );
+			reqApiModule( params, function ( result ) {
+				refresh_list( result.renamechapter );
 			} );
+		}
+
 		return false;
 	}
 
+	/**
+	 * Remove an item from a user's collection index-based.
+	 *
+	 * @param {number} index The index of the item.
+	 * @return {boolean}
+	 */
+	function remove_item( index ) {
+		var params = {
+			action: 'collection',
+			submodule: 'removeitem',
+			index: index,
+			format: 'json'
+		};
+
+		reqApiModule(
+			params,
+			function ( result ) {
+				refresh_list( result.removeitem );
+				get_book_creator_box_content();
+			}
+		);
+
+		return false;
+	}
+
+	/**
+	 * Set the title & subtitle of the book in a user's collection.
+	 *
+	 * @return {boolean}
+	 */
 	function set_titles() {
-		var settings = {};
+		var settings = {}, params;
 		$( '[id^="coll-input-setting-"]' ).each( function ( i, e ) {
 			if ( $( e ).is( ':checkbox' ) ) {
 				settings[ e.name ] = $( e ).is( ':checked' );
@@ -147,19 +231,45 @@
 				settings[ e.name ] = $( e ).val();
 			}
 		} );
-		req( 'SetTitles', [
-			$( '#titleInput' ).val(),
-			$( '#subtitleInput' ).val(),
-			JSON.stringify( settings )
-		], function ( result ) {
-			wfCollectionSave( result.collection );
-		} );
+
+		params = {
+			action: 'collection',
+			submodule: 'settitles',
+			title: $( '#titleInput' ).val(),
+			subtitle: $( '#subtitleInput' ).val(),
+			settings: JSON.stringify( settings ),
+			format: 'json'
+		};
+
+		reqApiModule(
+			params,
+			function ( result ) {
+				wfCollectionSave( result.settitles.collection );
+			}
+		);
 		update_buttons();
+
 		return false;
 	}
 
+	/**
+	 * Sort items in the user's collection.
+	 *
+	 * @param {string} items_string List of items as text
+	 * @return {boolean}
+	 */
 	function set_sorting( items_string ) {
-		req( 'SetSorting', [ items_string ], refresh_list );
+		var params = {
+			action: 'collection',
+			submodule: 'setsorting',
+			items: items_string,
+			format: 'json'
+		};
+
+		reqApiModule( params, function ( result ) {
+			refresh_list( result.setsorting );
+		} );
+
 		return false;
 	}
 
@@ -203,6 +313,11 @@
 		$( '#collectionList .sortableitem' ).css( 'cursor', 'move' );
 	}
 
+	/**
+	 * Refresh a user's collection list of items.
+	 *
+	 * @param {Object} data
+	 */
 	function refresh_list( data ) {
 		wfCollectionSave( data.collection );
 		$( '#collectionListContainer' ).html( data.html );
@@ -211,11 +326,28 @@
 		update_buttons();
 	}
 
+	/**
+	 * Set items in a user's collection
+	 *
+	 * @return {boolean}
+	 */
 	function sort_items() {
-		req( 'SortItems', [], refresh_list );
+		var params = {
+			action: 'collection',
+			submodule: 'sortitems',
+			format: 'json'
+		};
+
+		reqApiModule( params, function ( result ) {
+			refresh_list( result.sortitems );
+		} );
+
 		return false;
 	}
 
+	/**
+	 * Prepare the special page commands and attach to the UI elements.
+	 */
 	$( function () {
 		if ( $( '#collectionList' ).length ) {
 			$( '.makeVisible' ).css( 'display', 'inline' );
@@ -224,6 +356,7 @@
 			window.coll_rename_chapter = rename_chapter;
 			window.coll_clear_collection = clear_collection;
 			window.coll_sort_items = sort_items;
+
 			update_buttons();
 			make_sortable();
 			$( '#coll-orderbox li.collection-partner.coll-more_info.collapsed' ).css(

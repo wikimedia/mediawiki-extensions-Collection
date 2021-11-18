@@ -23,38 +23,90 @@
 
 	$( function () {
 
-		var script_url = mw.util.wikiScript();
+		var script_url = mw.util.wikiScript( 'api' );
 
+		/**
+		 * Save a user's collection to their browser's local storage.
+		 *
+		 * @param {Object} collection
+		 */
 		function save_collection( collection ) {
-			$.jStorage.set( 'collection', collection );
+			mw.storage.set( 'collection', collection );
 		}
 
 		window.wfCollectionSave = save_collection;
 
+		/**
+		 * Refresh the collection's book creator box.
+		 *
+		 * @param {string} hint
+		 * @param {number} oldid
+		 */
 		function refreshBookCreatorBox( hint, oldid ) {
-			$.getJSON( script_url, {
-				action: 'ajax',
-				rs: 'CollectionAjaxFunctions::onAjaxCollectionGetBookCreatorBoxContent',
-				'rsargs[]': [ hint, oldid, mw.config.get( 'wgPageName' ) ]
-			}, function ( result ) {
-				$( '#coll-book_creator_box' ).html( result.html );
-			} );
+			var params = {
+				action: 'collection',
+				submodule: 'getbookcreatorboxcontent',
+				hint: hint,
+				oldid: oldid ? parseInt( oldid ) : 0,
+				pagename: mw.config.get( 'wgPageName' ),
+				format: 'json'
+			};
+
+			$.getJSON(
+				script_url,
+				params,
+				function ( result ) {
+					$( '#coll-book_creator_box' ).html( result.getbookcreatorboxcontent.html );
+				}
+			);
 		}
 
-		function collectionCall( func, args ) {
-			var hint = args.shift();
-			$.post( script_url, {
-				action: 'ajax',
-				rs: 'CollectionAjaxFunctions::onAjaxCollection' + func,
-				'rsargs[]': args
-			}, function ( result ) {
-				var oldid = null;
-				if ( args.length === 3 ) {
-					oldid = args[ 2 ];
-				}
-				refreshBookCreatorBox( hint, oldid );
-				save_collection( result.collection );
-			}, 'json' );
+		/**
+		 * Method used to add and remove article to user's collection,
+		 * and also add a category to a user's collection.
+		 *
+		 * @param {string} submodule Can either be "addarticle", "removearticle"
+		 *   or "addcategory".
+		 * @param {number} namespace
+		 * @param {string} title
+		 * @param {number} oldId
+		 */
+		function collectionCall( submodule, namespace, title, oldId ) {
+			var params = {
+				action: 'collection',
+				submodule: submodule,
+				namespace: namespace,
+				title: title,
+				oldid: oldId,
+				format: 'json'
+			};
+
+			var hint = '';
+			if ( submodule === 'addarticle' ) {
+				hint = 'removearticle';
+			} else if ( submodule === 'removearticle' ) {
+				hint = 'addarticle';
+			} else {
+				hint = 'addcategory';
+			}
+
+			$.post(
+				script_url,
+				params,
+				function ( result ) {
+					var oldid = null;
+					if ( oldId ) {
+						oldid = oldId;
+					}
+					refreshBookCreatorBox( hint, oldid );
+					if ( result.addarticle ) {
+						save_collection( result.addarticle.collection );
+					} else if ( result.removearticle ) {
+						save_collection( result.removearticle.collection );
+					} else {
+						save_collection( result.addcategory.collection );
+					}
+				}, 'json' );
 		}
 
 		window.collectionCall = collectionCall; // public
@@ -76,15 +128,38 @@
 			$popup_div.hide();
 		}
 
+		/**
+		 * Add or Remove article from user's collection.
+		 *
+		 * @param {string} action "add" or "remove" actions
+		 * @param {string} title
+		 */
 		function addremove_article( action, title ) {
-			$.post( script_url, {
-				action: 'ajax',
-				rs: 'CollectionAjaxFunctions::onAjaxCollection' + action.charAt( 0 ).toUpperCase() + action.slice( 1 ) + 'Article',
-				'rsargs[]': [ 0, title, '' ]
-			}, function ( result ) {
+			/* eslint no-shadow: 0 */
+			var params, submodule;
+
+			if ( action === 'add' ) {
+				submodule = 'addarticle';
+			} else {
+				submodule = 'removearticle';
+			}
+
+			params = {
+				action: 'collection',
+				submodule: submodule,
+				namespace: 0,
+				title: title,
+				oldid: 0,
+				format: 'json'
+			};
+			$.post( script_url, params, function ( result ) {
 				hide();
 				refreshBookCreatorBox( null, null );
-				save_collection( result.collection );
+				if ( result.addarticle ) {
+					save_collection( result.addarticle.collection );
+				} else {
+					save_collection( result.removearticle.collection );
+				}
 			}, 'json' );
 		}
 
@@ -100,22 +175,24 @@
 			// Disable default browser tooltip
 			link.attr( 'title', '' );
 			show_soon_timeout = setTimeout( function () {
-				get_data_xhr = $.post( script_url, {
-					action: 'ajax',
-					rs: 'CollectionAjaxFunctions::onAjaxCollectionGetPopupData',
-					'rsargs[]': [ title ]
-				}, function ( result ) {
+				var params = {
+					action: 'collection',
+					submodule: 'getpopupdata',
+					title: title,
+					format: 'json'
+				};
+				get_data_xhr = $.post( script_url, params, function ( result ) {
 					visible = true;
 					var img = $( '<img>' ).attr( {
-						src: result.img,
+						src: result.getpopupdata.img,
 						alt: ''
 					} );
 					$addremove_link
-						.text( '\u00a0' + result.text )
+						.text( '\u00a0' + result.getpopupdata.text )
 						.prepend( img )
 						.unbind( 'click' )
 						.click( function () {
-							addremove_article( result.action, result.title );
+							addremove_article( result.getpopupdata.action, result.getpopupdata.title );
 						} );
 					$popup_div
 						.css( {
