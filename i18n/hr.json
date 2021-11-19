@@ -154,7 +154,7 @@
 	"coll-n_pages": "$1 {{PLURAL:$1|stranica|stranice|stranica}}",
 	"coll-printable_version_pdf": "PDF inačica",
 	"coll-remove_this_page": "Ukloni ovu stranicu iz svoje zbirke",
-	"coll-remove_page_tooltip": "Ukloni trenutnačnu stranicu iz svoje zbirke",
+	"coll-remove_page_tooltip": "Ukloni trenutačnu stranicu iz svoje zbirke",
 	"coll-show_collection": "Pokaži zbirku",
 	"coll-show_collection_tooltip": "Kliknite da biste uredili/preuzeli/naručili svoju zbirku",
 	"coll-not_addable": "Ova stranica ne može biti dodana",
