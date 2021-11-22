@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Gildo Máquina",
 			"Jacinto Jeque"
 		]
 	},
 	"coll-print_export": "W\"imprimiri/okumiha",
-	"coll-download_as": "Okuruxa ithu"
+	"coll-download_as": "Okuruxa ithu $1"
 }
