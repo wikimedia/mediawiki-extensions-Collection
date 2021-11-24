@@ -7,7 +7,8 @@
 			"MaGa",
 			"Macofe",
 			"Roberta F.",
-			"SpeedyGonsales"
+			"SpeedyGonsales",
+			"Ponor"
 		]
 	},
 	"coll-desc": "[[Special:Book|Stvori zbirku]]",
@@ -29,8 +30,8 @@
 	"coll-savedbook_template": "snimljena_zbirka",
 	"coll-your_book": "Vaša zbirka",
 	"coll-download_title": "Preuzmi",
-	"coll-download_text": "Za preuzimanje vaše knjige odaberite format i kliknite na gumb.",
-	"coll-download_as_text": "Za preuzimanje vaše knjige u $1 formatu kliknite na gumb.",
+	"coll-download_text": "Za preuzimanje knjige odaberite format i pritisnite tipku.",
+	"coll-download_as_text": "Za preuzimanje knjige u formatu $1 pritisnite tipku.",
 	"coll-download": "Preuzmi",
 	"coll-format_label": "Format:",
 	"coll-remove": "Ukloni",
@@ -51,7 +52,7 @@
 	"coll-notitle_title": "Nije moguće dohvatiti naslov stranice",
 	"coll-notitle_msg": "Naslov stranice nije moguće utvrditi.",
 	"coll-request_failed_title": "Opredmećivanje knjige nije uspjelo",
-	"coll-request_failed_msg": "Došlo je do pogrješke pri opredmećivanju knjige.",
+	"coll-request_failed_msg": "Došlo je do pogreške pri opredmećivanju knjige.",
 	"coll-empty_collection": "Prazna zbirka",
 	"coll-save_collection_title": "Spremi i dijeli svoju zbirku",
 	"coll-save_collection_text": "Odaberite lokaciju:",
@@ -153,7 +154,7 @@
 	"coll-n_pages": "$1 {{PLURAL:$1|stranica|stranice|stranica}}",
 	"coll-printable_version_pdf": "PDF inačica",
 	"coll-remove_this_page": "Ukloni ovu stranicu iz svoje zbirke",
-	"coll-remove_page_tooltip": "Ukloni trenutnačnu stranicu iz svoje zbirke",
+	"coll-remove_page_tooltip": "Ukloni trenutačnu stranicu iz svoje zbirke",
 	"coll-show_collection": "Pokaži zbirku",
 	"coll-show_collection_tooltip": "Kliknite da biste uredili/preuzeli/naručili svoju zbirku",
 	"coll-not_addable": "Ova stranica ne može biti dodana",

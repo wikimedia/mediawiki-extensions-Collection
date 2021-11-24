@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"ChoiChong"
+		]
+	},
+	"coll-print_export": "打印/导出",
+	"coll-download_as": "以$1下载"
+}

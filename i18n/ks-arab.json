@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Iflaq"
+			"Iflaq",
+			"Rishabhbhat"
 		]
 	},
+	"coll-desc": "[[Special:Book|کِتاب بَنٲوِو]]",
 	"coll-download_as": "ڈاؤنلوڈ بشکل $1"
 }

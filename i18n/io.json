@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Joao Xavier",
-			"Malafaya"
+			"Malafaya",
+			"JSantos"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kreez libri]]",
@@ -35,6 +36,7 @@
 	"coll-limit_exceeded_text": "Vua libro esas tro granda.\nOn ne povas adjuntar plusa pagini.",
 	"coll-rendering_status": "<strong>Stando:</strong> $1",
 	"coll-rendering_page": "(pagino: $1)",
+	"coll-rendering_finished_notes_heading": "Notiː",
 	"coll-rendering_finished_note_article_rdf2latex": "Nun, kelka dokumenti ne havas tabeli. Alternative, on povas uzar $1, selektar \"Print\" en la menuo dil retnavigilo, ed uzar l'opciono \"Save as PDF\".",
 	"coll-download_notfound_title": "Arkivo ne trovesis",
 	"coll-about_pp": "Pri $1",
@@ -69,6 +71,12 @@
 	"coll-make_suggestions": "Sugestez pagini",
 	"coll-make_suggestions_tooltip": "Montrar sugesti, segun la pagini di vua libro",
 	"coll-suggest_empty": "vakua",
+	"coll-setting-papersize": "Grandeso di paperoː",
+	"coll-setting-papersize-a4": "A4",
+	"coll-setting-papersize-letter": "Letro-papero (''Letter'')",
+	"coll-setting-toc": "Inkluzar tabelo kun dati",
+	"coll-setting-toc-yes": "Yes",
+	"coll-setting-toc-no": "No",
 	"coll-attribution-anons": "Anonima: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Fonto:</i> $2 <i>Kontributadi:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Fonto:</i> $2 <i>Permiso:</i> $3 <i>Kontributeri:</i> $4 <i>Original artisto:</i> $5",
