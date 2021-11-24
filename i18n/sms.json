@@ -9,6 +9,7 @@
 	"coll-your_book": "Tuu ǩeʹrjj",
 	"coll-download_title": "Laadd",
 	"coll-download": "Laadd",
+	"coll-remove": "Jaukkâd",
 	"coll-show": "Čuäʹjet",
 	"coll-save_collection": "Ruõkk ǩeeʹrj",
 	"coll-rendering_page": "(seidd: $1)",
@@ -23,6 +24,7 @@
 	"coll-helppage": "Help:Ǩeeʹrj",
 	"coll-load_collection": "Laadd ǩeeʹrj",
 	"coll-show_collection": "Čuäʹjet ǩeeʹrj",
+	"coll-make_suggestions": "Eʹtǩǩuum seeid",
 	"coll-attribution-anons": "Nõõmteʹm: $1",
 	"coll-images-license": "Liseʹnss"
 }
