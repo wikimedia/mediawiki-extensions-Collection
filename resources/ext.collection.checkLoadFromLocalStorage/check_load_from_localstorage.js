@@ -1,12 +1,12 @@
 ( function ( mw, $ ) {
 
-	var script_url = mw.util.wikiScript();
-
+	var script_url = mw.util.wikiScript( 'api' );
 	$( function () {
 		var c = mw.storage.get( 'collection' ),
 			num_pages = 0,
 			shownTitle = '',
-			message;
+			message,
+			params;
 		if ( c ) {
 			for ( var i = 0; i < c.items.length; i++ ) {
 				if ( c.items[ i ].type === 'article' ) {
@@ -19,13 +19,16 @@
 			if ( num_pages ) {
 				message = mw.msg( 'coll-load_local_book', shownTitle, num_pages );
 				if ( confirm( message ) ) {
-					$.post( script_url, {
-						action: 'ajax',
-						rs: 'CollectionAjaxFunctions::onAjaxPostCollection',
-						'rsargs[]': [ JSON.stringify( c ) ]
-					}, function ( result ) {
-						location.href = result.redirect_url;
+					params = {
+						action: 'collection',
+						submodule: 'postcollection',
+						collection: [ JSON.stringify( c ) ],
+						format: 'json'
+					};
+					$.post( script_url, params, function ( result ) {
+						location.href = result.postcollection.redirect_url;
 					}, 'json' );
+
 				}
 			}
 		}

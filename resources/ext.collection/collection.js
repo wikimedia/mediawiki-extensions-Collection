@@ -19,11 +19,10 @@
  * http://www.gnu.org/copyleft/gpl.html
  */
 
-/* global collection_id, writer, wfCollectionSave */
+/* global wfCollectionSave */
 ( function ( mw, $ ) {
 
-	var script_url = mw.util.wikiScript(), // TODO: Still used on L#85, remove when no usage.
-		media_path = mw.config.get( 'wgExtensionAssetsPath' ) + '/Collection/images/',
+	var media_path = mw.config.get( 'wgExtensionAssetsPath' ) + '/Collection/images/',
 		collapseicon = media_path + '/collapse.png',
 		expandicon = media_path + '/expand.png',
 		chapter_max_len = 200;
@@ -72,43 +71,9 @@
 	 * @param {Function} callback
 	 */
 	function reqApiModule( params, callback ) {
-		/* eslint no-shadow: 0 */
 		var script_url = mw.util.wikiScript( 'api' );
 
 		$.post( script_url, params, callback, 'json' );
-	}
-
-	/**
-	 * TODO: Turn to API module and migrate usage from AJAX.
-	 */
-	function getMWServeStatus() {
-		$.getJSON( script_url, {
-			action: 'ajax',
-			rs: 'CollectionAjaxFunctions::onAjaxGetMWServeStatus',
-			'rsargs[]': [ collection_id, writer ]
-		}, function ( result ) {
-			if ( result.state === 'progress' ) {
-				if ( result.status.progress ) {
-					$( '#renderingProgress' ).html(
-						mw.language.convertNumber( result.status.progress )
-					);
-				}
-				if ( result.status.status ) {
-					var status = result.status.status;
-					if ( result.status.article ) {
-						status += gettext( '#renderingArticle', result.status.article );
-					} else if ( result.status.page ) {
-						status += gettext( '#renderingPage', result.status.page );
-					}
-					$( '#renderingStatus' ).html(
-						gettext( '#renderingStatusText', status )
-					);
-				}
-				setTimeout( getMWServeStatus, 500 );
-			} else {
-				location.reload( true );
-			}
-		} );
 	}
 
 	/**
@@ -387,9 +352,6 @@
 				.change( update_buttons );
 			$( '#titleInput, #subtitleInput, [id^="coll-input-setting-"]' )
 				.change( set_titles );
-		}
-		if ( typeof collection_rendering !== 'undefined' ) {
-			getMWServeStatus();
 		}
 	} );
 
