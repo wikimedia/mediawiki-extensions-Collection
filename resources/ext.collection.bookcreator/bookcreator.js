@@ -192,7 +192,10 @@
 						.prepend( img )
 						.unbind( 'click' )
 						.click( function () {
-							addremove_article( result.getpopupdata.action, result.getpopupdata.title );
+							addremove_article(
+								result.getpopupdata.action,
+								result.getpopupdata.title
+							);
 						} );
 					$popup_div
 						.css( {
