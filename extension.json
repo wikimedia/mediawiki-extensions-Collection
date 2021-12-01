@@ -13,7 +13,6 @@
 	"requires": {
 		"MediaWiki": ">= 1.37.0"
 	},
-	"callback": "CollectionHooks::registerExtension",
 	"AvailableRights": [
 		"collectionsaveasuserpage",
 		"collectionsaveascommunitypage"
@@ -33,7 +32,6 @@
 	},
 	"AutoloadClasses": {
 		"SpecialCollection": "includes/Specials/SpecialCollection.php",
-		"CollectionAjaxFunctions": "includes/CollectionAjaxFunctions.php",
 		"CollectionSession": "includes/CollectionSession.php",
 		"CollectionHooks": "includes/CollectionHooks.php",
 		"CollectionSuggest": "includes/CollectionSuggest.php",
