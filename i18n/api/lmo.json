@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Salvemm el lombard"
+		]
+	},
+	"apihelp-collection+removearticle-example": "Toeu via on articol de la racolta",
+	"apihelp-collection+suggestundoarticleaction-example": "Anulla l'azzion d'on articol sgiontad",
+	"apihelp-collection+renamechapter-example": "Renomina on capitol in de la racolta de l'utent.",
+	"apihelp-collection+getpopupdata-summary": "Modulo API per otegnì dati e html per fà su on popap",
+	"coll-api-invalid-collection": "Ricevuda racolta minga valida."
+}
