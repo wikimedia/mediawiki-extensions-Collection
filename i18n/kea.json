@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Quintino Lopes Castro Tavares",
+			"Waldyrious"
+		]
+	},
+	"coll-print_export": "Imprimi/isporta",
+	"coll-create_a_book": "Kria un livro",
+	"coll-download_as": "Discarega moda $1"
+}
