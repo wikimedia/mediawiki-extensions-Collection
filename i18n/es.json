@@ -28,7 +28,8 @@
 			"Sanbec",
 			"Sporeunai",
 			"Translationista",
-			"Vivaelcelta"
+			"Vivaelcelta",
+			"Jakeukalane"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crear libros]]",
@@ -92,7 +93,7 @@
 	"coll-rendering_title": "Representación",
 	"coll-rendering_text": "<p><strong>Espera un momento mientras se genera el documento.</strong></p>\n\n<p><strong>Progreso:</strong> <span id=\"renderingProgress\">$1</span> % <span id=\"renderingStatus\">$2</span></p>\n\n<p>Esta página se actualiza cada pocos segundos.\nSi no es así, pulsa en el botón «Actualizar» del navegador.</p>",
 	"coll-rendering_status": "<strong>Estado:</strong> $1",
-	"coll-rendering_article": "(página del wiki: $1)",
+	"coll-rendering_article": "(página de la wiki: $1)",
 	"coll-rendering_page": "(página: $1)",
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Representación del texto de información de la página",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Representación del texto de información de la colección",
