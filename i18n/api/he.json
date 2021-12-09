@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"Amire80"
+		]
+	},
+	"apihelp-collection+getcollection-example": "רשימת דפים שנמצאים באוסף עכשיו.",
+	"apihelp-collection+getcollection-summary": "מודול API לקבלת רשימת דפים שנמצאים באוסף עכשיו",
+	"apihelp-collection+addarticle-example": "הוספת ערך לאוסף.",
+	"apihelp-collection+addarticle-summary": "מודול API להוספת ערך לאוסף",
+	"apihelp-collection+settitles-example": "הגדרת כותרת ותת־כותרת לאוסף",
+	"apihelp-collection+settitles-settings-example": "הגדרת כותרת, תת־כותרת, והגדרות לאוסף",
+	"apihelp-collection+settitles-summary": "מודול API להגדרת כותרת, תת־כותרת, והגדרות לאוסף",
+	"coll-api-addarticle-article-not-added": "הערך לא נוסף לאוסף. נא לוודי שהכותרת שייכת למרחב השם שצוין או לבדוק אם הערך כבר קיים באוסף.",
+	"apihelp-collection+removearticle-example": "הסרת ערך מהאוסף.",
+	"apihelp-collection+removearticle-summary": "מודול API להסרת ערך מהאוסף"
+}
