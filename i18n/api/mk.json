@@ -14,5 +14,9 @@
 	"coll-api-addarticle-article-not-added": "Статијате не е додадена во ниедна збирка. Проверете дали насловот се наоѓа во укажаниот именски простор или проверете дали веќе постои во друга збирка.",
 	"apihelp-collection+removearticle-example": "Отстрани статија од збирката.",
 	"apihelp-collection+removearticle-summary": "Приложнички модул за отстранување на статија од збирката.",
-	"coll-api-removearticle-article-not-removed": "Статијате не е отстранета од ниедна збирка. Проверете дали насловот се наоѓа во укажаниот именски простор или проверете дали веќе постои во друга збирка."
+	"coll-api-removearticle-article-not-removed": "Статијате не е отстранета од ниедна збирка. Проверете дали насловот се наоѓа во укажаниот именски простор или проверете дали веќе постои во друга збирка.",
+	"apihelp-collection+addcategory-example": "Додај статии од дадена категорија во збирка на корисник.",
+	"apihelp-collection+addcategory-summary": "Приложнички модул за додавање на статии од дадена категорија во збирка на корисник.",
+	"apihelp-collection+suggestarticleaction-example": "Додава статија во збирката и предлозите",
+	"apihelp-collection+suggestarticleaction-summary": "Приложнички модул за работа со предлози"
 }

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Derick Alangi",
 			"Umherirrender"
 		]
@@ -22,7 +23,7 @@
 	"apihelp-collection+suggestarticleaction-summary": "{{doc-apihelp-summary|collection+suggestarticleaction}}",
 	"apihelp-collection+suggestarticleaction-param-suggestaction": "{{doc-apihelp-param|collection+suggestarticleaction|suggestaction}}",
 	"apihelp-collection+suggestundoarticleaction-example": "{{doc-apihelp-example|collection+suggestundoarticleaction}}",
-	"apihelp-collection+suggestundoarticleaction-summary": "{{doc-apihelp-summary|collection+suggestundoarticleaction}}",
+	"apihelp-collection+suggestundoarticleaction-summary": "'''Don't translate \"suggestarticleaction\".'''\n\n{{doc-apihelp-summary|collection+suggestundoarticleaction}}",
 	"apihelp-collection+suggestundoarticleaction-param-lastaction": "{{doc-apihelp-param|collection+suggestundoarticleaction|lastaction}}",
 	"coll-api-addcategory-category-does-not-exist": "The text shown when a user tries to add articles from a category that does not exist, is invalid or that exceeds the limit of articles to be in a category specified with $wgCollectionMaxArticles.",
 	"apihelp-collection+addchapter-example": "{{doc-apihelp-example|collection+addchapter}}",

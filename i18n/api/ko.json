@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ykhwong"
+		]
+	},
+	"apihelp-collection+suggestundoarticleaction-param-lastaction": "'add', 'remove', 'ban' 중 하나입니다."
+}
