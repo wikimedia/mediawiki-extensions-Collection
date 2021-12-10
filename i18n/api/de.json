@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"apihelp-collection+getcollection-example": "Auflisten von Seiten, die sich derzeit in der Sammlung befinden.",
+	"apihelp-collection+getcollection-summary": "API-Modul zur Auflistung der aktuellen Seiten in einer Sammlung",
+	"apihelp-collection+addarticle-example": "Hinzufügen einer Seite zur Sammlung.",
+	"apihelp-collection+addarticle-summary": "API-Modul zum Hinzufügen einer Seite zur Sammlung",
+	"apihelp-collection+settitles-example": "Titel und Untertitel der Sammlung festlegen",
+	"apihelp-collection+settitles-settings-example": "Festlegen des Titels, des Untertitels und der Einstellungen der Sammlung",
+	"apihelp-collection+settitles-summary": "API-Modul zum Einstellen des Titels, des Untertitels und der Einstellungen der Sammlung"
+}
