@@ -5,7 +5,9 @@
 			"Minh Nguyen",
 			"Trần Nguyễn Minh Huy",
 			"Vinhtantran",
-			"Withoutaname"
+			"Withoutaname",
+			"Ioe2015",
+			"NguoiDungKhongDinhDanh"
 		]
 	},
 	"coll-desc": "[[Special:Book|Tạo sách]]",
@@ -84,7 +86,7 @@
 	"coll-rendering_finished_text": "<strong>Xong kết xuất tập tin tài liệu.</strong>\n<strong>[$1 Tải nó về]</strong> máy tính của mình.",
 	"coll-rendering_finished_notes_heading": "Ghi chú:",
 	"coll-rendering_finished_note_not_satisfied": "Không vừa lòng với bản kết xuất? Xem thêm gợi ý để cải thiện nó trong [[{{MediaWiki:Coll-helppage}}|trang trợ giúp về sách]].",
-	"coll-rendering_finished_note_article_rdf2latex": "Hiện tại một số tài liệu không có chứa bảng. Thay thế, có thể sử dụng $1, chọn “In” trong trình đơn của trình duyệt, và chọn lệnh “Lưu thành PDF”.",
+	"coll-rendering_finished_note_article_rdf2latex": "Hiện tại một số tài liệu không có chứa bảng. Thay thế, có thể sử dụng $1, chọn “In” trong bảng chọn của trình duyệt, và chọn lệnh “Lưu thành PDF”.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Kết xuất văn bản thông tin trang",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Kết xuất văn bản thông tin tuyển tập",
 	"coll-rendering_failed_title": "Kết xuất thất bại",
@@ -134,7 +136,9 @@
 	"coll-format-okawix_zeno": "Okawix",
 	"coll-format-rdf2latex": "Sách điện tử (PDF, kết họa LaTeX ocg)",
 	"coll-format-rdf2text": "Trình soạn thảo văn bản (văn bản thuần)",
-	"right-collectionsaveasuserpage": "Lưu sách vở thành trang cá nhân",
+	"action-collectionsaveasuserpage": "lưu sách thành trang thành viên",
+	"right-collectionsaveasuserpage": "Lưu sách thành trang thành viên",
+	"action-collectionsaveascommunitypage": "lưu sách thành trang cộng đồng",
 	"right-collectionsaveascommunitypage": "Lưu sách thành trang cộng đồng",
 	"coll-print_export": "In/xuất ra",
 	"coll-create_a_book": "Tạo một quyển sách",
@@ -171,6 +175,7 @@
 	"coll-make_suggestions_tooltip": "Hiện đề nghị dựa trên các trang trong cuốn sách",
 	"coll-suggest_empty": "trống",
 	"coll-setting-papersize": "Khổ giấy:",
+	"coll-setting-papersize-a4": "A4",
 	"coll-setting-papersize-letter": "Letter",
 	"coll-setting-toc": "Bao gồm bảng mục lục",
 	"coll-setting-toc-auto": "Tự động",
@@ -181,8 +186,11 @@
 	"coll-attribution-page": "<h1>Nguồn, người đóng góp, và giấy phép cho văn bản và hình ảnh</h1>\n<h2>Văn bản</h2>\n$1<h2>Hình ảnh</h2>\n$2\n<h2>Giấy phép nội dung</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Nguồn:</i> $2 <i>Người đóng góp:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Nguồn:</i> $2 <i>Giấy phép:</i> $3 <i>Người đóng góp:</i> $4 <i>Nghệ sĩ đầu tiên:</i> $5",
+	"coll-warning-disable-pdf-title": "Bộ tạo sách đang có sự thay đổi",
+	"coll-warning-disable-pdf-text": "Do những vấn đề nghiêm trọng với hệ thống đang có, Bộ tạo sách sẽ không còn hỗ trợ lưu sách thành tập tin PDF nữa.",
 	"coll-warning-learn-more": "Tìm hiểu thêm",
 	"coll-notice-download-pdf-title": "Tải về từng trang một",
+	"coll-notice-download-pdf-text": "Trong khi tính năng tạo PDF của Bộ tạo sách đang được tắt, bạn có thử '''''Tải về PDF''''' trong thanh công cụ bên trái tại các bài viết.",
 	"coll-toc-title": "Mục lục",
 	"coll-contributors-title": "Người đóng góp",
 	"coll-images-title": "Hình ảnh",
@@ -190,5 +198,10 @@
 	"coll-images-license": "Giấy phép",
 	"coll-images-original-artist": "Tác phẩm ban đầu",
 	"coll-license-title": "Giấy phép nội dung",
-	"coll-rendererror-title": "Không thể tạo sách"
+	"coll-rendererror-title": "Không thể tạo sách",
+	"coll-rendererror-no-session": "Không tìm thấy định nghĩa sách trong phiên làm việc. Có thể nó bị loại bỏ do không hoạt động.",
+	"coll-rendererror-pdf": "Kết xuất PDF không thành công: $1",
+	"coll-rendererror-fetch": "Truy xuất $1 không thành công: $2",
+	"coll-rendererror-fetch-wrapper": "Có lỗi khi thử truy xuất nội dung trang:\n$1",
+	"coll-rendererror-no-cache": "Không tìm thấy dữ liệu sách trong bộ nhớ đệm. Rất có thể đây là một lỗi phần mềm."
 }

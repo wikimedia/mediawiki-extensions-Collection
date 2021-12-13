@@ -4,7 +4,8 @@
 			"Cedric31",
 			"Jfblanc",
 			"Macofe",
-			"Nicolas Eynaud"
+			"Nicolas Eynaud",
+			"BrennodAloisi"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crear de libres]]",
@@ -99,7 +100,7 @@
 	"coll-blacklisted-templates": "* De modèls dins la lista negra [[:$1]] son estats excluts.",
 	"coll-book_title": "Comandar tal coma un libre estampat",
 	"coll-book_text": "Obtenètz un libre estampat a partir de vòstre partenari d’estampatge a la demanda :",
-	"coll-order_from_pp": "Apercebut amb $1",
+	"coll-order_from_pp": "Previsualizacion amb $1",
 	"coll-about_pp": "A prepaus de $1",
 	"coll-invalid_podpartner_title": "Partenari POD incorrècte.",
 	"coll-invalid_podpartner_msg": "Lo partenari POD indicat es incorrècte.\nContactatz vòstre administrator MediaWiki.",

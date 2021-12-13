@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Vickylin77s"
+			"Vickylin77s",
+			"Akamycoco"
 		]
 	},
 	"coll-remove": "falah",
@@ -15,6 +16,7 @@
 	"coll-create_a_book": "misanga’ to codad",
 	"coll-book_creator": "codad misanga’ cen-se",
 	"coll-download_as": "Pala- $1 a mi’anang",
+	"coll-disable": "materepay",
 	"coll-book_creator_disable": " materepay codad misanga’ cen-se",
 	"coll-book_creator_disable_tooltip": "materepay codad misanga’ cen-se",
 	"coll-add_this_page": "Mikapot a micomod tonini a feliha tayra i codad no miso",
@@ -22,7 +24,7 @@
 	"coll-help": "o pakafana’",
 	"coll-help_tooltip": "pahapinangen kora sapakafana’ to pisanga’ to codad",
 	"coll-helppage": "Help:codad",
-	"coll-n_pages": "$1 ko felih",
+	"coll-n_pages": "$1{{PLURAL:$1|ko felih}}",
 	"coll-remove_this_page": "falahen kona felih nani codad no miso",
 	"coll-show_collection": "pahapinang to codad",
 	"coll-show_collection_tooltip": " pili’en a mimi^mi konini a misinanot, miterek ano eca pali’ayaw micakay to codad no miso",

@@ -27,5 +27,10 @@
 	"coll-suggest_add_selected": "Irugang a mga mapiling pahina",
 	"coll-suggest_ban_selected": "Galinon a mga naliping pahina",
 	"coll-suggest_your_book": "A kanimong libro",
-	"coll-suggest_show": "ipabayad"
+	"coll-suggest_show": "ipabayad",
+	"coll-print_export": "I-print/i-export",
+	"coll-create_a_book": "Gumibo sa libro",
+	"coll-download_as": "I-download bilang $1",
+	"coll-help": "Tabang",
+	"coll-attribution-anons": "Diri isi: $1"
 }

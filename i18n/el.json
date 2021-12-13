@@ -12,7 +12,8 @@
 			"Macofe",
 			"Nikosgranturismogt",
 			"Omnipaedista",
-			"ZaDiak"
+			"ZaDiak",
+			"NikosLikomitros"
 		]
 	},
 	"coll-desc": "[[Special:Book|Δημιουργία βιβλίων]]",
@@ -141,7 +142,9 @@
 	"coll-format-okawix_zeno": "Okawix",
 	"coll-format-rdf2latex": "e-book (PDF, ocg latex renderer)",
 	"coll-format-rdf2text": "Επεξεργαστής κειμένου (απλό κείμενο)",
+	"action-collectionsaveasuserpage": "αποθήκευση βιβλίων ως σελίδα χρήστη",
 	"right-collectionsaveasuserpage": "Αποθήκευση βιβλίων ως σελίδας χρήστη",
+	"action-collectionsaveascommunitypage": "αποθήκευση βιβλίων ως σελίδα κοινότητας",
 	"right-collectionsaveascommunitypage": "Αποθήκευση βιβλίων ως σελίδας κοινότητας",
 	"coll-print_export": "Εκτύπωση/εξαγωγή",
 	"coll-create_a_book": "Δημιουργία βιβλίου",
@@ -189,8 +192,10 @@
 	"coll-article-attribution": "<b>$1</b> <i>Πηγή:</i> $2 <i>Συνεισφέροντες:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Πηγή:</i> $2 <i>Άδεια χρήσης:</i> $3 <i>Συνεισφέροντες:</i> $4 <i>Αρχικός δημιουργός:</i> $5",
 	"coll-warning-disable-pdf-title": "Ο Δημιουργός Βιβλίων είναι υπό αλλαγές",
+	"coll-warning-disable-pdf-text": "Λόγω σοβαρών προβλημάτων με το υπάρχον σύστημά μας, ο Δημιουργός Bιβλίων δεν θα υποστηρίζει πλέον την αποθήκευση ενός βιβλίου ως PDF.",
 	"coll-warning-learn-more": "Μάθετε περισσότερα",
-	"coll-notice-download-pdf-title": "Λήψη μονών σελίδων",
+	"coll-notice-download-pdf-title": "Λήψη μεμονωμένων σελίδων",
+	"coll-notice-download-pdf-text": "Ενώ η απόδοση PDF του Δημιουργού Βιβλίων είναι απενεργοποιημένη, μπορείτε να δοκιμάσετε '''''Κατέβασμα ως PDF''''' από τα εργαλεία πλευρικής γραμμής για μεμονωμένα λήμματα.",
 	"coll-toc-title": "Πίνακας Περιεχομένων",
 	"coll-contributors-title": "Συνεισφέροντες",
 	"coll-images-title": "Εικόνες",

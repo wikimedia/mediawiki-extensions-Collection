@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Anok kutai jang"
+			"Anok kutai jang",
+			"MuratTheTurkish"
 		]
 	},
 	"coll-remove": "Kas apus",
@@ -20,7 +21,7 @@
 	"coll-help": "Bantuan",
 	"coll-help_tooltip": "Kas lia bantuan par biking buku-buku",
 	"coll-helppage": "Help:Buku",
-	"coll-n_pages": "$1 {{PLURAL:$1|kintal|kintal}}",
+	"coll-n_pages": "$1 {{PLURAL:$1|kintal}}",
 	"coll-remove_this_page": "Hapus kintal dar ale pung buku",
 	"coll-show_collection": "Lia buku",
 	"coll-show_collection_tooltip": "Klik par robah/ambel dar internet/pasang ale pung buku",
