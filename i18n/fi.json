@@ -17,6 +17,7 @@
 			"Stryn",
 			"Syreeni",
 			"Tarmo",
+			"Veikk0.ma",
 			"Zache"
 		]
 	},
@@ -137,7 +138,7 @@
 	"right-collectionsaveasuserpage": "Tallentaa kirjoja käyttäjäsivuna",
 	"action-collectionsaveascommunitypage": "tallentaa kirjaa yhteisösivulle",
 	"right-collectionsaveascommunitypage": "Tallentaa kirjoja yhteisösivuina",
-	"coll-print_export": "Tulosta tai vie",
+	"coll-print_export": "Tulosta/vie",
 	"coll-create_a_book": "Luo kirja",
 	"coll-create_a_book_tooltip": "Luo kirja tai sivukokoelma",
 	"coll-book_creator": "Kirjan luontitila",

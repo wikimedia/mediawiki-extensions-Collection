@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"MITO"
+		]
+	},
+	"apihelp-collection+addarticle-example": "Lisää sivu kokoelmaan.",
+	"apihelp-collection+settitles-settings-example": "Aseta kokoelman otsikko, alaotsikko ja asetukset",
+	"apihelp-collection+removearticle-example": "Poista sivu kokoelmasta."
+}

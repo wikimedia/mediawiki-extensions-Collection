@@ -4,6 +4,7 @@
 			"Ioe2015",
 			"Macofe",
 			"Minh Nguyen",
+			"Nghiemtrongdai VN",
 			"NguoiDungKhongDinhDanh",
 			"Trần Nguyễn Minh Huy",
 			"Vinhtantran"
@@ -50,7 +51,7 @@
 	"coll-notitle_title": "Không thể xác định tiêu đề trang",
 	"coll-notitle_msg": "Tên trang không thể xác định được.",
 	"coll-request_failed_title": "Kết xuất sách thất bại",
-	"coll-request_failed_msg": "Đã có lỗi xảy ra trong nỗ lực kết xuất sách của bạn.",
+	"coll-request_failed_msg": "Đã có lỗi xảy ra trong việc kết xuất sách của bạn.",
 	"coll-empty_collection": "Sách trống",
 	"coll-save_collection_title": "Lưu và chia sẻ sách của bạn",
 	"coll-save_collection_text": "Chọn một nơi để lưu sách:",
