@@ -65,7 +65,7 @@
 	"coll-limit_exceeded_title": "গ্ৰন্থৰ আকাৰ ডাঙৰ হৈছে",
 	"coll-limit_exceeded_text": "আপোনাৰ গ্ৰন্থৰ আকাৰ ডাঙৰ হৈছে।\nআৰু পৃষ্ঠা যোগ কৰিব নোৱাৰি।",
 	"coll-rendering_title": "ৰে'ণ্ডাৰ কৰি থকা হৈছে",
-	"coll-rendering_text": "<p><strong>আপোনাৰ গ্ৰন্থখন তৈয়াৰ কৰা হৈছে, অনুগ্ৰহ কৰি অপেক্ষা কৰক।</strong></p>\n\n<p><strong>Progress:</strong> <span id=\"অগ্ৰগতি\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p>এই পৃষ্ঠাটো কেইছেকেণ্ডমানৰ মূৰে মূৰে স্বয়ংক্ৰিয়ভাৱে ৰিল'ড হ'ব।\nএনেকুৱা নহ'লে অনুগ্ৰহ কৰি আপোনাৰ ব্ৰাউজাৰৰ ৰিফ্ৰেছ বুটামটো ক্লিক কৰক।</p>",
+	"coll-rendering_text": "<p><strong>আপোনাৰ গ্ৰন্থখন তৈয়াৰ কৰা হৈছে, অনুগ্ৰহ কৰি অপেক্ষা কৰক।</strong></p>\n\n<p><strong>Progress:</strong> <span id=\"renderingProgress\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p>এই পৃষ্ঠাটো কেইছেকেণ্ডমানৰ মূৰে মূৰে স্বয়ংক্ৰিয়ভাৱে ৰিল'ড হ'ব।\nএনেকুৱা নহ'লে অনুগ্ৰহ কৰি আপোনাৰ ব্ৰাউজাৰৰ ৰিফ্ৰেছ বুটামটো ক্লিক কৰক।</p>",
 	"coll-rendering_status": "<strong>Status:</অৱস্থা> $1",
 	"coll-rendering_article": "(ৱিকি পৃষ্ঠা: $1)",
 	"coll-rendering_page": "(পৃষ্ঠা: $1)",

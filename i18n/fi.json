@@ -80,7 +80,7 @@
 	"coll-limit_exceeded_title": "Kirja on liian suuri",
 	"coll-limit_exceeded_text": "Kirjasi on liian suuri.\nSivuja ei voi lisätä enempää.",
 	"coll-rendering_title": "Renderöidään",
-	"coll-rendering_text": "<p><strong>Ole hyvä ja odota, kun dokumenttiasi valmistellaan.</strong></p>\n\n<p><strong>Eteneminen:</strong> <span id=\"renderingProgress\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p>Tämän sivun pitäisi päivittyä muutaman sekunnin välein.\nJos näin ei käy, paina selaimesi päivityspainiketta.</p>",
+	"coll-rendering_text": "<p><strong>Ole hyvä ja odota, kun dokumenttiasi valmistellaan.</strong></p>\n\n<p><strong>Eteneminen:</strong> <span id=\"renderingProgress\">$1</span> % <span id=\"renderingStatus\">$2</span></p>\n\n<p>Tämän sivun pitäisi päivittyä muutaman sekunnin välein.\nJos näin ei käy, paina selaimesi päivityspainiketta.</p>",
 	"coll-rendering_status": "<strong>Tila:</strong> $1",
 	"coll-rendering_article": "(wikisivu: $1)",
 	"coll-rendering_page": "(sivu: $1)",
