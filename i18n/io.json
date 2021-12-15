@@ -50,7 +50,7 @@
 	"coll-print_export": "Imprimar/prezervar",
 	"coll-create_a_book": "Kreez libro",
 	"coll-book_creator": "Kreero di libri",
-	"coll-download_as": "Deskargar quale $1-formato",
+	"coll-download_as": "Deskargar quale $1",
 	"coll-disable": "despermisar",
 	"coll-book_creator_disable": "Deshabilitar la kreero di libri",
 	"coll-book_creator_disable_tooltip": "Haltar l'uzo di la kreero di libri",
@@ -82,5 +82,6 @@
 	"coll-image-attribution": "<b>$1</b> <i>Fonto:</i> $2 <i>Permiso:</i> $3 <i>Kontributeri:</i> $4 <i>Original artisto:</i> $5",
 	"coll-warning-disable-pdf-text": "Pro severa problemi kun nia existanta sistemo, la kreero di libri (''Book Creator'') ne pluse suportos, dum kurta tempo, la kreado di PDF-libri. Ni laborabas multe por remplasar nia sistempo e ri-posibligar la kreado di PDF-libri per ''Book Creator''.",
 	"coll-warning-learn-more": "Lernez pluse",
+	"coll-notice-download-pdf-text": "Malgre ke la kreo di libri en PDF ne povas uzesar, vu povas probar '''''Descharjar quale PDF''''' individual artikli, uzanta l'utensili adlatere en la pagino.",
 	"coll-images-source": "Fonto"
 }

@@ -2,20 +2,21 @@
 	"@metadata": {
 		"authors": [
 			"Gazimagomedov",
-			"Аль-Гимравий"
+			"Аль-Гимравий",
+			"Omarov M."
 		]
 	},
-	"coll-remove": "БацIцIине",
+	"coll-remove": "Гилдизе",
 	"coll-show": "Бихьизабизе",
 	"coll-move_up": "ТӀадегӀан цузе",
-	"coll-move_down": "Гъоркьехун къазабизе",
-	"coll-create_a_book": "ТӀехь гьабизе",
-	"coll-book_creator": "ТӀехь гӀуцӀи",
-	"coll-download_as": "$1 гӀадин цӀазе",
-	"coll-disable": "синзабизе",
+	"coll-move_down": "Гъоркьехун цузе",
+	"coll-create_a_book": "ТӀехь гӀуцӀизе",
+	"coll-book_creator": "ТӀехь гӀуцӀунжо",
+	"coll-download_as": "$1 гӀадин жанибе реххизе",
+	"coll-disable": "свинабизе",
 	"coll-help": "Кумек",
 	"coll-helppage": "Help:ТӀахьал",
-	"coll-remove_this_page": "Дур тӀехьалдасан гьаб гьумер бацӀцӀизе",
+	"coll-remove_this_page": "Гилдизабе гьаб гьумер дурго тӀехьалдаса",
 	"coll-show_collection": "ТӀехь бихьизабизе",
 	"coll-attribution-anons": "ЦӀаргьечӀ: $1"
 }

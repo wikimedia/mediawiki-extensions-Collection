@@ -10,10 +10,10 @@
 			"Yerpo"
 		]
 	},
-	"coll-desc": "[[Special:Book|Ustvari e-knjige]]",
-	"coll-book_creator_intro": "<big>Z ''Ustvarjalcem knjig'' lahko ustvarite knjigo, ki vsebuje wiki strani po vaši izbiri. Knjigo lahko nato izvozite v različnih oblikah (na primer PDF ali ODF), ali pa naročite natisnjen izvod.</big>",
-	"coll-manage_your_book": "Uredite vašo knjigo",
-	"coll-book_creator_help": "Glej [[{{MediaWiki:Coll-helppage}}|pomoč o knjigah]] za več informacij.",
+	"coll-desc": "[[Special:Book|Ustvari knjige]]",
+	"coll-book_creator_intro": "<big>Z ''ustvarjalcem knjig'' lahko ustvarite knjigo, ki vsebuje wiki strani po vaši izbiri. Knjigo lahko nato izvozite v različnih oblikah (na primer PDF ali ODF) ali pa naročite natisnjen izvod.</big>",
+	"coll-manage_your_book": "Uredite svojo knjigo",
+	"coll-book_creator_help": "Glej [[{{MediaWiki:Coll-helppage}}|stran s pomočjo o knjigah]] za več informacij.",
 	"coll-start_book_creator": "Zaženi ustvarjalca knjig",
 	"coll-book_creator_continue": "Nadaljuj uporabo ustvarjalca knjig",
 	"coll-book_creator_disable_text": "''Ustvarjalec knjig'' bo onemogočen in knjiga katero sestavljate bo odstranjena.",
