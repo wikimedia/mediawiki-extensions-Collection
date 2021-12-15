@@ -16,5 +16,19 @@
 	"apihelp-collection+addcategory-example": "Hinzufügen von Seiten aus einer bestimmten Kategorie zur Sammlung eines Benutzers.",
 	"apihelp-collection+addcategory-summary": "API-Modul zum Hinzufügen von Seiten aus einer bestimmten Kategorie zur Sammlung eines Benutzers.",
 	"apihelp-collection+suggestarticleaction-example": "Fügt der Sammlung und den Vorschlägen eine Seite hinzu",
-	"apihelp-collection+suggestarticleaction-summary": "API-Modul zur Interaktion mit Vorschlägen"
+	"apihelp-collection+suggestarticleaction-summary": "API-Modul zur Interaktion mit Vorschlägen",
+	"coll-api-addcategory-category-does-not-exist": "Die Kategorie, aus der du Seiten hinzufügen möchtest, existiert nicht, ist ungültig oder hat mehr Seiten als das angegebene Limit.",
+	"apihelp-collection+addchapter-example": "Der Sammlung ein Kapitel hinzufügen.",
+	"apihelp-collection+addchapter-summary": "API-Modul zum Hinzufügen eines Kapitels zur Sammlung",
+	"apihelp-collection+renamechapter-example": "Umbenennen eines Kapitels in der Sammlung des Benutzers.",
+	"apihelp-collection+renamechapter-summary": "API-Modul zum Umbenennen eines Kapitels in der Sammlung des Benutzers",
+	"apihelp-collection+clearcollection-example": "Löscht Sammlung und Vorschläge",
+	"apihelp-collection+clearcollection-summary": "API-Modul zum Löschen der Sammlung und der Vorschläge",
+	"apihelp-collection+setsorting-summary": "API-Modul zum Neuordnen von Elementen in einer Sammlung",
+	"apihelp-collection+sortitems-example": "Sammlungsseiten alphabetisch sortieren",
+	"apihelp-collection+sortitems-summary": "API-Modul zum alphabetischen Sortieren von Seiten in einer Sammlung. Seiten innerhalb von Kapiteln werden gruppiert und gemeinsam sortiert.",
+	"apihelp-collection+getpopupdata-example": "Ruft ein Popup auf, um eine Seite zur Sammlung hinzuzufügen oder sie zu entfernen",
+	"apihelp-collection+getpopupdata-summary": "API-Modul zum Abrufen von Daten und HTML, um ein Popup zu erstellen",
+	"apihelp-collection-param-submodule": "Submodul zur Durchführung verschiedener Operationen mit der Sammlung eines Wiki-Benutzers.",
+	"apihelp-collection-summary": "API-Modul zur Durchführung verschiedener Operationen mit der Sammlung eines Wiki-Benutzers."
 }
