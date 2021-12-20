@@ -3,7 +3,8 @@
 		"authors": [
 			"C.R.",
 			"Chelin",
-			"Ruthven"
+			"Ruthven",
+			"Cryptex nap"
 		]
 	},
 	"coll-desc": "[[Special:Book|Ccrìa 'e libbre]]",
@@ -30,11 +31,11 @@
 	"coll-download_as_text": "Pe' putè scarrecà 'o libbro vuosto int'a $1 sciglite nu formato e facite click ncopp' 'o buttòne.",
 	"coll-download": "Scarreca",
 	"coll-format_label": "Furmato:",
-	"coll-remove": "Lèva",
+	"coll-remove": "Leva",
 	"coll-show": "Faje vedé",
 	"coll-move_to_top": "Mòve ncoppa ncoppa",
-	"coll-move_up": "Mòve ncoppa",
-	"coll-move_down": "Mòve abbascio",
+	"coll-move_up": "Move ncoppa",
+	"coll-move_down": "Move abbascio",
 	"coll-move_to_bottom": "Mòve abbascio abbascio",
 	"coll-title": "Titulo:",
 	"coll-subtitle": "Sottotitulo:",
