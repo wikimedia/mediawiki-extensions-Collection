@@ -74,7 +74,7 @@
 	"coll-limit_exceeded_title": "పుస్తకం మరీ పెద్దగా ఉంది",
 	"coll-limit_exceeded_text": "మీ పుస్తకము చాలా పెద్దగా ఉంది.\nమరిన్ని పేజీలు చేర్చలేము.",
 	"coll-rendering_title": "రూపుదిద్దుట",
-	"coll-rendering_text": "<p><strong>పుస్తకం రూపుదిద్దుతున్నాం, వేచియుండండి.</strong></p>\n\n<p><strong>పురోగతి:</strong> <span id=\"రూపుదిద్దటంలో పురోగతి\">$1</span>% <span id=\"రూపుదిద్దు స్థతి\">$2</span></p>\n\n<p>ఈ పేజీ కొన్ని సెకండ్లకోసారి అయాచితంగా తాజా కావాల్సి ఉంది. \nఅలా కాకపోతే, బ్రౌజరు తాజాపరచు బొత్తాన్ని నొక్కండి.</p>",
+	"coll-rendering_text": "<p><strong>పుస్తకం రూపుదిద్దుతున్నాం, వేచియుండండి.</strong></p>\n\n<p><strong>పురోగతి:</strong> <span id=\"renderingProgress\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p>ఈ పేజీ కొన్ని సెకండ్లకోసారి అయాచితంగా తాజా కావాల్సి ఉంది. \nఅలా కాకపోతే, బ్రౌజరు తాజాపరచు బొత్తాన్ని నొక్కండి.</p>",
 	"coll-rendering_status": "<strong>స్థితి:</strong> $1",
 	"coll-rendering_article": "(వికీ పేజీ: $1)",
 	"coll-rendering_page": "  (పేజీ: $1)",

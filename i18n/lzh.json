@@ -3,7 +3,8 @@
 		"authors": [
 			"Itsmine",
 			"SolidBlock",
-			"StephDC"
+			"StephDC",
+			"列维劳德"
 		]
 	},
 	"coll-remove": "刪",
@@ -12,7 +13,7 @@
 	"coll-move_down": "下移",
 	"coll-print_export": "付梓",
 	"coll-create_a_book": "建冊",
-	"coll-download_as": "下載為 $1",
+	"coll-download_as": "下載為$1",
 	"coll-disable": "禁",
 	"coll-help": "助",
 	"coll-remove_this_page": "移頁自子書",

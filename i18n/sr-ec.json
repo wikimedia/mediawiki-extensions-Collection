@@ -124,7 +124,7 @@
 	"coll-suggest_article_remove": "Страница <strong>$1</strong> је уклоњена из ваше књиге ($2).",
 	"coll-suggest_undo_tooltip": "Поништите ову радњу",
 	"coll-suggest_undo": "поништи",
-	"coll-load_local_book": "Кликните на OK да наставите рад с књигом $1 која садржи $2 {{PLURAL:$2|страницу|странице}}.  Кликните на Cancel да је обришете и започнете с празном књигом.",
+	"coll-load_local_book": "Кликните на OK да наставите рад с књигом $1 која садржи $2 {{PLURAL:$2|страницу|странице}}. Кликните на Cancel да је обришете и започнете с празном књигом.",
 	"coll-format-rl": "е-књига (PDF, mwlib исцртавач)",
 	"coll-format-epub": "е-књига (EPUB)",
 	"coll-format-odf": "Обрађивач текста (OpenDocument)",

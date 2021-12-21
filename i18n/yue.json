@@ -7,11 +7,13 @@
 			"Macofe",
 			"Moon0319",
 			"Shinjiman",
-			"Yueman"
+			"Yueman",
+			"Z423x5c6"
 		]
 	},
 	"coll-desc": "[[Special:Book|整書]]",
 	"coll-manage_your_book": "管理你嘅書",
+	"coll-start_book_creator": "開始整書",
 	"coll-collection": "書",
 	"coll-collections": "書",
 	"coll-unknown_subpage_title": "未知嘅細頁",
@@ -137,5 +139,7 @@
 	"coll-contributors-title": "貢獻者",
 	"coll-images-title": "圖",
 	"coll-images-source": "來源",
-	"coll-images-license": "授權牌照"
+	"coll-images-license": "授權牌照",
+	"coll-rendererror-title": "整唔到本書",
+	"coll-rendererror-fetch": "攞唔到$1: $2"
 }
