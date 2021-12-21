@@ -6,6 +6,7 @@
 			"Minh Nguyen",
 			"Nghiemtrongdai VN",
 			"NguoiDungKhongDinhDanh",
+			"Thingofme",
 			"Trần Nguyễn Minh Huy",
 			"Vinhtantran"
 		]
@@ -104,7 +105,7 @@
 	"coll-suggest_title": "Các trang đề nghị cho cuốn sách của bạn",
 	"coll-suggest_intro_text": "Những đề nghị dựa trên tập trang wiki hiện tại trong cuốn sách.\nDanh sách này được cập nhật mỗi khi bạn nhấn vào nút thêm hoặc bớt.",
 	"coll-suggested_articles": "Gợi ý",
-	"coll-suggest_reset_bans": "tái tạo",
+	"coll-suggest_reset_bans": "khởi động lại",
 	"coll-suggest_reset_bans_tooltip": "Hiện các đề nghị đã bị xóa",
 	"coll-suggest_add_selected": "Thêm các trang đã chọn",
 	"coll-suggest_ban_selected": "Xóa các trang đã chọn",
