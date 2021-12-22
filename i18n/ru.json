@@ -35,7 +35,7 @@
 	"coll-collection": "Книга",
 	"coll-collections": "Книги",
 	"coll-unknown_subpage_title": "Неизвестная подстраница",
-	"coll-unknown_subpage_text": "Этой подстраницы [[Special:Book|книги]] не существует",
+	"coll-unknown_subpage_text": "Этой подстраницы [[Special:Book|книги]] не существует.",
 	"coll-couldnotaddarticle_title": "Не удалось добавить статью",
 	"coll-couldnotaddarticle_msg": "Эта статья не может быть добавлена.",
 	"coll-couldnotremovearticle_title": "Не удалось удалить статью",
