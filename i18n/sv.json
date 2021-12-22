@@ -79,7 +79,7 @@
 	"coll-append": "Lägg till",
 	"coll-cancel": "Avbryt",
 	"coll-update": "Uppdatera",
-	"coll-limit_exceeded_title": "För stor bok",
+	"coll-limit_exceeded_title": "Boken är för stor",
 	"coll-limit_exceeded_text": "Din bok är för stor.\nInga fler sidor kan läggas till.",
 	"coll-rendering_title": "Skapar",
 	"coll-rendering_text": "<p><strong>Var god vänta medan dokumentet skapas.</strong></p>\n\n<p><strong>Tillstånd:</strong> <span id=\"renderingProgress\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p>Denna sida ska automatiskt uppdateras med några sekunders mellanrum.\nOm det inte fungerar, var god tryck på uppdateringsknappen i din webbläsare.</p>",
