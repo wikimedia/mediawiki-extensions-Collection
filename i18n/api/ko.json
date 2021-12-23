@@ -4,5 +4,25 @@
 			"Ykhwong"
 		]
 	},
-	"apihelp-collection+suggestundoarticleaction-param-lastaction": "'add', 'remove', 'ban' 중 하나입니다."
+	"apihelp-collection+getcollection-summary": "모음집의 현재 문서를 나열하기 위한 API 모듈",
+	"apihelp-collection+addarticle-example": "모음집에 문서를 추가합니다.",
+	"apihelp-collection+addarticle-summary": "문서를 모음집에 추가하기 위한 API 모듈",
+	"apihelp-collection+settitles-example": "모음집의 주제와 부제를 설정합니다",
+	"apihelp-collection+settitles-settings-example": "모음집의 제목, 부제, 설정을 설정합니다",
+	"coll-api-addarticle-article-not-added": "이 문서는 모음집에 추가하지 못했습니다. 제목이 지정된 이름공간에 있는지, 아니면 문서가 모음집에 이미 존재하는지 확인해 주십시오.",
+	"apihelp-collection+removearticle-example": "문서를 모음집에서 제거합니다.",
+	"coll-api-removearticle-article-not-removed": "이 문서는 모음집에서 제거되지 못했습니다. 제목이 지정된 이름공간에 있는지, 아니면 문서가 모음집에 존재하지 않는지 확인해 주십시오.",
+	"apihelp-collection+addcategory-example": "지정된 분류의 문서를 사용자의 모음집에 추가합니다.",
+	"apihelp-collection+addcategory-summary": "지정된 분류의 문서를 사용자의 모음집에 추가하기 위한 API 모듈입니다.",
+	"apihelp-collection+suggestarticleaction-example": "문서를 모음집과 제안에 추가합니다",
+	"apihelp-collection+suggestarticleaction-summary": "제안과 상호 작용하는 API 모듈",
+	"apihelp-collection+suggestundoarticleaction-param-lastaction": "'add', 'remove', 'ban' 중 하나입니다.",
+	"apihelp-collection+clearcollection-example": "모음집과 제안을 지웁니다",
+	"apihelp-collection+sortitems-example": "모음집의 문서를 알파벳순으로 정렬합니다",
+	"apihelp-collection+getpopupdata-example": "문서를 모음집에 추가하거나 제거하기 위한 팝업을 가져옵니다",
+	"apihelp-collection+getpopupdata-summary": "팝업 구성을 위해 데이터와 HTML를 가져오는 API 모듈",
+	"apihelp-collection-summary": "위키 사용자의 모음집에 다양한 동작을 수행하기 위한 API 모듈입니다.",
+	"apihelp-collection+postcollection-example": "문서를 사용자의 모음집에 게시합니다",
+	"apihelp-collection+postcollection-summary": "사용자 모음집에 문서를 게시하기 위한 API 모듈",
+	"coll-api-invalid-collection": "유효하지 않은 모음집을 수신했습니다."
 }
