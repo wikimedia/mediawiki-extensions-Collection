@@ -1,17 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Katxis"
+			"Katxis",
+			"Dentonius"
 		]
 	},
-	"coll-remove": "Rimuuv",
-	"coll-show": "Shuo",
-	"coll-move_up": "Muuvop",
-	"coll-move_down": "Muuvdong",
-	"coll-print_export": "Print/expuot",
-	"coll-create_a_book": "Kriet buk",
+	"coll-remove": "Tek out",
+	"coll-show": "Show",
+	"coll-move_up": "Move up",
+	"coll-move_down": "Move dung",
+	"coll-print_export": "Print/export",
+	"coll-create_a_book": "Mek a book",
 	"coll-book_creator": "Buk krieta",
-	"coll-download_as": "Dongluod az $1",
+	"coll-download_as": "Download inna $1",
 	"coll-disable": "disiebl",
 	"coll-book_creator_disable": "Disiebl buk krieta",
 	"coll-book_creator_disable_tooltip": "Tap yuuz di buk krieta",

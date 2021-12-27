@@ -7,7 +7,8 @@
 			"KartikMistry",
 			"Macofe",
 			"NehalDaveND",
-			"Sushant savla"
+			"Sushant savla",
+			"CptViraj"
 		]
 	},
 	"coll-desc": "[[ખાસ:પુસ્તક|પુસ્તક બનાવો]]",
@@ -94,7 +95,7 @@
 	"coll-blacklisted-templates": "બ્લેકલિસ્ટ [[:$1]]માંના ઢાંચાઓ બાકાત રાખવામાં આવ્યા છે.",
 	"coll-book_title": "છાપેલા પુસ્તકની ફરમાયશ કરો",
 	"coll-book_text": "અમારા પ્રિન્ટ-ઓન-ડિમાન્ડ (આવશ્યકતા સમયે છાપી આપતા) ભાગીદાર પાસેથી પુસ્તક છપાવો",
-	"coll-order_from_pp": "$1માં ઝલક બતાવો",
+	"coll-order_from_pp": "$1 સાથે ઝલક બતાવો",
 	"coll-about_pp": "$1 વિષે",
 	"coll-invalid_podpartner_title": "Invalid POD partner",
 	"coll-invalid_podpartner_msg": "પસંદ કરેલ POD ભાગીદાર અમાન્ય છે.\nતમારા મીડિયાવિકિ પ્રબંધકનો સંપર્ક કરો.",
@@ -160,5 +161,7 @@
 	"coll-setting-columns": "સ્તંભો :",
 	"coll-attribution-anons": "અજ્ઞાત: $1",
 	"coll-article-attribution": "<b>$1</b> <i>સ્રોત:</i> $2 <i>યોગદાનકર્તા:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>સ્રોત:</i> $2 <i>પરવાનો:</i> $3 <i>યોગદાનકર્તા:</i> $4 <i>અસલ કલાકાર:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>સ્રોત:</i> $2 <i>પરવાનો:</i> $3 <i>યોગદાનકર્તા:</i> $4 <i>અસલ કલાકાર:</i> $5",
+	"coll-images-title": "છબીઓ",
+	"coll-images-source": "સ્રોત"
 }

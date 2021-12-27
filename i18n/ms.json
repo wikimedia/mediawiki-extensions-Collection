@@ -8,7 +8,8 @@
 			"Kurniasan",
 			"Macofe",
 			"Pizza1016",
-			"SNN95"
+			"SNN95",
+			"Tofeiku"
 		]
 	},
 	"coll-desc": "[[Special:Book|Mencipta buku]]",
@@ -82,6 +83,7 @@
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Merender teks maklumat koleksi",
 	"coll-rendering_finished_title": "Penjanaan selesai",
 	"coll-rendering_finished_text": "<strong>Fail dokumen tersebut telah dijana.</strong>\n<strong>[$1 Muat turun fail ini]</strong> ke dalam komputer anda.",
+	"coll-rendering_finished_notes_heading": "Nota:",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Merender teks maklumat laman",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Merender teks maklumat koleksi",
 	"coll-rendering_failed_status": "<strong>Status:</strong> $1",
@@ -172,5 +174,13 @@
 	"coll-setting-columns": "Lajur:",
 	"coll-attribution-anons": "Pengguna tanpa nama: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Sumber:</i> $2 <i>Penyumbang-penyumbang:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Sumber:</i> $2 <i>Perlesenan:</i> $3 <i>Penyumbang:</i> $4 <i>Artis asal:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Sumber:</i> $2 <i>Perlesenan:</i> $3 <i>Penyumbang:</i> $4 <i>Artis asal:</i> $5",
+	"coll-toc-title": "Isi Kandungan",
+	"coll-contributors-title": "Penyumbang",
+	"coll-images-title": "Imej",
+	"coll-images-source": "Sumber",
+	"coll-images-license": "Lesen",
+	"coll-images-original-artist": "Seniman asal",
+	"coll-license-title": "Lesen Kandungan",
+	"coll-rendererror-title": "Tidak dapat menjana buku"
 }

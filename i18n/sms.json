@@ -1,0 +1,34 @@
+{
+	"@metadata": {
+		"authors": [
+			"Yupik"
+		]
+	},
+	"coll-collection": "Ǩeʹrjj",
+	"coll-collections": "Ǩeeʹrj",
+	"coll-couldnotaddarticle_title": "Wikiseeid lââʹzztummuš ij oʹnstam",
+	"coll-couldnotremovearticle_title": "Wikiseeid jaukkummuš ij oʹnstam",
+	"coll-your_book": "Tuu ǩeʹrjj",
+	"coll-download_title": "Laadd",
+	"coll-download": "Laadd",
+	"coll-remove": "Jaukkâd",
+	"coll-show": "Čuäʹjet",
+	"coll-save_collection": "Ruõkk ǩeeʹrj",
+	"coll-rendering_page": "(seidd: $1)",
+	"coll-license": "Liseʹnss",
+	"coll-suggested_articles": "Eʹtǩǩõõzz",
+	"coll-suggest_your_book": "Tuu ǩeʹrjj",
+	"coll-suggest_show": "čuäʹjet",
+	"coll-suggest_undo": "kååʹmet",
+	"coll-format-epub": "digiǩeʹrjj (EPUB)",
+	"coll-create_a_book": "Raaj ǩeeʹrj",
+	"coll-download_as": "Laadd $1-teâttõssân",
+	"coll-bookscategory": "Ǩeeʹrj",
+	"coll-clear_collection": "Kuârad ǩeeʹrj",
+	"coll-helppage": "Help:Ǩeeʹrj",
+	"coll-load_collection": "Laadd ǩeeʹrj",
+	"coll-show_collection": "Čuäʹjet ǩeeʹrj",
+	"coll-make_suggestions": "Eʹtǩǩuum seeid",
+	"coll-attribution-anons": "Nõõmteʹm: $1",
+	"coll-images-license": "Liseʹnss"
+}

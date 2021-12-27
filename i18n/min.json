@@ -5,7 +5,8 @@
 			"Iwan Novirion",
 			"Naval Scene",
 			"SpartacksCompatriot",
-			"VoteITP"
+			"VoteITP",
+			"David Wadie Fisher-Freberg"
 		]
 	},
 	"coll-desc": "[[Special:Book|Buek buku]]",
@@ -80,7 +81,7 @@
 	"coll-create_a_book": "Mambuek buku",
 	"coll-create_a_book_tooltip": "Mambuek buku atau koleksi laman",
 	"coll-book_creator": "Pambuek buku",
-	"coll-download_as": "Unduh sabagai $1",
+	"coll-download_as": "Unduah sabagai $1",
 	"coll-download_as_tooltip": "Unduah sabagai $1 dari laman ko",
 	"coll-disable": "↓tutuik",
 	"coll-book_creator_disable": "Jan buliahan pambuekan buku",

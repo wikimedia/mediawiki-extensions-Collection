@@ -5,7 +5,8 @@
 			"Jojit fb",
 			"LR Guanzon",
 			"Macofe",
-			"Sky Harbor"
+			"Sky Harbor",
+			"GinawaSaHapon"
 		]
 	},
 	"coll-desc": "[[Special:Book|Lumikha ng mga aklat]]",
@@ -123,11 +124,11 @@
 	"coll-format-okawix_zeno": "Okawix",
 	"right-collectionsaveasuserpage": "Sagipin ang mga aklat bilang pahina ng tagagamit",
 	"right-collectionsaveascommunitypage": "Sagipin ang mga aklat bilang pahina ng pamayanan",
-	"coll-print_export": "Ilimbag/iluwas",
+	"coll-print_export": "I-print/i-export",
 	"coll-create_a_book": "Lumikha ng isang aklat",
 	"coll-create_a_book_tooltip": "Lumikha ng isang aklat o kalipunan ng pahina",
 	"coll-book_creator": "Panglikha ng aklat",
-	"coll-download_as": "Ikargang-pakuha bilang $1",
+	"coll-download_as": "I-download bilang $1",
 	"coll-download_as_tooltip": "Magkargang-pababa ng $1 na bersyon ng pahinang pangwiking ito",
 	"coll-disable": "huwag paganahin",
 	"coll-book_creator_disable": "Huwag paganahin ang panlikha ng aklat",

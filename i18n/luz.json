@@ -1,23 +1,24 @@
 {
 	"@metadata": {
 		"authors": [
-			"علی ساکی لرستانی"
+			"علی ساکی لرستانی",
+			"Bluehamed"
 		]
 	},
-	"coll-remove": "حأذف",
-	"coll-show": "نیشۉ دائن",
-	"coll-move_up": "حأریکأت ری ڤە بالا",
+	"coll-remove": "هٱسف",
+	"coll-show": "نشۊناڌٱن",
+	"coll-move_up": "جاڤٱجا کاٛردٱن ڤٱ بالا",
 	"coll-move_down": "حأریکأت ری ڤە دوٙمین",
 	"coll-print_export": "پرینت/بیروٙن دائن",
 	"coll-create_a_book": "راس کردن یە کتآڤ",
 	"coll-book_creator": "کیتآۉ ساز",
 	"coll-download_as": "دوٙمینلۉد ڤە صوٙرأت $1",
-	"coll-disable": "د کار انداختن",
+	"coll-disable": "نابور",
 	"coll-book_creator_disable": "د کار انداختن کتآۉ ساز",
 	"coll-book_creator_disable_tooltip": "تۉقف کردن استفادھ د کتآۉ ساز",
 	"coll-add_this_page": "اضاف کردن ای بلگه مئنه کتآۉ ایشا",
 	"coll-add_page_tooltip": "اضاف کردن ای بلگله ویکی ۉھ کتآۉ ایشا",
-	"coll-help": "هۉمیاری",
+	"coll-help": "دٱسکٛمٱکی",
 	"coll-help_tooltip": "نشو دائن کمک د راس کردن کتآۉل",
 	"coll-helppage": "Help:کیتآڤل",
 	"coll-n_pages": "$1{{PLURAL:$1|بألگە|بألگل}}",

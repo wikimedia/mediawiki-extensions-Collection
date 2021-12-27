@@ -195,6 +195,6 @@
 	"coll-rendererror-no-session": "Nem található könyvdefiníció a folyamatban. Talán el lett dobva inaktivitás miatt.",
 	"coll-rendererror-pdf": "A PDF-feldolgozás sikertelen: $1",
 	"coll-rendererror-fetch": "$1 lekérése sikertelen: $2",
-	"coll-rendererror-fetch-wrapper": "Hibák történtek a laptartalmak lekérése közben: $1",
+	"coll-rendererror-fetch-wrapper": "Hibák történtek a laptartalmak lekérése közben:\n$1",
 	"coll-rendererror-no-cache": "A könyvadatok nem találhatók a gyorsítótárban. Ennek oka valószínűleg egy szoftverhiba."
 }

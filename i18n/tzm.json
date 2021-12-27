@@ -2,14 +2,15 @@
 	"@metadata": {
 		"authors": [
 			"Tifinaghes",
-			"ⵕⴰⵊⵉ"
+			"ⵕⴰⵊⵉ",
+			"Hakim1bal"
 		]
 	},
 	"coll-collection": "ⴰⴷⵍⵉⵙ",
 	"coll-collections": "ⵉⴷⵍⵉⵙⵏ",
 	"coll-format_label": "ⴰⵏⴰⵡ:",
-	"coll-remove": "ⵓⴽⵓⵙ",
-	"coll-show": "ⵥⵕ",
+	"coll-remove": "Sitty",
+	"coll-show": "Smal",
 	"coll-title": "ⴰⵣⵡⵉⵍ:",
 	"coll-create_chapter": "ⵙⴽⴻⵔ ⵉⵎⵉⵔ",
 	"coll-rename": "ⴱⴷⴷⴻⵍ ⴰⵙⵙⴰⵖ",
@@ -40,7 +41,7 @@
 	"coll-add_this_page": "ⵔⵏⵓ ⵜⴰⵙⵏⴰ ⴰⴷ ⵖⵔ ⵓⴷⵍⵉⵙ ⵏⴽ",
 	"coll-add_page_tooltip": "ⵔⵏⵓ ⵜⴰⵙⵏⴰ ⵏ ⵡⵉⴽⵉ ⴰⴷ ⵖⵔ ⵓⴷⵍⵉⵙ ⵏⴽ",
 	"coll-bookscategory": "ⵉⴷⵍⵉⵙⵏ",
-	"coll-help": "ⵜⵉⵡⵉⵙⵉ",
+	"coll-help": "Tiwisi",
 	"coll-helppage": "Help:ⵉⴷⵍⵉⵙⵏ",
 	"coll-load_collection": "ⵣⴷⴻⵎ ⴰⴷⵍⵉⵙ",
 	"coll-suggest_empty": "ⵓⵔ ⴷⵉⵙ ⴰⵎⵢⴰ"

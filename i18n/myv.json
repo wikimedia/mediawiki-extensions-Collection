@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Botuzhaleny-sodamo",
-			"Rueter"
+			"Rueter",
+			"Denö"
 		]
 	},
 	"coll-collection": "Кинига",
@@ -31,7 +32,7 @@
 	"coll-suggested_articles": "Мельть-ушодкст",
 	"coll-suggest_show": "невтемс",
 	"coll-print_export": "Конёв лангс нолдамс/ливтемс",
-	"coll-create_a_book": "Шкамс кинига",
+	"coll-create_a_book": "Шкамс книга",
 	"coll-book_creator": "Кинигань шкиця",
 	"coll-download_as": "Таргамс тень $1 формасо",
 	"coll-disable": "лоткавтомс",

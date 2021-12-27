@@ -6,11 +6,14 @@
 			"Ktchankt",
 			"Macofe",
 			"Shinjiman",
-			"Yueman"
+			"Yueman",
+			"Moon0319",
+			"Z423x5c6"
 		]
 	},
 	"coll-desc": "[[Special:Book|整書]]",
 	"coll-manage_your_book": "管理你嘅書",
+	"coll-start_book_creator": "開始整書",
 	"coll-collection": "書",
 	"coll-collections": "書",
 	"coll-unknown_subpage_title": "未知嘅細頁",
@@ -72,7 +75,7 @@
 	"coll-rendering_failed_status": "<strong>狀態：</strong> $1",
 	"coll-notfound_title": "搵唔到書",
 	"coll-notfound_text": "搵唔到書版。",
-	"coll-download_notfound_title": "搵唔到檔案",
+	"coll-download_notfound_title": "搵唔到快勞",
 	"coll-download_failed_title": "下載出錯",
 	"coll-is_cached": "<ul><li>搵到個文件嘅快取版，唔需要重新生成過。[$1 強制重新生成。]</li></ul>",
 	"coll-excluded-templates": "* 響[[:Category:$1|$1]]分類上面嘅模已經排除。",
@@ -115,7 +118,7 @@
 	"coll-help": "幫手",
 	"coll-help_tooltip": "顯示整新書嘅說明",
 	"coll-helppage": "Help:書",
-	"coll-load_collection": "載入書",
+	"coll-load_collection": "撈書",
 	"coll-n_pages": "$1版",
 	"coll-printable_version_pdf": "PDF版",
 	"coll-remove_this_page": "將呢一頁喺你嘅書度剷走",
@@ -138,5 +141,7 @@
 	"coll-contributors-title": "貢獻者",
 	"coll-images-title": "圖",
 	"coll-images-source": "來源",
-	"coll-images-license": "授權牌照"
+	"coll-images-license": "授權牌照",
+	"coll-rendererror-title": "整唔到本書",
+	"coll-rendererror-fetch": "攞唔到$1: $2"
 }

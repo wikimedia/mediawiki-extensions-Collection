@@ -4,14 +4,15 @@
 			"Erdemaslancan",
 			"Macofe",
 			"Marmase",
-			"Mirzali"
+			"Mirzali",
+			"1917 Ekim Devrimi"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kitabî viraze]]",
 	"coll-book_creator_intro": "<big>Pê \"viraştoğê kitabî ti eşkeno yew kitabê ke pelanê wîkîyan ra virazo. Ti eşkeno kitab formatanê bînan de (mavacî PDF ya zi ODF) export bike ya zi kitab şipariş bike.</big>",
 	"coll-manage_your_book": "Kıtabê ho idare ke",
 	"coll-book_creator_help": "Qe enformasyonî [[{{MediaWiki:Coll-helppage}}|elê yardimî ke ser kitabî]] bivîne.",
-	"coll-start_book_creator": "Viraştoğê kitabî başli bike",
+	"coll-start_book_creator": "Destpeka kıtab vıraştoği bıkerên",
 	"coll-book_creator_continue": "Viraştoğê kitabî de dewam bike",
 	"coll-book_creator_disable_text": "\"kitab viraştoğ'' qefiliyeno u kitabê ke ti ho ser hebîtiyeno ey wedariyeno.",
 	"coll-book_creator_text_article": "{{MediaWiki:Coll-helppage}}/Nuşteyê kitab viraştoğî",

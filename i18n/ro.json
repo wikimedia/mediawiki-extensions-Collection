@@ -11,7 +11,8 @@
 			"Minisarm",
 			"Stelistcristi",
 			"Strainu",
-			"Wintereu"
+			"Wintereu",
+			"NGC 54"
 		]
 	},
 	"coll-desc": "[[Special:Book|Creare de cărți]]",
@@ -55,6 +56,9 @@
 	"coll-rename_chapter": "Introduceți noul nume al capitolului",
 	"coll-no_such_category": "Nu există o asemenea categorie",
 	"coll-notitle_title": "Titlul paginii nu a putut fi determinat",
+	"coll-notitle_msg": "Titlul paginii nu a putut fi determinat.",
+	"coll-request_failed_title": "Generarea cărții a eșuat",
+	"coll-request_failed_msg": "A apărut o eroare la generarea cărții dvs.",
 	"coll-error_reponse": "Mesaj de eroare de la server",
 	"coll-empty_collection": "Carte fără conținut",
 	"coll-revision": "Versiune: $1",
@@ -85,8 +89,11 @@
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informații despre generarea colecțiilor",
 	"coll-rendering_finished_title": "Generare finalizată",
 	"coll-rendering_finished_text": "<strong>Fișierul documentului a fost generat.</strong>\n<strong>[$1 Descărcați-l]</strong> în calculatorul dumneavoastră.",
+	"coll-rendering_finished_notes_heading": "Note:",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informații despre generarea paginilor",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informații despre generarea colecțiilor",
+	"coll-rendering_failed_title": "Generare eșuată",
+	"coll-rendering_failed_status": "<strong>Stare:</strong> $1",
 	"coll-notfound_title": "Cartea nu a fost găsită",
 	"coll-notfound_text": "Pagina cărții nu a putut fi găsită.",
 	"coll-download_notfound_title": "Fișierul nu a putut fi găsit",
@@ -163,7 +170,19 @@
 	"coll-make_suggestions": "Sugerează pagini",
 	"coll-make_suggestions_tooltip": "Afișează sugestii bazate pe conținutul cărții dumneavoastră",
 	"coll-suggest_empty": "fără conținut",
+	"coll-setting-papersize": "Mărimea hârtiei:",
+	"coll-setting-toc-auto": "Auto",
+	"coll-setting-toc-yes": "Da",
+	"coll-setting-toc-no": "Nu",
+	"coll-setting-columns": "Coloane:",
 	"coll-attribution-anons": "Anonim: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Sursă:</i> $2 <i>Contribuitori:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Sursă:</i> $2 <i>Licență:</i> $3 <i>Contribuitori:</i> $4 <i>Artist original:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Sursă:</i> $2 <i>Licență:</i> $3 <i>Contribuitori:</i> $4 <i>Artist original:</i> $5",
+	"coll-warning-learn-more": "Aflați mai mult",
+	"coll-contributors-title": "Contribuitori",
+	"coll-images-title": "Imagini",
+	"coll-images-source": "Sursă",
+	"coll-images-license": "Licență",
+	"coll-images-original-artist": "Artistul original",
+	"coll-license-title": "Licența conținutului"
 }

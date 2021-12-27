@@ -114,7 +114,7 @@
 	"coll-suggested_articles": "Virschléi",
 	"coll-suggest_reset_bans": "zrécksetzen",
 	"coll-suggest_reset_bans_tooltip": "Virschléi weisen déi virdrun ewechgeholl goufen",
-	"coll-suggest_add_selected": "Erausgesicht Säiten dobäisetzen",
+	"coll-suggest_add_selected": "Erausgesicht Säiten derbäisetzen",
 	"coll-suggest_ban_selected": "Erausgesicht Säiten ewechhuelen",
 	"coll-suggest_your_book": "Äert Buch",
 	"coll-suggest_show": "weisen",
@@ -147,10 +147,10 @@
 	"coll-book_creator_disable_tooltip": "Ophalen d'Buchfunktioun ze benotzen",
 	"coll-add_linked_article": "Déi verlinkt Wiki-Säit an Äert Buch derbäisetzen",
 	"coll-remove_linked_article": "Déi verlinkte Wiki-Säit aus dengem Buch eraushuelen",
-	"coll-add_category": "Dës Kategorie an Äert Buch dobäisetzen",
-	"coll-add_category_tooltip": "All Wiki-Säiten aus dëser Kategorie an Äert Buch dobäisetzen",
+	"coll-add_category": "Dës Kategorie an Äert Buch derbäisetzen",
+	"coll-add_category_tooltip": "All Wiki-Säiten aus dëser Kategorie an Äert Buch derbäisetzen",
 	"coll-add_this_page": "Dës Säit an Äert Buch dobäisetzen",
-	"coll-add_page_tooltip": "Déi aktuell Wiki-Säit an Äert Buch dobäisetzen",
+	"coll-add_page_tooltip": "Déi aktuell Wiki-Säit an Äert Buch derbäisetzen",
 	"coll-bookscategory": "Bicher",
 	"coll-clear_collection": "Buch eidel maachen",
 	"coll-clear_collection_confirm": "Wëllt Dir Äert Buch wierklech ganz läschen?",
@@ -182,7 +182,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>Quell:</i> $2 <i>Auteuren:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Quell:</i> $2 <i>Lizenz:</i> $3 <i>Auteuren:</i> $4 <i>Originalkënschtler:</i> $5",
 	"coll-warning-disable-pdf-title": "De Buchgenerateur gëtt verännert",
-	"coll-warning-disable-pdf-text": "Op Grond vu gréissere Problemer mat dem aktuelle System erlaabt d'Buchfunktioun et während kuerzer Zäit net e Buch als PDF ze späicheren. Mir schaffen doru fir eise System z'ersetzen an d'Späichere vu PDF'en mat der Buchfunktioun ze reaktivéieren.",
+	"coll-warning-disable-pdf-text": "Wéinst gréissere Probleemer mam aktuelle System erlaabt d'Buchfunktioun et wärend kuerzer Zäit net e Buch als PDF ze späicheren. Mir schaffen dru fir eise System z'ersetzen an d'Späichere vu PDF'en mat der Buchfunktioun ze reaktivéieren.",
 	"coll-warning-learn-more": "Fir méi ze wëssen",
 	"coll-notice-download-pdf-title": "Eenzel Säiten eroflueden",
 	"coll-notice-download-pdf-text": "Esoulaang wéi d'Generatioun vu PDF'en an der Buchfunktioun net disponibel ass (si gëtt zur Zäit ersat), kënnt Dir '''Als PDF eroflueden''' am säitleche Menü benotze fir eenzel Säiten als PDF ze generéieren.",
@@ -197,5 +197,5 @@
 	"coll-rendererror-pdf": "D'Erstelle vum PDF huet net funktionéiert: $1",
 	"coll-rendererror-fetch": "D'Ofruffe vu(n) $1 huet net funktionéiert: $2",
 	"coll-rendererror-fetch-wrapper": "Et gouf Feeler beim Versuch d'Inhalter vun der Säit ofzeruffen: $1",
-	"coll-rendererror-no-cache": "D'Donnéeë vum Buch goufen am Tëschespäicher (Cache) net fonnt. Dëst ass wahrscheinlech e Feeler an der Software."
+	"coll-rendererror-no-cache": "D'Donnéeë vum Buch goufen am Tëschespäicher (Cache) net fonnt. Dëst ass warscheinlech e Feeler an der Software."
 }

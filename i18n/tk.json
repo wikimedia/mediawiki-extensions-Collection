@@ -144,5 +144,6 @@
 	"coll-not_addable": "Bu sahypany goşup bolmaýar",
 	"coll-make_suggestions": "Sahypa teklip et",
 	"coll-make_suggestions_tooltip": "Kitabyňyzdaky sahypalar esasynda teklip görkez",
-	"coll-suggest_empty": "boş"
+	"coll-suggest_empty": "boş",
+	"coll-attribution-anons": "Anonim: $1"
 }

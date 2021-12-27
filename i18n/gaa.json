@@ -3,7 +3,8 @@
 		"authors": [
 			"Flixtey",
 			"Mybluberet",
-			"Zimosa"
+			"Zimosa",
+			"Amire80"
 		]
 	},
 	"coll-remove": "Jiemɔ",
@@ -27,5 +28,6 @@
 	"coll-make_suggestions": "Tsii baafai ta",
 	"coll-make_suggestions_tooltip": "Tsɔɔmɔ taitsii ni jɛ owolo baafai lɛ",
 	"coll-attribution-anons": "Aleee :$1",
-	"coll-article-attribution": "<b>$1</b> <i>he ni ejɛ:</i> $2 <i>Fatalɔi:</i> $3"
+	"coll-article-attribution": "<b>$1</b> <i>he ni ejɛ:</i> $2 <i>Fatalɔi:</i> $3",
+	"coll-images-title": "Mfonirii"
 }
