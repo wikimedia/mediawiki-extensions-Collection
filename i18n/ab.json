@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
+			"Fraxinus.cs",
 			"Pupsik-ipa"
 		]
 	},
-	"coll-rename": "Ахьӡ аԥсахра"
+	"coll-rename": "Ахьӡ аԥсахра",
+	"coll-print_export": "Акьыԥхь/аекспорт",
+	"coll-download_as": "$1ла ихҩылаатәуп"
 }
