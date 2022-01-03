@@ -8,7 +8,7 @@
 			"Nafadji Mory Diané"
 		]
 	},
-	"coll-desc": "[[Special:Book|Create books]]",
+	"coll-desc": "[[special:book|ߞߊ߬ߝߊ ߟߎ߬ ߛߌ߲ߘߌ߫]]",
 	"coll-book_creator_intro": "<big>''ߞߊ߬ߝߊ ߛߌ߲ߘߌߟߊ߲ ߠߊ߫''߸ ߌ ߘߌ߫ ߛߋ߫ ߞߊ߬ߝߊ ߛߌ߲ߘߌ߫ ߟߴߌ ߟߊ߫ ߥߞߌ߫ ߞߐߜߍ߫ ߛߎߥߊ߲ߘߌߣߍ߲ ߘߐ߫. ߌ ߘߌ߫ ߛߋ߫ ߞߊ߬ߝߊ ߟߊߝߏߦߌ߬ ߟߊ߫ ߖߙߎߡߎ߲ ߓߐߣߍ߲ߢߐ߲߰ߡߊ ߟߎ߬ ߘߐ߫ (ߟߊߒߡߊ߫ ߘߐ߫ PDF ߣߌ߫ ODF) ߤߊߡߊ߲ߕߍ߫ ߞߊ߬ ߓߊ߫ ߜߌ߬ߙߌ߲߬ߘߌ߬ߣߍ߲ ߘߏ߫ ߡߊߞߟߌ߫</big>",
 	"coll-manage_your_book": "ߌ ߟߊ߫ ߞߊ߬ߝߊ ߘߊߘߐߓߍ߲߬",
 	"coll-start_book_creator": "ߞߊ߬ߝߊ ߛߌ߲ߘߌߟߊ߲ ߘߊߡߌ߬ߣߊ߬",
@@ -35,6 +35,7 @@
 	"coll-move_to_top": "ߌ ߡߊߦߟߍ߬",
 	"coll-move_up": "ߌ ߡߊߦߟߍ߬",
 	"coll-move_down": "ߌ ߡߊߖߌ߰",
+	"coll-move_to_bottom": "ߊ߬ ߓߍ߯ ߟߊߦߌ߬ߙߌ߲߬ߘߌ߫ ߘߎ߰ߟߊ߫",
 	"coll-title": "ߞߎ߲߬ߕߐ߮:",
 	"coll-subtitle": "ߞߎ߲߬ߕߐ߰ߟߋ߲:",
 	"coll-contents": "ߞߣߐߘߐ ߟߎ߬",
@@ -138,6 +139,7 @@
 	"coll-attribution-anons": "ߕߐ߯ߟߐ߲ߓߊߟߌ: $1",
 	"coll-article-attribution": "<b>$1</b><i>ߛߎ߲</i>$2<i>ߓߟߏߓߌߟߊߢߐ߲߯ߞߊ߲ߠߊ</i>$3",
 	"coll-image-attribution": "<b>$1</b><i>ߛߎ߲</i>$2<i>ߘߌ߬ߢߍ</i>$3<i>ߓߟߏߓߌߟߊߢߐ߲߯ߞߊ߲ߠߊ:</i>$4<i>ߓߐߛߎ߲ߡߊ ߞߎ߬ߛߊ߲:</i>$5",
+	"coll-warning-disable-pdf-title": "ߞߝߊ߬ ߛߓߍ߬ߟߊ߲ ߡߊߝߊ߬ߟߋ߲߬ߠߌ߲ ߦߋ߫ ߛߋ߲߬ߠߊ߫",
 	"coll-warning-learn-more": "ߘߏߜߘߍ߫ ߟߎ߫ ߘߐߞߊ߬ߙߊ߲߬",
 	"coll-notice-download-pdf-title": "ߞߐߜߍ߫ ߜߋ߲߬ߞߋߟߋ߲ ߠߎ߬ ߟߊߖߌ߰ ߌ ߞߎ߲߬",
 	"coll-toc-title": "ߞߣߐߘߐ ߟߎ߬ ߥߟߊ߬ߟߋ߲",
