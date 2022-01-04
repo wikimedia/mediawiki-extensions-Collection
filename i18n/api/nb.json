@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"Jon Harald Søby"
+		]
+	},
+	"apihelp-collection+getcollection-example": "List opp sider som for tiden er i samlinga.",
+	"apihelp-collection+getcollection-summary": "API-modul for å liste opp de nåværende sidene i en samling",
+	"apihelp-collection+addarticle-example": "Legg til ei side i samlinga.",
+	"apihelp-collection+addarticle-summary": "API-modul for å legge til ei side i samlinga",
+	"apihelp-collection+settitles-example": "Sett samlingas tittel og undertittel",
+	"apihelp-collection+settitles-settings-example": "Sett samlingas tittel, undertittel og innstillinger",
+	"apihelp-collection+settitles-summary": "API-modul for å sette samlingas tittel, undertittel og innstillinger",
+	"coll-api-addarticle-article-not-added": "Siden ble ikke lagt til i samlingen. Sørg for at tittelen er i det angitte navnerommet eller sjekk om siden allerede er del av samlinga.",
+	"apihelp-collection+removearticle-example": "Fjern en side fra samlinga.",
+	"apihelp-collection+removearticle-summary": "API-modul for å fjerne en side fra samlinga",
+	"coll-api-removearticle-article-not-removed": "Siden ble ikke fjernet fra samlinga. Sørg for at tittelen er i det angitte navnerommet, eller sjekk at siden ikke er del av samlinga.",
+	"apihelp-collection+addcategory-example": "Legg til sider fra en gitt kategori til en brukers samling.",
+	"apihelp-collection+addcategory-summary": "API-modul for å legge til sider fra en gitt kategori til en brukers samling.",
+	"apihelp-collection+suggestarticleaction-example": "Legger til ei side i samlinga og forslagene",
+	"apihelp-collection+suggestarticleaction-summary": "API-modul for å samhandle med forslag"
+}
