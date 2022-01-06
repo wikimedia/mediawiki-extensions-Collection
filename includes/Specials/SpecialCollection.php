@@ -784,7 +784,6 @@ class SpecialCollection extends SpecialPage {
 				}
 			}
 		}
-		$db->freeResult( $res );
 		return $limitExceeded;
 	}
 
