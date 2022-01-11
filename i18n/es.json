@@ -88,7 +88,7 @@
 	"coll-append": "Anexar",
 	"coll-cancel": "Cancelar",
 	"coll-update": "Actualizar",
-	"coll-limit_exceeded_title": "libro demasiado grande",
+	"coll-limit_exceeded_title": "Libro demasiado grande",
 	"coll-limit_exceeded_text": "Tu libro es demasiado grande.\nNo se pueden añadir más páginas.",
 	"coll-rendering_title": "Representación",
 	"coll-rendering_text": "<p><strong>Espera un momento mientras se genera el documento.</strong></p>\n\n<p><strong>Progreso:</strong> <span id=\"renderingProgress\">$1</span> % <span id=\"renderingStatus\">$2</span></p>\n\n<p>Esta página se actualiza cada pocos segundos.\nSi no es así, pulsa en el botón «Actualizar» del navegador.</p>",
