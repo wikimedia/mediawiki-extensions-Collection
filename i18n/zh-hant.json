@@ -21,7 +21,8 @@
 			"Wmr89502270",
 			"Wong128hk",
 			"Xiaomingyan",
-			"Zhxy 519"
+			"Zhxy 519",
+			"Ericliu1912"
 		]
 	},
 	"coll-desc": "[[Special:Book|建立書籍]]",
@@ -49,7 +50,7 @@
 	"coll-format_label": "格式：",
 	"coll-remove": "移除",
 	"coll-show": "顯示",
-	"coll-move_to_top": "移至最頂端",
+	"coll-move_to_top": "移至頂端",
 	"coll-move_up": "向上移動",
 	"coll-move_down": "向下移動",
 	"coll-move_to_bottom": "移至底端",
