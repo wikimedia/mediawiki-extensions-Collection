@@ -15,7 +15,7 @@
 			"Обрадовић Горан"
 		]
 	},
-	"coll-desc": "[[Special:Book|Писац књига]]",
+	"coll-desc": "[[Special:Book|Креирање књига]]",
 	"coll-book_creator_intro": "<big>Са ''писцем књига'' можете направити књигу која садржи жељене странице са викије. Њу можете сачувати у различитим форматима (нпр. PDF или ODF) или је наручити у штампаном издању.</big>",
 	"coll-manage_your_book": "Управљање књигама",
 	"coll-book_creator_help": "Погледајте [[{{MediaWiki:Coll-helppage}}|страницу за помоћ о књигама]] за више информација.",
@@ -161,7 +161,7 @@
 	"coll-setting-toc-auto": "Аутоматски",
 	"coll-setting-toc-yes": "Да",
 	"coll-setting-toc-no": "Не",
-	"coll-setting-columns": "Колона:",
+	"coll-setting-columns": "Колоне:",
 	"coll-attribution-anons": "Анонимно: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Извор:</i> $2 <i>Доприносиоци:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Извор:</i> $2 <i>Лиценца:</i> $3 <i>Доприносиоци:</i> $4 <i>Првобитни уметник:</i> $5",
