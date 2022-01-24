@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Can"
+		]
+	},
+	"apihelp-collection+addarticle-example": "Koleksiyona bir sayfa ekle.",
+	"apihelp-collection+removearticle-example": "Bir sayfayı koleksiyondan kaldır.",
+	"apihelp-collection+clearcollection-example": "Koleksiyon ve önerileri temizler",
+	"apihelp-collection+sortitems-example": "Koleksiyon sayfalarını alfabetik olarak sırala",
+	"coll-api-invalid-collection": "Geçersiz koleksiyon alındı."
+}
