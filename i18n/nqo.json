@@ -98,6 +98,7 @@
 	"coll-load_local_book": " \"OK\" ߛߐ߲߬ߞߌ߫ ߞߵߌ ߟߊ߫ ߞߊ߬ߝߊ $1 ߘߊߓߊ߲߫ ߡߍ߲ ߠߎ߬ ߦߋ߫ $2 ߥߞߌ {{PLURAL:|ߞߐߜߍ $2|ߞߐߜߍ ߟߎ߬}} ߘߐ߫. \"Cancel\" ߕߐߘߐ߲߫ ߞߵߊ߬ ߖߏ߬ߛߌ߬ ߊ߬ ߣߌ߫ ߞߵߊ߬ ߘߊߡߌ߬ߣߊ߬ ߞߝߊ߬ ߘߐߞߏߟߏ߲ ߘߌ߫.",
 	"coll-format-rl": "ߢ-ߞߊ߬ߝߊ (ߡߊߛߐߟߊ߲ PDF, mwlib)",
 	"coll-format-epub": "ߢ-ߞߊ߬ߝߊ (EPUB)",
+	"coll-format-zim": "ߞߥߌߞߛ (OpenZIM)",
 	"coll-format-docbook": "ߘߐ߬ߛߙߋ߬ ߞߝߊ",
 	"coll-format-okawix_zeno": "ߏߞߊߥߌߞߛ",
 	"coll-format-rdf2latex": "ߢ-ߞߊ߬ߝߊ (ߞߐߦߌߘߊߓߊ߮ PDF, mwlib)",
