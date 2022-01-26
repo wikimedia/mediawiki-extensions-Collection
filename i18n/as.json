@@ -5,6 +5,7 @@
 			"Gitartha.bordoloi",
 			"IKHazarika",
 			"Macofe",
+			"Paradox",
 			"Simbu123"
 		]
 	},
@@ -118,7 +119,7 @@
 	"coll-create_a_book": "কিতাপ সৃষ্টি কৰক",
 	"coll-create_a_book_tooltip": "পৃষ্ঠাৰ সংকলন বা কিতাপ তৈয়াৰ কৰক",
 	"coll-book_creator": "কিতাপ প্ৰস্তুতকৰ্তা",
-	"coll-download_as": "$1 ডাউনল’ড",
+	"coll-download_as": "PDF ৰূপে ডাউনল’ড কৰক",
 	"coll-download_as_tooltip": "এই ৱিকি পৃষ্ঠাৰ এটা $1 সংস্কৰণ ডাউনল'ড কৰক",
 	"coll-disable": "নিষ্ক্ৰিয়",
 	"coll-book_creator_disable": "গ্ৰন্থ প্ৰস্তুতকাৰক নিষ্ক্ৰিয় কৰক",
