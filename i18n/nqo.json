@@ -110,6 +110,7 @@
 	"coll-create_a_book": "ߞߊ߬ߝߊ ߘߏ߫ ߛߌ߲ߘߌ߫",
 	"coll-book_creator": "ߞߝߊ߬ ߛߓߍ߬ߟߊ߲",
 	"coll-download_as": "ߊ߬ ߟߊߖߌ߰ ߌ ߞߎ߲߬ $1 ߘߌ߫",
+	"coll-download_as_tooltip": "ߥߞߌ߫ ߞߐߜߍ ߣߌ߲߬ ߦߌߟߡߊ $1 ߘߏ߫ ߟߊߖߴߌ ߞߎ߲߬",
 	"coll-disable": "ߊ߬ ߓߟߏߞߊ߬",
 	"coll-book_creator_disable": "ߞߝߊ߬ ߟߊ߬ߘߊ߲߬ߟߊ߲ ߠߊߟߐ߬",
 	"coll-book_creator_disable_tooltip": "ߞߝߊ߬ ߟߊ߬ߘߊ߲߬ߟߊ߲ ߟߊߓߊ߯ߙߊ ߟߊߟߐ߬",

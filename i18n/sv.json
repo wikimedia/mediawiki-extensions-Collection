@@ -155,7 +155,7 @@
 	"coll-create_a_book": "Skapa en bok",
 	"coll-create_a_book_tooltip": "Skapa en bok eller sidsamling",
 	"coll-book_creator": "Bokskapare",
-	"coll-download_as": "Ladda ner som $1",
+	"coll-download_as": "Ladda ned som $1",
 	"coll-download_as_tooltip": "Ladda ner den här wikisidan i $1-format",
 	"coll-disable": "inaktivera",
 	"coll-book_creator_disable": "Inaktivera bokskaparen",
