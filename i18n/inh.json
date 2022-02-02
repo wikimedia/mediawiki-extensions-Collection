@@ -36,12 +36,12 @@
 	"coll-load_collection": "Дешарг хьаделла",
 	"coll-n_pages": "$1 {{PLURAL:$1|оагӀув}}",
 	"coll-remove_this_page": "Ер оагӀув хьай дешарга тӀара дӀаяккха",
-	"coll-show_collection": "Хьахьокха дешарг",
-	"coll-show_collection_tooltip": "ТIатоIае укхаза дешарг хувцаргдолаш/хьачудоаккхаргдолаш/эцаргдолаш",
-	"coll-make_suggestions": "Éша аьнна оттаяь оагIонаш",
-	"coll-make_suggestions_tooltip": "Хьа дешарга чура оагIонаш тIа кIийле йола предложенеш хьахьокха",
+	"coll-show_collection": "Дешарг хьагойта",
+	"coll-show_collection_tooltip": "ТоӀае, дешарг хувцаргдолаш/хьачудоаккхаргдолаш/заказ дергдолаш",
+	"coll-make_suggestions": "Эшаш хила мега оагӀонаш",
+	"coll-make_suggestions_tooltip": "Хьа дешарга тӀарча оагӀонашта тара а йола хьона эшаш хила мега оагӀонаш хьагойта",
 	"coll-suggest_empty": "яьсса",
 	"coll-attribution-anons": "Аноним: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Хьаст:</i> $2 <i>Автораш:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Хьаст:</i> $2 <i>Лицензи:</i> $3 <i>Автораш:</i> $4 <i>Художник:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Хьаст:</i> $2 <i>Лицензи:</i> $3 <i>Соавтораш:</i> $4 <i>Кхоачашдаьр:</i> $5"
 }
