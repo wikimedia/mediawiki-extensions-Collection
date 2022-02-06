@@ -111,7 +111,7 @@
 			params;
 
 		if ( name ) {
-			name = name.substring( 0, chapter_max_len );
+			name = name.slice( 0, Math.max( 0, chapter_max_len ) );
 			params = {
 				action: 'collection',
 				submodule: 'addchapter',
@@ -140,7 +140,7 @@
 			params;
 
 		if ( new_name ) {
-			new_name = new_name.substring( 0, chapter_max_len );
+			new_name = new_name.slice( 0, Math.max( 0, chapter_max_len ) );
 			params = {
 				action: 'collection',
 				submodule: 'renamechapter',
