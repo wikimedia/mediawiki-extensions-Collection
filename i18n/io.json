@@ -38,6 +38,7 @@
 	"coll-limit_exceeded_text": "Vua libro esas tro granda.\nOn ne povas adjuntar plusa pagini.",
 	"coll-rendering_status": "<strong>Stando:</strong> $1",
 	"coll-rendering_page": "(pagino: $1)",
+	"coll-rendering_finished_text": "<strong>L'arkivo di dokumento kreesis.</strong>\n<strong>[$1 Descharjez l'arkivo]</strong> a vua komputoro*.",
 	"coll-rendering_finished_notes_heading": "Notiː",
 	"coll-rendering_finished_note_article_rdf2latex": "Nun, kelka dokumenti ne havas tabeli. Alternative, on povas uzar $1, selektar \"Print\" en la menuo dil retnavigilo, ed uzar l'opciono \"Save as PDF\".",
 	"coll-download_notfound_title": "Arkivo ne trovesis",
