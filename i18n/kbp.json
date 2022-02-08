@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Gnangbade"
+			"Gnangbade",
+			"Amire80"
 		]
 	},
 	"coll-remove": "Lɩzɩ",
@@ -20,7 +21,7 @@
 	"coll-help": "Sɩnaʋ",
 	"coll-help_tooltip": "Taaɖɩ sɩnaʋ takayɩsɩ kɩkalasɩ lɩzʋʋ yɔɔ",
 	"coll-helppage": "Sɩnaʋ:takayɛsɩ kɩkalasɩ",
-	"coll-n_pages": "$1 takayɩhayʋ{{PLURAL:$1||takayɩhatʋ}}",
+	"coll-n_pages": "$1 {{PLURAL:$1|takayɩhayʋ|takayɩhatʋ}}",
 	"coll-remove_this_page": "Lɩzɩ takayɩhayʋʋ kʋnɛ ña-takayaɣ taa",
 	"coll-show_collection": "Taaɖɩ takayaɣ kɩkalasɩ",
 	"coll-show_collection_tooltip": "Tukina nɛ ŋñɔɔzɩ / ŋmʋ poliŋ taa / ŋpazɩ ña-takayaɣ kɩkalaɣ",
