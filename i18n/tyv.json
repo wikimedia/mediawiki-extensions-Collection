@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Agilight",
+			"Riverman",
 			"Монгуш Салим"
 		]
 	},
@@ -27,7 +28,7 @@
 	"coll-format-zim": "Kiwix (OpenZIM)",
 	"coll-format-docbook": "DocBook",
 	"coll-format-okawix_zeno": "Okawix",
-	"coll-print_export": "Парлаар/үндүр чорудар",
+	"coll-print_export": "Парлаар/экспорттаар",
 	"coll-create_a_book": "Ном кылыр",
 	"coll-book_creator": "Ном кылыры",
 	"coll-download_as": "$1 кылдыр киир чүдүрер",
