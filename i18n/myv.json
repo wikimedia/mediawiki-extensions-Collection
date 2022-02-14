@@ -32,7 +32,7 @@
 	"coll-print_export": "Конёв лангс нолдамс/ливтемс",
 	"coll-create_a_book": "Шкамс книга",
 	"coll-book_creator": "Кинигань шкиця",
-	"coll-download_as": "Таргамс тень $1 формасо",
+	"coll-download_as": "Таргамс $1 формасо",
 	"coll-disable": "лоткавтомс",
 	"coll-book_creator_disable": "Лоткавтомс кинингань шкамканть",
 	"coll-book_creator_disable_tooltip": "Лоткамс кинигань шкамканть тевс нолдамодо",
@@ -51,5 +51,5 @@
 	"coll-make_suggestions_tooltip": "Максомс ваномс лопат тень коряс, мезе уш кинигасот",
 	"coll-suggest_empty": "чаво",
 	"coll-attribution-anons": "Лемтеме: $1",
-	"coll-rendererror-no-cache": "Кинигадата а муеви кекшема таркасто. Те паряк программакерькссэ сийне."
+	"coll-rendererror-no-cache": "Кинигадата а муеви кекшема таркасто. Те паряк программакерькссэ ильведевкске."
 }
