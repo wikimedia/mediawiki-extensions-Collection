@@ -3,7 +3,8 @@
 		"authors": [
 			"Trondtr",
 			"Muotâ",
-			"Yupik"
+			"Yupik",
+			"Seipinne"
 		]
 	},
 	"coll-collection": "Kirje",
@@ -20,7 +21,7 @@
 	"coll-suggest_your_book": "Tuu kirje",
 	"coll-suggest_show": "čääiti",
 	"coll-format-epub": "digikirje (EPUB)",
-	"coll-print_export": "Printtii teikâ tuálvu",
+	"coll-print_export": "Printtii/tuálvu",
 	"coll-create_a_book": "Räähti kirje",
 	"coll-book_creator": "Kirje huksimsaje",
 	"coll-download_as": "Luođii $1-tiätuvuárkkán",

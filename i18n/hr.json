@@ -186,7 +186,7 @@
 	"coll-attribution-page": "<h1>Izvori teksta i slika, doprinosi i licencije</h1>\n<h2>Tekst</h2>\n$1<h2>Slike</h2>\n$2\n<h2>Licencije sadržaja</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Izvor:</i> $2 <i>Suradnici:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Vrelo:</i> $2 <i>Licencija:</i> $3 <i>Prinositelji:</i> $4 <i>Originalni umjetnik:</i> $5",
-	"coll-warning-disable-pdf-title": "Stvaralac knjiga u postupku je promjena",
+	"coll-warning-disable-pdf-title": "Alat za stvaranje knjiga u postupku je promjena",
 	"coll-warning-disable-pdf-text": "Poradi ozbiljnih poteškoća s postojećim našim sustavom, alat za stvaranje knjige (Book Creator) neće više podržavati spremanje knjige u formatu PDF.",
 	"coll-warning-learn-more": "Više o tome",
 	"coll-notice-download-pdf-title": "Preuzimanje pojedinačnih stranicā",
