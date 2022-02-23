@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Brazal.dang",
+			"Daramlagon",
 			"Geopoet",
 			"Macofe",
 			"ShimunUfesoj"
@@ -117,7 +118,7 @@
 	"coll-create_a_book": "Magmukna nin sarong libro",
 	"coll-create_a_book_tooltip": "Magmukna nin sarong libro o koleksyon nin pahina",
 	"coll-book_creator": "Paramukna nin libro",
-	"coll-download_as": "Ikarga bilang $1",
+	"coll-download_as": "I-download bilang $1",
 	"coll-download_as_tooltip": "Magkarga nin sarong $1 na bersyon kaining pahina nin wiki",
 	"coll-disable": "pauntukon",
 	"coll-book_creator_disable": "Pauntukon an paramukna nin libro",
