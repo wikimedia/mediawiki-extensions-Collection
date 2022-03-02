@@ -4,10 +4,11 @@
 			"Akapochtli",
 			"Fluence",
 			"Taresi",
-			"Teòtlalili"
+			"Teòtlalili",
+			"Languaeditor"
 		]
 	},
-	"coll-download": "Tocontemoz",
+	"coll-download": "Xiktemowi",
 	"coll-remove": "Ticquixtiz",
 	"coll-show": "Monextiz",
 	"coll-move_up": "Tictlehcahuiz",
@@ -21,7 +22,7 @@
 	"coll-print_export": "Tepoztlahcuiloliztli/tlazazacaliztli",
 	"coll-create_a_book": "Ticchihuaz ce amoxtli",
 	"coll-book_creator": "Amoxchiuhqui",
-	"coll-download_as": "Tocontemoz iuhqui $1",
+	"coll-download_as": "Xiktemowi ken $1",
 	"coll-bookscategory": "Amoxtin",
 	"coll-help": "Tepalehuiliztli",
 	"coll-helppage": "Help:Amoxtli",

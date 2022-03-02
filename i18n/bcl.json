@@ -4,7 +4,8 @@
 			"Brazal.dang",
 			"Geopoet",
 			"Macofe",
-			"ShimunUfesoj"
+			"ShimunUfesoj",
+			"Daramlagon"
 		]
 	},
 	"coll-desc": "[[Special:Book|Magmukna nin mga libro]]",
@@ -113,11 +114,11 @@
 	"coll-format-okawix_zeno": "Okawix",
 	"right-collectionsaveasuserpage": "Itagama an mga libro bilang pahina nin paragamit",
 	"right-collectionsaveascommunitypage": "Itagama an mga libro bilang pahina nin komunidad",
-	"coll-print_export": "Imprintahon/Ipagpaluwas",
+	"coll-print_export": "I-print/i-export",
 	"coll-create_a_book": "Magmukna nin sarong libro",
 	"coll-create_a_book_tooltip": "Magmukna nin sarong libro o koleksyon nin pahina",
 	"coll-book_creator": "Paramukna nin libro",
-	"coll-download_as": "Ikarga bilang $1",
+	"coll-download_as": "I-download bilang $1",
 	"coll-download_as_tooltip": "Magkarga nin sarong $1 na bersyon kaining pahina nin wiki",
 	"coll-disable": "pauntukon",
 	"coll-book_creator_disable": "Pauntukon an paramukna nin libro",
