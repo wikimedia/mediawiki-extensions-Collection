@@ -92,7 +92,7 @@
 	"coll-rendering_text": "<p><strong>Veuillez patienter pendant la génération du document.</strong></p>\n\n<p><strong>Progression :</strong> <span id=\"renderingProgress\">$1</span> % <span id=\"renderingStatus\">$2</span></p>\n\n<p>Cette page devrait s’actualiser automatiquement par intervalles réguliers de quelques secondes.\nSi tel n’était pas le cas, veuillez cliquer le bouton « Actualiser cette page » de votre navigateur.</p>",
 	"coll-rendering_status": "<strong>État :</strong> $1",
 	"coll-rendering_article": "(page wiki : $1)",
-	"coll-rendering_page": "(page : $1)",
+	"coll-rendering_page": "(page : $1)",
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informations sur le rendu des pages",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informations sur le rendu des collections",
 	"coll-rendering_finished_title": "Rendu terminé",
