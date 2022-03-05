@@ -19,7 +19,7 @@
 	],
 	"SpecialPages": {
 		"Book": "SpecialCollection",
-		"RenderBook": "MediaWiki\\Extensions\\Collection\\Specials\\SpecialRenderBook"
+		"RenderBook": "MediaWiki\\Extension\\Collection\\Specials\\SpecialRenderBook"
 	},
 	"MessagesDirs": {
 		"Collection": [
@@ -50,11 +50,11 @@
 	},
 	"APIModules": {
 		"collection": {
-			"class": "MediaWiki\\Extensions\\Collection\\Api\\ApiCollection"
+			"class": "MediaWiki\\Extension\\Collection\\Api\\ApiCollection"
 		}
 	},
 	"AutoloadNamespaces": {
-		"MediaWiki\\Extensions\\Collection\\": "includes/"
+		"MediaWiki\\Extension\\Collection\\": "includes/"
 	},
 	"ResourceModules": {
 		"ext.collection": {

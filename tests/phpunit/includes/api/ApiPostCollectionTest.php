@@ -6,7 +6,7 @@
  * @group API
  * @group medium
  *
- * @covers \MediaWiki\Extensions\Collection\Api\ApiPostCollection
+ * @covers \MediaWiki\Extension\Collection\Api\ApiPostCollection
  */
 class ApiPostCollectionTest extends ApiTestCase {
 

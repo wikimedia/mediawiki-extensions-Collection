@@ -6,7 +6,7 @@
  * @group API
  * @group medium
  *
- * @covers \MediaWiki\Extensions\Collection\Api\ApiRenameChapter
+ * @covers \MediaWiki\Extension\Collection\Api\ApiRenameChapter
  */
 class ApiRenameChapterTest extends ApiTestCase {
 

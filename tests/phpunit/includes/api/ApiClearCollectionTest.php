@@ -8,7 +8,7 @@ use MediaWiki\Session\SessionManager;
  * @group API
  * @group medium
  *
- * @covers \MediaWiki\Extensions\Collection\Api\ApiClearCollection
+ * @covers \MediaWiki\Extension\Collection\Api\ApiClearCollection
  */
 class ApiClearCollectionTest extends ApiTestCase {
 

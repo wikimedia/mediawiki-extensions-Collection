@@ -1,6 +1,6 @@
 <?php
 
-namespace MediaWiki\Extensions\Collection;
+namespace MediaWiki\Extension\Collection;
 
 use LogicException;
 use MediaWikiIntegrationTestCase;
@@ -8,7 +8,7 @@ use Title;
 use VirtualRESTServiceClient;
 
 /**
- * @covers \MediaWiki\Extensions\Collection\DataProvider
+ * @covers \MediaWiki\Extension\Collection\DataProvider
  */
 class DataProviderTest extends MediaWikiIntegrationTestCase {
 

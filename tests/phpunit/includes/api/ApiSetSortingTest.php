@@ -6,7 +6,7 @@
  * @group API
  * @group medium
  *
- * @covers \MediaWiki\Extensions\Collection\Api\ApiAddArticle
+ * @covers \MediaWiki\Extension\Collection\Api\ApiAddArticle
  */
 class ApiSetSortingTest extends ApiTestCase {
 

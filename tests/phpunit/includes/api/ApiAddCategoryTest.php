@@ -7,7 +7,7 @@
  * @group Database
  * @group medium
  *
- * @covers \MediaWiki\Extensions\Collection\Api\ApiAddCategory
+ * @covers \MediaWiki\Extension\Collection\Api\ApiAddCategory
  */
 class ApiAddCategoryTest extends ApiTestCase {
 

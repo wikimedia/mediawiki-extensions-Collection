@@ -1,6 +1,6 @@
 <?php
 
-namespace MediaWiki\Extensions\Collection;
+namespace MediaWiki\Extension\Collection;
 
 use LogicException;
 use MediaWikiIntegrationTestCase;
@@ -8,7 +8,7 @@ use TemplateParser;
 use Title;
 
 /**
- * @covers \MediaWiki\Extensions\Collection\BookRenderer
+ * @covers \MediaWiki\Extension\Collection\BookRenderer
  */
 class BookRendererTest extends MediaWikiIntegrationTestCase {
 	private const TEMPLATE_DIR = '/../../../templates';

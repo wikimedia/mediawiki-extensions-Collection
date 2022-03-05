@@ -6,7 +6,7 @@
  * @group API
  * @group medium
  *
- * @covers \MediaWiki\Extensions\Collection\Api\ApiAddChapter
+ * @covers \MediaWiki\Extension\Collection\Api\ApiAddChapter
  */
 class ApiAddChapterTest extends ApiTestCase {
 

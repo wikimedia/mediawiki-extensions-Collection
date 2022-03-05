@@ -9,7 +9,7 @@ use MediaWiki\Session\SessionManager;
  * @group Database
  * @group medium
  *
- * @covers \MediaWiki\Extensions\Collection\Api\ApiSuggestArticleAction
+ * @covers \MediaWiki\Extension\Collection\Api\ApiSuggestArticleAction
  */
 class ApiSuggestArticleActionTest extends ApiTestCase {
 

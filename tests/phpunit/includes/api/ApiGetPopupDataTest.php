@@ -7,7 +7,7 @@
  * @group Database
  * @group medium
  *
- * @covers \MediaWiki\Extensions\Collection\Api\ApiGetPopupData
+ * @covers \MediaWiki\Extension\Collection\Api\ApiGetPopupData
  */
 class ApiGetPopupDataTest extends ApiTestCase {
 

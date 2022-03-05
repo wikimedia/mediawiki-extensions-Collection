@@ -7,7 +7,7 @@
  * @group Database
  * @group medium
  *
- * @covers \MediaWiki\Extensions\Collection\Api\ApiRemoveItem
+ * @covers \MediaWiki\Extension\Collection\Api\ApiRemoveItem
  */
 class ApiRemoveItemTest extends ApiTestCase {
 

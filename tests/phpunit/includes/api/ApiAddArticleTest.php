@@ -7,7 +7,7 @@
  * @group Database
  * @group medium
  *
- * @covers \MediaWiki\Extensions\Collection\Api\ApiAddArticle
+ * @covers \MediaWiki\Extension\Collection\Api\ApiAddArticle
  */
 class ApiAddArticleTest extends ApiTestCase {
 

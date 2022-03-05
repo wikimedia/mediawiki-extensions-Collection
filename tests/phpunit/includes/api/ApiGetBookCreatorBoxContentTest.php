@@ -7,7 +7,7 @@
  * @group Database
  * @group medium
  *
- * @covers \MediaWiki\Extensions\Collection\Api\ApiGetBookCreatorBoxContent
+ * @covers \MediaWiki\Extension\Collection\Api\ApiGetBookCreatorBoxContent
  */
 class ApiGetBookCreatorBoxContentTest extends ApiTestCase {
 

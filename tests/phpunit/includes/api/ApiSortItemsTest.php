@@ -7,7 +7,7 @@
  * @group Database
  * @group medium
  *
- * @covers \MediaWiki\Extensions\Collection\Api\ApiSortItems
+ * @covers \MediaWiki\Extension\Collection\Api\ApiSortItems
  */
 class ApiSortItemsTest extends ApiTestCase {
 

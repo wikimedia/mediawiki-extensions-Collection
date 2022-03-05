@@ -7,7 +7,7 @@
  * @group Database
  * @group medium
  *
- * @covers \MediaWiki\Extensions\Collection\Api\ApiRemoveArticle
+ * @covers \MediaWiki\Extension\Collection\Api\ApiRemoveArticle
  */
 class ApiRemoveArticleTest extends ApiTestCase {
 

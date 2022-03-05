@@ -19,7 +19,8 @@
  * 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301, USA.
  * http://www.gnu.org/copyleft/gpl.html
  */
-namespace MediaWiki\Extensions\Collection;
+
+namespace MediaWiki\Extension\Collection;
 
 use OutputPage;
 use TemplateParser;

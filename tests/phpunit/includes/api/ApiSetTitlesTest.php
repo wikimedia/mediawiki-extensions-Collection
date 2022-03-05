@@ -6,7 +6,7 @@
  * @group API
  * @group medium
  *
- * @covers \MediaWiki\Extensions\Collection\Api\ApiSetTitles
+ * @covers \MediaWiki\Extension\Collection\Api\ApiSetTitles
  */
 class ApiSetTitlesTest extends ApiTestCase {
 

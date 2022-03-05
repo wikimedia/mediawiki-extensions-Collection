@@ -1,12 +1,12 @@
 <?php
 
-namespace MediaWiki\Extensions\Collection;
+namespace MediaWiki\Extension\Collection;
 
 use LogicException;
 use MediaWikiCoversValidator;
 
 /**
- * @covers \MediaWiki\Extensions\Collection\HeadingCounter
+ * @covers \MediaWiki\Extension\Collection\HeadingCounter
  */
 class HeadingCounterTest extends \PHPUnit\Framework\TestCase {
 	use MediaWikiCoversValidator;

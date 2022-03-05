@@ -1,6 +1,6 @@
 <?php
 
-namespace MediaWiki\Extensions\Collection\Api;
+namespace MediaWiki\Extension\Collection\Api;
 
 use ApiBase;
 use ApiMain;

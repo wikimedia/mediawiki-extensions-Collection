@@ -9,7 +9,7 @@ use MediaWiki\Session\SessionManager;
  * @group Database
  * @group medium
  *
- * @covers \MediaWiki\Extensions\Collection\Api\ApiSuggestUndoArticleAction
+ * @covers \MediaWiki\Extension\Collection\Api\ApiSuggestUndoArticleAction
  */
 class ApiSuggestUndoArticleActionTest extends ApiTestCase {
 

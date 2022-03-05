@@ -8,7 +8,7 @@ use MediaWiki\Session\SessionManager;
  * @group API
  * @group medium
  *
- * @covers \MediaWiki\Extensions\Collection\Api\ApiGetCollection
+ * @covers \MediaWiki\Extension\Collection\Api\ApiGetCollection
  */
 class ApiGetCollectionTest extends ApiTestCase {
 	public function testApiGetCollection() {
