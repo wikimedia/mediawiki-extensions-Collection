@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Arash71",
+			"Beginneruser",
 			"Hosseinblue",
 			"Lakzon",
 			"Macofe"
@@ -80,7 +81,7 @@
 	"coll-rendering_failed_text": "<strong>ایجاد پوشهٔ سند ناموفق بوده‌است.</strong>\n<p><span id=\"renderingStatus\">$1</span></p>",
 	"coll-rendering_failed_status": "<strong>وضعیت:</strong> $1",
 	"coll-failed_page_info_text_article": "{{MediaWiki:Coll-helppage}}/ تحویل متن اطلاعات صفحه",
-	"coll-failed_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/ تحویل متن اطلاعات مجموعه",
+	"coll-failed_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/تحویل متن اطلاعات مجموعه",
 	"coll-notfound_title": "کتاب پیدا نشد",
 	"coll-notfound_text": "صفحهٔ کتاب پیدا نشد.",
 	"coll-download_notfound_title": "پرونده یافت نشد",
