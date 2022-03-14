@@ -17,7 +17,8 @@
 			"ديفيد",
 			"زكريا",
 			"فلورانس",
-			"محمدالداودي"
+			"محمدالداودي",
+			"FiberAhmed"
 		]
 	},
 	"coll-desc": "[[Special:Book|ينشيء كتبا]]",
@@ -55,7 +56,7 @@
 	"coll-contents": "محتويات",
 	"coll-drag_and_drop": "استخدم السحب والإلقاء لطلب صفحات وفصول ويكي",
 	"coll-create_chapter": "إنشاء الفصل",
-	"coll-sort_alphabetically": "رتب أبجديا",
+	"coll-sort_alphabetically": "رتب أبجديًا",
 	"coll-rename": "إعادة تسمية",
 	"coll-new_chapter": "أدخل الاسم للفرع الجديد",
 	"coll-rename_chapter": "أدخل الاسم الجديد للفرع",
@@ -93,7 +94,7 @@
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/تصيير نص معلومات صفحة",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/تصيير نص معلومات مجموعة",
 	"coll-rendering_finished_title": "العرض انتهى",
-	"coll-rendering_finished_text": "<strong>ملف الوثيقة تم توليده.</strong>\n<strong>[$1 نزل الملف]</strong> إلى حاسوبك.",
+	"coll-rendering_finished_text": "<strong>ملف الوثيقة تم توليده.</strong>\n<strong>[$1 نزّل الملف]</strong> إلى حاسوبك.",
 	"coll-rendering_finished_notes_heading": "ملاحظات:",
 	"coll-rendering_finished_note_not_satisfied": "غير راضي عن الخرج؟ انظر [[{{MediaWiki:Coll-helppage}}|صفحة المساعدة حول الكتب]] للاحتمالات لتحسينه.",
 	"coll-rendering_finished_note_article_rdf2latex": "حاليا بعض الوثائق لا تحتوي على جداول. كبديل من الممكن استخدام $1، اختر \"Print\" في قائمة المتصفح، واستخدم خيار \"Save as PDF\".",
@@ -208,7 +209,7 @@
 	"coll-images-original-artist": "الفنان الأصلي",
 	"coll-license-title": "رخصة المحتوى",
 	"coll-rendererror-title": "لم يمكن توليد الكتاب",
-	"coll-rendererror-no-session": "تعريف الكتاب غير موجود في الجلسة. ربما يكون قد تم التغاضي عنه نظرا لعدم النشاط.",
+	"coll-rendererror-no-session": "تعريف الكتاب غير موجود في الجلسة. ربما يكون قد تم التغاضي عنه نظرًا لعدم النشاط.",
 	"coll-rendererror-pdf": "عرض الPDF فشل: $1",
 	"coll-rendererror-fetch": "جلب $1 فشل: $2",
 	"coll-rendererror-fetch-wrapper": "حدثت أخطاء أثناء محاولة جلب محتويات الصفحة:\n$1",
