@@ -18,7 +18,8 @@
 			"Syreeni",
 			"Tarmo",
 			"Zache",
-			"Veikk0.ma"
+			"Veikk0.ma",
+			"Markus Mikkonen"
 		]
 	},
 	"coll-desc": "[[Special:Book|Laadi kirjoja]].",
@@ -52,7 +53,7 @@
 	"coll-move_down": "Siirrä alas",
 	"coll-move_to_bottom": "Siirrä loppuun",
 	"coll-title": "Otsikko",
-	"coll-subtitle": "Alaotsikko",
+	"coll-subtitle": "Alaotsikko:",
 	"coll-contents": "Sisältö",
 	"coll-drag_and_drop": "Raahaa wikisivut ja luvut haluamaasi järjestykseen.",
 	"coll-create_chapter": "Luo luku",
