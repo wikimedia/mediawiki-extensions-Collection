@@ -127,7 +127,7 @@
 	"coll-create_a_book": "Búa til bók",
 	"coll-create_a_book_tooltip": "Stofna bók eða greinasafn",
 	"coll-book_creator": "Bókaviðmót",
-	"coll-download_as": "Sækja $1-skrá",
+	"coll-download_as": "Sækja sem $1",
 	"coll-download_as_tooltip": "Sækja $1-útgáfu þessarar síðu",
 	"coll-disable": "afvirkja",
 	"coll-book_creator_disable": "Afvirkja bókaviðmótið",
