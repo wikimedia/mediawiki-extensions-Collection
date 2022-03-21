@@ -3,7 +3,8 @@
 		"authors": [
 			"Fagunkoyel Hansdah",
 			"Manik Soren",
-			"Ramjit Tudu"
+			"Ramjit Tudu",
+			"Rocky 734"
 		]
 	},
 	"coll-collection": "ᱯᱚᱛᱚᱵ",
@@ -49,7 +50,7 @@
 	"coll-create_a_book": "ᱢᱤᱫᱴᱮᱱ ᱯᱚᱛᱚᱵ ᱛᱮᱭᱟᱨᱢᱮ",
 	"coll-create_a_book_tooltip": "ᱢᱤᱫᱽᱴᱮᱱ ᱯᱚᱛᱚᱵ ᱵᱟᱝᱠᱷᱟᱱ ᱥᱟᱦᱴᱟ ᱛᱮᱭᱟᱨ ᱢᱮ",
 	"coll-book_creator": "ᱯᱚᱛᱚᱵ ᱥᱤᱨᱡᱚᱱᱤᱪ",
-	"coll-download_as": "$1 ᱦᱤᱥᱟᱹᱵᱛᱮ ᱟᱹᱛᱩᱨ ᱟᱬᱜᱚᱭᱢᱮ",
+	"coll-download_as": "$1 ᱞᱮᱠᱷᱟ ᱟᱹᱛᱩᱨ ᱟᱬᱜᱚᱭᱢᱮ",
 	"coll-disable": "ᱛᱷᱤᱨ",
 	"coll-book_creator_disable": "ᱯᱚᱛᱚᱵ ᱵᱮᱱᱟᱣᱤᱡ ᱛᱷᱤᱨᱤᱢᱮ",
 	"coll-book_creator_disable_tooltip": "ᱯᱚᱛᱚᱵ ᱵᱮᱱᱟᱣ ᱵᱮᱵᱦᱟᱨ ᱵᱚᱱᱫᱷᱢᱮ",
