@@ -30,7 +30,8 @@
 			"Wmr89502270",
 			"គីមស៊្រុន",
 			"Geraki",
-			"McDutchie"
+			"McDutchie",
+			"Urhixidur"
 		]
 	},
 	"coll-desc": "{{desc|name=Collection|url=https://www.mediawiki.org/wiki/Extension:Collection}}",
@@ -65,7 +66,7 @@
 	"coll-move_to_bottom": "{{Identical|Move to bottom}}",
 	"coll-title": "{{Identical|Title}}",
 	"coll-subtitle": "{{Identical|Subtitle}}",
-	"coll-contents": "{{Identical|Content}}",
+	"coll-contents": "\"Contents\" as in \"what's in a container\" or as \"list of subjects\"?\n{{Identical|Content}}",
 	"coll-drag_and_drop": "If there are no items, {{msg-mw|Coll-empty collection}} is used instead.",
 	"coll-create_chapter": "Used as action link text.",
 	"coll-sort_alphabetically": "Used as link text.\n\nPreceded by {{msg-mw|Coll-create chapter}}.\n\nFollowed by {{msg-mw|Coll-clear collection}}.\n{{Identical|Sort alphabetically}}",
