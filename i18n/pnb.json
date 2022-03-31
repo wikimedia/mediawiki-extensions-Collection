@@ -14,7 +14,7 @@
 	"coll-print_export": "چھاپو/اگے بھیجو",
 	"coll-create_a_book": "کتاب بناؤ",
 	"coll-book_creator": "کتاب بنانوالا",
-	"coll-download_as": "ڈاؤنلوڈ بشکل پی ڈی ایف $1",
+	"coll-download_as": "ڈاؤنلوڈ بشکل پی ڈی ایف {{lang|ur|$1}}",
 	"coll-disable": "انورتن جوگا",
 	"coll-book_creator_disable": "کتاب بنانا بند",
 	"coll-book_creator_disable_tooltip": "کتاب بنانوالا ورتنا بند کرو",
