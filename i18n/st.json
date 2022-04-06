@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Gustave London",
 			"Mapoza2"
 		]
@@ -8,5 +9,5 @@
 	"coll-collection": "Buka",
 	"coll-collections": "Libuka",
 	"coll-your_book": "Buka ea hao",
-	"coll-remove": "ho tlosa"
+	"coll-remove": "Ho tlosa"
 }
