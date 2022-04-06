@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"C933103"
+			"C933103",
+			"StarrySky"
 		]
 	},
-	"coll-show": "顯示"
+	"coll-show": "顯示",
+	"coll-print_export": "列印/匯出",
+	"coll-download_as": "下載為 $1"
 }
