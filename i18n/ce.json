@@ -129,9 +129,9 @@
 	"coll-article-attribution": "<b>$1</b> <i>Хьост:</i> $2 <i>Автораш:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Хьост:</i> $2 <i>Лицензеш:</i> $3 <i>Автораш:</i> $4 <i>Суьрташ дохкург:</i> $5",
 	"coll-warning-disable-pdf-title": "Жайнаш кхуллучуна хийцамаш хила",
-	"coll-warning-disable-pdf-text": "Book Creator системин халонаш йолуш, хӀинца PDF форматехь жайнаш Ӏалашдан цало. Оха далушдерг деш ду йуха а Book Creator чохь PDF-файлаш Ӏалашйан таро тоеш.",
+	"coll-warning-disable-pdf-text": "Book Creator системин халонаш йолуш, хӀинца PDF форматехь жайнаш Ӏалашдан цало. Оха далушдерг деш ду йуха а Book Creator чохь PDF-файлаш Ӏалашйан таро тайеш.",
 	"coll-warning-learn-more": "Цул совнаха хаа",
 	"coll-notice-download-pdf-title": "Схьаэца къаьстина агӀонаш",
-	"coll-notice-download-pdf-text": "PDF-рендер Book Creator гӀоьнца хийцанбина хиларна, хьан йиш йу '''''PDF санна схьаэца''''' функци лело, иза йу агӀорхьарчу панель тӀехь йешаран рожехь.",
+	"coll-notice-download-pdf-text": "PDF-рендер Book Creator гӀоьнца хийцамбина хиларна, хьан йиш йу '''''PDF санна схьаэца''''' функци лело, иза йу агӀорхьарчу панель тӀехь йешаран рожехь.",
 	"coll-images-source": "Хьост"
 }

@@ -2,11 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Gustave London",
-			"Mapoza2"
+			"Mapoza2",
+			"Amire80"
 		]
 	},
 	"coll-collection": "Buka",
 	"coll-collections": "Libuka",
 	"coll-your_book": "Buka ea hao",
-	"coll-remove": "ho tlosa"
+	"coll-remove": "Ho tlosa"
 }
