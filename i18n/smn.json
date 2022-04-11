@@ -35,7 +35,7 @@
 	"coll-help_tooltip": "Čääiti ravvuu kirjij rähtimist",
 	"coll-helppage": "Help:Kirjeh",
 	"coll-load_collection": "Luođii kirje",
-	"coll-n_pages": "$1 {{PLURAL:$1|siijđo|sijđod}}",
+	"coll-n_pages": "$1 {{PLURAL:$1|sijđo|siijđo|siijđo|sijđod}}",
 	"coll-remove_this_page": "Meddâlist taan siijđo kirjestâd",
 	"coll-show_collection": "Čääiti kirje",
 	"coll-show_collection_tooltip": "Colkkâl, vâi peesah hammiđ, luođiđ teikâ tiiláđ tuu kirje.",
