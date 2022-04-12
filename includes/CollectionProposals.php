@@ -187,7 +187,7 @@ class CollectionProposals {
 		}
 
 		$article = new Article( $title, 0 );
-		return $article->getPage()->getContent()->getUltimateRedirectTarget();
+		return $article->getPage()->getContent()->getRedirectTarget();
 	}
 
 	/**
