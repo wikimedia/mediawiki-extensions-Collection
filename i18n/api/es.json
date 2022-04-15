@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"DiegoAmbrocio"
+		]
+	},
+	"apihelp-collection+getcollection-example": "Lista de páginas actualmente en la colección.",
+	"apihelp-collection+addarticle-example": "Añade una página a la colección.",
+	"apihelp-collection+removearticle-example": "Eliminar una página de la colección.",
+	"apihelp-collection+suggestundoarticleaction-param-lastaction": "Una de \"añadir\", \"eliminar\" o \"prohibir\".",
+	"coll-api-addcategory-category-does-not-exist": "La categoría de la que intenta añadir páginas no existe, no es válida o tiene más páginas que el límite especificado.",
+	"apihelp-collection+setsorting-param-items": "Los artículos deben ser listados usando su antiguo índice y ordenados por su nueva posición"
+}
