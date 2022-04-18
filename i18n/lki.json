@@ -111,7 +111,6 @@
 	"coll-suggest_article_remove": "صفحهٔ <strong>$1</strong> از کتاب شما حذف شده است ($2).",
 	"coll-suggest_undo_tooltip": "این اقدام را خنثی کن",
 	"coll-suggest_undo": "واگردانی/گِلآ دائن",
-	"coll-format-rl": "کتاب الکترونیکی (PDF، اجراکننده mwlib)",
 	"coll-format-epub": "کتاب الکترونیکی (EPUB)",
 	"coll-format-odf": "واژه‌پرداز (اپن‌داکیومنت)",
 	"coll-format-zim": "کی‌ویکس (اپن‌زیم)",

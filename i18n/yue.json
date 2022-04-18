@@ -87,8 +87,6 @@
 	"coll-format-epub": "電子書（EPUB）",
 	"coll-format-odf": "文字處理器（OpenDocument）",
 	"coll-format-zim": "Kiwix（OpenZIM）",
-	"coll-format-docbook": "DocBook",
-	"coll-format-okawix_zeno": "Okawix",
 	"coll-format-rdf2latex": "電子書（PDF，ocg latex彩現器）",
 	"coll-format-rdf2text": "文字處理器（純文字）",
 	"coll-print_export": "打印/匯出",

@@ -96,7 +96,6 @@
 	"coll-format-rl": "e-книга (PDF, рендирана с mwlib)",
 	"coll-format-epub": "e-книга (EPUB)",
 	"coll-format-odf": "Текстообработваща програма (OpenDocument)",
-	"coll-format-okawix_zeno": "Okawix",
 	"right-collectionsaveasuserpage": "Запазване на книгата като потребителска страница",
 	"right-collectionsaveascommunitypage": "Запазване на книгата като страница на общността",
 	"coll-print_export": "Отпечатване/изнасяне",

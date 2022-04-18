@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Macofe",
 			"Mechanizatar",
 			"Дзяніс Тутэйшы",
@@ -108,9 +109,6 @@
 	"coll-format-rl": "e-кніга (PDF, mwlib апрацоўшчык)",
 	"coll-format-epub": "e кніга (EPUB)",
 	"coll-format-odf": "Тэкставы працэсар (OpenDocument)",
-	"coll-format-zim": "Kiwix (OpenZIM)",
-	"coll-format-docbook": "DocBook",
-	"coll-format-okawix_zeno": "Okawix",
 	"right-collectionsaveasuserpage": "захаванне кніг як старонак ўдзельніка",
 	"right-collectionsaveascommunitypage": "захаванне кніг як старонак супольнасці",
 	"coll-print_export": "Друк/экспарт",
@@ -147,6 +145,8 @@
 	"coll-make_suggestions": "Прапанаваць старонкі",
 	"coll-make_suggestions_tooltip": "Паказаць прапановы заснаваныя на старонках у Вашай кнізе",
 	"coll-suggest_empty": "пуста",
+	"coll-setting-toc-yes": "Так",
+	"coll-setting-toc-no": "Не",
 	"coll-attribution-anons": "Ананім: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Крыніца:</i> $2 <i>Аўтары:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Крыніца:</i> $2 <i>Ліцэнзія:</i> $3 <i>Аўтары:</i> $4 <i>Мастак:</i> $5"

@@ -130,8 +130,6 @@
 	"coll-format-epub": "电子书（EPUB）",
 	"coll-format-odf": "文字处理程序（OpenDocument）",
 	"coll-format-zim": "Kiwix（OpenZIM）",
-	"coll-format-docbook": "DocBook",
-	"coll-format-okawix_zeno": "Okawix",
 	"coll-format-rdf2latex": "电子书（PDF，ocg latex渲染器）",
 	"coll-format-rdf2text": "文字处理程序（纯文本）",
 	"action-collectionsaveasuserpage": "保存图书为用户页面",

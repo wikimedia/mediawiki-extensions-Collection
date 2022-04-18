@@ -115,8 +115,6 @@
 	"coll-format-epub": "е-книга (EPUB)",
 	"coll-format-odf": "Обработувач на текст (OpenDocument)",
 	"coll-format-zim": "Кивикс (OpenZIM)",
-	"coll-format-docbook": "DocBook",
-	"coll-format-okawix_zeno": "Okawix",
 	"coll-format-rdf2latex": "е-книга (PDF, исписник на OCG-Latex)",
 	"coll-format-rdf2text": "Обработувач на текст (прост текст)",
 	"action-collectionsaveasuserpage": "зачувување на книги како корисничка страница",
