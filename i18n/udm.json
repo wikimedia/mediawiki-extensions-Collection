@@ -3,14 +3,15 @@
 		"authors": [
 			"AlnashPiyash2",
 			"Kaganer",
-			"Wadorgurt"
+			"Wadorgurt",
+			"Kotwys"
 		]
 	},
 	"coll-remove": "Быдтоно",
 	"coll-show": "Возьматыны",
 	"coll-move_up": "Вылӥе донгыны",
 	"coll-move_down": "Улӥе донгыны",
-	"coll-print_export": "Печать/поттон",
+	"coll-print_export": "Печатлан/поттон",
 	"coll-create_a_book": "Книга кылдытыны",
 	"coll-book_creator": "Книга кылдытон",
 	"coll-download_as": "$1 форматэн кысконо",
