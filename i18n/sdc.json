@@ -4,7 +4,8 @@
 			"Jun Misugi"
 		]
 	},
-	"coll-desc": "Aggiugni 'na [[Special:Book|pàgina ippiziari]] pai crià libri.",
+	"coll-desc": "[[Special:Book|Crià libri]]",
+	"coll-manage_your_book": "Gesthì lu to' libru",
 	"coll-book_creator_help": "Vedi la [[{{MediaWiki:Coll-helppage}}|pàgina d'aggiuddu pai libri]] pai più d'infoimmazioni.",
 	"coll-start_book_creator": "Ischuminzà criadori di libri",
 	"coll-book_creator_continue": "Sighì a imprià criadori di libri",
@@ -14,6 +15,7 @@
 	"coll-your_book": "Lu tóiu libru",
 	"coll-download_title": "Ischarriggà",
 	"coll-download": "Ischarriggà",
+	"coll-format_label": "Fuimmaddu:",
 	"coll-remove": "Buggà",
 	"coll-show": "Ammusthrà",
 	"coll-move_up": "in sobbra",
