@@ -143,7 +143,7 @@
 	"coll-create_a_book": "ایجاد کتاب",
 	"coll-create_a_book_tooltip": "یک کتاب یا مجموعه‌ای از صفحه‌ها ایجاد کن",
 	"coll-book_creator": "ایجادگر کتاب",
-	"coll-download_as": "دریافت به‌صورت $1",
+	"coll-download_as": "بارگیری به‌صورت $1",
 	"coll-download_as_tooltip": "یک نسخهٔ $1 از این صفحهٔ ویکی را دریافت کن",
 	"coll-disable": "غیرفعال‌سازی",
 	"coll-book_creator_disable": "کتاب‌ساز را غیرفعال کن",
