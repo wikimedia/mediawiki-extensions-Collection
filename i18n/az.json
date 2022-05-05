@@ -7,7 +7,8 @@
 			"Macofe",
 			"NMW03",
 			"Vago",
-			"Wertuose"
+			"Wertuose",
+			"Toghrul Rahimli"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kitablar yarat]]",
@@ -60,7 +61,7 @@
 	"coll-about_pp": "$1 haqqında",
 	"coll-license": "Lisenziya",
 	"coll-return_to": "[[:$1]] başlıqlı səhifəyə qayıt",
-	"coll-suggested_articles": "Məsləhətlər",
+	"coll-suggested_articles": "Təkliflər",
 	"coll-suggest_reset_bans": "qur",
 	"coll-suggest_show": "göstər",
 	"coll-format-epub": "elektron-kitab (EPUB)",
