@@ -2,9 +2,10 @@
 	"@metadata": {
 		"authors": [
 			"AaaRazak",
-			"Abdul Fatawu 352"
+			"Abdul Fatawu 352",
+			"Amire80"
 		]
 	},
-	"coll-print_export": "Maan-seba|tuola",
+	"coll-print_export": "Maan-seba/tuola",
 	"coll-download_as": "Moke n $1"
 }
