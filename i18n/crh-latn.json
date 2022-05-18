@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Comp1089",
-			"Don Alessandro"
+			"Don Alessandro",
+			"TayfunEt."
 		]
 	},
+	"coll-print_export": "Basıp çıqaruv/tışqa aqtaruv",
 	"coll-create_a_book": "Kitapnı yarat",
 	"coll-download_as": "$1 olaraq endir"
 }
