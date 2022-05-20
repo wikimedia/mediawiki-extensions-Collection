@@ -59,7 +59,6 @@ class CollectionSuggestTemplate extends QuickTemplate {
 			return "<li>" . wfMessage( 'coll-suggest_empty' )->escaped() . "</li>";
 		}
 
-		// @phan-suppress-next-line PhanPossiblyUndeclaredVariable False positive due to taint-check
 		$mediapath = $wgExtensionAssetsPath . '/Collection/images/';
 		$baseUrl = $wgScript . "/";
 
