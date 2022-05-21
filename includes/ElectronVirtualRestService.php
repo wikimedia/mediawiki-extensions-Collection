@@ -57,7 +57,7 @@ class ElectronVirtualRestService extends VirtualRESTService {
 			$req['url'] = $this->params['url'] . $req['url'];
 			if ( $this->params['options'] ) {
 				$parts = wfParseUrl( $req['url'] );
-				$query = isset( $parts['query'] ) ? wfCgiToArray( $parts['query'] ) : [];
+				$query = wfCgiToArray( $parts['query'] ?? '' );
 				$query += $this->params['options'];
 				$parts['query'] = wfArrayToCgi( $query );
 				$req['url'] = wfAssembleUrl( $parts );
