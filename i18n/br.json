@@ -5,6 +5,7 @@
 			"Fohanno",
 			"Fulup",
 			"Gwenn-Ael",
+			"Huñvreüs",
 			"Macofe",
 			"Y-M D"
 		]
@@ -100,7 +101,7 @@
 	"coll-suggest_reset_bans": "adderaouekaat",
 	"coll-suggest_reset_bans_tooltip": "Diskouez ar c'hinnigoù kozh tennet kuit a-raok",
 	"coll-suggest_add_selected": "Ouzhpennañ ar pajennoù diuzet",
-	"coll-suggest_ban_selected": "Diverkañ ar pajennoù diuzet",
+	"coll-suggest_ban_selected": "Tennañ kuit ar pajennoù diuzet",
 	"coll-suggest_your_book": "Ho levr",
 	"coll-suggest_show": "diskouez",
 	"coll-suggest_ban_tooltip": "Tennañ kuit ar bajenn-mañ eus roll ar c'hinnigoù",
@@ -109,7 +110,7 @@
 	"coll-suggest_article_remove": "Tennnet eo bet ar bajenn <strong>$1</strong> eus ho levr ($2).",
 	"coll-suggest_undo_tooltip": "Dizober an ober-mañ",
 	"coll-suggest_undo": "dizober",
-	"coll-load_local_book": "Klikit war Mat eo evit kenderc'hel ho levr $1 hag en deus $2 pajenn wiki. Klikit war Nullañ evit dilemel ha kregiñ gant ul levr goullo.",
+	"coll-load_local_book": "Klikit war «Mat eo» evit kenderc'hel ho levr $1 hag en deus $2 {{PLURAL:$2|pajenn}} wiki. Klikit war «Nullañ» evit dilemel anezhañ ha kregiñ gant ul levr goullo.",
 	"coll-format-rl": "e-book (PDF)",
 	"coll-format-odf": "Skridtreter (OpenDocument)",
 	"coll-format-rdf2text": "Skridteter (testenn blaen)",
