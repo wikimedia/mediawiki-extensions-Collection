@@ -4,7 +4,8 @@
 			"Gazeb",
 			"KHMELNYTSKYIA",
 			"Macofe",
-			"Tkalyn"
+			"Tkalyn",
+			"Gramo6"
 		]
 	},
 	"coll-desc": "[[Special:Book|Створює книгы]]",
@@ -120,7 +121,7 @@
 	"coll-create_a_book": "Створїня книгы",
 	"coll-create_a_book_tooltip": "Створити книгу або колекцію сторінок",
 	"coll-book_creator": "Едітор книг",
-	"coll-download_as": "Скачати як $1",
+	"coll-download_as": "Стерьхати ги $1",
 	"coll-download_as_tooltip": "Скачати тоту сторінку вікі як $1",
 	"coll-disable": "выпнути",
 	"coll-book_creator_disable": "выпнути едітор книг",
