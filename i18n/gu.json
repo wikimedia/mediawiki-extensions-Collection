@@ -11,7 +11,7 @@
 			"Sushant savla"
 		]
 	},
-	"coll-desc": "[[ખાસ:પુસ્તક|પુસ્તક બનાવો]]",
+	"coll-desc": "[[Special:Book|પુસ્તક બનાવો]]",
 	"coll-book_creator_intro": "<big>''પુસ્તક નિર્માતા'' વડે તમે તમારી પસંદના વિકિ પાનાંઓ ભેગા કરીને પુસ્તક બનાવી શકો છો. તમે વિવિધ શૈલી (જેમકે PDF કે ODF)માં આ પુસ્તકની નિકાસ કરી શકો છો અથવા છાપેલું પુસ્તક મેળવવાની ફરમાયશ કરી શકો છો.</big>",
 	"coll-manage_your_book": "તમારું પુસ્તક સંભાળો",
 	"coll-book_creator_help": "વધુ માહિતી માટે [[{{MediaWiki:Coll-helppage}}|પુસ્તક અંગે મદદનું પાનું]] જુઓ",
@@ -49,7 +49,7 @@
 	"coll-rename": "નામ બદલો",
 	"coll-new_chapter": "નવા પ્રકરણને નામ આપો",
 	"coll-rename_chapter": "પ્રકરણને નવું નામ આપો",
-	"coll-notitle_title": "પાનાનું મથાળું મળી શકતું નથી.",
+	"coll-notitle_title": "પાનાનું મથાળું મળી શકતું નથી",
 	"coll-empty_collection": "ખાલી પુસ્તક",
 	"coll-save_collection_title": "તમારૂં પુસ્તક સાચવો અને વહેંચો",
 	"coll-save_collection_text": "તમારૂં પુસ્તક સાચવવા માટેની જગ્યા પસંદ કરો:",
@@ -75,6 +75,7 @@
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Rendering collection info text",
 	"coll-rendering_finished_title": "ચિત્રણ સંપૂર્ણ",
 	"coll-rendering_finished_text": "<strong>દસ્તાવેજ ફાઇલ તૈયાર છે.</strong>\nતમારા કમ્પ્યૂટર પર <strong>[$1 ફાઇલ ડાઉનલોડ કરો]</strong>.",
+	"coll-rendering_finished_notes_heading": "નોંધ:",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Rendering page info text",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Rendering collection info text",
 	"coll-notfound_title": "પુસ્તક મળ્યું નથી",
@@ -98,7 +99,7 @@
 	"coll-suggest_reset_bans_tooltip": "પહેલા કાઢી નાંખેલા પાનાં બતાવો",
 	"coll-suggest_add_selected": "પસંદ કરેલાં પાનાં ઉમેરો",
 	"coll-suggest_ban_selected": "પસંદ કરેલાં પાનાં કાઢી નાંખો",
-	"coll-suggest_your_book": "તમારૂં પુસ્તક",
+	"coll-suggest_your_book": "અમારું પુસ્તક",
 	"coll-suggest_show": "બતાવો",
 	"coll-suggest_ban_tooltip": "સુઝાવોમાંથી આ પાનું કાઢી નાંખો",
 	"coll-suggest_article_ban": "સુઝાવોમાંથી પાનું <strong>$1</strong> દૂર કરવામાં આવ્યું છે ($2).",
@@ -107,7 +108,8 @@
 	"coll-suggest_undo_tooltip": "આ ક્રિયા રદ કરો",
 	"coll-suggest_undo": "undo",
 	"coll-load_local_book": "તમારા પુસ્તક $1 જેમાં $2 પાન છે તેની સાથે આગળ વધવા માટે OK પર ક્લિક કરો. તેને દૂર કરીને નવેસરથી શરૂઆત કરવા માટે Cancel પર ક્લિક કરો.",
-	"right-collectionsaveasuserpage": "પુસ્તકોને સભ્યના પાનાં તરીકે સાચવો",
+	"action-collectionsaveasuserpage": "પુસ્તકોને સભ્ય પાનાં તરીકે સાચવો",
+	"right-collectionsaveasuserpage": "પુસ્તકોને સભ્ય પાનાં તરીકે સાચવો",
 	"right-collectionsaveascommunitypage": "પુસ્તકોને સમાજ પૃષ્ઠ તરીકે સાચવો",
 	"coll-print_export": "છાપો/નિકાસ",
 	"coll-create_a_book": "પુસ્તક બનાવો",
@@ -151,6 +153,7 @@
 	"coll-attribution-anons": "અજ્ઞાત: $1",
 	"coll-article-attribution": "<b>$1</b> <i>સ્રોત:</i> $2 <i>યોગદાનકર્તા:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>સ્રોત:</i> $2 <i>પરવાનો:</i> $3 <i>યોગદાનકર્તા:</i> $4 <i>અસલ કલાકાર:</i> $5",
+	"coll-warning-learn-more": "વધુ જાણો",
 	"coll-images-title": "છબીઓ",
 	"coll-images-source": "સ્રોત"
 }
