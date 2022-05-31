@@ -4,6 +4,10 @@
 			"Jun Misugi"
 		]
 	},
+	"coll-collection": "Buch",
+	"coll-collections": "Biecher",
+	"coll-unknown_subpage_title": "Die Undorseide gennd'r ni",
+	"coll-couldnotaddarticle_title": "Hinzufiechen där Wiggiseide leidor nisch mööchlisch",
 	"coll-print_export": "Druggn/Nausfihrn",
 	"coll-create_a_book": "Buch draus mochn",
 	"coll-download_as": "Als $1 nunderladn"
