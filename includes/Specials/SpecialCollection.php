@@ -980,9 +980,10 @@ class SpecialCollection extends SpecialPage {
 			$items = $collection['items'];
 		}
 
+		$page = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $title );
 		$lines = preg_split(
 			'/[\r\n]+/',
-			WikiPage::factory( $title )->getContent()->getNativeData()
+			$page->getContent()->getNativeData()
 		);
 
 		foreach ( $lines as $line ) {
