@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Hanberke",
-			"Macofe"
+			"Macofe",
+			"TayfunEt."
 		]
 	},
 	"coll-desc": "[[Special:Book|Kitap döret]]",
@@ -21,10 +22,10 @@
 	"coll-couldnotremovearticle_msg": "Wiki sahypasyny aýryp bolmady",
 	"coll-savedbook_template": "ýazdyrylan_kitap",
 	"coll-your_book": "Kitabyňyz",
-	"coll-download_title": "Düşür",
+	"coll-download_title": "Göçürip al",
 	"coll-download_text": "Kitabyňyzy düşürmek üçin bir format saýlaň we düwmä tyklaň.",
 	"coll-download_as_text": "Kitabyňyzy $1 formatynda düşürmek üçin düwmä tyklaň.",
-	"coll-download": "Düşür",
+	"coll-download": "Göçürip al",
 	"coll-format_label": "Format:",
 	"coll-remove": "Aýyr",
 	"coll-show": "Görkez",
