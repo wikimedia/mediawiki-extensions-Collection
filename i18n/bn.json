@@ -132,7 +132,7 @@
 	"coll-book_creator": "বই প্রস্তুতকারক",
 	"coll-download_as": "$1  ডাউনলোড",
 	"coll-download_as_tooltip": "এই উইকি পাতার $1 সংস্করণটি ডাউনলোড করো",
-	"coll-disable": "নিস্ক্রিয়",
+	"coll-disable": "নিষ্ক্রিয়",
 	"coll-book_creator_disable": "বই প্রস্তুতকারক নিস্ক্রিয় করো",
 	"coll-book_creator_disable_tooltip": "বই প্রস্তুতকারক ব্যবহার বন্ধ করুন",
 	"coll-add_linked_article": "আপনার বইয়ে উইকি পাতার সংযোগ দিন",
