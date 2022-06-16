@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Андрей Саг."
+			"Андрей Саг.",
+			"Amire80"
 		]
 	},
 	"coll-show": "Кӧзідерге",
 	"coll-move_up": "Ӧӧре чылдырарға",
-	"coll-move_down": "Алтынзар чылдырарға"
+	"coll-move_down": "Алтынзар чылдырарға",
+	"coll-yes": "Я",
+	"coll-setting-toc-yes": "Я"
 }
