@@ -78,6 +78,7 @@
 	"coll-setting-papersize-a4": "A4",
 	"coll-setting-papersize-letter": "Letro-papero (''Letter'')",
 	"coll-setting-toc": "Inkluzar tabelo kun dati",
+	"coll-setting-toc-auto": "Automata",
 	"coll-setting-toc-yes": "Yes",
 	"coll-setting-toc-no": "No",
 	"coll-attribution-anons": "Anonima: $1",
