@@ -9,6 +9,7 @@
 			"Logicwiki",
 			"Macofe",
 			"Shanmugamp7",
+			"Siddhan",
 			"TRYPPN",
 			"செல்வா"
 		]
@@ -101,7 +102,7 @@
 	"coll-create_a_book": "ஒரு புத்தகம் உருவாக்கு",
 	"coll-create_a_book_tooltip": "புத்தகத்தை அல்லது பக்க தொகுப்பை உருவாக்கு",
 	"coll-book_creator": "புத்தகம் உருவாக்குபவர்",
-	"coll-download_as": "$1 என தகவலிறக்கு",
+	"coll-download_as": "$1 என பதிவிறக்கவும்",
 	"coll-download_as_tooltip": "இந்த விக்கி பக்கத்தின் $1 பதிப்பை தகவலிறக்கம் செய்",
 	"coll-disable": "செயலிழக்கச் செய்",
 	"coll-book_creator_disable": "புத்தக உருவாக்குநரை செயலிழக்க செய்",
