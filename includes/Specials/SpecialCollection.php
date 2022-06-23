@@ -24,6 +24,7 @@ namespace MediaWiki\Extension\Collection\Specials;
 
 use MediaWiki\Api\ApiMain;
 use MediaWiki\Config\Config;
+use MediaWiki\Content\TextContent;
 use MediaWiki\Context\RequestContext;
 use MediaWiki\Deferred\LinksUpdate\CategoryLinksTable;
 use MediaWiki\Extension\Collection\MessageBoxHelper;
@@ -993,10 +994,10 @@ class SpecialCollection extends SpecialPage {
 			$items = $collection['items'];
 		}
 
-		$page = $this->wikiPageFactory->newFromTitle( $title );
+		$content = $this->wikiPageFactory->newFromTitle( $title )->getContent();
 		$lines = preg_split(
 			'/[\r\n]+/',
-			$page->getContent()->getNativeData()
+			$content instanceof TextContent ? $content->getText() : ''
 		);
 
 		foreach ( $lines as $line ) {
