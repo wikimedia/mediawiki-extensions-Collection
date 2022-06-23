@@ -3,7 +3,8 @@
 		"authors": [
 			"Oby Ezeilo",
 			"Ukabia",
-			"Uzoma Ozurumba"
+			"Uzoma Ozurumba",
+			"Tochiprecious"
 		]
 	},
 	"coll-remove": "Wepụ",
@@ -17,10 +18,10 @@
 	"coll-about_pp": "Maka $1",
 	"coll-suggest_show": "zi",
 	"coll-suggest_undo": "me la àzụ",
-	"coll-print_export": "Bipụ̀/zìla",
+	"coll-print_export": "Bipụta/bupu",
 	"coll-create_a_book": "Mmepụta akwukwọ",
 	"coll-book_creator": "Onye kere akwụkwọ",
-	"coll-download_as": "Tinye ya dika $1",
+	"coll-download_as": "Budata ya dika $1",
 	"coll-disable": "mmenyụọ",
 	"coll-book_creator_disable_tooltip": "Kwụsị iji ihe okike akwụkwọ",
 	"coll-add_this_page": "Tinye ihuakwụkwọ a na akwụkwọ gi",
