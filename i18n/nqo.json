@@ -63,6 +63,7 @@
 	"coll-update": "ߟߏ߲ߘߐߦߊߟߌ",
 	"coll-limit_exceeded_title": "ߞߊ߬ߝߊ ߓߏ߲߬ߓߊ߫ ߞߏߖߎ߯ߦߊ߫",
 	"coll-limit_exceeded_text": "ߌ ߟߊ߫ ߞߊ߬ߝߊ ߓߏ߲߬ߓߊ߫ ߞߏߖߎ߯ߦߊ߫. \nߞߐߜߍ߫ ߜߘߍ߫ ߕߍ߫ ߛߐ߲߬ ߝߙߊ߬ ߟߴߏ߬ ߞߐ߫.",
+	"coll-rendering_title": "ߟߊߛߋߟߌ",
 	"coll-rendering_status": "<strong>ߟߌ߬ߤߟߊ߬ߦߊ ߟߎ߬:</strong> $1",
 	"coll-rendering_article": "(ߥߞߌ߫ ߞߐߜߍ: $1)",
 	"coll-rendering_page": "(ߞߐߜߍ: $1)",
@@ -153,5 +154,7 @@
 	"coll-toc-title": "ߞߣߐߘߐ ߟߎ߬ ߥߟߊ߬ߟߋ߲",
 	"coll-contributors-title": "ߓߟߏߓߌߟߊߢߐ߲߯ߞߊ߲ߠߊ ߟߎ߬",
 	"coll-images-title": "ߖߌ߬ߦߊ߬ߓߍ ߟߎ߫",
-	"coll-images-source": "ߓߐߖߎ"
+	"coll-images-source": "ߓߐߖߎ",
+	"coll-images-original-artist": "ߞߎߡߘߊ ߓߐߖߎ",
+	"coll-rendererror-title": "ߊ߬ ߕߴߛߋ߫ ߞߊ߬ߝߊ ߟߊߞߊ߬ߝߏ߬ ߟߊ߫"
 }
