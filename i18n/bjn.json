@@ -10,6 +10,8 @@
 	"coll-show": "Tampaiakan",
 	"coll-move_up": "Alihakan ka atas",
 	"coll-move_down": "Alihakan ka bawah",
+	"coll-suggest_undo_tooltip": "Bulikakan pilihan ngini",
+	"coll-suggest_undo": "bulikakan",
 	"coll-print_export": "Citak/ékspor",
 	"coll-create_a_book": "Ulah buku",
 	"coll-book_creator": "Paulah buku",
