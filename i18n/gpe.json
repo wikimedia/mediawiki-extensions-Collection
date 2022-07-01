@@ -4,6 +4,25 @@
 			"DaSupremo"
 		]
 	},
+	"coll-desc": "[[Special:Book|Create books]]",
+	"coll-book_creator_intro": "<big>Plus de ''book creator'' you fi create book wey dey contain wiki pages for your choice. You fi export de book for different formats inside (for example PDF or ODF) or order printed copy.</big>",
+	"coll-manage_your_book": "Manage your book",
+	"coll-book_creator_help": "Spy [[{{MediaWiki:Coll-helppage}}|de help page sake of books]] for more info.",
+	"coll-start_book_creator": "Start book creator",
+	"coll-book_creator_continue": "Continue dey use book creator",
+	"coll-book_creator_disable_text": "Dem go disable ''Book creator'' den dem go remove de book wey you dey job for top.",
+	"coll-book_creator_text_article": "{{MediaWiki:Coll-helppage}}/Book creator text",
+	"coll-collection": "Book",
+	"coll-collections": "Books",
+	"coll-unknown_subpage_title": "Unknown subpage",
+	"coll-unknown_subpage_text": "Dis subpage for [[Special:Book|Book]] no dey exist",
+	"coll-couldnotaddarticle_title": "Fi no add wiki page",
+	"coll-couldnotaddarticle_msg": "Dem no fi add de wiki page.",
+	"coll-couldnotremovearticle_title": "Dem no fi comot wiki page",
+	"coll-couldnotremovearticle_msg": "Dem no fi comot de wiki page.",
+	"coll-savedbook_template": "saved_book",
+	"coll-your_book": "Your book",
+	"coll-download_title": "Download",
 	"coll-print_export": "Print/export",
 	"coll-download_as": "Download am as $1"
 }
