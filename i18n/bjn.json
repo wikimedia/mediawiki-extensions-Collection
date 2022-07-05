@@ -6,10 +6,14 @@
 			"Mnam23"
 		]
 	},
+	"coll-book_creator_intro": "<big>Lawan ''paulah buku'', Pian kawa maulah buku nang isinya laman wiki pilihan Pian. Pian kawa ma-ikspur buku dalam babagai bantuk (misalnya, PDF atawa ODF) atawa mamasan bantuk citaknya.</big>",
+	"coll-book_creator_help": "Janaki [[{{MediaWiki:Coll-helppage}}|laman patulung pasal buku]] gasan maklumat labih lanjut.",
+	"coll-start_book_creator": "Mulai paulah buku",
 	"coll-remove": "Hapus",
 	"coll-show": "Tampaiakan",
 	"coll-move_up": "Alihakan ka atas",
 	"coll-move_down": "Alihakan ka bawah",
+	"coll-cancel": "Pasahakan",
 	"coll-suggest_undo_tooltip": "Bulikakan pilihan ngini",
 	"coll-suggest_undo": "bulikakan",
 	"coll-print_export": "Citak/ékspor",
@@ -32,5 +36,10 @@
 	"coll-make_suggestions_tooltip": "Tampaiakan saran badasarakan tungkaran dalam buku Pian",
 	"coll-attribution-anons": "Pamakai anonim: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Asal-mula:</i> $2 <i>Panyumbang:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Asal-mula:</i> $2 <i>Lisénsi:</i> $3 <i>Panyumbang:</i> $4 <i>Paulah asli:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Asal-mula:</i> $2 <i>Lisénsi:</i> $3 <i>Panyumbang:</i> $4 <i>Paulah asli:</i> $5",
+	"coll-warning-disable-pdf-title": "Paulah Buku parhatan baubah",
+	"coll-warning-disable-pdf-text": "Maraga ungkara barat lawan sistim nang ada, Paulah Buku kada lagi pacangan mandukung panabunan buku sabagai PDF.",
+	"coll-warning-learn-more": "Palajari labih lanjut",
+	"coll-notice-download-pdf-title": "Unduh laman batunggal",
+	"coll-notice-download-pdf-text": "Pahadangan paulahan PDF Paulah Buku dipajahakan, Pian kawa mancubai '''''Unduh sabagai PDF''' matan ''sidebar'' pakakas gasan artikal tunggal."
 }
