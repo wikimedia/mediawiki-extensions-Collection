@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lea.Fakauvea"
+			"Lea.Fakauvea",
+			"Lea.fakauvea"
 		]
 	},
 	"coll-print_export": "Toho pepa/taupau",
-	"coll-download_as": "Taupau i te $1"
+	"coll-download_as": "Ta'ofi o hage ko $1"
 }
