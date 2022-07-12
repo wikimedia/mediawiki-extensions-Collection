@@ -63,6 +63,15 @@
 	"coll-limit_exceeded_title": "Book bola too much",
 	"coll-limit_exceeded_text": "Your book bola too much.\nDem no fi add more pages.",
 	"coll-rendering_title": "Dey render",
+	"coll-rendering_text": "<p><strong>We beg wedge while dem dey generate de document.</strong></p>\n\n<p><strong>Progress:</strong> <span id=\"renderingProgress\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p>Dis page for automatically refresh every few seconds.\nIf dis no dey job, we beg make you press your browser hin refresh button.</p>",
+	"coll-rendering_status": "<strong>Status:</strong> $1",
+	"coll-rendering_article": "(wiki page: $1)",
+	"coll-rendering_page": "(page: $1)",
+	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Dey Rrender page info text",
+	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Dey render collection info text",
+	"coll-rendering_finished_title": "Dem finish dey render",
+	"coll-rendering_finished_text": "<strong>Dem generate de document file.</strong>\n<strong>[$1 Download de file]</strong> for your computer top.",
+	"coll-rendering_finished_notes_heading": "Notes:",
 	"coll-print_export": "Print/export",
 	"coll-download_as": "Download am as $1"
 }
