@@ -6,7 +6,8 @@
 			"MTSap",
 			"Macofe",
 			"Roderick Mallia",
-			"පසිඳු කාවින්ද"
+			"පසිඳු කාවින්ද",
+			"ToniSant"
 		]
 	},
 	"coll-desc": "[[Special:Book|Toħloq il-kotba]]",
@@ -124,8 +125,8 @@
 	"coll-book_creator_disable_tooltip": "Ieqaf uża l-kreatur tal-kotba",
 	"coll-add_linked_article": "Żid il-paġna marbuta mal-ktieb tiegħek",
 	"coll-remove_linked_article": "Neħħi l-paġni wiki marbuta mill-ktieb tiegħek",
-	"coll-add_category": "Żid din il-kategorija mal-ktieb tiegħek",
-	"coll-add_category_tooltip": "Żid il-paġni wiki kollha f'din il-kategorija mal-ktieb tiegħek",
+	"coll-add_category": "Żid din il-kategorija fil-ktieb tiegħek",
+	"coll-add_category_tooltip": "Żid il-paġni kollha f'din il-kategorija mal-ktieb tiegħek",
 	"coll-add_this_page": "Żid din il-paġna mal-ktieb tiegħek",
 	"coll-add_page_tooltip": "Żid din il-paġna wiki attwali mal-ktieb tiegħek",
 	"coll-bookscategory": "Kotba",
