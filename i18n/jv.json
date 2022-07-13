@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bennylin",
 			"Macofe",
 			"Meursault2004",
 			"NoiX180",
@@ -110,11 +111,11 @@
 	"coll-format-odf": "pemrosès tembung (OpenDocument)",
 	"right-collectionsaveasuserpage": "Simpen buku minangka kaca naraguna",
 	"right-collectionsaveascommunitypage": "Simpen buku minangka kaca paguyuban",
-	"coll-print_export": "Cithak/èspor",
+	"coll-print_export": "Cithak/kirim",
 	"coll-create_a_book": "Gawé buku",
 	"coll-create_a_book_tooltip": "Gawé buku utawa kolèksi kaca",
 	"coll-book_creator": "Piranti gawé buku",
-	"coll-download_as": "Undhuh $1",
+	"coll-download_as": "Undhuh dadi $1",
 	"coll-download_as_tooltip": "Undhuh vèrsi $1 kaca wiki iki",
 	"coll-disable": "tutup",
 	"coll-book_creator_disable": "Patèni piranti gawé buku",
