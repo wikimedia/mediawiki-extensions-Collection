@@ -6,6 +6,7 @@
 			"Fwolff",
 			"Macofe",
 			"Naudefj",
+			"Rooiratel",
 			"SPQRobin",
 			"පසිඳු කාවින්ද"
 		]
@@ -104,7 +105,7 @@
 	"coll-format-rdf2text": "Woordverwerker (skoon teks)",
 	"right-collectionsaveasuserpage": "Stoor boeke as gebruikerbladsy",
 	"right-collectionsaveascommunitypage": "Stoor boeke as gemeenskapsbladsy",
-	"coll-print_export": "Druk/eksporteer",
+	"coll-print_export": "Druk/uitvoer",
 	"coll-create_a_book": "Skep boek",
 	"coll-create_a_book_tooltip": "Skep 'n boek of versameling van bladsye",
 	"coll-book_creator": "Boekmaker",
