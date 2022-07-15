@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Laitei",
+			"Taytay",
 			"Teitei Para"
 		]
 	},
@@ -12,7 +13,7 @@
 	"coll-print_export": "Chhuh/papua",
 	"coll-create_a_book": "Châbu bukha tao teh",
 	"coll-book_creator": "Châbu taotuhpa",
-	"coll-download_as": "$1 châta adao",
+	"coll-download_as": "$1 ta adao teh",
 	"coll-disable": "Khawpa",
 	"coll-book_creator_disable": "Châbu taona khaw teih",
 	"coll-book_creator_disable_tooltip": "Châbu taona hmâpa chalihsa teh",
