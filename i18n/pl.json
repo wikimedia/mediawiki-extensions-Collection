@@ -16,7 +16,8 @@
 			"Sp5uhe",
 			"ToSter",
 			"Woytecr",
-			"Wpedzich"
+			"Wpedzich",
+			"Пан Хаунд"
 		]
 	},
 	"coll-desc": "[[Special:Book|Tworzenie książki]]",
@@ -125,7 +126,7 @@
 	"coll-suggest_reset_bans_tooltip": "Pokaż wcześniej usunięte sugestie",
 	"coll-suggest_add_selected": "Dodaj wybrane strony",
 	"coll-suggest_ban_selected": "Usuń wybrane strony",
-	"coll-suggest_your_book": "Moja książka",
+	"coll-suggest_your_book": "Twoja książka",
 	"coll-suggest_show": "pokaż",
 	"coll-suggest_ban_tooltip": "Usuń tę stronę z listy proponowanych",
 	"coll-suggest_article_ban": "Strona <strong>$1</strong> została usunięta z listy sugerowanych ($2).",
@@ -179,7 +180,7 @@
 	"coll-not_addable": "Tej strony nie można dodać",
 	"coll-make_suggestions": "Proponowane strony",
 	"coll-make_suggestions_tooltip": "Pokaż propozycje na podstawie już dodanych stron",
-	"coll-suggest_empty": "puste",
+	"coll-suggest_empty": "pusty",
 	"coll-setting-papersize": "Rozmiar papieru:",
 	"coll-setting-papersize-letter": "Letter",
 	"coll-setting-toc": "Włącz spis treści",

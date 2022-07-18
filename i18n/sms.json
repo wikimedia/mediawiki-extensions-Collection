@@ -16,6 +16,7 @@
 	"coll-save_collection": "Ruõkk ǩeeʹrj",
 	"coll-update": "Peiʹvved",
 	"coll-rendering_page": "(seidd: $1)",
+	"coll-about_pp": "Lââʹssteâđ $1 pirr",
 	"coll-license": "Liseʹnss",
 	"coll-return_to": "Määʹcc sijddu [[:$1]]",
 	"coll-suggested_articles": "Eʹtǩǩõõzz",
@@ -32,6 +33,7 @@
 	"coll-show_collection": "Čuäʹjet ǩeeʹrj",
 	"coll-make_suggestions": "Eʹtǩǩuum seeid",
 	"coll-attribution-anons": "Nõõmteʹm: $1",
+	"coll-warning-learn-more": "Lââʹssteâđ",
 	"coll-images-license": "Liseʹnss",
 	"coll-images-original-artist": "Alggveärlaž artistt"
 }
