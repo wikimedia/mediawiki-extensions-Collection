@@ -1,9 +1,34 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lea.Fakauvea"
+			"Lea.Fakauvea",
+			"Lea.fakauvea"
 		]
 	},
+	"coll-manage_your_book": "Fakatokatoka tau tohi",
+	"coll-start_book_creator": "Kamata te fa'u tohi",
+	"coll-book_creator_continue": "Hoko atu te faka'aoga o te fa'u tohi",
+	"coll-book_creator_disable_text": "Ko te ''Fa'u tohi'' e ta'ofi ānai pea molehi mo te tohi e ke gaue ki ai.",
+	"coll-book_creator_text_article": "{{MediaWiki:Coll-helppage}}/Kupu o te fa'u tohi",
+	"coll-collection": "Tohi",
+	"coll-collections": "Tohi",
+	"coll-unknown_subpage_title": "Vaega pāsina e mole ilo'i",
+	"coll-your_book": "Tau tohi",
+	"coll-download_title": "Fakahifo",
+	"coll-download_text": "Ki he fakahifo o tau tohi, fili he kesi pea lomi i heni.",
+	"coll-download_as_text": "Ki he fakahifo o tau tohi i te kesi $1, lomi i heni.",
+	"coll-download": "Fakahifo",
+	"coll-format_label": "Kesi:",
+	"coll-remove": "Molehi",
+	"coll-show": "Fakahā",
+	"coll-move_to_top": "Hake ki 'oluga",
+	"coll-move_up": "Fakahake",
+	"coll-move_down": "Fakahifo",
+	"coll-move_to_bottom": "Fakahifo ki lalo",
+	"coll-title": "Higoa:",
+	"coll-subtitle": "Vaega higoa:",
+	"coll-contents": "Fakamahino",
 	"coll-print_export": "Toho pepa/taupau",
-	"coll-download_as": "Taupau i te $1"
+	"coll-download_as": "Ta'ofi o hage ko $1",
+	"coll-setting-toc-no": "'Oho"
 }
