@@ -16,7 +16,8 @@
 			"Wmr",
 			"Xiaomingyan",
 			"Yfdyh000",
-			"佛壁灯"
+			"佛壁灯",
+			"Tr jason"
 		]
 	},
 	"coll-desc": "[[Special:Book|创建图书]]",
@@ -63,7 +64,7 @@
 	"coll-request_failed_msg": "尝试呈现您的书本时遇到一个错误。",
 	"coll-empty_collection": "空图书",
 	"coll-save_collection_title": "保存并分享您的图书",
-	"coll-save_collection_text": "选择您的图书的保存位置：",
+	"coll-save_collection_text": "选择您图书的保存位置：",
 	"coll-save_collection": "保存图书",
 	"coll-save_category": "所有已保存图书将添加至[[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]]分类。",
 	"coll-overwrite_title": "页面已存在。是否覆盖？",
