@@ -19,7 +19,8 @@
 			"Xiaomingyan",
 			"Yfdyh000",
 			"佛壁灯",
-			"Stang"
+			"Stang",
+			"Tr jason"
 		]
 	},
 	"coll-desc": "[[Special:Book|创建图书]]",
@@ -70,7 +71,7 @@
 	"coll-empty_collection": "空图书",
 	"coll-revision": "版本：$1",
 	"coll-save_collection_title": "保存并分享您的图书",
-	"coll-save_collection_text": "选择您的图书的保存位置：",
+	"coll-save_collection_text": "选择您图书的保存位置：",
 	"coll-login_to_save": "如果你想保存图书供日后使用，请[[Special:UserLogin|登录或创建账户]]。",
 	"coll-personal_collection_label": "个人图书：",
 	"coll-community_collection_label": "社区图书：",
