@@ -162,5 +162,6 @@
 	"coll-attribution-anons": "Anonüümen:$1",
 	"coll-attribution-page": "<h1>Tekst- an bilkwelen, skriiwern an lisensen</h1>\n<h2>Tekst</h2>\n$1<h2>Bilen</h2>\n$2\n<h2>Lisens</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Kwel:</i> $2 <i>Skriiwern:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Kwel:</i> $2 <i>Lisens:</i> $3 <i>Skriiwern:</i> $4 <i>Originaalkonstler:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Kwel:</i> $2 <i>Lisens:</i> $3 <i>Skriiwern:</i> $4 <i>Originaalkonstler:</i> $5",
+	"coll-toc-title": "Auersicht"
 }
