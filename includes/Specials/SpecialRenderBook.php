@@ -2,10 +2,10 @@
 
 namespace MediaWiki\Extension\Collection\Specials;
 
-use CollectionSession;
 use ErrorPageError;
 use Html;
 use MediaWiki\Extension\Collection\BookRenderingMediator;
+use MediaWiki\Extension\Collection\Session;
 use MediaWiki\Logger\LoggerFactory;
 use MediaWiki\MediaWikiServices;
 use SpecialPage;
@@ -104,10 +104,10 @@ class SpecialRenderBook extends UnlistedSpecialPage {
 	 * @throws ErrorPageError When there is no active connection.
 	 */
 	private function getCollection() {
-		if ( !CollectionSession::hasSession() ) {
-			CollectionSession::startSession();
+		if ( !Session::hasSession() ) {
+			Session::startSession();
 		}
-		$collection = CollectionSession::getCollection();
+		$collection = Session::getCollection();
 		if ( !$collection || !$collection['enabled'] || !$collection['items'] ) {
 			throw new ErrorPageError( 'coll-rendererror-title', 'coll-rendererror-no-session' );
 		}

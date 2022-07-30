@@ -23,8 +23,8 @@
 namespace MediaWiki\Extension\Collection\Api;
 
 use ApiBase;
-use CollectionSession;
-use CollectionSuggest;
+use MediaWiki\Extension\Collection\Session;
+use MediaWiki\Extension\Collection\Suggest;
 use SkinTemplate;
 use Wikimedia\ParamValidator\ParamValidator;
 use Xml;
@@ -40,7 +40,7 @@ class ApiSuggestArticleAction extends ApiBase {
 	public function execute() {
 		[ 'suggestaction' => $action, 'title' => $title ] = $this->extractRequestParams();
 
-		$result = CollectionSuggest::refresh( $action, $title );
+		$result = Suggest::refresh( $action, $title );
 
 		// @phan-suppress-next-line SecurityCheck-DoubleEscaped
 		$undoLink = Xml::element( 'a',
@@ -62,7 +62,7 @@ class ApiSuggestArticleAction extends ApiBase {
 		// coll-suggest_article_remove
 		$result['last_action'] = $this->msg( "coll-suggest_article_$action", $title )
 			->rawParams( $undoLink )->parse();
-		$result['collection'] = CollectionSession::getCollection();
+		$result['collection'] = Session::getCollection();
 
 		$this->getResult()->addValue( null, $this->getModuleName(), $result );
 	}

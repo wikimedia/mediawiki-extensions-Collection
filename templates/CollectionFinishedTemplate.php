@@ -5,6 +5,8 @@
  * @ingroup Templates
  */
 
+use MediaWiki\Extension\Collection\Session;
+
 /**
  * HTML template for Special:Book/rendering/ (finished)
  * @ingroup Templates
@@ -65,7 +67,7 @@ class CollectionFinishedTemplate extends QuickTemplate {
 			echo wfMessage( 'coll-return_to', $t )->parseAsBlock();
 		}
 
-		if ( CollectionSession::isEnabled() ) {
+		if ( Session::isEnabled() ) {
 			$title_string = wfMessage( 'coll-finished_collection_info_text_article' )->inContentLanguage()->text();
 		} else {
 			$title_string = wfMessage( 'coll-finished_page_info_text_article' )->inContentLanguage()->text();

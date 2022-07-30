@@ -20,6 +20,12 @@
  * http://www.gnu.org/copyleft/gpl.html
  */
 
+namespace MediaWiki\Extension\Collection;
+
+use Article;
+use TextContent;
+use Title;
+
 /**
  * it needs 3 Lists:
  * - one with the bookmembers
@@ -34,7 +40,7 @@
  *
  * the Class can only sort the proposals, if it can access the function compareProps
  */
-class CollectionProposals {
+class Proposals {
 
 	/**
 	 * @var array
@@ -172,7 +178,7 @@ class CollectionProposals {
 	private function deleteUnusedArticles() {
 		$newList = [];
 		foreach ( $this->mLinkList as $item ) {
-			if ( CollectionSession::findArticle( $item['name'] ) != -1 ) {
+			if ( Session::findArticle( $item['name'] ) != -1 ) {
 				$newList[] = $item;
 			}
 		}

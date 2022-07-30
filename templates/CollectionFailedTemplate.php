@@ -5,6 +5,8 @@
  * @ingroup Templates
  */
 
+use MediaWiki\Extension\Collection\Session;
+
 /**
  * HTML template for Special:Book/rendering/ (failed)
  * @ingroup Templates
@@ -18,7 +20,7 @@ class CollectionFailedTemplate extends QuickTemplate {
 			echo wfMessage( 'coll-return_to', $t )->parseAsBlock();
 		}
 
-		if ( CollectionSession::isEnabled() ) {
+		if ( Session::isEnabled() ) {
 			$title_string = wfMessage( 'coll-failed_collection_info_text_article' )->inContentLanguage()->text();
 		} else {
 			$title_string = wfMessage( 'coll-failed_page_info_text_article' )->inContentLanguage()->text();

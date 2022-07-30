@@ -5,6 +5,8 @@
  * @ingroup Templates
  */
 
+use MediaWiki\Extension\Collection\Session;
+
 /**
  * HTML template for Special:Book/rendering/ (in progress)
  * @ingroup Templates
@@ -22,7 +24,7 @@ class CollectionRenderingTemplate extends QuickTemplate {
 			->params( $this->data['status'] )->parse() ?>
 
 		<?php
-		if ( CollectionSession::isEnabled() ) {
+		if ( Session::isEnabled() ) {
 			$title_string = wfMessage( 'coll-rendering_collection_info_text_article' )->inContentLanguage()->text();
 		} else {
 			$title_string = wfMessage( 'coll-rendering_page_info_text_article' )->inContentLanguage()->text();

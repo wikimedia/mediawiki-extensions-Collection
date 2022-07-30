@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\Extension\Collection\Session as CollectionSession;
+use MediaWiki\Extension\Collection\Suggest;
 use MediaWiki\Session\SessionManager;
 
 /**
@@ -42,7 +44,7 @@ class ApiSuggestUndoArticleActionTest extends ApiTestCase {
 		$this->assertCount( 0, $session['wsCollectionSuggestBan'] );
 
 		CollectionSession::clearCollection();
-		CollectionSuggest::clear();
+		Suggest::clear();
 	}
 
 	public function testApiSuggestUndoArticleAction_UndoRemove() {

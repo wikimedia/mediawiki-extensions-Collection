@@ -1,7 +1,11 @@
 <?php
 
+namespace MediaWiki\Extension\Collection;
+
+use LinkBatch;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Session\SessionManager;
+use Title;
 
 /**
  * Collection Extension for MediaWiki
@@ -24,7 +28,7 @@ use MediaWiki\Session\SessionManager;
  * http://www.gnu.org/copyleft/gpl.html
  */
 
-class CollectionSession {
+class Session {
 	/**
 	 * @return bool
 	 */
@@ -56,7 +60,7 @@ class CollectionSession {
 			'settings' => [],
 			'items' => [],
 		];
-		CollectionSuggest::clear();
+		Suggest::clear();
 		self::touchSession();
 	}
 

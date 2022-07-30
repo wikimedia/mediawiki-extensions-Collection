@@ -32,10 +32,6 @@
 	},
 	"AutoloadClasses": {
 		"SpecialCollection": "includes/Specials/SpecialCollection.php",
-		"CollectionSession": "includes/CollectionSession.php",
-		"CollectionHooks": "includes/CollectionHooks.php",
-		"CollectionSuggest": "includes/CollectionSuggest.php",
-		"CollectionProposals": "includes/CollectionProposals.php",
 		"CollectionPageTemplate": "templates/CollectionPageTemplate.php",
 		"CollectionListTemplate": "templates/CollectionListTemplate.php",
 		"CollectionLoadOverwriteTemplate": "templates/CollectionLoadOverwriteTemplate.php",
@@ -115,9 +111,9 @@
 		"remoteExtPath": "Collection/resources"
 	},
 	"Hooks": {
-		"SidebarBeforeOutput": "CollectionHooks::onSidebarBeforeOutput",
-		"SiteNoticeAfter": "CollectionHooks::siteNoticeAfter",
-		"OutputPageCheckLastModified": "CollectionHooks::checkLastModified"
+		"SidebarBeforeOutput": "MediaWiki\\Extension\\Collection\\Hooks::onSidebarBeforeOutput",
+		"SiteNoticeAfter": "MediaWiki\\Extension\\Collection\\Hooks::siteNoticeAfter",
+		"OutputPageCheckLastModified": "MediaWiki\\Extension\\Collection\\Hooks::checkLastModified"
 	},
 	"config": {
 		"CollectionMWServeURL": {

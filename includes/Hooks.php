@@ -20,9 +20,17 @@
  * http://www.gnu.org/copyleft/gpl.html
  */
 
-use MediaWiki\Session\SessionManager;
+namespace MediaWiki\Extension\Collection;
 
-class CollectionHooks {
+use Linker;
+use MediaWiki\Session\SessionManager;
+use Skin;
+use SpecialPage;
+use TemplateParser;
+use Title;
+use Xml;
+
+class Hooks {
 	/**
 	 * Callback for SidebarBeforeOutput hook
 	 *
@@ -79,7 +87,7 @@ class CollectionHooks {
 		$out = [];
 
 		$booktitle = SpecialPage::getTitleFor( 'Book' );
-		if ( !CollectionSession::isEnabled() ) {
+		if ( !Session::isEnabled() ) {
 			if ( !$sk->getConfig()->get( 'CollectionDisableSidebarLink' ) ) {
 				$out[] = [
 					'text' => $sk->msg( 'coll-create_a_book' )->escaped(),
@@ -289,7 +297,7 @@ class CollectionHooks {
 			$collectionArgsJs = "mw.config.get('wgNamespaceNumber'), mw.config.get('wgTitle'), " .
 				Xml::encodeJsVar( $oldid );
 			if ( $hint == 'addarticle'
-				|| ( $hint == '' && CollectionSession::findArticle( $ptext, $oldid ) == -1 ) ) {
+				|| ( $hint == '' && Session::findArticle( $ptext, $oldid ) == -1 ) ) {
 				$id = 'coll-add_article';
 				$icon = 'silk-add.png';
 				$captionMsg = 'coll-add_this_page';
@@ -333,7 +341,7 @@ class CollectionHooks {
 	 * @return string
 	 */
 	public static function getBookCreatorBoxShowBookLink( $imagePath, $hint ) {
-		$numArticles = CollectionSession::countArticles();
+		$numArticles = Session::countArticles();
 
 		if ( $hint == 'showbook' ) {
 			return Xml::tags( 'strong',

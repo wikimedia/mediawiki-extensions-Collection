@@ -23,8 +23,8 @@
 namespace MediaWiki\Extension\Collection\Api;
 
 use ApiBase;
-use CollectionSession;
-use CollectionSuggest;
+use MediaWiki\Extension\Collection\Session;
+use MediaWiki\Extension\Collection\Suggest;
 
 class ApiClearCollection extends ApiBase {
 	use CollectionTrait;
@@ -33,8 +33,8 @@ class ApiClearCollection extends ApiBase {
 	 * execute the API request
 	 */
 	public function execute() {
-		CollectionSession::clearCollection();
-		CollectionSuggest::clear();
+		Session::clearCollection();
+		Suggest::clear();
 
 		$this->getCollectionItemListAfterAction();
 	}

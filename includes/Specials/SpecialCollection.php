@@ -23,6 +23,8 @@
 use MediaWiki\Extension\Collection\MessageBoxHelper;
 use MediaWiki\Extension\Collection\Rendering\CollectionAPIResult;
 use MediaWiki\Extension\Collection\Rendering\CollectionRenderingAPI;
+use MediaWiki\Extension\Collection\Session as CollectionSession;
+use MediaWiki\Extension\Collection\Suggest;
 use MediaWiki\MediaWikiServices;
 
 class SpecialCollection extends SpecialPage {
@@ -319,22 +321,22 @@ class SpecialCollection extends SpecialPage {
 		$addselected = $request->getVal( 'addselected' );
 
 		if ( $request->getVal( 'resetbans' ) ) {
-			CollectionSuggest::run( 'resetbans' );
+			Suggest::run( 'resetbans' );
 		} elseif ( isset( $add ) ) {
-			CollectionSuggest::run( 'add', $add );
+			Suggest::run( 'add', $add );
 		} elseif ( isset( $ban ) ) {
-			CollectionSuggest::run( 'ban', $ban );
+			Suggest::run( 'ban', $ban );
 		} elseif ( isset( $remove ) ) {
-			CollectionSuggest::run( 'remove', $remove );
+			Suggest::run( 'remove', $remove );
 		} elseif ( isset( $addselected ) ) {
 			$articleList = $request->getArray( 'articleList' );
 			if ( $articleList !== null ) {
-				CollectionSuggest::run( 'addAll', $articleList );
+				Suggest::run( 'addAll', $articleList );
 			} else {
-				CollectionSuggest::run();
+				Suggest::run();
 			}
 		} else {
-			CollectionSuggest::run();
+			Suggest::run();
 		}
 	}
 

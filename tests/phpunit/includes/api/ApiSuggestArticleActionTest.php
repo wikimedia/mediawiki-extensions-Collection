@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\Extension\Collection\Session as CollectionSession;
+
 use MediaWiki\Session\SessionManager;
 
 /**

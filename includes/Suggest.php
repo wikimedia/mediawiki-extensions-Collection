@@ -20,15 +20,19 @@
  * http://www.gnu.org/copyleft/gpl.html
  */
 
+namespace MediaWiki\Extension\Collection;
+
+use CollectionSuggestTemplate;
 use MediaWiki\Session\SessionManager;
+use SpecialCollection;
 
 /**
  * This class contains only static methods, so theres no need for a constructer.
  * When the page Special:Book/suggest/ is loaded the method run() is called.
- * Ajax calles refresh().
+ * Ajax calls refresh().
  * When clearing a book the method clear() should be called.
  */
-class CollectionSuggest {
+class Suggest {
 
 	/**
 	 * Main entrypoint
@@ -46,8 +50,8 @@ class CollectionSuggest {
 	public static function run( $mode = '', $param = '' ) {
 		global $wgOut;
 
-		if ( !CollectionSession::hasSession() ) {
-			CollectionSession::startSession();
+		if ( !Session::hasSession() ) {
+			Session::startSession();
 		}
 
 		$template = self::getCollectionSuggestTemplate( $mode, $param );
@@ -76,7 +80,7 @@ class CollectionSuggest {
 			'suggestions_html' => $template->getProposalList(),
 			'members_html' => $template->getMemberList(),
 			'num_pages' => wfMessage( 'coll-n_pages' )
-				->numParams( CollectionSession::countArticles() )
+				->numParams( Session::countArticles() )
 				->escaped(),
 		];
 	}
@@ -187,7 +191,7 @@ class CollectionSuggest {
 		}
 
 		$template = new CollectionSuggestTemplate();
-		$proposals = new CollectionProposals(
+		$proposals = new Proposals(
 			$session['wsCollection'],
 			$session['wsCollectionSuggestBan'],
 			$session['wsCollectionSuggestProp']
@@ -200,7 +204,7 @@ class CollectionSuggest {
 		$template->set( 'collection', $session['wsCollection'] );
 		$template->set( 'proposals', $proposals->getProposals( $wgCollectionMaxSuggestions ) );
 		$template->set( 'hasbans', $proposals->hasBans() );
-		$template->set( 'num_pages', CollectionSession::countArticles() );
+		$template->set( 'num_pages', Session::countArticles() );
 
 		$session['wsCollectionSuggestProp'] = $proposals->getLinkList();
 
@@ -211,9 +215,9 @@ class CollectionSuggest {
 	 * Add some articles and update the book of the Proposal-Object
 	 *
 	 * @param array $articleList with the names of the articles to be added
-	 * @param CollectionProposals $prop
+	 * @param Proposals $prop
 	 */
-	private static function addArticlesFromName( $articleList, CollectionProposals $prop ) {
+	private static function addArticlesFromName( $articleList, Proposals $prop ) {
 		$session = SessionManager::getGlobalSession();
 		foreach ( $articleList as $article ) {
 			SpecialCollection::addArticleFromName( NS_MAIN, $article );

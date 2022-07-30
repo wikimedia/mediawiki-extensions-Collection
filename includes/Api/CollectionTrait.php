@@ -24,7 +24,7 @@ namespace MediaWiki\Extension\Collection\Api;
 
 use ApiBase;
 use CollectionListTemplate;
-use CollectionSession;
+use MediaWiki\Extension\Collection\Session;
 
 trait CollectionTrait {
 	/** @var ApiBase */
@@ -53,7 +53,7 @@ trait CollectionTrait {
 	 * an article has been added to their collection.
 	 */
 	public function getCollectionItemListAfterAction() {
-		$collection = CollectionSession::getCollection();
+		$collection = Session::getCollection();
 		$template = new CollectionListTemplate();
 		$template->set( 'collection', $collection );
 

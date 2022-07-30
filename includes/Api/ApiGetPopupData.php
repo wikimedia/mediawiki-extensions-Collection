@@ -23,7 +23,7 @@
 namespace MediaWiki\Extension\Collection\Api;
 
 use ApiBase;
-use CollectionSession;
+use MediaWiki\Extension\Collection\Session;
 use MediaWiki\Page\WikiPageFactory;
 use Title;
 use TitleFactory;
@@ -72,7 +72,7 @@ class ApiGetPopupData extends ApiBase {
 				$title = $t->getPrefixedText();
 			}
 		}
-		if ( CollectionSession::findArticle( $title ) == -1 ) {
+		if ( Session::findArticle( $title ) == -1 ) {
 			$result['action'] = 'add';
 			$result['text'] = $this->msg( 'coll-add_linked_article' )->text();
 			$result['img'] = "$imagePath/silk-add.png";

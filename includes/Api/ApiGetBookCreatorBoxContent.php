@@ -23,7 +23,7 @@
 namespace MediaWiki\Extension\Collection\Api;
 
 use ApiBase;
-use CollectionHooks;
+use MediaWiki\Extension\Collection\Hooks;
 use Title;
 use Wikimedia\ParamValidator\ParamValidator;
 
@@ -37,7 +37,7 @@ class ApiGetBookCreatorBoxContent extends ApiBase {
 		$oldid = $params['oldid'] ? (int)$params['oldid'] : 0;
 		$title = $params['pagename'] ? Title::newFromText( $params['pagename'] ) : Title::newMainPage();
 		$title = $title ?? Title::newMainPage();
-		$html = CollectionHooks::getBookCreatorBoxContent( $title, $params['hint'], $oldid );
+		$html = Hooks::getBookCreatorBoxContent( $title, $params['hint'], $oldid );
 		$result = [ 'html' => $html ];
 		$this->getResult()->addValue( null, $this->getModuleName(), $result );
 	}

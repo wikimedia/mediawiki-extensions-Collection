@@ -23,7 +23,7 @@
 namespace MediaWiki\Extension\Collection\Api;
 
 use ApiBase;
-use CollectionSuggest;
+use MediaWiki\Extension\Collection\Suggest;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiSuggestUndoArticleAction extends ApiBase {
@@ -34,7 +34,7 @@ class ApiSuggestUndoArticleAction extends ApiBase {
 	 */
 	public function execute() {
 		[ 'lastaction' => $lastAction, 'title' => $title ] = $this->extractRequestParams();
-		$result = CollectionSuggest::undo( $lastAction, $title );
+		$result = Suggest::undo( $lastAction, $title );
 		$this->getResult()->addValue( null, $this->getModuleName(), $result );
 	}
 
