@@ -18,7 +18,7 @@
 		"collectionsaveascommunitypage"
 	],
 	"SpecialPages": {
-		"Book": "SpecialCollection",
+		"Book": "MediaWiki\\Extension\\Collection\\Specials\\SpecialCollection",
 		"RenderBook": "MediaWiki\\Extension\\Collection\\Specials\\SpecialRenderBook"
 	},
 	"MessagesDirs": {
@@ -31,7 +31,6 @@
 		"CollectionAlias": "Collection.alias.php"
 	},
 	"AutoloadClasses": {
-		"SpecialCollection": "includes/Specials/SpecialCollection.php",
 		"CollectionPageTemplate": "templates/CollectionPageTemplate.php",
 		"CollectionListTemplate": "templates/CollectionListTemplate.php",
 		"CollectionLoadOverwriteTemplate": "templates/CollectionLoadOverwriteTemplate.php",

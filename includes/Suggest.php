@@ -23,11 +23,11 @@
 namespace MediaWiki\Extension\Collection;
 
 use CollectionSuggestTemplate;
+use MediaWiki\Extension\Collection\Specials\SpecialCollection;
 use MediaWiki\Session\SessionManager;
-use SpecialCollection;
 
 /**
- * This class contains only static methods, so theres no need for a constructer.
+ * This class contains only static methods, so there's no need for a constructor.
  * When the page Special:Book/suggest/ is loaded the method run() is called.
  * Ajax calls refresh().
  * When clearing a book the method clear() should be called.

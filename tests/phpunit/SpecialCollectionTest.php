@@ -2,11 +2,11 @@
 
 namespace MediaWiki\Extension\Collection;
 
+use MediaWiki\Extension\Collection\Specials\SpecialCollection;
 use MediaWikiCoversValidator;
-use SpecialCollection;
 
 /**
- * @covers SpecialCollection
+ * @covers \MediaWiki\Extension\Collection\Specials\SpecialCollection
  */
 class SpecialCollectionTest extends \PHPUnit\Framework\TestCase {
 	use MediaWikiCoversValidator;

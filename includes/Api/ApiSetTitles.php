@@ -24,7 +24,7 @@ namespace MediaWiki\Extension\Collection\Api;
 
 use ApiBase;
 use FormatJson;
-use SpecialCollection;
+use MediaWiki\Extension\Collection\Specials\SpecialCollection;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiSetTitles extends ApiBase {

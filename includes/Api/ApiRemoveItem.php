@@ -23,7 +23,7 @@
 namespace MediaWiki\Extension\Collection\Api;
 
 use ApiBase;
-use SpecialCollection;
+use MediaWiki\Extension\Collection\Specials\SpecialCollection;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiRemoveItem extends ApiBase {

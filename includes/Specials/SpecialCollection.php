@@ -20,12 +20,32 @@
  * http://www.gnu.org/copyleft/gpl.html
  */
 
+namespace MediaWiki\Extension\Collection\Specials;
+
+use ApiMain;
+use CollectionFailedTemplate;
+use CollectionFinishedTemplate;
+use CollectionLoadOverwriteTemplate;
+use CollectionPageTemplate;
+use CollectionRenderingTemplate;
+use CollectionSaveOverwriteTemplate;
+use DerivativeRequest;
+use Exception;
 use MediaWiki\Extension\Collection\MessageBoxHelper;
 use MediaWiki\Extension\Collection\Rendering\CollectionAPIResult;
 use MediaWiki\Extension\Collection\Rendering\CollectionRenderingAPI;
 use MediaWiki\Extension\Collection\Session as CollectionSession;
 use MediaWiki\Extension\Collection\Suggest;
 use MediaWiki\MediaWikiServices;
+use MWHttpRequest;
+use OOUI\ButtonGroupWidget;
+use OOUI\ButtonInputWidget;
+use OOUI\ButtonWidget;
+use OOUI\FormLayout;
+use SkinTemplate;
+use SpecialPage;
+use Title;
+use WebRequest;
 
 class SpecialCollection extends SpecialPage {
 
@@ -410,7 +430,7 @@ class SpecialCollection extends SpecialPage {
 			$title = Title::newMainPage();
 		}
 
-		$form = new OOUI\FormLayout( [
+		$form = new FormLayout( [
 			'method' => 'POST',
 			'action' => SkinTemplate::makeSpecialUrl(
 				'Book',
@@ -420,16 +440,16 @@ class SpecialCollection extends SpecialPage {
 				]
 			),
 		] );
-		$form->appendContent( new OOUI\ButtonGroupWidget( [
+		$form->appendContent( new ButtonGroupWidget( [
 			'items' => [
-				new OOUI\ButtonInputWidget( [
+				new ButtonInputWidget( [
 					'type' => 'submit',
 					'name' => 'confirm',
 					'value' => 'yes',
 					'flags' => [ 'primary', 'progressive' ],
 					'label' => $this->msg( 'coll-start_book_creator' )->text(),
 				] ),
-				new OOUI\ButtonWidget( [
+				new ButtonWidget( [
 					'href' => $title->getLinkURL(),
 					'title' => $title->getPrefixedText(),
 					'label' => $this->msg( 'coll-cancel' )->text(),
@@ -462,7 +482,7 @@ class SpecialCollection extends SpecialPage {
 		$out->setPageTitle( $this->msg( 'coll-book_creator_disable' ) );
 		$out->addWikiMsg( 'coll-book_creator_disable_text' );
 
-		$form = new OOUI\FormLayout( [
+		$form = new FormLayout( [
 			'method' => 'POST',
 			'action' => SkinTemplate::makeSpecialUrl(
 				'Book',
@@ -472,15 +492,15 @@ class SpecialCollection extends SpecialPage {
 				]
 			),
 		] );
-		$form->appendContent( new OOUI\ButtonGroupWidget( [
+		$form->appendContent( new ButtonGroupWidget( [
 			'items' => [
-				new OOUI\ButtonInputWidget( [
+				new ButtonInputWidget( [
 					'type' => 'submit',
 					'name' => 'continue',
 					'value' => 'yes',
 					'label' => $this->msg( 'coll-book_creator_continue' )->text(),
 				] ),
-				new OOUI\ButtonInputWidget( [
+				new ButtonInputWidget( [
 					'type' => 'submit',
 					'name' => 'confirm',
 					'value' => 'yes',
@@ -1133,7 +1153,7 @@ class SpecialCollection extends SpecialPage {
 		$this->setHeaders();
 		$request = $this->getRequest();
 		$out = $this->getOutput();
-		$stats = MediaWiki\MediaWikiServices::getInstance()->getStatsdDataFactory();
+		$stats = MediaWikiServices::getInstance()->getStatsdDataFactory();
 
 		$collectionId = $request->getVal( 'collection_id' );
 		$writer = $request->getVal( 'writer' );
