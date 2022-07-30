@@ -1,5 +1,9 @@
 <?php
 
+namespace MediaWiki\Extension\Collection\Rendering;
+
+use Http;
+
 /**
  * API for PediaPress' mw-serve
  */

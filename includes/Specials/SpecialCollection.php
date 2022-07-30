@@ -21,6 +21,8 @@
  */
 
 use MediaWiki\Extension\Collection\MessageBoxHelper;
+use MediaWiki\Extension\Collection\Rendering\CollectionAPIResult;
+use MediaWiki\Extension\Collection\Rendering\CollectionRenderingAPI;
 use MediaWiki\MediaWikiServices;
 
 class SpecialCollection extends SpecialPage {

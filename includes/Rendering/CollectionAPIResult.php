@@ -1,5 +1,9 @@
 <?php
 
+namespace MediaWiki\Extension\Collection\Rendering;
+
+use FormatJson;
+
 /**
  * A wrapper for data returned by the API
  */

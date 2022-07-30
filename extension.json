@@ -43,10 +43,7 @@
 		"CollectionRenderingTemplate": "templates/CollectionRenderingTemplate.php",
 		"CollectionFinishedTemplate": "templates/CollectionFinishedTemplate.php",
 		"CollectionFailedTemplate": "templates/CollectionFailedTemplate.php",
-		"CollectionSuggestTemplate": "templates/CollectionSuggestTemplate.php",
-		"CollectionRenderingAPI": "includes/rendering/CollectionRenderingAPI.php",
-		"MWServeRenderingAPI": "includes/rendering/MWServeRenderingAPI.php",
-		"CollectionAPIResult": "includes/rendering/CollectionAPIResult.php"
+		"CollectionSuggestTemplate": "templates/CollectionSuggestTemplate.php"
 	},
 	"APIModules": {
 		"collection": {

@@ -1,6 +1,11 @@
 <?php
 
+namespace MediaWiki\Extension\Collection\Rendering;
+
+use ExtensionRegistry;
+use FormatJson;
 use MediaWiki\MediaWikiServices;
+use RequestContext;
 
 /**
  * Base class for API that interacts with book rendering service
