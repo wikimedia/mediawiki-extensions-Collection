@@ -5,14 +5,22 @@
  * @ingroup Templates
  */
 
+namespace MediaWiki\Extension\Collection\Templates;
+
+use OutputPage;
+use QuickTemplate;
+use SkinTemplate;
+use Title;
+
 /**
  * HTML template for Special:Book/load_collection/ when overwriting an exisiting collection
+ *
  * @ingroup Templates
  */
 class CollectionLoadOverwriteTemplate extends QuickTemplate {
 	public function execute() {
 		/**
-		 * @see \SpecialCollection::renderLoadOverwritePage
+		 * @see SpecialCollection::renderLoadOverwritePage
 		 * @var OutputPage $output
 		 * @var Title $title
 		 */

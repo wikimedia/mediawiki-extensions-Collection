@@ -5,7 +5,13 @@
  * @ingroup Templates
  */
 
+namespace MediaWiki\Extension\Collection\Templates;
+
+use Html;
 use MediaWiki\Extension\Collection\Session;
+use QuickTemplate;
+use SkinTemplate;
+use Title;
 
 /**
  * HTML template for Special:Book/rendering/ (finished)

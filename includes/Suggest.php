@@ -22,8 +22,8 @@
 
 namespace MediaWiki\Extension\Collection;
 
-use CollectionSuggestTemplate;
 use MediaWiki\Extension\Collection\Specials\SpecialCollection;
+use MediaWiki\Extension\Collection\Templates\CollectionSuggestTemplate;
 use MediaWiki\Session\SessionManager;
 
 /**

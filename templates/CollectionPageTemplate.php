@@ -5,7 +5,19 @@
  * @ingroup Templates
  */
 
+namespace MediaWiki\Extension\Collection\Templates;
+
+use ContextSource;
+use DerivativeContext;
+use FauxRequest;
+use HTMLForm;
+use IContextSource;
 use MediaWiki\Extension\Collection\MessageBoxHelper;
+use QuickTemplate;
+use SkinTemplate;
+use SpecialPage;
+use TemplateParser;
+use Title;
 
 /**
  * HTML template for Special:Book

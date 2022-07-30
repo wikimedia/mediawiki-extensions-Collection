@@ -30,23 +30,14 @@
 	"ExtensionMessagesFiles": {
 		"CollectionAlias": "Collection.alias.php"
 	},
-	"AutoloadClasses": {
-		"CollectionPageTemplate": "templates/CollectionPageTemplate.php",
-		"CollectionListTemplate": "templates/CollectionListTemplate.php",
-		"CollectionLoadOverwriteTemplate": "templates/CollectionLoadOverwriteTemplate.php",
-		"CollectionSaveOverwriteTemplate": "templates/CollectionSaveOverwriteTemplate.php",
-		"CollectionRenderingTemplate": "templates/CollectionRenderingTemplate.php",
-		"CollectionFinishedTemplate": "templates/CollectionFinishedTemplate.php",
-		"CollectionFailedTemplate": "templates/CollectionFailedTemplate.php",
-		"CollectionSuggestTemplate": "templates/CollectionSuggestTemplate.php"
-	},
 	"APIModules": {
 		"collection": {
 			"class": "MediaWiki\\Extension\\Collection\\Api\\ApiCollection"
 		}
 	},
 	"AutoloadNamespaces": {
-		"MediaWiki\\Extension\\Collection\\": "includes/"
+		"MediaWiki\\Extension\\Collection\\": "includes/",
+		"MediaWiki\\Extension\\Collection\\Templates\\": "templates/"
 	},
 	"ResourceModules": {
 		"ext.collection": {

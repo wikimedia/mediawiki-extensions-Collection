@@ -23,8 +23,8 @@
 namespace MediaWiki\Extension\Collection\Api;
 
 use ApiBase;
-use CollectionListTemplate;
 use MediaWiki\Extension\Collection\Session;
+use MediaWiki\Extension\Collection\Templates\CollectionListTemplate;
 
 trait CollectionTrait {
 	/** @var ApiBase */

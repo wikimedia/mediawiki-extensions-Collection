@@ -23,12 +23,6 @@
 namespace MediaWiki\Extension\Collection\Specials;
 
 use ApiMain;
-use CollectionFailedTemplate;
-use CollectionFinishedTemplate;
-use CollectionLoadOverwriteTemplate;
-use CollectionPageTemplate;
-use CollectionRenderingTemplate;
-use CollectionSaveOverwriteTemplate;
 use DerivativeRequest;
 use Exception;
 use MediaWiki\Extension\Collection\MessageBoxHelper;
@@ -36,6 +30,12 @@ use MediaWiki\Extension\Collection\Rendering\CollectionAPIResult;
 use MediaWiki\Extension\Collection\Rendering\CollectionRenderingAPI;
 use MediaWiki\Extension\Collection\Session as CollectionSession;
 use MediaWiki\Extension\Collection\Suggest;
+use MediaWiki\Extension\Collection\Templates\CollectionFailedTemplate;
+use MediaWiki\Extension\Collection\Templates\CollectionFinishedTemplate;
+use MediaWiki\Extension\Collection\Templates\CollectionLoadOverwriteTemplate;
+use MediaWiki\Extension\Collection\Templates\CollectionPageTemplate;
+use MediaWiki\Extension\Collection\Templates\CollectionRenderingTemplate;
+use MediaWiki\Extension\Collection\Templates\CollectionSaveOverwriteTemplate;
 use MediaWiki\MediaWikiServices;
 use MWHttpRequest;
 use OOUI\ButtonGroupWidget;

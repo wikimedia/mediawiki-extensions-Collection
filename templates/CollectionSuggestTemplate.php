@@ -5,6 +5,13 @@
  * @ingroup Templates
  */
 
+namespace MediaWiki\Extension\Collection\Templates;
+
+use QuickTemplate;
+use SkinTemplate;
+use Title;
+use Xml;
+
 /**
  * Template for suggest feature
  *

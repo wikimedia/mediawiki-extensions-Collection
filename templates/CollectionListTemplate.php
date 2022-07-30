@@ -5,8 +5,15 @@
  * @ingroup Templates
  */
 
+namespace MediaWiki\Extension\Collection\Templates;
+
+use QuickTemplate;
+use SkinTemplate;
+use Xml;
+
 /**
  * HTML template for Special:Book collection item list
+ *
  * @ingroup Templates
  */
 class CollectionListTemplate extends QuickTemplate {

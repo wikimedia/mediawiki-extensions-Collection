@@ -5,8 +5,14 @@
  * @ingroup Templates
  */
 
+namespace MediaWiki\Extension\Collection\Templates;
+
+use QuickTemplate;
+use SkinTemplate;
+
 /**
  * HTML template for Special:Book/save_collection/ when overwriting an exisiting collection
+ *
  * @ingroup Templates
  */
 class CollectionSaveOverwriteTemplate extends QuickTemplate {
