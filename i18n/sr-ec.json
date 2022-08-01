@@ -15,7 +15,8 @@
 			"Обрадовић Горан",
 			"Сербијана",
 			"Kizule",
-			"Srđan"
+			"Srđan",
+			"Vlad5250"
 		]
 	},
 	"coll-desc": "[[Special:Book|Креирање књига]]",
@@ -133,7 +134,9 @@
 	"coll-format-zim": "Kiwix (OpenZIM)",
 	"coll-format-docbook": "DocBook",
 	"coll-format-okawix_zeno": "Okawix",
+	"action-collectionsaveasuserpage": "чувате књиге у виду корисничких страница",
 	"right-collectionsaveasuserpage": "чување књига у виду корисничке странице",
+	"action-collectionsaveascommunitypage": "чувате књиге као заједничке странице",
 	"right-collectionsaveascommunitypage": "чување књига у виду заједничке странице",
 	"coll-print_export": "Штампање/извоз",
 	"coll-create_a_book": "Прављење књиге",
@@ -162,9 +165,9 @@
 	"coll-n_pages": "$1 {{PLURAL:$1|страница|странице|страница}}",
 	"coll-printable_version_pdf": "PDF издање",
 	"coll-remove_this_page": "Уклони ову страницу из своје књиге",
-	"coll-remove_page_tooltip": "Уклоните тренутну вики страницу из књиге",
+	"coll-remove_page_tooltip": "Уклоните тренутну вики страницу из своје књиге",
 	"coll-show_collection": "Прикажи књигу",
-	"coll-show_collection_tooltip": "Кликните за измену, преузимање или наручивање своје књиге",
+	"coll-show_collection_tooltip": "Кликните за измену/преузимање/наручивање своје књиге",
 	"coll-not_addable": "Ова страница се не може додати",
 	"coll-make_suggestions": "Предложи странице",
 	"coll-make_suggestions_tooltip": "Прикажи предлоге засноване на страницама из ваше књиге",
