@@ -149,5 +149,6 @@
 	"coll-attribution-anons": "Anoniem: $1",
 	"coll-attribution-page": "<h1>Teks en beelde se bronne, bydraers en lisensies</h1>\n<h2>Teks</h2>\n$1<h2>Beelde</h2>\n$2\n<h2>Inhoudlisensie</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Bron:</i> $2 <i>Bydraers:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Bron:</i> $2 <i>Lisensie:</i> $3 <i>Bydraers:</i> $4 <i>Oorspronklike kunstenaar:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Bron:</i> $2 <i>Lisensie:</i> $3 <i>Bydraers:</i> $4 <i>Oorspronklike kunstenaar:</i> $5",
+	"coll-toc-title": "Inhoudsopgawe"
 }
