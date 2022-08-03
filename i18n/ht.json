@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Boukman",
 			"Tisave"
 		]
@@ -10,7 +11,7 @@
 	"coll-move_up": "Monte",
 	"coll-move_down": "Desann",
 	"coll-suggest_undo_tooltip": "Defè aksyon sa a",
-	"coll-suggest_undo": "Defè",
+	"coll-suggest_undo": "defè",
 	"coll-print_export": "Enprime / ekspòte",
 	"coll-create_a_book": "Kreye yon liv",
 	"coll-download_as": "Telechaje kòm $1",
@@ -18,7 +19,7 @@
 	"coll-add_page_tooltip": "Ajoute paj wiki sa a nan liv ou",
 	"coll-help": "Èd",
 	"coll-help_tooltip": "Montre èd sou kijan pou kreye liv",
-	"coll-helppage": "Èd:Liv",
+	"coll-helppage": "Help:Liv",
 	"coll-remove_this_page": "Retire paj sa a nan liv ou",
 	"coll-show_collection": "Montre liv la",
 	"coll-show_collection_tooltip": "Klike pou chanje / telechaje / kòmande liv ou a",
