@@ -4,7 +4,8 @@
 			"Oby Ezeilo",
 			"Ukabia",
 			"Uzoma Ozurumba",
-			"Tochiprecious"
+			"Tochiprecious",
+			"Amire80"
 		]
 	},
 	"coll-remove": "Wepụ",
@@ -32,5 +33,5 @@
 	"coll-show_collection": "Zi akwụkwọ",
 	"coll-show_collection_tooltip": "pia ka idezia/nwete/nata akwụkwọ gi",
 	"coll-make_suggestions": "Tụọ aro ihuakụkwọ",
-	"coll-image-attribution": "<b>$1</b> <i>nsi nweta:</i> $2 <i>ikike:</i> $3 <i>ndị enyemaka:</i> $4 <i>onye chepụtara ihe:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Nsi nweta:</i> $2 <i>ikike:</i> $3 <i>Ndị enyemaka:</i> $4 <i>Onye chepụtara ihe:</i> $5"
 }
