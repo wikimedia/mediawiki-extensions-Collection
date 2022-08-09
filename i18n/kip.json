@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"राम प्रसाद जोशी"
+			"राम प्रसाद जोशी",
+			"Bada Kaji"
 		]
 	},
 	"coll-remove": "हटाउने",
-	"coll-show": "देखाउने",
+	"coll-show": "देखाउनुहोस्",
 	"coll-move_up": "माथि पठाउने",
 	"coll-move_down": "तल पठाउने",
 	"coll-print_export": "प्रिन्ट/निर्यात",
