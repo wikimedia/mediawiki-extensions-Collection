@@ -8,7 +8,8 @@
 			"Mohammed Galib Hasan",
 			"Tauhid16",
 			"Wikitanvir",
-			"আফতাবুজ্জামান"
+			"আফতাবুজ্জামান",
+			"আজিজ"
 		]
 	},
 	"coll-desc": "[[Special:Book|বই তৈরি]]",
@@ -47,7 +48,7 @@
 	"coll-drag_and_drop": "উইকি পাতা এবং অধ্যায়ের ক্রম পুনরায় ঠিক করতে ড্র্যাগ এন্ড ড্রপ ব্যবহার করুন",
 	"coll-create_chapter": "অনুচ্ছেদ তৈরি করুন",
 	"coll-sort_alphabetically": "বর্ণানুক্রমিক সাজান",
-	"coll-rename": "নামান্তর",
+	"coll-rename": "পুনঃনামকরণ",
 	"coll-new_chapter": "নতুন অধ্যায়ের নাম লিখুন",
 	"coll-rename_chapter": "অধ্যায়ের নতুন নাম লিখুন",
 	"coll-no_such_category": "এমন কোনো বিষয়শ্রেণি নেই",
