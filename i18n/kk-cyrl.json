@@ -148,5 +148,6 @@
 	"coll-setting-toc-no": "Жоқ",
 	"coll-setting-columns": "Бағандар:",
 	"coll-attribution-anons": "Аноним:$1",
-	"coll-article-attribution": "<b>$1</b> <i>Қайнары:</i> $2 <i>Үлескерлер:</i> $3"
+	"coll-article-attribution": "<b>$1</b> <i>Қайнары:</i> $2 <i>Үлескерлер:</i> $3",
+	"coll-images-source": "Көзі"
 }
