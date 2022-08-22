@@ -6,7 +6,8 @@
 			"Meursault2004",
 			"NoiX180",
 			"Pras",
-			"Sumbukompor"
+			"Sumbukompor",
+			"Veracious"
 		]
 	},
 	"coll-desc": "[[Special:Book|Gawé buku]]",
@@ -154,5 +155,8 @@
 	"coll-setting-columns": "Kolem:",
 	"coll-attribution-anons": "Anonim: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Sumber:</i> $2 <i>Kang nyumbang:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Sumber:</i> $2 <i>Palilah:</i> $3 <i>Sing nyumbang:</i> $4 <i>Pandhé asli:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Sumber:</i> $2 <i>Palilah:</i> $3 <i>Sing nyumbang:</i> $4 <i>Pandhé asli:</i> $5",
+	"coll-toc-title": "Pratélan Isi",
+	"coll-contributors-title": "Panyumbang",
+	"coll-images-title": "Gambar"
 }
