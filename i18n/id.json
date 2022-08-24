@@ -14,12 +14,14 @@
 			"Rachmat04",
 			"Rex",
 			"Sumbukompor",
-			"Mnam23"
+			"Mnam23",
+			"Ezagren",
+			"Veracious"
 		]
 	},
 	"coll-desc": "[[Special:Book|Buat buku]]",
 	"coll-book_creator_intro": "<big>Dengan ''pembuat buku'', Anda dapat membuat buku berisi halaman wiki pilihan Anda. Anda dapat mengekspor buku dalam berbagai format (misalnya, PDF atau ODF) atau memesan versi cetaknya.</big>",
-	"coll-manage_your_book": "Pengelolaan buku",
+	"coll-manage_your_book": "Kelola buku Anda",
 	"coll-book_creator_help": "Lihat [[{{MediaWiki:Coll-helppage}}|halaman bantuan tentang buku]] untuk informasi selengkapnya.",
 	"coll-start_book_creator": "Mulai pembuat buku",
 	"coll-book_creator_continue": "Lanjutkan menggunakan pembuat buku",

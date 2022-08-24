@@ -4,7 +4,8 @@
 			"Arystanbek",
 			"Kaztrans",
 			"Macofe",
-			"Hedeyohu22"
+			"Hedeyohu22",
+			"СеніңШешең"
 		]
 	},
 	"coll-desc": "[[Special:Book|Кітаптар жасау]]",
@@ -109,11 +110,11 @@
 	"coll-format-rdf2text": "Мәтіндік процеессор (жай мәтін)",
 	"right-collectionsaveasuserpage": "Қатысушы беті ретінде кітаптарды сақтау",
 	"right-collectionsaveascommunitypage": "Қауымдастық беті ретінде кітаптарды сақтау",
-	"coll-print_export": "Баспа/экспорт",
+	"coll-print_export": "Басып шығару/экспорттау",
 	"coll-create_a_book": "Кітап жасау",
 	"coll-create_a_book_tooltip": "Кітап немесе мақалалар топтамасын жасау",
 	"coll-book_creator": "Кітап жасаушы құралы",
-	"coll-download_as": "$1 түрінде жүктеп алу",
+	"coll-download_as": "$1 ретінде жүктеп алу",
 	"coll-download_as_tooltip": "Бұл беттің $1 нұсқасын жүктеп алу",
 	"coll-disable": "өшіру",
 	"coll-book_creator_disable": "Кітап жасаушы құралын өшіру",
@@ -150,5 +151,6 @@
 	"coll-setting-toc-no": "Жоқ",
 	"coll-setting-columns": "Бағандар:",
 	"coll-attribution-anons": "Аноним:$1",
-	"coll-article-attribution": "<b>$1</b> <i>Қайнары:</i> $2 <i>Үлескерлер:</i> $3"
+	"coll-article-attribution": "<b>$1</b> <i>Қайнары:</i> $2 <i>Үлескерлер:</i> $3",
+	"coll-images-source": "Көзі"
 }
