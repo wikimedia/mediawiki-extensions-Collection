@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"राम प्रसाद जोशी",
-			"Bada Kaji"
+			"Bada Kaji",
+			"बडा काजी"
 		]
 	},
 	"coll-remove": "हटाउने",
@@ -10,6 +11,6 @@
 	"coll-move_up": "माथि पठाउने",
 	"coll-move_down": "तल पठाउने",
 	"coll-print_export": "प्रिन्ट/निर्यात",
-	"coll-create_a_book": "पुस्तक बनाउने",
+	"coll-create_a_book": "पुस्तक बनाउनुहोस्",
 	"coll-download_as": "$1 ए रूपला डाउनलोड गरिने"
 }
