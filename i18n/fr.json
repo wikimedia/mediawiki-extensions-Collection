@@ -27,7 +27,8 @@
 			"Verdy p",
 			"Wladek92",
 			"Wyz",
-			"Zetud"
+			"Zetud",
+			"Cigaryno"
 		]
 	},
 	"coll-desc": "Permet de [[Special:Book|créer des livres]]",
@@ -146,9 +147,9 @@
 	"coll-format-rdf2latex": "livre électronique (PDF, rendu ocg latex)",
 	"coll-format-rdf2text": "Traitement de texte (texte brut)",
 	"action-collectionsaveasuserpage": "sauvegarder des livres comme des pages d’utilisateur",
-	"right-collectionsaveasuserpage": "Sauvegarder des livres comme des pages utilisateur",
+	"right-collectionsaveasuserpage": "Enregistrer des livres comme des pages utilisateur",
 	"action-collectionsaveascommunitypage": "sauvegarder des livres comme des pages communautaires",
-	"right-collectionsaveascommunitypage": "Sauvegarder des livres comme des pages communautaires",
+	"right-collectionsaveascommunitypage": "Enregistrer des livres comme des pages communautaires",
 	"coll-print_export": "Imprimer / exporter",
 	"coll-create_a_book": "Créer un livre",
 	"coll-create_a_book_tooltip": "Créer un livre ou une collection de pages",
