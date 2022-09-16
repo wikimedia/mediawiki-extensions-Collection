@@ -784,7 +784,6 @@ class SpecialCollection extends SpecialPage {
 		$tables = [ 'page', 'categorylinks' ];
 		$fields = [ 'page_namespace', 'page_title' ];
 		$options = [
-			'USE INDEX' => 'cl_sortkey',
 			'ORDER BY' => 'cl_type, cl_sortkey',
 			'LIMIT' => $limit + 1,
 		];
