@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Abbas dhothar",
+			"Bgo eiu",
 			"Khalid Mahmood"
 		]
 	},
@@ -20,7 +21,7 @@
 	"coll-book_creator_disable_tooltip": "کتاب بنانوالا ورتنا بند کرو",
 	"coll-add_this_page": "ایس صفحے نوں اپنی کتاب وچ رلاؤ",
 	"coll-add_page_tooltip": "ہندے وکی صفے نوں اپنی کتاب وچ رلاؤ",
-	"coll-help": "ہتھ ونڈائی",
+	"coll-help": "مدد",
 	"coll-help_tooltip": "کتاباں بنان وچ ہتھ ونڈائی دسو",
 	"coll-helppage": "Help:کتاباں",
 	"coll-n_pages": "$1 {{PLURAL:$1|صفحہ|صفحے}}",
