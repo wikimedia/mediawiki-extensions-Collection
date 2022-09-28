@@ -18,7 +18,8 @@
 			"ديفيد",
 			"زكريا",
 			"فلورانس",
-			"محمدالداودي"
+			"محمدالداودي",
+			"أَحمد"
 		]
 	},
 	"coll-desc": "[[Special:Book|ينشيء كتبا]]",
@@ -128,7 +129,7 @@
 	"coll-suggest_undo_tooltip": "استرجع هذا الفعل",
 	"coll-suggest_undo": "رجوع",
 	"coll-load_local_book": "اضغط OK للاستمرار في كتابك $1 الذي به $2 {{PLURAL:$2|صفحة ويكي|صفحات ويكي}}. اضغط Cancel لحذفه والبدء بكتاب فارغ.",
-	"coll-format-rl": "كتاب إلكتروني (PDF)",
+	"coll-format-rl": "كتاب إلكتروني (PDF, mwlib renderer)",
 	"coll-format-epub": "كتاب إلكتروني (EPUB)",
 	"coll-format-odf": "معالج النصوص (أوبن داكيومنت)",
 	"coll-format-zim": "كيويكس (أوبن زيم)",
