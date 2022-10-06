@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Lorenzoitza"
+			"Lorenzoitza",
+			"26agcp"
 		]
 	},
-	"coll-create_a_book": "Beet up'eel analte'"
+	"coll-create_a_book": "Beet up'eel analte'",
+	"coll-download_as": "Éems bey $1"
 }
