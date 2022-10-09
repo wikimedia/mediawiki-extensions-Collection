@@ -42,7 +42,6 @@ class ApiSuggestArticleAction extends ApiBase {
 
 		$result = Suggest::refresh( $action, $title );
 
-		// @phan-suppress-next-line SecurityCheck-DoubleEscaped
 		$undoLink = Xml::element( 'a',
 			[
 				'href' => SkinTemplate::makeSpecialUrl(
