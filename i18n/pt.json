@@ -22,7 +22,7 @@
 		]
 	},
 	"coll-desc": "[[Special:Book|Criar livros]]",
-	"coll-book_creator_intro": "<big>Com o ''criador de livros'' pode criar um livro que contém as páginas wiki que escolher. Pode exportar o livro em formatos diferentes (por exemplo, PDF ou ODF) ou encomendar uma cópia impressa.</big>",
+	"coll-book_creator_intro": "<big>Com o ''criador de livros'' pode criar um livro que contém as páginas que escolher da wiki. Pode exportar o livro em formatos diferentes (por exemplo, PDF ou ODF) ou encomendar uma cópia impressa.</big>",
 	"coll-manage_your_book": "Gerir o livro",
 	"coll-book_creator_help": "Para mais informações consulte [[{{MediaWiki:Coll-helppage}}|a página de ajuda sobre livros]].",
 	"coll-start_book_creator": "Iniciar o criador de livros",
