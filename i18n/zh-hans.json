@@ -20,7 +20,8 @@
 			"Yfdyh000",
 			"佛壁灯",
 			"Stang",
-			"Tr jason"
+			"Tr jason",
+			"Lakejason0"
 		]
 	},
 	"coll-desc": "[[Special:Book|创建图书]]",
@@ -148,8 +149,8 @@
 	"coll-book_creator": "图书创建器",
 	"coll-download_as": "下载为$1",
 	"coll-download_as_tooltip": "下载本维基页面的$1版本",
-	"coll-disable": "停用",
-	"coll-book_creator_disable": "停用图书创建器",
+	"coll-disable": "禁用",
+	"coll-book_creator_disable": "禁用图书创建器",
 	"coll-book_creator_disable_tooltip": "停止使用图书创建器",
 	"coll-add_linked_article": "添加相关维基页面至您的图书",
 	"coll-remove_linked_article": "从您的图书移除链接的wiki页面",

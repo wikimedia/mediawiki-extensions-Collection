@@ -17,7 +17,8 @@
 			"Stefano-c",
 			"Toadino2",
 			"Wim b",
-			"Ajeje Brazorf"
+			"Ajeje Brazorf",
+			"GpieroMW"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crea libri]]",
@@ -185,9 +186,9 @@
 	"coll-warning-disable-pdf-title": "Il creatore di libri sta subendo modifiche",
 	"coll-warning-disable-pdf-text": "A causa di gravi problemi nel nostro sistema esistente, il creatore di libri non supporterà il salvataggio di libri in PDF.",
 	"coll-warning-learn-more": "Ulteriori informazioni",
-	"coll-notice-download-pdf-title": "Scarica singole pagine",
-	"coll-notice-download-pdf-text": "Mentre il rendering PDF del creatore di libri viene disabilitato, puoi provare '''''Scarica come PDF'''''  dalla barra degli strumenti laterale per singole voci.",
-	"coll-toc-title": "Sommario",
+	"coll-notice-download-pdf-title": "Scarica pagine singole",
+	"coll-notice-download-pdf-text": "Mentre il rendering PDF del creatore di libri viene disabilitato, puoi provare '''''Scarica come PDF'''''  dalla barra degli strumenti laterale per i singoli articoli.",
+	"coll-toc-title": "Indice",
 	"coll-contributors-title": "Contributori",
 	"coll-images-title": "Immagini",
 	"coll-images-source": "Fonte",
