@@ -98,7 +98,7 @@
 	"coll-about_pp": "O $1",
 	"coll-invalid_podpartner_title": "Neveljaven partner TNZ",
 	"coll-invalid_podpartner_msg": "Izbran partner TNZ ni veljaven.\nKontaktirajte vašega skrbnika MediaWiki.",
-	"coll-license": "Dovoljenje",
+	"coll-license": "Licenca",
 	"coll-return_to": "Nazaj na [[:$1]]",
 	"coll-order_info_article": "{{MediaWiki:Coll-helppage}}/Podatki naročila PediaPress",
 	"coll-suggest_title": "Predlagane strani za vašo knjigo",
@@ -178,9 +178,9 @@
 	"coll-contributors-title": "Sodelavci",
 	"coll-images-title": "Slike",
 	"coll-images-source": "Vir",
-	"coll-images-license": "Dovoljenje",
+	"coll-images-license": "Licenca",
 	"coll-images-original-artist": "Izvirni umetnik",
-	"coll-license-title": "Dovoljenje vsebine",
+	"coll-license-title": "Licenca vsebine",
 	"coll-rendererror-title": "Knjige nismo mogli ustvariti",
 	"coll-rendererror-no-cache": "V predpomnilniku ni podatkov o knjigi. To je verjetno programska napaka."
 }
