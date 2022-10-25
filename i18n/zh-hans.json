@@ -21,7 +21,8 @@
 			"佛壁灯",
 			"Stang",
 			"Tr jason",
-			"Lakejason0"
+			"Lakejason0",
+			"Nervie"
 		]
 	},
 	"coll-desc": "[[Special:Book|创建图书]]",
@@ -56,7 +57,7 @@
 	"coll-title": "标题：",
 	"coll-subtitle": "副标题：",
 	"coll-contents": "目录",
-	"coll-drag_and_drop": "请用鼠标拖拽以改变维基页面和章节的顺序",
+	"coll-drag_and_drop": "拖放以重新排列 wiki 页面和章节",
 	"coll-create_chapter": "创建章节",
 	"coll-sort_alphabetically": "按字母排序",
 	"coll-rename": "重命名",
@@ -64,7 +65,7 @@
 	"coll-rename_chapter": "请输入章节的新名称",
 	"coll-notitle_title": "无法获取页面标题",
 	"coll-notitle_msg": "页面标题无法确定。",
-	"coll-request_failed_title": "书本呈现失败",
+	"coll-request_failed_title": "书本渲染失败",
 	"coll-request_failed_msg": "尝试呈现您的书本时遇到一个错误。",
 	"coll-empty_collection": "空图书",
 	"coll-save_collection_title": "保存并分享您的图书",

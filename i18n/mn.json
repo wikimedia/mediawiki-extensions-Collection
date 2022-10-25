@@ -14,7 +14,7 @@
 	"coll-cancel": "Цуцлах",
 	"coll-suggest_show": "үзүүлэх",
 	"coll-print_export": "Хэвлэх/Экспортлох",
-	"coll-create_a_book": "Шинээр ном нээх",
+	"coll-create_a_book": "Ном руу хувиргах",
 	"coll-download_as": "$1 хэлбэрээр татаж авах",
 	"coll-n_pages": "$1 {{PLURAL:$1|хуудас}}"
 }
