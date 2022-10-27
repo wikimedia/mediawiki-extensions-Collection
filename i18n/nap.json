@@ -4,7 +4,8 @@
 			"C.R.",
 			"Chelin",
 			"Cryptex nap",
-			"Ruthven"
+			"Ruthven",
+			"Finizio"
 		]
 	},
 	"coll-desc": "[[Special:Book|Ccrìa 'e libbre]]",
@@ -124,7 +125,7 @@
 	"coll-create_a_book": "Crìa nu libbro",
 	"coll-create_a_book_tooltip": "Crìa nu libbro o na raccuòveta 'e paggene",
 	"coll-book_creator": "Criatore 'e libbre",
-	"coll-download_as": "Scarreca cumme $1",
+	"coll-download_as": "Scarreca comme $1",
 	"coll-download_as_tooltip": "Scarreca na verziona $1 'e sta paggena wiki",
 	"coll-disable": "stutato",
 	"coll-book_creator_disable": "Stuta 'o criatore 'e libbre",

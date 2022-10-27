@@ -10,7 +10,8 @@
 			"Дзяніс Тутэйшы",
 			"Тест",
 			"Хомелка",
-			"Чаховіч Уладзіслаў"
+			"Чаховіч Уладзіслаў",
+			"Vlad5250"
 		]
 	},
 	"coll-desc": "[[Special:Book|Стварэнне кніг]]",
@@ -125,7 +126,7 @@
 	"coll-format-odf": "Тэкставы працэсар (OpenDocument)",
 	"coll-format-rdf2text": "Тэкставы працэсар (звычайны тэкст)",
 	"action-collectionsaveasuserpage": "захаваць кнігі як старонкі ўдзельніка",
-	"right-collectionsaveasuserpage": "захаванне кніг як старонак ўдзельніка",
+	"right-collectionsaveasuserpage": "Захаванне кніг як старонак удзельніка",
 	"action-collectionsaveascommunitypage": "захаваць кнігі як старонкі супольнасці",
 	"right-collectionsaveascommunitypage": "Захаванне кніг як старонак супольнасці",
 	"coll-print_export": "Друк/экспарт",
