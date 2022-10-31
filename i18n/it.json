@@ -191,5 +191,5 @@
 	"coll-rendererror-pdf": "Rendering PDF non riuscito: $1",
 	"coll-rendererror-fetch": "Recupero $1 non riuscito: $2",
 	"coll-rendererror-fetch-wrapper": "Ci sono stati errori durante il tentativo di recuperare i contenuti della pagina:\n$1",
-	"coll-rendererror-no-cache": "I dati del libro non sono reperibili nella cache. Il motivo più probabile è un errore nel software."
+	"coll-rendererror-no-cache": "I dati del libro non sono stati trovati nella cache. Molto probabilmente si tratta di un errore del software."
 }
