@@ -7,7 +7,8 @@
 			"Teak",
 			"Vahe Gharakhanyan",
 			"Xelgen",
-			"Դավիթ Սարոյան"
+			"Դավիթ Սարոյան",
+			"Սերգեյ Սաֆարյան"
 		]
 	},
 	"coll-desc": "[[Special:Book|Ստեղծել գրքեր]]",
@@ -81,6 +82,7 @@
 	"coll-invalid_podpartner_msg": "Առաջարկված POD գործընկերը չի գործում։\nԽնդրում ենք կապվել ձեր ՄեդիաՎիքիի (MediaWiki) ադմինիստրատորի հետ։",
 	"coll-license": "Արտոնագիր",
 	"coll-return_to": "Վերադառնալ [[:$1]]",
+	"coll-suggested_articles": "Առաջարկություններ",
 	"coll-suggest_reset_bans": "վերակայել",
 	"coll-suggest_show": "ցուցադրել",
 	"coll-suggest_undo": "հետ շրջել",

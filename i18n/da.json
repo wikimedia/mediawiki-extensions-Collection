@@ -12,7 +12,8 @@
 			"Ribewiki",
 			"Saederup92",
 			"Thomas81",
-			"Thomsen"
+			"Thomsen",
+			"Steenth"
 		]
 	},
 	"coll-desc": "[[Special:Book|Skab bøger]]",
@@ -29,7 +30,7 @@
 	"coll-unknown_subpage_text": "Denne underside til [[Special:Book|Bog]] findes ikke",
 	"coll-couldnotaddarticle_title": "Kunne ikke tilføje wikisiden",
 	"coll-couldnotaddarticle_msg": "Wiki-siden kunne ikke tilføjes.",
-	"coll-couldnotremovearticle_title": "Kunne ikke fjerne wikisiden",
+	"coll-couldnotremovearticle_title": "Kunne ikke fjerne wikiside",
 	"coll-couldnotremovearticle_msg": "Wiki-siden kunne ikke fjernes.",
 	"coll-noscript_text": "<h1>JavaScript er påkrævet!</h1> \n<strong>Din browser understøtter ikke JavaScript eller JavaScript er slået fra. \nDenne side vil ikke virke korrekt, medmindre JavaScript er aktiveret.</strong>",
 	"coll-savedbook_template": "gemt_bog",
@@ -56,6 +57,7 @@
 	"coll-rename_chapter": "Indtast nyt navn til kapitel",
 	"coll-no_such_category": "Ingen kategori med det navn",
 	"coll-notitle_title": "Fandt ikke sidens titel",
+	"coll-notitle_msg": "Sidens titel kunne ikke bestemmes.",
 	"coll-error_reponse": "Fejlrespons fra serveren",
 	"coll-empty_collection": "Tom bog",
 	"coll-revision": "Version: $1",
