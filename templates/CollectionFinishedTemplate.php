@@ -21,8 +21,6 @@ class CollectionFinishedTemplate extends QuickTemplate {
 	public function execute() {
 		global $wgCollectionShowRenderNotes;
 
-		echo wfMessage( 'coll-rendering_finished_text', $this->data['download_url'] )->parseAsBlock();
-
 		$t = Title::newFromText( $this->data['return_to'] );
 
 		$notes = '';
@@ -46,12 +44,14 @@ class CollectionFinishedTemplate extends QuickTemplate {
 				$notes .= Html::rawElement(
 					'li',
 					[],
-					Html::rawElement( 'p', [], $noteMessage->parse() )
+					$noteMessage->parseAsBlock()
 				);
 			} else {
 				wfDebugLog( 'collection', 'Note message key not found: ' . $noteKey );
 			}
 		}
+
+		echo wfMessage( 'coll-rendering_finished_text', $this->data['download_url'] )->parseAsBlock();
 
 		if ( $notes !== '' || $this->data['is_cached'] ) {
 			echo wfMessage( 'coll-rendering_finished_notes_heading' )->parseAsBlock();
