@@ -12,7 +12,8 @@
 			"Ribewiki",
 			"Saederup92",
 			"Thomas81",
-			"Thomsen"
+			"Thomsen",
+			"Steenth"
 		]
 	},
 	"coll-desc": "[[Special:Book|Skab bøger]]",
@@ -29,7 +30,7 @@
 	"coll-unknown_subpage_text": "Denne underside til [[Special:Book|Bog]] findes ikke",
 	"coll-couldnotaddarticle_title": "Kunne ikke tilføje wikisiden",
 	"coll-couldnotaddarticle_msg": "Wiki-siden kunne ikke tilføjes.",
-	"coll-couldnotremovearticle_title": "Kunne ikke fjerne wikisiden",
+	"coll-couldnotremovearticle_title": "Kunne ikke fjerne wikiside",
 	"coll-couldnotremovearticle_msg": "Wiki-siden kunne ikke fjernes.",
 	"coll-savedbook_template": "gemt_bog",
 	"coll-your_book": "Din bog",
@@ -54,6 +55,7 @@
 	"coll-new_chapter": "Indtast navnet på nyt kapitel",
 	"coll-rename_chapter": "Indtast nyt navn til kapitel",
 	"coll-notitle_title": "Fandt ikke sidens titel",
+	"coll-notitle_msg": "Sidens titel kunne ikke bestemmes.",
 	"coll-empty_collection": "Tom bog",
 	"coll-save_collection_title": "Gem og del din bog",
 	"coll-save_collection_text": "Vælg en placering til din bog:",
