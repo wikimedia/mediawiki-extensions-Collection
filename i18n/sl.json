@@ -168,7 +168,7 @@
 	"coll-attribution-anons": "Brezimni: $1",
 	"coll-attribution-page": "<h1>Viri besedila in slik, sodelavci in dovoljenja</h1>\n<h2>Besedilo</h2>\n$1<h2>Slike</h2>\n$2\n<h2>Dovoljenje vsebine</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Vir:</i> $2 <i>Sodelavci:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Vir:</i> $2 <i>Dovoljenje:</i> $3 <i>Sodelavci:</i> $4 <i>Izvirni umetnik:</i> $5",
+	"coll-image-attribution": "<b>$1</b> <i>Vir:</i> $2 <i>Licenca:</i> $3 <i>Sodelavci:</i> $4 <i>Izvorni umetnik:</i> $5",
 	"coll-warning-disable-pdf-title": "Ustvarjalnik knjig je v postopku spreminjanja",
 	"coll-warning-disable-pdf-text": "Zaradi hudih težav z obstoječim sistemom, Ustvarjalnik knjig ne bo več podpiral shranjevanja knjig v formatu PDF.",
 	"coll-warning-learn-more": "Več o tem",
@@ -179,7 +179,7 @@
 	"coll-images-title": "Slike",
 	"coll-images-source": "Vir",
 	"coll-images-license": "Licenca",
-	"coll-images-original-artist": "Izvirni umetnik",
+	"coll-images-original-artist": "Izvorni umetnik",
 	"coll-license-title": "Licenca vsebine",
 	"coll-rendererror-title": "Knjige nismo mogli ustvariti",
 	"coll-rendererror-no-cache": "V predpomnilniku ni podatkov o knjigi. To je verjetno programska napaka."
