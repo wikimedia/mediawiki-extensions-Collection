@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Uostofchuodnego"
+			"Uostofchuodnego",
+			"Krol111"
 		]
 	},
 	"coll-remove": "Skasuj",
@@ -11,7 +12,7 @@
 	"coll-print_export": "Durkuj abo eksportuj",
 	"coll-create_a_book": "Stwōrz ksiōnżkã",
 	"coll-book_creator": "Gyneratōr ksiōnżki",
-	"coll-download_as": "Pobier za $1",
+	"coll-download_as": "Pobier kej $1",
 	"coll-disable": "zastŏw",
 	"coll-book_creator_disable": "Zastŏw tworzynie ksiōnżek",
 	"coll-book_creator_disable_tooltip": "Zastŏw gyneratōr ksiōnżek",

@@ -62,7 +62,7 @@
 	"coll-request_failed_msg": "Si è verificato un errore durante il tentativo di rendering del libro.",
 	"coll-empty_collection": "Libro vuoto",
 	"coll-save_collection_title": "Salva e condividi il tuo libro",
-	"coll-save_collection_text": "Scegli una locazione:",
+	"coll-save_collection_text": "Scegli una posizione di archiviazione per il tuo libro:",
 	"coll-save_collection": "Salva libro",
 	"coll-save_category": "Tutti i libri salvati sono aggiunti alla categoria [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]].",
 	"coll-overwrite_title": "La pagina esiste già.\nSovrascriverla?",
@@ -197,5 +197,5 @@
 	"coll-rendererror-pdf": "Rendering PDF non riuscito: $1",
 	"coll-rendererror-fetch": "Recupero $1 non riuscito: $2",
 	"coll-rendererror-fetch-wrapper": "Ci sono stati errori durante il tentativo di recuperare i contenuti della pagina:\n$1",
-	"coll-rendererror-no-cache": "I dati del libro non sono reperibili nella cache. Il motivo più probabile è un errore nel software."
+	"coll-rendererror-no-cache": "I dati del libro non sono stati trovati nella cache. Molto probabilmente si tratta di un errore del software."
 }
