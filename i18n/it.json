@@ -90,7 +90,7 @@
 	"coll-rendering_finished_text": "<strong>Il documento è stato creato.</strong>\n<strong>[$1 Scarica il file]</strong> sul tuo computer.",
 	"coll-rendering_finished_notes_heading": "Note:",
 	"coll-rendering_finished_note_not_satisfied": "Non sei soddisfatto del risultato? Vedi [[{{MediaWiki:Coll-helppage}}|la pagina di aiuto sui libri]] per poterlo migliorare.",
-	"coll-rendering_finished_note_article_rdf2latex": "Attualmente alcuni documenti non contengono tabelle. Un'alternativa potrebbe essere quella di utilizzare \"$1\", selezionare \"Stampa\" nel menu del browser, e utilizzare la funzione \"Salva come PDF\".",
+	"coll-rendering_finished_note_article_rdf2latex": "Attualmente alcuni documenti non contengono tabelle. Un'alternativa potrebbe essere quella di utilizzare \"$1\", selezionare \"Stampa\" nel menu del browser, e utilizzare l'opzione \"Salva come PDF\".",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informazioni sul rendering delle pagine",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informazioni sul rendering di collezioni",
 	"coll-rendering_failed_title": "Conversione non riuscita",
