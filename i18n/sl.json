@@ -129,7 +129,7 @@
 	"coll-create_a_book_tooltip": "Ustvari e-knjigo ali zbirko strani",
 	"coll-book_creator": "Ustvarjalnik knjig",
 	"coll-download_as": "Prenesi kot $1",
-	"coll-download_as_tooltip": "Prenesi različico $1 te wikistrani",
+	"coll-download_as_tooltip": "Prenesi redakcijo $1 te vikistrani",
 	"coll-disable": "izklopi",
 	"coll-book_creator_disable": "Izklopi ustvarjalnik knjig",
 	"coll-book_creator_disable_tooltip": "Prenehaj uporabljati ustvarjalnik knjig",

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"AlexandrL714",
 			"Amire80",
 			"Андрей Саг."
 		]
@@ -9,5 +10,6 @@
 	"coll-move_up": "Ӧӧре чылдырарға",
 	"coll-move_down": "Алтынзар чылдырарға",
 	"coll-yes": "Я",
+	"coll-print_export": "Печать/экспорт",
 	"coll-setting-toc-yes": "Я"
 }
