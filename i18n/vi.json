@@ -9,7 +9,8 @@
 			"Ioe2015",
 			"NguoiDungKhongDinhDanh",
 			"Nghiemtrongdai VN",
-			"Thingofme"
+			"Thingofme",
+			"CactiStaccingCrane"
 		]
 	},
 	"coll-desc": "[[Special:Book|Tạo sách]]",
@@ -135,7 +136,7 @@
 	"coll-create_a_book": "Tạo một quyển sách",
 	"coll-create_a_book_tooltip": "Tạo một cuốn sách hoặc sưu tập trang",
 	"coll-book_creator": "Bộ tạo sách",
-	"coll-download_as": "Tải về dưới dạng $1",
+	"coll-download_as": "Tải dưới dạng $1",
 	"coll-download_as_tooltip": "Tải về một phiên bản $1 của trang wiki này",
 	"coll-disable": "tắt",
 	"coll-book_creator_disable": "Tắt bộ tạo sách",
