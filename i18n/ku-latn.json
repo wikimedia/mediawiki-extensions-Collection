@@ -5,7 +5,8 @@
 			"Cûndûllah el-Kurdî",
 			"George Animal",
 			"Ghybu",
-			"Guherto"
+			"Guherto",
+			"Balyozxane"
 		]
 	},
 	"coll-collection": "Pirtûk",
@@ -23,7 +24,7 @@
 	"coll-title": "Sernav:",
 	"coll-subtitle": "Binnivîs:",
 	"coll-contents": "Naverok",
-	"coll-rename": "Nav biguherîne",
+	"coll-rename": "Nav biguhêre",
 	"coll-empty_collection": "Kitêba vala",
 	"coll-save_collection_title": "Kitêba xwe qeyd û parve bike",
 	"coll-save_collection": "Kitêbê qeyd bike",
@@ -79,6 +80,7 @@
 	"coll-attribution-anons": "Anonîm: $1",
 	"coll-article-attribution": "<b>$1</b> <i>Çavkanî:</i> $2 <i>Beşdar:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Çavkanî:</i> $2 <i>Lîsans:</i> $3 <i>Beşdar:</i> $4 <i>Nivîskarê eslî:</i> $5",
+	"coll-warning-learn-more": "Zêdetir hîn bibe",
 	"coll-images-title": "Wêne",
 	"coll-images-source": "Çavkanî",
 	"coll-images-license": "Lîsans"
