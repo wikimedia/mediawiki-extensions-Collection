@@ -31,8 +31,8 @@ class ApiClearCollectionTest extends ApiTestCase {
 				'items' => []
 			]
 		], iterator_to_array( $session ) );
-		$this->assertEmpty( $session['wsCollectionSuggestBan'] );
-		$this->assertEmpty( $session['wsCollectionSuggestProp'] );
+		$this->assertNull( $session['wsCollectionSuggestBan'] );
+		$this->assertNull( $session['wsCollectionSuggestProp'] );
 	}
 
 }
