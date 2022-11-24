@@ -19,7 +19,7 @@ class CollectionSaveOverwriteTemplate extends QuickTemplate {
 	public function execute() {
 		?>
 
-		<h2><span class="mw-headline"><?php $this->msg( 'coll-overwrite_title' ) ?></span></h2>
+		<h2><?php $this->msg( 'coll-overwrite_title' ) ?></h2>
 
 		<?php echo wfMessage( 'coll-overwrite_text', $this->data['title']->getPrefixedText() )->parseAsBlock(); ?>
 
