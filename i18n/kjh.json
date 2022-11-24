@@ -2,12 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"Андрей Саг."
+			"Андрей Саг.",
+			"AlexandrL714"
 		]
 	},
 	"coll-show": "Кӧзідерге",
 	"coll-move_up": "Ӧӧре чылдырарға",
 	"coll-move_down": "Алтынзар чылдырарға",
 	"coll-yes": "Я",
+	"coll-print_export": "Печать/экспорт",
 	"coll-setting-toc-yes": "Я"
 }
