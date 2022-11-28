@@ -22,7 +22,8 @@
 			"Wong128hk",
 			"Xiaomingyan",
 			"Zhxy 519",
-			"Ericliu1912"
+			"Ericliu1912",
+			"Willy1018"
 		]
 	},
 	"coll-desc": "[[Special:Book|建立書籍]]",
@@ -142,7 +143,7 @@
 	"coll-suggest_article_remove": "頁面 <strong>$1</strong> 已從您的書籍中移除 ($2)。",
 	"coll-suggest_undo_tooltip": "還原此動作",
 	"coll-suggest_undo": "還原",
-	"coll-load_local_book": "您的書籍 $1 共有 $2 {{PLURAL:$2|頁|頁}}，點選 \"OK\" 繼續編輯。點選 \"Cancel\" 刪除並重新建立書籍。",
+	"coll-load_local_book": "您的書籍 $1 共有 $2 {{PLURAL:$2|頁}}，點選 \"OK\" 繼續編輯。點選 \"Cancel\" 刪除並重新建立書籍。",
 	"coll-format-rl": "電子書 (PDF，mwlib 繪製程式)",
 	"coll-format-epub": "電子書 (EPUB)",
 	"coll-format-odf": "文字處理器 (OpenDocument)",
@@ -179,7 +180,7 @@
 	"coll-helppage": "Help:書籍",
 	"coll-load_collection": "讀取書籍",
 	"coll-load_collection_tooltip": "讀取此書籍為您目前的書籍",
-	"coll-n_pages": "$1 個頁面",
+	"coll-n_pages": "$1 個{{PLURAL:$1|頁面}}",
 	"coll-printable_version_pdf": "PDF 版本",
 	"coll-remove_this_page": "從您的書籍中移除此頁面",
 	"coll-remove_page_tooltip": "從您的書籍中移除目前的 Wiki 頁面",
