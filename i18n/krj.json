@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jose77"
+			"Jose77",
+			"Pare Mo"
 		]
 	},
 	"coll-contents": "Manga Sulud",
 	"coll-cancel": "Kanselar",
-	"coll-about_pp": "Angut sa Iwan $1"
+	"coll-about_pp": "Angut sa Iwan $1",
+	"coll-download_as": "Deskargaron bilang $1"
 }
