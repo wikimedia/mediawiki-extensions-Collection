@@ -2,7 +2,7 @@
 
 namespace MediaWiki\Extension\Collection\Rendering;
 
-use Http;
+use MediaWiki\MediaWikiServices;
 
 /**
  * API for PediaPress' mw-serve
@@ -36,13 +36,13 @@ class MWServeRenderingAPI extends CollectionRenderingAPI {
 			return new CollectionAPIResult( null );
 		}
 
-		$response = Http::post(
+		$response = MediaWikiServices::getInstance()->getHttpRequestFactory()->post(
 			$serveURL,
 			[ 'postData' => $params, 'proxy' => $proxy ],
 			__METHOD__
 		);
 
-		if ( $response === false ) {
+		if ( $response === null ) {
 			wfDebugLog( 'collection', "Request to $serveURL resulted in error" );
 		}
 

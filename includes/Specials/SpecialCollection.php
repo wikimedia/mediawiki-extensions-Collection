@@ -37,7 +37,6 @@ use MediaWiki\Extension\Collection\Templates\CollectionPageTemplate;
 use MediaWiki\Extension\Collection\Templates\CollectionRenderingTemplate;
 use MediaWiki\Extension\Collection\Templates\CollectionSaveOverwriteTemplate;
 use MediaWiki\MediaWikiServices;
-use MWHttpRequest;
 use OOUI\ButtonGroupWidget;
 use OOUI\ButtonInputWidget;
 use OOUI\ButtonWidget;
@@ -1264,7 +1263,7 @@ class SpecialCollection extends SpecialPage {
 		$info = false;
 		$url = $r->get( 'url' );
 		if ( $url ) {
-			$req = MWHttpRequest::factory( $url, null, __METHOD__ );
+			$req = MediaWikiServices::getInstance()->getHttpRequestFactory()->create( $url, [], __METHOD__ );
 			$req->setCallback( function ( $fh, $content ) {
 				return fwrite( $this->tempfile, $content );
 			} );
