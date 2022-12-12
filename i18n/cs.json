@@ -8,7 +8,9 @@
 			"Macofe",
 			"Matěj Grabovský",
 			"Mormegil",
-			"Patriccck"
+			"Patriccck",
+			"JAn Dudík",
+			"Patrik L."
 		]
 	},
 	"coll-desc": "[[Special:Book|Vytváření knih]]",
@@ -32,7 +34,7 @@
 	"coll-your_book": "Vaše kniha",
 	"coll-download_title": "Stáhnout",
 	"coll-download_text": "Pro stažení knihy si zvolte formát a klikněte na tlačítko.",
-	"coll-download_as_text": "Verzi ve formátu $1 si můžete stáhnout kliknutím na tlačítko.",
+	"coll-download_as_text": "Knihu ve formátu $1 si můžete stáhnout kliknutím na tlačítko.",
 	"coll-download": "Stáhnout",
 	"coll-format_label": "Formát:",
 	"coll-remove": "Odstranit",

@@ -108,7 +108,7 @@
 	"coll-suggest_article_ban": "La pagina <strong>$1</strong> l'è stada tolta via di sugeriment ($2).",
 	"coll-suggest_article_add": "La pagina <strong>$1</strong> l'è stada sgiontada al to liber ($2).",
 	"coll-suggest_article_remove": "La pagina <strong>$1</strong> l'è stada tolta via del to liber ($2).",
-	"coll-suggest_undo_tooltip": "Anulla quell'azzion chì",
+	"coll-suggest_undo_tooltip": "Anulla quest'azzion chì",
 	"coll-suggest_undo": "Torna a 'me che l'era inanz",
 	"coll-load_local_book": "Clica \"OK\" per andà adree cont el to liber $1 fad su de $2 {{PLURAL:$2|pagina|pagine}} wiki. Clica \"Anula\" per scancellàll e comenzà cont un liber voeuj.",
 	"coll-format-rl": "liber eletronich (PDF, creator mwlib)",
