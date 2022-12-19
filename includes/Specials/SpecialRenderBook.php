@@ -49,8 +49,12 @@ class SpecialRenderBook extends UnlistedSpecialPage {
 			$this->getConfig(), $restClientLogger );
 		$templateParser = new TemplateParser( __DIR__ . '/templates' );
 		$templateParser->enableRecursivePartials( true );
-		$mediator = new BookRenderingMediator( $services->getMainWANObjectCache(),
-			$restClient, $templateParser );
+		$mediator = new BookRenderingMediator(
+			$services->getMainWANObjectCache(),
+			$restClient,
+			$templateParser,
+			$services->getLinkBatchFactory()
+		);
 		$mediator->setLogger( LoggerFactory::getInstance( 'collection' ) );
 
 		switch ( $subPage ) {

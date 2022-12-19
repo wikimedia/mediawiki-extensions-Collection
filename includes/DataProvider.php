@@ -4,7 +4,7 @@ namespace MediaWiki\Extension\Collection;
 
 use ApiMain;
 use DerivativeRequest;
-use LinkBatch;
+use MediaWiki\Cache\LinkBatchFactory;
 use Psr\Log\LoggerAwareInterface;
 use Psr\Log\LoggerInterface;
 use Psr\Log\NullLogger;
@@ -21,15 +21,23 @@ class DataProvider implements LoggerAwareInterface {
 	/** @var VirtualRESTServiceClient */
 	protected $client;
 
+	/** @var LinkBatchFactory */
+	private $linkBatchFactory;
+
 	/** @var LoggerInterface */
 	protected $logger;
 
 	/**
 	 * @param VirtualRESTServiceClient $client RESTBase client.
 	 *   RESTBase should be mounted at /restbase/.
+	 * @param LinkBatchFactory $linkBatchFactory
 	 */
-	public function __construct( VirtualRESTServiceClient $client ) {
+	public function __construct(
+		VirtualRESTServiceClient $client,
+		LinkBatchFactory $linkBatchFactory
+	) {
 		$this->client = $client;
+		$this->linkBatchFactory = $linkBatchFactory;
 		$this->logger = new NullLogger();
 	}
 
@@ -50,7 +58,7 @@ class DataProvider implements LoggerAwareInterface {
 		$items = array_merge( array_filter( $collection['items'], static function ( array $item ) {
 			return $item['type'] === 'article';
 		} ) );
-		$linkBatch = new LinkBatch();
+		$linkBatch = $this->linkBatchFactory->newLinkBatch();
 		$titles = array_map( static function ( array $item ) use ( $linkBatch ) {
 			$title = Title::newFromText( $item['title'] );
 			$linkBatch->addObj( $title );

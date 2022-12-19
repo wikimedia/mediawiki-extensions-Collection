@@ -6,6 +6,7 @@ use Config;
 use DerivativeContext;
 use ErrorPageError;
 use Exception;
+use MediaWiki\Cache\LinkBatchFactory;
 use MediaWiki\MediaWikiServices;
 use OutputPage;
 use Psr\Log\LoggerAwareInterface;
@@ -36,14 +37,19 @@ class BookRenderingMediator implements LoggerAwareInterface {
 	/** @var TemplateParser */
 	private $templateParser;
 
+	/** @var LinkBatchFactory */
+	private $linkBatchFactory;
+
 	public function __construct(
 		WANObjectCache $bookCache,
 		VirtualRESTServiceClient $restServiceClient,
-		TemplateParser $templateParser
+		TemplateParser $templateParser,
+		LinkBatchFactory $linkBatchFactory
 	) {
 		$this->htmlCache = $bookCache;
 		$this->restServiceClient = $restServiceClient;
 		$this->templateParser = $templateParser;
+		$this->linkBatchFactory = $linkBatchFactory;
 		$this->logger = new NullLogger();
 	}
 
@@ -56,7 +62,10 @@ class BookRenderingMediator implements LoggerAwareInterface {
 	 * @throws ErrorPageError When one of the internal API calls fails.
 	 */
 	public function getBook( array $collection ) {
-		$dataProvider = new DataProvider( $this->restServiceClient );
+		$dataProvider = new DataProvider(
+			$this->restServiceClient,
+			$this->linkBatchFactory
+		);
 		$dataProvider->setLogger( $this->logger );
 		$bookRenderer = new BookRenderer( $this->templateParser );
 

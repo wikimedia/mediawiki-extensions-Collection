@@ -2,7 +2,6 @@
 
 namespace MediaWiki\Extension\Collection;
 
-use LinkBatch;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Session\SessionManager;
 use Title;
@@ -163,7 +162,7 @@ class Session {
 		$coll = $session['wsCollection'];
 		$newitems = [];
 		if ( isset( $coll['items'] ) ) {
-			$batch = new LinkBatch;
+			$batch = MediaWikiServices::getInstance()->getLinkBatchFactory()->newLinkBatch();
 			$lc = MediaWikiServices::getInstance()->getLinkCache();
 			foreach ( $coll['items'] as $item ) {
 				if ( $item['type'] == 'article' ) {

@@ -33,7 +33,10 @@ class DataProviderTest extends MediaWikiIntegrationTestCase {
 				return $response;
 			} );
 
-		$dataProvider = new DataProvider( $client );
+		$dataProvider = new DataProvider(
+			$client,
+			$this->getServiceContainer()->getLinkBatchFactory()
+		);
 		$status = $dataProvider->fetchPages( $collection );
 		if ( $expectedPages === false ) {
 			$this->assertFalse( $status->isOK() );
