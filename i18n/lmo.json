@@ -61,7 +61,7 @@
 	"coll-cancel": "Anulla",
 	"coll-update": "Atualiza",
 	"coll-limit_exceeded_title": "Liber trop grand",
-	"coll-limit_exceeded_text": "El to liber l'è trop grand.\nNo se pò pù sgiontàgh di pagine.",
+	"coll-limit_exceeded_text": "El to liber l'è trop grand.\nSe pò pu sgiontà di alter pagine.",
 	"coll-rendering_title": "Realizazzion",
 	"coll-rendering_text": "<p><strong>Specia intanta che 'l document l'è dree a vesser ingenerad.</strong></p>\n\n<p><strong>Progress:</strong> <span id=\"renderingProgress\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p>Questa pagina chì la gh'avariss de vesser atualizada ogni poch de second\nSe 'l suced minga, schiscia el pulsant de atualizazzion de to programa de navigazzion.</p>",
 	"coll-rendering_status": "<strong>Stat:</strong> $1",
