@@ -61,7 +61,7 @@
 	"coll-overwrite_text": "Stran z imenom [[:$1]] že obstaja. \nAli želite, da jo nadomestimo z vašo knjigo?",
 	"coll-yes": "Da",
 	"coll-no": "Ne",
-	"coll-load_overwrite_text": "Vaša knjiga že vsebuje nekaj strani.\nŽelite prepisati vsebino vaše knjige, dodati vsebino ali prekiniti nalaganje te knjige?",
+	"coll-load_overwrite_text": "Vaša knjiga že vsebuje nekaj strani.\nŽelite prepisati svojo njigo, pripeti novo vsebino ali prekiniti nalaganje te knjige?",
 	"coll-overwrite": "Prepiši",
 	"coll-append": "Pripni",
 	"coll-cancel": "Prekliči",

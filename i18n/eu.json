@@ -161,5 +161,6 @@
 	"coll-attribution-anons": "Anonimo: $1",
 	"coll-attribution-page": "<h1>Testuen eta irudien iturriak, lankideak, eta lizentziak</h1>\n<h2>Testua</h2>\n$1<h2>Irudiak</h2>\n$2\n<h2>Edukien lizentzia</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Iturria:</i> $2 <i>Lankideak:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Iturria:</i> $2 <i>Lizentzia:</i> $3 <i>Lankideak:</i> $4 <i>Jatorrizko artista:</i> $5"
+	"coll-image-attribution": "<b>$1</b> <i>Iturria:</i> $2 <i>Lizentzia:</i> $3 <i>Lankideak:</i> $4 <i>Jatorrizko artista:</i> $5",
+	"coll-contributors-title": "Lankideak"
 }
