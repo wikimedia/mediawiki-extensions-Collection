@@ -5,7 +5,8 @@
 			"Lloffiwr",
 			"Macofe",
 			"Robin Owain",
-			"Xxglennxx"
+			"Xxglennxx",
+			"Afalau"
 		]
 	},
 	"coll-desc": "[[Special:Book|Llunio llyfrau]]",
@@ -35,8 +36,8 @@
 	"coll-remove": "Tynnu",
 	"coll-show": "Dangos",
 	"coll-move_to_top": "Symud i'r brig",
-	"coll-move_up": "Symud am lan",
-	"coll-move_down": "Symud am lawr",
+	"coll-move_up": "Symud i fyny",
+	"coll-move_down": "Symud i lawr",
 	"coll-move_to_bottom": "Symud i'r gwaelod",
 	"coll-title": "Teitl:",
 	"coll-subtitle": "Isdeitl:",
