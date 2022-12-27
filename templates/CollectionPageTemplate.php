@@ -148,7 +148,7 @@ class CollectionPageTemplate extends QuickTemplate {
 			->setTitle( SpecialPage::getTitleFor( 'Book' ) )
 			->setId( 'mw-collection-title-form' )
 			->setTableId( 'mw-collection-title-table' )
-			->setFooterText(
+			->setFooterHtml(
 				'<noscript>' .
 				'<input type="submit" value="' . $this->msg( 'coll-update' ) . '" />' .
 				'</noscript>'
