@@ -178,7 +178,7 @@ class CollectionPageTemplate extends QuickTemplate {
 		<div class="collection-column collection-column-right">
 			<?php if ( $this->data['podpartners'] ) { ?>
 				<div class="collection-column-right-box" id="coll-orderbox">
-					<h2><span class="mw-headline"><?php $this->msg( 'coll-book_title' ) ?></span></h2>
+					<h2><?php $this->msg( 'coll-book_title' ) ?></h2>
 					<?php
 					echo $this->parseAsInterface( 'coll-book_text', $context );
 					?>
@@ -234,7 +234,7 @@ class CollectionPageTemplate extends QuickTemplate {
 			if ( !$user->getBlock() && ( $canSaveUserPage || $canSaveCommunityPage ) ) {
 				?>
 				<div class="collection-column-right-box" id="coll-savebox">
-					<h2><span class="mw-headline"><?php $this->msg( 'coll-save_collection_title' ) ?></span></h2>
+					<h2><?php $this->msg( 'coll-save_collection_title' ) ?></h2>
 					<?php
 					echo $this->parseAsInterface( 'coll-save_collection_text', $context );
 					?>
