@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amoramah",
 			"Ayire Adongo"
 		]
 	},
 	"coll-print_export": "Printɛ/Tulege",
-	"coll-download_as": "Sigese en $1"
+	"coll-download_as": "Ve'e ti la dɛna $1"
 }
