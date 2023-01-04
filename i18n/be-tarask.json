@@ -161,6 +161,7 @@
 	"coll-setting-toc-no": "Не",
 	"coll-setting-columns": "Слупкоў:",
 	"coll-attribution-anons": "Ананімна: $1",
+	"coll-attribution-page": "<h1>Крыніцы тэксту і выяваў, аўтары і ліцэнзіі</h1>\n<h2>Тэкст</h2>\n$1<h2>Выявы</h2>\n$2\n<h2>Ліцэнзія зьместу</h2>\n$3$3",
 	"coll-article-attribution": "<b>$1</b> <i>Крыніца:</i> $2 <i>Аўтары:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Крыніца:</i> $2 <i>Ліцэнзія:</i> $3 <i>Аўтары:</i> $4 <i>Мастак:</i> $5",
 	"coll-warning-learn-more": "Даведацца болей",
