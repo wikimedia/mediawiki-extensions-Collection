@@ -53,7 +53,7 @@
 	"coll-empty_collection": "Gwacáu'r llyfr",
 	"coll-save_collection_title": "Cadw'r llyfr a'i rannu",
 	"coll-save_collection_text": "Dewiswch fan i roi'ch llyfr ar gadw:",
-	"coll-save_collection": "Rhoi'r llyfr ar gadw",
+	"coll-save_collection": "Cadw llyfr",
 	"coll-save_category": "Mae llyfrau i gyd yn cael eu gosod yn y categori [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]] wrth eu cadw.",
 	"coll-overwrite_title": "Y dudalen ar gael yn barod.\nAm drosysgrifo?",
 	"coll-overwrite_text": "Mae tudalen a'r enw [[:$1]] eisoes ar gael.\nYdych chi am i'ch llyfr ddisodli'r dudalen?",
