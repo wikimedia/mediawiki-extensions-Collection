@@ -60,7 +60,7 @@
 	"coll-login_to_save": "Os ydych am roi llyfr ar gadw er mwyn ei ddefnyddio rhywdro arall, rhaid ichi [[Special:UserLogin|fewngofnodi neu greu cyfrif]].",
 	"coll-personal_collection_label": "Llyfr personol:",
 	"coll-community_collection_label": "Llyfr cymunedol:",
-	"coll-save_collection": "Rhoi'r llyfr ar gadw",
+	"coll-save_collection": "Cadw llyfr",
 	"coll-save_category": "Mae llyfrau i gyd yn cael eu gosod yn y categori [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]] wrth eu cadw.",
 	"coll-overwrite_title": "Y dudalen ar gael yn barod.\nAm drosysgrifo?",
 	"coll-overwrite_text": "Mae tudalen a'r enw [[:$1]] eisoes ar gael.\nYdych chi am i'ch llyfr ddisodli'r dudalen?",

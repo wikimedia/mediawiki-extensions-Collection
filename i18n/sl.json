@@ -108,7 +108,7 @@
 	"coll-order_from_pp": "Predogled pri $1",
 	"coll-about_pp": "O $1",
 	"coll-invalid_podpartner_title": "Neveljaven partner TNZ",
-	"coll-invalid_podpartner_msg": "Izbran partner TNZ ni veljaven.\nKontaktirajte vašega skrbnika MediaWiki.",
+	"coll-invalid_podpartner_msg": "Navedeni partner TNZ ni veljaven.\nKontaktirajte svojega MediaWiki-administratorja.",
 	"coll-license": "Licenca",
 	"coll-return_to": "Nazaj na [[:$1]]",
 	"coll-order_info_article": "{{MediaWiki:Coll-helppage}}/Podatki naročila PediaPress",
