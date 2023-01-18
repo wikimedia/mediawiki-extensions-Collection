@@ -78,7 +78,7 @@
 	"coll-rendering_finished_title": "Upodabljanje končano",
 	"coll-rendering_finished_text": "<strong>Datoteka dokumenta smo ustvarili.</strong>\n<strong>[$1 Prenesi datoteko]</strong> na vaš računalnik.",
 	"coll-rendering_finished_notes_heading": "Opombe:",
-	"coll-rendering_finished_note_not_satisfied": "Niste zadovoljni z rezultatom? Oglejte si [[{{MediaWiki:Coll-helppage}}|strani s pomočjo o knjigah]] za možnosti izboljšave.",
+	"coll-rendering_finished_note_not_satisfied": "Niste zadovoljni z rezultatom? Za možnost izboljšanja si oglejte [[{{MediaWiki:Coll-helppage}}|strani pomoči o knjigah]].",
 	"coll-rendering_finished_note_article_rdf2latex": "Trenutno nekateri dokumenti ne vsebujejo tabel. Namesto tega lahko uporabite $1, izberete »Natisni« v meniju brskalnika in uporabite možnost »Shrani kot PDF«.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Ustvarjanje informativnega besedila strani",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Ustvarjanje informativnega besedila zbirke",
