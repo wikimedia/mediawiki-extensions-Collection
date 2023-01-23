@@ -23,7 +23,8 @@
 			"Tr jason",
 			"Lakejason0",
 			"Nervie",
-			"LittlePaw365"
+			"LittlePaw365",
+			"Aaron Liu"
 		]
 	},
 	"coll-desc": "[[Special:Book|创建图书]]",
@@ -92,7 +93,7 @@
 	"coll-limit_exceeded_title": "图书过大",
 	"coll-limit_exceeded_text": "您的图书过大。无法添加更多页面。",
 	"coll-rendering_title": "正在生成",
-	"coll-rendering_text": "<p><strong>请稍等，正在生成文件。</strong></p>\n\n<p><strong>进度：</strong><span id=\"renderingProgress\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p>本页面每隔数秒自动刷新。\n如果本页面没有响应，请点击你的浏览器的“刷新”按钮。</p>",
+	"coll-rendering_text": "<p><strong>请稍等，正在生成文档。</strong></p>\n\n<p><strong>进度：</strong><span id=\"renderingProgress\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p>本页面应每隔数秒自动刷新。\n如果本页面没有响应，请点击你的浏览器的“刷新”按钮。</p>",
 	"coll-rendering_status": "<strong>状态：</strong>$1",
 	"coll-rendering_article": "（wiki页面：$1）",
 	"coll-rendering_page": "（页面：$1）",
