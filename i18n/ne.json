@@ -142,7 +142,7 @@
 	"coll-create_a_book": "पुस्तक बनाउनुहोस्",
 	"coll-create_a_book_tooltip": "पुस्तक वा पृष्ठ सङ्ग्रह बनाउनुहोस्",
 	"coll-book_creator": "पुस्तक निर्माता",
-	"coll-download_as": "$1 को रूपमा डाउनलोड गर्ने",
+	"coll-download_as": "$1को रूपमा डाउनलोड गर्नुहोस्",
 	"coll-download_as_tooltip": "यस विकि पृष्ठलाई $1 संस्करण डाउनलोड गर्ने",
 	"coll-disable": "निष्क्रिय",
 	"coll-book_creator_disable": "किताब निर्माता बन्द गर्ने",
