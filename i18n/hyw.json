@@ -8,6 +8,7 @@
 		]
 	},
 	"coll-collection": "Գիրք",
+	"coll-collections": "Գիրքեր",
 	"coll-remove": "Հեռացնել",
 	"coll-show": "Ցուցնել",
 	"coll-move_up": "Վեր տեղափոխել",
@@ -24,6 +25,7 @@
 	"coll-book_creator_disable_tooltip": "Դադրեցնել Գիրք ստեղծողի օգտագործումը",
 	"coll-add_this_page": "Աւելցնել այս էջը ձեր գիրքին",
 	"coll-add_page_tooltip": "Ընթացիկ ուիքի էջը աւելցնել ձեր գիրքին",
+	"coll-bookscategory": "Գիրքեր",
 	"coll-help": "Օգնութիւն",
 	"coll-help_tooltip": "Ցոյց տալ գիրք ստեղծելու մասին օգնութեան ցուցմունքները։",
 	"coll-helppage": "Help:Գիրքեր",
