@@ -90,7 +90,7 @@
 	"coll-notfound_title": "Knjige ni mogoče najti",
 	"coll-notfound_text": "Te strani v knjigi ni bilo mogoče najti.",
 	"coll-download_notfound_title": "Datoteke ni mogoče najti",
-	"coll-download_notfound_text": "Datoteka, ki jo poskušate prenesti, ne obstaja:\nMorda je bila izbrisana in jo je treba znova ustvariti.",
+	"coll-download_notfound_text": "Datoteka, ki jo poskušate prenesti, ne obstaja:\nMogoče je bila izbrisana in jo je treba znova ustvariti.",
 	"coll-is_cached": "<ul><li>Najdena je bila predpomnjena različica dokumenta, zato upodabljanje ni bilo potrebno. [$1 Vsili ponovno upodabljanje.]</li></ul>",
 	"coll-book_title": "Naročite tiskano knjigo",
 	"coll-book_text": "Pri našem partnerju za tisk na zahtevo lahko naročite tiskano knjigo:",

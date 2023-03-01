@@ -36,5 +36,6 @@
 	"apihelp-collection+setsorting-summary": "API-module voor het herschikken van items in een collectie",
 	"apihelp-collection+setsorting-param-items": "Items moeten worden weergegeven met hun oude index en gerangschikt op hun nieuwe positie",
 	"apihelp-collection+sortitems-example": "Verzamelpagina's alfabetisch sorteren",
-	"apihelp-collection+sortitems-summary": "API-module om pagina's in een collectie alfabetisch te sorteren. Pagina's binnen hoofdstukken zijn gegroepeerd en gesorteerd."
+	"apihelp-collection+sortitems-summary": "API-module om pagina's in een collectie alfabetisch te sorteren. Pagina's binnen hoofdstukken zijn gegroepeerd en gesorteerd.",
+	"apihelp-collection+getpopupdata-example": "Verkrijgt een pop-up om een pagina aan de collectie toe te voegen of te verwijderen"
 }
