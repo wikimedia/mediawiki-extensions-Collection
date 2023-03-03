@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"*Surak*",
 			"Brettchenweber"
 		]
 	},
@@ -19,6 +20,10 @@
 	"apihelp-collection+addcategory-summary": "API-Modul zum Hinzufügen von Seiten aus einer bestimmten Kategorie zur Sammlung eines Benutzers.",
 	"apihelp-collection+suggestarticleaction-example": "Fügt der Sammlung und den Vorschlägen eine Seite hinzu",
 	"apihelp-collection+suggestarticleaction-summary": "API-Modul zur Interaktion mit Vorschlägen",
+	"apihelp-collection+suggestarticleaction-param-suggestaction": "'add', 'remove' oder 'ban'. 'add' fügt der Sammlung eine Seite hinzu und ermöglicht Vorschläge. 'remove' entfernt eine hinzugefügte Seite und sperrt sie für Vorschläge. 'ban' sperrt eine Seite für Vorschläge.",
+	"apihelp-collection+suggestundoarticleaction-example": "Macht eine hinzugefügte Seitenaktion rückgängig",
+	"apihelp-collection+suggestundoarticleaction-summary": "API-Modul zum Rückgängigmachen von Aktionen von SuggestArticleAction",
+	"apihelp-collection+suggestundoarticleaction-param-lastaction": "'add', 'remove' oder 'ban'.",
 	"coll-api-addcategory-category-does-not-exist": "Die Kategorie, aus der du Seiten hinzufügen möchtest, existiert nicht, ist ungültig oder hat mehr Seiten als das angegebene Limit.",
 	"apihelp-collection+addchapter-example": "Der Sammlung ein Kapitel hinzufügen.",
 	"apihelp-collection+addchapter-summary": "API-Modul zum Hinzufügen eines Kapitels zur Sammlung",
