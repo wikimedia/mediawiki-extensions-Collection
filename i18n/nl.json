@@ -100,6 +100,7 @@
 	"coll-rendering_finished_text": "<strong>Het opgemaakte document is gereed.</strong>\n<strong>[$1 Download het bestand]</strong> naar uw computer.",
 	"coll-rendering_finished_notes_heading": "Opmerkingen:",
 	"coll-rendering_finished_note_not_satisfied": "Niet tevreden het resultaat? Zie [[{{MediaWiki:Coll-helppage}}|de hulppagina over boeken]] voor verbeteringsmogelijkheden.",
+	"coll-rendering_finished_note_article_rdf2latex": "Momenteel bevatten sommige documenten geen tabellen. Een alternatief kan zijn om de $1 te gebruiken, \"Afdrukken\" te selecteren in het browsermenu en de optie \"Opslaan als PDF\" te gebruiken.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informatietekst bij renderen pagina",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informatietekst bij renderen verzameling",
 	"coll-rendering_failed_title": "Het opmaken is mislukt",
@@ -211,7 +212,9 @@
 	"coll-images-original-artist": "Originele artiest",
 	"coll-license-title": "Inhoudslicentie",
 	"coll-rendererror-title": "Kon het boek niet opmaken",
+	"coll-rendererror-no-session": "Boekdefinitie niet gevonden in sessie. De definitie is mogelijk vanwege inactiviteit weggegooid.",
 	"coll-rendererror-pdf": "PDF-opmaak mislukt: $1",
 	"coll-rendererror-fetch": "Kon $1 niet ophalen: $2",
-	"coll-rendererror-fetch-wrapper": "Er waren fouten bij het ophalen van de pagina-inhoud: $1"
+	"coll-rendererror-fetch-wrapper": "Er waren fouten bij het ophalen van de pagina-inhoud: $1",
+	"coll-rendererror-no-cache": "Boekgegevens niet gevonden in cache. Dit is hoogstwaarschijnlijk een fout in de software."
 }

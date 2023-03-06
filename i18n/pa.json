@@ -3,7 +3,8 @@
 		"authors": [
 			"Babanwalia",
 			"Satdeep gill",
-			"Tow"
+			"Tow",
+			"Jagseer S Sidhu"
 		]
 	},
 	"coll-collection": "ਕਿਤਾਬ",
@@ -55,10 +56,10 @@
 	"coll-suggest_ban_tooltip": "ਇਸ ਸਫ਼ੇ ਨੂੰ ਸੁਝਾਵਾਂ ਦੀ ਸੂਚੀ ਵਿੱਚੋਂ ਹਟਾਓ",
 	"coll-format-epub": "ਈ-ਕਿਤਾਬ (ਈਪਬ/EPUB)",
 	"right-collectionsaveasuserpage": "ਕਿਤਾਬਾਂ ਨੂੰ ਵਰਤੋਂਕਾਰ ਸਫ਼ੇ ਵਜੋਂ ਸਾਂਭੋ",
-	"coll-print_export": "ਛਾਪੋ/ਬਰਾਮਦ ਕਰੋ",
+	"coll-print_export": "ਪ੍ਰਿੰਟ ਕਰੋ / ਐਕਸਪੋਰਟ ਕਰੋ",
 	"coll-create_a_book": "ਕਿਤਾਬ ਤਿਆਰ ਕਰੋ",
 	"coll-book_creator": "ਕਿਤਾਬ ਤਿਆਰਕਰਤਾ",
-	"coll-download_as": "$1 ਵਜੋਂ ਲਾਹੋ",
+	"coll-download_as": "$1 ਵਜੋਂ ਡਾਊਨਲੋਡ ਕਰੋ",
 	"coll-disable": "ਬੰਦ ਕਰੋ",
 	"coll-book_creator_disable": "ਕਿਤਾਬ ਬਣਾਉਣ ਵਾਲੇ ਸਾਫਟਵੇਅਰ ਨੂੰ ਬੰਦ ਕਰੋ",
 	"coll-book_creator_disable_tooltip": "ਕਿਤਾਬ ਬਣਾਉਣ ਵਾਲੇ ਸਾਫਟਵੇਅਰ ਦੀ ਵਰਤੋਂ ਬੰਦ ਕਰੋ",
