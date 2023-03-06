@@ -22,7 +22,7 @@
 	"apihelp-collection+suggestarticleaction-summary": "API-module om te communiceren met suggesties",
 	"apihelp-collection+suggestarticleaction-param-suggestaction": "Een van 'add', 'remove' of 'ban'. 'add' voegt een pagina toe aan de verzameling en suggesties en maakt de ban ongedaan. 'remove' verwijdert een toegevoegde pagina en sluit deze uit. 'ban' sluit een pagina uit van suggesties.",
 	"apihelp-collection+suggestundoarticleaction-example": "Maakt de toevoeging van een pagina ongedaan",
-	"apihelp-collection+suggestundoarticleaction-summary": "API-module om acties ongedaan te maken die zijn uitgevoerd vanuit suggestarticleaction",
+	"apihelp-collection+suggestundoarticleaction-summary": "API-module om handelingen ongedaan te maken die zijn uitgevoerd vanuit \"suggestarticleaction\"",
 	"apihelp-collection+suggestundoarticleaction-param-lastaction": "Een van 'add', 'remove' of 'ban'.",
 	"coll-api-addcategory-category-does-not-exist": "De categorie waaruit u pagina's probeert toe te voegen, bestaat niet, is ongeldig of heeft meer pagina's dan de opgegeven limiet.",
 	"apihelp-collection+addchapter-example": "Een hoofdstuk toevoegen aan de collectie.",
@@ -37,5 +37,10 @@
 	"apihelp-collection+setsorting-param-items": "Items moeten worden weergegeven met hun oude index en gerangschikt op hun nieuwe positie",
 	"apihelp-collection+sortitems-example": "Verzamelpagina's alfabetisch sorteren",
 	"apihelp-collection+sortitems-summary": "API-module om pagina's in een collectie alfabetisch te sorteren. Pagina's binnen hoofdstukken zijn gegroepeerd en gesorteerd.",
-	"apihelp-collection+getpopupdata-example": "Verkrijgt een pop-up om een pagina aan de collectie toe te voegen of te verwijderen"
+	"apihelp-collection+getpopupdata-example": "Verkrijgt een pop-up om een pagina aan de collectie toe te voegen of te verwijderen",
+	"apihelp-collection+getpopupdata-summary": "API-module om gegevens en HTML op te halen voor het samenstellen van een pop-upvenster",
+	"apihelp-collection+removeitem-example": "Verwijdert een onderdeel uit de verzameling aan de hand van de opgegeven index, of bij gebrek daaraan, index 0.",
+	"apihelp-collection+removeitem-summary": "API-module voor het indexsgewijs verwijderen van een onderdeel uit de verzameling via de pagina Special:Book.",
+	"apihelp-collection-param-submodule": "Submodule voor het uitvoeren van verscheidene bewerkingen op de verzameling van een wikigebruiker.",
+	"apihelp-collection-summary": "API-module voor het uitvoeren van verscheidene bewerkingen op de verzameling van een wiki-gebruiker."
 }
