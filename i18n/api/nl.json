@@ -1,8 +1,46 @@
 {
 	"@metadata": {
 		"authors": [
-			"Romaine"
+			"Romaine",
+			"McDutchie"
 		]
 	},
-	"apihelp-collection+removearticle-example": "Een pagina uit de collectie verwijderen."
+	"apihelp-collection+getcollection-example": "Een lijst maken van pagina's die zich momenteel in de collectie bevinden.",
+	"apihelp-collection+getcollection-summary": "API-module voor het weergeven van de huidige pagina's in een verzameling",
+	"apihelp-collection+addarticle-example": "Een pagina toevoegen aan de collectie.",
+	"apihelp-collection+addarticle-summary": "API-module voor het toevoegen van een pagina aan de collectie",
+	"apihelp-collection+settitles-example": "De titel en ondertitel van de collectie instellen",
+	"apihelp-collection+settitles-settings-example": "De titel, ondertitel en instellingen van de collectie instellen",
+	"apihelp-collection+settitles-summary": "API-module voor het instellen van de titel, ondertitel en instellingen van de collectie",
+	"coll-api-addarticle-article-not-added": "De pagina is niet toegevoegd aan de verzameling. Zorg ervoor dat de titel in de opgegeven naamruimte staat of controleer of de pagina al in de verzameling staat.",
+	"apihelp-collection+removearticle-example": "Een pagina uit de collectie verwijderen.",
+	"apihelp-collection+removearticle-summary": "API-module voor het verwijderen van een pagina uit de collectie",
+	"coll-api-removearticle-article-not-removed": "De pagina is niet verwijderd uit de collectie. Zorg ervoor dat de titel in de opgegeven naamruimte staat of controleer of de pagina niet in de verzameling staat.",
+	"apihelp-collection+addcategory-example": "Pagina's uit een bepaalde categorie toevoegen aan de verzameling van een gebruiker.",
+	"apihelp-collection+addcategory-summary": "API-module voor het toevoegen van pagina's uit een bepaalde categorie aan de verzameling van een gebruiker.",
+	"apihelp-collection+suggestarticleaction-example": "Voegt een pagina toe aan de verzameling en de suggesties",
+	"apihelp-collection+suggestarticleaction-summary": "API-module om te communiceren met suggesties",
+	"apihelp-collection+suggestarticleaction-param-suggestaction": "Een van 'add', 'remove' of 'ban'. 'add' voegt een pagina toe aan de verzameling en suggesties en maakt de ban ongedaan. 'remove' verwijdert een toegevoegde pagina en sluit deze uit. 'ban' sluit een pagina uit van suggesties.",
+	"apihelp-collection+suggestundoarticleaction-example": "Maakt de toevoeging van een pagina ongedaan",
+	"apihelp-collection+suggestundoarticleaction-summary": "API-module om handelingen ongedaan te maken die zijn uitgevoerd vanuit \"suggestarticleaction\"",
+	"apihelp-collection+suggestundoarticleaction-param-lastaction": "Een van 'add', 'remove' of 'ban'.",
+	"coll-api-addcategory-category-does-not-exist": "De categorie waaruit u pagina's probeert toe te voegen, bestaat niet, is ongeldig of heeft meer pagina's dan de opgegeven limiet.",
+	"apihelp-collection+addchapter-example": "Een hoofdstuk toevoegen aan de collectie.",
+	"apihelp-collection+addchapter-summary": "API-module voor het toevoegen van een hoofdstuk aan de collectie",
+	"apihelp-collection+renamechapter-example": "Een hoofdstuk hernoemen in de collectie van de gebruiker.",
+	"apihelp-collection+renamechapter-summary": "API-module voor het hernoemen van een hoofdstuk in de collectie van de gebruiker",
+	"apihelp-collection+clearcollection-example": "Wist collectie en suggesties",
+	"apihelp-collection+clearcollection-summary": "API-module voor het opschonen van de collectie en de suggesties",
+	"apihelp-collection+setsorting-example": "In een verzameling van 3 items het eerste en tweede item omwisselen",
+	"apihelp-collection+setsorting-deletion-example": "In een verzameling van 3 items eerst het 3e item aanmaken en dan het 2e item verwijderen",
+	"apihelp-collection+setsorting-summary": "API-module voor het herschikken van items in een collectie",
+	"apihelp-collection+setsorting-param-items": "Items moeten worden weergegeven met hun oude index en gerangschikt op hun nieuwe positie",
+	"apihelp-collection+sortitems-example": "Verzamelpagina's alfabetisch sorteren",
+	"apihelp-collection+sortitems-summary": "API-module om pagina's in een collectie alfabetisch te sorteren. Pagina's binnen hoofdstukken zijn gegroepeerd en gesorteerd.",
+	"apihelp-collection+getpopupdata-example": "Verkrijgt een pop-up om een pagina aan de collectie toe te voegen of te verwijderen",
+	"apihelp-collection+getpopupdata-summary": "API-module om gegevens en HTML op te halen voor het samenstellen van een pop-upvenster",
+	"apihelp-collection+removeitem-example": "Verwijdert een onderdeel uit de verzameling aan de hand van de opgegeven index, of bij gebrek daaraan, index 0.",
+	"apihelp-collection+removeitem-summary": "API-module voor het indexsgewijs verwijderen van een onderdeel uit de verzameling via de pagina Special:Book.",
+	"apihelp-collection-param-submodule": "Submodule voor het uitvoeren van verscheidene bewerkingen op de verzameling van een wikigebruiker.",
+	"apihelp-collection-summary": "API-module voor het uitvoeren van verscheidene bewerkingen op de verzameling van een wiki-gebruiker."
 }
