@@ -42,5 +42,10 @@
 	"apihelp-collection+removeitem-example": "Verwijdert een onderdeel uit de verzameling aan de hand van de opgegeven index, of bij gebrek daaraan, index 0.",
 	"apihelp-collection+removeitem-summary": "API-module voor het indexsgewijs verwijderen van een onderdeel uit de verzameling via de pagina Special:Book.",
 	"apihelp-collection-param-submodule": "Submodule voor het uitvoeren van verscheidene bewerkingen op de verzameling van een wikigebruiker.",
-	"apihelp-collection-summary": "API-module voor het uitvoeren van verscheidene bewerkingen op de verzameling van een wiki-gebruiker."
+	"apihelp-collection-summary": "API-module voor het uitvoeren van verscheidene bewerkingen op de verzameling van een wiki-gebruiker.",
+	"apihelp-collection+getbookcreatorboxcontent-example": "De inhoud van het boekenmakervenster van de verzameling van de gebruiker opvragen.",
+	"apihelp-collection+getbookcreatorboxcontent-summary": "API-submodule voor het opvragen van de inhoud van het venster van de speciale pagina van de maker van het boek van de gebruiker.",
+	"apihelp-collection+postcollection-example": "Plaats pagina's in de verzameling van een gebruiker",
+	"apihelp-collection+postcollection-summary": "API-module voor het plaatsen van pagina's in de verzameling van een gebruiker",
+	"coll-api-invalid-collection": "Ongeldige verzameling ontvangen."
 }
