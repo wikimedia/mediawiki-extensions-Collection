@@ -51,8 +51,8 @@ class SpecialCollectionTest extends \PHPUnit\Framework\TestCase {
 	 */
 	public function testMoveItemInCollection( array $collection, $index, $delta, $expectedResult ) {
 		$this->assertSame(
-			SpecialCollection::moveItemInCollection( $collection, $index, $delta ),
-			$expectedResult
+			$expectedResult,
+			SpecialCollection::moveItemInCollection( $collection, $index, $delta )
 		);
 	}
 }
