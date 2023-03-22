@@ -10,6 +10,7 @@
 	"coll-manage_your_book": "دير كتابك",
 	"coll-book_creator_help": "انظر [[{{MediaWiki:Coll-helppage}}|صفحة المساعدة المتعلقة بالكتب]] للمزيد من المعلومات.",
 	"coll-start_book_creator": "إبدي منشان الكتب",
+	"coll-book_creator_continue": "ضل إستخدم منشئ الكتب",
 	"coll-print_export": "طباعه/تصـدير",
 	"coll-download_as": "تحميل بصيغه $1"
 }
