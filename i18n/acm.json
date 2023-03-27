@@ -1,9 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ahmedadeljaff"
+			"Ahmedadeljaff",
+			"MRidhaAJ"
 		]
 	},
+	"coll-desc": "[[Special:Book|سوي كتاب]]",
+	"coll-book_creator_intro": "<big>تكدر وي \"منشئ الكتب\" تسوي كتاب بيه صفحات ويكي من إختيارك. تكدر تصدر كتابك بتنسيقات مختلفة لو تطلب نسخة مطبوعة.</big>",
+	"coll-manage_your_book": "دير كتابك",
+	"coll-book_creator_help": "انظر [[{{MediaWiki:Coll-helppage}}|صفحة المساعدة المتعلقة بالكتب]] للمزيد من المعلومات.",
+	"coll-start_book_creator": "إبدي منشان الكتب",
+	"coll-book_creator_continue": "ضل إستخدم منشئ الكتب",
 	"coll-print_export": "طباعه/تصـدير",
 	"coll-download_as": "تحميل بصيغه $1"
 }
