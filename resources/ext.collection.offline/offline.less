@@ -20,7 +20,7 @@
 	h6 {
 		break-after: avoid;
 
-		&[ data-mw-sectionnumber ]:before {
+		&[ data-mw-sectionnumber ]::before {
 			content: attr( data-mw-sectionnumber ) ' ';
 		}
 	}
@@ -73,7 +73,7 @@
 			// overriding the rule from core
 			text-decoration: none !important; /* stylelint-disable-line declaration-no-important */
 
-			&:before {
+			&::before {
 				content: attr( data-mw-sectionnumber ) '\00a0'; // nbsp
 			}
 		}
