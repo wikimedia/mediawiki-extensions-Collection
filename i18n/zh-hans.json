@@ -21,7 +21,8 @@
 			"Wmr",
 			"Xiaomingyan",
 			"Yfdyh000",
-			"佛壁灯"
+			"佛壁灯",
+			"Jbyccc"
 		]
 	},
 	"coll-desc": "[[Special:Book|创建图书]]",
@@ -116,7 +117,7 @@
 	"coll-return_to": "返回[[:$1]]",
 	"coll-order_info_article": "{{MediaWiki:Coll-helppage}}/PediaPress订购信息",
 	"coll-suggest_title": "为您的图书的建议的页面",
-	"coll-suggest_intro_text": "建议列表基于您的图书中现有的wiki页面。本列表将在您单击“添加”或“删除”按钮后更新。",
+	"coll-suggest_intro_text": "建议列表内容基于您的图书中现有的wiki页面。本列表将在您单击“添加”或“删除”按钮后更新。",
 	"coll-suggested_articles": "建议",
 	"coll-suggest_reset_bans": "重置",
 	"coll-suggest_reset_bans_tooltip": "显示以前删除的建议",
