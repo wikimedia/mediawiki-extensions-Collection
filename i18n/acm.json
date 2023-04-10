@@ -105,6 +105,14 @@
 	"coll-suggest_ban_selected": "أزل الصفحات المختارة",
 	"coll-suggest_your_book": "كتابك",
 	"coll-suggest_show": "طلع",
+	"coll-suggest_ban_tooltip": "وخر هاي الصفحه من قائمة المقترحات",
+	"coll-suggest_article_ban": "الصفحه <strong>$1</strong> تمت إزالتها من الاقتراحات ($2).",
+	"coll-suggest_article_add": "الصفحه <strong>$1</strong> تمت إضافتها إلى كتابك ($2).",
+	"coll-suggest_article_remove": "الصفحه <strong>$1</strong> تمت إزالتها من كتابك ($2).",
+	"coll-suggest_undo_tooltip": "رجع هاي السوايه",
+	"coll-suggest_undo": "اتراجع",
+	"coll-load_local_book": "دوس OK للاستمرار في كتابك $1 اللي بيه $2 {{PLURAL:$2|صفحة ويكي|صفحات ويكي}}. دوس Cancel حتى تحذفه وتبدي بكتاب فارغ.",
+	"coll-format-rdf2text": "معالج كتابة (كتابة عادية)",
 	"coll-print_export": "طباعه/تصـدير",
 	"coll-download_as": "تحميل بصيغه $1"
 }
