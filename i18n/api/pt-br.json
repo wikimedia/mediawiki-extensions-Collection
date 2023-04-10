@@ -1,8 +1,32 @@
 {
 	"@metadata": {
 		"authors": [
+			"Eduardoaddad",
 			"Fúlvio"
 		]
 	},
-	"apihelp-collection+getcollection-example": "Listar as páginas atualmente na coleção."
+	"apihelp-collection+getcollection-example": "Listar as páginas atualmente na coleção.",
+	"apihelp-collection+getcollection-summary": "Módulo da API para listar as páginas presentes de uma coleção",
+	"apihelp-collection+addarticle-example": "Adicionar uma página à coleção.",
+	"apihelp-collection+addarticle-summary": "Módulo da API para adicionar uma página à coleção",
+	"apihelp-collection+settitles-example": "Definir o título e o subtítulo da coleção",
+	"apihelp-collection+settitles-settings-example": "Definir o título, o subtítulo e as configurações da coleção",
+	"apihelp-collection+settitles-summary": "Módulo da API para definir o título, o subtítulo e as configurações da coleção",
+	"coll-api-addarticle-article-not-added": "A página não foi adicionada à coleção. Certifique-se de que o título está no espaço nominal especificado e verifique se a página já existe na coleção.",
+	"apihelp-collection+removearticle-example": "Remover uma página da coleção.",
+	"apihelp-collection+removearticle-summary": "Módulo da API para remover uma página da coleção",
+	"coll-api-removearticle-article-not-removed": "A página não foi removida da coleção. Certifique-se de que o título está presente no espaço nominal especificado e verifique se a página não existe na coleção.",
+	"apihelp-collection+addcategory-example": "Adicionar páginas de uma dada categoria à coleção de um usuário.",
+	"apihelp-collection+addcategory-summary": "Módulo da API para adicionar páginas de uma dada categoria à coleção de um usuário.",
+	"apihelp-collection+suggestarticleaction-example": "Adiciona uma página à coleção e às sugestões",
+	"apihelp-collection+suggestarticleaction-summary": "Módulo da API para interagir com sugestões",
+	"apihelp-collection+suggestarticleaction-param-suggestaction": "Um de entre 'adicionar', 'remover' e 'banir'. 'adicionar' adiciona uma página à coleção e sugestões e remove o banimento da mesma. 'remover' remove uma página adicionada e bane-a. 'banir' bane uma página das sugestões.",
+	"apihelp-collection+suggestundoarticleaction-example": "Desfaz uma operação de adição de página",
+	"apihelp-collection+suggestundoarticleaction-summary": "Módulo da API para desfazer operações feitas de 'suggestarticleaction'",
+	"apihelp-collection+suggestundoarticleaction-param-lastaction": "Um de entre 'adicionar', 'remover' e 'banir'.",
+	"coll-api-addcategory-category-does-not-exist": "A categoria da qual está a tentar adicionar páginas não existe, é inválida ou tem mais páginas do que o limite especificado.",
+	"apihelp-collection+addchapter-example": "Adicionar um capítulo à coleção.",
+	"apihelp-collection+addchapter-summary": "Módulo da API para adicionar um capítulo à coleção",
+	"apihelp-collection+renamechapter-example": "Alterar o nome de um capítulo na coleção do usuário.",
+	"apihelp-collection+renamechapter-summary": "Módulo da API para alterar o nome de um capítulo na coleção do usuário"
 }
