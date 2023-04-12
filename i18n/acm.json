@@ -113,6 +113,22 @@
 	"coll-suggest_undo": "اتراجع",
 	"coll-load_local_book": "دوس OK للاستمرار في كتابك $1 اللي بيه $2 {{PLURAL:$2|صفحة ويكي|صفحات ويكي}}. دوس Cancel حتى تحذفه وتبدي بكتاب فارغ.",
 	"coll-format-rdf2text": "معالج كتابة (كتابة عادية)",
+	"action-collectionsaveasuserpage": "حفظ الكتب كصفحة المستخدم",
+	"right-collectionsaveasuserpage": "حفظ الكتب في صفحة المستخدم",
+	"action-collectionsaveascommunitypage": "حفظ الكتب كصفحة مجتمع",
+	"right-collectionsaveascommunitypage": "حفظ الكتب في صفحة المجتمع",
 	"coll-print_export": "طباعه/تصـدير",
-	"coll-download_as": "تحميل بصيغه $1"
+	"coll-create_a_book": "سوي كتاب",
+	"coll-create_a_book_tooltip": "سوي كتاب لو صفحة مجموعه",
+	"coll-book_creator": "منشئ الكتب",
+	"coll-download_as": "تحميل بصيغه $1",
+	"coll-download_as_tooltip": "تحميل نسخة $1 من صفحة الويكي هاي.",
+	"coll-disable": "طفي",
+	"coll-book_creator_disable": "طفي منشئ الكتب",
+	"coll-book_creator_disable_tooltip": "اوكف من استخدام منشئ الكتب",
+	"coll-add_linked_article": "حط صفحة ويكي مربوطه لكتابك",
+	"coll-remove_linked_article": "وخر صفحة ويكي مربوطه من كتابك",
+	"coll-add_category": "حط هاذ التصنيف لكتابك",
+	"coll-add_category_tooltip": "حط كل صفحات الويكي في هاذ التصنيف لكتابك.",
+	"coll-add_this_page": "حط هاي الصفحه لكتابك"
 }
