@@ -20,7 +20,7 @@
 	"apihelp-collection+suggestarticleaction-example": "Adds a page to the collection and the suggestions",
 	"apihelp-collection+suggestarticleaction-summary": "API module to interact with suggestions",
 	"apihelp-collection+suggestarticleaction-param-suggestaction": "One of 'add', 'remove', or 'ban'. 'add' adds a page to the collection and suggestions and unbans it. 'remove' removes an added page and bans it. 'ban' bans a page from suggestions.",
-	"apihelp-collection+suggestundoarticleaction-example": "Undos an added page action",
+	"apihelp-collection+suggestundoarticleaction-example": "Undoes an added page action",
 	"apihelp-collection+suggestundoarticleaction-summary": "API module to undo actions done from suggestarticleaction",
 	"apihelp-collection+suggestundoarticleaction-param-lastaction": "One of 'add', 'remove', or 'ban'.",
 	"coll-api-addcategory-category-does-not-exist": "The category from which you are trying to add pages does not exist, is invalid, or has more pages than the limit specified.",
