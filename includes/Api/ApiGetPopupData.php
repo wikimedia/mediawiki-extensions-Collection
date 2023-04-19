@@ -25,8 +25,8 @@ namespace MediaWiki\Extension\Collection\Api;
 use ApiBase;
 use MediaWiki\Extension\Collection\Session;
 use MediaWiki\Page\WikiPageFactory;
+use MediaWiki\Title\TitleFactory;
 use Title;
-use TitleFactory;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiGetPopupData extends ApiBase {
