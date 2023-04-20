@@ -130,5 +130,21 @@
 	"coll-remove_linked_article": "وخر صفحة ويكي مربوطه من كتابك",
 	"coll-add_category": "حط هاذ التصنيف لكتابك",
 	"coll-add_category_tooltip": "حط كل صفحات الويكي في هاذ التصنيف لكتابك.",
-	"coll-add_this_page": "حط هاي الصفحه لكتابك"
+	"coll-add_this_page": "حط هاي الصفحه لكتابك",
+	"coll-add_page_tooltip": "حط صفحة الويكي الحاليه لكتابك",
+	"coll-bookscategory": "كتب",
+	"coll-clear_collection": "فرغ الكتاب",
+	"coll-help": "مساعدة",
+	"coll-helppage": "Help:كتب",
+	"coll-load_collection": "تحميل الكتاب",
+	"coll-setting-toc-yes": "اي",
+	"coll-setting-toc-no": "لا",
+	"coll-setting-columns": "اعمدة:",
+	"coll-attribution-anons": "مجهولين: $1",
+	"coll-toc-title": "جدول المحتوى",
+	"coll-contributors-title": "المساهمين",
+	"coll-images-title": "صور",
+	"coll-images-source": "المصدر",
+	"coll-images-license": "الرخصه",
+	"coll-images-original-artist": "الفنان الأصلي"
 }
