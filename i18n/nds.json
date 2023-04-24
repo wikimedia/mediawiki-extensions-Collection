@@ -3,7 +3,8 @@
 		"authors": [
 			"Joachim Mos",
 			"Macofe",
-			"Slomox"
+			"Slomox",
+			"Wikiundeplattsnacker"
 		]
 	},
 	"coll-desc": "[[Special:Book|Böker opstellen]]",
@@ -83,6 +84,7 @@
 	"coll-suggest_your_book": "Dien Book",
 	"coll-suggest_show": "wiesen",
 	"coll-suggest_undo": "rutnehmen",
+	"coll-print_export": "Drück/drag ut",
 	"coll-create_a_book": "Book opstellen",
 	"coll-download_as": "As $1 dalladen",
 	"coll-add_category": "Kategorie tofögen",
