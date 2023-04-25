@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nokeoo"
+		]
+	},
+	"apihelp-collection+getcollection-example": "Išvardija puslapius, šiuo metu esančius kolekcijoje.",
+	"apihelp-collection+getcollection-summary": "API modulis, skirtas išvardinti puslapius, šiuo metu esančius kolekcijoje.",
+	"apihelp-collection+addarticle-example": "Pridėti puslapį prie kolekcijos.",
+	"apihelp-collection+addarticle-summary": "API modulis, skirtas puslapiui pridėti prie kolekcijos",
+	"apihelp-collection+settitles-example": "Nustatyti kolekcijos pavadinimą ir paantraštę",
+	"apihelp-collection+settitles-settings-example": "Nustatykite kolekcijos pavadinimą, paantraštę ir nustatymus",
+	"apihelp-collection+settitles-summary": "API modulis, skirtas kolekcijos pavadinimui, paantraštei ir parametrams nustatyti",
+	"coll-api-addarticle-article-not-added": "Puslapis nebuvo įtrauktas į kolekciją. Įsitikinkite, kad pavadinimas yra nurodytoje vardų srityje, arba patikrinkite, ar puslapis jau yra kolekcijoje.",
+	"apihelp-collection+removearticle-example": "Pašalinti puslapį iš kolekcijos.",
+	"apihelp-collection+removearticle-summary": "API modulis, skirtas puslapiui pašalinti iš kolekcijos",
+	"coll-api-removearticle-article-not-removed": "Puslapis nebuvo pašalintas iš kolekcijos. Įsitikinkite, kad pavadinimas yra nurodytoje vardų srityje, arba patikrinkite, ar puslapio nėra kolekcijoje.",
+	"apihelp-collection+addcategory-example": "Pridėti pateiktos kategorijos puslapius į naudotojo kolekciją.",
+	"apihelp-collection+addcategory-summary": "API modulis, skirtas įtraukti puslapius iš nurodytos kategorijos į naudotojo kolekciją.",
+	"apihelp-collection+clearcollection-example": "Išvalo kolekciją ir pasiūlymus",
+	"apihelp-collection+clearcollection-summary": "API modulis kolekcijai ir pasiūlymams išvalyti",
+	"apihelp-collection+setsorting-example": "3 elementų kolekcijoje sukeiskite pirmą ir antrą daiktą",
+	"apihelp-collection+setsorting-summary": "API modulis, skirtas elementų pertvarkymui kolekcijoje",
+	"apihelp-collection+sortitems-summary": "API modulis, skirtas rūšiuoti kolekcijos puslapius abėcėlės tvarka. Skyrių puslapiai grupuojami ir rūšiuojami kartu.",
+	"apihelp-collection+getpopupdata-example": "Gauna iššokantįjį langą, kad būtų galima pridėti puslapį prie kolekcijos arba jį pašalinti",
+	"apihelp-collection+getpopupdata-summary": "API modulis duomenims gauti ir HTML, kad būtų sukurtas iššokantis langas",
+	"apihelp-collection+postcollection-example": "Skelbti puslapius naudtojo kolekcijoje",
+	"apihelp-collection+postcollection-summary": "API modulis, skirtas puslapiams skelbti naudotojo kolekcijoje",
+	"coll-api-invalid-collection": "Gauta negalima kolekcija."
+}
