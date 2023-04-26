@@ -8,10 +8,11 @@
 	"coll-show": "Вӯзьхэ",
 	"coll-move_up": "Лыгксаһтӭ паййла",
 	"coll-move_down": "Лыгксаһтӭ вӯлльга",
-	"coll-print_export": "Печадтмушш/э̄кспорт",
+	"coll-update": "О̄дтлаһтӭ",
+	"coll-print_export": "Печадтмушш/э̄кспоҏҏт",
 	"coll-create_a_book": "Лыһкэ кнӣга",
 	"coll-book_creator": "Кнӣга лыһкэй",
-	"coll-download_as": "Лоа̄дтэ гу $-фа̄ял",
+	"coll-download_as": "Лоа̄дтэ гу $1-фа̄ял",
 	"coll-help": "Ве̄һкь",
 	"coll-helppage": "Help:Кнӣга",
 	"coll-attribution-anons": "Нэ̄мхэмь: $1"
