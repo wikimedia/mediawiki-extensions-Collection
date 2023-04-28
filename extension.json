@@ -80,12 +80,8 @@
 		"ext.collection.bookcreator.messageBox": {
 			"dependencies": [
 				"mediawiki.hlist",
-				"ext.collection.bookcreator.messageBox.styles",
 				"ext.collection.bookcreator.messageBox.icons"
 			]
-		},
-		"ext.collection.bookcreator.messageBox.styles": {
-			"styles": "ext.collection.bookcreator.messageBox/messageBox.less"
 		},
 		"ext.collection.bookcreator.messageBox.icons": {
 			"class": "ResourceLoaderImageModule",

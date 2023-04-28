@@ -22,8 +22,8 @@
 
 namespace MediaWiki\Extension\Collection;
 
+use Html;
 use OutputPage;
-use TemplateParser;
 
 /**
  * A helper class to easily handle extra styles and render html for messages boxes informing
@@ -47,7 +47,6 @@ class MessageBoxHelper {
 		] );
 		$out->addModuleStyles( [
 			'mediawiki.hlist',
-			'ext.collection.bookcreator.messageBox.styles',
 			'ext.collection.bookcreator.messageBox.icons',
 		] );
 	}
@@ -58,17 +57,29 @@ class MessageBoxHelper {
 	 * @return string Generated HTML
 	 */
 	public static function renderWarningBoxes() {
-		$templateParser = new TemplateParser( __DIR__ . DIRECTORY_SEPARATOR . '..'
-			. DIRECTORY_SEPARATOR . 'templates' );
-
-		$args = [
-			"warning_title" => wfMessage( 'coll-warning-disable-pdf-title' )->text(),
-			"warning_text" => wfMessage( 'coll-warning-disable-pdf-text' )->text(),
-			"warning_learn_more" => wfMessage( 'coll-warning-learn-more' )->text(),
-			"notice_title" => wfMessage( 'coll-notice-download-pdf-title' )->text(),
-			"notice_text" => wfMessage( 'coll-notice-download-pdf-text' )->parse()
-		];
-		return $templateParser->processTemplate( 'warning', $args );
+		return Html::warningBox(
+			Html::element( 'h5', [
+				'class' => 'collection-box-heading collection-icon-warning',
+			], wfMessage( 'coll-warning-disable-pdf-title' )->text() )
+			. Html::element( 'p', [
+				'class' => 'notice-text'
+			], wfMessage( 'coll-warning-disable-pdf-text' )->text() )
+			. Html::rawElement( 'ul', [
+				'class' => 'hlist',
+			], Html::rawElement( 'li', [],
+				Html::element( 'a', [
+					'href' => 'https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality',
+				], wfMessage( 'coll-warning-learn-more' )->text() )
+			) ),
+			'collection-maintenance-box collection-warning-box',
+		) . Html::noticeBox(
+			Html::element( 'h5', [
+				'class' => 'collection-box-heading collection-icon-info',
+			], wfMessage( 'coll-notice-download-pdf-title' )->text() )
+			. Html::rawElement( 'p', [ 'class' => 'notice-text' ],
+				wfMessage( 'coll-notice-download-pdf-text' )->parse() ),
+			'collection-maintenance-box collection-notice-box'
+		);
 	}
 
 }
