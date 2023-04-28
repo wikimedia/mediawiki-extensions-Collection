@@ -1,8 +1,8 @@
-@import 'mediawiki.ui/variables.less';
+@import 'mediawiki.skin.variables.less';
 
 .collection-maintenance-box {
-	border-radius: 2px;
-	border: solid 1px @colorGray14;
+	border: @border-width-base @border-style-base #eaecf0;
+	border-radius: @border-radius-base;
 	padding-left: 46px;
 	padding-bottom: 2px;
 	font-size: 13px;
@@ -35,13 +35,14 @@
 
 		a {
 			font-weight: bold;
-			color: @colorProgressive;
+			color: @color-link;
 		}
 	}
 }
 
 .collection-warning-box {
-	background-color: @colorGray14;
+	// TODO: This should probably be a warning, not a message styling.
+	background-color: #eaecf0;
 	padding-top: 13px;
 	padding-bottom: 9px;
 }
