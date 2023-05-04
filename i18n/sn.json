@@ -4,6 +4,8 @@
 			"Masiziva"
 		]
 	},
+	"coll-yes": "Hongu",
 	"coll-print_export": "Tsikisa/endesazhe",
-	"coll-download_as": "Tutunura se $1"
+	"coll-download_as": "Tutunura se $1",
+	"coll-setting-toc-yes": "Hongu"
 }
