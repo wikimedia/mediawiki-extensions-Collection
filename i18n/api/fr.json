@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Gomoko",
-			"Verdy p"
+			"Verdy p",
+			"Urhixidur"
 		]
 	},
 	"apihelp-collection+getcollection-example": "Lister les pages présentes actuellement dans la collection.",
@@ -45,7 +46,7 @@
 	"apihelp-collection-summary": "Module d’API pour effectuer diverses opérations sur la collection de l’utilisateur du wiki.",
 	"apihelp-collection+getbookcreatorboxcontent-example": "Obtenir le contenu de la fenêtre du créateur de livre pour la collection de l’utilisateur.",
 	"apihelp-collection+getbookcreatorboxcontent-summary": "Sous-module de l’API pour saisir le contenu de la fenêtre de la page spéciale de fenêtre du créateur de livre.",
-	"apihelp-collection+postcollection-example": "Poster des pages vers la collection d’un utilisateur",
+	"apihelp-collection+postcollection-example": "Publier des pages dans la collection d’un utilisateur",
 	"apihelp-collection+postcollection-summary": "Module d’API pour publier des pages vers la collection d’un utilisateur",
 	"coll-api-invalid-collection": "Collection reçue non valide."
 }
