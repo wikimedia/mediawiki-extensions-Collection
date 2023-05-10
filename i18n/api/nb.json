@@ -19,6 +19,9 @@
 	"apihelp-collection+addcategory-summary": "API-modul for å legge til sider fra en gitt kategori til en brukers samling.",
 	"apihelp-collection+suggestarticleaction-example": "Legger til ei side i samlinga og forslagene",
 	"apihelp-collection+suggestarticleaction-summary": "API-modul for å samhandle med forslag",
+	"apihelp-collection+suggestarticleaction-param-suggestaction": "Enten «add», «remove» eller «ban». «add» legger til en side i samlingen og forslagene og fjerner den fra bannlysning. «remove» fjerner en allered tillagt side og bannlyser den. «ban» bannlyser en side fra forslag.",
+	"apihelp-collection+suggestundoarticleaction-example": "Gjør om en handling som legger til en side",
+	"apihelp-collection+suggestundoarticleaction-summary": "API-modul for å gjøre om handlinger gjort fra suggestarticleaction",
 	"apihelp-collection+suggestundoarticleaction-param-lastaction": "Én av «add», «remove» eller «ban».",
 	"coll-api-addcategory-category-does-not-exist": "Kategorien du prøver å legge til sider fra eksisterer ikke, er ugyldig, eller har flere sider enn den gitte grensen.",
 	"apihelp-collection+addchapter-example": "Legg til et kapittel i samlingen.",
@@ -28,7 +31,9 @@
 	"apihelp-collection+clearcollection-example": "Tømmer samling og forslag",
 	"apihelp-collection+clearcollection-summary": "API-modul for å tømme samlingen og forslagene",
 	"apihelp-collection+setsorting-example": "Bytt om første og andre element i en samling på 3 elementer",
+	"apihelp-collection+setsorting-deletion-example": "I en samling over 3 elementer, gjør det tredje elementet til det første, og slett det andre elementet",
 	"apihelp-collection+setsorting-summary": "API-modul for å omrokkere elementer i en samling",
+	"apihelp-collection+setsorting-param-items": "Elementer bør listes opp med sin gamle indeks og sorteres etter ny posisjon",
 	"apihelp-collection+sortitems-example": "Sorter samlingssider alfabetisk",
 	"apihelp-collection+sortitems-summary": "API-modul for å sortere sider i en samling alfabetisk. Sider i kapitler grupperes og sorteres sammen."
 }
