@@ -113,7 +113,7 @@
 	"coll-suggest_show": "prikaži",
 	"coll-suggest_ban_tooltip": "Ukloni ovu stranicu s popisa prijedloga",
 	"coll-suggest_article_ban": "Stranica <strong>$1</strong> uklonjena je iz popisa prijedloga ($2).",
-	"coll-suggest_article_add": "Stranica <strong>$1</strong> dodana je u vašu knjigu ($2).",
+	"coll-suggest_article_add": "Stranica <strong>$1</strong> dodana je u Vašu knjigu ($2).",
 	"coll-suggest_article_remove": "Stranica <strong>$1</strong> uklonjena je iz vaše knjige ($2).",
 	"coll-suggest_undo_tooltip": "Vrati zadnju radnju",
 	"coll-suggest_undo": "vrati",
