@@ -23,7 +23,9 @@
 namespace MediaWiki\Extension\Collection;
 
 use Linker;
+use MediaWiki\MainConfigNames;
 use MediaWiki\Session\SessionManager;
+use RequestContext;
 use Skin;
 use SpecialPage;
 use TemplateParser;
@@ -202,36 +204,37 @@ class Hooks {
 	 * @return string
 	 */
 	public static function renderBookCreatorBox( Title $title, $mode = '' ) {
-		global $wgOut, $wgExtensionAssetsPath, $wgRequest;
 		$templateParser = new TemplateParser( dirname( __DIR__ ) . '/templates' );
+		$context = RequestContext::getMain();
 
-		$imagePath = "$wgExtensionAssetsPath/Collection/images";
+		$imagePath = $context->getConfig()->get( MainConfigNames::ExtensionAssetsPath ) . '/Collection/images';
 		$ptext = $title->getPrefixedText();
-		$oldid = $wgRequest->getInt( 'oldid', 0 );
+		$oldid = $context->getRequest()->getInt( 'oldid', 0 );
 		if ( $oldid == $title->getLatestRevID() ) {
 			$oldid = 0;
 		}
 
-		$wgOut->addModules( 'ext.collection.bookcreator' );
-		$wgOut->addModuleStyles( 'ext.collection.bookcreator.styles' );
+		$out = $context->getOutput();
+		$out->addModules( 'ext.collection.bookcreator' );
+		$out->addModuleStyles( 'ext.collection.bookcreator.styles' );
 
 		$addRemoveState = $mode;
 
 		return $templateParser->processTemplate( 'create-book', [
 			"actionsHtml" => self::getBookCreatorBoxContent( $title, $addRemoveState, $oldid ),
 			"imagePath" => $imagePath,
-			"title" => wfMessage( 'coll-book_creator' )->text(),
+			"title" => $context->msg( 'coll-book_creator' )->text(),
 			"disable" => [
 				"url" => SpecialPage::getTitleFor( 'Book' )->getLocalUrl(
 					[ 'bookcmd' => 'stop_book_creator', 'referer' => $ptext ]
 				),
-				"title" => wfMessage( 'coll-book_creator_disable_tooltip' )->text(),
-				"label" => wfMessage( 'coll-disable' )->escaped(),
+				"title" => $context->msg( 'coll-book_creator_disable_tooltip' )->text(),
+				"label" => $context->msg( 'coll-disable' )->escaped(),
 			],
 			"help" => [
-				"url" => Title::newFromText( wfMessage( 'coll-helppage' )->text() )->getLocalUrl(),
-				"label" => wfMessage( 'coll-help' )->escaped(),
-				"title" => wfMessage( 'coll-help_tooltip' )->text(),
+				"url" => Title::newFromText( $context->msg( 'coll-helppage' )->text() )->getLocalUrl(),
+				"label" => $context->msg( 'coll-help' )->escaped(),
+				"title" => $context->msg( 'coll-help_tooltip' )->text(),
 				"icon" => $imagePath . '/silk-help.png',
 			]
 		] );

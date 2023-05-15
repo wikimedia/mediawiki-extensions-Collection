@@ -41,6 +41,7 @@ use OOUI\ButtonGroupWidget;
 use OOUI\ButtonInputWidget;
 use OOUI\ButtonWidget;
 use OOUI\FormLayout;
+use RequestContext;
 use SkinTemplate;
 use SpecialPage;
 use Title;
@@ -810,9 +811,8 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	private static function limitExceeded() {
-		global $wgOut;
-
-		$wgOut->showErrorPage( 'coll-limit_exceeded_title', 'coll-limit_exceeded_text' );
+		$out = RequestContext::getMain()->getOutput();
+		$out->showErrorPage( 'coll-limit_exceeded_title', 'coll-limit_exceeded_text' );
 	}
 
 	/**

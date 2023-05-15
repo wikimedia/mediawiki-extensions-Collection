@@ -25,6 +25,7 @@ namespace MediaWiki\Extension\Collection;
 use MediaWiki\Extension\Collection\Specials\SpecialCollection;
 use MediaWiki\Extension\Collection\Templates\CollectionSuggestTemplate;
 use MediaWiki\Session\SessionManager;
+use RequestContext;
 
 /**
  * This class contains only static methods, so there's no need for a constructor.
@@ -48,16 +49,16 @@ class Suggest {
 	 *        or removed, or a list of article names to be added.
 	 */
 	public static function run( $mode = '', $param = '' ) {
-		global $wgOut;
-
 		if ( !Session::hasSession() ) {
 			Session::startSession();
 		}
 
 		$template = self::getCollectionSuggestTemplate( $mode, $param );
-		$wgOut->setPageTitle( wfMessage( 'coll-suggest_title' ) );
-		$wgOut->addModules( 'ext.collection.suggest' );
-		$wgOut->addTemplate( $template );
+		$context = RequestContext::getMain();
+		$out = $context->getOutput();
+		$out->setPageTitle( $context->msg( 'coll-suggest_title' ) );
+		$out->addModules( 'ext.collection.suggest' );
+		$out->addTemplate( $template );
 	}
 
 	/**
