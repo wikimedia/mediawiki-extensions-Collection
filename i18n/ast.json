@@ -3,6 +3,7 @@
 		"authors": [
 			"1233qwer1234qwer4",
 			"Esbardu",
+			"Fitoschido",
 			"Macofe",
 			"Xuacu"
 		]
@@ -86,7 +87,7 @@
 	"coll-failed_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Testu informativu sobro renderización de coleiciones",
 	"coll-notfound_title": "Nun s'alcontró'l llibru",
 	"coll-notfound_text": "Nun s'alcontró la páxina del llibru.",
-	"coll-download_notfound_title": "Nun s'alcontró el ficheru",
+	"coll-download_notfound_title": "Nun s’alcontró’l ficheru",
 	"coll-download_notfound_text": "El ficheru que ta intentando descargar nun existe: Seique desanicióse y necesita rexenerase.",
 	"coll-is_cached": "<ul><li>Atopose una versión del documentu na caché, polo que nun va ser necesario renderizalu. [$1 Forzar la renderización.]</li></ul>",
 	"coll-book_title": "Encargar como llibru impresu",
