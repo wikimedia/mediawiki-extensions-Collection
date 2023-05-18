@@ -11,7 +11,6 @@ $specialPageAliases = [];
 /** English (English) */
 $specialPageAliases['en'] = [
 	'Book' => [ 'Book', 'Collection' ],
-	'RenderBook' => [ 'RenderBook' ],
 ];
 
 /** Afrikaans (Afrikaans) */
@@ -127,7 +126,6 @@ $specialPageAliases['eo'] = [
 /** Spanish (español) */
 $specialPageAliases['es'] = [
 	'Book' => [ 'Libro', 'Libros', 'Colección', 'Colecciones' ],
-	'RenderBook' => [ 'Generar_libro', 'Generar_libros' ],
 ];
 
 /** Estonian (eesti) */
@@ -318,7 +316,6 @@ $specialPageAliases['mt'] = [
 /** Mirandés (Mirandese) */
 $specialPageAliases['mwl'] = [
 	'Book' => [ 'Lhibro', 'Libro', 'Coleçon' ],
-	'RenderBook' => [ 'CumposiçonLhibro', 'CumposiçonLibro' ],
 ];
 
 /** Erzya (эрзянь) */
@@ -459,7 +456,6 @@ $specialPageAliases['uk'] = [
 /** Urdu (اردو) */
 $specialPageAliases['ur'] = [
 	'Book' => [ 'کتاب', 'انتخاب' ],
-	'RenderBook' => [ 'طبع_کتاب' ],
 ];
 
 /** Venetian (vèneto) */

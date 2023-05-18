@@ -18,8 +18,7 @@
 		"collectionsaveascommunitypage"
 	],
 	"SpecialPages": {
-		"Book": "MediaWiki\\Extension\\Collection\\Specials\\SpecialCollection",
-		"RenderBook": "MediaWiki\\Extension\\Collection\\Specials\\SpecialRenderBook"
+		"Book": "MediaWiki\\Extension\\Collection\\Specials\\SpecialCollection"
 	},
 	"MessagesDirs": {
 		"Collection": [
