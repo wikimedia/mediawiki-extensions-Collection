@@ -202,7 +202,6 @@ class BookRenderingMediator implements LoggerAwareInterface {
 		$config = $config->get( 'VirtualRestConfig' );
 		$modules = [
 			'restbase' => RestbaseVirtualRESTService::class,
-			'electron' => ElectronVirtualRestService::class,
 		];
 		foreach ( $modules as $module => $class ) {
 			if ( !isset( $config['modules'][$module] ) || !is_array( $config['modules'][$module] ) ) {
