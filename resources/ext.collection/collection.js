@@ -268,14 +268,54 @@
 		$( '#saveButton' ).prop( 'disabled', false );
 	}
 
-	function make_sortable() {
-		$( '#collectionList' ).sortable( {
-			axis: 'y',
-			update: function () {
-				set_sorting( $( '#collectionList' ).sortable( 'serialize' ) );
-			}
+	function serialize() {
+		set_sorting(
+			Array.from(
+				document.querySelectorAll( '#collectionList li' )
+			).map( ( node ) => node.id.split( '-' )[ 1 ] ).join( '|' )
+		);
+	}
+
+	function upClick( ev ) {
+		const cur = ev.target.parentNode;
+		const last = cur.previousElementSibling;
+		if ( last ) {
+			cur.parentNode.insertBefore( cur, last );
+			serialize();
+		}
+	}
+
+	function downClick( ev ) {
+		const cur = ev.target.parentNode;
+		const next = cur.nextElementSibling;
+		if ( next ) {
+			cur.parentNode.insertBefore( cur, next.nextElementSibling );
+			serialize();
+		}
+	}
+
+	/**
+	 * Puts up and down arrows in each item to allow you to reorder items.
+	 *
+	 * @param {HTMLElement} list
+	 */
+	function sortable( list ) {
+		list.querySelectorAll( 'li' ).forEach( ( node ) => {
+			const up = document.createElement( 'button' );
+			up.setAttribute( 'class', 'collection-up' );
+			up.textContent = '↑';
+			const down = document.createElement( 'button' );
+			down.setAttribute( 'class', 'collection-down' );
+			down.textContent = '↓';
+			up.addEventListener( 'click', upClick );
+			down.addEventListener( 'click', downClick );
+			node.prepend( down );
+			node.prepend( up );
 		} );
-		$( '#collectionList .sortableitem' ).css( 'cursor', 'move' );
+	}
+
+	function make_sortable() {
+		sortable( $( '#collectionList' )[ 0 ] );
 	}
 
 	/**
