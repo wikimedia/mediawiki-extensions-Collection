@@ -24,7 +24,7 @@ class HeadingCounterTest extends \PHPUnit\Framework\TestCase {
 		$this->assertSame( $expectedResult, $result );
 	}
 
-	public function provideIncrementAndGet() {
+	public static function provideIncrementAndGet() {
 		return [
 			[ [ 1 ], '1' ],
 			[ [ 1, 1 ], '2' ],
@@ -53,7 +53,7 @@ class HeadingCounterTest extends \PHPUnit\Framework\TestCase {
 		$this->assertSame( $expectedResult, $result );
 	}
 
-	public function provideIncrementAndGetTopLevel() {
+	public static function provideIncrementAndGetTopLevel() {
 		return [
 			[ [ 1 ], '2' ],
 			[ [ 1, 2, 3 ], '2' ],

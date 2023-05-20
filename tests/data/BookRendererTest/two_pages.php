@@ -7,7 +7,7 @@
  */
 
 return [
-	'collection' => $this->makeCollection( 'Book title', 'Book subtitle',
+	'collection' => self::makeCollection( 'Book title', 'Book subtitle',
 		[ [ 'Foo', 'article' ], [ 'Bar', 'article' ] ] ),
 	'pages' => [
 		'Foo' => '<html><body>Foo body<h2 id="Foo_section_1">Foo section 1</h2>Section 1 body</body></html>',

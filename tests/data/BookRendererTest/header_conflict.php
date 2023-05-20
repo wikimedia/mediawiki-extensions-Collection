@@ -5,7 +5,7 @@
  */
 
 return [
-	'collection' => $this->makeCollection( 'Book title', 'Book subtitle',
+	'collection' => self::makeCollection( 'Book title', 'Book subtitle',
 		[ [ 'Foo', 'article' ] ] ),
 	// phpcs:ignore Generic.Files.LineLength
 	'pages' => [ 'Foo' => '<html><body>Foo body<h1 id="Section_1">Section 1</h1><h2 id="Section_1.1">Section 1.1</h2><h3 id="Section_1.1.1">Section 1.1.1</h3><h4 id="Section_1.1.1.1">Section 1.1.1.1</h4><h5 id="Section_1.1.1.1.1">Section 1.1.1.1.1</h5><h6 id="Section_1.1.1.1.1.1">Section 1.1.1.1.1.1</h6><h3 id="Section_1.1.2">Section 1.1.2</h3></body></html>' ],

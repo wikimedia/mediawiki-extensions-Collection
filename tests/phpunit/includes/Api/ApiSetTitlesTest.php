@@ -26,7 +26,7 @@ class ApiSetTitlesTest extends ApiTestCase {
 		CollectionSession::clearCollection();
 	}
 
-	public function provideTestApiSetTitles_Good() {
+	public static function provideTestApiSetTitles_Good() {
 		return [
 			'Set title' => [
 				[

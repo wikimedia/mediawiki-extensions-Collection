@@ -97,20 +97,20 @@ class BookRendererTest extends MediaWikiIntegrationTestCase {
 		$this->assertSameExceptWhitespace( $expectedHtml, $html, 'HTML mismatch' );
 	}
 
-	public function provideRenderBook() {
+	public static function provideRenderBook() {
 		return [
-			'single page' => $this->loadData( 'single_page' ),
-			'two pages' => $this->loadData( 'two_pages' ),
-			'chapters' => $this->loadData( 'chapters' ),
-			'id conflict' => $this->loadData( 'id_conflict' ),
-			'header conflict' => $this->loadData( 'header_conflict' ),
+			'single page' => self::loadData( 'single_page' ),
+			'two pages' => self::loadData( 'two_pages' ),
+			'chapters' => self::loadData( 'chapters' ),
+			'id conflict' => self::loadData( 'id_conflict' ),
+			'header conflict' => self::loadData( 'header_conflict' ),
 		];
 	}
 
-	public function provideGetBookTemplateDataOutlineGeneration() {
+	public static function provideGetBookTemplateDataOutlineGeneration() {
 		$cases = [];
 		foreach ( [ 'single_page', 'two_pages', 'chapters', 'id_conflict', 'header_conflict' ] as $key ) {
-			$eg = $this->loadData( $key );
+			$eg = self::loadData( $key );
 			$cases[] = [
 				$eg['collection'], $eg['pages'], $eg['metadata'], $eg['expectedOutline'],
 			];
@@ -125,7 +125,7 @@ class BookRendererTest extends MediaWikiIntegrationTestCase {
 	 *   type is either 'chapter' or 'article'.
 	 * @return array
 	 */
-	private function makeCollection( $title, $subtitle, array $elements ) {
+	private static function makeCollection( $title, $subtitle, array $elements ) {
 		$collection = [
 			'enabled' => true,
 			'title' => $title,
@@ -185,7 +185,7 @@ class BookRendererTest extends MediaWikiIntegrationTestCase {
 		return $str;
 	}
 
-	private function loadData( $test ) {
+	private static function loadData( $test ) {
 		$dir = __DIR__ . '/../../data/BookRendererTest';
 		$data = include "$dir/$test.php";
 		$data['expectedHtml'] = file_get_contents( "$dir/$test.html" );

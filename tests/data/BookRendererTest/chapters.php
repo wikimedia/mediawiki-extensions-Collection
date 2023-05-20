@@ -7,7 +7,7 @@
  */
 
 return [
-	'collection' => $this->makeCollection( 'Book title', 'Book subtitle',
+	'collection' => self::makeCollection( 'Book title', 'Book subtitle',
 		[ [ 'Chapter 1', 'chapter' ], [ 'Foo', 'article' ],
 			[ 'Chapter 2', 'chapter' ], [ 'Bar', 'article' ] ] ),
 	'pages' => [

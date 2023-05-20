@@ -11,7 +11,7 @@ use MediaWikiCoversValidator;
 class SpecialCollectionTest extends \PHPUnit\Framework\TestCase {
 	use MediaWikiCoversValidator;
 
-	public function provideMoveItemInCollection() {
+	public static function provideMoveItemInCollection() {
 		return [
 			// Cannot swap anything in a null object
 			[

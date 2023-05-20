@@ -36,18 +36,18 @@ class ApiSortItemsTest extends ApiTestCase {
 		$this->assertArrayEquals( $expected, $result );
 	}
 
-	public function provideTestApiSortItems() {
+	public static function provideTestApiSortItems() {
 		return [
 			'Sorts articles alphabetically' => [
 				[
-					$this->populateArticleFields( 'a' ),
-					$this->populateArticleFields( 'b' ),
-					$this->populateArticleFields( 'c' ),
+					self::populateArticleFields( 'a' ),
+					self::populateArticleFields( 'b' ),
+					self::populateArticleFields( 'c' ),
 				],
 				[
-					$this->populateArticleFields( 'c' ),
-					$this->populateArticleFields( 'b' ),
-					$this->populateArticleFields( 'a' ),
+					self::populateArticleFields( 'c' ),
+					self::populateArticleFields( 'b' ),
+					self::populateArticleFields( 'a' ),
 				]
 			],
 			'Does not sort chapters' => [
@@ -65,39 +65,39 @@ class ApiSortItemsTest extends ApiTestCase {
 			'Sorts articles within chapters' => [
 				[
 					[ 'type' => 'chapter', 'title' => 'cc' ],
-					$this->populateArticleFields( 'a' ),
-					$this->populateArticleFields( 'b' ),
+					self::populateArticleFields( 'a' ),
+					self::populateArticleFields( 'b' ),
 					[ 'type' => 'chapter', 'title' => 'aa' ],
-					$this->populateArticleFields( 'c' ),
+					self::populateArticleFields( 'c' ),
 				],
 				[
 					[ 'type' => 'chapter', 'title' => 'cc' ],
-					$this->populateArticleFields( 'b' ),
-					$this->populateArticleFields( 'a' ),
+					self::populateArticleFields( 'b' ),
+					self::populateArticleFields( 'a' ),
 					[ 'type' => 'chapter', 'title' => 'aa' ],
-					$this->populateArticleFields( 'c' ),
+					self::populateArticleFields( 'c' ),
 				]
 			],
 			'Sorts articles outside chapters' => [
 				[
-					$this->populateArticleFields( 'a' ),
-					$this->populateArticleFields( 'b' ),
+					self::populateArticleFields( 'a' ),
+					self::populateArticleFields( 'b' ),
 					[ 'type' => 'chapter', 'title' => 'aa' ],
-					$this->populateArticleFields( 'c' ),
-					$this->populateArticleFields( 'd' ),
+					self::populateArticleFields( 'c' ),
+					self::populateArticleFields( 'd' ),
 				],
 				[
-					$this->populateArticleFields( 'b' ),
-					$this->populateArticleFields( 'a' ),
+					self::populateArticleFields( 'b' ),
+					self::populateArticleFields( 'a' ),
 					[ 'type' => 'chapter', 'title' => 'aa' ],
-					$this->populateArticleFields( 'd' ),
-					$this->populateArticleFields( 'c' ),
+					self::populateArticleFields( 'd' ),
+					self::populateArticleFields( 'c' ),
 				]
 			],
 		];
 	}
 
-	private function populateArticleFields( string $title, array $params = [] ) {
+	private static function populateArticleFields( string $title, array $params = [] ) {
 		return array_merge(
 			[
 				'type' => 'article',
