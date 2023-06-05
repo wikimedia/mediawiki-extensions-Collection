@@ -96,7 +96,7 @@
 	"coll-failed_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Besedilo informacij zbirke upodabljanja",
 	"coll-notfound_title": "Knjige ni mogoče najti",
 	"coll-notfound_text": "Te strani v knjigi ni bilo mogoče najti.",
-	"coll-download_notfound_title": "Datoteke ni mogoče najti",
+	"coll-download_notfound_title": "Datoteka ni bila najdena",
 	"coll-download_notfound_text": "Datoteka, ki jo poskušate prenesti, ne obstaja:\nMogoče je bila izbrisana in jo je treba znova ustvariti.",
 	"coll-download_failed_title": "Napaka med prenosom",
 	"coll-download_failed_text": "Pri prenosu datoteke je prišlo do napake: $1",
