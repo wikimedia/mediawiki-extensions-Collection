@@ -26,7 +26,6 @@ class ApiRemoveItemTest extends ApiTestCase {
 	 * @param string $pageName
 	 *
 	 * @return WikiPage
-	 * @throws MWException
 	 */
 	private function getTestPage( string $pageName = 'UTPage' ) {
 		// Create the page to add to a collection so it's valid.
