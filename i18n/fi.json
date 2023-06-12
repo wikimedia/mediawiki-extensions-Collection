@@ -104,6 +104,8 @@
 	"coll-rendering_failed_title": "Renderöinti epäonnistui",
 	"coll-rendering_failed_text": "<strong>Tiedoston luonti epäonnistui.</strong>\n\n<p><span id=\"renderingStatus\">$1</span></p>",
 	"coll-rendering_failed_status": "<strong>Tila:</strong> $1",
+	"coll-failed_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Muotoillaan sivu -tiedote",
+	"coll-failed_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Muotoillaan kokoelma -tiedote",
 	"coll-notfound_title": "Kirjaa ei löydy",
 	"coll-notfound_text": "Kirjan sivua ei löydy.",
 	"coll-download_notfound_title": "Tiedostoa ei löydy",
