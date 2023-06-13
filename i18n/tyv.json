@@ -3,7 +3,8 @@
 		"authors": [
 			"Agilight",
 			"Riverman",
-			"Монгуш Салим"
+			"Монгуш Салим",
+			"Karak-Kyzyl"
 		]
 	},
 	"coll-remove": "Баладыр",
@@ -25,7 +26,7 @@
 	"coll-format-rl": "е-ном (PDF)",
 	"coll-format-epub": "е-ном (EPUB)",
 	"coll-format-odf": "сөзүглелдиг процессор (OpenDocument)",
-	"coll-print_export": "Парлаар/экспорттаар",
+	"coll-print_export": "Парлаар/экспорт",
 	"coll-create_a_book": "Ном кылыр",
 	"coll-book_creator": "Ном кылыры",
 	"coll-download_as": "$1 кылдыр киир чүдүрер",
