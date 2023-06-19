@@ -3,6 +3,7 @@
 		"authors": [
 			"Abanima",
 			"Antime",
+			"Asma",
 			"Ciphers",
 			"FiberAhmed",
 			"Helmoony",
@@ -55,7 +56,7 @@
 	"coll-title": "العنوان:",
 	"coll-subtitle": "العنوان الفرعي:",
 	"coll-contents": "محتويات",
-	"coll-drag_and_drop": "استخدم السحب والإلقاء لطلب صفحات وفصول ويكي",
+	"coll-drag_and_drop": "استخدم أزرار الأسهم لإعادة ترتيب صفحات وفصول wiki",
 	"coll-create_chapter": "إنشاء الفصل",
 	"coll-sort_alphabetically": "رتب أبجديًا",
 	"coll-rename": "إعادة تسمية",
