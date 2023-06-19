@@ -132,7 +132,7 @@
 	"coll-create_a_book": "Llunio llyfr",
 	"coll-create_a_book_tooltip": "Llunio llyfr neu gasgliad o dudalennau",
 	"coll-book_creator": "Lluniwr llyfrau",
-	"coll-download_as": "Lawrlwytho ar ffurf $1",
+	"coll-download_as": "Lawrlwytho fel $1",
 	"coll-download_as_tooltip": "Lawrlwytho fersiwn $1 o'r dudalen wici hon",
 	"coll-disable": "anablu",
 	"coll-book_creator_disable": "Analluogi'r lluniwr llyfrau",
