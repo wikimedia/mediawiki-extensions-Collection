@@ -4,7 +4,8 @@
 			"Les Meloures",
 			"Macofe",
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
 	"coll-desc": "[[Special:Book|Bicher uleeën]]",
@@ -39,7 +40,7 @@
 	"coll-title": "Titel:",
 	"coll-subtitle": "Ënnertitel:",
 	"coll-contents": "Inhalter",
-	"coll-drag_and_drop": "Benotzt d'Maus fir Wikisäiten a Kapitelen anescht ze zortéieren",
+	"coll-drag_and_drop": "Benotzt d'Feiltaste fir Wikisäiten a -kapitelen anescht ze zortéieren",
 	"coll-create_chapter": "E Kapitel maachen",
 	"coll-sort_alphabetically": "Alphabetesch zortéieren",
 	"coll-rename": "Ëmbenennen",
