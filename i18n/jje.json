@@ -1,0 +1,30 @@
+{
+	"@metadata": {
+		"authors": [
+			"고솜"
+		]
+	},
+	"coll-remove": "삭제",
+	"coll-show": "붸우기",
+	"coll-move_up": "우로",
+	"coll-move_down": "아레로",
+	"coll-print_export": "인쇄/내보네기",
+	"coll-create_a_book": "첵 멩글기",
+	"coll-book_creator": "첵 셍성기",
+	"coll-download_as": "$1로 ᄂᆞ려받기",
+	"coll-disable": "낍기",
+	"coll-book_creator_disable": "첵 셍성기 낍기",
+	"coll-book_creator_disable_tooltip": "첵 셍성기 줌추기",
+	"coll-add_this_page": "이 글월 첵에 더의기",
+	"coll-add_page_tooltip": "이 글월 첵에 더의기",
+	"coll-help": "도웸",
+	"coll-help_tooltip": "첵 멩그는 도웸 베리기",
+	"coll-helppage": "Help:첵",
+	"coll-n_pages": "{{PLURAL:$1|글월}} $1개",
+	"coll-remove_this_page": "첵서 들어맞는 글월을 빼기",
+	"coll-show_collection": "첵 붸우기",
+	"coll-show_collection_tooltip": "첵 바꼬젠/ᄂᆞ려받젠/시키젠 ᄒᆞ민 눌릅서",
+	"coll-make_suggestions": "글월 내놓기",
+	"coll-make_suggestions_tooltip": "이녁 첵에 이신 글월에 ᄄᆞ랑 글월 내놓음 ᄒᆞᆫ듸 모돔을 붸워줍네다.",
+	"coll-image-attribution": "<b>$1</b> <i>출전:</i> $2 <i>라이선스:</i> $3 <i>이바지:</i> $4 <i>원작자:</i> $5"
+}

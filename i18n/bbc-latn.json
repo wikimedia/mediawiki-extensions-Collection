@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Herryz",
-			"Salomo Christian Hutajulu"
+			"Salomo Christian Hutajulu",
+			"27christian11"
 		]
 	},
 	"coll-remove": "Sesa",
@@ -12,7 +13,7 @@
 	"coll-print_export": "Rongkom/ekspor",
 	"coll-create_a_book": "Bahen ma sada pustaha",
 	"coll-book_creator": "Sitompa ni buku",
-	"coll-download_as": "Unduh gabe $1",
+	"coll-download_as": "Tangkup gabe $1",
 	"coll-disable": "tutup",
 	"coll-add_this_page": "Tambahon alaman on tu bagasan buku ni hamu",
 	"coll-add_page_tooltip": "Tambahon alaman wiki on tu bagasan ni buku ni hamu",
