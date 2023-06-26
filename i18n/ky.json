@@ -15,9 +15,13 @@
 	"coll-no": "Жок",
 	"coll-cancel": "Жокко чыгаруу",
 	"coll-update": "Жаңыртуу",
+	"coll-rendering_page": "(барак: $1)",
 	"coll-print_export": "Басып чыгаруу/экспорттоо",
 	"coll-create_a_book": "Китеп түзүү",
 	"coll-download_as": "$1 түрүндө көчүрүп алуу",
 	"coll-help": "Жардам",
+	"coll-n_pages": "$1 {{PLURAL:$1|барак}}",
+	"coll-setting-toc-yes": "Ооба",
+	"coll-setting-toc-no": "Жок",
 	"coll-attribution-anons": "Аноним: $1"
 }
