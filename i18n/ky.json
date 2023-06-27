@@ -7,6 +7,8 @@
 		]
 	},
 	"coll-your_book": "Сиздин китебиңиз",
+	"coll-download_title": "Жүктөп алуу",
+	"coll-download": "Жүктөп алуу",
 	"coll-format_label": "Формат:",
 	"coll-remove": "Өчүрүү",
 	"coll-show": "Көрсөтүү",
@@ -18,7 +20,7 @@
 	"coll-rendering_page": "(барак: $1)",
 	"coll-print_export": "Басып чыгаруу/экспорттоо",
 	"coll-create_a_book": "Китеп түзүү",
-	"coll-download_as": "$1 түрүндө көчүрүп алуу",
+	"coll-download_as": "$1 түрүндө жүктөп алуу",
 	"coll-help": "Жардам",
 	"coll-n_pages": "$1 {{PLURAL:$1|барак}}",
 	"coll-setting-toc-yes": "Ооба",
