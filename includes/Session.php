@@ -107,14 +107,13 @@ class Session {
 	 * @return int
 	 */
 	public static function countArticles() {
-		$session = SessionManager::getGlobalSession();
-
 		if ( !self::hasItems() ) {
 			return 0;
 		}
+		$session = SessionManager::getGlobalSession();
 		$count = 0;
 		foreach ( $session['wsCollection']['items'] as $item ) {
-			if ( $item['type'] == 'article' ) {
+			if ( $item !== null && $item['type'] == 'article' ) {
 				$count++;
 			}
 		}
@@ -134,7 +133,7 @@ class Session {
 		$session = SessionManager::getGlobalSession();
 
 		foreach ( $session['wsCollection']['items'] as $index => $item ) {
-			if ( $item['type'] == 'article' && $item['title'] == $title ) {
+			if ( $item !== null && $item['type'] == 'article' && $item['title'] == $title ) {
 				if ( $oldid ) {
 					if ( $item['revision'] == strval( $oldid ) ) {
 						return $index;
@@ -165,14 +164,14 @@ class Session {
 			$batch = MediaWikiServices::getInstance()->getLinkBatchFactory()->newLinkBatch();
 			$lc = MediaWikiServices::getInstance()->getLinkCache();
 			foreach ( $coll['items'] as $item ) {
-				if ( $item['type'] == 'article' ) {
+				if ( $item !== null && $item['type'] == 'article' ) {
 					$t = Title::newFromText( $item['title'] );
 					$batch->addObj( $t );
 				}
 			}
 			$batch->execute();
 			foreach ( $coll['items'] as $item ) {
-				if ( $item['type'] == 'article' ) {
+				if ( $item !== null && $item['type'] == 'article' ) {
 					$t = Title::newFromText( $item['title'] );
 					if ( $t && !$lc->isBadLink( $t->getPrefixedDBkey() ) ) {
 						$newitems[] = $item;
