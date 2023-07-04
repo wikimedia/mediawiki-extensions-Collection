@@ -82,7 +82,7 @@
 	"coll-rendering_failed_status": "<strong>Status:</strong> $1",
 	"coll-notfound_title": "Buku tidak dijumpai",
 	"coll-notfound_text": "Laman buku tidak dapat dijumpai.",
-	"coll-download_notfound_title": "Tidak menemui fail",
+	"coll-download_notfound_title": "Fail tidak dijumpai",
 	"coll-download_notfound_text": "Fail yang anda cuba muat turun tidak wujud:\nMungkin ia telah dipadam dan perlu dijanakan semula.",
 	"coll-is_cached": "<ul><li>Versi tercache bagi dokumen itu telah ditemui, jadi penjanaan tidak diperlukan. [$1 Arahkan penjanaan semula.]</li></ul>",
 	"coll-book_title": "Tempah buku bercetak",
