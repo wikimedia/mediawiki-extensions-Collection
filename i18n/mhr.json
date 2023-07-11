@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Сай",
-			"Санюн Вадик"
+			"Санюн Вадик",
+			"Lifeway"
 		]
 	},
 	"coll-remove": "Шӧраш",
@@ -11,7 +12,7 @@
 	"coll-move_down": "Ӱлыкрак кусараш",
 	"coll-contents": "Вуйлымаш",
 	"coll-cancel": "Чараш",
-	"coll-print_export": "Печать/экспорт",
+	"coll-print_export": "Савыктымаш/экспорт",
 	"coll-create_a_book": "Книгам чоҥаш",
 	"coll-download_as": "$1 семын тулен налаш"
 }
