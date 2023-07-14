@@ -75,6 +75,8 @@
 	"coll-suggest_show": "ончыкташ",
 	"coll-suggest_ban_tooltip": "Тиде велыжым темлыме списке гыч кораҥдаш",
 	"coll-suggest_undo": "чараш",
+	"action-collectionsaveasuserpage": "ушнышын велыж семын книга-влакым аралымаш",
+	"action-collectionsaveascommunitypage": "тӱшкан велыж семын книга-влакым аралымаш",
 	"coll-print_export": "Савыктымаш/экспорт",
 	"coll-create_a_book": "Книгам ышташ",
 	"coll-create_a_book_tooltip": "Книгам але велыж коллекцийым ышташ",

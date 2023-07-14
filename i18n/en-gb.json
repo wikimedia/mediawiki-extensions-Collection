@@ -3,10 +3,13 @@
 		"authors": [
 			"Bjh21",
 			"Chase me ladies, I'm the Cavalry",
+			"Piano1forte2",
 			"Shirayuki"
 		]
 	},
+	"coll-rendering_finished_note_article_rdf2latex": "Currently some documents do not contain tables. An alternative may be to use the $1, select 'Print' in the browser menu, and use the 'Save as PDF' option.",
 	"coll-license": "Licence",
+	"coll-load_local_book": "Click 'OK' to continue with your book $1 which contains $2 wiki {{PLURAL:$2|page|pages}}. Click 'Cancel' to delete it and start with an empty book.",
 	"coll-attribution-page": "<h1>Text and image sources, contributors, and licences</h1>\n<h2>Text</h2>\n$1<h2>Images</h2>\n$2\n<h2>Content licence</h2>\n$3",
 	"coll-image-attribution": "<b>$1</b> <i>Source:</i> $2 <i>Licence:</i> $3 <i>Contributors:</i> $4 <i>Original artist:</i> $5",
 	"coll-images-license": "Licence",
