@@ -44,6 +44,7 @@
 	"coll-update": "اپ ݙیٹ",
 	"coll-limit_exceeded_title": "کتاب ٻہوں وݙی ہے",
 	"coll-rendering_title": "تیار کرتے ݙیندا پئے",
+	"coll-rendering_status": "<strong>حیثیت:</strong> $1",
 	"coll-rendering_article": "(وکی ورقہ: $1)",
 	"coll-rendering_page": "(ورقہ :$1)",
 	"coll-rendering_finished_title": "کم تیار کرݨ پورا تھیا",

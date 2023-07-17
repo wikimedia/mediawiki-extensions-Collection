@@ -3,14 +3,17 @@
 		"authors": [
 			"Chase me ladies, I'm the Cavalry",
 			"Shirayuki",
-			"Bjh21"
+			"Bjh21",
+			"Piano1forte2"
 		]
 	},
 	"coll-remove": "Remove",
 	"coll-show": "Show",
 	"coll-move_up": "Move up",
 	"coll-move_down": "Move down",
+	"coll-rendering_finished_note_article_rdf2latex": "Currently some documents do not contain tables. An alternative may be to use the $1, select 'Print' in the browser menu, and use the 'Save as PDF' option.",
 	"coll-license": "Licence",
+	"coll-load_local_book": "Click 'OK' to continue with your book $1 which contains $2 wiki {{PLURAL:$2|page|pages}}. Click 'Cancel' to delete it and start with an empty book.",
 	"coll-print_export": "Print/export",
 	"coll-create_a_book": "Create a book",
 	"coll-download_as": "Download as $1",
