@@ -41,6 +41,7 @@
 	"coll-update": "اپ ݙیٹ",
 	"coll-limit_exceeded_title": "کتاب ٻہوں وݙی ہے",
 	"coll-rendering_title": "تیار کرتے ݙیندا پئے",
+	"coll-rendering_status": "<strong>حیثیت:</strong> $1",
 	"coll-rendering_article": "(وکی ورقہ: $1)",
 	"coll-rendering_page": "(ورقہ :$1)",
 	"coll-rendering_finished_title": "کم تیار کرݨ پورا تھیا",
@@ -70,6 +71,10 @@
 	"coll-format-okawix_zeno": "اوکاوکس",
 	"coll-format-rdf2latex": "ای-بک (پی ڈی ایف، او سی جی لیٹکس رینڈرا)",
 	"coll-format-rdf2text": "ورڈ پروسیسر (سادہ متن)",
+	"action-collectionsaveasuserpage": "ورتݨ آلے ورقے دے طور تے کتاباں محفوظ کرو",
+	"right-collectionsaveasuserpage": "ورتݨ آلے ورقے دے طور تے کتاباں محفوظ کرو",
+	"action-collectionsaveascommunitypage": "برادری ورقے دے طور تے کتاباں محفوظ کرو",
+	"right-collectionsaveascommunitypage": "برادری ورقے دے طور تے کتاباں محفوظ کرو",
 	"coll-print_export": "چھاپو/ اڳوں تے ٻاہر بھیڄو",
 	"coll-create_a_book": "کتاب بݨاؤ",
 	"coll-book_creator": "کتاب ساز",
@@ -109,5 +114,7 @@
 	"coll-contributors-title": "ونگارو",
 	"coll-images-title": "تصویراں",
 	"coll-images-source": "ماخذ",
-	"coll-images-license": "لائیسنس"
+	"coll-images-license": "لائیسنس",
+	"coll-images-original-artist": "اصلی آرٹسٹ",
+	"coll-license-title": "مواد دا لائسینس"
 }
