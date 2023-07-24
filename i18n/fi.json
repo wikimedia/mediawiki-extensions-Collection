@@ -180,8 +180,6 @@
 	"coll-setting-toc-yes": "Kyllä",
 	"coll-setting-toc-no": "Ei",
 	"coll-setting-columns": "Sarakkeita:",
-	"coll-setting-columns-1": "1",
-	"coll-setting-columns-2": "2",
 	"coll-attribution-anons": "Nimetön: $1",
 	"coll-attribution-page": "<h1>Teksti- ja kuvalähteet, tekijät, ja lisenssit</h1>\n<h2>Teksti</h2>\n$1<h2>Kuvat</h2>\n$2\n<h2>Sisältölisenssi</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Lähde:</i> $2 <i>Osallistujat:</i> $3",

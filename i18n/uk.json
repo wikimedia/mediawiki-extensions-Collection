@@ -176,8 +176,6 @@
 	"coll-setting-toc-yes": "Так",
 	"coll-setting-toc-no": "Ні",
 	"coll-setting-columns": "Стовпці:",
-	"coll-setting-columns-1": "1",
-	"coll-setting-columns-2": "2",
 	"coll-attribution-anons": "Аноніми: $1",
 	"coll-attribution-page": "<h1>Джерела, дописувачі та ліцензії тексту і зображень</h1>\n<h2>Текст</h2>\n$1<h2>Зображення</h2>\n$2\n<h2>Ліцензія вмісту</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Джерело:</i> $2 <i>Дописувачі:</i> $3",

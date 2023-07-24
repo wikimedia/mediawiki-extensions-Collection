@@ -192,8 +192,6 @@
 	"coll-setting-toc-yes": "Oui",
 	"coll-setting-toc-no": "Non",
 	"coll-setting-columns": "Colonnes :",
-	"coll-setting-columns-1": "1",
-	"coll-setting-columns-2": "2",
 	"coll-attribution-anons": "Contributions anonymes : $1",
 	"coll-attribution-page": "<h1>Sources, contributeurs et licences du texte et de l’image</h1>\n<h2>Texte</h2>\n$1<h2>Images</h2>\n$2\n<h2>Licence du contenu</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Source :</i> $2 <i>Contributeurs :</i> $3",
