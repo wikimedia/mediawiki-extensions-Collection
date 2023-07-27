@@ -12,6 +12,7 @@
 	"coll-format_label": "Формат:",
 	"coll-remove": "Өчүрүү",
 	"coll-show": "Көрсөтүү",
+	"coll-title": "Аталыш:",
 	"coll-rename": "Атын өзгөртүү",
 	"coll-yes": "Ооба",
 	"coll-no": "Жок",
@@ -26,5 +27,6 @@
 	"coll-n_pages": "$1 {{PLURAL:$1|барак}}",
 	"coll-setting-toc-yes": "Ооба",
 	"coll-setting-toc-no": "Жок",
-	"coll-attribution-anons": "Аноним: $1"
+	"coll-attribution-anons": "Аноним: $1",
+	"coll-images-title": "Сүрөттөр"
 }
