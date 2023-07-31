@@ -4,7 +4,8 @@
 			"Les Meloures",
 			"Macofe",
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
 	"coll-desc": "[[Special:Book|Bicher uleeën]]",
@@ -54,7 +55,7 @@
 	"coll-error_reponse": "Feelermeldng vum Server",
 	"coll-empty_collection": "Eidelt Buch",
 	"coll-revision": "Versioun: $1",
-	"coll-save_collection_title": "Buch späicheren an deelen",
+	"coll-save_collection_title": "Äert Buch späicheren an deelen",
 	"coll-save_collection_text": "Wielt eng Plaz:",
 	"coll-login_to_save": "Wann Dir Bicher fir de spéidere Gebrauch späichere wëllt, da [[Special:UserLogin|loggt Iech an oder maacht e Benotzerkont op]].",
 	"coll-personal_collection_label": "Perséinlecht Buch",

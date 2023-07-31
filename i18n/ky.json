@@ -12,12 +12,14 @@
 	"coll-format_label": "Формат:",
 	"coll-remove": "Өчүрүү",
 	"coll-show": "Көрсөтүү",
+	"coll-title": "Аталыш:",
 	"coll-rename": "Атын өзгөртүү",
 	"coll-yes": "Ооба",
 	"coll-no": "Жок",
 	"coll-cancel": "Жокко чыгаруу",
 	"coll-update": "Жаңыртуу",
 	"coll-rendering_page": "(барак: $1)",
+	"coll-rendering_finished_notes_heading": "Эскертмелер:",
 	"coll-suggest_show": "көрсөтүү",
 	"coll-print_export": "Басып чыгаруу/экспорттоо",
 	"coll-create_a_book": "Китеп түзүү",
@@ -26,5 +28,6 @@
 	"coll-n_pages": "$1 {{PLURAL:$1|барак}}",
 	"coll-setting-toc-yes": "Ооба",
 	"coll-setting-toc-no": "Жок",
-	"coll-attribution-anons": "Аноним: $1"
+	"coll-attribution-anons": "Аноним: $1",
+	"coll-images-title": "Сүрөттөр"
 }
