@@ -4,7 +4,8 @@
 			"Les Meloures",
 			"Macofe",
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
 	"coll-desc": "[[Special:Book|Bicher uleeën]]",
@@ -50,7 +51,7 @@
 	"coll-request_failed_title": "Generéiere vum Buch huet net funktionéiert",
 	"coll-request_failed_msg": "Beim Versuch Äert Buch ze generéieren ass e Feeler geschitt.",
 	"coll-empty_collection": "Eidelt Buch",
-	"coll-save_collection_title": "Buch späicheren an deelen",
+	"coll-save_collection_title": "Äert Buch späicheren an deelen",
 	"coll-save_collection_text": "Wielt eng Plaz:",
 	"coll-save_collection": "Buch späicheren",
 	"coll-save_category": "All gespäichert Bicher ginn an d'Kategorie [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]] dobäigesat.",
