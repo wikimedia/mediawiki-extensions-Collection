@@ -6,7 +6,9 @@
 			"Bosogo"
 		]
 	},
-	"coll-your_book": "Сиздин китебиңиз",
+	"coll-collection": "Китеп",
+	"coll-collections": "Китептер",
+	"coll-your_book": "Китебиңиз",
 	"coll-download_title": "Жүктөп алуу",
 	"coll-download": "Жүктөп алуу",
 	"coll-format_label": "Формат:",
@@ -20,14 +22,21 @@
 	"coll-update": "Жаңыртуу",
 	"coll-rendering_page": "(барак: $1)",
 	"coll-rendering_finished_notes_heading": "Эскертмелер:",
+	"coll-about_pp": "$1 тууралуу",
+	"coll-suggest_your_book": "Китебиңиз",
 	"coll-suggest_show": "көрсөтүү",
+	"coll-suggest_undo_tooltip": "Бул аракетти жокко чыгаруу",
+	"coll-suggest_undo": "жокко чыгаруу",
 	"coll-print_export": "Басып чыгаруу/экспорттоо",
 	"coll-create_a_book": "Китеп түзүү",
 	"coll-download_as": "$1 түрүндө жүктөп алуу",
+	"coll-bookscategory": "Китептер",
 	"coll-help": "Жардам",
+	"coll-helppage": "Help:Китептер",
 	"coll-n_pages": "$1 {{PLURAL:$1|барак}}",
 	"coll-setting-toc-yes": "Ооба",
 	"coll-setting-toc-no": "Жок",
 	"coll-attribution-anons": "Аноним: $1",
+	"coll-warning-learn-more": "Толук маалымат",
 	"coll-images-title": "Сүрөттөр"
 }

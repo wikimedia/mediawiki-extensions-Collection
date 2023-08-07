@@ -183,10 +183,12 @@
 	"coll-article-attribution": "<b>$1</b> <i>Извор:</i> $2 <i>Доприносиоци:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Извор:</i> $2 <i>Лиценца:</i> $3 <i>Доприносиоци:</i> $4 <i>Првобитни уметник:</i> $5",
 	"coll-warning-learn-more": "Сазнајте више",
+	"coll-notice-download-pdf-title": "Преузми појединачне странице",
 	"coll-toc-title": "Садржај",
 	"coll-contributors-title": "Доприносиоци",
 	"coll-images-title": "Слике",
 	"coll-images-source": "Извор",
 	"coll-images-license": "Лиценца",
+	"coll-images-original-artist": "Изворни уметник",
 	"coll-license-title": "Лиценца садржаја"
 }
