@@ -35,9 +35,11 @@
 	"coll-help": "Жардам",
 	"coll-helppage": "Help:Китептер",
 	"coll-n_pages": "$1 {{PLURAL:$1|барак}}",
+	"coll-setting-papersize-letter": "Кат",
 	"coll-setting-toc-yes": "Ооба",
 	"coll-setting-toc-no": "Жок",
 	"coll-attribution-anons": "Аноним: $1",
 	"coll-warning-learn-more": "Толук маалымат",
-	"coll-images-title": "Сүрөттөр"
+	"coll-images-title": "Сүрөттөр",
+	"coll-images-source": "Булак"
 }
