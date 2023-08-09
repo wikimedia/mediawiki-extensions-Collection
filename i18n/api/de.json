@@ -37,5 +37,6 @@
 	"apihelp-collection+getpopupdata-example": "Ruft ein Popup auf, um eine Seite zur Sammlung hinzuzufügen oder sie zu entfernen",
 	"apihelp-collection+getpopupdata-summary": "API-Modul zum Abrufen von Daten und HTML, um ein Popup zu erstellen",
 	"apihelp-collection-param-submodule": "Submodul zur Durchführung verschiedener Operationen mit der Sammlung eines Wiki-Benutzers.",
-	"apihelp-collection-summary": "API-Modul zur Durchführung verschiedener Operationen mit der Sammlung eines Wiki-Benutzers."
+	"apihelp-collection-summary": "API-Modul zur Durchführung verschiedener Operationen mit der Sammlung eines Wiki-Benutzers.",
+	"coll-api-invalid-collection": "Ungültige Sammlung erhalten."
 }

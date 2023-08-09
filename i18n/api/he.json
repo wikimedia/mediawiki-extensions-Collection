@@ -23,7 +23,7 @@
 	"apihelp-collection+suggestundoarticleaction-example": "ביטול פעולת הוספת דף",
 	"apihelp-collection+suggestundoarticleaction-summary": "מודול API להיטול פעולות שנעשו מתוך suggestarticleaction",
 	"apihelp-collection+suggestundoarticleaction-param-lastaction": "אחת מתוך 'add'‏, 'remove', או 'ban'.",
-	"coll-api-addcategory-category-does-not-exist": "הקטגוריה שניסית להוסיף דפים מתוכה אינה קיימת, אינה תקינה, או שיש בה יותר דפים מכמה שנקבע בהגבלה.",
+	"coll-api-addcategory-category-does-not-exist": "הקטגוריה שניסית להוסיף דפים מתוכה אינה קיימת, אינה תקינה, או שיש בה יותר דפים מכמה שנקבע במגבלה.",
 	"apihelp-collection+addchapter-example": "הוספת פרק לאוסף.",
 	"apihelp-collection+addchapter-summary": "מודול API להוספת פרק לאוסף",
 	"apihelp-collection+renamechapter-example": "שינוי שם פרט באוסף של משתמש.",
