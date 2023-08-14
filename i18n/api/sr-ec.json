@@ -4,5 +4,6 @@
 			"Milicevic01"
 		]
 	},
-	"apihelp-collection+suggestundoarticleaction-param-title": "Наслов странице"
+	"apihelp-collection+suggestundoarticleaction-param-title": "Наслов странице",
+	"apihelp-collection+getpopupdata-param-title": "Наслов странице"
 }

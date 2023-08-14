@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"apihelp-collection+addcategory-param-title": "要新增的分類",
+	"apihelp-collection+suggestarticleaction-param-title": "頁面的標題",
+	"apihelp-collection+suggestundoarticleaction-param-title": "頁面的標題",
+	"apihelp-collection+getpopupdata-param-title": "頁面的標題",
+	"apihelp-collection+getbookcreatorboxcontent-param-pagename": "頁面的標題"
+}
