@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"BrennodAloisi"
+		]
+	},
+	"apihelp-collection+suggestarticleaction-param-title": "Títol d'una pagina",
+	"apihelp-collection+suggestundoarticleaction-param-title": "Títol d'una pagina",
+	"apihelp-collection+getbookcreatorboxcontent-param-pagename": "Títol d'una pagina"
+}
