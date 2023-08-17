@@ -64,7 +64,7 @@ class ApiSuggestArticleActionTest extends ApiTestCase {
 		$session = SessionManager::getGlobalSession();
 
 		$this->assertArraySubmapSame(
-			[ [ 'name' => $page->getDBkey() ] ],
+			[ [ 'name' => $page->getTitle()->getPrefixedText() ] ],
 			$session['wsCollectionSuggestProp']
 		);
 
@@ -112,7 +112,7 @@ class ApiSuggestArticleActionTest extends ApiTestCase {
 		// Adding an article automatically unbans it
 		$this->assertCount( 0, $session['wsCollectionSuggestBan'] );
 		$this->assertArraySubmapSame(
-			[ [ 'name' => $page->getDBkey() ] ],
+			[ [ 'name' => $page->getTitle()->getPrefixedText() ] ],
 			$session['wsCollectionSuggestProp']
 		);
 	}

@@ -130,10 +130,17 @@ class Session {
 			return -1;
 		}
 
+		// FIXME: Some places use DB keys, other use prefixedtext, and this can lead to mismatches.
+		// This class should just take Title (or a narrower interface) and be responsible for the stringification!
+		$titleStr = Title::newFromText( $title )->getPrefixedDBkey();
 		$session = SessionManager::getGlobalSession();
 
 		foreach ( $session['wsCollection']['items'] as $index => $item ) {
-			if ( $item !== null && $item['type'] == 'article' && $item['title'] == $title ) {
+			if ( $item === null || $item['type'] !== 'article' ) {
+				continue;
+			}
+			$curTitleStr = Title::newFromText( $item['title'] )->getPrefixedDBkey();
+			if ( $curTitleStr === $titleStr ) {
 				if ( $oldid ) {
 					if ( $item['revision'] == strval( $oldid ) ) {
 						return $index;
