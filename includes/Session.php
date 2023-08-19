@@ -4,7 +4,7 @@ namespace MediaWiki\Extension\Collection;
 
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Session\SessionManager;
-use Title;
+use MediaWiki\Title\Title;
 
 /**
  * Collection Extension for MediaWiki

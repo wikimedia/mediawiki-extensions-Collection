@@ -7,9 +7,9 @@
 
 namespace MediaWiki\Extension\Collection\Templates;
 
+use MediaWiki\Title\Title;
 use QuickTemplate;
 use SkinTemplate;
-use Title;
 use Xml;
 
 /**

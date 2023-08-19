@@ -8,8 +8,8 @@
 namespace MediaWiki\Extension\Collection\Templates;
 
 use MediaWiki\Extension\Collection\Session;
+use MediaWiki\Title\Title;
 use QuickTemplate;
-use Title;
 
 /**
  * HTML template for Special:Book/rendering/ (in progress)

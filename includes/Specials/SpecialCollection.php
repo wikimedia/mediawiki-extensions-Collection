@@ -37,6 +37,7 @@ use MediaWiki\Extension\Collection\Templates\CollectionPageTemplate;
 use MediaWiki\Extension\Collection\Templates\CollectionRenderingTemplate;
 use MediaWiki\Extension\Collection\Templates\CollectionSaveOverwriteTemplate;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 use OOUI\ButtonGroupWidget;
 use OOUI\ButtonInputWidget;
 use OOUI\ButtonWidget;
@@ -44,7 +45,6 @@ use OOUI\FormLayout;
 use RequestContext;
 use SkinTemplate;
 use SpecialPage;
-use Title;
 use WebRequest;
 
 class SpecialCollection extends SpecialPage {

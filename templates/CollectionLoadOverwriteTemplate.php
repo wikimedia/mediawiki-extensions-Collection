@@ -7,10 +7,10 @@
 
 namespace MediaWiki\Extension\Collection\Templates;
 
+use MediaWiki\Title\Title;
 use OutputPage;
 use QuickTemplate;
 use SkinTemplate;
-use Title;
 
 /**
  * HTML template for Special:Book/load_collection/ when overwriting an exisiting collection

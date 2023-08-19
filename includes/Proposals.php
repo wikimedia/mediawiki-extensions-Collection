@@ -23,8 +23,8 @@
 namespace MediaWiki\Extension\Collection;
 
 use Article;
+use MediaWiki\Title\Title;
 use TextContent;
-use Title;
 
 /**
  * it needs 3 Lists:

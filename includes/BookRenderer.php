@@ -4,9 +4,9 @@ namespace MediaWiki\Extension\Collection;
 
 use Html;
 use LogicException;
+use MediaWiki\Title\Title;
 use Sanitizer;
 use TemplateParser;
-use Title;
 
 /**
  * Renders HTML view of a book by concatenating and transforming HTML and generating some

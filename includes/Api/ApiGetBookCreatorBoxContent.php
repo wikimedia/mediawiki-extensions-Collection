@@ -24,7 +24,7 @@ namespace MediaWiki\Extension\Collection\Api;
 
 use ApiBase;
 use MediaWiki\Extension\Collection\Hooks;
-use Title;
+use MediaWiki\Title\Title;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiGetBookCreatorBoxContent extends ApiBase {

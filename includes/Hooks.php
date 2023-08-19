@@ -25,11 +25,11 @@ namespace MediaWiki\Extension\Collection;
 use Linker;
 use MediaWiki\MainConfigNames;
 use MediaWiki\Session\SessionManager;
+use MediaWiki\Title\Title;
 use RequestContext;
 use Skin;
 use SpecialPage;
 use TemplateParser;
-use Title;
 use Xml;
 
 class Hooks {

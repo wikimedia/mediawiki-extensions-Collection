@@ -13,11 +13,11 @@ use HTMLForm;
 use IContextSource;
 use MediaWiki\Extension\Collection\MessageBoxHelper;
 use MediaWiki\Request\FauxRequest;
+use MediaWiki\Title\Title;
 use QuickTemplate;
 use SkinTemplate;
 use SpecialPage;
 use TemplateParser;
-use Title;
 
 /**
  * HTML template for Special:Book
