@@ -23,7 +23,6 @@
 namespace MediaWiki\Extension\Collection\Specials;
 
 use ApiMain;
-use DerivativeRequest;
 use Exception;
 use MediaWiki\Extension\Collection\MessageBoxHelper;
 use MediaWiki\Extension\Collection\Rendering\CollectionAPIResult;
@@ -37,6 +36,7 @@ use MediaWiki\Extension\Collection\Templates\CollectionPageTemplate;
 use MediaWiki\Extension\Collection\Templates\CollectionRenderingTemplate;
 use MediaWiki\Extension\Collection\Templates\CollectionSaveOverwriteTemplate;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Request\DerivativeRequest;
 use MediaWiki\Title\Title;
 use OOUI\ButtonGroupWidget;
 use OOUI\ButtonInputWidget;
