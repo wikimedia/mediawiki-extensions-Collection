@@ -3,9 +3,9 @@
 namespace MediaWiki\Extension\Collection;
 
 use LogicException;
+use MediaWiki\Html\TemplateParser;
 use MediaWiki\Title\Title;
 use MediaWikiIntegrationTestCase;
-use TemplateParser;
 
 /**
  * @covers \MediaWiki\Extension\Collection\BookRenderer
