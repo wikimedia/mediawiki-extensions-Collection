@@ -1,13 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Alshamiri1"
+			"Alshamiri1",
+			"محمد أحمد عبد الفتاح"
 		]
 	},
 	"apihelp-collection+getcollection-example": "سرد الصفحات الموجودة حاليًا في المجموعة.",
 	"apihelp-collection+getcollection-summary": "وحدة API لسرد الصفحات الحالية في المجموعة",
 	"apihelp-collection+addarticle-example": "أضف صفحة إلى المجموعة.",
 	"apihelp-collection+addarticle-summary": "وحدة API لإضافة صفحة إلى المجموعة",
+	"apihelp-collection+addarticle-param-namespace": "نطاق الصفحة المضافة",
+	"apihelp-collection+addarticle-param-title": "عنوان الصفحة المضافة",
 	"apihelp-collection+settitles-example": "قم بتعيين عنوان المجموعة والعنوان الفرعي",
 	"apihelp-collection+settitles-settings-example": "قم بتعيين عنوان المجموعة والعنوان الفرعي والإعدادات",
 	"apihelp-collection+settitles-summary": "وحدة API لتعيين عنوان المجموعة والعنوان الفرعي والإعدادات",
