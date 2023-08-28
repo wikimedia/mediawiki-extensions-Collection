@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Baloch Afghanistan"
+			"Baloch Afghanistan",
+			"Moshtank"
 		]
 	},
 	"coll-collection": "کتاب",
@@ -20,6 +21,8 @@
 	"coll-download_notfound_title": "پایل ودی نه بوت",
 	"coll-suggest_your_book": "شمی کتاب",
 	"coll-suggest_show": "پیش دار",
+	"coll-print_export": "چانپ / درآبرگ",
+	"coll-download_as": "اݔرݔگجگ گۏن $1‌ ئا",
 	"coll-bookscategory": "کتابان",
 	"coll-clear_collection": "کتابانی پاک کورتین",
 	"coll-clear_collection_confirm": "آیا شما په راستیا لوٹ\tیت وتی کتابا کامل پاک کنیت؟",

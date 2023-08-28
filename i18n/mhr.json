@@ -3,10 +3,12 @@
 		"authors": [
 			"Сай",
 			"Санюн Вадик",
-			"Lifeway"
+			"Lifeway",
+			"Mxalexandrov86"
 		]
 	},
 	"coll-desc": "[[Special:Book|Книгам ыштымаш]]",
+	"coll-book_creator_intro": "<big>\"Книга мастар\" ден пайдаланен тый книгам ыштен кертат, куштыжо тыйын ойырымо вики-велыж-влак лийыт.\n Тый книга-влакым тӱрлӧ форматыш кусарен кертат (мутлан, PDF але ODF)але кагазеш савыктыме экземплярым йодын кертат.</big>",
 	"coll-manage_your_book": "Тыйын книгатым виктараш",
 	"coll-book_creator_help": "Ешартыш информацийым [[{{MediaWiki:Coll-helppage}}|книга-влак нерген справкыште]] ончо.",
 	"coll-start_book_creator": "Кннига ыштышым колтыкташ",
@@ -44,6 +46,7 @@
 	"coll-rename_chapter": "У главан лӱмжым пурто",
 	"coll-notitle_title": "Велыжын вуйметшым налын кертме огыл",
 	"coll-notitle_msg": "Велыжын вуймутшым пален налын керташ ок лий.",
+	"coll-request_failed_title": "Книга рендерингым шуктымо огыл",
 	"coll-empty_collection": "Яра книга",
 	"coll-save_collection_title": "Шке книгатым арале да тудден пайлалт",
 	"coll-save_collection_text": "Тыйын книгатлан вераҥдышым ойыро:",
