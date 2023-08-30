@@ -2,7 +2,6 @@
 
 namespace MediaWiki\Extension\Collection\Rendering;
 
-use ExtensionRegistry;
 use FormatJson;
 use MediaWiki\MediaWikiServices;
 use RequestContext;
@@ -260,24 +259,6 @@ abstract class CollectionRenderingAPI {
 				$result['wikis'][$i]['parsoid'] = $params['url'];
 				$result['wikis'][$i]['prefix'] = $params['prefix'];
 				$result['wikis'][$i]['domain'] = $domain;
-			}
-		} elseif ( ExtensionRegistry::getInstance()->isLoaded( 'VisualEditor' ) ) {
-			// fall back to Visual Editor configuration globals
-			global $wgVisualEditorParsoidURL, $wgVisualEditorParsoidPrefix,
-				$wgVisualEditorParsoidDomain, $wgVisualEditorRestbaseURL;
-			for ( $i = 0, $count = count( $result['wikis'] ); $i < $count; $i++ ) {
-				// Parsoid connection information
-				if ( $wgVisualEditorParsoidURL ) {
-					$result['wikis'][$i]['parsoid'] = $wgVisualEditorParsoidURL;
-					$result['wikis'][$i]['prefix'] = $wgVisualEditorParsoidPrefix;
-					$result['wikis'][$i]['domain'] = $wgVisualEditorParsoidDomain;
-				}
-				// RESTbase connection information
-				if ( $wgVisualEditorRestbaseURL ) {
-					// Strip the trailing "/page/html".
-					$restbase1 = preg_replace( '|/page/html/?$|', '/', $wgVisualEditorRestbaseURL );
-					$result['wikis'][$i]['restbase1'] = $restbase1;
-				}
 			}
 		}
 
