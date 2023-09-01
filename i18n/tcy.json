@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"BHARATHESHA ALASANDEMAJALU",
 			"ChiK",
 			"Chidananda Kampa",
 			"Kiranpoojary",
@@ -13,10 +14,10 @@
 	"coll-show": "ತೋಜಾವು",
 	"coll-move_up": "ಮಿತ್ತ್ ಪೋಲೆ",
 	"coll-move_down": "ತಿರ್ತ್ ಬಲೆ",
-	"coll-print_export": "ಮುದ್ರಿಸಾಲೆ/ಕಡಪುಡುಲೆ",
+	"coll-print_export": "ಮುದ್ರಿಸಾಲೆ/ಕಡಪುಡ್ಲೆ",
 	"coll-create_a_book": "ಬೂಕುನು ಉಂಡುಮಲ್ಪುಲೆ",
 	"coll-book_creator": "ಬೂಕು ಉಂಡುಮಲ್ತಿನಾರ್",
-	"coll-download_as": "$1 ಫಾರ್ಮ್ಯಾಟ್‌ಡ್ ಡೌನ್‌ಲೋಡ್ ಮಲ್ಪುಲೆ",
+	"coll-download_as": "$1ಂದ್ ಡೌನ್‌ಲೋಡ್ ಮಲ್ಪುಲೆ",
 	"coll-disable": "ನಿಷ್ಕ್ರಿಯ ಮಲ್ಪುಲೆ",
 	"coll-book_creator_disable": "ಬೂಕು ಸ್ರಿಸ್ಟಿಕಾರೆನ್ ನಿಷ್ಕ್ರಿಯ ಮಲ್ಪುಲೆ",
 	"coll-book_creator_disable_tooltip": "ಬೂಕು ಸ್ರಿಸ್ಟಿಕಾರೆನ್ ಗಲಸುನೇನ್ ಉಂತಾಲೆ",
