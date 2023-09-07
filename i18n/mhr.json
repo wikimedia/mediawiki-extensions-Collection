@@ -113,6 +113,7 @@
 	"coll-suggest_article_remove": "<strong>$1</strong> велыжым тыйын книгат гыч кораҥдыме ыле ($2).",
 	"coll-suggest_undo_tooltip": "Тиде ыштымым чараш",
 	"coll-suggest_undo": "чараш",
+	"coll-load_local_book": "Тыйын $1 книга денет, кудыштыжо $2 вики-велыж {{PLURAL:$2|велыж|велыж-влак}} уло, пашам шуяшлан \"OK\" полдышым темдал.\nЧыла кораҥдаш да яра книга гыч тӱҥалашлан \"Чараш\" полдышым темдал.",
 	"coll-format-rdf2text": "Текст процессор (тыглай текст)",
 	"action-collectionsaveasuserpage": "ушнышын велыж семын книга-влакым аралымаш",
 	"right-collectionsaveasuserpage": "Ушнышын велыж семын книга-влакым аралымаш",
@@ -164,8 +165,10 @@
 	"coll-article-attribution": "<b>$1</b> <i>Важ:</i> $2 <i>Автор-влак:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Важ:</i> $2 <i>Лицензий:</i> $3 <i>Автор-влак:</i> $4 <i>Сӱретче:</i> $5",
 	"coll-warning-disable-pdf-title": "Книга ыштышеш вашталтыш кая",
+	"coll-warning-disable-pdf-text": "Тендан кызыт улшо серверыште лекше экшык-влаклан кӧра Book Creator умбакыже книга-влакым PDF форматыште арален ок керт.",
 	"coll-warning-learn-more": "Шукырак пален налаш",
 	"coll-notice-download-pdf-title": "Велыж-влакым посна-посна тулен нал",
+	"coll-notice-download-pdf-text": "Книга Ытышын кусартышыже чарыме, садлан тый посна ужаш-влакын пелмогырысо панельыште верланыше \"PDF семын аралаш\" инструмент ден пайдаланен кертат.",
 	"coll-toc-title": "Контентын вуйлымашыже",
 	"coll-contributors-title": "Автор-влак",
 	"coll-images-title": "Сӱрет",
@@ -175,6 +178,8 @@
 	"coll-license-title": "Контентын лицензийже",
 	"coll-rendererror-title": "Книгам генерироватлен кертме огыл",
 	"coll-rendererror-no-session": "Книга палемдымашым сессийыште мумо огыл. Очыни, тудым пашадыме улмылан кӧра кудалтыме.",
+	"coll-rendererror-pdf": "PDF кусартыш чарнен: $1",
+	"coll-rendererror-fetch": "Налмаш $1 Чарнен: $2",
 	"coll-rendererror-fetch-wrapper": "Велыж контентым налаш тӧчымӧ годым йоҥылыш лийын:\n$1",
 	"coll-rendererror-no-cache": "Книган данныйжым кэшыште мумо огыл. Очыни, тиде программе вораҥдыште йоҥылыш."
 }

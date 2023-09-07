@@ -6,6 +6,9 @@
 		]
 	},
 	"coll-show": "Hechauka",
+	"coll-contents": "Marandu oĩva ko'ápe",
 	"coll-print_export": "Emonguatia/eguerahauka",
-	"coll-download_as": "Emboguejy $1 ramo"
+	"coll-download_as": "Emboguejy $1 ramo",
+	"coll-setting-toc": "Emoĩ avei peteĩ marandu rechaukaha",
+	"coll-toc-title": "Marandu Rechaukaha"
 }
