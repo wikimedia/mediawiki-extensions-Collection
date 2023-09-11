@@ -23,6 +23,7 @@
 	"apihelp-collection+suggestarticleaction-example": "يضيف صفحة إلى المجموعة والاقتراحات",
 	"apihelp-collection+suggestarticleaction-summary": "وحدة API للتفاعل مع الاقتراحات",
 	"apihelp-collection+suggestarticleaction-param-suggestaction": "أحد \"الإضافة\" أو \"الإزالة\" أو \"الحظر\". يضيف \"add\" صفحة إلى المجموعة والاقتراحات ويفك حظرها. \"إزالة\" يزيل الصفحة المضافة ويحظرها. \"حظر\" يحظر صفحة من الاقتراحات.",
+	"apihelp-collection+suggestarticleaction-param-title": "عنوان الصفحة",
 	"apihelp-collection+suggestundoarticleaction-example": "يلغي إجراء صفحة مضافة",
 	"apihelp-collection+suggestundoarticleaction-summary": "وحدة واجهة برمجة التطبيقات للتراجع عن الإجراءات التي تم إجراؤها من خلال الاقتراح",
 	"apihelp-collection+suggestundoarticleaction-param-lastaction": "أحد \"الإضافة\" أو \"الإزالة\" أو \"الحظر\".",
