@@ -218,9 +218,9 @@
 	}
 
 	/**
-	 * Sort items in the user's collection.
+	 * Sort items in the user's collection, and delete removed ones.
 	 *
-	 * @param {string} items_string List of items as text
+	 * @param {string} items_string List of items as text, e.g. "1|0|2"
 	 * @return {boolean}
 	 */
 	function set_sorting( items_string ) {

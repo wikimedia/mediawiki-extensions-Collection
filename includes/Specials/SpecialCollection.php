@@ -874,7 +874,7 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param array $items
+	 * @param array<int,int> $items Mapping new to old positions, missing positions will be deleted
 	 */
 	public static function setSorting( array $items ) {
 		if ( !CollectionSession::hasSession() ) {
@@ -884,7 +884,11 @@ class SpecialCollection extends SpecialPage {
 		$old_items = $collection['items'];
 		$new_items = [];
 		foreach ( $items as $new_index => $old_index ) {
-			$new_items[$new_index] = $old_items[$old_index] ?? null;
+			// Fail-safe when the "setsorting" API is hit multiple times, but an old item is already
+			// deleted
+			if ( isset( $old_items[$old_index] ) ) {
+				$new_items[$new_index] = $old_items[$old_index];
+			}
 		}
 		$collection['items'] = $new_items;
 		CollectionSession::setCollection( $collection );

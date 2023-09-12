@@ -113,7 +113,7 @@ class Session {
 		$session = SessionManager::getGlobalSession();
 		$count = 0;
 		foreach ( $session['wsCollection']['items'] as $item ) {
-			if ( $item !== null && $item['type'] == 'article' ) {
+			if ( $item && $item['type'] == 'article' ) {
 				$count++;
 			}
 		}
@@ -136,7 +136,7 @@ class Session {
 		$session = SessionManager::getGlobalSession();
 
 		foreach ( $session['wsCollection']['items'] as $index => $item ) {
-			if ( $item === null || $item['type'] !== 'article' ) {
+			if ( !$item || $item['type'] !== 'article' ) {
 				continue;
 			}
 			$curTitleStr = Title::newFromText( $item['title'] )->getPrefixedDBkey();
@@ -166,28 +166,34 @@ class Session {
 		}
 
 		$coll = $session['wsCollection'];
-		$newitems = [];
-		if ( isset( $coll['items'] ) ) {
-			$services = MediaWikiServices::getInstance();
-			$linkBatch = $services->getLinkBatchFactory()->newLinkBatch();
-			$linkCache = $services->getLinkCache();
-			foreach ( $coll['items'] as $item ) {
-				if ( $item !== null && $item['type'] == 'article' ) {
-					$title = Title::newFromText( $item['title'] );
+		$coll['items'] ??= [];
+		// Remove broken entries caused by old, bogus code paths
+		$coll['items'] = array_filter( $coll['items'] );
+
+		// Checking if articles exist is expensive, use a single batch to speed it up
+		$services = MediaWikiServices::getInstance();
+		$linkBatch = $services->getLinkBatchFactory()->newLinkBatch();
+		$linkCache = $services->getLinkCache();
+		foreach ( $coll['items'] as $item ) {
+			if ( $item['type'] === 'article' ) {
+				$title = Title::newFromText( $item['title'] );
+				if ( $title ) {
 					$linkBatch->addObj( $title );
 				}
 			}
-			$linkBatch->execute();
-			foreach ( $coll['items'] as $item ) {
-				if ( $item !== null && $item['type'] == 'article' ) {
-					$title = Title::newFromText( $item['title'] );
-					if ( $title && !$linkCache->isBadLink( $title->getPrefixedDBkey() ) ) {
-						$newitems[] = $item;
-					}
-				} else {
-					$newitems[] = $item;
+		}
+		$linkBatch->execute();
+
+		$newitems = [];
+		foreach ( $coll['items'] as $item ) {
+			if ( $item['type'] === 'article' ) {
+				$title = Title::newFromText( $item['title'] );
+				// Remove articles that don't exist any more
+				if ( !$title || $linkCache->isBadLink( $title->getPrefixedDBkey() ) ) {
+					continue;
 				}
 			}
+			$newitems[] = $item;
 		}
 		$coll['items'] = $newitems;
 		$session['wsCollection'] = $coll;
