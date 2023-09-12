@@ -103,7 +103,7 @@
 						save_collection( result.addarticle.collection );
 					} else if ( result.removearticle ) {
 						save_collection( result.removearticle.collection );
-					} else {
+					} else if ( result.addcategory ) {
 						save_collection( result.addcategory.collection );
 					}
 				}, 'json' );
@@ -157,7 +157,7 @@
 				refreshBookCreatorBox( null, null );
 				if ( result.addarticle ) {
 					save_collection( result.addarticle.collection );
-				} else {
+				} else if ( result.removearticle ) {
 					save_collection( result.removearticle.collection );
 				}
 			}, 'json' );
