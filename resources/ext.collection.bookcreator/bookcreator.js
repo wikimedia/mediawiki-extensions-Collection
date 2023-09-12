@@ -40,7 +40,7 @@
 		 * Refresh the collection's book creator box.
 		 *
 		 * @param {string} hint
-		 * @param {number} oldid
+		 * @param {number} [oldid]
 		 */
 		function refreshBookCreatorBox( hint, oldid ) {
 			var params = {
@@ -69,7 +69,7 @@
 		 *   or "addcategory".
 		 * @param {number} namespace
 		 * @param {string} title
-		 * @param {number} oldId
+		 * @param {number} [oldId]
 		 */
 		function collectionCall( submodule, namespace, title, oldId ) {
 			var params = {
@@ -94,11 +94,7 @@
 				script_url,
 				params,
 				function ( result ) {
-					var oldid = null;
-					if ( oldId ) {
-						oldid = oldId;
-					}
-					refreshBookCreatorBox( hint, oldid );
+					refreshBookCreatorBox( hint, oldId );
 					if ( result.addarticle ) {
 						save_collection( result.addarticle.collection );
 					} else if ( result.removearticle ) {
@@ -122,8 +118,7 @@
 
 		function createDiv() {
 			$addremove_link = $( '<a href="javascript:void(0)" />' );
-			$popup_div = $( '<div id="collectionpopup" />' );
-			$popup_div.append( $addremove_link );
+			$popup_div = $( '<div id="collectionpopup" />' ).append( $addremove_link );
 			$( 'body' ).append( $popup_div );
 			$popup_div.hide();
 		}
@@ -135,18 +130,9 @@
 		 * @param {string} title
 		 */
 		function addremove_article( action, title ) {
-			/* eslint no-shadow: 0 */
-			var params, submodule;
-
-			if ( action === 'add' ) {
-				submodule = 'addarticle';
-			} else {
-				submodule = 'removearticle';
-			}
-
-			params = {
+			var params = {
 				action: 'collection',
-				submodule: submodule,
+				submodule: action === 'add' ? 'addarticle' : 'removearticle',
 				namespace: 0,
 				title: title,
 				oldid: 0,
