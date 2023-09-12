@@ -3,7 +3,8 @@
 		"authors": [
 			"Botuzhaleny-sodamo",
 			"Denö",
-			"Rueter"
+			"Rueter",
+			"Сантяй"
 		]
 	},
 	"coll-collection": "Кинига",
@@ -29,10 +30,10 @@
 	"coll-notfound_title": "Кинигась а муеви",
 	"coll-suggested_articles": "Мельть-ушодкст",
 	"coll-suggest_show": "невтемс",
-	"coll-print_export": "Конёв лангс нолдамс/ливтемс",
+	"coll-print_export": "Конёв лангс нолдамс/кучомс",
 	"coll-create_a_book": "Шкамс книга",
 	"coll-book_creator": "Кинигань шкиця",
-	"coll-download_as": "Таргамс $1 формасо",
+	"coll-download_as": "Таргамс кода $1",
 	"coll-disable": "лоткавтомс",
 	"coll-book_creator_disable": "Лоткавтомс кинингань шкамканть",
 	"coll-book_creator_disable_tooltip": "Лоткамс кинигань шкамканть тевс нолдамодо",
