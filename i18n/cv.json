@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Astahar",
 			"Chavash",
 			"Chuvash",
 			"Chuvash2014"
@@ -13,7 +14,7 @@
 	"coll-show": "Кăтарт",
 	"coll-move_up": "Ҫӳлерех хур",
 	"coll-move_down": "Аяларах хур",
-	"coll-update": "Çĕнĕлет",
+	"coll-update": "Ҫӗнет",
 	"coll-download_notfound_title": "Файлĕ тупăнмарĕ",
 	"coll-print_export": "Пичет/экспорт",
 	"coll-create_a_book": "Кĕнеке тумалли",
