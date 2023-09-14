@@ -168,19 +168,20 @@ class Session {
 		$coll = $session['wsCollection'];
 		$newitems = [];
 		if ( isset( $coll['items'] ) ) {
-			$batch = MediaWikiServices::getInstance()->getLinkBatchFactory()->newLinkBatch();
-			$lc = MediaWikiServices::getInstance()->getLinkCache();
+			$services = MediaWikiServices::getInstance();
+			$linkBatch = $services->getLinkBatchFactory()->newLinkBatch();
+			$linkCache = $services->getLinkCache();
 			foreach ( $coll['items'] as $item ) {
 				if ( $item !== null && $item['type'] == 'article' ) {
-					$t = Title::newFromText( $item['title'] );
-					$batch->addObj( $t );
+					$title = Title::newFromText( $item['title'] );
+					$linkBatch->addObj( $title );
 				}
 			}
-			$batch->execute();
+			$linkBatch->execute();
 			foreach ( $coll['items'] as $item ) {
 				if ( $item !== null && $item['type'] == 'article' ) {
-					$t = Title::newFromText( $item['title'] );
-					if ( $t && !$lc->isBadLink( $t->getPrefixedDBkey() ) ) {
+					$title = Title::newFromText( $item['title'] );
+					if ( $title && !$linkCache->isBadLink( $title->getPrefixedDBkey() ) ) {
 						$newitems[] = $item;
 					}
 				} else {
