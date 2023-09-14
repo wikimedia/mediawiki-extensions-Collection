@@ -1295,13 +1295,12 @@ class SpecialCollection extends SpecialPage {
 		if ( $content_disposition ) {
 			header( 'Content-Disposition: ' . $content_disposition );
 		} else {
-			$ct_enc = explode( ';', $content_type );
-			$ct = $ct_enc[0];
-			if ( isset( $wgCollectionContentTypeToFilename[$ct] ) ) {
+			$mimeType = explode( ';', $content_type )[0];
+			if ( isset( $wgCollectionContentTypeToFilename[$mimeType] ) ) {
 				header(
 					'Content-Disposition: ' .
 					'inline; filename=' .
-					$wgCollectionContentTypeToFilename[$ct]
+					$wgCollectionContentTypeToFilename[$mimeType]
 				);
 			}
 		}
