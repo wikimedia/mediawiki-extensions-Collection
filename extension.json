@@ -43,7 +43,6 @@
 			"scripts": "ext.collection/collection.js",
 			"dependencies": [
 				"ext.collection.bookcreator",
-				"jquery.ui",
 				"mediawiki.language"
 			]
 		},
