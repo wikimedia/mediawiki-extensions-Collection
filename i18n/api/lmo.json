@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Salvemm el lombard"
 		]
 	},
@@ -8,7 +9,7 @@
 	"apihelp-collection+getcollection-summary": "Modulo Api per fà la lista di pagine corente in ona racolta",
 	"apihelp-collection+addarticle-example": "Sgionta ona vos a la toa racolta",
 	"apihelp-collection+addarticle-summary": "Modol Api per sgiontà ona vos a la toa racolta",
-	"apihelp-collection+settitles-example": "Imposta on titol e on sottitol  in de la racolta",
+	"apihelp-collection+settitles-example": "Imposta on titol e on sottitol in de la racolta",
 	"apihelp-collection+settitles-settings-example": "Definìss on titol, on sottitol, e i impostazzion in de la racolta",
 	"apihelp-collection+settitles-summary": "Modulo Api per catà foeura el titol de la racolta, on sottitol, e i impostazzion per la racolta",
 	"coll-api-addarticle-article-not-added": "La vos l'è stada minga sgiontada a la racolta. Sicures che 'l titol el sia del in del spazzi di nom indicad o controlla che la vos l'esista an'mò in de la racolta.",
@@ -35,7 +36,7 @@
 	"apihelp-collection+setsorting-summary": "Modulo Api per meter in ordin i element d'ona racolta",
 	"apihelp-collection+setsorting-param-items": "A se gh'avariss de fà la lista di vos a segonda del so indes vegg e metei in ordin a segonda de la soa noeuva posizzion.",
 	"apihelp-collection+sortitems-example": "Cavezza la racolta segond l'ordin alfabetich",
-	"apihelp-collection+sortitems-summary": "El modulo Api el met in ordin i vos segond l'alfabet. I vos dent d'on capitol a inn ragrupade e ordinade  insema",
+	"apihelp-collection+sortitems-summary": "El modulo Api el met in ordin i vos segond l'alfabet. I vos dent d'on capitol a inn ragrupade e ordinade insema",
 	"apihelp-collection+getpopupdata-example": "Oten on popap per sgiontà/toeu via on articol d'ona collezzion",
 	"apihelp-collection+getpopupdata-summary": "Modulo API per otegnì dati e html per fà su on popap",
 	"apihelp-collection+removeitem-example": "Toeu via on articol d'ona racolta fornid an indes or indes 0 per impostazzion predefinidat.",
