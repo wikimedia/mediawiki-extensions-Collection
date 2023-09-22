@@ -1434,7 +1434,8 @@ class SpecialCollection extends SpecialPage {
 
 		$output = $this->getOutput();
 		MessageBoxHelper::addModuleStyles( $output );
-		$output->prepareErrorPage( $output->msg( 'coll-request_failed_title' ) );
+		$output->prepareErrorPage();
+		$output->setPageTitleMsg( $output->msg( 'coll-request_failed_title' ) );
 		$output->addHTML( MessageBoxHelper::renderWarningBoxes() );
 		$output->addWikiMsgArray( 'coll-request_failed_msg', [] );
 		$output->returnToMain();
