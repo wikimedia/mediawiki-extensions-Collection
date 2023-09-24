@@ -95,9 +95,14 @@
 		"remoteExtPath": "Collection/resources"
 	},
 	"Hooks": {
-		"SidebarBeforeOutput": "MediaWiki\\Extension\\Collection\\Hooks::onSidebarBeforeOutput",
-		"SiteNoticeAfter": "MediaWiki\\Extension\\Collection\\Hooks::siteNoticeAfter",
-		"OutputPageCheckLastModified": "MediaWiki\\Extension\\Collection\\Hooks::checkLastModified"
+		"SidebarBeforeOutput": "main",
+		"SiteNoticeAfter": "main",
+		"OutputPageCheckLastModified": "main"
+	},
+	"HookHandlers": {
+		"main": {
+			"class": "MediaWiki\\Extension\\Collection\\Hooks"
+		}
 	},
 	"config": {
 		"CollectionMWServeURL": {
