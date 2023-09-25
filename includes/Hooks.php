@@ -23,8 +23,12 @@
 namespace MediaWiki\Extension\Collection;
 
 use Linker;
+use MediaWiki\Hook\OutputPageCheckLastModifiedHook;
+use MediaWiki\Hook\SidebarBeforeOutputHook;
+use MediaWiki\Hook\SiteNoticeAfterHook;
 use MediaWiki\Html\TemplateParser;
 use MediaWiki\MainConfigNames;
+use MediaWiki\Output\OutputPage;
 use MediaWiki\Session\SessionManager;
 use MediaWiki\Title\Title;
 use RequestContext;
@@ -32,14 +36,18 @@ use Skin;
 use SpecialPage;
 use Xml;
 
-class Hooks {
+class Hooks implements
+	SidebarBeforeOutputHook,
+	SiteNoticeAfterHook,
+	OutputPageCheckLastModifiedHook
+{
 	/**
 	 * Callback for SidebarBeforeOutput hook
 	 *
 	 * @param Skin $skin
 	 * @param array &$sidebar
 	 */
-	public static function onSidebarBeforeOutput( Skin $skin, &$sidebar ) {
+	public function onSidebarBeforeOutput( $skin, &$sidebar ): void {
 		global $wgCollectionPortletForLoggedInUsersOnly;
 
 		if ( !$wgCollectionPortletForLoggedInUsersOnly || $skin->getUser()->isRegistered() ) {
@@ -151,9 +159,8 @@ class Hooks {
 	 * Callback for hook SiteNoticeAfter
 	 * @param string &$siteNotice
 	 * @param Skin $skin
-	 * @return bool
 	 */
-	public static function siteNoticeAfter( &$siteNotice, $skin ) {
+	public function onSiteNoticeAfter( &$siteNotice, $skin ) {
 		global $wgCollectionArticleNamespaces;
 
 		$request = $skin->getRequest();
@@ -161,7 +168,7 @@ class Hooks {
 
 		$action = $request->getVal( 'action' );
 		if ( $action != '' && $action != 'view' && $action != 'purge' ) {
-			return true;
+			return;
 		}
 
 		$session = SessionManager::getGlobalSession();
@@ -171,7 +178,7 @@ class Hooks {
 			!isset( $session['wsCollection']['enabled'] ) ||
 			!$session['wsCollection']['enabled']
 		) {
-			return true;
+			return;
 		}
 
 		if ( $title->isSpecial( 'Book' ) ) {
@@ -181,21 +188,20 @@ class Hooks {
 			} elseif ( $cmd == '' ) {
 				$siteNotice .= self::renderBookCreatorBox( $title, 'showbook' );
 			}
-			return true;
+			return;
 		}
 
 		if ( !$title->exists() ) {
-			return true;
+			return;
 		}
 
 		$namespace = $title->getNamespace();
 		if ( !in_array( $namespace, $wgCollectionArticleNamespaces )
 			&& $namespace != NS_CATEGORY ) {
-			return true;
+			return;
 		}
 
 		$siteNotice .= self::renderBookCreatorBox( $title );
-		return true;
 	}
 
 	/**
@@ -436,13 +442,12 @@ class Hooks {
 	/**
 	 * OutputPageCheckLastModified hook
 	 * @param array &$modifiedTimes
-	 * @return bool
+	 * @param OutputPage $out
 	 */
-	public static function checkLastModified( &$modifiedTimes ) {
+	public function onOutputPageCheckLastModified( &$modifiedTimes, $out ) {
 		$session = SessionManager::getGlobalSession();
 		if ( isset( $session['wsCollection']['timestamp'] ) ) {
 			$modifiedTimes['collection'] = $session['wsCollection']['timestamp'];
 		}
-		return true;
 	}
 }
