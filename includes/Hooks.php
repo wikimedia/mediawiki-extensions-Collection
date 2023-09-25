@@ -435,10 +435,10 @@ class Hooks {
 
 	/**
 	 * OutputPageCheckLastModified hook
-	 * @param array $modifiedTimes
+	 * @param array &$modifiedTimes
 	 * @return bool
 	 */
-	public static function checkLastModified( $modifiedTimes ) {
+	public static function checkLastModified( &$modifiedTimes ) {
 		$session = SessionManager::getGlobalSession();
 		if ( isset( $session['wsCollection']['timestamp'] ) ) {
 			$modifiedTimes['collection'] = $session['wsCollection']['timestamp'];
