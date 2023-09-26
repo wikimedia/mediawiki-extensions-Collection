@@ -168,6 +168,9 @@
 					format: 'json'
 				};
 				get_data_xhr = $.post( script_url, params, function ( result ) {
+					if ( !result ) {
+						return;
+					}
 					visible = true;
 					var img = $( '<img>' ).attr( {
 						src: result.getpopupdata.img,
