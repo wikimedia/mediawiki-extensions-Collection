@@ -4,6 +4,32 @@
 			"Musaddam Idriss"
 		]
 	},
+	"coll-collections": "Kàkkadu",
+	"coll-your_book": "Kàkkadukàu",
+	"coll-download_title": "Bìsku",
+	"coll-remove": "Nàku",
+	"coll-show": "Tìmā",
+	"coll-move_to_top": "Nzùktu à kàa",
+	"coll-move_up": "Nzùktàa ndagài",
+	"coll-move_down": "Nzùktàa ràwài",
+	"coll-move_to_bottom": "Nzùktàa urē",
+	"coll-title": "Sim:",
+	"coll-subtitle": "Sim tòotai:",
+	"coll-contents": "Men bandi na àkai",
+	"coll-yes": "Ō'ō",
+	"coll-no": "A'a",
+	"coll-cancel": "Daanam",
+	"coll-rendering_page": "(shafi: $1)",
+	"coll-suggest_show": "timā",
+	"coll-suggest_undo": "yìmu",
 	"coll-print_export": "Kwapi/zaa",
-	"coll-download_as": "Zaanani a $1"
+	"coll-download_as": "Zaanani a $1",
+	"coll-bookscategory": "Kàkkadu",
+	"coll-help": "Gàdu",
+	"coll-helppage": "Gàdu:Kàkkadu",
+	"coll-n_pages": "$1 {{PLURAL:$1|shafi}}",
+	"coll-article-attribution": "<b>$1</b> <i>Aroo:</i> $2 <i>Bàa wàanài:</i> $3",
+	"coll-warning-learn-more": "Cìiwàtàa gàm",
+	"coll-images-title": "Foto",
+	"coll-images-source": "Aroo"
 }

@@ -2,13 +2,19 @@
 	"@metadata": {
 		"authors": [
 			"Kareyac",
-			"Батыр Комдошев"
+			"Батыр Комдошев",
+			"Sagan"
 		]
 	},
+	"coll-collections": "Тозучылар",
+	"coll-download": "тӱжӱрер",
+	"coll-format_label": "Формат:",
 	"coll-remove": "Јоголтор",
 	"coll-show": "Кӧргӱзер",
 	"coll-move_up": "Ӧрӧ јылдырар",
 	"coll-move_down": "Тӧмӧн јылдырар",
+	"coll-title": "Бажалык:",
+	"coll-contents": "Толынтызы",
 	"coll-no": "Јок",
 	"coll-print_export": "Кепке базар/экспорт",
 	"coll-create_a_book": "Бичикти эдер",
