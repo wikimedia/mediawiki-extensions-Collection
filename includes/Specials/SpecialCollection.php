@@ -76,7 +76,7 @@ class SpecialCollection extends SpecialPage {
 	 * @return string
 	 */
 	public function getDescription() {
-		return $this->msg( 'coll-collection' )->escaped();
+		return $this->msg( 'coll-collection' );
 	}
 
 	/**
