@@ -22,10 +22,10 @@ class CollectionListTemplate extends QuickTemplate {
 		?>
 
 		<div class="collection-create-chapter-links">
-			<a class="makeVisible" style="<?php if ( !isset( $this->data['is_ajax'] ) ) { echo ' display:none;'; } ?>" onclick="return coll_create_chapter()" href="javascript:void(0);"><?php $this->msg( 'coll-create_chapter' ) ?></a>
+			<a class="makeVisible collection-chapter-create" style="<?php if ( !isset( $this->data['is_ajax'] ) ) { echo ' display:none;'; } ?>" href="javascript:void(0);"><?php $this->msg( 'coll-create_chapter' ) ?></a>
 			<?php if ( count( $this->data['collection']['items'] ) > 0 ) { ?>
-				<a onclick="return coll_sort_items()" href="<?php echo htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book', [ 'bookcmd' => 'sort_items' ] ) ) ?>"><?php $this->msg( 'coll-sort_alphabetically' ) ?></a>
-				<a onclick="return coll_clear_collection()" href="<?php echo htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book', [ 'bookcmd' => 'clear_collection' ] ) ) ?>"><?php $this->msg( 'coll-clear_collection' ) ?></a>
+				<a class="collection-sort" href="<?php echo htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book', [ 'bookcmd' => 'sort_items' ] ) ) ?>"><?php $this->msg( 'coll-sort_alphabetically' ) ?></a>
+				<a class="collection-clear" href="<?php echo htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book', [ 'bookcmd' => 'clear_collection' ] ) ) ?>"><?php $this->msg( 'coll-clear_collection' ) ?></a>
 			<?php } ?>
 		</div>
 
