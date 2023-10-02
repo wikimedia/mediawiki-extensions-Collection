@@ -69,6 +69,8 @@
 	"coll-rendering_failed_status": "<strong>Статус:</strong> $1",
 	"coll-failed_page_info_text_article": "{{MediaWiki:Coll-helppage}}/АгӀонан йоза тадар",
 	"coll-notfound_title": "Жайна цакарий",
+	"coll-notfound_text": "Жайнан агӀо каро аьтту бац.",
+	"coll-download_notfound_title": "Файл цакарий",
 	"coll-book_title": "Заказ де зорбанан жайна",
 	"coll-book_text": "Тхан партнёрера схьаэца жайна:",
 	"coll-order_from_pp": "Муха йу хьажар гӀоьнца $1",
@@ -85,7 +87,8 @@
 	"coll-suggest_ban_selected": "ДӀайаха хаьржина агӀонаш",
 	"coll-suggest_your_book": "Хьан жайна",
 	"coll-suggest_show": "гайта",
-	"coll-suggest_undo": "цаоьшу",
+	"coll-suggest_undo_tooltip": "Йухадаккха хӀара",
+	"coll-suggest_undo": "Йухадаккха",
 	"coll-format-rl": "электронан жайна (PDF, кечдархо mwlib)",
 	"coll-format-epub": "электронан жайна (EPUB)",
 	"coll-format-odf": "Йозанийн процессор (OpenDocument)",
@@ -130,5 +133,11 @@
 	"coll-warning-learn-more": "Цул совнаха хаа",
 	"coll-notice-download-pdf-title": "Схьаэца къаьстина агӀонаш",
 	"coll-notice-download-pdf-text": "PDF-рендер Book Creator гӀоьнца хийцамбина хиларна, хьан йиш йу '''''PDF санна схьаэца''''' функци лело, иза йу агӀорхьарчу панель тӀехь йешаран рожехь.",
-	"coll-images-source": "Хьост"
+	"coll-toc-title": "Чулацам",
+	"coll-contributors-title": "Автораш",
+	"coll-images-title": "Суьрташ",
+	"coll-images-source": "Хьост",
+	"coll-images-license": "Лицензи",
+	"coll-images-original-artist": "Йуьхьанцара автор",
+	"coll-license-title": "Чулацам лицензи"
 }
