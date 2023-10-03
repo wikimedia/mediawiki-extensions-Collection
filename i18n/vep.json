@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Игорь Бродский"
+			"Игорь Бродский",
+			"Лариса Чиркова"
 		]
 	},
 	"coll-collection": "Kirj",
@@ -34,9 +35,9 @@
 	"coll-license": "Licenzii",
 	"coll-suggest_your_book": "Teiden kirj",
 	"coll-suggest_show": "ozutada",
-	"coll-print_export": "Painda vai eksportiruida",
+	"coll-print_export": "Painuz/eksport",
 	"coll-create_a_book": "Säta kirj",
-	"coll-download_as": "Kormakat kut $1",
+	"coll-download_as": "Sada $1",
 	"coll-bookscategory": "Kirjad",
 	"coll-help": "Abu",
 	"coll-helppage": "Help:Kirjad",
