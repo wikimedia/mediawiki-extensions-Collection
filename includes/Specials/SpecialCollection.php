@@ -35,6 +35,7 @@ use MediaWiki\Extension\Collection\Templates\CollectionLoadOverwriteTemplate;
 use MediaWiki\Extension\Collection\Templates\CollectionPageTemplate;
 use MediaWiki\Extension\Collection\Templates\CollectionRenderingTemplate;
 use MediaWiki\Extension\Collection\Templates\CollectionSaveOverwriteTemplate;
+use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Request\DerivativeRequest;
 use MediaWiki\Title\Title;
@@ -1177,8 +1178,8 @@ class SpecialCollection extends SpecialPage {
 					'refresh-nojs',
 					'<noscript><meta http-equiv="refresh" content="2" /></noscript>'
 				);
-				$out->addInlineScript( 'var collection_id = "' . urlencode( $collectionId ) . '";' );
-				$out->addInlineScript( 'var writer = "' . urlencode( $writer ) . '";' );
+				$out->addInlineScript( 'var collection_id = ' . Html::encodeJsVar( urlencode( $collectionId ) ) . ';' );
+				$out->addInlineScript( 'var writer = ' . Html::encodeJsVar( urlencode( $writer ) ) . ';' );
 				$out->addInlineScript( 'var collection_rendering = true;' );
 				$out->addModules( 'ext.collection' );
 				$out->setPageTitle( $this->msg( 'coll-rendering_title' ) );
