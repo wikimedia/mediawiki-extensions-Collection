@@ -29,7 +29,7 @@
 	"coll-rendering_page": "(səhifə: $1)",
 	"coll-rendering_finished_notes_heading": "Ğeyd:",
 	"coll-about_pp": "Çəmə $1",
-	"coll-license": "Lisenziə",
+	"coll-license": "Lisenzijə",
 	"coll-return_to": "Oqarde bə [[:$1]]",
 	"coll-suggest_your_book": "Şımə kitob",
 	"coll-suggest_show": "nişo doy",
@@ -63,5 +63,5 @@
 	"coll-article-attribution": "<b>$1</b> <i>Səvon:</i> $2 <i>Mıəllif:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Mənbə:</i> $2 <i>Lisensiyə:</i> $3 <i>Mıəllifon:</i> $4 <i>Rəssamon:</i> $5",
 	"coll-images-title": "Şəklon",
-	"coll-images-license": "Lisenziə"
+	"coll-images-license": "Lisenzijə"
 }

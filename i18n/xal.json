@@ -1,14 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Huuchin"
+			"Huuchin",
+			"Ukhant Erdemt"
 		]
 	},
 	"coll-remove": "Әрлһх",
 	"coll-show": "Үзүлх",
 	"coll-move_up": "Деердүлх",
 	"coll-move_down": "Дордулх",
-	"coll-print_export": "Барлх/һазадлх",
+	"coll-print_export": "Кевлх / Һарһх",
 	"coll-create_a_book": "Дегтр бүтәх",
-	"coll-download_as": "$1 мет татҗ авх"
+	"coll-download_as": "$1 бәәдләр татҗ авх"
 }

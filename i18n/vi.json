@@ -10,7 +10,9 @@
 			"NguoiDungKhongDinhDanh",
 			"Nghiemtrongdai VN",
 			"Thingofme",
-			"CactiStaccingCrane"
+			"CactiStaccingCrane",
+			"Flyplanevn27",
+			"Pisceskaze"
 		]
 	},
 	"coll-desc": "[[Special:Book|Tạo sách]]",
@@ -23,7 +25,7 @@
 	"coll-book_creator_text_article": "{{MediaWiki:Coll-helppage}}/Văn bản chế độ tạo sách",
 	"coll-collection": "Sách",
 	"coll-collections": "Sách",
-	"coll-unknown_subpage_title": "Trang con không tìm được",
+	"coll-unknown_subpage_title": "Trang con không có",
 	"coll-unknown_subpage_text": "Trang con của [[Special:Book|Sách]] với tên này không tồn tại",
 	"coll-couldnotaddarticle_title": "Không thể thêm trang wiki",
 	"coll-couldnotaddarticle_msg": "Không thêm được trang wiki.",
