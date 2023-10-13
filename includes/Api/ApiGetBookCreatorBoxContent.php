@@ -36,7 +36,7 @@ class ApiGetBookCreatorBoxContent extends ApiBase {
 
 		$oldid = $params['oldid'] ? (int)$params['oldid'] : 0;
 		$title = $params['pagename'] ? Title::newFromText( $params['pagename'] ) : Title::newMainPage();
-		$title = $title ?? Title::newMainPage();
+		$title ??= Title::newMainPage();
 		$html = Hooks::getBookCreatorBoxContent( $title, $params['hint'], $oldid );
 		$result = [ 'html' => $html ];
 		$this->getResult()->addValue( null, $this->getModuleName(), $result );
