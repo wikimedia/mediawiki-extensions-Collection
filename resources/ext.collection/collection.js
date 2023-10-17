@@ -393,6 +393,16 @@
 			$( '#titleInput, #subtitleInput, [id^="coll-input-setting-"]' )
 				.change( set_titles );
 		}
+
+		$( '.collection-chapter-create' ).on( 'click', function () {
+			create_chapter();
+		} );
+		$( '.collection-sort' ).on( 'click', function () {
+			sort_items();
+		} );
+		$( '.collection-clear' ).on( 'click', function () {
+			clear_collection();
+		} );
 	} );
 
 }( mediaWiki, jQuery ) );
