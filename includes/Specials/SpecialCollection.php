@@ -180,9 +180,9 @@ class SpecialCollection extends SpecialPage {
 
 			case 'clear_collection':
 				CollectionSession::clearCollection();
-				$redirect = $request->getVal( 'return_to' );
+				$redirect = $request->getVal( 'return_to', '' );
 				$redirectURL = SkinTemplate::makeSpecialUrl( 'Book' );
-				if ( !empty( $redirect ) ) {
+				if ( $redirect !== '' ) {
 					$title = Title::newFromText( $redirect );
 					if ( $title ) {
 						$redirectURL = $title->getFullURL();
@@ -381,14 +381,14 @@ class SpecialCollection extends SpecialPage {
 		$prefixes = $this->getBookPagePrefixes();
 		$title = null;
 		if ( $colltype == 'personal' ) {
-			$collname = $request->getVal( 'pcollname' );
-			if ( !$user->isAllowed( 'collectionsaveasuserpage' ) || empty( $collname ) ) {
+			$collname = $request->getVal( 'pcollname', '' );
+			if ( !$user->isAllowed( 'collectionsaveasuserpage' ) || $collname === '' ) {
 				return;
 			}
 			$title = Title::newFromText( $prefixes['user-prefix'] . $collname );
 		} elseif ( $colltype == 'community' ) {
-			$collname = $request->getVal( 'ccollname' );
-			if ( !$user->isAllowed( 'collectionsaveascommunitypage' ) || empty( $collname ) ) {
+			$collname = $request->getVal( 'ccollname', '' );
+			if ( !$user->isAllowed( 'collectionsaveascommunitypage' ) || $collname === '' ) {
 				return;
 			}
 			$title = Title::newFromText( $prefixes['community-prefix'] . $collname );
