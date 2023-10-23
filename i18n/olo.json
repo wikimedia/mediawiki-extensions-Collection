@@ -3,7 +3,8 @@
 		"authors": [
 			"Denö",
 			"Ilja.mos",
-			"Mashoi7"
+			"Mashoi7",
+			"Ruppijeva"
 		]
 	},
 	"coll-desc": "[[Special:Book|Luaji kirjua]].",
@@ -72,10 +73,10 @@
 	"coll-format-okawix_zeno": "Okawix",
 	"coll-format-rdf2latex": "e-kirju(PDF, ocg latex renderuičendu)",
 	"right-collectionsaveasuserpage": "Tallenda kirjoi käyttäisivunnu",
-	"coll-print_export": "Tulosta/eksportiiruiče",
+	"coll-print_export": "Printua/eksportiiruiče",
 	"coll-create_a_book": "Luaji kniigu",
 	"coll-book_creator": "Kirjanluadii",
-	"coll-download_as": "Pane taldeh $1:nny",
+	"coll-download_as": "Purra $1-tiijostonnu",
 	"coll-disable": "ota käytös iäre",
 	"coll-book_creator_disable": "Ota kirjanluadii käytös iäre",
 	"coll-book_creator_disable_tooltip": "Heitä kirjanluadijan käyttämine",

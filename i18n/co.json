@@ -5,9 +5,16 @@
 			"Jun Misugi"
 		]
 	},
+	"coll-manage_your_book": "Gestì u to libru",
+	"coll-start_book_creator": "Cumincià u creatore di libru",
 	"coll-collection": "Libru",
 	"coll-collections": "Libri",
 	"coll-unknown_subpage_title": "Sottupàgina ignóta",
+	"coll-savedbook_template": "libru_salvatu",
+	"coll-your_book": "U to libru",
+	"coll-download_title": "Scaricà",
+	"coll-download": "Scaricà",
+	"coll-format_label": "Furmatu:",
 	"coll-show": "Mustrà",
 	"coll-create_a_book": "creà libru",
 	"coll-help": "Aiutu",
