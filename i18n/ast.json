@@ -5,7 +5,8 @@
 			"Esbardu",
 			"Macofe",
 			"Xuacu",
-			"Fitoschido"
+			"Fitoschido",
+			"YoaR"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crear llibros]]",
@@ -59,10 +60,10 @@
 	"coll-overwrite_text": "Yá existe una páxina col nome [[:$1]].\nQuier sustituila col so llibru?",
 	"coll-yes": "Sí",
 	"coll-no": "Non",
-	"coll-load_overwrite_text": "Yá tien dalgunes páxines nel so llibru.\n¿Quier sobreescribir el so llibru actual, amestar el conteníu nuevu, o encaboxar la carga d'esti llibru?",
+	"coll-load_overwrite_text": "Yá tien dalgunes páxines nel so llibru.\n¿Quier sobreescribir el so llibru actual, amestar el conteníu nuevu, o anular la carga d'esti llibru?",
 	"coll-overwrite": "Sobreescribir",
 	"coll-append": "Amestar",
-	"coll-cancel": "Encaboxar",
+	"coll-cancel": "Zarrar",
 	"coll-update": "Anovar",
 	"coll-limit_exceeded_title": "Llibru demasiao grande",
 	"coll-limit_exceeded_text": "El so llibru ye demasiao grande.\nNun puen amestase más páxines.",
@@ -114,7 +115,7 @@
 	"coll-suggest_article_remove": "La páxina <strong>$1</strong> desanicióse del so llibru ($2).",
 	"coll-suggest_undo_tooltip": "Desfacer esta aición",
 	"coll-suggest_undo": "desfacer",
-	"coll-load_local_book": "Fai clic en «OK» pa siguir col llibru $1 que contien $2 {{PLURAL:$2|páxina|páxines}} wiki. Fai clic en «Encaboxar» pa borralu y empezar con un llibru vacíu.",
+	"coll-load_local_book": "Calca en «OK» pa siguir col llibru $1 que contién $2 {{PLURAL:$2|páxina|páxines}} wiki. Calca en «Cancel» pa borralu y empezar con un llibru vacíu.",
 	"coll-format-rl": "e-book (PDF, renderizador mwlib)",
 	"coll-format-odf": "Procesador de testu (OpenDocument)",
 	"coll-format-rdf2latex": "e-book (PDF, renderizador ocg latex)",
