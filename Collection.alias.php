@@ -410,7 +410,7 @@ $specialPageAliases['sq'] = [
 
 /** Serbian (Cyrillic script) (српски (ћирилица)‎) */
 $specialPageAliases['sr-ec'] = [
-	'Book' => [ 'Књига' ],
+	'Book' => [ 'Књига', 'Колекција' ],
 ];
 
 /** Swedish (svenska) */
