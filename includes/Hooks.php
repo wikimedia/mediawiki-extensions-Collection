@@ -225,6 +225,7 @@ class Hooks implements
 		$out->addModuleStyles( 'ext.collection.bookcreator.styles' );
 
 		$addRemoveState = $mode;
+		$helpPage = Title::newFromText( $context->msg( 'coll-helppage' )->text() );
 
 		return $templateParser->processTemplate( 'create-book', [
 			"actionsHtml" => self::getBookCreatorBoxContent( $title, $addRemoveState, $oldid ),
@@ -238,7 +239,7 @@ class Hooks implements
 				"label" => $context->msg( 'coll-disable' )->escaped(),
 			],
 			"help" => [
-				"url" => Title::newFromText( $context->msg( 'coll-helppage' )->text() )->getLocalUrl(),
+				"url" => $helpPage ? $helpPage->getLocalUrl() : '',
 				"label" => $context->msg( 'coll-help' )->escaped(),
 				"title" => $context->msg( 'coll-help_tooltip' )->text(),
 				"icon" => $imagePath . '/silk-help.png',
