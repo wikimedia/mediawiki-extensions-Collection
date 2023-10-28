@@ -413,6 +413,11 @@ $specialPageAliases['sr-ec'] = [
 	'Book' => [ 'Књига', 'Колекција' ],
 ];
 
+/** Serbian (Latin script) (srpski (latinica)‎) */
+$specialPageAliases['sr-ec'] = [
+	'Book' => [ 'Knjiga', 'Kolekcija' ],
+];
+
 /** Swedish (svenska) */
 $specialPageAliases['sv'] = [
 	'Book' => [ 'Bok', 'Samling' ],
