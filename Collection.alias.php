@@ -414,7 +414,7 @@ $specialPageAliases['sr-ec'] = [
 ];
 
 /** Serbian (Latin script) (srpski (latinica)‎) */
-$specialPageAliases['sr-ec'] = [
+$specialPageAliases['sr-el'] = [
 	'Book' => [ 'Knjiga', 'Kolekcija' ],
 ];
 
