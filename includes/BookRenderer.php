@@ -60,16 +60,16 @@ class BookRenderer {
 		] );
 		foreach ( $items as $item ) {
 			$titleText = $item['title'];
-			$title = Title::newFromText( $titleText );
 			if ( $item['type'] === 'chapter' ) {
-				$outline[] = $this->getBookChapterData( $title, $tocHeadingCounter );
+				$outline[] = $this->getBookChapterData( $titleText, $tocHeadingCounter );
 				$bookBodyHtml .= Html::element( 'h1', [
 						'id' => 'mw-book-chapter-' . Sanitizer::escapeIdForAttribute( $titleText ),
 						'class' => 'mw-book-chapter',
 						'data-mw-sectionnumber' => $headingCounter->incrementAndGet( -2 ),
 					], $titleText ) . "\n";
 			} elseif ( $item['type'] === 'article' ) {
-				$dbkey = $title->getPrefixedDBkey();
+				$title = Title::newFromText( $titleText );
+				$dbkey = $title ? $title->getPrefixedDBkey() : $titleText;
 				$html = $this->getBodyContents( $pages[$dbkey] );
 
 				$headingAttribs = [
@@ -100,7 +100,7 @@ class BookRenderer {
 					'fragmentName' => 'body',
 				] );
 				$outline = array_merge( $outline,
-					$this->getArticleChaptersData( $title, $tocHeadingCounter,
+					$this->getArticleChaptersData( $dbkey, $tocHeadingCounter,
 						$metadata['displaytitle'], $metadata['sections'], $articleCount )
 				);
 				$bookBodyHtml .= Html::openElement( 'article' )
@@ -196,23 +196,23 @@ class BookRenderer {
 
 	/**
 	 * Generate template data for outline chapter
-	 * @param Title $title for book
+	 * @param string $titleText for book
 	 * @param HeadingCounter $tocHeadingCounter
 	 * @return array
 	 */
-	private function getBookChapterData( $title, $tocHeadingCounter ) {
+	private function getBookChapterData( $titleText, $tocHeadingCounter ) {
 		return [
-			'text' => htmlspecialchars( $title, ENT_QUOTES ),
+			'text' => htmlspecialchars( $titleText, ENT_QUOTES ),
 			'type' => 'chapter',
 			'level' => -2,
-			'anchor' => 'mw-book-chapter-' . Sanitizer::escapeIdForAttribute( $title ),
+			'anchor' => 'mw-book-chapter-' . Sanitizer::escapeIdForAttribute( $titleText ),
 			'number' => $tocHeadingCounter->incrementAndGet( -2 ),
 		];
 	}
 
 	/**
 	 * Generate template data for the chapters in the given article
-	 * @param Title $title to extract sections for
+	 * @param string $dbkey to extract sections for
 	 * @param HeadingCounter $tocHeadingCounter
 	 * @param array[] $displayTitles mapping dbkeys to display titles for the book
 	 * @param array[] $sections Section data; each section is a triple
@@ -222,10 +222,9 @@ class BookRenderer {
 	 * @return array
 	 */
 	private function getArticleChaptersData(
-		$title, $tocHeadingCounter, $displayTitles, $sections, $articleCount
+		$dbkey, $tocHeadingCounter, $displayTitles, $sections, $articleCount
 	) {
 		$chapters = [];
-		$dbkey = $title->getPrefixedDBkey();
 
 		if ( $articleCount > 1 ) {
 			$chapters[] = [
