@@ -3,7 +3,8 @@
 		"authors": [
 			"Amire80",
 			"Андрей Саг.",
-			"AlexandrL714"
+			"AlexandrL714",
+			"Oxianboal"
 		]
 	},
 	"coll-show": "Кӧзідерге",
@@ -11,6 +12,6 @@
 	"coll-move_down": "Алтынзар чылдырарға",
 	"coll-yes": "Я",
 	"coll-print_export": "Печать/экспорт",
-	"coll-download_as": "$1 посха аларға",
+	"coll-download_as": "$1 чiли посха тартып аларға",
 	"coll-setting-toc-yes": "Я"
 }
