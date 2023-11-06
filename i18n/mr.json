@@ -84,7 +84,7 @@
 	"coll-limit_exceeded_title": "!!FUZZY!ग्रंथ खूप मोठा  झालेले आहे",
 	"coll-limit_exceeded_text": "तुमचे पुस्तक खूप मोठे झालेले आहे.\nआणखी पाने वाढविता येणार नाहीत.",
 	"coll-rendering_title": "प्रतिपादन करीत आहे",
-	"coll-rendering_text": "<p><strong> आपले पुस्तक तयार होत आहे. कृपया प्रतीक्षा करा. </strong></p>\n\n<p><strong>प्रगती:</strong> <span id=\"कामाची प्रगती\">$1</span>% <span id=\"कामाची/सध्याची स्धिती\">$2</span></p>\n\n<p>हे पान दर काही सेकंदानी आपोआप पुन्हा दाखवले जाईल.\nतसे झाले नाही तर ब्राउजर रीफ्रेश करा.</p>",
+	"coll-rendering_text": "<p><strong> आपले पुस्तक तयार होत आहे. कृपया प्रतीक्षा करा. </strong></p>\n\n<p><strong>प्रगती:</strong> <span id=\"renderingProgress\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p>हे पान दर काही सेकंदानी आपोआप पुन्हा दाखवले जाईल.\nतसे झाले नाही तर ब्राउजर रीफ्रेश करा.</p>",
 	"coll-rendering_status": "<strong>स्थिती:</strong> $1",
 	"coll-rendering_article": "(विकी  पृष्ठ : $1)",
 	"coll-rendering_page": "(पान: $1)",
