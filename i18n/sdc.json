@@ -13,8 +13,11 @@
 	"coll-collection": "Libru",
 	"coll-collections": "Libri",
 	"coll-unknown_subpage_title": "Sottupàgina ignota",
+	"coll-unknown_subpage_text": "Kistha sottupàgina di [[Special:Book|Libru]] nò v'è.",
 	"coll-couldnotaddarticle_title": "No si pudia aggiungì la pàgina wiki.",
+	"coll-couldnotaddarticle_msg": "No si pudia aggiungì la pàgina wiki.",
 	"coll-couldnotremovearticle_title": "No si pudia buggà la pàgina wiki.",
+	"coll-couldnotremovearticle_msg": "No si pudia buggà la pàgina wiki.",
 	"coll-savedbook_template": "libru saivvaddu",
 	"coll-your_book": "Lu libru tóiu",
 	"coll-download_title": "Ischarriggà",
@@ -41,6 +44,7 @@
 	"coll-notfound_text": "Pàgina di libru migga acciappada",
 	"coll-download_notfound_title": "Ischedàriu migga acciappaddu",
 	"coll-order_from_pp": "Antiprimma cun $1",
+	"coll-about_pp": "Iffuimmazioni innantu a $1",
 	"coll-license": "Licèntzia",
 	"coll-suggest_your_book": "Lu libru tóiu",
 	"coll-suggest_show": "ammusthrà",
@@ -86,5 +90,6 @@
 	"coll-contributors-title": "Cumponidori",
 	"coll-images-title": "Immàgini",
 	"coll-images-source": "Orìgini",
-	"coll-images-license": "Licèntzia"
+	"coll-images-license": "Licèntzia",
+	"coll-license-title": "Licèntzia di cuntinuddu"
 }

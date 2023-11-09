@@ -63,7 +63,7 @@
 	"coll-limit_exceeded_title": "Lehkhabu a lian lutuk",
 	"coll-limit_exceeded_text": "I lehkhabu hi a lian lutes.\nPhêk dang dah belh theih a ni lo.",
 	"coll-rendering_title": "Pe let mêk",
-	"coll-rendering_text": "<p><strong>I document siam mêk lai chu khawngaihtakin lo nghâk rëng ang che.</strong></p>\n\n<p><strong>Hmasawnna:</strong> <span id=\"pe let Hmasawnna\">$1</span>% <span id=\"pe let Hmasawnna\">$2</span></p>\n\n<p>He phêk chu second tlemte danah amah leh amah inṭan leh ngei ang. \nHei hi a thawk lo chuan, i browser-a inṭanna button kha rawn tlan teh.</p>",
+	"coll-rendering_text": "<p><strong>I document siam mêk lai chu khawngaihtakin lo nghâk rëng ang che.</strong></p>\n\n<p><strong>Hmasawnna:</strong> <span id=\"renderingProgress\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p>He phêk chu second tlemte danah amah leh amah inṭan leh ngei ang. \nHei hi a thawk lo chuan, i browser-a inṭanna button kha rawn tlan teh.</p>",
 	"coll-rendering_status": "<strong>Dinhmun:</strong> $1",
 	"coll-rendering_article": "(vuiki phêk: $1)",
 	"coll-rendering_page": "(phêk: $1)",
