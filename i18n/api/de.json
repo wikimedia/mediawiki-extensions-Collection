@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"*Surak*",
-			"Brettchenweber"
+			"Brettchenweber",
+			"SehrGuterCode"
 		]
 	},
 	"apihelp-collection+getcollection-example": "Auflisten von Seiten, die sich derzeit in der Sammlung befinden.",
@@ -43,6 +44,7 @@
 	"apihelp-collection+getpopupdata-example": "Ruft ein Popup auf, um eine Seite zur Sammlung hinzuzufügen oder sie zu entfernen",
 	"apihelp-collection+getpopupdata-summary": "API-Modul zum Abrufen von Daten und HTML, um ein Popup zu erstellen",
 	"apihelp-collection+getpopupdata-param-title": "Titel einer Seite",
+	"apihelp-collection+removeitem-param-index": "Index des zu entfernenden Datenobjekts",
 	"apihelp-collection-param-submodule": "Submodul zur Durchführung verschiedener Operationen mit der Sammlung eines Wiki-Benutzers.",
 	"apihelp-collection-summary": "API-Modul zur Durchführung verschiedener Operationen mit der Sammlung eines Wiki-Benutzers.",
 	"apihelp-collection+getbookcreatorboxcontent-param-oldid": "Oldid einer Sammlung",
