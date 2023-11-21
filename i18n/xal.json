@@ -8,9 +8,9 @@
 	},
 	"coll-remove": "Әрлһх",
 	"coll-show": "Үзүлх",
-	"coll-move_up": "Деердүлх",
-	"coll-move_down": "Дордулх",
+	"coll-move_up": "Деегшән шилҗүлх",
+	"coll-move_down": "Дорагшан шилҗүлх",
 	"coll-print_export": "Кевлх / экспортлх",
-	"coll-create_a_book": "Дегтр бүтәх",
+	"coll-create_a_book": "Дегтрүр хүврүлх",
 	"coll-download_as": "$1 кевәр татҗ авх"
 }

@@ -1,0 +1,41 @@
+{
+	"@metadata": {
+		"authors": [
+			"Es Krim 5 Juta Rasa"
+		]
+	},
+	"coll-desc": "[[Special:Book|Guwai buku]]",
+	"coll-manage_your_book": "Kalola bukumu",
+	"coll-start_book_creator": "Mulai pangguwai buku",
+	"coll-book_creator_continue": "Lanjutko makai pangguwai buku",
+	"coll-collection": "Buku",
+	"coll-collections": "Buku",
+	"coll-unknown_subpage_title": "Subhalaman mak tikapandai",
+	"coll-couldnotaddarticle_title": "Mak pandai nambahko halaman wiki",
+	"coll-couldnotaddarticle_msg": "Halaman wiki hasa mak pandai titambahko",
+	"coll-couldnotremovearticle_title": "Mak pandai nyopakko halaman wiki",
+	"coll-couldnotremovearticle_msg": "Halaman wiki hasa mak pandai ticopakko",
+	"coll-savedbook_template": "buku_tijamot",
+	"coll-your_book": "Bukumu",
+	"coll-download_title": "Unduh",
+	"coll-download": "Unduh",
+	"coll-format_label": "Format:",
+	"coll-remove": "Hapus",
+	"coll-move_to_top": "Alihko guk paling dinggak",
+	"coll-move_up": "Alihko gunggak",
+	"coll-move_down": "Alihko gukbah",
+	"coll-move_to_bottom": "Alihko guk paling dibah",
+	"coll-title": "Judul:",
+	"coll-subtitle": "Subjudul:",
+	"coll-contents": "Daftar isi",
+	"coll-create_chapter": "Guwai bab",
+	"coll-sort_alphabetically": "Susunko sacara alfabetis",
+	"coll-rename": "Gonti golar",
+	"coll-new_chapter": "Kurukko golar bab anyar",
+	"coll-rename_chapter": "Kurukko golar anyar bab",
+	"coll-notitle_title": "Mak pandai ndapokko judul halaman",
+	"coll-yes": "Yu",
+	"coll-no": "Makwat",
+	"coll-print_export": "Citak/ekspor",
+	"coll-download_as": "Unduh versi $1"
+}
