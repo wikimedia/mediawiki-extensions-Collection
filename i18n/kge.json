@@ -36,6 +36,15 @@
 	"coll-notitle_title": "Mak pandai ndapokko judul halaman",
 	"coll-yes": "Yu",
 	"coll-no": "Makwat",
+	"coll-notfound_title": "Buku mak tipahalu",
+	"coll-notfound_text": "Mak pandai mahalu halaman buku",
+	"coll-download_notfound_title": "Berkas mak pahalu",
+	"coll-book_title": "Pesan sabagai buku ticitak",
+	"coll-order_from_pp": "Pratayang rik $1",
+	"coll-about_pp": "Tentang $1",
+	"coll-invalid_podpartner_title": "Orik'an POD mak valid",
+	"coll-license": "Lisensi",
+	"coll-return_to": "Muloh guk [[:$1]]",
 	"coll-print_export": "Citak/ekspor",
 	"coll-download_as": "Unduh versi $1"
 }
