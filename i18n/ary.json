@@ -4,7 +4,8 @@
 			"Abdeaitali",
 			"Anass Sedrati",
 			"Reda Benkhadra",
-			"SADIQUI"
+			"SADIQUI",
+			"Ideophagous"
 		]
 	},
 	"coll-remove": "حيًد",
@@ -14,7 +15,7 @@
 	"coll-print_export": "طباعة/تصدير",
 	"coll-create_a_book": "صاوب كتاب",
 	"coll-book_creator": "منشئ الكتب",
-	"coll-download_as": "تحميل بصيغة $1",
+	"coll-download_as": "مشارجية ب صيغة $1",
 	"coll-disable": "حيًد",
 	"coll-book_creator_disable": "عطّل منشئ الكتب",
 	"coll-book_creator_disable_tooltip": "وقّف استخدام منشئ الكتب",
