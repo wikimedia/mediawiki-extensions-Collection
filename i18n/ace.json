@@ -4,10 +4,13 @@
 			"Si Gam Acèh"
 		]
 	},
-	"coll-remove": "Sampôh",
+	"coll-remove": "Peugadöh",
 	"coll-show": "Peuleumah",
-	"coll-move_up": "Peu'ék",
+	"coll-move_to_top": "Pinah u ateueh",
+	"coll-move_up": "Peuék",
 	"coll-move_down": "Peutren",
+	"coll-move_to_bottom": "Pinah u yup that",
+	"coll-title": "Nan:",
 	"coll-print_export": "Rakam/èkspor",
 	"coll-create_a_book": "Peugöt buku",
 	"coll-book_creator": "Ureueng peugöt buku",
