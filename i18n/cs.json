@@ -10,7 +10,8 @@
 			"Matěj Grabovský",
 			"Mormegil",
 			"Patriccck",
-			"Patrik L."
+			"Patrik L.",
+			"Draceane"
 		]
 	},
 	"coll-desc": "[[Special:Book|Vytváření knih]]",
@@ -61,7 +62,7 @@
 	"coll-save_collection": "Uložit knihu",
 	"coll-save_category": "Všechny uložené knihy se přidávají do kategorie [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]].",
 	"coll-overwrite_title": "Stránka existuje. Přepsat?",
-	"coll-overwrite_text": "Stránka s názvem [[:$1]] už existuje.\nChcete ji nahradit svojí kolekcí?",
+	"coll-overwrite_text": "Stránka s názvem [[:$1]] již existuje.\nChcete ji nahradit svojí knihou?",
 	"coll-yes": "Ano",
 	"coll-no": "Ne",
 	"coll-load_overwrite_text": "Ve vaší knize se už nacházejí nějaké stránky.\nChcete přepsat svoji existující knihu, přidat do ní obsah nebo zrušit operaci s touto knihou?",
@@ -172,6 +173,11 @@
 	"coll-attribution-page": "<h1>Zdroje textu a obrázků, přispěvatelé a licence</h1>\n<h2>Text</h2>\n$1<h2>Obrázky</h2>\n$2\n<h2>Licence obsahu</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Zdroj:</i> $2 <i>Přispěvatelé:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Zdroj:</i> $2 <i>Licence:</i> $3 <i>Přispěvatelé:</i> $4 <i>Původní autor:</i> $5",
+	"coll-warning-disable-pdf-title": "Funkce tvorby knihy prochází úpravami",
+	"coll-warning-disable-pdf-text": "Kvůli závažným problémům s dosavadním systémem nebude déle podporována funkce uložit knihu jako PDF.",
+	"coll-warning-learn-more": "Více informací",
+	"coll-notice-download-pdf-title": "Stáhnout samostatné stránky",
+	"coll-notice-download-pdf-text": "Pokud je vytváření souborů PDF knih vypnuté, můžete zkusit '''Stáhnout jako PDF''' jednotlivé články na postranním panelu.",
 	"coll-toc-title": "Obsah",
 	"coll-contributors-title": "Přispěvatelé",
 	"coll-images-title": "Obrázky",

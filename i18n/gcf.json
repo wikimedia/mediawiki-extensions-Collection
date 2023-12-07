@@ -1,11 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Laetitia Kb"
+			"Laetitia Kb",
+			"EritajGwadloup"
 		]
 	},
 	"coll-remove": "Tiré-y",
 	"coll-move_up": "Monté-y",
+	"coll-print_export": "Emprimé/Ekspòté",
 	"coll-create_a_book": "Fè on liv",
-	"coll-remove_this_page": "Tiré paj la sa an liv-la"
+	"coll-download_as": "Téléchajé kon $1",
+	"coll-remove_this_page": "Tiré paj-lasa an liv a-w"
 }
