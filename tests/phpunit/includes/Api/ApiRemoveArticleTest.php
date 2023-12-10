@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\Title\Title;
+
 /**
  * Tests for Collection api.php?action=collection&submodule=removearticle
  *

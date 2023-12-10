@@ -25,7 +25,7 @@ namespace MediaWiki\Extension\Collection\Api;
 use ApiBase;
 use FormatJson;
 use MediaWiki\Session\SessionManager;
-use SpecialPage;
+use MediaWiki\SpecialPage\SpecialPage;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiPostCollection extends ApiBase {

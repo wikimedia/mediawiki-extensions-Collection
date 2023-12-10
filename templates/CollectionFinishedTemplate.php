@@ -7,8 +7,8 @@
 
 namespace MediaWiki\Extension\Collection\Templates;
 
-use Html;
 use MediaWiki\Extension\Collection\Session;
+use MediaWiki\Html\Html;
 use MediaWiki\Title\Title;
 use QuickTemplate;
 use SkinTemplate;

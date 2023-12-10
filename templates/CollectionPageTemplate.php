@@ -14,10 +14,10 @@ use IContextSource;
 use MediaWiki\Extension\Collection\MessageBoxHelper;
 use MediaWiki\Html\TemplateParser;
 use MediaWiki\Request\FauxRequest;
+use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
 use QuickTemplate;
 use SkinTemplate;
-use SpecialPage;
 
 /**
  * HTML template for Special:Book

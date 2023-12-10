@@ -2,11 +2,11 @@
 
 namespace MediaWiki\Extension\Collection;
 
-use Html;
 use LogicException;
+use MediaWiki\Html\Html;
 use MediaWiki\Html\TemplateParser;
+use MediaWiki\Parser\Sanitizer;
 use MediaWiki\Title\Title;
-use Sanitizer;
 
 /**
  * Renders HTML view of a book by concatenating and transforming HTML and generating some

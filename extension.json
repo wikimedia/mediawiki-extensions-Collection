@@ -82,7 +82,7 @@
 			]
 		},
 		"ext.collection.bookcreator.messageBox.icons": {
-			"class": "ResourceLoaderImageModule",
+			"class": "MediaWiki\\ResourceLoader\\ImageModule",
 			"selector": ".collection-icon-{name}:before",
 			"images": {
 				"warning": "ext.collection.bookcreator.messageBox/images/warning-icon.svg",

@@ -38,6 +38,8 @@ use MediaWiki\Extension\Collection\Templates\CollectionSaveOverwriteTemplate;
 use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Request\DerivativeRequest;
+use MediaWiki\Request\WebRequest;
+use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
 use OOUI\ButtonGroupWidget;
 use OOUI\ButtonInputWidget;
@@ -45,8 +47,6 @@ use OOUI\ButtonWidget;
 use OOUI\FormLayout;
 use RequestContext;
 use SkinTemplate;
-use SpecialPage;
-use WebRequest;
 
 class SpecialCollection extends SpecialPage {
 

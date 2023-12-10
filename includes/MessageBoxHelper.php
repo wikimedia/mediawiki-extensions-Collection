@@ -22,8 +22,8 @@
 
 namespace MediaWiki\Extension\Collection;
 
-use Html;
-use OutputPage;
+use MediaWiki\Html\Html;
+use MediaWiki\Output\OutputPage;
 
 /**
  * A helper class to easily handle extra styles and render html for messages boxes informing
