@@ -3,7 +3,8 @@
 		"authors": [
 			"Khun Kt",
 			"Ninjastrikers",
-			"咽頭べさ"
+			"咽頭べさ",
+			"ခွန်ဖန်ဒွဲ့"
 		]
 	},
 	"coll-desc": "[[Special:Book|ဖန်ဆင်ꩻ လိတ်ဖွူꩻဖုံႏ]]",
@@ -54,10 +55,12 @@
 	"coll-yes": "မွေး",
 	"coll-no": "မွေးတဝ်း",
 	"coll-overwrite": "တဲမ်းထဲမ်ထဲင်း",
+	"coll-append": "သွုပ်ရောင်ꩻဆုဲင်ꩻ",
 	"coll-cancel": "မာꩻတဝ်းဒွုမ်",
 	"coll-update": "ဒင်ႏထို",
 	"coll-limit_exceeded_title": "လိတ်ဖွူꩻတန်လွဉ်ꩻငါႏ",
 	"coll-limit_exceeded_text": "နာꩻလိတ်ဖွူꩻ တန်လွဉ်ꩻငါႏသွူ။ ထဲမ်သော့ꩻထဲင်း လိတ်မဲ့ငါ လꩻတဝ်းဒွုမ်သွူ။",
+	"coll-rendering_title": "အဝ်ႏအွဉ်ႏလွဉ်ပုင်ႏ",
 	"coll-rendering_status": "<strong>အခေႏနေႏ:</strong> $1",
 	"coll-rendering_article": "(ဝီခီစာလိတ်မဲ့ငါ: $1)",
 	"coll-rendering_page": "(လိတ်မဲ့ငါ: $1)",
