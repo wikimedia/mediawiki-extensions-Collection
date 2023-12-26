@@ -4,7 +4,8 @@
 			"Alhassan Mohammed Awal",
 			"Dnshitobu",
 			"Yakubu Fadilatu",
-			"Attah Mohammed"
+			"Attah Mohammed",
+			"Issahiddris98"
 		]
 	},
 	"coll-desc": "[[Special:Book|Create books]]",
@@ -101,7 +102,7 @@
 	"coll-bookscategory": "Bukunima",
 	"coll-clear_collection": "Nyɛyhimi buku maa",
 	"coll-help": "Sɔŋsim",
-	"coll-helppage": "Sɔŋsim:Bukunima",
+	"coll-helppage": "Sɔŋsim: Bukunima",
 	"coll-load_collection": "Loodimi buku",
 	"coll-load_collection_tooltip": "Loodimi buku ŋɔ n-lɛbi a pumpɔŋɔ buku",
 	"coll-n_pages": "$1 {{PLURAL:$1|page|pages}}",
