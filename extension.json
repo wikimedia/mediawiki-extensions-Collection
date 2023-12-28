@@ -247,7 +247,7 @@
 			]
 		},
 		"CollectionDisableDownloadSection": {
-			"description": "Disable the download section see https://phabricator.wikimedia.org/T175996",
+			"description": "Disable book downloads. Used when there is no renderer available (ie. partners via $wgCollectionPODPartners are the only way to generate a book).",
 			"value": true
 		},
 		"CollectionDisableSidebarLink": {
