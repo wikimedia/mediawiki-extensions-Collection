@@ -57,22 +57,7 @@ class MessageBoxHelper {
 	 * @return string Generated HTML
 	 */
 	public static function renderWarningBoxes() {
-		return Html::warningBox(
-			Html::element( 'h5', [
-				'class' => 'collection-box-heading collection-icon-warning',
-			], wfMessage( 'coll-warning-disable-pdf-title' )->text() )
-			. Html::element( 'p', [
-				'class' => 'notice-text'
-			], wfMessage( 'coll-warning-disable-pdf-text' )->text() )
-			. Html::rawElement( 'ul', [
-				'class' => 'hlist',
-			], Html::rawElement( 'li', [],
-				Html::element( 'a', [
-					'href' => 'https://www.mediawiki.org/wiki/Reading/Web/PDF_Functionality',
-				], wfMessage( 'coll-warning-learn-more' )->text() )
-			) ),
-			'collection-maintenance-box collection-warning-box',
-		) . Html::noticeBox(
+		return Html::noticeBox(
 			Html::element( 'h5', [
 				'class' => 'collection-box-heading collection-icon-info',
 			], wfMessage( 'coll-notice-download-pdf-title' )->text() )
