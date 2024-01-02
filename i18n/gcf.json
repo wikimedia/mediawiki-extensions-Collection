@@ -2,13 +2,39 @@
 	"@metadata": {
 		"authors": [
 			"EritajGwadloup",
+			"Histnou",
 			"Laetitia Kb"
 		]
 	},
+	"coll-collection": "Liv",
+	"coll-collections": "Liv",
+	"coll-unknown_subpage_title": "Sou paj nou pa konnèt",
+	"coll-couldnotaddarticle_title": "Nou pé pa ajouté paj wiki",
+	"coll-couldnotremovearticle_title": "Nou pé pa éfasé paj a wiki-la",
+	"coll-your_book": "Liv a-w",
+	"coll-download_title": "Téléchajé",
 	"coll-remove": "Tiré-y",
 	"coll-move_up": "Monté-y",
+	"coll-title": "Tit :",
+	"coll-rename": "Ba-y on nouvo non",
+	"coll-yes": "Wè",
+	"coll-no": "Awa",
+	"coll-limit_exceeded_title": "Liv twò gwo",
+	"coll-rendering_page": "(paj : $10)",
+	"coll-download_notfound_title": "Nou pé pa touvé fichyé-la",
+	"coll-license": "Lisans",
+	"coll-suggest_add_selected": "Ajouté paj ou séléksyonné",
+	"coll-suggest_ban_selected": "Éfasé paj ki séléksyonné",
+	"coll-suggest_your_book": "Liv a-w",
+	"coll-suggest_show": "montré",
+	"coll-suggest_ban_tooltip": "Éfasé paj-lasa dépi lis a suggestion-la",
 	"coll-print_export": "Emprimé/Ekspòté",
 	"coll-create_a_book": "Fè on liv",
 	"coll-download_as": "Téléchajé kon $1",
-	"coll-remove_this_page": "Tiré paj-lasa an liv a-w"
+	"coll-add_this_page": "Ajouté paj-lasa an liv a-w",
+	"coll-help": "Anmwé",
+	"coll-remove_this_page": "Tiré paj-lasa an liv a-w",
+	"coll-setting-toc-yes": "Wè",
+	"coll-setting-toc-no": "Awa",
+	"coll-warning-learn-more": "Aprann plis"
 }
