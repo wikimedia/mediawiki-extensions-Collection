@@ -24,7 +24,8 @@
 			"Aaron Liu",
 			"Jbyccc",
 			"CrownedWharf566",
-			"GuoPC"
+			"GuoPC",
+			"LowensteinYang"
 		]
 	},
 	"coll-desc": "[[Special:Book|创建图书]]",
@@ -134,11 +135,11 @@
 	"coll-suggest_undo_tooltip": "撤销该操作",
 	"coll-suggest_undo": "撤销",
 	"coll-load_local_book": "单击“OK”继续您图书$1，其中包含$2个wiki{{PLURAL:$2|页面}}。单击“Cancel”删除它并开启一本空图书。",
-	"coll-format-rl": "电子书（PDF，mwlib渲染器）",
+	"coll-format-rl": "电子书（PDF，mwlib呈现器）",
 	"coll-format-epub": "电子书（EPUB）",
 	"coll-format-odf": "文字处理程序（OpenDocument）",
 	"coll-format-zim": "Kiwix（OpenZIM）",
-	"coll-format-rdf2latex": "电子书（PDF，ocg latex渲染器）",
+	"coll-format-rdf2latex": "电子书（PDF，ocg latex呈现器）",
 	"coll-format-rdf2text": "文字处理程序（纯文本）",
 	"action-collectionsaveasuserpage": "保存图书为用户页面",
 	"right-collectionsaveasuserpage": "保存图书为用户页面",
