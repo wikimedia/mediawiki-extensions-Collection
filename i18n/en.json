@@ -174,7 +174,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>Source:</i> $2 <i>Contributors:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Source:</i> $2 <i>License:</i> $3 <i>Contributors:</i> $4 <i>Original artist:</i> $5",
 	"coll-notice-download-pdf-title": "Download single pages",
-	"coll-notice-download-pdf-text": "While the Book Creator doesn't support PDF rendering ([[mw:Reading/Web/PDF_Functionality|learn more]]), you can try '''''Download as PDF''''' from the sidebar tools for individual articles.",
+	"coll-notice-download-pdf-text": "The Book Creator doesn't support PDF rendering ([[mw:Reading/Web/PDF_Functionality|learn more]]), but you can try '''''Download as PDF''''' from the sidebar tools for individual articles.",
 	"coll-toc-title": "Table of Contents",
 	"coll-contributors-title": "Contributors",
 	"coll-images-title": "Images",
