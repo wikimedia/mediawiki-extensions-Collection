@@ -56,6 +56,10 @@ class CollectionPageTemplate extends QuickTemplate {
 		global $wgCollectionDisableDownloadSection;
 		$defaultWriter = false;
 
+		if ( $wgCollectionDisableDownloadSection ) {
+			return '';
+		}
+
 		if ( count( $writers ) == 1 ) {
 			$writer = current( $writers );
 			$defaultWriter = [ 'writer' => key( $writers ) ];
@@ -81,7 +85,7 @@ class CollectionPageTemplate extends QuickTemplate {
 
 		$downloadForm = $templateParser->processTemplate( 'download-box', [
 			'headline' => wfMessage( 'coll-download_title' ),
-			'sectionDisabled' => $wgCollectionDisableDownloadSection === true,
+			'sectionDisabled' => false,
 			'description' => $description,
 			'formAction' => SkinTemplate::makeSpecialUrl( 'Book' ),
 			'formats' => $templateDataFormats,
@@ -95,6 +99,7 @@ class CollectionPageTemplate extends QuickTemplate {
 	}
 
 	public function execute() {
+		global $wgCollectionDisableDownloadSection;
 		$collection = $this->getCollection();
 		$data = [
 			'collectionTitle' => $collection['title'],
@@ -117,6 +122,20 @@ class CollectionPageTemplate extends QuickTemplate {
 			],
 		];
 		foreach ( $this->data['settings'] as $fieldname => $descriptor ) {
+			if ( $wgCollectionDisableDownloadSection ) {
+				// HACK: hide settings, they are related to local rendering.
+				//   Ideally, the list of settings would be provided by the rendering service but
+				//    that would take a lot of refactoring, so for now we just set everything to
+				//   its default value; the values will be passed around in all kinds of places
+				//   (e.g. the {{saved book}} template parameters when saved to a wiki page) but
+				//   since there is no local renderer, they won't be used.
+				$fields[$fieldname] = [
+					'name' => $fieldname,
+					'type' => 'hidden',
+					'value' => $descriptor['default'] ?? '',
+				];
+				continue;
+			}
 			if ( isset( $descriptor['options'] ) && is_array( $descriptor['options'] ) ) {
 				$options = [];
 				foreach ( $descriptor['options'] as $msg => $value ) {
