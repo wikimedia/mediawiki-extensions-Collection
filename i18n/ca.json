@@ -119,7 +119,7 @@
 	"coll-format-rl": "llibre electrònic (PDF, renderització de mwlib)",
 	"coll-format-epub": "llibre electrònic (EPUB)",
 	"coll-format-odf": "Processador de textos (OpenDocument)",
-	"action-collectionsaveasuserpage": "desar llibres com a pàgines d’usuari",
+	"action-collectionsaveasuserpage": "desar llibres com a pàgines d'usuari",
 	"right-collectionsaveasuserpage": "Desar els llibres com a pàgina d'usuari",
 	"right-collectionsaveascommunitypage": "Desar els llibres com una pàgina de la comunitat",
 	"coll-print_export": "Imprimeix/exporta",

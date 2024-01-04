@@ -4,6 +4,10 @@
 			"ऐक्टिवेटेड्"
 		]
 	},
+	"coll-collection": "पुस्तक",
+	"coll-collections": "पुस्तकसभ",
+	"coll-unknown_subpage_title": "अज्ञात उपपन्ना",
+	"coll-your_book": "अपनेके पुस्तक",
 	"coll-print_export": "छापी/निर्यात करी",
 	"coll-download_as": "$1 के रूपमे डाउनलोड् करी"
 }
