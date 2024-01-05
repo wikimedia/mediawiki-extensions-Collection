@@ -167,7 +167,6 @@
 	"coll-attribution-page": "<h1>Szöveg és képek forrása, közreműködők és licencek</h1>\n<h2>Szöveg</h2>\n$1<h2>Képek</h2>\n$2\n<h2>Tartalom licence</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Forrás:</i> $2 <i>Közreműködők:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Forrás:</i> $2 <i>Licenc:</i> $3 <i>Közreműködők:</i> $4 <i>Eredeti művész:</i> $5",
-	"coll-warning-learn-more": "További információk",
 	"coll-notice-download-pdf-title": "Wikilapok letöltése egyenként",
 	"coll-toc-title": "Tartalomjegyzék",
 	"coll-contributors-title": "Közreműködők",

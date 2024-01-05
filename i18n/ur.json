@@ -149,7 +149,6 @@
 	"coll-attribution-page": "<h1>متن اور تصاویر کے ماخذ، شرکاء اور لائسنس</h1>\n<h2>متن</h2>\n$1<h2>املاف</h2>\n$2\n<h2>مواد کا لائسنس</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>ماخذ:</i> $2 <i>ترامیم کنندگان:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>ماخذ:</i> $2 <i>اجازت نامہ:</i> $3 <i>مشارکن کنندگان:</i> $4 <i>اصل مصور</i> $5",
-	"coll-warning-learn-more": "مزید جانیں",
 	"coll-toc-title": "مواد کا جدول",
 	"coll-contributors-title": "ترمیم کنندگان",
 	"coll-images-title": "تصاویر",

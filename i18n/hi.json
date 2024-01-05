@@ -172,6 +172,5 @@
 	"coll-attribution-page": "<h1>पाठ और चित्र के स्रोत, योगदानकर्ता और लाइसेंस</h1>\n<h2>पाठ</h2>\n$1<h2>चित्र</h2>\n$2\n<h2>सामग्री लाइसेंस</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>स्रोत:</i> $2 <i>योगदानकर्ता:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>स्रोत:</i> $2 <i>लाइसेंस:</i> $3 <i>योगदानकर्ता:</i> $4 <i>मूल कलाकार:</i> $5",
-	"coll-warning-learn-more": "अधिक जानिए",
 	"coll-images-title": "छवियाँ"
 }

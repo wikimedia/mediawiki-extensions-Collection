@@ -129,7 +129,6 @@
 	"coll-attribution-page": "<h1>Текст һәм сурәт чыганаклары, авторлары һәм рөхсәтнамәләр</h1>\n<h2>Текст</h2>\n$1<h2>Сурәтләр</h2>\n$2\n<h2>Рөхсәтнамә</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Чыганак:</i> $2 <i>Авторлар:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Чыганак:</i> $2 <i>Лицензия:</i> $3 <i>Авторлар:</i> $4 <i>Рәссам:</i> $5",
-	"coll-warning-learn-more": "Күбрәк белү",
 	"coll-notice-download-pdf-title": "Аерым битләрне күчереп алыгыз",
 	"coll-toc-title": "Эчтәлек",
 	"coll-contributors-title": "Авторлар",
