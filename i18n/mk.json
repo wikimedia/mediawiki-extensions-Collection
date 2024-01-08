@@ -167,7 +167,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>Извор:</i> $2 <i>Учесници:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Извор:</i> $2 <i>Лиценца:</i> $3 <i>Учесници:</i> $4 <i>Изворен творец:</i> $5",
 	"coll-notice-download-pdf-title": "Преземи поединечни страници",
-	"coll-notice-download-pdf-text": "Додека е оневозможен PDF-исписникот на Книговезницата, можете да го пробате '''''Преземи како PDF''''' од страничникот, што е предвидено а поединечни статии.",
+	"coll-notice-download-pdf-text": "Книговезницата не поддржува PDF-испис ([[mw:Reading/Web/PDF_Functionality|дознајте повеќе]]), но за поединечни статии можете да го пробате '''''Преземи како PDF''''' од страничникот.",
 	"coll-toc-title": "Содржина",
 	"coll-contributors-title": "Учесници",
 	"coll-images-title": "Слики",

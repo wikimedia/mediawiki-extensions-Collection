@@ -172,7 +172,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>מקור</i> $2 <i>תורמים:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>מקור:</i> $2 <i>רישיון</i> $3 <i>תורמים</i> $4 <i>האמן המקורי</i> $5",
 	"coll-notice-download-pdf-title": "הורדת דפים בודדים",
-	"coll-notice-download-pdf-text": "כל עוד תיצוג PDF ביוצר הספרים כבוי, אפשר לנסות להשתמש באפשרות \"'''הורדה כ־PDF'''\" מסרגל הצד עבור ערכים בודדים.",
+	"coll-notice-download-pdf-text": "יוצר הספרים אינו תומך בתיצוג PDF ([[mw:Reading/Web/PDF_Functionality|מידע נוסף]]), אבל באפשרותך לנסות להשתמש באפשרות \"'''הורדה כ־PDF'''\" מסרגל הצד עבור ערכים בודדים.",
 	"coll-toc-title": "תוכן עניינים",
 	"coll-contributors-title": "תורמים",
 	"coll-images-title": "תמונות",

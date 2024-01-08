@@ -191,7 +191,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>来源：</i>$2 <i>贡献者：</i>$3",
 	"coll-image-attribution": "<b>$1</b> <i>来源：</i>$2 <i>许可协议：</i>$3 <i>贡献者：</i>$4 <i>原始艺术家：</i>$5",
 	"coll-notice-download-pdf-title": "下载单个页面",
-	"coll-notice-download-pdf-text": "禁用Book Creator PDF渲染后，您可以尝试从侧栏工具中为单个条目尝试'''''下载为PDF'''''。",
+	"coll-notice-download-pdf-text": "Book Creator不支持PDF渲染（[[mw:Reading/Web/PDF_Functionality|了解更多]]），但您可以尝试从侧栏工具中为单个条目尝试'''''下载为PDF'''''。",
 	"coll-toc-title": "目录",
 	"coll-contributors-title": "贡献者",
 	"coll-images-title": "图像",

@@ -175,7 +175,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Contributori:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Licenza:</i> $3 <i>Contributori:</i> $4 <i>Artista originale:</i> $5",
 	"coll-notice-download-pdf-title": "Scarica pagine singole",
-	"coll-notice-download-pdf-text": "Mentre il rendering PDF del creatore di libri viene disabilitato, puoi provare '''''Scarica come PDF'''''  dalla barra degli strumenti laterale per i singoli articoli.",
+	"coll-notice-download-pdf-text": "Il creatore di libri non supporta il rendering PDF ([[mw:Reading/Web/PDF_Functionality|ulteriori informazioni]]), ma puoi provare '''''Scarica come PDF'''''  dalla barra degli strumenti laterale per le singole voci.",
 	"coll-toc-title": "Indice",
 	"coll-contributors-title": "Contributori",
 	"coll-images-title": "Immagini",

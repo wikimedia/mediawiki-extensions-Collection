@@ -162,7 +162,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>Sumber:</i> $2 <i>Kontributor:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Sumber:</i> $2 <i>Lisensi:</i> $3 <i>Kontributor:</i> $4 <i>Pangguwai asli:</i> $5",
 	"coll-notice-download-pdf-title": "Download halaman sai titamtu",
-	"coll-notice-download-pdf-text": "Samantara pangolahan PDF Pangguwai Buku timakkako, Niku pandai nyuba '''''Download sabagai PDF''' jak ''sidebar'' pakakas untuk artikel individu.",
+	"coll-notice-download-pdf-text": "Pangguwai Buku mak ndukung rendering PDF ([[mw:Reading/Web/PDF_Functionality|palajari lobih lanjut]]), tapi Niku pandai nyucoba '''''Download sabagai PDF''''' jak alat bilah sisi untuk masing-masing artikel  .",
 	"coll-toc-title": "Daftar Isi",
 	"coll-contributors-title": "Kontributor",
 	"coll-images-title": "Gambar",

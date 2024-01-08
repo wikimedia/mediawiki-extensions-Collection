@@ -176,7 +176,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>Vir:</i> $2 <i>Sodelavci:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Vir:</i> $2 <i>Licenca:</i> $3 <i>Sodelavci:</i> $4 <i>Izvorni umetnik:</i> $5",
 	"coll-notice-download-pdf-title": "Prenos posameznih strani",
-	"coll-notice-download-pdf-text": "Čeprav je sistem generiranja datotek PDF v Ustvarjalniku knjig onemogočen, lahko preizkusite orodje '''''Prenesi kot PDF''''' v menijih za posamezne članke.",
+	"coll-notice-download-pdf-text": "Ustvarjalnik knjig ne podpira prikaza PDF-jev ([[mw:Reading/Web/PDF_Functionality|več o tem]]), vendar lahko preizkusite možnost '''''Prenesi kot PDF''''' med menijskimi orodji pri posameznih člankih.",
 	"coll-toc-title": "Kazalo vsebine",
 	"coll-contributors-title": "Sodelavci",
 	"coll-images-title": "Slike",

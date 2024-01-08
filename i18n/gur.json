@@ -3,7 +3,8 @@
 		"authors": [
 			"Akakiiri",
 			"Amoramah",
-			"Ayire Adongo"
+			"Ayire Adongo",
+			"Baba Ayɛ'ɛra"
 		]
 	},
 	"coll-collection": "Gɔŋɔ",
@@ -63,6 +64,7 @@
 	"coll-setting-toc-no": "Aayi",
 	"coll-setting-columns": "'columns'",
 	"coll-attribution-anons": "'anonymous: $1",
+	"coll-notice-download-pdf-text": "Gɔŋɔ maalegɔ ka tuni la PDF kaalegɔ ([[mw:Reading/Web/PDF_Functionality|learn more]]), dee fu ta'am zigɛ bisɛ '''''vi'e PDF''''' ze'eli kinkɛleŋa baa maalegɔ lɔgerɔ n de nɛra woo atikili la .",
 	"coll-contributors-title": "Sɛba n lageseri",
 	"coll-images-title": "Fɔɔra"
 }
