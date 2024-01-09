@@ -3,7 +3,8 @@
 		"authors": [
 			"Gazimagomedov",
 			"Omarov M.",
-			"Аль-Гимравий"
+			"Аль-Гимравий",
+			"Augustus A C"
 		]
 	},
 	"coll-remove": "Гилдизе",
@@ -15,7 +16,7 @@
 	"coll-book_creator": "ТӀехь гӀуцӀунжо",
 	"coll-download_as": "$1 гӀадин жанибе реххизе",
 	"coll-disable": "свинабизе",
-	"coll-help": "Кумек",
+	"coll-help": "Квекел",
 	"coll-helppage": "Help:ТӀахьал",
 	"coll-remove_this_page": "Гилдизабе гьаб гьумер дурго тӀехьалдаса",
 	"coll-show_collection": "ТӀехь бихьизабизе",
