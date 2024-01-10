@@ -179,7 +179,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Contribuidores:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Licença:</i> $3 <i>Contribuidores:</i> $4 <i>Artista original:</i> $5",
 	"coll-notice-download-pdf-title": "Descarregar páginas individuais",
-	"coll-notice-download-pdf-text": "Enquanto a composição em PDF do criador de livros está desativada, pode tentar '''''Descarregar como PDF''''' na barra de ferramentas lateral para os artigos individuais.",
+	"coll-notice-download-pdf-text": "O criador de livros não suporta a composição em PDF ([[mw:Reading/Web/PDF_Functionality|saiba mais]]), mas pode tentar '''''Descarregar como PDF''''' na barra de ferramentas lateral para artigos individuais.",
 	"coll-toc-title": "Índice",
 	"coll-contributors-title": "Contribuidores",
 	"coll-images-title": "Imagens",
