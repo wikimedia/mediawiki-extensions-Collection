@@ -182,7 +182,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>Bron:</i> $2 <i>Bijdragers:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Bron:</i> $2 <i>Licentie:</i> $3 <i>Bijdragers:</i> $4 <i>Oorspronkelijke artiest:</i> $5",
 	"coll-notice-download-pdf-title": "Individuele pagina's downloaden",
-	"coll-notice-download-pdf-text": "Hoewel de PDF-opmaak van boeken is uitgeschakeld, kunt u '''''Downloaden als PDF''''' in de zijbalk gebruiken voor afzonderlijke artikelen.",
+	"coll-notice-download-pdf-text": "De Boekenmaker ondersteunt geen PDF-opmaak ([[mw:Reading/Web/PDF_Functionality|meer informatie]]). Wel kunt u '''''Downloaden als PDF''''' in de zijbalk gebruiken voor afzonderlijke artikelen.",
 	"coll-toc-title": "Inhoudsopgave",
 	"coll-contributors-title": "Bijdragers",
 	"coll-images-title": "Afbeeldingen",
