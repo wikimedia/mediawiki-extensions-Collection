@@ -167,7 +167,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Contributores:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Licentia:</i> $3 <i>Contributores:</i> $4 <i>Artista original:</i> $5",
 	"coll-notice-download-pdf-title": "Discargar paginas individual",
-	"coll-notice-download-pdf-text": "Ben que le creator de libros non plus pote generar files PDF, tu pote tentar '''''Discargar como PDF''''' in le instrumentos del barra lateral pro articulos individual.",
+	"coll-notice-download-pdf-text": "Le creator de libros non supporta le rendition in PDF ([[mw:Reading/Web/PDF_Functionality|leger plus]]), ma tu pote tentar '''''Discargar como PDF''''' in le instrumentos del barra lateral pro articulos individual.",
 	"coll-toc-title": "Tabula de contento",
 	"coll-contributors-title": "Contributores",
 	"coll-images-title": "Imagines",
