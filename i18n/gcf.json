@@ -6,14 +6,17 @@
 			"Histnou"
 		]
 	},
+	"coll-start_book_creator": "Konmansé kréyatè a liv-la",
 	"coll-collection": "Liv",
 	"coll-collections": "Liv",
 	"coll-unknown_subpage_title": "Sou paj nou pa konnèt",
 	"coll-couldnotaddarticle_title": "Nou pé pa ajouté paj wiki",
 	"coll-couldnotremovearticle_title": "Nou pé pa éfasé paj a wiki-la",
+	"coll-couldnotremovearticle_msg": "Nou pé pa éfasé paj a wiki-lasa.",
 	"coll-savedbook_template": "liv_sovgadé",
 	"coll-your_book": "Liv a-w",
 	"coll-download_title": "Téléchajé",
+	"coll-download_text": "Pou téléchajé liv a-w fo ou chwazi on fòma épi ou pijé si bouton-la.",
 	"coll-download": "Téléchajé",
 	"coll-remove": "Tiré-y",
 	"coll-show": "Montré",
