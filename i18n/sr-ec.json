@@ -173,5 +173,6 @@
 	"coll-images-source": "Извор",
 	"coll-images-license": "Лиценца",
 	"coll-images-original-artist": "Изворни уметник",
-	"coll-license-title": "Лиценца садржаја"
+	"coll-license-title": "Лиценца садржаја",
+	"coll-rendererror-title": "Прављење књиге није успело"
 }
