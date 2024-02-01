@@ -158,5 +158,5 @@
 	"coll-article-attribution": "<b>$1</b> <i>Allikas:</i> $2 <i>Kaastöölised:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Allikas:</i> $2 <i>Litsents:</i> $3 <i>Kaastöölised:</i> $4 <i>Algse töö autor:</i> $5",
 	"coll-notice-download-pdf-title": "Üksiku lehekülje allalaadimine",
-	"coll-notice-download-pdf-text": "Kuni raamatukoostamise PDF-viimistlus on keelatud, saad iga eraldi artikli külgmenüüs klõpsata linki \"'''Laadi alla PDF-failina'''\"."
+	"coll-notice-download-pdf-text": "Raamatukoostamine ei toeta PDF-viimistlust ([[mw:Reading/Web/PDF_Functionality|loe veel]]), aga saad iga eraldi artikli külgmenüüs klõpsata linki \"'''Laadi alla PDF-failina'''\"."
 }

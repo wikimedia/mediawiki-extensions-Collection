@@ -162,7 +162,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>Sumber:</i> $2 <i>Penyumbang:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Sumber:</i> $2 <i>Ongji:</i> $3 <i>Penyumbang:</i> $4 <i>Pembikin asli:</i> $5",
 	"coll-notice-download-pdf-title": "Comot halaman ketentu",
-	"coll-notice-download-pdf-text": "Sementara Pengeja Kitab punya pembikinan PDF lagi dimatiin, lu bisa jal '''''Comot sebagé PDF''''' deri peranti palang samping bakal makalah atu-atu.",
+	"coll-notice-download-pdf-text": "Pengeja Kitab kaga' ngedukung pembikinan PDF ([[mw:Reading/Web/PDF_Functionality|belajarin lebi lanjut]]), cuman lu bisa ngejal '''''Comot jadi PDF''''' deri peranti palang samping bakal makalah atu-atu.",
 	"coll-toc-title": "Daptar isi",
 	"coll-contributors-title": "Penyumbang",
 	"coll-images-title": "Gambar",
