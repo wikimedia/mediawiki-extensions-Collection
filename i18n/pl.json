@@ -179,7 +179,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>Źródło:</i> $2 <i>Autorzy:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Źródło:</i> $2 <i>Licencja:</i> $3 <i>Autorzy:</i> $4 <i>Artysta:</i> $5",
 	"coll-notice-download-pdf-title": "Pobierz pojedyncze strony",
-	"coll-notice-download-pdf-text": "Mimo że renderowanie PDF w narzędziu do tworzenia książek jest wyłączone, możesz spróbować użyć '''''Pobierz jako PDF''''' z menu bocznego dla każdego pojedynczego artykułu.",
+	"coll-notice-download-pdf-text": "Narzędzie do tworzenia książek nie wspiera renderowania do PDF ([[mw:Reading/Web/PDF_Functionality|dowiedz się więcej]]), ale możesz spróbować użyć '''''Pobierz jako PDF''''' z menu bocznego dla każdego pojedynczego artykułu.",
 	"coll-toc-title": "Spis treści",
 	"coll-contributors-title": "Autorzy",
 	"coll-images-title": "Obrazy",
