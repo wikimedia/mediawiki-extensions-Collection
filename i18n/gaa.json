@@ -4,14 +4,15 @@
 			"Amire80",
 			"Flixtey",
 			"Mybluberet",
-			"Zimosa"
+			"Zimosa",
+			"Heatrave"
 		]
 	},
 	"coll-remove": "Jiemɔ",
 	"coll-show": "Kɛtsɔɔ",
 	"coll-move_up": "Kɛya ŋwɛi",
 	"coll-move_down": "Kɛya shishi",
-	"coll-print_export": "Mfonirishamɔ/majemɔ",
+	"coll-print_export": "Kalamɔ/maje",
 	"coll-create_a_book": "Bɔɔ wolo",
 	"coll-book_creator": "Wolo bɔlɔ",
 	"coll-download_as": "Gblamɔ as $1",
