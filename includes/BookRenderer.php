@@ -34,9 +34,9 @@ class BookRenderer {
 	 * @return array with keys html representing the data needed to render the book
 	 */
 	public function getBookTemplateData( $collection, $pages, $metadata ) {
-		$hasChapters = !empty( array_filter( $collection['items'], static function ( $item ) {
+		$hasChapters = array_filter( $collection['items'], static function ( $item ) {
 			return $item['type'] === 'chapter';
-		} ) );
+		} ) !== [];
 		$articleCount = count( array_filter( $collection['items'], static function ( $item ) {
 			return $item['type'] === 'article';
 		} ) );

@@ -23,7 +23,6 @@
 namespace MediaWiki\Extension\Collection\Specials;
 
 use ApiMain;
-use Exception;
 use MediaWiki\Extension\Collection\MessageBoxHelper;
 use MediaWiki\Extension\Collection\Rendering\CollectionAPIResult;
 use MediaWiki\Extension\Collection\Rendering\CollectionRenderingAPI;
@@ -47,6 +46,7 @@ use OOUI\ButtonWidget;
 use OOUI\FormLayout;
 use RequestContext;
 use SkinTemplate;
+use UnexpectedValueException;
 
 class SpecialCollection extends SpecialPage {
 
@@ -1250,7 +1250,7 @@ class SpecialCollection extends SpecialPage {
 
 			default:
 				$stats->increment( 'collection.renderingpage.unknown' );
-				throw new Exception( __METHOD__ . "(): unknown state '{$result->get( 'state' )}'" );
+				throw new UnexpectedValueException( __METHOD__ . "(): unknown state '{$result->get( 'state' )}'" );
 		}
 	}
 
