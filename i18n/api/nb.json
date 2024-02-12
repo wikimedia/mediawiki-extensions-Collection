@@ -34,5 +34,11 @@
 	"apihelp-collection+setsorting-summary": "API-modul for å omrokkere elementer i en samling",
 	"apihelp-collection+setsorting-param-items": "Elementer bør listes opp med sin gamle indeks og sorteres etter ny posisjon",
 	"apihelp-collection+sortitems-example": "Sorter samlingssider alfabetisk",
-	"apihelp-collection+sortitems-summary": "API-modul for å sortere sider i en samling alfabetisk. Sider i kapitler grupperes og sorteres sammen."
+	"apihelp-collection+sortitems-summary": "API-modul for å sortere sider i en samling alfabetisk. Sider i kapitler grupperes og sorteres sammen.",
+	"apihelp-collection+getpopupdata-example": "Henter en popup for å legge til eller fjerne en side fra samlingen",
+	"apihelp-collection+getpopupdata-summary": "API-modul for å hente data og HTML til å bygge en popup",
+	"apihelp-collection+removeitem-example": "Fjern et element fra samlingen med en gitt indeks, eller indeks 0 som standard.",
+	"apihelp-collection+removeitem-summary": "API-modul for å fjerne et element fra samlingen etter indeks via Special:Book-siden.",
+	"apihelp-collection-param-submodule": "Undermodul til å utføre diverse operasjoner på en brukers samling.",
+	"apihelp-collection-summary": "API-modul for å utføre diverse operasjoner på en brukers samling."
 }
