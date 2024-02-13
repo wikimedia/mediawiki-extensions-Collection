@@ -25,6 +25,7 @@
 	"coll-move_down": "Movar adinfre",
 	"coll-title": "Titulo:",
 	"coll-contents": "Kontenajo",
+	"coll-sort_alphabetically": "Organizez alfabetale",
 	"coll-rename": "Rinomar",
 	"coll-empty_collection": "Libro sen texto",
 	"coll-save_collection": "Registragar libro",
@@ -44,6 +45,7 @@
 	"coll-rendering_failed_status": "<strong>Stando:</strong> $1",
 	"coll-download_notfound_title": "Arkivo ne trovesis",
 	"coll-about_pp": "Pri $1",
+	"coll-license": "Licenco",
 	"coll-suggested_articles": "Sugesti",
 	"coll-suggest_reset_bans": "restaurar",
 	"coll-suggest_your_book": "Vua libro",
@@ -91,5 +93,6 @@
 	"coll-notice-download-pdf-title": "Descharjez singla pagini",
 	"coll-notice-download-pdf-text": "Malgre ke la kreo di libri en PDF ne povas uzesar, vu povas probar '''''Descharjar quale PDF''''' individual artikli, uzanta l'utensili adlatere en la pagino.",
 	"coll-images-title": "Imaji",
-	"coll-images-source": "Fonto"
+	"coll-images-source": "Fonto",
+	"coll-images-license": "Licenco"
 }
