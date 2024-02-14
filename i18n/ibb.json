@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ekemini5",
 			"Uduakj"
 		]
 	},
+	"coll-print_export": "Sio/sio ka",
 	"coll-download_as": "Ben sin ke $1"
 }
