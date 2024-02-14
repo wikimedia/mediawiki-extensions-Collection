@@ -14,7 +14,8 @@
 			"Ләйсән",
 			"Рустам Нурыев",
 			"Янмурза Баки",
-			"ҒатаУлла"
+			"ҒатаУлла",
+			"Bashkorttan"
 		]
 	},
 	"coll-desc": "[[Special:Book|Китаптар эшләү]]",
@@ -133,11 +134,11 @@
 	"right-collectionsaveasuserpage": "Китаптарҙы ҡатнашыусының бите рәүешендә һаҡлау",
 	"action-collectionsaveascommunitypage": "китаптарҙы берләшмәнең бите кеүек һаҡларға",
 	"right-collectionsaveascommunitypage": "Китаптарҙы берләшмәнең бите кеүек һаҡлау",
-	"coll-print_export": "Баҫтырырға/сығарырға",
-	"coll-create_a_book": "Китап төҙөргә",
+	"coll-print_export": "Баҫтырыу/сығарыу",
+	"coll-create_a_book": "Китап төҙөү",
 	"coll-create_a_book_tooltip": "Китап йәки биттәр тупланмаһын төҙөргә",
 	"coll-book_creator": "Китап оҫтаһы",
-	"coll-download_as": "$1 форматында йөкләргә",
+	"coll-download_as": "$1 форматында йөкләү",
 	"coll-download_as_tooltip": "Был вики-биттең $1 өлгөһөн йөкләргә",
 	"coll-disable": "һүндерергә",
 	"coll-book_creator_disable": "Китап оҫтаһын һүндерергә",
