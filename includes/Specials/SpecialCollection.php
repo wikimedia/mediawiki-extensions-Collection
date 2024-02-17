@@ -418,7 +418,7 @@ class SpecialCollection extends SpecialPage {
 		$out->enableOOUI();
 
 		$this->setHeaders();
-		$out->setPageTitle( $this->msg( 'coll-book_creator' ) );
+		$out->setPageTitleMsg( $this->msg( 'coll-book_creator' ) );
 
 		MessageBoxHelper::addModuleStyles( $out );
 		$out->addHTML( MessageBoxHelper::renderWarningBoxes() );
@@ -480,7 +480,7 @@ class SpecialCollection extends SpecialPage {
 		$out->enableOOUI();
 
 		$this->setHeaders();
-		$out->setPageTitle( $this->msg( 'coll-book_creator_disable' ) );
+		$out->setPageTitleMsg( $this->msg( 'coll-book_creator_disable' ) );
 		$out->addWikiMsg( 'coll-book_creator_disable_text' );
 
 		$form = new FormLayout( [
@@ -557,7 +557,7 @@ class SpecialCollection extends SpecialPage {
 
 		$this->setHeaders();
 		$this->addHelpLink( 'Special:MyLanguage/Extension:Collection/Help' );
-		$out->setPageTitle( $this->msg( 'coll-manage_your_book' )->text() );
+		$out->setPageTitleMsg( $this->msg( 'coll-manage_your_book' ) );
 		$out->addModules( 'ext.collection' );
 		$out->addModuleStyles( [ 'mediawiki.hlist', 'ext.collection.bookcreator.styles' ] );
 		$out->addJsConfigVars( [
@@ -1182,7 +1182,7 @@ class SpecialCollection extends SpecialPage {
 				$out->addInlineScript( 'var writer = ' . Html::encodeJsVar( urlencode( $writer ) ) . ';' );
 				$out->addInlineScript( 'var collection_rendering = true;' );
 				$out->addModules( 'ext.collection' );
-				$out->setPageTitle( $this->msg( 'coll-rendering_title' ) );
+				$out->setPageTitleMsg( $this->msg( 'coll-rendering_title' ) );
 
 				$statusText = $result->get( 'status', 'status' );
 				if ( $statusText ) {
@@ -1213,7 +1213,7 @@ class SpecialCollection extends SpecialPage {
 				break;
 
 			case 'finished':
-				$out->setPageTitle( $this->msg( 'coll-rendering_finished_title' ) );
+				$out->setPageTitleMsg( $this->msg( 'coll-rendering_finished_title' ) );
 
 				$template = new CollectionFinishedTemplate();
 				$template->set(
@@ -1232,7 +1232,7 @@ class SpecialCollection extends SpecialPage {
 				break;
 
 			case 'failed':
-				$out->setPageTitle( $this->msg( 'coll-rendering_failed_title' ) );
+				$out->setPageTitleMsg( $this->msg( 'coll-rendering_failed_title' ) );
 				$statusText = $result->get( 'status', 'status' );
 				if ( $statusText ) {
 					$status = $this->msg( 'coll-rendering_failed_status', $statusText )->text();
@@ -1403,7 +1403,7 @@ class SpecialCollection extends SpecialPage {
 	private function renderSaveOverwritePage( $colltype, $title, $pcollname, $ccollname ) {
 		$this->setHeaders();
 		$out = $this->getOutput();
-		$out->setPageTitle( $this->msg( 'coll-save_collection' ) );
+		$out->setPageTitleMsg( $this->msg( 'coll-save_collection' ) );
 
 		$template = new CollectionSaveOverwriteTemplate();
 		$template->set( 'title', $title );
@@ -1419,7 +1419,7 @@ class SpecialCollection extends SpecialPage {
 	 */
 	private function renderLoadOverwritePage( $title ) {
 		$this->setHeaders();
-		$this->getOutput()->setPageTitle( $this->msg( 'coll-load_collection' ) );
+		$this->getOutput()->setPageTitleMsg( $this->msg( 'coll-load_collection' ) );
 
 		$template = new CollectionLoadOverwriteTemplate();
 		$template->set( 'output', $this->getOutput() );

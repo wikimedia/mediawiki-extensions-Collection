@@ -56,7 +56,7 @@ class Suggest {
 		$template = self::getCollectionSuggestTemplate( $mode, $param );
 		$context = RequestContext::getMain();
 		$out = $context->getOutput();
-		$out->setPageTitle( $context->msg( 'coll-suggest_title' ) );
+		$out->setPageTitleMsg( $context->msg( 'coll-suggest_title' ) );
 		$out->addModules( 'ext.collection.suggest' );
 		$out->addTemplate( $template );
 	}
