@@ -12,7 +12,8 @@
 			"Octahedron80",
 			"Pon44695",
 			"Woraponboonkerd",
-			"RidJasper"
+			"RidJasper",
+			"Siam2019"
 		]
 	},
 	"coll-desc": "[[Special:Book|สร้างหนังสือ]]",
@@ -185,5 +186,6 @@
 	"coll-rendererror-title": "ไม่สามารถสร้างหนังสือได้",
 	"coll-rendererror-pdf": "การเรนเดอร์ PDF ล้มเหลว: $1",
 	"coll-rendererror-fetch": "การดึง $1 ล้มเหลว: $2",
-	"coll-rendererror-fetch-wrapper": "มีข้อผิดพลาดขณะพยายามดึงเนื้อหาในหน้า: $1"
+	"coll-rendererror-fetch-wrapper": "มีข้อผิดพลาดขณะพยายามดึงเนื้อหาในหน้า: $1",
+	"coll-rendererror-no-cache": "ไม่พบข้อมูลหนังสือในแคช กรณีนี้อาจเป็นข้อผิดพลาดในซอฟต์แวร์"
 }
