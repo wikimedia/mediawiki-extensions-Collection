@@ -58,5 +58,14 @@
 	"apihelp-collection+removeitem-summary": "API-modul for å fjerne et element fra samlingen etter indeks via Special:Book-siden.",
 	"apihelp-collection+removeitem-param-index": "Indeksen til elementet som skal fjernes",
 	"apihelp-collection-param-submodule": "Undermodul til å utføre diverse operasjoner på en brukers samling.",
-	"apihelp-collection-summary": "API-modul for å utføre diverse operasjoner på en brukers samling."
+	"apihelp-collection-summary": "API-modul for å utføre diverse operasjoner på en brukers samling.",
+	"apihelp-collection+getbookcreatorboxcontent-example": "Hent innholdet til bokskaperboksen fra brukerens samling.",
+	"apihelp-collection+getbookcreatorboxcontent-summary": "API-undermodul for å hente boksinnholdet til brukerens spesialside for bakskaping.",
+	"apihelp-collection+getbookcreatorboxcontent-param-hint": "Hent som vises i skaperboksen",
+	"apihelp-collection+getbookcreatorboxcontent-param-oldid": "oldid for en samling",
+	"apihelp-collection+getbookcreatorboxcontent-param-pagename": "Tittelen på ei side",
+	"apihelp-collection+postcollection-example": "Post sider til en brukers samling",
+	"apihelp-collection+postcollection-summary": "API-modul for å poste sider til en brukers samling",
+	"apihelp-collection+postcollection-param-collection": "Navnet på en samling",
+	"coll-api-invalid-collection": "Ugyldig samling hentet."
 }
