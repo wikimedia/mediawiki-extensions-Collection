@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Albamhandae",
+			"Dr1t jg",
 			"Klutzy",
 			"Kwj2772",
 			"Priviet",
@@ -43,7 +44,7 @@
 	"coll-title": "제목:",
 	"coll-subtitle": "부제목:",
 	"coll-contents": "내용",
-	"coll-drag_and_drop": "위키 페이지와 장을 렌더링하려면 드래그 & 드롭을 이용하십시오",
+	"coll-drag_and_drop": "화살표 버튼을 이용해서 위키 페이지랑 챕터를 재정렬해",
 	"coll-create_chapter": "장 만들기",
 	"coll-sort_alphabetically": "알파벳순으로 정렬",
 	"coll-rename": "이름 바꾸기",
@@ -173,7 +174,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>출처:</i> $2 <i>기여자:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>출처:</i> $2 <i>라이선스:</i> $3 <i>기여자:</i> $4 <i>원저자:</i> $5",
 	"coll-notice-download-pdf-title": "단일 문서 다운로드",
-	"coll-notice-download-pdf-text": "책 만들기 PDF 렌더링이 비활성화되는 동안 개별 문서마다 사이드바 도구에서 '''PDF로 다운로드'''를 시도할 수 있습니다.",
+	"coll-notice-download-pdf-text": "책 만들기는 PDF 렌더링을 지원하지 않지만([[mw:Reading/Web/PDF_Functionality|더 알아봐]]), 개별 문서는 사이드바 도구에서 '''''PDF로 받기'''''를 할 수 있어.",
 	"coll-toc-title": "목차",
 	"coll-contributors-title": "기여자",
 	"coll-images-title": "그림",
