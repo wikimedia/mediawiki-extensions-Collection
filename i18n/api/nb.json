@@ -40,5 +40,10 @@
 	"apihelp-collection+removeitem-example": "Fjern et element fra samlingen med en gitt indeks, eller indeks 0 som standard.",
 	"apihelp-collection+removeitem-summary": "API-modul for å fjerne et element fra samlingen etter indeks via Special:Book-siden.",
 	"apihelp-collection-param-submodule": "Undermodul til å utføre diverse operasjoner på en brukers samling.",
-	"apihelp-collection-summary": "API-modul for å utføre diverse operasjoner på en brukers samling."
+	"apihelp-collection-summary": "API-modul for å utføre diverse operasjoner på en brukers samling.",
+	"apihelp-collection+getbookcreatorboxcontent-example": "Hent innholdet til bokskaperboksen fra brukerens samling.",
+	"apihelp-collection+getbookcreatorboxcontent-summary": "API-undermodul for å hente boksinnholdet til brukerens spesialside for bakskaping.",
+	"apihelp-collection+postcollection-example": "Post sider til en brukers samling",
+	"apihelp-collection+postcollection-summary": "API-modul for å poste sider til en brukers samling",
+	"coll-api-invalid-collection": "Ugyldig samling hentet."
 }
