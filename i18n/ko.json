@@ -8,7 +8,8 @@
 			"Revi",
 			"Yjs5497",
 			"Ykhwong",
-			"아라"
+			"아라",
+			"Dr1t jg"
 		]
 	},
 	"coll-desc": "[[Special:Book|책을 만듭니다]]",
@@ -43,7 +44,7 @@
 	"coll-title": "제목:",
 	"coll-subtitle": "부제목:",
 	"coll-contents": "내용",
-	"coll-drag_and_drop": "위키 페이지와 장을 렌더링하려면 드래그 & 드롭을 이용하십시오",
+	"coll-drag_and_drop": "화살표 버튼을 이용해서 위키 페이지랑 챕터를 재정렬해",
 	"coll-create_chapter": "장 만들기",
 	"coll-sort_alphabetically": "알파벳순으로 정렬",
 	"coll-rename": "이름 바꾸기",
