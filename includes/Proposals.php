@@ -226,7 +226,7 @@ class Proposals {
 
 			// handle links with a displaytitle
 			if ( preg_match( '/(.+?)\|(.+)/', $link, $matches ) ) {
-				list( , $link, $alias ) = $matches;
+				[ , $link, $alias ] = $matches;
 			} else {
 				$alias = $link;
 			}

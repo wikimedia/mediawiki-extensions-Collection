@@ -22,7 +22,11 @@ class CollectionListTemplate extends QuickTemplate {
 		?>
 
 		<div class="collection-create-chapter-links">
-			<a class="makeVisible collection-chapter-create" style="<?php if ( !isset( $this->data['is_ajax'] ) ) { echo ' display:none;'; } ?>" href="javascript:void(0);"><?php $this->msg( 'coll-create_chapter' ) ?></a>
+			<a class="makeVisible collection-chapter-create" style="<?php
+			if ( !isset( $this->data['is_ajax'] ) ) {
+				echo ' display:none;';
+			}
+			?>" href="javascript:void(0);"><?php $this->msg( 'coll-create_chapter' ) ?></a>
 			<?php if ( count( $this->data['collection']['items'] ) > 0 ) { ?>
 				<a class="collection-sort" href="<?php echo htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book', [ 'bookcmd' => 'sort_items' ] ) ) ?>"><?php $this->msg( 'coll-sort_alphabetically' ) ?></a>
 				<a class="collection-clear" href="<?php echo htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book', [ 'bookcmd' => 'clear_collection' ] ) ) ?>"><?php $this->msg( 'coll-clear_collection' ) ?></a>
@@ -94,7 +98,11 @@ class CollectionListTemplate extends QuickTemplate {
 							</noscript>
 							<img src="<?php echo htmlspecialchars( $mediapath . "trans.png" ) ?>" width="10" height="10" alt="" />
 							<strong class="title sortableitem" style="margin-left: 0.2em;"><?php echo htmlspecialchars( $item['title'] ) ?></strong>
-							<a class="makeVisible" <?php if ( !isset( $this->data['is_ajax'] ) ) { echo 'style="display:none"'; } ?> onclick="<?php echo htmlspecialchars( 'return coll_rename_chapter(' . intval( $index ) . ', ' . Xml::encodeJsVar( $item['title'] ) . ')' ) ?>" href="javascript:void(0)">[<?php $this->msg( 'coll-rename' ) ?>]</a>
+							<a class="makeVisible" <?php
+							if ( !isset( $this->data['is_ajax'] ) ) {
+								echo 'style="display:none"';
+							}
+							?> onclick="<?php echo htmlspecialchars( 'return coll_rename_chapter(' . intval( $index ) . ', ' . Xml::encodeJsVar( $item['title'] ) . ')' ) ?>" href="javascript:void(0)">[<?php $this->msg( 'coll-rename' ) ?>]</a>
 						</li>
 					<?php }
 				} ?>

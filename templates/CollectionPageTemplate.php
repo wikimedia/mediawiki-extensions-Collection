@@ -230,7 +230,10 @@ class CollectionPageTemplate extends QuickTemplate {
 										<form action="<?php echo htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book' ) ) ?>" method="post">
 											<input type="hidden" name="bookcmd" value="post_zip" />
 											<input type="hidden" name="partner" value="<?php echo htmlspecialchars( $partnerKey ) ?>" />
-											<input type="submit" value="<?php echo wfMessage( 'coll-order_from_pp', $partnerData['name'] )->escaped() ?>" class="order" <?php if ( count( $collection['items'] ) == 0 ) { ?> disabled="disabled"<?php } ?> />
+											<input type="submit" value="<?php echo wfMessage( 'coll-order_from_pp', $partnerData['name'] )->escaped() ?>" class="order" <?php
+											if ( count( $collection['items'] ) == 0 ) {
+												?> disabled="disabled"<?php
+											} ?> />
 										</form>
 									</div>
 								</div>
@@ -286,7 +289,10 @@ class CollectionPageTemplate extends QuickTemplate {
 									</td></tr>
 							<?php } // if ($canSaveCommunityPage) ?>
 							<tr><td>&#160;</td><td id="collection-save-button">
-									<input id="saveButton" type="submit" value="<?php $this->msg( 'coll-save_collection' ) ?>"<?php if ( count( $collection['items'] ) == 0 ) { ?> disabled="disabled"<?php } ?> />
+									<input id="saveButton" type="submit" value="<?php $this->msg( 'coll-save_collection' ) ?>"<?php
+									if ( count( $collection['items'] ) == 0 ) {
+										?> disabled="disabled"<?php
+									} ?> />
 							</tr></tbody></table>
 						<input name="token" type="hidden" value="<?php echo htmlspecialchars( $user->getEditToken() ) ?>" />
 						<input name="bookcmd" type="hidden" value="save_collection" />

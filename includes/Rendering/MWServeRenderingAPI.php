@@ -28,7 +28,7 @@ class MWServeRenderingAPI extends CollectionRenderingAPI {
 			$params['login_credentials'] = $wgCollectionMWServeCredentials;
 		}
 		// If $serveURL has a | in it, we need to use a proxy.
-		list( $proxy, $serveURL ) = array_pad( explode( '|', $serveURL, 2 ), -2, '' );
+		[ $proxy, $serveURL ] = array_pad( explode( '|', $serveURL, 2 ), -2, '' );
 
 		if ( !$serveURL ) {
 			wfDebugLog( 'collection', 'The mwlib/OCG render server URL isn\'t configured.' );
