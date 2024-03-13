@@ -12,7 +12,8 @@
 			"Nghtwlkr",
 			"Njardarlogar",
 			"Simny",
-			"Tarjeimo"
+			"Tarjeimo",
+			"EdoAug"
 		]
 	},
 	"coll-desc": "[[Special:Book|Lag bøker]]",
@@ -131,7 +132,7 @@
 	"right-collectionsaveasuserpage": "Lagre bøker som brukersider",
 	"action-collectionsaveascommunitypage": "lagre bøker som samfunnsside",
 	"right-collectionsaveascommunitypage": "Lagre bøker som samfunnsside",
-	"coll-print_export": "Skriv ut/eksporter",
+	"coll-print_export": "Skriv ut / eksporter",
 	"coll-create_a_book": "Opprett en bok",
 	"coll-create_a_book_tooltip": "Lag ei bok eller en sidesamling",
 	"coll-book_creator": "Bokskaper",
