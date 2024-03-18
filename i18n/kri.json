@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"122112ê",
 			"Protostar"
 		]
 	},
@@ -9,9 +10,9 @@
 	"coll-show": "Show",
 	"coll-move_up": "Mufap",
 	"coll-move_down": "Mufdòng",
-	"coll-print_export": "Print/Èkspòrt",
+	"coll-print_export": "Print/ɛkspɔt",
 	"coll-create_a_book": "kreat buk",
-	"coll-download_as": "Dònglod lèkkè $1",
+	"coll-download_as": "Daunlod as $1",
 	"coll-disable": "disebul",
 	"coll-add_this_page": "Add dhis pej na yu buk",
 	"coll-help": "Hèp",

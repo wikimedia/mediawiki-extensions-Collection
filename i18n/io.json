@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"JSantos",
 			"Joao Xavier",
 			"Malafaya"
@@ -49,7 +50,7 @@
 	"coll-suggested_articles": "Sugesti",
 	"coll-suggest_reset_bans": "restaurar",
 	"coll-suggest_your_book": "Vua libro",
-	"coll-suggest_show": "Montrez",
+	"coll-suggest_show": "montrez",
 	"coll-suggest_undo_tooltip": "Desfacez ca ago",
 	"coll-suggest_undo": "desfacez",
 	"coll-format-rdf2text": "Texto-procesilo (simpla texto)",
