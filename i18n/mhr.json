@@ -165,7 +165,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>Важ:</i> $2 <i>Автор-влак:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Важ:</i> $2 <i>Лицензий:</i> $3 <i>Автор-влак:</i> $4 <i>Сӱретче:</i> $5",
 	"coll-notice-download-pdf-title": "Велыж-влакым посна-посна тулен нал",
-	"coll-notice-download-pdf-text": "Книга Ытышын кусартышыже чарыме, садлан тый посна ужаш-влакын пелмогырысо панельыште верланыше \"PDF семын аралаш\" инструмент ден пайдаланен кертат.",
+	"coll-notice-download-pdf-text": "Книга Ыштыше PDF рендерингым эртарен ок керт([[mw:Reading/Web/PDF_Functionality|learn more]]), но тый посна ужаш-влакын пелмогырысо панельыште верланыше \"PDF семын аралаш\" инструмент ден пайдаланен кертат.",
 	"coll-toc-title": "Контентын вуйлымашыже",
 	"coll-contributors-title": "Автор-влак",
 	"coll-images-title": "Сӱрет",
