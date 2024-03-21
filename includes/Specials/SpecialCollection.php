@@ -781,7 +781,7 @@ class SpecialCollection extends SpecialPage {
 			self::limitExceeded();
 			return false;
 		}
-		$db = wfGetDB( DB_REPLICA );
+		$dbr = MediaWikiServices::getInstance()->getConnectionProvider()->getReplicaDatabase();
 		$tables = [ 'page', 'categorylinks' ];
 		$fields = [ 'page_namespace', 'page_title' ];
 		$options = [
@@ -792,7 +792,7 @@ class SpecialCollection extends SpecialPage {
 			'cl_from=page_id',
 			'cl_to' => $title->getDBkey(),
 		];
-		$res = $db->select( $tables, $fields, $where, __METHOD__, $options );
+		$res = $dbr->select( $tables, $fields, $where, __METHOD__, $options );
 
 		$count = 0;
 		$limitExceeded = false;
