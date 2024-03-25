@@ -2,15 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Amara-Amaziɣ",
-			"Syphax Amaynu"
+			"Syphax Amaynu",
+			"AjellidnArif"
 		]
 	},
 	"coll-remove": "Kkes",
-	"coll-show": "sskn-d",
-	"coll-move_up": "Suli",
+	"coll-show": "Semmeř-dd",
+	"coll-move_up": "Siři",
 	"coll-move_down": "Sehwa",
-	"coll-create_a_book": "Ari adlis.",
-	"coll-help": "ⵜⵉⵡⵉⵙⵉ",
-	"coll-helppage": "Help:ⵉⴷⵍⵉⵙⵏ",
-	"coll-n_pages": "$1 {{PLURAL:$1|ⵜⴰⵙⵏⴰ|ⵜⴰⵙⵏⵉⵡⵉⵏ}}"
+	"coll-create_a_book": "Ari adlis",
+	"coll-help": "Tiwisi",
+	"coll-helppage": "Help:Idlisen",
+	"coll-n_pages": "$1 {{PLURAL:$1|tasna|tasniwin}}"
 }
