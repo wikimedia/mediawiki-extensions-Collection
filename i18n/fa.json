@@ -93,7 +93,7 @@
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/پردازش متن اطلاعات صفحه",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/پردازش متن اطلاعات مجموعه",
 	"coll-rendering_failed_title": "تحویل ناموفق",
-	"coll-rendering_failed_text": "<strong>ایجاد پوشهٔ سند ناموفق بوده‌است.</strong>\n<p><span id=\"renderingStatus\">$1</span></p>",
+	"coll-rendering_failed_text": "<strong>ایجاد پوشهٔ سند ناموفق بوده است.</strong>\n<p><span id=\"renderingStatus\">$1</span></p>",
 	"coll-rendering_failed_status": "<strong>وضعیت:</strong> $1",
 	"coll-failed_page_info_text_article": "{{MediaWiki:Coll-helppage}}/پردازش متن اطلاعات صفحه",
 	"coll-failed_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/پردازش متن اطلاعات مجموعه",
