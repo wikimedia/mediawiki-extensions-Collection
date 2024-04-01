@@ -343,13 +343,13 @@ class SpecialCollection extends SpecialPage {
 
 		if ( $request->getVal( 'resetbans' ) ) {
 			Suggest::run( 'resetbans' );
-		} elseif ( isset( $add ) ) {
+		} elseif ( $add !== null ) {
 			Suggest::run( 'add', $add );
-		} elseif ( isset( $ban ) ) {
+		} elseif ( $ban !== null ) {
 			Suggest::run( 'ban', $ban );
-		} elseif ( isset( $remove ) ) {
+		} elseif ( $remove !== null ) {
 			Suggest::run( 'remove', $remove );
-		} elseif ( isset( $addselected ) ) {
+		} elseif ( $addselected !== null ) {
 			$articleList = $request->getArray( 'articleList' );
 			if ( $articleList !== null ) {
 				Suggest::run( 'addAll', $articleList );
