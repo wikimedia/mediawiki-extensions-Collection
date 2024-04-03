@@ -60,7 +60,7 @@
 	"coll-new_chapter": "برای بخش تازه یک نام وارد کنید",
 	"coll-rename_chapter": "برای بخش یک نام جدید وارد کنید",
 	"coll-notitle_title": "نمی‌توان عنوان صفحه را دریافت کرد",
-	"coll-notitle_msg": "عنوان صفحه را نمی توان تعیین کرد.",
+	"coll-notitle_msg": "عنوان صفحه را نمی‌توان تعیین کرد.",
 	"coll-request_failed_title": "رندر کتاب با خطا مواجه شد",
 	"coll-request_failed_msg": "در زمان رندر کتاب خطایی رخ داد.",
 	"coll-empty_collection": "کتاب خالی",
