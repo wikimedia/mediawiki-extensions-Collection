@@ -107,7 +107,7 @@
 	"coll-invalid_podpartner_title": "無效的隨需列印合作夥伴",
 	"coll-invalid_podpartner_msg": "提供的隨需列印合作夥伴無效。\n請聯絡您的 MediaWiki 管理員。",
 	"coll-license": "授權條款",
-	"coll-return_to": "返回至[[:$1]]",
+	"coll-return_to": "返回「[[:$1]]」",
 	"coll-order_info_article": "{{MediaWiki:Coll-helppage}}/PediaPress 訂購資訊",
 	"coll-suggest_title": "建議您書籍的頁面",
 	"coll-suggest_intro_text": "建議的內容是根據您目前書籍中的 wiki 頁面集合。\n清單會在您點選「加入」或「移除」按鈕時更新。",
