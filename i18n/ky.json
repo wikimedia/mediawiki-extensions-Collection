@@ -25,6 +25,7 @@
 	"coll-rendering_finished_notes_heading": "Эскертмелер:",
 	"coll-download_notfound_title": "Файл табылган жок",
 	"coll-about_pp": "$1 тууралуу",
+	"coll-license": "Лицензия",
 	"coll-suggested_articles": "Сунуштар",
 	"coll-suggest_your_book": "Китебиңиз",
 	"coll-suggest_show": "көрсөтүү",
@@ -42,5 +43,6 @@
 	"coll-setting-toc-no": "Жок",
 	"coll-attribution-anons": "Аноним: $1",
 	"coll-images-title": "Сүрөттөр",
-	"coll-images-source": "Булак"
+	"coll-images-source": "Булак",
+	"coll-images-license": "Лицензия"
 }
