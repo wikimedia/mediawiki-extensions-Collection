@@ -25,6 +25,7 @@ namespace MediaWiki\Extension\Collection;
 use MediaWiki\Hook\OutputPageCheckLastModifiedHook;
 use MediaWiki\Hook\SidebarBeforeOutputHook;
 use MediaWiki\Hook\SiteNoticeAfterHook;
+use MediaWiki\Html\Html;
 use MediaWiki\Html\TemplateParser;
 use MediaWiki\Linker\Linker;
 use MediaWiki\MainConfigNames;
@@ -34,7 +35,6 @@ use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
 use RequestContext;
 use Skin;
-use Xml;
 
 class Hooks implements
 	SidebarBeforeOutputHook,
@@ -280,9 +280,9 @@ class Hooks implements
 		$ptext = $title->getPrefixedText();
 
 		if ( $hint == 'suggest' || $hint == 'showbook' ) {
-			return Xml::tags( 'span',
+			return Html::rawElement( 'span',
 				[ 'style' => 'color: #777;' ],
-				Xml::element( 'img',
+				Html::element( 'img',
 					[
 						'src' => "$imagePath/disabled.png",
 						'alt' => '',
@@ -305,7 +305,7 @@ class Hooks implements
 				"mw.config.get('wgTitle')]); return false;";
 		} else {
 			$collectionArgsJs = "mw.config.get('wgNamespaceNumber'), mw.config.get('wgTitle'), " .
-				Xml::encodeJsVar( $oldid );
+				Html::encodeJsVar( $oldid );
 			if ( $hint == 'addarticle'
 				|| ( $hint == '' && Session::findArticle( $ptext, $oldid ) == -1 ) ) {
 				$id = 'coll-add_article';
@@ -326,7 +326,7 @@ class Hooks implements
 
 		return Linker::linkKnown(
 			SpecialPage::getTitleFor( 'Book' ),
-			Xml::element( 'img',
+			Html::element( 'img',
 				[
 					'src' => "$imagePath/$icon",
 					'alt' => '',
@@ -354,11 +354,11 @@ class Hooks implements
 		$numArticles = Session::countArticles();
 
 		if ( $hint == 'showbook' ) {
-			return Xml::tags( 'strong',
+			return Html::rawElement( 'strong',
 				[
 					'class' => 'collection-creatorbox-iconlink',
 				],
-				Xml::element( 'img',
+				Html::element( 'img',
 					[
 						'src' => "$imagePath/silk-book_open.png",
 						'alt' => '',
@@ -372,7 +372,7 @@ class Hooks implements
 		} else {
 			return Linker::linkKnown(
 				SpecialPage::getTitleFor( 'Book' ),
-				Xml::element( 'img',
+				Html::element( 'img',
 					[
 						'src' => "$imagePath/silk-book_open.png",
 						'alt' => '',
@@ -402,11 +402,11 @@ class Hooks implements
 		}
 
 		if ( $hint == 'suggest' ) {
-			return Xml::tags( 'strong',
+			return Html::rawElement( 'strong',
 				[
 					'class' => 'collection-creatorbox-iconlink',
 				],
-				Xml::element( 'img',
+				Html::element( 'img',
 					[
 						'src' => "$imagePath/silk-wand.png",
 						'alt' => '',
@@ -420,7 +420,7 @@ class Hooks implements
 		} else {
 			return Linker::linkKnown(
 				SpecialPage::getTitleFor( 'Book' ),
-				Xml::element( 'img',
+				Html::element( 'img',
 					[
 						'src' => "$imagePath/silk-wand.png",
 						'alt' => '',

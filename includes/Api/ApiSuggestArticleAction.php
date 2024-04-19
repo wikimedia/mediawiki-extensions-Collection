@@ -25,9 +25,9 @@ namespace MediaWiki\Extension\Collection\Api;
 use ApiBase;
 use MediaWiki\Extension\Collection\Session;
 use MediaWiki\Extension\Collection\Suggest;
+use MediaWiki\Html\Html;
 use SkinTemplate;
 use Wikimedia\ParamValidator\ParamValidator;
-use Xml;
 
 class ApiSuggestArticleAction extends ApiBase {
 	use CollectionTrait;
@@ -42,17 +42,17 @@ class ApiSuggestArticleAction extends ApiBase {
 
 		$result = Suggest::refresh( $action, $title );
 
-		$undoLink = Xml::element( 'a',
+		$undoLink = Html::element( 'a',
 			[
 				'href' => SkinTemplate::makeSpecialUrl(
 					'Book',
 					[ 'bookcmd' => 'suggest', 'undo' => $action, 'arttitle' => $title ]
 				),
 				'onclick' => "collectionSuggestCall('UndoArticle'," .
-					Xml::encodeJsVar( [ $action, $title ] ) . "); return false;",
+					Html::encodeJsVar( [ $action, $title ] ) . "); return false;",
 				'title' => $this->msg( 'coll-suggest_undo_tooltip' ),
 			],
-			$this->msg( 'coll-suggest_undo' )
+			$this->msg( 'coll-suggest_undo' )->text()
 		);
 
 		// Message keys used:

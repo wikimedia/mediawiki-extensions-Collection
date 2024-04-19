@@ -7,9 +7,9 @@
 
 namespace MediaWiki\Extension\Collection\Templates;
 
+use MediaWiki\Html\Html;
 use QuickTemplate;
 use SkinTemplate;
-use Xml;
 
 /**
  * HTML template for Special:Book collection item list
@@ -102,7 +102,7 @@ class CollectionListTemplate extends QuickTemplate {
 							if ( !isset( $this->data['is_ajax'] ) ) {
 								echo 'style="display:none"';
 							}
-							?> onclick="<?php echo htmlspecialchars( 'return coll_rename_chapter(' . intval( $index ) . ', ' . Xml::encodeJsVar( $item['title'] ) . ')' ) ?>" href="javascript:void(0)">[<?php $this->msg( 'coll-rename' ) ?>]</a>
+							?> onclick="<?php echo htmlspecialchars( 'return coll_rename_chapter(' . intval( $index ) . ', ' . Html::encodeJsVar( $item['title'] ) . ')' ) ?>" href="javascript:void(0)">[<?php $this->msg( 'coll-rename' ) ?>]</a>
 						</li>
 					<?php }
 				} ?>
