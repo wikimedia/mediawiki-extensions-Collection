@@ -782,17 +782,15 @@ class SpecialCollection extends SpecialPage {
 			return false;
 		}
 		$dbr = MediaWikiServices::getInstance()->getConnectionProvider()->getReplicaDatabase();
-		$tables = [ 'page', 'categorylinks' ];
-		$fields = [ 'page_namespace', 'page_title' ];
-		$options = [
-			'ORDER BY' => 'cl_type, cl_sortkey',
-			'LIMIT' => $limit + 1,
-		];
-		$where = [
-			'cl_from=page_id',
-			'cl_to' => $title->getDBkey(),
-		];
-		$res = $dbr->select( $tables, $fields, $where, __METHOD__, $options );
+		$res = $dbr->newSelectQueryBuilder()
+			->select( [ 'page_namespace', 'page_title' ] )
+			->from( 'page' )
+			->join( 'categorylinks', null, 'cl_from=page_id' )
+			->where( [ 'cl_to' => $title->getDBkey() ] )
+			->orderBy( [ 'cl_type', 'cl_sortkey' ] )
+			->limit( $limit + 1 )
+			->caller( __METHOD__ )
+			->fetchResultSet();
 
 		$count = 0;
 		$limitExceeded = false;
