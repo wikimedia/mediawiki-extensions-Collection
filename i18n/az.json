@@ -6,6 +6,7 @@
 			"Khan27",
 			"Macofe",
 			"NMW03",
+			"Nemoralis",
 			"Toghrul Rahimli",
 			"Vago",
 			"Wertuose"
@@ -66,6 +67,7 @@
 	"coll-suggest_show": "göstər",
 	"coll-format-epub": "elektron-kitab (EPUB)",
 	"coll-format-odf": "Mətn prosessoru (OpenDocument)",
+	"right-collectionsaveasuserpage": "Kitabları istifadəçi səhifəsi kimi yadda saxla",
 	"coll-print_export": "Çap et/ixrac",
 	"coll-create_a_book": "Kitab yarat",
 	"coll-create_a_book_tooltip": "Kitab və ya səhifə kolleksiyası yarat",
