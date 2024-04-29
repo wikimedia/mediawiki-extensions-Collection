@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Silovan"
+			"Silovan",
+			"Narazeni"
 		]
 	},
 	"coll-remove": "ლასუა",
@@ -11,7 +12,7 @@
 	"coll-print_export": "ბეშტუა/ექსპორტი",
 	"coll-create_a_book": "წინგიშ გოჭყაფა",
 	"coll-book_creator": "წინგიშ მოხელე",
-	"coll-download_as": "$1 ფორმატით გინოჭარუა",
+	"coll-download_as": "გინოჭარუა $1 ფორმატით",
 	"coll-disable": "გოთიშილი რე",
 	"coll-book_creator_disable": "წინგიშ მოხელეშ გოუქვაფა",
 	"coll-book_creator_disable_tooltip": "წინგიშ მოხელეშ გიმორინაფაშ გაჩერება",
