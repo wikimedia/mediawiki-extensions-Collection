@@ -11,7 +11,9 @@
 			"Vinhtantran",
 			"CactiStaccingCrane",
 			"Flyplanevn27",
-			"Pisceskaze"
+			"Pisceskaze",
+			"Doraemonluonbentoi",
+			"NguyenHung"
 		]
 	},
 	"coll-desc": "[[Special:Book|Tạo sách]]",
@@ -37,7 +39,7 @@
 	"coll-download_as_text": "Để tải sách về theo định dạng $1, hãy nhấn nút.",
 	"coll-download": "Tải về",
 	"coll-format_label": "Định dạng:",
-	"coll-remove": "Bỏ",
+	"coll-remove": "Loại bỏ",
 	"coll-show": "Hiện",
 	"coll-move_to_top": "Di chuyển lên đầu",
 	"coll-move_up": "Chuyển lên",
@@ -67,7 +69,7 @@
 	"coll-no": "Không",
 	"coll-load_overwrite_text": "Bạn đã có một số trang trong sách của mình.\nBạn có muốn ghi đè sách hiện tại, thêm nội dung mới, hay hủy việc tải sách này?",
 	"coll-overwrite": "Ghi đè",
-	"coll-append": "Thêm vào",
+	"coll-append": "Nối",
 	"coll-cancel": "Hủy bỏ",
 	"coll-update": "Cập nhật",
 	"coll-limit_exceeded_title": "Sách quá lớn",
