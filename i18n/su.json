@@ -1,11 +1,19 @@
 {
 	"@metadata": {
 		"authors": [
+			"Akbar Soepadhi",
 			"Irwangatot",
 			"Kandar",
 			"Uchup19"
 		]
 	},
+	"coll-desc": "[[Special:Book|Jieun buku]]",
+	"coll-manage_your_book": "Atur buku anjeun",
+	"coll-book_creator_help": "Tingali [[{{MediaWiki:Coll-helppage}}|kaca pitulung ngeunaan buku]] pikeun informasi salengkepna.",
+	"coll-unknown_subpage_title": "subkaca teu dipikanyaho",
+	"coll-unknown_subpage_text": "Ieu subkaca tina [[Special:Book|Buku]] can aya.",
+	"coll-couldnotaddarticle_title": "Teu bisa nambahkeun kaca wiki",
+	"coll-couldnotaddarticle_msg": "Kaca wiki teu bisa ditambahkeun.",
 	"coll-couldnotremovearticle_title": "Teu bisa miceun kaca wiki",
 	"coll-couldnotremovearticle_msg": "Ieu kaca wiki teu bisa dipiceun",
 	"coll-remove": "Hapus",
