@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Sasan700",
+			"Исмаил Садуев",
 			"Умар"
 		]
 	},
@@ -39,7 +40,7 @@
 	"coll-contents": "Чулацам",
 	"coll-drag_and_drop": "Лелайе цхьамзаш йолу нуьйдаш, викин агӀонийн а, коьртийн а къеп хийцархьама",
 	"coll-create_chapter": "Кхолла корта",
-	"coll-sort_alphabetically": "Нисйе абатца",
+	"coll-sort_alphabetically": "Абатца нисйан",
 	"coll-rename": "ЦӀе хийцар",
 	"coll-new_chapter": "Керла коьртан цӀе йазйе",
 	"coll-rename_chapter": "Коьртан керла цӀе йазйе",
