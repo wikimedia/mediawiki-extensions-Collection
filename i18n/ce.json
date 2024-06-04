@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Sasan700",
-			"Умар"
+			"Умар",
+			"Исмаил Садуев"
 		]
 	},
 	"coll-desc": "[[Special:Book|Жайнаш кхоллар]]",
@@ -38,7 +39,7 @@
 	"coll-subtitle": "Корталг:",
 	"coll-contents": "Чулацам",
 	"coll-create_chapter": "Кхолла корта",
-	"coll-sort_alphabetically": "Нисйе абатца",
+	"coll-sort_alphabetically": "Абатца нисйан",
 	"coll-rename": "ЦӀе хийцар",
 	"coll-new_chapter": "Керла коьртан цӀе йазйе",
 	"coll-rename_chapter": "Коьртан керла цӀе йазйе",
