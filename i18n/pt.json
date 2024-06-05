@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			555,
 			"Crazymadlover",
 			"Fúlvio",
 			"Giro720",
@@ -13,8 +14,7 @@
 			"Macofe",
 			"Malafaya",
 			"SandroHc",
-			"Vitorvicentevalente",
-			555
+			"Vitorvicentevalente"
 		]
 	},
 	"coll-desc": "[[Special:Book|Criar livros]]",
