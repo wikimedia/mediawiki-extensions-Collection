@@ -21,7 +21,7 @@
 
 ( function ( mw, $ ) {
 
-	$( function () {
+	$( () => {
 
 		var script_url = mw.util.wikiScript( 'api' );
 
@@ -55,7 +55,7 @@
 			$.getJSON(
 				script_url,
 				params,
-				function ( result ) {
+				( result ) => {
 					$( '#coll-book_creator_box' ).html( result.getbookcreatorboxcontent.html );
 				}
 			);
@@ -93,7 +93,7 @@
 			$.post(
 				script_url,
 				params,
-				function ( result ) {
+				( result ) => {
 					refreshBookCreatorBox( hint, oldId );
 					if ( result.addarticle ) {
 						save_collection( result.addarticle.collection );
@@ -138,7 +138,7 @@
 				oldid: 0,
 				format: 'json'
 			};
-			$.post( script_url, params, function ( result ) {
+			$.post( script_url, params, ( result ) => {
 				hide();
 				refreshBookCreatorBox( null, null );
 				if ( result.addarticle ) {
@@ -160,14 +160,14 @@
 			}
 			// Disable default browser tooltip
 			link.attr( 'title', '' );
-			show_soon_timeout = setTimeout( function () {
+			show_soon_timeout = setTimeout( () => {
 				var params = {
 					action: 'collection',
 					submodule: 'getpopupdata',
 					title: title,
 					format: 'json'
 				};
-				get_data_xhr = $.post( script_url, params, function ( result ) {
+				get_data_xhr = $.post( script_url, params, ( result ) => {
 					if ( !result ) {
 						return;
 					}
@@ -180,7 +180,7 @@
 						.text( '\u00a0' + result.getpopupdata.text )
 						.prepend( img )
 						.unbind( 'click' )
-						.click( function () {
+						.click( () => {
 							addremove_article(
 								result.getpopupdata.action,
 								result.getpopupdata.title
@@ -242,7 +242,7 @@
 			}
 		}
 
-		$( document ).mousemove( function ( e ) {
+		$( document ).mousemove( ( e ) => {
 			mouse_pos.x = e.pageX;
 			mouse_pos.y = e.pageY;
 		} );
@@ -272,7 +272,7 @@
 				return;
 			}
 			$this.hover(
-				function () {
+				() => {
 					show( $this );
 				},
 				cancel

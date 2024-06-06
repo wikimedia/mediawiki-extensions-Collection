@@ -1,7 +1,7 @@
 ( function ( mw, $ ) {
 
 	var script_url = mw.util.wikiScript( 'api' );
-	$( function () {
+	$( () => {
 		var c = mw.storage.get( 'collection' ),
 			num_pages = 0,
 			shownTitle = '',
@@ -25,7 +25,7 @@
 						collection: [ JSON.stringify( c ) ],
 						format: 'json'
 					};
-					$.post( script_url, params, function ( result ) {
+					$.post( script_url, params, ( result ) => {
 						location.href = result.postcollection.redirect_url;
 					}, 'json' );
 

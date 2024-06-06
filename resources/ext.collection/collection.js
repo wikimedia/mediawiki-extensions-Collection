@@ -58,7 +58,7 @@
 
 		reqApiModule(
 			params,
-			function ( result ) {
+			( result ) => {
 				$( '#coll-book_creator_box' ).html( result.getbookcreatorboxcontent.html );
 			}
 		);
@@ -90,7 +90,7 @@
 
 		if ( confirm( gettext( '#clearCollectionConfirmText' ) ) ) {
 			reqApiModule( params,
-				function ( result ) {
+				( result ) => {
 					$( '#titleInput, #subtitleInput' ).val( '' );
 					refresh_list( result.clearcollection );
 					get_book_creator_box_content();
@@ -119,7 +119,7 @@
 				format: 'json'
 			};
 
-			reqApiModule( params, function ( result ) {
+			reqApiModule( params, ( result ) => {
 				refresh_list( result.addchapter );
 			} );
 			update_buttons();
@@ -149,7 +149,7 @@
 				format: 'json'
 			};
 
-			reqApiModule( params, function ( result ) {
+			reqApiModule( params, ( result ) => {
 				refresh_list( result.renamechapter );
 			} );
 		}
@@ -173,7 +173,7 @@
 
 		reqApiModule(
 			params,
-			function ( result ) {
+			( result ) => {
 				refresh_list( result.removeitem );
 				get_book_creator_box_content();
 			}
@@ -189,7 +189,7 @@
 	 */
 	function set_titles() {
 		var settings = {}, params;
-		$( '[id^="coll-input-setting-"]' ).each( function ( i, e ) {
+		$( '[id^="coll-input-setting-"]' ).each( ( i, e ) => {
 			if ( $( e ).is( ':checkbox' ) ) {
 				settings[ e.name ] = $( e ).is( ':checked' );
 			} else {
@@ -208,7 +208,7 @@
 
 		reqApiModule(
 			params,
-			function ( result ) {
+			( result ) => {
 				wfCollectionSave( result.settitles.collection );
 			}
 		);
@@ -231,7 +231,7 @@
 			format: 'json'
 		};
 
-		reqApiModule( params, function ( result ) {
+		reqApiModule( params, ( result ) => {
 			refresh_list( result.setsorting );
 		} );
 
@@ -343,7 +343,7 @@
 			format: 'json'
 		};
 
-		reqApiModule( params, function ( result ) {
+		reqApiModule( params, ( result ) => {
 			refresh_list( result.sortitems );
 		} );
 
@@ -353,7 +353,7 @@
 	/**
 	 * Prepare the special page commands and attach to the UI elements.
 	 */
-	$( function () {
+	$( () => {
 		if ( $( '#collectionList' ).length ) {
 			$( '.makeVisible' ).css( 'display', 'inline' );
 			window.coll_create_chapter = create_chapter;
@@ -394,13 +394,13 @@
 				.change( set_titles );
 		}
 
-		$( '.collection-chapter-create' ).on( 'click', function () {
+		$( '.collection-chapter-create' ).on( 'click', () => {
 			create_chapter();
 		} );
-		$( '.collection-sort' ).on( 'click', function () {
+		$( '.collection-sort' ).on( 'click', () => {
 			sort_items();
 		} );
-		$( '.collection-clear' ).on( 'click', function () {
+		$( '.collection-clear' ).on( 'click', () => {
 			clear_collection();
 		} );
 	} );

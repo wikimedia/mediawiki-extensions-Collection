@@ -56,7 +56,7 @@
 			};
 		}
 		set_status( '...' );
-		$.post( script_url, params, function ( result ) {
+		$.post( script_url, params, ( result ) => {
 			wfCollectionSave( result.suggestarticleaction.collection );
 			if ( func === 'undo' ) {
 				set_status( false );
@@ -76,7 +76,7 @@
 				format: 'json'
 			};
 
-			$.getJSON( script_url, params, function ( boxCreatorResult ) {
+			$.getJSON( script_url, params, ( boxCreatorResult ) => {
 				$( '#coll-book_creator_box' ).html( boxCreatorResult.getbookcreatorboxcontent.html );
 			} );
 		}, 'json' );
