@@ -23,6 +23,7 @@
 namespace MediaWiki\Extension\Collection\Specials;
 
 use ApiMain;
+use MediaWiki\Context\RequestContext;
 use MediaWiki\Extension\Collection\MessageBoxHelper;
 use MediaWiki\Extension\Collection\Rendering\CollectionAPIResult;
 use MediaWiki\Extension\Collection\Rendering\CollectionRenderingAPI;
@@ -44,7 +45,6 @@ use OOUI\ButtonGroupWidget;
 use OOUI\ButtonInputWidget;
 use OOUI\ButtonWidget;
 use OOUI\FormLayout;
-use RequestContext;
 use SkinTemplate;
 use UnexpectedValueException;
 

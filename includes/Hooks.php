@@ -22,18 +22,18 @@
 
 namespace MediaWiki\Extension\Collection;
 
-use MediaWiki\Hook\OutputPageCheckLastModifiedHook;
+use MediaWiki\Context\RequestContext;
 use MediaWiki\Hook\SidebarBeforeOutputHook;
 use MediaWiki\Hook\SiteNoticeAfterHook;
 use MediaWiki\Html\Html;
 use MediaWiki\Html\TemplateParser;
 use MediaWiki\Linker\Linker;
 use MediaWiki\MainConfigNames;
+use MediaWiki\Output\Hook\OutputPageCheckLastModifiedHook;
 use MediaWiki\Output\OutputPage;
 use MediaWiki\Session\SessionManager;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
-use RequestContext;
 use Skin;
 
 class Hooks implements

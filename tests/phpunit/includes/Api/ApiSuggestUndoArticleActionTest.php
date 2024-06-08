@@ -3,6 +3,7 @@
 use MediaWiki\Extension\Collection\Session as CollectionSession;
 use MediaWiki\Extension\Collection\Suggest;
 use MediaWiki\Session\SessionManager;
+use MediaWiki\Tests\Api\ApiTestCase;
 
 /**
  * Tests for Collection api.php?action=collection&submodule=suggestundoarticleaction.

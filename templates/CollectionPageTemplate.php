@@ -7,12 +7,12 @@
 
 namespace MediaWiki\Extension\Collection\Templates;
 
-use ContextSource;
-use DerivativeContext;
-use HTMLForm;
-use IContextSource;
+use MediaWiki\Context\ContextSource;
+use MediaWiki\Context\DerivativeContext;
+use MediaWiki\Context\IContextSource;
 use MediaWiki\Extension\Collection\MessageBoxHelper;
 use MediaWiki\Html\TemplateParser;
+use MediaWiki\HTMLForm\HTMLForm;
 use MediaWiki\Request\FauxRequest;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;

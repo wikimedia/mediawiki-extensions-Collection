@@ -3,8 +3,8 @@
 namespace MediaWiki\Extension\Collection\Rendering;
 
 use FormatJson;
+use MediaWiki\Context\RequestContext;
 use MediaWiki\MediaWikiServices;
-use RequestContext;
 
 /**
  * Base class for API that interacts with book rendering service

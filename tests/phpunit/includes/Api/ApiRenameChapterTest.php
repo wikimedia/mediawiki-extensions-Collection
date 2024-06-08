@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\Tests\Api\ApiTestCase;
+
 /**
  * Tests for Collection api.php?action=collection&submodule=renamechapter
  *

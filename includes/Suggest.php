@@ -22,10 +22,10 @@
 
 namespace MediaWiki\Extension\Collection;
 
+use MediaWiki\Context\RequestContext;
 use MediaWiki\Extension\Collection\Specials\SpecialCollection;
 use MediaWiki\Extension\Collection\Templates\CollectionSuggestTemplate;
 use MediaWiki\Session\SessionManager;
-use RequestContext;
 
 /**
  * This class contains only static methods, so there's no need for a constructor.

@@ -1,6 +1,7 @@
 <?php
 
 use MediaWiki\Extension\Collection\Session as CollectionSession;
+use MediaWiki\Tests\Api\ApiTestCase;
 
 /**
  * Tests for Collection api.php?action=collection&submodule=setsorting.
