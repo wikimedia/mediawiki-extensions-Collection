@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Histnou"
+			"Histnou",
+			"Suitcaseshoes"
 		]
 	},
-	"coll-collection": "Liv"
+	"coll-collection": "Liv",
+	"coll-print_export": "Èmpwimé/Ekspoté",
+	"coll-download_as": "Download kon $1"
 }
