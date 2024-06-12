@@ -18,7 +18,8 @@
 			"UsagiNeko",
 			"Yusuke1109",
 			"おはぐろ蜻蛉",
-			"夢蝶葬花"
+			"夢蝶葬花",
+			"Kokage si"
 		]
 	},
 	"coll-desc": "[[Special:Book|ブックを作成する]]",
@@ -53,7 +54,7 @@
 	"coll-title": "タイトル:",
 	"coll-subtitle": "サブタイトル:",
 	"coll-contents": "内容",
-	"coll-drag_and_drop": "ドラッグ・アンド・ドロップでウィキページや章を並べ換えます",
+	"coll-drag_and_drop": "矢印ボタンでウィキページや章を並べ換えます",
 	"coll-create_chapter": "新しい章を作成",
 	"coll-sort_alphabetically": "辞書順に並べ替え",
 	"coll-rename": "名前を変更",
