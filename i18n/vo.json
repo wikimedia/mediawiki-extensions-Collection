@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Malafaya",
-			"Smeira"
+			"Smeira",
+			"Morozof"
 		]
 	},
 	"coll-desc": "[[Special:Book|Jafolöd bukis]]",
@@ -52,6 +53,7 @@
 	"coll-suggest_your_book": "Buk olik",
 	"coll-suggest_show": "jonön",
 	"coll-suggest_undo": "sädunön",
+	"coll-print_export": "Bük/cein",
 	"coll-create_a_book": "Jafön buki",
 	"coll-create_a_book_tooltip": "Jafön buki u konleti padas",
 	"coll-book_creator": "Jafan bukas",
