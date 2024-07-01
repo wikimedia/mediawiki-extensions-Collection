@@ -5,11 +5,19 @@
 			"Ajiniyaz Nurniyazov"
 		]
 	},
+	"coll-book_creator_intro": "<big>'''Kitap jaratıwshı quralı''' járdeminde siz ózińiz saylaǵan wiki betten quralǵan kitap jaratıwıńız múmkin. Siz kitaptı hártúrli formatlarda (mısalı, PDF yamasa ODF) eksport qılıp alıwıńız yaki onıń baspa nusqasın buyırtpa etiwińiz múmkin.</big>",
+	"coll-book_creator_help": "Qosımsha maǵlıwmat ushın [[{{MediaWiki:Coll-helppage}}|kitaplar boyınsha járdem beti]]ne kirip kórińiz.",
+	"coll-start_book_creator": "Kitap jaratıwshı quralın iske qosıw",
+	"coll-book_creator_continue": "Kitap jaratıwshı quralın paydalanıwdı dawam etiw",
+	"coll-book_creator_disable_text": "''Kitap jaratıwshı quralı'' óshiriledi hám siz jaratıw ústinde islep atırǵan kitap joq etiledi.",
 	"coll-collection": "Kitap",
 	"coll-collections": "Kitaplar",
 	"coll-show": "Kórsetiw",
 	"coll-contents": "Mazmunı",
 	"coll-print_export": "Basıp shıǵarıw/eksport",
 	"coll-create_a_book": "Kitap jaratıw",
-	"coll-download_as": "$1 túrinde júklep alıw"
+	"coll-book_creator": "Kitap jaratıwshı quralı",
+	"coll-download_as": "$1 túrinde júklep alıw",
+	"coll-book_creator_disable": "Kitap jaratıwshı quralın óshiriw",
+	"coll-book_creator_disable_tooltip": "Kitap jaratıwshı quralın paydalanıwdı toqtatıw"
 }
