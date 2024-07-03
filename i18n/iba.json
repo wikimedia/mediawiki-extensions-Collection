@@ -4,5 +4,6 @@
 			"Song GK"
 		]
 	},
-	"coll-print_export": "Chelak/eksport"
+	"coll-print_export": "Chelak/eksport",
+	"coll-download_as": "Download nyadi $1"
 }
