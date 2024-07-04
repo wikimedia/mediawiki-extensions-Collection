@@ -93,6 +93,7 @@
 	"coll-order_from_pp": "Муха йу хьажар гӀоьнца $1",
 	"coll-about_pp": "$1 лаьцна",
 	"coll-invalid_podpartner_title": "Нийса йоцу POD-партнёр",
+	"coll-invalid_podpartner_msg": "Схьайелла POD-партнер нийса йац.\nДехар ду, хьайн MediaWiki администраторе йазде.",
 	"coll-license": "Лицензи",
 	"coll-return_to": "Йуха тӀе [[:$1]]",
 	"coll-order_info_article": "{{MediaWiki:Coll-helppage}}/PediaPress заказан информаци",
@@ -172,6 +173,8 @@
 	"coll-images-original-artist": "Йуьхьанцара автор",
 	"coll-license-title": "Чулацам лицензи",
 	"coll-rendererror-title": "Жайнан генераци йан цайелира",
+	"coll-rendererror-pdf": "Рендер йан аьтто ца баьлла PDF-на: $1",
 	"coll-rendererror-fetch": "Схьаэца цайелира $1: $2",
-	"coll-rendererror-fetch-wrapper": "АгӀонийн чулацам схьаоьцуш гӀалат даьлла:\n$1"
+	"coll-rendererror-fetch-wrapper": "АгӀонийн чулацам схьаоьцуш гӀалат даьлла:\n$1",
+	"coll-rendererror-no-cache": "Жайнан хаамаш ца карийна кэшехь. Хила мега, хӀара программин галморзахаллаш."
 }
