@@ -92,8 +92,10 @@
 	"coll-order_from_pp": "Муха йу хьажар гӀоьнца $1",
 	"coll-about_pp": "$1 лаьцна",
 	"coll-invalid_podpartner_title": "Нийса йоцу POD-партнёр",
+	"coll-invalid_podpartner_msg": "Схьайелла POD-партнер нийса йац.\nДехар ду, хьайн MediaWiki администраторе йазде.",
 	"coll-license": "Лицензи",
 	"coll-return_to": "Йуха тӀе [[:$1]]",
+	"coll-order_info_article": "{{MediaWiki:Coll-helppage}}/PediaPress заказан информаци",
 	"coll-suggest_title": "Хьан жайнан кхийдош йолу агӀонаш",
 	"coll-suggest_intro_text": "Хьан жайнан карара вики-агӀонийн гуламна кховдор.\nМогӀам тӀебузуш бу ахьа тӀетоха йа дӀайаккха аьлла нуьйда тӀетаӀича.",
 	"coll-suggested_articles": "ДӀаалар",
@@ -112,6 +114,7 @@
 	"coll-format-rl": "электронан жайна (PDF, кечдархо mwlib)",
 	"coll-format-epub": "электронан жайна (EPUB)",
 	"coll-format-odf": "Текстийн процессор (OpenDocument)",
+	"coll-format-rdf2text": "Дешнийн процессор (цӀена текст)",
 	"right-collectionsaveasuserpage": "Декъашхочун агӀонаш санна Ӏалашдар жайнаш",
 	"action-collectionsaveascommunitypage": "йукъараллин агӀо санна жайнаш Ӏалашдар",
 	"right-collectionsaveascommunitypage": "Йукъараллин агӀо санна жайнаш Ӏалашдар",
@@ -172,6 +175,8 @@
 	"coll-images-original-artist": "Йуьхьанцара автор",
 	"coll-license-title": "Чулацам лицензи",
 	"coll-rendererror-title": "Жайнан генераци йан цайелира",
+	"coll-rendererror-pdf": "Рендер йан аьтто ца баьлла PDF-на: $1",
 	"coll-rendererror-fetch": "Схьаэца цайелира $1: $2",
-	"coll-rendererror-fetch-wrapper": "АгӀонийн чулацам схьаоьцуш гӀалат даьлла:\n$1"
+	"coll-rendererror-fetch-wrapper": "АгӀонийн чулацам схьаоьцуш гӀалат даьлла:\n$1",
+	"coll-rendererror-no-cache": "Жайнан хаамаш ца карийна кэшехь. Хила мега, хӀара программин галморзахаллаш."
 }
