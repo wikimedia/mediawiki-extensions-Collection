@@ -176,6 +176,7 @@
 	"coll-images-original-artist": "Йуьхьанцара автор",
 	"coll-license-title": "Чулацам лицензи",
 	"coll-rendererror-title": "Жайнан генераци йан цайелира",
+	"coll-rendererror-no-session": "Жайнан билгалдаккхар сессехь ца карийра. Хетарехь, жигаралла ца хилар бахьана долуш дӀадаьккхина хилла иза.",
 	"coll-rendererror-pdf": "Рендер йан аьтто ца баьлла PDF-на: $1",
 	"coll-rendererror-fetch": "Схьаэца цайелира $1: $2",
 	"coll-rendererror-fetch-wrapper": "АгӀонийн чулацам схьаоьцуш гӀалат даьлла:\n$1",
