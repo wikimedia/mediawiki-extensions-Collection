@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Игорь Бродский",
-			"Лариса Чиркова"
+			"Лариса Чиркова",
+			"Ростислав Мельников"
 		]
 	},
 	"coll-collection": "Kirj",
@@ -37,7 +38,7 @@
 	"coll-suggest_show": "ozutada",
 	"coll-print_export": "Painuz/vend",
 	"coll-create_a_book": "Säta kirj",
-	"coll-download_as": "Sa $1",
+	"coll-download_as": "Pompata kuti $1",
 	"coll-bookscategory": "Kirjad",
 	"coll-help": "Abu",
 	"coll-helppage": "Help:Kirjad",
