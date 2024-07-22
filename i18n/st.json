@@ -3,11 +3,14 @@
 		"authors": [
 			"Amire80",
 			"Gustave London",
-			"Mapoza2"
+			"Mapoza2",
+			"Maryam AlAkini"
 		]
 	},
 	"coll-collection": "Buka",
 	"coll-collections": "Libuka",
 	"coll-your_book": "Buka ea hao",
-	"coll-remove": "Ho tlosa"
+	"coll-remove": "Ho tlosa",
+	"coll-print_export": "Hatisa\n/export",
+	"coll-download_as": "Khoasolla\n joalo ka $1"
 }
