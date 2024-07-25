@@ -3,7 +3,8 @@
 		"authors": [
 			"Aursani",
 			"Indus Asia",
-			"Mehtab ahmed"
+			"Mehtab ahmed",
+			"Charoo"
 		]
 	},
 	"coll-desc": "[[Special:Book|ڪتاب سرجيو]]",
@@ -87,7 +88,7 @@
 	"coll-remove_page_tooltip": "ھاڻوڪو وڪي صفحو پنھنجي ڪتاب تان ھٽايو",
 	"coll-show_collection": "ڪتاب ڏيکاريو",
 	"coll-show_collection_tooltip": "پنھنجو ڪتاب سنوارڻ/اتارڻ/گهرئڻ لاءِ ٽڙڪ ڪريو",
-	"coll-not_addable": "ھي صفحو نٿو وجهي سگهجي",
+	"coll-not_addable": "ھي صفحوشامل نٿو ڪري سگهجي",
 	"coll-make_suggestions": "صفحا ڏَسيو",
 	"coll-make_suggestions_tooltip": "پنھنجي ڪتاب جي صفحن جي آڌار تي مشورا ڏيکاريو",
 	"coll-suggest_empty": "خالي",
