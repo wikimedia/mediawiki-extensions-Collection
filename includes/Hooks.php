@@ -51,7 +51,7 @@ class Hooks implements
 	public function onSidebarBeforeOutput( $skin, &$sidebar ): void {
 		global $wgCollectionPortletForLoggedInUsersOnly;
 
-		if ( !$wgCollectionPortletForLoggedInUsersOnly || $skin->getUser()->isRegistered() ) {
+		if ( !$wgCollectionPortletForLoggedInUsersOnly || $skin->getUser()->isNamed() ) {
 
 			$portlet = self::getPortlet( $skin );
 
