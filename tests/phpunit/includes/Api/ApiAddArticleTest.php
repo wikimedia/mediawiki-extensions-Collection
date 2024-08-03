@@ -1,5 +1,6 @@
 <?php
 
+use MediaWiki\MainConfigNames;
 use MediaWiki\Tests\Api\ApiTestCase;
 use MediaWiki\Title\Title;
 
@@ -17,9 +18,9 @@ class ApiAddArticleTest extends ApiTestCase {
 	public function testApiAddArticle_Good() {
 		// Add a namespace to use for collecting articles
 		// Also, set the project namespace to use when testing
-		$this->setMwGlobals( [
-			'wgCommunityCollectionNamespace' => NS_PROJECT,
-			'wgMetaNamespace' => 'Collection',
+		$this->overrideConfigValues( [
+			'CommunityCollectionNamespace' => NS_PROJECT,
+			MainConfigNames::MetaNamespace => 'Collection',
 		] );
 
 		// Create the page to add to a collection so it's valid.
