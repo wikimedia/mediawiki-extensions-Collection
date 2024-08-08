@@ -125,7 +125,7 @@
 	"coll-license": "{{Identical|License}}",
 	"coll-license_url": "{{notranslate}}",
 	"coll-return_to": "{{Identical|Return to $1}}",
-	"coll-order_info_article": "{{doc-important|Do not translate <code><nowiki>{{MediaWiki:Coll-helppage}}/</nowiki></code>.}}\nUsed as page title for the page to show order information for printed books.\n\nRefers to {{msg-mw|Coll-helppage}}.\n\nThe contents of this page appear in the \"Order as a printed book\" box on [[Special:Book]] when a user clicks on \"Show more information\" (i.e. it's hidden by default). The page contains general information on how to order a book from PediaPress. This can be seen e.g. on en.wp, when logged-in. The title of the sub-page \"PediaPress order information\" does not appear in the box, only the contents of the sub-page.",
+	"coll-order_info_article": "{{doc-important|Do not translate <code><nowiki>{{MediaWiki:Coll-helppage}}/</nowiki></code>.}}\nUsed as page title for the page to show order information for printed books.\n\nRefers to {{msg-mw|Coll-helppage}}.\n\nThe contents of this page appear in the \"Order as a printed book\" box on [[Special:Book]] when a user clicks on \"Show more information\" (i.e. it's hidden by default). The page contains general information on how to order a book from PediaPress. This can be seen e.g. on en.wp, when logged-in. The title of the subpage \"PediaPress order information\" does not appear in the box, only the contents of the subpage.",
 	"coll-suggest_title": "Used as page title",
 	"coll-suggest_intro_text": "Used as intro text",
 	"coll-suggested_articles": "{{Identical|Suggestion}}",
