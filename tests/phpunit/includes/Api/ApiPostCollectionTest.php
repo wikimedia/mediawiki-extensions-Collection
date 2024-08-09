@@ -6,6 +6,7 @@ use MediaWiki\Tests\Api\ApiTestCase;
  * Tests for Collection api.php?action=collection&submodule=postcollection
  *
  * @group API
+ * @group Database
  * @group medium
  *
  * @covers \MediaWiki\Extension\Collection\Api\ApiPostCollection
