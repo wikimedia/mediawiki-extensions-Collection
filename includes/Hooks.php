@@ -101,7 +101,7 @@ class Hooks implements
 		if ( !Session::isEnabled() ) {
 			if ( !$sk->getConfig()->get( 'CollectionDisableSidebarLink' ) ) {
 				$out[] = [
-					'text' => $sk->msg( 'coll-create_a_book' )->escaped(),
+					'text' => $sk->msg( 'coll-create_a_book' )->text(),
 					'id' => 'coll-create_a_book',
 					'href' => $booktitle->getLocalURL(
 						[ 'bookcmd' => 'book_creator', 'referer' => $title->getPrefixedText() ]
@@ -137,7 +137,7 @@ class Hooks implements
 		foreach ( $wgCollectionPortletFormats as $writer ) {
 			$params['writer'] = $writer;
 			$out[] = [
-				'text' => $sk->msg( 'coll-download_as', $wgCollectionFormats[$writer] )->escaped(),
+				'text' => $sk->msg( 'coll-download_as', $wgCollectionFormats[$writer] )->text(),
 				'id' => 'coll-download-as-' . $writer,
 				'href' => $booktitle->getLocalURL( $params ),
 			];
