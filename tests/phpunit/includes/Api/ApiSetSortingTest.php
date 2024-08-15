@@ -6,6 +6,7 @@ use MediaWiki\Extension\Collection\Session as CollectionSession;
  * Tests for Collection api.php?action=collection&submodule=setsorting.
  *
  * @group API
+ * @group Database
  * @group medium
  *
  * @covers \MediaWiki\Extension\Collection\Api\ApiAddArticle
