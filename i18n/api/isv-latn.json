@@ -1,0 +1,22 @@
+{
+	"@metadata": {
+		"authors": [
+			"IJzeren Jan"
+		]
+	},
+	"apihelp-collection+getcollection-example": "Spisok stranic, ktore tutčas nahodet se vo sbirku.",
+	"apihelp-collection+getcollection-summary": "API-modul za tvorjenje spiska stranic, ktore tutčas nahodet se vo sbirku",
+	"apihelp-collection+addarticle-example": "Dodati stranicu vo sbirku.",
+	"apihelp-collection+addarticle-summary": "API-modul za dodanje stranice vo sbirku",
+	"apihelp-collection+settitles-example": "Ustaviti zaglavje i podzaglavje sbirky",
+	"apihelp-collection+settitles-settings-example": "Ustaviti zaglavje, podzaglavje i nastavjenja sbirky",
+	"apihelp-collection+settitles-summary": "API-modul za ustavjenja zaglavja, podzaglavja i nastavjenij sbirky",
+	"coll-api-addarticle-article-not-added": "Stranica ne byla dodana vo sbirku. Ubědite se, že zaglavje jest v ukazanom imennom prostoru, ili prověrite, uže jestvuje li stranica vo sbirkě.",
+	"apihelp-collection+removearticle-example": "Udaliti stranicu iz sbirky.",
+	"apihelp-collection+removearticle-summary": "API-modul za udaljenje stranice iz sbirky",
+	"coll-api-removearticle-article-not-removed": "Stranica ne byla udaljena iz sbirky. Ubědite se, že zaglavje jest v ukazanom imennom prostoru, ili prověrite, ne jestvuje li stranica vo sbirkě.",
+	"apihelp-collection+addcategory-example": "Dodati stranice iz danoj kategorije vo sbirku koristnika.",
+	"apihelp-collection+addcategory-summary": "API-modul za dodanje stranic iz danoj kategorije vo sbirku koristnika.",
+	"apihelp-collection+suggestarticleaction-example": "Dodati stranicu vo sbirku i prědloženja",
+	"apihelp-collection+suggestarticleaction-summary": "API-modul za vzajemodějanje s prědloženjami"
+}
