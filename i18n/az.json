@@ -68,6 +68,8 @@
 	"coll-format-epub": "elektron-kitab (EPUB)",
 	"coll-format-odf": "Mətn prosessoru (OpenDocument)",
 	"right-collectionsaveasuserpage": "Kitabları istifadəçi səhifəsi kimi yadda saxlamaq",
+	"action-collectionsaveascommunitypage": "kitabları icma səhifəsi kimi yadda saxlamaq",
+	"right-collectionsaveascommunitypage": "Kitabları icma səhifəsi kimi yadda saxlamaq",
 	"coll-print_export": "Çap et/ixrac",
 	"coll-create_a_book": "Kitab yarat",
 	"coll-create_a_book_tooltip": "Kitab və ya səhifə kolleksiyası yarat",
