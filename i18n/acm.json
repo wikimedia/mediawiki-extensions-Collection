@@ -136,7 +136,7 @@
 	"coll-clear_collection": "فرغ الكتاب",
 	"coll-clear_collection_confirm": "صدك تريد تفرغ كتابك كله؟",
 	"coll-clear_collection_tooltip": "شيل كل صفحات الويكي من كتابك",
-	"coll-help": "مساعدة",
+	"coll-help": "مساعده",
 	"coll-helppage": "Help:كتب",
 	"coll-load_collection": "تحميل الكتاب",
 	"coll-n_pages": "{{PLURAL:$1||صفحة وحدة|صفحتين|$1 صفحات|$1 صفحة}}",

@@ -98,7 +98,7 @@
 	"coll-is_cached": "<ul><li>Versi cache dokumen telah dijumpa cari, jadi tiada proses kemasan diperlukan. [$1 Paksa proses kemasan semula].</li></ul>",
 	"coll-book_title": "Pesan dalam bentuk buku bercetak",
 	"coll-book_text": "Dapatkan buku bercetak daripada rakan kongsi kami yang cetak atas permintaan.",
-	"coll-order_from_pp": "Pratayang dengan $1",
+	"coll-order_from_pp": "Pralihat dengan $1",
 	"coll-about_pp": "Berkenaan $1",
 	"coll-invalid_podpartner_title": "Rakan kongsi POD yang tidak sah",
 	"coll-invalid_podpartner_msg": "Rakan kongsi POD yang dibekalkan adalah tidak sah.\nSila hubungi penyelia MediaWiki anda.",
