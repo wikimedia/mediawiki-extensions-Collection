@@ -46,5 +46,6 @@
 	"coll-article-attribution": "<b>$1</b> <i>Käldee:</i> $2 <i>Uásálisteeh:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Käldee:</i> $2 <i>Liiseens:</i> $3 <i>Uásálisteeh:</i> $4 <i>Originaal artist:</i> $5",
 	"coll-images-title": "Koveh",
+	"coll-images-source": "Käldee",
 	"coll-images-license": "Liiseens"
 }
