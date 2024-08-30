@@ -7,6 +7,7 @@ use MediaWiki\Session\SessionManager;
  * Tests for Collection api.php?action=collection&submodule=clearcollection.
  *
  * @group API
+ * @group Database
  * @group medium
  *
  * @covers \MediaWiki\Extension\Collection\Api\ApiClearCollection
