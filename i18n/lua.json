@@ -1,9 +1,31 @@
 {
 	"@metadata": {
 		"authors": [
-			"Chrisdanielkazadi"
+			"Chrisdanielkazadi",
+			"Shayi ngolu"
 		]
 	},
+	"coll-collection": "Mukanda",
+	"coll-collections": "Mikanda",
+	"coll-unknown_subpage_title": "Dibeji dia pa buloba didi kadiyi dimanyike",
+	"coll-couldnotaddarticle_title": "Tshivua mua kufila dibeji dia wiki to",
+	"coll-couldnotaddarticle_msg": "Tshiena mua kuibaka pa dibeji dia wiki to.",
+	"coll-couldnotremovearticle_title": "Kavua mua kumbusha dibeji dia wiki to",
+	"coll-couldnotremovearticle_msg": "Tshiena mua kumbuka pa dibeji dia wiki to.",
+	"coll-your_book": "Mukanda webe",
+	"coll-remove": "Kumbusha",
+	"coll-show": "Kuleeja",
+	"coll-move_to_top": "Pingana ku mutu",
+	"coll-move_up": "Ndaku kumpala",
+	"coll-move_down": "Ndaku panshi",
+	"coll-move_to_bottom": "Lombola kuinshi",
+	"coll-title": "Tshiena-bualu:",
+	"coll-subtitle": "Muaku wa kumpala:",
+	"coll-contents": "Bidji munda",
+	"coll-new_chapter": "Kanyisha dîna dia nshapita mupiamupia",
+	"coll-rename_chapter": "Utele dîna dipiadipia dia nshapita",
+	"coll-yes": "Eyowa",
+	"coll-no": "Tòo",
 	"coll-print_export": "Kupatula mu dibeji/kulopola panbelu",
 	"coll-download_as": "Kuangata muluntandala kubanga pa 1 $"
 }
