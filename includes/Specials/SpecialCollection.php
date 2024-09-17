@@ -23,6 +23,7 @@
 namespace MediaWiki\Extension\Collection\Specials;
 
 use ApiMain;
+use MediaWiki\Config\Config;
 use MediaWiki\Context\RequestContext;
 use MediaWiki\Extension\Collection\MessageBoxHelper;
 use MediaWiki\Extension\Collection\Rendering\CollectionAPIResult;
@@ -60,11 +61,10 @@ class SpecialCollection extends SpecialPage {
 	 */
 	public function __construct( $PODPartners = false ) {
 		parent::__construct( "Book" );
-		global $wgCollectionPODPartners;
 		if ( $PODPartners ) {
 			$this->mPODPartners = $PODPartners;
 		} else {
-			$this->mPODPartners = $wgCollectionPODPartners;
+			$this->mPODPartners = $this->getConfig()->get( 'CollectionPODPartners' );
 		}
 	}
 
@@ -83,8 +83,6 @@ class SpecialCollection extends SpecialPage {
 	 * @param null|string $par
 	 */
 	public function execute( $par ) {
-		global $wgCollectionMaxArticles;
-
 		$out = $this->getOutput();
 		$request = $this->getRequest();
 
@@ -132,7 +130,7 @@ class SpecialCollection extends SpecialPage {
 				return;
 
 			case 'add_article':
-				if ( CollectionSession::countArticles() >= $wgCollectionMaxArticles ) {
+				if ( CollectionSession::countArticles() >= $this->getConfig()->get( 'CollectionMaxArticles' ) ) {
 					self::limitExceeded();
 					return;
 				}
@@ -207,7 +205,7 @@ class SpecialCollection extends SpecialPage {
 				$title = Title::makeTitleSafe( NS_CATEGORY, $request->getVal( 'cattitle', '' ) );
 				if ( !$title ) {
 					return;
-				} elseif ( self::addCategory( $title ) ) {
+				} elseif ( self::addCategory( $title, $this->getConfig() ) ) {
 					self::limitExceeded();
 					return;
 				} else {
@@ -519,14 +517,12 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	private function renderSpecialPage() {
-		global $wgCollectionFormats, $wgCollectionRendererSettings,
-			$wgCollectionDisableDownloadSection;
-
 		if ( !CollectionSession::hasSession() ) {
 			CollectionSession::startSession();
 		}
 
 		$out = $this->getOutput();
+		$config = $this->getConfig();
 		MessageBoxHelper::addModuleStyles( $out );
 
 		$this->setHeaders();
@@ -535,15 +531,15 @@ class SpecialCollection extends SpecialPage {
 		$out->addModules( 'ext.collection' );
 		$out->addModuleStyles( [ 'mediawiki.hlist', 'ext.collection.bookcreator.styles' ] );
 		$out->addJsConfigVars( [
-			'wgCollectionDisableDownloadSection' => $wgCollectionDisableDownloadSection
+			'wgCollectionDisableDownloadSection' => $config->get( 'CollectionDisableDownloadSection' )
 		] );
 
 		$template = new CollectionPageTemplate();
 		$template->set( 'context', $this->getContext() );
 		$template->set( 'collection', CollectionSession::getCollection() );
 		$template->set( 'podpartners', $this->mPODPartners );
-		$template->set( 'settings', $wgCollectionRendererSettings );
-		$template->set( 'formats', $wgCollectionFormats );
+		$template->set( 'settings', $config->get( 'CollectionRendererSettings' ) );
+		$template->set( 'formats', $config->get( 'CollectionFormats' ) );
 		$prefixes = $this->getBookPagePrefixes();
 		$template->set( 'user-book-prefix', $prefixes['user-prefix'] );
 		$template->set( 'community-book-prefix', $prefixes['community-prefix'] );
@@ -736,21 +732,21 @@ class SpecialCollection extends SpecialPage {
 
 	/**
 	 * @param string $name
+	 * @param Config $config
 	 * @return bool
 	 */
-	public static function addCategoryFromName( $name ) {
+	public static function addCategoryFromName( $name, Config $config ) {
 		$title = Title::makeTitleSafe( NS_CATEGORY, $name );
-		return self::addCategory( $title );
+		return self::addCategory( $title, $config );
 	}
 
 	/**
 	 * @param Title $title
+	 * @param Config $config
 	 * @return bool
 	 */
-	private static function addCategory( $title ) {
-		global $wgCollectionMaxArticles, $wgCollectionArticleNamespaces;
-
-		$limit = $wgCollectionMaxArticles - CollectionSession::countArticles();
+	private static function addCategory( $title, Config $config ) {
+		$limit = $config->get( 'CollectionMaxArticles' ) - CollectionSession::countArticles();
 		if ( $limit <= 0 || !$title ) {
 			self::limitExceeded();
 			return false;
@@ -768,12 +764,13 @@ class SpecialCollection extends SpecialPage {
 
 		$count = 0;
 		$limitExceeded = false;
+		$collectionArticleNamespaces = $config->get( 'CollectionArticleNamespaces' );
 		foreach ( $res as $row ) {
 			if ( ++$count > $limit ) {
 				$limitExceeded = true;
 				break;
 			}
-			if ( in_array( $row->page_namespace, $wgCollectionArticleNamespaces ) ) {
+			if ( in_array( $row->page_namespace, $collectionArticleNamespaces ) ) {
 				$articleTitle = Title::makeTitle( $row->page_namespace, $row->page_title );
 				if ( CollectionSession::findArticle( $articleTitle->getPrefixedText() ) == -1 ) {
 					self::addArticle( $articleTitle );
@@ -1239,8 +1236,6 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	private function download() {
-		global $wgCollectionContentTypeToFilename;
-
 		$request = $this->getRequest();
 		$collectionId = $request->getVal( 'collection_id' );
 		$writer = $request->getVal( 'writer' );
@@ -1284,12 +1279,13 @@ class SpecialCollection extends SpecialPage {
 		if ( $content_disposition ) {
 			header( 'Content-Disposition: ' . $content_disposition );
 		} else {
+			$collectionContentTypeToFilename = $this->getConfig()->get( 'CollectionContentTypeToFilename' );
 			$mimeType = explode( ';', $content_type )[0];
-			if ( isset( $wgCollectionContentTypeToFilename[$mimeType] ) ) {
+			if ( isset( $collectionContentTypeToFilename[$mimeType] ) ) {
 				header(
 					'Content-Disposition: ' .
 					'inline; filename=' .
-					$wgCollectionContentTypeToFilename[$mimeType]
+					$collectionContentTypeToFilename[$mimeType]
 				);
 			}
 		}
