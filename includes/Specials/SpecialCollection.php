@@ -1154,7 +1154,7 @@ class SpecialCollection extends SpecialPage {
 		$this->setHeaders();
 		$request = $this->getRequest();
 		$out = $this->getOutput();
-		$stats = MediaWikiServices::getInstance()->getStatsdDataFactory();
+		$stats = MediaWikiServices::getInstance()->getStatsFactory();
 
 		$collectionId = $request->getVal( 'collection_id' );
 		$writer = $request->getVal( 'writer' );
@@ -1207,7 +1207,10 @@ class SpecialCollection extends SpecialPage {
 				}
 				$template->set( 'progress', $progress );
 				$out->addTemplate( $template );
-				$stats->increment( 'collection.renderingpage.pending' );
+				$stats->getCounter( 'collection_renderingpage_total' )
+					->setLabel( 'status', 'pending' )
+					->copyToStatsdAt( 'collection.renderingpage.pending' )
+					->increment();
 				break;
 
 			case 'finished':
@@ -1226,7 +1229,10 @@ class SpecialCollection extends SpecialPage {
 				$template->set( 'query', $query );
 				$template->set( 'return_to', $return_to );
 				$out->addTemplate( $template );
-				$stats->increment( 'collection.renderingpage.finished' );
+				$stats->getCounter( 'collection_renderingpage_total' )
+					->setLabel( 'status', 'finished' )
+					->copyToStatsdAt( 'collection.renderingpage.finished' )
+					->increment();
 				break;
 
 			case 'failed':
@@ -1243,11 +1249,17 @@ class SpecialCollection extends SpecialPage {
 				$template->set( 'query', $query );
 				$template->set( 'return_to', $return_to );
 				$out->addTemplate( $template );
-				$stats->increment( 'collection.renderingpage.failed' );
+				$stats->getCounter( 'collection_renderingpage_total' )
+					->setLabel( 'status', 'failed' )
+					->copyToStatsdAt( 'collection.renderingpage.failed' )
+					->increment();
 				break;
 
 			default:
-				$stats->increment( 'collection.renderingpage.unknown' );
+				$stats->getCounter( 'collection_renderingpage_total' )
+					->setLabel( 'status', 'unknown' )
+					->copyToStatsdAt( 'collection.renderingpage.unknown' )
+					->increment();
 				throw new UnexpectedValueException( __METHOD__ . "(): unknown state '{$result->get( 'state' )}'" );
 		}
 	}
