@@ -38,7 +38,6 @@ use MediaWiki\Extension\Collection\Templates\CollectionSaveOverwriteTemplate;
 use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Request\DerivativeRequest;
-use MediaWiki\Request\WebRequest;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
 use OOUI\ButtonGroupWidget;
@@ -285,31 +284,6 @@ class SpecialCollection extends SpecialPage {
 
 			case 'download':
 				$this->download();
-				return;
-
-			case 'render_article':
-				$title = Title::newFromText( $request->getVal( 'arttitle', '' ) );
-				if ( !$title ) {
-					return;
-				}
-				$oldid = $request->getInt( 'oldid', 0 );
-				$collection = $this->makeCollection( $title, $oldid );
-				if ( $collection ) {
-					$this->applySettings( $collection, $request );
-					$this->renderCollection( $collection, $title, $request->getVal( 'writer', 'rl' ) );
-				}
-				return;
-
-			case 'render_collection':
-				$title = Title::newFromText( $request->getVal( 'colltitle', '' ) );
-				if ( !$title ) {
-					return;
-				}
-				$collection = $this->loadCollection( $title );
-				if ( $collection ) {
-					$this->applySettings( $collection, $request );
-					$this->renderCollection( $collection, $title, $request->getVal( 'writer', 'rl' ) );
-				}
 				return;
 
 			case 'post_zip':
@@ -1352,35 +1326,6 @@ class SpecialCollection extends SpecialPage {
 			$article['timestamp'] = wfTimestamp( TS_UNIX, $revision->getTimestamp() );
 		}
 		return [ 'items' => [ $article ] ];
-	}
-
-	/**
-	 * Apply query string parameters to the given collection.
-	 * Use defaults specified in $wgCollectionRendererSettings.
-	 * @param array &$collection
-	 * @param WebRequest &$request
-	 */
-	private function applySettings( &$collection, &$request ) {
-		global $wgCollectionRendererSettings;
-		if ( !isset( $collection['settings'] ) ) {
-			$collection['settings'] = [];
-		}
-		foreach ( $wgCollectionRendererSettings as $key => $desc ) {
-			if ( $desc['type'] != 'select' ) {
-				continue;
-			}
-			$val = $request->getVal( $key );
-			if ( !isset( $collections['settings'][$key] ) ) {
-				$collection['settings'][$key] = $desc['default'];
-			}
-			if ( $val !== null ) {
-				foreach ( $desc['options'] as $ignore => $valid ) {
-					if ( $val == $valid ) {
-						$collection['settings'][$key] = $valid;
-					}
-				}
-			}
-		}
 	}
 
 	/**
