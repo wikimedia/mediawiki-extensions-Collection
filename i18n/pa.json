@@ -36,7 +36,7 @@
 	"coll-no": "ਨਹੀਂ",
 	"coll-append": "ਅੰਤ ਵਿੱਚ ਜੋੜੋ",
 	"coll-cancel": "ਰੱਦ ਕਰੋ",
-	"coll-update": "ਅੱਪਡੇਟ",
+	"coll-update": "ਨਵਿਆਓ",
 	"coll-limit_exceeded_title": "ਕਿਤਾਬ ਬਹੁਤ ਵੱਡੀ ਹੈ",
 	"coll-limit_exceeded_text": "ਤੁਹਾਡੀ ਕਿਤਾਬ ਬਹੁਤ ਵੱਡੀ ਹੈ।\nਹੋਰ ਸਫ਼ੇ ਸ਼ਾਮਲ ਨਹੀਂ ਕੀਤੇ ਜਾ ਸਕਦੇ।",
 	"coll-rendering_article": "(ਵਿਕੀ ਸਫ਼ਾ: $1)",
