@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Cgboeree",
-			"Katxis"
+			"Katxis",
+			"Elefentiste"
 		]
 	},
+	"coll-desc": "[[Special:Book|Crea libros]]",
 	"coll-remove": "Sutrae",
 	"coll-show": "Mostra",
 	"coll-move_up": "Move a supra",
