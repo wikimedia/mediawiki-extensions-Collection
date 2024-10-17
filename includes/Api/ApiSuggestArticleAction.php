@@ -26,7 +26,7 @@ use ApiBase;
 use MediaWiki\Extension\Collection\Session;
 use MediaWiki\Extension\Collection\Suggest;
 use MediaWiki\Html\Html;
-use SkinTemplate;
+use MediaWiki\Skin\SkinComponentUtils;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiSuggestArticleAction extends ApiBase {
@@ -44,7 +44,7 @@ class ApiSuggestArticleAction extends ApiBase {
 
 		$undoLink = Html::element( 'a',
 			[
-				'href' => SkinTemplate::makeSpecialUrl(
+				'href' => SkinComponentUtils::makeSpecialUrl(
 					'Book',
 					[ 'bookcmd' => 'suggest', 'undo' => $action, 'arttitle' => $title ]
 				),

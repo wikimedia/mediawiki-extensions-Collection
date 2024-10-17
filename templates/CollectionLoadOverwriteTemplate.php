@@ -8,9 +8,9 @@
 namespace MediaWiki\Extension\Collection\Templates;
 
 use MediaWiki\Output\OutputPage;
+use MediaWiki\Skin\SkinComponentUtils;
 use MediaWiki\Title\Title;
 use QuickTemplate;
-use SkinTemplate;
 
 /**
  * HTML template for Special:Book/load_collection/ when overwriting an exisiting collection
@@ -31,7 +31,7 @@ class CollectionLoadOverwriteTemplate extends QuickTemplate {
 
 		?>
 
-		<form action="<?php echo htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book' ) ) ?>" method="post">
+		<form action="<?php echo htmlspecialchars( SkinComponentUtils::makeSpecialUrl( 'Book' ) ) ?>" method="post">
 			<input name="overwrite" type="submit" value="<?php $this->msg( 'coll-overwrite' ) ?>" />
 			<input name="append" type="submit" value="<?php $this->msg( 'coll-append' ) ?>" />
 			<input name="cancel" type="submit" value="<?php $this->msg( 'coll-cancel' ) ?>" />

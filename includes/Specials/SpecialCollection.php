@@ -39,13 +39,13 @@ use MediaWiki\Extension\Collection\Templates\CollectionSaveOverwriteTemplate;
 use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Request\DerivativeRequest;
+use MediaWiki\Skin\SkinComponentUtils;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
 use OOUI\ButtonGroupWidget;
 use OOUI\ButtonInputWidget;
 use OOUI\ButtonWidget;
 use OOUI\FormLayout;
-use SkinTemplate;
 use UnexpectedValueException;
 
 class SpecialCollection extends SpecialPage {
@@ -93,7 +93,7 @@ class SpecialCollection extends SpecialPage {
 				// TODO
 			}
 			$out->redirect( wfAppendQuery(
-				SkinTemplate::makeSpecialUrl( 'Book' ),
+				SkinComponentUtils::makeSpecialUrl( 'Book' ),
 				$request->appendQueryArray( [ 'bookcmd' => rtrim( $par, '/' ) ] )
 			) );
 			return;
@@ -178,7 +178,7 @@ class SpecialCollection extends SpecialPage {
 			case 'clear_collection':
 				CollectionSession::clearCollection();
 				$redirect = $request->getVal( 'return_to', '' );
-				$redirectURL = SkinTemplate::makeSpecialUrl( 'Book' );
+				$redirectURL = SkinComponentUtils::makeSpecialUrl( 'Book' );
 				if ( $redirect !== '' ) {
 					$title = Title::newFromText( $redirect );
 					if ( $title ) {
@@ -193,12 +193,12 @@ class SpecialCollection extends SpecialPage {
 					$request->getText( 'collectionTitle', '' ),
 					$request->getText( 'collectionSubtitle', '' )
 				);
-				$out->redirect( SkinTemplate::makeSpecialUrl( 'Book' ) );
+				$out->redirect( SkinComponentUtils::makeSpecialUrl( 'Book' ) );
 				return;
 
 			case 'sort_items':
 				self::sortItems();
-				$out->redirect( SkinTemplate::makeSpecialUrl( 'Book' ) );
+				$out->redirect( SkinComponentUtils::makeSpecialUrl( 'Book' ) );
 				return;
 
 			case 'add_category':
@@ -215,12 +215,12 @@ class SpecialCollection extends SpecialPage {
 
 			case 'remove_item':
 				self::removeItem( $request->getInt( 'index', 0 ) );
-				$out->redirect( SkinTemplate::makeSpecialUrl( 'Book' ) );
+				$out->redirect( SkinComponentUtils::makeSpecialUrl( 'Book' ) );
 				return;
 
 			case 'move_item':
 				self::moveItem( $request->getInt( 'index', 0 ), $request->getInt( 'delta', 0 ) );
-				$out->redirect( SkinTemplate::makeSpecialUrl( 'Book' ) );
+				$out->redirect( SkinComponentUtils::makeSpecialUrl( 'Book' ) );
 				return;
 
 			case 'load_collection':
@@ -241,7 +241,7 @@ class SpecialCollection extends SpecialPage {
 						CollectionSession::startSession();
 						CollectionSession::setCollection( $collection );
 						CollectionSession::enable();
-						$out->redirect( SkinTemplate::makeSpecialUrl( 'Book' ) );
+						$out->redirect( SkinComponentUtils::makeSpecialUrl( 'Book' ) );
 					}
 					return;
 				}
@@ -342,7 +342,7 @@ class SpecialCollection extends SpecialPage {
 		$user = $this->getUser();
 
 		if ( $request->getVal( 'abort' ) ) {
-			$out->redirect( SkinTemplate::makeSpecialUrl( 'Book' ) );
+			$out->redirect( SkinComponentUtils::makeSpecialUrl( 'Book' ) );
 			return;
 		}
 		if ( !$user->matchEditToken( $request->getVal( 'token' ) ) ) {
@@ -405,7 +405,7 @@ class SpecialCollection extends SpecialPage {
 
 		$form = new FormLayout( [
 			'method' => 'POST',
-			'action' => SkinTemplate::makeSpecialUrl(
+			'action' => SkinComponentUtils::makeSpecialUrl(
 				'Book',
 				[
 					'bookcmd' => 'start_book_creator',
@@ -457,7 +457,7 @@ class SpecialCollection extends SpecialPage {
 
 		$form = new FormLayout( [
 			'method' => 'POST',
-			'action' => SkinTemplate::makeSpecialUrl(
+			'action' => SkinComponentUtils::makeSpecialUrl(
 				'Book',
 				[
 					'bookcmd' => 'stop_book_creator',
@@ -1094,7 +1094,7 @@ class SpecialCollection extends SpecialPage {
 		if ( $response->get( 'is_cached' ) ) {
 			$query .= '&is_cached=1';
 		}
-		$redirect = SkinTemplate::makeSpecialUrl( 'Book', $query );
+		$redirect = SkinComponentUtils::makeSpecialUrl( 'Book', $query );
 		$this->getOutput()->redirect( $redirect );
 	}
 
@@ -1118,7 +1118,7 @@ class SpecialCollection extends SpecialPage {
 		if ( $response->get( 'is_cached' ) ) {
 			$query .= '&is_cached=1';
 		}
-		$this->getOutput()->redirect( SkinTemplate::makeSpecialUrl( 'Book', $query ) );
+		$this->getOutput()->redirect( SkinComponentUtils::makeSpecialUrl( 'Book', $query ) );
 	}
 
 	private function renderRenderingPage() {
@@ -1191,7 +1191,7 @@ class SpecialCollection extends SpecialPage {
 				$template->set(
 					'download_url',
 					wfExpandUrl(
-						SkinTemplate::makeSpecialUrl( 'Book', 'bookcmd=download&' . $query ),
+						SkinComponentUtils::makeSpecialUrl( 'Book', 'bookcmd=download&' . $query ),
 						PROTO_CURRENT
 					)
 				);

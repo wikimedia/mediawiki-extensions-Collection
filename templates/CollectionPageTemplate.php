@@ -14,10 +14,10 @@ use MediaWiki\Extension\Collection\MessageBoxHelper;
 use MediaWiki\Html\TemplateParser;
 use MediaWiki\HTMLForm\HTMLForm;
 use MediaWiki\Request\FauxRequest;
+use MediaWiki\Skin\SkinComponentUtils;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
 use QuickTemplate;
-use SkinTemplate;
 
 /**
  * HTML template for Special:Book
@@ -87,7 +87,7 @@ class CollectionPageTemplate extends QuickTemplate {
 			'headline' => wfMessage( 'coll-download_title' ),
 			'sectionDisabled' => false,
 			'description' => $description,
-			'formAction' => SkinTemplate::makeSpecialUrl( 'Book' ),
+			'formAction' => SkinComponentUtils::makeSpecialUrl( 'Book' ),
 			'formats' => $templateDataFormats,
 			'writer' => $defaultWriter,
 			'formatSelectLabel' => wfMessage( 'coll-format_label' ),
@@ -227,7 +227,7 @@ class CollectionPageTemplate extends QuickTemplate {
 										</div>
 									<?php   }					?>
 									<div class="collection-order-button">
-										<form action="<?php echo htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book' ) ) ?>" method="post">
+										<form action="<?php echo htmlspecialchars( SkinComponentUtils::makeSpecialUrl( 'Book' ) ) ?>" method="post">
 											<input type="hidden" name="bookcmd" value="post_zip" />
 											<input type="hidden" name="partner" value="<?php echo htmlspecialchars( $partnerKey ) ?>" />
 											<input type="submit" value="<?php echo wfMessage( 'coll-order_from_pp', $partnerData['name'] )->escaped() ?>" class="order" <?php
@@ -260,7 +260,7 @@ class CollectionPageTemplate extends QuickTemplate {
 					<?php
 					echo $this->parseAsInterface( 'coll-save_collection_text', $context );
 					?>
-					<form id="saveForm" action="<?php echo htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book' ) ) ?>" method="post">
+					<form id="saveForm" action="<?php echo htmlspecialchars( SkinComponentUtils::makeSpecialUrl( 'Book' ) ) ?>" method="post">
 						<table style="width:100%; background-color: transparent;"><tbody>
 							<?php if ( $canSaveUserPage ) { ?>
 								<tr><td>
@@ -269,7 +269,7 @@ class CollectionPageTemplate extends QuickTemplate {
 										<?php } else { ?>
 											<input type="hidden" name="colltype" value="personal" />
 										<?php } ?>
-										<label for="personalCollTitle"><a href="<?php echo htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Prefixindex', 'prefix=' . wfUrlencode( $this->data['user-book-prefix'] ) ) ) ?>"><?php echo htmlspecialchars( $this->data['user-book-prefix'] ) ?></a></label>
+										<label for="personalCollTitle"><a href="<?php echo htmlspecialchars( SkinComponentUtils::makeSpecialUrl( 'Prefixindex', 'prefix=' . wfUrlencode( $this->data['user-book-prefix'] ) ) ) ?>"><?php echo htmlspecialchars( $this->data['user-book-prefix'] ) ?></a></label>
 									</td>
 									<td id="collection-save-input">
 										<input id="personalCollTitle" type="text" name="pcollname" />
@@ -282,7 +282,7 @@ class CollectionPageTemplate extends QuickTemplate {
 										<?php } else { ?>
 											<input type="hidden" name="colltype" value="community" />
 										<?php } ?>
-										<label for="communityCollTitle"><a href="<?php echo htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Prefixindex', 'prefix=' . wfUrlencode( $this->data['community-book-prefix'] ) ) ) ?>"><?php echo htmlspecialchars( $this->data['community-book-prefix'] ) ?></a></label>
+										<label for="communityCollTitle"><a href="<?php echo htmlspecialchars( SkinComponentUtils::makeSpecialUrl( 'Prefixindex', 'prefix=' . wfUrlencode( $this->data['community-book-prefix'] ) ) ) ?>"><?php echo htmlspecialchars( $this->data['community-book-prefix'] ) ?></a></label>
 									</td>
 									<td id="collection-save-button">
 										<input id="communityCollTitle" type="text" name="ccollname" disabled="disabled" />

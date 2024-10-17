@@ -7,8 +7,8 @@
 
 namespace MediaWiki\Extension\Collection\Templates;
 
+use MediaWiki\Skin\SkinComponentUtils;
 use QuickTemplate;
-use SkinTemplate;
 
 /**
  * HTML template for Special:Book/save_collection/ when overwriting an exisiting collection
@@ -23,7 +23,7 @@ class CollectionSaveOverwriteTemplate extends QuickTemplate {
 
 		<?php echo wfMessage( 'coll-overwrite_text', $this->data['title']->getPrefixedText() )->parseAsBlock(); ?>
 
-		<form action="<?php echo htmlspecialchars( SkinTemplate::makeSpecialUrl( 'Book' ) ) ?>" method="post">
+		<form action="<?php echo htmlspecialchars( SkinComponentUtils::makeSpecialUrl( 'Book' ) ) ?>" method="post">
 			<input name="overwrite" type="submit" value="<?php $this->msg( 'coll-yes' ) ?>" />
 			<input name="abort" type="submit" value="<?php $this->msg( 'coll-no' ) ?>" />
 			<input name="pcollname" type="hidden" value="<?php echo htmlspecialchars( $this->data['pcollname'] ) ?>" />

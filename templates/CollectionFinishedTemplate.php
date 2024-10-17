@@ -9,9 +9,9 @@ namespace MediaWiki\Extension\Collection\Templates;
 
 use MediaWiki\Extension\Collection\Session;
 use MediaWiki\Html\Html;
+use MediaWiki\Skin\SkinComponentUtils;
 use MediaWiki\Title\Title;
 use QuickTemplate;
-use SkinTemplate;
 
 /**
  * HTML template for Special:Book/rendering/ (finished)
@@ -62,7 +62,7 @@ class CollectionFinishedTemplate extends QuickTemplate {
 		}
 
 		if ( $this->data['is_cached'] ) {
-			$forceRenderURL = SkinTemplate::makeSpecialUrl(
+			$forceRenderURL = SkinComponentUtils::makeSpecialUrl(
 				'Book',
 				'bookcmd=forcerender&' . $this->data['query'],
 				PROTO_RELATIVE
