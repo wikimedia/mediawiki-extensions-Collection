@@ -22,7 +22,7 @@
 
 namespace MediaWiki\Extension\Collection\Api;
 
-use ApiBase;
+use MediaWiki\Api\ApiBase;
 use MediaWiki\Extension\Collection\Specials\SpecialCollection;
 
 class ApiSortItems extends ApiBase {

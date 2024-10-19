@@ -2,7 +2,7 @@
 
 namespace MediaWiki\Extension\Collection\Rendering;
 
-use FormatJson;
+use MediaWiki\Json\FormatJson;
 
 /**
  * A wrapper for data returned by the API

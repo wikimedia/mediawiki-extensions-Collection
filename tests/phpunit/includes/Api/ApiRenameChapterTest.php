@@ -1,5 +1,6 @@
 <?php
 
+use MediaWiki\Api\ApiUsageException;
 use MediaWiki\Tests\Api\ApiTestCase;
 
 /**

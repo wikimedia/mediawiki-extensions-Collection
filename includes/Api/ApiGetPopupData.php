@@ -22,7 +22,7 @@
 
 namespace MediaWiki\Extension\Collection\Api;
 
-use ApiBase;
+use MediaWiki\Api\ApiBase;
 use MediaWiki\Extension\Collection\Session;
 use MediaWiki\Page\WikiPageFactory;
 use MediaWiki\Title\Title;

@@ -22,7 +22,7 @@
 
 namespace MediaWiki\Extension\Collection\Specials;
 
-use ApiMain;
+use MediaWiki\Api\ApiMain;
 use MediaWiki\Config\Config;
 use MediaWiki\Context\RequestContext;
 use MediaWiki\Extension\Collection\MessageBoxHelper;

@@ -22,8 +22,8 @@
 
 namespace MediaWiki\Extension\Collection\Api;
 
-use ApiBase;
-use FormatJson;
+use MediaWiki\Api\ApiBase;
+use MediaWiki\Json\FormatJson;
 use MediaWiki\Session\SessionManager;
 use MediaWiki\SpecialPage\SpecialPage;
 use Wikimedia\ParamValidator\ParamValidator;

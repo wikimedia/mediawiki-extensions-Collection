@@ -22,9 +22,9 @@
 
 namespace MediaWiki\Extension\Collection\Api;
 
-use ApiBase;
-use FormatJson;
+use MediaWiki\Api\ApiBase;
 use MediaWiki\Extension\Collection\Specials\SpecialCollection;
+use MediaWiki\Json\FormatJson;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiSetTitles extends ApiBase {

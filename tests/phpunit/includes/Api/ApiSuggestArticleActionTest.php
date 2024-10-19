@@ -1,5 +1,6 @@
 <?php
 
+use MediaWiki\Api\ApiUsageException;
 use MediaWiki\Extension\Collection\Session as CollectionSession;
 use MediaWiki\Session\SessionManager;
 use MediaWiki\Tests\Api\ApiTestCase;

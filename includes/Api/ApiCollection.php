@@ -2,9 +2,9 @@
 
 namespace MediaWiki\Extension\Collection\Api;
 
-use ApiBase;
-use ApiMain;
-use ApiModuleManager;
+use MediaWiki\Api\ApiBase;
+use MediaWiki\Api\ApiMain;
+use MediaWiki\Api\ApiModuleManager;
 use MediaWiki\MediaWikiServices;
 use Wikimedia\ParamValidator\ParamValidator;
 

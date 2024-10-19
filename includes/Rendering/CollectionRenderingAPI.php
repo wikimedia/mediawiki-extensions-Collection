@@ -2,8 +2,8 @@
 
 namespace MediaWiki\Extension\Collection\Rendering;
 
-use FormatJson;
 use MediaWiki\Context\RequestContext;
+use MediaWiki\Json\FormatJson;
 use MediaWiki\MediaWikiServices;
 
 /**
