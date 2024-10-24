@@ -6,7 +6,8 @@
 			"Gmelfi",
 			"Macofe",
 			"Pippinu",
-			"Sarvaturi"
+			"Sarvaturi",
+			"Dapal"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crea libbri]]",
@@ -73,8 +74,8 @@
 	"coll-suggest_undo": "annulla",
 	"action-collectionsaveasuserpage": "sarvari libbri comu pàggina utenti",
 	"right-collectionsaveasuserpage": "Sarva libbri comu pàggina utenti",
-	"action-collectionsaveascommunitypage": "sarvari libbri comu pàgginda dâ cumunitati",
-	"right-collectionsaveascommunitypage": "Sarva libbru comu pàggina dâ cumunitati",
+	"action-collectionsaveascommunitypage": "sarbari libbra comu pàggina dâ cumunità",
+	"right-collectionsaveascommunitypage": "Sarba libbra comu pàggina dâ cumunità",
 	"coll-print_export": "Stampa/esporta",
 	"coll-create_a_book": "Crea nu libbru",
 	"coll-book_creator": "Criaturi dî libbra",
