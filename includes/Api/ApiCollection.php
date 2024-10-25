@@ -14,7 +14,7 @@ use Wikimedia\ParamValidator\ParamValidator;
  * basic checks and dispatches to execute() call.
  */
 class ApiCollection extends ApiBase {
-	/** @var array Module name => module class */
+	/** Module name => module class */
 	private const SUBMODULES = [
 		'addarticle' => ApiAddArticle::class,
 		'addcategory' => ApiAddCategory::class,
@@ -40,14 +40,12 @@ class ApiCollection extends ApiBase {
 		'suggestundoarticleaction' => ApiSuggestUndoArticleAction::class,
 	];
 
-	/** @var ApiModuleManager */
-	private $moduleManager;
+	private ApiModuleManager $moduleManager;
 
-	/**
-	 * @param ApiMain $main
-	 * @param string $action
-	 */
-	public function __construct( ApiMain $main, $action ) {
+	public function __construct(
+		ApiMain $main,
+		string $action
+	) {
 		parent::__construct( $main, $action );
 
 		$this->moduleManager = new ApiModuleManager(
