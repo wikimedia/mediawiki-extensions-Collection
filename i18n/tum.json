@@ -4,6 +4,12 @@
 			"Tumbuka Arch"
 		]
 	},
+	"coll-desc": "[[Special:Book|Pangani mabuku]]",
+	"coll-book_creator_intro": "<big>Pala mwasankha pa ''mpangi buku'' mungapanga buku la majani gha wiki agho mungakhumba. Mungapanga buku ili mitundu yakupambanapambana (mwachiyelezgero, PDF panji ODF) panji mungapempha buku ili kuti lidindike.</big>",
+	"coll-manage_your_book": "Santhulani buku linu",
+	"coll-book_creator_help": "Wonani [[{{MediaWiki:Coll-helppage}}|pa jani la wovwili lakukhwaskana na vya mabuku]] kuti mumanye vinandi.",
+	"coll-start_book_creator": "Yambiska mpangi buku",
+	"coll-book_creator_continue": "Lutilirani kugwiliska mpanga buku",
 	"coll-print_export": "Chapa/exporti",
 	"coll-download_as": "Sangulula nga $1"
 }
