@@ -1,9 +1,37 @@
 {
 	"@metadata": {
 		"authors": [
-			"IdrisSeid"
+			"IdrisSeid",
+			"Bbeshir"
 		]
 	},
+	"coll-collection": "ክታብ",
+	"coll-collections": "ኣክቱበት",
+	"coll-your_book": "ክታብካ",
+	"coll-download_title": "ኣውርድ",
+	"coll-download": "ኣውርድ",
+	"coll-remove": "ነውክ",
+	"coll-show": "ኣርአ",
+	"coll-title": "ኣርእስ",
+	"coll-subtitle": "ንኡሽ ኣርእስ:",
+	"coll-contents": "ጽበጥ",
+	"coll-yes": "ዓቤ",
+	"coll-no": "ኢፋል",
+	"coll-cancel": "ኣትርፍ",
+	"coll-rendering_page": "(ገጽ፦ $1)",
+	"coll-notfound_title": "ክታብ ኢትረከባ",
+	"coll-download_notfound_title": "ፋይል ይትረከባኒ",
+	"coll-license": "ተርኺስ",
+	"coll-suggest_your_book": "ክታብካ",
+	"coll-suggest_show": "ኣርአ",
 	"coll-print_export": "ጥባዕ/ንዳእ",
-	"coll-download_as": "ከም $1 ክሬ"
+	"coll-download_as": "ከም $1 ክሬ",
+	"coll-bookscategory": "ኣክቱበት",
+	"coll-help": "ሰዳየት",
+	"coll-show_collection": "ክታብ ኣርኤ",
+	"coll-setting-toc-auto": "ምን ኖስ",
+	"coll-setting-toc-yes": "ዓቤ",
+	"coll-setting-toc-no": "ኢፋል",
+	"coll-images-title": "ሱውር",
+	"coll-images-license": "ተርኺስ"
 }

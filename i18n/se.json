@@ -3,12 +3,15 @@
 		"authors": [
 			"Yupik",
 			"Kimberli Mäkäräinen (WMNO)",
-			"Caden99"
+			"Caden99",
+			"Jon Harald Søby"
 		]
 	},
 	"coll-collection": "Girji",
 	"coll-collections": "Girjjit",
 	"coll-your_book": "Du girji",
+	"coll-download_title": "Viečča",
+	"coll-download": "Viečča",
 	"coll-remove": "Sihko",
 	"coll-show": "Čájet",
 	"coll-save_collection": "Vurke girjji",
@@ -19,8 +22,6 @@
 	"coll-suggest_your_book": "Du girji",
 	"coll-suggest_show": "čájet",
 	"coll-format-epub": "digigirji (EPUB)",
-	"coll-print_export": "Čálit/olggosfievrrit",
-	"coll-download_as": "Viečča $1",
 	"coll-bookscategory": "Girjjit",
 	"coll-help": "Rávvagat",
 	"coll-helppage": "Help:Girjjit",

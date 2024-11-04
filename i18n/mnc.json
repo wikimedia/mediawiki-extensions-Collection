@@ -8,17 +8,6 @@
 			"MiiCii"
 		]
 	},
-	"coll-remove": "ᠠᠴᡳᠩᡤᡳᠶᠠᠮᠪᡳ",
-	"coll-show": "ᡳᠯᡝᡨᡠᠯᡝᡵᡝ",
-	"coll-move_up": "ᡡᡝᡵᠰᡮᡥᡠᡳᡡᡳᠩ ᠣᡦ",
-	"coll-move_down": "ᡡᡝᡵᠰᡮᡥᡠᡳᡡᡳᠩ ᠣᠨᡩᡝᡵ",
 	"coll-print_export": "Šuwaselara/Yarume tucibure",
-	"coll-create_a_book": "ᠪᡳᡨ᠌ᡥᡝ  ᠪᡝ ᠪᠠᠨᠵᡳᠪᡠᡴᡳ",
-	"coll-book_creator": "ᡶᡠᡴᠵᡳᠯᡝᠮᠪᡳ ᠪᡳᡨᡥᡝ",
-	"coll-download_as": "$1 be danglotlambi",
-	"coll-disable": "ᠪᠠᡳᡨᠠᠯᠠᠮᠪᡳ ᠨᠠᡴᠠᠮᠪᡳ",
-	"coll-help": "ᠠᡳᠰᡳᠯᠠᡵᠠᠩᡤᡝ",
-	"coll-helppage": "Help:ᠪᡳᡨᡥᡝ",
-	"coll-show_collection": "ᡳᠯᡝᡨᡠᠯᡝᠮᠪᡳ ᠪᡳᡨᡥᡝ",
-	"coll-attribution-anons": "ᠠᡴᡡ-ᡤᡝᠪᡠ：$1"
+	"coll-download_as": "$1 be danglotlambi"
 }

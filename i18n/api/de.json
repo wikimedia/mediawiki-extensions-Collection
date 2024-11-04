@@ -2,7 +2,9 @@
 	"@metadata": {
 		"authors": [
 			"Brettchenweber",
-			"*Surak*"
+			"*Surak*",
+			"SehrGuterCode",
+			"TomatoCake"
 		]
 	},
 	"apihelp-collection+getcollection-example": "Auflisten von Seiten, die sich derzeit in der Sammlung befinden.",
