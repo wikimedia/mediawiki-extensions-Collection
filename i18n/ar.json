@@ -189,7 +189,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>المصدر:</i> $2 <i>المساهمون:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>المصدر:</i> $2 <i>الترخيص:</i> $3 <i>المساهمون:</i> $4 <i>الفنان الأصلي:</i> $5",
 	"coll-notice-download-pdf-title": "تحميل صفحات مفردة",
-	"coll-notice-download-pdf-text": "بينما أن عارض الPDF الخاص بمنشيء الكتب معطل، يمكنك تجربة '''''تحميل كPDF''''' من أدوات الشريط الجانبي للمقالات المفردة.",
+	"coll-notice-download-pdf-text": "لا يدعم Book Creator عرض PDF ([[mw:Reading/Web/PDF_Functionality|تعرف على المزيد]])، ولكن يمكنك تجربة '''''تنزيل بتنسيق PDF''''' من أدوات الشريط الجانبي للمقالات الفردية.",
 	"coll-toc-title": "جدول المحتويات",
 	"coll-contributors-title": "المساهمون",
 	"coll-images-title": "الصور",
