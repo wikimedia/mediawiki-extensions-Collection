@@ -22,7 +22,7 @@
 	"apihelp-collection+suggestarticleaction-summary": "API-module om te communiceren met suggesties",
 	"apihelp-collection+suggestarticleaction-param-suggestaction": "Een van 'add', 'remove' of 'ban'. 'add' voegt een pagina toe aan de verzameling en suggesties en maakt de ban ongedaan. 'remove' verwijdert een toegevoegde pagina en sluit deze uit. 'ban' sluit een pagina uit van suggesties.",
 	"apihelp-collection+suggestundoarticleaction-example": "Maakt de toevoeging van een pagina ongedaan",
-	"apihelp-collection+suggestundoarticleaction-summary": "API-module om handelingen ongedaan te maken die zijn uitgevoerd vanuit \"suggestarticleaction\"",
+	"apihelp-collection+suggestundoarticleaction-summary": "API-module om handelingen ongedaan te maken die zijn verricht vanuit “suggestarticleaction”",
 	"apihelp-collection+suggestundoarticleaction-param-lastaction": "Een van 'add', 'remove' of 'ban'.",
 	"coll-api-addcategory-category-does-not-exist": "De categorie waaruit u pagina's probeert toe te voegen, bestaat niet, is ongeldig of heeft meer pagina's dan de opgegeven limiet.",
 	"apihelp-collection+addchapter-example": "Een hoofdstuk toevoegen aan de collectie.",
