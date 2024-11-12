@@ -3,12 +3,15 @@
 		"authors": [
 			"Caden99",
 			"Kimberli Mäkäräinen (WMNO)",
-			"Yupik"
+			"Yupik",
+			"Jon Harald Søby"
 		]
 	},
 	"coll-collection": "Girji",
 	"coll-collections": "Girjjit",
 	"coll-your_book": "Du girji",
+	"coll-download_title": "Viečča",
+	"coll-download": "Viečča",
 	"coll-remove": "Sihko",
 	"coll-show": "Čájet",
 	"coll-save_collection": "Vurke girjji",
