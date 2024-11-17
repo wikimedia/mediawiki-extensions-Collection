@@ -39,6 +39,7 @@ class ApiAddChapter extends ApiBase {
 		$this->getCollectionItemListAfterAction();
 	}
 
+	/** @inheritDoc */
 	public function getAllowedParams() {
 		return [
 			'chaptername' => [

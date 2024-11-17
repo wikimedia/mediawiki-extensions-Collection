@@ -8,6 +8,7 @@ use MediaWiki\MediaWikiServices;
  * API for PediaPress' mw-serve
  */
 class MWServeRenderingAPI extends CollectionRenderingAPI {
+	/** @inheritDoc */
 	protected function makeRequest( $command, array $params ) {
 		global $wgCollectionMWServeURL, $wgCollectionMWServeCredentials,
 			$wgCollectionFormatToServeURL, $wgCollectionCommandToServeURL;

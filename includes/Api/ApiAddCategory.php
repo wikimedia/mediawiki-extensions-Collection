@@ -48,6 +48,7 @@ class ApiAddCategory extends ApiBase {
 		$this->getCollectionItemListAfterAction();
 	}
 
+	/** @inheritDoc */
 	public function getAllowedParams() {
 		return [
 			// this really should be 'category' instead of 'title'

@@ -47,6 +47,7 @@ class ApiAddArticle extends ApiBase {
 		$this->getCollectionItemListAfterAction();
 	}
 
+	/** @inheritDoc */
 	public function getAllowedParams() {
 		return [
 			'namespace' => [

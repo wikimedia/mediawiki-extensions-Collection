@@ -41,6 +41,7 @@ class ApiRenameChapter extends ApiBase {
 		$this->getCollectionItemListAfterAction();
 	}
 
+	/** @inheritDoc */
 	public function getAllowedParams() {
 		return [
 			'index' => [

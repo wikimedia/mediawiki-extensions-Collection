@@ -58,6 +58,7 @@ class ApiPostCollection extends ApiBase {
 		);
 	}
 
+	/** @inheritDoc */
 	public function getAllowedParams() {
 		return [
 			'collection' => [

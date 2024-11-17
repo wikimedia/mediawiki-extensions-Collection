@@ -1399,6 +1399,7 @@ class SpecialCollection extends SpecialPage {
 		return false;
 	}
 
+	/** @inheritDoc */
 	protected function getGroupName() {
 		return 'pagetools';
 	}
