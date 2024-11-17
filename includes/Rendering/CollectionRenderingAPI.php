@@ -80,6 +80,10 @@ abstract class CollectionRenderingAPI {
 		);
 	}
 
+	/**
+	 * @param array $params
+	 * @return CollectionAPIResult
+	 */
 	protected function doRender( array $params ) {
 		$params['base_url'] = $this->getBaseUrl();
 		$params['script_extension'] = '.php';
