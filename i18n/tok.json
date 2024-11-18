@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Keenan Pepper"
+			"Keenan Pepper",
+			"Tamzin"
 		]
 	},
-	"coll-download_as": "o kama jo e ijo sama $1"
+	"coll-print_export": "tawa lipu",
+	"coll-download_as": "o kama jo e ni kepeken nasin $1"
 }
