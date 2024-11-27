@@ -1,10 +1,35 @@
 {
 	"@metadata": {
 		"authors": [
+			".hecko",
 			"Keenan Pepper",
 			"Tamzin"
 		]
 	},
-	"coll-print_export": "tawa lipu",
-	"coll-download_as": "o kama jo e ni kepeken nasin $1"
+	"coll-desc": "[[Special:Book|o pali e poki lipu]]",
+	"coll-book_creator_intro": "<big>''ilo pi poki lipu'' la sina ken poki e lipu pi wile sina. ni la sina ken kama jo e lipu poki lon nasin wile (PDF anu ODF anu ante) li ken esun e ona lon lipu lon.</big>",
+	"coll-manage_your_book": "pali pi poki lipu",
+	"coll-book_creator_help": "sina wile e sona mute la o lukin e [[{{MediaWiki:Coll-helppage}}|lipu sona pi poki lipu]].",
+	"coll-start_book_creator": "o open e pali poki",
+	"coll-book_creator_continue": "o awen e pali poki",
+	"coll-book_creator_disable_text": "ni la ''ilo pi poki lipu'' li kama pini. poki sina li kama weka.",
+	"coll-book_creator_text_article": "{{MediaWiki:Coll-helppage}}/ilo pi poki lipu la toki",
+	"coll-collection": "poki lipu",
+	"coll-collections": "poki lipu",
+	"coll-unknown_subpage_title": "lipu kili pi sona ala",
+	"coll-unknown_subpage_text": "lipu kili ni pi lipu \"[[Special:Book|poki lipu]]\" li lon ala.",
+	"coll-couldnotaddarticle_title": "pana li pakala",
+	"coll-couldnotaddarticle_msg": "mi ken ala pana e lipu.",
+	"coll-couldnotremovearticle_title": "weka li pakala",
+	"coll-couldnotremovearticle_msg": "mi ken ala weka e lipu.",
+	"coll-savedbook_template": "poki_lipu_awen",
+	"coll-your_book": "poki lipu sina",
+	"coll-download_title": "o jo",
+	"coll-download_text": "sina wile jo e poki la o wile e nasin o luka e nena.",
+	"coll-download_as_text": "sina wile jo e poki pi nasin $1 la o luka e nena.",
+	"coll-download": "o jo",
+	"coll-format_label": "nasin:",
+	"coll-remove": "o weka",
+	"coll-print_export": "o pana lon lipu lon anu ilo mi",
+	"coll-download_as": "o pana lon nasin $1"
 }
