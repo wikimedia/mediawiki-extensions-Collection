@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			".hecko",
+			"Juwan",
 			"Keenan Pepper",
 			"Tamzin"
 		]
 	},
 	"coll-desc": "[[Special:Book|o pali e poki lipu]]",
-	"coll-book_creator_intro": "<big>''ilo pi poki lipu'' la sina ken poki e lipu pi wile sina. ni la sina ken kama jo e lipu poki lon nasin wile (PDF anu ODF anu ante) li ken esun e ona lon lipu lon.</big>",
+	"coll-book_creator_intro": "<big>''ilo pi poki lipu'' la sina ken poki e lipu pi wile sina. ni la sina ken jo e lipu poki lon nasin wile (PDF anu ODF anu ante) li ken esun e ona lon lipu kasi.</big>",
 	"coll-manage_your_book": "pali pi poki lipu",
 	"coll-book_creator_help": "sina wile e sona mute la o lukin e [[{{MediaWiki:Coll-helppage}}|lipu sona pi poki lipu]].",
 	"coll-start_book_creator": "o open e pali poki",
@@ -30,6 +31,6 @@
 	"coll-download": "o jo",
 	"coll-format_label": "nasin:",
 	"coll-remove": "o weka",
-	"coll-print_export": "o pana lon lipu lon anu ilo mi",
-	"coll-download_as": "o pana lon nasin $1"
+	"coll-print_export": "o jo e lipu",
+	"coll-download_as": "o jo lon nasin $1"
 }
