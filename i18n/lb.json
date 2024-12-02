@@ -69,7 +69,7 @@
 	"coll-rendering_title": "Maachen",
 	"coll-rendering_text": "<p><strong>Gedëllegt Iech wgl. bis d'Dokument zesummegestallt ass.</strong></p>\n\n<p><strong>Fortschrëtt:</strong> <span id=\"renderingProgress\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p>Dës Säit gëtt normalerweis automatesch aktualiséiert.\nWann dat net sollt de Fall sinn, da klickt wgl. op den Aktualiséieren/Refresh Knäppche vun Ärem Browser.</p>",
 	"coll-rendering_status": "<strong>Statut :</strong> $1",
-	"coll-rendering_article": "(Wiki Säit: $1)",
+	"coll-rendering_article": "(Wiki-Säit: $1)",
 	"coll-rendering_page": "(Säit: $1)",
 	"coll-rendering_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informatiounstext iwwer d'Verschaffe vu Säiten",
 	"coll-rendering_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informatiounstext iwwer d'Duerstelle vu Sammlungen",
