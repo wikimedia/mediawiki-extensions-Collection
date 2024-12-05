@@ -7,7 +7,8 @@
 			"Macofe",
 			"Pippinu",
 			"Sarvaturi",
-			"Dapal"
+			"Dapal",
+			"GianAntonucci"
 		]
 	},
 	"coll-desc": "[[Special:Book|Crea libbri]]",
@@ -76,7 +77,7 @@
 	"right-collectionsaveasuserpage": "Sarva libbri comu pàggina utenti",
 	"action-collectionsaveascommunitypage": "sarbari libbra comu pàggina dâ cumunità",
 	"right-collectionsaveascommunitypage": "Sarba libbra comu pàggina dâ cumunità",
-	"coll-print_export": "Stampa/esporta",
+	"coll-print_export": "Stampa/sporta",
 	"coll-create_a_book": "Crea nu libbru",
 	"coll-book_creator": "Criaturi dî libbra",
 	"coll-download_as": "Scàrrica comu $1",
