@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"coll-remove": "Kwīt worden",
+	"coll-show": "Wīs",
+	"coll-move_up": "Amhōğ",
+	"coll-move_down": "Amdóól",
+	"coll-print_export": "Drükken/Eksport",
+	"coll-create_a_book": "Bauk móóken",
+	"coll-book_creator": "Bauk upsetten",
+	"coll-download_as": "Hóól as $1 dóól",
+	"coll-help": "Hüelp",
+	"coll-n_pages": "$1 {{PLURAL:$1|sīd|sīden}}",
+	"coll-remove_this_page": "Wor disser sīd ut dīn bauk kwīt"
+}
