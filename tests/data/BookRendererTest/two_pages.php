@@ -36,7 +36,8 @@ return [
 		'modulestyles' => [ 'foostyle' ],
 		'jsconfigvars' => [ 'x' => 1 ],
 	],
-	'expectedHtml' => [ /* will be filled in */ ],
+	// will be filled in
+	'expectedHtml' => [],
 	'expectedSections' => [
 		'Foo' => [
 			[

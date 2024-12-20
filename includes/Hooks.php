@@ -368,8 +368,9 @@ class Hooks implements
 					]
 				)
 				. '&#160;' . wfMessage( 'coll-show_collection' )->escaped()
+				// @todo FIXME: Hard coded parentheses.
 				. ' (' . wfMessage( 'coll-n_pages' )->numParams( $numArticles )->escaped() . ')'
-			); // @todo FIXME: Hard coded parentheses.
+			);
 		} else {
 			$linkRenderer = MediaWikiServices::getInstance()->getLinkRenderer();
 			return $linkRenderer->makeLink(
@@ -383,13 +384,14 @@ class Hooks implements
 					]
 				)
 				. '&#160;' . wfMessage( 'coll-show_collection' )->escaped()
+					// @todo FIXME: Hard coded parentheses.
 					. ' (' . wfMessage( 'coll-n_pages' )->numParams( $numArticles )->escaped() . ')' ),
 				[
 					'rel' => 'nofollow',
 					'title' => wfMessage( 'coll-show_collection_tooltip' )->text(),
 					'class' => 'collection-creatorbox-iconlink',
 				]
-			); // @todo FIXME: Hard coded parentheses.
+			);
 		}
 	}
 

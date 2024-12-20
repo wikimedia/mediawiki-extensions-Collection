@@ -239,7 +239,7 @@ class CollectionPageTemplate extends QuickTemplate {
 								</div>
 							</li>
 							<?php
-						} /* foreach */
+						}
 						?>
 					</ul></div>
 				<?php
@@ -274,7 +274,7 @@ class CollectionPageTemplate extends QuickTemplate {
 									<td id="collection-save-input">
 										<input id="personalCollTitle" type="text" name="pcollname" />
 									</td></tr>
-							<?php } // if ($canSaveUserPage) ?>
+							<?php } ?>
 							<?php if ( $canSaveCommunityPage ) { ?>
 								<tr><td>
 										<?php if ( $canSaveUserPage ) { ?>
@@ -287,7 +287,7 @@ class CollectionPageTemplate extends QuickTemplate {
 									<td id="collection-save-button">
 										<input id="communityCollTitle" type="text" name="ccollname" disabled="disabled" />
 									</td></tr>
-							<?php } // if ($canSaveCommunityPage) ?>
+							<?php } ?>
 							<tr><td>&#160;</td><td id="collection-save-button">
 									<input id="saveButton" type="submit" value="<?php $this->msg( 'coll-save_collection' ) ?>"<?php
 									if ( count( $collection['items'] ) == 0 ) {

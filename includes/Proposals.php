@@ -220,7 +220,8 @@ class Proposals {
 		foreach ( $allLinks as $link ) {
 			$link = $link[1];
 
-			if ( preg_match( '/[:#]/', $link ) ) { // skip links with ':' and '#'
+			// skip links with ':' and '#'
+			if ( preg_match( '/[:#]/', $link ) ) {
 				continue;
 			}
 
