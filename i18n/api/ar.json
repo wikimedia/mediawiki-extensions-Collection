@@ -1,7 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
-			"Alshamiri1"
+			"Alshamiri1",
+			"Meno25",
+			"محمد أحمد عبد الفتاح"
 		]
 	},
 	"apihelp-collection+getcollection-example": "سرد الصفحات الموجودة حاليًا في المجموعة.",
@@ -38,9 +40,9 @@
 	"apihelp-collection+getpopupdata-example": "يحصل على نافذة منبثقة لإضافة صفحة إلى المجموعة أو لإزالتها",
 	"apihelp-collection+getpopupdata-summary": "وحدة API للحصول على البيانات و HTML لإنشاء نافذة منبثقة",
 	"apihelp-collection+removeitem-example": "قم بإزالة عنصر من المجموعة بشرط فهرس أو فهرس 0 افتراضيًا.",
-	"apihelp-collection+removeitem-summary": "وحدة API لإزالة عنصر من فهرس المجموعة عبر Special: Book page.",
-	"apihelp-collection-param-submodule": "وحدة فرعية لأداء عمليات مختلفة على مجموعة مستخدم wiki.",
-	"apihelp-collection-summary": "وحدة API لأداء عمليات مختلفة على مجموعة مستخدم wiki.",
+	"apihelp-collection+removeitem-summary": "وحدة API لإزالة عنصر من فهرس المجموعة عبر صفحة Special:Book.",
+	"apihelp-collection-param-submodule": "وحدة فرعية لأداء عمليات مختلفة على مجموعة الويكي للمستخدم.",
+	"apihelp-collection-summary": "وحدة API لأداء عمليات مختلفة على مجموعة الويكي للمستخدم.",
 	"apihelp-collection+getbookcreatorboxcontent-example": "احصل على محتوى صندوق منشئ الكتب من مجموعة المستخدم.",
 	"apihelp-collection+getbookcreatorboxcontent-summary": "وحدة فرعية لواجهة برمجة التطبيقات (API) للاستيلاء على محتوى الصندوق من الصفحة الخاصة لمربع مؤلف الكتاب الخاص بالمستخدم.",
 	"apihelp-collection+postcollection-example": "نشر الصفحات في مجموعة المستخدم",
