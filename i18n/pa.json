@@ -173,6 +173,7 @@
 	"coll-images-original-artist": "ਅਸਲੀ ਕਲਾਕਾਰ",
 	"coll-license-title": "ਸਮੱਗਰੀ ਲਸੰਸ",
 	"coll-rendererror-title": "ਕਿਤਾਬ ਤਿਆਰ ਨਹੀਂ ਕੀਤੀ ਜਾ ਸਕੀ",
+	"coll-rendererror-no-session": "ਕਿਤਾਬ ਪਰਿਭਾਸ਼ਾ ਅਜਲਾਸ ਵਿੱਚ ਨਹੀਂ ਮਿਲੀ। ਹੋ ਸਕਦਾ ਹੈ ਕਿ ਇਸ ਨੂੰ ਗ਼ੈਰ-ਸਰਗਰਮ ਹੋਣ ਕਾਰਨ ਮਿਟਾ ਦਿੱਤਾ ਗਿਆ ਹੋਵੇ।",
 	"coll-rendererror-pdf": "PDF ਪੇਸ਼ਕਾਰੀ ਨਾਕਾਮ: $1",
 	"coll-rendererror-fetch": "$1 ਨੂੰ ਹਾਸਿਲ ਕਰਨਾ ਨਾਕਾਮ ਰਿਹਾ: $2",
 	"coll-rendererror-fetch-wrapper": "ਸਫ਼ੇ ਦੀ ਸਮੱਗਰੀ ਹਾਸਿਲ ਕਰਨ ਵਿੱਚ ਗਲਤੀਆਂ ਸਨ:$1",
