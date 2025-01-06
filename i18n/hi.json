@@ -11,7 +11,8 @@
 			"Sfic",
 			"Siddhartha Ghai",
 			"बिप्लब आनन्द",
-			"संजीव कुमार"
+			"संजीव कुमार",
+			"Cabal"
 		]
 	},
 	"coll-desc": "[[Special:Book|पुस्तकें बनाएँ]]",
@@ -45,7 +46,7 @@
 	"coll-move_to_bottom": "सबसे नीचे भेजें",
 	"coll-title": "शीर्षक:",
 	"coll-subtitle": "उपशीर्षक:",
-	"coll-contents": "अनुक्रम",
+	"coll-contents": "सामग्री",
 	"coll-drag_and_drop": "विकि पृष्ठों और अध्यायों का क्रम बदलने के लिए ड्रैग और ड्रॉप का प्रयोग करें",
 	"coll-create_chapter": "अध्याय बनायें",
 	"coll-sort_alphabetically": "वर्णक्रम अनुसार क्रमबद्ध करें",
