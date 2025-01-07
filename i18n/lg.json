@@ -1,13 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"AKibombo"
+			"AKibombo",
+			"Ssemmanda will"
 		]
 	},
 	"coll-no": "Nedda",
 	"coll-license": "Laayisensi",
 	"coll-suggested_articles": "Ebiteeso",
 	"coll-suggest_your_book": "Ekitabo kyo",
+	"coll-download_as": "Wanula nga $1",
 	"coll-bookscategory": "Ebitabo",
 	"coll-help": "Obuyambi",
 	"coll-setting-toc-yes": "Kale"
