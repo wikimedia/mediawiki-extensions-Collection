@@ -34,12 +34,12 @@ class CollectionAPIResult {
 	 * @return mixed
 	 */
 	public function get( $key, ...$keys ) {
-		$val = $this->response;
-		foreach ( func_get_args() as $key ) {
-			if ( !isset( $val[$key] ) ) {
+		$val = $this->response[$key] ?? '';
+		foreach ( $keys as $subkey ) {
+			if ( !is_array( $val ) ) {
 				return '';
 			}
-			$val = $val[$key];
+			$val = $val[$subkey] ?? '';
 		}
 		return $val;
 	}
