@@ -403,8 +403,8 @@ class SpecialCollection extends SpecialPage {
 			$this->renderSaveOverwritePage(
 				$colltype,
 				$title,
-				$request->getVal( 'pcollname' ),
-				$request->getVal( 'ccollname' )
+				$request->getVal( 'pcollname' ) ?? '',
+				$request->getVal( 'ccollname' ) ?? ''
 			);
 		}
 	}
