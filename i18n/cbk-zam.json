@@ -4,5 +4,6 @@
 			"Aristorkle"
 		]
 	},
-	"coll-download_as": "Descarga como $1"
+	"coll-print_export": "Imprimi/exporta",
+	"coll-download_as": "Man download como $1"
 }
