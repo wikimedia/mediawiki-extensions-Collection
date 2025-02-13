@@ -183,10 +183,12 @@ class Suggest {
 				SpecialCollection::removeArticleFromName( NS_MAIN, $param );
 				$session['wsCollectionSuggestBan'][] = $param;
 				break;
-			case 'removeonly': // remove w/out banning (for undo)
+			case 'removeonly':
+				// remove w/out banning (for undo)
 				SpecialCollection::removeArticleFromName( NS_MAIN, $param );
 				break;
-			case 'unban': // for undo
+			case 'unban':
+				// for undo
 				self::unban( $param );
 				break;
 		}

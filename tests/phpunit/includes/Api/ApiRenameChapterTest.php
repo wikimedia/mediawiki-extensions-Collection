@@ -127,7 +127,8 @@ class ApiRenameChapterTest extends ApiTestCase {
 		$apiResultChapterRenamed = $this->doApiRequest( [
 			'action' => 'collection',
 			'submodule' => 'renamechapter',
-			'index' => 5, // try to rename a chapter not in the book - index out of range
+			// try to rename a chapter not in the book - index out of range
+			'index' => 5,
 			'chaptername' => 'Chapter 5 renamed'
 		] )[0]['renamechapter']['collection']['items'];
 

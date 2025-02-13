@@ -104,7 +104,8 @@ class BookRenderer {
 						$metadata['displaytitle'], $metadata['sections'], $articleCount )
 				);
 				$bookBodyHtml .= Html::openElement( 'article' )
-					. substr( $serializer->getResult(), 15 ) // strip "<!DOCTYPE html>"
+					// strip "<!DOCTYPE html>"
+					. substr( $serializer->getResult(), 15 )
 					. Html::closeElement( 'article' );
 			} else {
 				throw new LogicException( 'Unknown collection item type: ' . $item['type'] );
@@ -308,7 +309,8 @@ class BookRenderer {
 	 */
 	public function getNestedOutline( array $outline ) {
 		$nestedOutline = [];
-		$lastItems = []; // level => last (currently open) item on that level
+		// array structure: level => last (currently open) item on that level
+		$lastItems = [];
 		foreach ( $outline as &$item ) {
 			$item['children'] = [];
 

@@ -89,7 +89,8 @@ class SpecialCollection extends SpecialPage {
 		// support previous URLs (e.g. used in templates) which used the "$par" part
 		// (i.e. subpages of the Special page)
 		if ( $par ) {
-			if ( $request->wasPosted() ) { // don't redirect POST reqs
+			// don't redirect POST reqs
+			if ( $request->wasPosted() ) {
 				// TODO
 			}
 			$out->redirect( wfAppendQuery(
@@ -881,12 +882,14 @@ class SpecialCollection extends SpecialPage {
 			preg_match( '/^\s*\|\s*setting-([a-zA-Z0-9_-]+)\s*=\s*([^|]*)\s*$/', $line, $match )
 		) {
 			$collection['settings'][$match[ 1 ]] = $match[ 2 ];
-		} elseif ( substr( $line, 0, 1 ) == ';' ) { // chapter
+		} elseif ( substr( $line, 0, 1 ) == ';' ) {
+			// chapter
 			return [
 				'type' => 'chapter',
 				'title' => trim( substr( $line, 1 ) ),
 			];
-		} elseif ( substr( $line, 0, 1 ) == ':' ) { // article
+		} elseif ( substr( $line, 0, 1 ) == ':' ) {
+			// article
 			$articleTitle = trim( substr( $line, 1 ) );
 			if ( preg_match( '/^\[\[:?(.*?)(\|(.*?))?\]\]$/', $articleTitle, $match ) ) {
 				$articleTitle = $match[1];
@@ -1133,7 +1136,8 @@ class SpecialCollection extends SpecialPage {
 
 		$result = CollectionRenderingAPI::instance( $writer )->getRenderStatus( $collectionId );
 		if ( !$this->handleResult( $result ) ) {
-			return; // FIXME?
+			 // FIXME?
+			return;
 		}
 
 		$query = 'collection_id=' . urlencode( $collectionId )
