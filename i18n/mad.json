@@ -112,7 +112,7 @@
 	"coll-suggest_article_remove": "Kaca <strong>$1</strong> la èkosot ḍâri bukuna Bâ'na$2.",
 	"coll-suggest_undo_tooltip": "Pabâli pèlèyan arèya",
 	"coll-suggest_undo": "pabâli",
-	"coll-load_local_book": "Pècè' \"OK\" kalamon nojjhuwâ ka bukuna Bâ'na, $1, sè èssèna $2 {{PLURAL:$2|kaca|kaca}}. Pècè' \"Paburung\" ka'angghuy ngosot bân molaè bi' buku kotthong.",
+	"coll-load_local_book": "Pècè' \"OK\" kalamon nojjhuwâ ka bukuna Bâ'na $1, sè èssèna $2 {{PLURAL:$2|kaca|kaca}}. Pècè' \"Paburung\" ka'angghuy ngosot bân molaè kalabân buku kotthong.",
 	"coll-format-rdf2text": "Pangola oca' (okara lomra)",
 	"action-collectionsaveasuserpage": "nyèmpen kolèksi buku mènangka kaca pangangghuy",
 	"right-collectionsaveasuserpage": "Nyèmpen kolèksi buku mènangka kaca pangangghuy",
