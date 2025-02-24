@@ -87,8 +87,7 @@ abstract class CollectionRenderingAPI {
 	protected function doRender( array $params ) {
 		$params['base_url'] = $this->getBaseUrl();
 		$params['script_extension'] = '.php';
-		$params['language'] = MediaWikiServices::getInstance()->getContentLanguage()
-			->getCode();
+		$params['language'] = MediaWikiServices::getInstance()->getContentLanguageCode()->toString();
 		return $this->makeRequest( 'render', $params );
 	}
 
