@@ -10,7 +10,8 @@
 			"Ykhwong",
 			"아라",
 			"Dr1t jg",
-			"기나ㅏㄴ"
+			"기나ㅏㄴ",
+			"Namoroka"
 		]
 	},
 	"coll-desc": "[[Special:Book|책을 만듭니다]]",
@@ -157,7 +158,7 @@
 	"coll-printable_version_pdf": "PDF 버전",
 	"coll-remove_this_page": "책에서 이 페이지를 제거",
 	"coll-remove_page_tooltip": "책에서 현재 위키 문서를 제거",
-	"coll-show_collection": "책 보이기",
+	"coll-show_collection": "책 보기",
 	"coll-show_collection_tooltip": "책을 편집/다운로드/주문하려면 클릭하십시오",
 	"coll-not_addable": "이 문서는 추가할 수 없습니다",
 	"coll-make_suggestions": "문서 제안하기",
