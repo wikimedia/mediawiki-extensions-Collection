@@ -47,6 +47,7 @@ class MessageBoxHelper {
 		] );
 		$out->addModuleStyles( [
 			'mediawiki.hlist',
+			'mediawiki.codex.messagebox.styles',
 			'ext.collection.bookcreator.messageBox.icons',
 		] );
 	}
