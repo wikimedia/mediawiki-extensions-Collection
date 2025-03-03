@@ -4,7 +4,8 @@
 			"Ahmed-Najib-Biabani-Ibrahimkhel",
 			"Amjad Khan",
 			"Macofe",
-			"Af420"
+			"Af420",
+			"شاه زمان پټان"
 		]
 	},
 	"coll-desc": "[[Special:Book|کتابونه جوړول]]",
@@ -86,7 +87,7 @@
 	"coll-format-zim": "کيويکس (OpenZIM)",
 	"coll-format-okawix_zeno": "اوکاوېکس",
 	"right-collectionsaveasuserpage": "کتابونه د کارن مخ په توگه خوندي کول",
-	"coll-print_export": "چاپول/صادرول",
+	"coll-print_export": "چاپول/لېږل",
 	"coll-create_a_book": "يو کتاب جوړول",
 	"coll-create_a_book_tooltip": "يو کتاب يا د مخونو ټولګه جوړول",
 	"coll-book_creator": "کتاب جوړونکی",
