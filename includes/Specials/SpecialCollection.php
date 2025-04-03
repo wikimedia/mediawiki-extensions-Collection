@@ -68,6 +68,7 @@ class SpecialCollection extends SpecialPage {
 		}
 	}
 
+	/** @inheritDoc */
 	public function doesWrites() {
 		return true;
 	}
