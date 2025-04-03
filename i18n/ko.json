@@ -11,7 +11,8 @@
 			"Ykhwong",
 			"아라",
 			"기나ㅏㄴ",
-			"Namoroka"
+			"Namoroka",
+			"Tensama0415"
 		]
 	},
 	"coll-desc": "[[Special:Book|책을 만듭니다]]",
@@ -176,7 +177,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>출처:</i> $2 <i>기여자:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>출처:</i> $2 <i>라이선스:</i> $3 <i>기여자:</i> $4 <i>원저자:</i> $5",
 	"coll-notice-download-pdf-title": "단일 문서 다운로드",
-	"coll-notice-download-pdf-text": "책 만들기는 PDF 렌더링을 지원하지 않지만([[mw:Reading/Web/PDF_Functionality/ko|자세히 알아보기]]), 개별 문서마다 사이드바 도구에서 '''PDF로 다운로드'''를 시도할 수 있습니다.",
+	"coll-notice-download-pdf-text": "책 만들기는 PDF 렌더링을 지원하지 않지만([[mw:Reading/Web/PDF_Functionality/ko|자세히 알아보기]]), 개별 문서마다 사이드바 도구에서 '''''PDF로 다운로드'''''를 시도할 수 있습니다.",
 	"coll-toc-title": "목차",
 	"coll-contributors-title": "기여자",
 	"coll-images-title": "그림",
