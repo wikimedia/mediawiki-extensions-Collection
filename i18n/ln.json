@@ -2,10 +2,12 @@
 	"@metadata": {
 		"authors": [
 			"Eruedin",
-			"CapitainAfrika"
+			"CapitainAfrika",
+			"Lydie maliki"
 		]
 	},
 	"coll-desc": "[[Special:Búku|Kokela búku]]",
 	"coll-show": "Komɔ́nisa",
+	"coll-print_export": "Imprimer/exporter na mboka mopaya",
 	"coll-download_as": "Kokɔ́ngɔlɔ lokóla $1"
 }
