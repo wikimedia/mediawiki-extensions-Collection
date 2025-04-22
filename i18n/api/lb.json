@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Volvox"
+		]
+	},
+	"apihelp-collection+addarticle-param-namespace": "Nummraum vun der Säit fir derbäizesetzen",
+	"apihelp-collection+addarticle-param-title": "Titel vun der Säit fir derbäizesetzen",
+	"apihelp-collection+removearticle-param-namespace": "Nummraum vun der Säit fir erauszehuelen",
+	"apihelp-collection+removearticle-param-title": "Titel vun der Säit fir erauszehuelen",
+	"apihelp-collection+addcategory-param-title": "Kategorie fir derbäizesetzen",
+	"apihelp-collection+suggestarticleaction-param-title": "Titel vun enger Säit",
+	"apihelp-collection+suggestundoarticleaction-param-title": "Titel vun enger Säit",
+	"apihelp-collection+getpopupdata-param-title": "Titel vun enger Säit",
+	"apihelp-collection+getbookcreatorboxcontent-param-pagename": "Titel vun enger Säit"
+}
