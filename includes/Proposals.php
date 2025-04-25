@@ -22,8 +22,8 @@
 
 namespace MediaWiki\Extension\Collection;
 
-use Article;
 use MediaWiki\Content\TextContent;
+use MediaWiki\Page\Article;
 use MediaWiki\Title\Title;
 
 /**

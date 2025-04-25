@@ -9,9 +9,9 @@ namespace MediaWiki\Extension\Collection\Templates;
 
 use MediaWiki\Extension\Collection\Session;
 use MediaWiki\Html\Html;
+use MediaWiki\Skin\QuickTemplate;
 use MediaWiki\Skin\SkinComponentUtils;
 use MediaWiki\Title\Title;
-use QuickTemplate;
 
 /**
  * HTML template for Special:Book/rendering/ (finished)

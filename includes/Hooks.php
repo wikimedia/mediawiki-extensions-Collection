@@ -33,9 +33,9 @@ use MediaWiki\MediaWikiServices;
 use MediaWiki\Output\Hook\OutputPageCheckLastModifiedHook;
 use MediaWiki\Output\OutputPage;
 use MediaWiki\Session\SessionManager;
+use MediaWiki\Skin\Skin;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
-use Skin;
 
 class Hooks implements
 	SidebarBeforeOutputHook,

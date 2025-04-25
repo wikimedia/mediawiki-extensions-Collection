@@ -8,9 +8,9 @@
 namespace MediaWiki\Extension\Collection\Templates;
 
 use MediaWiki\Html\Html;
+use MediaWiki\Skin\QuickTemplate;
 use MediaWiki\Skin\SkinComponentUtils;
 use MediaWiki\Title\Title;
-use QuickTemplate;
 
 /**
  * Template for suggest feature

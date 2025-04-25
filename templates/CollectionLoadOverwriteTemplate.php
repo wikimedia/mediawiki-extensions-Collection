@@ -8,9 +8,9 @@
 namespace MediaWiki\Extension\Collection\Templates;
 
 use MediaWiki\Output\OutputPage;
+use MediaWiki\Skin\QuickTemplate;
 use MediaWiki\Skin\SkinComponentUtils;
 use MediaWiki\Title\Title;
-use QuickTemplate;
 
 /**
  * HTML template for Special:Book/load_collection/ when overwriting an exisiting collection
