@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Crucifunked"
+			"Crucifunked",
+			"HackerPunki"
 		]
 	},
 	"coll-remove": "Esborral",
+	"coll-print_export": "Emprental/esportal",
 	"coll-remove_this_page": "Esborral esta páhina e la tu lista e seguimientu"
 }
