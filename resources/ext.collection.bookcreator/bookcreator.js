@@ -265,7 +265,7 @@
 			}
 			var $this = $( this );
 			// title doesn't contain ":" (simplification!)
-			if ( !$this.attr( 'title' ) || $this.attr( 'title' ).indexOf( ':' ) !== -1 ) {
+			if ( !$this.attr( 'title' ) || $this.attr( 'title' ).includes( ':' ) ) {
 				return;
 			}
 			if ( $this.parents( '.nopopups' ).length ) {
