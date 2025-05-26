@@ -161,10 +161,13 @@
 	"coll-article-attribution": "<b>$1</b> <i>Izvor:</i> $2 <i>Doprinosioci:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Izvor:</i> $2 <i>Licenca:</i> $3 <i>Doprinosioci:</i> $4 <i>Prvobitni umetnik:</i> $5",
 	"coll-warning-learn-more": "Saznajte više",
+	"coll-notice-download-pdf-title": "Preuzmi pojedinačne stranice",
 	"coll-toc-title": "Sadržaj",
 	"coll-contributors-title": "Doprinosioci",
 	"coll-images-title": "Slike",
 	"coll-images-source": "Izvor",
 	"coll-images-license": "Licenca",
-	"coll-license-title": "Licenca sadržaja"
+	"coll-images-original-artist": "Izvorni umetnik",
+	"coll-license-title": "Licenca sadržaja",
+	"coll-rendererror-title": "Pravljenje knjige nije uspelo"
 }
