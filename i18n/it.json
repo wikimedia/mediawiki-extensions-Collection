@@ -78,7 +78,7 @@
 	"coll-limit_exceeded_title": "Libro troppo grande",
 	"coll-limit_exceeded_text": "Il tuo libro è troppo grande.\nNon è più possibile aggiungervi pagine.",
 	"coll-rendering_title": "Conversione",
-	"coll-rendering_text": "<p><strong>Attendere mentre il documento viene generato.</strong></p>\n\n<p><strong>Avanzamento:</strong> <span id=\"renderingProgress\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p>Questa pagina dovrebbe aggiornarsi automaticamente ogni pochi secondi.\nSe ciò non succede, premi il pulsante di aggiornamento del tuo browser.</p>",
+	"coll-rendering_text": "<p><strong>Attendere mentre il documento viene generato.</strong></p>\n\n<p><strong>Avanzamento:</strong> <span id=\"renderingProgress\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p>Questa pagina dovrebbe aggiornarsi automaticamente entro pochi secondi.\nSe ciò non succede, premi il pulsante di aggiornamento del tuo browser.</p>",
 	"coll-rendering_status": "<strong>Stato:</strong> $1",
 	"coll-rendering_article": "(pagina wiki: $1)",
 	"coll-rendering_page": "(pagina: $1)",

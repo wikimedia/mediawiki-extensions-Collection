@@ -167,7 +167,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>Хьост:</i> $2 <i>Авторш:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Хьост:</i> $2 <i>Лицензи:</i> $3 <i>Авторш:</i> $4 <i>Исбаьхьалча:</i> $5",
 	"coll-notice-download-pdf-title": "АгӀонаш ша-ша схьаэца",
-	"coll-notice-download-pdf-text": "PDF-рендер Book Creator гӀоьнца хийцамбина хиларна, хьан йиш йу '''''PDF санна схьаэца''''' функци лело, иза йу агӀорхьарчу панель тӀехь йешаран рожехь.",
+	"coll-notice-download-pdf-text": "PDF-файлийн рендеринг ''Жайнаш кхуллург'' дӀайайина хиларна ([[mw:Reading/Web/PDF_Functionality|хьажа мадарра]]), хьажа мегар ду  агӀонан панель тӀера '''''PDF санна схьаэца''''' гӀирс лело цхьацца йаззамашна.",
 	"coll-toc-title": "Чулацам",
 	"coll-contributors-title": "Авторш",
 	"coll-images-title": "Суьрташ",
