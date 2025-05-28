@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"26agcp",
-			"Lorenzoitza"
+			"Lorenzoitza",
+			"VicenteCancheM"
 		]
 	},
+	"coll-print_export": "Íimprimirtej/túuxtej",
 	"coll-create_a_book": "Beet up'eel analte'",
 	"coll-download_as": "Éems bey $1"
 }
