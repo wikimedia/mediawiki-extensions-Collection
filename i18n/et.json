@@ -7,7 +7,7 @@
 		]
 	},
 	"coll-desc": "Võimaldab [[Special:Book|raamatuid koostada]].",
-	"coll-book_creator_intro": "<big>Saad koostada meelepärastest vikilehekülgedest koosneva raamatu. Saad raamatu erinevatesse vormingutesse (näiteks PDF või ODF) eksportida või tellida trükitud eksemplari.</big>",
+	"coll-book_creator_intro": "<big>Saad koostada meelepärastest vikilehekülgedest koosneva raamatu. Saad raamatu eri vormingutesse (näiteks PDF või ODF) eksportida või tellida trükitud eksemplari.</big>",
 	"coll-manage_your_book": "Raamatu haldamine",
 	"coll-book_creator_help": "Täiendava teabe jaoks vaata [[{{MediaWiki:Coll-helppage}}|raamatute abilehte]].",
 	"coll-start_book_creator": "Alusta raamatu koostamist",
