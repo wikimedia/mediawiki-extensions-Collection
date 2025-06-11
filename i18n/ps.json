@@ -44,7 +44,7 @@
 	"coll-save_collection_title": "خپل کتاب وېشل او خوندي‌کول",
 	"coll-save_collection_text": "د کتاب زېرمه کولو لپاره مو يو ځای وټاکئ:",
 	"coll-save_collection": "کتاب خوندي‌کول",
-	"coll-save_category": "ټول خوندي شوي کتابونه مو په [[Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]] وېشنيزه کې ورگډ شوي.",
+	"coll-save_category": "ټول خوندي شوي کتابونه مو په [[:Category:{{MediaWiki:Coll-bookscategory}}|{{MediaWiki:Coll-bookscategory}}]] وېشنيزه کې ورگډ شوي.",
 	"coll-overwrite_title": "دا مخ شته.\nدپاسه يې ليکل غواړئ؟",
 	"coll-yes": "هو",
 	"coll-no": "نه",
