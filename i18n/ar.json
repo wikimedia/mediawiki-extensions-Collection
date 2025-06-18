@@ -21,7 +21,8 @@
 			"زكريا",
 			"علاء",
 			"فلورانس",
-			"محمدالداودي"
+			"محمدالداودي",
+			"Mohammed Qays"
 		]
 	},
 	"coll-desc": "[[Special:Book|ينشيء كتبا]]",
@@ -167,7 +168,7 @@
 	"coll-helppage": "Help:كتب",
 	"coll-load_collection": "تحميل الكتاب",
 	"coll-load_collection_tooltip": "حمل هذا الكتاب ككتابك الحالي",
-	"coll-n_pages": "{{PLURAL:$1||صفحة واحدة|صفحتان|$1 صفحات|$1 صفحة}}",
+	"coll-n_pages": "$1 {{PLURAL:$1|صفحة|صفحات}}",
 	"coll-printable_version_pdf": "نسخة صيغة المستندات المحمولة",
 	"coll-remove_this_page": "أزل هذه الصفحة من كتابك",
 	"coll-remove_page_tooltip": "أزل صفحة الويكي الحالية من كتابك",
