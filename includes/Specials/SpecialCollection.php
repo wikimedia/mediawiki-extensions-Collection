@@ -37,6 +37,7 @@ use MediaWiki\Extension\Collection\Templates\CollectionPageTemplate;
 use MediaWiki\Extension\Collection\Templates\CollectionRenderingTemplate;
 use MediaWiki\Extension\Collection\Templates\CollectionSaveOverwriteTemplate;
 use MediaWiki\Html\Html;
+use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Request\DerivativeRequest;
 use MediaWiki\Skin\SkinComponentUtils;
@@ -753,21 +754,33 @@ class SpecialCollection extends SpecialPage {
 			self::limitExceeded();
 			return false;
 		}
-		$dbr = MediaWikiServices::getInstance()->getConnectionProvider()->getReplicaDatabase();
-		$res = $dbr->newSelectQueryBuilder()
+
+		$services = MediaWikiServices::getInstance();
+		$dbr = $services->getConnectionProvider()->getReplicaDatabase();
+
+		$migrationStage = $services->getMainConfig()->get(
+			MainConfigNames::CategoryLinksSchemaMigrationStage
+		);
+
+		$qb = $dbr->newSelectQueryBuilder()
 			->select( [ 'page_namespace', 'page_title' ] )
 			->from( 'page' )
 			->join( 'categorylinks', null, 'cl_from=page_id' )
-			->where( [ 'cl_to' => $title->getDBkey() ] )
 			->orderBy( [ 'cl_type', 'cl_sortkey' ] )
 			->limit( $limit + 1 )
-			->caller( __METHOD__ )
-			->fetchResultSet();
+			->caller( __METHOD__ );
+
+		if ( $migrationStage & SCHEMA_COMPAT_READ_OLD ) {
+			$qb->where( [ 'cl_to' => $title->getDBkey() ] );
+		} else {
+			$qb->join( 'linktarget', null, 'lt_id=cl_target_id' );
+			$qb->where( [ 'lt_title' => $title->getDBkey() ] );
+		}
 
 		$count = 0;
 		$limitExceeded = false;
 		$collectionArticleNamespaces = $config->get( 'CollectionArticleNamespaces' );
-		foreach ( $res as $row ) {
+		foreach ( $qb->fetchResultSet() as $row ) {
 			if ( ++$count > $limit ) {
 				$limitExceeded = true;
 				break;
