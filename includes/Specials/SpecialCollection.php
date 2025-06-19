@@ -774,7 +774,10 @@ class SpecialCollection extends SpecialPage {
 			$qb->where( [ 'cl_to' => $title->getDBkey() ] );
 		} else {
 			$qb->join( 'linktarget', null, 'lt_id=cl_target_id' );
-			$qb->where( [ 'lt_title' => $title->getDBkey() ] );
+			$qb->where( [
+				'lt_title' => $title->getDBkey(),
+				'lt_namespace' => NS_CATEGORY,
+			] );
 		}
 
 		$count = 0;
