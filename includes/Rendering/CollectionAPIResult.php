@@ -19,7 +19,6 @@ class CollectionAPIResult {
 			$this->response = FormatJson::decode( $data, true );
 			if ( $this->response === null ) {
 				wfDebugLog( 'collection', "Server returned bogus data: $data" );
-				$this->response = null;
 			}
 			if ( $this->isError() ) {
 				wfDebugLog( 'collection', "Server returned error: {$this->getError()}" );
