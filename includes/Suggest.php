@@ -22,7 +22,7 @@
 
 namespace MediaWiki\Extension\Collection;
 
-use MediaWiki\Context\RequestContext;
+use MediaWiki\Context\IContextSource;
 use MediaWiki\Extension\Collection\Specials\SpecialCollection;
 use MediaWiki\Extension\Collection\Templates\CollectionSuggestTemplate;
 use MediaWiki\Session\SessionManager;
@@ -38,6 +38,7 @@ class Suggest {
 	/**
 	 * Main entrypoint
 	 *
+	 * @param IContextSource $context
 	 * @param string $mode
 	 *        'add' => add one title to the book.
 	 *        'addAll' => Add a list of titles to the book.
@@ -48,13 +49,12 @@ class Suggest {
 	 * @param string|string[] $param Name of the article to be added, banned
 	 *        or removed, or a list of article names to be added.
 	 */
-	public static function run( $mode = '', $param = '' ) {
+	public static function run( IContextSource $context, $mode = '', $param = '' ) {
 		if ( !Session::hasSession() ) {
 			Session::startSession();
 		}
 
 		$template = self::getCollectionSuggestTemplate( $mode, $param );
-		$context = RequestContext::getMain();
 		$out = $context->getOutput();
 		$out->setPageTitleMsg( $context->msg( 'coll-suggest_title' ) );
 		$out->addModules( 'ext.collection.suggest' );
