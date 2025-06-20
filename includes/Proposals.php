@@ -23,6 +23,7 @@
 namespace MediaWiki\Extension\Collection;
 
 use MediaWiki\Content\TextContent;
+use MediaWiki\MediaWikiServices;
 use MediaWiki\Page\Article;
 use MediaWiki\Title\Title;
 
@@ -137,13 +138,12 @@ class Proposals {
 	 * Check if all articles form the book are in $mLinkList
 	 */
 	private function addCollectionArticles() {
-		global $wgCollectionSuggestThreshhold;
-
 		if ( !isset( $this->mColl['items'] ) ) {
 			return;
 		}
 		$numItems = count( $this->mColl['items'] );
-		if ( $numItems === 0 || $numItems > $wgCollectionSuggestThreshhold ) {
+		$threshhold = MediaWikiServices::getInstance()->getMainConfig()->get( 'CollectionSuggestThreshhold' );
+		if ( $numItems === 0 || $numItems > $threshhold ) {
 			return;
 		}
 
@@ -206,8 +206,6 @@ class Proposals {
 	 * @return float[] with links and their weights
 	 */
 	private function getWeightedLinks( $num_articles, $wikitext ) {
-		global $wgCollectionSuggestCheapWeightThreshhold;
-
 		$allLinks = [];
 		preg_match_all(
 			'/\[\[(.+?)\]\]/',
@@ -258,7 +256,9 @@ class Proposals {
 		}
 
 		$linkcount = [];
-		if ( $num_articles < $wgCollectionSuggestCheapWeightThreshhold ) {
+		$threshhold = MediaWikiServices::getInstance()->getMainConfig()
+			->get( 'CollectionSuggestCheapWeightThreshhold' );
+		if ( $num_articles < $threshhold ) {
 			// more expensive algorithm: count words
 			foreach ( $linkmap as $alias => $linked ) {
 				$matches = [];

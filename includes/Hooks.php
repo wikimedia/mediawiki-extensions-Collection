@@ -23,6 +23,7 @@
 namespace MediaWiki\Extension\Collection;
 
 use HtmlArmor;
+use MediaWiki\Config\Config;
 use MediaWiki\Context\IContextSource;
 use MediaWiki\Hook\SidebarBeforeOutputHook;
 use MediaWiki\Hook\SiteNoticeAfterHook;
@@ -42,6 +43,14 @@ class Hooks implements
 	SiteNoticeAfterHook,
 	OutputPageCheckLastModifiedHook
 {
+	private Config $config;
+
+	public function __construct(
+		Config $config
+	) {
+		$this->config = $config;
+	}
+
 	/**
 	 * Callback for SidebarBeforeOutput hook
 	 *
@@ -49,11 +58,11 @@ class Hooks implements
 	 * @param array &$sidebar
 	 */
 	public function onSidebarBeforeOutput( $skin, &$sidebar ): void {
-		global $wgCollectionPortletForLoggedInUsersOnly;
+		$portletForLoggedInUsersOnly = $this->config->get( 'CollectionPortletForLoggedInUsersOnly' );
 
-		if ( !$wgCollectionPortletForLoggedInUsersOnly || $skin->getUser()->isNamed() ) {
+		if ( !$portletForLoggedInUsersOnly || $skin->getUser()->isNamed() ) {
 
-			$portlet = self::getPortlet( $skin );
+			$portlet = $this->getPortlet( $skin );
 
 			if ( $portlet ) {
 				// Unset 'print' item. We have moved it to our own section.
@@ -72,11 +81,7 @@ class Hooks implements
 	 *
 	 * @return array[]|false
 	 */
-	public static function getPortlet( $sk ) {
-		global $wgCollectionArticleNamespaces;
-		global $wgCollectionFormats;
-		global $wgCollectionPortletFormats;
-
+	private function getPortlet( $sk ) {
 		$title = $sk->getTitle();
 
 		if ( $title === null || !$title->exists() ) {
@@ -85,7 +90,7 @@ class Hooks implements
 
 		$namespace = $title->getNamespace();
 
-		if ( !in_array( $namespace, $wgCollectionArticleNamespaces )
+		if ( !in_array( $namespace, $this->config->get( 'CollectionArticleNamespaces' ) )
 			&& $namespace != NS_CATEGORY ) {
 			return false;
 		}
@@ -134,10 +139,11 @@ class Hooks implements
 			$params['oldid'] = $title->getLatestRevID();
 		}
 
-		foreach ( $wgCollectionPortletFormats as $writer ) {
+		$formats = $this->config->get( 'CollectionFormats' );
+		foreach ( $this->config->get( 'CollectionPortletFormats' ) as $writer ) {
 			$params['writer'] = $writer;
 			$out[] = [
-				'text' => $sk->msg( 'coll-download_as', $wgCollectionFormats[$writer] )->text(),
+				'text' => $sk->msg( 'coll-download_as', $formats[$writer] )->text(),
 				'id' => 'coll-download-as-' . $writer,
 				'href' => $booktitle->getLocalURL( $params ),
 			];
@@ -162,8 +168,6 @@ class Hooks implements
 	 * @param Skin $skin
 	 */
 	public function onSiteNoticeAfter( &$siteNotice, $skin ) {
-		global $wgCollectionArticleNamespaces;
-
 		$request = $skin->getRequest();
 
 		$action = $request->getRawVal( 'action' ) ?? 'view';
@@ -197,7 +201,7 @@ class Hooks implements
 		}
 
 		$namespace = $title->getNamespace();
-		if ( !in_array( $namespace, $wgCollectionArticleNamespaces )
+		if ( !in_array( $namespace, $this->config->get( 'CollectionArticleNamespaces' ) )
 			&& $namespace != NS_CATEGORY ) {
 			return;
 		}
@@ -255,9 +259,9 @@ class Hooks implements
 	 * @return string
 	 */
 	public static function getBookCreatorBoxContent( Title $title, $hint = null, $oldid = null ) {
-		global $wgExtensionAssetsPath;
+		$path = MediaWikiServices::getInstance()->getMainConfig()->get( MainConfigNames::ExtensionAssetsPath );
 
-		$imagePath = "$wgExtensionAssetsPath/Collection/images";
+		$imagePath = "$path/Collection/images";
 
 		return self::getBookCreatorBoxAddRemoveLink( $imagePath, $hint, $title, $oldid )
 			. self::getBookCreatorBoxShowBookLink( $imagePath, $hint )

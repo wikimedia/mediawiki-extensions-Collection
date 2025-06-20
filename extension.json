@@ -110,7 +110,10 @@
 	},
 	"HookHandlers": {
 		"main": {
-			"class": "MediaWiki\\Extension\\Collection\\Hooks"
+			"class": "MediaWiki\\Extension\\Collection\\Hooks",
+			"services": [
+				"MainConfig"
+			]
 		}
 	},
 	"config": {

@@ -4,6 +4,7 @@ namespace MediaWiki\Extension\Collection\Rendering;
 
 use MediaWiki\Context\RequestContext;
 use MediaWiki\Json\FormatJson;
+use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
 
 /**
@@ -48,9 +49,9 @@ abstract class CollectionRenderingAPI {
 	 * @return string|null Expanded wgScriptPath to work around T39868
 	 */
 	private function getBaseUrl() {
-		global $wgScriptPath;
+		$scriptPath = MediaWikiServices::getInstance()->getMainConfig()->get( MainConfigNames::ScriptPath );
 
-		return MediaWikiServices::getInstance()->getUrlUtils()->expand( $wgScriptPath ?: '/', PROTO_CANONICAL );
+		return MediaWikiServices::getInstance()->getUrlUtils()->expand( $scriptPath ?: '/', PROTO_CANONICAL );
 	}
 
 	/**
@@ -144,9 +145,6 @@ abstract class CollectionRenderingAPI {
 	 * @return array
 	 */
 	protected function getLicenseInfos() {
-		global $wgCollectionLicenseName, $wgCollectionLicenseURL, $wgRightsIcon;
-		global $wgRightsPage, $wgRightsText, $wgRightsUrl;
-
 		$licenseInfo = [
 			'type' => 'license',
 		];
@@ -157,19 +155,17 @@ abstract class CollectionRenderingAPI {
 			return [ $licenseInfo ];
 		}
 
-		if ( $wgCollectionLicenseName ) {
-			$licenseInfo['name'] = $wgCollectionLicenseName;
-		} else {
-			$licenseInfo['name'] = wfMessage( 'coll-license' )->inContentLanguage()->text();
-		}
+		$config = MediaWikiServices::getInstance()->getMainConfig();
+		$licenseInfo['name'] = $config->get( 'CollectionLicenseName' ) ?:
+			wfMessage( 'coll-license' )->inContentLanguage()->text();
 
-		if ( $wgCollectionLicenseURL ) {
-			$licenseInfo['mw_license_url'] = $wgCollectionLicenseURL;
+		if ( $config->get( 'CollectionLicenseURL' ) ) {
+			$licenseInfo['mw_license_url'] = $config->get( 'CollectionLicenseURL' );
 		} else {
-			$licenseInfo['mw_rights_icon'] = $wgRightsIcon;
-			$licenseInfo['mw_rights_page'] = $wgRightsPage;
-			$licenseInfo['mw_rights_url'] = $wgRightsUrl;
-			$licenseInfo['mw_rights_text'] = $wgRightsText;
+			$licenseInfo['mw_rights_icon'] = $config->get( MainConfigNames::RightsIcon );
+			$licenseInfo['mw_rights_page'] = $config->get( MainConfigNames::RightsPage );
+			$licenseInfo['mw_rights_url'] = $config->get( MainConfigNames::RightsUrl );
+			$licenseInfo['mw_rights_text'] = $config->get( MainConfigNames::RightsText );
 		}
 
 		return [ $licenseInfo ];
