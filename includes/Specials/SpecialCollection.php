@@ -117,7 +117,7 @@ class SpecialCollection extends SpecialPage {
 			return;
 		}
 
-		switch ( $request->getVal( 'bookcmd', '' ) ) {
+		switch ( $request->getRawVal( 'bookcmd' ) ?? '' ) {
 			case 'book_creator':
 				$this->renderBookCreatorPage( $request->getVal( 'referer', '' ), $par );
 				return;

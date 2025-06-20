@@ -90,8 +90,8 @@ class Hooks implements
 			return false;
 		}
 
-		$action = $sk->getRequest()->getVal( 'action', 'view' );
-		if ( $action != 'view' && $action != 'purge' ) {
+		$action = $sk->getRequest()->getRawVal( 'action' ) ?? 'view';
+		if ( $action !== 'view' && $action !== 'purge' ) {
 			return false;
 		}
 
@@ -144,7 +144,7 @@ class Hooks implements
 		}
 
 		// Move the 'printable' link into our section for consistency
-		if ( $action == 'view' || $action == 'purge' ) {
+		if ( $action === 'view' || $action === 'purge' ) {
 			if ( !$sk->getOutput()->isPrintable() ) {
 				$out[] = [ 'text' => $sk->msg( 'printableversion' )->text(),
 					'id' => 't-print',
@@ -166,8 +166,8 @@ class Hooks implements
 
 		$request = $skin->getRequest();
 
-		$action = $request->getVal( 'action' );
-		if ( $action != '' && $action != 'view' && $action != 'purge' ) {
+		$action = $request->getRawVal( 'action' ) ?? 'view';
+		if ( $action !== 'view' && $action !== 'purge' ) {
 			return;
 		}
 
