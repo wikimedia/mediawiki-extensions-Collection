@@ -25,6 +25,7 @@ namespace MediaWiki\Extension\Collection\Api;
 use MediaWiki\Api\ApiBase;
 use MediaWiki\Extension\Collection\Session;
 use MediaWiki\Extension\Collection\Templates\CollectionListTemplate;
+use MediaWiki\MediaWikiServices;
 
 trait CollectionTrait {
 	/** @var ApiBase */
@@ -54,7 +55,8 @@ trait CollectionTrait {
 	 */
 	public function getCollectionItemListAfterAction() {
 		$collection = Session::getCollection();
-		$template = new CollectionListTemplate();
+		$config = MediaWikiServices::getInstance()->getMainConfig();
+		$template = new CollectionListTemplate( $config );
 		$template->set( 'collection', $collection );
 
 		$result = [

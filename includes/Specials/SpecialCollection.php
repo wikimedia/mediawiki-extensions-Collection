@@ -553,7 +553,7 @@ class SpecialCollection extends SpecialPage {
 			'wgCollectionDisableDownloadSection' => $config->get( 'CollectionDisableDownloadSection' )
 		] );
 
-		$template = new CollectionPageTemplate();
+		$template = new CollectionPageTemplate( $this->getConfig() );
 		$template->set( 'context', $this->getContext() );
 		$template->set( 'collection', CollectionSession::getCollection() );
 		$template->set( 'podpartners', $this->mPODPartners );
@@ -1204,7 +1204,7 @@ class SpecialCollection extends SpecialPage {
 					$status = '';
 				}
 
-				$template = new CollectionRenderingTemplate();
+				$template = new CollectionRenderingTemplate( $this->getConfig() );
 				$template->set( 'status', $status );
 				$progress = $result->get( 'status', 'progress' );
 				if ( !$progress ) {
@@ -1221,7 +1221,7 @@ class SpecialCollection extends SpecialPage {
 			case 'finished':
 				$out->setPageTitleMsg( $this->msg( 'coll-rendering_finished_title' ) );
 
-				$template = new CollectionFinishedTemplate();
+				$template = new CollectionFinishedTemplate( $this->getConfig() );
 				$template->set(
 					'download_url',
 					$this->urlUtils->expand(
@@ -1249,7 +1249,7 @@ class SpecialCollection extends SpecialPage {
 					$status = '';
 				}
 
-				$template = new CollectionFailedTemplate();
+				$template = new CollectionFailedTemplate( $this->getConfig() );
 				$template->set( 'status', $status );
 				$template->set( 'query', $query );
 				$template->set( 'return_to', $return_to );
@@ -1388,7 +1388,7 @@ class SpecialCollection extends SpecialPage {
 		$out = $this->getOutput();
 		$out->setPageTitleMsg( $this->msg( 'coll-save_collection' ) );
 
-		$template = new CollectionSaveOverwriteTemplate();
+		$template = new CollectionSaveOverwriteTemplate( $this->getConfig() );
 		$template->set( 'title', $title );
 		$template->set( 'pcollname', $pcollname );
 		$template->set( 'ccollname', $ccollname );
@@ -1404,7 +1404,7 @@ class SpecialCollection extends SpecialPage {
 		$this->setHeaders();
 		$this->getOutput()->setPageTitleMsg( $this->msg( 'coll-load_collection' ) );
 
-		$template = new CollectionLoadOverwriteTemplate();
+		$template = new CollectionLoadOverwriteTemplate( $this->getConfig() );
 		$template->set( 'output', $this->getOutput() );
 		$template->set( 'title', $title );
 		$this->getOutput()->addTemplate( $template );

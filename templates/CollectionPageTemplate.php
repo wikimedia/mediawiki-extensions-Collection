@@ -181,7 +181,7 @@ class CollectionPageTemplate extends QuickTemplate {
 
 			<div id="collectionListContainer">
 				<?php
-				$listTemplate = new CollectionListTemplate();
+				$listTemplate = new CollectionListTemplate( $this->config );
 				$listTemplate->set( 'collection', $collection );
 				$listTemplate->execute();
 				?>

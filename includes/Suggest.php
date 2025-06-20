@@ -25,6 +25,7 @@ namespace MediaWiki\Extension\Collection;
 use MediaWiki\Context\IContextSource;
 use MediaWiki\Extension\Collection\Specials\SpecialCollection;
 use MediaWiki\Extension\Collection\Templates\CollectionSuggestTemplate;
+use MediaWiki\MediaWikiServices;
 use MediaWiki\Session\SessionManager;
 
 /**
@@ -193,7 +194,8 @@ class Suggest {
 				break;
 		}
 
-		$template = new CollectionSuggestTemplate();
+		$config = MediaWikiServices::getInstance()->getMainConfig();
+		$template = new CollectionSuggestTemplate( $config );
 		$proposals = new Proposals(
 			$session['wsCollection'],
 			$session['wsCollectionSuggestBan'],
