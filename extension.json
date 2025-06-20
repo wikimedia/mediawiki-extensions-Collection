@@ -18,7 +18,16 @@
 		"collectionsaveascommunitypage"
 	],
 	"SpecialPages": {
-		"Book": "MediaWiki\\Extension\\Collection\\Specials\\SpecialCollection"
+		"Book": {
+			"class": "MediaWiki\\Extension\\Collection\\Specials\\SpecialCollection",
+			"services": [
+				"HttpRequestFactory",
+				"RevisionLookup",
+				"StatsFactory",
+				"UrlUtils",
+				"WikiPageFactory"
+			]
+		}
 	},
 	"MessagesDirs": {
 		"Collection": [

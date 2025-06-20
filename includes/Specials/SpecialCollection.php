@@ -37,17 +37,22 @@ use MediaWiki\Extension\Collection\Templates\CollectionPageTemplate;
 use MediaWiki\Extension\Collection\Templates\CollectionRenderingTemplate;
 use MediaWiki\Extension\Collection\Templates\CollectionSaveOverwriteTemplate;
 use MediaWiki\Html\Html;
+use MediaWiki\Http\HttpRequestFactory;
 use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Page\WikiPageFactory;
 use MediaWiki\Request\DerivativeRequest;
+use MediaWiki\Revision\RevisionLookup;
 use MediaWiki\Skin\SkinComponentUtils;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
+use MediaWiki\Utils\UrlUtils;
 use OOUI\ButtonGroupWidget;
 use OOUI\ButtonInputWidget;
 use OOUI\ButtonWidget;
 use OOUI\FormLayout;
 use UnexpectedValueException;
+use Wikimedia\Stats\StatsFactory;
 
 class SpecialCollection extends SpecialPage {
 
@@ -57,8 +62,25 @@ class SpecialCollection extends SpecialPage {
 	/** @var false|array[] */
 	private $mPODPartners;
 
-	public function __construct() {
+	private HttpRequestFactory $httpRequestFactory;
+	private RevisionLookup $revisionLookup;
+	private StatsFactory $statsFactory;
+	private UrlUtils $urlUtils;
+	private WikiPageFactory $wikiPageFactory;
+
+	public function __construct(
+		HttpRequestFactory $httpRequestFactory,
+		RevisionLookup $revisionLookup,
+		StatsFactory $statsFactory,
+		UrlUtils $urlUtils,
+		WikiPageFactory $wikiPageFactory
+	) {
 		parent::__construct( "Book" );
+		$this->httpRequestFactory = $httpRequestFactory;
+		$this->revisionLookup = $revisionLookup;
+		$this->statsFactory = $statsFactory;
+		$this->urlUtils = $urlUtils;
+		$this->wikiPageFactory = $wikiPageFactory;
 		$this->mPODPartners = $this->getConfig()->get( 'CollectionPODPartners' );
 	}
 
@@ -934,9 +956,7 @@ class SpecialCollection extends SpecialPage {
 				return null;
 			}
 
-			$revision = MediaWikiServices::getInstance()
-				->getRevisionLookup()
-				->getRevisionByTitle( $articleTitle, $oldid );
+			$revision = $this->revisionLookup->getRevisionByTitle( $articleTitle, $oldid );
 			if ( !$revision ) {
 				return null;
 			}
@@ -989,7 +1009,7 @@ class SpecialCollection extends SpecialPage {
 			$items = $collection['items'];
 		}
 
-		$page = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $title );
+		$page = $this->wikiPageFactory->newFromTitle( $title );
 		$lines = preg_split(
 			'/[\r\n]+/',
 			$page->getContent()->getNativeData()
@@ -1138,7 +1158,6 @@ class SpecialCollection extends SpecialPage {
 		$this->setHeaders();
 		$request = $this->getRequest();
 		$out = $this->getOutput();
-		$stats = MediaWikiServices::getInstance()->getStatsFactory();
 
 		$collectionId = $request->getVal( 'collection_id' );
 		$writer = $request->getVal( 'writer' );
@@ -1192,7 +1211,7 @@ class SpecialCollection extends SpecialPage {
 				}
 				$template->set( 'progress', $progress );
 				$out->addTemplate( $template );
-				$stats->getCounter( 'collection_renderingpage_total' )
+				$this->statsFactory->getCounter( 'collection_renderingpage_total' )
 					->setLabel( 'status', 'pending' )
 					->copyToStatsdAt( 'collection.renderingpage.pending' )
 					->increment();
@@ -1204,7 +1223,7 @@ class SpecialCollection extends SpecialPage {
 				$template = new CollectionFinishedTemplate();
 				$template->set(
 					'download_url',
-					MediaWikiServices::getInstance()->getUrlUtils()->expand(
+					$this->urlUtils->expand(
 						SkinComponentUtils::makeSpecialUrl( 'Book', 'bookcmd=download&' . $query ),
 						PROTO_CURRENT
 					)
@@ -1214,7 +1233,7 @@ class SpecialCollection extends SpecialPage {
 				$template->set( 'query', $query );
 				$template->set( 'return_to', $return_to );
 				$out->addTemplate( $template );
-				$stats->getCounter( 'collection_renderingpage_total' )
+				$this->statsFactory->getCounter( 'collection_renderingpage_total' )
 					->setLabel( 'status', 'finished' )
 					->copyToStatsdAt( 'collection.renderingpage.finished' )
 					->increment();
@@ -1234,14 +1253,14 @@ class SpecialCollection extends SpecialPage {
 				$template->set( 'query', $query );
 				$template->set( 'return_to', $return_to );
 				$out->addTemplate( $template );
-				$stats->getCounter( 'collection_renderingpage_total' )
+				$this->statsFactory->getCounter( 'collection_renderingpage_total' )
 					->setLabel( 'status', 'failed' )
 					->copyToStatsdAt( 'collection.renderingpage.failed' )
 					->increment();
 				break;
 
 			default:
-				$stats->getCounter( 'collection_renderingpage_total' )
+				$this->statsFactory->getCounter( 'collection_renderingpage_total' )
 					->setLabel( 'status', 'unknown' )
 					->copyToStatsdAt( 'collection.renderingpage.unknown' )
 					->increment();
@@ -1261,7 +1280,7 @@ class SpecialCollection extends SpecialPage {
 		$info = false;
 		$url = $r->get( 'url' );
 		if ( $url ) {
-			$req = MediaWikiServices::getInstance()->getHttpRequestFactory()->create( $url, [], __METHOD__ );
+			$req = $this->httpRequestFactory->create( $url, [], __METHOD__ );
 			$req->setCallback( function ( $fh, $content ) {
 				return fwrite( $this->tempfile, $content );
 			} );
@@ -1329,9 +1348,7 @@ class SpecialCollection extends SpecialPage {
 			$article['revision'] = (string)$oldid;
 		}
 
-		$revision = MediaWikiServices::getInstance()
-			->getRevisionLookup()
-			->getRevisionByTitle( $title, $oldid );
+		$revision = $this->revisionLookup->getRevisionByTitle( $title, $oldid );
 		if ( $revision ) {
 			$article['timestamp'] = wfTimestamp( TS_UNIX, $revision->getTimestamp() );
 		}
