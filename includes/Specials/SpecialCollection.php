@@ -1211,7 +1211,7 @@ class SpecialCollection extends SpecialPage {
 				$template = new CollectionFinishedTemplate();
 				$template->set(
 					'download_url',
-					wfExpandUrl(
+					MediaWikiServices::getInstance()->getUrlUtils()->expand(
 						SkinComponentUtils::makeSpecialUrl( 'Book', 'bookcmd=download&' . $query ),
 						PROTO_CURRENT
 					)

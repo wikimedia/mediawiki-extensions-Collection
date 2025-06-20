@@ -45,12 +45,12 @@ abstract class CollectionRenderingAPI {
 	abstract protected function makeRequest( $command, array $params );
 
 	/**
-	 * @return string Expanded wgScriptPath to work around T39868
+	 * @return string|null Expanded wgScriptPath to work around T39868
 	 */
 	private function getBaseUrl() {
 		global $wgScriptPath;
 
-		return wfExpandUrl( $wgScriptPath ?: '/', PROTO_CANONICAL );
+		return MediaWikiServices::getInstance()->getUrlUtils()->expand( $wgScriptPath ?: '/', PROTO_CANONICAL );
 	}
 
 	/**

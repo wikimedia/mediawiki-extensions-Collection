@@ -29,7 +29,12 @@ class ApiCollection extends ApiBase {
 				'WikiPageFactory',
 			]
 		],
-		'postcollection' => ApiPostCollection::class,
+		'postcollection' => [
+			'class' => ApiPostCollection::class,
+			'services' => [
+				'UrlUtils',
+			],
+		],
 		'removearticle' => ApiRemoveArticle::class,
 		'removeitem' => ApiRemoveItem::class,
 		'renamechapter' => ApiRenameChapter::class,

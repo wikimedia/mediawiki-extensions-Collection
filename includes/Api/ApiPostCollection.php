@@ -26,10 +26,23 @@ use MediaWiki\Api\ApiBase;
 use MediaWiki\Json\FormatJson;
 use MediaWiki\Session\SessionManager;
 use MediaWiki\SpecialPage\SpecialPage;
+use MediaWiki\Utils\UrlUtils;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiPostCollection extends ApiBase {
 	use CollectionTrait;
+
+	private UrlUtils $urlUtils;
+
+	public function __construct(
+		ApiBase $parent,
+		string $action,
+		UrlUtils $urlUtils
+	) {
+		parent::__construct( $parent->getMain(), $action );
+		$this->parent = $parent;
+		$this->urlUtils = $urlUtils;
+	}
 
 	/**
 	 * execute the API request
@@ -50,7 +63,7 @@ class ApiPostCollection extends ApiBase {
 		$session['wsCollection'] = $collection;
 
 		$title = SpecialPage::getTitleFor( 'Book' );
-		$redirecturl = wfExpandUrl( $title->getFullURL(), PROTO_CURRENT );
+		$redirecturl = $this->urlUtils->expand( $title->getFullURL(), PROTO_CURRENT );
 		$apiResults->addValue(
 			null,
 			'response message',
