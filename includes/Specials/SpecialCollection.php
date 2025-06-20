@@ -57,16 +57,9 @@ class SpecialCollection extends SpecialPage {
 	/** @var false|array[] */
 	private $mPODPartners;
 
-	/**
-	 * @param false|array[] $PODPartners
-	 */
-	public function __construct( $PODPartners = false ) {
+	public function __construct() {
 		parent::__construct( "Book" );
-		if ( $PODPartners ) {
-			$this->mPODPartners = $PODPartners;
-		} else {
-			$this->mPODPartners = $this->getConfig()->get( 'CollectionPODPartners' );
-		}
+		$this->mPODPartners = $this->getConfig()->get( 'CollectionPODPartners' );
 	}
 
 	/** @inheritDoc */
