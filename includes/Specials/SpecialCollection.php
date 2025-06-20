@@ -332,22 +332,22 @@ class SpecialCollection extends SpecialPage {
 		$addselected = $request->getVal( 'addselected' );
 
 		if ( $request->getVal( 'resetbans' ) ) {
-			Suggest::run( 'resetbans' );
+			Suggest::run( $this->getContext(), 'resetbans' );
 		} elseif ( $add !== null ) {
-			Suggest::run( 'add', $add );
+			Suggest::run( $this->getContext(), 'add', $add );
 		} elseif ( $ban !== null ) {
-			Suggest::run( 'ban', $ban );
+			Suggest::run( $this->getContext(), 'ban', $ban );
 		} elseif ( $remove !== null ) {
-			Suggest::run( 'remove', $remove );
+			Suggest::run( $this->getContext(), 'remove', $remove );
 		} elseif ( $addselected !== null ) {
 			$articleList = $request->getArray( 'articleList' );
 			if ( $articleList !== null ) {
-				Suggest::run( 'addAll', $articleList );
+				Suggest::run( $this->getContext(), 'addAll', $articleList );
 			} else {
-				Suggest::run();
+				Suggest::run( $this->getContext() );
 			}
 		} else {
-			Suggest::run();
+			Suggest::run( $this->getContext() );
 		}
 	}
 
