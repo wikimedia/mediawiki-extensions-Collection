@@ -23,7 +23,7 @@
 namespace MediaWiki\Extension\Collection;
 
 use HtmlArmor;
-use MediaWiki\Context\RequestContext;
+use MediaWiki\Context\IContextSource;
 use MediaWiki\Hook\SidebarBeforeOutputHook;
 use MediaWiki\Hook\SiteNoticeAfterHook;
 use MediaWiki\Html\Html;
@@ -165,7 +165,6 @@ class Hooks implements
 		global $wgCollectionArticleNamespaces;
 
 		$request = $skin->getRequest();
-		$title = $skin->getTitle();
 
 		$action = $request->getVal( 'action' );
 		if ( $action != '' && $action != 'view' && $action != 'purge' ) {
@@ -182,12 +181,13 @@ class Hooks implements
 			return;
 		}
 
+		$title = $skin->getTitle();
 		if ( $title->isSpecial( 'Book' ) ) {
 			$cmd = $request->getVal( 'bookcmd', '' );
 			if ( $cmd == 'suggest' ) {
-				$siteNotice .= self::renderBookCreatorBox( $title, 'suggest' );
+				$siteNotice .= $this->renderBookCreatorBox( $skin, 'suggest' );
 			} elseif ( $cmd == '' ) {
-				$siteNotice .= self::renderBookCreatorBox( $title, 'showbook' );
+				$siteNotice .= $this->renderBookCreatorBox( $skin, 'showbook' );
 			}
 			return;
 		}
@@ -202,19 +202,19 @@ class Hooks implements
 			return;
 		}
 
-		$siteNotice .= self::renderBookCreatorBox( $title );
+		$siteNotice .= $this->renderBookCreatorBox( $skin );
 	}
 
 	/**
-	 * @param Title $title
+	 * @param IContextSource $context
 	 * @param string $mode
 	 * @return string
 	 */
-	public static function renderBookCreatorBox( Title $title, $mode = '' ) {
+	private function renderBookCreatorBox( IContextSource $context, $mode = '' ) {
 		$templateParser = new TemplateParser( dirname( __DIR__ ) . '/templates' );
-		$context = RequestContext::getMain();
 
 		$imagePath = $context->getConfig()->get( MainConfigNames::ExtensionAssetsPath ) . '/Collection/images';
+		$title = $context->getTitle();
 		$ptext = $title->getPrefixedText();
 		$oldid = $context->getRequest()->getInt( 'oldid', 0 );
 		if ( $oldid == $title->getLatestRevID() ) {
