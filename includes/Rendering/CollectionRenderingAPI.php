@@ -2,7 +2,6 @@
 
 namespace MediaWiki\Extension\Collection\Rendering;
 
-use MediaWiki\Context\RequestContext;
 use MediaWiki\Json\FormatJson;
 use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
@@ -228,8 +227,7 @@ abstract class CollectionRenderingAPI {
 		];
 
 		// Prefer VRS configuration if present.
-		$context = RequestContext::getMain();
-		$vrs = $context->getConfig()->get( 'VirtualRestConfig' );
+		$vrs = MediaWikiServices::getInstance()->getMainConfig()->get( MainConfigNames::VirtualRestConfig );
 		if ( isset( $vrs['modules']['restbase']['url'] ) ) {
 			// if restbase is available, use it
 			$params = $vrs['modules']['restbase'];
