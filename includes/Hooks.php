@@ -22,7 +22,6 @@
 
 namespace MediaWiki\Extension\Collection;
 
-use HtmlArmor;
 use MediaWiki\Config\Config;
 use MediaWiki\Context\IContextSource;
 use MediaWiki\Hook\SidebarBeforeOutputHook;
@@ -37,6 +36,7 @@ use MediaWiki\Session\SessionManager;
 use MediaWiki\Skin\Skin;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
+use Wikimedia\HtmlArmor\HtmlArmor;
 
 class Hooks implements
 	SidebarBeforeOutputHook,
