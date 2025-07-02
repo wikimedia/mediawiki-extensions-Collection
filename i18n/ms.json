@@ -171,7 +171,7 @@
 	"coll-setting-toc-yes": "Ya",
 	"coll-setting-toc-no": "Tidak",
 	"coll-setting-columns": "Lajur:",
-	"coll-attribution-anons": "Pengguna tanpa nama: $1",
+	"coll-attribution-anons": "Pengguna awanama: $1",
 	"coll-attribution-page": "<h1>Sumber, penyumbang dan lesen untuk teks dan imej</h1> \n<h2>Teks</h2> \n $1<h2>Imej</h2> \n $2 \n<h2>Lesen kandungan</h2> \n $3",
 	"coll-article-attribution": "<b>$1</b> <i>Sumber:</i> $2 <i>Penyumbang:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Sumber:</i> $2 <i>Perlesenan:</i> $3 <i>Penyumbang:</i> $4 <i>Pelukis asal:</i> $5",
