@@ -3,6 +3,7 @@
 		"authors": [
 			"Derslek",
 			"Ерней",
+			"Ильгиз",
 			"Ильнар"
 		]
 	},
@@ -84,11 +85,11 @@
 	"coll-format-odf": "Текст процессоры (OpenDocument)",
 	"coll-format-rdf2latex": "электрон китап (PDF, ocg latex эшкәртүче)",
 	"coll-format-rdf2text": "Текст процессоры (гади текст)",
-	"coll-print_export": "Бастыру/чыгару",
+	"coll-print_export": "Бастыр/экспортла",
 	"coll-create_a_book": "Китап булдыру",
 	"coll-create_a_book_tooltip": "Китап  яки мәкаләләр җыентыган ясау",
 	"coll-book_creator": "Китап ясау",
-	"coll-download_as": "$1 форматында күчереп алу",
+	"coll-download_as": "$1 итеп йөкләп ал",
 	"coll-download_as_tooltip": "Бу вики-битнең $1 версиясен күчереп алырга",
 	"coll-disable": "сүндерү",
 	"coll-book_creator_disable": "Китап төзүчене ябу",
