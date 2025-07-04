@@ -70,7 +70,7 @@
 	"coll-order_from_pp": "$1 ярдәмендә алдан карау",
 	"coll-about_pp": "$1 турында",
 	"coll-invalid_podpartner_title": "Дөрес булмаган POD-ярдәмче",
-	"coll-license": "Рөхсәтнамә",
+	"coll-license": "Лицензия",
 	"coll-return_to": "[[:$1]] сәхифәсенә кайту",
 	"coll-suggested_articles": "Тәкъдимнәр",
 	"coll-suggest_reset_bans": "кире кую",
@@ -135,5 +135,5 @@
 	"coll-contributors-title": "Авторлар",
 	"coll-images-title": "Сурәтләр",
 	"coll-images-source": "Чыганак",
-	"coll-images-license": "Рөхсәтнамә"
+	"coll-images-license": "Лицензия"
 }
