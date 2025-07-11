@@ -40,6 +40,7 @@ use MediaWiki\Html\Html;
 use MediaWiki\Http\HttpRequestFactory;
 use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Message\Message;
 use MediaWiki\Page\WikiPageFactory;
 use MediaWiki\Request\DerivativeRequest;
 use MediaWiki\Revision\RevisionLookup;
@@ -90,7 +91,7 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @return string
+	 * @return Message
 	 */
 	public function getDescription() {
 		return $this->msg( 'coll-collection' );

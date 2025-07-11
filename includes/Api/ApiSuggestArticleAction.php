@@ -50,7 +50,7 @@ class ApiSuggestArticleAction extends ApiBase {
 				),
 				'onclick' => "collectionSuggestCall('UndoArticle'," .
 					Html::encodeJsVar( [ $action, $title ] ) . "); return false;",
-				'title' => $this->msg( 'coll-suggest_undo_tooltip' ),
+				'title' => $this->msg( 'coll-suggest_undo_tooltip' )->text(),
 			],
 			$this->msg( 'coll-suggest_undo' )->text()
 		);
