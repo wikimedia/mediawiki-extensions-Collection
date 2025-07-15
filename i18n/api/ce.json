@@ -1,0 +1,13 @@
+{
+	"@metadata": {
+		"authors": [
+			"Умар"
+		]
+	},
+	"apihelp-collection+addcategory-param-title": "ТӀетоха категори",
+	"apihelp-collection+suggestarticleaction-param-title": "Цхьана агӀонан цӀе",
+	"apihelp-collection+suggestundoarticleaction-param-title": "Цхьана агӀонан цӀе",
+	"apihelp-collection+getpopupdata-param-title": "Цхьана агӀонан цӀе",
+	"apihelp-collection+getbookcreatorboxcontent-param-pagename": "Цхьана агӀонан цӀе",
+	"apihelp-collection+postcollection-param-collection": "Коллекцин цӀе"
+}
