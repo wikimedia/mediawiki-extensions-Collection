@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rwang PS"
+			"Rwang PS",
+			"Sarah Niya Danbwarang"
 		]
 	},
-	"coll-print_export": "Pat ku tomo",
+	"coll-print_export": "Pat ko tomo",
 	"coll-download_as": "Pat re $1"
 }

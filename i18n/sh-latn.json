@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"Aca"
 		]
 	},
 	"coll-desc": "[[Special:Book|Napravi knjigu]]",
@@ -36,7 +37,7 @@
 	"coll-title": "Naslov:",
 	"coll-subtitle": "Podnaslov:",
 	"coll-contents": "Sadržaj",
-	"coll-drag_and_drop": "Povucite i spustite wikistranice i poglavlja da biste ih rasporedili kako god želite",
+	"coll-drag_and_drop": "Upotrijebite dugmad sa strelicama da biste promijenili redoslijed wiki stranica i poglavlja",
 	"coll-create_chapter": "Napravi poglavlje",
 	"coll-sort_alphabetically": "Sortiraj abecedno",
 	"coll-rename": "Preimenuj",
@@ -114,7 +115,7 @@
 	"coll-format-rl": "e-knjiga (PDF, ispisnik mwlib-a)",
 	"coll-format-epub": "e-knjiga (EPUB)",
 	"coll-format-odf": "Obrađivač teksta (OpenDocument)",
-	"coll-format-rdf2latex": "e-knjiga (PDF, ispisnik OCG-Latexa)",
+	"coll-format-rdf2latex": "e-knjiga (PDF, ispisnik ocg latexa)",
 	"coll-format-rdf2text": "Obrađivač teksta (obični tekst)",
 	"action-collectionsaveasuserpage": "čuvanje knjiga u vidu korisničke stranice",
 	"right-collectionsaveasuserpage": "Čuvanje knjiga u vidu korisničkih stranica",
@@ -166,7 +167,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>Izvor:</i> $2 <i>Suradnici:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Izvor:</i> $2 <i>Licenca:</i> $3 <i>Prinositelji:</i> $4 <i>Originalni umjetnik:</i> $5",
 	"coll-notice-download-pdf-title": "Preuzmi pojedinačne stranice",
-	"coll-notice-download-pdf-text": "Za vrijeme dok je PDF iscrtavanje Stvaralca knjiga onemogućeno, možete probati '''''Preuzmi kao PDF''''' sa bočne trake, što predviđeno je a pojedinačne članke.",
+	"coll-notice-download-pdf-text": "Tvorac knjiga ne podržava ispis u PDF-u ([[mw:Reading/Web/PDF_Functionality|detaljnije]]). Možete kliknuti na vezu '''''Preuzmi kao PDF''''' s bočne trake da biste preuzeli pojedinačne članke.",
 	"coll-toc-title": "Sadržaj",
 	"coll-contributors-title": "Doprinositelji",
 	"coll-images-title": "Slike",

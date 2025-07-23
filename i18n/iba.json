@@ -4,6 +4,18 @@
 			"Song GK"
 		]
 	},
+	"coll-show": "Pandangka",
+	"coll-move_to_top": "Kalih ke atas",
+	"coll-move_down": "Kalih ke baruh",
+	"coll-title": "Tajuk:",
+	"coll-contents": "Isi",
+	"coll-rename": "Ganti nama",
 	"coll-print_export": "Chelak/eksport",
-	"coll-download_as": "Download nyadi $1"
+	"coll-download_as": "Download nyadi $1",
+	"coll-bookscategory": "Bup",
+	"coll-help": "Bantu",
+	"coll-images-title": "Gambar",
+	"coll-images-source": "Bunsu",
+	"coll-images-license": "Lisin",
+	"coll-images-original-artist": "Pelukis asal"
 }
