@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Winston Sung"
+			"Winston Sung",
+			"Aca"
 		]
 	},
 	"coll-desc": "[[Special:Book|Napravi knjigu]]",
@@ -113,7 +114,7 @@
 	"coll-format-rl": "e-knjiga (PDF, ispisnik mwlib-a)",
 	"coll-format-epub": "e-knjiga (EPUB)",
 	"coll-format-odf": "Obrađivač teksta (OpenDocument)",
-	"coll-format-rdf2latex": "e-knjiga (PDF, ispisnik OCG-Latexa)",
+	"coll-format-rdf2latex": "e-knjiga (PDF, ispisnik ocg latexa)",
 	"coll-format-rdf2text": "Obrađivač teksta (obični tekst)",
 	"action-collectionsaveasuserpage": "čuvanje knjiga u vidu korisničke stranice",
 	"right-collectionsaveasuserpage": "Čuvanje knjiga u vidu korisničkih stranica",
