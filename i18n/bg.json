@@ -16,6 +16,8 @@
 	"coll-manage_your_book": "Управление на книгата ви",
 	"coll-book_creator_help": "Вижте [[{{MediaWiki:Coll-helppage}}|страницата с помощ за книги]] за повече информация.",
 	"coll-start_book_creator": "Пускане на създателя на книги",
+	"coll-book_creator_continue": "Продължаване използването на помощника за създаване на книги",
+	"coll-book_creator_disable_text": "''Помощникът за създаване на книги'' ще бъде деактивиран, а книгата върху която работите ще бъде премахната.",
 	"coll-collection": "Книга",
 	"coll-collections": "Книги",
 	"coll-unknown_subpage_title": "Непозната подстраница",
