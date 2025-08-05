@@ -6,7 +6,8 @@
 			"Kosovastar",
 			"Liridon",
 			"Olsi",
-			"Vanished 456321456"
+			"Vanished 456321456",
+			"Xhulianoo"
 		]
 	},
 	"coll-remove": "Hiqe",
@@ -16,10 +17,10 @@
 	"coll-contents": "Përmbajtja",
 	"coll-rename": "Riemërto",
 	"coll-load_local_book": "Kliko \"OK\" për të vazhduar me librin tuaj $1 i cili përmban $2 wiki {{PLURAL:$2|page|pages}}. Kliko \"Cancel\" për të fshirë atë dhe për të filluar me një librit të zbrazët.",
-	"coll-print_export": "Shtyp/eksporto",
+	"coll-print_export": "Printo/eksporto",
 	"coll-create_a_book": "Krijo një libër",
 	"coll-book_creator": "Krijues i librit",
-	"coll-download_as": "Shkarkoje si $1",
+	"coll-download_as": "Shkarko si $1",
 	"coll-disable": "çaktivizo",
 	"coll-book_creator_disable": "Çaktivizoni krijuesin e librave",
 	"coll-book_creator_disable_tooltip": "Ndalo përdorimin e krijuesit të librave",
