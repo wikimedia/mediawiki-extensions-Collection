@@ -1,0 +1,38 @@
+{
+	"@metadata": {
+		"authors": [
+			"NikolasKHF"
+		]
+	},
+	"coll-desc": "[[Special:Book|Piaq buku]]",
+	"coll-collection": "Buku",
+	"coll-collections": "Buku",
+	"coll-unknown_subpage_text": "Ndéqn araq subhalaman [[Special:Book|Buku]] ni.",
+	"coll-couldnotaddarticle_title": "Ndéqn bau romboq halaman wiki",
+	"coll-couldnotaddarticle_msg": "Halaman wiki ni ndéqn bau teromboq.",
+	"coll-couldnotremovearticle_title": "Ndéqn bau hapus halaman wiki",
+	"coll-couldnotremovearticle_msg": "Halaman wiki ni ndéqn bau tehapus",
+	"coll-your_book": "Buku side",
+	"coll-remove": "Apus",
+	"coll-show": "Pegitaq",
+	"coll-move_to_top": "Alih juq paling atas",
+	"coll-move_up": "Alih juq atas",
+	"coll-move_down": "Alih juq bawaq",
+	"coll-move_to_bottom": "Alih juq paling bawaq",
+	"coll-title": "Judul:",
+	"coll-subtitle": "Subjudul:",
+	"coll-contents": "Daptar isi",
+	"coll-create_chapter": "Piaq bab",
+	"coll-empty_collection": "Buku kosong",
+	"coll-save_collection": "Pales buku",
+	"coll-yes": "Aoq",
+	"coll-no": "Ndéq",
+	"coll-overwrite": "Timpe",
+	"coll-append": "Romboq",
+	"coll-cancel": "Ndéq jari",
+	"coll-limit_exceeded_title": "Buku beléq laloq",
+	"coll-limit_exceeded_text": "Buku side wah beléq laloq.\nNdéq bau romboq halaman.",
+	"coll-rendering_article": "(halaman wiki: $1)",
+	"coll-rendering_page": "(halaman: $1)",
+	"coll-rendering_finished_notes_heading": "Catetan:"
+}
