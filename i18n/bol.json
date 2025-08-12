@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"El-hussain14"
+			"El-hussain14",
+			"Mbfika"
 		]
 	},
-	"coll-print_export": "Kwapi/foɗi",
-	"coll-download_as": "Yauwayi as $1"
+	"coll-print_export": "Gowayi/foɗi",
+	"coll-download_as": "Yauwti bo  $1"
 }
