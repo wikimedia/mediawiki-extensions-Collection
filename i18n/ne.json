@@ -18,7 +18,7 @@
 	"coll-manage_your_book": "आफ्नो पुस्तक व्यवस्थापन गर्ने",
 	"coll-book_creator_help": "अधिक जानकारीको लागि [[{{MediaWiki:Coll-helppage}}|पुस्तकहरूको बारेमा साहयता पृष्ठ]] हेर्नुहोस।",
 	"coll-start_book_creator": "पुस्तक सिर्जनाकर्ता सुरु गर्नुहोस्",
-	"coll-book_creator_continue": "पुस्तक निर्माता प्रयोगलाई निरन्तरता दिने",
+	"coll-book_creator_continue": "पुस्तक सर्जक प्रयोगलाई निरन्तरता दिनुहोस्",
 	"coll-book_creator_disable_text": "''पुस्तक निर्माता'' अक्षम गरिनेछ र जुन पुस्तक माथि तपाईं कार्य गर्दै हुनुहुन्छ त्यसलाई हटाइनेछ।",
 	"coll-book_creator_text_article": "{{MediaWiki:Coll-helppage}}/पुस्तक निर्माता पाठ",
 	"coll-collection": "पुस्तक",
