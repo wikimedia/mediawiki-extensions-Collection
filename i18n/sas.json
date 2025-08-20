@@ -35,5 +35,7 @@
 	"coll-limit_exceeded_text": "Buku side wah beléq laloq.\nNdéq bau romboq halaman.",
 	"coll-rendering_article": "(halaman wiki: $1)",
 	"coll-rendering_page": "(halaman: $1)",
-	"coll-rendering_finished_notes_heading": "Catetan:"
+	"coll-rendering_finished_notes_heading": "Catetan:",
+	"coll-print_export": "Cétak/ékspor",
+	"coll-download_as": "Bau jari $1"
 }
