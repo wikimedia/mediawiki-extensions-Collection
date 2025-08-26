@@ -38,7 +38,6 @@ use MediaWiki\Extension\Collection\Templates\CollectionRenderingTemplate;
 use MediaWiki\Extension\Collection\Templates\CollectionSaveOverwriteTemplate;
 use MediaWiki\Html\Html;
 use MediaWiki\Http\HttpRequestFactory;
-use MediaWiki\MainConfigNames;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Message\Message;
 use MediaWiki\Page\WikiPageFactory;
@@ -771,30 +770,20 @@ class SpecialCollection extends SpecialPage {
 			return false;
 		}
 
-		$services = MediaWikiServices::getInstance();
-		$dbr = $services->getConnectionProvider()->getReplicaDatabase();
-
-		$migrationStage = $services->getMainConfig()->get(
-			MainConfigNames::CategoryLinksSchemaMigrationStage
-		);
+		$dbr = MediaWikiServices::getInstance()->getConnectionProvider()->getReplicaDatabase();
 
 		$qb = $dbr->newSelectQueryBuilder()
 			->select( [ 'page_namespace', 'page_title' ] )
 			->from( 'page' )
 			->join( 'categorylinks', null, 'cl_from=page_id' )
+			->join( 'linktarget', null, 'lt_id=cl_target_id' )
+			->where( [
+				'lt_title' => $title->getDBkey(),
+				'lt_namespace' => NS_CATEGORY,
+			] )
 			->orderBy( [ 'cl_type', 'cl_sortkey' ] )
 			->limit( $limit + 1 )
 			->caller( __METHOD__ );
-
-		if ( $migrationStage & SCHEMA_COMPAT_READ_OLD ) {
-			$qb->where( [ 'cl_to' => $title->getDBkey() ] );
-		} else {
-			$qb->join( 'linktarget', null, 'lt_id=cl_target_id' );
-			$qb->where( [
-				'lt_title' => $title->getDBkey(),
-				'lt_namespace' => NS_CATEGORY,
-			] );
-		}
 
 		$count = 0;
 		$limitExceeded = false;
