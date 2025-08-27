@@ -78,7 +78,7 @@
 	"coll-limit_exceeded_title": "Sách quá lớn",
 	"coll-limit_exceeded_text": "Sách của bạn quá lớn.\nKhông thể thêm trang được nữa.",
 	"coll-rendering_title": "Đang kết xuất",
-	"coll-rendering_text": "<p><strong>Xin hãy chờ xong kết xuất tài liệu.</strong></p>\n\n<p><strong>Tiến độ:</strong> <span id=\"renderingProgress\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p>Trình duyệt sẽ làm tươi trang này vài giây một lần.\nNếu không thấy thay đổi gì, xin hãy bấm nút Làm tuơi (Refresh) hoặc Tải lại (Reload) trong trình duyệt.</p>",
+	"coll-rendering_text": "<p><strong>Xin hãy chờ trong khi tài liệu đang được tạo.</strong></p>\n\n<p><strong>Tiến độ:</strong> <span id=\"renderingProgress\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p>Trình duyệt sẽ làm mới trang này vài giây một lần.\nNếu không thấy thay đổi gì, xin hãy bấm nút Làm mới (Refresh) hoặc Tải lại (Reload) trong trình duyệt.</p>",
 	"coll-rendering_status": "<strong>Trạng thái:</strong> $1",
 	"coll-rendering_article": "(trang wiki: $1)",
 	"coll-rendering_page": "(trang: $1)",
