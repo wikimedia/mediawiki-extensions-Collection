@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"ཁ་བཏགས་ནག་པོ"
+			"ཁ་བཏགས་ནག་པོ",
+			"Tenzin Thoesam"
 		]
 	},
+	"coll-print_export": "དཔར་སྐྲུན།/ཕྱིར་འདྲེན།",
 	"coll-create_a_book": "དེབ་ཅིག་སྒྲིག་པ།"
 }
