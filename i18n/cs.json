@@ -11,7 +11,8 @@
 			"Patriccck",
 			"Patrik L.",
 			"JAn Dudík",
-			"Draceane"
+			"Draceane",
+			"WikipedistaOndra"
 		]
 	},
 	"coll-desc": "[[Special:Book|Vytváření knih]]",
@@ -185,5 +186,6 @@
 	"coll-images-license": "Licence",
 	"coll-images-original-artist": "Původní umělec",
 	"coll-license-title": "Licence obsahu",
+	"coll-rendererror-pdf": "Vykreslení PDF se nezdařilo: $1",
 	"coll-rendererror-fetch-wrapper": "Při pokusu o načtení obsahu stránky došlo k chybám:\n$1"
 }
