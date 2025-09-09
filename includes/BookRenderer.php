@@ -7,6 +7,12 @@ use MediaWiki\Html\Html;
 use MediaWiki\Html\TemplateParser;
 use MediaWiki\Parser\Sanitizer;
 use MediaWiki\Title\Title;
+use Wikimedia\RemexHtml\HTMLData;
+use Wikimedia\RemexHtml\Serializer\HtmlFormatter;
+use Wikimedia\RemexHtml\Serializer\Serializer;
+use Wikimedia\RemexHtml\Tokenizer\Tokenizer;
+use Wikimedia\RemexHtml\TreeBuilder\Dispatcher;
+use Wikimedia\RemexHtml\TreeBuilder\TreeBuilder;
 
 /**
  * Renders HTML view of a book by concatenating and transforming HTML and generating some
@@ -14,14 +20,7 @@ use MediaWiki\Title\Title;
  */
 class BookRenderer {
 
-	/** @var TemplateParser */
-	private $templateParser;
-
-	/**
-	 * @param TemplateParser $templateParser
-	 */
-	public function __construct( TemplateParser $templateParser ) {
-		$this->templateParser = $templateParser;
+	public function __construct( private TemplateParser $templateParser ) {
 	}
 
 	/**
@@ -44,7 +43,6 @@ class BookRenderer {
 
 		$headingCounter = new HeadingCounter();
 		$bookBodyHtml = '';
-		$title = $collection['title'];
 		$items = $collection['items'];
 		'@phan-var array[] $items';
 		$tocHeadingCounter = new HeadingCounter();
@@ -53,8 +51,8 @@ class BookRenderer {
 		// First we need to render the articles as we can't know the TOC anchors for sure
 		// until we have resolved id conflicts.
 		// FastFormatter chokes on Parsoid HTML. HtmlFormatter is still plenty fast anyway.
-		$formatter = new \Wikimedia\RemexHtml\Serializer\HtmlFormatter();
-		$serializer = new \Wikimedia\RemexHtml\Serializer\Serializer( $formatter );
+		$formatter = new HtmlFormatter();
+		$serializer = new Serializer( $formatter );
 		$munger = new RemexCollectionMunger( $serializer, [
 			'topHeadingLevel' => $hasChapters ? 3 : 2,
 		] );
@@ -76,9 +74,8 @@ class BookRenderer {
 					'id' => 'mw-book-article-' . $dbkey,
 					'class' => 'mw-book-article',
 				];
-				$mungerOptions = [];
 				if ( $articleCount > 1 ) {
-					$mungerOptions['sectionNumberPrefix'] = $headingAttribs['data-mw-sectionnumber']
+					$headingAttribs['data-mw-sectionnumber']
 						= $headingCounter->incrementAndGet( -1 );
 				}
 				$bookBodyHtml .= Html::rawElement( 'h2', $headingAttribs,
@@ -86,9 +83,9 @@ class BookRenderer {
 
 				$munger->startCollectionSection( './' . $dbkey, $metadata['sections'][$dbkey],
 					$headingCounter );
-				$treeBuilder = new \Wikimedia\RemexHtml\TreeBuilder\TreeBuilder( $munger, [] );
-				$dispatcher = new \Wikimedia\RemexHtml\TreeBuilder\Dispatcher( $treeBuilder );
-				$tokenizer = new \Wikimedia\RemexHtml\Tokenizer\Tokenizer( $dispatcher, $html, [
+				$treeBuilder = new TreeBuilder( $munger, [] );
+				$dispatcher = new Dispatcher( $treeBuilder );
+				$tokenizer = new Tokenizer( $dispatcher, $html, [
 					// HTML comes from Parsoid so we can skip validation
 					'ignoreErrors' => true,
 					'ignoreCharRefs' => true,
@@ -96,7 +93,7 @@ class BookRenderer {
 					'skipPreprocess' => true,
 				] );
 				$tokenizer->execute( [
-					'fragmentNamespace' => \Wikimedia\RemexHtml\HTMLData::NS_HTML,
+					'fragmentNamespace' => HTMLData::NS_HTML,
 					'fragmentName' => 'body',
 				] );
 				$outline = array_merge( $outline,

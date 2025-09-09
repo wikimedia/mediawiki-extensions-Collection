@@ -106,10 +106,9 @@ class SpecialCollection extends SpecialPage {
 		// support previous URLs (e.g. used in templates) which used the "$par" part
 		// (i.e. subpages of the Special page)
 		if ( $par ) {
-			// don't redirect POST reqs
-			if ( $request->wasPosted() ) {
-				// TODO
-			}
+			// TODO: don't redirect POST reqs
+			// if ( $request->wasPosted() ) {
+			// }
 			$out->redirect( wfAppendQuery(
 				SkinComponentUtils::makeSpecialUrl( 'Book' ),
 				$request->appendQueryArray( [ 'bookcmd' => rtrim( $par, '/' ) ] )
@@ -152,13 +151,13 @@ class SpecialCollection extends SpecialPage {
 					self::limitExceeded();
 					return;
 				}
-				$oldid = $request->getInt( 'oldid', 0 );
 				$title = Title::newFromText( $request->getVal( 'arttitle', '' ) );
 				if ( !$title ) {
 					return;
 				}
+				$oldid = $request->getInt( 'oldid', 0 );
 				if ( self::addArticle( $title, $oldid ) ) {
-					if ( $oldid == 0 ) {
+					if ( $oldid === 0 ) {
 						$redirectURL = $title->getFullURL();
 					} else {
 						$redirectURL = $title->getFullURL( 'oldid=' . $oldid );
@@ -173,13 +172,13 @@ class SpecialCollection extends SpecialPage {
 				return;
 
 			case 'remove_article':
-				$oldid = $request->getInt( 'oldid', 0 );
 				$title = Title::newFromText( $request->getVal( 'arttitle', '' ) );
 				if ( !$title ) {
 					return;
 				}
+				$oldid = $request->getInt( 'oldid', 0 );
 				if ( self::removeArticle( $title, $oldid ) ) {
-					if ( $oldid == 0 ) {
+					if ( $oldid === 0 ) {
 						$redirectURL = $title->getFullURL();
 					} else {
 						$redirectURL = $title->getFullURL( 'oldid=' . $oldid );
@@ -223,12 +222,15 @@ class SpecialCollection extends SpecialPage {
 				$title = Title::makeTitleSafe( NS_CATEGORY, $request->getVal( 'cattitle', '' ) );
 				if ( !$title ) {
 					return;
-				} elseif ( self::addCategory( $title, $this->getConfig() ) ) {
+				}
+
+				if ( self::addCategory( $title, $this->getConfig() ) ) {
 					self::limitExceeded();
 					return;
-				} else {
-					$out->redirect( $request->getVal( 'return_to', $title->getFullURL() ) );
 				}
+
+				$out->redirect( $request->getVal( 'return_to', $title->getFullURL() ) );
+
 				return;
 
 			case 'remove_item':
@@ -250,7 +252,8 @@ class SpecialCollection extends SpecialPage {
 					$out->redirect( $title->getFullURL() );
 					return;
 				}
-				if ( !CollectionSession::countArticles()
+				if (
+					!CollectionSession::countArticles()
 					|| $request->getVal( 'overwrite' )
 					|| $request->getVal( 'append' )
 				) {
@@ -629,10 +632,10 @@ class SpecialCollection extends SpecialPage {
 		if ( !isset( $collection['items'] ) || !is_array( $collection['items'] ) ) {
 			$collection['items'] = [];
 		}
-		array_push( $collection['items'], [
+		$collection['items'][] = [
 			'type' => 'chapter',
 			'title' => $name,
-		] );
+		];
 		CollectionSession::setCollection( $collection );
 	}
 
@@ -680,7 +683,7 @@ class SpecialCollection extends SpecialPage {
 		$latest = $title->getLatestRevID();
 
 		$currentVersion = 0;
-		if ( $oldid == 0 ) {
+		if ( $oldid === 0 ) {
 			$currentVersion = 1;
 			$oldid = $latest;
 		}
@@ -838,10 +841,11 @@ class SpecialCollection extends SpecialPage {
 		$collection = self::moveItemInCollection( $collection, $index, $delta );
 		if ( $collection === false ) {
 			return false;
-		} else {
-			CollectionSession::setCollection( $collection );
-			return true;
 		}
+
+		CollectionSession::setCollection( $collection );
+
+		return true;
 	}
 
 	/**
@@ -856,14 +860,15 @@ class SpecialCollection extends SpecialPage {
 			return false;
 		}
 		$items = $collection['items'];
-		if ( isset( $items[$swapIndex] ) && isset( $items[$index] ) ) {
-			$saved = $items[$swapIndex];
-			$collection['items'][$swapIndex] = $items[$index];
-			$collection['items'][$index] = $saved;
-			return $collection;
-		} else {
+		if ( !isset( $items[$swapIndex] ) || !isset( $items[$index] ) ) {
 			return false;
 		}
+
+		$saved = $items[$swapIndex];
+		$collection['items'][$swapIndex] = $items[$index];
+		$collection['items'][$index] = $saved;
+
+		return $collection;
 	}
 
 	/**
@@ -915,22 +920,14 @@ class SpecialCollection extends SpecialPage {
 			$articleTitle = trim( substr( $line, 1 ) );
 			if ( preg_match( '/^\[\[:?(.*?)(\|(.*?))?\]\]$/', $articleTitle, $match ) ) {
 				$articleTitle = $match[1];
-				if ( isset( $match[3] ) ) {
-					$displayTitle = $match[3];
-				} else {
-					$displayTitle = null;
-				}
+				$displayTitle = $match[3] ?? null;
 				$oldid = 0;
 				$currentVersion = 1;
 			} elseif (
 				preg_match( '/^\[\{\{fullurl:(.*?)\|oldid=(.*?)\}\}\s+(.*?)\]$/', $articleTitle, $match )
 			) {
 				$articleTitle = $match[1];
-				if ( isset( $match[3] ) ) {
-					$displayTitle = $match[3];
-				} else {
-					$displayTitle = null;
-				}
+				$displayTitle = $match[3] ?? null;
 				$oldid = (int)$match[2];
 				$currentVersion = 0;
 			} else {

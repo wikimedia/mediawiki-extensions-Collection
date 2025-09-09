@@ -117,15 +117,12 @@ class Proposals {
 
 		if ( $num > 0 ) {
 			return array_slice( $this->mPropList, 0, $num );
-		} else {
-			return $this->mPropList;
 		}
+
+		return $this->mPropList;
 	}
 
-	/**
-	 * @return bool
-	 */
-	public function hasBans() {
+	public function hasBans(): bool {
 		return count( $this->mBanList ) > 0;
 	}
 
@@ -142,8 +139,8 @@ class Proposals {
 			return;
 		}
 		$numItems = count( $this->mColl['items'] );
-		$threshhold = MediaWikiServices::getInstance()->getMainConfig()->get( 'CollectionSuggestThreshhold' );
-		if ( $numItems === 0 || $numItems > $threshhold ) {
+		$threshold = MediaWikiServices::getInstance()->getMainConfig()->get( 'CollectionSuggestThreshhold' );
+		if ( $numItems === 0 || $numItems > $threshold ) {
 			return;
 		}
 
@@ -152,12 +149,7 @@ class Proposals {
 				&& $item['type'] == 'article'
 			) {
 				$articleName = $item['title'];
-				$title = Title::makeTitleSafe( NS_MAIN, $articleName );
-				$article = new Article( $title, $item['revision'] );
-
-				if ( $article === null ) {
-					continue;
-				}
+				$article = new Article( Title::makeTitleSafe( NS_MAIN, $articleName ), $item['revision'] );
 
 				$content = $article->getPage()->getContent();
 				$this->mLinkList[] = [
@@ -302,16 +294,16 @@ class Proposals {
 			}
 
 			return $result;
-		} else {
-			// cheaper algorithm: just count links
-			foreach ( $linkmap as $linked ) {
-				foreach ( $linked as $link => $dummy ) {
-					$linkcount[$link] = 1;
-				}
-			}
-
-			return $linkcount;
 		}
+
+		// cheaper algorithm: just count links
+		foreach ( $linkmap as $linked ) {
+			foreach ( $linked as $link => $dummy ) {
+				$linkcount[$link] = 1;
+			}
+		}
+
+		return $linkcount;
 	}
 
 	/**
@@ -341,11 +333,8 @@ class Proposals {
 				if ( $a['val'] == $b['val'] ) {
 					return strcmp( $a['name'], $b['name'] );
 				}
-				if ( $a['val'] < $b['val'] ) {
-					return 1;
-				} else {
-					return -1;
-				}
+
+				return $a['val'] < $b['val'] ? 1 : -1;
 			}
 		);
 		$this->mPropList = [];
@@ -371,11 +360,12 @@ class Proposals {
 	 * @return bool|int the key as integer or false
 	 */
 	private function searchEntry( $entry, $array ) {
-		for ( $i = 0, $count = count( $array ); $i < $count; $i++ ) {
-			if ( $array[$i]['name'] == $entry ) {
+		foreach ( $array as $i => $value ) {
+			if ( $value['name'] == $entry ) {
 				return $i;
 			}
 		}
+
 		return false;
 	}
 
@@ -384,7 +374,7 @@ class Proposals {
 	 *
 	 * @param string $link an articlename
 	 * @return bool true: if the article can be added to the proposals
-	 *                        false: if the article can't be added to the proposals
+	 *              false: if the article can't be added to the proposals
 	 */
 	private function checkLink( $link ) {
 		foreach ( $this->mColl['items'] as $item ) {
@@ -393,17 +383,6 @@ class Proposals {
 			}
 		}
 
-		if ( $this->hasBans() && in_array( $link, $this->mBanList ) ) {
-			return false;
-		}
-
-		return true;
-	}
-
-	/**
-	 * @return int
-	 */
-	private function getPropCount() {
-		return count( $this->mPropList );
+		return !( $this->hasBans() && in_array( $link, $this->mBanList ) );
 	}
 }
