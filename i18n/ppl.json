@@ -4,6 +4,8 @@
 			"TimumachtikanNawat"
 		]
 	},
+	"coll-collection": "Amachti",
+	"coll-collections": "Ajamachti",
 	"coll-print_export": "Shiamatchiwa/Shiktukti",
 	"coll-download_as": "Shiktemulti  ken $1"
 }
