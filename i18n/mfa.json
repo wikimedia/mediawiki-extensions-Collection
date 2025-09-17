@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mirlim"
+			"Mirlim",
+			"EmpAhmadK"
 		]
 	},
-	"coll-print_export": "Cetok/ekspok",
+	"coll-print_export": "Cètok/èkspok",
 	"coll-download_as": "Wak tturóng sbaga $1"
 }
