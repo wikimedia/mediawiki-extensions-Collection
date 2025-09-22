@@ -1,11 +1,42 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jose Antonio Guillen Landaverde",
 			"TimumachtikanNawat"
 		]
 	},
 	"coll-collection": "Amachti",
 	"coll-collections": "Ajamachti",
+	"coll-your_book": "tuamachti",
+	"coll-show": "Shikilwiti",
+	"coll-title": "itukey",
+	"coll-yes": "Eje",
+	"coll-no": "Tesu",
+	"coll-cancel": "Tea nikneki",
+	"coll-limit_exceeded_title": "amachti     sujsul  tumak",
+	"coll-rendering_page": "(amat: $1)",
+	"coll-notfound_text": "tesu kiasji  ne amat pal amacht",
+	"coll-download_notfound_title": "taanalis tesu kiasjik",
+	"coll-book_title": "shiktajtani ne amachti tik amat",
+	"coll-about_pp": "ipanpa $1",
+	"coll-license": "Tanankilis",
+	"coll-suggest_title": "ujukseuk ajamat   pal muamachti",
+	"coll-suggested_articles": "yultaketzalis",
+	"coll-suggest_show": "Shikilwiti",
+	"coll-suggest_undo": "Shimukwepa",
 	"coll-print_export": "Shiamatchiwa/Shiktukti",
-	"coll-download_as": "Shiktemulti  ken $1"
+	"coll-create_a_book_tooltip": "Shikchiwa amachti  u miak ajamat",
+	"coll-book_creator": "Tawawasuani",
+	"coll-download_as": "Shiktemulti  ken $1",
+	"coll-bookscategory": "Ajamachti",
+	"coll-help": "Tepalewilis",
+	"coll-remove_this_page": "Shikishtili ini amat tik ne muamacchti",
+	"coll-show_collection": "shikilwiti amachti",
+	"coll-suggest_empty": "Tesu kanaj",
+	"coll-setting-toc-yes": "Eje",
+	"coll-setting-toc-no": "Tesu",
+	"coll-contributors-title": "tajtamakalis",
+	"coll-images-title": "ijikwikwil",
+	"coll-images-source": "Itachishka tajtajkwilulchichin",
+	"coll-images-license": "Tanankilis"
 }
