@@ -34,6 +34,7 @@
 	"coll-no": "Tesu",
 	"coll-cancel": "Tea nikneki",
 	"coll-limit_exceeded_title": "amachti     sujsul  tumak",
+	"coll-rendering_article": "(amat pal ne wiki: $1)",
 	"coll-rendering_page": "(amat: $1)",
 	"coll-notfound_text": "tesu kiasji  ne amat pal amacht",
 	"coll-download_notfound_title": "taanalis tesu kiasjik",
