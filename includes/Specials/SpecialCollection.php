@@ -25,6 +25,7 @@ namespace MediaWiki\Extension\Collection\Specials;
 use MediaWiki\Api\ApiMain;
 use MediaWiki\Config\Config;
 use MediaWiki\Context\RequestContext;
+use MediaWiki\Deferred\LinksUpdate\CategoryLinksTable;
 use MediaWiki\Extension\Collection\MessageBoxHelper;
 use MediaWiki\Extension\Collection\Rendering\CollectionAPIResult;
 use MediaWiki\Extension\Collection\Rendering\CollectionRenderingAPI;
@@ -773,7 +774,9 @@ class SpecialCollection extends SpecialPage {
 			return false;
 		}
 
-		$dbr = MediaWikiServices::getInstance()->getConnectionProvider()->getReplicaDatabase();
+		$dbr = MediaWikiServices::getInstance()
+			->getConnectionProvider()
+			->getReplicaDatabase( CategoryLinksTable::VIRTUAL_DOMAIN );
 
 		$qb = $dbr->newSelectQueryBuilder()
 			->select( [ 'page_namespace', 'page_title' ] )
