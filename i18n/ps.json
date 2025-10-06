@@ -97,6 +97,7 @@
 	"coll-format-zim": "کيويکس (OpenZIM)",
 	"coll-format-okawix_zeno": "اوکاوېکس",
 	"right-collectionsaveasuserpage": "کتابونه د کارن مخ په توگه خوندي کول",
+	"action-collectionsaveascommunitypage": "کيتابونه د ټولنې پاڼې په څېر خوندي‌کول",
 	"coll-print_export": "چاپول/لېږل",
 	"coll-create_a_book": "يو کتاب جوړول",
 	"coll-create_a_book_tooltip": "يو کتاب يا د مخونو ټولگه جوړول",
