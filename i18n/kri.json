@@ -2,20 +2,21 @@
 	"@metadata": {
 		"authors": [
 			"122112ê",
-			"Protostar"
+			"Protostar",
+			"AmazingJus"
 		]
 	},
 	"coll-collection": "Buk",
-	"coll-collections": "Bukdèm",
-	"coll-show": "Show",
-	"coll-move_up": "Mufap",
-	"coll-move_down": "Mufdòng",
+	"coll-collections": "Buk dɛn",
+	"coll-show": "Sho",
+	"coll-move_up": "Muf ɔp",
+	"coll-move_down": "Muf dɔŋ",
 	"coll-print_export": "Print/ɛkspɔt",
-	"coll-create_a_book": "kreat buk",
+	"coll-create_a_book": "Mek wan buk",
 	"coll-download_as": "Daunlod as $1",
-	"coll-disable": "disebul",
-	"coll-add_this_page": "Add dhis pej na yu buk",
-	"coll-help": "Hèp",
-	"coll-show_collection": "Show buk",
-	"coll-setting-toc": "Inklud kòntenttebul"
+	"coll-disable": "mek ɔf",
+	"coll-add_this_page": "Ad dis pej to yu buk",
+	"coll-help": "Ɛp",
+	"coll-show_collection": "Sho buk",
+	"coll-setting-toc": "Put kɔntɛnt list"
 }
