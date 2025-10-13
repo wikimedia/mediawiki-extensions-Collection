@@ -4,7 +4,8 @@
 			"Chavash",
 			"Chuvash",
 			"Chuvash2014",
-			"Astahar"
+			"Astahar",
+			"Пеопл"
 		]
 	},
 	"coll-desc": "[[Special:Book|Кӗнеке калӑпласси]]",
@@ -117,7 +118,7 @@
 	"coll-create_a_book": "Кĕнеке тумалли",
 	"coll-create_a_book_tooltip": "Кӗнеке е страницӑсен пуххине хатӗрле",
 	"coll-book_creator": "Кĕнеке хатӗрлекенӗ",
-	"coll-download_as": "$1 пек уҫласа ил",
+	"coll-download_as": "$1 пек тиесе ил",
 	"coll-download_as_tooltip": "Ку вики-страницӑн $1 версине уҫласа ил",
 	"coll-disable": "чар",
 	"coll-book_creator_disable": "Кӗнеке хатӗрлевҫӗн ӗҫне хуп",
