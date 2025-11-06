@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Bennylin",
 			"Sumbukompor"
 		]
 	},
@@ -10,5 +11,7 @@
 	"coll-download_title": "ꦲꦸꦤ꧀ꦝꦸꦃ",
 	"coll-download": "ꦲꦸꦤ꧀ꦝꦸꦃ",
 	"coll-format_label": "ꦥ꦳ꦺꦴꦂꦩꦠ꧀:",
-	"coll-remove": "ꦧꦸꦱꦏ꧀"
+	"coll-remove": "ꦧꦸꦱꦏ꧀",
+	"coll-print_export": "ꦕꦶꦛꦏ꧀/ꦏꦶꦫꦶꦩ꧀",
+	"coll-download_as": "ꦲꦸꦤ꧀ꦝꦸꦃ​ꦢꦢꦶ$1"
 }
