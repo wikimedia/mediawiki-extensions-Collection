@@ -81,7 +81,7 @@
 	"coll-rendering_finished_notes_heading": "ಟಿಪ್ಪಣಿ:",
 	"coll-rendering_finished_note_not_satisfied": "ಹುಟ್ಟುವಳಿಡ್ ತ್ರಿಪ್ತಿ ಇಜ್ಜಾ? ಉಂದೆನ್ ಸುದಾರಣೆ ಮಲ್ಪುನ ಸಾದ್ಯತೆಲೆಗ್ [[{{MediaWiki:Coll-helppage}}|ಬೂಕುಲೆನ ಬಗೆಟ್ ಸಹಾಯೊ ಪುಟೊ]]ನ್ ತೂಲೆ.",
 	"coll-rendering_finished_note_article_rdf2latex": "ಇತ್ತೆ ಕೆಲವು ದಾಕಲೆಲೆಡ್ ಕೋಷ್ಟಕೊಲು ಇಜ್ಜಿ. ಒಂಜಿ ಪರ್ಯಾಯವಾದ್ $1 ಬಳಕೆ ಮಲ್ಪುಲೆ, ನಾಡುನ ಸೂಚಿಡ್ \"ಮುದ್ರಣ\" ನ್ ಆಯ್ಕೆ ಮಲ್ಪುಲೆ, ಬೊಕ್ಕ \"ಪಿಡಿಎಫ್ ಆದ್ ಒರಿಪಾಲೆ\" ಆಯ್ಕೆನ್ ಬಳಕೆ ಮಲ್ಪುಲೆ.",
-	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/ಪುಟೊದ ಮಾಹಿತಿ ಪಟ್ಯೊ ಸಲ್ಲಿಕೆನ್ ತೋಜಾವುನ",
+	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/ಪುಟೊತ ಮಾಹಿತಿ ಪಟ್ಯೊ ಸಲ್ಲಿಕೆನ್ ತೋಜಾವುನ",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/ಸಂಗ್ರಹ ಮಾಹಿತಿ ಪಟ್ಯೊ ಸಲ್ಲಿಕೆನ್  ತೋಜಾವುನ",
 	"coll-rendering_failed_title": "ಸಲ್ಲಿಕೆ ಮುಗಿತ್ಂಡ್",
 	"coll-rendering_failed_text": "<strong>ದಾಕಲಾತಿ ಕಡತೊದ ಉತ್ಪಾದನೆ ಸೋತ್ಂಡ್.</strong> \n<p> <span id=\"renderingStatus\">$1</span></p>",
