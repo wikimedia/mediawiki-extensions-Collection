@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"BuddhikaW88",
 			"Singhalawap",
 			"පසිඳු කාවින්ද",
 			"බිඟුවා",
@@ -101,7 +102,7 @@
 	"coll-format-okawix_zeno": "ඔකවිෂ්",
 	"right-collectionsaveasuserpage": "පරිශීලක පිටුව ලෙස පොත් සුරකින්න",
 	"right-collectionsaveascommunitypage": "ප්‍රජා පිටුව ලෙස පොත් සුරකින්න",
-	"coll-print_export": "මුද්‍රණය/නිර්යාත කෙරුම",
+	"coll-print_export": "මුද්‍රණය/අපනයනය",
 	"coll-create_a_book": "පොතක් නිර්මාණය කරන්න",
 	"coll-create_a_book_tooltip": "පොතක් හෝ පිටු එකතුවක් තනන්න",
 	"coll-book_creator": "පොත් තනන්නා",
