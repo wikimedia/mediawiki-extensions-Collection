@@ -32,16 +32,13 @@ use Wikimedia\ParamValidator\ParamValidator;
 class ApiPostCollection extends ApiBase {
 	use CollectionTrait;
 
-	private UrlUtils $urlUtils;
-
 	public function __construct(
 		ApiBase $parent,
 		string $action,
-		UrlUtils $urlUtils
+		private readonly UrlUtils $urlUtils,
 	) {
 		parent::__construct( $parent->getMain(), $action );
 		$this->parent = $parent;
-		$this->urlUtils = $urlUtils;
 	}
 
 	/**

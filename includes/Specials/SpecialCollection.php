@@ -66,25 +66,14 @@ class SpecialCollection extends SpecialPage {
 	/** @var int */
 	private $maxLineLength = 350;
 
-	private HttpRequestFactory $httpRequestFactory;
-	private RevisionLookup $revisionLookup;
-	private StatsFactory $statsFactory;
-	private UrlUtils $urlUtils;
-	private WikiPageFactory $wikiPageFactory;
-
 	public function __construct(
-		HttpRequestFactory $httpRequestFactory,
-		RevisionLookup $revisionLookup,
-		StatsFactory $statsFactory,
-		UrlUtils $urlUtils,
-		WikiPageFactory $wikiPageFactory
+		private readonly HttpRequestFactory $httpRequestFactory,
+		private readonly RevisionLookup $revisionLookup,
+		private readonly StatsFactory $statsFactory,
+		private readonly UrlUtils $urlUtils,
+		private readonly WikiPageFactory $wikiPageFactory,
 	) {
 		parent::__construct( "Book" );
-		$this->httpRequestFactory = $httpRequestFactory;
-		$this->revisionLookup = $revisionLookup;
-		$this->statsFactory = $statsFactory;
-		$this->urlUtils = $urlUtils;
-		$this->wikiPageFactory = $wikiPageFactory;
 		$this->mPODPartners = $this->getConfig()->get( 'CollectionPODPartners' );
 	}
 

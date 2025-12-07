@@ -32,19 +32,14 @@ use Wikimedia\ParamValidator\ParamValidator;
 class ApiGetPopupData extends ApiBase {
 	use CollectionTrait;
 
-	private TitleFactory $titleFactory;
-	private WikiPageFactory $wikiPageFactory;
-
 	public function __construct(
 		ApiBase $parent,
 		string $action,
-		TitleFactory $titleFactory,
-		WikiPageFactory $wikiPageFactory
+		private readonly TitleFactory $titleFactory,
+		private readonly WikiPageFactory $wikiPageFactory,
 	) {
 		parent::__construct( $parent->getMain(), $action );
 		$this->parent = $parent;
-		$this->titleFactory = $titleFactory;
-		$this->wikiPageFactory = $wikiPageFactory;
 	}
 
 	/**

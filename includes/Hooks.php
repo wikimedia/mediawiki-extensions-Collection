@@ -43,12 +43,9 @@ class Hooks implements
 	SiteNoticeAfterHook,
 	OutputPageCheckLastModifiedHook
 {
-	private Config $config;
-
 	public function __construct(
-		Config $config
+		private readonly Config $config,
 	) {
-		$this->config = $config;
 	}
 
 	/**
