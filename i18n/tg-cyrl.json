@@ -3,7 +3,8 @@
 		"authors": [
 			"Ibrahim",
 			"ToJack",
-			"Vashgird"
+			"Vashgird",
+			"ZulfiqorF"
 		]
 	},
 	"coll-desc": "[[Special:Book|Гирдоварии саҳифаҳо]], тавлиди PDFҳо",
@@ -61,7 +62,7 @@
 	"coll-print_export": "Чоп/берунбарӣ",
 	"coll-create_a_book": "Эҷоди як китоб",
 	"coll-book_creator": "Китобсоз",
-	"coll-download_as": "Дарёфтан чун $1",
+	"coll-download_as": "Боргирӣ ҳамчун $1",
 	"coll-download_as_tooltip": "Як нусхаи $1 аз ин саҳифаро боргирӣ кун",
 	"coll-disable": "ғайрифаъолкунӣ",
 	"coll-book_creator_disable": "Ғайрифаъолкунии китобсоз",
