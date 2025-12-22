@@ -1,8 +1,25 @@
 {
 	"@metadata": {
 		"authors": [
-			"StarrySky"
+			"Peterxy12",
+			"StarrySky",
+			"Vjfjng"
 		]
 	},
+	"apihelp-collection+getcollection-example": "列出目前收藏的页面。",
+	"apihelp-collection+getcollection-summary": "用于列出收藏中现有页面的API模块",
+	"apihelp-collection+addarticle-example": "将页面添加到收藏。",
+	"apihelp-collection+addarticle-summary": "用于将页面添加至收藏的API模块",
+	"apihelp-collection+addarticle-param-namespace": "要添加页面的命名空间",
+	"apihelp-collection+addarticle-param-title": "要添加的页面标题",
+	"apihelp-collection+addarticle-param-oldid": "要添加的页面的Oldid",
+	"apihelp-collection+settitles-example": "设置收藏集的标题和副标题",
+	"apihelp-collection+settitles-settings-example": "设置收藏集的标题、副标题和设置",
+	"apihelp-collection+settitles-summary": "用于设置集合标题、副标题和设置的API模块",
+	"apihelp-collection+settitles-param-title": "收藏标题",
+	"apihelp-collection+settitles-param-subtitle": "收藏副标题",
+	"apihelp-collection+settitles-param-settings": "收藏设置",
+	"coll-api-addarticle-article-not-added": "该页面未添加到收藏。请确保标题位于指定的命名空间中，或检查该页面是否已存在于收藏中。",
+	"apihelp-collection+removearticle-example": "从收藏中移除页面。",
 	"coll-api-invalid-collection": "收到无效的集合。"
 }
