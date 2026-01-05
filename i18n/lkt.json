@@ -2,15 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Peter57770",
-			"R12ntech"
+			"R12ntech",
+			"AmazingJus"
 		]
 	},
-	"coll-remove": "Yuȟéyab ičú wo/we",
+	"coll-remove": "Yuȟéyab ičú {{GENDER:|wo|we|wo/we}}",
 	"coll-show": "Pazó wo/we",
 	"coll-move_up": "Waŋkátakiya",
 	"coll-move_down": "Khútakiya",
-	"coll-print_export": "Máza aglíheya/yutȟáŋkal ičú wo/we",
-	"coll-create_a_book": "Wówapi káǧa yo/ye",
-	"coll-download_as": "$1 s'e khulwókšu wo/we",
-	"coll-help": "Ómakiya yo/ye"
+	"coll-print_export": "Máza aglíheya/yutȟáŋkal ičú {{GENDER:|wo|we|wo/we}}",
+	"coll-create_a_book": "Wówapi káǧa {{GENDER:|yo|ye|yo/ye}}",
+	"coll-download_as": "$1 s'e khulwókšu {{GENDER:|wo|we|wo/we}}",
+	"coll-help": "Ómakiya {{GENDER:|yo|ye|yo/ye}}"
 }
