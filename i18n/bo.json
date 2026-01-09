@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Pecha-Tsewang",
 			"Tenzin Thoesam",
 			"ཁ་བཏགས་ནག་པོ"
 		]
@@ -62,5 +63,6 @@
 	"coll-cancel": "རྩིས་མེད་ཐོངས།",
 	"coll-update": "དུས་ཐོག་བཟོས།",
 	"coll-print_export": "དཔར་སྐྲུན།/ཕྱིར་འདྲེན།",
-	"coll-create_a_book": "དེབ་ཅིག་སྒྲིག་པ།"
+	"coll-create_a_book": "དེབ་ཅིག་སྒྲིག་པ།",
+	"coll-download_as": "$1 འདི་ལྟར་ཕབ་ལེན་བྱོས།"
 }
