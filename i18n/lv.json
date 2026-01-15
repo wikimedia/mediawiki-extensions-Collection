@@ -3,7 +3,8 @@
 		"authors": [
 			"GreenZeb",
 			"Papuass",
-			"Silraks"
+			"Silraks",
+			"Rusjanis"
 		]
 	},
 	"coll-desc": "[[Special:Book|Veidot grāmatas]]",
@@ -13,6 +14,7 @@
 	"coll-collection": "Grāmata",
 	"coll-collections": "Grāmatas",
 	"coll-unknown_subpage_title": "Nezināma apakšlapa",
+	"coll-couldnotaddarticle_title": "Nevarēja pievienot wiki lapu",
 	"coll-your_book": "Jūsu grāmata",
 	"coll-download_title": "Lejupielādēt",
 	"coll-download": "Lejupielādēt",
