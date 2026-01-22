@@ -177,7 +177,7 @@
 	"coll-setting-toc-yes": "Có",
 	"coll-setting-toc-no": "Không có",
 	"coll-setting-columns": "Số cột:",
-	"coll-attribution-anons": "Số người vô danh: $1",
+	"coll-attribution-anons": "Số người chưa đăng nhập: $1",
 	"coll-attribution-page": "<h1>Nguồn, người đóng góp, và giấy phép cho văn bản và hình ảnh</h1>\n<h2>Văn bản</h2>\n$1<h2>Hình ảnh</h2>\n$2\n<h2>Giấy phép nội dung</h2>\n$3",
 	"coll-article-attribution": "<b>$1</b> <i>Nguồn:</i> $2 <i>Người đóng góp:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Nguồn:</i> $2 <i>Giấy phép:</i> $3 <i>Người đóng góp:</i> $4 <i>Nghệ sĩ đầu tiên:</i> $5",
