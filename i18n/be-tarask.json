@@ -67,7 +67,7 @@
 	"coll-limit_exceeded_title": "Кніга занадта вялікая",
 	"coll-limit_exceeded_text": "Ваша кніга занадта вялікая.\nДа яе болей немагчыма дадаваць старонкі.",
 	"coll-rendering_title": "Стварэньне",
-	"coll-rendering_text": "<p><strong>Пачакайце, пакуль ствараецца дакумэнт.</strong></p>\n\n<p><strong>Прагрэс:</strong> <span id=\"renderingProgress\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p>Гэтая старонка павінна аўтаматычна абнаўляцца кожныя некалькі сэкундаў.\nКалі гэтага не адбываецца, калі ласка, націсьніце кнопку «Абнавіць» у Вашым браўзэры.</p>",
+	"coll-rendering_text": "<p><strong>Пачакайце, пакуль ствараецца дакумэнт.</strong></p>\n\n<p><strong>Праґрэс:</strong> <span id=\"renderingProgress\">$1</span>% <span id=\"renderingStatus\">$2</span></p>\n\n<p>Гэтая старонка павінна аўтаматычна абнаўляцца кожныя колькі сэкундаў.\nКалі гэтага не адбываецца, калі ласка, націсьніце кнопку «Абнавіць» у Вашым браўзэры.</p>",
 	"coll-rendering_status": "<strong>Статус:</strong> $1",
 	"coll-rendering_article": "(вікі-старонка: $1)",
 	"coll-rendering_page": "(старонка: $1)",
