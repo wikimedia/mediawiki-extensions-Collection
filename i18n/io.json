@@ -72,6 +72,7 @@
 	"coll-n_pages": "$1 {{PLURAL:$1|pagino|pagini}}",
 	"coll-printable_version_pdf": "Versiono PDF",
 	"coll-remove_this_page": "Efacar ica pagino de vua libro",
+	"coll-remove_page_tooltip": "Removar la nuna wiki-pagino de vua libro",
 	"coll-show_collection": "Montrez libro",
 	"coll-show_collection_tooltip": "Kliktez por editar/descharjar/solicitar vua libro",
 	"coll-make_suggestions": "Sugestez pagini",
