@@ -133,7 +133,7 @@ class SpecialCollection extends SpecialPage {
 				if ( $request->getVal( 'confirm' ) ) {
 					CollectionSession::disable();
 				} elseif ( !$request->getVal( 'continue' ) ) {
-					$this->renderStopBookCreatorPage( $title );
+					$this->renderStopBookCreatorPage( $title->getPrefixedText() );
 					return;
 				}
 				$out->redirect( $title->getFullURL() );
@@ -259,7 +259,7 @@ class SpecialCollection extends SpecialPage {
 					}
 					return;
 				}
-				$this->renderLoadOverwritePage( $title );
+				$this->renderLoadOverwritePage( $title->getPrefixedText() );
 				return;
 
 			case 'order_collection':
@@ -388,7 +388,7 @@ class SpecialCollection extends SpecialPage {
 		} else {
 			$this->renderSaveOverwritePage(
 				$colltype,
-				$title,
+				$title->getPrefixedText(),
 				$request->getVal( 'pcollname' ) ?? '',
 				$request->getVal( 'ccollname' ) ?? ''
 			);

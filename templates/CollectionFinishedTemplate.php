@@ -70,7 +70,7 @@ class CollectionFinishedTemplate extends QuickTemplate {
 			echo wfMessage( 'coll-is_cached', $forceRenderURL )->parseAsBlock();
 		}
 		if ( $t && $t->isKnown() ) {
-			echo wfMessage( 'coll-return_to', $t )->parseAsBlock();
+			echo wfMessage( 'coll-return_to', $t->getPrefixedText() )->parseAsBlock();
 		}
 
 		if ( Session::isEnabled() ) {
@@ -80,7 +80,7 @@ class CollectionFinishedTemplate extends QuickTemplate {
 		}
 		$t = Title::newFromText( $title_string );
 		if ( $t && $t->exists() ) {
-			echo $GLOBALS['wgOut']->parseAsContent( '{{:' . $t . '}}' );
+			echo $GLOBALS['wgOut']->parseAsContent( '{{:' . $t->getPrefixedText() . '}}' );
 		}
 		?>
 
