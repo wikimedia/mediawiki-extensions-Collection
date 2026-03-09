@@ -157,7 +157,7 @@ class Proposals {
 					'links' => $this->getWeightedLinks(
 						$numItems,
 						( $content instanceof TextContent )
-							? $content->getText() : null
+							? $content->getText() : ''
 					),
 				];
 			}
