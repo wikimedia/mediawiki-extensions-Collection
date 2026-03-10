@@ -7,12 +7,32 @@
 			"Tuwewanzi"
 		]
 	},
+	"coll-collection": "Wówapi",
+	"coll-collections": "Wówapi",
+	"coll-your_book": "Wówapi nitȟáwa",
+	"coll-download_title": "Khulwókšu {{GENDER:|wo|we|wo/we}}",
+	"coll-download": "Khulwókšu {{GENDER:|wo|we|wo/we}}",
 	"coll-remove": "Yuȟéyab ičú {{GENDER:|wo|we|wo/we}}",
 	"coll-show": "Pazó {{GENDER:|wo|we|wo/we}}",
 	"coll-move_up": "Waŋkátakiya",
 	"coll-move_down": "Khútakiya",
+	"coll-save_collection": "Wówapi égnaka",
+	"coll-yes": "{{GENDER:|Hau|Haƞ|Hau/Haƞ}}",
+	"coll-no": "Hiyá",
+	"coll-cancel": "Yužúžu {{GENDER:|wo|we|wo/we}}",
+	"coll-license": "Wóopȟe Wóiyowiƞkhiye",
 	"coll-print_export": "Máza aglíheya/yutȟáŋkal ičú {{GENDER:|wo|we|wo/we}}",
 	"coll-create_a_book": "Wówapi káǧa {{GENDER:|yo|ye|yo/ye}}",
 	"coll-download_as": "$1 s'e khulwókšu {{GENDER:|wo|we|wo/we}}",
-	"coll-help": "Ómakiya {{GENDER:|yo|ye|yo/ye}}"
+	"coll-bookscategory": "Wówapi",
+	"coll-help": "Ómakiya {{GENDER:|yo|ye|yo/ye}}",
+	"coll-suggest_empty": "háeče",
+	"coll-setting-toc-auto": "Naídeya",
+	"coll-setting-toc-yes": "{{GENDER:|Hau|Haƞ|Hau/Haƞ}}",
+	"coll-setting-toc-no": "Hiyá",
+	"coll-attribution-anons": "Čhažé-waníča: $1",
+	"coll-toc-title": "Táku Aíkȟoyake",
+	"coll-images-title": "Itówapi",
+	"coll-images-source": "Ohútkȟaŋ",
+	"coll-images-license": "Wóopȟe Wóiyowiƞkhiye"
 }
