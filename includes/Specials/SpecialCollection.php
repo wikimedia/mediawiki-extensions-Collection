@@ -445,7 +445,7 @@ class SpecialCollection extends SpecialPage {
 			],
 		] ) );
 
-		$out->addHTML( $form );
+		$out->addHTML( (string)$form );
 
 		$title_string = $this->msg( 'coll-book_creator_text_article' )->inContentLanguage()->text();
 		$t = Title::newFromText( $title_string );
@@ -497,7 +497,7 @@ class SpecialCollection extends SpecialPage {
 			],
 		] ) );
 
-		$out->addHTML( $form );
+		$out->addHTML( (string)$form );
 	}
 
 	/**
