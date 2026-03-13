@@ -54,7 +54,7 @@
 	"coll-overwrite_text": "Dja ta izisti un pájina ku nómi [[:$1]].\nBu kre subustitui-l pa bu libru?",
 	"coll-yes": "Aian",
 	"coll-no": "Non",
-	"coll-load_overwrite_text": "Bu dja tene algun pájinas na bu libru. Bu kre subustitui bu libru atual, kirsenta kuntiúdu nobu na el, o kansela karagamentu di es libru?",
+	"coll-load_overwrite_text": "Bu dja tene alguns pájina na bu libru. Bu kre subustitui bu libru atual, kirsenta kuntiúdu nobu na el, o kansela karagamentu di es libru?",
 	"coll-overwrite": "Subustitui",
 	"coll-append": "Kirsenta na fin",
 	"coll-cancel": "Kansela",
