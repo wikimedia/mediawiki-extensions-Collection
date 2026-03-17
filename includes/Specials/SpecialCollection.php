@@ -260,7 +260,7 @@ class SpecialCollection extends SpecialPage {
 					}
 					return;
 				}
-				$this->renderLoadOverwritePage( $title->getPrefixedText() );
+				$this->renderLoadOverwritePage( $title );
 				return;
 
 			case 'order_collection':
@@ -389,7 +389,7 @@ class SpecialCollection extends SpecialPage {
 		} else {
 			$this->renderSaveOverwritePage(
 				$colltype,
-				$title->getPrefixedText(),
+				$title,
 				$request->getVal( 'pcollname' ) ?? '',
 				$request->getVal( 'ccollname' ) ?? ''
 			);
@@ -1363,7 +1363,7 @@ class SpecialCollection extends SpecialPage {
 
 	/**
 	 * @param string $colltype
-	 * @param string $title
+	 * @param Title $title
 	 * @param string $pcollname
 	 * @param string $ccollname
 	 */
@@ -1382,7 +1382,7 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * @param string $title
+	 * @param Title $title
 	 */
 	private function renderLoadOverwritePage( $title ) {
 		$this->setHeaders();
