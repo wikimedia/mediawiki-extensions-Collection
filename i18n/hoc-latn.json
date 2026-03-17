@@ -1,7 +1,9 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Singkiring57"
+		]
 	},
-	"coll-print_export": "Balnamè/kulòlt́e",
-	"coll-download_as": "$1 lekate aagunamè"
+	"coll-print_export": "Balname/kulòlt́e",
+	"coll-download_as": "$1 lekate aaguname"
 }
