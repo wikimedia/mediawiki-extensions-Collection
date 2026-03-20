@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aca",
 			"Winston Sung"
 		]
 	},
@@ -23,7 +24,7 @@
 	"apihelp-collection+suggestundoarticleaction-example": "Poništava dodavanje stranice",
 	"apihelp-collection+suggestundoarticleaction-summary": "Priložnički modul za poništavanje radnji učinjenih iz suggestarticleaction",
 	"apihelp-collection+suggestundoarticleaction-param-lastaction": "Jedno od 'add', 'remove' ili 'ban'.",
-	"coll-api-addcategory-category-does-not-exist": "Kategorija iz koje pokušavate dodati stranice ne postoji, nije važeća ili ima više stranica od navedenog ograničenja.",
+	"coll-api-addcategory-category-does-not-exist": "Kategorija iz koje pokušavate dodati stranice ne postoji, nije ispravna ili ima više stranica od navedenog ograničenja.",
 	"apihelp-collection+addchapter-example": "Dodajte poglavlje u zbirku.",
 	"apihelp-collection+addchapter-summary": "Priložnički modul za dodavanje poglavlja u zbirku",
 	"apihelp-collection+renamechapter-example": "Preimenujte poglavlje u zbirci korisnika.",
