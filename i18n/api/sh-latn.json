@@ -47,5 +47,5 @@
 	"apihelp-collection+getbookcreatorboxcontent-summary": "Priložnički podmodul za preuzimanje sadržaja kutije za kreator knjige iz korisničke zbirke.",
 	"apihelp-collection+postcollection-example": "Objavite stranice u zbirci korisnika",
 	"apihelp-collection+postcollection-summary": "Priložnički modul za objavljanje stranica u zbirci korisnika",
-	"coll-api-invalid-collection": "Primljena je nevažeća zbirka."
+	"coll-api-invalid-collection": "Primljena je neispravna zbirka."
 }
