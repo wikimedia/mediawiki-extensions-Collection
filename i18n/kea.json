@@ -81,7 +81,7 @@
 	"coll-suggest_ban_tooltip": "Ramovi es pájina di lista di sujistons",
 	"coll-suggest_undo_tooltip": "Disfasi es ason",
 	"coll-suggest_undo": "disfasi",
-	"coll-load_local_book": "Klika \"OK\" pa kuntinua ku bu libru $1, ki ta konte $2 {{PLURAL:$2|pájina}} uiki. Klika \"Kansela\" pa paga-l i rakumesa ku un libru baziu.",
+	"coll-load_local_book": "Klika \"OK\" pa kuntinua ku bu libru $1, ki ta konte $2 {{PLURAL:$2|pájina}} uiki. Klika \"Cancel\" pa paga-l i rakumesa ku un libru baziu.",
 	"coll-format-rdf2text": "Pursesador di testu (sin furmatason)",
 	"action-collectionsaveasuserpage": "garda librus kuma pájina di uzuári",
 	"right-collectionsaveasuserpage": "Garda librus kuma pájina di uzuári",
