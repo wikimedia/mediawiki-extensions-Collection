@@ -14,10 +14,15 @@ class BookRendererTest extends MediaWikiIntegrationTestCase {
 	private const TEMPLATE_DIR = '/../../../templates';
 
 	/**
-	 * @dataProvider provideGetBookTemplateDataOutlineGeneration
+	 * @dataProvider provideTestFixtures
 	 */
 	public function testGetBookTemplateDataOutlineGeneration(
-		$collection, $pages, $metadata, $expectedOutline
+		array $collection,
+		array $pages,
+		array $metadata,
+		string $expectedHtml,
+		array $expectedSections,
+		array $expectedOutline
 	) {
 		$templateParser = new TemplateParser( __DIR__ . self::TEMPLATE_DIR );
 		$renderer = new BookRenderer( $templateParser );
@@ -81,14 +86,21 @@ class BookRendererTest extends MediaWikiIntegrationTestCase {
 	}
 
 	/**
-	 * @dataProvider provideRenderBook
+	 * @dataProvider provideTestFixtures
 	 * @param array[] $collection Collection, as returned by CollectionSession::getCollection().
 	 * @param string[] $pages Map of prefixed DB key => Parsoid HTML.
 	 * @param array[] $metadata Map of prefixed DB key => metadata, as returned by fetchMetadata().
 	 * @param string $expectedHtml Expected HTML of the rendered book
+	 * @param array $expectedSections
+	 * @param array $expectedOutline
 	 */
 	public function testRenderBook(
-		$collection, $pages, $metadata, $expectedHtml
+		array $collection,
+		array $pages,
+		array $metadata,
+		string $expectedHtml,
+		array $expectedSections,
+		array $expectedOutline
 	) {
 		$templateParser = new TemplateParser( __DIR__ . self::TEMPLATE_DIR );
 		$templateParser->enableRecursivePartials( true );
@@ -97,25 +109,10 @@ class BookRendererTest extends MediaWikiIntegrationTestCase {
 		$this->assertSameExceptWhitespace( $expectedHtml, $html, 'HTML mismatch' );
 	}
 
-	public static function provideRenderBook() {
-		return [
-			'single page' => self::loadData( 'single_page' ),
-			'two pages' => self::loadData( 'two_pages' ),
-			'chapters' => self::loadData( 'chapters' ),
-			'id conflict' => self::loadData( 'id_conflict' ),
-			'header conflict' => self::loadData( 'header_conflict' ),
-		];
-	}
-
-	public static function provideGetBookTemplateDataOutlineGeneration() {
-		$cases = [];
+	public static function provideTestFixtures() {
 		foreach ( [ 'single_page', 'two_pages', 'chapters', 'id_conflict', 'header_conflict' ] as $key ) {
-			$eg = self::loadData( $key );
-			$cases[] = [
-				$eg['collection'], $eg['pages'], $eg['metadata'], $eg['expectedOutline'],
-			];
+			yield $key => self::loadData( $key );
 		}
-		return $cases;
 	}
 
 	/**
