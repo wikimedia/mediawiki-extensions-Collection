@@ -5,7 +5,8 @@
 			"Macofe",
 			"Praveenp",
 			"Shijualex",
-			"Vssun"
+			"Vssun",
+			"Ranjithsiji"
 		]
 	},
 	"coll-desc": "[[Special:Book|പുസ്തകം സൃഷ്ടിക്കുക]]",
@@ -30,7 +31,7 @@
 	"coll-download_text": "താങ്കളുടെ പുസ്തകം ഡൗൺലോഡ് ചെയ്യുന്നതിനായി ഫോർമാറ്റ് തിരഞ്ഞെടുത്ത ശേഷം ബട്ടൺ ഞെക്കുക.",
 	"coll-download_as_text": "താങ്കളുടെ പുസ്തകം $1 ഫോർമാറ്റിൽ ഡൗൺലോഡ് ചെയ്യാൻ ബട്ടൺ അമർത്തുക.",
 	"coll-download": "ഡൗൺലോഡ്",
-	"coll-format_label": "തരം:",
+	"coll-format_label": "ഫോർമാറ്റ്:",
 	"coll-remove": "നീക്കം ചെയ്യുക",
 	"coll-show": "പ്രദർശിപ്പിക്കുക",
 	"coll-move_to_top": "ഏറ്റവും മുകളിലേക്ക് നീങ്ങുക",
@@ -38,7 +39,7 @@
 	"coll-move_down": "താഴേക്ക് നീങ്ങുക",
 	"coll-move_to_bottom": "ഏറ്റവും താഴേക്ക് നീങ്ങുക",
 	"coll-title": "തലക്കെട്ട്:",
-	"coll-subtitle": "ഉപശീർഷകം:",
+	"coll-subtitle": "ഉപതലക്കെട്ട്",
 	"coll-contents": "ഉള്ളടക്കം",
 	"coll-drag_and_drop": "വിക്കി താളുകളും അദ്ധ്യായങ്ങളും ക്രമം മാറ്റാൻ വലിച്ചിടൽ ഉപയോഗിക്കുക",
 	"coll-create_chapter": "അദ്ധ്യായം സൃഷ്ടിക്കുക",
@@ -175,6 +176,7 @@
 	"coll-images-license": "ഉപയോഗാനുമതി",
 	"coll-images-original-artist": "യഥാർത്ഥ കലാകാരൻ/കലാകാരി",
 	"coll-license-title": "ഉള്ളടക്കത്തിന്റെ അനുമതി",
+	"coll-rendererror-title": "പുസ്തകം സൃഷ്ടിക്കാൻ കഴിഞ്ഞില്ല",
 	"coll-rendererror-pdf": "പി.ഡി.എഫ്. നിർമ്മിതി പരാജയപ്പെട്ടു: $1",
 	"coll-rendererror-fetch": "$1 എടുക്കൽ പരാജയപ്പെട്ടു: $2"
 }
