@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"WikiFayo95"
+		]
+	},
+	"coll-remove": "Undfeeren",
+	"coll-show": "Wiisen",
+	"coll-move_up": "Nóó booven",
+	"coll-move_down": "Nóó unner",
+	"coll-print_export": "Drükken/eksportäären",
+	"coll-create_a_book": "Bauk erstellen",
+	"coll-book_creator": "Baukgeneróótoor",
+	"coll-download_as": "As $1 dóólhóólen",
+	"coll-help": "Hüelp",
+	"coll-n_pages": "$1 {{PLURAL:$1|siid|siiden}}",
+	"coll-remove_this_page": "Disser siid uut diin bauk undfeeren."
+}
