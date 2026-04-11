@@ -34,7 +34,9 @@ class ApiAddCategory extends ApiBase {
 	 */
 	public function execute() {
 		$params = $this->extractRequestParams();
-		 /* $articlesAdded = */ SpecialCollection::addCategoryFromName( $params['title'], $this->getConfig() );
+		/* $articlesAdded = */ SpecialCollection::addCategoryFromName(
+			$params['title'], $this->getConfig(), $this->getOutput()
+		);
 
 		// TODO: There is an issue with ::addCategoryFromName that makes successfully
 		// adding articles within a category to the book to return false instead

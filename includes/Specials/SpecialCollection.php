@@ -25,7 +25,6 @@ namespace MediaWiki\Extension\Collection\Specials;
 use MediaWiki\Api\ApiMain;
 use MediaWiki\Config\Config;
 use MediaWiki\Content\TextContent;
-use MediaWiki\Context\RequestContext;
 use MediaWiki\Deferred\LinksUpdate\CategoryLinksTable;
 use MediaWiki\Extension\Collection\MessageBoxHelper;
 use MediaWiki\Extension\Collection\Rendering\CollectionAPIResult;
@@ -42,6 +41,7 @@ use MediaWiki\Html\Html;
 use MediaWiki\Http\HttpRequestFactory;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Message\Message;
+use MediaWiki\Output\OutputPage;
 use MediaWiki\Page\WikiPageFactory;
 use MediaWiki\Request\DerivativeRequest;
 use MediaWiki\Revision\RevisionLookup;
@@ -142,7 +142,7 @@ class SpecialCollection extends SpecialPage {
 
 			case 'add_article':
 				if ( CollectionSession::countArticles() >= $this->getConfig()->get( 'CollectionMaxArticles' ) ) {
-					self::limitExceeded();
+					$out->showErrorPage( 'coll-limit_exceeded_title', 'coll-limit_exceeded_text' );
 					return;
 				}
 				$title = Title::newFromText( $request->getVal( 'arttitle', '' ) );
@@ -218,8 +218,8 @@ class SpecialCollection extends SpecialPage {
 					return;
 				}
 
-				if ( self::addCategory( $title, $this->getConfig() ) ) {
-					self::limitExceeded();
+				if ( self::addCategory( $title, $this->getConfig(), $out ) ) {
+					$out->showErrorPage( 'coll-limit_exceeded_title', 'coll-limit_exceeded_text' );
 					return;
 				}
 
@@ -748,22 +748,24 @@ class SpecialCollection extends SpecialPage {
 	/**
 	 * @param string $name
 	 * @param Config $config
+	 * @param OutputPage $out
 	 * @return bool
 	 */
-	public static function addCategoryFromName( $name, Config $config ) {
+	public static function addCategoryFromName( $name, Config $config, OutputPage $out ) {
 		$title = Title::makeTitleSafe( NS_CATEGORY, $name );
-		return self::addCategory( $title, $config );
+		return self::addCategory( $title, $config, $out );
 	}
 
 	/**
 	 * @param Title $title
 	 * @param Config $config
+	 * @param OutputPage $out
 	 * @return bool
 	 */
-	private static function addCategory( $title, Config $config ) {
+	private static function addCategory( $title, Config $config, OutputPage $out ) {
 		$limit = $config->get( 'CollectionMaxArticles' ) - CollectionSession::countArticles();
 		if ( $limit <= 0 || !$title ) {
-			self::limitExceeded();
+			$out->showErrorPage( 'coll-limit_exceeded_title', 'coll-limit_exceeded_text' );
 			return false;
 		}
 
@@ -800,11 +802,6 @@ class SpecialCollection extends SpecialPage {
 			}
 		}
 		return $limitExceeded;
-	}
-
-	private static function limitExceeded() {
-		$out = RequestContext::getMain()->getOutput();
-		$out->showErrorPage( 'coll-limit_exceeded_title', 'coll-limit_exceeded_text' );
 	}
 
 	/**
