@@ -14,8 +14,8 @@ use MediaWiki\Extension\Collection\MessageBoxHelper;
 use MediaWiki\Html\TemplateParser;
 use MediaWiki\HTMLForm\HTMLForm;
 use MediaWiki\Request\FauxRequest;
+use MediaWiki\Skin\Components\SkinComponentUtils;
 use MediaWiki\Skin\QuickTemplate;
-use MediaWiki\Skin\SkinComponentUtils;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
 

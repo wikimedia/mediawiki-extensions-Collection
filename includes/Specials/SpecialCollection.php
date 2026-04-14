@@ -45,7 +45,7 @@ use MediaWiki\Output\OutputPage;
 use MediaWiki\Page\WikiPageFactory;
 use MediaWiki\Request\DerivativeRequest;
 use MediaWiki\Revision\RevisionLookup;
-use MediaWiki\Skin\SkinComponentUtils;
+use MediaWiki\Skin\Components\SkinComponentUtils;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
 use MediaWiki\Utils\UrlUtils;

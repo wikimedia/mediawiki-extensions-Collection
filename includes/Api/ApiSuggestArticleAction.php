@@ -26,7 +26,7 @@ use MediaWiki\Api\ApiBase;
 use MediaWiki\Extension\Collection\Session;
 use MediaWiki\Extension\Collection\Suggest;
 use MediaWiki\Html\Html;
-use MediaWiki\Skin\SkinComponentUtils;
+use MediaWiki\Skin\Components\SkinComponentUtils;
 use Wikimedia\ParamValidator\ParamValidator;
 
 class ApiSuggestArticleAction extends ApiBase {

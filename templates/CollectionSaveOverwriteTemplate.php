@@ -7,8 +7,8 @@
 
 namespace MediaWiki\Extension\Collection\Templates;
 
+use MediaWiki\Skin\Components\SkinComponentUtils;
 use MediaWiki\Skin\QuickTemplate;
-use MediaWiki\Skin\SkinComponentUtils;
 
 /**
  * HTML template for Special:Book/save_collection/ when overwriting an exisiting collection

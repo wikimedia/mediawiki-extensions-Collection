@@ -24,8 +24,6 @@ namespace MediaWiki\Extension\Collection;
 
 use MediaWiki\Config\Config;
 use MediaWiki\Context\IContextSource;
-use MediaWiki\Hook\SidebarBeforeOutputHook;
-use MediaWiki\Hook\SiteNoticeAfterHook;
 use MediaWiki\Html\Html;
 use MediaWiki\Html\TemplateParser;
 use MediaWiki\MainConfigNames;
@@ -33,6 +31,8 @@ use MediaWiki\MediaWikiServices;
 use MediaWiki\Output\Hook\OutputPageCheckLastModifiedHook;
 use MediaWiki\Output\OutputPage;
 use MediaWiki\Session\SessionManager;
+use MediaWiki\Skin\Hook\SidebarBeforeOutputHook;
+use MediaWiki\Skin\Hook\SiteNoticeAfterHook;
 use MediaWiki\Skin\Skin;
 use MediaWiki\SpecialPage\SpecialPage;
 use MediaWiki\Title\Title;
