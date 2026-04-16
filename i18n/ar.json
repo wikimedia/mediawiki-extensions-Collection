@@ -113,7 +113,7 @@
 	"coll-about_pp": "حول $1",
 	"coll-invalid_podpartner_title": "شريك POD غير صحيح",
 	"coll-invalid_podpartner_msg": "شريك POD الموفر غير صحيح.\nمن فضلك اتصل بإداري ميدياويكي الخاص بك.",
-	"coll-license": "الرخصة",
+	"coll-license": "الترخيص",
 	"coll-return_to": "رجوع إلى [[:$1]]",
 	"coll-order_info_article": "{{MediaWiki:Coll-helppage}}/معلومات الطلب من بيديابرس",
 	"coll-suggest_title": "صفحات كتابك المقترحة",
