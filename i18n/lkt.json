@@ -74,11 +74,15 @@
 	"coll-setting-toc-auto": "Naídeya",
 	"coll-setting-toc-yes": "{{GENDER:|Hau|Haƞ|Hau/Haƞ}}",
 	"coll-setting-toc-no": "Hiyá",
+	"coll-setting-columns": "Wóslal-óhiye:",
 	"coll-attribution-anons": "Čhažé-waníča: $1",
+	"coll-notice-download-pdf-title": "Oyúblaye waŋžíla kȟul okšú {{GENDER:|wo|we|wo/we}}",
 	"coll-toc-title": "Táku lel Owápi",
 	"coll-contributors-title": "Tuwá kíč'uŋ kiŋ",
 	"coll-images-title": "Itówapi",
 	"coll-images-source": "Ohútkȟaŋ",
 	"coll-images-license": "Wóopȟe Wóiyowiƞkhiye",
-	"coll-license-title": "Wóslolye-Wóiyowiƞkhiye"
+	"coll-images-original-artist": "Tuwá thokáheya káǧe kiŋ",
+	"coll-license-title": "Wóslolye-Wóiyowiƞkhiye",
+	"coll-rendererror-title": "Wówapi kiŋ wakáǧa owákihi šni"
 }
