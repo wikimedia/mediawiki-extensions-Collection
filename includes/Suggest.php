@@ -23,10 +23,12 @@
 namespace MediaWiki\Extension\Collection;
 
 use MediaWiki\Context\IContextSource;
+use MediaWiki\Context\RequestContext;
 use MediaWiki\Extension\Collection\Specials\SpecialCollection;
 use MediaWiki\Extension\Collection\Templates\CollectionSuggestTemplate;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Session\SessionManager;
+use MediaWiki\Skin\Skin;
 
 /**
  * This class contains only static methods, so there's no need for a constructor.
@@ -55,7 +57,7 @@ class Suggest {
 			Session::startSession();
 		}
 
-		$template = self::getCollectionSuggestTemplate( $mode, $param );
+		$template = self::getCollectionSuggestTemplate( $mode, $param, $context->getSkin() );
 		$out = $context->getOutput();
 		$out->setPageTitleMsg( $context->msg( 'coll-suggest_title' ) );
 		$out->addModules( 'ext.collection.suggest' );
@@ -158,9 +160,10 @@ class Suggest {
 	 *        'removeOnly' => Remove a title without banning it.
 	 * @param string|string[] $param Name of the article to be added, banned
 	 *        or removed, or a list of article names to be added.
+	 * @param ?Skin $skin
 	 * @return CollectionSuggestTemplate the template for the wikipage
 	 */
-	private static function getCollectionSuggestTemplate( $mode, $param ) {
+	private static function getCollectionSuggestTemplate( $mode, $param, ?Skin $skin = null ) {
 		global $wgCollectionMaxSuggestions;
 
 		$session = SessionManager::getGlobalSession();
@@ -206,6 +209,7 @@ class Suggest {
 			self::addArticlesFromName( $param, $proposals );
 		}
 
+		$template->set( 'skin', $skin ?? RequestContext::getMain() );
 		$template->set( 'collection', $session['wsCollection'] );
 		$template->set( 'proposals', $proposals->getProposals( $wgCollectionMaxSuggestions ) );
 		$template->set( 'hasbans', $proposals->hasBans() );

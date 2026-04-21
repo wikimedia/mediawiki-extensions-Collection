@@ -64,11 +64,11 @@ class CollectionPageTemplate extends QuickTemplate {
 			$writer = current( $writers );
 			$defaultWriter = [ 'writer' => key( $writers ) ];
 
-			$description = wfMessage( 'coll-download_as_text', $writer )->parseAsBlock();
-			$buttonLabel = wfMessage( 'coll-download_as', $writer )->escaped();
+			$description = $context->msg( 'coll-download_as_text', $writer )->parseAsBlock();
+			$buttonLabel = $context->msg( 'coll-download_as', $writer )->escaped();
 		} else {
 			$description = $this->parseAsInterface( 'coll-download_text', $context );
-			$buttonLabel = wfMessage( 'coll-download' )->escaped();
+			$buttonLabel = $context->msg( 'coll-download' )->escaped();
 		}
 		$templateParser = new TemplateParser( __DIR__ );
 		// we need to map the template formats to an object that the template will be able to render
@@ -76,7 +76,7 @@ class CollectionPageTemplate extends QuickTemplate {
 		foreach ( $writers as $writerIdx => $writer ) {
 			$templateDataFormats[] = [
 				'name' => $writerIdx,
-				'label' => wfMessage( 'coll-format-' . $writerIdx )->escaped(),
+				'label' => $context->msg( 'coll-format-' . $writerIdx )->escaped(),
 			];
 		}
 
@@ -84,13 +84,13 @@ class CollectionPageTemplate extends QuickTemplate {
 			|| $wgCollectionDisableDownloadSection;
 
 		$downloadForm = $templateParser->processTemplate( 'download-box', [
-			'headline' => wfMessage( 'coll-download_title' ),
+			'headline' => $context->msg( 'coll-download_title' ),
 			'sectionDisabled' => false,
 			'description' => $description,
 			'formAction' => SkinComponentUtils::makeSpecialUrl( 'Book' ),
 			'formats' => $templateDataFormats,
 			'writer' => $defaultWriter,
-			'formatSelectLabel' => wfMessage( 'coll-format_label' ),
+			'formatSelectLabel' => $context->msg( 'coll-format_label' ),
 			'returnTo' => SpecialPage::getTitleFor( 'Book' )->getPrefixedText(),
 			'buttonLabel' => $buttonLabel,
 			'downloadDisabled' => $downloadDisabled,
@@ -101,6 +101,7 @@ class CollectionPageTemplate extends QuickTemplate {
 	public function execute() {
 		global $wgCollectionDisableDownloadSection;
 		$collection = $this->getCollection();
+		$skin = $this->getSkin();
 		$data = [
 			'collectionTitle' => $collection['title'],
 			'collectionSubtitle' => $collection['subtitle'],
@@ -139,7 +140,7 @@ class CollectionPageTemplate extends QuickTemplate {
 			if ( isset( $descriptor['options'] ) && is_array( $descriptor['options'] ) ) {
 				$options = [];
 				foreach ( $descriptor['options'] as $msg => $value ) {
-					$msg = wfMessage( $msg )->text();
+					$msg = $skin->msg( $msg )->text();
 					$options[$msg] = $value;
 				}
 				$descriptor['options'] = $options;
@@ -207,9 +208,9 @@ class CollectionPageTemplate extends QuickTemplate {
 							'@phan-var array $partnerData';
 							$infopage = false;
 							$partnerClasses = "";
-							$about_partner = wfMessage( 'coll-about_pp', $partnerData['name'] )->escaped();
+							$about_partner = $skin->msg( 'coll-about_pp', $partnerData['name'] )->escaped();
 							if ( isset( $partnerData['infopagetitle'] ) ) {
-								$infopage = Title::newFromText( wfMessage( $partnerData['infopagetitle'] )->inContentLanguage()->text() );
+								$infopage = Title::newFromText( $skin->msg( $partnerData['infopagetitle'] )->inContentLanguage()->text() );
 								if ( $infopage && $infopage->exists() ) {
 									$partnerClasses = " coll-more_info collapsed";
 								}
@@ -222,7 +223,7 @@ class CollectionPageTemplate extends QuickTemplate {
 									if ( $infopage && $infopage->exists() ) { ?>
 										<div class="coll-order_info" style="display:none;">
 											<?php
-											echo $GLOBALS['wgOut']->parseAsContent( '{{:' . $infopage . '}}' );
+											echo $skin->getOutput()->parseAsContent( '{{:' . $infopage . '}}' );
 											?>
 										</div>
 									<?php   }					?>
@@ -230,7 +231,7 @@ class CollectionPageTemplate extends QuickTemplate {
 										<form action="<?php echo htmlspecialchars( SkinComponentUtils::makeSpecialUrl( 'Book' ) ) ?>" method="post">
 											<input type="hidden" name="bookcmd" value="post_zip" />
 											<input type="hidden" name="partner" value="<?php echo htmlspecialchars( $partnerKey ) ?>" />
-											<input type="submit" value="<?php echo wfMessage( 'coll-order_from_pp', $partnerData['name'] )->escaped() ?>" class="order" <?php
+											<input type="submit" value="<?php echo $skin->msg( 'coll-order_from_pp', $partnerData['name'] )->escaped() ?>" class="order" <?php
 											if ( count( $collection['items'] ) == 0 ) {
 												?> disabled="disabled"<?php
 											} ?> />
@@ -299,7 +300,7 @@ class CollectionPageTemplate extends QuickTemplate {
 					</form>
 
 					<?php
-					if ( !wfMessage( 'coll-bookscategory' )->inContentLanguage()->isDisabled() ) {
+					if ( !$skin->msg( 'coll-bookscategory' )->inContentLanguage()->isDisabled() ) {
 						echo $this->parseAsInterface( 'coll-save_category', $context );
 					}
 					?>
@@ -319,7 +320,7 @@ class CollectionPageTemplate extends QuickTemplate {
 	 * @return string HTML
 	 */
 	private function parseAsInterface( $msgKey, IContextSource $context ) {
-		return $context->getOutput()->parseAsInterface( wfMessage( $msgKey )->plain() );
+		return $context->getOutput()->parseAsInterface( $context->msg( $msgKey )->plain() );
 	}
 
 }

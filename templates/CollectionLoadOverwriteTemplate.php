@@ -49,7 +49,7 @@ class CollectionLoadOverwriteTemplate extends QuickTemplate {
 	 * @return string HTML
 	 */
 	private function parseAsInterface( $msgKey, OutputPage $output ) {
-		return $output->parseAsInterface( wfMessage( $msgKey )->plain() );
+		return $output->parseAsInterface( $output->msg( $msgKey )->plain() );
 	}
 
 }

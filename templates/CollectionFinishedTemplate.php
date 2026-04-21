@@ -21,6 +21,7 @@ class CollectionFinishedTemplate extends QuickTemplate {
 	public function execute() {
 		global $wgCollectionShowRenderNotes;
 
+		$skin = $this->getSkin();
 		$t = Title::newFromText( $this->data['return_to'] );
 
 		$notes = '';
@@ -35,9 +36,9 @@ class CollectionFinishedTemplate extends QuickTemplate {
 					# Direct link to printable version; only valid for single articles.
 					$tt = '[' . $t->getFullURL( [ 'printable' => 'yes' ] ) . " $tt]";
 				}
-				$noteMessage = wfMessage( 'coll-rendering_finished_note_article_rdf2latex', $tt );
+				$noteMessage = $skin->msg( 'coll-rendering_finished_note_article_rdf2latex', $tt );
 			} else {
-				$noteMessage = wfMessage( $noteKey );
+				$noteMessage = $skin->msg( $noteKey );
 			}
 
 			if ( $noteMessage->exists() ) {
@@ -51,10 +52,10 @@ class CollectionFinishedTemplate extends QuickTemplate {
 			}
 		}
 
-		echo wfMessage( 'coll-rendering_finished_text', $this->data['download_url'] )->parseAsBlock();
+		echo $skin->msg( 'coll-rendering_finished_text', $this->data['download_url'] )->parseAsBlock();
 
 		if ( $notes !== '' || $this->data['is_cached'] ) {
-			echo wfMessage( 'coll-rendering_finished_notes_heading' )->parseAsBlock();
+			echo $skin->msg( 'coll-rendering_finished_notes_heading' )->parseAsBlock();
 		}
 
 		if ( $notes !== '' ) {
@@ -67,20 +68,20 @@ class CollectionFinishedTemplate extends QuickTemplate {
 				'bookcmd=forcerender&' . $this->data['query'],
 				PROTO_RELATIVE
 			);
-			echo wfMessage( 'coll-is_cached', $forceRenderURL )->parseAsBlock();
+			echo $skin->msg( 'coll-is_cached', $forceRenderURL )->parseAsBlock();
 		}
 		if ( $t && $t->isKnown() ) {
-			echo wfMessage( 'coll-return_to', $t->getPrefixedText() )->parseAsBlock();
+			echo $skin->msg( 'coll-return_to', $t->getPrefixedText() )->parseAsBlock();
 		}
 
 		if ( Session::isEnabled() ) {
-			$title_string = wfMessage( 'coll-finished_collection_info_text_article' )->inContentLanguage()->text();
+			$title_string = $skin->msg( 'coll-finished_collection_info_text_article' )->inContentLanguage()->text();
 		} else {
-			$title_string = wfMessage( 'coll-finished_page_info_text_article' )->inContentLanguage()->text();
+			$title_string = $skin->msg( 'coll-finished_page_info_text_article' )->inContentLanguage()->text();
 		}
 		$t = Title::newFromText( $title_string );
 		if ( $t && $t->exists() ) {
-			echo $GLOBALS['wgOut']->parseAsContent( '{{:' . $t->getPrefixedText() . '}}' );
+			echo $skin->getOutput()->parseAsContent( '{{:' . $t->getPrefixedText() . '}}' );
 		}
 		?>
 

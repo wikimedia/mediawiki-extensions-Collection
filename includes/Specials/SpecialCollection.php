@@ -558,6 +558,7 @@ class SpecialCollection extends SpecialPage {
 		$prefixes = $this->getBookPagePrefixes();
 		$template->set( 'user-book-prefix', $prefixes['user-prefix'] );
 		$template->set( 'community-book-prefix', $prefixes['community-prefix'] );
+		$template->set( 'skin', $this->getSkin() );
 		$out->addTemplate( $template );
 	}
 
@@ -1192,6 +1193,7 @@ class SpecialCollection extends SpecialPage {
 					$progress = 0.00;
 				}
 				$template->set( 'progress', $progress );
+				$template->set( 'skin', $this->getSkin() );
 				$out->addTemplate( $template );
 				$this->statsFactory->getCounter( 'collection_renderingpage_total' )
 					->setLabel( 'status', 'pending' )
@@ -1214,6 +1216,7 @@ class SpecialCollection extends SpecialPage {
 				$template->set( 'writer', $request->getVal( 'writer' ) );
 				$template->set( 'query', $query );
 				$template->set( 'return_to', $return_to );
+				$template->set( 'skin', $this->getSkin() );
 				$out->addTemplate( $template );
 				$this->statsFactory->getCounter( 'collection_renderingpage_total' )
 					->setLabel( 'status', 'finished' )
@@ -1234,6 +1237,7 @@ class SpecialCollection extends SpecialPage {
 				$template->set( 'status', $status );
 				$template->set( 'query', $query );
 				$template->set( 'return_to', $return_to );
+				$template->set( 'skin', $this->getSkin() );
 				$out->addTemplate( $template );
 				$this->statsFactory->getCounter( 'collection_renderingpage_total' )
 					->setLabel( 'status', 'failed' )
@@ -1388,6 +1392,7 @@ class SpecialCollection extends SpecialPage {
 		$template = new CollectionLoadOverwriteTemplate( $this->getConfig() );
 		$template->set( 'output', $this->getOutput() );
 		$template->set( 'title', $title );
+		$template->set( 'skin', $this->getSkin() );
 		$this->getOutput()->addTemplate( $template );
 	}
 
