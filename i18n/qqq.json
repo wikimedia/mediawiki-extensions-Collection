@@ -31,7 +31,8 @@
 			"Urhixidur",
 			"Verdy p",
 			"Wmr89502270",
-			"គីមស៊្រុន"
+			"គីមស៊្រុន",
+			"Tacsipacsi"
 		]
 	},
 	"coll-desc": "{{desc|name=Collection|url=https://www.mediawiki.org/wiki/Extension:Collection}}",
@@ -130,7 +131,7 @@
 	"coll-suggest_intro_text": "Used as intro text",
 	"coll-suggested_articles": "{{Identical|Suggestion}}",
 	"coll-suggest_reset_bans": "{{Identical|Reset}}",
-	"coll-suggest_reset_bans_tooltip": "Used as tooltip",
+	"coll-suggest_reset_bans_tooltip": "Used as a tooltip for a link whose text is {{msg-mw|coll-suggest_reset_bans}}.",
 	"coll-suggest_add_selected": "Used as text of a button",
 	"coll-suggest_ban_selected": "Used as text of a button",
 	"coll-suggest_your_book": "{{Identical|Book}}",
