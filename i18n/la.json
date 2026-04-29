@@ -4,7 +4,8 @@
 			"Andrew Dalby",
 			"Laurentianus",
 			"Lesgles",
-			"UV"
+			"UV",
+			"Grufo"
 		]
 	},
 	"coll-remove": "Removere",
@@ -13,7 +14,7 @@
 	"coll-move_down": "Descendere",
 	"coll-print_export": "Imprimere vel exportare",
 	"coll-create_a_book": "Librum creare",
-	"coll-download_as": "Paginam prehendere formá $1",
+	"coll-download_as": "Paginam formā $1 prehendere",
 	"coll-add_this_page": "Hanc paginam libro tuo subiungere",
 	"coll-add_page_tooltip": "Hanc paginam libro tuo subiungere",
 	"coll-help": "Auxilium",
