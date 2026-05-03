@@ -170,7 +170,7 @@ class CollectionPageTemplate extends QuickTemplate {
 			->setTableId( 'mw-collection-title-table' )
 			->setFooterHtml(
 				'<noscript>' .
-				'<input type="submit" value="' . $this->msg( 'coll-update' ) . '" />' .
+				'<input type="submit" value="' . $context->msg( 'coll-update' )->escaped() . '" />' .
 				'</noscript>'
 			)
 			->prepareForm();
