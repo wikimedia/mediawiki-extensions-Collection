@@ -17,11 +17,12 @@
 			"SPQRobin",
 			"Siebrand",
 			"Sjoerddebruin",
-			"Tvdm"
+			"Tvdm",
+			"Erik Baas"
 		]
 	},
 	"coll-desc": "[[Special:Book|Boeken maken]]",
-	"coll-book_creator_intro": "<big>Met de ''boekenmaker'' kunt u een boek maken met de wikipagina's van uw keuze.\nU kunt het boek exporteren in verscheidene bestandsformaten (bijvoorbeeld PDF of ODF) of een gedrukt exemplaar bestellen.</big>",
+	"coll-book_creator_intro": "<span style=\"font-size: larger;\">Met de ''boekenmaker'' kunt u een boek maken met de wikipagina's van uw keuze.\nU kunt het boek exporteren in verscheidene bestandsformaten (bijvoorbeeld PDF of ODF) of een gedrukt exemplaar bestellen.</span>",
 	"coll-manage_your_book": "Uw boek beheren",
 	"coll-book_creator_help": "Zie de [[{{MediaWiki:Coll-helppage}}|hulppagina over boeken]] voor meer informatie.",
 	"coll-start_book_creator": "Boekenmaker starten",

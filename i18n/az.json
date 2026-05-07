@@ -9,7 +9,8 @@
 			"Nemoralis",
 			"Toghrul Rahimli",
 			"Vago",
-			"Wertuose"
+			"Wertuose",
+			"Əkrəm"
 		]
 	},
 	"coll-desc": "[[Special:Book|Kitab yarat]]",
@@ -42,8 +43,8 @@
 	"coll-move_down": "Aşağı apar",
 	"coll-move_to_bottom": "Ən aşağı apar",
 	"coll-title": "Başlıq:",
-	"coll-subtitle": "Altbaşlıq:",
-	"coll-contents": "Məzmun",
+	"coll-subtitle": "Alt başlıq:",
+	"coll-contents": "Mündəricat",
 	"coll-drag_and_drop": "Viki səhifələrini və fəsillərini yenidən sıralamaq üçün ox düymələrindən istifadə edin",
 	"coll-create_chapter": "Bölmə yarat",
 	"coll-sort_alphabetically": "Əlifba sırasına görə çeşidlə",
@@ -163,7 +164,7 @@
 	"coll-setting-papersize": "Vərəqin ölçüsü:",
 	"coll-setting-papersize-letter": "Məktub",
 	"coll-setting-toc": "Mündəricatı daxil et",
-	"coll-setting-toc-auto": "Avto",
+	"coll-setting-toc-auto": "Avtomatik",
 	"coll-setting-toc-yes": "Bəli",
 	"coll-setting-toc-no": "Xeyr",
 	"coll-setting-columns": "Sütunlar:",
