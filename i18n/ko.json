@@ -119,7 +119,7 @@
 	"coll-suggest_article_ban": "<strong>$1</strong> 문서가 제안 목록에서 제거되었습니다 ($2).",
 	"coll-suggest_article_add": "<strong>$1</strong> 문서가 책($2)에 추가되었습니다.",
 	"coll-suggest_article_remove": "<strong>$1</strong> 문서를 당신의 책에서 제거했습니다 ($2).",
-	"coll-suggest_undo_tooltip": "이 동작 되돌리기",
+	"coll-suggest_undo_tooltip": "이 작업 되돌리기",
 	"coll-suggest_undo": "되돌리기",
 	"coll-load_local_book": "$2개의 위키 {{PLURAL:$2|문서}}를 포함하고 있는 $1 책을 계속 작업하려면 \"확인\"을 클릭하십시오. 책을 삭제하고 비어있는 책으로 시작하려면 \"취소\"를 클릭하십시오.",
 	"coll-format-rl": "전자책 (PDF, mwlib 렌더러)",
