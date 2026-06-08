@@ -28,7 +28,7 @@ class ApiSuggestUndoArticleActionTest extends ApiTestCase {
 		] );
 
 		$session = SessionManager::getGlobalSession();
-		$this->assertArraySubmapSame(
+		$this->assertArrayContains(
 			[ [ 'name' => $page->getTitle()->getPrefixedText() ] ],
 			$session['wsCollectionSuggestProp']
 		);
@@ -61,7 +61,7 @@ class ApiSuggestUndoArticleActionTest extends ApiTestCase {
 
 		$session = SessionManager::getGlobalSession();
 
-		$this->assertArraySubmapSame(
+		$this->assertArrayContains(
 			[ [ 'name' => $page->getTitle()->getPrefixedText() ] ],
 			$session['wsCollectionSuggestProp']
 		);
@@ -80,13 +80,13 @@ class ApiSuggestUndoArticleActionTest extends ApiTestCase {
 			'title' => $page->getDBkey()
 		] );
 
-		$this->assertArraySubmapSame(
+		$this->assertArrayContains(
 			[ [ 'name' => $page->getTitle()->getPrefixedText() ] ],
 			$session['wsCollectionSuggestProp']
 		);
 
 		// Undoing a remove should re-add it
-		$this->assertArraySubmapSame(
+		$this->assertArrayContains(
 			[ [ 'title' => $page->getTitle()->getPrefixedText() ] ],
 			$session['wsCollection']['items']
 		);

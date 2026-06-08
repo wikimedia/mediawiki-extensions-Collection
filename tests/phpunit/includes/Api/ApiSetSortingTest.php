@@ -30,7 +30,7 @@ class ApiSetSortingTest extends ApiTestCase {
 			'items' => '1|0|2',
 		] )[0]['setsorting']['collection']['items'];
 
-		$this->assertArraySubmapSame(
+		$this->assertArrayContains(
 			[
 				[ 'type' => 'b' ],
 				[ 'type' => 'a' ],
@@ -58,7 +58,7 @@ class ApiSetSortingTest extends ApiTestCase {
 			'items' => '2|0',
 		] )[0]['setsorting']['collection']['items'];
 
-		$this->assertArraySubmapSame(
+		$this->assertArrayContains(
 			[
 				[ 'type' => 'c' ],
 				[ 'type' => 'a' ]

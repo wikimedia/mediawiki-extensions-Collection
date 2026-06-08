@@ -27,7 +27,7 @@ class ApiClearCollectionTest extends ApiTestCase {
 			'submodule' => 'clearcollection',
 		] );
 
-		$this->assertArraySubmapSame( [
+		$this->assertArrayContains( [
 			'wsCollection' => [
 				'title' => '',
 				'items' => []

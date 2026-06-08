@@ -23,7 +23,7 @@ class ApiSetTitlesTest extends ApiTestCase {
 		$this->doApiRequest( $toInsert );
 
 		$collection = CollectionSession::getCollection();
-		$this->assertArraySubmapSame( $expected, $collection );
+		$this->assertArrayContains( $expected, $collection );
 
 		CollectionSession::clearCollection();
 	}
