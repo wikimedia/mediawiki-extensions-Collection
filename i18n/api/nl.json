@@ -69,5 +69,5 @@
 	"apihelp-collection+postcollection-example": "Plaats pagina's in de verzameling van een gebruiker",
 	"apihelp-collection+postcollection-summary": "API-module voor het plaatsen van pagina's in de verzameling van een gebruiker",
 	"apihelp-collection+postcollection-param-collection": "Naam van een verzameling",
-	"coll-api-invalid-collection": "Ongeldige verzameling ontvangen."
+	"coll-api-invalid-collection": "Incorrecte verzameling ontvangen."
 }
