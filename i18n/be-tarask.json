@@ -49,7 +49,7 @@
 	"coll-rename": "Перайменаваць",
 	"coll-new_chapter": "Увядзіце назву для новага разьдзелу",
 	"coll-rename_chapter": "Увядзіце новую назву разьдзелу",
-	"coll-notitle_title": "Не атрымалася вызначыць назву старонкі",
+	"coll-notitle_title": "Не ўдалося вызначыць назву старонкі",
 	"coll-empty_collection": "Пустая кніга",
 	"coll-save_collection_title": "Захаваць Вашую кнігу і адкрыць да яе доступ",
 	"coll-save_collection_text": "Выберыце месцазнаходжаньне вашай кнігі:",
