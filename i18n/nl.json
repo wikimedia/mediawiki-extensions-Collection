@@ -107,7 +107,7 @@
 	"coll-book_text": "U kunt een gedrukt boek bestellen bij een print-on-demand-partner:",
 	"coll-order_from_pp": "Voorvertoning van $1",
 	"coll-about_pp": "Over $1",
-	"coll-invalid_podpartner_title": "Ongeldige print on demand-partner",
+	"coll-invalid_podpartner_title": "Onjuiste print on demand-partner",
 	"coll-invalid_podpartner_msg": "De opgegeven print on demand-partner is incorrect.\nNeem contact op met uw MediaWiki-beheerder.",
 	"coll-license": "Licentie",
 	"coll-return_to": "Terug naar [[:$1]]",
