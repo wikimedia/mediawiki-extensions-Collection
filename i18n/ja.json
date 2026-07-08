@@ -19,7 +19,8 @@
 			"UsagiNeko",
 			"Yusuke1109",
 			"おはぐろ蜻蛉",
-			"夢蝶葬花"
+			"夢蝶葬花",
+			"Tensama0415"
 		]
 	},
 	"coll-desc": "[[Special:Book|ブックを作成する]]",
@@ -184,7 +185,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>情報源:</i> $2 <i>投稿者:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>情報源:</i> $2 <i>ライセンス:</i> $3 <i>投稿者:</i> $4 <i>原著者:</i> $5",
 	"coll-notice-download-pdf-title": "個別のページをダウンロード",
-	"coll-notice-download-pdf-text": "ブッククリエーターのPDF保存機能は使えませんが、個々の記事にあるサイドバーの「'''PDF 形式でダウンロード'''」が使えます。",
+	"coll-notice-download-pdf-text": "ブッククリエーターはPDF保存機能をサポートしていませんが([[mw:Reading/Web/PDF_Functionality|詳細]])、個々の記事にあるサイドバーの「'''PDF 形式でダウンロード'''」が使えます。",
 	"coll-toc-title": "目次",
 	"coll-contributors-title": "投稿者",
 	"coll-images-title": "画像",

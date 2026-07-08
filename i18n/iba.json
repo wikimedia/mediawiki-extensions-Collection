@@ -4,6 +4,11 @@
 			"Song GK"
 		]
 	},
+	"coll-collection": "Bup",
+	"coll-collections": "Bup",
+	"coll-unknown_subpage_title": "Sublambar enda ditemu",
+	"coll-your_book": "Bup nuan",
+	"coll-download_title": "Undan turun",
 	"coll-download": "Undan turun",
 	"coll-format_label": "Format:",
 	"coll-remove": "Buai",
@@ -13,6 +18,7 @@
 	"coll-title": "Tajuk:",
 	"coll-contents": "Isi",
 	"coll-rename": "Ganti nama",
+	"coll-empty_collection": "Bup puang",
 	"coll-print_export": "Chelak/eksport",
 	"coll-download_as": "Download nyadi $1",
 	"coll-bookscategory": "Bup",
