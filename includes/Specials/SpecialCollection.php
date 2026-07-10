@@ -208,9 +208,23 @@ class SpecialCollection extends SpecialPage {
 				} elseif ( self::addCategory( $title, $this->getConfig() ) ) {
 					self::limitExceeded();
 					return;
-				} else {
-					$out->redirect( $request->getVal( 'return_to', $title->getFullURL() ) );
 				}
+
+				$returnTo = $request->getVal( 'return_to' );
+				$returnURL = $title->getFullURL();
+				if ( $returnTo !== null && $returnTo !== '' ) {
+					$urlUtils = MediaWikiServices::getInstance()->getUrlUtils();
+					if ( $urlUtils->matchesDomainList( $returnTo, [ 'wikisource.org' ] ) ) {
+						$returnURL = $returnTo;
+					} else {
+						$returnTitle = Title::newFromText( $returnTo );
+						if ( $returnTitle?->isSpecialPage() || $returnTitle?->exists() ) {
+							$returnURL = $returnTitle->getFullURL();
+						}
+					}
+				}
+				$out->redirect( $returnURL );
+
 				return;
 
 			case 'remove_item':
