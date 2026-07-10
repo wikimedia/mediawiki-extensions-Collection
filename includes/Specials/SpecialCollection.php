@@ -223,7 +223,19 @@ class SpecialCollection extends SpecialPage {
 					return;
 				}
 
-				$out->redirect( $request->getVal( 'return_to', $title->getFullURL() ) );
+				$returnTo = $request->getVal( 'return_to' );
+				$returnURL = $title->getFullURL();
+				if ( $returnTo !== null && $returnTo !== '' ) {
+					if ( $this->urlUtils->matchesDomainList( $returnTo, [ 'wikisource.org' ] ) ) {
+						$returnURL = $returnTo;
+					} else {
+						$returnTitle = Title::newFromText( $returnTo );
+						if ( $returnTitle?->isSpecialPage() || $returnTitle?->exists() ) {
+							$returnURL = $returnTitle->getFullURL();
+						}
+					}
+				}
+				$out->redirect( $returnURL );
 
 				return;
 
