@@ -1197,7 +1197,6 @@ class SpecialCollection extends SpecialPage {
 				$out->addTemplate( $template );
 				$this->statsFactory->getCounter( 'collection_renderingpage_total' )
 					->setLabel( 'status', 'pending' )
-					->copyToStatsdAt( 'collection.renderingpage.pending' )
 					->increment();
 				break;
 
@@ -1220,7 +1219,6 @@ class SpecialCollection extends SpecialPage {
 				$out->addTemplate( $template );
 				$this->statsFactory->getCounter( 'collection_renderingpage_total' )
 					->setLabel( 'status', 'finished' )
-					->copyToStatsdAt( 'collection.renderingpage.finished' )
 					->increment();
 				break;
 
@@ -1241,14 +1239,12 @@ class SpecialCollection extends SpecialPage {
 				$out->addTemplate( $template );
 				$this->statsFactory->getCounter( 'collection_renderingpage_total' )
 					->setLabel( 'status', 'failed' )
-					->copyToStatsdAt( 'collection.renderingpage.failed' )
 					->increment();
 				break;
 
 			default:
 				$this->statsFactory->getCounter( 'collection_renderingpage_total' )
 					->setLabel( 'status', 'unknown' )
-					->copyToStatsdAt( 'collection.renderingpage.unknown' )
 					->increment();
 				throw new UnexpectedValueException( __METHOD__ . "(): unknown state '{$result->get( 'state' )}'" );
 		}
