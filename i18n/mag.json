@@ -141,7 +141,7 @@
 	"coll-setting-columns": "स्तम्भ:",
 	"coll-attribution-anons": "अनाम: $1",
 	"coll-attribution-page": "<h1>पाठ आउ चित्र स्रोत, योगदानकर्ता आउ लाइसेन्स</h1>\n<h2>पाठ</h2>\n$1<h2>चित्र</h2>\n$2\n<h2>विषयवस्तु लाइसेन्स</h2>\n$3",
-	"coll-article-attribution": "<b>$1</b> <i>स्रोत:</i> $2 <i>जोगदानकर्ता:</i> $3",
+	"coll-article-attribution": "<b>$1</b> <i>स्रोत:</i> $2 <i>योगदानकर्ता:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>स्रोत:</i> $2 <i>लाइसेन्स:</i> $3 <i>योगदानकर्ता:</i> $4 <i>वास्तविक कलाकार:</i> $5",
 	"coll-notice-download-pdf-title": "एकल पन्ना डाउनलोड करथिन",
 	"coll-notice-download-pdf-text": "पुस्तक निर्माता पिडिएफ प्रकटन समर्थन नै करे ([[mw:Reading/Web/PDF_Functionality|अधिक जानथिन]]) किन्तु अपने भिन्न-भिन्न लेखला टूल से '''''पिडिएफ रूपे डाउनलोड करथिन''''' प्रयास कर सक हथिन ।",
