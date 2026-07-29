@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Movses"
+		]
+	},
+	"apihelp-collection+getcollection-summary": "API-модуль для відображення поточних сторінок у колекції"
+}
