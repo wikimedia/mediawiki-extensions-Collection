@@ -80,7 +80,7 @@
 	"coll-rendering_finished_note_article_rdf2latex": "Aktuell hunn e puer Dokumenter keng Tabellen. Eng Alternativ kann d'Benotze vun $1 sinn, wielt \"Drécken\" am Menü vum Browser eraus a benotzt d'Optioun \"Als PDF späicheren\"",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informatiounstext iwwer d'Verschaffe vu Säiten",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informatiounstext iwwer d'Duerstelle vu Sammlungen",
-	"coll-rendering_failed_title": "Generatioun huet net funktionnéiert",
+	"coll-rendering_failed_title": "D'Renderen huet net geklappt",
 	"coll-rendering_failed_text": "<strong>Generatioun vum Fichier vum Dokument huet net funktionnéiert.</strong>\n\n<p><span id=\"renderingStatus\">$1</span></p>",
 	"coll-rendering_failed_status": "<strong>Status:</strong> $1",
 	"coll-failed_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informatiounstext iwwer d'Verschaffe vu Säiten",
