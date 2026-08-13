@@ -13,7 +13,10 @@
 			"dealerdirect/phpcodesniffer-composer-installer": true
 		},
 		"prepend-autoloader": false,
-		"optimize-autoloader": true
+		"optimize-autoloader": true,
+		"audit": {
+			"block-insecure": false
+		}
 	},
 	"require-dev": {
 		"mediawiki/mediawiki-codesniffer": "45.0.0",
