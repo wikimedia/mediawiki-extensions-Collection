@@ -10,6 +10,7 @@ namespace MediaWiki\Extension\Collection\Templates;
 use MediaWiki\Html\Html;
 use MediaWiki\Skin\Components\SkinComponentUtils;
 use MediaWiki\Skin\QuickTemplate;
+use MediaWiki\Skin\Skin;
 use MediaWiki\Title\Title;
 
 /**
@@ -119,7 +120,7 @@ class CollectionSuggestTemplate extends QuickTemplate {
 			if ( $value['type'] === 'article' ) {
 				$artName = $value['title'];
 				$out .= '<li><a href="' . htmlspecialchars( SkinComponentUtils::makeSpecialUrl( 'Book', [ 'bookcmd' => 'suggest', 'remove' => $artName ] ) ) . '" onclick="' . htmlspecialchars( 'collectionSuggestCall("RemoveArticle", ' . Html::encodeJsVar( [ $artName ] ) . '); return false;' ) . '" title="' . $skin->msg( 'coll-remove_this_page' )->escaped() . '"><img src="' . htmlspecialchars( $mediapath . 'remove.png' ) . '" width="10" height="10" alt=""></a> ';
-				$out .= '<a href="' . htmlspecialchars( $value['url'] ) . '" title="' . htmlspecialchars( $artName ) . '">' . htmlspecialchars( $artName ) . '</a></li>';
+				$out .= '<a href="' . htmlspecialchars( Skin::makeInternalOrExternalUrl( $value['url'] ) ) . '" title="' . htmlspecialchars( $artName ) . '">' . htmlspecialchars( $artName ) . '</a></li>';
 			}
 		}
 
