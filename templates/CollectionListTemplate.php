@@ -10,6 +10,7 @@ namespace MediaWiki\Extension\Collection\Templates;
 use MediaWiki\Html\Html;
 use MediaWiki\Skin\SkinComponentUtils;
 use QuickTemplate;
+use Skin;
 
 /**
  * HTML template for Special:Book collection item list
@@ -66,10 +67,10 @@ class CollectionListTemplate extends QuickTemplate {
 										<a onclick="return coll_move_item(<?php echo intval( $index ) . ', 1' ?>)" href="<?php echo htmlspecialchars( SkinComponentUtils::makeSpecialUrl( 'Book', [ 'bookcmd' => 'move_item', 'delta' => '1', 'index' => $index ] ) ) ?>" title="<?php $this->msg( 'coll-move_down' ) ?>"><img src="<?php echo htmlspecialchars( $mediapath . "down.png" ) ?>" width="10" height="10" alt="<?php $this->msg( 'coll-move_down' ) ?>" /></a>
 									<?php } ?>
 								</noscript>
-								<?php if ( $item['currentVersion'] == 0 ) {
-									$url = $item['url'] . '?oldid=' . $item['revision'];
-								} else {
-									$url = $item['url'];
+								<?php
+								$url = Skin::makeInternalOrExternalUrl( $item['url'] );
+								if ( $item['currentVersion'] == 0 ) {
+									$url .= '?oldid=' . $item['revision'];
 								}
 								?>
 								<a href="<?php echo htmlspecialchars( $url ) ?>" title="<?php $this->msg( 'coll-show' ) ?>"><img src="<?php echo htmlspecialchars( $mediapath . "show.png" ) ?>" width="10" height="10" alt="<?php $this->msg( 'coll-show' ) ?>" /></a>

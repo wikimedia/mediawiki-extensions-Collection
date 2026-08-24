@@ -11,6 +11,7 @@ use MediaWiki\Html\Html;
 use MediaWiki\Skin\SkinComponentUtils;
 use MediaWiki\Title\Title;
 use QuickTemplate;
+use Skin;
 
 /**
  * Template for suggest feature
@@ -116,7 +117,7 @@ class CollectionSuggestTemplate extends QuickTemplate {
 			if ( $value['type'] === 'article' ) {
 				$artName = $value['title'];
 				$out .= '<li><a href="' . htmlspecialchars( SkinComponentUtils::makeSpecialUrl( 'Book', [ 'bookcmd' => 'suggest', 'remove' => $artName ] ) ) . '" onclick="' . htmlspecialchars( 'collectionSuggestCall("RemoveArticle", ' . Html::encodeJsVar( [ $artName ] ) . '); return false;' ) . '" title="' . wfMessage( 'coll-remove_this_page' )->escaped() . '"><img src="' . htmlspecialchars( $mediapath . 'remove.png' ) . '" width="10" height="10" alt=""></a> ';
-				$out .= '<a href="' . htmlspecialchars( $value['url'] ) . '" title="' . htmlspecialchars( $artName ) . '">' . htmlspecialchars( $artName ) . '</a></li>';
+				$out .= '<a href="' . htmlspecialchars( Skin::makeInternalOrExternalUrl( $value['url'] ) ) . '" title="' . htmlspecialchars( $artName ) . '">' . htmlspecialchars( $artName ) . '</a></li>';
 			}
 		}
 
