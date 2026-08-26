@@ -226,39 +226,6 @@ abstract class CollectionRenderingAPI {
 			],
 		];
 
-		// Prefer VRS configuration if present.
-		$vrs = MediaWikiServices::getInstance()->getMainConfig()->get( MainConfigNames::VirtualRestConfig );
-		if ( isset( $vrs['modules']['restbase']['url'] ) ) {
-			// if restbase is available, use it
-			$params = $vrs['modules']['restbase'];
-			$domain = preg_replace(
-				'/^(https?:\/\/)?([^\/:]+?)(\/|:\d+\/?)?$/',
-				'$2',
-				$params['domain'] ?? 'localhost'
-			);
-			$url = preg_replace(
-				'#/?$#',
-				'/' . $domain . '/v1/',
-				$params['url']
-			);
-			for ( $i = 0, $count = count( $result['wikis'] ); $i < $count; $i++ ) {
-				$result['wikis'][$i]['restbase1'] = $url;
-			}
-		} elseif ( isset( $vrs['modules']['parsoid']['url'] ) ) {
-			// there's a global parsoid config, use it next
-			$params = $vrs['modules']['parsoid'];
-			$domain = preg_replace(
-				'/^(https?:\/\/)?([^\/:]+?)(\/|:\d+\/?)?$/',
-				'$2',
-				$params['domain'] ?? 'localhost'
-			);
-			for ( $i = 0, $count = count( $result['wikis'] ); $i < $count; $i++ ) {
-				$result['wikis'][$i]['parsoid'] = $params['url'];
-				$result['wikis'][$i]['prefix'] = $params['prefix'] ?? null;
-				$result['wikis'][$i]['domain'] = $domain;
-			}
-		}
-
 		return FormatJson::encode( $result );
 	}
 }
