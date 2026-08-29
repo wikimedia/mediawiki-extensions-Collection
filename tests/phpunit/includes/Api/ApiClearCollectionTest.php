@@ -1,6 +1,5 @@
 <?php
 
-use MediaWiki\Extension\Collection\Session as CollectionSession;
 use MediaWiki\Session\SessionManager;
 use MediaWiki\Tests\Api\ApiTestCase;
 
@@ -16,7 +15,6 @@ use MediaWiki\Tests\Api\ApiTestCase;
 class ApiClearCollectionTest extends ApiTestCase {
 
 	public function testApiClear() {
-		CollectionSession::startSession();
 		$session = SessionManager::getGlobalSession();
 		$session['wsCollection'] = [ 'title' => 'Test', 'items' => [ 0, 1 ] ];
 		$session['wsCollectionSuggestBan'] = 'testSuggestBan';
@@ -27,6 +25,7 @@ class ApiClearCollectionTest extends ApiTestCase {
 			'submodule' => 'clearcollection',
 		] );
 
+		$session = SessionManager::getGlobalSession();
 		$this->assertArrayContains( [
 			'wsCollection' => [
 				'title' => '',

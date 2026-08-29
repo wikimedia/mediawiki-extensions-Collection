@@ -1,8 +1,6 @@
 <?php
 
 use MediaWiki\Api\ApiUsageException;
-use MediaWiki\Extension\Collection\Session as CollectionSession;
-use MediaWiki\Extension\Collection\Suggest;
 use MediaWiki\Session\SessionManager;
 use MediaWiki\Tests\Api\ApiTestCase;
 
@@ -40,13 +38,11 @@ class ApiSuggestUndoArticleActionTest extends ApiTestCase {
 			'title' => $page->getDBkey()
 		] );
 
+		$session = SessionManager::getGlobalSession();
 		$this->assertCount( 0, $session['wsCollectionSuggestProp'] );
 
 		// Undoing an add doesn't ban it ( different from calling suggestremovearticle )
 		$this->assertCount( 0, $session['wsCollectionSuggestBan'] );
-
-		CollectionSession::clearCollection();
-		Suggest::clear();
 	}
 
 	public function testApiSuggestUndoArticleAction_UndoRemove() {
@@ -60,7 +56,6 @@ class ApiSuggestUndoArticleActionTest extends ApiTestCase {
 		] );
 
 		$session = SessionManager::getGlobalSession();
-
 		$this->assertArrayContains(
 			[ [ 'name' => $page->getTitle()->getPrefixedText() ] ],
 			$session['wsCollectionSuggestProp']
@@ -72,7 +67,6 @@ class ApiSuggestUndoArticleActionTest extends ApiTestCase {
 			'suggestaction' => 'remove',
 			'title' => $page->getDBkey()
 		] );
-
 		$this->doApiRequest( [
 			'action' => 'collection',
 			'submodule' => 'suggestundoarticleaction',
@@ -80,6 +74,7 @@ class ApiSuggestUndoArticleActionTest extends ApiTestCase {
 			'title' => $page->getDBkey()
 		] );
 
+		$session = SessionManager::getGlobalSession();
 		$this->assertArrayContains(
 			[ [ 'name' => $page->getTitle()->getPrefixedText() ] ],
 			$session['wsCollectionSuggestProp']
@@ -98,16 +93,13 @@ class ApiSuggestUndoArticleActionTest extends ApiTestCase {
 	public function testApiSuggestUndoArticleAction_UndoBan() {
 		$page = $this->getExistingTestPage();
 
-		CollectionSession::startSession();
-		$session = SessionManager::getGlobalSession();
-
 		$this->doApiRequest( [
 			'action' => 'collection',
 			'submodule' => 'suggestarticleaction',
 			'suggestaction' => 'ban',
 			'title' => $page->getDBkey()
 		] );
-
+		$session = SessionManager::getGlobalSession();
 		$this->assertArrayEquals(
 			[ $page->getDBkey() ],
 			$session['wsCollectionSuggestBan']
@@ -119,6 +111,7 @@ class ApiSuggestUndoArticleActionTest extends ApiTestCase {
 			'lastaction' => 'ban',
 			'title' => $page->getDBkey()
 		] );
+		$session = SessionManager::getGlobalSession();
 		$this->assertCount( 0, $session['wsCollectionSuggestBan'] );
 	}
 

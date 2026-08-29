@@ -1,7 +1,6 @@
 <?php
 
 use MediaWiki\Api\ApiUsageException;
-use MediaWiki\Extension\Collection\Session as CollectionSession;
 use MediaWiki\Session\SessionManager;
 use MediaWiki\Tests\Api\ApiTestCase;
 
@@ -77,6 +76,7 @@ class ApiSuggestArticleActionTest extends ApiTestCase {
 			'title' => $page->getDBkey()
 		] );
 
+		$session = SessionManager::getGlobalSession();
 		$this->assertCount( 0, $session['wsCollectionSuggestProp'] );
 
 		// Removing an article automatically bans it
@@ -89,9 +89,6 @@ class ApiSuggestArticleActionTest extends ApiTestCase {
 	public function testApiSuggestArticleAction_Ban() {
 		$page = $this->getExistingTestPage();
 
-		CollectionSession::startSession();
-		$session = SessionManager::getGlobalSession();
-
 		$this->doApiRequest( [
 			'action' => 'collection',
 			'submodule' => 'suggestarticleaction',
@@ -99,6 +96,7 @@ class ApiSuggestArticleActionTest extends ApiTestCase {
 			'title' => $page->getDBkey()
 		] );
 
+		$session = SessionManager::getGlobalSession();
 		$this->assertArrayEquals(
 			[ $page->getDBkey() ],
 			$session['wsCollectionSuggestBan']
@@ -112,7 +110,8 @@ class ApiSuggestArticleActionTest extends ApiTestCase {
 		] );
 
 		// Adding an article automatically unbans it
-		$this->assertCount( 0, $session['wsCollectionSuggestBan'] );
+		$session = SessionManager::getGlobalSession();
+		$this->assertNull( $session['wsCollectionSuggestBan'] );
 		$this->assertArrayContains(
 			[ [ 'name' => $page->getTitle()->getPrefixedText() ] ],
 			$session['wsCollectionSuggestProp']
