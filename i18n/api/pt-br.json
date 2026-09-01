@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Eduardoaddad",
-			"Fúlvio"
+			"Fúlvio",
+			"User3412"
 		]
 	},
 	"apihelp-collection+getcollection-example": "Listar as páginas atualmente na coleção.",
@@ -21,9 +22,11 @@
 	"apihelp-collection+suggestarticleaction-example": "Adiciona uma página à coleção e às sugestões",
 	"apihelp-collection+suggestarticleaction-summary": "Módulo da API para interagir com sugestões",
 	"apihelp-collection+suggestarticleaction-param-suggestaction": "Um de entre 'adicionar', 'remover' e 'banir'. 'adicionar' adiciona uma página à coleção e sugestões e remove o banimento da mesma. 'remover' remove uma página adicionada e bane-a. 'banir' bane uma página das sugestões.",
+	"apihelp-collection+suggestarticleaction-param-title": "Título de uma página",
 	"apihelp-collection+suggestundoarticleaction-example": "Desfaz uma operação de adição de página",
 	"apihelp-collection+suggestundoarticleaction-summary": "Módulo da API para desfazer operações feitas de 'suggestarticleaction'",
 	"apihelp-collection+suggestundoarticleaction-param-lastaction": "Um de entre 'adicionar', 'remover' e 'banir'.",
+	"apihelp-collection+suggestundoarticleaction-param-title": "Título de uma página",
 	"coll-api-addcategory-category-does-not-exist": "A categoria da qual está a tentar adicionar páginas não existe, é inválida ou tem mais páginas do que o limite especificado.",
 	"apihelp-collection+addchapter-example": "Adicionar um capítulo à coleção.",
 	"apihelp-collection+addchapter-summary": "Módulo da API para adicionar um capítulo à coleção",
