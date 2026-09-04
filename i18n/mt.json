@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Chrisportelli",
+			"JiodoJ",
 			"Leli Forte",
 			"MTSap",
 			"Macofe",
@@ -110,7 +111,7 @@
 	"coll-format-odf": "proċessur tal-kliem (OpenDocument)",
 	"right-collectionsaveasuserpage": "Isalva kotba fuq paġni tal-utent",
 	"right-collectionsaveascommunitypage": "Isalva kotba fuq paġni tal-komunità",
-	"coll-print_export": "Ipprintja/esporta",
+	"coll-print_export": "Stampa/esporta",
 	"coll-create_a_book": "Oħloq ktieb",
 	"coll-create_a_book_tooltip": "Oħloq ktieb jew ġabra ta' artikli",
 	"coll-book_creator": "Kreatur tal-kotba",
