@@ -125,10 +125,6 @@
 			"description": "Login credentials to this MediaWiki as 'USERNAME:PASSWORD' string",
 			"value": null
 		},
-		"CollectionMWServeCert": {
-			"description": "PEM-encoded SSL certificate for the mw-serve render server to pass to CURL",
-			"value": null
-		},
 		"CollectionArticleNamespaces": {
 			"description": "Array of namespaces that can be added to a collection",
 			"value": [

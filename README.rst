@@ -122,11 +122,6 @@ Advanced Settings
 The following variables can be set in ``LocalSetting.php``. Most
 people do not have to change them:
 
-``$wgCollectionMWServeCert`` (string)
-   Filename of a SSL certificate in PEM format for the mw-serve render server.
-   This needs to be used for self-signed certificates, otherwise cURL will
-   throw an error. The default is null, i.e. no certificate.
-
 ``$wgCollectionFormats``
    An array mapping names of writers on the server to the name of the
    produced format.  The default value is::
