@@ -7,16 +7,13 @@
 	"coll-collection": "Bup",
 	"coll-collections": "Bup",
 	"coll-unknown_subpage_title": "Sublambar enda ditemu",
-	"coll-your_book": "Bup nuan",
 	"coll-download_title": "Undan turun",
 	"coll-download": "Undan turun",
 	"coll-format_label": "Format:",
 	"coll-remove": "Buai",
 	"coll-show": "Pandangka",
-	"coll-move_to_top": "Kalih ke atas",
 	"coll-move_down": "Kalih ke baruh",
 	"coll-title": "Tajuk:",
-	"coll-contents": "Isi",
 	"coll-rename": "Ganti nama",
 	"coll-empty_collection": "Bup puang",
 	"coll-save_collection": "Simpan bup",
@@ -28,10 +25,5 @@
 	"coll-book_creator_disable_tooltip": "Badu ngena pengaga bup",
 	"coll-bookscategory": "Bup",
 	"coll-help": "Bantu",
-	"coll-printable_version_pdf": "Versyen PDF",
-	"coll-notice-download-pdf-title": "Undan turun lambar tunggal",
-	"coll-images-title": "Gambar",
-	"coll-images-source": "Bunsu",
-	"coll-images-license": "Lisin",
-	"coll-images-original-artist": "Pelukis asal"
+	"coll-notice-download-pdf-title": "Undan turun lambar tunggal"
 }

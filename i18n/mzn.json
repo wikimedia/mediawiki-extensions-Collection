@@ -12,7 +12,6 @@
 	"coll-book_creator_text_article": "{{MediaWiki:Coll-helppage}}/متن ساجنده‌ی کتاب",
 	"coll-collection": "کتاب",
 	"coll-unknown_subpage_text": "این زیرصفحه [[Special:Book|کتاب]] جه وجود ندانّه",
-	"coll-your_book": "شمه کتاب",
 	"coll-remove": "حذف",
 	"coll-show": "سِراق هاده",
 	"coll-move_up": "بالا بوردن",
@@ -60,8 +59,5 @@
 	"coll-show_collection": "هارشی‌ین کتاب",
 	"coll-show_collection_tooltip": "شه کتاب دچی‌ین، دانلود یا سفارش وسّه کلیک هاکنین",
 	"coll-make_suggestions": "اتا صفحه پیشنهاد هاکن",
-	"coll-make_suggestions_tooltip": "کتاب صفحه‌ئون ره هارش و ات‌چی ره پیشنهاد هاده",
-	"coll-attribution-anons": "ناشناس: $1",
-	"coll-article-attribution": "<b>$1</b><i>منبع:</i>  $2  <i>کایرون:</i>$3",
-	"coll-image-attribution": "<b>$1</b><i>منبع:</i>  $2  <i>مجوز:</i>  $3  <i>کایرون:</i>  $4  <i>اصلی هنرمند:</i>$5"
+	"coll-make_suggestions_tooltip": "کتاب صفحه‌ئون ره هارش و ات‌چی ره پیشنهاد هاده"
 }

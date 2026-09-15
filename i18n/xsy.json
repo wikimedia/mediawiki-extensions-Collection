@@ -8,7 +8,6 @@
 	"coll-show": " pinakita’",
 	"coll-move_up": "tilkoraeh babaw",
 	"coll-move_down": "tilkoraeh wahoer",
-	"coll-contents": "raro:o’ noka kina:at",
 	"coll-cancel": "kayni’",
 	"coll-suggest_show": "pinakita’",
 	"coll-print_export": " mal’oehaez ka kina:at",
@@ -28,9 +27,5 @@
 	"coll-show_collection": " pinakita’ ka kina:at",
 	"coll-show_collection_tooltip": "pawhi:il rini noka pienji: 、 maray tiyanaw mari’ ka kina:at a bae:iw ka kina:at niSo’",
 	"coll-make_suggestions": "pinapapnabih ka ye:myen",
-	"coll-make_suggestions_tooltip": " pinakita’ ka pinapapnabih, tani niSo’ kina:at ’izo’ ray ye:myen pakhayza’",
-	"coll-attribution-anons": "raro:o’ Sina:il：$1",
-	"coll-article-attribution": "<b>$1</b> <i> kawa:i’an ：</i> $2 <i> kama mobay ：</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i> kawa:i’an ：</i> $2 <i> kinSiwa’ kina:at ：</i> $3 <i> kama mobay ：</i> $4 <i> ’ima paskayzaeh：</i> $5",
-	"coll-images-source": " kawa:i’an"
+	"coll-make_suggestions_tooltip": " pinakita’ ka pinapapnabih, tani niSo’ kina:at ’izo’ ray ye:myen pakhayza’"
 }

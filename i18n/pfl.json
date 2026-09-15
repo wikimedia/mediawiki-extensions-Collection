@@ -6,7 +6,6 @@
 	},
 	"coll-collection": "Buch",
 	"coll-collections": "Bischa",
-	"coll-your_book": "Doi Buch",
 	"coll-remove": "Weggnemme",
 	"coll-show": "Zaische",
 	"coll-move_up": "Nuffschiewe",
@@ -33,8 +32,5 @@
 	"coll-show_collection": "Buch zaische",
 	"coll-show_collection_tooltip": "Fa doi Buch gligg uff schaffe/runnalaade/bschdelle.",
 	"coll-make_suggestions": "Saide voaschlache",
-	"coll-make_suggestions_tooltip": "Zaisch Voaschleesch vunde Saide in doim Buch",
-	"coll-attribution-anons": "Anoniem: $1",
-	"coll-article-attribution": "<b>$1</b> <i>Gwell:</i> $2 <i>Middawaida:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Gwell:</i> $2 <i>Lizens:</i> $3 <i>Middawaida:</i> $4 <i>Uaschbringlischa Schebfa:</i> $5"
+	"coll-make_suggestions_tooltip": "Zaisch Voaschleesch vunde Saide in doim Buch"
 }

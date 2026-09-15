@@ -7,7 +7,6 @@
 	},
 	"coll-collection": "Китаб",
 	"coll-collections": "Китабла",
-	"coll-your_book": "Китабынг",
 	"coll-download_title": "Эндир",
 	"coll-download": "Эндир",
 	"coll-format_label": "Формат:",
@@ -16,7 +15,6 @@
 	"coll-move_up": "Башына кёчюр",
 	"coll-move_down": "Тюбюне кёчюр",
 	"coll-title": "Башлыкъ:",
-	"coll-contents": "Ичиндегиле",
 	"coll-yes": "Хоу",
 	"coll-no": "Огъай",
 	"coll-cancel": "Ызына ал",
@@ -37,7 +35,6 @@
 	"coll-helppage": "Help:Китабла",
 	"coll-load_collection": "Китабны джюкле",
 	"coll-n_pages": "$1 {{PLURAL:$1|бет}}",
-	"coll-printable_version_pdf": "PDF-версия",
 	"coll-remove_this_page": "Бу бетни китабынгдан кетер",
 	"coll-show_collection": "Китабны кёргюз",
 	"coll-show_collection_tooltip": "Китабны тюзет/эндирир/сапариш этер ючюн бас",
@@ -49,9 +46,5 @@
 	"coll-setting-toc-auto": "Авто",
 	"coll-setting-toc-yes": "Хоу",
 	"coll-setting-toc-no": "Огъай",
-	"coll-setting-columns": "Ёре тизгинле:",
-	"coll-attribution-anons": "Аноним: $1",
-	"coll-attribution-page": "<h1>Текстле бла суратланы къайнакълары, авторла бла лицензияла</h1>\n<h2>Текст</h2>\n$1<h2>Суратла</h2>\n$2\n<h2>Лицензия</h2>\n$3",
-	"coll-article-attribution": "<b>$1</b> <i>Къайнакъ:</i> $2 <i>Авторла:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Къайнакъ:</i> $2 <i>Лицензия:</i> $3 <i>Авторла:</i> $4 <i>Суратчыла:</i> $5"
+	"coll-setting-columns": "Ёре тизгинле:"
 }

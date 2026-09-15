@@ -14,7 +14,6 @@
 	"coll-move_down": "မ်ုသယ့် အ်ုဖံင့်လာ့",
 	"coll-title": "ခေါဟ်တင်:",
 	"coll-subtitle": "ခေါဟ်တင်ကါင်ဖါ:",
-	"coll-contents": "ပ်ုယုံ့ခေါဟ်တင်လ်ုဖး",
 	"coll-rename": "မ်ုမာသင့်မၠိင်",
 	"coll-empty_collection": "လိက်ဖၠုံးလ်ုအှ်လိက်အုဂ်",
 	"coll-yes": "မွာဲ",
@@ -51,11 +50,5 @@
 	"coll-setting-papersize": "လိက်ၜိင်းလါၯင်:",
 	"coll-setting-papersize-letter": "လိက်ဖၠုံး",
 	"coll-setting-toc-yes": "မွာဲ",
-	"coll-setting-toc-no": "လ်ုမွာဲၜး",
-	"coll-attribution-anons": "အ်ုမိင်လ်ုသီးယာႋ ဆ်ုအင်းသုံ့: $1",
-	"coll-article-attribution": "<b>$1</b> <i>အ်ုထိုဝ်:</i> $2 <i>မာဖှ်ေက်ုဆာသယ်:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>အ်ုထိုဝ် -</i> $2 <i>လိုင်စင် -</i> $3 <i>ဆ်ုသုဂ်ကၠယ်ဆာလ်ုဖး -</i> $4 <i>ကီပ္တုံသင့် လိက်က်ုဆာ -</i> $5",
-	"coll-images-title": "လါၯင်လ်ုဖး",
-	"coll-images-source": "အ်ုထိုဝ်",
-	"coll-images-license": "လါင်ႋစင်"
+	"coll-setting-toc-no": "လ်ုမွာဲၜး"
 }

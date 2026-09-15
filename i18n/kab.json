@@ -10,7 +10,6 @@
 	"coll-collection": "Adlis",
 	"coll-collections": "Idlisen",
 	"coll-savedbook_template": "Adlis yettwasekles",
-	"coll-your_book": "Adlis-ik",
 	"coll-download_title": "Zdem",
 	"coll-download": "Zdem",
 	"coll-remove": "Kkes",
@@ -19,7 +18,6 @@
 	"coll-move_down": "Ader",
 	"coll-title": "Azwel :",
 	"coll-subtitle": "Adu-azwel :",
-	"coll-contents": "Agbur",
 	"coll-sort_alphabetically": "Asmizzwer agemmayan",
 	"coll-rename": "Snifel isem",
 	"coll-new_chapter": "Sekcem azwel n yiɣef amaynut",
@@ -54,13 +52,5 @@
 	"coll-make_suggestions": "Sumer isebtar",
 	"coll-make_suggestions_tooltip": "Sken isumar yebnan ɣef isebtar deg udlis-ik",
 	"coll-setting-toc-yes": "Ih",
-	"coll-setting-toc-no": "Uhu",
-	"coll-attribution-anons": "Udrig: $1",
-	"coll-article-attribution": "<b>$1</b> <i>Aqbalu:</i> $2 <i>Imttekkiyen:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Aɣbalu:</i> $2 <i>Turagt:</i> $3 <i>Imttekkiyen:</i> $4 <i>Anaẓuṛ anesli:</i> $5",
-	"coll-contributors-title": "Imttekkiyen",
-	"coll-images-title": "Tugniwin",
-	"coll-images-source": "Aɣbalu",
-	"coll-images-license": "Turagt",
-	"coll-license-title": "Turagt n ugbur"
+	"coll-setting-toc-no": "Uhu"
 }

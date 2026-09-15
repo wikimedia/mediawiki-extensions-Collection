@@ -8,7 +8,6 @@
 	},
 	"coll-collection": "Дешарг",
 	"coll-collections": "Дешаргаш",
-	"coll-your_book": "Хьа дешарг",
 	"coll-remove": "ДӀаяккха",
 	"coll-show": "Хьагойта",
 	"coll-move_up": "ЛакхагӀа хьалъоза",
@@ -41,8 +40,5 @@
 	"coll-show_collection_tooltip": "ТоӀае, дешарг хувцаргдолаш/хьачудоаккхаргдолаш/заказ дергдолаш",
 	"coll-make_suggestions": "Эшаш хила мега оагӀонаш",
 	"coll-make_suggestions_tooltip": "Хьа дешарга тӀарча оагӀонашта тара а йола хьона эшаш хила мега оагӀонаш хьагойта",
-	"coll-suggest_empty": "яьсса",
-	"coll-attribution-anons": "Аноним: $1",
-	"coll-article-attribution": "<b>$1</b> <i>Хьаст:</i> $2 <i>Автораш:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Хьаст:</i> $2 <i>Лицензи:</i> $3 <i>Соавтораш:</i> $4 <i>Кхоачашдаьр:</i> $5"
+	"coll-suggest_empty": "яьсса"
 }

@@ -28,8 +28,5 @@
 	"coll-show_collection": "Pòkarzë ksążka",
 	"coll-show_collection_tooltip": "Klëkni dlô edicëji/zladënkù/zamówienia ksążczi",
 	"coll-make_suggestions": "Propònowóné starnë",
-	"coll-make_suggestions_tooltip": "Pòkôżë sugestëje na spòdlim ju dodónych starnów",
-	"coll-attribution-anons": "Anonimòwi: $1",
-	"coll-article-attribution": "<b>$1</b> <i>Zdrój:</i> $2 <i>Ùsôdzcë:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Zdrój:</i> $2 <i>Licencëjô:</i> $3 <i>Rozwijôrze:</i> $4 <i>Spòdlowi ùsôdzca:</i> $5"
+	"coll-make_suggestions_tooltip": "Pòkôżë sugestëje na spòdlim ju dodónych starnów"
 }

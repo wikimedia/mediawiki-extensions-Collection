@@ -22,8 +22,5 @@
 	"coll-remove_this_page": "Chhiùng Ngì ke sû-sit tú yì-chhù liá-ya̍p",
 	"coll-show_collection": "Chán-sṳ sû-sit",
 	"coll-make_suggestions": "Kien-ngi ya̍p-mien",
-	"coll-make_suggestions_tooltip": "Hién-sṳ kien ngi, kîn-kí ngì sû-sit chûng ke ya̍p-mien sán-sâng",
-	"coll-attribution-anons": "Nit-miàng: $1",
-	"coll-article-attribution": "<b>$1</b> <i>Lòi-ngièn: </i> $2 <i>Kung-hien-chá:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Lòi-ngièn : </i> $2 <i>Su-khièn thiàu-khóan : </i> $3 <i>Kung-hien chá : </i> $4 <i>Ngièn-sṳ́ chok-chá : </i> $5"
+	"coll-make_suggestions_tooltip": "Hién-sṳ kien ngi, kîn-kí ngì sû-sit chûng ke ya̍p-mien sán-sâng"
 }

@@ -15,6 +15,5 @@
 	"coll-disable": "désactiver",
 	"coll-book_creator_disable_tooltip": "Arrêter d’user le créateur de livre",
 	"coll-help": "Aide",
-	"coll-help_tooltip": "Afficher l’aide sur la création de livres",
-	"coll-attribution-anons": "Anonyme: $1"
+	"coll-help_tooltip": "Afficher l’aide sur la création de livres"
 }

@@ -25,7 +25,5 @@
 	"coll-show_collection": "Montrer ch' live",
 	"coll-show_collection_tooltip": "Bukez pour modifier / télécarguer / comminder vote live",
 	"coll-make_suggestions": "Suggérer des paches",
-	"coll-make_suggestions_tooltip": "Montrer chés suggestions fondées édseur chés paches dins vote live",
-	"coll-article-attribution": "<b>$1</b> <i>Source :</i> $2 <i>Uzeus :</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Source :</i> $2 <i>Licince :</i> $3 <i>Contributeus :</i> $4 <i>Artisse d’origine :</i> $5"
+	"coll-make_suggestions_tooltip": "Montrer chés suggestions fondées édseur chés paches dins vote live"
 }

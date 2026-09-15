@@ -7,7 +7,6 @@
 	},
 	"coll-collection": "کتاب",
 	"coll-collections": "کتاب هان",
-	"coll-your_book": "شمی کتاب",
 	"coll-download_title": "ائیر کورتین",
 	"coll-download": "ائیر کورتین",
 	"coll-format_label": "فرمت:",
@@ -52,8 +51,5 @@
 	"coll-setting-toc-no": "نه",
 	"coll-setting-columns": "ستون هان:",
 	"coll-setting-columns-1": "۱",
-	"coll-setting-columns-2": "۲",
-	"coll-attribution-anons": "نادروستی: $1",
-	"coll-article-attribution": "<b>$1</b><i>منشا:</i>  $2  <i>شراکت کنۆک ئان:</i>$3",
-	"coll-image-attribution": "<b>$1</b><i>بُن زهي:</i>  $2  <i>مجوز:</i>  $3  <i>شراکت کنۆک ئان:</i>  $4  <i>اورجینال ئین هنرمند:</i>$5"
+	"coll-setting-columns-2": "۲"
 }

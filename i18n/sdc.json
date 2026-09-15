@@ -19,7 +19,6 @@
 	"coll-couldnotremovearticle_title": "No si pudia buggà la pàgina wiki.",
 	"coll-couldnotremovearticle_msg": "No si pudia buggà la pàgina wiki.",
 	"coll-savedbook_template": "libru saivvaddu",
-	"coll-your_book": "Lu libru tóiu",
 	"coll-download_title": "Ischarriggà",
 	"coll-download": "Ischarriggà",
 	"coll-format_label": "Fuimmaddu:",
@@ -28,7 +27,6 @@
 	"coll-move_up": "in sobbra",
 	"coll-move_down": "ingiossu",
 	"coll-title": "Tìturu:",
-	"coll-contents": "Ìndizi",
 	"coll-create_chapter": "Crià un capìturu",
 	"coll-rename": "Dà un althru/nobu nommu",
 	"coll-empty_collection": "Libru bióddu",
@@ -83,13 +81,5 @@
 	"coll-setting-papersize-letter": "Léttara",
 	"coll-setting-toc-yes": "Éia",
 	"coll-setting-toc-no": "No",
-	"coll-setting-columns": "Curonni:",
-	"coll-attribution-anons": "Anònimi: $1",
-	"coll-article-attribution": "<b>$1</b> <i>Fonti:</i> $2 <i>Autori:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Fonti:</i> $2 <i>Licènzia:</i> $3 <i>Autori:</i> $4 <i>Arthistha originàriu/a,:</i> $5",
-	"coll-contributors-title": "Cumponidori",
-	"coll-images-title": "Immàgini",
-	"coll-images-source": "Orìgini",
-	"coll-images-license": "Licèntzia",
-	"coll-license-title": "Licèntzia di cuntinuddu"
+	"coll-setting-columns": "Curonni:"
 }

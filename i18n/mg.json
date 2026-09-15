@@ -10,7 +10,6 @@
 	"coll-move_down": "Ampidinina",
 	"coll-title": "Lohateny:",
 	"coll-subtitle": "Zana-dohateny:",
-	"coll-contents": "Votoatiny",
 	"coll-drag_and_drop": "Ampiasao ny bokotra zana-tsipìka mba hamerenana ny pejy sy toko wiki",
 	"coll-create_chapter": "Mamorona toko",
 	"coll-sort_alphabetically": "Fandaminana araka ny abidy",
@@ -57,8 +56,5 @@
 	"coll-show_collection": "Haneho ny boky",
 	"coll-show_collection_tooltip": "Tsindrio mba hanova/hampidina/hangataka ny bokinao",
 	"coll-make_suggestions": "Hanoro hevitra pejy",
-	"coll-make_suggestions_tooltip": "Haneho ny torohevitra mifototra amin'ny pejin'ny bokinao",
-	"coll-attribution-anons": "Tsy mitondra anarana: $1",
-	"coll-article-attribution": "<b>$1</b> <i>Loharano:</i> $2 <i>Mpandray anjara:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Loharano:</i> $2 <i>Fahazoan-dalana:</i> $3 <i>Mpandray anjara:</i> $4 <i>Mpanakanto niaviana:</i> $5"
+	"coll-make_suggestions_tooltip": "Haneho ny torohevitra mifototra amin'ny pejin'ny bokinao"
 }

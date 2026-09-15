@@ -9,7 +9,6 @@
 	},
 	"coll-collection": "Girji",
 	"coll-collections": "Girjjit",
-	"coll-your_book": "Du girji",
 	"coll-download_title": "Viečča",
 	"coll-download": "Viečča",
 	"coll-remove": "Sihko",
@@ -28,8 +27,5 @@
 	"coll-bookscategory": "Girjjit",
 	"coll-help": "Rávvagat",
 	"coll-helppage": "Help:Girjjit",
-	"coll-show_collection": "Čájet girjji",
-	"coll-attribution-anons": "Anonyma: $1",
-	"coll-images-source": "Gáldu",
-	"coll-images-license": "Liseansa"
+	"coll-show_collection": "Čájet girjji"
 }

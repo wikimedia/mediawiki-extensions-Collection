@@ -25,8 +25,5 @@
 	"coll-remove_this_page": "Hapus kintal dar ale pung buku",
 	"coll-show_collection": "Lia buku",
 	"coll-show_collection_tooltip": "Klik par robah/ambel dar internet/pasang ale pung buku",
-	"coll-make_suggestions": "Ka saran kintal sabiji",
-	"coll-attribution-anons": "Pangguna anonim: $1",
-	"coll-article-attribution": "<b>$1</b> <i>Sumber:</i> $2 <i>Kontributor:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Sumber:</i> $2 <i>Lisensi:</i> $3 <i>Kontributor:</i> $4 <i>Peambiking batul:</i> $5"
+	"coll-make_suggestions": "Ka saran kintal sabiji"
 }

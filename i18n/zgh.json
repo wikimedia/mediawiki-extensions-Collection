@@ -35,8 +35,5 @@
 	"coll-make_suggestions": "ⵙⵓⵎⵔ ⵜⴰⵙⵏⵉⵡⵉⵏ",
 	"coll-make_suggestions_tooltip": "ⵙⵙⵓⵎⴰⵏ ⵜⵉⵙⵓⵎⵔⵉⵏ ⵚⴽⴰⵏⵉⵏ ⵅⴼ ⵜⴰⵙⵏⵉⵡⵉⵏ ⴳ ⵓⴷⵍⵉⵙ {{GENDER:|ⵏⵏⴽ|ⵏⵏⵎ}}",
 	"coll-setting-toc-yes": "ⵢⴰⵀ",
-	"coll-setting-toc-no": "ⵓⵀⵓ",
-	"coll-attribution-anons": "{{GENDER:|ⵉⴷ ⵡⴰⵔⵉⵙⵎ|ⵉⴷ ⵜⴰⵔⵉⵙⵎ}}: $1",
-	"coll-article-attribution": "<b>$1</b> <i>ⴰⵙⴰⴳⵎ:</i> $2 <i>ⵉⵏⴰⵎⵓⵜⵏ:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>ⴰⵙⴰⴳⵎ:</i> $2 <i>ⵜⵓⵔⴰⴳⵜ:</i> $3 <i>ⵉⵏⴰⵎⵓⵜⵏ:</i> $4 <i>ⴰⵏⴰⵥⵓⵕ ⴰⵙⴰⵍⴰⵏ:</i> $5"
+	"coll-setting-toc-no": "ⵓⵀⵓ"
 }

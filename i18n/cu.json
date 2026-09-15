@@ -9,7 +9,6 @@
 	"coll-collection": "кънига",
 	"coll-collections": "кънигꙑ",
 	"coll-unknown_subpage_title": "нєвѣдома подъстраница",
-	"coll-your_book": "твоꙗ кънига",
 	"coll-download_title": "поѩтиѥ",
 	"coll-download": "поѩтиѥ",
 	"coll-remove": "поничьжєниѥ",
@@ -41,8 +40,5 @@
 	"coll-setting-toc-auto": "аѵто",
 	"coll-setting-toc-yes": "да",
 	"coll-setting-toc-no": "нѣтъ",
-	"coll-setting-columns": "стлъбьци :",
-	"coll-attribution-anons": "анѡнѷмьно : $1",
-	"coll-article-attribution": "<b>$1</b> <i>кладѧꙁь :</i> $2 <i>дѣтєлє :</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>кладѧꙁь :</i> $2 <i>прощєниѥ :</i> $3 <i>дѣꙗтєлє :</i> $4 <i>исконьнъ творьць :</i> $5"
+	"coll-setting-columns": "стлъбьци :"
 }

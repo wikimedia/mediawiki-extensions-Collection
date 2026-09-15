@@ -7,14 +7,12 @@
 	},
 	"coll-collection": "ክታብ",
 	"coll-collections": "ኣክቱበት",
-	"coll-your_book": "ክታብካ",
 	"coll-download_title": "ኣውርድ",
 	"coll-download": "ኣውርድ",
 	"coll-remove": "ነውክ",
 	"coll-show": "ኣርአ",
 	"coll-title": "ኣርእስ",
 	"coll-subtitle": "ንኡሽ ኣርእስ:",
-	"coll-contents": "ጽበጥ",
 	"coll-yes": "ዓቤ",
 	"coll-no": "ኢፋል",
 	"coll-cancel": "ኣትርፍ",
@@ -31,7 +29,5 @@
 	"coll-show_collection": "ክታብ ኣርኤ",
 	"coll-setting-toc-auto": "ምን ኖስ",
 	"coll-setting-toc-yes": "ዓቤ",
-	"coll-setting-toc-no": "ኢፋል",
-	"coll-images-title": "ሱውር",
-	"coll-images-license": "ተርኺስ"
+	"coll-setting-toc-no": "ኢፋል"
 }

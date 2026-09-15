@@ -12,19 +12,15 @@
 	"coll-collections": "Libri",
 	"coll-unknown_subpage_title": "Sottupàgina ignóta",
 	"coll-savedbook_template": "libru_salvatu",
-	"coll-your_book": "U to libru",
 	"coll-download_title": "Scaricà",
 	"coll-download": "Scaricà",
 	"coll-format_label": "Furmatu:",
 	"coll-remove": "Caccià",
 	"coll-show": "Mustrà",
-	"coll-move_to_top": "Sposta in cima",
 	"coll-move_up": "Sposta à l'insù",
 	"coll-move_down": "Spustà à l'inghjò",
-	"coll-move_to_bottom": "Spustà in fondu",
 	"coll-title": "Tìtulu:",
 	"coll-subtitle": "Sottutìtulu:",
-	"coll-contents": "Cuntenuti",
 	"coll-create_chapter": "Crià un capìtulu",
 	"coll-yes": "Ïé",
 	"coll-no": "Innò",
@@ -38,6 +34,5 @@
 	"coll-helppage": "Help:Libri",
 	"coll-n_pages": "$1 {{PLURAL:$1|pàgina|pàgine}}",
 	"coll-remove_this_page": "Supprimà 'ssa pàgina da u to libru",
-	"coll-show_collection": "Mustrà libru",
-	"coll-article-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Cuntributori:</i> $3"
+	"coll-show_collection": "Mustrà libru"
 }

@@ -17,7 +17,6 @@
 	"coll-move_down": "Κινεῖν κάτωθι",
 	"coll-title": "Ἐπιγραφή:",
 	"coll-subtitle": "Ὑποεπιγραφή:",
-	"coll-contents": "Περιεχόμενα",
 	"coll-rename": "Ἐπανωνομάζειν",
 	"coll-yes": "Ναί",
 	"coll-no": "Οὐ",
@@ -43,13 +42,9 @@
 	"coll-help_tooltip": "Ἐπιδεικνύναι βοήθειαν περί δημιουργίας βιβλίων",
 	"coll-helppage": "Help:Βίβλοι",
 	"coll-n_pages": "$1 {{PLURAL:$1|δέλτος|δέλτοι}}",
-	"coll-printable_version_pdf": "Ἔκδοσις PDF",
 	"coll-remove_this_page": "Ἀφαίρεσον δέλτον ταύτην ὐπό τὸ βιβλίον σου",
 	"coll-show_collection": "Δεικνύναι βίβλον",
 	"coll-show_collection_tooltip": "Κλικ δια μεταγράφειν/κατεβάζειν/παραγγείλειν βιβλίον σοι",
 	"coll-make_suggestions": "Εἰσηγεῖσθαι δέλτους",
-	"coll-make_suggestions_tooltip": "Ἐπιδεικνύναι γνώμες βάσει δελτών βιβλίου",
-	"coll-attribution-anons": "Ἄνώνυμος: $1",
-	"coll-article-attribution": "<b>$1</b> <i>Πηγή:</i> $2 <i>Συμβάλλοντες:</i> $3",
-	"coll-image-attribution": "<b>$1</b> <i>Πηγή:</i> $2 <i>Ἄδεια χρήσεως:</i> $3 <i>Συμβάλλοντες:</i> $4 <i>Ἔξ ἀρχῆς δημιουργός:</i> $5"
+	"coll-make_suggestions_tooltip": "Ἐπιδεικνύναι γνώμες βάσει δελτών βιβλίου"
 }

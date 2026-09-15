@@ -24,7 +24,5 @@
 	"coll-n_pages": "$1 {{PLURAL:$1|tramet|trameta}}",
 	"coll-remove_this_page": "Fornim þisne tramet fram þinre bec",
 	"coll-show_collection": "Yw boc",
-	"coll-make_suggestions": "Trametas tyhtan",
-	"coll-attribution-anons": "Uncuð: $1",
-	"coll-image-attribution": "<b>$1</b> <i>Fruma:</i> $2 <i>Leafness:</i> $3 <i>Fyrðrendas:</i> $4 <i>Frumlic wyrhta:</i> $5"
+	"coll-make_suggestions": "Trametas tyhtan"
 }
