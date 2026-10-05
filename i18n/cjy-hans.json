@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Villager-bloc-h"
+		]
+	},
+	"coll-print_export": "打印/导出",
+	"coll-download_as": "下载$1"
+}
