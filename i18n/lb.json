@@ -90,7 +90,7 @@
 	"coll-download_notfound_title": "Fichier gouf net fonnt",
 	"coll-download_notfound_text": "De Fichier deen Dir versicht erofzeluede gëtt et net: Méiglecherweis gouf e geläscht a muss nees generéiert ginn.",
 	"coll-is_cached": "<ul><li>Eng tëschegespäichert Versioun vum Dokument gouf fonnt, dofir war kee ''rendering'' néideg.\n[$1 ''re-rendering'' erzwengen.]</li></ul>",
-	"coll-book_title": "Als gedréckte Buch bestellen",
+	"coll-book_title": "Als gedréckt Buch bestellen",
 	"coll-book_text": "Bestellt e gedréckte Buch vun eisem Print-On-Demand Partner:",
 	"coll-order_from_pp": "Mat $1 kucken",
 	"coll-about_pp": "Iwwer $1",
