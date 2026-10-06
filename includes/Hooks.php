@@ -58,12 +58,15 @@ class Hooks implements
 		$portletForLoggedInUsersOnly = $this->config->get( 'CollectionPortletForLoggedInUsersOnly' );
 
 		if ( !$portletForLoggedInUsersOnly || $skin->getUser()->isNamed() ) {
-
 			$portlet = $this->getPortlet( $skin );
-
 			if ( $portlet ) {
-				// Unset 'print' item. We have moved it to our own section.
-				unset( $sidebar['TOOLBOX']['print'] );
+				// Move the "Printable version" link from Tools to Print if we are adding a
+				// Print section to the sidebar of this response (decided by Hooks::getPortlet).
+				// Otherwise, leave it the link where it is.
+				if ( isset( $sidebar['TOOLBOX']['print'] ) ) {
+					$portlet[] = $sidebar['TOOLBOX']['print'];
+					unset( $sidebar['TOOLBOX']['print'] );
+				}
 
 				// Add our section
 				$sidebar[ 'coll-print_export' ] = $portlet;
@@ -144,16 +147,6 @@ class Hooks implements
 				'id' => 'coll-download-as-' . $writer,
 				'href' => $booktitle->getLocalURL( $params ),
 			];
-		}
-
-		// Move the 'printable' link into our section for consistency
-		if ( $action === 'view' || $action === 'purge' ) {
-			if ( !$sk->getOutput()->isPrintable() ) {
-				$out[] = [ 'text' => $sk->msg( 'printableversion' )->text(),
-					'id' => 't-print',
-					'href' => $title->getLocalURL( [ 'printable' => 'yes' ] )
-				];
-			}
 		}
 
 		return $out;

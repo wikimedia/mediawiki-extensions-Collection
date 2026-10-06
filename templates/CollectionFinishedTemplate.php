@@ -31,12 +31,7 @@ class CollectionFinishedTemplate extends QuickTemplate {
 				if ( $this->data['writer'] !== 'rdf2latex' || ( $t && $t->isSpecialPage() ) ) {
 					continue;
 				}
-				$tt = '{{int:printableversion}}';
-				if ( $t && $t->isKnown() ) {
-					# Direct link to printable version; only valid for single articles.
-					$tt = '[' . $t->getFullURL( [ 'printable' => 'yes' ] ) . " $tt]";
-				}
-				$noteMessage = $skin->msg( 'coll-rendering_finished_note_article_rdf2latex', $tt );
+				$noteMessage = $skin->msg( 'coll-rendering_finished_note_article_rdf2latex' );
 			} else {
 				$noteMessage = $skin->msg( $noteKey );
 			}
