@@ -78,7 +78,7 @@
 	"coll-rendering_finished_text": "<strong>Sənəd faylı yaradıldı.</strong> \n<strong>[$1 Faylı kompüterinizə yükləyin]</strong>.",
 	"coll-rendering_finished_notes_heading": "Qeydlər:",
 	"coll-rendering_finished_note_not_satisfied": "Nəticədən razı deyilsiniz? Onu təkmilləşdirmək imkanları üçün [[{{MediaWiki:Coll-helppage}}|kitablar haqqında yardım səhifəsinə]] baxın.",
-	"coll-rendering_finished_note_article_rdf2latex": "Hazırda bəzi sənədlərdə cədvəllər yoxdur. Alternativ olaraq $1 istifadə etmək, brauzer menyusunda \"Çap et\" seçimini etmək və \"PDF kimi yüklə\" seçimindən istifadə etmək olar.",
+	"coll-rendering_finished_note_article_rdf2latex": "Hazırda bəzi sənədlərdə cədvəllər yoxdur. Alternativ olaraq \"{{int:printableversion}}\" istifadə etmək, brauzer menyusunda \"Çap et\" seçimini etmək və \"PDF kimi yüklə\" seçimindən istifadə etmək olar.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Səhifə məlumat mətninin göstərilməsi",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Kolleksiya məlumat mətninin göstərilməsi",
 	"coll-rendering_failed_title": "Sənədin hazırlanmasında xəta",
