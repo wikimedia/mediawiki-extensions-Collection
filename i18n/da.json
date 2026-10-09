@@ -81,7 +81,7 @@
 	"coll-rendering_finished_text": "<strong>Dit dokument er blevet genereret.</strong>\n<strong>[$1 Download filen]</strong> til din computer.",
 	"coll-rendering_finished_notes_heading": "Bemærkninger:",
 	"coll-rendering_finished_note_not_satisfied": "Ikke tilfreds med resultatet? Se [[{{MediaWiki:Coll-helppage}}|hjælpesiden om bøger]] for muligheder for at forbedre det.",
-	"coll-rendering_finished_note_article_rdf2latex": "I øjeblikket indeholder nogle dokumenter ikke tabeller. Et alternativ kan være at bruge $1, vælge \"Udskriv\" i browsermenuen og bruge indstillingen \"Gem som PDF\".",
+	"coll-rendering_finished_note_article_rdf2latex": "I øjeblikket indeholder nogle dokumenter ikke tabeller. Et alternativ kan være at bruge \"{{int:printableversion}}\", vælge \"Udskriv\" i browsermenuen og bruge indstillingen \"Gem som PDF\".",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Rendering sideinfotekst",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Skriver information om samling",
 	"coll-rendering_failed_title": "Gengivelse mislykkedes",
