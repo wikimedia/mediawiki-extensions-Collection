@@ -86,7 +86,7 @@
 	"coll-rendering_finished_text": "<strong>Het opgemaakte document is gereed.</strong>\n<strong>[$1 Download het bestand]</strong> naar uw computer.",
 	"coll-rendering_finished_notes_heading": "Opmerkingen:",
 	"coll-rendering_finished_note_not_satisfied": "Niet tevreden het resultaat? Zie [[{{MediaWiki:Coll-helppage}}|de hulppagina over boeken]] voor verbeteringsmogelijkheden.",
-	"coll-rendering_finished_note_article_rdf2latex": "Momenteel bevatten sommige documenten geen tabellen. Een alternatief kan zijn om de $1 te gebruiken, \"Afdrukken\" te selecteren in het browsermenu en de optie \"Opslaan als pdf\" te gebruiken.",
+	"coll-rendering_finished_note_article_rdf2latex": "Momenteel staan er in sommige documenten geen tabellen. Als alternatief kunt u “{{int:printableversion}}” gebruiken, of “Afdrukken” selecteren in het browsermenu en de optie “Opslaan als pdf” gebruiken.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Informatietekst bij renderen pagina",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Informatietekst bij renderen verzameling",
 	"coll-rendering_failed_title": "Het opmaken is mislukt",
