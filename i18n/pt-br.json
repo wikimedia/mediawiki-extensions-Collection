@@ -16,7 +16,8 @@
 			"Luckas",
 			"Macofe",
 			"Raylton P. Sousa",
-			"TheEduGobi"
+			"TheEduGobi",
+			"Fúlvio"
 		]
 	},
 	"coll-desc": "[[Special:Book|Criar livros]]",
@@ -51,7 +52,7 @@
 	"coll-title": "Título:",
 	"coll-subtitle": "Subtítulo:",
 	"coll-contents": "Conteúdo",
-	"coll-drag_and_drop": "Arraste-e-solte para re-ordenar as páginas wiki e os capítulos",
+	"coll-drag_and_drop": "Use os botões de seta para reordenar as páginas wiki e os capítulos",
 	"coll-create_chapter": "Criar capítulo",
 	"coll-sort_alphabetically": "Ordenar alfabeticamente",
 	"coll-rename": "Renomear",
@@ -181,7 +182,7 @@
 	"coll-article-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Contribuidores:</i> $3",
 	"coll-image-attribution": "<b>$1</b> <i>Fonte:</i> $2 <i>Licença:</i> $3 <i>Contribuidores:</i> $4 <i>Artista original:</i> $5",
 	"coll-notice-download-pdf-title": "Faça o download de páginas únicas",
-	"coll-notice-download-pdf-text": "Enquanto a renderização do PDF do Book Creator estiver desativada, você pode tentar '''''Descarregar como PDF''''' na barra de ferramentas lateral para os artigos individuais.",
+	"coll-notice-download-pdf-text": "O Criador de Livros não oferece suporte à renderização de PDF ([[mw:Reading/Web/PDF_Functionality|saiba mais]]), mas você pode tentar a opção '''''Baixar como PDF''''' na barra de ferramentas lateral em artigos individuais.",
 	"coll-toc-title": "Índice",
 	"coll-contributors-title": "Colaboradores",
 	"coll-images-title": "Imagens",
