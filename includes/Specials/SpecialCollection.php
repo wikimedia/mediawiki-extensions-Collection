@@ -1322,34 +1322,6 @@ class SpecialCollection extends SpecialPage {
 	}
 
 	/**
-	 * Render a single page: fetch page name and revision information, then
-	 * assemble and feed to renderCollection() a single-item $collection.
-	 * @param Title $title Full page name aka prefixed title.
-	 * @param int $oldid
-	 * @return array|null
-	 */
-	private function makeCollection( $title, $oldid ) {
-		if ( $title === null ) {
-			$this->getOutput()->showErrorPage( 'coll-notitle_title', 'coll-notitle_msg' );
-			return null;
-		}
-		$article = [
-			'type' => 'article',
-			'content_type' => 'text/x-wiki',
-			'title' => $title->getPrefixedText()
-		];
-		if ( $oldid ) {
-			$article['revision'] = (string)$oldid;
-		}
-
-		$revision = $this->revisionLookup->getRevisionByTitle( $title, $oldid );
-		if ( $revision ) {
-			$article['timestamp'] = wfTimestamp( TS_UNIX, $revision->getTimestamp() );
-		}
-		return [ 'items' => [ $article ] ];
-	}
-
-	/**
 	 * @param array $collection
 	 * @param string $partner
 	 */
