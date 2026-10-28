@@ -64,8 +64,7 @@ class SpecialCollection extends SpecialPage {
 	/** @var false|array[] */
 	private $mPODPartners;
 
-	/** @var int */
-	private $maxLineLength = 350;
+	private const int MAX_LINE_LENGTH = 350;
 
 	public function __construct(
 		private readonly HttpRequestFactory $httpRequestFactory,
@@ -907,7 +906,7 @@ class SpecialCollection extends SpecialPage {
 	private function parseCollectionLine( &$collection, $line, $append ) {
 		$line = trim( $line );
 		// T404077
-		$line = substr( $line, 0, $this->maxLineLength );
+		$line = substr( $line, 0, self::MAX_LINE_LENGTH );
 		if ( !$append && preg_match( '/^===\s*(.*?)\s*===$/', $line, $match ) ) {
 			$collection['subtitle'] = $match[ 1 ];
 		} elseif ( !$append && preg_match( '/^==\s*(.*?)\s*==$/', $line, $match ) ) {
