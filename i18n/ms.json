@@ -80,7 +80,7 @@
 	"coll-rendering_finished_text": "<strong>Fail dokumen tersebut telah dijana.</strong>\n<strong>[$1 Muat turun fail ini]</strong> ke dalam komputer anda.",
 	"coll-rendering_finished_notes_heading": "Nota:",
 	"coll-rendering_finished_note_not_satisfied": "Tidak berpuas hati dengan hasil? Lihat [[{{MediaWiki:Coll-helppage}}|laman bantuan tentang buku]] untuk kemungkinan memperbaikinya.",
-	"coll-rendering_finished_note_article_rdf2latex": "Pada masa ini beberapa dokumen tidak mengandungi jadual. Alternatif lain pula boleh guna $1, pilih \"Cetak\" pada menu pelayar dan gunakan pilihan \"Simpan sebagai PDF\".",
+	"coll-rendering_finished_note_article_rdf2latex": "Pada masa ini, sesetengah dokumen tidak mengandungi jadual. Alternatifnya mungkin boleh guna \"{{int:printableversion}}\", atau pilih \"Cetak\" dalam menu pelayar dan gunakan pilihan \"Simpan sebagai PDF\".",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/Membuat kemasan teks maklumat laman",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/Membuat kemasan teks maklumat koleksi",
 	"coll-rendering_failed_title": "Pengemasan telah gagal",

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"ОйЛ"
+			"ОйЛ",
+			"Oujon"
 		]
 	},
 	"coll-desc": "[[Special:Book|къниꙃь сътворѥниѥ]]",
@@ -24,7 +25,7 @@
 	"coll-license": "прощєниѥ",
 	"coll-suggest_your_book": "твоꙗ кънига",
 	"coll-suggest_undo": "отъмѣтаниѥ",
-	"coll-print_export": "пєчать или поѩтиѥ",
+	"coll-print_export": "пєчать/поѩтиѥ",
 	"coll-create_a_book": "сътворєниѥ кънигъ",
 	"coll-book_creator": "сътворѥниѥ кънигъ",
 	"coll-download_as": "поѩтиѥ ꙗко $1",
