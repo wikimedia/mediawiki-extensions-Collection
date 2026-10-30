@@ -22,9 +22,9 @@
 		]
 	},
 	"coll-desc": "[[Special:Book|Crea llibres]]",
-	"coll-book_creator_intro": "<big>Amb el ''mode llibre'', podeu crear un llibre format per les pàgines wiki que volgueu. Podeu exportar-lo en diferents formats (per exemple PDF o ODF) o  demanar una còpia impresa.</big>",
+	"coll-book_creator_intro": "<big>Amb el ''creador de llibres'', podeu crear un llibre format per les pàgines wiki que vulgueu. Podeu exportar-lo en diferents formats (per exemple PDF o ODF) o  demanar-ne una còpia impresa.</big>",
 	"coll-manage_your_book": "Gestioneu la vostra biblioteca",
-	"coll-book_creator_help": "Veure [[{{MediaWiki:Coll-helppage}}|la pàgina d'ajuda sobre els llibres]] per més informació.",
+	"coll-book_creator_help": "Vegeu [[{{MediaWiki:Coll-helppage}}|la pàgina d'ajuda sobre els llibres]] per a més informació.",
 	"coll-start_book_creator": "Inicia el creador de llibres",
 	"coll-book_creator_continue": "Continua utilitzant el creador de llibres",
 	"coll-book_creator_disable_text": "Es desactivarà el ''creador de llibres'' i s'esborrarà el llibre en el que esteu treballant",
