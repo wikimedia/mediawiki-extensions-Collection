@@ -73,7 +73,7 @@
 	"coll-rendering_finished_text": "<strong>لاسوند دوتنه رامنځته شوه.</strong>\nخپل کمپيوټر ته مو <strong>[$1 دوتنه راکښته کړئ]</strong>.",
 	"coll-rendering_finished_notes_heading": "يادښتونه:",
 	"coll-rendering_finished_note_not_satisfied": "د زېږندې نه يې خوښ نه ياست؟ د ښه‌کولو شونتياوو لپاره  [[{{MediaWiki:Coll-helppage}}|د کتابونو لارښود مخ]] وگورئ.",
-	"coll-rendering_finished_note_article_rdf2latex": "وس‌مهال ځينې لاسوندونه لښتيالونه نه لري. يو بديل ښايي دا وي چې $1 وکاروئ، د ښوونگر غوره‌نۍ کې \"چاپول\" غوره‌کړئ او \"د پي‌ډي‌اېف په توگه خوندي‌کول\" خوښنه وکاروئ.",
+	"coll-rendering_finished_note_article_rdf2latex": "وس‌مهال ځينې لاسوندونه لښتيالونه نه لري. يو بديل ښايي دا وي چې \"{{int:printableversion}}\" وکاروئ يا د ښوونگر غوره‌نۍ کې \"چاپول\" غوره‌کړئ او \"د پي‌ډي‌اېف په توگه خوندي‌کول\" خوښنه وکاروئ.",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/وړاندې‌کولو مخ مالومات ليک",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/وړاندې‌کولو ټولگې مالومات ليک",
 	"coll-rendering_failed_title": "وړاندې‌کول نابرياله شول",

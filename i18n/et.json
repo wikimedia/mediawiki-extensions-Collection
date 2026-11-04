@@ -69,7 +69,7 @@
 	"coll-rendering_finished_text": "<strong>Dokumendifail on koostatud.</strong>\n<strong>[$1 Laadi fail alla]</strong> oma arvutisse.",
 	"coll-rendering_finished_notes_heading": "Märkused:",
 	"coll-rendering_finished_note_not_satisfied": "Kas sa pole väljastatuga rahul? Võimalikke lahendusi võid leida [[{{MediaWiki:Coll-helppage}}|raamatute abilehelt]].",
-	"coll-rendering_finished_note_article_rdf2latex": "Praegu ei sisalda mõned dokumendid tabeleid. Teine võimalus on kasutada lehekülge \"$1\", valida brauseri menüüst \"Prindi\" ja kasutada valikut \"Salvesta PDF-ina\".",
+	"coll-rendering_finished_note_article_rdf2latex": "Praegu ei sisalda mõned dokumendid tabeleid. Teine võimalus on kasutada lehekülge \"{{int:printableversion}}\" või valida brauseri menüüst \"Prindi\" ja kasutada valikut \"Salvesta PDF-ina\".",
 	"coll-rendering_failed_title": "Küljendamine ebaõnnestus",
 	"coll-rendering_failed_text": "<strong>Dokumendifaili genereerimine ebaõnnestus.</strong>\n\n<p><span id=\"renderingStatus\">$1</span></p>",
 	"coll-rendering_failed_status": "<strong>Olek:</strong> $1",
