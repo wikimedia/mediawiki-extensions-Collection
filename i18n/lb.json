@@ -117,7 +117,7 @@
 	"coll-load_local_book": "Klickt op „OK“ fir mat Ärem Buch $1 weiderzefueren, dat {{PLURAL:$2|eng Wikisäit|$2 Wikisäiten}} huet. Klickt op „Cancel“ fir et ze läschen a mat engem eidele Buch unzefänken.",
 	"coll-format-rl": "E-Book (PDF, mwlib-Renderer)",
 	"coll-format-odf": "Textveraarbechtung (OpenDocument)",
-	"coll-format-rdf2latex": "e-Book (PDF, OCG-Latex-Renderer)",
+	"coll-format-rdf2latex": "E-Book (PDF, OCG-Latex-Renderer)",
 	"coll-format-rdf2text": "Textveraarbechtung (Kloertext)",
 	"action-collectionsaveasuserpage": "Bicher als Benotzersäit ze späicheren",
 	"right-collectionsaveasuserpage": "Bicher als Benotzersäit späicheren",
