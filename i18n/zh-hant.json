@@ -16,7 +16,8 @@
 			"Willy1018",
 			"Winston Sung",
 			"Wmr",
-			"Xiaomingyan"
+			"Xiaomingyan",
+			"LowensteinYang"
 		]
 	},
 	"coll-desc": "[[Special:Book|建立書籍]]",
@@ -84,7 +85,7 @@
 	"coll-rendering_finished_text": "<strong>文件已產生。</strong>\n<strong>[$1 下載此文件]</strong>至您的電腦。",
 	"coll-rendering_finished_notes_heading": "註釋：",
 	"coll-rendering_finished_note_not_satisfied": "對輸出內容不滿意嗎？查看[[{{MediaWiki:Coll-helppage}}|關於書籍的幫助頁面]]來找出改善內容的可能方法。",
-	"coll-rendering_finished_note_article_rdf2latex": "目前一些文件裡不包含表格。可試著改用$1，在瀏覽器選單選擇「列印」，然後使用「另存成 PDF」選項。",
+	"coll-rendering_finished_note_article_rdf2latex": "目前一些文件裡不包含表格。可試著改用「{{int:printableversion}}」、或在瀏覽器選單中選擇「列印」再使用選項「另存成 PDF」。",
 	"coll-finished_page_info_text_article": "{{MediaWiki:Coll-helppage}}/呈現頁面資訊文字",
 	"coll-finished_collection_info_text_article": "{{MediaWiki:Coll-helppage}}/呈現集合資訊文字",
 	"coll-rendering_failed_title": "呈現失敗",
