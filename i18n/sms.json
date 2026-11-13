@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Miilehti",
 			"Yupik"
 		]
 	},
@@ -40,6 +41,7 @@
 	"coll-suggest_show": "čuäʹjet",
 	"coll-suggest_undo": "kååʹmet",
 	"coll-format-epub": "digiǩeʹrjj (EPUB)",
+	"coll-print_export": "Priʹntte/viiǥǥ",
 	"coll-create_a_book": "Raaj ǩeeʹrj",
 	"coll-download_as": "Laadd $1-teâttõssân",
 	"coll-bookscategory": "Ǩeeʹrj",
