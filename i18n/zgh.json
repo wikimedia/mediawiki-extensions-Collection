@@ -7,15 +7,22 @@
 			"Hakim1bal",
 			"Mdb897",
 			"YesIn",
-			"ⵕⴰⵊⵉ"
+			"ⵕⴰⵊⵉ",
+			"Daoudsfouli"
 		]
 	},
 	"coll-remove": "ⵙⵉⵜⵜⵢ",
 	"coll-show": "ⵙⵙⵓⵎⴰⵏ",
 	"coll-move_up": "ⵙⵙⵖⵍⵉ",
 	"coll-move_down": "ⵙⵙⴰⴽⵯⵉ",
+	"coll-save_collection_title": "ⵙⴽⵍⵙ ⵜⴷⵔⵓⴷ ⴰⴷⵍⵉⵙ ⵏⵏⴽ",
+	"coll-save_collection": "ⵙⴽⵍⵙ ⴰⴷⵍⵉⵙ",
 	"coll-yes": "ⵢⴰⵀ",
 	"coll-no": "ⵓⵀⵓ",
+	"action-collectionsaveasuserpage": "ⵙⴽⵍⵙ ⵉⴷⵍⵉⵙⵏ ⴰⵎ ⵜⵙⵏⴰ ⵏ ⵓⵏⵙⵎⵔⴰⵙ",
+	"right-collectionsaveasuserpage": "ⵙⴽⵍⵙ ⵉⴷⵍⵉⵙⵏ ⴰⵎ ⵜⵙⵏⴰ ⵏ ⵓⵏⵙⵎⵔⴰⵙ",
+	"action-collectionsaveascommunitypage": "ⵙⴽⵍⵙ ⵉⴷⵍⵉⵙⵏ ⴰⵎ ⵜⵙⵏⴰ ⵏ ⵡⴰⵎⵓⵏ",
+	"right-collectionsaveascommunitypage": "ⵙⴽⵍⵙ ⵉⴷⵍⵉⵙⵏ ⴰⵎ ⵜⵙⵏⴰ ⵏ ⵡⴰⵎⵓⵏ",
 	"coll-print_export": "ⴰⵙⵉⴳⴳⵣ/ⴰⵙⵉⴼⴹ",
 	"coll-create_a_book": "ⵙⵏⵓⵍⴼⵓ ⴽⵔⴰ ⵏ ⵓⴷⵍⵉⵙ",
 	"coll-book_creator": "ⴰⵎⵙⵏⵓⵍⴼⵓ ⵏ ⵓⴷⵍⵉⵙ",
